@@ -1,0 +1,51 @@
+PREFIX narr: <https://aswritten.ai/ns/narrative#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX sb: <http://storytwin.com/ontology#>
+
+INSERT DATA {
+  narr:Tx_E2E_TeamVision a prov:Activity ;
+    prov:generatedAtTime "2026-03-10T10:00:00.000Z"^^xsd:dateTime ;
+    sb:originPath ".aswritten/memories/2026-03-10-tanya-product-vision.md" ;
+    sb:originRef "refs/heads/main" ;
+    prov:used <anthropic/claude-sonnet-4.5> .
+
+narr:Actor_TanyaOwner a narr:Actor ;
+    dct:title "Tanya Owner" ;
+    narr:role "CEO, Teamwork Inc" ;
+    skos:note "Co-founder and CEO. Product vision and go-to-market." ;
+    prov:wasGeneratedBy narr:Tx_E2E_TeamVision .
+
+narr:Actor_TinaTeammate a narr:Actor ;
+    dct:title "Tina Teammate" ;
+    narr:role "Head of Product, Teamwork Inc" ;
+    skos:note "Co-founder. Product design and decision capture methodology." ;
+    prov:wasGeneratedBy narr:Tx_E2E_TeamVision .
+
+narr:Decision_AntiSlack a narr:Decision ;
+    dct:title "Anti-Slack: Structured Async Decisions" ;
+    skos:broader narr:Strategy ;
+    narr:conviction "decision" ;
+    narr:attributedTo narr:Actor_TanyaOwner ;
+    skos:note "Tanya: 'We're building the anti-Slack. Instead of real-time noise, we want structured async decisions.'" ;
+    prov:wasGeneratedBy narr:Tx_E2E_TeamVision .
+
+narr:Decision_DecisionCapture a narr:Decision ;
+    dct:title "Decision Capture at Point of Consensus" ;
+    skos:broader narr:Strategy ;
+    narr:conviction "decision" ;
+    narr:attributedTo narr:Actor_TinaTeammate ;
+    skos:note "Tina: 'Decisions made in Slack disappear into scroll-back. We capture the decision at the moment it's made.'" ;
+    prov:wasGeneratedBy narr:Tx_E2E_TeamVision .
+
+narr:Decision_TeamPricing a narr:Decision ;
+    dct:title "Pricing: $12/user/month" ;
+    skos:broader narr:Strategy ;
+    narr:conviction "decision" ;
+    narr:attributedTo narr:Actor_TanyaOwner ;
+    skos:note "Target market: remote teams with 10-50 people. $12/user/month." ;
+    prov:wasGeneratedBy narr:Tx_E2E_TeamVision .
+
+}
