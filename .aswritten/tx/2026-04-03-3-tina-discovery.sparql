@@ -1,0 +1,263 @@
+PREFIX narr: <https://aswritten.ai/narrative#>
+PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX dct:  <http://purl.org/dc/terms/>
+PREFIX xsd:  <http://www.w3.org/2001/XMLSchema#>
+PREFIX oa:   <http://www.w3.org/ns/oa#>
+
+# ── Transaction provenance (default graph) ──────────────────────────────────
+INSERT DATA {
+  narr:Tx_20260315T130000Z a prov:Activity ;
+    dct:title "Customer Discovery: Decision Fatigue — selector repair and style observations" ;
+    prov:generatedAtTime "2026-03-15T13:00:00Z"^^xsd:dateTime ;
+    prov:wasAssociatedWith "aswritten.ai" ;
+    prov:wasAttributedTo "n8n.aswritten.ai" ;
+    narr:originPath "customer-discovery-decision-fatigue-2026-03-15.md" ;
+    narr:originRef "unknown" ;
+    prov:generated
+      narr:Obs_Lead1_NotionFails,
+      narr:Obs_Lead3_MeetingCost,
+      narr:Obs_Lead5_ContextGone,
+      narr:Obs_TinaPatternSummary,
+      narr:Obs_TinaSynthesis,
+      narr:StyleObs_Antithesis_DecisionsEvaporate,
+      narr:StyleObs_ToneDirectPersonal_Quotes,
+      narr:StyleObs_ShortPunchyCadence_NobodyUpdates .
+} ;
+
+# ── UPDATE: Obs_Lead1_NotionFails — replace malformed selector ───────────────
+DELETE {
+  GRAPH ?g {
+    narr:Obs_Lead1_NotionFails oa:hasSelector ?sel .
+  }
+}
+INSERT {
+  GRAPH narr:Tx_20260315T130000Z {
+    narr:Obs_Lead1_NotionFails
+      a narr:Observation ;
+      skos:broader narr:FrictionFailure ;
+      dct:source narr:Sample_CustomerDiscovery_DecisionFatigue_20260315 ;
+      skos:note "Lead 1 describes the Notion failure pattern: decision happens in Slack, the dedicated log stays empty. Validates tool fatigue claim." ;
+      oa:hasSelector [
+        a oa:TextPositionSelector ;
+        oa:start 684 ;
+        oa:end 800
+      ] ;
+      oa:hasSelector [
+        a oa:TextQuoteSelector ;
+        oa:exact "We tried Notion for decision logs. Nobody updates it. The decision happens in Slack and the Notion page stays empty." ;
+        oa:prefix "Lead 1 (fintech, 22 people): \"" ;
+        oa:suffix "\"\n\nLead 3"
+      ] .
+  }
+}
+WHERE {
+  GRAPH ?g {
+    narr:Obs_Lead1_NotionFails oa:hasSelector ?sel .
+  }
+} ;
+
+# ── UPDATE: Obs_Lead3_MeetingCost — replace malformed selector ───────────────
+DELETE {
+  GRAPH ?g {
+    narr:Obs_Lead3_MeetingCost oa:hasSelector ?sel .
+  }
+}
+INSERT {
+  GRAPH narr:Tx_20260315T130000Z {
+    narr:Obs_Lead3_MeetingCost
+      a narr:Observation ;
+      skos:broader narr:FrictionFailure ;
+      dct:source narr:Sample_CustomerDiscovery_DecisionFatigue_20260315 ;
+      skos:note "Lead 3 quantifies the meeting tax: 4 hours/week, $12,000/month in wasted engineering time due to re-establishing past decisions." ;
+      oa:hasSelector [
+        a oa:TextPositionSelector ;
+        oa:start 835 ;
+        oa:end 999
+      ] ;
+      oa:hasSelector [
+        a oa:TextQuoteSelector ;
+        oa:exact "I spend probably 4 hours a week in meetings that exist only because someone could not find a previous decision." ;
+        oa:prefix "Lead 3 (healthtech, 38 people): \"" ;
+        oa:suffix " That is $12,000 a month"
+      ] .
+  }
+}
+WHERE {
+  GRAPH ?g {
+    narr:Obs_Lead3_MeetingCost oa:hasSelector ?sel .
+  }
+} ;
+
+# ── UPDATE: Obs_Lead5_ContextGone — replace malformed selector ───────────────
+DELETE {
+  GRAPH ?g {
+    narr:Obs_Lead5_ContextGone oa:hasSelector ?sel .
+  }
+}
+INSERT {
+  GRAPH narr:Tx_20260315T130000Z {
+    narr:Obs_Lead5_ContextGone
+      a narr:Observation ;
+      skos:broader narr:FrictionFailure ;
+      dct:source narr:Sample_CustomerDiscovery_DecisionFatigue_20260315 ;
+      skos:note "Lead 5 identifies context loss as the deeper failure: finding the decision record is insufficient if the reasoning is absent, causing re-debate anyway." ;
+      oa:hasSelector [
+        a oa:TextPositionSelector ;
+        oa:start 1031 ;
+        oa:end 1190
+      ] ;
+      oa:hasSelector [
+        a oa:TextQuoteSelector ;
+        oa:exact "The worst part is when you DO find the old decision but the context is gone. You see the conclusion but not the reasoning, so you end up re-debating it anyway." ;
+        oa:prefix "Lead 5 (devtools, 15 people): \"" ;
+        oa:suffix "\"\n\n### Patterns"
+      ] .
+  }
+}
+WHERE {
+  GRAPH ?g {
+    narr:Obs_Lead5_ContextGone oa:hasSelector ?sel .
+  }
+} ;
+
+# ── UPDATE: Obs_TinaPatternSummary — replace malformed selector ──────────────
+DELETE {
+  GRAPH ?g {
+    narr:Obs_TinaPatternSummary oa:hasSelector ?sel .
+  }
+}
+INSERT {
+  GRAPH narr:Tx_20260315T130000Z {
+    narr:Obs_TinaPatternSummary
+      a narr:Observation ;
+      skos:broader narr:FrictionFailure ;
+      dct:source narr:Sample_CustomerDiscovery_DecisionFatigue_20260315 ;
+      skos:note "Tina summarizes the universal pattern across all five interviewees: decision made in thread, re-questioned weeks later, thread unfindable." ;
+      oa:hasSelector [
+        a oa:TextPositionSelector ;
+        oa:start 430 ;
+        oa:end 623
+      ] ;
+      oa:hasSelector [
+        a oa:TextQuoteSelector ;
+        oa:exact "Every single one of them said some version of the same thing — they make a decision in a thread, three weeks later someone asks the same question" ;
+        oa:prefix "Tina: \"" ;
+        oa:suffix ", and nobody can find the thread where they decided.\""
+      ] .
+  }
+}
+WHERE {
+  GRAPH ?g {
+    narr:Obs_TinaPatternSummary oa:hasSelector ?sel .
+  }
+} ;
+
+# ── UPDATE: Obs_TinaSynthesis — replace malformed selector ───────────────────
+DELETE {
+  GRAPH ?g {
+    narr:Obs_TinaSynthesis oa:hasSelector ?sel .
+  }
+}
+INSERT {
+  GRAPH narr:Tx_20260315T130000Z {
+    narr:Obs_TinaSynthesis
+      a narr:Observation ;
+      skos:broader narr:PositioningThesis ;
+      dct:source narr:Sample_CustomerDiscovery_DecisionFatigue_20260315 ;
+      skos:note "Tina's closing synthesis frames the product positioning: zero-effort capture at the point of decision, not a separate documentation step. Validates anti-Slack thesis." ;
+      oa:hasSelector [
+        a oa:TextPositionSelector ;
+        oa:start 1412 ;
+        oa:end 1612
+      ] ;
+      oa:hasSelector [
+        a oa:TextQuoteSelector ;
+        oa:exact "This validates our anti-Slack thesis. The problem is not that teams cannot make decisions — they make them constantly. The problem is that decisions evaporate." ;
+        oa:prefix "Tina: \"" ;
+        oa:suffix " Our capture mechanism needs to be zero-effort"
+      ] .
+  }
+}
+WHERE {
+  GRAPH ?g {
+    narr:Obs_TinaSynthesis oa:hasSelector ?sel .
+  }
+} ;
+
+# ── INSERT: StyleObservations (minimum 3 required) ───────────────────────────
+INSERT DATA {
+  GRAPH narr:Tx_20260315T130000Z {
+
+    # StyleObs 1: Antithesis — "The problem is not X — the problem is Y"
+    narr:StyleObs_Antithesis_DecisionsEvaporate
+      a narr:StyleObservation ;
+      skos:broader narr:Antithesis ;
+      dct:source narr:Sample_CustomerDiscovery_DecisionFatigue_20260315 ;
+      skos:note "Tina uses antithesis to reframe the problem: not decision-making capacity but decision persistence. Classic rhetorical contrast structure." ;
+      rdf:value true ;
+      oa:hasTarget [
+        a oa:SpecificResource ;
+        oa:hasSource narr:Sample_CustomerDiscovery_DecisionFatigue_20260315 ;
+        oa:hasSelector [
+          a oa:TextPositionSelector ;
+          oa:start 1450 ;
+          oa:end 1580
+        ] ;
+        oa:hasSelector [
+          a oa:TextQuoteSelector ;
+          oa:exact "The problem is not that teams cannot make decisions — they make them constantly. The problem is that decisions evaporate." ;
+          oa:prefix "anti-Slack thesis. " ;
+          oa:suffix " Our capture mechanism"
+        ]
+      ] .
+
+    # StyleObs 2: ToneDirectPersonal — first-person direct quotes throughout
+    narr:StyleObs_ToneDirectPersonal_Quotes
+      a narr:StyleObservation ;
+      skos:broader narr:ToneDirectPersonal ;
+      dct:source narr:Sample_CustomerDiscovery_DecisionFatigue_20260315 ;
+      skos:note "Document voice is built almost entirely from direct first-person quotes from interviewees, lending immediacy and credibility. Interviewer synthesis is minimal and framing-only." ;
+      rdf:value true ;
+      oa:hasTarget [
+        a oa:SpecificResource ;
+        oa:hasSource narr:Sample_CustomerDiscovery_DecisionFatigue_20260315 ;
+        oa:hasSelector [
+          a oa:TextPositionSelector ;
+          oa:start 684 ;
+          oa:end 800
+        ] ;
+        oa:hasSelector [
+          a oa:TextQuoteSelector ;
+          oa:exact "We tried Notion for decision logs. Nobody updates it. The decision happens in Slack and the Notion page stays empty." ;
+          oa:prefix "Lead 1 (fintech, 22 people): \"" ;
+          oa:suffix "\""
+        ]
+      ] .
+
+    # StyleObs 3: ShortPunchyCadence — "Nobody updates it." / "decisions evaporate"
+    narr:StyleObs_ShortPunchyCadence_NobodyUpdates
+      a narr:StyleObservation ;
+      skos:broader narr:ShortPunchyCadence ;
+      dct:source narr:Sample_CustomerDiscovery_DecisionFatigue_20260315 ;
+      skos:note "Short declarative sentences punctuate longer quoted passages for rhetorical impact. 'Nobody updates it.' and 'decisions evaporate' are the sharpest examples of this cadence pattern." ;
+      rdf:value true ;
+      oa:hasTarget [
+        a oa:SpecificResource ;
+        oa:hasSource narr:Sample_CustomerDiscovery_DecisionFatigue_20260315 ;
+        oa:hasSelector [
+          a oa:TextPositionSelector ;
+          oa:start 718 ;
+          oa:end 736
+        ] ;
+        oa:hasSelector [
+          a oa:TextQuoteSelector ;
+          oa:exact "Nobody updates it." ;
+          oa:prefix "decision logs. " ;
+          oa:suffix " The decision happens"
+        ]
+      ] .
+
+  }
+}

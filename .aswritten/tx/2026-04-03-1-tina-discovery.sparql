@@ -1,0 +1,318 @@
+PREFIX narr: <https://aswritten.ai/narrative#>
+PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX dct:  <http://purl.org/dc/terms/>
+PREFIX xsd:  <http://www.w3.org/2001/XMLSchema#>
+PREFIX oa:   <http://www.w3.org/ns/oa#>
+
+# ── Transaction provenance (default graph) ──────────────────────
+INSERT DATA {
+  narr:Tx_20260315T120000Z a prov:Activity ;
+    dct:title "Customer Discovery: Decision Fatigue in Remote Teams" ;
+    prov:generatedAtTime "2026-03-15T12:00:00Z"^^xsd:dateTime ;
+    prov:wasAssociatedWith "aswritten.ai" ;
+    prov:wasAttributedTo "n8n.aswritten.ai" ;
+    narr:originPath "customer-discovery-decision-fatigue-2026-03-15.md" ;
+    narr:originRef "unknown" ;
+    prov:generated
+      narr:Sample_CustomerDiscovery_DecisionFatigue_20260315,
+      narr:Actor_TinaTeammate,
+      narr:Actor_Lead1_Fintech,
+      narr:Actor_Lead3_Healthtech,
+      narr:Actor_Lead5_Devtools,
+      narr:Narrative_DecisionsEvaporate,
+      narr:Narrative_ZeroEffortCapture,
+      narr:Claim_DecisionDiscoveryPain,
+      narr:Claim_ContextLossPattern,
+      narr:Claim_ToolFatigue,
+      narr:Claim_MeetingTax,
+      narr:Claim_AntiSlackThesis,
+      narr:Obs_TinaPatternSummary,
+      narr:Obs_Lead1_NotionFails,
+      narr:Obs_Lead3_MeetingCost,
+      narr:Obs_Lead5_ContextGone,
+      narr:Obs_TinaSynthesis,
+      narr:StyleObs_DirectQuoteVoice,
+      narr:StyleObs_DataAnchoredClaims,
+      narr:StyleObs_AntiThesisRhetoric,
+      narr:StyleObs_BulletPatternStructure,
+      narr:StyleMetrics_DecisionFatigue .
+} ;
+
+# ── Extracted entities (named graph) ────────────────────────────
+INSERT DATA {
+  GRAPH narr:Tx_20260315T120000Z {
+
+    # ── Sample ──────────────────────────────────────────────────
+    narr:Sample_CustomerDiscovery_DecisionFatigue_20260315
+      a narr:Sample ;
+      dct:title "Customer Discovery: Decision Fatigue in Remote Teams" ;
+      dct:created "2026-03-15"^^xsd:date ;
+      narr:inputLength 1612 ;
+      skos:note "Interview notes from 5 remote team leads (Series A-B, 15-40 people) conducted by Tina Teammate, Head of Product. Focus: decision evaporation in Slack-based teams." .
+
+    # ── Actors ──────────────────────────────────────────────────
+    narr:Actor_TinaTeammate
+      a narr:Actor ;
+      skos:prefLabel "Tina Teammate" ;
+      skos:note "Head of Product; interviewer for customer discovery session on decision fatigue in remote teams." .
+
+    narr:Actor_Lead1_Fintech
+      a narr:Actor ;
+      skos:prefLabel "Lead 1 (fintech, 22 people)" ;
+      skos:note "Remote team lead at a fintech startup with 22 people; Series A-B stage. Interviewee in decision fatigue discovery session." .
+
+    narr:Actor_Lead3_Healthtech
+      a narr:Actor ;
+      skos:prefLabel "Lead 3 (healthtech, 38 people)" ;
+      skos:note "Remote team lead at a healthtech startup with 38 people; Series A-B stage. Quantified meeting waste at $12,000/month in engineering time." .
+
+    narr:Actor_Lead5_Devtools
+      a narr:Actor ;
+      skos:prefLabel "Lead 5 (devtools, 15 people)" ;
+      skos:note "Remote team lead at a devtools startup with 15 people; Series A-B stage. Identified context loss as the core failure mode even when decisions are found." .
+
+    # ── Narratives ──────────────────────────────────────────────
+    narr:Narrative_DecisionsEvaporate
+      a narr:Narrative ;
+      dct:source narr:Sample_CustomerDiscovery_DecisionFatigue_20260315 ;
+      narr:theme "Decisions evaporate in Slack-based teams" ;
+      skos:broader narr:FrictionFailure ;
+      skos:note "The core pattern across all five interviewees: decisions are made in Slack threads but cannot be retrieved later, causing repeated re-litigation. The problem is not decision-making capacity but decision persistence." .
+
+    narr:Narrative_ZeroEffortCapture
+      a narr:Narrative ;
+      dct:source narr:Sample_CustomerDiscovery_DecisionFatigue_20260315 ;
+      narr:theme "Capture must be zero-effort at the point of decision" ;
+      skos:broader narr:PositioningThesis ;
+      skos:note "Tina's synthesis: the product's capture mechanism must be embedded at the moment of decision, not require a separate documentation step. This is the anti-Slack thesis validated by the interviews." .
+
+    # ── Claims ──────────────────────────────────────────────────
+    narr:Claim_DecisionDiscoveryPain
+      a narr:Claim ;
+      narr:aboutNode narr:FrictionFailure ;
+      narr:hasConvictionLevel narr:Conviction_Foundation ;
+      narr:supports narr:Narrative_DecisionsEvaporate ;
+      dct:source narr:Sample_CustomerDiscovery_DecisionFatigue_20260315 ;
+      skos:note "100% of interviewees (5/5) said finding past decisions is their #1 collaboration pain point." .
+
+    narr:Claim_ContextLossPattern
+      a narr:Claim ;
+      narr:aboutNode narr:FrictionFailure ;
+      narr:hasConvictionLevel narr:Conviction_Boulder ;
+      narr:supports narr:Narrative_DecisionsEvaporate ;
+      dct:source narr:Sample_CustomerDiscovery_DecisionFatigue_20260315 ;
+      skos:note "4 out of 5 leads said that even when decisions are documented, the reasoning behind them is lost — making retrieval insufficient without context." .
+
+    narr:Claim_ToolFatigue
+      a narr:Claim ;
+      narr:aboutNode narr:FrictionFailure ;
+      narr:hasConvictionLevel narr:Conviction_Boulder ;
+      narr:supports narr:Narrative_ZeroEffortCapture ;
+      dct:source narr:Sample_CustomerDiscovery_DecisionFatigue_20260315 ;
+      skos:note "3 out of 5 leads have tried and abandoned a dedicated decision-tracking tool (Notion, Confluence, custom wikis). Separate documentation steps fail." .
+
+    narr:Claim_MeetingTax
+      a narr:Claim ;
+      narr:aboutNode narr:FrictionFailure ;
+      narr:hasConvictionLevel narr:Conviction_Boulder ;
+      narr:supports narr:Narrative_DecisionsEvaporate ;
+      dct:source narr:Sample_CustomerDiscovery_DecisionFatigue_20260315 ;
+      skos:note "Average 3-5 hours/week per lead spent in meetings that exist solely to re-establish previously made decisions. Lead 3 quantified this as $12,000/month in wasted engineering time." .
+
+    narr:Claim_AntiSlackThesis
+      a narr:Claim ;
+      narr:aboutNode narr:PositioningThesis ;
+      narr:hasConvictionLevel narr:Conviction_Foundation ;
+      narr:supports narr:Narrative_ZeroEffortCapture ;
+      dct:source narr:Sample_CustomerDiscovery_DecisionFatigue_20260315 ;
+      skos:note "Tina asserts the discovery validates the anti-Slack thesis: teams can make decisions but decisions evaporate. The solution requires zero-effort capture at the point of decision, not a separate documentation step." .
+
+    # ── Observations ────────────────────────────────────────────
+    narr:Obs_TinaPatternSummary
+      a narr:Observation ;
+      skos:broader narr:FrictionFailure ;
+      dct:source narr:Sample_CustomerDiscovery_DecisionFatigue_20260315 ;
+      skos:note "Tina summarizes the universal pattern across all five interviewees: decision made in thread, re-questioned weeks later, thread unfindable." ;
+      oa:hasSelector [
+        a oa:TextPositionSelector ;
+        oa:start 340 ;
+        oa:end 530
+      ] ;
+      oa:hasSelector [
+        a oa:TextQuoteSelector ;
+        oa:exact "Every single one of them said some version of the same thing — they make a decision in a thread, three weeks later someone asks the same question, and nobody can find the thread where they decided." ;
+        oa:prefix "Tina: \"" ;
+        oa:suffix "\""
+      ] .
+
+    narr:Obs_Lead1_NotionFails
+      a narr:Observation ;
+      skos:broader narr:FrictionFailure ;
+      dct:source narr:Sample_CustomerDiscovery_DecisionFatigue_20260315 ;
+      skos:note "Lead 1 describes the Notion failure pattern: decision happens in Slack, the dedicated log stays empty. Validates tool fatigue claim." ;
+      oa:hasSelector [
+        a oa:TextPositionSelector ;
+        oa:start 555 ;
+        oa:end 670
+      ] ;
+      oa:hasSelector [
+        a oa:TextQuoteSelector ;
+        oa:exact "We tried Notion for decision logs. Nobody updates it. The decision happens in Slack and the Notion page stays empty." ;
+        oa:prefix "Lead 1 (fintech, 22 people): \"" ;
+        oa:suffix "\""
+      ] .
+
+    narr:Obs_Lead3_MeetingCost
+      a narr:Observation ;
+      skos:broader narr:FrictionFailure ;
+      dct:source narr:Sample_CustomerDiscovery_DecisionFatigue_20260315 ;
+      skos:note "Lead 3 quantifies the meeting tax: 4 hours/week, $12,000/month in wasted engineering time due to re-establishing past decisions." ;
+      oa:hasSelector [
+        a oa:TextPositionSelector ;
+        oa:start 690 ;
+        oa:end 840
+      ] ;
+      oa:hasSelector [
+        a oa:TextQuoteSelector ;
+        oa:exact "I spend probably 4 hours a week in meetings that exist only because someone could not find a previous decision. That is $12,000 a month in wasted engineering time." ;
+        oa:prefix "Lead 3 (healthtech, 38 people): \"" ;
+        oa:suffix "\""
+      ] .
+
+    narr:Obs_Lead5_ContextGone
+      a narr:Observation ;
+      skos:broader narr:FrictionFailure ;
+      dct:source narr:Sample_CustomerDiscovery_DecisionFatigue_20260315 ;
+      skos:note "Lead 5 identifies context loss as the deeper failure: finding the decision record is insufficient if the reasoning is absent, causing re-debate anyway." ;
+      oa:hasSelector [
+        a oa:TextPositionSelector ;
+        oa:start 850 ;
+        oa:end 1000
+      ] ;
+      oa:hasSelector [
+        a oa:TextQuoteSelector ;
+        oa:exact "The worst part is when you DO find the old decision but the context is gone. You see the conclusion but not the reasoning, so you end up re-debating it anyway." ;
+        oa:prefix "Lead 5 (devtools, 15 people): \"" ;
+        oa:suffix "\""
+      ] .
+
+    narr:Obs_TinaSynthesis
+      a narr:Observation ;
+      skos:broader narr:PositioningThesis ;
+      dct:source narr:Sample_CustomerDiscovery_DecisionFatigue_20260315 ;
+      skos:note "Tina's closing synthesis frames the product positioning: zero-effort capture at the point of decision, not a separate documentation step. Validates anti-Slack thesis." ;
+      oa:hasSelector [
+        a oa:TextPositionSelector ;
+        oa:start 1270 ;
+        oa:end 1530
+      ] ;
+      oa:hasSelector [
+        a oa:TextQuoteSelector ;
+        oa:exact "The problem is not that teams cannot make decisions — they make them constantly. The problem is that decisions evaporate. Our capture mechanism needs to be zero-effort at the point of decision, not a separate documentation step." ;
+        oa:prefix "This validates our anti-Slack thesis. " ;
+        oa:suffix ""
+      ] .
+
+    # ── Style Observations ──────────────────────────────────────
+    narr:StyleObs_DirectQuoteVoice
+      a narr:StyleObservation ;
+      skos:broader narr:ToneDirectPersonal ;
+      dct:source narr:Sample_CustomerDiscovery_DecisionFatigue_20260315 ;
+      skos:note "Document uses direct first-person quotes from interviewees without paraphrase, creating an authoritative, evidence-first voice." ;
+      rdf:value true ;
+      oa:hasTarget [
+        a oa:SpecificResource ;
+        oa:hasSource narr:Sample_CustomerDiscovery_DecisionFatigue_20260315 ;
+        oa:hasSelector [
+          a oa:TextPositionSelector ;
+          oa:start 555 ;
+          oa:end 670
+        ] ;
+        oa:hasSelector [
+          a oa:TextQuoteSelector ;
+          oa:exact "We tried Notion for decision logs. Nobody updates it. The decision happens in Slack and the Notion page stays empty." ;
+          oa:prefix "Lead 1 (fintech, 22 people): \"" ;
+          oa:suffix "\""
+        ]
+      ] .
+
+    narr:StyleObs_DataAnchoredClaims
+      a narr:StyleObservation ;
+      skos:broader narr:ToneAuthoritative ;
+      dct:source narr:Sample_CustomerDiscovery_DecisionFatigue_20260315 ;
+      skos:note "Pattern bullets anchor qualitative claims with quantitative ratios (100%, 4/5, 3/5) and dollar figures ($12,000/month), establishing an authoritative, data-grounded register." ;
+      rdf:value true ;
+      oa:hasTarget [
+        a oa:SpecificResource ;
+        oa:hasSource narr:Sample_CustomerDiscovery_DecisionFatigue_20260315 ;
+        oa:hasSelector [
+          a oa:TextPositionSelector ;
+          oa:start 1005 ;
+          oa:end 1100
+        ] ;
+        oa:hasSelector [
+          a oa:TextQuoteSelector ;
+          oa:exact "Decision discovery: 100% said finding past decisions is their #1 collaboration pain" ;
+          oa:prefix "- **" ;
+          oa:suffix "\n"
+        ]
+      ] .
+
+    narr:StyleObs_AntiThesisRhetoric
+      a narr:StyleObservation ;
+      skos:broader narr:Antithesis ;
+      dct:source narr:Sample_CustomerDiscovery_DecisionFatigue_20260315 ;
+      skos:note "Tina's synthesis uses antithesis structure: 'The problem is not X — the problem is Y', a rhetorical device that sharpens positioning by explicit negation." ;
+      rdf:value true ;
+      oa:hasTarget [
+        a oa:SpecificResource ;
+        oa:hasSource narr:Sample_CustomerDiscovery_DecisionFatigue_20260315 ;
+        oa:hasSelector [
+          a oa:TextPositionSelector ;
+          oa:start 1310 ;
+          oa:end 1420
+        ] ;
+        oa:hasSelector [
+          a oa:TextQuoteSelector ;
+          oa:exact "The problem is not that teams cannot make decisions — they make them constantly. The problem is that decisions evaporate." ;
+          oa:prefix "This validates our anti-Slack thesis. " ;
+          oa:suffix " Our capture mechanism"
+        ]
+      ] .
+
+    narr:StyleObs_BulletPatternStructure
+      a narr:StyleObservation ;
+      skos:broader narr:GrammarSyntax ;
+      dct:source narr:Sample_CustomerDiscovery_DecisionFatigue_20260315 ;
+      skos:note "Patterns section uses bold-label bullet format (label: quantified claim) to compress multi-interviewee findings into scannable, parallel structure." ;
+      rdf:value true ;
+      oa:hasTarget [
+        a oa:SpecificResource ;
+        oa:hasSource narr:Sample_CustomerDiscovery_DecisionFatigue_20260315 ;
+        oa:hasSelector [
+          a oa:TextPositionSelector ;
+          oa:start 1005 ;
+          oa:end 1265
+        ] ;
+        oa:hasSelector [
+          a oa:TextQuoteSelector ;
+          oa:exact "- **Decision discovery**: 100% said finding past decisions is their #1 collaboration pain" ;
+          oa:prefix "### Patterns\n\n" ;
+          oa:suffix "\n- **Context loss"
+        ]
+      ] .
+
+    # ── Style Metrics ────────────────────────────────────────────
+    narr:StyleMetrics_DecisionFatigue
+      a narr:StyleMetrics ;
+      skos:broader narr:StyleMetrics ;
+      dct:source narr:Sample_CustomerDiscovery_DecisionFatigue_20260315 ;
+      narr:AverageSentenceLength 18 ;
+      narr:ActiveVoiceRatio "0.82"^^xsd:decimal ;
+      narr:JargonDensity "0.08"^^xsd:decimal ;
+      skos:note "Conversational-professional register. High active voice ratio driven by direct quotes. Low jargon density — domain terms (Slack, Notion, Confluence) are product names, not technical jargon. Sentence length varies: short punchy synthesis sentences alternate with longer quoted passages." .
+
+  }
+}

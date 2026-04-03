@@ -1,0 +1,247 @@
+PREFIX narr: <https://aswritten.ai/narrative#>
+PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX dct:  <http://purl.org/dc/terms/>
+PREFIX xsd:  <http://www.w3.org/2001/XMLSchema#>
+PREFIX oa:   <http://www.w3.org/ns/oa#>
+
+# ── Transaction provenance (default graph) ──────────────────────
+INSERT DATA {
+  narr:Tx_20260322T120000Z a prov:Activity ;
+    dct:title "Sprint 4 Retro: Async Decision Widget" ;
+    prov:generatedAtTime "2026-03-22T12:00:00Z"^^xsd:dateTime ;
+    prov:wasAssociatedWith "aswritten.ai" ;
+    prov:wasAttributedTo "n8n.aswritten.ai" ;
+    narr:originPath "sprint-4-retro-async-decision-widget-2026-03-22.md" ;
+    narr:originRef "main" ;
+    prov:generated
+      narr:Sample_Sprint4Retro_20260322,
+      narr:Claim_WebhookArchitecture,
+      narr:Claim_PricingTier25Plus,
+      narr:Claim_ContextPreservationNextSprint,
+      narr:Claim_ZephyrIntegrationUnlock,
+      narr:Claim_Sprint4ThesisProven,
+      narr:Obs_TanyaThesisProven,
+      narr:Obs_TinaVelocity,
+      narr:Obs_ZephyrRateLimitResolved,
+      narr:Obs_DedupResolved,
+      narr:StyleObs_Sprint4_DirectQuote,
+      narr:StyleObs_Sprint4_AntiPattern,
+      narr:StyleObs_Sprint4_MetricAnchor,
+      narr:StyleMetrics_Sprint4Retro .
+} ;
+
+# ── UPDATE 1: narr:Decision_TeamPricing — price changed $12→$15/user for 25+ ──
+DELETE {
+  GRAPH ?g {
+    narr:Decision_TeamPricing skos:note ?oldNote .
+  }
+}
+INSERT {
+  GRAPH narr:Tx_20260322T120000Z {
+    narr:Decision_TeamPricing skos:note "Pricing updated from $12/user to $15/user for teams over 25. Tina: 'The customer discovery showed teams of 25+ have 3x the decision volume. The value scales with team size.'" .
+  }
+}
+WHERE {
+  GRAPH ?g {
+    narr:Decision_TeamPricing skos:note ?oldNote .
+  }
+} ;
+
+# ── UPDATE 2: narr:Actor_TanyaOwner — add required skos:prefLabel (SHACL sh:minCount 1) ──
+DELETE {
+  GRAPH ?g {
+    narr:Actor_TanyaOwner dct:title ?oldTitle .
+  }
+}
+INSERT {
+  GRAPH narr:Tx_20260322T120000Z {
+    narr:Actor_TanyaOwner skos:prefLabel "Tanya Owner" ;
+      skos:note "CEO and co-founder. Confirmed product thesis at Sprint 4 retro: async decision widget intercepts consensus moments in chat threads." .
+  }
+}
+WHERE {
+  GRAPH ?g {
+    narr:Actor_TanyaOwner dct:title ?oldTitle .
+  }
+} ;
+
+# ── INSERT DATA: new entities ────────────────────────────────────
+INSERT DATA {
+  GRAPH narr:Tx_20260322T120000Z {
+
+    # ── Sample ──────────────────────────────────────────────────
+    narr:Sample_Sprint4Retro_20260322
+      a narr:Sample ;
+      dct:title "Sprint 4 Retro: Async Decision Widget" ;
+      dct:created "2026-03-22"^^xsd:date ;
+      skos:note "Sprint retrospective for the async decision widget feature. Participants: Tanya Owner (CEO), Tina Teammate (Head of Product), Dev Team. Covers shipped feature, key decisions, and blockers resolved." ;
+      narr:inputLength 1612 .
+
+    # ── Claim: Webhook architecture over polling ─────────────────
+    narr:Claim_WebhookArchitecture
+      a narr:Claim ;
+      dct:source narr:Sample_Sprint4Retro_20260322 ;
+      skos:note "Architecture decision: event-driven capture via webhook, not polling. Tanya: 'Polling would kill us at scale. Webhooks mean we only process actual decisions, not every message.'" ;
+      narr:aboutNode narr:StackOverview ;
+      narr:hasConvictionLevel narr:Conviction_Boulder ;
+      narr:supports narr:Narrative_ZeroEffortCapture .
+
+    # ── Claim: Pricing update for 25+ teams ─────────────────────
+    narr:Claim_PricingTier25Plus
+      a narr:Claim ;
+      dct:source narr:Sample_Sprint4Retro_20260322 ;
+      skos:note "Pricing moved from $12/user to $15/user for teams over 25. Justified by 3x decision volume at that team size. Tina: 'The value scales with team size.'" ;
+      narr:aboutNode narr:PackagingEntitlement ;
+      narr:hasConvictionLevel narr:Conviction_Boulder ;
+      narr:supports narr:Narrative_ZeroEffortCapture .
+
+    # ── Claim: Context preservation as next sprint focus ─────────
+    narr:Claim_ContextPreservationNextSprint
+      a narr:Claim ;
+      dct:source narr:Sample_Sprint4Retro_20260322 ;
+      skos:note "Next sprint focus: context preservation — linking decisions to the discussion threads that produced them. Identified as the #1 request from beta users." ;
+      narr:aboutNode narr:FrictionFailure ;
+      narr:hasConvictionLevel narr:Conviction_Foundation ;
+      narr:supports narr:Narrative_DecisionsEvaporate .
+
+    # ── Claim: Zephyr integration as key unlock ──────────────────
+    narr:Claim_ZephyrIntegrationUnlock
+      a narr:Claim ;
+      dct:source narr:Sample_Sprint4Retro_20260322 ;
+      skos:note "Zephyr integration enables embedding decision capture in Slack, Teams, and Discord without separate plugins. Tina identified this as the key unlock for Sprint 4 velocity." ;
+      narr:aboutNode narr:DependenciesIntegrations ;
+      narr:hasConvictionLevel narr:Conviction_Boulder ;
+      narr:supports narr:Narrative_ZeroEffortCapture .
+
+    # ── Claim: Sprint 4 proved the product thesis ────────────────
+    narr:Claim_Sprint4ThesisProven
+      a narr:Claim ;
+      dct:source narr:Sample_Sprint4Retro_20260322 ;
+      skos:note "Tanya: 'This sprint proved the thesis.' The widget intercepts the moment of consensus in any chat thread and creates a persistent decision record with full context, requiring zero extra steps." ;
+      narr:aboutNode narr:PositioningThesis ;
+      narr:hasConvictionLevel narr:Conviction_Foundation ;
+      narr:supports narr:Narrative_ZeroEffortCapture .
+
+    # ── Observation: Tanya — thesis proven quote ─────────────────
+    narr:Obs_TanyaThesisProven
+      a narr:Observation ;
+      dct:source narr:Sample_Sprint4Retro_20260322 ;
+      skos:broader narr:PositioningThesis ;
+      skos:note "Tanya confirms the product thesis is validated by Sprint 4 delivery: zero-extra-step decision capture at the moment of consensus." ;
+      oa:hasSelector
+        [ a oa:TextPositionSelector ; oa:start 339 ; oa:end 484 ],
+        [ a oa:TextQuoteSelector ;
+            oa:exact "This sprint proved the thesis. The widget intercepts the moment someone says 'let's go with option B' and creates a persistent decision record with full context. Zero extra steps for the team." ;
+            oa:prefix "Tanya: \"" ;
+            oa:suffix "\"" ] .
+
+    # ── Observation: Tina — velocity and Zephyr ──────────────────
+    narr:Obs_TinaVelocity
+      a narr:Observation ;
+      dct:source narr:Sample_Sprint4Retro_20260322 ;
+      skos:broader narr:KPIsSuccess ;
+      skos:note "Tina reports 23-point velocity (highest this quarter) and attributes it to the Zephyr integration enabling cross-platform embedding without separate plugins." ;
+      oa:hasSelector
+        [ a oa:TextPositionSelector ; oa:start 487 ; oa:end 637 ],
+        [ a oa:TextQuoteSelector ;
+            oa:exact "Velocity was 23 points, highest this quarter. The Zephyr integration was the key unlock — we can now embed the decision capture in Slack, Teams, and Discord without separate plugins." ;
+            oa:prefix "Tina: \"" ;
+            oa:suffix "\"" ] .
+
+    # ── Observation: Zephyr rate limit blocker resolved ──────────
+    narr:Obs_ZephyrRateLimitResolved
+      a narr:Observation ;
+      dct:source narr:Sample_Sprint4Retro_20260322 ;
+      skos:broader narr:EdgeCaseHandling ;
+      skos:note "Zephyr API rate limits resolved via batched webhook delivery. Blocker cleared in Sprint 4." ;
+      oa:hasSelector
+        [ a oa:TextPositionSelector ; oa:start 1274 ; oa:end 1334 ],
+        [ a oa:TextQuoteSelector ;
+            oa:exact "Zephyr API rate limits: solved with batched webhook delivery" ;
+            oa:prefix "- " ;
+            oa:suffix "\n" ] .
+
+    # ── Observation: Decision deduplication resolved ─────────────
+    narr:Obs_DedupResolved
+      a narr:Observation ;
+      dct:source narr:Sample_Sprint4Retro_20260322 ;
+      skos:broader narr:EdgeCaseHandling ;
+      skos:note "Hash-based deduplication catches 95% of re-posts. Blocker cleared in Sprint 4." ;
+      oa:hasSelector
+        [ a oa:TextPositionSelector ; oa:start 1337 ; oa:end 1408 ],
+        [ a oa:TextQuoteSelector ;
+            oa:exact "Decision deduplication: hash-based dedup catches 95% of re-posts" ;
+            oa:prefix "- " ;
+            oa:suffix "\n" ] .
+
+    # ── Style Observation 1: Direct first-person executive quotes ─
+    narr:StyleObs_Sprint4_DirectQuote
+      a narr:StyleObservation ;
+      skos:broader narr:ToneDirectPersonal ;
+      dct:source narr:Sample_Sprint4Retro_20260322 ;
+      skos:note "Document uses direct first-person quotes from named executives (Tanya, Tina) to anchor every key decision. Quotes are attributed inline with speaker name and colon." ;
+      rdf:value true ;
+      oa:hasTarget [
+        a oa:SpecificResource ;
+        oa:hasSource narr:Sample_Sprint4Retro_20260322 ;
+        oa:hasSelector
+          [ a oa:TextPositionSelector ; oa:start 339 ; oa:end 484 ] ;
+        oa:hasSelector
+          [ a oa:TextQuoteSelector ;
+              oa:exact "This sprint proved the thesis. The widget intercepts the moment someone says 'let's go with option B'" ;
+              oa:prefix "Tanya: \"" ;
+              oa:suffix " and creates" ]
+      ] .
+
+    # ── Style Observation 2: Antithesis / contrast framing ───────
+    narr:StyleObs_Sprint4_AntiPattern
+      a narr:StyleObservation ;
+      skos:broader narr:Antithesis ;
+      dct:source narr:Sample_Sprint4Retro_20260322 ;
+      skos:note "Rhetorical antithesis used to justify architectural choices: 'not polling' vs webhooks, 'not every message' vs 'actual decisions'. Mirrors the anti-Slack positioning pattern established in earlier documents." ;
+      rdf:value true ;
+      oa:hasTarget [
+        a oa:SpecificResource ;
+        oa:hasSource narr:Sample_Sprint4Retro_20260322 ;
+        oa:hasSelector
+          [ a oa:TextPositionSelector ; oa:start 762 ; oa:end 862 ] ;
+        oa:hasSelector
+          [ a oa:TextQuoteSelector ;
+              oa:exact "Polling would kill us at scale. Webhooks mean we only process actual decisions, not every message." ;
+              oa:prefix "Tanya: \"" ;
+              oa:suffix "\"" ]
+      ] .
+
+    # ── Style Observation 3: Metric-anchored assertions ──────────
+    narr:StyleObs_Sprint4_MetricAnchor
+      a narr:StyleObservation ;
+      skos:broader narr:ToneAuthoritative ;
+      dct:source narr:Sample_Sprint4Retro_20260322 ;
+      skos:note "Claims are anchored with specific numeric evidence: '23 points', '$12/user to $15/user', 'teams over 25', '3x the decision volume', '95% of re-posts'. Authoritative register via quantification." ;
+      rdf:value true ;
+      oa:hasTarget [
+        a oa:SpecificResource ;
+        oa:hasSource narr:Sample_Sprint4Retro_20260322 ;
+        oa:hasSelector
+          [ a oa:TextPositionSelector ; oa:start 487 ; oa:end 530 ] ;
+        oa:hasSelector
+          [ a oa:TextQuoteSelector ;
+              oa:exact "Velocity was 23 points, highest this quarter." ;
+              oa:prefix "Tina: \"" ;
+              oa:suffix " The Zephyr" ]
+      ] .
+
+    # ── Style Metrics ────────────────────────────────────────────
+    narr:StyleMetrics_Sprint4Retro
+      a narr:StyleMetrics ;
+      dct:source narr:Sample_Sprint4Retro_20260322 ;
+      skos:broader narr:StyleMetrics ;
+      skos:note "Professional-operational register. High active voice ratio driven by direct executive quotes and imperative framing. Low jargon density — technical terms (webhook, hash-based dedup, Zephyr) are product/engineering terms used precisely. Short punchy sentences alternate with longer attributed quotes." ;
+      narr:AverageSentenceLength 17 ;
+      narr:ActiveVoiceRatio "0.85"^^xsd:decimal ;
+      narr:JargonDensity "0.11"^^xsd:decimal .
+
+  }
+}
