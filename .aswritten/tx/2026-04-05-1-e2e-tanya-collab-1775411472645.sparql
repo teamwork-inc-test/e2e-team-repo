@@ -1,0 +1,99 @@
+PREFIX narr: <https://aswritten.ai/narrative#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX oa: <http://www.w3.org/ns/oa#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+# Transaction provenance (default graph)
+INSERT DATA {
+  narr:Tx_20250522T100000Z a prov:Activity ;
+    prov:generatedAtTime "2025-05-22T10:00:00Z"^^xsd:dateTime ;
+    prov:wasAssociatedWith "aswritten.ai" ;
+    prov:wasAttributedTo "n8n.aswritten.ai" ;
+    narr:originPath ".aswritten/memories/2025-05-22-tanya-retro.md" ;
+    narr:originRef "main" ;
+    prov:generated narr:Sample_TanyaRetro_20250522, narr:Actor_Tanya, narr:Narrative_VelocityUnlock, narr:Claim_ZephyrIntegrationKey, narr:Observation_VelocityPoints, narr:StyleObs_DirectQuote, narr:StyleObs_MetricFocus, narr:StyleObs_TechnicalJargon, narr:StyleMetrics_TanyaRetro .
+} ;
+
+# Extracted entities (named graph)
+INSERT DATA {
+  GRAPH narr:Tx_20250522T100000Z {
+    narr:Sample_TanyaRetro_20250522 a narr:Sample ;
+      dct:title "Tanya's Sprint Retro" ;
+      narr:inputLength 197 .
+
+    narr:Actor_Tanya a narr:Actor ;
+      skos:prefLabel "Tanya" ;
+      skos:note "Team member reporting on sprint velocity and technical unlocks." .
+
+    narr:Narrative_VelocityUnlock a narr:Narrative ;
+      dct:source narr:Sample_TanyaRetro_20250522 ;
+      narr:theme "Technical integration as velocity catalyst" ;
+      skos:broader narr:InflectionPoints ;
+      skos:note "The Zephyr integration is identified as the primary driver for record-high sprint velocity." .
+
+    narr:Claim_ZephyrIntegrationKey a narr:Claim ;
+      narr:aboutNode narr:TechnologiesSocialSystems ;
+      narr:hasConvictionLevel narr:Conviction_Boulder ;
+      dct:source narr:Sample_TanyaRetro_20250522 ;
+      skos:note "Zephyr integration was the key unlock for the team's performance." .
+
+    narr:Observation_VelocityPoints a narr:Observation ;
+      skos:broader narr:Metrics ;
+      dct:source narr:Sample_TanyaRetro_20250522 ;
+      oa:hasSelector [
+        a oa:TextPositionSelector ;
+        oa:start 85 ;
+        oa:end 108 
+      ] ;
+      oa:hasSelector [
+        a oa:TextQuoteSelector ;
+        oa:exact "Velocity was 23 points" ;
+        oa:prefix "decision widget. " ;
+        oa:suffix ", highest this quarter."
+      ] .
+
+    narr:StyleObs_DirectQuote a narr:StyleObservation ;
+      skos:broader narr:FirstPerson ;
+      dct:source narr:Sample_TanyaRetro_20250522 ;
+      oa:hasTarget [
+        a oa:SpecificResource ;
+        oa:hasSource narr:Sample_TanyaRetro_20250522 ;
+        oa:hasSelector [ a oa:TextPositionSelector ; oa:start 48 ; oa:end 54 ] ;
+        oa:hasSelector [ a oa:TextQuoteSelector ; oa:exact "Tanya:" ; oa:prefix "# Tanya's Sprint Retro\n\n" ; oa:suffix " \"We shipped" ]
+      ] ;
+      skos:note "Use of speaker prefix to attribute direct speech." .
+
+    narr:StyleObs_MetricFocus a narr:StyleObservation ;
+      skos:broader narr:ToneAuthoritative ;
+      dct:source narr:Sample_TanyaRetro_20250522 ;
+      oa:hasTarget [
+        a oa:SpecificResource ;
+        oa:hasSource narr:Sample_TanyaRetro_20250522 ;
+        oa:hasSelector [ a oa:TextPositionSelector ; oa:start 85 ; oa:end 131 ] ;
+        oa:hasSelector [ a oa:TextQuoteSelector ; oa:exact "Velocity was 23 points, highest this quarter." ; oa:prefix "widget. " ; oa:suffix " The Zephyr" ]
+      ] ;
+      skos:note "Authoritative tone established through specific quantitative metrics." .
+
+    narr:StyleObs_TechnicalJargon a narr:StyleObservation ;
+      skos:broader narr:JargonPolicy ;
+      dct:source narr:Sample_TanyaRetro_20250522 ;
+      oa:hasTarget [
+        a oa:SpecificResource ;
+        oa:hasSource narr:Sample_TanyaRetro_20250522 ;
+        oa:hasSelector [ a oa:TextPositionSelector ; oa:start 67 ; oa:end 83 ] ;
+        oa:hasSelector [ a oa:TextQuoteSelector ; oa:exact "decision widget" ; oa:prefix "the async " ; oa:suffix ". Velocity" ]
+      ] ;
+      skos:note "Use of internal product terminology." .
+
+    narr:StyleMetrics_TanyaRetro a narr:StyleMetrics ;
+      dct:source narr:Sample_TanyaRetro_20250522 ;
+      skos:broader narr:StyleMetrics ;
+      narr:AverageSentenceLength 11 ;
+      narr:ActiveVoiceRatio 0.75 ;
+      narr:JargonDensity 0.15 ;
+      skos:note "Direct, metric-driven reporting style." .
+  }
+}
