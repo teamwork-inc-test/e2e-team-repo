@@ -1,0 +1,67 @@
+PREFIX narr: <https://aswritten.ai/narrative#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX oa: <http://www.w3.org/ns/oa#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+# Transaction Provenance
+INSERT DATA {
+  narr:Tx_20250714T120005Z a prov:Activity ;
+    prov:generatedAtTime "2025-07-14T12:00:05Z"^^xsd:dateTime ;
+    prov:wasAssociatedWith "aswritten.ai" ;
+    prov:wasAttributedTo "n8n.aswritten.ai" ;
+    narr:originPath "---\\nreviewers:\\n  - +15005550006\\n---\\n\\n# Default Ref Test\\n\\nTanya: \\\"Testing that omitted ref creates a topic branch.\\\"" ;
+    narr:originRef "main@unknown" ;
+    prov:generated narr:Sample_DefaultRefTest_v2, narr:StyleMetrics_DefaultRefTest_v2, narr:StyleObs_DirectTanya, narr:StyleObs_ActiveVoice, narr:StyleObs_JargonGit .
+} ;
+
+# Extracted Entities
+INSERT DATA {
+  GRAPH narr:Tx_20250714T120005Z {
+    narr:Sample_DefaultRefTest_v2 a narr:Sample ;
+      dct:title "Default Ref Test" ;
+      dct:created "2025-07-14"^^xsd:date ;
+      narr:inputLength 97 ;
+      skos:note "Reinforcement of existing test case for omitted git ref behavior." .
+
+    narr:StyleMetrics_DefaultRefTest_v2 a narr:StyleMetrics ;
+      skos:broader narr:StyleMetrics ;
+      dct:source narr:Sample_DefaultRefTest_v2 ;
+      narr:AverageSentenceLength 10 ;
+      narr:ActiveVoiceRatio 1.0 ;
+      narr:JargonDensity 0.15 .
+
+    narr:StyleObs_DirectTanya a narr:StyleObservation ;
+      skos:broader narr:ToneDirectPersonal ;
+      dct:source narr:Sample_DefaultRefTest_v2 ;
+      oa:hasTarget [
+        a oa:SpecificResource ;
+        oa:hasSource narr:Sample_DefaultRefTest_v2 ;
+        oa:hasSelector [ a oa:TextPositionSelector ; oa:start 54 ; oa:end 96 ] ;
+        oa:hasSelector [ a oa:TextQuoteSelector ; oa:exact "Testing that omitted ref creates a topic branch." ; oa:prefix "Tanya: \"" ; oa:suffix "\"" ]
+      ] .
+
+    narr:StyleObs_ActiveVoice a narr:StyleObservation ;
+      skos:broader narr:VoiceActive ;
+      dct:source narr:Sample_DefaultRefTest_v2 ;
+      oa:hasTarget [
+        a oa:SpecificResource ;
+        oa:hasSource narr:Sample_DefaultRefTest_v2 ;
+        oa:hasSelector [ a oa:TextPositionSelector ; oa:start 76 ; oa:end 96 ] ;
+        oa:hasSelector [ a oa:TextQuoteSelector ; oa:exact "creates a topic branch" ; oa:prefix "omitted ref " ; oa:suffix "." ]
+      ] .
+
+    narr:StyleObs_JargonGit a narr:StyleObservation ;
+      skos:broader narr:JargonPolicy ;
+      dct:source narr:Sample_DefaultRefTest_v2 ;
+      skos:note "Use of technical git terminology in test assertion." ;
+      oa:hasTarget [
+        a oa:SpecificResource ;
+        oa:hasSource narr:Sample_DefaultRefTest_v2 ;
+        oa:hasSelector [ a oa:TextPositionSelector ; oa:start 67 ; oa:end 96 ] ;
+        oa:hasSelector [ a oa:TextQuoteSelector ; oa:exact "omitted ref creates a topic branch" ; oa:prefix "that " ; oa:suffix "." ]
+      ] .
+  }
+}
