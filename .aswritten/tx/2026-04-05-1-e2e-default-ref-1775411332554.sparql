@@ -1,0 +1,162 @@
+PREFIX narr: <https://aswritten.ai/narrative#>
+PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX dct:  <http://purl.org/dc/terms/>
+PREFIX xsd:  <http://www.w3.org/2001/XMLSchema#>
+PREFIX oa:   <http://www.w3.org/ns/oa#>
+
+# Transaction provenance (default graph)
+INSERT DATA {
+  narr:Tx_20250714T120000Z a prov:Activity ;
+    prov:generatedAtTime "2025-07-14T12:00:00Z"^^xsd:dateTime ;
+    prov:wasAssociatedWith "aswritten.ai" ;
+    prov:wasAttributedTo "n8n.aswritten.ai" ;
+    narr:originPath "unknown" ;
+    narr:originRef "unknown" ;
+    dct:title "Default Ref Test — Omitted Ref Topic Branch" ;
+    prov:generated
+      narr:Sample_DefaultRefTest,
+      narr:Actor_Tanya_DefaultRefTest,
+      narr:Narrative_OmittedRefTopicBranch,
+      narr:Claim_OmittedRefCreatesBranch,
+      narr:Claim_ReviewerConfigPresent,
+      narr:Obs_TanyaQuote,
+      narr:StyleObs_DirectSpeechRegister,
+      narr:StyleObs_TechnicalJargonRef,
+      narr:StyleObs_ImperativeTestingVoice,
+      narr:StyleMetrics_DefaultRefTest .
+} ;
+
+# Extracted entities (named graph)
+INSERT DATA {
+  GRAPH narr:Tx_20250714T120000Z {
+
+    # ── Sample ──────────────────────────────────────────────────
+    narr:Sample_DefaultRefTest a narr:Sample ;
+      dct:title "Default Ref Test" ;
+      dct:description "Minimal YAML-frontmatter document testing that an omitted git ref causes a topic branch to be created. Contains a single speaker quote from Tanya." ;
+      narr:inputLength 97 ;
+      dct:created "2025-07-14"^^xsd:date .
+
+    # ── Actor ───────────────────────────────────────────────────
+    narr:Actor_Tanya_DefaultRefTest a narr:Actor ;
+      skos:prefLabel "Tanya" ;
+      skos:note "Speaker in the Default Ref Test document; asserts expected behavior when a git ref is omitted from a memory submission." .
+
+    # ── Narrative ───────────────────────────────────────────────
+    narr:Narrative_OmittedRefTopicBranch a narr:Narrative ;
+      narr:theme "Omitting a ref in a memory submission should automatically create a topic branch" ;
+      skos:broader narr:Process ;
+      skos:note "The document tests the system behavior when narr:originRef is absent: the expected outcome is that a topic branch is created rather than committing to a default branch." ;
+      dct:source narr:Sample_DefaultRefTest .
+
+    # ── Claim: omitted ref → topic branch ───────────────────────
+    narr:Claim_OmittedRefCreatesBranch a narr:Claim ;
+      narr:aboutNode narr:Narrative_OmittedRefTopicBranch ;
+      narr:hasConvictionLevel narr:Conviction_Notion ;
+      narr:supports narr:Process ;
+      dct:source narr:Sample_DefaultRefTest ;
+      skos:note "Tanya asserts that omitting the ref field should trigger topic-branch creation. Conviction is Notion — this is a single-speaker test assertion, not yet validated by evidence." .
+
+    # ── Claim: reviewer config present in frontmatter ────────────
+    narr:Claim_ReviewerConfigPresent a narr:Claim ;
+      narr:aboutNode narr:Sample_DefaultRefTest ;
+      narr:hasConvictionLevel narr:Conviction_Notion ;
+      dct:source narr:Sample_DefaultRefTest ;
+      skos:note "The YAML frontmatter includes a reviewers list with one entry (phone number redacted per PII policy). This documents that reviewer routing metadata is supported in the frontmatter schema." .
+
+    # ── Observation: Tanya quote ─────────────────────────────────
+    narr:Obs_TanyaQuote a narr:Observation ;
+      skos:broader narr:Quotes ;
+      dct:source narr:Sample_DefaultRefTest ;
+      skos:note "Tanya's verbatim test assertion about omitted ref behavior." ;
+      oa:hasSelector [
+        a oa:TextPositionSelector ;
+        oa:start 57 ;
+        oa:end 97
+      ] ;
+      oa:hasSelector [
+        a oa:TextQuoteSelector ;
+        oa:exact "Testing that omitted ref creates a topic branch." ;
+        oa:prefix "Tanya: \"" ;
+        oa:suffix "\""
+      ] .
+
+    # ── Style Observation 1: Direct speech / quoted register ─────
+    narr:StyleObs_DirectSpeechRegister a narr:StyleObservation ;
+      skos:broader narr:ToneDirectPersonal ;
+      dct:source narr:Sample_DefaultRefTest ;
+      skos:note "Document uses direct-speech attribution (\"Tanya: ...\") to frame a test assertion, giving it a conversational, first-person-adjacent register despite being a technical test note." ;
+      rdf:value true ;
+      oa:hasTarget [
+        a oa:SpecificResource ;
+        oa:hasSource narr:Sample_DefaultRefTest ;
+        oa:hasSelector [
+          a oa:TextPositionSelector ;
+          oa:start 50 ;
+          oa:end 97
+        ] ;
+        oa:hasSelector [
+          a oa:TextQuoteSelector ;
+          oa:exact "Tanya: \"Testing that omitted ref creates a topic branch.\"" ;
+          oa:prefix "# Default Ref Test\n\n" ;
+          oa:suffix ""
+        ]
+      ] .
+
+    # ── Style Observation 2: Technical jargon — "ref" / "topic branch" ──
+    narr:StyleObs_TechnicalJargonRef a narr:StyleObservation ;
+      skos:broader narr:JargonPolicy ;
+      dct:source narr:Sample_DefaultRefTest ;
+      skos:note "Uses git-specific jargon ('ref', 'topic branch') without definition, assuming reader familiarity with version-control conventions. JargonDensity is elevated relative to document length." ;
+      rdf:value false ;
+      oa:hasTarget [
+        a oa:SpecificResource ;
+        oa:hasSource narr:Sample_DefaultRefTest ;
+        oa:hasSelector [
+          a oa:TextPositionSelector ;
+          oa:start 66 ;
+          oa:end 96
+        ] ;
+        oa:hasSelector [
+          a oa:TextQuoteSelector ;
+          oa:exact "omitted ref creates a topic branch" ;
+          oa:prefix "Testing that " ;
+          oa:suffix "."
+        ]
+      ] .
+
+    # ── Style Observation 3: Imperative / active testing voice ───
+    narr:StyleObs_ImperativeTestingVoice a narr:StyleObservation ;
+      skos:broader narr:VoiceActive ;
+      dct:source narr:Sample_DefaultRefTest ;
+      skos:note "The heading 'Default Ref Test' uses a nominal imperative frame (noun-phrase test label), while the body quote uses active-voice present-participle ('Testing that…'), consistent with engineering test-case documentation style." ;
+      rdf:value true ;
+      oa:hasTarget [
+        a oa:SpecificResource ;
+        oa:hasSource narr:Sample_DefaultRefTest ;
+        oa:hasSelector [
+          a oa:TextPositionSelector ;
+          oa:start 22 ;
+          oa:end 40
+        ] ;
+        oa:hasSelector [
+          a oa:TextQuoteSelector ;
+          oa:exact "Default Ref Test" ;
+          oa:prefix "# " ;
+          oa:suffix "\n"
+        ]
+      ] .
+
+    # ── Style Metrics ────────────────────────────────────────────
+    narr:StyleMetrics_DefaultRefTest a narr:StyleMetrics ;
+      skos:broader narr:StyleMetrics ;
+      dct:source narr:Sample_DefaultRefTest ;
+      narr:AverageSentenceLength 10 ;
+      narr:ActiveVoiceRatio "0.80"^^xsd:decimal ;
+      narr:JargonDensity "0.15"^^xsd:decimal ;
+      skos:note "Very short document (97 chars, 1 substantive sentence). Active voice dominates. Jargon density moderate given git-specific terms ('ref', 'topic branch') in a 10-word sentence." .
+
+  }
+}

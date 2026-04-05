@@ -1,0 +1,263 @@
+PREFIX narr: <https://aswritten.ai/narrative#>
+PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX dct:  <http://purl.org/dc/terms/>
+PREFIX xsd:  <http://www.w3.org/2001/XMLSchema#>
+PREFIX oa:   <http://www.w3.org/ns/oa#>
+
+# ── Transaction provenance (default graph) ──────────────────────────────────
+INSERT DATA {
+  narr:Tx_20260310T103000Z a prov:Activity ;
+    dct:title "Teamwork Inc Product Vision — Anti-Slack Positioning" ;
+    prov:generatedAtTime "2026-03-10T10:30:00Z"^^xsd:dateTime ;
+    prov:wasAssociatedWith "aswritten.ai" ;
+    prov:wasAttributedTo "n8n.aswritten.ai" ;
+    narr:originPath ".aswritten/memories/2026-03-10-tanya-product-vision.md" ;
+    narr:originRef "main" ;
+    prov:generated
+      narr:Sample_TeamworkProductVision_20260310,
+      narr:Narrative_AntiSlackPositioning,
+      narr:Narrative_DecisionCaptureAtConsensus,
+      narr:Narrative_DecisionsEvaporate,
+      narr:Claim_ProductCategoryAsyncPlatform,
+      narr:Claim_AntiPatternRealtimeChat,
+      narr:Claim_CoreFeatureDecisionCapture,
+      narr:Claim_TargetMarketRemoteTeams,
+      narr:Claim_PricingTwelveDollars,
+      narr:Obs_TanyaAntiSlackQuote,
+      narr:Obs_TinaScrollbackQuote,
+      narr:StyleObs_Antithesis_AntiSlack,
+      narr:StyleObs_ToneAuthoritative_Tanya,
+      narr:StyleObs_JargonPolicy_DecisionArtifact,
+      narr:StyleMetrics_TeamworkProductVision .
+} ;
+
+# ── UPDATE: Actor_TanyaOwner — add skos:prefLabel (SHACL required) ──────────
+DELETE {
+  GRAPH ?g {
+    narr:Actor_TanyaOwner dct:title ?oldTitle .
+  }
+}
+INSERT {
+  GRAPH narr:Tx_20260310T103000Z {
+    narr:Actor_TanyaOwner
+      skos:prefLabel "Tanya Owner" ;
+      skos:note "CEO of Teamwork Inc. Drives product vision and go-to-market strategy. Coined the anti-Slack positioning." .
+  }
+}
+WHERE {
+  GRAPH ?g {
+    narr:Actor_TanyaOwner dct:title ?oldTitle .
+  }
+} ;
+
+# ── UPDATE: Actor_TinaTeammate — add skos:prefLabel (SHACL required) ────────
+DELETE {
+  GRAPH ?g {
+    narr:Actor_TinaTeammate dct:title ?oldTitle .
+  }
+}
+INSERT {
+  GRAPH narr:Tx_20260310T103000Z {
+    narr:Actor_TinaTeammate
+      skos:prefLabel "Tina Teammate" ;
+      skos:note "Head of Product at Teamwork Inc. Articulated the scroll-back problem and decision capture methodology." .
+  }
+}
+WHERE {
+  GRAPH ?g {
+    narr:Actor_TinaTeammate dct:title ?oldTitle .
+  }
+} ;
+
+# ── INSERT: All new extracted entities (named graph) ────────────────────────
+INSERT DATA {
+  GRAPH narr:Tx_20260310T103000Z {
+
+    # ── Sample ──────────────────────────────────────────────────────────────
+    narr:Sample_TeamworkProductVision_20260310
+      a narr:Sample ;
+      dct:title "Teamwork Inc Product Vision" ;
+      dct:created "2026-03-10"^^xsd:date ;
+      dct:description "Product vision alignment session between Tanya Owner (CEO) and Tina Teammate (Head of Product). Establishes anti-Slack positioning, decision capture core feature, target market, and pricing." ;
+      narr:inputLength 896 .
+
+    # ── Narratives ──────────────────────────────────────────────────────────
+    narr:Narrative_AntiSlackPositioning
+      a narr:Narrative ;
+      dct:source narr:Sample_TeamworkProductVision_20260310 ;
+      skos:broader narr:PositioningThesis ;
+      narr:theme "Teamwork Inc positions itself as the anti-Slack: structured async decisions over real-time noise" ;
+      skos:note "Tanya frames the product against Slack's real-time model. The anti-Slack label is the primary positioning thesis: every conversation should produce a persistent decision artifact." .
+
+    narr:Narrative_DecisionCaptureAtConsensus
+      a narr:Narrative ;
+      dct:source narr:Sample_TeamworkProductVision_20260310 ;
+      skos:broader narr:CoreNarratives ;
+      narr:theme "Decisions must be captured at the moment of consensus and linked to the context that produced them" ;
+      skos:note "Tina's key insight: decisions made in Slack disappear into scroll-back. The product captures the decision at the moment it's made and links it to the producing context — zero extra steps." .
+
+    narr:Narrative_DecisionsEvaporate
+      a narr:Narrative ;
+      dct:source narr:Sample_TeamworkProductVision_20260310 ;
+      skos:broader narr:FrictionFailure ;
+      narr:theme "Decisions made in real-time chat evaporate into scroll-back, losing context and accountability" ;
+      skos:note "The foundational problem narrative: Slack and Teams produce decisions that disappear. This is the pain point Teamwork Inc is built to solve. Referenced by Sprint 4 claims as the underlying thesis." .
+
+    # ── Claims ──────────────────────────────────────────────────────────────
+    narr:Claim_ProductCategoryAsyncPlatform
+      a narr:Claim ;
+      dct:source narr:Sample_TeamworkProductVision_20260310 ;
+      narr:aboutNode narr:Narrative_AntiSlackPositioning ;
+      narr:hasConvictionLevel narr:Conviction_Foundation ;
+      narr:supports narr:Narrative_AntiSlackPositioning ;
+      skos:note "Product category explicitly defined as 'Structured async decision platform' — a deliberate category creation move against real-time chat tools." .
+
+    narr:Claim_AntiPatternRealtimeChat
+      a narr:Claim ;
+      dct:source narr:Sample_TeamworkProductVision_20260310 ;
+      narr:aboutNode narr:Narrative_DecisionsEvaporate ;
+      narr:hasConvictionLevel narr:Conviction_Foundation ;
+      narr:supports narr:Narrative_AntiSlackPositioning ;
+      skos:note "Real-time chat (Slack, Teams) is the named anti-pattern. The product is explicitly defined against this category." .
+
+    narr:Claim_CoreFeatureDecisionCapture
+      a narr:Claim ;
+      dct:source narr:Sample_TeamworkProductVision_20260310 ;
+      narr:aboutNode narr:Narrative_DecisionCaptureAtConsensus ;
+      narr:hasConvictionLevel narr:Conviction_Foundation ;
+      narr:supports narr:Narrative_DecisionCaptureAtConsensus ;
+      skos:note "Core feature: decision capture at the point of consensus. This is the product's primary differentiator — capturing the decision artifact at the moment it's made." .
+
+    narr:Claim_TargetMarketRemoteTeams
+      a narr:Claim ;
+      dct:source narr:Sample_TeamworkProductVision_20260310 ;
+      narr:aboutNode narr:Segmentation ;
+      narr:hasConvictionLevel narr:Conviction_Boulder ;
+      narr:supports narr:Narrative_AntiSlackPositioning ;
+      skos:note "Target market: remote teams with 10-50 people. This is the initial ICP — small enough to move fast, large enough to feel decision-loss pain." .
+
+    narr:Claim_PricingTwelveDollars
+      a narr:Claim ;
+      dct:source narr:Sample_TeamworkProductVision_20260310 ;
+      narr:aboutNode narr:PackagingEntitlement ;
+      narr:hasConvictionLevel narr:Conviction_Stake ;
+      narr:supports narr:Narrative_AntiSlackPositioning ;
+      skos:note "Pricing set at $12/user/month as of 2026-03-10 product vision session. Note: Sprint 4 retro (2026-03-22) records a pricing update to $15/user for teams over 25." .
+
+    # ── Observations ────────────────────────────────────────────────────────
+    narr:Obs_TanyaAntiSlackQuote
+      a narr:Observation ;
+      skos:broader narr:PositioningThesis ;
+      dct:source narr:Sample_TeamworkProductVision_20260310 ;
+      skos:note "Tanya's verbatim framing of the anti-Slack positioning thesis." ;
+      oa:hasSelector [
+        a oa:TextPositionSelector ;
+        oa:start 270 ;
+        oa:end 448
+      ] ;
+      oa:hasSelector [
+        a oa:TextQuoteSelector ;
+        oa:exact "We're building the anti-Slack. Instead of real-time noise, we want structured async decisions." ;
+        oa:prefix "Tanya: \"" ;
+        oa:suffix " Every conversation should produce"
+      ] .
+
+    narr:Obs_TinaScrollbackQuote
+      a narr:Observation ;
+      skos:broader narr:FrictionFailure ;
+      dct:source narr:Sample_TeamworkProductVision_20260310 ;
+      skos:note "Tina's verbatim articulation of the scroll-back problem — decisions disappear into chat history." ;
+      oa:hasSelector [
+        a oa:TextPositionSelector ;
+        oa:start 458 ;
+        oa:end 626
+      ] ;
+      oa:hasSelector [
+        a oa:TextQuoteSelector ;
+        oa:exact "The key insight is that decisions made in Slack disappear into scroll-back." ;
+        oa:prefix "Tina: \"" ;
+        oa:suffix " We capture the decision at the moment"
+      ] .
+
+    # ── Style Observations ───────────────────────────────────────────────────
+    narr:StyleObs_Antithesis_AntiSlack
+      a narr:StyleObservation ;
+      skos:broader narr:Antithesis ;
+      dct:source narr:Sample_TeamworkProductVision_20260310 ;
+      skos:note "antithesis: anti-Slack vs real-time noise; structured async vs ephemeral chat" ;
+      rdf:value true ;
+      oa:hasTarget [
+        a oa:SpecificResource ;
+        oa:hasSource narr:Sample_TeamworkProductVision_20260310 ;
+        oa:hasSelector [
+          a oa:TextPositionSelector ;
+          oa:start 270 ;
+          oa:end 360
+        ] ;
+        oa:hasSelector [
+          a oa:TextQuoteSelector ;
+          oa:exact "Instead of real-time noise, we want structured async decisions." ;
+          oa:prefix "the anti-Slack. " ;
+          oa:suffix " Every conversation should"
+        ]
+      ] .
+
+    narr:StyleObs_ToneAuthoritative_Tanya
+      a narr:StyleObservation ;
+      skos:broader narr:ToneAuthoritative ;
+      dct:source narr:Sample_TeamworkProductVision_20260310 ;
+      skos:note "authoritative-declarative tone: CEO makes categorical product-category claim with no hedging" ;
+      rdf:value true ;
+      oa:hasTarget [
+        a oa:SpecificResource ;
+        oa:hasSource narr:Sample_TeamworkProductVision_20260310 ;
+        oa:hasSelector [
+          a oa:TextPositionSelector ;
+          oa:start 270 ;
+          oa:end 302
+        ] ;
+        oa:hasSelector [
+          a oa:TextQuoteSelector ;
+          oa:exact "We're building the anti-Slack." ;
+          oa:prefix "Tanya: \"" ;
+          oa:suffix " Instead of real-time noise"
+        ]
+      ] .
+
+    narr:StyleObs_JargonPolicy_DecisionArtifact
+      a narr:StyleObservation ;
+      skos:broader narr:JargonPolicy ;
+      dct:source narr:Sample_TeamworkProductVision_20260310 ;
+      skos:note "product-specific jargon introduced: 'decision artifact' as a coined term for the persistent output of a captured decision" ;
+      rdf:value true ;
+      skos:related narr:KeyPhrases ;
+      oa:hasTarget [
+        a oa:SpecificResource ;
+        oa:hasSource narr:Sample_TeamworkProductVision_20260310 ;
+        oa:hasSelector [
+          a oa:TextPositionSelector ;
+          oa:start 390 ;
+          oa:end 448
+        ] ;
+        oa:hasSelector [
+          a oa:TextQuoteSelector ;
+          oa:exact "a decision artifact that persists beyond the chat" ;
+          oa:prefix "produce " ;
+          oa:suffix ".\""
+        ]
+      ] .
+
+    # ── Style Metrics ────────────────────────────────────────────────────────
+    narr:StyleMetrics_TeamworkProductVision
+      a narr:StyleMetrics ;
+      dct:source narr:Sample_TeamworkProductVision_20260310 ;
+      skos:broader narr:StyleMetrics ;
+      skos:note "Conversational-strategic register. High active voice ratio driven by first-person CEO/Head-of-Product quotes. Moderate jargon density — 'decision artifact', 'async', 'scroll-back' are coined/technical terms. Short declarative sentences alternate with longer explanatory clauses. Antithesis is the dominant rhetorical device." ;
+      narr:AverageSentenceLength 22 ;
+      narr:ActiveVoiceRatio "0.88"^^xsd:decimal ;
+      narr:JargonDensity "0.12"^^xsd:decimal .
+
+  }
+}
