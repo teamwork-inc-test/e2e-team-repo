@@ -1,0 +1,98 @@
+PREFIX narr: <https://aswritten.ai/narrative#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX oa: <http://www.w3.org/ns/oa#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+# Transaction provenance (default graph)
+INSERT DATA {
+  narr:Tx_20250522T100000Z a prov:Activity ;
+    prov:generatedAtTime "2025-05-22T10:00:00Z"^^xsd:dateTime ;
+    prov:wasAssociatedWith "aswritten.ai" ;
+    prov:wasAttributedTo "n8n.aswritten.ai" ;
+    narr:originPath ".aswritten/memories/2025-05-22-tanya-retro.md" ;
+    narr:originRef "main" ;
+    prov:generated narr:Sample_TanyaRetro_20250522, narr:Actor_Tanya, narr:Narrative_VelocityPeak, narr:Claim_ZephyrUnlock, narr:Observation_VelocityPoints, narr:StyleObs_DirectQuote, narr:StyleObs_JargonVelocity, narr:StyleObs_MetricFocus, narr:StyleMetrics_TanyaRetro .
+} ;
+
+# Extracted entities (named graph)
+INSERT DATA {
+  GRAPH narr:Tx_20250522T100000Z {
+    narr:Sample_TanyaRetro_20250522 a narr:Sample ;
+      dct:title "Tanya's Sprint Retro" ;
+      narr:inputLength 165 .
+
+    narr:Actor_Tanya a narr:Actor ;
+      skos:prefLabel "Tanya" ;
+      skos:note "Speaker in sprint retro" .
+
+    narr:Narrative_VelocityPeak a narr:Narrative ;
+      dct:source narr:Sample_TanyaRetro_20250522 ;
+      narr:theme "Performance Milestone" ;
+      skos:broader narr:MetricsMonitoring ;
+      skos:note "Achieved highest velocity of the quarter." .
+
+    narr:Claim_ZephyrUnlock a narr:Claim ;
+      narr:aboutNode narr:TechnologiesSocialSystems ;
+      narr:hasConvictionLevel narr:Conviction_Boulder ;
+      dct:source narr:Sample_TanyaRetro_20250522 ;
+      skos:note "The Zephyr integration was the primary driver for the velocity increase." .
+
+    narr:Observation_VelocityPoints a narr:Observation ;
+      skos:broader narr:OperationalDashboards ;
+      dct:source narr:Sample_TanyaRetro_20250522 ;
+      oa:hasSelector [
+        a oa:TextPositionSelector ;
+        oa:start 66 ;
+        oa:end 85 
+      ] ;
+      oa:hasSelector [
+        a oa:TextQuoteSelector ;
+        oa:exact "Velocity was 23 points" ;
+        oa:prefix "decision widget. " ;
+        oa:suffix ", highest this quarter."
+      ] .
+
+    narr:StyleObs_DirectQuote a narr:StyleObservation ;
+      skos:broader narr:ToneDirectPersonal ;
+      dct:source narr:Sample_TanyaRetro_20250522 ;
+      oa:hasTarget [
+        a oa:SpecificResource ;
+        oa:hasSource narr:Sample_TanyaRetro_20250522 ;
+        oa:hasSelector [ a oa:TextPositionSelector ; oa:start 41 ; oa:end 165 ] ;
+        oa:hasSelector [ a oa:TextQuoteSelector ; oa:exact "We shipped the async decision widget. Velocity was 23 points, highest this quarter. The Zephyr integration was the key unlock." ]
+      ] ;
+      skos:note "First-person direct reportage style." .
+
+    narr:StyleObs_JargonVelocity a narr:StyleObservation ;
+      skos:broader narr:JargonPolicy ;
+      dct:source narr:Sample_TanyaRetro_20250522 ;
+      oa:hasTarget [
+        a oa:SpecificResource ;
+        oa:hasSource narr:Sample_TanyaRetro_20250522 ;
+        oa:hasSelector [ a oa:TextPositionSelector ; oa:start 66 ; oa:end 74 ] ;
+        oa:hasSelector [ a oa:TextQuoteSelector ; oa:exact "Velocity" ]
+      ] ;
+      skos:note "Use of agile project management terminology." .
+
+    narr:StyleObs_MetricFocus a narr:StyleObservation ;
+      skos:broader narr:RegisterFormality ;
+      dct:source narr:Sample_TanyaRetro_20250522 ;
+      oa:hasTarget [
+        a oa:SpecificResource ;
+        oa:hasSource narr:Sample_TanyaRetro_20250522 ;
+        oa:hasSelector [ a oa:TextPositionSelector ; oa:start 79 ; oa:end 88 ] ;
+        oa:hasSelector [ a oa:TextQuoteSelector ; oa:exact "23 points" ]
+      ] ;
+      skos:note "Focus on quantitative performance metrics." .
+
+    narr:StyleMetrics_TanyaRetro a narr:StyleMetrics ;
+      dct:source narr:Sample_TanyaRetro_20250522 ;
+      skos:broader narr:StyleMetrics ;
+      narr:AverageSentenceLength 8 ;
+      narr:ActiveVoiceRatio 1.0 ;
+      narr:JargonDensity 0.15 .
+  }
+}
