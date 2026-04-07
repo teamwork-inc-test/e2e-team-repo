@@ -1,0 +1,105 @@
+PREFIX narr: <https://aswritten.ai/narrative#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX oa: <http://www.w3.org/ns/oa#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+INSERT DATA {
+  narr:Tx_20250522T120000Z a prov:Activity ;
+    prov:generatedAtTime "2025-05-22T12:00:00Z"^^xsd:dateTime ;
+    prov:wasAssociatedWith "aswritten.ai" ;
+    prov:wasAttributedTo "n8n.aswritten.ai" ;
+    narr:originPath ".aswritten/memories/2025-05-22-tanya-retro.md" ;
+    narr:originRef "main" ;
+    prov:generated narr:Sample_TanyaRetro_20250522, narr:Actor_Tanya, narr:Narrative_SprintPerformance_Q2, narr:Claim_VelocityPeak, narr:Claim_ZephyrUnlock, narr:Obs_VelocityQuote, narr:StyleObs_DirectQuote, narr:StyleObs_JargonIntegration, narr:StyleObs_MetricFocus, narr:Metrics_TanyaRetro .
+} ;
+
+INSERT DATA {
+  GRAPH narr:Tx_20250522T120000Z {
+    narr:Sample_TanyaRetro_20250522 a narr:Sample ;
+      dct:title "Tanya's Sprint Retro" ;
+      narr:inputLength 198 .
+
+    narr:Actor_Tanya a narr:Actor ;
+      skos:prefLabel "Tanya" ;
+      skos:note "Team member reporting on sprint performance." .
+
+    narr:Narrative_SprintPerformance_Q2 a narr:Narrative ;
+      dct:source narr:Sample_TanyaRetro_20250522 ;
+      narr:theme "Sprint Performance and Velocity" ;
+      skos:broader narr:MetricsMonitoring ;
+      skos:note "Review of sprint outcomes including widget shipping and velocity peaks." .
+
+    narr:Claim_VelocityPeak a narr:Claim ;
+      narr:aboutNode narr:Narrative_SprintPerformance_Q2 ;
+      narr:hasConvictionLevel narr:Conviction_Foundation ;
+      dct:source narr:Sample_TanyaRetro_20250522 ;
+      skos:note "Velocity reached 23 points, the highest this quarter." .
+
+    narr:Claim_ZephyrUnlock a narr:Claim ;
+      narr:aboutNode narr:Narrative_SprintPerformance_Q2 ;
+      narr:hasConvictionLevel narr:Conviction_Boulder ;
+      dct:source narr:Sample_TanyaRetro_20250522 ;
+      skos:note "The Zephyr integration was the primary driver for the velocity increase." .
+
+    narr:Obs_VelocityQuote a narr:Observation ;
+      skos:broader narr:Quotes ;
+      dct:source narr:Sample_TanyaRetro_20250522 ;
+      oa:hasSelector [
+        a oa:TextPositionSelector ;
+        oa:start 51 ;
+        oa:end 117 
+      ] ;
+      oa:hasSelector [
+        a oa:TextQuoteSelector ;
+        oa:exact "Velocity was 23 points, highest this quarter." ;
+        oa:prefix "decision widget. " ;
+        oa:suffix " The Zephyr integration"
+      ] .
+
+    narr:StyleObs_DirectQuote a narr:StyleObservation ;
+      skos:broader narr:ToneDirectPersonal ;
+      dct:source narr:Sample_TanyaRetro_20250522 ;
+      oa:hasTarget [
+        a oa:SpecificResource ;
+        oa:hasSource narr:Sample_TanyaRetro_20250522 ;
+        oa:hasSelector [ a oa:TextPositionSelector ; oa:start 44 ; oa:end 156 ] ;
+        oa:hasSelector [ 
+          a oa:TextQuoteSelector ; 
+          oa:exact "We shipped the async decision widget. Velocity was 23 points, highest this quarter. The Zephyr integration was the key unlock." 
+        ]
+      ] ;
+      skos:note "Use of first-person plural 'We' and direct attribution." .
+
+    narr:StyleObs_JargonIntegration a narr:StyleObservation ;
+      skos:broader narr:JargonPolicy ;
+      dct:source narr:Sample_TanyaRetro_20250522 ;
+      oa:hasTarget [
+        a oa:SpecificResource ;
+        oa:hasSource narr:Sample_TanyaRetro_20250522 ;
+        oa:hasSelector [ a oa:TextPositionSelector ; oa:start 59 ; oa:end 81 ] ;
+        oa:hasSelector [ oa:exact "async decision widget" ]
+      ] ;
+      skos:note "Technical product jargon used naturally in retro context." .
+
+    narr:StyleObs_MetricFocus a narr:StyleObservation ;
+      skos:broader narr:ShortPunchyCadence ;
+      dct:source narr:Sample_TanyaRetro_20250522 ;
+      oa:hasTarget [
+        a oa:SpecificResource ;
+        oa:hasSource narr:Sample_TanyaRetro_20250522 ;
+        oa:hasSelector [ a oa:TextPositionSelector ; oa:start 83 ; oa:end 117 ] ;
+        oa:hasSelector [ oa:exact "Velocity was 23 points, highest this quarter." ]
+      ] ;
+      skos:note "Fact-dense, punchy delivery of performance data." .
+
+    narr:Metrics_TanyaRetro a narr:StyleMetrics ;
+      dct:source narr:Sample_TanyaRetro_20250522 ;
+      skos:broader narr:StyleMetrics ;
+      narr:AverageSentenceLength 9 ;
+      narr:ActiveVoiceRatio 1.0 ;
+      narr:JargonDensity 0.15 .
+  }
+}
