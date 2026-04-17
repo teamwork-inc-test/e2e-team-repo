@@ -1,0 +1,102 @@
+PREFIX narr: <https://aswritten.ai/narrative#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX oa: <http://www.w3.org/ns/oa#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+# Transaction provenance (default graph)
+INSERT DATA {
+  narr:Tx_20250522T120000Z a prov:Activity ;
+    prov:generatedAtTime "2025-05-22T12:00:00Z"^^xsd:dateTime ;
+    prov:wasAssociatedWith "aswritten.ai" ;
+    prov:wasAttributedTo "n8n.aswritten.ai" ;
+    narr:originPath "2025-05-22-tanya-retro.md" ;
+    narr:originRef "main" ;
+    prov:generated narr:Sample_TanyaRetro_20250522, narr:Actor_Tanya, narr:Narrative_VelocityPeak, narr:Claim_AsyncWidgetShip, narr:Claim_ZephyrUnlock, narr:Obs_VelocityPoints, narr:Style_DirectFirstPerson, narr:Style_JargonVelocity, narr:Style_MetricUnlock, narr:Metrics_TanyaRetro .
+} ;
+
+# Extracted entities (named graph)
+INSERT DATA {
+  GRAPH narr:Tx_20250522T120000Z {
+    narr:Sample_TanyaRetro_20250522 a narr:Sample ;
+      dct:title "Tanya's Sprint Retro" ;
+      narr:inputLength 165 .
+
+    narr:Actor_Tanya a narr:Actor ;
+      skos:prefLabel "Tanya" ;
+      skos:note "Sprint participant reporting on velocity and shipping." .
+
+    narr:Narrative_VelocityPeak a narr:Narrative ;
+      dct:source narr:Sample_TanyaRetro_20250522 ;
+      narr:theme "Record Velocity Achievement" ;
+      skos:broader narr:KPIsSuccess ;
+      skos:note "The team achieved its highest velocity of the quarter." .
+
+    narr:Claim_AsyncWidgetShip a narr:Claim ;
+      narr:aboutNode narr:ModulesCapabilities ;
+      narr:hasConvictionLevel narr:Conviction_Foundation ;
+      dct:source narr:Sample_TanyaRetro_20250522 ;
+      skos:note "The async decision widget has been successfully shipped." .
+
+    narr:Claim_ZephyrUnlock a narr:Claim ;
+      narr:aboutNode narr:DependenciesIntegrations ;
+      narr:hasConvictionLevel narr:Conviction_Boulder ;
+      narr:supports narr:Narrative_VelocityPeak ;
+      dct:source narr:Sample_TanyaRetro_20250522 ;
+      skos:note "Zephyr integration was the primary driver for the velocity increase." .
+
+    narr:Obs_VelocityPoints a narr:Observation ;
+      skos:broader narr:MetricsMonitoring ;
+      dct:source narr:Sample_TanyaRetro_20250522 ;
+      oa:hasSelector [
+        a oa:TextPositionSelector ;
+        oa:start 71 ;
+        oa:end 94 
+      ] ;
+      oa:hasSelector [
+        a oa:TextQuoteSelector ;
+        oa:exact "Velocity was 23 points" ;
+        oa:prefix "widget. " ;
+        oa:suffix ", highest"
+      ] .
+
+    narr:Style_DirectFirstPerson a narr:StyleObservation ;
+      skos:broader narr:FirstPerson ;
+      dct:source narr:Sample_TanyaRetro_20250522 ;
+      oa:hasTarget [
+        a oa:SpecificResource ;
+        oa:hasSource narr:Sample_TanyaRetro_20250522 ;
+        oa:hasSelector [ a oa:TextPositionSelector ; oa:start 37 ; oa:end 46 ] ;
+        oa:hasSelector [ a oa:TextQuoteSelector ; oa:exact "We shipped" ; oa:prefix "Tanya: \"" ; oa:suffix " the async" ]
+      ] .
+
+    narr:Style_JargonVelocity a narr:StyleObservation ;
+      skos:broader narr:JargonPolicy ;
+      dct:source narr:Sample_TanyaRetro_20250522 ;
+      oa:hasTarget [
+        a oa:SpecificResource ;
+        oa:hasSource narr:Sample_TanyaRetro_20250522 ;
+        oa:hasSelector [ a oa:TextPositionSelector ; oa:start 71 ; oa:end 79 ] ;
+        oa:hasSelector [ a oa:TextQuoteSelector ; oa:exact "Velocity" ; oa:prefix "widget. " ; oa:suffix " was 23" ]
+      ] .
+
+    narr:Style_MetricUnlock a narr:StyleObservation ;
+      skos:broader narr:ShortPunchyCadence ;
+      dct:source narr:Sample_TanyaRetro_20250522 ;
+      oa:hasTarget [
+        a oa:SpecificResource ;
+        oa:hasSource narr:Sample_TanyaRetro_20250522 ;
+        oa:hasSelector [ a oa:TextPositionSelector ; oa:start 123 ; oa:end 158 ] ;
+        oa:hasSelector [ a oa:TextQuoteSelector ; oa:exact "The Zephyr integration was the key unlock." ; oa:prefix "quarter. " ; oa:suffix "\"" ]
+      ] .
+
+    narr:Metrics_TanyaRetro a narr:StyleMetrics ;
+      skos:broader narr:StyleMetrics ;
+      dct:source narr:Sample_TanyaRetro_20250522 ;
+      narr:AverageSentenceLength 10 ;
+      narr:ActiveVoiceRatio 1.0 ;
+      narr:JargonDensity 0.2 .
+  }
+}
