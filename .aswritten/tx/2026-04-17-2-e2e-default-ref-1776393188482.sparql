@@ -1,0 +1,91 @@
+PREFIX narr: <https://aswritten.ai/narrative#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX oa: <http://www.w3.org/ns/oa#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+INSERT DATA {
+  narr:Tx_20250728T120000Z a prov:Activity ;
+    prov:generatedAtTime "2025-07-28T12:00:00Z"^^xsd:dateTime ;
+    prov:wasAssociatedWith "aswritten.ai" ;
+    prov:wasAttributedTo "n8n.aswritten.ai" ;
+    narr:originPath "add" ;
+    narr:originRef "topic-branch-test" ;
+    prov:generated narr:Sample_DefaultRefTest_v22, narr:StyleMetrics_DefaultRefTest_v22, narr:StyleObs_Tanya_Direct_v22, narr:StyleObs_Tanya_Jargon_v22, narr:StyleObs_Tanya_Active_v22 .
+} ;
+
+INSERT DATA {
+  GRAPH narr:Tx_20250728T120000Z {
+    narr:Sample_DefaultRefTest_v22 a narr:Sample ;
+      dct:title "Default Ref Test" ;
+      dct:description "Tanya testing system behavior when git ref is omitted, confirming topic branch creation." ;
+      narr:inputLength 113 .
+
+    narr:StyleMetrics_DefaultRefTest_v22 a narr:StyleMetrics ;
+      skos:broader narr:StyleMetrics ;
+      dct:source narr:Sample_DefaultRefTest_v22 ;
+      narr:AverageSentenceLength 10 ;
+      narr:ActiveVoiceRatio 1.0 ;
+      narr:JargonDensity 0.22 ;
+      skos:note "Single-sentence body. Active voice. Technical jargon: 'ref', 'topic branch'." .
+
+    narr:StyleObs_Tanya_Direct_v22 a narr:StyleObservation ;
+      skos:broader narr:ToneDirectPersonal ;
+      dct:source narr:Sample_DefaultRefTest_v22 ;
+      oa:hasTarget [
+        a oa:SpecificResource ;
+        oa:hasSource narr:Sample_DefaultRefTest_v22 ;
+        oa:hasSelector [
+          a oa:TextPositionSelector ;
+          oa:start 66 ;
+          oa:end 112
+        ] ;
+        oa:hasSelector [
+          a oa:TextQuoteSelector ;
+          oa:exact "Testing that omitted ref creates a topic branch." ;
+          oa:prefix "Tanya: \"" ;
+          oa:suffix "\""
+        ]
+      ] .
+
+    narr:StyleObs_Tanya_Jargon_v22 a narr:StyleObservation ;
+      skos:broader narr:JargonPolicy ;
+      dct:source narr:Sample_DefaultRefTest_v22 ;
+      oa:hasTarget [
+        a oa:SpecificResource ;
+        oa:hasSource narr:Sample_DefaultRefTest_v22 ;
+        oa:hasSelector [
+          a oa:TextPositionSelector ;
+          oa:start 80 ;
+          oa:end 83
+        ] ;
+        oa:hasSelector [
+          a oa:TextQuoteSelector ;
+          oa:exact "ref" ;
+          oa:prefix "omitted " ;
+          oa:suffix " creates"
+        ]
+      ] .
+
+    narr:StyleObs_Tanya_Active_v22 a narr:StyleObservation ;
+      skos:broader narr:VoiceActive ;
+      dct:source narr:Sample_DefaultRefTest_v22 ;
+      oa:hasTarget [
+        a oa:SpecificResource ;
+        oa:hasSource narr:Sample_DefaultRefTest_v22 ;
+        oa:hasSelector [
+          a oa:TextPositionSelector ;
+          oa:start 84 ;
+          oa:end 111
+        ] ;
+        oa:hasSelector [
+          a oa:TextQuoteSelector ;
+          oa:exact "creates a topic branch" ;
+          oa:prefix "omitted ref " ;
+          oa:suffix "."
+        ]
+      ] .
+  }
+}
