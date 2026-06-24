@@ -1,0 +1,113 @@
+PREFIX narr: <https://aswritten.ai/narrative#>
+PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX dct:  <http://purl.org/dc/terms/>
+PREFIX xsd:  <http://www.w3.org/2001/XMLSchema#>
+PREFIX oa:   <http://www.w3.org/ns/oa#>
+
+# Transaction provenance (default graph)
+INSERT DATA {
+  narr:Tx_20250813T120000Z a prov:Activity ;
+    dct:title "Default Ref Test — repeat extraction v39" ;
+    prov:generatedAtTime "2025-08-13T12:00:00Z"^^xsd:dateTime ;
+    prov:wasAssociatedWith "aswritten.ai" ;
+    prov:wasAttributedTo "n8n.aswritten.ai" ;
+    narr:originPath "add" ;
+    narr:originRef "(omitted — document explicitly tests omitted-ref behavior)" ;
+    prov:generated
+      narr:Sample_DefaultRefTest_v39,
+      narr:StyleMetrics_DefaultRefTest_v39,
+      narr:StyleObs_DefaultRefTest_v39_ToneDirectPersonal,
+      narr:StyleObs_DefaultRefTest_v39_JargonPolicy,
+      narr:StyleObs_DefaultRefTest_v39_SpeakerIdiolects .
+} ;
+
+# Extracted entities (named graph)
+INSERT DATA {
+  GRAPH narr:Tx_20250813T120000Z {
+
+    # ── Sample ──────────────────────────────────────────────────
+    narr:Sample_DefaultRefTest_v39 a narr:Sample ;
+      dct:title "Default Ref Test" ;
+      dct:description "Repeat extraction (v39) of the minimal Default Ref Test document. One reviewer entry (PII redacted). One attributed quote from Tanya asserting that omitting a ref creates a topic branch." ;
+      narr:inputLength 113 ;
+      narr:styleProfile "<https://aswritten.ai/narrative#JargonPolicy>\n<https://aswritten.ai/narrative#SpeakerIdiolects>\n<https://aswritten.ai/narrative#ToneDirectPersonal>" .
+
+    # ── Style Metrics ────────────────────────────────────────────
+    narr:StyleMetrics_DefaultRefTest_v39 a narr:StyleMetrics ;
+      skos:broader narr:StyleMetrics ;
+      dct:source narr:Sample_DefaultRefTest_v39 ;
+      skos:note "Single-sentence body. Active voice throughout. Mild technical jargon: 'ref', 'topic branch'. Register: informal test note. Consistent with v1–v38 metrics." ;
+      narr:AverageSentenceLength "9"^^xsd:integer ;
+      narr:ActiveVoiceRatio "1.0"^^xsd:decimal ;
+      narr:JargonDensity "0.2"^^xsd:decimal .
+
+    # ── Style Observations ───────────────────────────────────────
+
+    # 1. ToneDirectPersonal — Tanya's direct first-person assertion
+    narr:StyleObs_DefaultRefTest_v39_ToneDirectPersonal a narr:StyleObservation ;
+      skos:broader narr:ToneDirectPersonal ;
+      dct:source narr:Sample_DefaultRefTest_v39 ;
+      skos:note "Direct personal assertion by named speaker. Imperative-adjacent declarative tone." ;
+      oa:hasTarget [
+        a oa:SpecificResource ;
+        oa:hasSource narr:Sample_DefaultRefTest_v39 ;
+        oa:hasSelector [
+          a oa:TextPositionSelector ;
+          oa:start 57 ;
+          oa:end 113
+        ] ;
+        oa:hasSelector [
+          a oa:TextQuoteSelector ;
+          oa:exact "Testing that omitted ref creates a topic branch." ;
+          oa:prefix "Tanya: \"" ;
+          oa:suffix "\""
+        ]
+      ] .
+
+    # 2. JargonPolicy — technical terms 'ref' and 'topic branch' used precisely
+    narr:StyleObs_DefaultRefTest_v39_JargonPolicy a narr:StyleObservation ;
+      skos:broader narr:JargonPolicy ;
+      dct:source narr:Sample_DefaultRefTest_v39 ;
+      skos:note "Technical git jargon ('ref', 'topic branch') used without definition — assumes developer audience." ;
+      rdf:value true ;
+      oa:hasTarget [
+        a oa:SpecificResource ;
+        oa:hasSource narr:Sample_DefaultRefTest_v39 ;
+        oa:hasSelector [
+          a oa:TextPositionSelector ;
+          oa:start 75 ;
+          oa:end 113
+        ] ;
+        oa:hasSelector [
+          a oa:TextQuoteSelector ;
+          oa:exact "omitted ref creates a topic branch." ;
+          oa:prefix "Testing that " ;
+          oa:suffix ""
+        ]
+      ] .
+
+    # 3. SpeakerIdiolects — named-speaker attribution pattern
+    narr:StyleObs_DefaultRefTest_v39_SpeakerIdiolects a narr:StyleObservation ;
+      skos:broader narr:SpeakerIdiolects ;
+      dct:source narr:Sample_DefaultRefTest_v39 ;
+      skos:note "Speaker attribution via 'Name: \"quote\"' pattern — idiolect marker consistent across all DefaultRefTest versions." ;
+      oa:hasTarget [
+        a oa:SpecificResource ;
+        oa:hasSource narr:Sample_DefaultRefTest_v39 ;
+        oa:hasSelector [
+          a oa:TextPositionSelector ;
+          oa:start 50 ;
+          oa:end 113
+        ] ;
+        oa:hasSelector [
+          a oa:TextQuoteSelector ;
+          oa:exact "Tanya: \"Testing that omitted ref creates a topic branch.\"" ;
+          oa:prefix "\n\n" ;
+          oa:suffix ""
+        ]
+      ] .
+
+  }
+}

@@ -1,0 +1,92 @@
+PREFIX narr: <https://aswritten.ai/narrative#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX oa: <http://www.w3.org/ns/oa#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+INSERT DATA {
+  narr:Tx_20250714T120010Z a prov:Activity ;
+    prov:generatedAtTime "2025-07-14T12:00:10Z"^^xsd:dateTime ;
+    prov:wasAssociatedWith "aswritten.ai" ;
+    prov:wasAttributedTo "n8n.aswritten.ai" ;
+    narr:originPath "add" ;
+    narr:originRef "topic-branch-test" ;
+    prov:generated narr:Sample_DefaultRefTest_v5, narr:StyleMetrics_DefaultRefTest_v5, narr:StyleObs_QuotedSpeech, narr:StyleObs_TechnicalJargon, narr:StyleObs_DirectTone .
+} ;
+
+INSERT DATA {
+  GRAPH narr:Tx_20250714T120010Z {
+    narr:Sample_DefaultRefTest_v5 a narr:Sample ;
+      dct:title "Default Ref Test" ;
+      dct:description "Tanya testing system behavior when git ref is omitted, confirming topic branch creation." ;
+      narr:inputLength 113 .
+
+    narr:StyleMetrics_DefaultRefTest_v5 a narr:StyleMetrics ;
+      skos:broader narr:StyleMetrics ;
+      dct:source narr:Sample_DefaultRefTest_v5 ;
+      narr:AverageSentenceLength 9 ;
+      narr:ActiveVoiceRatio 1.0 ;
+      narr:JargonDensity 0.2 ;
+      skos:note "Single sentence test note with technical terminology." .
+
+    narr:StyleObs_QuotedSpeech a narr:StyleObservation ;
+      skos:broader narr:SpeakerIdiolects ;
+      dct:source narr:Sample_DefaultRefTest_v5 ;
+      oa:hasTarget [
+        a oa:SpecificResource ;
+        oa:hasSource narr:Sample_DefaultRefTest_v5 ;
+        oa:hasSelector [ a oa:TextPositionSelector ; oa:start 63 ; oa:end 112 ] ;
+        oa:hasSelector [ a oa:TextQuoteSelector ; 
+          oa:exact "Testing that omitted ref creates a topic branch." ;
+          oa:prefix "Tanya: \"" ;
+          oa:suffix "\"" 
+        ]
+      ] .
+
+    narr:StyleObs_TechnicalJargon a narr:StyleObservation ;
+      skos:broader narr:JargonPolicy ;
+      dct:source narr:Sample_DefaultRefTest_v5 ;
+      oa:hasTarget [
+        a oa:SpecificResource ;
+        oa:hasSource narr:Sample_DefaultRefTest_v5 ;
+        oa:hasSelector [ a oa:TextPositionSelector ; oa:start 100 ; oa:end 112 ] ;
+        oa:hasSelector [ a oa:TextQuoteSelector ; 
+          oa:exact "topic branch" ;
+          oa:prefix "creates a " ;
+          oa:suffix "." 
+        ]
+      ] .
+
+    narr:StyleObs_DirectTone a narr:StyleObservation ;
+      skos:broader narr:ToneDirectPersonal ;
+      dct:source narr:Sample_DefaultRefTest_v5 ;
+      oa:hasTarget [
+        a oa:SpecificResource ;
+        oa:hasSource narr:Sample_DefaultRefTest_v5 ;
+        oa:hasSelector [ a oa:TextPositionSelector ; oa:start 56 ; oa:end 113 ] ;
+        oa:hasSelector [ a oa:TextQuoteSelector ; 
+          oa:exact "Tanya: \"Testing that omitted ref creates a topic branch.\"" ;
+          oa:prefix "# Default Ref Test\n\n" ;
+          oa:suffix "" 
+        ]
+      ] .
+  }
+} ;
+
+DELETE {
+  GRAPH ?g {
+    narr:Claim_OmittedRefCreatesBranch narr:hasConvictionLevel ?oldLevel .
+  }
+}
+INSERT {
+  GRAPH narr:Tx_20250714T120010Z {
+    narr:Claim_OmittedRefCreatesBranch narr:hasConvictionLevel narr:Conviction_Stake .
+  }
+}
+WHERE {
+  GRAPH ?g {
+    narr:Claim_OmittedRefCreatesBranch narr:hasConvictionLevel ?oldLevel .
+  }
+}

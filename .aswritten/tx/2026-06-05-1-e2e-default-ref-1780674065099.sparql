@@ -1,0 +1,123 @@
+PREFIX narr: <https://aswritten.ai/narrative#>
+PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX dct:  <http://purl.org/dc/terms/>
+PREFIX xsd:  <http://www.w3.org/2001/XMLSchema#>
+PREFIX oa:   <http://www.w3.org/ns/oa#>
+
+INSERT DATA {
+  narr:Tx_20250905T120000Z a prov:Activity ;
+    dct:title "Default Ref Test — repeat extraction v80" ;
+    prov:generatedAtTime "2025-09-05T12:00:00Z"^^xsd:dateTime ;
+    prov:wasAssociatedWith "aswritten.ai" ;
+    prov:wasAttributedTo "n8n.aswritten.ai" ;
+    narr:originPath "add" ;
+    narr:originRef "topic-branch-test" ;
+    prov:generated
+      narr:Sample_DefaultRefTest_v80,
+      narr:StyleMetrics_DefaultRefTest_v80,
+      narr:Obs_DefaultRefTest_v80_TanyaQuote,
+      narr:StyleObs_DefaultRefTest_v80_JargonPolicy,
+      narr:StyleObs_DefaultRefTest_v80_ToneDirectPersonal,
+      narr:StyleObs_DefaultRefTest_v80_SpeakerIdiolects .
+} ;
+
+INSERT DATA {
+  GRAPH narr:Tx_20250905T120000Z {
+
+    narr:Sample_DefaultRefTest_v80 a narr:Sample ;
+      dct:title "Default Ref Test" ;
+      dct:description "Repeat extraction (v80) of the minimal Default Ref Test document. One reviewer entry (PII redacted). One attributed quote from Tanya asserting that omitting a ref creates a topic branch." ;
+      narr:inputLength 113 ;
+      narr:styleProfile "<https://aswritten.ai/narrative#JargonPolicy>\n<https://aswritten.ai/narrative#SpeakerIdiolects>\n<https://aswritten.ai/narrative#ToneDirectPersonal>" .
+
+    narr:StyleMetrics_DefaultRefTest_v80 a narr:StyleMetrics ;
+      skos:broader narr:StyleMetrics ;
+      dct:source narr:Sample_DefaultRefTest_v80 ;
+      skos:note "Single-sentence body. Active voice throughout. Mild technical jargon: 'ref', 'topic branch'. Register: informal test note. Consistent with v1–v79 metrics." ;
+      narr:AverageSentenceLength "9"^^xsd:integer ;
+      narr:ActiveVoiceRatio "1.0"^^xsd:decimal ;
+      narr:JargonDensity "0.2"^^xsd:decimal .
+
+    narr:Obs_DefaultRefTest_v80_TanyaQuote a narr:Observation ;
+      skos:broader narr:Process ;
+      dct:source narr:Sample_DefaultRefTest_v80 ;
+      skos:note "Tanya's direct assertion that omitting a ref causes the system to create a topic branch." ;
+      oa:hasSelector [
+        a oa:TextPositionSelector ;
+        oa:start 88 ;
+        oa:end 140
+      ] ;
+      oa:hasSelector [
+        a oa:TextQuoteSelector ;
+        oa:exact "Testing that omitted ref creates a topic branch." ;
+        oa:prefix "Tanya: \"" ;
+        oa:suffix "\""
+      ] .
+
+    narr:StyleObs_DefaultRefTest_v80_JargonPolicy a narr:StyleObservation ;
+      skos:broader narr:JargonPolicy ;
+      dct:source narr:Sample_DefaultRefTest_v80 ;
+      skos:note "Technical terms 'ref' and 'topic branch' used without definition — assumes developer audience." ;
+      rdf:value true ;
+      oa:hasTarget [
+        a oa:SpecificResource ;
+        oa:hasSource narr:Sample_DefaultRefTest_v80 ;
+        oa:hasSelector [
+          a oa:TextPositionSelector ;
+          oa:start 88 ;
+          oa:end 140
+        ] ;
+        oa:hasSelector [
+          a oa:TextQuoteSelector ;
+          oa:exact "omitted ref creates a topic branch" ;
+          oa:prefix "Testing that " ;
+          oa:suffix "."
+        ]
+      ] .
+
+    narr:StyleObs_DefaultRefTest_v80_ToneDirectPersonal a narr:StyleObservation ;
+      skos:broader narr:ToneDirectPersonal ;
+      dct:source narr:Sample_DefaultRefTest_v80 ;
+      skos:note "First-person attributed quote in direct speech. Tanya speaks in present tense, declarative mood — no hedging." ;
+      rdf:value true ;
+      oa:hasTarget [
+        a oa:SpecificResource ;
+        oa:hasSource narr:Sample_DefaultRefTest_v80 ;
+        oa:hasSelector [
+          a oa:TextPositionSelector ;
+          oa:start 80 ;
+          oa:end 140
+        ] ;
+        oa:hasSelector [
+          a oa:TextQuoteSelector ;
+          oa:exact "Tanya: \"Testing that omitted ref creates a topic branch.\"" ;
+          oa:prefix "# Default Ref Test\n\n" ;
+          oa:suffix ""
+        ]
+      ] .
+
+    narr:StyleObs_DefaultRefTest_v80_SpeakerIdiolects a narr:StyleObservation ;
+      skos:broader narr:SpeakerIdiolects ;
+      dct:source narr:Sample_DefaultRefTest_v80 ;
+      skos:note "Speaker attribution pattern 'Name: \"quote\"' is a recurring idiolect marker in this document series." ;
+      rdf:value true ;
+      oa:hasTarget [
+        a oa:SpecificResource ;
+        oa:hasSource narr:Sample_DefaultRefTest_v80 ;
+        oa:hasSelector [
+          a oa:TextPositionSelector ;
+          oa:start 80 ;
+          oa:end 87
+        ] ;
+        oa:hasSelector [
+          a oa:TextQuoteSelector ;
+          oa:exact "Tanya:" ;
+          oa:prefix "\n\n" ;
+          oa:suffix " \"Testing"
+        ]
+      ] .
+
+  }
+}
