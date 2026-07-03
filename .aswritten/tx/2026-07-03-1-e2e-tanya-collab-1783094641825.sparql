@@ -1,0 +1,161 @@
+PREFIX narr: <https://aswritten.ai/narrative#>
+PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX dct:  <http://purl.org/dc/terms/>
+PREFIX xsd:  <http://www.w3.org/2001/XMLSchema#>
+PREFIX oa:   <http://www.w3.org/ns/oa#>
+
+INSERT DATA {
+  narr:Tx_20260703T160647Z a prov:Activity ;
+    prov:generatedAtTime "2026-07-03T16:06:47Z"^^xsd:dateTime ;
+    prov:wasAssociatedWith "aswritten.ai" ;
+    prov:wasAttributedTo "n8n.aswritten.ai" ;
+    narr:originPath ".aswritten/memories/2026-07-03-1-e2e-tanya-collab-1783094641825.md" ;
+    narr:originRef "e2e-collab-1783094569718" ;
+    dct:title "Tanya Sprint Retro extraction" ;
+    prov:generated
+      narr:Sample_TanyaSprintRetro,
+      narr:Actor_Tanya_TeamworkInc,
+      narr:Narrative_SprintVelocityRecord,
+      narr:Claim_TanyaZephyrKeyUnlock,
+      narr:Obs_TanyaVelocity23Points,
+      narr:Obs_TanyaShippedWidget,
+      narr:StyleObs_TanyaFirstPersonQuote,
+      narr:StyleObs_TanyaAttributiveVerb,
+      narr:StyleObs_TanyaHighestThisQuarter,
+      narr:StyleMetrics_TanyaSprintRetro .
+} ;
+
+INSERT DATA {
+  GRAPH narr:Tx_20260703T160647Z {
+
+    # ── Sample ──────────────────────────────────────────────────
+    narr:Sample_TanyaSprintRetro a narr:Sample ;
+      dct:title "Tanya's Sprint Retro" ;
+      narr:inputLength 210 ;
+      dct:description "Short sprint retrospective note from Tanya (reviewer: tanya+staging@aswritten.ai). Reports shipped async decision widget, 23-point velocity (highest this quarter), and Zephyr integration as key unlock." .
+
+    # ── Actor ───────────────────────────────────────────────────
+    narr:Actor_Tanya_TeamworkInc a narr:Actor ;
+      skos:prefLabel "Tanya" ;
+      skos:note "Sprint retro author and reviewer (tanya+staging@aswritten.ai). Reports directly on shipped widget and velocity metrics." .
+
+    # ── Narrative ───────────────────────────────────────────────
+    narr:Narrative_SprintVelocityRecord a narr:Narrative ;
+      narr:theme "Sprint velocity record driven by Zephyr integration unlock" ;
+      skos:broader narr:KPIsSuccess ;
+      skos:note "Tanya reports 23-point sprint velocity — highest this quarter — attributing the result to the Zephyr integration as the key unlock enabling the async decision widget shipment." ;
+      dct:source narr:Sample_TanyaSprintRetro .
+
+    # ── Claim ───────────────────────────────────────────────────
+    narr:Claim_TanyaZephyrKeyUnlock a narr:Claim ;
+      narr:aboutNode narr:Narrative_SprintVelocityRecord ;
+      narr:hasConvictionLevel narr:Conviction_Stake ;
+      narr:supports narr:Claim_ZephyrIntegrationUnlock ;
+      skos:note "Tanya (sprint retro author) directly attributes the velocity record to the Zephyr integration, corroborating Tina's earlier identification of it as the key unlock." ;
+      dct:source narr:Sample_TanyaSprintRetro .
+
+    # ── Observations ────────────────────────────────────────────
+    narr:Obs_TanyaVelocity23Points a narr:Observation ;
+      skos:broader narr:KPIsSuccess ;
+      dct:source narr:Sample_TanyaSprintRetro ;
+      skos:note "Tanya self-reports 23-point velocity as highest this quarter, corroborating Obs_TinaVelocity from a different speaker perspective." ;
+      oa:hasSelector [
+        a oa:TextPositionSelector ;
+        oa:start 121 ; oa:end 166
+      ] ;
+      oa:hasSelector [
+        a oa:TextQuoteSelector ;
+        oa:exact "Velocity was 23 points, highest this quarter." ;
+        oa:prefix "pped the async decision widget. " ;
+        oa:suffix " The Zephyr integration was the "
+      ] .
+
+    narr:Obs_TanyaShippedWidget a narr:Observation ;
+      skos:broader narr:Milestones ;
+      dct:source narr:Sample_TanyaSprintRetro ;
+      skos:note "Tanya confirms shipment of the async decision widget in this sprint." ;
+      oa:hasSelector [
+        a oa:TextPositionSelector ;
+        oa:start 83 ; oa:end 120
+      ] ;
+      oa:hasSelector [
+        a oa:TextQuoteSelector ;
+        oa:exact "We shipped the async decision widget." ;
+        oa:prefix "# Tanya's Sprint Retro\n\nTanya: \"" ;
+        oa:suffix " Velocity was 23 points, highest"
+      ] .
+
+    # ── Style Observations ──────────────────────────────────────
+    narr:StyleObs_TanyaFirstPersonQuote a narr:StyleObservation ;
+      skos:broader narr:FirstPerson ;
+      dct:source narr:Sample_TanyaSprintRetro ;
+      skos:note "Speaker uses first-person plural ('We shipped') — collective ownership framing in a retro context." ;
+      rdf:value true ;
+      oa:hasTarget [
+        a oa:SpecificResource ;
+        oa:hasSource narr:Sample_TanyaSprintRetro ;
+        oa:hasSelector [
+          a oa:TextPositionSelector ;
+          oa:start 83 ; oa:end 120
+        ] ;
+        oa:hasSelector [
+          a oa:TextQuoteSelector ;
+          oa:exact "We shipped the async decision widget." ;
+          oa:prefix "# Tanya's Sprint Retro\n\nTanya: \"" ;
+          oa:suffix " Velocity was 23 points, highest"
+        ]
+      ] .
+
+    narr:StyleObs_TanyaAttributiveVerb a narr:StyleObservation ;
+      skos:broader narr:VerbChoice ;
+      dct:source narr:Sample_TanyaSprintRetro ;
+      skos:note "'Was the key unlock' — nominalized causal attribution. 'Unlock' used as a noun/metaphor for enabling condition, consistent with product-team jargon." ;
+      rdf:value true ;
+      oa:hasTarget [
+        a oa:SpecificResource ;
+        oa:hasSource narr:Sample_TanyaSprintRetro ;
+        oa:hasSelector [
+          a oa:TextPositionSelector ;
+          oa:start 167 ; oa:end 209
+        ] ;
+        oa:hasSelector [
+          a oa:TextQuoteSelector ;
+          oa:exact "The Zephyr integration was the key unlock." ;
+          oa:prefix "3 points, highest this quarter. " ;
+          oa:suffix "\""
+        ]
+      ] .
+
+    narr:StyleObs_TanyaHighestThisQuarter a narr:StyleObservation ;
+      skos:broader narr:ToneAuthoritative ;
+      dct:source narr:Sample_TanyaSprintRetro ;
+      skos:note "Superlative framing ('highest this quarter') used without hedging — confident, data-anchored assertion typical of executive retro voice." ;
+      rdf:value true ;
+      oa:hasTarget [
+        a oa:SpecificResource ;
+        oa:hasSource narr:Sample_TanyaSprintRetro ;
+        oa:hasSelector [
+          a oa:TextPositionSelector ;
+          oa:start 145 ; oa:end 165
+        ] ;
+        oa:hasSelector [
+          a oa:TextQuoteSelector ;
+          oa:exact "highest this quarter" ;
+          oa:prefix "widget. Velocity was 23 points, " ;
+          oa:suffix ". The Zephyr integration was the"
+        ]
+      ] .
+
+    # ── Style Metrics ───────────────────────────────────────────
+    narr:StyleMetrics_TanyaSprintRetro a narr:StyleMetrics ;
+      skos:broader narr:StyleMetrics ;
+      dct:source narr:Sample_TanyaSprintRetro ;
+      narr:AverageSentenceLength 12 ;
+      narr:ActiveVoiceRatio "0.85"^^xsd:decimal ;
+      narr:JargonDensity "0.15"^^xsd:decimal ;
+      skos:note "Very short document (3 sentences). High active voice ratio — all three sentences use active constructions. Moderate jargon: 'async decision widget', 'Zephyr integration', 'key unlock'. Declarative, clipped retro register." .
+
+  }
+}
