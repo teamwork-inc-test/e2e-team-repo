@@ -1,0 +1,128 @@
+PREFIX narr: <https://aswritten.ai/narrative#>
+PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX dct:  <http://purl.org/dc/terms/>
+PREFIX xsd:  <http://www.w3.org/2001/XMLSchema#>
+PREFIX oa:   <http://www.w3.org/ns/oa#>
+
+# Transaction provenance (default graph)
+INSERT DATA {
+  narr:Tx_20260703T173841Z a prov:Activity ;
+    prov:generatedAtTime "2026-07-03T17:38:41Z"^^xsd:dateTime ;
+    prov:wasAssociatedWith "aswritten.ai" ;
+    prov:wasAttributedTo "n8n.aswritten.ai" ;
+    narr:originPath ".aswritten/memories/2026-07-03-1-e2e-tanya-collab-1783100110844.md" ;
+    narr:originRef "e2e-collab-1783099923471" ;
+    dct:title "Tanya Sprint Retro — async decision widget, 23-pt velocity, Zephyr unlock" ;
+    prov:generated
+      narr:Sample_TanyaSprintRetro,
+      narr:Obs_TanyaVelocityClaim,
+      narr:StyleObs_TanyaRetro_FirstPerson,
+      narr:StyleObs_TanyaRetro_JargonZephyr,
+      narr:StyleObs_TanyaRetro_ShortDeclarative,
+      narr:StyleMetrics_TanyaSprintRetro .
+} ;
+
+# Extracted entities (named graph)
+INSERT DATA {
+  GRAPH narr:Tx_20260703T173841Z {
+
+    # ── Sample ──────────────────────────────────────────────────
+    narr:Sample_TanyaSprintRetro a narr:Sample ;
+      dct:title "Tanya's Sprint Retro" ;
+      narr:inputLength 210 ;
+      dct:description "Short sprint retrospective note from Tanya (CEO). Reports shipping the async decision widget, 23-point velocity (highest this quarter), and names the Zephyr integration as the key unlock." .
+
+    # ── Observation: Tanya's direct attribution of velocity + Zephyr unlock ─
+    narr:Obs_TanyaVelocityClaim a narr:Observation ;
+      skos:broader narr:KPIsSuccess ;
+      dct:source narr:Sample_TanyaSprintRetro ;
+      skos:note "Tanya (CEO) directly attributes 23-point sprint velocity — highest this quarter — to the Zephyr integration as the key unlock. This is a first-person CEO attribution distinct from the existing Obs_TinaVelocity (Head of Product attribution in Sample_Sprint4Retro_20260322)." ;
+      oa:hasSelector [
+        a oa:TextPositionSelector ;
+        oa:start 83 ; oa:end 209
+      ] ;
+      oa:hasSelector [
+        a oa:TextQuoteSelector ;
+        oa:exact "We shipped the async decision widget. Velocity was 23 points, highest this quarter. The Zephyr integration was the key unlock." ;
+        oa:prefix "# Tanya's Sprint Retro\n\nTanya: \"" ;
+        oa:suffix "\""
+      ] .
+
+    # ── Style Observations ───────────────────────────────────────
+
+    # 1. First-person direct quote attribution
+    narr:StyleObs_TanyaRetro_FirstPerson a narr:StyleObservation ;
+      skos:broader narr:ToneDirectPersonal ;
+      dct:source narr:Sample_TanyaSprintRetro ;
+      rdf:value true ;
+      skos:note "CEO speaks in first-person plural ('We shipped'), anchoring team ownership of the outcome. Direct attribution pattern: speaker name + colon + quoted speech." ;
+      oa:hasTarget [
+        a oa:SpecificResource ;
+        oa:hasSource narr:Sample_TanyaSprintRetro ;
+        oa:hasSelector [
+          a oa:TextPositionSelector ;
+          oa:start 83 ; oa:end 120
+        ] ;
+        oa:hasSelector [
+          a oa:TextQuoteSelector ;
+          oa:exact "We shipped the async decision widget." ;
+          oa:prefix "# Tanya's Sprint Retro\n\nTanya: \"" ;
+          oa:suffix " Velocity was 23 points, highest"
+        ]
+      ] .
+
+    # 2. Technical jargon used precisely (Zephyr, async)
+    narr:StyleObs_TanyaRetro_JargonZephyr a narr:StyleObservation ;
+      skos:broader narr:JargonPolicy ;
+      dct:source narr:Sample_TanyaSprintRetro ;
+      rdf:value true ;
+      skos:note "Product/engineering terms ('async', 'Zephyr integration') used without definition, assuming shared technical context. Consistent with the register of Sample_Sprint4Retro_20260322." ;
+      oa:hasTarget [
+        a oa:SpecificResource ;
+        oa:hasSource narr:Sample_TanyaSprintRetro ;
+        oa:hasSelector [
+          a oa:TextPositionSelector ;
+          oa:start 167 ; oa:end 209
+        ] ;
+        oa:hasSelector [
+          a oa:TextQuoteSelector ;
+          oa:exact "The Zephyr integration was the key unlock." ;
+          oa:prefix "3 points, highest this quarter. " ;
+          oa:suffix "\""
+        ]
+      ] .
+
+    # 3. Short punchy declarative cadence
+    narr:StyleObs_TanyaRetro_ShortDeclarative a narr:StyleObservation ;
+      skos:broader narr:ShortPunchyCadence ;
+      dct:source narr:Sample_TanyaSprintRetro ;
+      rdf:value true ;
+      skos:note "Three consecutive short declarative sentences (avg ~13 words each), each asserting a single fact. No hedging, no subordinate clauses. Matches Tanya's authoritative-declarative idiolect observed in Sample_TeamworkProductVision_20260310." ;
+      oa:hasTarget [
+        a oa:SpecificResource ;
+        oa:hasSource narr:Sample_TanyaSprintRetro ;
+        oa:hasSelector [
+          a oa:TextPositionSelector ;
+          oa:start 83 ; oa:end 209
+        ] ;
+        oa:hasSelector [
+          a oa:TextQuoteSelector ;
+          oa:exact "We shipped the async decision widget. Velocity was 23 points, highest this quarter. The Zephyr integration was the key unlock." ;
+          oa:prefix "# Tanya's Sprint Retro\n\nTanya: \"" ;
+          oa:suffix "\""
+        ]
+      ] .
+
+    # ── Style Metrics ────────────────────────────────────────────
+    narr:StyleMetrics_TanyaSprintRetro a narr:StyleMetrics ;
+      skos:broader narr:StyleMetrics ;
+      dct:source narr:Sample_TanyaSprintRetro ;
+      narr:AverageSentenceLength 13 ;
+      narr:ActiveVoiceRatio "0.95"^^xsd:decimal ;
+      narr:JargonDensity "0.12"^^xsd:decimal ;
+      skos:note "Extremely short document (3 sentences). All active voice. Minimal jargon (2 technical terms: 'async', 'Zephyr'). Operational-declarative register. No hedging language." .
+
+  }
+}
