@@ -1,0 +1,29 @@
+{
+  "placements" : [ {
+    "verdict" : "reuse",
+    "leaf" : "Narrative_DecisionCaptureAtConsensus",
+    "supporting_segments" : [ "src-1", "src-3" ],
+    "why" : "Shipping the async decision widget is the product's decision-capture mechanism reaching production, and the Zephyr integration is named as the technical unlock that made shipping it possible — both are evidence feeding the existing theme that the product captures decisions at the moment of consensus, rather than letting them evaporate into scrollback.",
+    "consulted" : [ "Narrative_AntiSlackPositioning", "Narrative_DecisionCaptureAtConsensus", "Narrative_DecisionsEvaporate" ]
+  }, {
+    "supporting_segments" : [ "src-2" ],
+    "under" : null,
+    "why" : "A sprint velocity figure is an organizational-strategy fact (team execution health), not a positioning or product-capture theme — none of the existing narrative leaves are about internal delivery performance, and strata is currently empty, so this is exactly the one real category this envelope's content calls for.",
+    "verdict" : "mint",
+    "leaf" : "Proof",
+    "kind" : "strata",
+    "title" : "Delivery evidence as its own organizational lens",
+    "theme" : "Concrete execution metrics — velocity, throughput, technical unlocks — get tracked as evidence of momentum, distinct from positioning or product-feature narrative.",
+    "consulted" : [ "Narrative_AntiSlackPositioning", "Narrative_DecisionCaptureAtConsensus", "Narrative_DecisionsEvaporate" ]
+  }, {
+    "verdict" : "mint",
+    "leaf" : "Narrative_ExecutionVelocityAccelerating",
+    "title" : "The team's shipping pace is climbing sprint over sprint",
+    "theme" : "Rising sprint velocity is itself evidence that the team's execution capability is accelerating, independent of any single feature shipped.",
+    "under" : [ "Proof" ],
+    "supporting_segments" : [ "src-2" ],
+    "why" : "A single quarter-high velocity number is a fact, not a leaf on its own — but sprint retros will keep reporting this metric over time, making 'the team's execution pace is increasing' a genuine recurring subject rather than a one-off statistic. No existing leaf (all about positioning or decision-capture) plausibly holds it, so it is minted fresh under the newly-minted Proof strata rather than left to sprawl as its own untethered category.",
+    "consulted" : [ "Narrative_AntiSlackPositioning", "Narrative_DecisionCaptureAtConsensus", "Narrative_DecisionsEvaporate" ]
+  } ],
+  "unplaced" : [ ]
+}
