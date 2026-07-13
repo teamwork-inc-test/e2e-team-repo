@@ -1,0 +1,33 @@
+{
+  "doc" : {
+    "title" : "Default Ref Test",
+    "date_stated" : "2026-07-13",
+    "actors_present" : [ "Tanya TeamOwner" ]
+  },
+  "segments" : [ {
+    "circumstance" : {
+      "date" : "2026-07-13",
+      "context" : "Default Ref Test document"
+    },
+    "exact" : "Testing that omitted ref creates a topic branch.",
+    "local_id" : "src-1",
+    "act" : "assertive",
+    "prefix" : "# Default Ref Test\n\nTanya: \"",
+    "suffix" : "\"",
+    "note" : null,
+    "footing" : null,
+    "redacted" : false,
+    "layer" : "source",
+    "actor" : "Tanya TeamOwner"
+  } ],
+  "coverage_gaps" : [ {
+    "reason" : "YAML frontmatter listing reviewers is metadata scaffolding, not a speech act",
+    "span_hint" : "reviewers:\n  - tanya"
+  }, {
+    "reason" : "Document heading is structural scaffolding, not a speech act",
+    "span_hint" : "# Default Ref Test"
+  }, {
+    "reason" : "Attribution label 'Tanya:' preceding the quote is structural framing, not itself a segmentable act",
+    "span_hint" : "Tanya: \""
+  } ]
+}
