@@ -1,0 +1,12 @@
+{
+  "positions" : [ {
+    "name" : "VelocityExplanation",
+    "frame" : "what accounts for this sprint's velocity number?",
+    "members" : [ "src-2", "src-3" ],
+    "why" : "Read together, the velocity figure and the integration claim point the same direction: the number is being explained by a specific unlock rather than left as a bare metric. The frame asks what drove the velocity, and the two statements answer it in tandem — one names the result, the other names the cause.",
+    "why_extra" : null
+  } ],
+  "attaches" : [ ],
+  "position_revisions" : [ ],
+  "ungrouped" : [ "src-1" ]
+}
