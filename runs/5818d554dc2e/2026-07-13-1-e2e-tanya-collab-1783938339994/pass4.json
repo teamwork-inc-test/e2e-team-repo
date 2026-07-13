@@ -1,0 +1,31 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "conviction" : "claim",
+    "evidence" : [ {
+      "quote" : "We shipped the async decision widget.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "The statement is an unhedged factual assertion, but it does not perform a ratification or otherwise establish a settled forward commitment.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-2",
+    "conviction" : "claim",
+    "evidence" : [ {
+      "quote" : "Velocity was 23 points, highest this quarter.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "This is a flat comparative assertion with no hedge, but it records a result rather than expressing a settled decision or bedrock principle.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-3",
+    "conviction" : "claim",
+    "evidence" : [ {
+      "quote" : "The Zephyr integration was the key unlock.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "The causal assessment is stated plainly and confidently, but it remains an asserted interpretation rather than a performed decision or permanent principle.",
+    "reported" : false
+  } ],
+  "unmarked" : [ ]
+}
