@@ -1,0 +1,31 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "past", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "We shipped the async decision widget.",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "The completed shipment is presented as an actual, specific event.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-2",
+    "regions" : [ "past", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "Velocity was 23 points, highest this quarter.",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "The measured velocity is framed as an actual completed-period result tied to a specific quantity.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-3",
+    "regions" : [ "past", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "The Zephyr integration was the key unlock.",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "A named integration is presented as an actual past factor in the outcome.",
+    "reported" : false
+  } ],
+  "unmarked" : [ ]
+}
