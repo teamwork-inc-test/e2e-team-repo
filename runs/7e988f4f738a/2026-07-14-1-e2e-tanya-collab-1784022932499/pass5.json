@@ -1,0 +1,10 @@
+{
+  "placements" : [ {
+    "verdict" : "reuse",
+    "leaf" : "Narrative_AntiSlackPositioning",
+    "supporting_segments" : [ "src-1", "src-2", "src-3" ],
+    "why" : "Tanya's three retro statements — the async decision widget shipped, velocity hit a quarterly high, and the Zephyr integration was the key unlock — are offered together as sprint-level proof-points for the anti-Slack positioning thesis: concrete delivery, a metric, and a technical unlock presented as evidence that the persistent-decision-artifact thesis holds. This matches how the position pass already grouped and attached this exact cluster (SprintFourEvidenceForThesis) under this leaf. Narrative_DecisionCaptureAtConsensus covers only the capture-mechanism theme and doesn't stretch to cover the velocity/integration proof-points; Narrative_DecisionsEvaporate is the antecedent problem-narrative, not the proof-of-thesis narrative these segments carry. Narrative_AntiSlackPositioning's span (every conversation should produce a persistent decision artifact, argued against Slack) plausibly holds all three as supporting proof.",
+    "consulted" : [ "Narrative_AntiSlackPositioning", "Narrative_DecisionCaptureAtConsensus", "Narrative_DecisionsEvaporate" ]
+  } ],
+  "unplaced" : [ ]
+}
