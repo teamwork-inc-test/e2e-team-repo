@@ -1,0 +1,13 @@
+{
+  "bindings" : [ {
+    "name" : "Tanya TeamOwner",
+    "verdict" : "mint",
+    "label" : "Tanya TeamOwner",
+    "why" : "No existing actors to bind against (young repo); fullest name form available is used as the mint label."
+  }, {
+    "name" : "tanya+staging@aswritten.ai",
+    "verdict" : "mint",
+    "label" : "Tanya TeamOwner",
+    "why" : "Same person as Tanya TeamOwner (submitted_by/account for the same envelope, no other Tanya in sight) — converges on identical label so both land on one node."
+  } ]
+}
