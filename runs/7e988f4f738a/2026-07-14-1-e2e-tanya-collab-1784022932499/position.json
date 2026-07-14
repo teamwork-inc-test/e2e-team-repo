@@ -1,0 +1,12 @@
+{
+  "positions" : [ {
+    "name" : "SprintFourEvidenceForThesis",
+    "frame" : "does the Sprint 4 retro's shipped-feature, velocity, and integration evidence confirm the anti-Slack decision-capture thesis?",
+    "members" : [ "src-1", "src-2", "src-3" ],
+    "why" : "Tanya's three statements — the widget shipped, velocity hit a quarterly high, and the Zephyr integration was the key unlock — read together as one directional claim: the sprint's concrete delivery, metric, and technical unlock are being offered as proof-points for the anti-Slack, zero-extra-step positioning thesis. No existing position in the consult (empty) can be attached or revised, so this reading is freshly minted from the sprint retro segments alone.",
+    "under" : [ "Narrative_AntiSlackPositioning" ]
+  } ],
+  "attaches" : [ ],
+  "position_revisions" : [ ],
+  "ungrouped" : [ ]
+}
