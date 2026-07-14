@@ -1,0 +1,18 @@
+{
+  "bindings" : [ {
+    "name" : "Tanya",
+    "verdict" : "mint",
+    "label" : "Tanya TeamOwner",
+    "why" : "No existing actors to bind against; 'Tanya' is a bare first name but converges with 'Tanya TeamOwner' present in the same envelope as submitted_by/participant, so it mints under the fuller label."
+  }, {
+    "name" : "Tanya TeamOwner",
+    "verdict" : "mint",
+    "label" : "Tanya TeamOwner",
+    "why" : "Fullest witnessed name for this actor; young repo with no existing actors, so this is a clean mint."
+  }, {
+    "name" : "tanya+staging@aswritten.ai",
+    "verdict" : "mint",
+    "label" : "Tanya TeamOwner",
+    "why" : "Account email matches submitted_by 'Tanya TeamOwner' in the same envelope; converges on the same identity, so it mints with the identical fuller label to land on one node."
+  } ]
+}
