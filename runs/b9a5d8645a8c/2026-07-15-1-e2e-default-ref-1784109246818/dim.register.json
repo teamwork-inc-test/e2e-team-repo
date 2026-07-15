@@ -1,0 +1,14 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "matter-of-fact" ],
+    "evidence" : [ {
+      "quote" : "Testing that omitted ref creates a topic branch.",
+      "kind" : "plain-signal"
+    } ],
+    "why" : "Flat, instrumental assertion with no address, jargon shift, or marked informality.",
+    "reported" : false
+  } ],
+  "mints" : [ ],
+  "unmarked" : [ ]
+}
