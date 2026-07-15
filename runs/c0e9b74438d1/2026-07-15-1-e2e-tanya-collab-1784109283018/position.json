@@ -1,0 +1,12 @@
+{
+  "positions" : [ {
+    "name" : "SprintVelocityZephyrCausation",
+    "frame" : "what explains this sprint's velocity outcome?",
+    "members" : [ "src-2", "src-3" ],
+    "why" : "Tanya's two statements read as one causal claim in sequence: the velocity figure is offered, then immediately attributed to the Zephyr integration as its cause. Read together they assert a driver-to-outcome relationship rather than two independent facts — the same causal read the March Sprint 4 retro established (Obs_TinaVelocity / Position_ZephyrIntegrationUnlock), now restated in this later retro without those prior positions being available in this pass's consult to attach to.",
+    "under" : [ "Narrative_AntiSlackPositioning" ]
+  } ],
+  "attaches" : [ ],
+  "position_revisions" : [ ],
+  "ungrouped" : [ "src-1" ]
+}
