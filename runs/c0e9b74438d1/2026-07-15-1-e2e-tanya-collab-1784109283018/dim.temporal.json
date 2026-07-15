@@ -1,0 +1,31 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "past", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "We shipped the async decision widget.",
+      "kind" : "plain-signal"
+    } ],
+    "why" : "The completed shipment is presented as an actual, specific event.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-2",
+    "regions" : [ "past", "realis", "abstract" ],
+    "evidence" : [ {
+      "quote" : "Velocity was 23 points, highest this quarter.",
+      "kind" : "plain-signal"
+    } ],
+    "why" : "A settled past measurement is stated, with attention to an aggregate performance pattern.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-3",
+    "regions" : [ "past", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "The Zephyr integration was the key unlock.",
+      "kind" : "plain-signal"
+    } ],
+    "why" : "A specific integration is characterized as having produced a completed enabling effect.",
+    "reported" : false
+  } ],
+  "unmarked" : [ ]
+}
