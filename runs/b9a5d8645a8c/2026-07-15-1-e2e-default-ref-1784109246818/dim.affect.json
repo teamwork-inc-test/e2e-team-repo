@@ -1,0 +1,14 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "calm-positive" ],
+    "evidence" : [ {
+      "quote" : "Testing that omitted ref creates a topic branch.",
+      "kind" : "plain-signal"
+    } ],
+    "why" : "The concise, matter-of-fact assertion carries a settled, constructive tone without heightened energy.",
+    "reported" : false
+  } ],
+  "mints" : [ ],
+  "unmarked" : [ ]
+}
