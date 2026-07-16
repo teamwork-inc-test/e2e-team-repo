@@ -1,0 +1,12 @@
+{
+  "positions" : [ {
+    "name" : "SprintOutcomeAsThesisEvidence",
+    "frame" : "what does this sprint's shipped outcome demonstrate about the product's async-decision thesis?",
+    "members" : [ "src-1", "src-2", "src-3" ],
+    "why" : "Tanya's retro recap threads three linked assertions — the widget shipped, velocity hit a quarter high, and Zephyr was the key unlock — into a single retrospective claim of demonstrated success. Read together they answer one question (what does this sprint prove?) rather than standing as three independent facts; each alone is a bare witnessed observation, but assembled they cohere as the sprint's evidentiary case for the positioning thesis.",
+    "under" : [ "Narrative_AntiSlackPositioning" ]
+  } ],
+  "attaches" : [ ],
+  "position_revisions" : [ ],
+  "ungrouped" : [ ]
+}
