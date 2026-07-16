@@ -1,0 +1,32 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "informational" ],
+    "evidence" : [ {
+      "quote" : "shipped the async decision widget",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Reports a concrete delivered artifact, supplying information about completed work without an explicit influence attempt.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-2",
+    "regions" : [ "informational", "rational-persuasion" ],
+    "evidence" : [ {
+      "quote" : "Velocity was 23 points, highest this quarter.",
+      "kind" : "plain-signal"
+    } ],
+    "why" : "Supplies a comparative performance metric that functions as evidence for the sprint's outcome.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-3",
+    "regions" : [ "informational" ],
+    "evidence" : [ {
+      "quote" : "The Zephyr integration was the key unlock.",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Frames a causal explanation by identifying the integration as the decisive enabler.",
+    "reported" : false
+  } ],
+  "mints" : [ ],
+  "unmarked" : [ ]
+}
