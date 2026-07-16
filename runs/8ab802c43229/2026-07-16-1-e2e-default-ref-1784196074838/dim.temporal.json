@@ -1,0 +1,19 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "present", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "Testing",
+      "kind" : "performed-act"
+    }, {
+      "quote" : "omitted ref",
+      "kind" : "plain-signal"
+    }, {
+      "quote" : "creates a topic branch",
+      "kind" : "plain-signal"
+    } ],
+    "why" : "The speaker performs a current test concerning a specific omission and its asserted branch-creation result.",
+    "reported" : false
+  } ],
+  "unmarked" : [ ]
+}
