@@ -1,0 +1,23 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "communal-sharing" ],
+    "evidence" : [ {
+      "quote" : "We shipped",
+      "kind" : "plain-signal"
+    } ],
+    "why" : "we-framing pools the accomplishment into an undifferentiated team body",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-2",
+    "regions" : [ "market-pricing" ],
+    "evidence" : [ {
+      "quote" : "23 points, highest this quarter",
+      "kind" : "plain-signal"
+    } ],
+    "why" : "quantified comparative measure frames performance proportionally against a benchmark",
+    "reported" : false
+  } ],
+  "mints" : [ ],
+  "unmarked" : [ "src-3" ]
+}
