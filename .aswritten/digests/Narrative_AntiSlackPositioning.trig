@@ -1,0 +1,25 @@
+@prefix narr: <https://aswritten.ai/narrative#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+GRAPH <https://aswritten.ai/narrative#Digest_Narrative_AntiSlackPositioning> {
+  <https://aswritten.ai/narrative#Digest_Narrative_AntiSlackPositioning> a narr:Digest ;
+    narr:digestOf <https://aswritten.ai/narrative#Narrative_AntiSlackPositioning> ;
+    narr:childCount "8"^^xsd:integer ;
+    narr:generatedFrom "e23a8f281aafe71262bdf0c3e6338753cc71c842" ;
+    narr:narration """The positioning of this product is anchored in a deliberate [rejection of real-time chat](narr:Position_AntiPatternRealtimeChat) as an anti-pattern, framing the offering instead as a [structured async decision platform](narr:Position_ProductCategoryAsyncPlatform). This strategic identity, established in March 2026, targets [remote teams of 10-50 people](narr:Position_TargetMarketRemoteTeams) experiencing decision-loss. The economic model began with a [base price of $12/user/month](narr:Position_PricingTwelveDollars), though this was later qualified by a tiered adjustment for larger teams. Recent evidence from July 2026 seeks to validate this thesis through [sprint outcomes](narr:Position_SprintOutcomeAsThesisEvidence), specifically citing the [shipment of an async decision widget](narr:Expr_1E2ETanyaCollab1784196155644_1) and a [Zephyr integration](narr:Expr_1E2ETanyaCollab1784196155644_3) as key technical unlocks. These operational milestones are presented alongside [velocity metrics](narr:Expr_1E2ETanyaCollab1784196155644_2) to argue for the efficacy of the async-first approach.""" ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1E2ETanyaCollab1784196155644_1> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1E2ETanyaCollab1784196155644_2> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1E2ETanyaCollab1784196155644_3> ;
+    narr:covers <https://aswritten.ai/narrative#Position_AntiPatternRealtimeChat> ;
+    narr:covers <https://aswritten.ai/narrative#Position_PricingTwelveDollars> ;
+    narr:covers <https://aswritten.ai/narrative#Position_ProductCategoryAsyncPlatform> ;
+    narr:covers <https://aswritten.ai/narrative#Position_SprintOutcomeAsThesisEvidence> ;
+    narr:covers <https://aswritten.ai/narrative#Position_TargetMarketRemoteTeams> ;
+    narr:keyPhrase [ narr:text "Real-time chat (Slack, Teams) is the named anti-pattern." ; narr:phraseSource <https://aswritten.ai/narrative#Position_AntiPatternRealtimeChat> ] ;
+    narr:keyPhrase [ narr:text "Structured async decision platform" ; narr:phraseSource <https://aswritten.ai/narrative#Position_ProductCategoryAsyncPlatform> ] ;
+    narr:keyPhrase [ narr:text "We shipped the async decision widget." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1E2ETanyaCollab1784196155644_1> ] ;
+    narr:keyPhrase [ narr:text "The Zephyr integration was the key unlock." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1E2ETanyaCollab1784196155644_3> ] ;
+    narr:keyPhrase [ narr:text "Velocity was 23 points, highest this quarter." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1E2ETanyaCollab1784196155644_2> ] ;
+    narr:variation [ narr:text "Pricing strategy shifted from a flat $12 model to a tiered $15 structure for teams over 25." ; narr:over <https://aswritten.ai/narrative#Position_PricingTwelveDollars> ] ;
+    narr:writer "google/gemini-3.1-flash-lite" .
+}
