@@ -1,0 +1,14 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-2",
+    "regions" : [ "calm-positive" ],
+    "evidence" : [ {
+      "quote" : "highest this quarter",
+      "kind" : "plain-signal"
+    } ],
+    "why" : "Flat comparative claim of achievement without excited delivery markers reads as settled satisfaction, not high arousal.",
+    "reported" : false
+  } ],
+  "mints" : [ ],
+  "unmarked" : [ "src-1", "src-3" ]
+}
