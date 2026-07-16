@@ -1,0 +1,31 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "conviction" : "claim",
+    "evidence" : [ {
+      "quote" : "We shipped the async decision widget.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "The flat declarative supports an asserted position, but there is no ratification, operational rule, or permanence marker to raise it to a decision.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-2",
+    "conviction" : "claim",
+    "evidence" : [ {
+      "quote" : "Velocity was 23 points, highest this quarter.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "This is an unhedged factual assertion, but it does not perform a settling or express bedrock conviction.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-3",
+    "conviction" : "claim",
+    "evidence" : [ {
+      "quote" : "The Zephyr integration was the key unlock.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "The unhedged declarative presents a firm interpretation, but there is no evidence of ratification, operational commitment, or permanence.",
+    "reported" : false
+  } ],
+  "unmarked" : [ ]
+}
