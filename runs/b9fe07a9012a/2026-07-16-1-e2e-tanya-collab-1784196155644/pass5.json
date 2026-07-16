@@ -1,0 +1,10 @@
+{
+  "placements" : [ {
+    "verdict" : "reuse",
+    "leaf" : "Narrative_AntiSlackPositioning",
+    "supporting_segments" : [ "src-1", "src-2", "src-3" ],
+    "why" : "All three assertions — the widget shipped, velocity hit a quarter-high 23 points, and Zephyr was the key unlock — are Tanya's retrospective evidence that the structured-async-decision thesis (the anti-Slack positioning) actually delivers: a shipped persistent-decision artifact, at record team velocity, unlocked by cross-platform embedding. None of the three names a new recurring subject on its own; each is a fact that evidences the already-established positioning-thesis narrative rather than a directional theme future envelopes would independently feed. This matches how the position pass already grouped these segments under this same leaf.",
+    "consulted" : [ "Narrative_AntiSlackPositioning", "Narrative_DecisionCaptureAtConsensus", "Narrative_DecisionsEvaporate" ]
+  } ],
+  "unplaced" : [ ]
+}
