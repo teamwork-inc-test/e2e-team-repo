@@ -1,0 +1,32 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "competence" ],
+    "evidence" : [ {
+      "quote" : "shipped",
+      "kind" : "performed-act"
+    } ],
+    "why" : "The completed delivery presents capability through a concrete product outcome.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-2",
+    "regions" : [ "self-enhancement", "competence" ],
+    "evidence" : [ {
+      "quote" : "highest this quarter",
+      "kind" : "intensifier"
+    } ],
+    "why" : "The superlative frames performance as both achievement relative to peers in time and demonstrated capability.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-3",
+    "regions" : [ "openness-to-change" ],
+    "evidence" : [ {
+      "quote" : "key unlock",
+      "kind" : "framing-move"
+    } ],
+    "why" : "The integration is framed as enabling a breakthrough and movement into new possibility.",
+    "reported" : false
+  } ],
+  "mints" : [ ],
+  "unmarked" : [ ]
+}
