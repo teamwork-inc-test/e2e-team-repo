@@ -1,0 +1,18 @@
+{
+  "doc" : {
+    "title" : "Default Ref Test",
+    "date_stated" : null,
+    "actors_present" : [ "Tanya" ]
+  },
+  "segments" : [ {
+    "local_id" : "src-1",
+    "exact" : "Testing that omitted ref creates a topic branch.",
+    "actor" : "Tanya",
+    "act" : "assertive",
+    "footing" : null,
+    "circumstance" : null,
+    "note" : null,
+    "redacted" : false
+  } ],
+  "coverage_gaps" : [ ]
+}
