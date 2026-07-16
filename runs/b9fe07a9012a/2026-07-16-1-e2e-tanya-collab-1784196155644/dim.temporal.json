@@ -1,0 +1,40 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "past", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "shipped",
+      "kind" : "plain-signal"
+    }, {
+      "quote" : "async decision widget",
+      "kind" : "plain-signal"
+    } ],
+    "why" : "Reports a completed actual delivery of a specific artifact.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-2",
+    "regions" : [ "past", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "was 23 points",
+      "kind" : "plain-signal"
+    }, {
+      "quote" : "highest this quarter",
+      "kind" : "intensifier"
+    } ],
+    "why" : "States an actual measured result and its concrete comparative standing.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-3",
+    "regions" : [ "past", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "was the key unlock",
+      "kind" : "plain-signal"
+    }, {
+      "quote" : "Zephyr integration",
+      "kind" : "plain-signal"
+    } ],
+    "why" : "Presents a specific integration as an actual past enabling event.",
+    "reported" : false
+  } ],
+  "unmarked" : [ ]
+}
