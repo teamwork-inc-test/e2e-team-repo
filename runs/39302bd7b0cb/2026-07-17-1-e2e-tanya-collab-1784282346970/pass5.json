@@ -1,0 +1,10 @@
+{
+  "placements" : [ {
+    "verdict" : "reuse",
+    "leaf" : "Narrative_DecisionCaptureAtConsensus",
+    "supporting_segments" : [ "src-1", "src-2", "src-3" ],
+    "why" : "All three segments evidence the decision-capture-at-consensus narrative. The async decision widget (src-1) is the mechanism that captures decisions at the moment of consensus — the product realization of this leaf's theme. The Zephyr integration (src-3) is the cross-platform enabler that made that capture possible without separate plugins. The 23-point velocity (src-2) is a delivery metric — position-grain evidence that the approach is working, not a leaf of its own. Together they support the existing leaf's directional claim that decisions can be captured at consensus rather than lost to scroll-back.",
+    "consulted" : [ "Narrative_AntiSlackPositioning", "Narrative_DecisionCaptureAtConsensus", "Narrative_DecisionsEvaporate" ]
+  } ],
+  "unplaced" : [ ]
+}
