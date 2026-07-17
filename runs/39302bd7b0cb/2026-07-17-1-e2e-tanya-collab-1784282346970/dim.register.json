@@ -1,0 +1,32 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "technical" ],
+    "evidence" : [ {
+      "quote" : "async decision widget",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Uses native technical product vocabulary without explanatory framing.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-2",
+    "regions" : [ "technical" ],
+    "evidence" : [ {
+      "quote" : "Velocity was 23 points",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Uses precise sprint-metrics terminology as shared shorthand.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-3",
+    "regions" : [ "technical" ],
+    "evidence" : [ {
+      "quote" : "Zephyr integration",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Names a technical integration directly and assumes domain familiarity.",
+    "reported" : false
+  } ],
+  "mints" : [ ],
+  "unmarked" : [ ]
+}
