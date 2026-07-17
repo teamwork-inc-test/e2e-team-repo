@@ -1,0 +1,32 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "informational" ],
+    "evidence" : [ {
+      "quote" : "We shipped the async decision widget.",
+      "kind" : "plain-signal"
+    } ],
+    "why" : "Reports a completed delivery, supplying a concrete organizational fact without an explicit influence attempt.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-2",
+    "regions" : [ "informational", "rational-persuasion" ],
+    "evidence" : [ {
+      "quote" : "Velocity was 23 points, highest this quarter.",
+      "kind" : "plain-signal"
+    } ],
+    "why" : "Uses a quantified comparison as evidence, combining fact-supply with an implicit performance argument.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-3",
+    "regions" : [ "expert" ],
+    "evidence" : [ {
+      "quote" : "The Zephyr integration was the key unlock.",
+      "kind" : "plain-signal"
+    } ],
+    "why" : "Presents a causal technical judgment that draws authority from demonstrated domain understanding.",
+    "reported" : false
+  } ],
+  "mints" : [ ],
+  "unmarked" : [ ]
+}
