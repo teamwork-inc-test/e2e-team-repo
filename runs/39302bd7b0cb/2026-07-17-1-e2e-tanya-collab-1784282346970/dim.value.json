@@ -1,0 +1,32 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "competence" ],
+    "evidence" : [ {
+      "quote" : "shipped",
+      "kind" : "performed-act"
+    } ],
+    "why" : "The completed delivery is presented as evidence of capable execution.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-2",
+    "regions" : [ "self-enhancement", "competence" ],
+    "evidence" : [ {
+      "quote" : "highest this quarter",
+      "kind" : "intensifier"
+    } ],
+    "why" : "The result is framed as superior standing and demonstrated performance.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-3",
+    "regions" : [ "openness-to-change" ],
+    "evidence" : [ {
+      "quote" : "key unlock",
+      "kind" : "framing-move"
+    } ],
+    "why" : "The integration is valued as enabling progress and opening new possibility.",
+    "reported" : false
+  } ],
+  "mints" : [ ],
+  "unmarked" : [ ]
+}
