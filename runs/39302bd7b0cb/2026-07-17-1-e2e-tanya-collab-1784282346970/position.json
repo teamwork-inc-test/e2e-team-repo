@@ -1,0 +1,12 @@
+{
+  "positions" : [ {
+    "name" : "Sprint4DeliveryDrivers",
+    "frame" : "what drove Sprint 4's delivery outcomes?",
+    "members" : [ "src-1", "src-2", "src-3" ],
+    "why" : "The three expressions cohere around Sprint 4 delivery: the async decision widget shipped (src-1) and velocity hit a quarterly high of 23 points (src-2), with the Zephyr integration identified as the key unlock (src-3) that explains both outcomes. The frame reads src-3 as the causal driver behind the results recorded in src-1 and src-2.",
+    "under" : [ "Narrative_DecisionCaptureAtConsensus" ]
+  } ],
+  "attaches" : [ ],
+  "position_revisions" : [ ],
+  "ungrouped" : [ ]
+}
