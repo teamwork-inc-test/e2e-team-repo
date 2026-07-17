@@ -1,0 +1,21 @@
+{
+  "bindings" : [ {
+    "name" : "Tanya",
+    "verdict" : "bind",
+    "target" : "Actor_Tanya_Staging",
+    "label" : "Tanya",
+    "why" : "Bare first name 'Tanya' with sole participant 'Tanya TeamOwner' and sole existing actor Actor_Tanya_Staging makes identity unambiguous."
+  }, {
+    "name" : "Tanya TeamOwner",
+    "verdict" : "bind",
+    "target" : "Actor_Tanya_Staging",
+    "label" : "Tanya TeamOwner",
+    "why" : "Full name 'Tanya TeamOwner' matches the sole participant and sole existing actor Actor_Tanya_Staging (Tanya, staging)."
+  }, {
+    "name" : "tanya+staging@aswritten.ai",
+    "verdict" : "bind",
+    "target" : "Actor_Tanya_Staging",
+    "label" : null,
+    "why" : "Email tanya+staging@aswritten.ai is the front-matter identifier for Actor_Tanya_Staging; exact match."
+  } ]
+}
