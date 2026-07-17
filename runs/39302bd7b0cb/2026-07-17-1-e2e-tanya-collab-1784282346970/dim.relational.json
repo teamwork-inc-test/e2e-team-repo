@@ -1,0 +1,23 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "communal-sharing" ],
+    "evidence" : [ {
+      "quote" : "We shipped",
+      "kind" : "plain-signal"
+    } ],
+    "why" : "we-framing of team output as undifferentiated collective act",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-2",
+    "regions" : [ "market-pricing" ],
+    "evidence" : [ {
+      "quote" : "23 points, highest this quarter",
+      "kind" : "plain-signal"
+    } ],
+    "why" : "quantified comparative metric frames output as proportional achievement",
+    "reported" : false
+  } ],
+  "mints" : [ ],
+  "unmarked" : [ "src-3" ]
+}
