@@ -1,0 +1,12 @@
+{
+  "positions" : [ {
+    "name" : "SprintDeliveryUnlock",
+    "frame" : "what did Sprint 4 deliver and what enabled the delivery?",
+    "members" : [ "src-1", "src-2", "src-3" ],
+    "why" : "All three statements describe Sprint 4 delivery outcomes: the async decision widget shipped, velocity peaked at 23 points (highest this quarter), and the Zephyr integration was the key unlock that enabled it. They cohere under the question of what Sprint 4 produced and what made it possible.",
+    "under" : [ "Narrative_DecisionCaptureAtConsensus" ]
+  } ],
+  "attaches" : [ ],
+  "position_revisions" : [ ],
+  "ungrouped" : [ ]
+}
