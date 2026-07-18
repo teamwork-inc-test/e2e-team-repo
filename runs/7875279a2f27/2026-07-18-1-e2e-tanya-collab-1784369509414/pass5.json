@@ -1,0 +1,10 @@
+{
+  "placements" : [ {
+    "verdict" : "reuse",
+    "leaf" : "Narrative_DecisionCaptureAtConsensus",
+    "supporting_segments" : [ "src-1", "src-3" ],
+    "why" : "The async decision widget (src-1) is the productization of capturing decisions at the moment of consensus — it is the mechanism that intercepts consensus in a chat thread and creates a persistent record. The Zephyr integration (src-3) is the key unlock that enables zero-extra-step cross-platform embedding of that capture, directly supporting the narrative's thesis that decisions must be captured at consensus and linked to producing context.",
+    "consulted" : [ "Narrative_AntiSlackPositioning", "Narrative_DecisionCaptureAtConsensus", "Narrative_DecisionsEvaporate" ]
+  } ],
+  "unplaced" : [ "src-2" ]
+}
