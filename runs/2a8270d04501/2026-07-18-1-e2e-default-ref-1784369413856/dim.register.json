@@ -1,0 +1,15 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "matter-of-fact" ],
+    "evidence" : [ {
+      "quote" : "Testing that",
+      "kind" : "framing-move"
+    } ],
+    "why" : "The sentence uses a flat, instrumental testing frame without a marked departure into formality, play, or technical jargon.",
+    "reported" : false
+  } ],
+  "unmarked" : [ ],
+  "mints" : [ ],
+  "region_mints" : [ ]
+}
