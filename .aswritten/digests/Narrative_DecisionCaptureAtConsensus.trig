@@ -1,0 +1,20 @@
+@prefix narr: <https://aswritten.ai/narrative#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+GRAPH <https://aswritten.ai/narrative#Digest_Narrative_DecisionCaptureAtConsensus> {
+  <https://aswritten.ai/narrative#Digest_Narrative_DecisionCaptureAtConsensus> a narr:Digest ;
+    narr:digestOf <https://aswritten.ai/narrative#Narrative_DecisionCaptureAtConsensus> ;
+    narr:childCount "4"^^xsd:integer ;
+    narr:generatedFrom "c33c8e5994a898ac7a31e30e220acf02f1ec7502" ;
+    narr:narration """This hub concerns the product thesis that [decision capture at the point of consensus](narr:https://aswritten.ai/narrative#Position_CoreFeatureDecisionCapture) is the primary differentiator — capturing the decision artifact at the moment it's made, not retrospectively. Two Jul 2026 expressions from TanyaTeamowner report delivery: [async decision widget shipped](narr:https://aswritten.ai/narrative#Expr_1E2ETanyaCollab1784369509414_1) and [Zephyr integration as the key unlock](narr:https://aswritten.ai/narrative#Expr_1E2ETanyaCollab1784369509414_3), framing the integration as the enabling mechanism. A fourth child frames [Sprint 4 delivery and what enabled it](narr:https://aswritten.ai/narrative#Position_SprintDeliveryUnlock) but carries no content yet, leaving the sprint-level account open. The hub spans: the core differentiator claim (Mar 2026), the delivery event and its technical enabler (Jul 2026), and the sprint framing awaiting elaboration.""" ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1E2ETanyaCollab1784369509414_1> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1E2ETanyaCollab1784369509414_3> ;
+    narr:covers <https://aswritten.ai/narrative#Position_CoreFeatureDecisionCapture> ;
+    narr:covers <https://aswritten.ai/narrative#Position_SprintDeliveryUnlock> ;
+    narr:keyPhrase [ narr:text "Core feature: decision capture at the point of consensus. This is the product's primary differentiator — capturing the decision artifact at the moment it's made." ; narr:phraseSource <https://aswritten.ai/narrative#Position_CoreFeatureDecisionCapture> ] ;
+    narr:keyPhrase [ narr:text "We shipped the async decision widget." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1E2ETanyaCollab1784369509414_1> ] ;
+    narr:keyPhrase [ narr:text "The Zephyr integration was the key unlock." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1E2ETanyaCollab1784369509414_3> ] ;
+    narr:variation [ narr:text "Sprint 4 delivery framing exists as a named position but carries no content — what Sprint 4 delivered and what enabled it remains unelaborated, leaving a gap between the delivery claim and its sprint-level account." ; narr:over <https://aswritten.ai/narrative#Position_SprintDeliveryUnlock> ] ;
+    narr:variation [ narr:text "The 'key unlock' attribution to Zephyr integration (expert/rational-persuasion framing) is asserted but not argued — whether the widget delivery is causally dependent on Zephyr or merely concurrent is not resolved here." ; narr:over <https://aswritten.ai/narrative#Expr_1E2ETanyaCollab1784369509414_3> ; narr:over <https://aswritten.ai/narrative#Expr_1E2ETanyaCollab1784369509414_1> ] ;
+    narr:writer "anthropic/claude-sonnet-4.6" .
+}
