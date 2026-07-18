@@ -1,0 +1,13 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "conviction" : "claim",
+    "evidence" : [ {
+      "quote" : "Testing that omitted ref creates a topic branch.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "The statement is a plain assertive claim, but it does not perform or record a settled decision or operational commitment.",
+    "reported" : false
+  } ],
+  "unmarked" : [ ]
+}
