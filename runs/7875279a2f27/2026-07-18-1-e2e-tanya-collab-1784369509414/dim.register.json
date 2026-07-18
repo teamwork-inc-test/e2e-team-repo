@@ -1,0 +1,16 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-2",
+    "regions" : [ "matter-of-fact" ],
+    "evidence" : [ {
+      "quote" : "highest this quarter",
+      "kind" : "framing-move"
+    } ],
+    "why" : "flat metric statement with a superlative comparison but no performed enthusiasm or hedging",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-1", "src-3" ],
+  "unmarked_rest" : false,
+  "mints" : [ ],
+  "region_mints" : [ ]
+}
