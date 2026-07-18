@@ -1,0 +1,41 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "past", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "shipped",
+      "kind" : "lexical-marker"
+    }, {
+      "quote" : "async decision widget",
+      "kind" : "plain-signal"
+    } ],
+    "why" : "The completed shipping event is presented as actual and tied to a specific artifact.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-2",
+    "regions" : [ "past", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "was 23 points",
+      "kind" : "lexical-marker"
+    }, {
+      "quote" : "highest this quarter",
+      "kind" : "intensifier"
+    } ],
+    "why" : "The statement reports a measured completed result and grounds it in a specific quarterly comparison.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-3",
+    "regions" : [ "past", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "was the key unlock",
+      "kind" : "lexical-marker"
+    }, {
+      "quote" : "Zephyr integration",
+      "kind" : "plain-signal"
+    } ],
+    "why" : "The completed integration is characterized as a specific causal turning point.",
+    "reported" : false
+  } ],
+  "unmarked" : [ ],
+  "unmarked_rest" : false
+}
