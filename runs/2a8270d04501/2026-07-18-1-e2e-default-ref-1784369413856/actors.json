@@ -1,0 +1,20 @@
+{
+  "bindings" : [ {
+    "name" : "Tanya",
+    "verdict" : "bind",
+    "target" : "Actor_Tanya_Staging",
+    "label" : "Tanya",
+    "why" : "Bare first name Tanya; sole participant is Tanya TeamOwner and sole existing actor is Actor_Tanya_Staging — context converges unambiguously."
+  }, {
+    "name" : "Tanya TeamOwner",
+    "verdict" : "bind",
+    "target" : "Actor_Tanya_Staging",
+    "label" : "Tanya TeamOwner",
+    "why" : "Full name matches the sole participant and sole existing actor Actor_Tanya_Staging (Tanya, staging) with confident identity."
+  }, {
+    "name" : "tanya+staging@aswritten.ai",
+    "verdict" : "bind",
+    "target" : "Actor_Tanya_Staging",
+    "why" : "Envelope account email matches the front-matter email that identified Actor_Tanya_Staging; confident identity."
+  } ]
+}
