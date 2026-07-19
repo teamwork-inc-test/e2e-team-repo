@@ -1,0 +1,15 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-2",
+    "regions" : [ "rule-of-three" ],
+    "evidence" : [ {
+      "quote" : "23 points, highest this quarter",
+      "kind" : "intensifier"
+    } ],
+    "why" : "The quantified result is framed as a compact superlative performance beat, but it does not form a full triad; the evidence supports emphasis rather than a formal three-part structure.",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-1", "src-3" ],
+  "mints" : [ ],
+  "region_mints" : [ ]
+}
