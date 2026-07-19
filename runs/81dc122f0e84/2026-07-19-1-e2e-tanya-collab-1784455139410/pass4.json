@@ -1,0 +1,31 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "conviction" : "claim",
+    "evidence" : [ {
+      "quote" : "We shipped the async decision widget.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "The flat declarative asserts completion but does not perform ratification or express an operational commitment, so it remains a claim rather than a decision.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-2",
+    "conviction" : "claim",
+    "evidence" : [ {
+      "quote" : "Velocity was 23 points, highest this quarter.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "This is an unhedged factual assertion, but it does not settle a course of action or establish a load-bearing rule.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-3",
+    "conviction" : "claim",
+    "evidence" : [ {
+      "quote" : "The Zephyr integration was the key unlock.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "The statement presents a firm causal judgment, but it is not a performed decision or an enduring principle.",
+    "reported" : false
+  } ],
+  "unmarked" : [ ]
+}
