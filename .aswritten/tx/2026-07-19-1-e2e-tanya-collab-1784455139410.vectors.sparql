@@ -1,0 +1,263 @@
+PREFIX narr: <https://aswritten.ai/narrative#>
+PREFIX aswr: <https://aswritten.ai/aswr#>
+PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX dct:  <http://purl.org/dc/terms/>
+PREFIX xsd:  <http://www.w3.org/2001/XMLSchema#>
+PREFIX oa:   <http://www.w3.org/ns/oa#>
+
+INSERT DATA {
+  aswr:Tx_20260719T095903Z a prov:Activity ;
+      prov:generatedAtTime "2026-07-19T09:59:03Z"^^xsd:dateTime ;
+      prov:wasAssociatedWith "aswritten.ai" ;
+      prov:wasAttributedTo "scarlet@aswritten.ai" ;
+      aswr:pipelinePin "9f37c06668b5" ;
+      aswr:originPath ".aswritten/memories/2026-07-19-1-e2e-tanya-collab-1784455139410.md" ;
+      dct:title "Multipass fragment: 1E2ETanyaCollab1784455139410" ;
+      prov:generated narr:Conviction_1E2ETanyaCollab1784455139410_1, narr:Conviction_1E2ETanyaCollab1784455139410_2, narr:Conviction_1E2ETanyaCollab1784455139410_3, narr:VecAffect_1E2ETanyaCollab1784455139410_2, narr:VecPower_1E2ETanyaCollab1784455139410_3, narr:VecStyle_1E2ETanyaCollab1784455139410_2, narr:VecTemporal_1E2ETanyaCollab1784455139410_1, narr:VecTemporal_1E2ETanyaCollab1784455139410_2, narr:VecTemporal_1E2ETanyaCollab1784455139410_3, narr:VecValue_1E2ETanyaCollab1784455139410_2, narr:Position_Sprint4DeliveryOutcomes .
+} ;
+INSERT DATA {
+  GRAPH aswr:Tx_20260719T095903Z {
+    narr:Conviction_1E2ETanyaCollab1784455139410_1 a narr:ConvictionObservation ;
+        oa:hasTarget narr:Expr_1E2ETanyaCollab1784455139410_1 ;
+        narr:conviction narr:Conviction_Claim ;
+        narr:evidence "plain-assertion: We shipped the async decision widget." ;
+        narr:reported false ;
+        skos:note "The flat declarative asserts completion but does not perform ratification or express an operational commitment, so it remains a claim rather than a decision." ;
+        prov:generatedAtTime "2026-07-19T09:59:03Z"^^xsd:dateTime .
+
+    narr:Conviction_1E2ETanyaCollab1784455139410_2 a narr:ConvictionObservation ;
+        oa:hasTarget narr:Expr_1E2ETanyaCollab1784455139410_2 ;
+        narr:conviction narr:Conviction_Claim ;
+        narr:evidence "plain-assertion: Velocity was 23 points, highest this quarter." ;
+        narr:reported false ;
+        skos:note "This is an unhedged factual assertion, but it does not settle a course of action or establish a load-bearing rule." ;
+        prov:generatedAtTime "2026-07-19T09:59:03Z"^^xsd:dateTime .
+
+    narr:Conviction_1E2ETanyaCollab1784455139410_3 a narr:ConvictionObservation ;
+        oa:hasTarget narr:Expr_1E2ETanyaCollab1784455139410_3 ;
+        narr:conviction narr:Conviction_Claim ;
+        narr:evidence "plain-assertion: The Zephyr integration was the key unlock." ;
+        narr:reported false ;
+        skos:note "The statement presents a firm causal judgment, but it is not a performed decision or an enduring principle." ;
+        prov:generatedAtTime "2026-07-19T09:59:03Z"^^xsd:dateTime .
+
+    narr:VecAffect_1E2ETanyaCollab1784455139410_2 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_1E2ETanyaCollab1784455139410_2 ;
+        narr:dimension narr:Dim_Affect ;
+        narr:region narr:Affect_ActivatedPositive ;
+        narr:evidence "intensifier: highest this quarter" ;
+        narr:reported false ;
+        skos:note "superlative framing of the metric performs a spike of enthusiasm, not just a flat report" ;
+        prov:generatedAtTime "2026-07-19T09:59:03Z"^^xsd:dateTime .
+
+    narr:VecPower_1E2ETanyaCollab1784455139410_3 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_1E2ETanyaCollab1784455139410_3 ;
+        narr:dimension narr:Dim_Power ;
+        narr:region narr:Power_Expert ;
+        narr:evidence "framing-move: key unlock" ;
+        narr:reported false ;
+        skos:note "The expression attributes the integration's enabling role, signaling authority grounded in demonstrated technical contribution." ;
+        prov:generatedAtTime "2026-07-19T09:59:03Z"^^xsd:dateTime .
+
+    narr:VecStyle_1E2ETanyaCollab1784455139410_2 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_1E2ETanyaCollab1784455139410_2 ;
+        narr:dimension narr:Dim_Style ;
+        narr:region narr:Style_RuleOfThree ;
+        narr:evidence "intensifier: 23 points, highest this quarter" ;
+        narr:reported false ;
+        skos:note "The quantified result is framed as a compact superlative performance beat, but it does not form a full triad; the evidence supports emphasis rather than a formal three-part structure." ;
+        prov:generatedAtTime "2026-07-19T09:59:03Z"^^xsd:dateTime .
+
+    narr:VecTemporal_1E2ETanyaCollab1784455139410_1 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_1E2ETanyaCollab1784455139410_1 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Past ;
+        narr:region narr:Temporal_Realis ;
+        narr:region narr:Temporal_Concrete ;
+        narr:evidence "lexical-marker: shipped" ;
+        narr:evidence "plain-signal: async decision widget" ;
+        narr:reported false ;
+        skos:note "The completed shipment is presented as an actual past event involving a specific artifact." ;
+        prov:generatedAtTime "2026-07-19T09:59:03Z"^^xsd:dateTime .
+
+    narr:VecTemporal_1E2ETanyaCollab1784455139410_2 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_1E2ETanyaCollab1784455139410_2 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Past ;
+        narr:region narr:Temporal_Realis ;
+        narr:region narr:Temporal_Concrete ;
+        narr:evidence "lexical-marker: was 23 points" ;
+        narr:evidence "intensifier: highest this quarter" ;
+        narr:reported false ;
+        skos:note "The statement reports a settled measured result and compares it within a concrete quarter." ;
+        prov:generatedAtTime "2026-07-19T09:59:03Z"^^xsd:dateTime .
+
+    narr:VecTemporal_1E2ETanyaCollab1784455139410_3 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_1E2ETanyaCollab1784455139410_3 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Past ;
+        narr:region narr:Temporal_Realis ;
+        narr:region narr:Temporal_Concrete ;
+        narr:evidence "lexical-marker: was the key unlock" ;
+        narr:evidence "plain-signal: Zephyr integration" ;
+        narr:reported false ;
+        skos:note "A named integration is construed as an actual completed enabling event." ;
+        prov:generatedAtTime "2026-07-19T09:59:03Z"^^xsd:dateTime .
+
+    narr:VecValue_1E2ETanyaCollab1784455139410_2 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_1E2ETanyaCollab1784455139410_2 ;
+        narr:dimension narr:Dim_Value ;
+        narr:region narr:Value_SelfEnhancement ;
+        narr:region narr:Value_Competence ;
+        narr:evidence "intensifier: highest this quarter" ;
+        narr:evidence "plain-signal: 23 points" ;
+        narr:reported false ;
+        skos:note "The superlative frames performance as standing and achievement, while the quantified result signals capability." ;
+        prov:generatedAtTime "2026-07-19T09:59:03Z"^^xsd:dateTime .
+
+    narr:Expr_1E2ETanyaCollab1784455139410_1 narr:supports narr:Narrative_DecisionCaptureAtConsensus .
+
+    narr:Expr_1E2ETanyaCollab1784455139410_2 narr:supports narr:Narrative_DecisionCaptureAtConsensus .
+
+    narr:Expr_1E2ETanyaCollab1784455139410_3 narr:supports narr:Narrative_DecisionCaptureAtConsensus .
+
+    narr:Position_Sprint4DeliveryOutcomes a narr:Position ;
+        narr:frame "what did Sprint 4 deliver and what enabled the delivery?" ;
+        prov:generatedAtTime "2026-07-19T09:59:03Z"^^xsd:dateTime .
+
+    narr:Position_Sprint4DeliveryOutcomes narr:supports narr:Narrative_DecisionCaptureAtConsensus .
+
+    narr:Expr_1E2ETanyaCollab1784455139410_1 narr:supports narr:Position_Sprint4DeliveryOutcomes .
+
+    narr:Expr_1E2ETanyaCollab1784455139410_2 narr:supports narr:Position_Sprint4DeliveryOutcomes .
+
+    narr:Expr_1E2ETanyaCollab1784455139410_3 narr:supports narr:Position_Sprint4DeliveryOutcomes .
+
+    aswr:Miss_1E2ETanyaCollab1784455139410_affect_trip a aswr:Miss ;
+        aswr:missPass "affect" ;
+        aswr:missClass "floor" ;
+        aswr:missError "0 of 3 segments marked" ;
+        aswr:missModel "openai/gpt-5.6-luna" ;
+        aswr:tripFloor "marked_zero" ;
+        aswr:tripRatio "0.0000"^^xsd:decimal ;
+        aswr:tripOutcome "fallback-won" ;
+        aswr:tripFallbackModel "anthropic/claude-sonnet-5" ;
+        aswr:missScope narr:Sample_1E2ETanyaCollab1784455139410 ;
+        prov:generatedAtTime "2026-07-19T09:59:03Z"^^xsd:dateTime .
+
+    aswr:Miss_1E2ETanyaCollab1784455139410_register_trip a aswr:Miss ;
+        aswr:missPass "register" ;
+        aswr:missClass "floor" ;
+        aswr:missError "0 of 3 segments marked" ;
+        aswr:missModel "openai/gpt-5.6-luna" ;
+        aswr:tripFloor "marked_zero" ;
+        aswr:tripRatio "0.0000"^^xsd:decimal ;
+        aswr:tripOutcome "agreed-empty" ;
+        aswr:tripFallbackModel "anthropic/claude-sonnet-5" ;
+        aswr:missScope narr:Sample_1E2ETanyaCollab1784455139410 ;
+        prov:generatedAtTime "2026-07-19T09:59:03Z"^^xsd:dateTime .
+
+    aswr:Miss_1E2ETanyaCollab1784455139410_relational_trip a aswr:Miss ;
+        aswr:missPass "relational" ;
+        aswr:missClass "floor" ;
+        aswr:missError "0 of 3 segments marked" ;
+        aswr:missModel "openai/gpt-5.6-luna" ;
+        aswr:tripFloor "marked_zero" ;
+        aswr:tripRatio "0.0000"^^xsd:decimal ;
+        aswr:tripOutcome "agreed-empty" ;
+        aswr:tripFallbackModel "anthropic/claude-sonnet-5" ;
+        aswr:missScope narr:Sample_1E2ETanyaCollab1784455139410 ;
+        prov:generatedAtTime "2026-07-19T09:59:03Z"^^xsd:dateTime .
+
+    aswr:Miss_1E2ETanyaCollab1784455139410_resolve_trip a aswr:Miss ;
+        aswr:missPass "resolve" ;
+        aswr:missClass "floor" ;
+        aswr:missError "resolutions empty against a populated perspective" ;
+        aswr:missModel "z-ai/glm-5.2" ;
+        aswr:tripFloor "empty_on_populated" ;
+        aswr:tripRatio "0.0000"^^xsd:decimal ;
+        aswr:tripOutcome "agreed-empty" ;
+        aswr:tripFallbackModel "anthropic/claude-sonnet-5" ;
+        aswr:missScope narr:Sample_1E2ETanyaCollab1784455139410 ;
+        prov:generatedAtTime "2026-07-19T09:59:03Z"^^xsd:dateTime .
+
+    aswr:Run_20260719T095903Z_dim_affect a prov:Activity ;
+        aswr:runPass "dim.affect" ;
+        aswr:draftedBy "anthropic/claude-sonnet-5" ;
+        aswr:artifact "aswritten/runs:runs/81dc122f0e84/2026-07-19-1-e2e-tanya-collab-1784455139410/dim.affect.json" ;
+        prov:generated narr:VecAffect_1E2ETanyaCollab1784455139410_2 ;
+        dct:isPartOf aswr:Tx_20260719T095903Z ;
+        prov:generatedAtTime "2026-07-19T09:59:03Z"^^xsd:dateTime .
+
+    aswr:Run_20260719T095903Z_dim_power a prov:Activity ;
+        aswr:runPass "dim.power" ;
+        aswr:draftedBy "openai/gpt-5.6-luna" ;
+        aswr:artifact "aswritten/runs:runs/81dc122f0e84/2026-07-19-1-e2e-tanya-collab-1784455139410/dim.power.json" ;
+        prov:generated narr:VecPower_1E2ETanyaCollab1784455139410_3 ;
+        dct:isPartOf aswr:Tx_20260719T095903Z ;
+        prov:generatedAtTime "2026-07-19T09:59:03Z"^^xsd:dateTime .
+
+    aswr:Run_20260719T095903Z_dim_register a prov:Activity ;
+        aswr:runPass "dim.register" ;
+        aswr:draftedBy "openai/gpt-5.6-luna" ;
+        aswr:artifact "aswritten/runs:runs/81dc122f0e84/2026-07-19-1-e2e-tanya-collab-1784455139410/dim.register.json" ;
+        dct:isPartOf aswr:Tx_20260719T095903Z ;
+        prov:generatedAtTime "2026-07-19T09:59:03Z"^^xsd:dateTime .
+
+    aswr:Run_20260719T095903Z_dim_relational a prov:Activity ;
+        aswr:runPass "dim.relational" ;
+        aswr:draftedBy "openai/gpt-5.6-luna" ;
+        aswr:artifact "aswritten/runs:runs/81dc122f0e84/2026-07-19-1-e2e-tanya-collab-1784455139410/dim.relational.json" ;
+        dct:isPartOf aswr:Tx_20260719T095903Z ;
+        prov:generatedAtTime "2026-07-19T09:59:03Z"^^xsd:dateTime .
+
+    aswr:Run_20260719T095903Z_dim_style a prov:Activity ;
+        aswr:runPass "dim.style" ;
+        aswr:draftedBy "openai/gpt-5.6-luna" ;
+        aswr:artifact "aswritten/runs:runs/81dc122f0e84/2026-07-19-1-e2e-tanya-collab-1784455139410/dim.style.json" ;
+        prov:generated narr:VecStyle_1E2ETanyaCollab1784455139410_2 ;
+        dct:isPartOf aswr:Tx_20260719T095903Z ;
+        prov:generatedAtTime "2026-07-19T09:59:03Z"^^xsd:dateTime .
+
+    aswr:Run_20260719T095903Z_dim_temporal a prov:Activity ;
+        aswr:runPass "dim.temporal" ;
+        aswr:draftedBy "openai/gpt-5.6-luna" ;
+        aswr:artifact "aswritten/runs:runs/81dc122f0e84/2026-07-19-1-e2e-tanya-collab-1784455139410/dim.temporal.json" ;
+        prov:generated narr:VecTemporal_1E2ETanyaCollab1784455139410_1, narr:VecTemporal_1E2ETanyaCollab1784455139410_2, narr:VecTemporal_1E2ETanyaCollab1784455139410_3 ;
+        dct:isPartOf aswr:Tx_20260719T095903Z ;
+        prov:generatedAtTime "2026-07-19T09:59:03Z"^^xsd:dateTime .
+
+    aswr:Run_20260719T095903Z_dim_value a prov:Activity ;
+        aswr:runPass "dim.value" ;
+        aswr:draftedBy "openai/gpt-5.6-luna" ;
+        aswr:artifact "aswritten/runs:runs/81dc122f0e84/2026-07-19-1-e2e-tanya-collab-1784455139410/dim.value.json" ;
+        prov:generated narr:VecValue_1E2ETanyaCollab1784455139410_2 ;
+        dct:isPartOf aswr:Tx_20260719T095903Z ;
+        prov:generatedAtTime "2026-07-19T09:59:03Z"^^xsd:dateTime .
+
+    aswr:Run_20260719T095903Z_pass4 a prov:Activity ;
+        aswr:runPass "pass4" ;
+        aswr:draftedBy "openai/gpt-5.6-luna" ;
+        aswr:artifact "aswritten/runs:runs/81dc122f0e84/2026-07-19-1-e2e-tanya-collab-1784455139410/pass4.json" ;
+        prov:generated narr:Conviction_1E2ETanyaCollab1784455139410_1, narr:Conviction_1E2ETanyaCollab1784455139410_2, narr:Conviction_1E2ETanyaCollab1784455139410_3 ;
+        dct:isPartOf aswr:Tx_20260719T095903Z ;
+        prov:generatedAtTime "2026-07-19T09:59:03Z"^^xsd:dateTime .
+
+    aswr:Run_20260719T095903Z_pass5 a prov:Activity ;
+        aswr:runPass "pass5" ;
+        aswr:draftedBy "z-ai/glm-5.2" ;
+        aswr:artifact "aswritten/runs:runs/81dc122f0e84/2026-07-19-1-e2e-tanya-collab-1784455139410/pass5.json" ;
+        dct:isPartOf aswr:Tx_20260719T095903Z ;
+        prov:generatedAtTime "2026-07-19T09:59:03Z"^^xsd:dateTime .
+
+    aswr:Run_20260719T095903Z_position a prov:Activity ;
+        aswr:runPass "position" ;
+        aswr:draftedBy "z-ai/glm-5.2" ;
+        aswr:artifact "aswritten/runs:runs/81dc122f0e84/2026-07-19-1-e2e-tanya-collab-1784455139410/position.json" ;
+        prov:generated narr:Position_Sprint4DeliveryOutcomes ;
+        dct:isPartOf aswr:Tx_20260719T095903Z ;
+        prov:generatedAtTime "2026-07-19T09:59:03Z"^^xsd:dateTime .
+  }
+}
