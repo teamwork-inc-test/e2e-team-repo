@@ -1,0 +1,20 @@
+{
+  "bindings" : [ {
+    "name" : "Tanya",
+    "verdict" : "bind",
+    "target" : "Actor_Tanya_Staging",
+    "label" : "Tanya",
+    "why" : "Bare first name 'Tanya' unambiguously matches the sole existing actor Actor_Tanya_Staging; envelope participants and account all point to the same person."
+  }, {
+    "name" : "Tanya TeamOwner",
+    "verdict" : "bind",
+    "target" : "Actor_Tanya_Staging",
+    "label" : "Tanya TeamOwner",
+    "why" : "Fuller form of the same person identified via front-matter email tanya+staging@aswritten.ai; single existing actor in the graph."
+  }, {
+    "name" : "tanya+staging@aswritten.ai",
+    "verdict" : "bind",
+    "target" : "Actor_Tanya_Staging",
+    "why" : "Front-matter account email is the exact identifier used to establish Actor_Tanya_Staging; direct confident match."
+  } ]
+}
