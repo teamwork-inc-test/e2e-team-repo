@@ -1,0 +1,15 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-2",
+    "regions" : [ "activated-positive" ],
+    "evidence" : [ {
+      "quote" : "highest this quarter",
+      "kind" : "intensifier"
+    } ],
+    "why" : "superlative framing of the metric performs a spike of enthusiasm, not just a flat report",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-1", "src-3" ],
+  "mints" : [ ],
+  "region_mints" : [ ]
+}
