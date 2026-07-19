@@ -1,0 +1,13 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "conviction" : "claim",
+    "evidence" : [ {
+      "quote" : "Testing that omitted ref creates a topic branch.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "The sentence is a flat assertion, but it records a test rather than a settled operational rule or ratified decision.",
+    "reported" : false
+  } ],
+  "unmarked" : [ ]
+}
