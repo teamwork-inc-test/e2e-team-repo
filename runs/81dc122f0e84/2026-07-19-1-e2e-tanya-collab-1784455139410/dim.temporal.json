@@ -1,0 +1,41 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "past", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "shipped",
+      "kind" : "lexical-marker"
+    }, {
+      "quote" : "async decision widget",
+      "kind" : "plain-signal"
+    } ],
+    "why" : "The completed shipment is presented as an actual past event involving a specific artifact.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-2",
+    "regions" : [ "past", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "was 23 points",
+      "kind" : "lexical-marker"
+    }, {
+      "quote" : "highest this quarter",
+      "kind" : "intensifier"
+    } ],
+    "why" : "The statement reports a settled measured result and compares it within a concrete quarter.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-3",
+    "regions" : [ "past", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "was the key unlock",
+      "kind" : "lexical-marker"
+    }, {
+      "quote" : "Zephyr integration",
+      "kind" : "plain-signal"
+    } ],
+    "why" : "A named integration is construed as an actual completed enabling event.",
+    "reported" : false
+  } ],
+  "unmarked" : [ ],
+  "unmarked_rest" : false
+}
