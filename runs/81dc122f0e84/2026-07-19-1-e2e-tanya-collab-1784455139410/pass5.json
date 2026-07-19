@@ -1,0 +1,10 @@
+{
+  "placements" : [ {
+    "verdict" : "reuse",
+    "leaf" : "Narrative_DecisionCaptureAtConsensus",
+    "supporting_segments" : [ "src-1", "src-2", "src-3" ],
+    "why" : "All three segments are delivery evidence for the decision-capture-at-consensus product. The async decision widget (src-1) is the product that captures decisions at the moment of consensus; the 23-point velocity (src-2) is a proof point that the delivery succeeded; the Zephyr integration (src-3) names the technical enabler that unlocked cross-platform embedding for that capture. These are facts and events that evidence the existing narrative leaf — they do not name a new thematic subject future envelopes will keep feeding.",
+    "consulted" : [ "Narrative_AntiSlackPositioning", "Narrative_DecisionCaptureAtConsensus", "Narrative_DecisionsEvaporate" ]
+  } ],
+  "unplaced" : [ ]
+}
