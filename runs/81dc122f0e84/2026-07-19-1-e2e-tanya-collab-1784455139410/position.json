@@ -1,0 +1,12 @@
+{
+  "positions" : [ {
+    "name" : "Sprint4DeliveryOutcomes",
+    "frame" : "what did Sprint 4 deliver and what enabled the delivery?",
+    "members" : [ "src-1", "src-2", "src-3" ],
+    "why" : "All three expressions cohere under a single directional read of Sprint 4's delivery story: what shipped (the async decision widget), what velocity it achieved (23 points, highest this quarter), and what technical enabler unlocked it (Zephyr integration). The set holds no internal tension — each expression answers a different facet of the same delivery-outcomes question.",
+    "under" : [ "Narrative_DecisionCaptureAtConsensus" ]
+  } ],
+  "attaches" : [ ],
+  "position_revisions" : [ ],
+  "ungrouped" : [ ]
+}
