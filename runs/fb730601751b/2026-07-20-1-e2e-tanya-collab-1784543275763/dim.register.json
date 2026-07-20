@@ -1,0 +1,34 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "matter-of-fact" ],
+    "evidence" : [ {
+      "quote" : "We shipped the async decision widget.",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Flat declarative delivery of a shipped outcome — no intensifier, no audience-facing energy; the document's own baseline register, here instantiated as a clean matter-of-fact report.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-2",
+    "regions" : [ "matter-of-fact" ],
+    "evidence" : [ {
+      "quote" : "Velocity was 23 points, highest this quarter.",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Technical metric stated instrumentally without framing or performance — 'points' used natively but the delivery is flat reportage, consistent with the document's prevailing voice.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-3",
+    "regions" : [ "technical" ],
+    "evidence" : [ {
+      "quote" : "The Zephyr integration was the key unlock.",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Domain jargon ('Zephyr integration', 'key unlock') used natively and with precision — a register signal that names a technical artifact and its causal role without glossing for accessibility.",
+    "reported" : false
+  } ],
+  "unmarked" : [ ],
+  "unmarked_rest" : false,
+  "mints" : [ ],
+  "region_mints" : [ ]
+}
