@@ -1,0 +1,21 @@
+{
+  "bindings" : [ {
+    "name" : "Tanya",
+    "verdict" : "bind",
+    "target" : "Actor_Tanya_Staging",
+    "label" : null,
+    "why" : "Bare first name Tanya; only one Tanya in EXISTING ACTORS and envelope participant is Tanya TeamOwner, making identity unambiguous."
+  }, {
+    "name" : "Tanya TeamOwner",
+    "verdict" : "bind",
+    "target" : "Actor_Tanya_Staging",
+    "label" : "Tanya TeamOwner",
+    "why" : "Envelope participant and submitted_by both identify Tanya TeamOwner; the only existing Tanya actor is Actor_Tanya_Staging."
+  }, {
+    "name" : "tanya+staging@aswritten.ai",
+    "verdict" : "bind",
+    "target" : "Actor_Tanya_Staging",
+    "label" : null,
+    "why" : "Front-matter email matches the existing Actor_Tanya_Staging description verbatim; confident identity."
+  } ]
+}
