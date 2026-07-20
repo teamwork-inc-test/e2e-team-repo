@@ -1,0 +1,12 @@
+{
+  "positions" : [ {
+    "name" : "Sprint4DeliveryProof",
+    "frame" : "what does Sprint 4 delivery demonstrate about the anti-Slack thesis?",
+    "members" : [ "src-1", "src-2", "src-3" ],
+    "why" : "All three expressions cohere around Sprint 4's delivery outcomes: the async decision widget shipped (src-1), velocity peaked at 23 points highest this quarter (src-2), and the Zephyr integration was the key unlock enabling cross-platform decision capture (src-3). Read together through the anti-Slack lens, they answer what the sprint proved about structured async decisions over real-time noise — the widget creates persistent decision artifacts at the moment of consensus, the velocity shows the team can sustain that delivery, and the Zephyr integration shows the thesis is technically feasible across chat platforms without separate plugins.",
+    "under" : [ "Narrative_AntiSlackPositioning" ]
+  } ],
+  "attaches" : [ ],
+  "position_revisions" : [ ],
+  "ungrouped" : [ ]
+}
