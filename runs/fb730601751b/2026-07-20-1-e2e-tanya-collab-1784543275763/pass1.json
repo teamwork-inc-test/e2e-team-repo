@@ -1,0 +1,46 @@
+{
+  "doc" : {
+    "title" : "Tanya's Sprint Retro",
+    "date_stated" : null,
+    "actors_present" : [ "Tanya" ]
+  },
+  "segments" : [ {
+    "circumstance" : {
+      "context" : "Tanya's Sprint Retro"
+    },
+    "exact" : "We shipped the async decision widget.",
+    "local_id" : "src-1",
+    "act" : "assertive",
+    "footing_case" : null,
+    "delivery" : null,
+    "note" : null,
+    "redacted" : false,
+    "actor" : "Tanya"
+  }, {
+    "circumstance" : {
+      "context" : "Tanya's Sprint Retro"
+    },
+    "exact" : "Velocity was 23 points, highest this quarter.",
+    "local_id" : "src-2",
+    "act" : "assertive",
+    "footing_case" : null,
+    "delivery" : null,
+    "note" : null,
+    "redacted" : false,
+    "actor" : "Tanya"
+  }, {
+    "circumstance" : {
+      "context" : "Tanya's Sprint Retro"
+    },
+    "exact" : "The Zephyr integration was the key unlock.",
+    "local_id" : "src-3",
+    "act" : "assertive",
+    "footing_case" : null,
+    "delivery" : null,
+    "note" : null,
+    "redacted" : false,
+    "actor" : "Tanya"
+  } ],
+  "coverage_gaps" : [ ],
+  "footing_cases" : [ ]
+}
