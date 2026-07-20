@@ -1,0 +1,16 @@
+{
+  "placements" : [ {
+    "verdict" : "reuse",
+    "leaf" : "Narrative_AntiSlackPositioning",
+    "supporting_segments" : [ "src-1", "src-2", "src-3" ],
+    "why" : "All three segments are Sprint 4 delivery evidence for the anti-Slack thesis: the async decision widget shipped (src-1), velocity peaked at 23 points (src-2), and the Zephyr integration unlocked cross-platform capture (src-3). Together they demonstrate that structured async decisions produce persistent artifacts — the core anti-Slack claim.",
+    "consulted" : [ "Narrative_AntiSlackPositioning", "Narrative_DecisionCaptureAtConsensus", "Narrative_DecisionsEvaporate" ]
+  }, {
+    "verdict" : "reuse",
+    "leaf" : "Narrative_DecisionCaptureAtConsensus",
+    "supporting_segments" : [ "src-1", "src-3" ],
+    "why" : "The shipped widget (src-1) is the mechanism that captures decisions at the moment of consensus, and the Zephyr integration (src-3) is the technical unlock that lets that capture happen across chat platforms without separate plugins — directly extending the decision-capture-at-consensus narrative.",
+    "consulted" : [ "Narrative_DecisionCaptureAtConsensus", "Narrative_AntiSlackPositioning", "Narrative_DecisionsEvaporate" ]
+  } ],
+  "unplaced" : [ ]
+}
