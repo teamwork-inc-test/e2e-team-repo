@@ -1,0 +1,10 @@
+{
+  "placements" : [ {
+    "verdict" : "reuse",
+    "leaf" : "Narrative_DefaultRefTopicBranch",
+    "supporting_segments" : [ "src-1" ],
+    "why" : "The segment 'Testing that omitted ref creates a topic branch' directly supports the existing leaf's theme: when a memory submission omits the ref field, the system defaults to creating a topic branch. This is an exact thematic match — the segment is a test assertion of the behavior the leaf describes.",
+    "consulted" : [ "Narrative_AntiSlackPositioning", "Narrative_DecisionCaptureAtConsensus", "Narrative_DecisionsEvaporate", "Narrative_DefaultRefTopicBranch" ]
+  } ],
+  "unplaced" : [ ]
+}
