@@ -1,0 +1,50 @@
+{
+  "resolutions" : [ {
+    "commentary_local_id" : "src-1",
+    "phrase" : "We shipped the async decision widget.",
+    "verdict" : "confident",
+    "binding" : {
+      "referents" : [ {
+        "iri" : "Position_Sprint4ThesisProven",
+        "relation" : "extends",
+        "why" : "Tanya's July 20 statement engages and reinforces the March 22 position that the sprint proved the thesis via widget delivery."
+      }, {
+        "iri" : "Obs_TanyaThesisProven",
+        "relation" : "extends",
+        "why" : "Tanya's prior observation that delivery validated the thesis is directly extended by her later confirmation that the widget shipped."
+      } ],
+      "targets" : [ "Narrative_ZeroEffortCapture", "PositioningThesis" ]
+    },
+    "why" : "The async decision widget delivery is the subject of the Sprint 4 retro; Position_Sprint4ThesisProven and Obs_TanyaThesisProven are the most specific leaves holding this theme.",
+    "consulted" : [ "Position_Sprint4ThesisProven", "Obs_TanyaThesisProven", "Sample_Sprint4Retro_20260322", "Narrative_ZeroEffortCapture", "PositioningThesis" ]
+  }, {
+    "commentary_local_id" : "src-2",
+    "phrase" : "Velocity was 23 points, highest this quarter.",
+    "verdict" : "confident",
+    "binding" : {
+      "referents" : [ {
+        "iri" : "Obs_TinaVelocity",
+        "relation" : "extends",
+        "why" : "Tanya restates the same 23-point velocity observation, extending it with her CEO-level confirmation from a later date."
+      } ],
+      "targets" : [ "KPIsSuccess" ]
+    },
+    "why" : "Obs_TinaVelocity is the unique leaf recording the 23-point velocity claim; the verbatim phrase matches the StyleObs_Sprint4_MetricAnchor quote exactly.",
+    "consulted" : [ "Obs_TinaVelocity", "StyleObs_Sprint4_MetricAnchor", "KPIsSuccess" ]
+  }, {
+    "commentary_local_id" : "src-3",
+    "phrase" : "The Zephyr integration was the key unlock.",
+    "verdict" : "confident",
+    "binding" : {
+      "referents" : [ {
+        "iri" : "Position_ZephyrIntegrationUnlock",
+        "relation" : "extends",
+        "why" : "Tanya's phrase 'the key unlock' directly engages and reinforces the prior position naming Zephyr integration as the key unlock for Sprint 4 velocity."
+      } ],
+      "targets" : [ "Narrative_ZeroEffortCapture", "DependenciesIntegrations" ]
+    },
+    "why" : "Position_ZephyrIntegrationUnlock is the sole node using 'key unlock' for the Zephyr integration; verbatim phrase convergence is unambiguous.",
+    "consulted" : [ "Position_ZephyrIntegrationUnlock", "Narrative_ZeroEffortCapture", "DependenciesIntegrations" ]
+  } ],
+  "unreferenced_commentary" : [ ]
+}
