@@ -1,0 +1,32 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "past", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "shipped",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Past-tense verb denotes a completed, actual event involving a specific artifact.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-2",
+    "regions" : [ "past", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "was 23 points",
+      "kind" : "plain-signal"
+    } ],
+    "why" : "Past-tense copula reports a settled, specific measurement from the sprint.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-3",
+    "regions" : [ "past", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "was the key unlock",
+      "kind" : "plain-signal"
+    } ],
+    "why" : "Past-tense attribution of a specific causal role to a named integration.",
+    "reported" : false
+  } ],
+  "unmarked" : [ ],
+  "unmarked_rest" : false
+}
