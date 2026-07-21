@@ -1,0 +1,19 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "self-enhancement", "competence" ],
+    "evidence" : [ {
+      "quote" : "Velocity was 23 points, highest this quarter",
+      "kind" : "plain-assertion"
+    }, {
+      "quote" : "The Zephyr integration was the key unlock",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Velocity framed as a quarterly high performs achievement-standing; naming the integration as the 'key unlock' performs mastery-capability of craft.",
+    "reported" : false
+  } ],
+  "unmarked" : [ ],
+  "unmarked_rest" : false,
+  "mints" : [ ],
+  "region_mints" : [ ]
+}
