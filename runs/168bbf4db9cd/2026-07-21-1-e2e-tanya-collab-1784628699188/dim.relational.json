@@ -1,0 +1,19 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "communal-sharing", "market-pricing" ],
+    "evidence" : [ {
+      "quote" : "We shipped",
+      "kind" : "performed-act"
+    }, {
+      "quote" : "Velocity was 23 points, highest this quarter",
+      "kind" : "framing-move"
+    } ],
+    "why" : "The 'we' enacts communal-sharing as a unified team body; the velocity-points framing enacts market-pricing proportionality, measuring output in quantified units against a quarterly benchmark.",
+    "reported" : false
+  } ],
+  "unmarked" : [ ],
+  "unmarked_rest" : false,
+  "mints" : [ ],
+  "region_mints" : [ ]
+}
