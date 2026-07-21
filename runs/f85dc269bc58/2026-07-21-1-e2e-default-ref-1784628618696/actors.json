@@ -1,0 +1,20 @@
+{
+  "bindings" : [ {
+    "name" : "Tanya",
+    "verdict" : "bind",
+    "target" : "Actor_Tanya_Staging",
+    "label" : "Tanya",
+    "why" : "Bare first name Tanya matches the existing actor's label; envelope participant, submitted_by, and account all converge on the single Tanya in the graph."
+  }, {
+    "name" : "Tanya TeamOwner",
+    "verdict" : "bind",
+    "target" : "Actor_Tanya_Staging",
+    "label" : "Tanya TeamOwner",
+    "why" : "Fuller form of the same person; envelope submitted_by is 'Tanya TeamOwner' and the only existing Tanya actor is Actor_Tanya_Staging."
+  }, {
+    "name" : "tanya+staging@aswritten.ai",
+    "verdict" : "bind",
+    "target" : "Actor_Tanya_Staging",
+    "why" : "Envelope account email matches the existing actor identified via the same front-matter email; unambiguous identity convergence."
+  } ]
+}
