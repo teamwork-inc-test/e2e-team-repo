@@ -1,0 +1,10 @@
+{
+  "placements" : [ {
+    "verdict" : "reuse",
+    "leaf" : "Narrative_DecisionCaptureAtConsensus",
+    "supporting_segments" : [ "src-1" ],
+    "why" : "The async decision widget that was shipped is the concrete embodiment of the decision-capture-at-consensus thesis — it intercepts the moment of consensus in chat threads and creates a persistent decision record. The segment reports the product's core narrative being validated through execution, directly supporting this existing leaf.",
+    "consulted" : [ "Narrative_AntiSlackPositioning", "Narrative_DecisionCaptureAtConsensus", "Narrative_DecisionsEvaporate" ]
+  } ],
+  "unplaced" : [ ]
+}
