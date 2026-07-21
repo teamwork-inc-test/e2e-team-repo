@@ -1,0 +1,15 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "metaphor" ],
+    "evidence" : [ {
+      "quote" : "the key unlock",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "The Zephyr integration is spoken of AS a lock-mechanism ('unlock'), a metaphor mapping the integration onto a physical key that releases a constraint — not mere vividness but a thing-as-another-thing figure.",
+    "reported" : false
+  } ],
+  "unmarked" : [ ],
+  "mints" : [ ],
+  "region_mints" : [ ]
+}
