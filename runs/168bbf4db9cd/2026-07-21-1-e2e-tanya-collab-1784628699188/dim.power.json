@@ -1,0 +1,19 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "expert", "informational" ],
+    "evidence" : [ {
+      "quote" : "Velocity was 23 points, highest this quarter.",
+      "kind" : "plain-assertion"
+    }, {
+      "quote" : "The Zephyr integration was the key unlock.",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Speaker supplies performance metrics and identifies a causal factor, exercising informational control and claiming expert authority through demonstrated results.",
+    "reported" : false
+  } ],
+  "unmarked" : [ ],
+  "unmarked_rest" : false,
+  "mints" : [ ],
+  "region_mints" : [ ]
+}
