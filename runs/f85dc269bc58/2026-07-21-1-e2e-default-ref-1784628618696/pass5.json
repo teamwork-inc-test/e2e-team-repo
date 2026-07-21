@@ -1,0 +1,10 @@
+{
+  "placements" : [ {
+    "verdict" : "reuse",
+    "leaf" : "Narrative_DefaultRefTopicBranch",
+    "supporting_segments" : [ "src-1" ],
+    "why" : "The segment is Tanya's verbatim test assertion that an omitted git ref triggers automatic topic branch creation — the exact thematic subject of this existing leaf. The assertive, unhedged register (conviction: plain assertion) and present-tense testing frame (temporal: performed act) directly support the narrative's claim that the system defaults to topic branch creation when ref is omitted.",
+    "consulted" : [ "Narrative_AntiSlackPositioning", "Narrative_DecisionCaptureAtConsensus", "Narrative_DecisionsEvaporate", "Narrative_DefaultRefTopicBranch" ]
+  } ],
+  "unplaced" : [ ]
+}
