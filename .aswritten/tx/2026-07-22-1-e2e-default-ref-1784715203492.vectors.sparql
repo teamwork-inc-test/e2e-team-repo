@@ -1,0 +1,208 @@
+PREFIX narr: <https://aswritten.ai/narrative#>
+PREFIX aswr: <https://aswritten.ai/aswr#>
+PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX dct:  <http://purl.org/dc/terms/>
+PREFIX xsd:  <http://www.w3.org/2001/XMLSchema#>
+PREFIX oa:   <http://www.w3.org/ns/oa#>
+
+INSERT DATA {
+  aswr:Tx_20260722T101327Z a prov:Activity ;
+      prov:generatedAtTime "2026-07-22T10:13:27Z"^^xsd:dateTime ;
+      prov:wasAssociatedWith "aswritten.ai" ;
+      prov:wasAttributedTo "scarlet@aswritten.ai" ;
+      aswr:pipelinePin "dff58b320cb3" ;
+      aswr:originPath ".aswritten/memories/2026-07-22-1-e2e-default-ref-1784715203492.md" ;
+      dct:title "Multipass fragment: 1E2EDefaultRef1784715203492" ;
+      prov:generated narr:VecConviction_1E2EDefaultRef1784715203492_1, narr:VecRegister_1E2EDefaultRef1784715203492_1, narr:VecRelational_1E2EDefaultRef1784715203492_1, narr:VecTemporal_1E2EDefaultRef1784715203492_1 .
+} ;
+INSERT DATA {
+  GRAPH aswr:Tx_20260722T101327Z {
+    narr:VecConviction_1E2EDefaultRef1784715203492_1 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_1E2EDefaultRef1784715203492_1 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Claim ;
+        narr:evidence "plain-assertion: Testing that omitted ref creates a topic branch." ;
+        narr:reported false ;
+        skos:note "The statement is a direct assertion about observed behavior, but it does not perform a ratification or operational settling required for decision." ;
+        prov:generatedAtTime "2026-07-22T10:13:27Z"^^xsd:dateTime .
+
+    narr:VecRegister_1E2EDefaultRef1784715203492_1 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_1E2EDefaultRef1784715203492_1 ;
+        narr:dimension narr:Dim_Register ;
+        narr:region narr:Register_MatterOfFact ;
+        narr:evidence "plain-assertion: Testing that omitted ref creates a topic branch." ;
+        narr:reported false ;
+        skos:note "The sentence is a direct, instrumental test statement without a marked formality, play, or technical register departure." ;
+        prov:generatedAtTime "2026-07-22T10:13:27Z"^^xsd:dateTime .
+
+    narr:VecRelational_1E2EDefaultRef1784715203492_1 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_1E2EDefaultRef1784715203492_1 ;
+        narr:dimension narr:Dim_Relational ;
+        narr:region narr:Relational_CommunalSharing ;
+        narr:evidence "address-form: Tanya:" ;
+        narr:reported false ;
+        skos:note "The speaker frames the test through a shared topic-oriented space, but the signal is weak and does not establish a stronger relational pattern." ;
+        prov:generatedAtTime "2026-07-22T10:13:27Z"^^xsd:dateTime .
+
+    narr:VecTemporal_1E2EDefaultRef1784715203492_1 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_1E2EDefaultRef1784715203492_1 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Present ;
+        narr:region narr:Temporal_Realis ;
+        narr:region narr:Temporal_Concrete ;
+        narr:evidence "plain-assertion: Testing that omitted ref creates a topic branch." ;
+        narr:reported false ;
+        skos:note "The assertion presents a current testing activity and an actual, specific branch-creation result." ;
+        prov:generatedAtTime "2026-07-22T10:13:27Z"^^xsd:dateTime .
+
+    narr:Expr_1E2EDefaultRef1784715203492_1 narr:supports narr:Narrative_DefaultRefTopicBranch .
+
+    aswr:Miss_1E2EDefaultRef1784715203492_affect_trip a aswr:Miss ;
+        aswr:missPass "affect" ;
+        aswr:missClass "floor" ;
+        aswr:missError "0 of 1 segments marked" ;
+        aswr:missModel "openai/gpt-5.6-luna" ;
+        aswr:tripFloor "marked_zero" ;
+        aswr:tripRatio "0.0000"^^xsd:decimal ;
+        aswr:tripOutcome "agreed-empty" ;
+        aswr:tripFallbackModel "subscription.anthropic/claude-sonnet-5" ;
+        aswr:missScope narr:Sample_1E2EDefaultRef1784715203492 ;
+        prov:generatedAtTime "2026-07-22T10:13:27Z"^^xsd:dateTime .
+
+    aswr:Miss_1E2EDefaultRef1784715203492_position_trip a aswr:Miss ;
+        aswr:missPass "position" ;
+        aswr:missClass "floor" ;
+        aswr:missError "ungrouped 1/1 exceeds 0.9" ;
+        aswr:missModel "z-ai/glm-5.2" ;
+        aswr:tripFloor "ungrouped_ratio" ;
+        aswr:tripRatio "1.0000"^^xsd:decimal ;
+        aswr:tripOutcome "agreed-empty" ;
+        aswr:tripFallbackModel "subscription.anthropic/claude-sonnet-5" ;
+        aswr:missScope narr:Sample_1E2EDefaultRef1784715203492 ;
+        prov:generatedAtTime "2026-07-22T10:13:27Z"^^xsd:dateTime .
+
+    aswr:Miss_1E2EDefaultRef1784715203492_power_trip a aswr:Miss ;
+        aswr:missPass "power" ;
+        aswr:missClass "floor" ;
+        aswr:missError "0 of 1 segments marked" ;
+        aswr:missModel "openai/gpt-5.6-luna" ;
+        aswr:tripFloor "marked_zero" ;
+        aswr:tripRatio "0.0000"^^xsd:decimal ;
+        aswr:tripOutcome "agreed-empty" ;
+        aswr:tripFallbackModel "subscription.anthropic/claude-sonnet-5" ;
+        aswr:missScope narr:Sample_1E2EDefaultRef1784715203492 ;
+        prov:generatedAtTime "2026-07-22T10:13:27Z"^^xsd:dateTime .
+
+    aswr:Miss_1E2EDefaultRef1784715203492_resolve_trip a aswr:Miss ;
+        aswr:missPass "resolve" ;
+        aswr:missClass "floor" ;
+        aswr:missError "resolutions empty against a populated perspective" ;
+        aswr:missModel "z-ai/glm-5.2" ;
+        aswr:tripFloor "empty_on_populated" ;
+        aswr:tripRatio "0.0000"^^xsd:decimal ;
+        aswr:tripOutcome "agreed-empty" ;
+        aswr:tripFallbackModel "subscription.anthropic/claude-sonnet-5" ;
+        aswr:missScope narr:Sample_1E2EDefaultRef1784715203492 ;
+        prov:generatedAtTime "2026-07-22T10:13:27Z"^^xsd:dateTime .
+
+    aswr:Miss_1E2EDefaultRef1784715203492_style_trip a aswr:Miss ;
+        aswr:missPass "style" ;
+        aswr:missClass "floor" ;
+        aswr:missError "0 of 1 segments marked" ;
+        aswr:missModel "openai/gpt-5.6-luna" ;
+        aswr:tripFloor "marked_zero" ;
+        aswr:tripRatio "0.0000"^^xsd:decimal ;
+        aswr:tripOutcome "agreed-empty" ;
+        aswr:tripFallbackModel "subscription.anthropic/claude-sonnet-5" ;
+        aswr:missScope narr:Sample_1E2EDefaultRef1784715203492 ;
+        prov:generatedAtTime "2026-07-22T10:13:27Z"^^xsd:dateTime .
+
+    aswr:Miss_1E2EDefaultRef1784715203492_value_trip a aswr:Miss ;
+        aswr:missPass "value" ;
+        aswr:missClass "floor" ;
+        aswr:missError "0 of 1 segments marked" ;
+        aswr:missModel "openai/gpt-5.6-luna" ;
+        aswr:tripFloor "marked_zero" ;
+        aswr:tripRatio "0.0000"^^xsd:decimal ;
+        aswr:tripOutcome "agreed-empty" ;
+        aswr:tripFallbackModel "subscription.anthropic/claude-sonnet-5" ;
+        aswr:missScope narr:Sample_1E2EDefaultRef1784715203492 ;
+        prov:generatedAtTime "2026-07-22T10:13:27Z"^^xsd:dateTime .
+
+    aswr:Run_20260722T101327Z_dim_affect a prov:Activity ;
+        aswr:runPass "dim.affect" ;
+        aswr:draftedBy "openai/gpt-5.6-luna" ;
+        aswr:artifact "aswritten/runs:runs/d9a88a94b39a/2026-07-22-1-e2e-default-ref-1784715203492/dim.affect.json" ;
+        dct:isPartOf aswr:Tx_20260722T101327Z ;
+        prov:generatedAtTime "2026-07-22T10:13:27Z"^^xsd:dateTime .
+
+    aswr:Run_20260722T101327Z_dim_conviction a prov:Activity ;
+        aswr:runPass "dim.conviction" ;
+        aswr:draftedBy "openai/gpt-5.6-luna" ;
+        aswr:artifact "aswritten/runs:runs/d9a88a94b39a/2026-07-22-1-e2e-default-ref-1784715203492/dim.conviction.json" ;
+        prov:generated narr:VecConviction_1E2EDefaultRef1784715203492_1 ;
+        dct:isPartOf aswr:Tx_20260722T101327Z ;
+        prov:generatedAtTime "2026-07-22T10:13:27Z"^^xsd:dateTime .
+
+    aswr:Run_20260722T101327Z_dim_power a prov:Activity ;
+        aswr:runPass "dim.power" ;
+        aswr:draftedBy "openai/gpt-5.6-luna" ;
+        aswr:artifact "aswritten/runs:runs/d9a88a94b39a/2026-07-22-1-e2e-default-ref-1784715203492/dim.power.json" ;
+        dct:isPartOf aswr:Tx_20260722T101327Z ;
+        prov:generatedAtTime "2026-07-22T10:13:27Z"^^xsd:dateTime .
+
+    aswr:Run_20260722T101327Z_dim_register a prov:Activity ;
+        aswr:runPass "dim.register" ;
+        aswr:draftedBy "openai/gpt-5.6-luna" ;
+        aswr:artifact "aswritten/runs:runs/d9a88a94b39a/2026-07-22-1-e2e-default-ref-1784715203492/dim.register.json" ;
+        prov:generated narr:VecRegister_1E2EDefaultRef1784715203492_1 ;
+        dct:isPartOf aswr:Tx_20260722T101327Z ;
+        prov:generatedAtTime "2026-07-22T10:13:27Z"^^xsd:dateTime .
+
+    aswr:Run_20260722T101327Z_dim_relational a prov:Activity ;
+        aswr:runPass "dim.relational" ;
+        aswr:draftedBy "openai/gpt-5.6-luna" ;
+        aswr:artifact "aswritten/runs:runs/d9a88a94b39a/2026-07-22-1-e2e-default-ref-1784715203492/dim.relational.json" ;
+        prov:generated narr:VecRelational_1E2EDefaultRef1784715203492_1 ;
+        dct:isPartOf aswr:Tx_20260722T101327Z ;
+        prov:generatedAtTime "2026-07-22T10:13:27Z"^^xsd:dateTime .
+
+    aswr:Run_20260722T101327Z_dim_style a prov:Activity ;
+        aswr:runPass "dim.style" ;
+        aswr:draftedBy "openai/gpt-5.6-luna" ;
+        aswr:artifact "aswritten/runs:runs/d9a88a94b39a/2026-07-22-1-e2e-default-ref-1784715203492/dim.style.json" ;
+        dct:isPartOf aswr:Tx_20260722T101327Z ;
+        prov:generatedAtTime "2026-07-22T10:13:27Z"^^xsd:dateTime .
+
+    aswr:Run_20260722T101327Z_dim_temporal a prov:Activity ;
+        aswr:runPass "dim.temporal" ;
+        aswr:draftedBy "openai/gpt-5.6-luna" ;
+        aswr:artifact "aswritten/runs:runs/d9a88a94b39a/2026-07-22-1-e2e-default-ref-1784715203492/dim.temporal.json" ;
+        prov:generated narr:VecTemporal_1E2EDefaultRef1784715203492_1 ;
+        dct:isPartOf aswr:Tx_20260722T101327Z ;
+        prov:generatedAtTime "2026-07-22T10:13:27Z"^^xsd:dateTime .
+
+    aswr:Run_20260722T101327Z_dim_value a prov:Activity ;
+        aswr:runPass "dim.value" ;
+        aswr:draftedBy "openai/gpt-5.6-luna" ;
+        aswr:artifact "aswritten/runs:runs/d9a88a94b39a/2026-07-22-1-e2e-default-ref-1784715203492/dim.value.json" ;
+        dct:isPartOf aswr:Tx_20260722T101327Z ;
+        prov:generatedAtTime "2026-07-22T10:13:27Z"^^xsd:dateTime .
+
+    aswr:Run_20260722T101327Z_pass5 a prov:Activity ;
+        aswr:runPass "pass5" ;
+        aswr:draftedBy "z-ai/glm-5.2" ;
+        aswr:artifact "aswritten/runs:runs/d9a88a94b39a/2026-07-22-1-e2e-default-ref-1784715203492/pass5.json" ;
+        dct:isPartOf aswr:Tx_20260722T101327Z ;
+        prov:generatedAtTime "2026-07-22T10:13:27Z"^^xsd:dateTime .
+
+    aswr:Run_20260722T101327Z_position a prov:Activity ;
+        aswr:runPass "position" ;
+        aswr:draftedBy "z-ai/glm-5.2" ;
+        aswr:artifact "aswritten/runs:runs/d9a88a94b39a/2026-07-22-1-e2e-default-ref-1784715203492/position.json" ;
+        dct:isPartOf aswr:Tx_20260722T101327Z ;
+        prov:generatedAtTime "2026-07-22T10:13:27Z"^^xsd:dateTime .
+  }
+}
