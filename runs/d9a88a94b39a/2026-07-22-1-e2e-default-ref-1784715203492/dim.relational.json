@@ -1,0 +1,15 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "communal-sharing" ],
+    "evidence" : [ {
+      "quote" : "Tanya:",
+      "kind" : "address-form"
+    } ],
+    "why" : "The speaker frames the test through a shared topic-oriented space, but the signal is weak and does not establish a stronger relational pattern.",
+    "reported" : false
+  } ],
+  "unmarked" : [ ],
+  "mints" : [ ],
+  "region_mints" : [ ]
+}
