@@ -1,0 +1,10 @@
+{
+  "placements" : [ {
+    "verdict" : "reuse",
+    "leaf" : "Narrative_DecisionCaptureAtConsensus",
+    "supporting_segments" : [ "src-1", "src-2", "src-3" ],
+    "why" : "All three segments thematically support the decision-capture-at-consensus narrative. src-1 reports shipping the async decision widget — the product embodiment of capturing decisions at the moment of consensus. src-3 identifies the Zephyr integration as the key unlock, i.e. the mechanism that enables cross-platform decision capture without separate plugins. src-2's velocity metric (23 points, highest this quarter) is a delivery fact that evidences successful execution of that capability. These are facts evidencing the narrative theme, not themes themselves — no new leaf is warranted.",
+    "consulted" : [ "Narrative_AntiSlackPositioning", "Narrative_DecisionCaptureAtConsensus", "Narrative_DecisionsEvaporate" ]
+  } ],
+  "unplaced" : [ ]
+}
