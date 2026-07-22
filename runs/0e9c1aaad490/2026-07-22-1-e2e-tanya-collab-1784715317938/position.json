@@ -1,0 +1,12 @@
+{
+  "positions" : [ {
+    "name" : "Sprint4DeliveryAccount",
+    "frame" : "how do we account for what Sprint 4 delivered and what enabled it?",
+    "members" : [ "src-1", "src-2", "src-3" ],
+    "why" : "All three expressions are confident, past-tense, realis claims about Sprint 4 outcomes — the deliverable (widget shipped), the performance metric (23-point velocity, highest this quarter), and the causal explanation (Zephyr integration as key unlock). They cohere as a single account of Sprint 4's delivery: what was shipped, at what velocity, and why that velocity was achievable. Internal tension is appropriate — src-1's communal 'we shipped' pools team effort while src-2's metric-anchored 'highest this quarter' performs a comparative achievement stance, but both are facets of the same delivery account read through the frame of 'what happened and what drove it.'",
+    "under" : [ "Narrative_DecisionCaptureAtConsensus" ]
+  } ],
+  "attaches" : [ ],
+  "position_revisions" : [ ],
+  "ungrouped" : [ ]
+}
