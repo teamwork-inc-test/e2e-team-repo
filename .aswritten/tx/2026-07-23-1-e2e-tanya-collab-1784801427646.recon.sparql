@@ -1,0 +1,58 @@
+PREFIX narr: <https://aswritten.ai/narrative#>
+PREFIX aswr: <https://aswritten.ai/aswr#>
+PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX dct:  <http://purl.org/dc/terms/>
+PREFIX xsd:  <http://www.w3.org/2001/XMLSchema#>
+PREFIX oa:   <http://www.w3.org/ns/oa#>
+
+INSERT DATA {
+  aswr:Tx_20260723T101033Z a prov:Activity ;
+      prov:generatedAtTime "2026-07-23T10:10:33Z"^^xsd:dateTime ;
+      prov:wasAssociatedWith "aswritten.ai" ;
+      prov:wasAttributedTo "scarlet@aswritten.ai" ;
+      aswr:pipelinePin "dff58b320cb3" ;
+      dct:title "Multipass reconciliations: 1E2ETanyaCollab1784801427646" ;
+      prov:generated narr:Demoted_1E2ETanyaCollab1784801427646_1, narr:Demoted_1E2ETanyaCollab1784801427646_2, narr:Demoted_1E2ETanyaCollab1784801427646_3 .
+} ;
+INSERT DATA {
+  GRAPH aswr:Tx_20260723T101033Z {
+    narr:Demoted_1E2ETanyaCollab1784801427646_1 a narr:DemotedReconciliation ;
+        oa:hasTarget narr:Expr_1E2ETanyaCollab1784801427646_1 ;
+        skos:note "principal \"Tanya TeamOwner\" is not the envelope's human (tanya+staging@aswritten.ai) or 'session'" ;
+        dct:source narr:Sample_1E2ETanyaCollab1784801427646 ;
+        prov:generatedAtTime "2026-07-23T10:10:33Z"^^xsd:dateTime .
+
+    narr:Demoted_1E2ETanyaCollab1784801427646_2 a narr:DemotedReconciliation ;
+        oa:hasTarget narr:Expr_1E2ETanyaCollab1784801427646_2 ;
+        skos:note "principal \"Tanya TeamOwner\" is not the envelope's human (tanya+staging@aswritten.ai) or 'session'" ;
+        dct:source narr:Sample_1E2ETanyaCollab1784801427646 ;
+        prov:generatedAtTime "2026-07-23T10:10:33Z"^^xsd:dateTime .
+
+    narr:Demoted_1E2ETanyaCollab1784801427646_3 a narr:DemotedReconciliation ;
+        oa:hasTarget narr:Expr_1E2ETanyaCollab1784801427646_3 ;
+        skos:note "principal \"Tanya TeamOwner\" is not the envelope's human (tanya+staging@aswritten.ai) or 'session'" ;
+        dct:source narr:Sample_1E2ETanyaCollab1784801427646 ;
+        prov:generatedAtTime "2026-07-23T10:10:33Z"^^xsd:dateTime .
+
+    aswr:Run_20260723T101033Z_pass2 a prov:Activity ;
+        aswr:runPass "pass2" ;
+        aswr:draftedBy "subscription.anthropic/claude-sonnet-5" ;
+        aswr:artifact "aswritten/runs:runs/305d7fd0aa11/2026-07-23-1-e2e-tanya-collab-1784801427646/pass2.json" ;
+        dct:isPartOf aswr:Tx_20260723T101033Z ;
+        prov:generatedAtTime "2026-07-23T10:10:33Z"^^xsd:dateTime .
+
+    aswr:Run_20260723T101033Z_pass3 a prov:Activity ;
+        aswr:runPass "pass3" ;
+        aswr:draftedBy "z-ai/glm-5.2" ;
+        aswr:artifact "aswritten/runs:runs/305d7fd0aa11/2026-07-23-1-e2e-tanya-collab-1784801427646/pass3.json" ;
+        prov:generated narr:Demoted_1E2ETanyaCollab1784801427646_1, narr:Demoted_1E2ETanyaCollab1784801427646_2, narr:Demoted_1E2ETanyaCollab1784801427646_3 ;
+        dct:isPartOf aswr:Tx_20260723T101033Z ;
+        prov:generatedAtTime "2026-07-23T10:10:33Z"^^xsd:dateTime .
+
+    narr:Expr_1E2ETanyaCollab1784801427646_1 narr:see narr:Sample_Sprint4Retro_20260322 .
+    narr:Expr_1E2ETanyaCollab1784801427646_2 narr:see narr:Obs_TinaVelocity .
+    narr:Expr_1E2ETanyaCollab1784801427646_3 narr:see narr:Position_ZephyrIntegrationUnlock .
+  }
+}
