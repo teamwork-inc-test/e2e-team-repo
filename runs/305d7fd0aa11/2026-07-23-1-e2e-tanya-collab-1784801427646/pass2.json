@@ -1,0 +1,46 @@
+{
+  "resolutions" : [ {
+    "commentary_local_id" : "src-1",
+    "phrase" : "We shipped the async decision widget.",
+    "verdict" : "confident",
+    "why" : "Exact restatement of the shipped async-decision-widget fact already witnessed as the subject of Sample_Sprint4Retro_20260322; no new detail or consequence is added beyond what that record covers.",
+    "consulted" : [ "Sample_Sprint4Retro_20260322", "Position_Sprint4ThesisProven", "Narrative_ZeroEffortCapture" ],
+    "binding" : {
+      "referents" : [ {
+        "iri" : "Sample_Sprint4Retro_20260322",
+        "relation" : "see",
+        "why" : "Names the already-witnessed retro record that documents the shipped feature; the segment anchors on it without engaging new content."
+      } ],
+      "targets" : [ "Narrative_ZeroEffortCapture" ]
+    }
+  }, {
+    "commentary_local_id" : "src-2",
+    "phrase" : "Velocity was 23 points, highest this quarter.",
+    "verdict" : "confident",
+    "why" : "Word-for-word match to the witnessed velocity figure and its quoted anchor from the Sprint 4 retro; no new detail is added.",
+    "consulted" : [ "Obs_TinaVelocity", "StyleObs_Sprint4_MetricAnchor" ],
+    "binding" : {
+      "referents" : [ {
+        "iri" : "Obs_TinaVelocity",
+        "relation" : "see",
+        "why" : "Restates the already-witnessed 23-point velocity observation verbatim, purely anchoring rather than adding content."
+      } ],
+      "targets" : [ "KPIsSuccess" ]
+    }
+  }, {
+    "commentary_local_id" : "src-3",
+    "phrase" : "The Zephyr integration was the key unlock.",
+    "verdict" : "confident",
+    "why" : "Near-verbatim restatement of the already-witnessed position naming Zephyr as the Sprint 4 velocity unlock; no new engagement or consequence introduced.",
+    "consulted" : [ "Position_ZephyrIntegrationUnlock", "Obs_TinaVelocity" ],
+    "binding" : {
+      "referents" : [ {
+        "iri" : "Position_ZephyrIntegrationUnlock",
+        "relation" : "see",
+        "why" : "Names the already-witnessed Zephyr-unlock position as anchor without adding new detail."
+      } ],
+      "targets" : [ "DependenciesIntegrations", "Narrative_ZeroEffortCapture" ]
+    }
+  } ],
+  "unreferenced_commentary" : [ ]
+}
