@@ -1,0 +1,10 @@
+{
+  "placements" : [ {
+    "verdict" : "reuse",
+    "leaf" : "Narrative_DecisionCaptureAtConsensus",
+    "supporting_segments" : [ "src-1", "src-2", "src-3" ],
+    "why" : "All three segments evidence the decision-capture-at-consensus narrative: shipping the async decision widget is the productization of that insight, the 23-point velocity is proof-of-delivery evidence, and the Zephyr integration is the mechanism that made cross-platform capture real. Each is a factual report that supports the existing thematic leaf rather than introducing a new theme.",
+    "consulted" : [ "Narrative_AntiSlackPositioning", "Narrative_DecisionCaptureAtConsensus", "Narrative_DecisionsEvaporate" ]
+  } ],
+  "unplaced" : [ ]
+}
