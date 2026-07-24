@@ -1,0 +1,50 @@
+{
+  "resolutions" : [ {
+    "commentary_local_id" : "src-1",
+    "phrase" : "We shipped the async decision widget.",
+    "verdict" : "confident",
+    "binding" : {
+      "referents" : [ {
+        "iri" : "Position_Sprint4ThesisProven",
+        "relation" : "extends",
+        "why" : "Confirms shipment of the widget that Position_Sprint4ThesisProven described as proving the thesis; adds the delivery fact."
+      }, {
+        "iri" : "Position_CoreFeatureDecisionCapture",
+        "relation" : "extends",
+        "why" : "The core feature of decision capture at consensus is now reported as shipped."
+      } ],
+      "targets" : [ "Sample_Sprint4Retro_20260322", "PositioningThesis" ]
+    },
+    "why" : "The async decision widget maps directly to Position_Sprint4ThesisProven and Position_CoreFeatureDecisionCapture, both at position grain in the active surface.",
+    "consulted" : [ "Position_Sprint4ThesisProven", "Position_CoreFeatureDecisionCapture", "Narrative_DecisionCaptureAtConsensus", "Sample_Sprint4Retro_20260322" ]
+  }, {
+    "commentary_local_id" : "src-2",
+    "phrase" : "Velocity was 23 points, highest this quarter.",
+    "verdict" : "confident",
+    "binding" : {
+      "referents" : [ {
+        "iri" : "Obs_TinaVelocity",
+        "relation" : "extends",
+        "why" : "Restates and confirms the 23-point velocity observation from the Sprint 4 retro, now from Tanya's perspective as CEO."
+      } ],
+      "targets" : [ "Sample_Sprint4Retro_20260322", "KPIsSuccess" ]
+    },
+    "why" : "Exact numeric match to Obs_TinaVelocity which records '23-point velocity (highest this quarter)' from the same Sprint 4 retro.",
+    "consulted" : [ "Obs_TinaVelocity", "StyleObs_Sprint4_MetricAnchor", "Sample_Sprint4Retro_20260322" ]
+  }, {
+    "commentary_local_id" : "src-3",
+    "phrase" : "The Zephyr integration was the key unlock.",
+    "verdict" : "confident",
+    "binding" : {
+      "referents" : [ {
+        "iri" : "Position_ZephyrIntegrationUnlock",
+        "relation" : "extends",
+        "why" : "Restates and confirms the position that Zephyr integration was the key unlock for Sprint 4 velocity."
+      } ],
+      "targets" : [ "Sample_Sprint4Retro_20260322", "Narrative_ZeroEffortCapture" ]
+    },
+    "why" : "Direct match to Position_ZephyrIntegrationUnlock which identifies Zephyr integration as the key unlock for Sprint 4 velocity.",
+    "consulted" : [ "Position_ZephyrIntegrationUnlock", "Obs_ZephyrRateLimitResolved", "Sample_Sprint4Retro_20260322" ]
+  } ],
+  "unreferenced_commentary" : [ ]
+}
