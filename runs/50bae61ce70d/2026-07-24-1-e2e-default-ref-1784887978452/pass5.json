@@ -1,0 +1,10 @@
+{
+  "placements" : [ {
+    "verdict" : "reuse",
+    "leaf" : "Narrative_DefaultRefTopicBranch",
+    "supporting_segments" : [ "src-1" ],
+    "why" : "The segment is the verbatim test expression that this existing leaf already describes: an omitted git ref should trigger automatic topic branch creation. The leaf's frame — defaulting to a topic branch rather than failing or writing to main — is exactly what Tanya's statement tests. No new leaf is needed.",
+    "consulted" : [ "Narrative_DefaultRefTopicBranch", "Narrative_AntiSlackPositioning", "Narrative_DecisionCaptureAtConsensus", "Narrative_DecisionsEvaporate" ]
+  } ],
+  "unplaced" : [ ]
+}
