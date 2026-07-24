@@ -1,0 +1,14 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "present", "irrealis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "Testing that omitted ref creates a topic branch",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Speaker describes a current testing action aimed at verifying a hypothetical outcome (omitted ref creating a branch), with attention on a concrete system behavior.",
+    "reported" : false
+  } ],
+  "unmarked" : [ ],
+  "unmarked_rest" : false
+}
