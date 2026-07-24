@@ -1,0 +1,10 @@
+{
+  "placements" : [ {
+    "verdict" : "reuse",
+    "leaf" : "Narrative_DecisionCaptureAtConsensus",
+    "supporting_segments" : [ "src-1", "src-3" ],
+    "why" : "Both expressions support the theme of capturing decisions at the moment of consensus. src-1 reports the shipment of the async decision widget — the realization of the core feature described by this leaf. src-3 names the Zephyr integration as the key unlock that enabled cross-platform embedding for that capture mechanism. Both are fact-grain evidence feeding the existing thematic leaf, not new themes of their own.",
+    "consulted" : [ "Narrative_DecisionCaptureAtConsensus", "Narrative_AntiSlackPositioning", "Narrative_DecisionsEvaporate" ]
+  } ],
+  "unplaced" : [ "src-2" ]
+}
