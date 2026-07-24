@@ -1,0 +1,12 @@
+{
+  "positions" : [ {
+    "name" : "SprintDeliveryAndUnlock",
+    "frame" : "how does the team name what it shipped and the mechanism that unlocked it?",
+    "members" : [ "src-1", "src-3" ],
+    "why" : "Both expressions perform communal-sharing and competence: src-1 names the delivered artifact (the async decision widget) and src-3 names the causal enabler (the Zephyr integration as 'the key unlock'). Together they read as the team accounting for a delivery and its enabling mechanism — flat unhedged claims sharing past-realis temporality and informational power, with src-3 shifting into technical register to name the mechanism in pipeline vocabulary.",
+    "under" : [ "Narrative_DecisionCaptureAtConsensus" ]
+  } ],
+  "attaches" : [ ],
+  "position_revisions" : [ ],
+  "ungrouped" : [ "src-2" ]
+}
