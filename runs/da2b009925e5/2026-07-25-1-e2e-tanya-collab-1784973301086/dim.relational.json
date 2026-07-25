@@ -1,0 +1,28 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "communal-sharing" ],
+    "evidence" : [ {
+      "quote" : "We shipped",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "The pronoun 'We' enacts communal-sharing — the team as an undifferentiated body that shipped together.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-2",
+    "regions" : [ "market-pricing" ],
+    "evidence" : [ {
+      "quote" : "23 points",
+      "kind" : "lexical-marker"
+    }, {
+      "quote" : "highest this quarter",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Velocity measured in points and ranked against prior quarters frames output as proportional, quantified return — market-pricing.",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-3" ],
+  "unmarked_rest" : false,
+  "mints" : [ ],
+  "region_mints" : [ ]
+}
