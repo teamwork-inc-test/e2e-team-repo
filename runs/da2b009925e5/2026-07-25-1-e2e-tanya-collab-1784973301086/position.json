@@ -1,0 +1,12 @@
+{
+  "positions" : [ {
+    "name" : "SprintOutcomeAccount",
+    "frame" : "how do we account for what the sprint delivered?",
+    "members" : [ "src-1", "src-2", "src-3" ],
+    "why" : "All three expressions report sprint outcomes as settled, accomplished facts — a shipped widget, a peak velocity metric, and a named causal unlock — performed in the same calm-positive, informational, claim-level register. The shared stance is factual accomplishment reporting without performed excitement or hedging; the conviction gradient is flat across all three (claim, not decision or principle), and the value read is consistently self-enhancement/competence. The set holds mild tension between communal credit ('We shipped') and individual causal attribution ('the Zephyr integration was the key unlock'), but both cohere under the frame of accounting for delivered outcomes.",
+    "under" : [ "Narrative_DecisionCaptureAtConsensus" ]
+  } ],
+  "attaches" : [ ],
+  "position_revisions" : [ ],
+  "ungrouped" : [ ]
+}
