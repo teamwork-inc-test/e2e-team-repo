@@ -1,0 +1,15 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-3",
+    "regions" : [ "metaphor" ],
+    "evidence" : [ {
+      "quote" : "key unlock",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "The integration is spoken of AS an unlock — a thing that opens what was closed — a metaphor performed in two words, not mere vividness.",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-1", "src-2" ],
+  "mints" : [ ],
+  "region_mints" : [ ]
+}
