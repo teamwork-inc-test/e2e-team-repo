@@ -1,0 +1,13 @@
+{
+  "bindings" : [ {
+    "name" : "Tanya TeamOwner",
+    "verdict" : "mint",
+    "label" : "Tanya TeamOwner",
+    "why" : "No existing actors in the graph; young repo, every verdict is mint."
+  }, {
+    "name" : "tanya+staging@aswritten.ai",
+    "verdict" : "mint",
+    "label" : "Tanya TeamOwner",
+    "why" : "Email alias for Tanya TeamOwner per envelope account field; no existing actor to bind, so mint with the fullest name form so both names converge on one node."
+  } ]
+}
