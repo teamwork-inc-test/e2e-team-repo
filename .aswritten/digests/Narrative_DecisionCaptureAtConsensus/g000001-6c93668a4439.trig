@@ -1,0 +1,21 @@
+@prefix narr: <https://aswritten.ai/narrative#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+GRAPH <https://aswritten.ai/narrative#Digest_Narrative_DecisionCaptureAtConsensus> {
+  <https://aswritten.ai/narrative#Digest_Narrative_DecisionCaptureAtConsensus> a narr:Digest ;
+    narr:digestOf <https://aswritten.ai/narrative#Narrative_DecisionCaptureAtConsensus> ;
+    narr:childCount "5"^^xsd:integer ;
+    narr:generatedFrom "6c93668a443946b4308b1e9924446918263238c7" ;
+    narr:narration """The narrative surrounding [decision capture at consensus](narr:Position_CoreFeatureDecisionCapture) has evolved from a foundational product thesis established in March 2026 to a set of empirical validations surfaced in late July. The core thesis posits that the product's primary differentiator is the ability to secure decision artifacts at the exact moment of consensus. By July 26, 2026, this abstract positioning was met with [Sprint 4 proof points](narr:Position_Sprint4ProofPoints), which anchor the theory in specific operational outcomes. These include the successful [shipment of the async decision widget](narr:Expr_1E2ETanyaCollab1785059979981_1), a record-setting [velocity of 23 points](narr:Expr_1E2ETanyaCollab1785059979981_2), and the identification of the [Zephyr integration](narr:Expr_1E2ETanyaCollab1785059979981_3) as the critical technical unlock for the workflow.""" ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1E2ETanyaCollab1785059979981_1> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1E2ETanyaCollab1785059979981_2> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1E2ETanyaCollab1785059979981_3> ;
+    narr:covers <https://aswritten.ai/narrative#Position_CoreFeatureDecisionCapture> ;
+    narr:covers <https://aswritten.ai/narrative#Position_Sprint4ProofPoints> ;
+    narr:keyPhrase [ narr:text "decision capture at the point of consensus" ; narr:phraseSource <https://aswritten.ai/narrative#Position_CoreFeatureDecisionCapture> ] ;
+    narr:keyPhrase [ narr:text "We shipped the async decision widget." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1E2ETanyaCollab1785059979981_1> ] ;
+    narr:keyPhrase [ narr:text "Velocity was 23 points, highest this quarter." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1E2ETanyaCollab1785059979981_2> ] ;
+    narr:keyPhrase [ narr:text "The Zephyr integration was the key unlock." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1E2ETanyaCollab1785059979981_3> ] ;
+    narr:variation [ narr:text "The tension exists between the abstract product thesis and the concrete, metric-driven validation of the sprint." ; narr:over <https://aswritten.ai/narrative#Position_CoreFeatureDecisionCapture> ; narr:over <https://aswritten.ai/narrative#Position_Sprint4ProofPoints> ] ;
+    narr:writer "google/gemini-3.1-flash-lite" .
+}
