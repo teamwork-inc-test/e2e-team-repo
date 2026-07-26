@@ -1,0 +1,12 @@
+{
+  "positions" : [ {
+    "name" : "Sprint4ProofPoints",
+    "frame" : "what did Sprint 4 demonstrate about the product thesis?",
+    "members" : [ "src-1", "src-2", "src-3" ],
+    "why" : "All three expressions are proof points from the same sprint retro: the shipped widget (the decision-capture artifact), the peak velocity metric, and the Zephyr integration as causal enabler. Together they read as evidence that the core thesis — capture decisions at consensus with zero extra steps — was validated in delivery. The set holds a mild tension between concrete accomplishment (shipped widget, 23 points) and abstract causal attribution (key unlock), but the frame's read holds both sides: what Sprint 4 proved spans the delivered artifact, the measured outcome, and the identified enabler.",
+    "under" : [ "Narrative_DecisionCaptureAtConsensus" ]
+  } ],
+  "attaches" : [ ],
+  "position_revisions" : [ ],
+  "ungrouped" : [ ]
+}
