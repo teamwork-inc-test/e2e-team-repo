@@ -1,0 +1,21 @@
+{
+  "doc" : {
+    "title" : "Default Ref Test",
+    "date_stated" : null,
+    "actors_present" : [ "Tanya TeamOwner" ]
+  },
+  "segments" : [ {
+    "circumstance" : {
+      "context" : "Default Ref Test document"
+    },
+    "exact" : "Tanya: \"Testing that omitted ref creates a topic branch.\"",
+    "local_id" : "src-1",
+    "act" : "assertive",
+    "footing_case" : null,
+    "note" : null,
+    "redacted" : false,
+    "actor" : "Tanya TeamOwner"
+  } ],
+  "coverage_gaps" : [ ],
+  "footing_cases" : [ ]
+}
