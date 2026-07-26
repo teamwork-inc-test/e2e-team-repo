@@ -1,0 +1,16 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-3",
+    "regions" : [ "metaphor" ],
+    "evidence" : [ {
+      "quote" : "key unlock",
+      "kind" : "plain-signal"
+    } ],
+    "why" : "The integration is spoken of AS an unlock — a thing conceptualized through another thing's function, not mere vividness.",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-1", "src-2" ],
+  "unmarked_rest" : false,
+  "mints" : [ ],
+  "region_mints" : [ ]
+}
