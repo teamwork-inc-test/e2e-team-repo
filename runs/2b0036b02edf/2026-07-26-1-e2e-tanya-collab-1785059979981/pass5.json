@@ -1,0 +1,10 @@
+{
+  "placements" : [ {
+    "verdict" : "reuse",
+    "leaf" : "Narrative_DecisionCaptureAtConsensus",
+    "supporting_segments" : [ "src-1", "src-2", "src-3" ],
+    "why" : "All three segments are Sprint 4 proof points evidencing the decision-capture-at-consensus thesis. src-1 reports the shipped widget — the decision-capture artifact itself. src-2 is a velocity metric proving the approach's delivery success. src-3 names the Zephyr integration as the enabler of zero-effort cross-platform capture, the 'zero extra steps' dimension of this leaf. None is a theme on its own; each is position-grain evidence FOR this existing narrative leaf.",
+    "consulted" : [ "Narrative_DecisionCaptureAtConsensus", "Narrative_AntiSlackPositioning", "Narrative_DecisionsEvaporate" ]
+  } ],
+  "unplaced" : [ ]
+}
