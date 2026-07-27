@@ -1,0 +1,12 @@
+{
+  "positions" : [ {
+    "name" : "SprintDeliveryAccounting",
+    "frame" : "how does the team account for a sprint's outcomes — what shipped, how it measured, and what drove it?",
+    "members" : [ "src-1", "src-2", "src-3" ],
+    "why" : "All three expressions share a matter-of-fact, past-tense, informational register: they recount settled facts about Sprint 4 without hedging or performance. src-1 declares the deliverable, src-2 supplies the velocity metric as evidence, and src-3 attributes the outcome to a single causal factor. Together they form a retrospective accounting — the team reporting what happened, measured how, and why it worked — read through a shared stance of composed, communal pride.",
+    "under" : [ "Narrative_DecisionCaptureAtConsensus" ]
+  } ],
+  "attaches" : [ ],
+  "position_revisions" : [ ],
+  "ungrouped" : [ ]
+}
