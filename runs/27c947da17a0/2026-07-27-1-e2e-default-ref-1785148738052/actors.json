@@ -1,0 +1,14 @@
+{
+  "bindings" : [ {
+    "name" : "Tanya TeamOwner",
+    "verdict" : "bind",
+    "target" : "Actor_Tanya_Staging",
+    "label" : "Tanya TeamOwner",
+    "why" : "Envelope participant and submitted_by match the existing Tanya (staging) actor; the staging email account tanya+staging@aswritten.ai confirms identity."
+  }, {
+    "name" : "tanya+staging@aswritten.ai",
+    "verdict" : "bind",
+    "target" : "Actor_Tanya_Staging",
+    "why" : "Email alias for the same Tanya (staging) actor already identified via front-matter; aliases converge on one node."
+  } ]
+}
