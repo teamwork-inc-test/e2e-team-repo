@@ -1,0 +1,14 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "present", "irrealis", "abstract" ],
+    "evidence" : [ {
+      "quote" : "Testing that omitted ref creates a topic branch",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Present-tense testing activity directed at a hypothetical outcome (omitted ref creating a branch), framed as a general mechanism rather than a specific past event.",
+    "reported" : false
+  } ],
+  "unmarked" : [ ],
+  "unmarked_rest" : false
+}
