@@ -1,0 +1,18 @@
+{
+  "bindings" : [ {
+    "name" : "Tanya",
+    "verdict" : "mint",
+    "label" : "Tanya TeamOwner",
+    "why" : "Young repo with no existing actors; bare first name resolves to the sole participant via envelope context, minted under fullest form available."
+  }, {
+    "name" : "Tanya TeamOwner",
+    "verdict" : "mint",
+    "label" : "Tanya TeamOwner",
+    "why" : "Young repo with no existing actors; full display name from submitted_by, minted as new actor."
+  }, {
+    "name" : "tanya+staging@aswritten.ai",
+    "verdict" : "mint",
+    "label" : "Tanya TeamOwner",
+    "why" : "Young repo with no existing actors; account email aliases to the same person as the participant, minted under fullest name form."
+  } ]
+}
