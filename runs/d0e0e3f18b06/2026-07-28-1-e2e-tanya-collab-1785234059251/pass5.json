@@ -1,0 +1,10 @@
+{
+  "placements" : [ {
+    "verdict" : "reuse",
+    "leaf" : "Narrative_DecisionCaptureAtConsensus",
+    "supporting_segments" : [ "src-1", "src-2", "src-3" ],
+    "why" : "The async decision widget is the productization of the decision-capture-at-consensus thesis. Shipping it (src-1), the velocity achieved in doing so (src-2), and the Zephyr integration that unlocked delivery (src-3) are delivery facts that evidence this narrative — the thesis is being realized and proven through sprint execution. These are position-grain facts (a shipped event, a velocity metric, a causal attribution) that support the leaf whose theme they evidence, not a new leaf of their own.",
+    "consulted" : [ "Narrative_AntiSlackPositioning", "Narrative_DecisionCaptureAtConsensus", "Narrative_DecisionsEvaporate" ]
+  } ],
+  "unplaced" : [ ]
+}
