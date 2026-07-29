@@ -1,0 +1,14 @@
+{
+  "bindings" : [ {
+    "name" : "Tanya TeamOwner",
+    "verdict" : "bind",
+    "target" : "Actor_Tanya_Staging",
+    "label" : "Tanya TeamOwner",
+    "why" : "Envelope participant and submitted_by; the only Tanya in existing actors and in the envelope, so identity is unambiguous. Witnessed name is fuller than the listed label 'Tanya (staging)'."
+  }, {
+    "name" : "tanya+staging@aswritten.ai",
+    "verdict" : "bind",
+    "target" : "Actor_Tanya_Staging",
+    "why" : "Front-matter email matches the existing actor identified by that same email; confident identity convergence."
+  } ]
+}
