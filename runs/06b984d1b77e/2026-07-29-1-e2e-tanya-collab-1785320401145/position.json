@@ -1,0 +1,12 @@
+{
+  "positions" : [ {
+    "name" : "Sprint4OutcomeAttribution",
+    "frame" : "what did Sprint 4 deliver and what drove the outcome?",
+    "members" : [ "src-1", "src-2", "src-3" ],
+    "why" : "All three expressions are Tanya's retrospective reporting of Sprint 4 outcomes — what shipped (src-1), how it measured (src-2), and what enabled it (src-3). They share the same stance (accomplishment as settled fact), temporal mode (past realis), and conviction (claim). The set holds a causal arc from delivery through measurement to attribution, all performed in the same informational register; src-3's technical register and market-pricing relational form introduces a slight tension with src-1's communal-sharing 'we,' but the frame's read holds both sides — the team shipped together, and a specific integration unlocked the velocity.",
+    "under" : [ "Narrative_DecisionCaptureAtConsensus" ]
+  } ],
+  "attaches" : [ ],
+  "position_revisions" : [ ],
+  "ungrouped" : [ ]
+}
