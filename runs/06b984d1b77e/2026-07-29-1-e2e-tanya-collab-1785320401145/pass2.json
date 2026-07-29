@@ -1,0 +1,50 @@
+{
+  "resolutions" : [ {
+    "commentary_local_id" : "src-1",
+    "phrase" : "We shipped the async decision widget.",
+    "verdict" : "confident",
+    "binding" : {
+      "referents" : [ {
+        "iri" : "Position_Sprint4ThesisProven",
+        "relation" : "extends",
+        "why" : "Tanya restates the widget shipping that this position says proved the thesis — engages its content."
+      }, {
+        "iri" : "Obs_TanyaThesisProven",
+        "relation" : "extends",
+        "why" : "Tanya extends her prior confirmation that Sprint 4 delivery validated the product thesis."
+      } ],
+      "targets" : [ "PositioningThesis", "Narrative_ZeroEffortCapture" ]
+    },
+    "why" : "Tanya's statement directly engages prior positions about the async decision widget shipping and proving the thesis; near-verbatim thematic match to Position_Sprint4ThesisProven and Obs_TanyaThesisProven.",
+    "consulted" : [ "Position_Sprint4ThesisProven", "Obs_TanyaThesisProven", "Sample_Sprint4Retro_20260322", "Narrative_AntiSlackPositioning" ]
+  }, {
+    "commentary_local_id" : "src-2",
+    "phrase" : "Velocity was 23 points, highest this quarter.",
+    "verdict" : "confident",
+    "binding" : {
+      "referents" : [ {
+        "iri" : "Obs_TinaVelocity",
+        "relation" : "extends",
+        "why" : "Tanya restates the same 23-point velocity metric Tina reported, adding a second-witness confirmation."
+      } ],
+      "targets" : [ "KPIsSuccess" ]
+    },
+    "why" : "Near-verbatim match to Obs_TinaVelocity's '23-point velocity (highest this quarter)'; single dominant referent at observation grain.",
+    "consulted" : [ "Obs_TinaVelocity", "StyleObs_Sprint4_MetricAnchor" ]
+  }, {
+    "commentary_local_id" : "src-3",
+    "phrase" : "The Zephyr integration was the key unlock.",
+    "verdict" : "confident",
+    "binding" : {
+      "referents" : [ {
+        "iri" : "Position_ZephyrIntegrationUnlock",
+        "relation" : "extends",
+        "why" : "Tanya confirms the Zephyr integration as 'the key unlock,' directly engaging the prior position's content."
+      } ],
+      "targets" : [ "Narrative_ZeroEffortCapture", "DependenciesIntegrations" ]
+    },
+    "why" : "Direct match to Position_ZephyrIntegrationUnlock's 'key unlock' framing; single dominant referent at position grain.",
+    "consulted" : [ "Position_ZephyrIntegrationUnlock", "Obs_TinaVelocity" ]
+  } ],
+  "unreferenced_commentary" : [ ]
+}
