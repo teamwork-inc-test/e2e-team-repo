@@ -1,0 +1,21 @@
+@prefix narr: <https://aswritten.ai/narrative#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+GRAPH <https://aswritten.ai/narrative#Digest_Narrative_DecisionCaptureAtConsensus> {
+  <https://aswritten.ai/narrative#Digest_Narrative_DecisionCaptureAtConsensus> a narr:Digest ;
+    narr:digestOf <https://aswritten.ai/narrative#Narrative_DecisionCaptureAtConsensus> ;
+    narr:childCount "5"^^xsd:integer ;
+    narr:generatedFrom "8b0c0d721c93160dd32a9985a9d25b329fd912ef" ;
+    narr:narration """The narrative surrounding [decision capture at the point of consensus](narr:Position_CoreFeatureDecisionCapture) has evolved from a foundational product thesis established in March 2026 into a concrete operational milestone by late July. The core value proposition—embedding decision artifacts directly into the workflow—is now being validated through recent delivery data. Specifically, the team [shipped the async decision widget](narr:Expr_1E2ETanyaCollab1785320401145_1) as a tangible realization of this strategy. This deployment is linked to a [peak in velocity](narr:Expr_1E2ETanyaCollab1785320401145_2), which the team attributes to the [Zephyr integration](narr:Expr_1E2ETanyaCollab1785320401145_3) acting as a critical technical unlock. While the initial framing focused on the conceptual necessity of capture, the current discourse centers on quantifying the impact of these features on team performance and integration efficiency.""" ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1E2ETanyaCollab1785320401145_1> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1E2ETanyaCollab1785320401145_2> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1E2ETanyaCollab1785320401145_3> ;
+    narr:covers <https://aswritten.ai/narrative#Position_CoreFeatureDecisionCapture> ;
+    narr:covers <https://aswritten.ai/narrative#Position_Sprint4OutcomeAttribution> ;
+    narr:keyPhrase [ narr:text "decision capture at the point of consensus" ; narr:phraseSource <https://aswritten.ai/narrative#Position_CoreFeatureDecisionCapture> ] ;
+    narr:keyPhrase [ narr:text "We shipped the async decision widget." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1E2ETanyaCollab1785320401145_1> ] ;
+    narr:keyPhrase [ narr:text "Velocity was 23 points, highest this quarter." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1E2ETanyaCollab1785320401145_2> ] ;
+    narr:keyPhrase [ narr:text "The Zephyr integration was the key unlock." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1E2ETanyaCollab1785320401145_3> ] ;
+    narr:variation [ narr:text "The tension between viewing the outcome as a communal achievement versus a market-priced performance metric." ; narr:over <https://aswritten.ai/narrative#Expr_1E2ETanyaCollab1785320401145_1> ; narr:over <https://aswritten.ai/narrative#Expr_1E2ETanyaCollab1785320401145_2> ] ;
+    narr:writer "google/gemini-3.1-flash-lite" .
+}
