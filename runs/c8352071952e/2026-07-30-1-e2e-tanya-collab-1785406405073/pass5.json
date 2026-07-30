@@ -1,0 +1,10 @@
+{
+  "placements" : [ {
+    "verdict" : "reuse",
+    "leaf" : "Narrative_DecisionCaptureAtConsensus",
+    "supporting_segments" : [ "src-1", "src-2", "src-3" ],
+    "why" : "All three assertions are proof-point evidence for the same directional claim: that the decision-capture-at-the-moment-of-consensus mechanism actually shipped and performed. 'We shipped the async decision widget' names the artifact that embodies the theme; 'Velocity was 23 points, highest this quarter' is process evidence the delivery of that artifact succeeded; 'The Zephyr integration was the key unlock' is causal evidence explaining why capture-at-consensus became deliverable across chat surfaces. None of the three names a new subject future envelopes will independently keep feeding on their own terms — a velocity number and a shipped-feature statement are facts, not themes — so per the grain test they join this existing leaf's support rather than minting their own. Narrative_AntiSlackPositioning and Narrative_DecisionsEvaporate were also weighed: the former is the broader anti-Slack category-creation thesis (pricing, ICP, category naming) and the latter is the upstream problem-statement (decisions evaporate in chat), neither of which this sprint's shipped-mechanism evidence is really about — the content here is squarely about the capture-at-consensus product working, which is Narrative_DecisionCaptureAtConsensus's exact span.",
+    "consulted" : [ "Narrative_AntiSlackPositioning", "Narrative_DecisionCaptureAtConsensus", "Narrative_DecisionsEvaporate" ]
+  } ],
+  "unplaced" : [ ]
+}
