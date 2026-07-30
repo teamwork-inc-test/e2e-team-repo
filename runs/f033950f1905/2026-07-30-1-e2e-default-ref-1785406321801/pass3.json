@@ -1,0 +1,8 @@
+{
+  "reconciliations" : [ ],
+  "standalone" : [ {
+    "segment_id" : "src-1",
+    "why" : "No binding was proposed or resolved for this segment (omitted ref, verdict new) — it lands as fresh witnessed source with nothing yet to reconcile."
+  } ],
+  "held" : [ ]
+}
