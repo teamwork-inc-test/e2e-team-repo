@@ -1,0 +1,12 @@
+{
+  "positions" : [ {
+    "name" : "Sprint4DeliveryEvidenceChain",
+    "frame" : "what counts as evidence that a sprint has delivered on the decision-capture thesis?",
+    "members" : [ "src-1", "src-2", "src-3" ],
+    "why" : "Three plain, calm-register assertions build a single evidentiary chain rather than three independent facts: a shipped artifact (the widget), a quantified process metric (23-point velocity, highest this quarter), and a causal attribution (Zephyr as the unlock) are stacked together to substantiate the claim that the sprint succeeded. Conviction across all three sits flat at claim-level with no gradient, and affect stays uniformly calm-positive/informational — the set reads as one report assembling proof-of-delivery rather than as separate observations. Tension held: the velocity figure is process evidence while the shipped feature and the integration are product/causal evidence — different evidentiary registers pointed at the same conclusion without being resolved into one.",
+    "under" : [ "Narrative_DecisionCaptureAtConsensus" ]
+  } ],
+  "attaches" : [ ],
+  "position_revisions" : [ ],
+  "ungrouped" : [ ]
+}
