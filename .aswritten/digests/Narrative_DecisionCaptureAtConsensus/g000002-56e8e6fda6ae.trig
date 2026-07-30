@@ -1,0 +1,21 @@
+@prefix narr: <https://aswritten.ai/narrative#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+GRAPH <https://aswritten.ai/narrative#Digest_Narrative_DecisionCaptureAtConsensus> {
+  <https://aswritten.ai/narrative#Digest_Narrative_DecisionCaptureAtConsensus> a narr:Digest ;
+    narr:digestOf <https://aswritten.ai/narrative#Narrative_DecisionCaptureAtConsensus> ;
+    narr:childCount "5"^^xsd:integer ;
+    narr:generatedFrom "56e8e6fda6ae59aeba31cdea97d8a1b7fd4294a0" ;
+    narr:narration """The trajectory of [decision capture at the point of consensus](narr:Position_CoreFeatureDecisionCapture) has moved from a foundational product thesis toward a rigorous [sprint-based delivery evidence chain](narr:Position_Sprint4DeliveryEvidenceChain). As of July 2026, the narrative is anchored in concrete operational milestones rather than abstract design goals. The team has [shipped the async decision widget](narr:Expr_1E2ETanyaCollab1785406405073_1) and identified the [Zephyr integration as a key unlock](narr:Expr_1E2ETanyaCollab1785406405073_3) for broader system adoption. This shift toward tangible output is further supported by [record-high velocity metrics](narr:Expr_1E2ETanyaCollab1785406405073_2), which the team now uses as a primary proxy for the successful implementation of the decision-capture framework.""" ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1E2ETanyaCollab1785406405073_1> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1E2ETanyaCollab1785406405073_2> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1E2ETanyaCollab1785406405073_3> ;
+    narr:covers <https://aswritten.ai/narrative#Position_CoreFeatureDecisionCapture> ;
+    narr:covers <https://aswritten.ai/narrative#Position_Sprint4DeliveryEvidenceChain> ;
+    narr:keyPhrase [ narr:text "We shipped the async decision widget." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1E2ETanyaCollab1785406405073_1> ] ;
+    narr:keyPhrase [ narr:text "Velocity was 23 points, highest this quarter." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1E2ETanyaCollab1785406405073_2> ] ;
+    narr:keyPhrase [ narr:text "The Zephyr integration was the key unlock." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1E2ETanyaCollab1785406405073_3> ] ;
+    narr:keyPhrase [ narr:text "decision capture at the point of consensus" ; narr:phraseSource <https://aswritten.ai/narrative#Position_CoreFeatureDecisionCapture> ] ;
+    narr:variation [ narr:text "Tension exists between the technical 'unlock' of integration and the broader, more abstract goal of capturing consensus artifacts." ; narr:over <https://aswritten.ai/narrative#Expr_1E2ETanyaCollab1785406405073_3> ; narr:over <https://aswritten.ai/narrative#Position_CoreFeatureDecisionCapture> ] ;
+    narr:writer "google/gemini-3.1-flash-lite" .
+}
