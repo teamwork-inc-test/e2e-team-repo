@@ -1,0 +1,8 @@
+{
+  "reconciliations" : [ ],
+  "standalone" : [ {
+    "segment_id" : "src-1",
+    "why" : "No binding was resolved for this segment (empty resolutions/bindings) — it carries no referent to reconcile against, so it lands as fresh witnessed commentary forming its own topic branch."
+  } ],
+  "held" : [ ]
+}
