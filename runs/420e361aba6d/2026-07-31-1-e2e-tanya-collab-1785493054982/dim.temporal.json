@@ -1,0 +1,32 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "past", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "shipped",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Completed action verb anchors attention on a specific past event that actually happened.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-2",
+    "regions" : [ "past", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "Velocity was 23 points",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Past-tense copula with a measured value reports a settled, specific outcome.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-3",
+    "regions" : [ "past", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "was the key unlock",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Past-tense attribution of causal significance to a named integration — settled and particular.",
+    "reported" : false
+  } ],
+  "unmarked" : [ ],
+  "unmarked_rest" : false
+}
