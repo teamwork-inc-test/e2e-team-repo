@@ -1,0 +1,10 @@
+{
+  "placements" : [ {
+    "verdict" : "reuse",
+    "leaf" : "Narrative_DecisionCaptureAtConsensus",
+    "supporting_segments" : [ "src-1", "src-2", "src-3" ],
+    "why" : "All three expressions are proof-point facts about the same sprint (a shipped deliverable, a quantified velocity metric, and a named causal driver) rather than new themes in their own right — per the narrative grain test, a measurement or one-time event is evidence for a leaf, not a leaf itself. Their content converges on a single subject already held by the graph: the product's mechanism for capturing a decision at the moment it is made. Narrative_DecisionCaptureAtConsensus is described exactly as 'the product captures the decision at the moment' — the shipped widget (src-1) is that mechanism realized, the velocity figure (src-2) is the delivery evidence for it, and the Zephyr integration (src-3) is the named unlock that made the capture frictionless, mirroring Position_ZephyrIntegrationUnlock and Position_Sprint4ThesisProven already surfaced under this theme and under Narrative_ZeroEffortCapture. The position pass's own grouping of these three segments as one evidentiary triad under this same leaf corroborates that they belong here rather than forming a new subject future envelopes would keep feeding independently. Narrative_ZeroEffortCapture is a closely adjacent existing leaf (zero-extra-step capture), but Narrative_DecisionCaptureAtConsensus is the more exact fit as it names the capture-at-consensus mechanism directly rather than the effort-cost framing.",
+    "consulted" : [ "Narrative_AntiSlackPositioning", "Narrative_DecisionCaptureAtConsensus", "Narrative_DecisionsEvaporate", "Narrative_ZeroEffortCapture" ]
+  } ],
+  "unplaced" : [ ]
+}
