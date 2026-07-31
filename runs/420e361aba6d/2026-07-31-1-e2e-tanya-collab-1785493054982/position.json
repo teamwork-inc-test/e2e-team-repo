@@ -1,0 +1,12 @@
+{
+  "positions" : [ {
+    "name" : "SprintDeliveryEvidenceQuantified",
+    "frame" : "what counts as evidence that a sprint delivered on the decision-capture mechanism?",
+    "members" : [ "src-1", "src-2", "src-3" ],
+    "why" : "All three expressions are flat, unhedged assertive claims (conviction: claim, not decision) delivered in the same matter-of-fact/technical register and calm-positive affect, each anchoring the sprint's success to a concrete, checkable fact: a shipped artifact (src-1), a quantified metric (src-2), and a named causal driver (src-3). Read together they form a single evidentiary triad — deliverable, measurement, and attribution — rather than three independent claims; the value-dimension reads (self-enhancement/competence) and the shared past/realis/concrete temporal frame reinforce that they are being offered as one settled record of execution, not as a decision or ratified rule.",
+    "under" : [ "Narrative_DecisionCaptureAtConsensus" ]
+  } ],
+  "attaches" : [ ],
+  "position_revisions" : [ ],
+  "ungrouped" : [ ]
+}
