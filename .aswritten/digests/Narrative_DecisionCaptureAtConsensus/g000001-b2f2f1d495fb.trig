@@ -1,0 +1,21 @@
+@prefix narr: <https://aswritten.ai/narrative#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+GRAPH <https://aswritten.ai/narrative#Digest_Narrative_DecisionCaptureAtConsensus> {
+  <https://aswritten.ai/narrative#Digest_Narrative_DecisionCaptureAtConsensus> a narr:Digest ;
+    narr:digestOf <https://aswritten.ai/narrative#Narrative_DecisionCaptureAtConsensus> ;
+    narr:childCount "5"^^xsd:integer ;
+    narr:generatedFrom "b2f2f1d495fb66506b5ef6254624f52eea0e8292" ;
+    narr:narration """This hub tracks the evolution of the [core decision capture feature](narr:Position_CoreFeatureDecisionCapture), initially defined in March 2026 as the product's primary differentiator. By August 2026, the narrative shifts from conceptual definition to empirical validation through the [Sprint 4 delivery outcomes](narr:Position_Sprint4OutcomeAndDriver). The recent trajectory centers on the [shipment of the async decision widget](narr:Expr_1E2ETanyaCollab1785578557516_1), which is framed as a [key unlock](narr:Expr_1E2ETanyaCollab1785578557516_3) for team performance. The data points to a [record-high velocity](narr:Expr_1E2ETanyaCollab1785578557516_2) for the period, grounding the abstract goal of consensus-based capture in concrete technical milestones and quantitative team output.""" ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1E2ETanyaCollab1785578557516_1> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1E2ETanyaCollab1785578557516_2> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1E2ETanyaCollab1785578557516_3> ;
+    narr:covers <https://aswritten.ai/narrative#Position_CoreFeatureDecisionCapture> ;
+    narr:covers <https://aswritten.ai/narrative#Position_Sprint4OutcomeAndDriver> ;
+    narr:keyPhrase [ narr:text "decision capture at the point of consensus" ; narr:phraseSource <https://aswritten.ai/narrative#Position_CoreFeatureDecisionCapture> ] ;
+    narr:keyPhrase [ narr:text "We shipped the async decision widget." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1E2ETanyaCollab1785578557516_1> ] ;
+    narr:keyPhrase [ narr:text "Velocity was 23 points, highest this quarter." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1E2ETanyaCollab1785578557516_2> ] ;
+    narr:keyPhrase [ narr:text "The Zephyr integration was the key unlock." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1E2ETanyaCollab1785578557516_3> ] ;
+    narr:variation [ narr:text "The tension between the product's high-level strategic promise and the specific, tactical reliance on the Zephyr integration." ; narr:over <https://aswritten.ai/narrative#Position_CoreFeatureDecisionCapture> ; narr:over <https://aswritten.ai/narrative#Expr_1E2ETanyaCollab1785578557516_3> ] ;
+    narr:writer "google/gemini-3.1-flash-lite" .
+}
