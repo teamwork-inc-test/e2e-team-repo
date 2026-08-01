@@ -1,0 +1,32 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "We shipped the async decision widget.",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Past-tense performed declarative records a settled, load-bearing action — the team acted on it and reports it as done.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-2",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "Velocity was 23 points, highest this quarter.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Flat unhedged assertion of a measured result, asserted as fact but not performing a settling or ratification — claim-level.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-3",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "The Zephyr integration was the key unlock.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Confident causal assertion stated as the speaker's read, but no ratification language or performed settling — claim, not decision.",
+    "reported" : false
+  } ],
+  "unmarked" : [ ],
+  "mints" : [ ]
+}
