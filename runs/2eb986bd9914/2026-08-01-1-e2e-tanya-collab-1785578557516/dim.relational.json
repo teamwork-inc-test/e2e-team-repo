@@ -1,0 +1,33 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "communal-sharing" ],
+    "evidence" : [ {
+      "quote" : "We shipped",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "The 'we' pronoun enacts communal-sharing — the team as an undifferentiated body that shipped together — rather than attributing the act to an individual.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-2",
+    "regions" : [ "market-pricing" ],
+    "evidence" : [ {
+      "quote" : "23 points",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Velocity measured in points is a proportional, cost-benefit metric — market-pricing framing of team output.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-3",
+    "regions" : [ "communal-sharing" ],
+    "evidence" : [ {
+      "quote" : "the key unlock",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Naming an integration as 'the key unlock' frames it as a shared enabler of collective progress — communal-sharing cast as a single lever for the whole team.",
+    "reported" : false
+  } ],
+  "unmarked" : [ ],
+  "mints" : [ ],
+  "region_mints" : [ ]
+}
