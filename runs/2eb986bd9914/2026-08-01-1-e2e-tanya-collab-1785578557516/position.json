@@ -1,0 +1,12 @@
+{
+  "positions" : [ {
+    "name" : "Sprint4OutcomeAndDriver",
+    "frame" : "what did Sprint 4 deliver, how strong was that delivery, and what drove it?",
+    "members" : [ "src-1", "src-2", "src-3" ],
+    "why" : "The three assertions read together as one evidentiary bundle for a single sprint outcome: src-1 names the delivered artifact (performed, decision-level — 'we shipped'), src-2 quantifies that delivery's strength ('23 points, highest this quarter', claim-level), and src-3 supplies the causal explanation for the strength ('the Zephyr integration was the key unlock', also claim-level). The conviction gradient — a settled shipping act paired with two lighter claim-level readings of scale and cause — is held in tension rather than resolved: the frame reads all three as jointly narrating what happened and why, without flattening the shipped fact and the interpretive claims about it into the same register.",
+    "under" : [ "Narrative_DecisionCaptureAtConsensus" ]
+  } ],
+  "attaches" : [ ],
+  "position_revisions" : [ ],
+  "ungrouped" : [ ]
+}
