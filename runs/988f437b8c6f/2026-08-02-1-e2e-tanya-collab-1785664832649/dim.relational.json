@@ -1,0 +1,25 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "communal-sharing" ],
+    "evidence" : [ {
+      "quote" : "We shipped",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "The 'we' enacts communal-sharing — the team as an undifferentiated collective body that shipped together.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-2",
+    "regions" : [ "market-pricing" ],
+    "evidence" : [ {
+      "quote" : "Velocity was 23 points",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Quantifying output in points frames work as proportional measurement — market-pricing's proportionality logic applied to team throughput.",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-3" ],
+  "unmarked_rest" : false,
+  "mints" : [ ],
+  "region_mints" : [ ]
+}
