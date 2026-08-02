@@ -1,0 +1,50 @@
+{
+  "resolutions" : [ {
+    "commentary_local_id" : "src-1",
+    "phrase" : "We shipped the async decision widget.",
+    "verdict" : "confident",
+    "binding" : {
+      "referents" : [ {
+        "iri" : "Sample_Sprint4Retro_20260322",
+        "relation" : "see",
+        "why" : "Names the same shipped-widget retro event already witnessed on 2026-03-22 without adding new detail."
+      }, {
+        "iri" : "Position_Sprint4ThesisProven",
+        "relation" : "see",
+        "why" : "Restates the same shipped-feature claim Tanya already made in the Sprint 4 retro without engaging deeper content."
+      } ],
+      "targets" : [ "Narrative_ZeroEffortCapture" ]
+    },
+    "why" : "The exact 'async decision widget' shipped-feature fact was already witnessed verbatim-adjacent in Sample_Sprint4Retro_20260322 and its thesis-proven position; navigation converges on this pair as the single referent set.",
+    "consulted" : [ "Sample_Sprint4Retro_20260322", "Position_Sprint4ThesisProven", "Narrative_ZeroEffortCapture" ]
+  }, {
+    "commentary_local_id" : "src-2",
+    "phrase" : "Velocity was 23 points, highest this quarter.",
+    "verdict" : "confident",
+    "binding" : {
+      "referents" : [ {
+        "iri" : "Obs_TinaVelocity",
+        "relation" : "see",
+        "why" : "Restates verbatim the 23-point, highest-this-quarter velocity figure already recorded, adding no new detail."
+      } ],
+      "targets" : [ "KPIsSuccess" ]
+    },
+    "why" : "Phrase is a near-exact match to Obs_TinaVelocity and the quoted line in StyleObs_Sprint4_MetricAnchor; single dominant referent.",
+    "consulted" : [ "Obs_TinaVelocity", "StyleObs_Sprint4_MetricAnchor", "KPIsSuccess" ]
+  }, {
+    "commentary_local_id" : "src-3",
+    "phrase" : "The Zephyr integration was the key unlock.",
+    "verdict" : "confident",
+    "binding" : {
+      "referents" : [ {
+        "iri" : "Position_ZephyrIntegrationUnlock",
+        "relation" : "see",
+        "why" : "Restates the same 'Zephyr as key unlock' claim already recorded by Tina in the Sprint 4 retro, without new detail."
+      } ],
+      "targets" : [ "DependenciesIntegrations" ]
+    },
+    "why" : "Phrase directly matches the established Position_ZephyrIntegrationUnlock claim at position grain; no ambiguity in referent.",
+    "consulted" : [ "Position_ZephyrIntegrationUnlock", "DependenciesIntegrations" ]
+  } ],
+  "unreferenced_commentary" : [ ]
+}
