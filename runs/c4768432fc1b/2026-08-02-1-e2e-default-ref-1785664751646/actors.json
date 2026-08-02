@@ -1,0 +1,21 @@
+{
+  "bindings" : [ {
+    "name" : "Tanya",
+    "verdict" : "bind",
+    "target" : "Actor_Tanya_Staging",
+    "label" : null,
+    "why" : "Bare first name converges with envelope context (submitted_by Tanya TeamOwner, account tanya+staging@aswritten.ai) on the existing staging actor."
+  }, {
+    "name" : "Tanya TeamOwner",
+    "verdict" : "bind",
+    "target" : "Actor_Tanya_Staging",
+    "label" : "Tanya TeamOwner",
+    "why" : "Matches submitted_by and sole participant; same person as existing staging actor, with a fuller witnessed name to enrich the node."
+  }, {
+    "name" : "tanya+staging@aswritten.ai",
+    "verdict" : "bind",
+    "target" : "Actor_Tanya_Staging",
+    "label" : null,
+    "why" : "Exact email match to the account used to identify the existing actor."
+  } ]
+}
