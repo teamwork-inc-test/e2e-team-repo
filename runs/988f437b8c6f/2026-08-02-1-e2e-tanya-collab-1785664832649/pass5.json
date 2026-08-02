@@ -1,0 +1,10 @@
+{
+  "placements" : [ {
+    "verdict" : "reuse",
+    "leaf" : "Narrative_DecisionCaptureAtConsensus",
+    "supporting_segments" : [ "src-1", "src-2", "src-3" ],
+    "why" : "All three facts are concrete instances of this leaf's theme — the product capturing decisions at the moment of consensus. The shipped async decision widget IS the capture mechanism; the Zephyr integration extends that capture across Slack/Teams/Discord without added steps; and the 23-point velocity is the measured proof-point Tina attributes directly to that capture mechanism working. None of these is itself a recurring subject — they are evidence feeding the already-established 'captures the decision at the moment' theme, which this document's Sprint 4 retro re-affirms rather than extends. Narrative_AntiSlackPositioning and Narrative_DecisionsEvaporate were considered but describe the positioning frame and the upstream problem respectively, not the capture mechanism these three segments actually describe.",
+    "consulted" : [ "Narrative_AntiSlackPositioning", "Narrative_DecisionCaptureAtConsensus", "Narrative_DecisionsEvaporate" ]
+  } ],
+  "unplaced" : [ ]
+}
