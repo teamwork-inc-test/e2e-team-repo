@@ -1,0 +1,19 @@
+{
+  "bindings" : [ {
+    "name" : "Tanya",
+    "verdict" : "bind",
+    "target" : "Actor_Tanya_Staging",
+    "why" : "Bare first name matches the existing staging actor Tanya, unambiguous within this envelope."
+  }, {
+    "name" : "Tanya TeamOwner",
+    "verdict" : "bind",
+    "target" : "Actor_Tanya_Staging",
+    "label" : "Tanya TeamOwner",
+    "why" : "Submitted_by and sole participant; same individual as existing actor, with a fuller witnessed name to enrich the node."
+  }, {
+    "name" : "tanya+staging@aswritten.ai",
+    "verdict" : "bind",
+    "target" : "Actor_Tanya_Staging",
+    "why" : "Matches the front-matter email already used to identify this existing actor."
+  } ]
+}
