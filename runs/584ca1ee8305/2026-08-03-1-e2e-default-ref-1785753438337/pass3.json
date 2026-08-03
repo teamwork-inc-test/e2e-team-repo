@@ -1,0 +1,8 @@
+{
+  "reconciliations" : [ ],
+  "standalone" : [ {
+    "segment_id" : "src-1",
+    "why" : "No reference given and nothing in settled bindings to reconcile against — asserts new content standing on its own, opening a fresh topic branch rather than a conclusion over prior referents."
+  } ],
+  "held" : [ ]
+}
