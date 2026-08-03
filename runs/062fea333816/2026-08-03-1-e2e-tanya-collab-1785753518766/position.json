@@ -1,0 +1,12 @@
+{
+  "positions" : [ {
+    "name" : "Sprint4SuccessEvidence",
+    "frame" : "what counts as evidence that Sprint 4 delivered on the product's anti-Slack thesis?",
+    "members" : [ "src-1", "src-2", "src-3" ],
+    "why" : "All three expressions are Tanya's past-tense, completed-fact reports from the sprint retro — shipping the widget, hitting a record velocity, and naming the Zephyr integration as the causal unlock. Read together they function as the evidentiary basis Tanya offers for the sprint's success rather than three unrelated facts: each is stated in technical/agile register, activated-positive affect, and framed through a competence/self-enhancement value lens ('shipped', 'highest this quarter', 'key unlock'), all supplying informational-power backing for the same underlying claim of delivery. No internal tension — the three cohere as one accumulating evidentiary stack.",
+    "under" : [ "Narrative_AntiSlackPositioning" ]
+  } ],
+  "attaches" : [ ],
+  "position_revisions" : [ ],
+  "ungrouped" : [ ]
+}
