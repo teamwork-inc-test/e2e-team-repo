@@ -1,0 +1,37 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "casual" ],
+    "evidence" : [ {
+      "quote" : "We shipped",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "'shipped' is colloquial engineering shorthand for delivery, a register signal against a plain-spoken baseline.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-2",
+    "regions" : [ "technical" ],
+    "evidence" : [ {
+      "quote" : "Velocity was 23 points",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Agile jargon ('velocity,' 'points') used natively without glossing, a technical register shift from the plain-spoken baseline.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-3",
+    "regions" : [ "technical" ],
+    "evidence" : [ {
+      "quote" : "Zephyr integration",
+      "kind" : "lexical-marker"
+    }, {
+      "quote" : "key unlock",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Named integration and 'unlock' as causal metaphor are native technical shorthand, a register shift from the plain-spoken baseline.",
+    "reported" : false
+  } ],
+  "unmarked" : [ ],
+  "unmarked_rest" : false,
+  "mints" : [ ],
+  "region_mints" : [ ]
+}
