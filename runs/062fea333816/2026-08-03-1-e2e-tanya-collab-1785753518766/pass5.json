@@ -1,0 +1,16 @@
+{
+  "placements" : [ {
+    "verdict" : "reuse",
+    "leaf" : "Narrative_AntiSlackPositioning",
+    "supporting_segments" : [ "src-1", "src-2", "src-3" ],
+    "why" : "This leaf already anchors the anti-Slack positioning thesis together with the varied business facts that evidence it (pricing, target market, category definition already sit here). Tanya's three retro statements — shipping the widget, hitting a quarter-high velocity, and naming the Zephyr integration as the unlock — read together as the execution proof she offers that the thesis ('every conversation should produce a persistent decision artifact') is real, not aspirational. Same role this leaf already plays for its other children: accumulating the concrete facts that back the positioning claim.",
+    "consulted" : [ "Narrative_AntiSlackPositioning", "Narrative_DecisionCaptureAtConsensus", "Narrative_DecisionsEvaporate" ]
+  }, {
+    "verdict" : "reuse",
+    "leaf" : "Narrative_DecisionCaptureAtConsensus",
+    "supporting_segments" : [ "src-1", "src-3" ],
+    "why" : "This leaf's theme is the product mechanism itself: capturing the decision at the moment of consensus rather than letting it evaporate into scroll-back. 'We shipped the async decision widget' is the delivery of exactly that mechanism, and 'the Zephyr integration was the key unlock' names the piece that lets the capture mechanism embed into any chat thread. Both are concrete instantiations of this leaf's mechanism-grain theme, distinct from the broader positioning-thesis claim.",
+    "consulted" : [ "Narrative_AntiSlackPositioning", "Narrative_DecisionCaptureAtConsensus", "Narrative_DecisionsEvaporate" ]
+  } ],
+  "unplaced" : [ ]
+}
