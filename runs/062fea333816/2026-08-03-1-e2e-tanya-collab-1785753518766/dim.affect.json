@@ -1,0 +1,33 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "activated-positive" ],
+    "evidence" : [ {
+      "quote" : "We shipped",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Past-tense accomplishment announcement carries energized satisfaction; 'shipped' is a completion verb performed with ownership.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-2",
+    "regions" : [ "activated-positive" ],
+    "evidence" : [ {
+      "quote" : "highest this quarter",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Superlative framing of velocity registers pride and enthusiasm at a peak achievement.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-3",
+    "regions" : [ "activated-positive" ],
+    "evidence" : [ {
+      "quote" : "key unlock",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "'Key unlock' frames the integration as a breakthrough moment, carrying energized positive valence.",
+    "reported" : false
+  } ],
+  "unmarked" : [ ],
+  "mints" : [ ],
+  "region_mints" : [ ]
+}
