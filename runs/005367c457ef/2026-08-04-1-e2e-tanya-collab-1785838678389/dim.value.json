@@ -1,0 +1,33 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "self-enhancement", "competence" ],
+    "evidence" : [ {
+      "quote" : "shipped",
+      "kind" : "performed-act"
+    } ],
+    "why" : "The verb 'shipped' frames delivery as achievement and capability — a completed, shipped thing registers both winning and mastery.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-2",
+    "regions" : [ "self-enhancement", "competence" ],
+    "evidence" : [ {
+      "quote" : "highest this quarter",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Superlative framing of velocity positions the result as achievement (standing, winning) and competence (measured mastery).",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-3",
+    "regions" : [ "competence" ],
+    "evidence" : [ {
+      "quote" : "key unlock",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Calling an integration 'the key unlock' frames it as the capability that made the outcome possible — mastery language.",
+    "reported" : false
+  } ],
+  "unmarked" : [ ],
+  "mints" : [ ],
+  "region_mints" : [ ]
+}
