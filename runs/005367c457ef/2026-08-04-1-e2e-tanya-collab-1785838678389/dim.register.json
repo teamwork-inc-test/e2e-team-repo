@@ -1,0 +1,52 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "casual" ],
+    "evidence" : [ {
+      "quote" : "We shipped the async decision widget.",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Past-tense 'shipped' used as casual team shorthand for delivery — the register baseline's signature move: flat, colloquial accomplishment claims in native product vocabulary.",
+    "reported" : false,
+    "direction" : {
+      "verdict" : "mint",
+      "node" : "mint-1"
+    }
+  }, {
+    "segment_local_id" : "src-2",
+    "regions" : [ "matter-of-fact" ],
+    "evidence" : [ {
+      "quote" : "Velocity was 23 points, highest this quarter.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Flat instrumental delivery of a metric — no intensifier, no enthusiasm marker; the register baseline's signature: quantitative results stated as bare fact.",
+    "reported" : false,
+    "direction" : {
+      "verdict" : "mint",
+      "node" : "mint-1"
+    }
+  }, {
+    "segment_local_id" : "src-3",
+    "regions" : [ "technical" ],
+    "evidence" : [ {
+      "quote" : "key unlock",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "'Unlock' as native technical metaphor for an integration's enabling effect — the register baseline's signature: causal significance rendered in pipeline-native idiom.",
+    "reported" : false,
+    "direction" : {
+      "verdict" : "mint",
+      "node" : "mint-1"
+    }
+  } ],
+  "unmarked" : [ ],
+  "unmarked_rest" : false,
+  "mints" : [ {
+    "id" : "mint-1",
+    "name" : "FlatTeamShippedVoice",
+    "title" : "flat, colloquial accomplishment claims in native product vocabulary",
+    "frame" : "Is the expression performing a delivery claim or result statement in the team's own casual-technical shorthand, without ceremony or intensification?",
+    "regions" : [ "casual", "matter-of-fact" ]
+  } ],
+  "region_mints" : [ ]
+}
