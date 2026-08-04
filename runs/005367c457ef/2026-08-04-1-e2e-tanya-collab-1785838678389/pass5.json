@@ -1,0 +1,10 @@
+{
+  "placements" : [ {
+    "verdict" : "reuse",
+    "leaf" : "Narrative_DecisionCaptureAtConsensus",
+    "supporting_segments" : [ "src-1", "src-2", "src-3" ],
+    "why" : "All three expressions report the same sprint's proof-of-delivery for the mechanism this leaf already names: the product capturing decisions at the moment of consensus. 'We shipped the async decision widget' is the artifact that embodies the mechanism; 'The Zephyr integration was the key unlock' names the dependency that lets that capture happen across chat surfaces (Slack, Teams, Discord) without separate plugins, which is exactly how the mechanism scales beyond a single tool; 'Velocity was 23 points, highest this quarter' is the flat, unhedged (conviction: claim) execution outcome offered as evidence the mechanism now works in production. None of the three names a new recurring subject on its own — each is a fact/measurement of this sprint (rule 2) — so they join this leaf's support rather than minting their own. The existing leaf's narration ('the product captures the decision at the moment of consensus') already spans exactly this territory; nothing here exceeds or redirects it, so reuse rather than mint or an INSPIRED lineage edge.",
+    "consulted" : [ "Narrative_AntiSlackPositioning", "Narrative_DecisionCaptureAtConsensus", "Narrative_DecisionsEvaporate" ]
+  } ],
+  "unplaced" : [ ]
+}
