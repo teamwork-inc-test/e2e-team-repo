@@ -1,0 +1,12 @@
+{
+  "positions" : [ {
+    "name" : "Sprint4DeliveryEvidence",
+    "frame" : "what concrete signals mark this sprint's delivery as a validated success?",
+    "members" : [ "src-1", "src-2", "src-3" ],
+    "why" : "All three expressions are flat, past-tense, unhedged assertions (conviction: claim throughout) that together supply the evidentiary basis for a delivery-success reading: a shipped artifact, a quantified velocity superlative, and a named causal unlock. The dimensional reads converge — calm-positive affect, informational power stance, competence/self-enhancement value framing, and the same casual-technical register (FlatTeamShippedVoice) — so the three cohere as one directional read: proof-points assembled without ceremony rather than three unrelated facts. No tension between members; each reinforces the same 'it worked, and here's why' direction.",
+    "under" : [ "Narrative_DecisionCaptureAtConsensus" ]
+  } ],
+  "attaches" : [ ],
+  "position_revisions" : [ ],
+  "ungrouped" : [ ]
+}
