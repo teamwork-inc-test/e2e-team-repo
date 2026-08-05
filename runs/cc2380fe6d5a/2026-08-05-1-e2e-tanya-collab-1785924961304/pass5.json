@@ -1,0 +1,10 @@
+{
+  "placements" : [ {
+    "verdict" : "reuse",
+    "leaf" : "Narrative_DecisionCaptureAtConsensus",
+    "supporting_segments" : [ "src-1", "src-3" ],
+    "why" : "Both expressions are this envelope's contribution to the theme that decisions must be captured at the moment of consensus with zero extra steps: the shipped widget (src-1) is the concrete implementation of that capture mechanism, and the Zephyr integration (src-3) is what lets it intercept consensus inside any existing chat thread without separate plugins — the exact 'zero extra steps' framing this leaf already carries. Neither states a new theme; both feed the existing one.",
+    "consulted" : [ "Narrative_DecisionCaptureAtConsensus", "Narrative_AntiSlackPositioning", "Narrative_DecisionsEvaporate" ]
+  } ],
+  "unplaced" : [ "src-2" ]
+}
