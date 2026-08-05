@@ -1,0 +1,60 @@
+PREFIX narr: <https://aswritten.ai/narrative#>
+PREFIX aswr: <https://aswritten.ai/aswr#>
+PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX dct:  <http://purl.org/dc/terms/>
+PREFIX xsd:  <http://www.w3.org/2001/XMLSchema#>
+PREFIX oa:   <http://www.w3.org/ns/oa#>
+
+INSERT DATA {
+  aswr:Tx_20260805T101443Z a prov:Activity ;
+      prov:generatedAtTime "2026-08-05T10:14:43Z"^^xsd:dateTime ;
+      prov:wasAssociatedWith "aswritten.ai" ;
+      prov:wasAttributedTo "scarlet@aswritten.ai" ;
+      aswr:pipelinePin "c063fb20bab6" ;
+      aswr:originPath ".aswritten/memories/2026-08-05-1-e2e-default-ref-1785924880312.md" ;
+      dct:title "Multipass source extraction: Default Ref Test" ;
+      prov:generated narr:Sample_1E2EDefaultRef1785924880312, narr:Expr_1E2EDefaultRef1785924880312_1 .
+} ;
+INSERT DATA {
+  GRAPH aswr:Tx_20260805T101443Z {
+    narr:Sample_1E2EDefaultRef1785924880312 a narr:Sample ;
+        dct:title "Default Ref Test" ;
+        aswr:originPath ".aswritten/memories/2026-08-05-1-e2e-default-ref-1785924880312.md" ;
+        aswr:submittedBy narr:Actor_Tanya_Staging ;
+        aswr:account narr:Actor_Tanya_Staging .
+
+    narr:Expr_1E2EDefaultRef1785924880312_1 a narr:Expression ;
+        narr:actor narr:Actor_Tanya_Staging ;
+        narr:act "assertive" ;
+        narr:context "Default Ref Test" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_1E2EDefaultRef1785924880312 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Testing that omitted ref creates a topic branch." ;
+                oa:prefix "\n\n# Default Ref Test\n\nTanya: \"" ;
+                oa:suffix "\"" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "79"^^xsd:integer ;
+                oa:end "127"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-08-05T10:14:43Z"^^xsd:dateTime .
+
+    narr:Actor_Tanya_Staging skos:prefLabel "Tanya TeamOwner" .
+
+    aswr:Run_20260805T101443Z_actors a prov:Activity ;
+        aswr:runPass "actors" ;
+        aswr:draftedBy "subscription.anthropic/claude-sonnet-5" ;
+        aswr:artifact "aswritten/runs:runs/f2946f2ddc5f/2026-08-05-1-e2e-default-ref-1785924880312/actors.json" ;
+        dct:isPartOf aswr:Tx_20260805T101443Z ;
+        prov:generatedAtTime "2026-08-05T10:14:43Z"^^xsd:dateTime .
+
+    aswr:Run_20260805T101443Z_pass1 a prov:Activity ;
+        aswr:runPass "pass1" ;
+        aswr:draftedBy "subscription.anthropic/claude-sonnet-5" ;
+        aswr:artifact "aswritten/runs:runs/f2946f2ddc5f/2026-08-05-1-e2e-default-ref-1785924880312/pass1.json" ;
+        prov:generated narr:Sample_1E2EDefaultRef1785924880312, narr:Expr_1E2EDefaultRef1785924880312_1 ;
+        dct:isPartOf aswr:Tx_20260805T101443Z ;
+        prov:generatedAtTime "2026-08-05T10:14:43Z"^^xsd:dateTime .
+  }
+}
