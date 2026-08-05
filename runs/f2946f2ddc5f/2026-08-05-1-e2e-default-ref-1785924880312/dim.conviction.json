@@ -1,0 +1,14 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "notion" ],
+    "evidence" : [ {
+      "quote" : "Testing that omitted ref creates a topic branch.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "A flat, unhedged statement of purpose with no ratification language or commitment markers — exploratory framing ('Testing that') locates at notion rather than claim, as the speaker is floating a hypothesis about system behavior rather than asserting a defended position.",
+    "reported" : false
+  } ],
+  "unmarked" : [ ],
+  "mints" : [ ]
+}
