@@ -1,0 +1,34 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "activated-positive" ],
+    "evidence" : [ {
+      "quote" : "We shipped",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Past-tense accomplishment declared with collective 'we' — energized completion register, positive valence with activation.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-2",
+    "regions" : [ "calm-positive" ],
+    "evidence" : [ {
+      "quote" : "highest this quarter",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Measured superlative delivered in flat informational register — satisfaction without arousal; settled pride rather than excitement.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-3",
+    "regions" : [ "activated-positive" ],
+    "evidence" : [ {
+      "quote" : "key unlock",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "'Key unlock' frames the integration as a breakthrough — energized positive evaluation, enthusiasm register.",
+    "reported" : false
+  } ],
+  "unmarked" : [ ],
+  "unmarked_rest" : false,
+  "mints" : [ ],
+  "region_mints" : [ ]
+}
