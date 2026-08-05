@@ -1,0 +1,19 @@
+{
+  "bindings" : [ {
+    "name" : "Tanya",
+    "verdict" : "bind",
+    "target" : "Actor_Tanya_Staging",
+    "why" : "Bare first name matches the sole envelope participant Tanya TeamOwner, whose account tanya+staging@aswritten.ai identifies the existing actor Actor_Tanya_Staging."
+  }, {
+    "name" : "Tanya TeamOwner",
+    "verdict" : "bind",
+    "target" : "Actor_Tanya_Staging",
+    "label" : "Tanya TeamOwner",
+    "why" : "Matches submitted_by and sole participant; same account tanya+staging@aswritten.ai as existing actor, fuller name than listed label so it enriches the node."
+  }, {
+    "name" : "tanya+staging@aswritten.ai",
+    "verdict" : "bind",
+    "target" : "Actor_Tanya_Staging",
+    "why" : "Exact account identifier used to originally identify the existing actor Actor_Tanya_Staging."
+  } ]
+}
