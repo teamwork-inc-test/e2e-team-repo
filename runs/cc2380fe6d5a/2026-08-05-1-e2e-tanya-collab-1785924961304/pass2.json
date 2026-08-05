@@ -1,0 +1,50 @@
+{
+  "resolutions" : [ {
+    "commentary_local_id" : "src-1",
+    "phrase" : "We shipped the async decision widget.",
+    "verdict" : "confident",
+    "binding" : {
+      "referents" : [ {
+        "iri" : "Sample_Sprint4Retro_20260322",
+        "relation" : "see",
+        "why" : "Names the same shipped-feature event already recorded in the Sprint 4 retro sample without adding new detail."
+      } ],
+      "targets" : [ "Narrative_ZeroEffortCapture", "PositioningThesis" ]
+    },
+    "why" : "Single dominant match: the retro sample already records this exact shipped feature; no elaboration or new claim is added here.",
+    "consulted" : [ "Sample_Sprint4Retro_20260322", "Position_Sprint4ThesisProven", "Narrative_AntiSlackPositioning" ]
+  }, {
+    "commentary_local_id" : "src-2",
+    "phrase" : "Velocity was 23 points, highest this quarter.",
+    "verdict" : "confident",
+    "binding" : {
+      "referents" : [ {
+        "iri" : "Obs_TinaVelocity",
+        "relation" : "see",
+        "why" : "Restates the identical velocity figure and attribution already witnessed in this observation."
+      }, {
+        "iri" : "StyleObs_Sprint4_MetricAnchor",
+        "relation" : "see",
+        "why" : "Reproduces the exact verbatim quote already captured as witness text in this style observation."
+      } ],
+      "targets" : [ "KPIsSuccess" ]
+    },
+    "why" : "Exact numeric and quarter match to an already-witnessed observation; no new consequence or detail introduced.",
+    "consulted" : [ "Obs_TinaVelocity", "StyleObs_Sprint4_MetricAnchor" ]
+  }, {
+    "commentary_local_id" : "src-3",
+    "phrase" : "The Zephyr integration was the key unlock.",
+    "verdict" : "confident",
+    "binding" : {
+      "referents" : [ {
+        "iri" : "Position_ZephyrIntegrationUnlock",
+        "relation" : "see",
+        "why" : "Restates the same 'key unlock' framing already established for the Zephyr integration without engaging further."
+      } ],
+      "targets" : [ "DependenciesIntegrations", "Narrative_ZeroEffortCapture" ]
+    },
+    "why" : "Single dominant match: the phrase mirrors the already-recorded position on Zephyr as Sprint 4's key unlock verbatim in substance.",
+    "consulted" : [ "Position_ZephyrIntegrationUnlock", "Obs_ZephyrRateLimitResolved" ]
+  } ],
+  "unreferenced_commentary" : [ ]
+}
