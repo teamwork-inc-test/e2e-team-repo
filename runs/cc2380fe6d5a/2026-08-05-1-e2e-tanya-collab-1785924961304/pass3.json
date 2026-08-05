@@ -1,0 +1,35 @@
+{
+  "reconciliations" : [ {
+    "segment_ids" : [ "src-1" ],
+    "note" : "We shipped the async decision widget.",
+    "targets" : [ "Narrative_ZeroEffortCapture", "PositioningThesis" ],
+    "referents" : [ {
+      "ref" : "Sample_Sprint4Retro_20260322",
+      "relation" : "extends"
+    } ],
+    "principal" : "Tanya TeamOwner"
+  }, {
+    "segment_ids" : [ "src-2" ],
+    "note" : "Velocity was 23 points, highest this quarter.",
+    "targets" : [ "KPIsSuccess" ],
+    "referents" : [ {
+      "ref" : "Obs_TinaVelocity",
+      "relation" : "extends"
+    }, {
+      "ref" : "StyleObs_Sprint4_MetricAnchor",
+      "relation" : "extends"
+    } ],
+    "principal" : "Tanya TeamOwner"
+  }, {
+    "segment_ids" : [ "src-3" ],
+    "note" : "The Zephyr integration was the key unlock.",
+    "targets" : [ "DependenciesIntegrations", "Narrative_ZeroEffortCapture" ],
+    "referents" : [ {
+      "ref" : "Position_ZephyrIntegrationUnlock",
+      "relation" : "extends"
+    } ],
+    "principal" : "Tanya TeamOwner"
+  } ],
+  "standalone" : [ ],
+  "held" : [ ]
+}
