@@ -1,0 +1,33 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "competence" ],
+    "evidence" : [ {
+      "quote" : "shipped",
+      "kind" : "performed-act"
+    } ],
+    "why" : "The verb 'shipped' registers completion and delivery as the good achieved — a competence signal.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-2",
+    "regions" : [ "self-enhancement" ],
+    "evidence" : [ {
+      "quote" : "highest this quarter",
+      "kind" : "intensifier"
+    } ],
+    "why" : "Superlative framing positions velocity as achievement and standing — the appealed-to good is winning relative to a benchmark.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-3",
+    "regions" : [ "competence" ],
+    "evidence" : [ {
+      "quote" : "key unlock",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Naming an integration as the 'key unlock' frames capability and mastery as the thing that made the difference.",
+    "reported" : false
+  } ],
+  "unmarked" : [ ],
+  "mints" : [ ],
+  "region_mints" : [ ]
+}
