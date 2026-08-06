@@ -1,0 +1,12 @@
+{
+  "positions" : [ {
+    "name" : "Sprint4DeliveryEvidence",
+    "frame" : "what evidence, taken together, establishes that Sprint 4 delivered on the async decision-capture product and validated the thesis behind it?",
+    "members" : [ "src-1", "src-2", "src-3" ],
+    "why" : "All three assertions are delivered in the same flat, matter-of-fact, informational register with positive affect and communal framing ('we shipped', 'key unlock') rather than as isolated status updates — read together they form a single evidentiary chain: the artifact shipped (src-1), the velocity that resulted (src-2), and the integration credited as the mechanism that made both possible (src-3). No one segment alone argues the sprint's success; the frame holds because the three facts are offered as mutually reinforcing proof of delivery, mirroring the pattern the corpus already recognizes elsewhere (e.g. Position_Sprint4ThesisProven) where shipped-artifact, metric, and enabling-integration are read as one argument rather than three separate claims.",
+    "under" : [ "Narrative_DecisionCaptureAtConsensus" ]
+  } ],
+  "attaches" : [ ],
+  "position_revisions" : [ ],
+  "ungrouped" : [ ]
+}
