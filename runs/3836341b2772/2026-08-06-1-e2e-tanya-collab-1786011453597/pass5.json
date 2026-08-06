@@ -1,0 +1,10 @@
+{
+  "placements" : [ {
+    "verdict" : "reuse",
+    "leaf" : "Narrative_DecisionCaptureAtConsensus",
+    "supporting_segments" : [ "src-1", "src-2", "src-3" ],
+    "why" : "All three assertions evidence the same theme this leaf already holds — the product capturing decisions at the moment of consensus. src-1 reports the widget (the mechanism itself) shipped; src-3 names the Zephyr integration as the unlock that made embedding that capture into existing chat surfaces possible; src-2's velocity figure is offered in the same breath as proof the delivery was real and strong. None of the three names a new recurring subject on its own — each is a fact/metric that evidences the ongoing 'decisions captured at consensus' narrative rather than a theme future envelopes would independently keep feeding. This matches the position pass's own read (Sprint4DeliveryEvidence) grouping these as one evidentiary chain under this same leaf.",
+    "consulted" : [ "Narrative_AntiSlackPositioning", "Narrative_DecisionCaptureAtConsensus", "Narrative_DecisionsEvaporate" ]
+  } ],
+  "unplaced" : [ ]
+}
