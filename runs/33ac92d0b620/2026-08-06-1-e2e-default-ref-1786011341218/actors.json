@@ -1,0 +1,21 @@
+{
+  "bindings" : [ {
+    "name" : "Tanya",
+    "verdict" : "bind",
+    "target" : "Actor_Tanya_Staging",
+    "label" : null,
+    "why" : "Bare first name in envelope submitted solely by Tanya TeamOwner via tanya+staging@aswritten.ai, matching the existing staging actor unambiguously."
+  }, {
+    "name" : "Tanya TeamOwner",
+    "verdict" : "bind",
+    "target" : "Actor_Tanya_Staging",
+    "label" : "Tanya TeamOwner",
+    "why" : "Full name matches submitted_by and sole participant, tied to the same staging account as the existing actor; fuller form than listed label so included as enrichment."
+  }, {
+    "name" : "tanya+staging@aswritten.ai",
+    "verdict" : "bind",
+    "target" : "Actor_Tanya_Staging",
+    "label" : null,
+    "why" : "Exact email match to the account used to author the existing actor's memory."
+  } ]
+}
