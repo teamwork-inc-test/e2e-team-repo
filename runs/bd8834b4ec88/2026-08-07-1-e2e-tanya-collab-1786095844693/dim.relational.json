@@ -1,0 +1,25 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "communal-sharing" ],
+    "evidence" : [ {
+      "quote" : "We shipped",
+      "kind" : "performed-act"
+    } ],
+    "why" : "The 'we' pronoun enacts communal-sharing — the team as an undifferentiated collective body that shipped together.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-2",
+    "regions" : [ "market-pricing" ],
+    "evidence" : [ {
+      "quote" : "Velocity was 23 points",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Quantifying output in points enacts market-pricing — proportionality measured against a numeric metric.",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-3" ],
+  "unmarked_rest" : false,
+  "mints" : [ ],
+  "region_mints" : [ ]
+}
