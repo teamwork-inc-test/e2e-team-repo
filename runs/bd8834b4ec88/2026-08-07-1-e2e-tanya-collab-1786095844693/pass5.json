@@ -1,0 +1,23 @@
+{
+  "placements" : [ {
+    "verdict" : "reuse",
+    "leaf" : "Narrative_DecisionCaptureAtConsensus",
+    "supporting_segments" : [ "src-1" ],
+    "why" : "Shipping the async decision widget is the concrete delivery of this leaf's existing theme — the product intercepting and capturing the decision at the moment of consensus rather than letting it evaporate into scroll-back. The shipped-widget fact is evidence for this already-established narrative, not a new subject in its own right.",
+    "consulted" : [ "Narrative_AntiSlackPositioning", "Narrative_DecisionCaptureAtConsensus", "Narrative_DecisionsEvaporate" ]
+  }, {
+    "lineage" : {
+      "relation" : "extends",
+      "target" : "Narrative_DecisionCaptureAtConsensus"
+    },
+    "supporting_segments" : [ "src-2", "src-3" ],
+    "under" : [ "Narrative_DecisionCaptureAtConsensus" ],
+    "why" : "src-3 names the Zephyr integration — which lets decision capture embed in Slack, Teams, and Discord without separate plugins — as the causal 'key unlock', and src-2's record velocity figure is stated immediately after as its direct consequence. Read together they don't report a one-off statistic; they assert a recurring causal pattern (removing per-platform integration friction is what drives adoption/delivery velocity) that will keep recurring as the product adds integrations. This extends the existing capture-at-consensus narrative into its cross-platform delivery mechanism, but the mechanism (frictionless embedding as the velocity engine) is a distinct enough subject from 'the product captures the decision at consensus' that no existing leaf holds it directly — it names how capture reaches users, not that capture happens.",
+    "verdict" : "mint",
+    "leaf" : "Narrative_FrictionRemovalDrivesVelocity",
+    "title" : "Removing platform friction is what accelerates delivery velocity",
+    "frame" : "Does this expression tie a velocity or adoption outcome directly to the removal of platform-specific integration friction, rather than to feature scope or raw team effort?",
+    "consulted" : [ "Narrative_AntiSlackPositioning", "Narrative_DecisionCaptureAtConsensus", "Narrative_DecisionsEvaporate" ]
+  } ],
+  "unplaced" : [ ]
+}
