@@ -1,0 +1,11 @@
+{
+  "positions" : [ {
+    "name" : "SprintVelocityDriver",
+    "frame" : "what caused this sprint's velocity outcome?",
+    "members" : [ "src-2", "src-3" ],
+    "why" : "Both expressions read the sprint's standout metric and its named technical cause as one causal thread: the velocity figure (src-2) and the integration identified as its unlock (src-3) are stated back-to-back as a single flat, matter-of-fact causal claim, with no hedging or performative lift — reading them together traces the same attribution rather than two separate facts."
+  } ],
+  "attaches" : [ ],
+  "position_revisions" : [ ],
+  "ungrouped" : [ "src-1" ]
+}
