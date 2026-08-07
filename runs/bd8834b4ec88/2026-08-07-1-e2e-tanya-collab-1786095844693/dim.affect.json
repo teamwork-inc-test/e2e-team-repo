@@ -1,0 +1,33 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "calm-positive" ],
+    "evidence" : [ {
+      "quote" : "We shipped the async decision widget.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Straightforward declarative reporting of an accomplishment with no intensifiers or energized delivery markers; settled satisfaction.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-2",
+    "regions" : [ "calm-positive" ],
+    "evidence" : [ {
+      "quote" : "Velocity was 23 points, highest this quarter.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Measured, factual reporting of a positive result without enthusiasm markers; calm pride.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-3",
+    "regions" : [ "calm-positive" ],
+    "evidence" : [ {
+      "quote" : "key unlock",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Positive evaluative language delivered in a low-key, matter-of-fact register; settled warmth about an outcome.",
+    "reported" : false
+  } ],
+  "unmarked" : [ ],
+  "mints" : [ ],
+  "region_mints" : [ ]
+}
