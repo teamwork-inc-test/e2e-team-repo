@@ -1,0 +1,52 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "matter-of-fact" ],
+    "evidence" : [ {
+      "quote" : "We shipped the async decision widget.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Flat instrumental delivery of a shipped outcome; no intensifier, no hedging, no audience-directed energy — the document's baseline register, but a strong, citable instantiation of it.",
+    "reported" : false,
+    "direction" : {
+      "verdict" : "mint",
+      "node" : "mint-1"
+    }
+  }, {
+    "segment_local_id" : "src-2",
+    "regions" : [ "matter-of-fact" ],
+    "evidence" : [ {
+      "quote" : "Velocity was 23 points, highest this quarter.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Metric stated flatly with a superlative qualifier folded in instrumentally — no performative emphasis, no audience-directed energy; same matter-of-fact register as the baseline.",
+    "reported" : false,
+    "direction" : {
+      "verdict" : "mint",
+      "node" : "mint-1"
+    }
+  }, {
+    "segment_local_id" : "src-3",
+    "regions" : [ "matter-of-fact" ],
+    "evidence" : [ {
+      "quote" : "was the key unlock",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Colloquial-technical metaphor ('key unlock') delivered without performative framing — flat instrumental attribution of causality, consistent with the document's matter-of-fact baseline.",
+    "reported" : false,
+    "direction" : {
+      "verdict" : "mint",
+      "node" : "mint-1"
+    }
+  } ],
+  "mints" : [ {
+    "id" : "mint-1",
+    "name" : "FlatShippedReceipt",
+    "title" : "shipped outcomes stated as flat receipt, no performance",
+    "frame" : "Is the expression delivering a result or metric as flat instrumental receipt, stripped of audience-directed energy or performative framing?",
+    "regions" : [ "matter-of-fact" ]
+  } ],
+  "region_mints" : [ ],
+  "unmarked" : [ ],
+  "unmarked_rest" : false
+}
