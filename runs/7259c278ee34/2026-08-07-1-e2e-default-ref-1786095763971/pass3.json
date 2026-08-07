@@ -1,0 +1,8 @@
+{
+  "reconciliations" : [ ],
+  "standalone" : [ {
+    "segment_id" : "src-1",
+    "why" : "No settled binding exists (empty resolutions, no unreferenced_commentary) — verdict new, nothing to reconcile; lands as fresh witnessed commentary with no referent."
+  } ],
+  "held" : [ ]
+}
