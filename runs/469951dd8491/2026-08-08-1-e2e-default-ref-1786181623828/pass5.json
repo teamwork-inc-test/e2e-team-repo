@@ -1,0 +1,10 @@
+{
+  "placements" : [ {
+    "verdict" : "reuse",
+    "leaf" : "Narrative_DefaultRefTopicBranch",
+    "supporting_segments" : [ "src-1" ],
+    "why" : "The segment asserts exactly the theme this leaf already holds: an omitted git ref should default to creating a topic branch rather than failing or writing to main. This is a direct restatement/test-confirmation of that same subject, not a new theme — the leaf already exists to accumulate exactly this kind of assertion.",
+    "consulted" : [ "Narrative_AntiSlackPositioning", "Narrative_DecisionCaptureAtConsensus", "Narrative_DecisionsEvaporate", "Narrative_DefaultRefTopicBranch" ]
+  } ],
+  "unplaced" : [ ]
+}
