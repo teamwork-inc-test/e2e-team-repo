@@ -1,0 +1,10 @@
+{
+  "placements" : [ {
+    "verdict" : "reuse",
+    "leaf" : "Narrative_DecisionCaptureAtConsensus",
+    "supporting_segments" : [ "src-1", "src-2", "src-3" ],
+    "why" : "All three assertions are facts evidencing that the decision-capture-at-consensus mechanism this leaf already names was built and works: 'We shipped the async decision widget' is the delivery event, 'Velocity was 23 points, highest this quarter' is the quantified pace of that delivery, and 'The Zephyr integration was the key unlock' names the causal enabler behind the pace. None of the three is itself a recurring subject future envelopes will keep feeding independent of this sprint (they are one-time measurements/events per the narrative grain test) — they are evidence FOR the existing capture-at-consensus theme, not new themes. The position pass already grouped these same three segments as one evidentiary package under this same leaf, which this placement confirms at the narrative-leaf layer.",
+    "consulted" : [ "Narrative_AntiSlackPositioning", "Narrative_DecisionCaptureAtConsensus", "Narrative_DecisionsEvaporate" ]
+  } ],
+  "unplaced" : [ ]
+}
