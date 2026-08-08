@@ -1,0 +1,12 @@
+{
+  "positions" : [ {
+    "name" : "SprintRetroDeliveryEvidence",
+    "frame" : "What does the sprint retrospective offer as evidence that the decision-capture feature shipped and worked?",
+    "members" : [ "src-1", "src-2", "src-3" ],
+    "why" : "The three assertions build one evidentiary case in sequence: a completed delivery ('We shipped the async decision widget'), a quantified measure of that delivery's pace ('23 points, highest this quarter'), and a causal account of what drove the pace ('the Zephyr integration was the key unlock'). Directional reads show a register shift across the set — src-1 sits in communal-sharing/activated-positive framing ('we shipped', the team acting together) while src-2 and src-3 pivot into technical, market-pricing framing (points, integration-as-lever) — but all three share past/realis/concrete temporal grounding and 'claim'-level conviction, and together they read as the retro's single justification narrative: delivered, measured, explained. The tension between the communal announcement and the metric/causal framing is held, not resolved — it is how the retro moves from 'we did it' to 'here is why it counted'.",
+    "under" : [ "Narrative_DecisionCaptureAtConsensus" ]
+  } ],
+  "attaches" : [ ],
+  "position_revisions" : [ ],
+  "ungrouped" : [ ]
+}
