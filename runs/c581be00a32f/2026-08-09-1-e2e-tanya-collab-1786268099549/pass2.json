@@ -1,0 +1,46 @@
+{
+  "resolutions" : [ {
+    "commentary_local_id" : "src-1",
+    "phrase" : "We shipped the async decision widget.",
+    "verdict" : "confident",
+    "why" : "The claim is a verbatim-grain restatement of the shipped-feature headline already witnessed in the Sprint 4 Retro sample; navigation surfaces a single dominant node for 'shipped the async decision widget' with no competing referent at this grain.",
+    "consulted" : [ "Narrative_AntiSlackPositioning (expanded)", "Sample_Sprint4Retro_20260322", "Position_Sprint4ThesisProven", "Obs_TanyaThesisProven", "PositioningThesis (hub)", "Narrative_ZeroEffortCapture (hub)" ],
+    "binding" : {
+      "referents" : [ {
+        "iri" : "Sample_Sprint4Retro_20260322",
+        "relation" : "see",
+        "why" : "Names/anchors the same retro artifact where the widget-shipped fact was originally witnessed, without adding new detail beyond restating it."
+      } ],
+      "targets" : [ "PositioningThesis", "Narrative_ZeroEffortCapture" ]
+    }
+  }, {
+    "commentary_local_id" : "src-2",
+    "phrase" : "Velocity was 23 points, highest this quarter.",
+    "verdict" : "confident",
+    "why" : "This is an exact-content match to the already-witnessed velocity observation (23-point velocity, highest this quarter) with a single unambiguous referent.",
+    "consulted" : [ "Sample_Sprint4Retro_20260322", "Obs_TinaVelocity", "StyleObs_Sprint4_MetricAnchor", "KPIsSuccess (hub)" ],
+    "binding" : {
+      "referents" : [ {
+        "iri" : "Obs_TinaVelocity",
+        "relation" : "see",
+        "why" : "Restates the exact figure and framing ('23 points, highest this quarter') already recorded as this observation, without engaging new content."
+      } ],
+      "targets" : [ "KPIsSuccess" ]
+    }
+  }, {
+    "commentary_local_id" : "src-3",
+    "phrase" : "The Zephyr integration was the key unlock.",
+    "verdict" : "confident",
+    "why" : "Exact-content match to the already-witnessed decision naming the Zephyr integration as the key unlock for Sprint 4 velocity; single dominant referent, no competing candidates.",
+    "consulted" : [ "Sample_Sprint4Retro_20260322", "Position_ZephyrIntegrationUnlock", "Obs_TinaVelocity", "Narrative_ZeroEffortCapture (hub)", "DependenciesIntegrations (hub)" ],
+    "binding" : {
+      "referents" : [ {
+        "iri" : "Position_ZephyrIntegrationUnlock",
+        "relation" : "see",
+        "why" : "Names the same 'key unlock' decision already recorded, restated verbatim without adding new engagement or detail."
+      } ],
+      "targets" : [ "Narrative_ZeroEffortCapture", "DependenciesIntegrations" ]
+    }
+  } ],
+  "unreferenced_commentary" : [ ]
+}
