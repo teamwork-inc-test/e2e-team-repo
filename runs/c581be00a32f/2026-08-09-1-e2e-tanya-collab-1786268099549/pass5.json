@@ -1,0 +1,16 @@
+{
+  "placements" : [ {
+    "verdict" : "reuse",
+    "leaf" : "Narrative_AntiSlackPositioning",
+    "supporting_segments" : [ "src-1" ],
+    "why" : "Shipping the async decision widget is the concrete product instantiation of this leaf's core positioning claim — 'every conversation should produce a persistent decision artifact' — directly embodying the anti-Slack thesis rather than merely referencing it.",
+    "consulted" : [ "Narrative_AntiSlackPositioning", "Position_Sprint4ThesisProven", "Obs_TanyaThesisProven", "Sample_Sprint4Retro_20260322" ]
+  }, {
+    "verdict" : "reuse",
+    "leaf" : "Narrative_DecisionCaptureAtConsensus",
+    "supporting_segments" : [ "src-1", "src-2", "src-3" ],
+    "why" : "The shipped widget (src-1) realizes this leaf's insight of capturing decisions at the moment of consensus rather than letting them evaporate into scroll-back; the Zephyr integration (src-3) is named as the specific mechanism enabling that in-thread capture across Slack/Teams/Discord; the record 23-point velocity (src-2) is offered as the execution proof point that the capture mechanism works efficiently — all three cohere as one chain of evidence for the same capture-at-consensus theme rather than standing as three separate facts.",
+    "consulted" : [ "Narrative_DecisionCaptureAtConsensus", "Position_ZephyrIntegrationUnlock", "Obs_TinaVelocity", "Position_Sprint4ThesisProven", "Sample_Sprint4Retro_20260322" ]
+  } ],
+  "unplaced" : [ ]
+}
