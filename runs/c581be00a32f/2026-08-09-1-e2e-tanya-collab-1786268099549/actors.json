@@ -1,0 +1,13 @@
+{
+  "bindings" : [ {
+    "name" : "Tanya TeamOwner",
+    "verdict" : "mint",
+    "label" : "Tanya TeamOwner",
+    "why" : "Young repo with no existing actors; this is the envelope's submitter, so mint a new actor with the fullest available name."
+  }, {
+    "name" : "tanya+staging@aswritten.ai",
+    "verdict" : "mint",
+    "label" : "Tanya TeamOwner",
+    "why" : "This is the account email for the same submitter Tanya TeamOwner; converges as an alias on the identical mint label so both land on one node."
+  } ]
+}
