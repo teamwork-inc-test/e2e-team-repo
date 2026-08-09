@@ -1,0 +1,21 @@
+@prefix narr: <https://aswritten.ai/narrative#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+GRAPH <https://aswritten.ai/narrative#Digest_Narrative_AntiSlackPositioning> {
+  <https://aswritten.ai/narrative#Digest_Narrative_AntiSlackPositioning> a narr:Digest ;
+    narr:digestOf <https://aswritten.ai/narrative#Narrative_AntiSlackPositioning> ;
+    narr:childCount "5"^^xsd:integer ;
+    narr:generatedFrom "9f965077e374afdd9cda45017918a915710dcf4c" ;
+    narr:narration """This narrative hub maintains its core [anti-Slack positioning](narr:Position_AntiPatternRealtimeChat) by framing the product as a [structured async decision platform](narr:Position_ProductCategoryAsyncPlatform). The project remains anchored to its initial [target market of remote teams](narr:Position_TargetMarketRemoteTeams), though the monetization model has evolved from the [original $12 flat pricing](narr:Position_PricingTwelveDollars) to a tiered structure that accounts for team scale. Since the last review, the narrative has shifted from purely conceptual category-building toward tangible execution, marked by the [delivery of the async decision widget](narr:Expr_1E2ETanyaCollab1786268099549_1). This transition suggests a move toward validating the platform's utility within the defined ICP, moving the project from a theoretical opposition to real-time chat into a functional, shipping reality.""" ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1E2ETanyaCollab1786268099549_1> ;
+    narr:covers <https://aswritten.ai/narrative#Position_AntiPatternRealtimeChat> ;
+    narr:covers <https://aswritten.ai/narrative#Position_PricingTwelveDollars> ;
+    narr:covers <https://aswritten.ai/narrative#Position_ProductCategoryAsyncPlatform> ;
+    narr:covers <https://aswritten.ai/narrative#Position_TargetMarketRemoteTeams> ;
+    narr:keyPhrase [ narr:text "Real-time chat (Slack, Teams) is the named anti-pattern." ; narr:phraseSource <https://aswritten.ai/narrative#Position_AntiPatternRealtimeChat> ] ;
+    narr:keyPhrase [ narr:text "Structured async decision platform" ; narr:phraseSource <https://aswritten.ai/narrative#Position_ProductCategoryAsyncPlatform> ] ;
+    narr:keyPhrase [ narr:text "We shipped the async decision widget." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1E2ETanyaCollab1786268099549_1> ] ;
+    narr:keyPhrase [ narr:text "pricing update to $15/user for teams over 25" ; narr:phraseSource <https://aswritten.ai/narrative#Position_PricingTwelveDollars> ] ;
+    narr:variation [ narr:text "The pricing model introduces a tension between the original $12 entry point and the $15 tier for larger teams." ; narr:over <https://aswritten.ai/narrative#Position_PricingTwelveDollars> ] ;
+    narr:writer "google/gemini-3.1-flash-lite" .
+}

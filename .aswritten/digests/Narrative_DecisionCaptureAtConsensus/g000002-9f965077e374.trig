@@ -5,8 +5,8 @@ GRAPH <https://aswritten.ai/narrative#Digest_Narrative_DecisionCaptureAtConsensu
   <https://aswritten.ai/narrative#Digest_Narrative_DecisionCaptureAtConsensus> a narr:Digest ;
     narr:digestOf <https://aswritten.ai/narrative#Narrative_DecisionCaptureAtConsensus> ;
     narr:childCount "4"^^xsd:integer ;
-    narr:generatedFrom "16f5d68b7b49fe836f7efa4cafd425f71b947d40" ;
-    narr:narration """This hub centers on the [core feature of decision capture](narr:Position_CoreFeatureDecisionCapture), defined as the primary product differentiator by anchoring artifacts at the moment of consensus. Recent activity from August 2026 demonstrates the practical application of this framework, as the team [shipped the async decision widget](narr:Expr_1E2ETanyaCollab1786268099549_1) and identified the [Zephyr integration](narr:Expr_1E2ETanyaCollab1786268099549_3) as the critical unlock for this capability. Alongside these functional milestones, the team reports [record velocity](narr:Expr_1E2ETanyaCollab1786268099549_2), framing the integration and the new widget as drivers of recent performance gains.""" ;
+    narr:generatedFrom "9f965077e374afdd9cda45017918a915710dcf4c" ;
+    narr:narration """This hub defines the [core feature of decision capture](narr:Position_CoreFeatureDecisionCapture) as the product's primary differentiator, focusing on the preservation of artifacts at the moment of consensus. Following this foundational framing, the narrative shifts to August 2026, where the team reports the successful [deployment of an async decision widget](narr:Expr_1E2ETanyaCollab1786268099549_1). This functional milestone is linked to the [Zephyr integration](narr:Expr_1E2ETanyaCollab1786268099549_3), which is characterized as the critical unlock for the capture capability. Concurrently, the team highlights [record velocity](narr:Expr_1E2ETanyaCollab1786268099549_2) as a quantitative indicator of recent performance, framing the new tooling and integration as the primary drivers of this output.""" ;
     narr:covers <https://aswritten.ai/narrative#Expr_1E2ETanyaCollab1786268099549_1> ;
     narr:covers <https://aswritten.ai/narrative#Expr_1E2ETanyaCollab1786268099549_2> ;
     narr:covers <https://aswritten.ai/narrative#Expr_1E2ETanyaCollab1786268099549_3> ;
@@ -15,6 +15,6 @@ GRAPH <https://aswritten.ai/narrative#Digest_Narrative_DecisionCaptureAtConsensu
     narr:keyPhrase [ narr:text "We shipped the async decision widget." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1E2ETanyaCollab1786268099549_1> ] ;
     narr:keyPhrase [ narr:text "The Zephyr integration was the key unlock." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1E2ETanyaCollab1786268099549_3> ] ;
     narr:keyPhrase [ narr:text "Velocity was 23 points, highest this quarter." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1E2ETanyaCollab1786268099549_2> ] ;
-    narr:variation [ narr:text "Tension exists between framing the feature as a 'primary differentiator' (strategic) versus a 'velocity driver' (operational)." ; narr:over <https://aswritten.ai/narrative#Position_CoreFeatureDecisionCapture> ; narr:over <https://aswritten.ai/narrative#Expr_1E2ETanyaCollab1786268099549_2> ] ;
+    narr:variation [ narr:text "The tension between technical 'unlocks' (Zephyr) and quantitative 'velocity' as the primary measure of success." ; narr:over <https://aswritten.ai/narrative#Expr_1E2ETanyaCollab1786268099549_2> ; narr:over <https://aswritten.ai/narrative#Expr_1E2ETanyaCollab1786268099549_3> ] ;
     narr:writer "google/gemini-3.1-flash-lite" .
 }
