@@ -1,0 +1,15 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-3",
+    "regions" : [ "metaphor" ],
+    "evidence" : [ {
+      "quote" : "key unlock",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "An integration spoken of AS a lock mechanism ('unlock') — a thing functioning as another thing, not mere vividness.",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-1", "src-2" ],
+  "mints" : [ ],
+  "region_mints" : [ ]
+}
