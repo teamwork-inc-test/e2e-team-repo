@@ -1,0 +1,349 @@
+PREFIX narr: <https://aswritten.ai/narrative#>
+PREFIX aswr: <https://aswritten.ai/aswr#>
+PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX dct:  <http://purl.org/dc/terms/>
+PREFIX xsd:  <http://www.w3.org/2001/XMLSchema#>
+PREFIX oa:   <http://www.w3.org/ns/oa#>
+
+INSERT DATA {
+  aswr:Tx_20260810T095540Z a prov:Activity ;
+      prov:generatedAtTime "2026-08-10T09:55:40Z"^^xsd:dateTime ;
+      prov:wasAssociatedWith "aswritten.ai" ;
+      prov:wasAttributedTo "scarlet@aswritten.ai" ;
+      aswr:pipelinePin "c063fb20bab6" ;
+      aswr:originPath ".aswritten/memories/2026-08-10-1-e2e-tanya-collab-1786355730113.md" ;
+      dct:title "Multipass fragment: 1E2ETanyaCollab1786355730113" ;
+      prov:generated narr:VecAffect_1E2ETanyaCollab1786355730113_1, narr:VecAffect_1E2ETanyaCollab1786355730113_2, narr:VecAffect_1E2ETanyaCollab1786355730113_3, narr:VecConviction_1E2ETanyaCollab1786355730113_1, narr:VecConviction_1E2ETanyaCollab1786355730113_2, narr:VecConviction_1E2ETanyaCollab1786355730113_3, narr:VecPower_1E2ETanyaCollab1786355730113_1, narr:VecPower_1E2ETanyaCollab1786355730113_2, narr:VecPower_1E2ETanyaCollab1786355730113_3, narr:DirRegister_NativePipelineShorthand, narr:VecRegister_1E2ETanyaCollab1786355730113_1, narr:VecRegister_1E2ETanyaCollab1786355730113_2, narr:VecRegister_1E2ETanyaCollab1786355730113_3, narr:VecRelational_1E2ETanyaCollab1786355730113_1, narr:VecRelational_1E2ETanyaCollab1786355730113_2, narr:VecStyle_1E2ETanyaCollab1786355730113_3, narr:VecTemporal_1E2ETanyaCollab1786355730113_1, narr:VecTemporal_1E2ETanyaCollab1786355730113_2, narr:VecTemporal_1E2ETanyaCollab1786355730113_3, narr:VecValue_1E2ETanyaCollab1786355730113_1, narr:VecValue_1E2ETanyaCollab1786355730113_2, narr:VecValue_1E2ETanyaCollab1786355730113_3, narr:Position_ShippedWidgetVelocityAchievement, narr:Position_SprintVelocityAttributedToZephyr .
+} ;
+INSERT DATA {
+  GRAPH aswr:Tx_20260810T095540Z {
+    narr:VecAffect_1E2ETanyaCollab1786355730113_1 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_1E2ETanyaCollab1786355730113_1 ;
+        narr:dimension narr:Dim_Affect ;
+        narr:region narr:Affect_ActivatedPositive ;
+        narr:evidence "performed-act: We shipped the async decision widget." ;
+        narr:reported false ;
+        skos:note "Declarative 'we shipped' carries energized accomplishment — high arousal, positive valence." ;
+        prov:generatedAtTime "2026-08-10T09:55:40Z"^^xsd:dateTime .
+
+    narr:VecAffect_1E2ETanyaCollab1786355730113_2 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_1E2ETanyaCollab1786355730113_2 ;
+        narr:dimension narr:Dim_Affect ;
+        narr:region narr:Affect_CalmPositive ;
+        narr:evidence "plain-assertion: Velocity was 23 points, highest this quarter." ;
+        narr:reported false ;
+        skos:note "Measured, factual reporting of a peak result — settled satisfaction, low arousal, positive valence." ;
+        prov:generatedAtTime "2026-08-10T09:55:40Z"^^xsd:dateTime .
+
+    narr:VecAffect_1E2ETanyaCollab1786355730113_3 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_1E2ETanyaCollab1786355730113_3 ;
+        narr:dimension narr:Dim_Affect ;
+        narr:region narr:Affect_ActivatedPositive ;
+        narr:evidence "lexical-marker: key unlock" ;
+        narr:reported false ;
+        skos:note "'Key unlock' frames the integration as an energizing breakthrough — high arousal, positive valence." ;
+        prov:generatedAtTime "2026-08-10T09:55:40Z"^^xsd:dateTime .
+
+    narr:VecConviction_1E2ETanyaCollab1786355730113_1 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_1E2ETanyaCollab1786355730113_1 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Claim ;
+        narr:evidence "plain-assertion: We shipped the async decision widget." ;
+        narr:reported false ;
+        skos:note "Flat declarative reporting a completed action; no ratification language or performed settling that would lift it to decision, no hedging that would lower it to notion." ;
+        prov:generatedAtTime "2026-08-10T09:55:40Z"^^xsd:dateTime .
+
+    narr:VecConviction_1E2ETanyaCollab1786355730113_2 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_1E2ETanyaCollab1786355730113_2 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Claim ;
+        narr:evidence "plain-assertion: Velocity was 23 points, highest this quarter." ;
+        narr:reported false ;
+        skos:note "Unhedged factual assertion with a superlative; stated as fact ready to defend but without performed ratification or operational rule language that would place it at decision." ;
+        prov:generatedAtTime "2026-08-10T09:55:40Z"^^xsd:dateTime .
+
+    narr:VecConviction_1E2ETanyaCollab1786355730113_3 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_1E2ETanyaCollab1786355730113_3 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Claim ;
+        narr:evidence "plain-assertion: The Zephyr integration was the key unlock." ;
+        narr:reported false ;
+        skos:note "Confident causal attribution stated flatly, but still an argued position rather than a settled operational rule; claim-level assertion without ratification language." ;
+        prov:generatedAtTime "2026-08-10T09:55:40Z"^^xsd:dateTime .
+
+    narr:VecPower_1E2ETanyaCollab1786355730113_1 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_1E2ETanyaCollab1786355730113_1 ;
+        narr:dimension narr:Dim_Power ;
+        narr:region narr:Power_Informational ;
+        narr:evidence "plain-assertion: We shipped the async decision widget." ;
+        narr:reported false ;
+        skos:note "Stating a completed shipment as fact supplies information the speaker controls; no influence attempt on an audience is performed." ;
+        prov:generatedAtTime "2026-08-10T09:55:40Z"^^xsd:dateTime .
+
+    narr:VecPower_1E2ETanyaCollab1786355730113_2 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_1E2ETanyaCollab1786355730113_2 ;
+        narr:dimension narr:Dim_Power ;
+        narr:region narr:Power_Informational ;
+        narr:region narr:Power_RationalPersuasion ;
+        narr:evidence "plain-assertion: Velocity was 23 points, highest this quarter." ;
+        narr:reported false ;
+        skos:note "Citing a measured metric with a comparative superlative supplies controlled facts and builds a logic-based case for the sprint's success." ;
+        prov:generatedAtTime "2026-08-10T09:55:40Z"^^xsd:dateTime .
+
+    narr:VecPower_1E2ETanyaCollab1786355730113_3 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_1E2ETanyaCollab1786355730113_3 ;
+        narr:dimension narr:Dim_Power ;
+        narr:region narr:Power_Informational ;
+        narr:evidence "plain-assertion: The Zephyr integration was the key unlock." ;
+        narr:reported false ;
+        skos:note "Asserting a causal factor as fact supplies the speaker's controlled interpretation of what mattered; no audience-directed influence attempt is performed." ;
+        prov:generatedAtTime "2026-08-10T09:55:40Z"^^xsd:dateTime .
+
+    narr:DirRegister_NativePipelineShorthand a narr:DirectionalNode ;
+        dct:source narr:Sample_1E2ETanyaCollab1786355730113 ;
+        narr:dimension narr:Dim_Register ;
+        narr:region narr:Register_Technical ;
+        narr:region narr:Register_Casual ;
+        narr:frame "Is the speaker using domain-native idioms as self-evident shorthand, neither performing expertise nor simplifying for an audience?" ;
+        skos:note "pipeline jargon deployed as casual shorthand without gloss" ;
+        prov:generatedAtTime "2026-08-10T09:55:40Z"^^xsd:dateTime .
+
+    narr:VecRegister_1E2ETanyaCollab1786355730113_1 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_1E2ETanyaCollab1786355730113_1 ;
+        narr:dimension narr:Dim_Register ;
+        narr:region narr:Register_MatterOfFact ;
+        narr:evidence "plain-assertion: We shipped the async decision widget." ;
+        narr:reported false ;
+        skos:note "Flat instrumental delivery with no intensifier or audience-directed energy — a strong instantiation of the document's matter-of-fact baseline." ;
+        prov:generatedAtTime "2026-08-10T09:55:40Z"^^xsd:dateTime .
+
+    narr:VecRegister_1E2ETanyaCollab1786355730113_2 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_1E2ETanyaCollab1786355730113_2 ;
+        narr:dimension narr:Dim_Register ;
+        narr:region narr:Register_Technical ;
+        narr:evidence "lexical-marker: Velocity was 23 points" ;
+        narr:reported false ;
+        skos:note "Agile jargon used natively without gloss — a register shift toward technical precision within an otherwise plain-spoken retro." ;
+        prov:generatedAtTime "2026-08-10T09:55:40Z"^^xsd:dateTime .
+
+    narr:VecRegister_1E2ETanyaCollab1786355730113_3 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_1E2ETanyaCollab1786355730113_3 ;
+        narr:dimension narr:Dim_Register ;
+        narr:region narr:Register_Technical ;
+        narr:direction narr:DirRegister_NativePipelineShorthand ;
+        narr:evidence "lexical-marker: key unlock" ;
+        narr:reported false ;
+        skos:note "Pipeline-native idiom ('unlock') used as casual technical shorthand — the document's register signature of native jargon deployed without accessibility hedging." ;
+        prov:generatedAtTime "2026-08-10T09:55:40Z"^^xsd:dateTime .
+
+    narr:VecRelational_1E2ETanyaCollab1786355730113_1 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_1E2ETanyaCollab1786355730113_1 ;
+        narr:dimension narr:Dim_Relational ;
+        narr:region narr:Relational_CommunalSharing ;
+        narr:evidence "lexical-marker: We shipped" ;
+        narr:reported false ;
+        skos:note "The 'we' enacts communal-sharing — the team as one undifferentiated body that ships together." ;
+        prov:generatedAtTime "2026-08-10T09:55:40Z"^^xsd:dateTime .
+
+    narr:VecRelational_1E2ETanyaCollab1786355730113_2 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_1E2ETanyaCollab1786355730113_2 ;
+        narr:dimension narr:Dim_Relational ;
+        narr:region narr:Relational_MarketPricing ;
+        narr:evidence "lexical-marker: 23 points" ;
+        narr:reported false ;
+        skos:note "Velocity measured in points is proportionality — output quantified against a unit standard." ;
+        prov:generatedAtTime "2026-08-10T09:55:40Z"^^xsd:dateTime .
+
+    narr:VecStyle_1E2ETanyaCollab1786355730113_3 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_1E2ETanyaCollab1786355730113_3 ;
+        narr:dimension narr:Dim_Style ;
+        narr:region narr:Style_Metaphor ;
+        narr:evidence "lexical-marker: key unlock" ;
+        narr:reported false ;
+        skos:note "The Zephyr integration is spoken of AS a key unlock — a thing (integration) named as another thing (a mechanism that opens something locked), a performed metaphor not mere vividness." ;
+        prov:generatedAtTime "2026-08-10T09:55:40Z"^^xsd:dateTime .
+
+    narr:VecTemporal_1E2ETanyaCollab1786355730113_1 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_1E2ETanyaCollab1786355730113_1 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Past ;
+        narr:region narr:Temporal_Realis ;
+        narr:region narr:Temporal_Concrete ;
+        narr:evidence "plain-assertion: We shipped the async decision widget." ;
+        narr:reported false ;
+        skos:note "Completed action naming a specific artifact; attention on what happened, actual and concrete." ;
+        prov:generatedAtTime "2026-08-10T09:55:40Z"^^xsd:dateTime .
+
+    narr:VecTemporal_1E2ETanyaCollab1786355730113_2 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_1E2ETanyaCollab1786355730113_2 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Past ;
+        narr:region narr:Temporal_Realis ;
+        narr:region narr:Temporal_Concrete ;
+        narr:evidence "plain-assertion: Velocity was 23 points, highest this quarter." ;
+        narr:reported false ;
+        skos:note "Past-tense measurement with a specific figure and temporal frame; realis and concrete." ;
+        prov:generatedAtTime "2026-08-10T09:55:40Z"^^xsd:dateTime .
+
+    narr:VecTemporal_1E2ETanyaCollab1786355730113_3 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_1E2ETanyaCollab1786355730113_3 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Past ;
+        narr:region narr:Temporal_Realis ;
+        narr:region narr:Temporal_Concrete ;
+        narr:evidence "plain-assertion: The Zephyr integration was the key unlock." ;
+        narr:reported false ;
+        skos:note "Past-tense attribution to a named integration; attention on a settled, specific outcome." ;
+        prov:generatedAtTime "2026-08-10T09:55:40Z"^^xsd:dateTime .
+
+    narr:VecValue_1E2ETanyaCollab1786355730113_1 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_1E2ETanyaCollab1786355730113_1 ;
+        narr:dimension narr:Dim_Value ;
+        narr:region narr:Value_OpennessToChange ;
+        narr:region narr:Value_Competence ;
+        narr:evidence "performed-act: shipped" ;
+        narr:reported false ;
+        skos:note "Shipping a novel widget appeals to novelty and mastery simultaneously — the act of delivering something new frames both self-direction and craft capability." ;
+        prov:generatedAtTime "2026-08-10T09:55:40Z"^^xsd:dateTime .
+
+    narr:VecValue_1E2ETanyaCollab1786355730113_2 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_1E2ETanyaCollab1786355730113_2 ;
+        narr:dimension narr:Dim_Value ;
+        narr:region narr:Value_SelfEnhancement ;
+        narr:region narr:Value_Competence ;
+        narr:evidence "framing-move: highest this quarter" ;
+        narr:reported false ;
+        skos:note "Superlative framing of velocity positions achievement and competitive standing as the appealed-to good, while the metric itself indexes mastery." ;
+        prov:generatedAtTime "2026-08-10T09:55:40Z"^^xsd:dateTime .
+
+    narr:VecValue_1E2ETanyaCollab1786355730113_3 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_1E2ETanyaCollab1786355730113_3 ;
+        narr:dimension narr:Dim_Value ;
+        narr:region narr:Value_Competence ;
+        narr:evidence "framing-move: key unlock" ;
+        narr:reported false ;
+        skos:note "Naming an integration as the decisive capability that unlocked progress appeals to mastery and craft quality as the good that mattered." ;
+        prov:generatedAtTime "2026-08-10T09:55:40Z"^^xsd:dateTime .
+
+    narr:Expr_1E2ETanyaCollab1786355730113_1 narr:supports narr:Narrative_AntiSlackPositioning .
+
+    narr:Expr_1E2ETanyaCollab1786355730113_2 narr:supports narr:Narrative_AntiSlackPositioning .
+
+    narr:Expr_1E2ETanyaCollab1786355730113_2 narr:supports narr:Narrative_DecisionCaptureAtConsensus .
+
+    narr:Expr_1E2ETanyaCollab1786355730113_3 narr:supports narr:Narrative_DecisionCaptureAtConsensus .
+
+    narr:Position_ShippedWidgetVelocityAchievement a narr:Position ;
+        narr:frame "what does completing the widget deliverable alongside a peak velocity figure establish about this sprint's execution?" ;
+        prov:generatedAtTime "2026-08-10T09:55:40Z"^^xsd:dateTime .
+
+    narr:Position_ShippedWidgetVelocityAchievement narr:supports narr:Narrative_AntiSlackPositioning .
+
+    narr:Expr_1E2ETanyaCollab1786355730113_1 narr:supports narr:Position_ShippedWidgetVelocityAchievement .
+
+    narr:Expr_1E2ETanyaCollab1786355730113_2 narr:supports narr:Position_ShippedWidgetVelocityAchievement .
+
+    narr:Position_SprintVelocityAttributedToZephyr a narr:Position ;
+        narr:frame "what accounts for this sprint's velocity spike?" ;
+        prov:generatedAtTime "2026-08-10T09:55:40Z"^^xsd:dateTime .
+
+    narr:Position_SprintVelocityAttributedToZephyr narr:supports narr:Narrative_DecisionCaptureAtConsensus .
+
+    narr:Expr_1E2ETanyaCollab1786355730113_2 narr:supports narr:Position_SprintVelocityAttributedToZephyr .
+
+    narr:Expr_1E2ETanyaCollab1786355730113_3 narr:supports narr:Position_SprintVelocityAttributedToZephyr .
+
+    aswr:Miss_1E2ETanyaCollab1786355730113_resolve_trip a aswr:Miss ;
+        aswr:missPass "resolve" ;
+        aswr:missClass "floor" ;
+        aswr:missError "resolutions empty against a populated perspective" ;
+        aswr:missModel "subscription.anthropic/claude-sonnet-5" ;
+        aswr:tripFloor "empty_on_populated" ;
+        aswr:tripRatio "0.0000"^^xsd:decimal ;
+        aswr:tripOutcome "accepted-flagged" ;
+        aswr:tripFallbackModel "z-ai/glm-5.2" ;
+        aswr:missScope narr:Sample_1E2ETanyaCollab1786355730113 ;
+        prov:generatedAtTime "2026-08-10T09:55:40Z"^^xsd:dateTime .
+
+    aswr:Run_20260810T095540Z_dim_affect a prov:Activity ;
+        aswr:runPass "dim.affect" ;
+        aswr:draftedBy "z-ai/glm-5.2" ;
+        aswr:artifact "aswritten/runs:runs/3aa96a59cd45/2026-08-10-1-e2e-tanya-collab-1786355730113/dim.affect.json" ;
+        prov:generated narr:VecAffect_1E2ETanyaCollab1786355730113_1, narr:VecAffect_1E2ETanyaCollab1786355730113_2, narr:VecAffect_1E2ETanyaCollab1786355730113_3 ;
+        dct:isPartOf aswr:Tx_20260810T095540Z ;
+        prov:generatedAtTime "2026-08-10T09:55:40Z"^^xsd:dateTime .
+
+    aswr:Run_20260810T095540Z_dim_conviction a prov:Activity ;
+        aswr:runPass "dim.conviction" ;
+        aswr:draftedBy "z-ai/glm-5.2" ;
+        aswr:artifact "aswritten/runs:runs/3aa96a59cd45/2026-08-10-1-e2e-tanya-collab-1786355730113/dim.conviction.json" ;
+        prov:generated narr:VecConviction_1E2ETanyaCollab1786355730113_1, narr:VecConviction_1E2ETanyaCollab1786355730113_2, narr:VecConviction_1E2ETanyaCollab1786355730113_3 ;
+        dct:isPartOf aswr:Tx_20260810T095540Z ;
+        prov:generatedAtTime "2026-08-10T09:55:40Z"^^xsd:dateTime .
+
+    aswr:Run_20260810T095540Z_dim_power a prov:Activity ;
+        aswr:runPass "dim.power" ;
+        aswr:draftedBy "z-ai/glm-5.2" ;
+        aswr:artifact "aswritten/runs:runs/3aa96a59cd45/2026-08-10-1-e2e-tanya-collab-1786355730113/dim.power.json" ;
+        prov:generated narr:VecPower_1E2ETanyaCollab1786355730113_1, narr:VecPower_1E2ETanyaCollab1786355730113_2, narr:VecPower_1E2ETanyaCollab1786355730113_3 ;
+        dct:isPartOf aswr:Tx_20260810T095540Z ;
+        prov:generatedAtTime "2026-08-10T09:55:40Z"^^xsd:dateTime .
+
+    aswr:Run_20260810T095540Z_dim_register a prov:Activity ;
+        aswr:runPass "dim.register" ;
+        aswr:draftedBy "z-ai/glm-5.2" ;
+        aswr:artifact "aswritten/runs:runs/3aa96a59cd45/2026-08-10-1-e2e-tanya-collab-1786355730113/dim.register.json" ;
+        prov:generated narr:DirRegister_NativePipelineShorthand, narr:VecRegister_1E2ETanyaCollab1786355730113_1, narr:VecRegister_1E2ETanyaCollab1786355730113_2, narr:VecRegister_1E2ETanyaCollab1786355730113_3 ;
+        dct:isPartOf aswr:Tx_20260810T095540Z ;
+        prov:generatedAtTime "2026-08-10T09:55:40Z"^^xsd:dateTime .
+
+    aswr:Run_20260810T095540Z_dim_relational a prov:Activity ;
+        aswr:runPass "dim.relational" ;
+        aswr:draftedBy "z-ai/glm-5.2" ;
+        aswr:artifact "aswritten/runs:runs/3aa96a59cd45/2026-08-10-1-e2e-tanya-collab-1786355730113/dim.relational.json" ;
+        prov:generated narr:VecRelational_1E2ETanyaCollab1786355730113_1, narr:VecRelational_1E2ETanyaCollab1786355730113_2 ;
+        dct:isPartOf aswr:Tx_20260810T095540Z ;
+        prov:generatedAtTime "2026-08-10T09:55:40Z"^^xsd:dateTime .
+
+    aswr:Run_20260810T095540Z_dim_style a prov:Activity ;
+        aswr:runPass "dim.style" ;
+        aswr:draftedBy "z-ai/glm-5.2" ;
+        aswr:artifact "aswritten/runs:runs/3aa96a59cd45/2026-08-10-1-e2e-tanya-collab-1786355730113/dim.style.json" ;
+        prov:generated narr:VecStyle_1E2ETanyaCollab1786355730113_3 ;
+        dct:isPartOf aswr:Tx_20260810T095540Z ;
+        prov:generatedAtTime "2026-08-10T09:55:40Z"^^xsd:dateTime .
+
+    aswr:Run_20260810T095540Z_dim_temporal a prov:Activity ;
+        aswr:runPass "dim.temporal" ;
+        aswr:draftedBy "z-ai/glm-5.2" ;
+        aswr:artifact "aswritten/runs:runs/3aa96a59cd45/2026-08-10-1-e2e-tanya-collab-1786355730113/dim.temporal.json" ;
+        prov:generated narr:VecTemporal_1E2ETanyaCollab1786355730113_1, narr:VecTemporal_1E2ETanyaCollab1786355730113_2, narr:VecTemporal_1E2ETanyaCollab1786355730113_3 ;
+        dct:isPartOf aswr:Tx_20260810T095540Z ;
+        prov:generatedAtTime "2026-08-10T09:55:40Z"^^xsd:dateTime .
+
+    aswr:Run_20260810T095540Z_dim_value a prov:Activity ;
+        aswr:runPass "dim.value" ;
+        aswr:draftedBy "z-ai/glm-5.2" ;
+        aswr:artifact "aswritten/runs:runs/3aa96a59cd45/2026-08-10-1-e2e-tanya-collab-1786355730113/dim.value.json" ;
+        prov:generated narr:VecValue_1E2ETanyaCollab1786355730113_1, narr:VecValue_1E2ETanyaCollab1786355730113_2, narr:VecValue_1E2ETanyaCollab1786355730113_3 ;
+        dct:isPartOf aswr:Tx_20260810T095540Z ;
+        prov:generatedAtTime "2026-08-10T09:55:40Z"^^xsd:dateTime .
+
+    aswr:Run_20260810T095540Z_pass5 a prov:Activity ;
+        aswr:runPass "pass5" ;
+        aswr:draftedBy "subscription.anthropic/claude-sonnet-5" ;
+        aswr:artifact "aswritten/runs:runs/3aa96a59cd45/2026-08-10-1-e2e-tanya-collab-1786355730113/pass5.json" ;
+        dct:isPartOf aswr:Tx_20260810T095540Z ;
+        prov:generatedAtTime "2026-08-10T09:55:40Z"^^xsd:dateTime .
+
+    aswr:Run_20260810T095540Z_position a prov:Activity ;
+        aswr:runPass "position" ;
+        aswr:draftedBy "subscription.anthropic/claude-sonnet-5" ;
+        aswr:artifact "aswritten/runs:runs/3aa96a59cd45/2026-08-10-1-e2e-tanya-collab-1786355730113/position.json" ;
+        prov:generated narr:Position_ShippedWidgetVelocityAchievement, narr:Position_SprintVelocityAttributedToZephyr ;
+        dct:isPartOf aswr:Tx_20260810T095540Z ;
+        prov:generatedAtTime "2026-08-10T09:55:40Z"^^xsd:dateTime .
+  }
+}
