@@ -1,0 +1,34 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "openness-to-change", "competence" ],
+    "evidence" : [ {
+      "quote" : "shipped",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Shipping a novel widget appeals to novelty and mastery simultaneously — the act of delivering something new frames both self-direction and craft capability.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-2",
+    "regions" : [ "self-enhancement", "competence" ],
+    "evidence" : [ {
+      "quote" : "highest this quarter",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Superlative framing of velocity positions achievement and competitive standing as the appealed-to good, while the metric itself indexes mastery.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-3",
+    "regions" : [ "competence" ],
+    "evidence" : [ {
+      "quote" : "key unlock",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Naming an integration as the decisive capability that unlocked progress appeals to mastery and craft quality as the good that mattered.",
+    "reported" : false
+  } ],
+  "unmarked" : [ ],
+  "unmarked_rest" : false,
+  "mints" : [ ],
+  "region_mints" : [ ]
+}
