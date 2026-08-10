@@ -1,0 +1,23 @@
+@prefix narr: <https://aswritten.ai/narrative#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+GRAPH <https://aswritten.ai/narrative#Digest_Narrative_AntiSlackPositioning> {
+  <https://aswritten.ai/narrative#Digest_Narrative_AntiSlackPositioning> a narr:Digest ;
+    narr:digestOf <https://aswritten.ai/narrative#Narrative_AntiSlackPositioning> ;
+    narr:childCount "7"^^xsd:integer ;
+    narr:generatedFrom "fc1b6840974f45fc7e6816055f0ae3d683ee4be3" ;
+    narr:narration """This hub tracks the [foundational positioning](narr:Position_ProductCategoryAsyncPlatform) of the product as a structured alternative to real-time chat, explicitly framing tools like Slack as anti-patterns. Established in March 2026, this [category-creation strategy](narr:Position_AntiPatternRealtimeChat) targets [remote teams of 10-50](narr:Position_TargetMarketRemoteTeams) experiencing decision-loss. The economic model began with a [base pricing of $12/user](narr:Position_PricingTwelveDollars), though subsequent internal reviews in late March 2026 introduced a tiered adjustment for larger teams. By August 2026, the narrative shifted from abstract positioning to [demonstrable execution](narr:Position_ShippedWidgetVelocityAchievement), evidenced by the [shipment of an async decision widget](narr:Expr_1E2ETanyaCollab1786355730113_1) and a [peak velocity of 23 points](narr:Expr_1E2ETanyaCollab1786355730113_2), signaling a transition from vision-setting to operational validation.""" ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1E2ETanyaCollab1786355730113_1> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1E2ETanyaCollab1786355730113_2> ;
+    narr:covers <https://aswritten.ai/narrative#Position_AntiPatternRealtimeChat> ;
+    narr:covers <https://aswritten.ai/narrative#Position_PricingTwelveDollars> ;
+    narr:covers <https://aswritten.ai/narrative#Position_ProductCategoryAsyncPlatform> ;
+    narr:covers <https://aswritten.ai/narrative#Position_ShippedWidgetVelocityAchievement> ;
+    narr:covers <https://aswritten.ai/narrative#Position_TargetMarketRemoteTeams> ;
+    narr:keyPhrase [ narr:text "Structured async decision platform" ; narr:phraseSource <https://aswritten.ai/narrative#Position_ProductCategoryAsyncPlatform> ] ;
+    narr:keyPhrase [ narr:text "Real-time chat (Slack, Teams) is the named anti-pattern." ; narr:phraseSource <https://aswritten.ai/narrative#Position_AntiPatternRealtimeChat> ] ;
+    narr:keyPhrase [ narr:text "We shipped the async decision widget." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1E2ETanyaCollab1786355730113_1> ] ;
+    narr:keyPhrase [ narr:text "Velocity was 23 points, highest this quarter." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1E2ETanyaCollab1786355730113_2> ] ;
+    narr:variation [ narr:text "The pricing model is not static, with a late-March shift from a flat $12 rate to a $15 tier for larger teams." ; narr:over <https://aswritten.ai/narrative#Position_PricingTwelveDollars> ] ;
+    narr:writer "google/gemini-3.1-flash-lite" .
+}
