@@ -1,0 +1,18 @@
+{
+  "positions" : [ {
+    "name" : "ShippedWidgetVelocityAchievement",
+    "frame" : "what does completing the widget deliverable alongside a peak velocity figure establish about this sprint's execution?",
+    "members" : [ "src-1", "src-2" ],
+    "why" : "Both expressions are flat, past-tense, realis reports of completed sprint outcomes (shipping the widget, hitting 23 points) delivered in the same matter-of-fact/technical register with an informational stance — read together they assert the sprint's execution as an accomplished, measurable fact rather than an aspiration or plan.",
+    "under" : [ "Narrative_AntiSlackPositioning" ]
+  }, {
+    "name" : "SprintVelocityAttributedToZephyr",
+    "frame" : "what accounts for this sprint's velocity spike?",
+    "members" : [ "src-2", "src-3" ],
+    "why" : "The velocity figure and the Zephyr-as-'key unlock' claim are causally linked in the same breath — the metric is offered as the effect and the integration as its named cause, both delivered with the same confident, unhedged claim-level conviction and competence-framed value appeal; the pairing reads as a single causal attribution rather than two separate facts.",
+    "under" : [ "Narrative_DecisionCaptureAtConsensus" ]
+  } ],
+  "attaches" : [ ],
+  "position_revisions" : [ ],
+  "ungrouped" : [ ]
+}
