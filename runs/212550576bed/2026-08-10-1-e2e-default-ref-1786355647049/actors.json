@@ -1,0 +1,21 @@
+{
+  "bindings" : [ {
+    "name" : "Tanya",
+    "verdict" : "bind",
+    "target" : "Actor_Tanya_Staging",
+    "label" : null,
+    "why" : "Bare first name resolved via envelope context: sole participant/submitter is Tanya TeamOwner, account tanya+staging@aswritten.ai matches the existing actor's identifying email exactly."
+  }, {
+    "name" : "Tanya TeamOwner",
+    "verdict" : "bind",
+    "target" : "Actor_Tanya_Staging",
+    "label" : "Tanya TeamOwner",
+    "why" : "Matches envelope submitted_by/participant; same account tanya+staging@aswritten.ai as existing actor, fuller name form supplied so label enriches the node."
+  }, {
+    "name" : "tanya+staging@aswritten.ai",
+    "verdict" : "bind",
+    "target" : "Actor_Tanya_Staging",
+    "label" : null,
+    "why" : "Exact email match to the existing actor's identifying front-matter address."
+  } ]
+}
