@@ -1,0 +1,19 @@
+@prefix narr: <https://aswritten.ai/narrative#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+GRAPH <https://aswritten.ai/narrative#Digest_Narrative_DecisionCaptureAtConsensus> {
+  <https://aswritten.ai/narrative#Digest_Narrative_DecisionCaptureAtConsensus> a narr:Digest ;
+    narr:digestOf <https://aswritten.ai/narrative#Narrative_DecisionCaptureAtConsensus> ;
+    narr:childCount "4"^^xsd:integer ;
+    narr:generatedFrom "58f48a51784612bb74a7ccbabfbc6aa01064ef11" ;
+    narr:narration """The discourse surrounding this hub maintains a steady focus on the [core product differentiator](narr:Position_CoreFeatureDecisionCapture), which frames the capture of decision artifacts at the moment of consensus as the primary value proposition. Established in March 2026, this architectural philosophy has recently been contextualized by empirical performance data from August 2026. Current discussion links a [notable velocity spike](narr:Expr_1E2ETanyaCollab1786355730113_2) directly to the [Zephyr integration](narr:Expr_1E2ETanyaCollab1786355730113_3), which is characterized as the 'key unlock' for team output. This shift moves the narrative from abstract product philosophy toward a [concrete evaluation](narr:Position_SprintVelocityAttributedToZephyr) of how specific feature integrations serve as the mechanism for achieving measurable sprint performance.""" ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1E2ETanyaCollab1786355730113_2> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1E2ETanyaCollab1786355730113_3> ;
+    narr:covers <https://aswritten.ai/narrative#Position_CoreFeatureDecisionCapture> ;
+    narr:covers <https://aswritten.ai/narrative#Position_SprintVelocityAttributedToZephyr> ;
+    narr:keyPhrase [ narr:text "decision capture at the point of consensus" ; narr:phraseSource <https://aswritten.ai/narrative#Position_CoreFeatureDecisionCapture> ] ;
+    narr:keyPhrase [ narr:text "Velocity was 23 points, highest this quarter." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1E2ETanyaCollab1786355730113_2> ] ;
+    narr:keyPhrase [ narr:text "The Zephyr integration was the key unlock." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1E2ETanyaCollab1786355730113_3> ] ;
+    narr:variation [ narr:text "The tension lies between viewing decision capture as an inherent architectural necessity versus a performance-enabling feature." ; narr:over <https://aswritten.ai/narrative#Position_CoreFeatureDecisionCapture> ; narr:over <https://aswritten.ai/narrative#Position_SprintVelocityAttributedToZephyr> ] ;
+    narr:writer "google/gemini-3.1-flash-lite" .
+}
