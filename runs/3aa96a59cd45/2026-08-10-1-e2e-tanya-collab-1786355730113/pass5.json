@@ -1,0 +1,16 @@
+{
+  "placements" : [ {
+    "verdict" : "reuse",
+    "leaf" : "Narrative_AntiSlackPositioning",
+    "supporting_segments" : [ "src-1", "src-2" ],
+    "why" : "Shipping the async decision widget and hitting a peak 23-point velocity are reported together as the sprint's proof-in-execution of the anti-Slack thesis — a persistent, structured decision artifact actually shipped and measured, not just positioned. Both are flat, past-tense, realis facts that evidence the positioning claim being realized rather than a standalone theme of their own.",
+    "consulted" : [ "Narrative_AntiSlackPositioning", "Narrative_DecisionCaptureAtConsensus", "Narrative_DecisionsEvaporate" ]
+  }, {
+    "verdict" : "reuse",
+    "leaf" : "Narrative_DecisionCaptureAtConsensus",
+    "supporting_segments" : [ "src-2", "src-3" ],
+    "why" : "The velocity spike is causally tied in the same breath to the Zephyr integration, which embeds decision capture directly in Slack/Teams/Discord threads without separate plugins — the technical mechanism that makes 'zero extra steps' capture-at-consensus possible. The metric and the named unlock together evidence this narrative's core claim rather than standing as an isolated fact.",
+    "consulted" : [ "Narrative_AntiSlackPositioning", "Narrative_DecisionCaptureAtConsensus", "Narrative_DecisionsEvaporate" ]
+  } ],
+  "unplaced" : [ ]
+}
