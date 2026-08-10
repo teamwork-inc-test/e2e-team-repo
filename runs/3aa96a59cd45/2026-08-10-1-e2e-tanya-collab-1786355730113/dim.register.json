@@ -1,0 +1,44 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "matter-of-fact" ],
+    "evidence" : [ {
+      "quote" : "We shipped the async decision widget.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Flat instrumental delivery with no intensifier or audience-directed energy — a strong instantiation of the document's matter-of-fact baseline.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-2",
+    "regions" : [ "technical" ],
+    "evidence" : [ {
+      "quote" : "Velocity was 23 points",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Agile jargon used natively without gloss — a register shift toward technical precision within an otherwise plain-spoken retro.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-3",
+    "regions" : [ "technical" ],
+    "evidence" : [ {
+      "quote" : "key unlock",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Pipeline-native idiom ('unlock') used as casual technical shorthand — the document's register signature of native jargon deployed without accessibility hedging.",
+    "reported" : false,
+    "direction" : {
+      "verdict" : "mint",
+      "node" : "mint-1"
+    }
+  } ],
+  "mints" : [ {
+    "id" : "mint-1",
+    "name" : "NativePipelineShorthand",
+    "title" : "pipeline jargon deployed as casual shorthand without gloss",
+    "frame" : "Is the speaker using domain-native idioms as self-evident shorthand, neither performing expertise nor simplifying for an audience?",
+    "regions" : [ "technical", "casual" ]
+  } ],
+  "region_mints" : [ ],
+  "unmarked" : [ ],
+  "unmarked_rest" : false
+}
