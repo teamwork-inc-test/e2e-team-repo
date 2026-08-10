@@ -1,0 +1,10 @@
+{
+  "placements" : [ {
+    "verdict" : "reuse",
+    "leaf" : "Narrative_DefaultRefTopicBranch",
+    "supporting_segments" : [ "src-1" ],
+    "why" : "src-1 is Tanya's direct statement that omitting the ref field should trigger topic-branch creation — the exact theme this leaf already holds, sourced from this same Sample_DefaultRefTest memory.",
+    "consulted" : [ "Narrative_DefaultRefTopicBranch", "Narrative_AntiSlackPositioning", "Narrative_DecisionCaptureAtConsensus", "Narrative_DecisionsEvaporate" ]
+  } ],
+  "unplaced" : [ ]
+}
