@@ -1,0 +1,34 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "communal-sharing" ],
+    "evidence" : [ {
+      "quote" : "We shipped",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "The 'we' enacts communal-sharing — the team as an undifferentiated body that ships together.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-2",
+    "regions" : [ "market-pricing" ],
+    "evidence" : [ {
+      "quote" : "23 points",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Velocity measured in points is proportionality — output quantified and compared against a benchmark ('highest this quarter').",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-3",
+    "regions" : [ "communal-sharing" ],
+    "evidence" : [ {
+      "quote" : "the key unlock",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Framing an integration as 'the key unlock' positions it as a shared enabler for the collective — communal-sharing's we-ness, though the signal is weaker than src-1's explicit 'we'.",
+    "reported" : false
+  } ],
+  "unmarked" : [ ],
+  "unmarked_rest" : false,
+  "mints" : [ ],
+  "region_mints" : [ ]
+}
