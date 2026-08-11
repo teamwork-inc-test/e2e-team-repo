@@ -1,0 +1,16 @@
+{
+  "placements" : [ {
+    "verdict" : "reuse",
+    "leaf" : "Narrative_DecisionCaptureAtConsensus",
+    "supporting_segments" : [ "src-1", "src-3" ],
+    "why" : "src-1 announces delivery of the async decision widget — the artifact this leaf's narration describes as capturing decisions at the moment of consensus rather than letting them evaporate into scroll-back. src-3 names the Zephyr integration as the technical enabler that lets that same capture happen natively inside Slack, Teams, and Discord without a separate plugin — the mechanism, not a new theme, behind the leaf's existing subject. Both facts are proof-points for this leaf's already-established theme rather than new subjects future envelopes would feed independently of it.",
+    "consulted" : [ "Narrative_DecisionCaptureAtConsensus", "Narrative_AntiSlackPositioning", "Narrative_DecisionsEvaporate", "Position_ZephyrIntegrationUnlock", "Position_Sprint4ThesisProven" ]
+  }, {
+    "verdict" : "reuse",
+    "leaf" : "Narrative_AntiSlackPositioning",
+    "supporting_segments" : [ "src-2" ],
+    "why" : "The 23-point velocity figure is a proof-point that the sprint executed successfully on the anti-Slack async-decision thesis, not a subject of its own — it functions the same way Position_PricingTwelveDollars (a Sprint4-adjacent business fact) already sits under this leaf: a quantified fact anchoring the broader positioning narrative rather than naming a new recurring theme.",
+    "consulted" : [ "Narrative_AntiSlackPositioning", "Narrative_DecisionCaptureAtConsensus", "Narrative_DecisionsEvaporate", "Position_PricingTwelveDollars", "Obs_TinaVelocity" ]
+  } ],
+  "unplaced" : [ ]
+}
