@@ -1,0 +1,12 @@
+{
+  "positions" : [ {
+    "name" : "Sprint4SuccessEvidenceFrame",
+    "frame" : "What evidence does the retro marshal to establish that Sprint 4 succeeded, and what drove it?",
+    "members" : [ "src-1", "src-2", "src-3" ],
+    "why" : "All three expressions are past-tense, concrete, matter-of-fact assertions (temporal: past/realis/concrete; register: matter-of-fact/technical) that together build a single evidentiary case for the sprint's success: a shipped artifact, a quantified velocity superlative, and a named causal unlock. The value and power reads reinforce a shared competence/achievement framing delivered as informational fact rather than argued persuasion (src-2 leans slightly toward rational-persuasion via its comparative metric, a mild tension within an otherwise flat-register set). Read together rather than as three isolated facts, they answer one question: what counts as proof this sprint worked.",
+    "under" : [ "Narrative_AntiSlackPositioning" ]
+  } ],
+  "attaches" : [ ],
+  "position_revisions" : [ ],
+  "ungrouped" : [ ]
+}
