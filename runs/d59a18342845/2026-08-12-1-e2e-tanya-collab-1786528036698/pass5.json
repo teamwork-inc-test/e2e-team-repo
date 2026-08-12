@@ -1,0 +1,10 @@
+{
+  "placements" : [ {
+    "verdict" : "reuse",
+    "leaf" : "Narrative_AntiSlackPositioning",
+    "supporting_segments" : [ "src-1", "src-2", "src-3" ],
+    "why" : "All three expressions are evidence of the anti-Slack positioning thesis being executed and proven: the shipped async decision widget (src-1) is the concrete artifact realizing 'every conversation should produce a persistent decision artifact'; the 23-point velocity (src-2) and the Zephyr integration credited as the unlock (src-3) are the execution metrics and enabling mechanism behind delivering that thesis. None of these are themselves new themes — they are facts that evidence the already-existing positioning narrative, matching the position pass's own grouping of src-2/src-3 under this same leaf and extending it to src-1 as the completed act the metrics explain.",
+    "consulted" : [ "Narrative_AntiSlackPositioning", "Narrative_DecisionCaptureAtConsensus", "Narrative_DecisionsEvaporate" ]
+  } ],
+  "unplaced" : [ ]
+}
