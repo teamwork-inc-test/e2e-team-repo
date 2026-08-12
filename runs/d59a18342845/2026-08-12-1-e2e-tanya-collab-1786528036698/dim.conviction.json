@@ -1,0 +1,33 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "We shipped",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Performed declarative reporting a completed, load-bearing action — 'we shipped' ratifies the work as settled, not argued for.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-2",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "Velocity was 23 points, highest this quarter.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Flat unhedged assertion of a measured fact — asserted and defensible, but no ratification or operational rule lifts it to decision.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-3",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "was the key unlock",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Confident causal attribution stated as plain assertion — no hedge, but no performed ratification or permanence language to reach decision or principle.",
+    "reported" : false
+  } ],
+  "unmarked" : [ ],
+  "unmarked_rest" : false,
+  "mints" : [ ]
+}
