@@ -1,0 +1,12 @@
+{
+  "positions" : [ {
+    "name" : "Sprint4VelocityDriver",
+    "frame" : "what explains Sprint 4's velocity outcome?",
+    "members" : [ "src-2", "src-3" ],
+    "why" : "Both expressions build a causal-evidentiary read of the sprint's performance number: src-2 states the quantified velocity result ('23 points, highest this quarter') and src-3 supplies the explanatory driver ('the key unlock') for that result. Directional and power reads align — informational/rational-persuasion framing on src-2, expert framing on src-3 — both stopping at claim-level conviction (confident, unhedged, but not ratified as decision), distinguishing this pair from src-1's decision-level 'we shipped' framing which stands apart as a settled act rather than an explanatory claim.",
+    "under" : [ "Narrative_AntiSlackPositioning" ]
+  } ],
+  "attaches" : [ ],
+  "position_revisions" : [ ],
+  "ungrouped" : [ "src-1" ]
+}
