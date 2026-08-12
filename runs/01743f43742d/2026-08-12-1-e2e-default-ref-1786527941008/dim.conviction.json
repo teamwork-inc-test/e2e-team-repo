@@ -1,0 +1,14 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "Testing that omitted ref creates a topic branch.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Flat declarative assertion stated without hedges or ratification language — asserted as fact, but no performed settling or operational rule lifts it to decision.",
+    "reported" : false
+  } ],
+  "unmarked" : [ ],
+  "mints" : [ ]
+}
