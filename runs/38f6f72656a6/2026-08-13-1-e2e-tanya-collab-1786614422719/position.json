@@ -1,0 +1,12 @@
+{
+  "positions" : [ {
+    "name" : "SprintVelocityCausalAttribution",
+    "frame" : "what accounts for this sprint's record velocity?",
+    "members" : [ "src-2", "src-3" ],
+    "why" : "src-2 states the quantified outcome ('23 points, highest this quarter') and src-3 names the enabling cause ('the key unlock') — read together they form a single causal argument rather than two independent facts: an achievement claim paired with its attributed driver. Both carry the same 'claim' conviction and market-pricing/proportionality framing (per directional reads), and both use the retro's characteristic metric-anchored, calm-positive register, which is why they cohere as one directional group distinct from the bare completion statement in src-1.",
+    "under" : [ "Narrative_DecisionCaptureAtConsensus" ]
+  } ],
+  "attaches" : [ ],
+  "position_revisions" : [ ],
+  "ungrouped" : [ "src-1" ]
+}
