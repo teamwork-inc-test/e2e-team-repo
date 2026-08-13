@@ -1,0 +1,34 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "communal-sharing" ],
+    "evidence" : [ {
+      "quote" : "We shipped",
+      "kind" : "framing-move"
+    } ],
+    "why" : "The 'we' framing enacts communal-sharing — the team as an undifferentiated body that ships together.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-2",
+    "regions" : [ "market-pricing" ],
+    "evidence" : [ {
+      "quote" : "23 points",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Velocity points frame output as a proportional metric — cost/benefit accounting characteristic of market-pricing.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-3",
+    "regions" : [ "market-pricing" ],
+    "evidence" : [ {
+      "quote" : "key unlock",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Naming an integration as the 'key unlock' frames it as the highest-leverage input — proportionality reasoning of market-pricing.",
+    "reported" : false
+  } ],
+  "unmarked" : [ ],
+  "unmarked_rest" : false,
+  "mints" : [ ],
+  "region_mints" : [ ]
+}
