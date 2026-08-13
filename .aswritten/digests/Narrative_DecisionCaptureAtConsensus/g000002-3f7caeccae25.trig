@@ -1,0 +1,21 @@
+@prefix narr: <https://aswritten.ai/narrative#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+GRAPH <https://aswritten.ai/narrative#Digest_Narrative_DecisionCaptureAtConsensus> {
+  <https://aswritten.ai/narrative#Digest_Narrative_DecisionCaptureAtConsensus> a narr:Digest ;
+    narr:digestOf <https://aswritten.ai/narrative#Narrative_DecisionCaptureAtConsensus> ;
+    narr:childCount "5"^^xsd:integer ;
+    narr:generatedFrom "3f7caeccae2555065be3cf34da8fa85cf0252750" ;
+    narr:narration """The narrative surrounding [decision capture](narr:Position_CoreFeatureDecisionCapture) has transitioned from a foundational architectural thesis in March 2026 to a realized operational milestone by August. Following the [successful shipment](narr:Expr_1E2ETanyaCollab1786614422719_1) of the async decision widget, the discourse has pivoted toward evaluating the causal factors behind recent performance gains. While [velocity metrics](narr:Expr_1E2ETanyaCollab1786614422719_2) reached a quarterly high, the conversation now centers on identifying the primary driver of this momentum, with the [Zephyr integration](narr:Expr_1E2ETanyaCollab1786614422719_3) explicitly framed as the critical unlock. The trajectory remains open, balancing the technical enablement of the new widget against broader systemic integrations as the primary [causal attribution](narr:Position_SprintVelocityCausalAttribution) for the team's output.""" ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1E2ETanyaCollab1786614422719_1> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1E2ETanyaCollab1786614422719_2> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1E2ETanyaCollab1786614422719_3> ;
+    narr:covers <https://aswritten.ai/narrative#Position_CoreFeatureDecisionCapture> ;
+    narr:covers <https://aswritten.ai/narrative#Position_SprintVelocityCausalAttribution> ;
+    narr:keyPhrase [ narr:text "We shipped the async decision widget." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1E2ETanyaCollab1786614422719_1> ] ;
+    narr:keyPhrase [ narr:text "Velocity was 23 points, highest this quarter." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1E2ETanyaCollab1786614422719_2> ] ;
+    narr:keyPhrase [ narr:text "The Zephyr integration was the key unlock." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1E2ETanyaCollab1786614422719_3> ] ;
+    narr:keyPhrase [ narr:text "Core feature: decision capture at the point of consensus." ; narr:phraseSource <https://aswritten.ai/narrative#Position_CoreFeatureDecisionCapture> ] ;
+    narr:variation [ narr:text "Tension persists between attributing velocity gains to the new widget versus the Zephyr integration." ; narr:over <https://aswritten.ai/narrative#Expr_1E2ETanyaCollab1786614422719_1> ; narr:over <https://aswritten.ai/narrative#Expr_1E2ETanyaCollab1786614422719_3> ; narr:over <https://aswritten.ai/narrative#Position_SprintVelocityCausalAttribution> ] ;
+    narr:writer "google/gemini-3.1-flash-lite" .
+}
