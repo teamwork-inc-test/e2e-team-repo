@@ -1,0 +1,10 @@
+{
+  "placements" : [ {
+    "verdict" : "reuse",
+    "leaf" : "Narrative_DecisionCaptureAtConsensus",
+    "supporting_segments" : [ "src-1", "src-2", "src-3" ],
+    "why" : "The three segments together narrate the product-side realization of the 'capture at consensus, zero extra steps' theme: src-1 reports the shipped widget that IS the decision-capture-at-consensus feature; src-3 names the Zephyr integration as the mechanism that achieves the narrative's 'zero extra steps' promise by embedding capture directly in Slack/Teams/Discord threads without separate plugins; src-2 supplies the velocity metric offered as evidence that this zero-effort capture mechanism is working. None of the three states a standalone, recurring subject on its own (a shipped feature, a quarterly metric, and a named integration are all fact/position-grain per the narrative grain test), but all three are evidence feeding the existing 'decisions captured at the moment of consensus, linked to context, zero extra steps' theme, which this envelope's Sprint 4 retro content extends rather than replaces.",
+    "consulted" : [ "Narrative_AntiSlackPositioning", "Narrative_DecisionCaptureAtConsensus", "Narrative_DecisionsEvaporate" ]
+  } ],
+  "unplaced" : [ ]
+}
