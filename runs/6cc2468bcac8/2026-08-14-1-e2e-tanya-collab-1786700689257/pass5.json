@@ -1,0 +1,10 @@
+{
+  "placements" : [ {
+    "verdict" : "reuse",
+    "leaf" : "Narrative_AntiSlackPositioning",
+    "supporting_segments" : [ "src-1", "src-2", "src-3" ],
+    "why" : "All three facts (shipped widget, 23-point velocity, Zephyr as key unlock) are Sprint 4 delivery evidence reported in flat, past-tense, informational register — none names a recurring subject on its own, each is a one-time measurement or event. Together they evidence that this sprint's execution embodies and validates the anti-Slack, persistent-decision-artifact positioning thesis this leaf already tracks (per the sprint retro's own framing, echoed in the position pass's grouping of these same segments under this leaf). No existing leaf more specifically covers 'sprint execution as thesis-validation' than the positioning leaf itself, and the facts are too specific and one-time to warrant a new leaf per the narrative grain test.",
+    "consulted" : [ "Narrative_AntiSlackPositioning", "Narrative_DecisionCaptureAtConsensus", "Narrative_DecisionsEvaporate" ]
+  } ],
+  "unplaced" : [ ]
+}
