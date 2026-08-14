@@ -1,0 +1,19 @@
+{
+  "bindings" : [ {
+    "name" : "Tanya",
+    "verdict" : "bind",
+    "target" : "Actor_Tanya_Staging",
+    "why" : "Bare first name matches sole existing staging actor Tanya, consistent with envelope account tanya+staging@aswritten.ai."
+  }, {
+    "name" : "Tanya TeamOwner",
+    "verdict" : "bind",
+    "target" : "Actor_Tanya_Staging",
+    "why" : "Fuller name form for the same submitted_by/participant, matching the existing staging actor's identity via the shared account.",
+    "label" : "Tanya TeamOwner"
+  }, {
+    "name" : "tanya+staging@aswritten.ai",
+    "verdict" : "bind",
+    "target" : "Actor_Tanya_Staging",
+    "why" : "Exact account email matches the front-matter email that identifies the existing actor."
+  } ]
+}
