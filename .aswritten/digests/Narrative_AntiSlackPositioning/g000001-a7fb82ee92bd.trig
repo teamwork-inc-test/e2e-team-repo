@@ -1,0 +1,25 @@
+@prefix narr: <https://aswritten.ai/narrative#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+GRAPH <https://aswritten.ai/narrative#Digest_Narrative_AntiSlackPositioning> {
+  <https://aswritten.ai/narrative#Digest_Narrative_AntiSlackPositioning> a narr:Digest ;
+    narr:digestOf <https://aswritten.ai/narrative#Narrative_AntiSlackPositioning> ;
+    narr:childCount "8"^^xsd:integer ;
+    narr:generatedFrom "a7fb82ee92bddc6f97bcd514b5c3ba22cac4e0ed" ;
+    narr:narration """This hub tracks the [foundational positioning](narr:Position_ProductCategoryAsyncPlatform) of a product explicitly defined as a structured alternative to [real-time chat](narr:Position_AntiPatternRealtimeChat). Established in March 2026, the narrative centers on serving [remote teams of 10-50 people](narr:Position_TargetMarketRemoteTeams) by mitigating the friction of decision-loss. While the initial [pricing strategy](narr:Position_PricingTwelveDollars) was set at $12 per user, subsequent internal reviews indicate a shift toward a tiered model for larger groups. Recent evidence from August 2026 suggests the product is moving from conceptual positioning to [demonstrable delivery](narr:Position_Sprint4DeliveryEvidence), with the team highlighting the [shipment of an async decision widget](narr:Expr_1E2ETanyaCollab1786700689257_1) and a [Zephyr integration](narr:Expr_1E2ETanyaCollab1786700689257_3) as critical milestones. These updates are framed within a context of [record-high velocity](narr:Expr_1E2ETanyaCollab1786700689257_2), suggesting a transition toward operational validation of the original async thesis.""" ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1E2ETanyaCollab1786700689257_1> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1E2ETanyaCollab1786700689257_2> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1E2ETanyaCollab1786700689257_3> ;
+    narr:covers <https://aswritten.ai/narrative#Position_AntiPatternRealtimeChat> ;
+    narr:covers <https://aswritten.ai/narrative#Position_PricingTwelveDollars> ;
+    narr:covers <https://aswritten.ai/narrative#Position_ProductCategoryAsyncPlatform> ;
+    narr:covers <https://aswritten.ai/narrative#Position_Sprint4DeliveryEvidence> ;
+    narr:covers <https://aswritten.ai/narrative#Position_TargetMarketRemoteTeams> ;
+    narr:keyPhrase [ narr:text "Structured async decision platform" ; narr:phraseSource <https://aswritten.ai/narrative#Position_ProductCategoryAsyncPlatform> ] ;
+    narr:keyPhrase [ narr:text "We shipped the async decision widget." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1E2ETanyaCollab1786700689257_1> ] ;
+    narr:keyPhrase [ narr:text "Velocity was 23 points, highest this quarter." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1E2ETanyaCollab1786700689257_2> ] ;
+    narr:keyPhrase [ narr:text "The Zephyr integration was the key unlock." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1E2ETanyaCollab1786700689257_3> ] ;
+    narr:keyPhrase [ narr:text "Pricing set at $12/user/month" ; narr:phraseSource <https://aswritten.ai/narrative#Position_PricingTwelveDollars> ] ;
+    narr:variation [ narr:text "The pricing model evolved from a flat $12 rate to a $15 tier for teams exceeding 25 users." ; narr:over <https://aswritten.ai/narrative#Position_PricingTwelveDollars> ] ;
+    narr:writer "google/gemini-3.1-flash-lite" .
+}
