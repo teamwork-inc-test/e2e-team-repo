@@ -1,0 +1,10 @@
+{
+  "placements" : [ {
+    "verdict" : "reuse",
+    "leaf" : "Narrative_DefaultRefTopicBranch",
+    "supporting_segments" : [ "src-1" ],
+    "why" : "The segment is the verbatim test assertion that an omitted git ref triggers automatic topic-branch creation — exactly the theme Narrative_DefaultRefTopicBranch already holds (its narration and source are this same sample). No new subject is introduced; this envelope simply re-confirms the existing leaf's theme.",
+    "consulted" : [ "Narrative_AntiSlackPositioning", "Narrative_DecisionCaptureAtConsensus", "Narrative_DecisionsEvaporate", "Narrative_DefaultRefTopicBranch" ]
+  } ],
+  "unplaced" : [ ]
+}
