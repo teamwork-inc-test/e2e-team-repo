@@ -1,0 +1,14 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "present", "irrealis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "Testing that omitted ref creates a topic branch.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Present-tense testing activity directed at a concrete code behavior; 'creates' names a hypothetical outcome the test verifies, suspending realis.",
+    "reported" : false
+  } ],
+  "unmarked" : [ ],
+  "unmarked_rest" : false
+}
