@@ -1,0 +1,25 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-2",
+    "regions" : [ "technical" ],
+    "evidence" : [ {
+      "quote" : "Velocity was 23 points",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Agile jargon used natively without gloss — the document's one register departure from its plain-spoken baseline.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-3",
+    "regions" : [ "technical" ],
+    "evidence" : [ {
+      "quote" : "Zephyr integration",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Product-integration jargon dropped without explanation, a second jargon shift reinforcing the technical register.",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-1" ],
+  "unmarked_rest" : false,
+  "mints" : [ ],
+  "region_mints" : [ ]
+}
