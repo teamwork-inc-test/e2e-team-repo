@@ -1,0 +1,13 @@
+{
+  "bindings" : [ {
+    "name" : "Tanya TeamOwner",
+    "verdict" : "mint",
+    "label" : "Tanya TeamOwner",
+    "why" : "No existing actors in repo; fullest name form present in submitted_by and participants, so minted as-is."
+  }, {
+    "name" : "tanya+staging@aswritten.ai",
+    "verdict" : "mint",
+    "label" : "Tanya TeamOwner",
+    "why" : "Same identity as Tanya TeamOwner (submitted_by account matches the human participant); aliases converge on one node, minted with the identical fullest label rather than the email string."
+  } ]
+}
