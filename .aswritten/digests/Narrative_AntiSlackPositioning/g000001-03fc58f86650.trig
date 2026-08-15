@@ -1,0 +1,24 @@
+@prefix narr: <https://aswritten.ai/narrative#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+GRAPH <https://aswritten.ai/narrative#Digest_Narrative_AntiSlackPositioning> {
+  <https://aswritten.ai/narrative#Digest_Narrative_AntiSlackPositioning> a narr:Digest ;
+    narr:digestOf <https://aswritten.ai/narrative#Narrative_AntiSlackPositioning> ;
+    narr:childCount "5"^^xsd:integer ;
+    narr:generatedFrom "03fc58f8665083b49f48cb8529bc93cade553fc9" ;
+    narr:narration """This hub gathers the anti-Slack positioning thesis and its supporting moves. The product is [explicitly defined against real-time chat](narr:Position_AntiPatternRealtimeChat) — Slack and Teams named as the anti-pattern — with a [deliberate category-creation move](narr:Position_ProductCategoryAsyncPlatform) into 'Structured async decision platform.' The [initial ICP is remote teams of 10-50](narr:Position_TargetMarketRemoteTeams), chosen as small enough to move fast yet large enough to feel decision-loss pain. [Pricing opened at $12/user/month](narr:Position_PricingTwelveDollars) in the March 10 vision session, though the Sprint 4 retro twelve days later records an update to $15 for teams over 25 — the first qualification of the flat pricing assumption. By August, the thesis gains an evidentiary layer: [delivery velocity becomes the thesis's evidence](narr:Narrative_ThesisProvenByVelocity), not just a metric — the positioning claim starts to be tested against execution rather than asserted against a category.""" ;
+    narr:covers <https://aswritten.ai/narrative#Narrative_ThesisProvenByVelocity> ;
+    narr:covers <https://aswritten.ai/narrative#Position_AntiPatternRealtimeChat> ;
+    narr:covers <https://aswritten.ai/narrative#Position_PricingTwelveDollars> ;
+    narr:covers <https://aswritten.ai/narrative#Position_ProductCategoryAsyncPlatform> ;
+    narr:covers <https://aswritten.ai/narrative#Position_TargetMarketRemoteTeams> ;
+    narr:keyPhrase [ narr:text "Real-time chat (Slack, Teams) is the named anti-pattern" ; narr:phraseSource <https://aswritten.ai/narrative#Position_AntiPatternRealtimeChat> ] ;
+    narr:keyPhrase [ narr:text "Structured async decision platform" ; narr:phraseSource <https://aswritten.ai/narrative#Position_ProductCategoryAsyncPlatform> ] ;
+    narr:keyPhrase [ narr:text "remote teams with 10-50 people" ; narr:phraseSource <https://aswritten.ai/narrative#Position_TargetMarketRemoteTeams> ] ;
+    narr:keyPhrase [ narr:text "Pricing set at $12/user/month" ; narr:phraseSource <https://aswritten.ai/narrative#Position_PricingTwelveDollars> ] ;
+    narr:keyPhrase [ narr:text "pricing update to $15/user for teams over 25" ; narr:phraseSource <https://aswritten.ai/narrative#Position_PricingTwelveDollars> ] ;
+    narr:keyPhrase [ narr:text "Delivery velocity becomes the thesis's evidence, not just a metric" ; narr:phraseSource <https://aswritten.ai/narrative#Narrative_ThesisProvenByVelocity> ] ;
+    narr:variation [ narr:text "Flat $12 pricing lasted twelve days before Sprint 4 retro introduced a tiered $15 for larger teams — the first structural qualification of the original vision-session assumptions." ; narr:over <https://aswritten.ai/narrative#Position_PricingTwelveDollars> ] ;
+    narr:variation [ narr:text "The August velocity-as-evidence child reframes the thesis from a positioning assertion (defined against Slack) to an execution claim (proven by shipping speed) — a shift from category-contrast to self-validation." ; narr:over <https://aswritten.ai/narrative#Narrative_ThesisProvenByVelocity> ; narr:over <https://aswritten.ai/narrative#Position_AntiPatternRealtimeChat> ] ;
+    narr:writer "z-ai/glm-5.2" .
+}
