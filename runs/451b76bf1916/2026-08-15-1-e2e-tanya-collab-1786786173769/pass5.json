@@ -1,0 +1,23 @@
+{
+  "placements" : [ {
+    "verdict" : "reuse",
+    "leaf" : "Narrative_DecisionCaptureAtConsensus",
+    "supporting_segments" : [ "src-1", "src-3" ],
+    "why" : "The shipped widget (src-1) is precisely the artifact this leaf names — the product mechanism that captures a decision at the moment of consensus rather than letting it evaporate. The Zephyr integration (src-3) is the technical enabler that lets that same capture happen inside any chat thread (Slack, Teams, Discord) without separate plugins, directly extending the leaf's 'captures the decision at the moment of consensus' theme with the infrastructure that makes it work everywhere. Both are facts evidencing this existing theme rather than new subjects in their own right.",
+    "consulted" : [ "Narrative_DecisionCaptureAtConsensus", "Narrative_AntiSlackPositioning", "Narrative_DecisionsEvaporate" ]
+  }, {
+    "lineage" : {
+      "relation" : "extends",
+      "target" : "Narrative_AntiSlackPositioning"
+    },
+    "supporting_segments" : [ "src-2" ],
+    "under" : [ "Narrative_AntiSlackPositioning" ],
+    "why" : "The 23-point, highest-this-quarter velocity figure is a one-time metric (grain-test fails as its own leaf per rule 2), but it is offered as proof that the positioning thesis actually works in practice — a recurring subject distinct from the capture-mechanism narrative itself (that mechanism is already held by Narrative_DecisionCaptureAtConsensus) and distinct from the evaporation-problem narrative. No existing leaf covers 'execution metrics as validation of the positioning bet,' but it is close enough to the anti-Slack positioning thesis to extend it rather than stand fully independent, consistent with already-witnessed thesis-proof content (Position_Sprint4ThesisProven, Obs_TanyaThesisProven) in this same document.",
+    "verdict" : "mint",
+    "leaf" : "Narrative_ThesisProvenByVelocity",
+    "title" : "Delivery velocity becomes the thesis's evidence, not just a metric",
+    "frame" : "Is this expression's delivery or velocity data being offered as proof that the async/anti-Slack positioning thesis holds up under real execution, and what specifically is credited as the driver of that proof?",
+    "consulted" : [ "Narrative_AntiSlackPositioning", "Narrative_DecisionCaptureAtConsensus", "Narrative_DecisionsEvaporate" ]
+  } ],
+  "unplaced" : [ ]
+}
