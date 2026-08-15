@@ -1,0 +1,50 @@
+{
+  "resolutions" : [ {
+    "commentary_local_id" : "src-1",
+    "phrase" : "We shipped the async decision widget.",
+    "verdict" : "confident",
+    "binding" : {
+      "referents" : [ {
+        "iri" : "Sample_Sprint4Retro_20260322",
+        "relation" : "see",
+        "why" : "Names/anchors on the already-witnessed sprint sample whose subject is precisely the shipped async decision widget feature; no new detail is added beyond the established fact of shipping."
+      } ],
+      "targets" : [ "Sample_Sprint4Retro_20260322", "Narrative_ZeroEffortCapture" ]
+    },
+    "why" : "Sample_Sprint4Retro_20260322 is explicitly described as covering the shipped async decision widget feature; this is the sole and specific matching node at the grain the phrase uses (the feature-shipping fact, not the thesis argument built on it).",
+    "consulted" : [ "Sample_Sprint4Retro_20260322", "Position_Sprint4ThesisProven", "Obs_TanyaThesisProven" ]
+  }, {
+    "commentary_local_id" : "src-2",
+    "phrase" : "Velocity was 23 points, highest this quarter.",
+    "verdict" : "confident",
+    "binding" : {
+      "referents" : [ {
+        "iri" : "Obs_TinaVelocity",
+        "relation" : "see",
+        "why" : "Restates verbatim the already-witnessed 23-point velocity metric and its 'highest this quarter' framing as material fact, without adding new detail beyond what Obs_TinaVelocity already establishes."
+      }, {
+        "iri" : "StyleObs_Sprint4_MetricAnchor",
+        "relation" : "see",
+        "why" : "The phrase is an exact match to the quote surfaced under this style observation ('Velocity was 23 points, highest this quarter.'), used here as the same anchoring quote."
+      } ],
+      "targets" : [ "Obs_TinaVelocity", "KPIsSuccess" ]
+    },
+    "why" : "Exact wording match to both the Obs_TinaVelocity content and the verbatim quote witnessed under StyleObs_Sprint4_MetricAnchor; no other node carries this specific metric, so the referent set is singular and determinate.",
+    "consulted" : [ "Obs_TinaVelocity", "StyleObs_Sprint4_MetricAnchor", "Sample_Sprint4Retro_20260322" ]
+  }, {
+    "commentary_local_id" : "src-3",
+    "phrase" : "The Zephyr integration was the key unlock.",
+    "verdict" : "confident",
+    "binding" : {
+      "referents" : [ {
+        "iri" : "Position_ZephyrIntegrationUnlock",
+        "relation" : "see",
+        "why" : "Restates the already-witnessed claim that Zephyr integration was the key unlock for Sprint 4 velocity, as material fact, without adding new detail or contesting it."
+      } ],
+      "targets" : [ "Position_ZephyrIntegrationUnlock", "DependenciesIntegrations" ]
+    },
+    "why" : "Position_ZephyrIntegrationUnlock is the sole node naming Zephyr integration as 'the key unlock' for Sprint 4; the phrase matches it at position grain with no competing candidate.",
+    "consulted" : [ "Position_ZephyrIntegrationUnlock", "Obs_TinaVelocity", "Sample_Sprint4Retro_20260322" ]
+  } ],
+  "unreferenced_commentary" : [ ]
+}
