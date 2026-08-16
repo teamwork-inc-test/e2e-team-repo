@@ -1,0 +1,10 @@
+{
+  "placements" : [ {
+    "verdict" : "reuse",
+    "leaf" : "Narrative_DecisionCaptureAtConsensus",
+    "supporting_segments" : [ "src-1", "src-2", "src-3" ],
+    "why" : "Narrative_DecisionCaptureAtConsensus is Tina's insight that decisions vanish into chat scroll-back and the product's job is to capture the decision at the moment of consensus. Sprint 4's contribution is the concrete materialization of exactly that theme: 'We shipped the async decision widget' (src-1) is the capture mechanism going live; 'The Zephyr integration was the key unlock' (src-3) names the technical enabler that lets that capture happen natively inside Slack/Teams/Discord rather than a separate tool — the same problem-space this narrative already names; and 'Velocity was 23 points, highest this quarter' (src-2) is the execution metric Tina herself ties directly back to that integration/capture work, i.e. it evidences the narrative's delivery, not a standalone theme of its own. None of the three segments name a new recurring SUBJECT beyond what this narrative already holds — they are facts (a shipped artifact, a metric, an attribution) that belong in its supporting evidence, per the narrative-grain test. Narrative_AntiSlackPositioning is about category/pricing/market positioning against real-time chat, not the capture mechanism itself, and Narrative_DecisionsEvaporate is the upstream problem statement rather than the delivered solution — neither fits as tightly as DecisionCaptureAtConsensus.",
+    "consulted" : [ "Narrative_AntiSlackPositioning", "Narrative_DecisionCaptureAtConsensus", "Narrative_DecisionsEvaporate" ]
+  } ],
+  "unplaced" : [ ]
+}
