@@ -1,0 +1,19 @@
+{
+  "bindings" : [ {
+    "name" : "Tanya",
+    "verdict" : "bind",
+    "target" : "Actor_Tanya_Staging",
+    "why" : "Bare first name converges with envelope submitter/account holder Tanya TeamOwner / tanya+staging@aswritten.ai, matching the existing staging actor's front-matter identity."
+  }, {
+    "name" : "Tanya TeamOwner",
+    "verdict" : "bind",
+    "target" : "Actor_Tanya_Staging",
+    "label" : "Tanya TeamOwner",
+    "why" : "Matches envelope submitted_by and sole participant; same person as existing Actor_Tanya_Staging, now witnessed with fuller display name 'Tanya TeamOwner'."
+  }, {
+    "name" : "tanya+staging@aswritten.ai",
+    "verdict" : "bind",
+    "target" : "Actor_Tanya_Staging",
+    "why" : "Exact match to the account email already recorded as this actor's identifying front-matter email."
+  } ]
+}
