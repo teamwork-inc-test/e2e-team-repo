@@ -1,0 +1,33 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "We shipped",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Performed declarative reporting a completed collective action — 'we shipped' ratifies the widget as done, the act itself carrying decision-grade conviction.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-2",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "Velocity was 23 points, highest this quarter.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Flat unhedged assertion of a measured fact, ready to defend but carrying no ratification or operational settling language — claim-level.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-3",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "was the key unlock",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Committed causal assertion presented as the speaker's settled read, but no performed ratification or operational rule — claim, not decision.",
+    "reported" : false
+  } ],
+  "unmarked" : [ ],
+  "unmarked_rest" : false,
+  "mints" : [ ]
+}
