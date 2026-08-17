@@ -1,0 +1,12 @@
+{
+  "positions" : [ {
+    "name" : "SprintOutcomeCausalChain",
+    "frame" : "What does this sprint's outcome show about the causal chain from integration choice to velocity to shipped delivery?",
+    "members" : [ "src-1", "src-2", "src-3" ],
+    "why" : "The three assertions build a single directional narrative rather than three independent facts: the Zephyr integration (src-3) is named as the enabling cause, the 23-point velocity (src-2) is the measured effect, and the shipped widget (src-1) is the delivered outcome. All three share the same matter-of-fact, past-tense, realis register and the same self-enhancement/competence valuation (per the directional reads) — read together they perform one retrospective case for 'this sprint worked, and here is why,' rather than three unrelated status updates. No internal tension: all three point the same direction toward validated delivery.",
+    "under" : [ "Narrative_AntiSlackPositioning" ]
+  } ],
+  "attaches" : [ ],
+  "position_revisions" : [ ],
+  "ungrouped" : [ ]
+}
