@@ -1,0 +1,16 @@
+{
+  "placements" : [ {
+    "verdict" : "reuse",
+    "leaf" : "Narrative_AntiSlackPositioning",
+    "supporting_segments" : [ "src-1", "src-2", "src-3" ],
+    "why" : "Tanya's three sprint-outcome assertions — shipped widget, highest-of-quarter velocity, and the Zephyr integration named as the key unlock — together form the same proof-of-thesis move already witnessed elsewhere in this repo (Obs_TanyaThesisProven, Position_Sprint4ThesisProven): execution speed and delivery are offered as evidence that the structured-async positioning against real-time chat actually works. This is the same directional claim the positioning narrative already carries — 'the thesis holds up under load' — restated with this envelope's own numbers, not a new theme.",
+    "consulted" : [ "Narrative_AntiSlackPositioning", "Narrative_DecisionCaptureAtConsensus", "Narrative_DecisionsEvaporate" ]
+  }, {
+    "verdict" : "reuse",
+    "leaf" : "Narrative_DecisionCaptureAtConsensus",
+    "supporting_segments" : [ "src-1", "src-3" ],
+    "why" : "The shipped async decision widget and the Zephyr integration that lets it embed in Slack/Teams/Discord are the concrete mechanism through which 'the product captures the decision at the moment of consensus' becomes real across chat surfaces — src-1 is the artifact reaching production, src-3 names the technical means by which capture happens inside the very tools this narrative was defined against. Both are evidence feeding this existing theme, not a new one.",
+    "consulted" : [ "Narrative_AntiSlackPositioning", "Narrative_DecisionCaptureAtConsensus", "Narrative_DecisionsEvaporate" ]
+  } ],
+  "unplaced" : [ ]
+}
