@@ -1,0 +1,10 @@
+{
+  "placements" : [ {
+    "verdict" : "reuse",
+    "leaf" : "Narrative_DefaultRefTopicBranch",
+    "supporting_segments" : [ "src-1" ],
+    "why" : "The segment 'Testing that omitted ref creates a topic branch.' is exactly the theme this leaf already holds: an omitted git ref field defaulting to topic-branch creation rather than failing or writing to main. This envelope is itself the explicit test of that behavior, directly supporting the existing leaf without need for a new one.",
+    "consulted" : [ "Narrative_DefaultRefTopicBranch", "Narrative_AntiSlackPositioning", "Narrative_DecisionCaptureAtConsensus", "Narrative_DecisionsEvaporate" ]
+  } ],
+  "unplaced" : [ ]
+}
