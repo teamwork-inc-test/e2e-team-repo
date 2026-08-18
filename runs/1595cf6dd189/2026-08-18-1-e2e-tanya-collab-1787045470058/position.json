@@ -1,0 +1,12 @@
+{
+  "positions" : [ {
+    "name" : "SprintFourEvidenceOfThesis",
+    "frame" : "What concrete sprint outcomes count as evidence that the async decision-capture thesis works in practice?",
+    "members" : [ "src-1", "src-2", "src-3" ],
+    "why" : "Three plain, unhedged assertions from the same retro — a shipped feature, a velocity superlative, and a causal attribution to the Zephyr unlock — each anchored in a specific fact or number (per StyleObs_Sprint4_MetricAnchor's numeric-anchoring pattern across this document) rather than in argument or appeal. Temporal reads are uniformly past/realis/concrete and conviction sits uniformly at 'claim' across all three, which is what makes them cohere as one evidentiary set: each supplies a fact offered in support of the sprint's success, without itself performing the ratification that ^Position_Sprint4ThesisProven's 'this sprint proved the thesis' does. That gap is a held tension — these are the evidence, not yet the verdict — rather than something to resolve here.",
+    "under" : [ "Narrative_AntiSlackPositioning", "Narrative_DecisionCaptureAtConsensus" ]
+  } ],
+  "attaches" : [ ],
+  "position_revisions" : [ ],
+  "ungrouped" : [ ]
+}
