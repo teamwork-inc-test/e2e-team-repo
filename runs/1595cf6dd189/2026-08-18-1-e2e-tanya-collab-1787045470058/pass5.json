@@ -1,0 +1,16 @@
+{
+  "placements" : [ {
+    "verdict" : "reuse",
+    "leaf" : "Narrative_AntiSlackPositioning",
+    "supporting_segments" : [ "src-1", "src-2", "src-3" ],
+    "why" : "All three sprint-retro facts (shipped widget, 23-point velocity, Zephyr unlock) are offered as evidence that the async, persistent-artifact positioning against Slack's real-time model actually delivers in practice — the shipped feature is the artifact the positioning promised, the velocity superlative and the integration unlock are the quantified proof points Tanya anchors the 'this sprint proved the thesis' claim to (per Position_Sprint4ThesisProven and the numeric-anchoring pattern noted in StyleObs_Sprint4_MetricAnchor). None of the three is itself the positioning theme — each is a fact accumulating in support of it.",
+    "consulted" : [ "Narrative_AntiSlackPositioning", "Narrative_DecisionCaptureAtConsensus", "Narrative_DecisionsEvaporate" ]
+  }, {
+    "verdict" : "reuse",
+    "leaf" : "Narrative_DecisionCaptureAtConsensus",
+    "supporting_segments" : [ "src-1", "src-3" ],
+    "why" : "The shipped widget is the product mechanism that performs capture at the moment of consensus, and the Zephyr integration is what makes that capture 'zero extra steps' by embedding directly into Slack, Teams, and Discord without separate plugins — both are direct enactments of this leaf's theme (capture decisions where they're made, linked to context, no added friction), not merely adjacent facts. The velocity figure (src-2) is a team-execution metric rather than a statement about the capture mechanism itself, so it isn't placed here.",
+    "consulted" : [ "Narrative_DecisionCaptureAtConsensus", "Narrative_AntiSlackPositioning", "Narrative_DecisionsEvaporate" ]
+  } ],
+  "unplaced" : [ ]
+}
