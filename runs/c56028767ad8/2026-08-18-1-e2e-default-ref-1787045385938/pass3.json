@@ -1,0 +1,8 @@
+{
+  "reconciliations" : [ ],
+  "standalone" : [ {
+    "segment_id" : "src-1",
+    "why" : "No referent supplied or resolved (omitted ref); asserts a new topic with nothing to reconcile against — lands as fresh witnessed commentary starting its own branch."
+  } ],
+  "held" : [ ]
+}
