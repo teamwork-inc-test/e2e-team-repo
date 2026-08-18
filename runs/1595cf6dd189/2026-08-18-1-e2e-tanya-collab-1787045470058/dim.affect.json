@@ -1,0 +1,33 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "activated-positive" ],
+    "evidence" : [ {
+      "quote" : "We shipped",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Past-tense completion announcement carries energized accomplishment.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-2",
+    "regions" : [ "calm-positive" ],
+    "evidence" : [ {
+      "quote" : "highest this quarter",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Measured superlative delivered as plain fact, settled satisfaction without energized delivery.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-3",
+    "regions" : [ "calm-positive" ],
+    "evidence" : [ {
+      "quote" : "key unlock",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Positive evaluation stated in measured, declarative register — satisfaction without activation.",
+    "reported" : false
+  } ],
+  "unmarked" : [ ],
+  "mints" : [ ],
+  "region_mints" : [ ]
+}
