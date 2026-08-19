@@ -1,0 +1,10 @@
+{
+  "placements" : [ {
+    "verdict" : "reuse",
+    "leaf" : "Narrative_AntiSlackPositioning",
+    "supporting_segments" : [ "src-1", "src-2", "src-3" ],
+    "why" : "The sprint retro reports the async decision widget shipping (src-1), its record 23-point velocity (src-2), and the Zephyr integration credited as the unlock (src-3). These are proof-point facts, not a new theme in themselves (grain test: they are evidence, not a subject future envelopes independently feed) — they evidence the anti-Slack positioning thesis in action: a structured async artifact shipped, performed well, and was enabled by cross-platform capture, all read directionally as confirmation of the anti-Slack framing already established for this product. The position pass itself grouped these three segments under Narrative_AntiSlackPositioning, and no other supplied leaf (DecisionCaptureAtConsensus, DecisionsEvaporate) more exactly covers a shipped-feature/velocity/unlock account than the positioning thesis it substantiates.",
+    "consulted" : [ "Narrative_AntiSlackPositioning", "Narrative_DecisionCaptureAtConsensus", "Narrative_DecisionsEvaporate" ]
+  } ],
+  "unplaced" : [ ]
+}
