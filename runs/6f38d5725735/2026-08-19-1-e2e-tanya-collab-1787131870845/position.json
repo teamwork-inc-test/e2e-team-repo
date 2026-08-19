@@ -1,0 +1,12 @@
+{
+  "positions" : [ {
+    "name" : "Sprint4OutcomeAttribution",
+    "frame" : "what does this sprint's shipped result and its record velocity show about what drove it?",
+    "members" : [ "src-1", "src-2", "src-3" ],
+    "why" : "All three statements share the same directional posture: past-tense, realis, concrete reporting (temporal read), calm-positive affect, informational register, and a competence/self-enhancement value framing. They are not independent facts but a single retrospective arc — a delivered artifact (src-1), a superlative metric describing that delivery's pace (src-2), and a named causal unlock explaining the metric (src-3). The frame reads them together as one account of 'what this sprint's outcome demonstrates and why', holding the achievement and its cause in one directional read rather than splitting metric from cause.",
+    "under" : [ "Narrative_AntiSlackPositioning" ]
+  } ],
+  "attaches" : [ ],
+  "position_revisions" : [ ],
+  "ungrouped" : [ ]
+}
