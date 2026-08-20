@@ -1,0 +1,12 @@
+{
+  "positions" : [ {
+    "name" : "SprintFourVelocityAttribution",
+    "frame" : "What does the sprint's shipped outcome and record velocity establish about the causal role of the Zephyr integration?",
+    "members" : [ "src-1", "src-2", "src-3" ],
+    "why" : "All three are past-tense, claim-level assertions from Tanya reporting the sprint's arc: a deliverable shipped, a record metric achieved, and a named cause for that record. The power reading across all three is informational/rational-persuasion — controlled facts assembled into a case — and affect stays calm-positive throughout, so the set reads as one continuous retro report rather than three separate claims. There is a tension worth holding, not resolving: src-1 and src-2 report settled, verifiable facts (a shipped artifact, a measured point count) while src-3 supplies an interpretive causal attribution ('the key unlock') dressed in the same flat claim register — the group's read is that the retro asserts causation with the same confidence as it asserts completion, though only the completion and the metric are independently checkable.",
+    "under" : [ "Narrative_AntiSlackPositioning" ]
+  } ],
+  "attaches" : [ ],
+  "position_revisions" : [ ],
+  "ungrouped" : [ ]
+}
