@@ -1,0 +1,10 @@
+{
+  "placements" : [ {
+    "verdict" : "reuse",
+    "leaf" : "Narrative_AntiSlackPositioning",
+    "supporting_segments" : [ "src-1", "src-2", "src-3" ],
+    "why" : "The retro reports the shipped widget, its record velocity, and the Zephyr integration that enabled it as evidence that the sprint 'proved the thesis' — the anti-Slack, structured-async-decision positioning already anchored at this leaf. These are position-grain facts (a shipment, a metric, a causal attribution) that evidence the positioning narrative rather than naming a new theme of their own; the position pass already attached its grouping of these same segments under this same leaf.",
+    "consulted" : [ "Narrative_AntiSlackPositioning", "Narrative_DecisionCaptureAtConsensus", "Narrative_DecisionsEvaporate" ]
+  } ],
+  "unplaced" : [ ]
+}
