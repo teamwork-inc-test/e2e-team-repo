@@ -1,0 +1,92 @@
+PREFIX narr: <https://aswritten.ai/narrative#>
+PREFIX aswr: <https://aswritten.ai/aswr#>
+PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX dct:  <http://purl.org/dc/terms/>
+PREFIX xsd:  <http://www.w3.org/2001/XMLSchema#>
+PREFIX oa:   <http://www.w3.org/ns/oa#>
+
+INSERT DATA {
+  aswr:Tx_20260820T093103Z a prov:Activity ;
+      prov:generatedAtTime "2026-08-20T09:31:03Z"^^xsd:dateTime ;
+      prov:wasAssociatedWith "aswritten.ai" ;
+      prov:wasAttributedTo "scarlet@aswritten.ai" ;
+      aswr:pipelinePin "c063fb20bab6" ;
+      aswr:originPath ".aswritten/memories/2026-08-20-1-e2e-tanya-collab-1787218258797.md" ;
+      dct:title "Multipass source extraction: Tanya's Sprint Retro" ;
+      prov:generated narr:Sample_1E2ETanyaCollab1787218258797, narr:Expr_1E2ETanyaCollab1787218258797_1, narr:Expr_1E2ETanyaCollab1787218258797_2, narr:Expr_1E2ETanyaCollab1787218258797_3, narr:Actor_TanyaTeamowner .
+} ;
+INSERT DATA {
+  GRAPH aswr:Tx_20260820T093103Z {
+    narr:Sample_1E2ETanyaCollab1787218258797 a narr:Sample ;
+        dct:title "Tanya's Sprint Retro" ;
+        aswr:originPath ".aswritten/memories/2026-08-20-1-e2e-tanya-collab-1787218258797.md" ;
+        aswr:submittedBy narr:Actor_TanyaTeamowner ;
+        aswr:account narr:Actor_TanyaTeamowner .
+
+    narr:Expr_1E2ETanyaCollab1787218258797_1 a narr:Expression ;
+        narr:actor narr:Actor_TanyaTeamowner ;
+        narr:act "assertive" ;
+        narr:context "Sprint retro" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_1E2ETanyaCollab1787218258797 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "We shipped the async decision widget." ;
+                oa:prefix "Tanya's Sprint Retro\n\nTanya: \"" ;
+                oa:suffix " Velocity was 23 points, highe" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "83"^^xsd:integer ;
+                oa:end "120"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-08-20T09:31:03Z"^^xsd:dateTime .
+
+    narr:Expr_1E2ETanyaCollab1787218258797_2 a narr:Expression ;
+        narr:actor narr:Actor_TanyaTeamowner ;
+        narr:act "assertive" ;
+        narr:context "Sprint retro" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_1E2ETanyaCollab1787218258797 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Velocity was 23 points, highest this quarter." ;
+                oa:prefix "ed the async decision widget. " ;
+                oa:suffix " The Zephyr integration was th" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "121"^^xsd:integer ;
+                oa:end "166"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-08-20T09:31:03Z"^^xsd:dateTime .
+
+    narr:Expr_1E2ETanyaCollab1787218258797_3 a narr:Expression ;
+        narr:actor narr:Actor_TanyaTeamowner ;
+        narr:act "assertive" ;
+        narr:context "Sprint retro" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_1E2ETanyaCollab1787218258797 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "The Zephyr integration was the key unlock." ;
+                oa:prefix "points, highest this quarter. " ;
+                oa:suffix "\"" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "167"^^xsd:integer ;
+                oa:end "209"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-08-20T09:31:03Z"^^xsd:dateTime .
+
+    narr:Actor_TanyaTeamowner a narr:Actor ;
+        skos:prefLabel "Tanya TeamOwner" .
+
+    aswr:Run_20260820T093103Z_actors a prov:Activity ;
+        aswr:runPass "actors" ;
+        aswr:draftedBy "subscription.anthropic/claude-sonnet-5" ;
+        aswr:artifact "aswritten/runs:runs/a57e09b22ede/2026-08-20-1-e2e-tanya-collab-1787218258797/actors.json" ;
+        prov:generated narr:Actor_TanyaTeamowner ;
+        dct:isPartOf aswr:Tx_20260820T093103Z ;
+        prov:generatedAtTime "2026-08-20T09:31:03Z"^^xsd:dateTime .
+
+    aswr:Run_20260820T093103Z_pass1 a prov:Activity ;
+        aswr:runPass "pass1" ;
+        aswr:draftedBy "subscription.anthropic/claude-sonnet-5" ;
+        aswr:artifact "aswritten/runs:runs/a57e09b22ede/2026-08-20-1-e2e-tanya-collab-1787218258797/pass1.json" ;
+        prov:generated narr:Sample_1E2ETanyaCollab1787218258797, narr:Expr_1E2ETanyaCollab1787218258797_1, narr:Expr_1E2ETanyaCollab1787218258797_2, narr:Expr_1E2ETanyaCollab1787218258797_3 ;
+        dct:isPartOf aswr:Tx_20260820T093103Z ;
+        prov:generatedAtTime "2026-08-20T09:31:03Z"^^xsd:dateTime .
+  }
+}
