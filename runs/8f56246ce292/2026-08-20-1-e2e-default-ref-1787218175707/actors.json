@@ -1,0 +1,19 @@
+{
+  "bindings" : [ {
+    "name" : "Tanya",
+    "verdict" : "bind",
+    "target" : "Actor_Tanya_Staging",
+    "why" : "Bare first name converges with submitted_by and account context on the single existing staging actor Tanya."
+  }, {
+    "name" : "Tanya TeamOwner",
+    "verdict" : "bind",
+    "target" : "Actor_Tanya_Staging",
+    "label" : "Tanya TeamOwner",
+    "why" : "Fuller name matches submitted_by/participant and binds to the same existing staging actor; fuller form enriches the node label."
+  }, {
+    "name" : "tanya+staging@aswritten.ai",
+    "verdict" : "bind",
+    "target" : "Actor_Tanya_Staging",
+    "why" : "Matches the account email explicitly cited in the existing actor's description as identifying evidence."
+  } ]
+}
