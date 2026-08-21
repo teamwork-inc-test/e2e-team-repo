@@ -1,0 +1,14 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "notion" ],
+    "evidence" : [ {
+      "quote" : "Testing that omitted ref creates a topic branch.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "A flat, unhedged statement of what the test is doing — asserted as a claim-level plain assertion, but the act is exploratory (testing a hypothesis about system behavior), and no ratification or settling language is performed. Taken at the lower of the two viable readings per the claim/decision boundary guidance.",
+    "reported" : false
+  } ],
+  "unmarked" : [ ],
+  "mints" : [ ]
+}
