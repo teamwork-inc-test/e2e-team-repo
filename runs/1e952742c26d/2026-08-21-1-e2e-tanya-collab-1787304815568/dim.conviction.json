@@ -1,0 +1,33 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "We shipped",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Past-tense performed act ratifies a completed shipping decision; the declarative records the settling, not an argument for it.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-2",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "Velocity was 23 points, highest this quarter.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Unhedged factual assertion stated as a measurement claim; no ratification language or performed settling to lift it to decision.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-3",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "was the key unlock",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Confident causal attribution asserted as a claim; no performed ratification or operational rule to settle it as a decision.",
+    "reported" : false
+  } ],
+  "unmarked" : [ ],
+  "unmarked_rest" : false,
+  "mints" : [ ]
+}
