@@ -1,0 +1,33 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "communal-sharing" ],
+    "evidence" : [ {
+      "quote" : "We shipped",
+      "kind" : "performed-act"
+    } ],
+    "why" : "The 'we' pronoun enacts communal-sharing, pooling the team into one body that shipped together.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-2",
+    "regions" : [ "market-pricing" ],
+    "evidence" : [ {
+      "quote" : "23 points",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Velocity measured in points is proportionality framing — output quantified for cost/benefit assessment.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-3",
+    "regions" : [ "market-pricing" ],
+    "evidence" : [ {
+      "quote" : "key unlock",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Framing an integration as the 'key unlock' casts it as the proportional lever that unlocked value — ROI-style attribution.",
+    "reported" : false
+  } ],
+  "unmarked" : [ ],
+  "mints" : [ ],
+  "region_mints" : [ ]
+}
