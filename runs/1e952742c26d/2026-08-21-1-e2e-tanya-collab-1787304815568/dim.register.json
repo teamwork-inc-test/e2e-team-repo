@@ -1,0 +1,44 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "matter-of-fact" ],
+    "evidence" : [ {
+      "quote" : "We shipped the async decision widget.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Flat instrumental delivery with no performance markers — the document's baseline register, but a strong, clean instantiation worth citing against future departures.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-2",
+    "regions" : [ "technical" ],
+    "evidence" : [ {
+      "quote" : "Velocity was 23 points",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Agile jargon used natively without gloss — a register shift from the plain baseline into domain vocabulary.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-3",
+    "regions" : [ "technical" ],
+    "evidence" : [ {
+      "quote" : "key unlock",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Pipeline-native idiom ('unlock') used as a register move — jargon deployed as evaluation, not explained for outsiders.",
+    "reported" : false,
+    "direction" : {
+      "verdict" : "mint",
+      "node" : "mint-1"
+    }
+  } ],
+  "mints" : [ {
+    "id" : "mint-1",
+    "name" : "JargonAsVerdict",
+    "title" : "domain idiom deployed as evaluative judgment rather than description",
+    "frame" : "Is a piece of native jargon doing the work of an assessment — naming what mattered — instead of merely labeling a thing?",
+    "regions" : [ "technical" ]
+  } ],
+  "region_mints" : [ ],
+  "unmarked" : [ ],
+  "unmarked_rest" : false
+}
