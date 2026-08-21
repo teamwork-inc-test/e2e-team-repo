@@ -1,0 +1,12 @@
+{
+  "positions" : [ {
+    "name" : "Sprint4DeliveryAsThesisEvidence",
+    "frame" : "does this sprint's outcome — what shipped, how fast, and what enabled it — count as evidence that the anti-Slack decision-capture thesis holds?",
+    "members" : [ "src-1", "src-2", "src-3" ],
+    "why" : "All three expressions are past-tense, realis, informational assertions delivered in the same calm-positive, matter-of-fact register from the same retro moment: src-1 names the concrete deliverable, src-2 quantifies it against the quarter's other sprints, src-3 attributes the result to a specific mechanism. Read together they form a single evidentiary chain (what/how-well/why) rather than three unrelated facts — the directional observations flag src-2 and src-3 sharing a market-pricing, ROI-style attribution frame ('23 points', 'key unlock') that src-1 sets up. No tension: all three point the same direction, toward the sprint validating the product's positioning claim rather than merely logging activity.",
+    "under" : [ "Narrative_AntiSlackPositioning" ]
+  } ],
+  "attaches" : [ ],
+  "position_revisions" : [ ],
+  "ungrouped" : [ ]
+}
