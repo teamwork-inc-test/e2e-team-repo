@@ -1,0 +1,10 @@
+{
+  "placements" : [ {
+    "verdict" : "reuse",
+    "leaf" : "Narrative_AntiSlackPositioning",
+    "supporting_segments" : [ "src-1", "src-2", "src-3" ],
+    "why" : "All three segments restate, from a later retro-style envelope, the same evidentiary chain the position pass already grouped as Sprint4DeliveryAsThesisEvidence and bound under this exact narrative: the shipped widget (src-1) is the concrete artifact the anti-Slack thesis promises, the 23-point velocity (src-2) quantifies execution strength, and the Zephyr integration (src-3) names the mechanism that made the delivery possible. None of the three names a new recurring subject on its own — a shipped feature, a sprint metric, and a single integration credit are facts, not themes — so per the narrative grain test they attach as support to the existing positioning thesis rather than minting anything. Narrative_DecisionCaptureAtConsensus and Narrative_DecisionsEvaporate were weighed (the widget does instantiate consensus-capture, and the problem narrative underlies all of this) but the anti-Slack positioning frame is the more direct and already-established home for this exact evidentiary bundle, per the position pass's own `under` binding.",
+    "consulted" : [ "Narrative_AntiSlackPositioning", "Narrative_DecisionCaptureAtConsensus", "Narrative_DecisionsEvaporate" ]
+  } ],
+  "unplaced" : [ ]
+}
