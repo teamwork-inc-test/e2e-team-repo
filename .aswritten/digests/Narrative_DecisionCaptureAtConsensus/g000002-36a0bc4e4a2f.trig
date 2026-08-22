@@ -1,0 +1,21 @@
+@prefix narr: <https://aswritten.ai/narrative#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+GRAPH <https://aswritten.ai/narrative#Digest_Narrative_DecisionCaptureAtConsensus> {
+  <https://aswritten.ai/narrative#Digest_Narrative_DecisionCaptureAtConsensus> a narr:Digest ;
+    narr:digestOf <https://aswritten.ai/narrative#Narrative_DecisionCaptureAtConsensus> ;
+    narr:childCount "5"^^xsd:integer ;
+    narr:generatedFrom "36a0bc4e4a2f88fd7ecec305893c0d2d488c9b34" ;
+    narr:narration """The narrative trajectory surrounding [core feature decision capture](narr:Position_CoreFeatureDecisionCapture) has shifted from a high-level product thesis established in March 2026 toward a focus on empirical validation by late August. The discourse now prioritizes [quantifying sprint success](narr:Position_Sprint4QuantifiedSuccessEvidence) by anchoring the product's core promise—capturing decisions at the moment of consensus—to concrete delivery milestones. This transition is evidenced by the [shipment of the async decision widget](narr:Expr_1E2ETanyaCollab1787390952719_1) and the [Zephyr integration](narr:Expr_1E2ETanyaCollab1787390952719_3), which serve as the primary technical unlocks for the current period. While the strategy remains rooted in the original differentiator, the conversation has moved toward demonstrating competence through velocity metrics, such as the [quarterly high of 23 points](narr:Expr_1E2ETanyaCollab1787390952719_2). The hub now functions as a bridge between the initial conceptual framing and the current operational evidence, leaving open the question of whether velocity or feature-based unlocks best represent the product's true value.""" ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1E2ETanyaCollab1787390952719_1> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1E2ETanyaCollab1787390952719_2> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1E2ETanyaCollab1787390952719_3> ;
+    narr:covers <https://aswritten.ai/narrative#Position_CoreFeatureDecisionCapture> ;
+    narr:covers <https://aswritten.ai/narrative#Position_Sprint4QuantifiedSuccessEvidence> ;
+    narr:keyPhrase [ narr:text "decision capture at the point of consensus" ; narr:phraseSource <https://aswritten.ai/narrative#Position_CoreFeatureDecisionCapture> ] ;
+    narr:keyPhrase [ narr:text "We shipped the async decision widget." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1E2ETanyaCollab1787390952719_1> ] ;
+    narr:keyPhrase [ narr:text "Velocity was 23 points, highest this quarter." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1E2ETanyaCollab1787390952719_2> ] ;
+    narr:keyPhrase [ narr:text "The Zephyr integration was the key unlock." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1E2ETanyaCollab1787390952719_3> ] ;
+    narr:variation [ narr:text "Tension exists between measuring success via technical feature unlocks versus raw velocity metrics." ; narr:over <https://aswritten.ai/narrative#Expr_1E2ETanyaCollab1787390952719_2> ; narr:over <https://aswritten.ai/narrative#Expr_1E2ETanyaCollab1787390952719_3> ] ;
+    narr:writer "google/gemini-3.1-flash-lite" .
+}
