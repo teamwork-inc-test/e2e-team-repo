@@ -1,0 +1,8 @@
+{
+  "reconciliations" : [ ],
+  "standalone" : [ {
+    "segment_id" : "src-1",
+    "why" : "verdict new (nothing to reconcile) — no reference or resolved binding exists for this segment; it stands as its own topic, not a conclusion over prior referents."
+  } ],
+  "held" : [ ]
+}
