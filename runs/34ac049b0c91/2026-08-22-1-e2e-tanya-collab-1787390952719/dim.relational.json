@@ -1,0 +1,37 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "communal-sharing" ],
+    "evidence" : [ {
+      "quote" : "We shipped",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "The 'we' enacts communal-sharing — the team as one undifferentiated body that shipped together.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-2",
+    "regions" : [ "market-pricing" ],
+    "evidence" : [ {
+      "quote" : "23 points",
+      "kind" : "framing-move"
+    }, {
+      "quote" : "highest this quarter",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Velocity measured in points and ranked against quarterly performance enacts market-pricing — proportionality and quantified output.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-3",
+    "regions" : [ "market-pricing" ],
+    "evidence" : [ {
+      "quote" : "key unlock",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Framing an integration as the proportional lever that unlocked value enacts market-pricing — cost-benefit attribution to a single causal factor.",
+    "reported" : false
+  } ],
+  "unmarked" : [ ],
+  "unmarked_rest" : false,
+  "mints" : [ ],
+  "region_mints" : [ ]
+}
