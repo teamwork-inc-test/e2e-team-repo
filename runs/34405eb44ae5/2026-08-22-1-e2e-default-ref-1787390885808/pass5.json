@@ -1,0 +1,10 @@
+{
+  "placements" : [ {
+    "verdict" : "reuse",
+    "leaf" : "Narrative_DefaultRefTopicBranch",
+    "supporting_segments" : [ "src-1" ],
+    "why" : "src-1 is the verbatim test assertion that an omitted ref causes topic-branch creation — the exact theme this existing leaf already holds (same source memory, Sample_DefaultRefTest, previously witnessed under this leaf).",
+    "consulted" : [ "Narrative_DefaultRefTopicBranch", "Narrative_AntiSlackPositioning", "Narrative_DecisionCaptureAtConsensus", "Narrative_DecisionsEvaporate" ]
+  } ],
+  "unplaced" : [ ]
+}
