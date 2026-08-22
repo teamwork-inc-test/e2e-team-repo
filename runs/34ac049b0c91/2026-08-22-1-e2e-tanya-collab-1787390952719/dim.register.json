@@ -1,0 +1,15 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-3",
+    "regions" : [ "technical" ],
+    "evidence" : [ {
+      "quote" : "key unlock",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Native pipeline jargon ('unlock') used as a causal metaphor for integration value — a technical register signal against the document's plain-spoken baseline.",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-1", "src-2" ],
+  "mints" : [ ],
+  "region_mints" : [ ]
+}
