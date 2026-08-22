@@ -1,0 +1,12 @@
+{
+  "positions" : [ {
+    "name" : "Sprint4QuantifiedSuccessEvidence",
+    "frame" : "what counts as evidence that the sprint delivered on the product's core promise?",
+    "members" : [ "src-2", "src-3" ],
+    "why" : "src-2 and src-3 both operate at the 'claim' conviction level (argued, quantitatively anchored assertions rather than settled ratifications) and both enact a market-pricing relational frame — velocity points and a named integration are each offered as the proportional cause of the sprint's success. They read together as the evidence layer justifying the retro's success narrative. This is held in tension with src-1, which sits at 'decision' conviction (a flat ratified statement of a completed act, communal-sharing framed via 'We shipped') and is not folded into this group — the gradient from ratified accomplishment to argued causal/quantitative claims is a genuine seam, not noise, so the two claim-level statements are read apart from the settled shipping statement.",
+    "under" : [ "Narrative_DecisionCaptureAtConsensus" ]
+  } ],
+  "attaches" : [ ],
+  "position_revisions" : [ ],
+  "ungrouped" : [ "src-1" ]
+}
