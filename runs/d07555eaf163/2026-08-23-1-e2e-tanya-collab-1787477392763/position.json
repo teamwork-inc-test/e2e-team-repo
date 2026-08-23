@@ -1,0 +1,11 @@
+{
+  "positions" : [ {
+    "name" : "Sprint4OutcomeAttribution",
+    "frame" : "what does the team credit for this sprint's delivered outcome and the velocity that produced it?",
+    "members" : [ "src-1", "src-2", "src-3" ],
+    "why" : "All three expressions read as one causal-report arc: a shipped artifact (src-1), a quantified outcome (src-2), and the named cause behind that outcome (src-3). The directional reads align tightly — all past/realis/concrete, informational in power, calm-positive in affect, and self-enhancement/competence in value — with src-3 supplying the causal attribution ('key unlock') that the other two describe the effects of. Register shifts slightly from matter-of-fact (src-1, src-2) to technical/metaphor (src-3, 'unlock'), but this is the same speaker moving from result to explanation within one continuous account, not a break in the read."
+  } ],
+  "attaches" : [ ],
+  "position_revisions" : [ ],
+  "ungrouped" : [ ]
+}
