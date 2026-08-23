@@ -1,0 +1,19 @@
+{
+  "bindings" : [ {
+    "name" : "Tanya",
+    "verdict" : "bind",
+    "target" : "Actor_Tanya_Staging",
+    "why" : "Bare first name matches sole envelope participant Tanya TeamOwner, and only one Tanya (staging) exists among existing actors."
+  }, {
+    "name" : "Tanya TeamOwner",
+    "verdict" : "bind",
+    "target" : "Actor_Tanya_Staging",
+    "label" : "Tanya TeamOwner",
+    "why" : "Matches existing actor Actor_Tanya_Staging (Tanya), and is the submitted_by/participant name; fuller form 'Tanya TeamOwner' enriches the label."
+  }, {
+    "name" : "tanya+staging@aswritten.ai",
+    "verdict" : "bind",
+    "target" : "Actor_Tanya_Staging",
+    "why" : "Exact match to the front-matter email already used to identify Actor_Tanya_Staging, and matches the envelope account."
+  } ]
+}
