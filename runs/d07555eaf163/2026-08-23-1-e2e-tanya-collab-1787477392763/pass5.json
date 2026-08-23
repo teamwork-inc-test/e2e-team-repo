@@ -1,0 +1,19 @@
+{
+  "placements" : [ {
+    "verdict" : "reuse",
+    "leaf" : "Narrative_DecisionCaptureAtConsensus",
+    "supporting_segments" : [ "src-1" ],
+    "why" : "The shipped async decision widget is the concrete product embodiment of the consensus-capture insight — a mechanism that intercepts and records decisions at the moment of consensus rather than letting them evaporate into scroll-back. Shipping this artifact is evidence the existing narrative is now realized in product, not a distinct theme in its own right.",
+    "consulted" : [ "Narrative_AntiSlackPositioning", "Narrative_DecisionCaptureAtConsensus", "Narrative_DecisionsEvaporate" ]
+  }, {
+    "verdict" : "mint",
+    "leaf" : "Narrative_IntegrationUnlocksVelocity",
+    "title" : "Velocity follows friction removal, not raw effort",
+    "frame" : "When the team reports a change in delivery pace, what specific integration or dependency is credited for it, and what platform friction did that dependency eliminate?",
+    "under" : null,
+    "supporting_segments" : [ "src-2", "src-3" ],
+    "why" : "Tina's causal attribution — 23-point velocity, highest this quarter, credited to the Zephyr integration enabling cross-platform embedding without separate plugins — names a subject future sprint retros will keep feeding: which integration removed which friction and what pace resulted. This is a recurring execution-causality story, not a one-time fact. None of the three existing leaves (anti-Slack product positioning, consensus-capture product mechanism, decisions-evaporate problem framing) cover the team's internal delivery-velocity/technical-dependency narrative, so nothing existing plausibly holds it. Per the grain rule, the velocity figure (src-2) is evidence for this theme rather than a leaf of its own; it is bundled with the integration claim (src-3) that it directly supports.",
+    "consulted" : [ "Narrative_AntiSlackPositioning", "Narrative_DecisionCaptureAtConsensus", "Narrative_DecisionsEvaporate" ]
+  } ],
+  "unplaced" : [ ]
+}
