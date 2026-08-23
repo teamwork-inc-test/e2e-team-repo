@@ -1,0 +1,34 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "calm-positive" ],
+    "evidence" : [ {
+      "quote" : "We shipped the async decision widget.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Plain declarative reporting of a completed achievement; settled satisfaction, no heightened arousal markers.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-2",
+    "regions" : [ "calm-positive" ],
+    "evidence" : [ {
+      "quote" : "highest this quarter",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Superlative marks pride but delivery is measured factual reporting — positive valence at low arousal.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-3",
+    "regions" : [ "calm-positive" ],
+    "evidence" : [ {
+      "quote" : "the key unlock",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Evaluative phrase signals satisfaction with an outcome, delivered in a settled explanatory register.",
+    "reported" : false
+  } ],
+  "unmarked" : [ ],
+  "unmarked_rest" : false,
+  "mints" : [ ],
+  "region_mints" : [ ]
+}
