@@ -1,0 +1,22 @@
+@prefix narr: <https://aswritten.ai/narrative#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+GRAPH <https://aswritten.ai/narrative#Digest_Narrative_AntiSlackPositioning> {
+  <https://aswritten.ai/narrative#Digest_Narrative_AntiSlackPositioning> a narr:Digest ;
+    narr:digestOf <https://aswritten.ai/narrative#Narrative_AntiSlackPositioning> ;
+    narr:childCount "5"^^xsd:integer ;
+    narr:generatedFrom "9e829856a85c456f161ce67b4f4de9faac5dbe48" ;
+    narr:narration """The narrative positioning for this product is anchored in a deliberate [rejection of real-time chat tools](narr:Position_AntiPatternRealtimeChat), framing the offering instead as a [structured asynchronous decision platform](narr:Position_ProductCategoryAsyncPlatform). This category-creation strategy is specifically tailored to [remote teams of 10-50 people](narr:Position_TargetMarketRemoteTeams), a segment identified as being uniquely susceptible to the decision-loss pain that the product aims to resolve. Financial modeling for this positioning began in March 2026 with a [base pricing of $12/user/month](narr:Position_PricingTwelveDollars), though this was later adjusted to $15 for larger teams by late March. While the core narrative remains focused on the structural benefits of async communication, recent internal discourse has shifted toward [causal attribution of sprint velocity](narr:Position_SprintVelocityCausalAttribution), moving the conversation from high-level market positioning toward the mechanics of team performance and evidence-based output.""" ;
+    narr:covers <https://aswritten.ai/narrative#Position_AntiPatternRealtimeChat> ;
+    narr:covers <https://aswritten.ai/narrative#Position_PricingTwelveDollars> ;
+    narr:covers <https://aswritten.ai/narrative#Position_ProductCategoryAsyncPlatform> ;
+    narr:covers <https://aswritten.ai/narrative#Position_SprintVelocityCausalAttribution> ;
+    narr:covers <https://aswritten.ai/narrative#Position_TargetMarketRemoteTeams> ;
+    narr:keyPhrase [ narr:text "Structured async decision platform" ; narr:phraseSource <https://aswritten.ai/narrative#Position_ProductCategoryAsyncPlatform> ] ;
+    narr:keyPhrase [ narr:text "remote teams with 10-50 people" ; narr:phraseSource <https://aswritten.ai/narrative#Position_TargetMarketRemoteTeams> ] ;
+    narr:keyPhrase [ narr:text "Real-time chat (Slack, Teams) is the named anti-pattern" ; narr:phraseSource <https://aswritten.ai/narrative#Position_AntiPatternRealtimeChat> ] ;
+    narr:keyPhrase [ narr:text "pricing update to $15/user for teams over 25" ; narr:phraseSource <https://aswritten.ai/narrative#Position_PricingTwelveDollars> ] ;
+    narr:variation [ narr:text "The pricing model evolved from a flat $12 rate to a tiered structure for larger teams." ; narr:over <https://aswritten.ai/narrative#Position_PricingTwelveDollars> ] ;
+    narr:variation [ narr:text "The focus has expanded from external market positioning to internal performance metrics." ; narr:over <https://aswritten.ai/narrative#Position_SprintVelocityCausalAttribution> ] ;
+    narr:writer "google/gemini-3.1-flash-lite" .
+}
