@@ -1,0 +1,10 @@
+{
+  "placements" : [ {
+    "verdict" : "reuse",
+    "leaf" : "Narrative_DecisionCaptureAtConsensus",
+    "supporting_segments" : [ "src-1", "src-2", "src-3" ],
+    "why" : "This narrative's own framing — decisions captured at the moment of consensus and linked to producing context with 'zero extra steps' — is exactly what these three segments jointly evidence. src-1 announces the shipped instantiation of that product feature (the async decision widget IS the decision-capture-at-consensus mechanism). src-3 names the specific mechanism that delivers the 'zero extra steps' promise: Zephyr integration lets capture happen inside Slack/Teams/Discord without separate plugins, echoing the narrative's own language almost verbatim. src-2's velocity figure ('23 points, highest this quarter') is measurement-grain evidence, not a theme of its own (grain test, rule 2) — it evidences that the zero-extra-steps approach measurably accelerated throughput, so it joins this leaf's support rather than minting a leaf for the metric itself. Directional reads reinforce the fit: all three carry past/realis/concrete temporal grounding and activated-positive affect around a completed, working mechanism rather than an aspirational claim, and src-3's power/relational reads (informational, market-pricing/ROI attribution) frame the integration as the lever that produced the outcome — consistent with a single mechanism-plus-proof narrative rather than three separate subjects. Narrative_AntiSlackPositioning was weighed (the position pass loosely grouped src-2/src-3 there) but that leaf's theme is the category-level Slack-vs-async contrast, not the specific zero-effort-capture mechanism these segments actually describe — DecisionCaptureAtConsensus is the tighter, better-evidenced fit. Narrative_DecisionsEvaporate (the pain-point narrative) doesn't fit any of the three, which are all about the solution working, not the problem.",
+    "consulted" : [ "Narrative_AntiSlackPositioning", "Narrative_DecisionCaptureAtConsensus", "Narrative_DecisionsEvaporate" ]
+  } ],
+  "unplaced" : [ ]
+}
