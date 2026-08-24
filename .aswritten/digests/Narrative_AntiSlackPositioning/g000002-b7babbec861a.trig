@@ -1,0 +1,22 @@
+@prefix narr: <https://aswritten.ai/narrative#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+GRAPH <https://aswritten.ai/narrative#Digest_Narrative_AntiSlackPositioning> {
+  <https://aswritten.ai/narrative#Digest_Narrative_AntiSlackPositioning> a narr:Digest ;
+    narr:digestOf <https://aswritten.ai/narrative#Narrative_AntiSlackPositioning> ;
+    narr:childCount "5"^^xsd:integer ;
+    narr:generatedFrom "b7babbec861a71a8616245f3de9e95920a2e5583" ;
+    narr:narration """The narrative positions the product through a deliberate [rejection of real-time chat tools](narr:Position_AntiPatternRealtimeChat), naming Slack and Teams as the anti-pattern the offering is defined against. The category is claimed as a [structured async decision platform](narr:Position_ProductCategoryAsyncPlatform), a category-creation move aimed at [remote teams of 10-50 people](narr:Position_TargetMarketRemoteTeams) — small enough to move fast, large enough to feel decision-loss pain. Financial modeling began March 2026 at [$12/user/month](narr:Position_PricingTwelveDollars), with a recorded update to $15 for teams over 25 by late March. By August, the discourse turned inward: a [sprint-velocity question](narr:Position_SprintVelocityCausalAttribution) asking what accounts for a sprint's velocity and how that cause is established as fact — a shift from market-facing positioning toward the mechanics of team performance and evidence.""" ;
+    narr:covers <https://aswritten.ai/narrative#Position_AntiPatternRealtimeChat> ;
+    narr:covers <https://aswritten.ai/narrative#Position_PricingTwelveDollars> ;
+    narr:covers <https://aswritten.ai/narrative#Position_ProductCategoryAsyncPlatform> ;
+    narr:covers <https://aswritten.ai/narrative#Position_SprintVelocityCausalAttribution> ;
+    narr:covers <https://aswritten.ai/narrative#Position_TargetMarketRemoteTeams> ;
+    narr:keyPhrase [ narr:text "Real-time chat (Slack, Teams) is the named anti-pattern." ; narr:phraseSource <https://aswritten.ai/narrative#Position_AntiPatternRealtimeChat> ] ;
+    narr:keyPhrase [ narr:text "Pricing set at $12/user/month as of 2026-03-10 product vision session." ; narr:phraseSource <https://aswritten.ai/narrative#Position_PricingTwelveDollars> ] ;
+    narr:keyPhrase [ narr:text "remote teams with 10-50 people" ; narr:phraseSource <https://aswritten.ai/narrative#Position_TargetMarketRemoteTeams> ] ;
+    narr:keyPhrase [ narr:text "Structured async decision platform" ; narr:phraseSource <https://aswritten.ai/narrative#Position_ProductCategoryAsyncPlatform> ] ;
+    narr:variation [ narr:text "Pricing split: $12 base vs $15 for teams over 25 — the larger-team surcharge complicates the flat simplicity of the original positioning." ; narr:over <https://aswritten.ai/narrative#Position_PricingTwelveDollars> ] ;
+    narr:variation [ narr:text "August sprint-velocity inquiry pulls the narrative from external market positioning toward internal performance epistemology — a road that may not connect back to the anti-chat framing." ; narr:over <https://aswritten.ai/narrative#Position_SprintVelocityCausalAttribution> ] ;
+    narr:writer "z-ai/glm-5.2" .
+}
