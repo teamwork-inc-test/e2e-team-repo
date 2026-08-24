@@ -1,0 +1,12 @@
+{
+  "positions" : [ {
+    "name" : "SprintVelocityCausalAttribution",
+    "frame" : "what accounts for this sprint's velocity, and how is that cause established as fact?",
+    "members" : [ "src-2", "src-3" ],
+    "why" : "Both expressions share activated-positive affect, past/realis/concrete temporal grounding, and market-pricing relational framing (quantified, ROI-style attribution) — src-2 names the achievement ('23 points, highest this quarter') and src-3 supplies the causal mechanism ('the key unlock'). Read together they perform a single evidentiary move: a measured outcome paired with its named cause. Both sit at claim-level conviction (confident assertion, not yet ratified decision), distinct from src-1's decision-level 'we shipped' — that gradient is why src-1 is left out rather than folded in.",
+    "under" : [ "Narrative_AntiSlackPositioning" ]
+  } ],
+  "attaches" : [ ],
+  "position_revisions" : [ ],
+  "ungrouped" : [ "src-1" ]
+}
