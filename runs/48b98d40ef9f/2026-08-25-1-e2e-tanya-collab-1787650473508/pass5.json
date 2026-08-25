@@ -1,0 +1,10 @@
+{
+  "placements" : [ {
+    "verdict" : "reuse",
+    "leaf" : "Narrative_DecisionCaptureAtConsensus",
+    "supporting_segments" : [ "src-1", "src-2", "src-3" ],
+    "why" : "All three assertions evidence the practical realization of the capture-at-consensus thesis rather than opening a new theme: the shipped widget (src-1) is the artifact that performs consensus-moment capture; the record velocity (src-2) is Tina's own attributed proof that the capture mechanism works without friction; and the Zephyr integration (src-3) is the infrastructure that delivers the leaf's own stated 'zero extra steps' property by embedding capture directly in existing chat surfaces. This matches the leaf's description verbatim ('captures the decision at the moment it's made and links it to the producing context — zero extra steps') rather than introducing a new subject: these are proof points feeding an existing theme, not a fact standing alone (grain test). Anti-Slack positioning and the decisions-evaporate problem framing were considered but are not what these segments are about — they report the solution working, not the market frame or the pain point.",
+    "consulted" : [ "Narrative_AntiSlackPositioning", "Narrative_DecisionCaptureAtConsensus", "Narrative_DecisionsEvaporate" ]
+  } ],
+  "unplaced" : [ ]
+}
