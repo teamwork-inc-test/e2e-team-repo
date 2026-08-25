@@ -1,0 +1,13 @@
+{
+  "bindings" : [ {
+    "name" : "Tanya TeamOwner",
+    "verdict" : "mint",
+    "label" : "Tanya TeamOwner",
+    "why" : "Repo is empty (no EXISTING ACTORS); submitted_by and sole participant, fullest name form available."
+  }, {
+    "name" : "tanya+staging@aswritten.ai",
+    "verdict" : "mint",
+    "label" : "Tanya TeamOwner",
+    "why" : "Account email for the same submitter/participant Tanya TeamOwner; converges as alias to the same identity, minted with the identical fuller label per alias-convergence rule."
+  } ]
+}
