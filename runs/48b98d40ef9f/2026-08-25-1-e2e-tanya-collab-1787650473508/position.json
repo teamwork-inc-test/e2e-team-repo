@@ -1,0 +1,12 @@
+{
+  "positions" : [ {
+    "name" : "Sprint4SuccessEvidenceMarshaling",
+    "frame" : "what evidence does this retrospective marshal to establish that the sprint succeeded?",
+    "members" : [ "src-1", "src-2", "src-3" ],
+    "why" : "The three assertions are not independent facts but a stacked evidentiary sequence: a completed deliverable (shipped), a quantified performance superlative (23 points, highest this quarter), and a causal attribution naming the enabling factor (Zephyr integration). All three sit at claim-level conviction (unhedged but unratified) and past/realis/concrete temporal footing, and the value reads (competence, self-enhancement) run consistently across them — together they build the case for sprint success rather than each standing as a freestanding report. There is a register shift worth holding in tension: src-1 carries activated-positive energy ('We shipped') while src-2 and src-3 settle into calm-positive, measured retrospective evaluation — the announcement cools into evidence.",
+    "under" : [ "Narrative_DecisionCaptureAtConsensus" ]
+  } ],
+  "attaches" : [ ],
+  "position_revisions" : [ ],
+  "ungrouped" : [ ]
+}
