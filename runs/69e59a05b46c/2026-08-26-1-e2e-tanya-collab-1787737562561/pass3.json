@@ -1,0 +1,8 @@
+{
+  "reconciliations" : [ ],
+  "standalone" : [ {
+    "segment_id" : "src-1",
+    "why" : "verdict new (nothing to reconcile) — no prior plausibly matches; no resolved, explicit, or structural bindings from pass 2"
+  } ],
+  "held" : [ ]
+}
