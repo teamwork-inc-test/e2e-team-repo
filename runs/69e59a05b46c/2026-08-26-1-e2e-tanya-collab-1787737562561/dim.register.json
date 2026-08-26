@@ -1,0 +1,32 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "technical", "matter-of-fact" ],
+    "evidence" : [ {
+      "quote" : "async decision widget",
+      "kind" : "lexical-marker"
+    }, {
+      "quote" : "Velocity was 23 points",
+      "kind" : "plain-assertion"
+    }, {
+      "quote" : "key unlock",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Domain jargon (async decision widget, velocity, points, key unlock) used natively without gloss, delivered in flat instrumental syntax — the document's baseline register signature.",
+    "reported" : false,
+    "direction" : {
+      "verdict" : "mint",
+      "node" : "mint-1"
+    }
+  } ],
+  "mints" : [ {
+    "id" : "mint-1",
+    "name" : "NativePipelineVocabulary",
+    "title" : "domain jargon used natively without gloss, in flat instrumental delivery",
+    "frame" : "Is the speaker deploying technical vocabulary as their own working language rather than performing expertise for an audience?",
+    "regions" : [ "technical", "matter-of-fact" ]
+  } ],
+  "region_mints" : [ ],
+  "unmarked" : [ ],
+  "unmarked_rest" : false
+}
