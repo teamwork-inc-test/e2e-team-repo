@@ -1,0 +1,15 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "self-enhancement", "competence" ],
+    "evidence" : [ {
+      "quote" : "Velocity was 23 points, highest this quarter",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Citing a quantified velocity score and ranking it as the quarter's highest appeals to achievement and demonstrated capability.",
+    "reported" : false
+  } ],
+  "unmarked" : [ ],
+  "mints" : [ ],
+  "region_mints" : [ ]
+}
