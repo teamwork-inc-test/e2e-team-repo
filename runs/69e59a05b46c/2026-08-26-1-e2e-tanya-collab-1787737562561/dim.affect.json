@@ -1,0 +1,18 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "activated-positive" ],
+    "evidence" : [ {
+      "quote" : "highest this quarter",
+      "kind" : "intensifier"
+    }, {
+      "quote" : "key unlock",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Energized evaluative language — 'highest this quarter' and 'key unlock' — signals enthusiasm and positive valence at elevated arousal.",
+    "reported" : false
+  } ],
+  "unmarked" : [ ],
+  "mints" : [ ],
+  "region_mints" : [ ]
+}
