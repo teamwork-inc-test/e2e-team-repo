@@ -1,0 +1,10 @@
+{
+  "placements" : [ {
+    "verdict" : "reuse",
+    "leaf" : "Narrative_DecisionCaptureAtConsensus",
+    "supporting_segments" : [ "src-1" ],
+    "why" : "The async decision widget is the productization of capturing decisions at the moment of consensus. Shipping it, the 23-point velocity, and the Zephyr integration as the key enabler are all evidence that this narrative was realized in Sprint 4 — the widget exists because decisions evaporate in chat scroll-back, and it was built to intercept that moment.",
+    "consulted" : [ "Narrative_AntiSlackPositioning", "Narrative_DecisionCaptureAtConsensus", "Narrative_DecisionsEvaporate" ]
+  } ],
+  "unplaced" : [ ]
+}
