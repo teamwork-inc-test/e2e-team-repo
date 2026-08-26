@@ -1,0 +1,15 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "metaphor" ],
+    "evidence" : [ {
+      "quote" : "the key unlock",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "'unlock' frames the Zephyr integration as a mechanism that released a barrier — a thing spoken of AS another thing, not mere vividness.",
+    "reported" : false
+  } ],
+  "unmarked" : [ ],
+  "mints" : [ ],
+  "region_mints" : [ ]
+}
