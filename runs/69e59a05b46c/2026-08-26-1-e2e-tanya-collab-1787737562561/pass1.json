@@ -1,0 +1,19 @@
+{
+  "doc" : {
+    "title" : "Tanya's Sprint Retro",
+    "date_stated" : null,
+    "actors_present" : [ "Tanya" ]
+  },
+  "segments" : [ {
+    "local_id" : "src-1",
+    "exact" : "We shipped the async decision widget. Velocity was 23 points, highest this quarter. The Zephyr integration was the key unlock.",
+    "actor" : "Tanya",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Tanya's Sprint Retro"
+    },
+    "footing_case" : null
+  } ],
+  "coverage_gaps" : [ ],
+  "footing_cases" : [ ]
+}
