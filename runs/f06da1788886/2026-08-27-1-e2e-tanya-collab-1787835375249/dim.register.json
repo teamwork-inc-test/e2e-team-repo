@@ -1,0 +1,39 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "casual" ],
+    "evidence" : [ {
+      "quote" : "We shipped",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Colloquial 'shipped' for a delivery claim is the document's casual register signature — loose, team-internal verb choice over formal 'delivered' or 'released'.",
+    "reported" : false,
+    "direction" : {
+      "verdict" : "mint",
+      "node" : "mint-1"
+    }
+  }, {
+    "segment_local_id" : "src-3",
+    "regions" : [ "casual", "technical" ],
+    "evidence" : [ {
+      "quote" : "key unlock",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "'Unlock' as a metaphor for an integration's value is casual technical slang — native jargon used playfully, bridging the document's two register poles.",
+    "reported" : false,
+    "direction" : {
+      "verdict" : "mint",
+      "node" : "mint-1"
+    }
+  } ],
+  "mints" : [ {
+    "id" : "mint-1",
+    "name" : "ShippedAndUnlocked",
+    "title" : "shipped, unlocked — casual technical verbs for delivery and impact",
+    "frame" : "Is the speaker using informal engineering slang ('shipped', 'unlock') to claim delivery and value, rather than formal project-management vocabulary?",
+    "regions" : [ "casual", "technical" ]
+  } ],
+  "region_mints" : [ ],
+  "unmarked" : [ "src-2" ],
+  "unmarked_rest" : false
+}
