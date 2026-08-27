@@ -1,0 +1,12 @@
+{
+  "positions" : [ {
+    "name" : "Sprint4DeliveryClaims",
+    "frame" : "how does the team establish what a sprint delivered — what is named as shipped, what is measured, and what is named as the cause?",
+    "members" : [ "src-1", "src-2", "src-3" ],
+    "why" : "All three expressions are retrospective realis claims from the same sprint retro, performing the same act: establishing Sprint 4's outcomes. src-1 names the deliverable (async decision widget), src-2 quantifies the result (23 points, highest this quarter), src-3 attributes the cause (Zephyr integration as key unlock). Together they form a single directional read of how sprint success is narrated — shipped artifact, measured velocity, and causal attribution — all in flat declarative register with positive valence. The communal 'we' of src-1 and the market-pricing frame of src-2 sit in mild tension (collective act vs. quantified output) but both serve the same accomplishment-narration direction.",
+    "under" : [ "Narrative_DecisionCaptureAtConsensus" ]
+  } ],
+  "attaches" : [ ],
+  "position_revisions" : [ ],
+  "ungrouped" : [ ]
+}
