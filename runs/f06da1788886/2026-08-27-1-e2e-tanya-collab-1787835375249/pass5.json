@@ -1,0 +1,10 @@
+{
+  "placements" : [ {
+    "verdict" : "reuse",
+    "leaf" : "Narrative_DecisionCaptureAtConsensus",
+    "supporting_segments" : [ "src-1", "src-2", "src-3" ],
+    "why" : "All three expressions thematically feed the consensus-capture narrative. src-1 names the shipped artifact — the async decision widget IS the product that captures decisions at the moment of consensus. src-2 is a velocity metric evidencing the team's successful delivery of that product (a measurement supports the leaf, never becomes one per rule 2). src-3 identifies the Zephyr integration as the enabler of cross-platform consensus capture — extending where the capture happens, not changing what it is. No existing leaf is a closer fit, and no new thematic subject distinct from consensus-capture emerges: 'sprint delivery narration' is a recurring event pattern (delivery-dimension territory), not a narrative-grain subject future envelopes will keep feeding.",
+    "consulted" : [ "Narrative_DecisionCaptureAtConsensus", "Narrative_AntiSlackPositioning", "Narrative_DecisionsEvaporate" ]
+  } ],
+  "unplaced" : [ ]
+}
