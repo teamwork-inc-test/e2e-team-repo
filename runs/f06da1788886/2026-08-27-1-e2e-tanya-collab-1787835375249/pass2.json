@@ -1,0 +1,50 @@
+{
+  "resolutions" : [ {
+    "commentary_local_id" : "src-1",
+    "phrase" : "We shipped the async decision widget.",
+    "verdict" : "confident",
+    "binding" : {
+      "referents" : [ {
+        "iri" : "Obs_TanyaThesisProven",
+        "relation" : "extends",
+        "why" : "Tanya adds a direct shipping confirmation to her prior observation that the thesis was validated by Sprint 4 delivery."
+      }, {
+        "iri" : "Position_Sprint4ThesisProven",
+        "relation" : "extends",
+        "why" : "The shipped-widget claim extends the position that the widget intercepts consensus and creates a persistent record."
+      } ],
+      "targets" : [ "Sample_Sprint4Retro_20260322" ]
+    },
+    "why" : "Navigation converges on the Sprint 4 retro cluster: the shipped async decision widget is the subject of both Obs_TanyaThesisProven and Position_Sprint4ThesisProven, both sourced from the same retro sample.",
+    "consulted" : [ "Sample_Sprint4Retro_20260322", "Obs_TanyaThesisProven", "Position_Sprint4ThesisProven", "Narrative_AntiSlackPositioning" ]
+  }, {
+    "commentary_local_id" : "src-2",
+    "phrase" : "Velocity was 23 points, highest this quarter.",
+    "verdict" : "confident",
+    "binding" : {
+      "referents" : [ {
+        "iri" : "Obs_TinaVelocity",
+        "relation" : "extends",
+        "why" : "Tanya confirms the same 23-point velocity figure Tina reported, adding her own voice as CEO to the metric."
+      } ],
+      "targets" : [ "Sample_Sprint4Retro_20260322" ]
+    },
+    "why" : "The verbatim phrase '23 points, highest this quarter' matches Obs_TinaVelocity and the quoted witness in StyleObs_Sprint4_MetricAnchor — a single dominant referent at observation grain.",
+    "consulted" : [ "Obs_TinaVelocity", "StyleObs_Sprint4_MetricAnchor", "Sample_Sprint4Retro_20260322" ]
+  }, {
+    "commentary_local_id" : "src-3",
+    "phrase" : "The Zephyr integration was the key unlock.",
+    "verdict" : "confident",
+    "binding" : {
+      "referents" : [ {
+        "iri" : "Position_ZephyrIntegrationUnlock",
+        "relation" : "extends",
+        "why" : "Tanya confirms the same positioning — Zephyr as the key unlock — that Tina identified in the Sprint 4 retro."
+      } ],
+      "targets" : [ "Sample_Sprint4Retro_20260322" ]
+    },
+    "why" : "The phrase 'key unlock' directly echoes Position_ZephyrIntegrationUnlock's 'Tina identified this as the key unlock for Sprint 4 velocity' — single dominant referent at position grain.",
+    "consulted" : [ "Position_ZephyrIntegrationUnlock", "Obs_ZephyrRateLimitResolved", "Sample_Sprint4Retro_20260322" ]
+  } ],
+  "unreferenced_commentary" : [ ]
+}
