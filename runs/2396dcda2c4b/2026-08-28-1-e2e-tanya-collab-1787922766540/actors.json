@@ -1,0 +1,15 @@
+{
+  "bindings" : [ {
+    "name" : "Tanya TeamOwner",
+    "verdict" : "mint",
+    "target" : null,
+    "label" : "Tanya TeamOwner",
+    "why" : "No existing actors in repo; minting new actor with fullest available name."
+  }, {
+    "name" : "tanya+staging@aswritten.ai",
+    "verdict" : "mint",
+    "target" : null,
+    "label" : "Tanya TeamOwner",
+    "why" : "Account email corresponding to Tanya TeamOwner in envelope metadata; converging on same minted identity."
+  } ]
+}
