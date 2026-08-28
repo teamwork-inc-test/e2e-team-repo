@@ -1,0 +1,11 @@
+{
+  "positions" : [ {
+    "name" : "SprintDeliveryVelocityAndEnablers",
+    "frame" : "how do we account for milestone delivery velocity and technical integration enablers in sprint retrospectives?",
+    "members" : [ "src-1", "src-2", "src-3" ],
+    "why" : "The expressions cohere around sprint completion reporting, pairing the shipped deliverable with quantitative velocity metrics and causal attribution to the underlying integration unlock."
+  } ],
+  "attaches" : [ ],
+  "position_revisions" : [ ],
+  "ungrouped" : [ ]
+}
