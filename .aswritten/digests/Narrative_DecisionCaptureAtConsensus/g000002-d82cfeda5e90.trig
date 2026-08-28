@@ -1,0 +1,20 @@
+@prefix narr: <https://aswritten.ai/narrative#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+GRAPH <https://aswritten.ai/narrative#Digest_Narrative_DecisionCaptureAtConsensus> {
+  <https://aswritten.ai/narrative#Digest_Narrative_DecisionCaptureAtConsensus> a narr:Digest ;
+    narr:digestOf <https://aswritten.ai/narrative#Narrative_DecisionCaptureAtConsensus> ;
+    narr:childCount "4"^^xsd:integer ;
+    narr:generatedFrom "d82cfeda5e90365d98b599447aededf7b50b99a5" ;
+    narr:narration """This hub centers on the [core product differentiator](narr:Position_CoreFeatureDecisionCapture) of capturing decision artifacts at the moment of consensus. The narrative trajectory remains anchored in the operational milestones of late August 2026, where the team [shipped the async decision widget](narr:Expr_1E2ETanyaCollab1787922766540_1) to materialize this strategy. This release was explicitly linked to the [Zephyr integration](narr:Expr_1E2ETanyaCollab1787922766540_3), which is characterized as the technical unlock for the current workflow. Concurrent performance data highlights a [peak in team velocity](narr:Expr_1E2ETanyaCollab1787922766540_2), providing a quantitative signal of the development rhythm following these deployments.""" ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1E2ETanyaCollab1787922766540_1> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1E2ETanyaCollab1787922766540_2> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1E2ETanyaCollab1787922766540_3> ;
+    narr:covers <https://aswritten.ai/narrative#Position_CoreFeatureDecisionCapture> ;
+    narr:keyPhrase [ narr:text "decision capture at the point of consensus" ; narr:phraseSource <https://aswritten.ai/narrative#Position_CoreFeatureDecisionCapture> ] ;
+    narr:keyPhrase [ narr:text "We shipped the async decision widget." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1E2ETanyaCollab1787922766540_1> ] ;
+    narr:keyPhrase [ narr:text "The Zephyr integration was the key unlock." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1E2ETanyaCollab1787922766540_3> ] ;
+    narr:keyPhrase [ narr:text "Velocity was 23 points, highest this quarter." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1E2ETanyaCollab1787922766540_2> ] ;
+    narr:variation [ narr:text "The tension between technical enablement (Zephyr) and quantitative output (velocity) as the primary driver of success." ; narr:over <https://aswritten.ai/narrative#Expr_1E2ETanyaCollab1787922766540_3> ; narr:over <https://aswritten.ai/narrative#Expr_1E2ETanyaCollab1787922766540_2> ] ;
+    narr:writer "google/gemini-3.1-flash-lite" .
+}
