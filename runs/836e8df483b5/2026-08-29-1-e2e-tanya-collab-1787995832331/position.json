@@ -1,0 +1,12 @@
+{
+  "positions" : [ {
+    "name" : "AsyncDecisionWidgetSprintVelocity",
+    "frame" : "what factors drove the delivery velocity and unlock for the async decision widget?",
+    "members" : [ "src-1", "src-2", "src-3" ],
+    "why" : "Connects the milestone of shipping the async decision widget with the record 23-point sprint velocity and the diagnostic attribution to the Zephyr integration as the key enabling unlock.",
+    "under" : [ "Narrative_DecisionCaptureAtConsensus" ]
+  } ],
+  "attaches" : [ ],
+  "position_revisions" : [ ],
+  "ungrouped" : [ ]
+}
