@@ -1,0 +1,16 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "communal-sharing" ],
+    "evidence" : [ {
+      "quote" : "We",
+      "kind" : "address-form"
+    } ],
+    "why" : "Enacts communal sharing via first-person plural 'We' pooling collective agency in shipping the work.",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-2", "src-3" ],
+  "unmarked_rest" : false,
+  "mints" : [ ],
+  "region_mints" : [ ]
+}
