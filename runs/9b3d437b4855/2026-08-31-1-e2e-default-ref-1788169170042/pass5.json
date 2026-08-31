@@ -1,0 +1,10 @@
+{
+  "placements" : [ {
+    "verdict" : "reuse",
+    "leaf" : "Narrative_DefaultRefTopicBranch",
+    "supporting_segments" : [ "src-1" ],
+    "why" : "The statement directly asserts and exercises the system behavior that omitting a git ref automatically creates a topic branch.",
+    "consulted" : [ "Narrative_DefaultRefTopicBranch", "Narrative_AntiSlackPositioning", "Narrative_DecisionsEvaporate", "Narrative_DecisionCaptureAtConsensus" ]
+  } ],
+  "unplaced" : [ ]
+}
