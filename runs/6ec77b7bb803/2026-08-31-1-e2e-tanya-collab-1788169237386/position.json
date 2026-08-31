@@ -1,0 +1,12 @@
+{
+  "positions" : [ {
+    "name" : "AsyncDecisionWidgetSprintDeliveryEnablers",
+    "frame" : "what drove the delivery velocity and shipping milestones of the async decision widget?",
+    "members" : [ "src-1", "src-2", "src-3" ],
+    "why" : "The segments jointly evaluate the completed sprint outcome, linking the shipment of the async decision widget directly to quarterly peak velocity and the Zephyr integration as the critical unlocking dependency.",
+    "under" : [ "Narrative_DecisionCaptureAtConsensus" ]
+  } ],
+  "attaches" : [ ],
+  "position_revisions" : [ ],
+  "ungrouped" : [ ]
+}
