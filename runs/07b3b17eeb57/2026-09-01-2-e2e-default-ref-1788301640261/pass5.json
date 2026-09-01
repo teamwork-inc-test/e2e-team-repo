@@ -1,0 +1,10 @@
+{
+  "placements" : [ {
+    "verdict" : "reuse",
+    "leaf" : "Narrative_DefaultRefTopicBranch",
+    "supporting_segments" : [ "src-1" ],
+    "why" : "The segment is a plain-assertion test statement whose exact subject — an omitted git ref defaulting to topic-branch creation rather than failing or writing to main — is the theme this leaf already names verbatim. Nothing about this envelope's content diverges from that existing frame; it is another instance of the same test being asserted.",
+    "consulted" : [ "Narrative_DefaultRefTopicBranch", "Narrative_AntiSlackPositioning", "Narrative_DecisionCaptureAtConsensus", "Narrative_DecisionsEvaporate" ]
+  } ],
+  "unplaced" : [ ]
+}
