@@ -1,0 +1,16 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-2",
+    "regions" : [ "self-enhancement", "competence" ],
+    "evidence" : [ {
+      "quote" : "highest this quarter",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Highlighting a peak metric achievement framing velocity as a benchmark of high performance.",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-1", "src-3" ],
+  "unmarked_rest" : false,
+  "mints" : [ ],
+  "region_mints" : [ ]
+}
