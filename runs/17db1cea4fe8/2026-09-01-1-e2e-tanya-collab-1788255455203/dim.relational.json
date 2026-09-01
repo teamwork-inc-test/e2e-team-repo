@@ -1,0 +1,15 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "communal-sharing" ],
+    "evidence" : [ {
+      "quote" : "We",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Enacts shared team agency and undifferentiated pooling of effort through collective first-person framing.",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-2", "src-3" ],
+  "mints" : [ ],
+  "region_mints" : [ ]
+}
