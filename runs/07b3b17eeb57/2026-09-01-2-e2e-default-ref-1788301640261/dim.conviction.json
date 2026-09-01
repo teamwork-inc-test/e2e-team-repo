@@ -1,0 +1,15 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "Testing that omitted ref creates a topic branch.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Plain unhedged assertive statement of purpose, no ratification or hedge language present; a flat committed statement lands at claim, not decision.",
+    "reported" : false
+  } ],
+  "unmarked" : [ ],
+  "unmarked_rest" : false,
+  "mints" : [ ]
+}
