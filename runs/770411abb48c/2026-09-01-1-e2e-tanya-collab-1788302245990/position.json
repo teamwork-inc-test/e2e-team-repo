@@ -1,0 +1,12 @@
+{
+  "positions" : [ {
+    "name" : "Sprint4SuccessEvidenceReport",
+    "frame" : "what evidence does this retro offer that the sprint delivered measurable product success?",
+    "members" : [ "src-1", "src-2", "src-3" ],
+    "why" : "All three expressions are flat, unhedged past-tense assertions (conviction: claim throughout, temporal: past/realis/concrete throughout) reporting concrete pieces of the same sprint outcome — a shipped artifact, a quantified velocity result, and a causal attribution for that result. Read together they form a single evidentiary report of the sprint's success rather than three unrelated facts; the register stays matter-of-fact even on the superlative claim, so the group coheres as understated substantiation rather than celebratory narrative.",
+    "under" : [ "Narrative_DecisionCaptureAtConsensus" ]
+  } ],
+  "attaches" : [ ],
+  "position_revisions" : [ ],
+  "ungrouped" : [ ]
+}
