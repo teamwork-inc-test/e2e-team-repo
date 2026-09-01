@@ -1,0 +1,23 @@
+{
+  "placements" : [ {
+    "verdict" : "reuse",
+    "leaf" : "Narrative_DecisionCaptureAtConsensus",
+    "supporting_segments" : [ "src-1" ],
+    "why" : "Shipping the async decision widget is the literal instantiation of this leaf's theme — Tina's insight that decisions must be captured at the moment of consensus and linked to context, with zero extra steps. The shipping fact is evidence the mechanism moved from vision to delivered feature; it doesn't name a new subject, it confirms this one, so it joins the existing leaf's support rather than minting.",
+    "consulted" : [ "Narrative_AntiSlackPositioning", "Narrative_DecisionCaptureAtConsensus", "Narrative_DecisionsEvaporate" ]
+  }, {
+    "lineage" : {
+      "relation" : "extends",
+      "target" : "Narrative_DecisionCaptureAtConsensus"
+    },
+    "supporting_segments" : [ "src-2", "src-3" ],
+    "under" : [ "Narrative_DecisionCaptureAtConsensus" ],
+    "why" : "Naming the Zephyr integration as 'the key unlock' asserts a recurring, generalizable claim — that cross-platform integration architecture, not the capture UX alone, is what determines delivery speed — a subject future sprints will keep feeding as new integrations ship. This specializes rather than restates Narrative_DecisionCaptureAtConsensus's 'zero extra steps' framing by naming the technical lever behind it, so it extends that leaf rather than duplicating it. The 23-point velocity figure is not itself leaf-grain (a bare metric per the grain test) — it is evidence of the unlock's impact, so it joins this leaf's support rather than minting its own.",
+    "verdict" : "mint",
+    "leaf" : "Narrative_IntegrationDrivenUnlock",
+    "title" : "Platform-integration architecture is the lever that removes capture friction",
+    "frame" : "What integration or embedding capability removed friction this cycle, and what delivery outcome (velocity, adoption, retention) did it unlock?",
+    "consulted" : [ "Narrative_AntiSlackPositioning", "Narrative_DecisionCaptureAtConsensus", "Narrative_DecisionsEvaporate" ]
+  } ],
+  "unplaced" : [ ]
+}
