@@ -1,0 +1,10 @@
+{
+  "placements" : [ {
+    "verdict" : "reuse",
+    "leaf" : "Narrative_DecisionCaptureAtConsensus",
+    "supporting_segments" : [ "src-1", "src-2", "src-3" ],
+    "why" : "Shipping the async decision widget represents the tangible implementation of capturing decisions at the point of consensus, with velocity metrics and the Zephyr integration serving as direct execution proof for this capture capability.",
+    "consulted" : [ "Narrative_DecisionCaptureAtConsensus", "Narrative_AntiSlackPositioning", "Narrative_DecisionsEvaporate" ]
+  } ],
+  "unplaced" : [ ]
+}
