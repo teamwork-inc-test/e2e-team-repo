@@ -1,0 +1,12 @@
+{
+  "positions" : [ {
+    "name" : "SprintDeliveryAndVelocityFactors",
+    "frame" : "what factors and technical enablers drove the sprint's delivery milestone?",
+    "members" : [ "src-1", "src-2", "src-3" ],
+    "why" : "The segments jointly articulate the completion of the core async decision widget deliverable alongside the peak quarterly velocity achieved and the specific integration unlock that enabled it.",
+    "under" : [ "Narrative_DecisionCaptureAtConsensus" ]
+  } ],
+  "attaches" : [ ],
+  "position_revisions" : [ ],
+  "ungrouped" : [ ]
+}
