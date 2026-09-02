@@ -1,0 +1,10 @@
+{
+  "placements" : [ {
+    "verdict" : "reuse",
+    "leaf" : "Narrative_DefaultRefTopicBranch",
+    "supporting_segments" : [ "src-1" ],
+    "why" : "The assertion tests that omitting a git ref triggers default topic branch creation, directly supporting the established Narrative_DefaultRefTopicBranch narrative.",
+    "consulted" : [ "Narrative_DefaultRefTopicBranch" ]
+  } ],
+  "unplaced" : [ ]
+}
