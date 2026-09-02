@@ -1,0 +1,20 @@
+@prefix narr: <https://aswritten.ai/narrative#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+GRAPH <https://aswritten.ai/narrative#Digest_Actor_Tanya_Staging> {
+  <https://aswritten.ai/narrative#Digest_Actor_Tanya_Staging> a narr:Digest ;
+    narr:digestOf <https://aswritten.ai/narrative#Actor_Tanya_Staging> ;
+    narr:childCount "5"^^xsd:integer ;
+    narr:generatedFrom "546ab2dd758c7fccba1881fb0b3620ce18b689e3" ;
+    narr:narration """The thread opens with [initial verification rounds](narr:https://aswritten.ai/narrative#Expr_1E2EDefaultRef1788169170042_1) conducted in late summer, establishing [subsequent procedural checks](narr:https://aswritten.ai/narrative#Expr_1E2EDefaultRef1788255387470_1) and [parallel operational sequences](narr:https://aswritten.ai/narrative#Expr_2E2EDefaultRef1788301640261_1) across the following days. Activity continues through [extended validation efforts](narr:https://aswritten.ai/narrative#Expr_1E2EDefaultRef1788307540537_1) alongside [concurrent execution runs](narr:https://aswritten.ai/narrative#Expr_2E2EDefaultRef1788341794428_1).""" ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1E2EDefaultRef1788169170042_1> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1E2EDefaultRef1788255387470_1> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1E2EDefaultRef1788307540537_1> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2E2EDefaultRef1788301640261_1> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2E2EDefaultRef1788341794428_1> ;
+    narr:keyPhrase [ narr:text "Testing that omitted ref creates a topic branch." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1E2EDefaultRef1788169170042_1> ] ;
+    narr:keyPhrase [ narr:text "Testing that omitted ref creates a topic branch." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1E2EDefaultRef1788255387470_1> ] ;
+    narr:voiceTrait [ narr:dim "conviction" ; narr:reading "flat assertion focused entirely on operational mechanics" ; narr:text "Testing that omitted ref creates a topic branch." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1E2EDefaultRef1788169170042_1> ] ;
+    narr:voiceTrait [ narr:dim "temporal" ; narr:reading "immediate present-tense realization anchored to concrete actions" ; narr:text "Testing that omitted ref creates a topic branch." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1E2EDefaultRef1788255387470_1> ] ;
+    narr:writer "google/gemini-3.5-flash-lite" .
+}
