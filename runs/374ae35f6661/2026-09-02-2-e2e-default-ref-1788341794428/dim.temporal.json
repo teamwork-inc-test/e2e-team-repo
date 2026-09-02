@@ -1,0 +1,13 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "present", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "Testing that omitted ref creates a topic branch.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Describes an ongoing test of a specific, concrete system behavior in realis present terms.",
+    "reported" : false
+  } ],
+  "unmarked" : [ ]
+}
