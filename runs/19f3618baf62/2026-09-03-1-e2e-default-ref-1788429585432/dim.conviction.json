@@ -1,0 +1,14 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "Testing that omitted ref creates a topic branch.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Unhedged statement declaring the purpose and subject under test.",
+    "reported" : false
+  } ],
+  "unmarked" : [ ],
+  "mints" : [ ]
+}
