@@ -1,0 +1,12 @@
+{
+  "positions" : [ {
+    "name" : "Sprint4AsyncWidgetDeliveryUnlock",
+    "frame" : "how did integration capabilities and team velocity converge to ship the async decision widget?",
+    "members" : [ "src-1", "src-2", "src-3" ],
+    "why" : "The statements cohere around the Sprint 4 milestone, connecting the shipment of the async decision widget to record velocity and the Zephyr integration as the primary technical catalyst.",
+    "under" : [ "Narrative_DecisionCaptureAtConsensus" ]
+  } ],
+  "attaches" : [ ],
+  "position_revisions" : [ ],
+  "ungrouped" : [ ]
+}
