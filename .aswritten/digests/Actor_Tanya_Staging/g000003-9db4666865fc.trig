@@ -1,0 +1,23 @@
+@prefix narr: <https://aswritten.ai/narrative#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+GRAPH <https://aswritten.ai/narrative#Digest_Actor_Tanya_Staging> {
+  <https://aswritten.ai/narrative#Digest_Actor_Tanya_Staging> a narr:Digest ;
+    narr:digestOf <https://aswritten.ai/narrative#Actor_Tanya_Staging> ;
+    narr:childCount "7"^^xsd:integer ;
+    narr:generatedFrom "9db4666865fc1b510a5cf538daccda1baf7e67b9" ;
+    narr:narration """The timeline advances through [successive validation passes](narr:https://aswritten.ai/narrative#Expr_1E2EDefaultRef1788169170042_1), [parallel checks](narr:https://aswritten.ai/narrative#Expr_1E2EDefaultRef1788255387470_1), and [subsequent verifications](narr:https://aswritten.ai/narrative#Expr_1E2EDefaultRef1788307540537_1) across [multiple operational dates](narr:https://aswritten.ai/narrative#Expr_2E2EDefaultRef1788301640261_1). The sequence continues through [further testing steps](narr:https://aswritten.ai/narrative#Expr_2E2EDefaultRef1788341794428_1) toward [final quoted iterations](narr:https://aswritten.ai/narrative#Expr_1E2EDefaultRef1788429585432_1) and [closing runs](narr:https://aswritten.ai/narrative#Expr_1E2EDefaultRef1788514817267_1).""" ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1E2EDefaultRef1788169170042_1> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1E2EDefaultRef1788255387470_1> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1E2EDefaultRef1788307540537_1> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1E2EDefaultRef1788429585432_1> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1E2EDefaultRef1788514817267_1> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2E2EDefaultRef1788301640261_1> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2E2EDefaultRef1788341794428_1> ;
+    narr:keyPhrase [ narr:text "Testing that omitted ref creates a topic branch." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1E2EDefaultRef1788169170042_1> ] ;
+    narr:keyPhrase [ narr:text "\"Testing that omitted ref creates a topic branch.\"" ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1E2EDefaultRef1788429585432_1> ] ;
+    narr:variation [ narr:text "Instances vary between bare string assertions and explicitly quoted test strings." ; narr:over <https://aswritten.ai/narrative#Expr_1E2EDefaultRef1788169170042_1> ; narr:over <https://aswritten.ai/narrative#Expr_1E2EDefaultRef1788429585432_1> ] ;
+    narr:voiceTrait [ narr:dim "conviction" ; narr:reading "Uniform claim-level assertion without modulation." ; narr:text "Testing that omitted ref creates a topic branch." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1E2EDefaultRef1788169170042_1> ] ;
+    narr:voiceTrait [ narr:dim "temporal" ; narr:reading "Strictly concrete present-realis orientation." ; narr:text "\"Testing that omitted ref creates a topic branch.\"" ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1E2EDefaultRef1788429585432_1> ] ;
+    narr:writer "google/gemini-3.5-flash-lite" .
+}
