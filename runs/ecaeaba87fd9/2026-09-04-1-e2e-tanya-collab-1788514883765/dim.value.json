@@ -1,0 +1,15 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-2",
+    "regions" : [ "self-enhancement", "competence" ],
+    "evidence" : [ {
+      "quote" : "highest this quarter",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Appeals to peak quarterly achievement as the explicit measure of successful velocity.",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-1", "src-3" ],
+  "mints" : [ ],
+  "region_mints" : [ ]
+}
