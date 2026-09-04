@@ -1,0 +1,12 @@
+{
+  "positions" : [ {
+    "name" : "AsyncDecisionWidgetVelocityUnlock",
+    "frame" : "What technical integrations and delivery mechanics drive sprint velocity when shipping core decision-capture features?",
+    "members" : [ "src-1", "src-2", "src-3" ],
+    "why" : "The segments connect the delivery of the async decision widget to a record quarterly sprint velocity (23 points), directly attributing the execution breakthrough to the Zephyr integration unlock.",
+    "under" : [ "Narrative_DecisionCaptureAtConsensus" ]
+  } ],
+  "attaches" : [ ],
+  "position_revisions" : [ ],
+  "ungrouped" : [ ]
+}
