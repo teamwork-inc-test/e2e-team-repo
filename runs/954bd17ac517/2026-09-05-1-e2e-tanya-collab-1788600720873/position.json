@@ -1,0 +1,12 @@
+{
+  "positions" : [ {
+    "name" : "SprintDeliveryAndVelocityFactors",
+    "frame" : "what factors enabled the shipment and peak velocity of the async decision widget?",
+    "members" : [ "src-1", "src-2", "src-3" ],
+    "why" : "Tanya connects the completed shipment of the async decision widget with peak quarterly velocity (23 points) and identifies the Zephyr integration as the primary technical unlock enabling that delivery.",
+    "under" : [ "Narrative_DecisionCaptureAtConsensus" ]
+  } ],
+  "attaches" : [ ],
+  "position_revisions" : [ ],
+  "ungrouped" : [ ]
+}
