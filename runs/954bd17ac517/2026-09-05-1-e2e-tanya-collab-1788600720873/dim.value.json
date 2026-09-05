@@ -1,0 +1,16 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-2",
+    "regions" : [ "self-enhancement", "competence" ],
+    "evidence" : [ {
+      "quote" : "highest this quarter",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Frames team velocity explicitly in terms of peak quarterly achievement and capability.",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-1", "src-3" ],
+  "unmarked_rest" : false,
+  "mints" : [ ],
+  "region_mints" : [ ]
+}
