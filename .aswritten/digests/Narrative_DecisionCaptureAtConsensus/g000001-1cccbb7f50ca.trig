@@ -1,0 +1,20 @@
+@prefix narr: <https://aswritten.ai/narrative#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+GRAPH <https://aswritten.ai/narrative#Digest_Narrative_DecisionCaptureAtConsensus> {
+  <https://aswritten.ai/narrative#Digest_Narrative_DecisionCaptureAtConsensus> a narr:Digest ;
+    narr:digestOf <https://aswritten.ai/narrative#Narrative_DecisionCaptureAtConsensus> ;
+    narr:childCount "5"^^xsd:integer ;
+    narr:generatedFrom "1cccbb7f50caf0b2200fd9847cda8ffcbb6b3bea" ;
+    narr:narration """The thread traces [product architecture focused on core functionality](narr:https://aswritten.ai/narrative#Position_CoreFeatureDecisionCapture) alongside [operational execution and delivery velocity factors](narr:https://aswritten.ai/narrative#Position_SprintRetroDeliveryVelocityUnlock), marked by milestones including [the release of the asynchronous workflow tool](narr:https://aswritten.ai/narrative#Expr_1E2ETanyaCollab1788687068176_1), [recorded quarterly performance output metrics](narr:https://aswritten.ai/narrative#Expr_1E2ETanyaCollab1788687068176_2), and [critical platform dependency integrations](narr:https://aswritten.ai/narrative#Expr_1E2ETanyaCollab1788687068176_3).""" ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1E2ETanyaCollab1788687068176_1> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1E2ETanyaCollab1788687068176_2> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1E2ETanyaCollab1788687068176_3> ;
+    narr:covers <https://aswritten.ai/narrative#Position_CoreFeatureDecisionCapture> ;
+    narr:covers <https://aswritten.ai/narrative#Position_SprintRetroDeliveryVelocityUnlock> ;
+    narr:keyPhrase [ narr:text "We shipped the async decision widget." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1E2ETanyaCollab1788687068176_1> ] ;
+    narr:keyPhrase [ narr:text "Velocity was 23 points, highest this quarter." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1E2ETanyaCollab1788687068176_2> ] ;
+    narr:keyPhrase [ narr:text "The Zephyr integration was the key unlock." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1E2ETanyaCollab1788687068176_3> ] ;
+    narr:variation [ narr:text "The operational records focus on execution metrics and delivery milestones rather than core architectural design." ; narr:over <https://aswritten.ai/narrative#Expr_1E2ETanyaCollab1788687068176_1> ; narr:over <https://aswritten.ai/narrative#Expr_1E2ETanyaCollab1788687068176_2> ; narr:over <https://aswritten.ai/narrative#Expr_1E2ETanyaCollab1788687068176_3> ] ;
+    narr:writer "google/gemini-3.5-flash-lite" .
+}

@@ -1,0 +1,38 @@
+{
+  "children" : {
+    "n:Narrative_AntiSlackPositioning" : {
+      "n:Position_AntiPatternRealtimeChat" : 2,
+      "n:Position_PricingTwelveDollars" : 1,
+      "n:Position_ProductCategoryAsyncPlatform" : 1,
+      "n:Position_TargetMarketRemoteTeams" : 1
+    },
+    "n:Narrative_DecisionCaptureAtConsensus" : {
+      "n:Expr_1E2ETanyaCollab1788687068176_1" : 2,
+      "n:Expr_1E2ETanyaCollab1788687068176_2" : 1,
+      "n:Expr_1E2ETanyaCollab1788687068176_3" : 1,
+      "n:Position_CoreFeatureDecisionCapture" : 1,
+      "n:Position_SprintRetroDeliveryVelocityUnlock" : 2
+    }
+  },
+  "generated_from" : "1cccbb7f50caf0b2200fd9847cda8ffcbb6b3bea",
+  "hubs" : {
+    "n:Narrative_AntiSlackPositioning" : 1,
+    "n:Narrative_DecisionCaptureAtConsensus" : 2
+  },
+  "params" : {
+    "conviction-floor" : 2,
+    "indexed-cap" : 24,
+    "indexed-frac" : 0.35,
+    "indexed-min" : 4,
+    "rich-cap" : 4,
+    "rich-frac" : 0.15,
+    "rich-min" : 1
+  },
+  "prefixes" : {
+    "n" : "https://aswritten.ai/narrative#",
+    "o" : "https://aswritten.ai/ns/narrative#"
+  },
+  "runs_sha" : "ba905ebf86280e7bc5476d105ecf8d7a20e2fb20",
+  "sittings" : 115,
+  "spec" : "fidelity-bands/1"
+}
