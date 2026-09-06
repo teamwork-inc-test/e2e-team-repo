@@ -1,0 +1,48 @@
+{
+  "children" : {
+    "n:Actor_Tanya_Staging" : {
+      "n:Expr_1E2EDefaultRef1788169170042_1" : 2,
+      "n:Expr_1E2EDefaultRef1788255387470_1" : 2,
+      "n:Expr_1E2EDefaultRef1788307540537_1" : 1,
+      "n:Expr_1E2EDefaultRef1788429585432_1" : 1,
+      "n:Expr_1E2EDefaultRef1788514817267_1" : 1,
+      "n:Expr_1E2EDefaultRef1788600637900_1" : 1
+    },
+    "n:Narrative_AntiSlackPositioning" : {
+      "n:Position_AntiPatternRealtimeChat" : 2,
+      "n:Position_PricingTwelveDollars" : 1,
+      "n:Position_ProductCategoryAsyncPlatform" : 1,
+      "n:Position_TargetMarketRemoteTeams" : 1
+    },
+    "n:Narrative_DefaultRefTopicBranch" : {
+      "n:Expr_1E2EDefaultRef1788169170042_1" : 2,
+      "n:Expr_1E2EDefaultRef1788255387470_1" : 2,
+      "n:Expr_1E2EDefaultRef1788307540537_1" : 1,
+      "n:Expr_1E2EDefaultRef1788429585432_1" : 1,
+      "n:Expr_1E2EDefaultRef1788514817267_1" : 1,
+      "n:Expr_1E2EDefaultRef1788600637900_1" : 1
+    }
+  },
+  "generated_from" : "8b9addc653ac68b07f13d9b5706e1fc2d93846bb",
+  "hubs" : {
+    "n:Actor_Tanya_Staging" : 2,
+    "n:Narrative_AntiSlackPositioning" : 1,
+    "n:Narrative_DefaultRefTopicBranch" : 2
+  },
+  "params" : {
+    "conviction-floor" : 2,
+    "indexed-cap" : 24,
+    "indexed-frac" : 0.35,
+    "indexed-min" : 4,
+    "rich-cap" : 4,
+    "rich-frac" : 0.15,
+    "rich-min" : 1
+  },
+  "prefixes" : {
+    "n" : "https://aswritten.ai/narrative#",
+    "o" : "https://aswritten.ai/ns/narrative#"
+  },
+  "runs_sha" : "58ff86203c3df60a5ed3a30fa32e44619339e4da",
+  "sittings" : 112,
+  "spec" : "fidelity-bands/1"
+}
