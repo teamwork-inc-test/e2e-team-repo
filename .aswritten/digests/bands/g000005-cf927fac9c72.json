@@ -23,7 +23,7 @@
       "n:Expr_1E2EDefaultRef1788600637900_1" : 1
     }
   },
-  "generated_from" : "8b9addc653ac68b07f13d9b5706e1fc2d93846bb",
+  "generated_from" : "cf927fac9c72248c381a7af49594db2e4041f915",
   "hubs" : {
     "n:Actor_Tanya_Staging" : 2,
     "n:Narrative_AntiSlackPositioning" : 1,
@@ -42,7 +42,7 @@
     "n" : "https://aswritten.ai/narrative#",
     "o" : "https://aswritten.ai/ns/narrative#"
   },
-  "runs_sha" : "58ff86203c3df60a5ed3a30fa32e44619339e4da",
-  "sittings" : 112,
+  "runs_sha" : "d8dd228f728e98ead8e344926bd6297452b49bd4",
+  "sittings" : 114,
   "spec" : "fidelity-bands/1"
 }
