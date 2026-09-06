@@ -1,0 +1,12 @@
+{
+  "positions" : [ {
+    "name" : "SprintRetroDeliveryVelocityUnlock",
+    "frame" : "What technical dependencies and execution factors enabled the shipment and peak velocity of the async decision widget?",
+    "members" : [ "src-1", "src-2", "src-3" ],
+    "why" : "The retro statements link the concrete delivery of the async decision widget directly to the quarter-peak velocity metric and isolate the Zephyr integration as the primary causal unlock.",
+    "under" : [ "Narrative_DecisionCaptureAtConsensus" ]
+  } ],
+  "attaches" : [ ],
+  "position_revisions" : [ ],
+  "ungrouped" : [ ]
+}
