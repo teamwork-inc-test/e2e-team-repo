@@ -1,0 +1,15 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "communal-sharing" ],
+    "evidence" : [ {
+      "quote" : "We",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Enacts communal sharing by attributing the delivery to the unified team body.",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-2", "src-3" ],
+  "mints" : [ ],
+  "region_mints" : [ ]
+}
