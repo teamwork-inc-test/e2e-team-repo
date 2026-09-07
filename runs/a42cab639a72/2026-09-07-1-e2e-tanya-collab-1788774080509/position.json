@@ -1,0 +1,12 @@
+{
+  "positions" : [ {
+    "name" : "SprintVelocityEnablers",
+    "frame" : "what factors enabled record sprint velocity in shipping the async decision widget?",
+    "members" : [ "src-1", "src-2", "src-3" ],
+    "why" : "The expressions jointly account for the sprint's delivery milestone, linking the shipment of the async decision widget to a quarterly high in velocity and isolating the Zephyr integration as the critical causal unlock.",
+    "under" : [ "Narrative_DecisionCaptureAtConsensus" ]
+  } ],
+  "attaches" : [ ],
+  "position_revisions" : [ ],
+  "ungrouped" : [ ]
+}
