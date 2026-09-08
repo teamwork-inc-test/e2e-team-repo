@@ -1,0 +1,63 @@
+{
+  "run_id" : "mp-eng-bfb0b554",
+  "gates" : [ {
+    "id" : "aswritten/clarify",
+    "run?" : false,
+    "gate" : 2,
+    "reason" : "score 0.0 < threshold 0.7",
+    "score" : 0.0,
+    "evidence" : [ "plain-assertion: Velocity was 23 points, highest this quarter.", "plain-assertion: The Zephyr integration was the key unlock.", "Unhedged assertion of a factual achievement delivered without ratification framing.", "Mints a new position on the async decision widget delivery, framing the release through peak velocity metrics and the Zephyr integration unlock." ]
+  }, {
+    "id" : "aswritten/refract",
+    "run?" : true,
+    "gate" : 2,
+    "reason" : "predicate only"
+  }, {
+    "id" : "aswritten/review",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "skill off"
+  }, {
+    "id" : "aswritten/riff",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "requires perspective, expand"
+  } ],
+  "spend" : {
+    "cost_usd" : 0.005426,
+    "passes" : [ {
+      "pass" : "reaction:_score",
+      "llm_calls" : 1,
+      "cost_usd" : 0.00190265
+    }, {
+      "pass" : "reaction:refract",
+      "llm_calls" : 1,
+      "cost_usd" : 0.00352355
+    } ]
+  },
+  "bundle" : {
+    "items" : 0,
+    "audience" : "only-me",
+    "recipients" : 1,
+    "moments_cached" : true,
+    "sent" : [ ]
+  },
+  "policy" : {
+    "mode" : "on",
+    "budget_per_run_usd" : 0.25,
+    "channels" : [ "email", "sms" ]
+  },
+  "jobs" : [ {
+    "skill" : "aswritten/refract",
+    "status" : "failed",
+    "reason" : "unparseable reply",
+    "gate" : { },
+    "landing" : {
+      "landed" : "message"
+    },
+    "ms" : 126527
+  } ],
+  "stream" : "e2e-collab-1788860061049",
+  "at" : "2026-09-08T09:40:30.017362645Z",
+  "live_run_id" : "f16745694fa9"
+}
