@@ -1,0 +1,14 @@
+{
+  "bindings" : [ {
+    "name" : "Tanya TeamOwner",
+    "verdict" : "bind",
+    "target" : "Actor_Tanya_Staging",
+    "label" : "Tanya TeamOwner",
+    "why" : "Envelope participant and submitter matches Actor_Tanya_Staging via account email tanya+staging@aswritten.ai and note context; enriching label to fullest witnessed form."
+  }, {
+    "name" : "tanya+staging@aswritten.ai",
+    "verdict" : "bind",
+    "target" : "Actor_Tanya_Staging",
+    "why" : "Exact email match explicitly recorded in existing Actor_Tanya_Staging description."
+  } ]
+}
