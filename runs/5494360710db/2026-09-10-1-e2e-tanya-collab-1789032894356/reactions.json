@@ -1,0 +1,77 @@
+{
+  "run_id" : "mp-eng-0e0f71b5",
+  "gates" : [ {
+    "id" : "aswritten/clarify",
+    "run?" : false,
+    "gate" : 2,
+    "reason" : "score 0.0 < threshold 0.7",
+    "score" : 0.0,
+    "evidence" : [ "plain-assertion: Velocity was 23 points, highest this quarter.", "Flat factual metric statement without epistemic hedges.", "plain-assertion: The Zephyr integration was the key unlock.", "Definitive retrospective assessment asserting causal attribution without qualification." ]
+  }, {
+    "id" : "aswritten/refract",
+    "run?" : true,
+    "gate" : 2,
+    "reason" : "predicate only"
+  }, {
+    "id" : "aswritten/review",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "skill off"
+  }, {
+    "id" : "aswritten/riff",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "requires perspective, expand"
+  } ],
+  "spend" : {
+    "cost_usd" : 0.003647,
+    "passes" : [ {
+      "pass" : "reaction:_score",
+      "llm_calls" : 1,
+      "cost_usd" : 0.00168065
+    }, {
+      "pass" : "reaction:refract",
+      "llm_calls" : 1,
+      "cost_usd" : 0.00196655
+    } ]
+  },
+  "bundle" : {
+    "items" : 1,
+    "audience" : "only-me",
+    "recipients" : 1,
+    "moments_cached" : true,
+    "sent" : [ {
+      "items" : [ {
+        "kind" : "note",
+        "skill" : "aswritten/refract",
+        "audience" : "speakers"
+      } ],
+      "handle" : "tanya+staging@aswritten.ai",
+      "channel" : "email",
+      "status" : "sent",
+      "front_message_id" : "msg_3cwogico",
+      "front_conversation_id" : "cnv_1p5ykpew"
+    } ]
+  },
+  "policy" : {
+    "mode" : "on",
+    "budget_per_run_usd" : 0.25,
+    "channels" : [ "email", "sms" ]
+  },
+  "jobs" : [ {
+    "skill" : "aswritten/refract",
+    "status" : "ok",
+    "gate" : { },
+    "output" : {
+      "lens" : null,
+      "ask" : "I can see the shift — the retro now credits the Zephyr integration as the key unlock behind this quarter's peak velocity of 23 points — but this stream has no documents indexed yet, so I can't see where it lands; point me at the retro or planning notes and I'll take it from there."
+    },
+    "landing" : {
+      "landed" : "message"
+    },
+    "ms" : 36511
+  } ],
+  "stream" : "e2e-collab-1789032822242",
+  "at" : "2026-09-10T09:36:57.900880375Z",
+  "live_run_id" : "5494360710db"
+}
