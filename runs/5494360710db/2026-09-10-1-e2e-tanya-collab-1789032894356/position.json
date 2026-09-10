@@ -1,0 +1,12 @@
+{
+  "positions" : [ {
+    "name" : "SprintDeliveryVelocityEnablers",
+    "frame" : "what factors and integrations drove sprint delivery velocity for the async decision widget?",
+    "members" : [ "src-1", "src-2", "src-3" ],
+    "why" : "The segments cohere around retrospective evaluation of sprint delivery, linking the shipped feature outcome, peak velocity metric, and the critical architectural unlock that enabled execution.",
+    "under" : [ "Narrative_DecisionCaptureAtConsensus" ]
+  } ],
+  "attaches" : [ ],
+  "position_revisions" : [ ],
+  "ungrouped" : [ ]
+}
