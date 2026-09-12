@@ -1,0 +1,23 @@
+@prefix narr: <https://aswritten.ai/narrative#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+GRAPH <https://aswritten.ai/narrative#Digest_Narrative_DecisionCaptureAtConsensus> {
+  <https://aswritten.ai/narrative#Digest_Narrative_DecisionCaptureAtConsensus> a narr:Digest ;
+    narr:digestOf <https://aswritten.ai/narrative#Narrative_DecisionCaptureAtConsensus> ;
+    narr:childCount "5"^^xsd:integer ;
+    narr:generatedFrom "57a27151be8f82e3232646b49b3bd64f95aba8c8" ;
+    narr:narration """[The core-feature thesis](narr:Position_CoreFeatureDecisionCapture) frames the differentiator this hub organizes around, set down first. Months later, three team-voiced updates land close together: [a shipped-widget report](narr:Expr_1E2ETanyaCollab1789205548941_1), [a velocity claim](narr:Expr_1E2ETanyaCollab1789205548941_2), and [an integration credit](narr:Expr_1E2ETanyaCollab1789205548941_3), all from the same speaker on the same day. Alongside them sits [a driver-focused frame](narr:Position_SprintExecutionDrivers) posed as a question rather than answered — a place where support could sit but has not yet been supplied. The sequence reads as thesis-then-evidence, though the evidence so far is self-reported and undated against the thesis's own framing.""" ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1E2ETanyaCollab1789205548941_1> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1E2ETanyaCollab1789205548941_2> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1E2ETanyaCollab1789205548941_3> ;
+    narr:covers <https://aswritten.ai/narrative#Position_CoreFeatureDecisionCapture> ;
+    narr:covers <https://aswritten.ai/narrative#Position_SprintExecutionDrivers> ;
+    narr:keyPhrase [ narr:text "We shipped the async decision widget." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1E2ETanyaCollab1789205548941_1> ] ;
+    narr:keyPhrase [ narr:text "Velocity was 23 points, highest this quarter." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1E2ETanyaCollab1789205548941_2> ] ;
+    narr:keyPhrase [ narr:text "The Zephyr integration was the key unlock." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1E2ETanyaCollab1789205548941_3> ] ;
+    narr:keyPhrase [ narr:text "Core feature: decision capture at the point of consensus." ; narr:phraseSource <https://aswritten.ai/narrative#Position_CoreFeatureDecisionCapture> ] ;
+    narr:keyPhrase [ narr:text "This is the product's primary differentiator" ; narr:phraseSource <https://aswritten.ai/narrative#Position_CoreFeatureDecisionCapture> ] ;
+    narr:variation [ narr:text "The team-owner's delivery updates lean self-enhancing (a highest-of-quarter velocity claim) with no independent corroboration in this hub." ; narr:over <https://aswritten.ai/narrative#Expr_1E2ETanyaCollab1789205548941_1> ; narr:over <https://aswritten.ai/narrative#Expr_1E2ETanyaCollab1789205548941_2> ; narr:over <https://aswritten.ai/narrative#Expr_1E2ETanyaCollab1789205548941_3> ] ;
+    narr:variation [ narr:text "The driver-focused frame asks what technical capabilities drove the milestone but carries no content yet — a signal this hub does not (yet) hold that answer." ; narr:over <https://aswritten.ai/narrative#Position_SprintExecutionDrivers> ] ;
+    narr:writer "subscription.anthropic/claude-sonnet-5" .
+}
