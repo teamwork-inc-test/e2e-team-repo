@@ -1,0 +1,12 @@
+{
+  "positions" : [ {
+    "name" : "SprintExecutionDrivers",
+    "frame" : "what technical capabilities and delivery metrics drove the async decision widget milestone?",
+    "members" : [ "src-1", "src-2", "src-3" ],
+    "why" : "The segments jointly connect the completed shipment of the async decision widget to the peak 23-point sprint velocity and the Zephyr integration identified as the core enabling unlock.",
+    "under" : [ "Narrative_DecisionCaptureAtConsensus" ]
+  } ],
+  "attaches" : [ ],
+  "position_revisions" : [ ],
+  "ungrouped" : [ ]
+}
