@@ -1,0 +1,12 @@
+{
+  "positions" : [ {
+    "name" : "IntegrationUnlocksAndDeliveryVelocity",
+    "frame" : "What technical unlocks and integration choices drive delivery velocity for async decision capture?",
+    "members" : [ "src-1", "src-2", "src-3" ],
+    "why" : "The segments jointly frame the successful shipment of the async decision widget and the quarter's peak 23-point velocity as directly enabled by the Zephyr integration unlock.",
+    "under" : [ "Narrative_DecisionCaptureAtConsensus" ]
+  } ],
+  "attaches" : [ ],
+  "position_revisions" : [ ],
+  "ungrouped" : [ ]
+}
