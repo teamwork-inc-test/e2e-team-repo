@@ -1,0 +1,15 @@
+{
+  "bindings" : [ {
+    "name" : "Tanya TeamOwner",
+    "verdict" : "bind",
+    "target" : "Actor_Tanya_Staging",
+    "label" : "Tanya TeamOwner",
+    "why" : "Participant and submitter tied to account tanya+staging@aswritten.ai and note Default Ref Test, matching Actor_Tanya_Staging."
+  }, {
+    "name" : "tanya+staging@aswritten.ai",
+    "verdict" : "bind",
+    "target" : "Actor_Tanya_Staging",
+    "label" : "Tanya TeamOwner",
+    "why" : "Email identifier explicitly listed for existing actor Actor_Tanya_Staging."
+  } ]
+}
