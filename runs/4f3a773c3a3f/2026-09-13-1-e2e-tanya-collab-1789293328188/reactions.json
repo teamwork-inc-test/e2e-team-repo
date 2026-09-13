@@ -1,0 +1,77 @@
+{
+  "run_id" : "mp-eng-a07d49cb",
+  "gates" : [ {
+    "id" : "aswritten/clarify",
+    "run?" : false,
+    "gate" : 2,
+    "reason" : "score 0.0 < threshold 0.7",
+    "score" : 0.0,
+    "evidence" : [ "plain-assertion: Velocity was 23 points, highest this quarter.", "plain-assertion: The Zephyr integration was the key unlock.", "aswr:missError \"resolutions empty against a populated perspective\"", "high-conviction claims regarding the Zephyr integration and record-high sprint metrics" ]
+  }, {
+    "id" : "aswritten/refract",
+    "run?" : true,
+    "gate" : 2,
+    "reason" : "predicate only"
+  }, {
+    "id" : "aswritten/review",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "skill off"
+  }, {
+    "id" : "aswritten/riff",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "requires perspective, expand"
+  } ],
+  "spend" : {
+    "cost_usd" : 0.003917,
+    "passes" : [ {
+      "pass" : "reaction:_score",
+      "llm_calls" : 1,
+      "cost_usd" : 0.00169855
+    }, {
+      "pass" : "reaction:refract",
+      "llm_calls" : 1,
+      "cost_usd" : 0.00221795
+    } ]
+  },
+  "bundle" : {
+    "items" : 1,
+    "audience" : "only-me",
+    "recipients" : 1,
+    "moments_cached" : true,
+    "sent" : [ {
+      "items" : [ {
+        "kind" : "note",
+        "skill" : "aswritten/refract",
+        "audience" : "speakers"
+      } ],
+      "handle" : "tanya+staging@aswritten.ai",
+      "channel" : "email",
+      "status" : "sent",
+      "front_message_id" : "msg_3d1uuxpk",
+      "front_conversation_id" : "cnv_1p8eibjc"
+    } ]
+  },
+  "policy" : {
+    "mode" : "on",
+    "budget_per_run_usd" : 0.25,
+    "channels" : [ "email", "sms" ]
+  },
+  "jobs" : [ {
+    "skill" : "aswritten/refract",
+    "status" : "ok",
+    "gate" : { },
+    "output" : {
+      "lens" : null,
+      "ask" : "I can see the shift — the team now reads delivery velocity through its integration choices, 'The Zephyr integration was the key unlock' — but this stream has no candidate documents yet to see where that lands; point me at the planning, retro, or tooling docs it should move and I'll test it there."
+    },
+    "landing" : {
+      "landed" : "message"
+    },
+    "ms" : 9325
+  } ],
+  "stream" : "e2e-collab-1789293258983",
+  "at" : "2026-09-13T09:57:32.053354790Z",
+  "live_run_id" : "4f3a773c3a3f"
+}
