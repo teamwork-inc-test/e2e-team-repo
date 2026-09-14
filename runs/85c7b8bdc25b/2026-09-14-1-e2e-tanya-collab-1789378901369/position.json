@@ -1,0 +1,12 @@
+{
+  "positions" : [ {
+    "name" : "SprintDeliveryVelocityDrivers",
+    "frame" : "what technical integrations and execution factors drive team velocity during feature delivery?",
+    "members" : [ "src-1", "src-2", "src-3" ],
+    "why" : "The statements link the completion of the async decision widget to a record 23-point sprint velocity and identify the Zephyr integration as the core technical unlock enabling this delivery pace.",
+    "under" : [ "Narrative_DecisionCaptureAtConsensus" ]
+  } ],
+  "attaches" : [ ],
+  "position_revisions" : [ ],
+  "ungrouped" : [ ]
+}
