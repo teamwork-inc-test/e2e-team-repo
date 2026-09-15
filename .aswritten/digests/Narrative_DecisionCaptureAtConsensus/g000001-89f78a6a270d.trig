@@ -1,0 +1,21 @@
+@prefix narr: <https://aswritten.ai/narrative#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+GRAPH <https://aswritten.ai/narrative#Digest_Narrative_DecisionCaptureAtConsensus> {
+  <https://aswritten.ai/narrative#Digest_Narrative_DecisionCaptureAtConsensus> a narr:Digest ;
+    narr:digestOf <https://aswritten.ai/narrative#Narrative_DecisionCaptureAtConsensus> ;
+    narr:childCount "5"^^xsd:integer ;
+    narr:generatedFrom "89f78a6a270de138d24b80ad89ff8e588663b5ac" ;
+    narr:narration """The trajectory tracks [delivery milestones and velocity metrics](narr:https://aswritten.ai/narrative#Expr_1E2ETanyaCollab1789465193237_1) anchored by [the integration enabler](narr:https://aswritten.ai/narrative#Expr_1E2ETanyaCollab1789465193237_3) alongside [sprint output figures](narr:https://aswritten.ai/narrative#Expr_1E2ETanyaCollab1789465193237_2), while the foundational scope is set by [the core product differentiator](narr:https://aswritten.ai/narrative#Position_CoreFeatureDecisionCapture) and framed through [technical driver benchmarks](narr:https://aswritten.ai/narrative#Position_AsyncWidgetDeliveryDrivers).""" ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1E2ETanyaCollab1789465193237_1> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1E2ETanyaCollab1789465193237_2> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1E2ETanyaCollab1789465193237_3> ;
+    narr:covers <https://aswritten.ai/narrative#Position_AsyncWidgetDeliveryDrivers> ;
+    narr:covers <https://aswritten.ai/narrative#Position_CoreFeatureDecisionCapture> ;
+    narr:keyPhrase [ narr:text "We shipped the async decision widget." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1E2ETanyaCollab1789465193237_1> ] ;
+    narr:keyPhrase [ narr:text "Velocity was 23 points, highest this quarter." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1E2ETanyaCollab1789465193237_2> ] ;
+    narr:keyPhrase [ narr:text "The Zephyr integration was the key unlock." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1E2ETanyaCollab1789465193237_3> ] ;
+    narr:keyPhrase [ narr:text "Core feature: decision capture at the point of consensus. This is the product's primary differentiator — capturing the decision artifact at the moment it's made." ; narr:phraseSource <https://aswritten.ai/narrative#Position_CoreFeatureDecisionCapture> ] ;
+    narr:variation [ narr:text "Empirical delivery metrics and velocity milestones contrast with the foundational architectural product definition." ; narr:over <https://aswritten.ai/narrative#Expr_1E2ETanyaCollab1789465193237_1> ; narr:over <https://aswritten.ai/narrative#Expr_1E2ETanyaCollab1789465193237_2> ; narr:over <https://aswritten.ai/narrative#Expr_1E2ETanyaCollab1789465193237_3> ; narr:over <https://aswritten.ai/narrative#Position_CoreFeatureDecisionCapture> ] ;
+    narr:writer "google/gemini-3.5-flash-lite" .
+}
