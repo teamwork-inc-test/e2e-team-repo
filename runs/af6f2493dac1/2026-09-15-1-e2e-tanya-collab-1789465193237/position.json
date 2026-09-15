@@ -1,0 +1,12 @@
+{
+  "positions" : [ {
+    "name" : "AsyncWidgetDeliveryDrivers",
+    "frame" : "What delivery benchmarks and technical enablers drove sprint velocity for the async decision widget?",
+    "members" : [ "src-1", "src-2", "src-3" ],
+    "why" : "Connects the completed shipment of the async decision widget and peak quarterly velocity of 23 points directly to the Zephyr integration unlock, reading the sprint outcomes as a unified retrospective on delivery drivers.",
+    "under" : [ "Narrative_DecisionCaptureAtConsensus" ]
+  } ],
+  "attaches" : [ ],
+  "position_revisions" : [ ],
+  "ungrouped" : [ ]
+}
