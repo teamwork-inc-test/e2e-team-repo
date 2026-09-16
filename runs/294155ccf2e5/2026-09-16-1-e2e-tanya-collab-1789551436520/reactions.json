@@ -1,0 +1,77 @@
+{
+  "run_id" : "mp-eng-b0fc8594",
+  "gates" : [ {
+    "id" : "aswritten/clarify",
+    "run?" : false,
+    "gate" : 2,
+    "reason" : "score 0.0 < threshold 0.7",
+    "score" : 0.0,
+    "evidence" : [ "plain-assertion: Velocity was 23 points, highest this quarter.", "Flat factual metric assertion stated definitively without hedge.", "Reports an operational accomplishment / completed action as settled fact without hedge.", "Evaluative stance presented as a direct, unhedged assertion ready to defend.", "aswr:missError \"0 of 3 segments marked\"" ]
+  }, {
+    "id" : "aswritten/refract",
+    "run?" : true,
+    "gate" : 2,
+    "reason" : "predicate only"
+  }, {
+    "id" : "aswritten/review",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "skill off"
+  }, {
+    "id" : "aswritten/riff",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "requires perspective, expand"
+  } ],
+  "spend" : {
+    "cost_usd" : 0.004868,
+    "passes" : [ {
+      "pass" : "reaction:_score",
+      "llm_calls" : 1,
+      "cost_usd" : 0.00167565
+    }, {
+      "pass" : "reaction:refract",
+      "llm_calls" : 1,
+      "cost_usd" : 0.00319255
+    } ]
+  },
+  "bundle" : {
+    "items" : 1,
+    "audience" : "only-me",
+    "recipients" : 1,
+    "moments_cached" : true,
+    "sent" : [ {
+      "items" : [ {
+        "kind" : "note",
+        "skill" : "aswritten/refract",
+        "audience" : "speakers"
+      } ],
+      "handle" : "tanya+staging@aswritten.ai",
+      "channel" : "email",
+      "status" : "sent",
+      "front_message_id" : "msg_3d73p3jc",
+      "front_conversation_id" : "cnv_1pb0zd48"
+    } ]
+  },
+  "policy" : {
+    "mode" : "on",
+    "budget_per_run_usd" : 0.25,
+    "channels" : [ "email", "sms" ]
+  },
+  "jobs" : [ {
+    "skill" : "aswritten/refract",
+    "status" : "ok",
+    "gate" : { },
+    "output" : {
+      "lens" : null,
+      "ask" : "There's a real shift here — the async decision widget shipped on record 23-point velocity, with the Zephyr integration named as the key unlock — but this stream has no documents yet for it to move; which retro, planning, or tooling docs should I read it against?"
+    },
+    "landing" : {
+      "landed" : "message"
+    },
+    "ms" : 42877
+  } ],
+  "stream" : "e2e-collab-1789551320064",
+  "at" : "2026-09-16T09:40:08.297512790Z",
+  "live_run_id" : "294155ccf2e5"
+}
