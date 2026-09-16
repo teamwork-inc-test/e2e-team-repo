@@ -1,0 +1,47 @@
+{
+  "doc" : {
+    "title" : "Tanya's Sprint Retro",
+    "date_stated" : null,
+    "actors_present" : [ "Tanya TeamOwner" ]
+  },
+  "footing_cases" : [ ],
+  "segments" : [ {
+    "circumstance" : {
+      "context" : "Tanya's Sprint Retro"
+    },
+    "exact" : "We shipped the async decision widget.",
+    "local_id" : "src-1",
+    "act" : "assertive",
+    "footing_case" : null,
+    "note" : null,
+    "redacted" : false,
+    "how" : [ {
+      "span" : "Tanya:",
+      "side" : "supply"
+    } ],
+    "actor" : "Tanya TeamOwner"
+  }, {
+    "local_id" : "src-2",
+    "exact" : "Velocity was 23 points, highest this quarter.",
+    "actor" : "Tanya TeamOwner",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Tanya's Sprint Retro"
+    },
+    "note" : null,
+    "redacted" : false,
+    "footing_case" : null
+  }, {
+    "local_id" : "src-3",
+    "exact" : "The Zephyr integration was the key unlock.",
+    "actor" : "Tanya TeamOwner",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Tanya's Sprint Retro"
+    },
+    "note" : null,
+    "redacted" : false,
+    "footing_case" : null
+  } ],
+  "coverage_gaps" : [ ]
+}
