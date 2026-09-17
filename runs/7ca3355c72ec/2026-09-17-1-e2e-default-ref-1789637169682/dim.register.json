@@ -1,0 +1,16 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "matter-of-fact", "technical" ],
+    "evidence" : [ {
+      "quote" : "omitted ref creates a topic branch",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "The statement uses direct version-control terminology to describe a test case neutrally and without rhetorical embellishment.",
+    "reported" : false
+  } ],
+  "unmarked" : [ ],
+  "unmarked_rest" : false,
+  "mints" : [ ],
+  "region_mints" : [ ]
+}
