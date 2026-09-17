@@ -1,0 +1,77 @@
+{
+  "run_id" : "mp-eng-9707e348",
+  "gates" : [ {
+    "id" : "aswritten/clarify",
+    "run?" : false,
+    "gate" : 2,
+    "reason" : "score 0.1 < threshold 0.7",
+    "score" : 0.1,
+    "evidence" : [ "plain-assertion: We shipped the async decision widget.", "plain-assertion: Velocity was 23 points, highest this quarter.", "Direct, confident causal assertion without hedging.", "\"missError\": \"0 of 3 segments marked\"" ]
+  }, {
+    "id" : "aswritten/refract",
+    "run?" : true,
+    "gate" : 2,
+    "reason" : "predicate only"
+  }, {
+    "id" : "aswritten/review",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "skill off"
+  }, {
+    "id" : "aswritten/riff",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "requires perspective, expand"
+  } ],
+  "spend" : {
+    "cost_usd" : 0.003923,
+    "passes" : [ {
+      "pass" : "reaction:_score",
+      "llm_calls" : 1,
+      "cost_usd" : 0.00179385
+    }, {
+      "pass" : "reaction:refract",
+      "llm_calls" : 1,
+      "cost_usd" : 0.00212875
+    } ]
+  },
+  "bundle" : {
+    "items" : 1,
+    "audience" : "only-me",
+    "recipients" : 1,
+    "moments_cached" : true,
+    "sent" : [ {
+      "items" : [ {
+        "kind" : "note",
+        "skill" : "aswritten/refract",
+        "audience" : "speakers"
+      } ],
+      "handle" : "tanya+staging@aswritten.ai",
+      "channel" : "email",
+      "status" : "sent",
+      "front_message_id" : "msg_3d9fzync",
+      "front_conversation_id" : "cnv_1pc7gaaw"
+    } ]
+  },
+  "policy" : {
+    "mode" : "on",
+    "budget_per_run_usd" : 0.25,
+    "channels" : [ "email", "sms" ]
+  },
+  "jobs" : [ {
+    "skill" : "aswritten/refract",
+    "status" : "ok",
+    "gate" : { },
+    "output" : {
+      "lens" : null,
+      "ask" : "I can see the shift — the retro now credits the Zephyr integration as the key unlock behind the team's record 23-point velocity — but this run included no documents to read it against, so I can't yet say where it lands; point me at the sprint reports, retro summaries, or integration notes and I'll map everything it moves."
+    },
+    "landing" : {
+      "landed" : "message"
+    },
+    "ms" : 43706
+  } ],
+  "stream" : "e2e-collab-1789637164734",
+  "at" : "2026-09-17T09:32:06.123956415Z",
+  "live_run_id" : "1fe0c76e6a00"
+}
