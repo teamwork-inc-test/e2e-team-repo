@@ -1,0 +1,32 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "past", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "shipped the async decision widget",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Reports a completed past action involving a specific concrete artifact as settled fact.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-2",
+    "regions" : [ "past", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "Velocity was 23 points",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Past-tense factual reporting of a specific historical sprint metric.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-3",
+    "regions" : [ "past", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "The Zephyr integration was the key unlock.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Evaluates a specific named past integration as an actual realized enabler.",
+    "reported" : false
+  } ],
+  "unmarked" : [ ],
+  "unmarked_rest" : false
+}
