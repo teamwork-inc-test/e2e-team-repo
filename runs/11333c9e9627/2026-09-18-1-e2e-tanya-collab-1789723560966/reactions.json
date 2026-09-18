@@ -1,0 +1,77 @@
+{
+  "run_id" : "mp-eng-05941136",
+  "gates" : [ {
+    "id" : "aswritten/clarify",
+    "run?" : false,
+    "gate" : 2,
+    "reason" : "score 0.0 < threshold 0.7",
+    "score" : 0.0,
+    "evidence" : [ "plain-assertion: We shipped the async decision widget.", "plain-assertion: Velocity was 23 points, highest this quarter.", "plain-assertion: The Zephyr integration was the key unlock.", "Definitive retrospective causal assessment asserted as a confident claim.", "Unhedged factual assertion reporting sprint metrics." ]
+  }, {
+    "id" : "aswritten/refract",
+    "run?" : true,
+    "gate" : 2,
+    "reason" : "predicate only"
+  }, {
+    "id" : "aswritten/review",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "skill off"
+  }, {
+    "id" : "aswritten/riff",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "requires perspective, expand"
+  } ],
+  "spend" : {
+    "cost_usd" : 0.003625,
+    "passes" : [ {
+      "pass" : "reaction:_score",
+      "llm_calls" : 1,
+      "cost_usd" : 0.00158025
+    }, {
+      "pass" : "reaction:refract",
+      "llm_calls" : 1,
+      "cost_usd" : 0.00204515
+    } ]
+  },
+  "bundle" : {
+    "items" : 1,
+    "audience" : "only-me",
+    "recipients" : 1,
+    "moments_cached" : true,
+    "sent" : [ {
+      "items" : [ {
+        "kind" : "note",
+        "skill" : "aswritten/refract",
+        "audience" : "speakers"
+      } ],
+      "handle" : "tanya+staging@aswritten.ai",
+      "channel" : "email",
+      "status" : "sent",
+      "front_message_id" : "msg_3dbtvqeg",
+      "front_conversation_id" : "cnv_1pdg38q0"
+    } ]
+  },
+  "policy" : {
+    "mode" : "on",
+    "budget_per_run_usd" : 0.25,
+    "channels" : [ "email", "sms" ]
+  },
+  "jobs" : [ {
+    "skill" : "aswritten/refract",
+    "status" : "ok",
+    "gate" : { },
+    "output" : {
+      "lens" : null,
+      "ask" : "I can see what changed — the retro now credits the Zephyr integration as the key unlock behind the async decision widget's quarter-high 23-point sprint — but this stream's document index is empty, so I can't tell yet where that lands or what else it moves."
+    },
+    "landing" : {
+      "landed" : "message"
+    },
+    "ms" : 10757
+  } ],
+  "stream" : "e2e-collab-1789723489647",
+  "at" : "2026-09-18T09:27:39.043121911Z",
+  "live_run_id" : "11333c9e9627"
+}
