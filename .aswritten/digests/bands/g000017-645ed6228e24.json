@@ -4,13 +4,15 @@
       "n:Expr_1E2EDefaultRef1788169170042_1" : 2,
       "n:Expr_1E2EDefaultRef1788255387470_1" : 2,
       "n:Expr_1E2EDefaultRef1788307540537_1" : 2,
-      "n:Expr_1E2EDefaultRef1788429585432_1" : 1,
+      "n:Expr_1E2EDefaultRef1788429585432_1" : 2,
       "n:Expr_1E2EDefaultRef1788514817267_1" : 1,
       "n:Expr_1E2EDefaultRef1788600637900_1" : 1,
       "n:Expr_1E2EDefaultRef1788687000950_1" : 1,
       "n:Expr_1E2EDefaultRef1788774012301_1" : 1,
       "n:Expr_1E2EDefaultRef1788860066803_1" : 1,
-      "n:Expr_1E2EDefaultRef1788946504627_1" : 1
+      "n:Expr_1E2EDefaultRef1788946504627_1" : 1,
+      "n:Expr_1E2EDefaultRef1789032827498_1" : 1,
+      "n:Expr_1E2EDefaultRef1789119299167_1" : 1
     },
     "n:Narrative_AntiSlackPositioning" : {
       "n:Position_AntiPatternRealtimeChat" : 2,
@@ -22,16 +24,18 @@
       "n:Expr_1E2EDefaultRef1788169170042_1" : 2,
       "n:Expr_1E2EDefaultRef1788255387470_1" : 2,
       "n:Expr_1E2EDefaultRef1788307540537_1" : 2,
-      "n:Expr_1E2EDefaultRef1788429585432_1" : 1,
+      "n:Expr_1E2EDefaultRef1788429585432_1" : 2,
       "n:Expr_1E2EDefaultRef1788514817267_1" : 1,
       "n:Expr_1E2EDefaultRef1788600637900_1" : 1,
       "n:Expr_1E2EDefaultRef1788687000950_1" : 1,
       "n:Expr_1E2EDefaultRef1788774012301_1" : 1,
       "n:Expr_1E2EDefaultRef1788860066803_1" : 1,
-      "n:Expr_1E2EDefaultRef1788946504627_1" : 1
+      "n:Expr_1E2EDefaultRef1788946504627_1" : 1,
+      "n:Expr_1E2EDefaultRef1789032827498_1" : 1,
+      "n:Expr_1E2EDefaultRef1789119299167_1" : 1
     }
   },
-  "generated_from" : "09cdaa1cfad48b63a54059b389a9c1dfdb064d83",
+  "generated_from" : "645ed6228e24c217112ab6f093c7b01585d5beeb",
   "hubs" : {
     "n:Actor_Tanya_Staging" : 2,
     "n:Narrative_AntiSlackPositioning" : 1,
@@ -50,7 +54,7 @@
     "n" : "https://aswritten.ai/narrative#",
     "o" : "https://aswritten.ai/ns/narrative#"
   },
-  "runs_sha" : "25ab69f5a6b4a35a90c7b9335458b9f4cc8051e0",
-  "sittings" : 136,
+  "runs_sha" : "aabd137cb010150d48f553c43d1b772b75058779",
+  "sittings" : 138,
   "spec" : "fidelity-bands/1"
 }
