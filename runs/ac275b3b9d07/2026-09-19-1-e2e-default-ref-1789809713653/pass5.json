@@ -1,0 +1,10 @@
+{
+  "placements" : [ {
+    "verdict" : "reuse",
+    "leaf" : "Narrative_DefaultRefTopicBranch",
+    "supporting_segments" : [ "src-1" ],
+    "why" : "Directly asserts the core test behavior verifying that an omitted git reference defaults to creating a topic branch, matching Narrative_DefaultRefTopicBranch exactly.",
+    "consulted" : [ "Narrative_DefaultRefTopicBranch", "Narrative_AntiSlackPositioning", "Narrative_DecisionCaptureAtConsensus", "Narrative_DecisionsEvaporate" ]
+  } ],
+  "unplaced" : [ ]
+}
