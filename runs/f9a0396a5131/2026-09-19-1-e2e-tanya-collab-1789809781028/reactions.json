@@ -1,0 +1,91 @@
+{
+  "run_id" : "mp-eng-4805e417",
+  "gates" : [ {
+    "id" : "aswritten/clarify",
+    "run?" : false,
+    "gate" : 2,
+    "reason" : "score 0.1 < threshold 0.7",
+    "score" : 0.1,
+    "evidence" : [ "Direct, unhedged assertion of sprint metrics.", "Definitive retrospective attribution stated without hedges.", "Reports a completed past action involving a specific named product artifact." ]
+  }, {
+    "id" : "aswritten/refract",
+    "run?" : true,
+    "gate" : 2,
+    "reason" : "predicate only"
+  }, {
+    "id" : "aswritten/review",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "skill off"
+  }, {
+    "id" : "aswritten/riff",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "requires perspective, expand"
+  } ],
+  "spend" : {
+    "cost_usd" : 0.008519,
+    "passes" : [ {
+      "pass" : "reaction:_score",
+      "llm_calls" : 1,
+      "cost_usd" : 0.0019899
+    }, {
+      "pass" : "reaction:refract",
+      "llm_calls" : 1,
+      "cost_usd" : 0.0065293
+    } ]
+  },
+  "bundle" : {
+    "items" : 1,
+    "audience" : "only-me",
+    "recipients" : 1,
+    "moments_cached" : true,
+    "sent" : [ {
+      "items" : [ {
+        "kind" : "note",
+        "skill" : "aswritten/refract",
+        "audience" : "speakers"
+      } ],
+      "handle" : "tanya+staging@aswritten.ai",
+      "channel" : "email",
+      "status" : "sent",
+      "front_message_id" : "msg_3ddignl4",
+      "front_conversation_id" : "cnv_1pe9kd9k"
+    } ]
+  },
+  "policy" : {
+    "mode" : "on",
+    "budget_per_run_usd" : 0.25,
+    "channels" : [ "email", "sms" ]
+  },
+  "jobs" : [ {
+    "skill" : "aswritten/refract",
+    "status" : "ok",
+    "gate" : { },
+    "output" : {
+      "lens" : {
+        "shift" : "The retro now states a cause, not just an outcome: the Zephyr integration was \"the key unlock\" behind both the 23-point velocity and the async decision widget delivery. From here, velocity questions get answered by pointing at the integration.",
+        "affected" : [ ],
+        "other_lenses" : [ "The same retro firms up a register shift: achievement reported unhedged and collectively — \"We shipped… highest this quarter\" — making peak shared competence the team's stated measure of a sprint." ],
+        "drew_on" : [ "narrated.delta_line — \"Mints a position attributing high sprint velocity and the async decision widget delivery to the Zephyr integration\"", "committed.tx — narr:Position_SprintDeliveryAndIntegrationUnlock, frame \"what factors and technical enablers drove the sprint velocity and async decision widget delivery?\"", "committed.tx — narr:VecStyle_1E2ETanyaCollab1789809781028_3 (\"key unlock\" read as the integration spoken of directly as the unlock mechanism)", "committed.tx — narr:VecValue_1E2ETanyaCollab1789809781028_2 (\"highest this quarter\" as peak-competence framing; grounds the other lens)", "conversation text — Tanya's retro, quoted verbatim" ],
+        "quote" : "We shipped the async decision widget. Velocity was 23 points, highest this quarter. The Zephyr integration was the key unlock.",
+        "approaches" : [ "what gets credited for sprint velocity", "where the next tooling and integration investment goes", "how the widget delivery gets told in reports and retros" ],
+        "speaker" : "Tanya",
+        "message" : "Here's the shift: the retro now states a cause, not just an outcome — the Zephyr integration was \"the key unlock\" behind both the 23-point velocity and the async decision widget delivery. From here, velocity questions get answered by pointing at the integration.\n\nIt changes our approach to: what gets credited for sprint velocity · where the next tooling/integration investment goes · how the widget delivery gets told in reports and retros.\n\n**Tanya's Sprint Retro — as written**\nTanya: \"We shipped the async decision widget. Velocity was 23 points, highest this quarter. The Zephyr integration was the key unlock.\"\n\n**The same lines, read through this shift**\nMore than a recap: the metric and the delivery are both pinned on a single cause. \"Key unlock\" is the load-bearing phrase — if it holds, \"why 23 points?\" is answered by pointing at Zephyr, and the widget shipped because the integration made it possible. If the real driver was scope, staffing, or a process change, this line reads as a mis-attribution, and this is the place to say so.\n\nRight lens?\n\n**What else it touches:** honestly, nothing yet — this retro is the only document in view, and nothing else mentions Zephyr, the widget, or this sprint. So there's nothing to apply across right now; when something that does lands, this is the claim that moves it. (One smaller shift riding along, if you want it separately: the unhedged, all-together \"we shipped… highest this quarter\" way of reporting the sprint.)",
+        "eye_chart" : {
+          "document" : ".aswritten/memories/2026-09-19-1-e2e-tanya-collab-1789809781028.md",
+          "section" : "# Tanya's Sprint Retro",
+          "as_written" : "Tanya: \"We shipped the async decision widget. Velocity was 23 points, highest this quarter. The Zephyr integration was the key unlock.\"",
+          "through_the_lens" : "Read as more than a recap: the metric and the delivery are both pinned on a single cause. \"Key unlock\" is the load-bearing phrase — if it holds, \"why 23 points?\" is answered by pointing at Zephyr, and the widget shipped because the integration made it possible. If the real driver was scope, staffing, or a process change, this line reads as a mis-attribution, and this is the place to correct it."
+        }
+      }
+    },
+    "landing" : {
+      "landed" : "message"
+    },
+    "ms" : 56058
+  } ],
+  "stream" : "e2e-collab-1789809708923",
+  "at" : "2026-09-19T09:25:24.496821934Z",
+  "live_run_id" : "f9a0396a5131"
+}
