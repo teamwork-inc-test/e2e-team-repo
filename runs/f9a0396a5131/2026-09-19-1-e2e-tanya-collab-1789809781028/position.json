@@ -1,0 +1,12 @@
+{
+  "positions" : [ {
+    "name" : "SprintDeliveryAndIntegrationUnlock",
+    "frame" : "what factors and technical enablers drove the sprint velocity and async decision widget delivery?",
+    "members" : [ "src-1", "src-2", "src-3" ],
+    "why" : "The segments collectively recount the sprint milestone: shipping the core async decision widget, achieving a peak velocity of 23 points, and attributing that performance directly to the Zephyr integration unlock.",
+    "under" : [ "Narrative_DecisionCaptureAtConsensus" ]
+  } ],
+  "attaches" : [ ],
+  "position_revisions" : [ ],
+  "ungrouped" : [ ]
+}
