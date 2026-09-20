@@ -1,0 +1,12 @@
+{
+  "positions" : [ {
+    "name" : "SprintDeliveryAndVelocityDrivers",
+    "frame" : "what enabled the sprint delivery and peak velocity for the async decision widget?",
+    "members" : [ "src-1", "src-2", "src-3" ],
+    "why" : "The expressions together connect the shipping of the async decision widget with the resulting record sprint velocity and identify the Zephyr integration as the primary technical catalyst.",
+    "under" : [ "Narrative_DecisionCaptureAtConsensus" ]
+  } ],
+  "attaches" : [ ],
+  "position_revisions" : [ ],
+  "ungrouped" : [ ]
+}
