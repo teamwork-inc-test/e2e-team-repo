@@ -12,7 +12,8 @@
       "n:Expr_1E2EDefaultRef1788860066803_1" : 1,
       "n:Expr_1E2EDefaultRef1788946504627_1" : 1,
       "n:Expr_1E2EDefaultRef1789032827498_1" : 1,
-      "n:Expr_1E2EDefaultRef1789119299167_1" : 1
+      "n:Expr_1E2EDefaultRef1789119299167_1" : 1,
+      "n:Expr_1E2EDefaultRef1789205481061_1" : 1
     },
     "n:Narrative_AntiSlackPositioning" : {
       "n:Position_AntiPatternRealtimeChat" : 2,
@@ -32,10 +33,11 @@
       "n:Expr_1E2EDefaultRef1788860066803_1" : 1,
       "n:Expr_1E2EDefaultRef1788946504627_1" : 1,
       "n:Expr_1E2EDefaultRef1789032827498_1" : 1,
-      "n:Expr_1E2EDefaultRef1789119299167_1" : 1
+      "n:Expr_1E2EDefaultRef1789119299167_1" : 1,
+      "n:Expr_1E2EDefaultRef1789205481061_1" : 1
     }
   },
-  "generated_from" : "1fd64d9bbe279ea14d14fa3065e2fecb31a98c86",
+  "generated_from" : "cb08041dc5699b838c983adf39eac9d644d53927",
   "hubs" : {
     "n:Actor_Tanya_Staging" : 2,
     "n:Narrative_AntiSlackPositioning" : 1,
@@ -54,7 +56,7 @@
     "n" : "https://aswritten.ai/narrative#",
     "o" : "https://aswritten.ai/ns/narrative#"
   },
-  "runs_sha" : "576216f887ea350f82e35c59307473b441ff1e52",
-  "sittings" : 140,
+  "runs_sha" : "f6f5164681181127217e68a6e3ccf0cb9c86a711",
+  "sittings" : 142,
   "spec" : "fidelity-bands/1"
 }

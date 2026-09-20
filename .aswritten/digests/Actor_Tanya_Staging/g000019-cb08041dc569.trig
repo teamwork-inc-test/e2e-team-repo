@@ -1,0 +1,41 @@
+@prefix narr: <https://aswritten.ai/narrative#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+GRAPH <https://aswritten.ai/narrative#Digest_Actor_Tanya_Staging> {
+  <https://aswritten.ai/narrative#Digest_Actor_Tanya_Staging> a narr:Digest ;
+    narr:digestOf <https://aswritten.ai/narrative#Actor_Tanya_Staging> ;
+    narr:childCount "23"^^xsd:integer ;
+    narr:generatedFrom "cb08041dc5699b838c983adf39eac9d644d53927" ;
+    narr:narration """This actor hub remains a single recurring assertion, repeated daily across the whole span: [the first August entry](narr:https://aswritten.ai/narrative#Expr_1E2EDefaultRef1788169170042_1) through [the parallel early-September entries](narr:https://aswritten.ai/narrative#Expr_2E2EDefaultRef1788301640261_1), [the alternate dated logs](narr:https://aswritten.ai/narrative#Expr_2E2EDefaultRef1788341794428_1), [mid-period checkpoints](narr:https://aswritten.ai/narrative#Expr_1E2EDefaultRef1788600637900_1), [the weekly cadence](narr:https://aswritten.ai/narrative#Expr_1E2EDefaultRef1788774012301_1), [the late-sequence entries](narr:https://aswritten.ai/narrative#Expr_1E2EDefaultRef1789205481061_1), and [the newest closing point](narr:https://aswritten.ai/narrative#Expr_1E2EDefaultRef1789896132378_1) all carry the same verbatim statement. The span is that one test assertion and nothing else — no positions, dissent, or side threads live here, so a query for anything beyond it is honestly not-here. The voice profile stays flat: claim-level conviction in a concrete, present-tense, realis register throughout, with [one entry](narr:https://aswritten.ai/narrative#Expr_1E2EDefaultRef1789637169682_1) adding a technical, matter-of-fact register observation. The record is repetition, not development.""" ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1E2EDefaultRef1788169170042_1> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1E2EDefaultRef1788255387470_1> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1E2EDefaultRef1788307540537_1> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1E2EDefaultRef1788429585432_1> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1E2EDefaultRef1788514817267_1> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1E2EDefaultRef1788600637900_1> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1E2EDefaultRef1788687000950_1> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1E2EDefaultRef1788774012301_1> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1E2EDefaultRef1788860066803_1> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1E2EDefaultRef1788946504627_1> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1E2EDefaultRef1789032827498_1> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1E2EDefaultRef1789119299167_1> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1E2EDefaultRef1789205481061_1> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1E2EDefaultRef1789293262875_1> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1E2EDefaultRef1789378835360_1> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1E2EDefaultRef1789465125074_1> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1E2EDefaultRef1789551324538_1> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1E2EDefaultRef1789637169682_1> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1E2EDefaultRef1789723493710_1> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1E2EDefaultRef1789809713653_1> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1E2EDefaultRef1789896132378_1> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2E2EDefaultRef1788301640261_1> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2E2EDefaultRef1788341794428_1> ;
+    narr:keyPhrase [ narr:text "Testing that omitted ref creates a topic branch." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1E2EDefaultRef1788169170042_1> ] ;
+    narr:keyPhrase [ narr:text "Testing that omitted ref creates a topic branch." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1E2EDefaultRef1788600637900_1> ] ;
+    narr:keyPhrase [ narr:text "Testing that omitted ref creates a topic branch." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1E2EDefaultRef1789205481061_1> ] ;
+    narr:keyPhrase [ narr:text "Testing that omitted ref creates a topic branch." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1E2EDefaultRef1789896132378_1> ] ;
+    narr:voiceTrait [ narr:dim "conviction" ; narr:reading "flat claim-level assertion — stated once and restated identically, never hedged or escalated" ; narr:text "Testing that omitted ref creates a topic branch." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1E2EDefaultRef1788169170042_1> ] ;
+    narr:voiceTrait [ narr:dim "temporal" ; narr:reading "concrete, present-tense, realis — speaks of what is happening now, not what might" ; narr:text "Testing that omitted ref creates a topic branch." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1E2EDefaultRef1788600637900_1> ] ;
+    narr:voiceTrait [ narr:dim "register" ; narr:reading "technical and matter-of-fact — the one dimension observed on a single entry, no movement" ; narr:text "Testing that omitted ref creates a topic branch." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1E2EDefaultRef1789637169682_1> ] ;
+    narr:writer "z-ai/glm-5.3-flash:nitro" .
+}
