@@ -1,0 +1,12 @@
+{
+  "positions" : [ {
+    "name" : "SprintVelocityIntegrationEnablers",
+    "frame" : "what factors drove sprint delivery velocity and feature unlock?",
+    "members" : [ "src-1", "src-2", "src-3" ],
+    "why" : "The segments collectively link the successful delivery of the async decision widget and peak quarterly velocity directly to the Zephyr integration as the primary technical enabler.",
+    "under" : [ "Narrative_DecisionCaptureAtConsensus" ]
+  } ],
+  "attaches" : [ ],
+  "position_revisions" : [ ],
+  "ungrouped" : [ ]
+}
