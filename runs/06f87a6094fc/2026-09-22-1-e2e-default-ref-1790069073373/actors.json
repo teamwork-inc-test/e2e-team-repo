@@ -1,0 +1,15 @@
+{
+  "bindings" : [ {
+    "name" : "Tanya TeamOwner",
+    "verdict" : "bind",
+    "target" : "Actor_Tanya_Staging",
+    "label" : "Tanya TeamOwner",
+    "why" : "Submitted by and account match Tanya Staging (tanya+staging@aswritten.ai) with fuller name Tanya TeamOwner."
+  }, {
+    "name" : "tanya+staging@aswritten.ai",
+    "verdict" : "bind",
+    "target" : "Actor_Tanya_Staging",
+    "label" : "Tanya TeamOwner",
+    "why" : "Verbatim email address matches existing actor Actor_Tanya_Staging."
+  } ]
+}
