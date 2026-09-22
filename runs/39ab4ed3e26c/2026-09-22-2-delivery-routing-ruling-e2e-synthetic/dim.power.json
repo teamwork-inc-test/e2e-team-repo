@@ -1,0 +1,46 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "legitimate" ],
+    "evidence" : [ {
+      "quote" : "team owner",
+      "kind" : "lexical-marker"
+    }, {
+      "quote" : "ruled",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Invokes explicit role authority ('team owner') and delivers a formal ruling.",
+    "reported" : false,
+    "direction" : {
+      "verdict" : "mint",
+      "node" : "mint-1"
+    }
+  }, {
+    "segment_local_id" : "src-2",
+    "regions" : [ "rational-persuasion" ],
+    "evidence" : [ {
+      "quote" : "a person should get one thing to read, not four",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Justifies the routing directive with a logical reader-experience argument.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-4",
+    "regions" : [ "legitimate" ],
+    "evidence" : [ {
+      "quote" : "Tanya held",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Reiterates authoritative determination over the process window.",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-3", "src-5" ],
+  "mints" : [ {
+    "id" : "mint-1",
+    "name" : "OwnerDecisionalRuling",
+    "title" : "team owner ruled",
+    "frame" : "Does the speaker invoke positional ownership to formally establish a system rule or policy?",
+    "regions" : [ "legitimate" ]
+  } ],
+  "region_mints" : [ ]
+}
