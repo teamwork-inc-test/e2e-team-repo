@@ -1,0 +1,11 @@
+{
+  "positions" : [ {
+    "name" : "ReactionDeliveryBundlingAndBatchingBoundary",
+    "frame" : "Where should reaction delivery bundling and batching windows be bounded across multi-skill runs?",
+    "members" : [ "src-2", "src-3", "src-4", "src-5" ],
+    "why" : "The set articulates the delivery architecture for reactions: establishing single-bundle delivery per run per recipient to reduce cognitive overhead, holding a strict run-close batching boundary despite pushback from Tina, and explicitly rejecting client-side collapsing to avoid passing ordering complexity to the reader."
+  } ],
+  "attaches" : [ ],
+  "position_revisions" : [ ],
+  "ungrouped" : [ "src-1" ]
+}
