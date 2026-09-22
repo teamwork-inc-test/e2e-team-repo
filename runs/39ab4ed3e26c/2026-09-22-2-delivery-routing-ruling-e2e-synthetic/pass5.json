@@ -1,0 +1,25 @@
+{
+  "placements" : [ {
+    "supporting_segments" : [ "src-2", "src-3", "src-4", "src-5" ],
+    "under" : null,
+    "why" : "The ruling articulates an explicit architectural design trade-off: choosing server-side single-bundle delivery per run per person and rejecting client-side collapsing to avoid transferring the ordering burden to the reader.",
+    "verdict" : "mint",
+    "leaf" : "DesignTradeoffs",
+    "region" : [ "DesignTradeoffs" ],
+    "kind" : "strata",
+    "title" : "Architectural trade-offs, selected patterns, and rejected alternatives",
+    "frame" : "What architectural alternatives were evaluated, and why was the chosen approach preferred over the rejected alternatives?",
+    "consulted" : [ "Narrative_AntiSlackPositioning", "Narrative_DecisionCaptureAtConsensus", "Narrative_DecisionsEvaporate", "Narrative_DefaultRefTopicBranch" ]
+  }, {
+    "supporting_segments" : [ "src-2", "src-3", "src-4", "src-5" ],
+    "under" : [ "DesignTradeoffs" ],
+    "why" : "Establishes the normative architectural theme that multi-skill reactions must route through a single bundle per run per recipient, enforcing a strict batching window tied to run close and rejecting per-skill delivery to protect reader focus.",
+    "verdict" : "mint",
+    "leaf" : "Narrative_ReactionDeliveryBundling",
+    "kind" : "narrative",
+    "title" : "Reaction delivery bundles strictly per run per person to shield recipients from fragmentation",
+    "frame" : "How should reaction notifications be aggregated across multi-skill execution runs to minimize cognitive burden on the recipient?",
+    "consulted" : [ "Narrative_AntiSlackPositioning", "Narrative_DecisionCaptureAtConsensus", "Narrative_DecisionsEvaporate", "Narrative_DefaultRefTopicBranch" ]
+  } ],
+  "unplaced" : [ "src-1" ]
+}
