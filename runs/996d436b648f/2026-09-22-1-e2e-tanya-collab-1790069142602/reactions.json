@@ -1,0 +1,66 @@
+{
+  "run_id" : "mp-eng-cda257b0",
+  "gates" : [ {
+    "id" : "aswritten/clarify",
+    "run?" : false,
+    "gate" : 2,
+    "reason" : "score 0.0 < threshold 0.7",
+    "score" : 0.0,
+    "evidence" : [ "plain-assertion: Velocity was 23 points, highest this quarter.", "plain-assertion: The Zephyr integration was the key unlock.", "A direct, unhedged assertion reporting team completion.", "An unhedged retrospective assessment asserted firmly as a conclusion." ]
+  }, {
+    "id" : "aswritten/refract",
+    "run?" : true,
+    "gate" : 2,
+    "reason" : "predicate only"
+  }, {
+    "id" : "aswritten/review",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "skill off"
+  }, {
+    "id" : "aswritten/riff",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "requires perspective, expand"
+  } ],
+  "spend" : {
+    "cost_usd" : 0.004114,
+    "passes" : [ {
+      "pass" : "reaction:_score",
+      "llm_calls" : 1,
+      "cost_usd" : 0.00175935
+    }, {
+      "pass" : "reaction:refract",
+      "llm_calls" : 1,
+      "cost_usd" : 0.00235475
+    } ]
+  },
+  "bundle" : {
+    "items" : 0,
+    "audience" : "only-me",
+    "recipients" : 1,
+    "moments_cached" : true,
+    "sent" : [ ]
+  },
+  "policy" : {
+    "mode" : "on",
+    "budget_per_run_usd" : 0.25,
+    "channels" : [ "email", "sms" ]
+  },
+  "jobs" : [ {
+    "skill" : "aswritten/refract",
+    "status" : "empty",
+    "gate" : { },
+    "output" : {
+      "lens" : null,
+      "ask" : ""
+    },
+    "landing" : {
+      "landed" : "message"
+    },
+    "ms" : 16099
+  } ],
+  "stream" : "e2e-collab-1790069068593",
+  "at" : "2026-09-22T09:27:19.860057545Z",
+  "live_run_id" : "996d436b648f"
+}
