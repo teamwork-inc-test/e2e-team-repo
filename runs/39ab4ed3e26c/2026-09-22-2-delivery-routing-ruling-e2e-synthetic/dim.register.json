@@ -1,0 +1,34 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-2",
+    "regions" : [ "plain-spoken" ],
+    "evidence" : [ {
+      "quote" : "a person should get one thing to read, not four",
+      "kind" : "plain-signal"
+    } ],
+    "why" : "Translates technical batching logic into a concrete, plain-spoken user perspective contrast.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-4",
+    "regions" : [ "technical" ],
+    "evidence" : [ {
+      "quote" : "the bundle closes when\nthe run closes, and a skill that misses the close waits for the next run rather\nthan sending on its own.",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Defines lifecycle semantics using native system vocabulary and explicit operational rules.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-5",
+    "regions" : [ "technical" ],
+    "evidence" : [ {
+      "quote" : "client-side collapsing, which moves the ordering problem onto the\nreader.",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Uses domain terminology to analyze architectural trade-offs and error-space allocation.",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-1", "src-3" ],
+  "unmarked_rest" : false,
+  "mints" : [ ],
+  "region_mints" : [ ]
+}
