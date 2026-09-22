@@ -1,0 +1,12 @@
+{
+  "positions" : [ {
+    "name" : "Sprint4DeliveryDrivers",
+    "frame" : "what delivery milestones and technical integrations drove peak sprint velocity for the async decision widget?",
+    "members" : [ "src-1", "src-2", "src-3" ],
+    "why" : "The segments cohere as an explanation of sprint performance, linking the delivered artifact (the async decision widget) and record throughput (23 points) directly to its primary technical enabler (the Zephyr integration).",
+    "under" : [ "Narrative_DecisionCaptureAtConsensus" ]
+  } ],
+  "attaches" : [ ],
+  "position_revisions" : [ ],
+  "ungrouped" : [ ]
+}
