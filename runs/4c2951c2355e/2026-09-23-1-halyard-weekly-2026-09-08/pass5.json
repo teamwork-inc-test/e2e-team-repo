@@ -1,0 +1,42 @@
+{
+  "placements" : [ {
+    "supporting_segments" : [ "src-1", "src-8", "src-13", "src-16", "src-26", "src-31", "src-36", "src-42" ],
+    "under" : null,
+    "why" : "The discussion articulates overarching governance principles and strict operational boundaries for managing a phased technical migration across multiple sites.",
+    "verdict" : "mint",
+    "leaf" : "CutoverStrategy",
+    "region" : [ "ChangeManagement", "RiskGuardrails" ],
+    "kind" : "strata",
+    "title" : "operational containment and governance rules for multi-site rollouts",
+    "frame" : "How does the organization structure, sequence, and isolate technical and operational risks during multi-site system cutovers?",
+    "consulted" : [ "Narrative_AntiSlackPositioning", "Narrative_DecisionCaptureAtConsensus", "Narrative_DecisionsEvaporate" ]
+  }, {
+    "verdict" : "mint",
+    "leaf" : "Narrative_ContainedPainOverUnboundedRisk",
+    "title" : "known, contained operational friction is prioritized over unbounded parallel cutover risk",
+    "frame" : "Does this expression justify sequential rollouts and empirical soak intervals by prioritizing bounded operational friction over concurrent deployment risk?",
+    "under" : [ "CutoverStrategy" ],
+    "supporting_segments" : [ "src-1", "src-5", "src-6", "src-8", "src-12", "src-13", "src-14", "src-15", "src-16", "src-17", "src-19", "src-20", "src-21", "src-22", "src-42" ],
+    "why" : "Establishes a firm sequencing thesis: sites cut over strictly one at a time with a mandatory two-week soak grounded in exception queue flattening, accepting contained local friction to avoid unbounded multi-site failure.",
+    "consulted" : [ "Narrative_AntiSlackPositioning", "Narrative_DecisionCaptureAtConsensus", "Narrative_DecisionsEvaporate" ]
+  }, {
+    "verdict" : "mint",
+    "leaf" : "Narrative_StrictWorkloadIsolationDuringCutover",
+    "title" : "reporting workloads are strictly isolated to replicas during high-load cutovers",
+    "frame" : "Does this expression mandate strict infrastructure isolation to protect transactional production stability during critical migration windows?",
+    "under" : [ "CutoverStrategy" ],
+    "supporting_segments" : [ "src-24", "src-25", "src-26", "src-28", "src-29", "src-31", "src-42" ],
+    "why" : "Establishes an absolute operational rule in the runbook requiring all analytical and reporting reads to hit read replicas during cutover windows to prevent live system outages.",
+    "consulted" : [ "Narrative_AntiSlackPositioning", "Narrative_DecisionCaptureAtConsensus", "Narrative_DecisionsEvaporate" ]
+  }, {
+    "verdict" : "mint",
+    "leaf" : "Narrative_SingleSourceOfTruthUntilFinalCutover",
+    "title" : "vendor remains the authoritative system of record until full programme cutover",
+    "frame" : "Does this expression defend retaining a single external source of truth throughout a phased rollout to prevent reference data drift and cross-system accountability gaps?",
+    "under" : [ "CutoverStrategy" ],
+    "supporting_segments" : [ "src-34", "src-36", "src-38", "src-39", "src-41", "src-42" ],
+    "why" : "Establishes the policy that reference data ownership remains with the vendor until the final site cutover completes, avoiding multi-site drift and clear accountability boundaries.",
+    "consulted" : [ "Narrative_AntiSlackPositioning", "Narrative_DecisionCaptureAtConsensus", "Narrative_DecisionsEvaporate" ]
+  } ],
+  "unplaced" : [ "src-2", "src-3", "src-4", "src-7", "src-9", "src-10", "src-11", "src-18", "src-23", "src-27", "src-30", "src-32", "src-33", "src-35", "src-37", "src-40", "src-43", "src-44", "src-45" ]
+}
