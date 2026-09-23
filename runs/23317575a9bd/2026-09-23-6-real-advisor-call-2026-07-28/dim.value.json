@@ -1,0 +1,61 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-4",
+    "regions" : [ "autonomy" ],
+    "evidence" : [ {
+      "quote" : "every single person is now their own team",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Appeals to individual self-origination and self-sufficiency as the underlying driver.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-9",
+    "regions" : [ "conservation", "autonomy" ],
+    "evidence" : [ {
+      "quote" : "separation from their own chaos",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Identifies the core need for stability and order against personal operational chaos.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-16",
+    "regions" : [ "relatedness", "self-enhancement" ],
+    "evidence" : [ {
+      "quote" : "makes my as written more valuable because you have it",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Appeals to network effect and shared adoption increasing reciprocal value and standing.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-17",
+    "regions" : [ "autonomy", "competence" ],
+    "evidence" : [ {
+      "quote" : "unique part is by my lens",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Expresses individual personal perspective and craft as the indispensable governing value.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-25",
+    "regions" : [ "relatedness" ],
+    "evidence" : [ {
+      "quote" : "The human moment sells, not the text.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Prizes human relational connection over pure textual artifacts as the genuine driver of value.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-28",
+    "regions" : [ "self-enhancement", "competence" ],
+    "evidence" : [ {
+      "quote" : "this thing can win and I think you should win",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Appeals directly to winning, competitive success, and strategic competence.",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-1", "src-2", "src-3", "src-5", "src-6", "src-7", "src-8", "src-10", "src-11", "src-12", "src-13", "src-14", "src-15", "src-18", "src-19", "src-20", "src-21", "src-22", "src-23", "src-24", "src-26", "src-27", "src-29", "src-30" ],
+  "unmarked_rest" : false,
+  "mints" : [ ],
+  "region_mints" : [ ]
+}
