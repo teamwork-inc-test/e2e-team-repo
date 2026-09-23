@@ -1,0 +1,11 @@
+{
+  "placements" : [ {
+    "verdict" : "reuse",
+    "leaf" : "Narrative_InstallableExpertise",
+    "supporting_segments" : [ "src-3", "src-4", "src-6", "src-8", "src-10", "src-11", "src-13", "src-15", "src-17", "src-19", "src-20" ],
+    "why" : "Freya's design-token workflow independently validates the core thesis of installable expertise: extracting a practitioner's 'lens' into structured tokens/perspectives allows AI to generate high-fidelity, brand-authentic outputs across an organization rather than generic AI artifacts, directly reinforcing the shift from static consulting deliverables (decks) to installable capability.",
+    "consulted" : [ "Narrative_InstallableExpertise", "Narrative_InterviewFlywheel", "Narrative_HumanMomentVideoProof" ],
+    "adopted_positions" : [ "Position_InstallableExpertiseCategoryMoat" ]
+  } ],
+  "unplaced" : [ "src-1", "src-2", "src-5", "src-7", "src-9", "src-12", "src-14", "src-16", "src-18" ]
+}
