@@ -1,0 +1,97 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-85",
+    "regions" : [ "expert", "rational-persuasion" ],
+    "evidence" : [ {
+      "quote" : "You should look at dolt instead of git, dolt, D O L T dolt and then also beads.",
+      "kind" : "modal-marker"
+    } ],
+    "why" : "Xavier offers technical architectural guidance based on specialized knowledge of database/versioning tools.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-99",
+    "regions" : [ "consultation" ],
+    "evidence" : [ {
+      "quote" : "How can I be helpful? What would you like?",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Xavier explicitly invites Tanya to state how he can assist and direct his involvement.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-100",
+    "regions" : [ "consultation" ],
+    "evidence" : [ {
+      "quote" : "First of all, I'm curious if that sounds appropriate to you.",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Tanya actively invites Xavier's evaluation and input on her commercial pricing model.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-103",
+    "regions" : [ "consultation" ],
+    "evidence" : [ {
+      "quote" : "can I just provide feedback?",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Xavier asks permission to offer strategic and product critique before delivering it.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-143",
+    "regions" : [ "expert", "rational-persuasion" ],
+    "evidence" : [ {
+      "quote" : "I think you should definitely apply to yc.",
+      "kind" : "modal-marker"
+    } ],
+    "why" : "Xavier gives direct strategic advice regarding fundraising and accelerator options.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-177",
+    "regions" : [ "expert", "reward" ],
+    "evidence" : [ {
+      "quote" : "Send me a forwardable email and I will forward it to her.",
+      "kind" : "commitment-marker"
+    } ],
+    "why" : "Xavier offers gatekeeper/network access to a key contact conditional on Tanya providing the email.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-183",
+    "regions" : [ "expert", "rational-persuasion" ],
+    "evidence" : [ {
+      "quote" : "I would show up to Emery Park. When I've got like when you have somebody on the hook is the moment you show up to Emery Park. Because then Emery Park accelerates it.",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Xavier provides tactical investor sequencing advice based on strategic experience.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-193",
+    "regions" : [ "expert", "rational-persuasion" ],
+    "evidence" : [ {
+      "quote" : "And you need to run a process. Right. So it is specific. It is time bound. It is like starts at a date, ends at a date.",
+      "kind" : "modal-marker"
+    } ],
+    "why" : "Xavier instructs Tanya on the mechanics and discipline of running an institutional fundraising process.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-199",
+    "regions" : [ "expert", "rational-persuasion" ],
+    "evidence" : [ {
+      "quote" : "You do not like the failure mode that most people engage in. And this is. I did this constantly is I show up and be like, hi, I would like to raise money from you. No, Hi, I am raising money. It is happening, right?",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Xavier leverages his own past fundraising mistakes and tactical insights to reframe her pitch stance.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-217",
+    "regions" : [ "expert", "rational-persuasion" ],
+    "evidence" : [ {
+      "quote" : "Find a company that's actually a knowledge company that doesn't think of themselves as a knowledge company.",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Xavier directs her commercial targeting strategy based on market analysis of SaaS adoption.",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-1", "src-2", "src-3", "src-4", "src-5", "src-6", "src-7", "src-8", "src-9", "src-10", "src-11", "src-12", "src-13", "src-14", "src-15", "src-16", "src-17", "src-18", "src-19", "src-20", "src-21", "src-22", "src-23", "src-24", "src-25", "src-26", "src-27", "src-28", "src-29", "src-30", "src-31", "src-32", "src-33", "src-34", "src-35", "src-36", "src-37", "src-38", "src-39", "src-40", "src-41", "src-42", "src-43", "src-44", "src-45", "src-46", "src-47", "src-48", "src-49", "src-50", "src-51", "src-52", "src-53", "src-54", "src-55", "src-56", "src-57", "src-58", "src-59", "src-60", "src-61", "src-62", "src-63", "src-64", "src-65", "src-66", "src-67", "src-68", "src-69", "src-70", "src-71", "src-72", "src-73", "src-74", "src-75", "src-77", "src-78", "src-79", "src-80", "src-81", "src-82", "src-83", "src-84", "src-86", "src-87", "src-88", "src-89", "src-90", "src-91", "src-92", "src-93", "src-94", "src-95", "src-96", "src-97", "src-98", "src-101", "src-102", "src-104", "src-105", "src-106", "src-107", "src-108", "src-109", "src-110", "src-111", "src-112", "src-113", "src-114", "src-115", "src-116", "src-117", "src-118", "src-119", "src-120", "src-121", "src-122", "src-123", "src-124", "src-125", "src-126", "src-127", "src-128", "src-129", "src-130", "src-131", "src-132", "src-133", "src-134", "src-135", "src-136", "src-137", "src-138", "src-139", "src-140", "src-141", "src-142", "src-144", "src-145", "src-146", "src-147", "src-148", "src-149", "src-150", "src-151", "src-152", "src-153", "src-154", "src-155", "src-157", "src-158", "src-159", "src-160", "src-161", "src-162", "src-163", "src-164", "src-165", "src-166", "src-167", "src-168", "src-169", "src-170", "src-171", "src-172", "src-173", "src-174", "src-175", "src-176", "src-178", "src-179", "src-180", "src-181", "src-182", "src-184", "src-185", "src-186", "src-187", "src-188", "src-189", "src-190", "src-191", "src-192", "src-194", "src-195", "src-196", "src-197", "src-198", "src-200", "src-201", "src-202", "src-203", "src-204", "src-205", "src-206", "src-207", "src-208", "src-209", "src-210", "src-211", "src-212", "src-213", "src-214", "src-215", "src-216", "src-218", "src-219", "src-220", "src-221", "src-222", "src-223", "src-224", "src-225", "src-226", "src-227", "src-228", "src-229", "src-230", "src-231", "src-232", "src-233", "src-234", "src-235", "src-236", "src-237", "src-238", "src-239", "src-240", "src-241", "src-242", "src-243", "src-244", "src-245", "src-246", "src-247", "src-248", "src-249" ],
+  "unmarked_rest" : true,
+  "mints" : [ ],
+  "region_mints" : [ ]
+}
