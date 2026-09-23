@@ -1,0 +1,105 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-7",
+    "regions" : [ "notion" ],
+    "evidence" : [ {
+      "quote" : "I could build out the marketplace by basically creating a podcast",
+      "kind" : "modal-marker"
+    } ],
+    "why" : "Modal 'could' combined with 'basically' frames this strategy as an exploratory notion rather than a committed operational decision.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-14",
+    "regions" : [ "principle" ],
+    "evidence" : [ {
+      "quote" : "Don't make people read text in a video.",
+      "kind" : "commitment-marker"
+    } ],
+    "why" : "Stated as an absolute, foundational rule/maxim for video design.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-15",
+    "regions" : [ "principle" ],
+    "evidence" : [ {
+      "quote" : "The hero video is a human moment, not a screen recording.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Framed as an essential definition and bedrock rule of what hero videos must be.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-24",
+    "regions" : [ "principle" ],
+    "evidence" : [ {
+      "quote" : "I've let go of the memory word sort of entirely and I'm now calling it installable expertise. Because what we need and the big narrative foundation is not intelligence is capability. And more information does not solve your problem.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Articulates a core, identity-level conceptual foundation ('not intelligence is capability').",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-26",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "The real differentiator and the technical moat is that I take textual documents and I extract perspective from them and then I make that perspective citable in the individual task.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Firm direct assertion defining competitive differentiation, ready to defend with evidence.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-30",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "It's really about the delegation of work that requires expertise to carry it out.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Definitional claim about the underlying business problem.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-32",
+    "regions" : [ "principle" ],
+    "evidence" : [ {
+      "quote" : "I'm more interested in developing the Apple to installable expertise than I am in giving you a toolbox.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Articulates high-level product philosophy and long-term orientation.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-34",
+    "regions" : [ "notion" ],
+    "evidence" : [ {
+      "quote" : "You know, I could have some initially available perspectives. Could I get all the people I know to contribute their expertise as the first modules?",
+      "kind" : "hedge"
+    } ],
+    "why" : "Formulated as open hypothetical questions and exploratory possibility.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-35",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "Freya committed to:\n- Style guide by end of week based on the existing brand package",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Records explicit operational commitment and settled deliverable scope.",
+    "reported" : true
+  }, {
+    "segment_local_id" : "src-42",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "Above the line (April 1):",
+      "kind" : "commitment-marker"
+    } ],
+    "why" : "Operational line-item prioritization marking settled deliverables for April 1.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-43",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "Below the line:\n- Marketplace browse/search (distribution is interview-driven, not browse-driven)",
+      "kind" : "commitment-marker"
+    } ],
+    "why" : "Explicit scoping decision deferring features below the launch line.",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-1", "src-2", "src-3", "src-4", "src-5", "src-6", "src-8", "src-9", "src-10", "src-11", "src-12", "src-13", "src-16", "src-17", "src-18", "src-20", "src-21", "src-22", "src-23", "src-25", "src-27", "src-28", "src-29", "src-31", "src-33", "src-36", "src-37", "src-38", "src-39", "src-40", "src-41", "src-44", "src-45", "src-46" ],
+  "unmarked_rest" : false,
+  "mints" : [ ]
+}
