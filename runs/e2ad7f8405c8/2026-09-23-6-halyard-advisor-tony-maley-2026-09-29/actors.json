@@ -1,0 +1,27 @@
+{
+  "bindings" : [ {
+    "name" : "Tanya Team",
+    "verdict" : "bind",
+    "target" : "Actor_TanyaTeam",
+    "label" : null,
+    "why" : "Exact match to existing actor Actor_TanyaTeam."
+  }, {
+    "name" : "Tony Maley",
+    "verdict" : "mint",
+    "target" : null,
+    "label" : "Tony Maley",
+    "why" : "Advisor referenced in envelope note; no existing actor matches Tony Maley."
+  }, {
+    "name" : "Tanya TeamOwner",
+    "verdict" : "bind",
+    "target" : "Actor_TanyaTeamowner",
+    "label" : null,
+    "why" : "Exact match to existing actor Actor_TanyaTeamowner."
+  }, {
+    "name" : "tanya+staging@aswritten.ai",
+    "verdict" : "bind",
+    "target" : "Actor_TanyaTeamowner",
+    "label" : null,
+    "why" : "Account email corresponding to Tanya TeamOwner in envelope metadata."
+  } ]
+}
