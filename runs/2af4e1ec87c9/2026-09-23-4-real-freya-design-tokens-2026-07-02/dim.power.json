@@ -1,0 +1,70 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-6",
+    "regions" : [ "expert" ],
+    "evidence" : [ {
+      "quote" : "I have a process where I extract everything that builds into a design language which gets tokenized.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Freya draws on his demonstrated technical design workflow and personal practice as the basis of authority.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-8",
+    "regions" : [ "expert" ],
+    "evidence" : [ {
+      "quote" : "And I've actually been able to do this without giving it visuals.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Claims authority based on personal demonstration and empirical mastery of the AI tooling.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-10",
+    "regions" : [ "expert", "rational-persuasion" ],
+    "evidence" : [ {
+      "quote" : "without my input through my own lens, it breaks, it falls down. So that shows that the actual unique part is by [my] lens",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Uses logical deduction from his own testing to demonstrate the essential role of the practitioner's lens.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-11",
+    "regions" : [ "expert" ],
+    "evidence" : [ {
+      "quote" : "Like the precursor to this product was me building... something similar to what you're talking about.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Tanya claims parallel credibility through her own prior technical building at Northwind.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-13",
+    "regions" : [ "inspirational-appeal" ],
+    "evidence" : [ {
+      "quote" : "these AI identities have the opportunity to be the brand's identity. Like you can literally shape an AI that thinks like the brand and then let anyone use it across the org",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Appeals to an aspirational, transformative future vision of org-wide capability.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-15",
+    "regions" : [ "inspirational-appeal" ],
+    "evidence" : [ {
+      "quote" : "how do we get from one-shotting a website [that] looks like [Claude] every time to deliver an AI to Coca Cola, where if they ask it to one-shot a website, it looks like Coca Cola and it thinks like Coca Cola and it talks like Coca Cola",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Frames an ambitious target-state contrast to inspire orientation toward a grander horizon.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-19",
+    "regions" : [ "rational-persuasion" ],
+    "evidence" : [ {
+      "quote" : "what someone is hiring you for now is a static asset that they then are dependent on you to either execute on, or they need to have someone in house that they pay quite a bit of money to then do a very lossy interpretation of your ideas",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Presents a logical breakdown of the inefficiencies and costs in the conventional consulting client model.",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-1", "src-2", "src-3", "src-4", "src-5", "src-7", "src-9", "src-12", "src-14", "src-16", "src-17", "src-18", "src-20" ],
+  "unmarked_rest" : false,
+  "mints" : [ ],
+  "region_mints" : [ ]
+}
