@@ -1,0 +1,30 @@
+{
+  "positions" : [ {
+    "name" : "DesignTokenPerspectiveParallel",
+    "frame" : "How do extracted design tokens and visual lenses parallel document-extracted perspectives in controlling AI output fidelity?",
+    "members" : [ "src-6", "src-8", "src-10", "src-11" ],
+    "why" : "Freya's practice of extracting design language into tokens to govern AI-generated surfaces without generic model drift mirrors Tanya's text-token precursor at Northwind, converging on the practitioner's 'lens' as the irreducible mechanism of quality.",
+    "under" : [ "Narrative_InstallableExpertise" ],
+    "lineage" : {
+      "relation" : "extends",
+      "target" : "Position_InstallableExpertiseCategoryMoat"
+    }
+  }, {
+    "name" : "BrandAsAiIdentity",
+    "frame" : "How does encoding institutional perspective into AI models transform brand identity from static guidelines to executable organizational capability?",
+    "members" : [ "src-13", "src-15" ],
+    "why" : "Tanya articulates an expansion of installable expertise where brand identity is instantiated directly as an AI model that thinks, designs, and speaks consistently for an entire organization rather than relying on static style guides.",
+    "under" : [ "Narrative_InstallableExpertise" ],
+    "lineage" : {
+      "relation" : "extends",
+      "target" : "Position_InstallableExpertiseCategoryMoat"
+    }
+  } ],
+  "attaches" : [ {
+    "position" : "Position_InstallableExpertiseCategoryMoat",
+    "members" : [ "src-17", "src-19" ],
+    "why" : "Directly addresses the shift in consulting deliverables from static, lossy slide decks to installable AI perspectives, while noting the current operational reality that Tanya has not yet delivered this artifact to a live client."
+  } ],
+  "position_revisions" : [ ],
+  "ungrouped" : [ "src-1", "src-2", "src-3", "src-4", "src-5", "src-7", "src-9", "src-12", "src-14", "src-16", "src-18", "src-20" ]
+}
