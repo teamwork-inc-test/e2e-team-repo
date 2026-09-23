@@ -1,0 +1,115 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-2",
+    "regions" : [ "communal-sharing" ],
+    "evidence" : [ {
+      "quote" : "We finally tracked each other down. It's been ages.",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Enacts mutual communal solidarity and shared connection after time apart.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-27",
+    "regions" : [ "authority-ranking" ],
+    "evidence" : [ {
+      "quote" : "Tina's like, we can't. He's like, we're going to try to restart a whole new thing",
+      "kind" : "plain-signal"
+    } ],
+    "why" : "Reports Tina exercising executive direction over team strategy and reorganization.",
+    "reported" : true
+  }, {
+    "segment_local_id" : "src-31",
+    "regions" : [ "authority-ranking" ],
+    "evidence" : [ {
+      "quote" : "put me in coach",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Signals subordination and readiness to follow leadership when called upon.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-37",
+    "regions" : [ "authority-ranking" ],
+    "evidence" : [ {
+      "quote" : "the person that the owner hired to run the business, who was the champion of the ERP got fired.",
+      "kind" : "plain-signal"
+    } ],
+    "why" : "Reports hierarchical owner power resulting in termination of an executive.",
+    "reported" : true
+  }, {
+    "segment_local_id" : "src-100",
+    "regions" : [ "market-pricing" ],
+    "evidence" : [ {
+      "quote" : "the team pricing is about $400 a month. Not about is $400 a month. And then enterprise pricing starts at four grand, plus some setup",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Enacts market-pricing by articulating formal fee schedules, tiers, and contractual rates.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-119",
+    "regions" : [ "market-pricing" ],
+    "evidence" : [ {
+      "quote" : "You sit in between, right? You like literally they can't rip you out without breaking it for somebody else.",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Frames strategic moat durability through structural dependency and transaction costs.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-125",
+    "regions" : [ "equality-matching", "market-pricing" ],
+    "evidence" : [ {
+      "quote" : "I pay for as written, you pay for as written. And like, because we're both paying for as written, we're both different companies, different people, like different clients, it is more valuable for both of us.",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Articulates symmetrical reciprocal benefit predicated on mutual commercial exchange.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-135",
+    "regions" : [ "market-pricing" ],
+    "evidence" : [ {
+      "quote" : "I'm charging framewell probably about 15 grand a month. Ideally 20. Right. I'm charging this. That's the one. The other company I'm going to charge like $10,000 a month.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Sets out fee-for-service proportional billing arrangements across clients.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-177",
+    "regions" : [ "equality-matching" ],
+    "evidence" : [ {
+      "quote" : "Send me a forwardable email and I will forward it to her.",
+      "kind" : "commitment-marker"
+    } ],
+    "why" : "Enacts reciprocal peer networking mechanics via mediated introduction.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-199",
+    "regions" : [ "market-pricing", "authority-ranking" ],
+    "evidence" : [ {
+      "quote" : "No, Hi, I am raising money. It is happening, right?",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Instructs shifting the relational stance from supplicant to commanding market creator.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-205",
+    "regions" : [ "market-pricing" ],
+    "evidence" : [ {
+      "quote" : "The position is, why should I take your dollars rather than someone else's? Right.",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Directs relational framing to competitive market leverage where capital competes for allocation.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-214",
+    "regions" : [ "market-pricing" ],
+    "evidence" : [ {
+      "quote" : "they've been paying me $800 a month. And there's currently an MSA out for like, you know, six grand a month. That's in legal review.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Reports commercial contract pricing and formal Master Services Agreement negotiation.",
+    "reported" : true
+  } ],
+  "unmarked" : [ "src-1", "src-3", "src-4", "src-5", "src-6", "src-7", "src-8", "src-9", "src-10" ],
+  "unmarked_rest" : true,
+  "mints" : [ ],
+  "region_mints" : [ ]
+}
