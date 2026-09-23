@@ -1,0 +1,57 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-9",
+    "regions" : [ "competence" ],
+    "evidence" : [ {
+      "quote" : "curated expertise installation** — a way to install expertise into your AI and verify where it's coming from.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Frames value around verified competence and quality of craft in AI capabilities.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-14",
+    "regions" : [ "conservation", "relatedness" ],
+    "evidence" : [ {
+      "quote" : "trust-signal",
+      "kind" : "lexical-marker"
+    }, {
+      "quote" : "spam-adjacent",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Appeals to preservation of trust, safety from spam, and relational friction in communication channels.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-15",
+    "regions" : [ "relatedness" ],
+    "evidence" : [ {
+      "quote" : "a phone number doesn't feel like an AI chat in the same way that chat does.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Focuses on the interpersonal feel and relational authenticity of the channel.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-18",
+    "regions" : [ "conservation" ],
+    "evidence" : [ {
+      "quote" : "SMS-as-trust-signal remains genuine value.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Directly asserts the value of trust preservation.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-27",
+    "regions" : [ "conservation", "autonomy" ],
+    "evidence" : [ {
+      "quote" : "People might not want to give their number.",
+      "kind" : "plain-assertion"
+    }, {
+      "quote" : "skeptical or lower-trust contexts",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Relays user desire for privacy/autonomy over personal data and protection against spam risk.",
+    "reported" : true
+  } ],
+  "unmarked" : [ "src-1", "src-2", "src-3", "src-4", "src-5", "src-6", "src-7", "src-8", "src-10", "src-11", "src-12", "src-13", "src-16", "src-17", "src-19", "src-20", "src-21", "src-22", "src-23", "src-24", "src-25", "src-26", "src-28", "src-29", "src-30", "src-31", "src-32", "src-33", "src-34", "src-35", "src-36", "src-37", "src-38", "src-39", "src-40", "src-41", "src-42", "src-43", "src-44", "src-45", "src-46", "src-47", "src-48", "src-49", "src-50", "src-51", "src-52" ],
+  "mints" : [ ],
+  "region_mints" : [ ]
+}
