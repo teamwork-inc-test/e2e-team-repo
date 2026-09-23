@@ -1,0 +1,67 @@
+@prefix narr: <https://aswritten.ai/narrative#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+GRAPH <https://aswritten.ai/narrative#Digest_Narrative_StagedFundraisingProcess> {
+  <https://aswritten.ai/narrative#Digest_Narrative_StagedFundraisingProcess> a narr:Digest ;
+    narr:digestOf <https://aswritten.ai/narrative#Narrative_StagedFundraisingProcess> ;
+    narr:childCount "43"^^xsd:integer ;
+    narr:generatedFrom "4a2e5af44505dae82a1f0f0aac97e2348a790a70" ;
+    narr:narration """This narrative traces how a fundraising posture was built across two conversations: an initial ask for [introductions to funders for a bridge round](narr:Expr_5RealXavierAndTanya60Mins20260720_102) sits alongside [a parallel low-cost path through outside funding](narr:Expr_5RealXavierAndTanya60Mins20260720_143), while a shortlist of [specific warm contacts](narr:Expr_5RealXavierAndTanya60Mins20260720_171) and [an offer to forward an introduction](narr:Expr_5RealXavierAndTanya60Mins20260720_177) supply the actual names. The core move reframes the raise as [a marketplace rather than a sequence of individual asks](narr:Expr_5RealXavierAndTanya60Mins20260720_191), run as [a staged, time-bound process](narr:Expr_5RealXavierAndTanya60Mins20260720_193): an opening [advice-seeking round](narr:Expr_5RealXavierAndTanya60Mins20260720_195) scripted as [a referral-generating ask](narr:Expr_5RealXavierAndTanya60Mins20260720_197), flipping to [a declarative raise with a hard end date](narr:Expr_5RealXavierAndTanya60Mins20260720_199) where [the funder must justify their dollars](narr:Expr_5RealXavierAndTanya60Mins20260720_205). Sequencing discipline runs alongside: [holding the biggest lever until there's ammunition](narr:Expr_5RealXavierAndTanya60Mins20260720_183), figured through [the howitzer metaphor](narr:Expr_5RealXavierAndTanya60Mins20260720_185). A later advisor exchange adds [a pricing and positioning worry](narr:Expr_6RealAdvisorCall20260728_2) and [a caution about the wider strategic environment](narr:Expr_6RealAdvisorCall20260728_28), pushed against by [a blunt call to just go sell](narr:Expr_6RealAdvisorCall20260728_30). It closes on [a committed near-term action](narr:Expr_5RealXavierAndTanya60Mins20260720_222).""" ;
+    narr:covers <https://aswritten.ai/narrative#Expr_5RealXavierAndTanya60Mins20260720_102> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_5RealXavierAndTanya60Mins20260720_143> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_5RealXavierAndTanya60Mins20260720_144> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_5RealXavierAndTanya60Mins20260720_145> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_5RealXavierAndTanya60Mins20260720_170> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_5RealXavierAndTanya60Mins20260720_171> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_5RealXavierAndTanya60Mins20260720_173> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_5RealXavierAndTanya60Mins20260720_175> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_5RealXavierAndTanya60Mins20260720_176> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_5RealXavierAndTanya60Mins20260720_177> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_5RealXavierAndTanya60Mins20260720_179> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_5RealXavierAndTanya60Mins20260720_181> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_5RealXavierAndTanya60Mins20260720_183> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_5RealXavierAndTanya60Mins20260720_184> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_5RealXavierAndTanya60Mins20260720_185> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_5RealXavierAndTanya60Mins20260720_186> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_5RealXavierAndTanya60Mins20260720_187> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_5RealXavierAndTanya60Mins20260720_188> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_5RealXavierAndTanya60Mins20260720_189> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_5RealXavierAndTanya60Mins20260720_191> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_5RealXavierAndTanya60Mins20260720_192> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_5RealXavierAndTanya60Mins20260720_193> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_5RealXavierAndTanya60Mins20260720_194> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_5RealXavierAndTanya60Mins20260720_195> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_5RealXavierAndTanya60Mins20260720_196> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_5RealXavierAndTanya60Mins20260720_197> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_5RealXavierAndTanya60Mins20260720_198> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_5RealXavierAndTanya60Mins20260720_199> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_5RealXavierAndTanya60Mins20260720_201> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_5RealXavierAndTanya60Mins20260720_202> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_5RealXavierAndTanya60Mins20260720_203> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_5RealXavierAndTanya60Mins20260720_205> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_5RealXavierAndTanya60Mins20260720_206> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_5RealXavierAndTanya60Mins20260720_207> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_5RealXavierAndTanya60Mins20260720_208> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_5RealXavierAndTanya60Mins20260720_209> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_5RealXavierAndTanya60Mins20260720_210> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_5RealXavierAndTanya60Mins20260720_211> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_5RealXavierAndTanya60Mins20260720_222> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_6RealAdvisorCall20260728_2> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_6RealAdvisorCall20260728_28> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_6RealAdvisorCall20260728_29> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_6RealAdvisorCall20260728_30> ;
+    narr:keyPhrase [ narr:text "You are creating a marketplace for as written." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_5RealXavierAndTanya60Mins20260720_191> ] ;
+    narr:keyPhrase [ narr:text "It is time bound. It is like starts at a date, ends at a date." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_5RealXavierAndTanya60Mins20260720_193> ] ;
+    narr:keyPhrase [ narr:text "I am raising money. It is happening, right?" ; narr:phraseSource <https://aswritten.ai/narrative#Expr_5RealXavierAndTanya60Mins20260720_199> ] ;
+    narr:keyPhrase [ narr:text "why should I take your dollars rather than someone else's" ; narr:phraseSource <https://aswritten.ai/narrative#Expr_5RealXavierAndTanya60Mins20260720_205> ] ;
+    narr:keyPhrase [ narr:text "You use the howitzer when you have the ammunition." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_5RealXavierAndTanya60Mins20260720_185> ] ;
+    narr:keyPhrase [ narr:text "I'm raising 500k at this point to do a bridge round" ; narr:phraseSource <https://aswritten.ai/narrative#Expr_5RealXavierAndTanya60Mins20260720_102> ] ;
+    narr:keyPhrase [ narr:text "know the strategic environment you are operating in" ; narr:phraseSource <https://aswritten.ai/narrative#Expr_6RealAdvisorCall20260728_28> ] ;
+    narr:keyPhrase [ narr:text "Just stop and go sell it." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_6RealAdvisorCall20260728_30> ] ;
+    narr:variation [ narr:text "The low-cost optionality path runs parallel to the declarative marketplace raise — a hedge alongside the harder ask." ; narr:over <https://aswritten.ai/narrative#Expr_5RealXavierAndTanya60Mins20260720_143> ; narr:over <https://aswritten.ai/narrative#Expr_5RealXavierAndTanya60Mins20260720_191> ] ;
+    narr:variation [ narr:text "The advice-seeking first round and the declarative second round are deliberately opposite postures toward the same targets." ; narr:over <https://aswritten.ai/narrative#Expr_5RealXavierAndTanya60Mins20260720_195> ; narr:over <https://aswritten.ai/narrative#Expr_5RealXavierAndTanya60Mins20260720_199> ] ;
+    narr:variation [ narr:text "The biggest lever is explicitly withheld until there's a term sheet — a sequencing choice that trades an immediate shot for later leverage." ; narr:over <https://aswritten.ai/narrative#Expr_5RealXavierAndTanya60Mins20260720_179> ; narr:over <https://aswritten.ai/narrative#Expr_5RealXavierAndTanya60Mins20260720_183> ; narr:over <https://aswritten.ai/narrative#Expr_5RealXavierAndTanya60Mins20260720_185> ] ;
+    narr:variation [ narr:text "A caution about the broader strategic environment qualifies the short-term-win framing, pushed against by a blunter call to just execute." ; narr:over <https://aswritten.ai/narrative#Expr_6RealAdvisorCall20260728_28> ; narr:over <https://aswritten.ai/narrative#Expr_6RealAdvisorCall20260728_30> ] ;
+    narr:variation [ narr:text "A pricing and positioning worry surfaces late without resolution, sitting outside the process-and-staging frame." ; narr:over <https://aswritten.ai/narrative#Expr_6RealAdvisorCall20260728_2> ] ;
+    narr:writer "subscription.anthropic/claude-sonnet-5" .
+}

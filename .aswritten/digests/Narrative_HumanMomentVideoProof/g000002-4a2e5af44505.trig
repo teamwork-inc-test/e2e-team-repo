@@ -1,0 +1,31 @@
+@prefix narr: <https://aswritten.ai/narrative#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+GRAPH <https://aswritten.ai/narrative#Digest_Narrative_HumanMomentVideoProof> {
+  <https://aswritten.ai/narrative#Digest_Narrative_HumanMomentVideoProof> a narr:Digest ;
+    narr:digestOf <https://aswritten.ai/narrative#Narrative_HumanMomentVideoProof> ;
+    narr:childCount "9"^^xsd:integer ;
+    narr:generatedFrom "4a2e5af44505dae82a1f0f0aac97e2348a790a70" ;
+    narr:narration """This narrative argues that [the hero video is a human moment, not a screen recording](narr:Expr_1RealFreyaPodcastSalesMotion20260323_15), resting on the rule [don't make people read text in a video](narr:Expr_1RealFreyaPodcastSalesMotion20260323_14). The core claim — [the human moment sells, not the text](narr:Expr_1RealFreyaPodcastSalesMotion20260323_18), echoed verbatim in a later advisor call as [the same antithesis framing](narr:Expr_6RealAdvisorCall20260728_25) — is operationalized as [a five-beat format running from real call footage to the expert's reaction](narr:Expr_1RealFreyaPodcastSalesMotion20260323_16), with a production path [assembled from existing call footage or a new short recording](narr:Expr_1RealFreyaPodcastSalesMotion20260323_17). The trust mechanism is [the `, aswritten` mode switch telling the AI to use real sources](narr:Expr_1RealFreyaPodcastSalesMotion20260323_20), so that [the viewer learns what this means by seeing the output change](narr:Expr_1RealFreyaPodcastSalesMotion20260323_21). The validation evidence is [a relayed account of the expert's reaction confirming the human moment sells better than any screen recording](narr:Expr_1RealFreyaPodcastSalesMotion20260323_8).""" ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1RealFreyaPodcastSalesMotion20260323_14> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1RealFreyaPodcastSalesMotion20260323_15> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1RealFreyaPodcastSalesMotion20260323_16> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1RealFreyaPodcastSalesMotion20260323_17> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1RealFreyaPodcastSalesMotion20260323_18> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1RealFreyaPodcastSalesMotion20260323_20> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1RealFreyaPodcastSalesMotion20260323_21> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1RealFreyaPodcastSalesMotion20260323_8> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_6RealAdvisorCall20260728_25> ;
+    narr:keyPhrase [ narr:text "The hero video is a human moment, not a screen recording." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1RealFreyaPodcastSalesMotion20260323_15> ] ;
+    narr:keyPhrase [ narr:text "Don't make people read text in a video." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1RealFreyaPodcastSalesMotion20260323_14> ] ;
+    narr:keyPhrase [ narr:text "The human moment sells, not the text." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_6RealAdvisorCall20260728_25> ] ;
+    narr:keyPhrase [ narr:text "The `, aswritten` at the end of prompt 2 is the mode switch — it tells the AI to use real sources, not make things up." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1RealFreyaPodcastSalesMotion20260323_20> ] ;
+    narr:keyPhrase [ narr:text "The viewer learns what this means by seeing the output change." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1RealFreyaPodcastSalesMotion20260323_21> ] ;
+    narr:keyPhrase [ narr:text "This can be assembled from existing Tess call footage if video exists, or from a new short recording." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1RealFreyaPodcastSalesMotion20260323_17> ] ;
+    narr:variation [ narr:text "The strongest validation is relayed, not held firsthand: the expert's confirming reaction arrives through someone else's rendering, so the case rests on a witnessed retelling rather than the expert's own recorded words." ; narr:over <https://aswritten.ai/narrative#Expr_1RealFreyaPodcastSalesMotion20260323_8> ] ;
+    narr:variation [ narr:text "The principle is voiced in two registers — the abstract antithesis ('human moment, not screen recording') versus the concrete five-beat production spec — and the format itself remains irrealis/future, not yet executed." ; narr:over <https://aswritten.ai/narrative#Expr_1RealFreyaPodcastSalesMotion20260323_15> ; narr:over <https://aswritten.ai/narrative#Expr_1RealFreyaPodcastSalesMotion20260323_16> ] ;
+    narr:voiceTrait [ narr:dim "conviction" ; narr:reading "principle-level assertion — states rules, not preferences" ; narr:text "Don't make people read text in a video." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1RealFreyaPodcastSalesMotion20260323_14> ] ;
+    narr:voiceTrait [ narr:dim "style" ; narr:reading "antithesis-first — the sentence names what it isn't" ; narr:text "The hero video is a human moment, not a screen recording." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1RealFreyaPodcastSalesMotion20260323_15> ] ;
+    narr:voiceTrait [ narr:dim "value" ; narr:reading "grounds the sales argument in human connection rather than product features" ; narr:text "The human moment sells, not the text." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_6RealAdvisorCall20260728_25> ] ;
+    narr:writer "z-ai/glm-5.3-flash:nitro" .
+}

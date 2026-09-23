@@ -1,0 +1,24 @@
+@prefix narr: <https://aswritten.ai/narrative#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+GRAPH <https://aswritten.ai/narrative#Digest_Position_HumanMomentDemoVideo> {
+  <https://aswritten.ai/narrative#Digest_Position_HumanMomentDemoVideo> a narr:Digest ;
+    narr:digestOf <https://aswritten.ai/narrative#Position_HumanMomentDemoVideo> ;
+    narr:childCount "6"^^xsd:integer ;
+    narr:generatedFrom "4a2e5af44505dae82a1f0f0aac97e2348a790a70" ;
+    narr:narration """This position holds that [the hero video is a human moment, not a screen recording](narr:Expr_1RealFreyaPodcastSalesMotion20260323_15), grounded in the working rule [don't make people read text in a video](narr:Expr_1RealFreyaPodcastSalesMotion20260323_14). The claim generalizes an earlier observation — [Tina's \"it just looks real\" applied to video, not just GIFs](narr:Expr_1RealFreyaPodcastSalesMotion20260323_18) — into [the human moment sells, not the text](narr:Expr_1RealFreyaPodcastSalesMotion20260323_18), a principle later restated in [an advisor-call formulation](narr:Expr_6RealAdvisorCall20260728_25). A concrete [five-beat format](narr:Expr_1RealFreyaPodcastSalesMotion20260323_16) sketches the arc from real conversation through cited output to the expert's reaction. The position is reinforced by [Freya's reaction to the demo walkthrough](narr:Expr_1RealFreyaPodcastSalesMotion20260323_8), relayed through the assistant's rendering rather than voiced directly here.""" ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1RealFreyaPodcastSalesMotion20260323_14> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1RealFreyaPodcastSalesMotion20260323_15> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1RealFreyaPodcastSalesMotion20260323_16> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1RealFreyaPodcastSalesMotion20260323_18> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1RealFreyaPodcastSalesMotion20260323_8> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_6RealAdvisorCall20260728_25> ;
+    narr:keyPhrase [ narr:text "The hero video is a human moment, not a screen recording." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1RealFreyaPodcastSalesMotion20260323_15> ] ;
+    narr:keyPhrase [ narr:text "Don't make people read text in a video." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1RealFreyaPodcastSalesMotion20260323_14> ] ;
+    narr:keyPhrase [ narr:text "The human moment sells, not the text." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_6RealAdvisorCall20260728_25> ] ;
+    narr:keyPhrase [ narr:text "The expert's reaction — \"whoa, that's my methodology\"" ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1RealFreyaPodcastSalesMotion20260323_16> ] ;
+    narr:variation [ narr:text "The strongest emotional witness is relayed, not voiced — the confirmation of the human-moment claim arrives through the assistant's rendering of the reaction, so it evidences the position without being a first-person stance." ; narr:over <https://aswritten.ai/narrative#Expr_1RealFreyaPodcastSalesMotion20260323_8> ] ;
+    narr:variation [ narr:text "The principle rests on a generalization from a narrower observation — \"it just looks real\" was said about GIFs before being extended to video." ; narr:over <https://aswritten.ai/narrative#Expr_1RealFreyaPodcastSalesMotion20260323_18> ] ;
+    narr:variation [ narr:text "Register split: the abstract principle-level claims sit alongside a concrete, future-facing five-beat format — the position is held as rule and as script at once." ; narr:over <https://aswritten.ai/narrative#Expr_1RealFreyaPodcastSalesMotion20260323_15> ; narr:over <https://aswritten.ai/narrative#Expr_1RealFreyaPodcastSalesMotion20260323_16> ] ;
+    narr:writer "z-ai/glm-5.3-flash:nitro" .
+}

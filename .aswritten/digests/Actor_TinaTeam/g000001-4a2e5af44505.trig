@@ -1,0 +1,32 @@
+@prefix narr: <https://aswritten.ai/narrative#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+GRAPH <https://aswritten.ai/narrative#Digest_Actor_TinaTeam> {
+  <https://aswritten.ai/narrative#Digest_Actor_TinaTeam> a narr:Digest ;
+    narr:digestOf <https://aswritten.ai/narrative#Actor_TinaTeam> ;
+    narr:childCount "7"^^xsd:integer ;
+    narr:generatedFrom "4a2e5af44505dae82a1f0f0aac97e2348a790a70" ;
+    narr:narration """Tina Team's voice here is an advisor's — all seven expressions are her own, voiced on a single call. Her through-line is a [B2C thesis aimed at solo builders](narr:Expr_6RealAdvisorCall20260728_3), backed by an [every-person-is-their-own-team market argument](narr:Expr_6RealAdvisorCall20260728_4). She frames the product's value as [structure for context and memory](narr:Expr_6RealAdvisorCall20260728_19) and coaches on [selling the solution and benefits, not the use case](narr:Expr_6RealAdvisorCall20260728_20). Her growth instinct runs to [seeding word of mouth through 20-50 hands](narr:Expr_6RealAdvisorCall20260728_27). Against the optimism she sets her own [worry about repos and tooling breaking or crossing over](narr:Expr_6RealAdvisorCall20260728_8), generalized into a claim that [the more involved people are, the more they need separation from their own chaos](narr:Expr_6RealAdvisorCall20260728_9).""" ;
+    narr:covers <https://aswritten.ai/narrative#Expr_6RealAdvisorCall20260728_19> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_6RealAdvisorCall20260728_20> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_6RealAdvisorCall20260728_27> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_6RealAdvisorCall20260728_3> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_6RealAdvisorCall20260728_4> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_6RealAdvisorCall20260728_8> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_6RealAdvisorCall20260728_9> ;
+    narr:keyPhrase [ narr:text "90% of what I see people chasing though is structure for context and memory." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_6RealAdvisorCall20260728_19> ] ;
+    narr:keyPhrase [ narr:text "From a B2C perspective, to the single people who are building whole companies on their own. I think that's the angle." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_6RealAdvisorCall20260728_3> ] ;
+    narr:keyPhrase [ narr:text "I think you've got a sticky product. If you can get it into the hands of 20, 50 people... The word of mouth of that will just... that's really catapult." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_6RealAdvisorCall20260728_27> ] ;
+    narr:keyPhrase [ narr:text "People like me have 10 repos on the go with Claude right now and... all this tooling and different skills... I'm worried what's going to break or cross over." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_6RealAdvisorCall20260728_8> ] ;
+    narr:keyPhrase [ narr:text "The more involved people are, the more they need separation from their own chaos." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_6RealAdvisorCall20260728_9> ] ;
+    narr:variation [ narr:text "Her own worry about tooling breaking and crossing over cuts against the confident B2C market push — the concern is the product's own user, including herself." ; narr:over <https://aswritten.ai/narrative#Expr_6RealAdvisorCall20260728_8> ; narr:over <https://aswritten.ai/narrative#Expr_6RealAdvisorCall20260728_4> ] ;
+    narr:variation [ narr:text "The chaos-separation claim reframes the pitch: the value proposition is not empowerment but protection from the very involvement her growth advice encourages." ; narr:over <https://aswritten.ai/narrative#Expr_6RealAdvisorCall20260728_9> ; narr:over <https://aswritten.ai/narrative#Expr_6RealAdvisorCall20260728_27> ] ;
+    narr:voiceTrait [ narr:dim "conviction" ; narr:reading "flat claim-register throughout — she asserts positions as settled observations rather than hedged opinions" ; narr:text "90% of what I see people chasing though is structure for context and memory." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_6RealAdvisorCall20260728_19> ] ;
+    narr:voiceTrait [ narr:dim "temporal" ; narr:reading "abstract-present for diagnosis, flipping to concrete-future irrealis when she gets excited about growth" ; narr:text "I think you've got a sticky product. If you can get it into the hands of 20, 50 people... The word of mouth of that will just... that's really catapult." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_6RealAdvisorCall20260728_27> ] ;
+    narr:voiceTrait [ narr:dim "power" ; narr:reading "rational-persuasion — she argues by numbers and expert framing, not directive" ; narr:text "Think about the numbers though, right? The numbers really work. B2C. Because if we take theory that every single person is now their own team." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_6RealAdvisorCall20260728_4> ] ;
+    narr:voiceTrait [ narr:dim "style" ; narr:reading "antithesis-first — she names what the thing is not before what it is" ; narr:text "You're educating them on how it works and the benefits — not the use case." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_6RealAdvisorCall20260728_20> ] ;
+    narr:voiceTrait [ narr:dim "value" ; narr:reading "splits between autonomy (the solo-builder market) and conservation (fear of breakage) — the tension in her own advice" ; narr:text "People like me have 10 repos on the go with Claude right now and... all this tooling and different skills... I'm worried what's going to break or cross over." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_6RealAdvisorCall20260728_8> ] ;
+    narr:voiceTrait [ narr:dim "affect" ; narr:reading "activated on both poles — enthusiasm about growth, worry about fragility" ; narr:text "I think you've got a sticky product. If you can get it into the hands of 20, 50 people... The word of mouth of that will just... that's really catapult." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_6RealAdvisorCall20260728_27> ] ;
+    narr:voiceTrait [ narr:dim "relational" ; narr:reading "communal-sharing — she frames the market as a shared condition ('every single person is now their own team'), including herself in it" ; narr:text "People like me have 10 repos on the go with Claude right now" ; narr:phraseSource <https://aswritten.ai/narrative#Expr_6RealAdvisorCall20260728_8> ] ;
+    narr:writer "z-ai/glm-5.3-flash:nitro" .
+}

@@ -1,0 +1,69 @@
+@prefix narr: <https://aswritten.ai/narrative#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+GRAPH <https://aswritten.ai/narrative#Digest_Narrative_BehavioralProgressionPackaging> {
+  <https://aswritten.ai/narrative#Digest_Narrative_BehavioralProgressionPackaging> a narr:Digest ;
+    narr:digestOf <https://aswritten.ai/narrative#Narrative_BehavioralProgressionPackaging> ;
+    narr:childCount "47"^^xsd:integer ;
+    narr:generatedFrom "4a2e5af44505dae82a1f0f0aac97e2348a790a70" ;
+    narr:narration """This narrative tracks how [a four-tier ladder seeded by a free interview](narr:Expr_1RealFreyaPodcastSalesMotion20260323_10) was framed as [behavioral steps rather than paywalls](narr:Expr_1RealFreyaPodcastSalesMotion20260323_11), with [the interview producing a perspective in a trial account](narr:Expr_1RealFreyaPodcastSalesMotion20260323_9) and [the user deciding how far to take it](narr:Expr_1RealFreyaPodcastSalesMotion20260323_12). A stress-test against a real user found [she was classified as a Knowledge-Rich Consumer and Trigger-1 exemplar](narr:Expr_2RealTessChatWidget20260423_34), but [the typology conflated AI-fluency with distribution-motion](narr:Expr_2RealTessChatWidget20260423_39) — [her \"similar to Pat\" remark named her distribution motion](narr:Expr_2RealTessChatWidget20260423_40), and [both are Knowledge Packagers, differing on other axes](narr:Expr_2RealTessChatWidget20260423_41). The correction holds [three facts separately](narr:Expr_2RealTessChatWidget20260423_47): [her Individual-tier placement is relational, not sales-validated](narr:Expr_2RealTessChatWidget20260423_45) — [she doesn't validate Individual pricing](narr:Expr_2RealTessChatWidget20260423_49), yet [doesn't invalidate Professional pricing either](narr:Expr_2RealTessChatWidget20260423_50). Her actual role — [the single most prolific beta tester](narr:Expr_2RealTessChatWidget20260423_54) — is [absent from the perspective today](narr:Expr_2RealTessChatWidget20260423_51), prompting [a feedback-capture mechanism](narr:Expr_2RealTessChatWidget20260423_72) and [a question about whether the typology itself needs fixing](narr:Expr_2RealTessChatWidget20260423_78). A channel thread frames [SMS as a bonus and upsell](narr:Expr_3RealChannelNotProduct20260428_20) but [carrying fraud and verification maintenance overhead](narr:Expr_3RealChannelNotProduct20260428_21), with [an enterprise-only leaning](narr:Expr_3RealChannelNotProduct20260428_46) that [the speaker explicitly declined to make a decision on](narr:Expr_3RealChannelNotProduct20260428_47) — [the leaning is recorded; it is not yet a decision](narr:Expr_3RealChannelNotProduct20260428_50). By mid-summer the ladder is live in the market: [fundraising conversations testing whether team and enterprise pricing is too low](narr:Expr_6RealAdvisorCall20260728_2), [a pilot paying below enterprise rate with a larger MSA in legal review](narr:Expr_5RealXavierAndTanya60Mins20260720_214), and [a reframing that the enterprise plan is about deployment shape, not enterprise](narr:Expr_6RealAdvisorCall20260728_21) — alongside [a B2C turn toward solo builders](narr:Expr_6RealAdvisorCall20260728_5) that [the speaker herself marks as a shift in progress](narr:Expr_6RealAdvisorCall20260728_5).""" ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1RealFreyaPodcastSalesMotion20260323_10> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1RealFreyaPodcastSalesMotion20260323_11> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1RealFreyaPodcastSalesMotion20260323_12> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1RealFreyaPodcastSalesMotion20260323_9> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2RealTessChatWidget20260423_34> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2RealTessChatWidget20260423_39> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2RealTessChatWidget20260423_40> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2RealTessChatWidget20260423_41> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2RealTessChatWidget20260423_44> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2RealTessChatWidget20260423_45> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2RealTessChatWidget20260423_46> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2RealTessChatWidget20260423_47> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2RealTessChatWidget20260423_48> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2RealTessChatWidget20260423_49> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2RealTessChatWidget20260423_50> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2RealTessChatWidget20260423_51> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2RealTessChatWidget20260423_52> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2RealTessChatWidget20260423_53> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2RealTessChatWidget20260423_54> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2RealTessChatWidget20260423_72> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2RealTessChatWidget20260423_73> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2RealTessChatWidget20260423_74> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2RealTessChatWidget20260423_78> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_3RealChannelNotProduct20260428_20> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_3RealChannelNotProduct20260428_21> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_3RealChannelNotProduct20260428_26> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_3RealChannelNotProduct20260428_29> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_3RealChannelNotProduct20260428_45> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_3RealChannelNotProduct20260428_46> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_3RealChannelNotProduct20260428_47> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_3RealChannelNotProduct20260428_48> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_3RealChannelNotProduct20260428_49> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_3RealChannelNotProduct20260428_50> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_5RealXavierAndTanya60Mins20260720_100> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_5RealXavierAndTanya60Mins20260720_212> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_5RealXavierAndTanya60Mins20260720_214> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_5RealXavierAndTanya60Mins20260720_215> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_6RealAdvisorCall20260728_2> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_6RealAdvisorCall20260728_21> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_6RealAdvisorCall20260728_3> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_6RealAdvisorCall20260728_4> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_6RealAdvisorCall20260728_5> ;
+    narr:covers <https://aswritten.ai/narrative#Position_ArchetypeRelationalDisambiguation> ;
+    narr:covers <https://aswritten.ai/narrative#Position_BehavioralStepPackagingTiers> ;
+    narr:covers <https://aswritten.ai/narrative#Position_EnterprisePilotContractTiering> ;
+    narr:covers <https://aswritten.ai/narrative#Position_SmsChannelTierPackaging> ;
+    narr:covers <https://aswritten.ai/narrative#Position_SoloBuilderB2CPositioning> ;
+    narr:keyPhrase [ narr:text "The interview produces a perspective in a trial account." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1RealFreyaPodcastSalesMotion20260323_9> ] ;
+    narr:keyPhrase [ narr:text "Each tier is a natural next step, not a paywall." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1RealFreyaPodcastSalesMotion20260323_11> ] ;
+    narr:keyPhrase [ narr:text "The underlying error: the typology mixed two orthogonal axes — AI-fluency (tinkerer vs consumer) and distribution-motion (packager vs solo-practitioner) — and classified Tess on fluency only." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_2RealTessChatWidget20260423_39> ] ;
+    narr:keyPhrase [ narr:text "The leaning is recorded; it is not yet a decision." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_3RealChannelNotProduct20260428_50> ] ;
+    narr:keyPhrase [ narr:text "they've been paying me $800 a month" ; narr:phraseSource <https://aswritten.ai/narrative#Expr_5RealXavierAndTanya60Mins20260720_214> ] ;
+    narr:keyPhrase [ narr:text "It's not that enterprise isn't a good target. It's that the quote, enterprise plan isn't about enterprise. It's about the shape of the deployment and the needs of the organization." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_6RealAdvisorCall20260728_21> ] ;
+    narr:variation [ narr:text "The typology's axis collision that misclassified Tess may misclassify others too — whether it needs fixing is left open." ; narr:over <https://aswritten.ai/narrative#Expr_2RealTessChatWidget20260423_78> ; narr:over <https://aswritten.ai/narrative#Expr_2RealTessChatWidget20260423_39> ] ;
+    narr:variation [ narr:text "The enterprise-only SMS leaning is recorded but explicitly not a decision — the epistemic state is 'we don't know yet how this maps to tiers.'" ; narr:over <https://aswritten.ai/narrative#Expr_3RealChannelNotProduct20260428_46> ; narr:over <https://aswritten.ai/narrative#Expr_3RealChannelNotProduct20260428_47> ; narr:over <https://aswritten.ai/narrative#Expr_3RealChannelNotProduct20260428_50> ] ;
+    narr:variation [ narr:text "A B2C turn toward solo builders qualifies the enterprise-heavy ladder — 'more of a B2C product than a B2B product,' held as a notion, not a claim." ; narr:over <https://aswritten.ai/narrative#Expr_6RealAdvisorCall20260728_5> ; narr:over <https://aswritten.ai/narrative#Expr_6RealAdvisorCall20260728_3> ; narr:over <https://aswritten.ai/narrative#Expr_6RealAdvisorCall20260728_4> ] ;
+    narr:variation [ narr:text "Tess's placement validates nothing and invalidates nothing — her non-payment reflects relationship, not rejected conversion." ; narr:over <https://aswritten.ai/narrative#Expr_2RealTessChatWidget20260423_49> ; narr:over <https://aswritten.ai/narrative#Expr_2RealTessChatWidget20260423_50> ] ;
+    narr:variation [ narr:text "Pricing confidence is unsettled at the top: the founder wonders whether team and enterprise pricing is 'too low' while pitching it." ; narr:over <https://aswritten.ai/narrative#Expr_6RealAdvisorCall20260728_2> ; narr:over <https://aswritten.ai/narrative#Expr_5RealXavierAndTanya60Mins20260720_100> ] ;
+    narr:writer "z-ai/glm-5.3-flash:nitro" .
+}

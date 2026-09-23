@@ -1,0 +1,37 @@
+@prefix narr: <https://aswritten.ai/narrative#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+GRAPH <https://aswritten.ai/narrative#Digest_Position_IntermediaryNetworkEffectsFederation> {
+  <https://aswritten.ai/narrative#Digest_Position_IntermediaryNetworkEffectsFederation> a narr:Digest ;
+    narr:digestOf <https://aswritten.ai/narrative#Position_IntermediaryNetworkEffectsFederation> ;
+    narr:childCount "18"^^xsd:integer ;
+    narr:generatedFrom "4a2e5af44505dae82a1f0f0aac97e2348a790a70" ;
+    narr:narration """This position argues that durable moats in a commodifying-AI market come from [sitting in between — the telephone-company thesis](narr:Expr_5RealXavierAndTanya60Mins20260720_109), grounded in the claim that [the marginal cost of software development is approaching zero](narr:Expr_5RealXavierAndTanya60Mins20260720_105). The supporting arc runs through [rapid commodification of any shown capability](narr:Expr_5RealXavierAndTanya60Mins20260720_119), the warning that [building a better version hands incumbents the blueprint](narr:Expr_5RealXavierAndTanya60Mins20260720_115), and the historical analogy that [a platform can destroy an incumbent without beating it on its own terms](narr:Expr_5RealXavierAndTanya60Mins20260720_111) because [switching costs, not quality, protect the installed base](narr:Expr_5RealXavierAndTanya60Mins20260720_113). The thesis is applied to transcription tools — [commodity players predicted to fade because they don't sit in between](narr:Expr_5RealXavierAndTanya60Mins20260720_117) — and made concrete via [cross-company paid access making each party's copy more valuable](narr:Expr_5RealXavierAndTanya60Mins20260720_125) and [the viral flip: wanting it because you have it](narr:Expr_5RealXavierAndTanya60Mins20260720_127), restated in a later call as [the network-effect user perspective voiced directly](narr:Expr_6RealAdvisorCall20260728_16). The mechanism is sketched as [paid graphs gaining permitted interconnect from each other's graphs](narr:Expr_5RealXavierAndTanya60Mins20260720_128), opening the open problem of [secure, managed federation across organizational graphs](narr:Expr_5RealXavierAndTanya60Mins20260720_158) — hard, per the claim that [LLMs derive value from private context and are weak at this space](narr:Expr_5RealXavierAndTanya60Mins20260720_157). A second, adjacent thesis appears in [charging only for the in-the-middle layer while everything else is free](narr:Expr_5RealXavierAndTanya60Mins20260720_133).""" ;
+    narr:covers <https://aswritten.ai/narrative#Expr_5RealXavierAndTanya60Mins20260720_105> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_5RealXavierAndTanya60Mins20260720_109> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_5RealXavierAndTanya60Mins20260720_111> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_5RealXavierAndTanya60Mins20260720_113> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_5RealXavierAndTanya60Mins20260720_115> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_5RealXavierAndTanya60Mins20260720_117> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_5RealXavierAndTanya60Mins20260720_119> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_5RealXavierAndTanya60Mins20260720_121> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_5RealXavierAndTanya60Mins20260720_125> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_5RealXavierAndTanya60Mins20260720_127> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_5RealXavierAndTanya60Mins20260720_128> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_5RealXavierAndTanya60Mins20260720_133> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_5RealXavierAndTanya60Mins20260720_157> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_5RealXavierAndTanya60Mins20260720_158> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_6RealAdvisorCall20260728_12> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_6RealAdvisorCall20260728_13> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_6RealAdvisorCall20260728_15> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_6RealAdvisorCall20260728_16> ;
+    narr:keyPhrase [ narr:text "One of my operating theses is the telephone company always wins." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_6RealAdvisorCall20260728_12> ] ;
+    narr:keyPhrase [ narr:text "The marginal cost of software development is asymptotically approaching zero." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_5RealXavierAndTanya60Mins20260720_105> ] ;
+    narr:keyPhrase [ narr:text "I want to have as written because you have as written and that makes my as written more valuable because you have it." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_6RealAdvisorCall20260728_16> ] ;
+    narr:keyPhrase [ narr:text "the question about how do you do federation across different organizations graphs in a way that is secure and managed" ; narr:phraseSource <https://aswritten.ai/narrative#Expr_5RealXavierAndTanya60Mins20260720_158> ] ;
+    narr:keyPhrase [ narr:text "you are giving the incumbents the idea like of what to make because they already have the network" ; narr:phraseSource <https://aswritten.ai/narrative#Expr_5RealXavierAndTanya60Mins20260720_115> ] ;
+    narr:variation [ narr:text "The thesis is hedged, not asserted as destiny — the speaker concedes the commodity players 'might' survive and frames the moat question as open ('I don't know')" ; narr:over <https://aswritten.ai/narrative#Expr_5RealXavierAndTanya60Mins20260720_117> ; narr:over <https://aswritten.ai/narrative#Expr_5RealXavierAndTanya60Mins20260720_109> ] ;
+    narr:variation [ narr:text "The incumbent-protection argument cuts both ways: switching costs shield incumbents, yet the same speaker warns incumbents can disintermediate newcomers once they copy the idea" ; narr:over <https://aswritten.ai/narrative#Expr_5RealXavierAndTanya60Mins20260720_113> ; narr:over <https://aswritten.ai/narrative#Expr_5RealXavierAndTanya60Mins20260720_115> ] ;
+    narr:variation [ narr:text "The federation mechanism is explicitly speculative spitballing with unresolved permissioning and access questions, not a settled design" ; narr:over <https://aswritten.ai/narrative#Expr_5RealXavierAndTanya60Mins20260720_128> ; narr:over <https://aswritten.ai/narrative#Expr_5RealXavierAndTanya60Mins20260720_158> ] ;
+    narr:writer "z-ai/glm-5.3-flash:nitro" .
+}

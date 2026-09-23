@@ -1,0 +1,21 @@
+@prefix narr: <https://aswritten.ai/narrative#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+GRAPH <https://aswritten.ai/narrative#Digest_Position_BehavioralStepPackagingTiers> {
+  <https://aswritten.ai/narrative#Digest_Position_BehavioralStepPackagingTiers> a narr:Digest ;
+    narr:digestOf <https://aswritten.ai/narrative#Position_BehavioralStepPackagingTiers> ;
+    narr:childCount "5"^^xsd:integer ;
+    narr:generatedFrom "4a2e5af44505dae82a1f0f0aac97e2348a790a70" ;
+    narr:narration """This position holds that pricing tiers should follow the user's own expansion rather than wall off access. The mainline frames [a four-step ladder from free trial to organization-level engagement](narr:Expr_1RealFreyaPodcastSalesMotion20260323_10), where [each tier is a natural next step, not a paywall](narr:Expr_1RealFreyaPodcastSalesMotion20260323_11). The entry logic runs through [an interview producing a perspective in a trial account](narr:Expr_1RealFreyaPodcastSalesMotion20260323_9), with [the user deciding how far to take it](narr:Expr_1RealFreyaPodcastSalesMotion20260323_12). A later advisor voice qualifies the top of the ladder: [the enterprise plan is defined by deployment shape and organizational need, not by enterprise as a target](narr:Expr_6RealAdvisorCall20260728_21) — a reframing of what the highest tier is for, not a rejection of the ladder itself.""" ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1RealFreyaPodcastSalesMotion20260323_10> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1RealFreyaPodcastSalesMotion20260323_11> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1RealFreyaPodcastSalesMotion20260323_12> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1RealFreyaPodcastSalesMotion20260323_9> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_6RealAdvisorCall20260728_21> ;
+    narr:keyPhrase [ narr:text "Each tier is a natural next step, not a paywall." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1RealFreyaPodcastSalesMotion20260323_11> ] ;
+    narr:keyPhrase [ narr:text "The interview produces a perspective in a trial account." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1RealFreyaPodcastSalesMotion20260323_9> ] ;
+    narr:keyPhrase [ narr:text "The interview seeds the perspective; the user decides how far to take it." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1RealFreyaPodcastSalesMotion20260323_12> ] ;
+    narr:keyPhrase [ narr:text "It's not that enterprise isn't a good target. It's that the quote, enterprise plan isn't about enterprise. It's about the shape of the deployment and the needs of the organization." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_6RealAdvisorCall20260728_21> ] ;
+    narr:variation [ narr:text "The advisor reframes the top tier around deployment shape and organizational need rather than enterprise as a market segment — a qualification of what the highest rung means." ; narr:over <https://aswritten.ai/narrative#Expr_6RealAdvisorCall20260728_21> ] ;
+    narr:writer "z-ai/glm-5.3-flash:nitro" .
+}

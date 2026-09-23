@@ -1,0 +1,34 @@
+@prefix narr: <https://aswritten.ai/narrative#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+GRAPH <https://aswritten.ai/narrative#Digest_Actor_FreyaFree> {
+  <https://aswritten.ai/narrative#Digest_Actor_FreyaFree> a narr:Digest ;
+    narr:digestOf <https://aswritten.ai/narrative#Actor_FreyaFree> ;
+    narr:childCount "8"^^xsd:integer ;
+    narr:generatedFrom "4a2e5af44505dae82a1f0f0aac97e2348a790a70" ;
+    narr:narration """Freya Free's voice here runs on two tracks. The dominant one is [design-token craft](https://aswritten.ai/narrative#Expr_4RealFreyaDesignTokens20260702_6): she narrates an extraction-to-tokenization pipeline where [Claude output looks like her initial designs, not a Claude website](https://aswritten.ai/narrative#Expr_4RealFreyaDesignTokens20260702_8), and she pushes the stronger claim that [the lens itself is the unique, controlling part](https://aswritten.ai/narrative#Expr_4RealFreyaDesignTokens20260702_10) — a claim she repeats nearly verbatim on the [advisor call](https://aswritten.ai/narrative#Expr_6RealAdvisorCall20260728_17). The other track is [video and sales-motion principle](https://aswritten.ai/narrative#Expr_1RealFreyaPodcastSalesMotion20260323_14): [the hero video as human moment, not screen recording](https://aswritten.ai/narrative#Expr_1RealFreyaPodcastSalesMotion20260323_15), and [the human moment sells, not the text](https://aswritten.ai/narrative#Expr_6RealAdvisorCall20260728_25). One thread stays open rather than firm: [building the perspective is only an idea for when she has time](https://aswritten.ai/narrative#Expr_6RealAdvisorCall20260728_23). Her style-lane runs antithesis-first with metaphor behind it; dimensionally she is expert-voiced, present-tense, plain-to-technical, with the lens claim carrying autonomy and competence values.""" ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1RealFreyaPodcastSalesMotion20260323_14> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1RealFreyaPodcastSalesMotion20260323_15> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_4RealFreyaDesignTokens20260702_10> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_4RealFreyaDesignTokens20260702_6> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_4RealFreyaDesignTokens20260702_8> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_6RealAdvisorCall20260728_17> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_6RealAdvisorCall20260728_23> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_6RealAdvisorCall20260728_25> ;
+    narr:keyPhrase [ narr:text "The hero video is a human moment, not a screen recording." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1RealFreyaPodcastSalesMotion20260323_15> ] ;
+    narr:keyPhrase [ narr:text "Don't make people read text in a video." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1RealFreyaPodcastSalesMotion20260323_14> ] ;
+    narr:keyPhrase [ narr:text "It doesn't look anything like a Claude website. It looks like the initial designs." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_4RealFreyaDesignTokens20260702_8> ] ;
+    narr:keyPhrase [ narr:text "it is the lens that controls all of that." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_4RealFreyaDesignTokens20260702_10> ] ;
+    narr:keyPhrase [ narr:text "I have an idea of when I have the time, I will invest and build the perspective." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_6RealAdvisorCall20260728_23> ] ;
+    narr:keyPhrase [ narr:text "The human moment sells, not the text." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_6RealAdvisorCall20260728_25> ] ;
+    narr:variation [ narr:text "The lens claim is stated as firm conviction in one setting but only a time-permitting notion in the same call — the controlling lens is asserted, yet building the perspective stays irrealis." ; narr:over <https://aswritten.ai/narrative#Expr_6RealAdvisorCall20260728_17> ; narr:over <https://aswritten.ai/narrative#Expr_6RealAdvisorCall20260728_23> ] ;
+    narr:variation [ narr:text "Two registers pull differently: the token pipeline is concrete-technical and process-first, while the sales-motion rules are abstract principles about what sells." ; narr:over <https://aswritten.ai/narrative#Expr_4RealFreyaDesignTokens20260702_6> ; narr:over <https://aswritten.ai/narrative#Expr_6RealAdvisorCall20260728_25> ] ;
+    narr:voiceTrait [ narr:dim "conviction" ; narr:reading "principles stated as flat rules; the lens claim escalates from claim to controlling thesis" ; narr:text "The human moment sells, not the text." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_6RealAdvisorCall20260728_25> ] ;
+    narr:voiceTrait [ narr:dim "temporal" ; narr:reading "present-tense and realis when describing what works; irrealis only when the commitment is her own future time" ; narr:text "I have an idea of when I have the time, I will invest and build the perspective." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_6RealAdvisorCall20260728_23> ] ;
+    narr:voiceTrait [ narr:dim "power" ; narr:reading "expert footing, with rational-persuasion when she argues for what is unique in her work" ; narr:text "So that shows that the actual unique part is by my lens — is applying the lens" ; narr:phraseSource <https://aswritten.ai/narrative#Expr_6RealAdvisorCall20260728_17> ] ;
+    narr:voiceTrait [ narr:dim "style" ; narr:reading "antithesis-first — the sentence names what it isn't before what it is; metaphor behind it" ; narr:text "The hero video is a human moment, not a screen recording." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1RealFreyaPodcastSalesMotion20260323_15> ] ;
+    narr:voiceTrait [ narr:dim "register" ; narr:reading "plain-spoken when ruling on craft, technical when describing the pipeline" ; narr:text "Don't make people read text in a video." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1RealFreyaPodcastSalesMotion20260323_14> ] ;
+    narr:voiceTrait [ narr:dim "value" ; narr:reading "autonomy and competence center the lens claim; relatedness surfaces in what she says sells" ; narr:text "Without my input through my own lens, it breaks, it falls down." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_6RealAdvisorCall20260728_17> ] ;
+    narr:voiceTrait [ narr:dim "relational" ; narr:reading "authority-ranking on craft rules, shifting to communal-sharing when crediting the collaboration" ; narr:text "which I suppose is effectively what you've built there" ; narr:phraseSource <https://aswritten.ai/narrative#Expr_4RealFreyaDesignTokens20260702_10> ] ;
+    narr:writer "z-ai/glm-5.3-flash:nitro" .
+}
