@@ -1,0 +1,11 @@
+{
+  "placements" : [ {
+    "verdict" : "reuse",
+    "leaf" : "Narrative_ReactionDeliveryBundling",
+    "supporting_segments" : [ "src-1", "src-2", "src-3", "src-4" ],
+    "why" : "All four segments directly articulate the owner ruling, core routing principle (one bundle per run per person), held batching window boundary against pushback, and rejected alternative regarding reaction delivery bundling.",
+    "consulted" : [ "Narrative_ReactionDeliveryBundling", "DesignTradeoffs", "Narrative_DecisionsEvaporate", "Narrative_DefaultRefTopicBranch" ],
+    "adopted_positions" : [ "Position_ReactionDeliveryBundlingAndBatchingBoundary" ]
+  } ],
+  "unplaced" : [ ]
+}
