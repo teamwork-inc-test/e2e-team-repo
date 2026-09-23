@@ -1,0 +1,229 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-3",
+    "regions" : [ "past", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "seven Twilio toll-free numbers she'd submitted for verification all came back rejected",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Narrates a completed concrete past event with actual outcome.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-4",
+    "regions" : [ "present", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "are back in the review queue",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Describes the current actual status of specific artifacts.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-5",
+    "regions" : [ "past", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "had been asking whether SMS is actually the right demo strength",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Reports Tanya's prior reflective inquiry regarding specific beta users.",
+    "reported" : true
+  }, {
+    "segment_local_id" : "src-9",
+    "regions" : [ "present", "irrealis", "abstract" ],
+    "evidence" : [ {
+      "quote" : "might actually be a real downside. People might not want to give their number.",
+      "kind" : "modal-marker"
+    } ],
+    "why" : "Tess outlines hypothetical, generalized user behavior under skeptical conditions.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-10",
+    "regions" : [ "present", "realis", "abstract" ],
+    "evidence" : [ {
+      "quote" : "holds when the sender is already trusted",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "States an ongoing general conceptual pattern.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-11",
+    "regions" : [ "present", "realis", "abstract" ],
+    "evidence" : [ {
+      "quote" : "It flips in evaluator contexts",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Articulates an abstract general rule about perception.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-14",
+    "regions" : [ "past", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "Seven numbers, rejected en masse",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Recounts a specific actual historical rejection event.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-16",
+    "regions" : [ "present", "realis", "abstract" ],
+    "evidence" : [ {
+      "quote" : "the channel carries a trust tax in evaluator-grade conversations",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Formulates a general conceptual principle underlying Tess's feedback.",
+    "reported" : true
+  }, {
+    "segment_local_id" : "src-18",
+    "regions" : [ "future", "irrealis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "Can you just give me a chat widget on a web form?",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Requests a prospective concrete feature implementation.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-20",
+    "regions" : [ "present", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "Front already has a chat widget, so the integration exists.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "States an existing concrete capability.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-22",
+    "regions" : [ "future", "irrealis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "The proposal is one widget per share ID",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Proposes a prospective concrete architectural design.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-26",
+    "regions" : [ "future", "irrealis", "abstract" ],
+    "evidence" : [ {
+      "quote" : "lower lift for the demo, lower lift for Tess and others in her category, potentially much more useful",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Projects expected future benefits across a user class.",
+    "reported" : true
+  }, {
+    "segment_local_id" : "src-30",
+    "regions" : [ "present", "abstract" ],
+    "evidence" : [ {
+      "quote" : "is the right fit for evaluator, skeptic, first-touch, and demo contexts",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Defines categorical appropriateness across abstract context types.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-36",
+    "regions" : [ "future", "irrealis", "abstract" ],
+    "evidence" : [ {
+      "quote" : "operational goal for the next six months — already captured in the perspective — is to generalize and prepackage her existing training content",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Identifies planned future trajectory for generalizing content.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-44",
+    "regions" : [ "present", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "She's on Individual because she's my fiancé and beta tester",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Describes the current actual commercial relationship with a specific person.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-47",
+    "regions" : [ "present", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "Her commercial status is \"relational\" — fiancé and beta tester",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "States the present factual standing and role of Tess.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-54",
+    "regions" : [ "present", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "The vast majority of her feedback is verbal and I just implement. She's the single most prolific beta tester",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Asserts present ongoing practice regarding Tess's testing contributions.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-55",
+    "regions" : [ "past", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "March 4 Wren onboarding session contains product feedback from Tess that was captured in the transcript",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "References a specific historical session and recorded feedback.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-60",
+    "regions" : [ "future", "irrealis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "visit this link, install it, come back and say done.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Prescribes a prospective concrete UX flow.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-63",
+    "regions" : [ "past", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "Everything you said about committing and pulling and all of that is completely foreign to me.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Tess reflects on her actual past experience during the onboarding interaction.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-67",
+    "regions" : [ "future", "irrealis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "If verification fails again, that's the signal to stop investing in the SMS onramp",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Outlines a conditional future action based on a specific trigger.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-68",
+    "regions" : [ "future", "irrealis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "A Front chat widget spike would confirm whether inbox creation is API-automatable",
+      "kind" : "modal-marker"
+    } ],
+    "why" : "Hypothesizes what an intended future technical spike would demonstrate.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-70",
+    "regions" : [ "past", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "The Apr 13 Keystone call used live SMS.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Narrates a specific historical fact from a prior call.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-71",
+    "regions" : [ "future", "irrealis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "Whether the chat widget replaces or augments SMS for Demo 1 is a decision",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Frames an upcoming concrete product choice.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-74",
+    "regions" : [ "future", "irrealis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "Options include her writing her own memories, Tanya dictating them after conversations",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Lists potential future implementation paths.",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-1", "src-2", "src-6", "src-7", "src-8", "src-12", "src-13", "src-15", "src-17", "src-19", "src-21", "src-23", "src-24", "src-25", "src-27", "src-28", "src-29", "src-31", "src-32", "src-33", "src-34", "src-35", "src-37", "src-38", "src-39", "src-40", "src-41", "src-42", "src-43", "src-45", "src-46", "src-48", "src-49", "src-50", "src-51", "src-52", "src-53", "src-56", "src-57", "src-58", "src-59", "src-61", "src-62", "src-64", "src-65", "src-66", "src-69", "src-72", "src-73", "src-75", "src-76", "src-77", "src-78" ]
+}
