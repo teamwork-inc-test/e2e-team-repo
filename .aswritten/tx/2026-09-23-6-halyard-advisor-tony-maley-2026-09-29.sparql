@@ -1,0 +1,500 @@
+PREFIX narr: <https://aswritten.ai/narrative#>
+PREFIX aswr: <https://aswritten.ai/aswr#>
+PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX dct:  <http://purl.org/dc/terms/>
+PREFIX xsd:  <http://www.w3.org/2001/XMLSchema#>
+PREFIX oa:   <http://www.w3.org/ns/oa#>
+PREFIX xkos: <http://rdf-vocabulary.ddialliance.org/xkos#>
+
+INSERT DATA {
+  aswr:Tx_20260923T024255Z a prov:Activity ;
+      prov:generatedAtTime "2026-09-23T02:42:55Z"^^xsd:dateTime ;
+      prov:wasAssociatedWith "aswritten.ai" ;
+      prov:wasAttributedTo "scarlet@aswritten.ai" ;
+      aswr:pipelinePin "8dd07a49bda8" ;
+      aswr:originPath ".aswritten/memories/2026-09-23-6-halyard-advisor-tony-maley-2026-09-29.md" ;
+      dct:title "Multipass source extraction: Halyard — Advisor Session with Tony Maley — 2026-09-29" ;
+      prov:generated narr:Sample_6HalyardAdvisorTonyMaley20260929, narr:Expr_6HalyardAdvisorTonyMaley20260929_1, narr:Expr_6HalyardAdvisorTonyMaley20260929_2, narr:Expr_6HalyardAdvisorTonyMaley20260929_3, narr:Expr_6HalyardAdvisorTonyMaley20260929_4, narr:Expr_6HalyardAdvisorTonyMaley20260929_5, narr:Expr_6HalyardAdvisorTonyMaley20260929_6, narr:Expr_6HalyardAdvisorTonyMaley20260929_7, narr:Expr_6HalyardAdvisorTonyMaley20260929_8, narr:Expr_6HalyardAdvisorTonyMaley20260929_9, narr:Expr_6HalyardAdvisorTonyMaley20260929_10, narr:Expr_6HalyardAdvisorTonyMaley20260929_11, narr:Expr_6HalyardAdvisorTonyMaley20260929_12, narr:Expr_6HalyardAdvisorTonyMaley20260929_13, narr:Expr_6HalyardAdvisorTonyMaley20260929_14, narr:Expr_6HalyardAdvisorTonyMaley20260929_15, narr:Expr_6HalyardAdvisorTonyMaley20260929_16, narr:Expr_6HalyardAdvisorTonyMaley20260929_17, narr:Expr_6HalyardAdvisorTonyMaley20260929_18, narr:Expr_6HalyardAdvisorTonyMaley20260929_19, narr:Expr_6HalyardAdvisorTonyMaley20260929_20, narr:Expr_6HalyardAdvisorTonyMaley20260929_21, narr:Expr_6HalyardAdvisorTonyMaley20260929_22, narr:Expr_6HalyardAdvisorTonyMaley20260929_23, narr:Expr_6HalyardAdvisorTonyMaley20260929_24, narr:Expr_6HalyardAdvisorTonyMaley20260929_25, narr:Expr_6HalyardAdvisorTonyMaley20260929_26, narr:Expr_6HalyardAdvisorTonyMaley20260929_27, narr:Expr_6HalyardAdvisorTonyMaley20260929_28, narr:Expr_6HalyardAdvisorTonyMaley20260929_29, narr:Actor_TonyMaley .
+} ;
+INSERT DATA {
+  GRAPH aswr:Tx_20260923T024255Z {
+    narr:Sample_6HalyardAdvisorTonyMaley20260929 a narr:Sample ;
+        dct:title "Halyard — Advisor Session with Tony Maley — 2026-09-29" ;
+        dct:created "2026-09-29"^^xsd:date ;
+        aswr:originPath ".aswritten/memories/2026-09-23-6-halyard-advisor-tony-maley-2026-09-29.md" ;
+        aswr:submittedBy narr:Actor_TanyaTeamowner ;
+        aswr:account narr:Actor_TanyaTeamowner .
+
+    narr:Expr_6HalyardAdvisorTonyMaley20260929_1 a narr:Expression ;
+        narr:actor narr:Actor_TanyaTeam ;
+        narr:act "expressive" ;
+        narr:context "Advisor session on Halyard plan" ;
+        skos:note "Thanks and sets the frame/context for the review request" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_6HalyardAdvisorTonyMaley20260929 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Tony, thanks for making time. You're not on the programme and I'm not asking you to join it — I want an outside read on the plan before it goes to the board, and you've seen more of these than anyone I can get on a call." ;
+                oa:prefix "y\n2026-09-29\n\n**Tanya Team:** " ;
+                oa:suffix "\n\n**Tony Maley:** Happy to loo" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "322"^^xsd:integer ;
+                oa:end "542"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T02:42:55Z"^^xsd:dateTime .
+
+    narr:Expr_6HalyardAdvisorTonyMaley20260929_2 a narr:Expression ;
+        narr:actor narr:Actor_TonyMaley ;
+        narr:act "directive" ;
+        narr:context "Advisor session on Halyard plan" ;
+        skos:note "Acceptance and prompt to share plan" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_6HalyardAdvisorTonyMaley20260929 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Happy to look. I'll be blunt where I can be useful and quiet where I can't. Give me the plan." ;
+                oa:prefix "t on a call.\n\n**Tony Maley:** " ;
+                oa:suffix "\n\n**Tanya Team:** Four sites o" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "560"^^xsd:integer ;
+                oa:end "653"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T02:42:55Z"^^xsd:dateTime .
+
+    narr:Expr_6HalyardAdvisorTonyMaley20260929_3 a narr:Expression ;
+        narr:actor narr:Actor_TanyaTeam ;
+        narr:act "assertive" ;
+        narr:context "Advisor session on Halyard plan" ;
+        skos:note "Summary outline of migration plan" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_6HalyardAdvisorTonyMaley20260929 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Four sites off a vendor platform. One site at a time, a soak between each one before the next starts, reporting off a replica during the cutover windows, vendor keeps reference data until the last site is live." ;
+                oa:prefix "me the plan.\n\n**Tanya Team:** " ;
+                oa:suffix "\n\n**Tony Maley:** You're right" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "671"^^xsd:integer ;
+                oa:end "881"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T02:42:55Z"^^xsd:dateTime .
+
+    narr:Expr_6HalyardAdvisorTonyMaley20260929_4 a narr:Expression ;
+        narr:actor narr:Actor_TonyMaley ;
+        narr:act "directive" ;
+        narr:context "Advisor session on Halyard plan" ;
+        skos:note "Advises holding sequential approach" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_6HalyardAdvisorTonyMaley20260929 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "You're right to go one site at a time, and I'd hold that against whatever pressure comes at you." ;
+                oa:prefix "ite is live.\n\n**Tony Maley:** " ;
+                oa:suffix " I've watched three of these p" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "899"^^xsd:integer ;
+                oa:end "995"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T02:42:55Z"^^xsd:dateTime .
+
+    narr:Expr_6HalyardAdvisorTonyMaley20260929_5 a narr:Expression ;
+        narr:actor narr:Actor_TonyMaley ;
+        narr:act "assertive" ;
+        narr:context "Advisor session on Halyard plan" ;
+        skos:note "Precedent evidence on sequential vs big-bang" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_6HalyardAdvisorTonyMaley20260929 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "I've watched three of these programmes up close. The two that went big-bang both went backwards — not failed, went backwards, six months of unpicking. The one that went sequentially was boring and finished." ;
+                oa:prefix "atever pressure comes at you. " ;
+                oa:suffix "\n\n**Tanya Team:** That's a str" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "996"^^xsd:integer ;
+                oa:end "1202"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T02:42:55Z"^^xsd:dateTime .
+
+    narr:Expr_6HalyardAdvisorTonyMaley20260929_6 a narr:Expression ;
+        narr:actor narr:Actor_TanyaTeam ;
+        narr:act "expressive" ;
+        narr:context "Advisor session on Halyard plan" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_6HalyardAdvisorTonyMaley20260929 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "That's a stronger endorsement than I expected." ;
+                oa:prefix "nd finished.\n\n**Tanya Team:** " ;
+                oa:suffix "\n\n**Tony Maley:** It's the onl" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "1220"^^xsd:integer ;
+                oa:end "1266"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T02:42:55Z"^^xsd:dateTime .
+
+    narr:Expr_6HalyardAdvisorTonyMaley20260929_7 a narr:Expression ;
+        narr:actor narr:Actor_TonyMaley ;
+        narr:act "assertive" ;
+        narr:context "Advisor session on Halyard plan" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_6HalyardAdvisorTonyMaley20260929 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "It's the only part of your plan I'd call settled. And the pressure to collapse the sequence always comes in month four, from someone who wasn't there in month one, and it always arrives dressed as efficiency." ;
+                oa:prefix " I expected.\n\n**Tony Maley:** " ;
+                oa:suffix "\n\n**Tanya Team:** It's already" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "1284"^^xsd:integer ;
+                oa:end "1492"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T02:42:55Z"^^xsd:dateTime .
+
+    narr:Expr_6HalyardAdvisorTonyMaley20260929_8 a narr:Expression ;
+        narr:actor narr:Actor_TanyaTeam ;
+        narr:act "assertive" ;
+        narr:context "Advisor session on Halyard plan" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_6HalyardAdvisorTonyMaley20260929 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "It's already started, if I'm honest." ;
+                oa:prefix " efficiency.\n\n**Tanya Team:** " ;
+                oa:suffix "\n\n**Tony Maley:** Of course it" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "1510"^^xsd:integer ;
+                oa:end "1546"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T02:42:55Z"^^xsd:dateTime .
+
+    narr:Expr_6HalyardAdvisorTonyMaley20260929_9 a narr:Expression ;
+        narr:actor narr:Actor_TonyMaley ;
+        narr:act "directive" ;
+        narr:context "Advisor session on Halyard plan" ;
+        skos:note "Directive to document reasons now" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_6HalyardAdvisorTonyMaley20260929 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Of course it has. Write down now, while you're calm, why you chose sequential. When they come at you in month four you want the reasons in your own handwriting, not reconstructed under pressure." ;
+                oa:prefix " I'm honest.\n\n**Tony Maley:** " ;
+                oa:suffix "\n\n**Tanya Team:** That's good " ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "1564"^^xsd:integer ;
+                oa:end "1758"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T02:42:55Z"^^xsd:dateTime .
+
+    narr:Expr_6HalyardAdvisorTonyMaley20260929_10 a narr:Expression ;
+        narr:actor narr:Actor_TanyaTeam ;
+        narr:act "expressive" ;
+        narr:context "Advisor session on Halyard plan" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_6HalyardAdvisorTonyMaley20260929 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "That's good advice." ;
+                oa:prefix "er pressure.\n\n**Tanya Team:** " ;
+                oa:suffix "\n\n**Tony Maley:** Now the part" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "1776"^^xsd:integer ;
+                oa:end "1795"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T02:42:55Z"^^xsd:dateTime .
+
+    narr:Expr_6HalyardAdvisorTonyMaley20260929_11 a narr:Expression ;
+        narr:actor narr:Actor_TonyMaley ;
+        narr:act "assertive" ;
+        narr:context "Advisor session on Halyard plan" ;
+        skos:note "Conversational transition/forewarning" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_6HalyardAdvisorTonyMaley20260929 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Now the part you won't like." ;
+                oa:prefix "good advice.\n\n**Tony Maley:** " ;
+                oa:suffix "\n\n**Tanya Team:** Go on.\n\n**To" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "1813"^^xsd:integer ;
+                oa:end "1841"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T02:42:55Z"^^xsd:dateTime .
+
+    narr:Expr_6HalyardAdvisorTonyMaley20260929_12 a narr:Expression ;
+        narr:actor narr:Actor_TanyaTeam ;
+        narr:act "directive" ;
+        narr:context "Advisor session on Halyard plan" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_6HalyardAdvisorTonyMaley20260929 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Go on." ;
+                oa:prefix " won't like.\n\n**Tanya Team:** " ;
+                oa:suffix "\n\n**Tony Maley:** Your plan ha" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "1859"^^xsd:integer ;
+                oa:end "1865"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T02:42:55Z"^^xsd:dateTime .
+
+    narr:Expr_6HalyardAdvisorTonyMaley20260929_13 a narr:Expression ;
+        narr:actor narr:Actor_TonyMaley ;
+        narr:act "assertive" ;
+        narr:context "Advisor session on Halyard plan" ;
+        skos:note "Critique identifying missing gate" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_6HalyardAdvisorTonyMaley20260929 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Your plan has no data-quality gate in it. Nowhere in what you just described does anything stop a site cutting over with bad data." ;
+                oa:prefix "am:** Go on.\n\n**Tony Maley:** " ;
+                oa:suffix "\n\n**Tanya Team:** We have a mi" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "1883"^^xsd:integer ;
+                oa:end "2013"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T02:42:55Z"^^xsd:dateTime .
+
+    narr:Expr_6HalyardAdvisorTonyMaley20260929_14 a narr:Expression ;
+        narr:actor narr:Actor_TanyaTeam ;
+        narr:act "assertive" ;
+        narr:context "Advisor session on Halyard plan" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_6HalyardAdvisorTonyMaley20260929 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "We have a migration validation step." ;
+                oa:prefix "th bad data.\n\n**Tanya Team:** " ;
+                oa:suffix "\n\n**Tony Maley:** A validation" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "2031"^^xsd:integer ;
+                oa:end "2067"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T02:42:55Z"^^xsd:dateTime .
+
+    narr:Expr_6HalyardAdvisorTonyMaley20260929_15 a narr:Expression ;
+        narr:actor narr:Actor_TonyMaley ;
+        narr:act "assertive" ;
+        narr:context "Advisor session on Halyard plan" ;
+        skos:note "Distinguishes movement validation from data quality gate" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_6HalyardAdvisorTonyMaley20260929 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "A validation step tells you the data moved. It doesn't tell you the data was any good before it moved. Those are completely different questions and every programme I've seen conflates them, including the two that went backwards." ;
+                oa:prefix "dation step.\n\n**Tony Maley:** " ;
+                oa:suffix "\n\n**Tanya Team:** Say what you" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "2085"^^xsd:integer ;
+                oa:end "2313"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T02:42:55Z"^^xsd:dateTime .
+
+    narr:Expr_6HalyardAdvisorTonyMaley20260929_16 a narr:Expression ;
+        narr:actor narr:Actor_TanyaTeam ;
+        narr:act "directive" ;
+        narr:context "Advisor session on Halyard plan" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_6HalyardAdvisorTonyMaley20260929 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Say what you mean by a gate." ;
+                oa:prefix "t backwards.\n\n**Tanya Team:** " ;
+                oa:suffix "\n\n**Tony Maley:** A named qual" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "2331"^^xsd:integer ;
+                oa:end "2359"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T02:42:55Z"^^xsd:dateTime .
+
+    narr:Expr_6HalyardAdvisorTonyMaley20260929_17 a narr:Expression ;
+        narr:actor narr:Actor_TonyMaley ;
+        narr:act "assertive" ;
+        narr:context "Advisor session on Halyard plan" ;
+        skos:note "Defines components and ownership of a quality gate" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_6HalyardAdvisorTonyMaley20260929 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "A named quality bar, measured on the source system, before the site is allowed into a cutover window. Duplicate rate, orphan rate, whatever the three things are that actually bite you. A site that fails the bar doesn't cut over — it gets a remediation window and it goes to the back of the queue. And crucially, somebody who isn't the programme manager owns the gate, because the programme manager has a date." ;
+                oa:prefix "n by a gate.\n\n**Tony Maley:** " ;
+                oa:suffix "\n\n**Tanya Team:** That last pa" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "2377"^^xsd:integer ;
+                oa:end "2786"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T02:42:55Z"^^xsd:dateTime .
+
+    narr:Expr_6HalyardAdvisorTonyMaley20260929_18 a narr:Expression ;
+        narr:actor narr:Actor_TanyaTeam ;
+        narr:act "expressive" ;
+        narr:context "Advisor session on Halyard plan" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_6HalyardAdvisorTonyMaley20260929 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "That last part is pointed." ;
+                oa:prefix " has a date.\n\n**Tanya Team:** " ;
+                oa:suffix "\n\n**Tony Maley:** It's meant t" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "2804"^^xsd:integer ;
+                oa:end "2830"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T02:42:55Z"^^xsd:dateTime .
+
+    narr:Expr_6HalyardAdvisorTonyMaley20260929_19 a narr:Expression ;
+        narr:actor narr:Actor_TonyMaley ;
+        narr:act "assertive" ;
+        narr:context "Advisor session on Halyard plan" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_6HalyardAdvisorTonyMaley20260929 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "It's meant to be. You are the person who will be tempted to wave a site through, and you should not be the person holding the gate. That's not a comment on you, it's the structure." ;
+                oa:prefix " is pointed.\n\n**Tony Maley:** " ;
+                oa:suffix "\n\n**Tanya Team:** No, that's f" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "2848"^^xsd:integer ;
+                oa:end "3028"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T02:42:55Z"^^xsd:dateTime .
+
+    narr:Expr_6HalyardAdvisorTonyMaley20260929_20 a narr:Expression ;
+        narr:actor narr:Actor_TanyaTeam ;
+        narr:act "expressive" ;
+        narr:context "Advisor session on Halyard plan" ;
+        skos:note "Concurrence with critique" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_6HalyardAdvisorTonyMaley20260929 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "No, that's fair. Nobody has said that to me yet." ;
+                oa:prefix "e structure.\n\n**Tanya Team:** " ;
+                oa:suffix "\n\n**Tony Maley:** Nobody says " ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "3046"^^xsd:integer ;
+                oa:end "3094"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T02:42:55Z"^^xsd:dateTime .
+
+    narr:Expr_6HalyardAdvisorTonyMaley20260929_21 a narr:Expression ;
+        narr:actor narr:Actor_TonyMaley ;
+        narr:act "directive" ;
+        narr:context "Advisor session on Halyard plan" ;
+        skos:note "Directive to budget for gate delay" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_6HalyardAdvisorTonyMaley20260929 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Nobody says it, because by the time it matters everyone has a date. Budget for it now: the gate costs you a site's worth of delay at least once, and if it never fires you set the bar too low." ;
+                oa:prefix "t to me yet.\n\n**Tony Maley:** " ;
+                oa:suffix "\n\n**Tanya Team:** That's a goo" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "3112"^^xsd:integer ;
+                oa:end "3303"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T02:42:55Z"^^xsd:dateTime .
+
+    narr:Expr_6HalyardAdvisorTonyMaley20260929_22 a narr:Expression ;
+        narr:actor narr:Actor_TanyaTeam ;
+        narr:act "expressive" ;
+        narr:context "Advisor session on Halyard plan" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_6HalyardAdvisorTonyMaley20260929 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "That's a good test." ;
+                oa:prefix "bar too low.\n\n**Tanya Team:** " ;
+                oa:suffix "\n\n**Tony Maley:** It's the onl" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "3321"^^xsd:integer ;
+                oa:end "3340"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T02:42:55Z"^^xsd:dateTime .
+
+    narr:Expr_6HalyardAdvisorTonyMaley20260929_23 a narr:Expression ;
+        narr:actor narr:Actor_TonyMaley ;
+        narr:act "assertive" ;
+        narr:context "Advisor session on Halyard plan" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_6HalyardAdvisorTonyMaley20260929 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "It's the only test I trust on quality gates. If it never stops anything, it isn't a gate." ;
+                oa:prefix "a good test.\n\n**Tony Maley:** " ;
+                oa:suffix "\n\n**Tanya Team:** Anything els" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "3358"^^xsd:integer ;
+                oa:end "3447"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T02:42:55Z"^^xsd:dateTime .
+
+    narr:Expr_6HalyardAdvisorTonyMaley20260929_24 a narr:Expression ;
+        narr:actor narr:Actor_TanyaTeam ;
+        narr:act "question" ;
+        narr:context "Advisor session on Halyard plan" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_6HalyardAdvisorTonyMaley20260929 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Anything else?" ;
+                oa:prefix "sn't a gate.\n\n**Tanya Team:** " ;
+                oa:suffix "\n\n**Tony Maley:** The referenc" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "3465"^^xsd:integer ;
+                oa:end "3479"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T02:42:55Z"^^xsd:dateTime .
+
+    narr:Expr_6HalyardAdvisorTonyMaley20260929_25 a narr:Expression ;
+        narr:actor narr:Actor_TonyMaley ;
+        narr:act "directive" ;
+        narr:context "Advisor session on Halyard plan" ;
+        skos:note "Feedback on reference data and directive on archive" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_6HalyardAdvisorTonyMaley20260929 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "The reference-data call is right too, for what it's worth, though I'd want to see the mirror's refresh interval before I said more. And the archive thing you mentioned in passing — do it. Everyone skips it and everyone regrets it around year six." ;
+                oa:prefix "ything else?\n\n**Tony Maley:** " ;
+                oa:suffix "\n\n**Tanya Team:** We opened th" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "3497"^^xsd:integer ;
+                oa:end "3743"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T02:42:55Z"^^xsd:dateTime .
+
+    narr:Expr_6HalyardAdvisorTonyMaley20260929_26 a narr:Expression ;
+        narr:actor narr:Actor_TanyaTeam ;
+        narr:act "assertive" ;
+        narr:context "Advisor session on Halyard plan" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_6HalyardAdvisorTonyMaley20260929 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "We opened that last week, actually." ;
+                oa:prefix "nd year six.\n\n**Tanya Team:** " ;
+                oa:suffix "\n\n**Tony Maley:** Then you're " ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "3761"^^xsd:integer ;
+                oa:end "3796"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T02:42:55Z"^^xsd:dateTime .
+
+    narr:Expr_6HalyardAdvisorTonyMaley20260929_27 a narr:Expression ;
+        narr:actor narr:Actor_TonyMaley ;
+        narr:act "assertive" ;
+        narr:context "Advisor session on Halyard plan" ;
+        skos:note "Summary assessment of plan status" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_6HalyardAdvisorTonyMaley20260929 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Then you're further along than most. The sequencing and the archive you've got. The quality gate is the hole." ;
+                oa:prefix "k, actually.\n\n**Tony Maley:** " ;
+                oa:suffix "\n\n**Tanya Team:** I'll take th" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "3814"^^xsd:integer ;
+                oa:end "3923"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T02:42:55Z"^^xsd:dateTime .
+
+    narr:Expr_6HalyardAdvisorTonyMaley20260929_28 a narr:Expression ;
+        narr:actor narr:Actor_TanyaTeam ;
+        narr:act "commissive" ;
+        narr:context "Advisor session on Halyard plan" ;
+        skos:note "Commitment to present gap proactively to board" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_6HalyardAdvisorTonyMaley20260929 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "I'll take that to the board as the open item rather than wait for them to find it." ;
+                oa:prefix "is the hole.\n\n**Tanya Team:** " ;
+                oa:suffix "\n\n**Tony Maley:** That's the r" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "3941"^^xsd:integer ;
+                oa:end "4023"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T02:42:55Z"^^xsd:dateTime .
+
+    narr:Expr_6HalyardAdvisorTonyMaley20260929_29 a narr:Expression ;
+        narr:actor narr:Actor_TonyMaley ;
+        narr:act "assertive" ;
+        narr:context "Advisor session on Halyard plan" ;
+        skos:note "Endorsement and rationale" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_6HalyardAdvisorTonyMaley20260929 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "That's the right move. Bring them a hole you've named. They'll forgive a hole. They won't forgive finding one." ;
+                oa:prefix " to find it.\n\n**Tony Maley:** " ;
+                oa:suffix "\n" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "4041"^^xsd:integer ;
+                oa:end "4151"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T02:42:55Z"^^xsd:dateTime .
+
+    narr:Actor_TonyMaley a narr:Actor ;
+        skos:prefLabel "Tony Maley" .
+
+    aswr:Run_20260923T024255Z_actors a prov:Activity ;
+        aswr:runPass "actors" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/e2ad7f8405c8/2026-09-23-6-halyard-advisor-tony-maley-2026-09-29/actors.json" ;
+        prov:generated narr:Actor_TonyMaley ;
+        dct:isPartOf aswr:Tx_20260923T024255Z ;
+        prov:generatedAtTime "2026-09-23T02:42:55Z"^^xsd:dateTime .
+
+    aswr:Run_20260923T024255Z_pass1 a prov:Activity ;
+        aswr:runPass "pass1" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/e2ad7f8405c8/2026-09-23-6-halyard-advisor-tony-maley-2026-09-29/pass1.json" ;
+        prov:generated narr:Sample_6HalyardAdvisorTonyMaley20260929, narr:Expr_6HalyardAdvisorTonyMaley20260929_1, narr:Expr_6HalyardAdvisorTonyMaley20260929_2, narr:Expr_6HalyardAdvisorTonyMaley20260929_3, narr:Expr_6HalyardAdvisorTonyMaley20260929_4, narr:Expr_6HalyardAdvisorTonyMaley20260929_5, narr:Expr_6HalyardAdvisorTonyMaley20260929_6, narr:Expr_6HalyardAdvisorTonyMaley20260929_7, narr:Expr_6HalyardAdvisorTonyMaley20260929_8, narr:Expr_6HalyardAdvisorTonyMaley20260929_9, narr:Expr_6HalyardAdvisorTonyMaley20260929_10, narr:Expr_6HalyardAdvisorTonyMaley20260929_11, narr:Expr_6HalyardAdvisorTonyMaley20260929_12, narr:Expr_6HalyardAdvisorTonyMaley20260929_13, narr:Expr_6HalyardAdvisorTonyMaley20260929_14, narr:Expr_6HalyardAdvisorTonyMaley20260929_15, narr:Expr_6HalyardAdvisorTonyMaley20260929_16, narr:Expr_6HalyardAdvisorTonyMaley20260929_17, narr:Expr_6HalyardAdvisorTonyMaley20260929_18, narr:Expr_6HalyardAdvisorTonyMaley20260929_19, narr:Expr_6HalyardAdvisorTonyMaley20260929_20, narr:Expr_6HalyardAdvisorTonyMaley20260929_21, narr:Expr_6HalyardAdvisorTonyMaley20260929_22, narr:Expr_6HalyardAdvisorTonyMaley20260929_23, narr:Expr_6HalyardAdvisorTonyMaley20260929_24, narr:Expr_6HalyardAdvisorTonyMaley20260929_25, narr:Expr_6HalyardAdvisorTonyMaley20260929_26, narr:Expr_6HalyardAdvisorTonyMaley20260929_27, narr:Expr_6HalyardAdvisorTonyMaley20260929_28, narr:Expr_6HalyardAdvisorTonyMaley20260929_29 ;
+        dct:isPartOf aswr:Tx_20260923T024255Z ;
+        prov:generatedAtTime "2026-09-23T02:42:55Z"^^xsd:dateTime .
+  }
+}
