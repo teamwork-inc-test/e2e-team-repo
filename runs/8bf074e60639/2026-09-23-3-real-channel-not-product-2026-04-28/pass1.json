@@ -1,0 +1,714 @@
+{
+  "doc" : {
+    "title" : "The product is not a phone number — channel is distribution, not identity",
+    "date_stated" : "2026-04-28",
+    "actors_present" : [ "claude-opus-5-5", "Tanya TeamOwner", "Tess Guest" ]
+  },
+  "footing_cases" : [ {
+    "id" : "fc-1",
+    "animator" : "claude-opus-5-5",
+    "author" : "claude-opus-5-5",
+    "principal" : null,
+    "when" : "AI composer editorial prose without explicit in-segment attribution marker"
+  }, {
+    "id" : "fc-2",
+    "animator" : "claude-opus-5-5",
+    "author" : "claude-opus-5-5",
+    "principal" : "Tanya TeamOwner",
+    "when" : "AI composer reported speech naming Tanya with a speech verb inside the segment"
+  }, {
+    "id" : "fc-3",
+    "animator" : "claude-opus-5-5",
+    "author" : "claude-opus-5-5",
+    "principal" : "Tess Guest",
+    "when" : "AI composer reported speech naming Tess with a speech verb inside the segment"
+  } ],
+  "segments" : [ {
+    "local_id" : "src-1",
+    "exact" : "Written up by Claude (claude-opus-5-5), the assistant in Tanya Team's session. Tanya's words are verbatim; Tess Guest's are as Tanya relayed them.",
+    "actor" : "claude-opus-5-5",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Header metadata note"
+    },
+    "footing_case" : "fc-1",
+    "footing" : {
+      "animator" : "claude-opus-5-5",
+      "author" : "claude-opus-5-5",
+      "principal" : null
+    }
+  }, {
+    "local_id" : "src-2",
+    "exact" : "The graph has \"the product is a phone number\" embedded as a tagline-level claim in the Identity section.",
+    "actor" : "claude-opus-5-5",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "The correction"
+    },
+    "footing_case" : "fc-1",
+    "footing" : {
+      "animator" : "claude-opus-5-5",
+      "author" : "claude-opus-5-5",
+      "principal" : null
+    }
+  }, {
+    "local_id" : "src-3",
+    "exact" : "This is incorrect.",
+    "actor" : "claude-opus-5-5",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "The correction"
+    },
+    "footing_case" : "fc-1",
+    "footing" : {
+      "animator" : "claude-opus-5-5",
+      "author" : "claude-opus-5-5",
+      "principal" : null
+    }
+  }, {
+    "local_id" : "src-4",
+    "exact" : "Tanya has tried to correct this before.",
+    "actor" : "claude-opus-5-5",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "The correction"
+    },
+    "footing_case" : "fc-1",
+    "footing" : {
+      "animator" : "claude-opus-5-5",
+      "author" : "claude-opus-5-5",
+      "principal" : null
+    }
+  }, {
+    "local_id" : "src-5",
+    "exact" : "It keeps re-embedding because the text-for-topic experiment generated many memories that asserted SMS-as-product confidently, and the extraction pipeline can't currently distinguish \"this was the channel for an experiment we ran\" from \"this is what the product IS.\"",
+    "actor" : "claude-opus-5-5",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "The correction"
+    },
+    "footing_case" : "fc-1",
+    "footing" : {
+      "animator" : "claude-opus-5-5",
+      "author" : "claude-opus-5-5",
+      "principal" : null
+    }
+  }, {
+    "local_id" : "src-6",
+    "exact" : "Tanya, verbatim from this session:",
+    "actor" : "claude-opus-5-5",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "The correction"
+    },
+    "footing_case" : "fc-1",
+    "footing" : {
+      "animator" : "claude-opus-5-5",
+      "author" : "claude-opus-5-5",
+      "principal" : null
+    }
+  }, {
+    "local_id" : "src-7",
+    "exact" : "The text for topic memory was really an exploration, and this one has a couple of claims in it, but the one that the product is a phone number got really deeply embedded into the graph. That's true in the text for topic case, but that was always a product experiment, one that points to an issue in the extraction process.",
+    "actor" : "Tanya TeamOwner",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "The correction"
+    },
+    "footing_case" : null
+  }, {
+    "local_id" : "src-8",
+    "exact" : "The product is not a phone number; it's the phone number distribution channel, and it's the right distribution channel for certain contexts.",
+    "actor" : "Tanya TeamOwner",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "The correction"
+    },
+    "footing_case" : null
+  }, {
+    "local_id" : "src-9",
+    "exact" : "The product is curated expertise installation** — a way to install expertise into your AI and verify where it's coming from.",
+    "actor" : "claude-opus-5-5",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "The corrected positive position"
+    },
+    "footing_case" : "fc-1",
+    "footing" : {
+      "animator" : "claude-opus-5-5",
+      "author" : "claude-opus-5-5",
+      "principal" : null
+    }
+  }, {
+    "local_id" : "src-10",
+    "exact" : "This is consistent with `Claim_CoreValuePropInstallExpertise` (Foundation-level, March 19, 2026 strategy session): *\"A way to install expertise into your AI and verify where it's coming from.\"",
+    "actor" : "claude-opus-5-5",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "The corrected positive position"
+    },
+    "footing_case" : "fc-1",
+    "footing" : {
+      "animator" : "claude-opus-5-5",
+      "author" : "claude-opus-5-5",
+      "principal" : null
+    }
+  }, {
+    "local_id" : "src-11",
+    "exact" : "Tanya at the time: \"That's gold.\"",
+    "actor" : "claude-opus-5-5",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "The corrected positive position"
+    },
+    "footing_case" : "fc-2",
+    "footing" : {
+      "animator" : "claude-opus-5-5",
+      "author" : "claude-opus-5-5",
+      "principal" : "Tanya TeamOwner"
+    }
+  }, {
+    "local_id" : "src-12",
+    "exact" : "The phone number / SMS is a distribution channel.",
+    "actor" : "claude-opus-5-5",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "The corrected positive position"
+    },
+    "footing_case" : "fc-1",
+    "footing" : {
+      "animator" : "claude-opus-5-5",
+      "author" : "claude-opus-5-5",
+      "principal" : null
+    }
+  }, {
+    "local_id" : "src-13",
+    "exact" : "It is one of several.",
+    "actor" : "claude-opus-5-5",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "The corrected positive position"
+    },
+    "footing_case" : "fc-1",
+    "footing" : {
+      "animator" : "claude-opus-5-5",
+      "author" : "claude-opus-5-5",
+      "principal" : null
+    }
+  }, {
+    "local_id" : "src-14",
+    "exact" : "It is the right channel in some contexts (where the trust-signal of \"this is not an AI chat\" matters; where an enterprise client needs that texture and is willing to absorb the operational cost) and the wrong channel in others (where SMS reads as spam-adjacent, where prospects don't want to hand over their number, where the operational cost isn't justified).",
+    "actor" : "claude-opus-5-5",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "The corrected positive position"
+    },
+    "footing_case" : "fc-1",
+    "footing" : {
+      "animator" : "claude-opus-5-5",
+      "author" : "claude-opus-5-5",
+      "principal" : null
+    }
+  }, {
+    "local_id" : "src-15",
+    "exact" : "There is some real value to the way the phone number feels. That's really important: a phone number doesn't feel like an AI chat in the same way that chat does.",
+    "actor" : "Tanya TeamOwner",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Why SMS feels right when it's right"
+    },
+    "footing_case" : null
+  }, {
+    "local_id" : "src-16",
+    "exact" : "This is consistent with `Claim_SMSFormatHonesty` (Foundation): *\"The SMS format makes AI personalization feel honest rather than fake because it removes the 'bot' mental frame associated with chat boxes.\"",
+    "actor" : "claude-opus-5-5",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Why SMS feels right when it's right"
+    },
+    "footing_case" : "fc-1",
+    "footing" : {
+      "animator" : "claude-opus-5-5",
+      "author" : "claude-opus-5-5",
+      "principal" : null
+    }
+  }, {
+    "local_id" : "src-17",
+    "exact" : "That claim is **not superseded** by this correction.",
+    "actor" : "claude-opus-5-5",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Why SMS feels right when it's right"
+    },
+    "footing_case" : "fc-1",
+    "footing" : {
+      "animator" : "claude-opus-5-5",
+      "author" : "claude-opus-5-5",
+      "principal" : null
+    }
+  }, {
+    "local_id" : "src-18",
+    "exact" : "SMS-as-trust-signal remains genuine value.",
+    "actor" : "claude-opus-5-5",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Why SMS feels right when it's right"
+    },
+    "footing_case" : "fc-1",
+    "footing" : {
+      "animator" : "claude-opus-5-5",
+      "author" : "claude-opus-5-5",
+      "principal" : null
+    }
+  }, {
+    "local_id" : "src-19",
+    "exact" : "The correction is about scope: it's a *channel property*, not a product identity.",
+    "actor" : "claude-opus-5-5",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Why SMS feels right when it's right"
+    },
+    "footing_case" : "fc-1",
+    "footing" : {
+      "animator" : "claude-opus-5-5",
+      "author" : "claude-opus-5-5",
+      "principal" : null
+    }
+  }, {
+    "local_id" : "src-20",
+    "exact" : "That's a bonus; it's an upsell.",
+    "actor" : "Tanya TeamOwner",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Why SMS feels right when it's right"
+    },
+    "footing_case" : null
+  }, {
+    "local_id" : "src-21",
+    "exact" : "It's also a lot more work because of the maintenance around fraud, et cetera, as we're seeing above with the verification.",
+    "actor" : "Tanya TeamOwner",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Why SMS is operationally expensive"
+    },
+    "footing_case" : null
+  }, {
+    "local_id" : "src-22",
+    "exact" : "The triggering operational evidence: seven additional Twilio toll-free numbers were submitted for verification and **all seven came back rejected** (April 28, 2026).",
+    "actor" : "claude-opus-5-5",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Why SMS is operationally expensive"
+    },
+    "footing_case" : "fc-1",
+    "footing" : {
+      "animator" : "claude-opus-5-5",
+      "author" : "claude-opus-5-5",
+      "principal" : null
+    }
+  }, {
+    "local_id" : "src-23",
+    "exact" : "The rejection reason traces to the website / opt-in form not being live or linkable at verification time.",
+    "actor" : "claude-opus-5-5",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Why SMS is operationally expensive"
+    },
+    "footing_case" : "fc-1",
+    "footing" : {
+      "animator" : "claude-opus-5-5",
+      "author" : "claude-opus-5-5",
+      "principal" : null
+    }
+  }, {
+    "local_id" : "src-24",
+    "exact" : "The numbers can be resubmitted to the review queue.",
+    "actor" : "claude-opus-5-5",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Why SMS is operationally expensive"
+    },
+    "footing_case" : "fc-1",
+    "footing" : {
+      "animator" : "claude-opus-5-5",
+      "author" : "claude-opus-5-5",
+      "principal" : null
+    }
+  }, {
+    "local_id" : "src-25",
+    "exact" : "This is not the first verification cycle and it will not be the last; verification churn is a permanent operational cost of running SMS at scale.",
+    "actor" : "claude-opus-5-5",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Why SMS is operationally expensive"
+    },
+    "footing_case" : "fc-1",
+    "footing" : {
+      "animator" : "claude-opus-5-5",
+      "author" : "claude-opus-5-5",
+      "principal" : null
+    }
+  }, {
+    "local_id" : "src-26",
+    "exact" : "Tanya asked Tess whether SMS is the right demo channel for someone like Tess (Knowledge-Rich Consumer cohort, alongside Pat Quill and others).",
+    "actor" : "claude-opus-5-5",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "The triggering conversation: Tess Guest's pushback"
+    },
+    "footing_case" : "fc-2",
+    "footing" : {
+      "animator" : "claude-opus-5-5",
+      "author" : "claude-opus-5-5",
+      "principal" : "Tanya TeamOwner"
+    }
+  }, {
+    "circumstance" : {
+      "context" : "The triggering conversation: Tess Guest's pushback"
+    },
+    "exact" : "She thinks that text message, in certain contexts, is absolutely the right move, but in a lot of skeptical or lower-trust contexts, texting is so associated with spam now that requiring someone to text might actually be a real downside. People might not want to give their number.",
+    "local_id" : "src-27",
+    "act" : "assertive",
+    "footing_case" : "fc-3",
+    "note" : "Tanya paraphrasing Tess Guest's position in dialogue with Claude",
+    "footing" : {
+      "animator" : "claude-opus-5-5",
+      "author" : "claude-opus-5-5",
+      "principal" : "Tess Guest"
+    },
+    "footing_flag" : "unmarked-principal",
+    "actor" : "claude-opus-5-5"
+  }, {
+    "local_id" : "src-28",
+    "exact" : "Can you just give me a chat widget on a web form?",
+    "actor" : "Tess Guest",
+    "act" : "question",
+    "circumstance" : {
+      "context" : "The triggering conversation: Tess Guest's pushback"
+    },
+    "note" : "Voicing/quote of Tess Guest as relayed by Tanya",
+    "footing_case" : null
+  }, {
+    "local_id" : "src-29",
+    "exact" : "This is consistent with `Archetype_KnowledgeRichConsumer` (Stake): *\"Main barrier is technical (MCP installation, GitHub abstraction), not behavioral.\"* Tess is named there as a canonical example.",
+    "actor" : "claude-opus-5-5",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "The triggering conversation: Tess Guest's pushback"
+    },
+    "footing_case" : "fc-1",
+    "footing" : {
+      "animator" : "claude-opus-5-5",
+      "author" : "claude-opus-5-5",
+      "principal" : null
+    }
+  }, {
+    "local_id" : "src-30",
+    "exact" : "The new piece of evidence is: SMS-as-channel adds a **trust friction** for this archetype that doesn't exist for the Knowledge Packager (Pat Quill, course-distribution context) or the Delegator (Morgan Reyes, internal team enterprise context).",
+    "actor" : "claude-opus-5-5",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "The triggering conversation: Tess Guest's pushback"
+    },
+    "footing_case" : "fc-1",
+    "footing" : {
+      "animator" : "claude-opus-5-5",
+      "author" : "claude-opus-5-5",
+      "principal" : null
+    }
+  }, {
+    "local_id" : "src-31",
+    "exact" : "Spam association is the specific friction.",
+    "actor" : "claude-opus-5-5",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "The triggering conversation: Tess Guest's pushback"
+    },
+    "footing_case" : "fc-1",
+    "footing" : {
+      "animator" : "claude-opus-5-5",
+      "author" : "claude-opus-5-5",
+      "principal" : null
+    }
+  }, {
+    "local_id" : "src-32",
+    "exact" : "Two named graph-structural gaps both contribute to the over-embedding:",
+    "actor" : "claude-opus-5-5",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "The extraction failure mode this corrects"
+    },
+    "footing_case" : "fc-1",
+    "footing" : {
+      "animator" : "claude-opus-5-5",
+      "author" : "claude-opus-5-5",
+      "principal" : null
+    }
+  }, {
+    "local_id" : "src-33",
+    "exact" : "1. **Temporality.** Already documented as `Claim_NarrAppliesAsOntologyExtension` (Notion, deferred post-launch): a `narr:appliesAs` predicate with values `current | nearFuture | exploration | speculative`. The text-for-topic experiment claims should have been tagged as `exploration`, not promoted to `current` worldview. The structural fix exists on paper, deliberately deferred from the April 9 launch to avoid breaking extraction tests.",
+    "actor" : "claude-opus-5-5",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "The extraction failure mode this corrects"
+    },
+    "footing_case" : "fc-1",
+    "footing" : {
+      "animator" : "claude-opus-5-5",
+      "author" : "claude-opus-5-5",
+      "principal" : null
+    }
+  }, {
+    "local_id" : "src-34",
+    "exact" : "2. **Subgraph segmentation / scoping.** Newly named in this session.",
+    "actor" : "claude-opus-5-5",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "The extraction failure mode this corrects"
+    },
+    "footing_case" : "fc-1",
+    "footing" : {
+      "animator" : "claude-opus-5-5",
+      "author" : "claude-opus-5-5",
+      "principal" : null
+    }
+  }, {
+    "local_id" : "src-35",
+    "exact" : "Another is the segmentation of the domain or the scoping of subgraphs, I suppose. You can have all of the stuff that we're talking about in a sort of subgrouping.",
+    "actor" : "Tanya TeamOwner",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "The extraction failure mode this corrects"
+    },
+    "footing_case" : null
+  }, {
+    "local_id" : "src-36",
+    "exact" : "There is currently no structural way to say \"this cluster of claims belongs to the text-for-topic experiment subgraph, not to the root product definition.\" Everything bridges to everything; an experiment's local positioning gets pulled into global positioning purely because the claims were stated confidently at the time.",
+    "actor" : "claude-opus-5-5",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "The extraction failure mode this corrects"
+    },
+    "footing_case" : "fc-1",
+    "footing" : {
+      "animator" : "claude-opus-5-5",
+      "author" : "claude-opus-5-5",
+      "principal" : null
+    }
+  }, {
+    "local_id" : "src-37",
+    "exact" : "This is a new candidate for ontology work, distinct from temporality.",
+    "actor" : "claude-opus-5-5",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "The extraction failure mode this corrects"
+    },
+    "footing_case" : "fc-1",
+    "footing" : {
+      "animator" : "claude-opus-5-5",
+      "author" : "claude-opus-5-5",
+      "principal" : null
+    }
+  }, {
+    "local_id" : "src-38",
+    "exact" : "Captured separately as a notion in the companion memory.",
+    "actor" : "claude-opus-5-5",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "The extraction failure mode this corrects"
+    },
+    "footing_case" : "fc-1",
+    "footing" : {
+      "animator" : "claude-opus-5-5",
+      "author" : "claude-opus-5-5",
+      "principal" : null
+    }
+  }, {
+    "local_id" : "src-39",
+    "exact" : "The Identity section of the worldview includes the line:\n\n> tagline: \"The product is a phone number.\"",
+    "actor" : "claude-opus-5-5",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "What this changes about prior canonical content"
+    },
+    "footing_case" : "fc-1",
+    "footing" : {
+      "animator" : "claude-opus-5-5",
+      "author" : "claude-opus-5-5",
+      "principal" : null
+    }
+  }, {
+    "local_id" : "src-40",
+    "exact" : "This tagline should be **superseded**.",
+    "actor" : "claude-opus-5-5",
+    "act" : "directive",
+    "circumstance" : {
+      "context" : "What this changes about prior canonical content"
+    },
+    "footing_case" : "fc-1",
+    "footing" : {
+      "animator" : "claude-opus-5-5",
+      "author" : "claude-opus-5-5",
+      "principal" : null
+    }
+  }, {
+    "local_id" : "src-41",
+    "exact" : "The replacement positioning, in Tanya's voice from this session and consistent with prior strategy work:\n\n> The product is curated expertise installation. The phone number is the distribution channel for contexts where the trust-signal of \"not an AI chat\" is worth its operational cost — primarily enterprise.",
+    "actor" : "claude-opus-5-5",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "What this changes about prior canonical content"
+    },
+    "footing_case" : "fc-1",
+    "footing" : {
+      "animator" : "claude-opus-5-5",
+      "author" : "claude-opus-5-5",
+      "principal" : null
+    }
+  }, {
+    "local_id" : "src-42",
+    "exact" : "The other Identity tagline (\"Feather your arrows.\") is unaffected.",
+    "actor" : "claude-opus-5-5",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "What this changes about prior canonical content"
+    },
+    "footing_case" : "fc-1",
+    "footing" : {
+      "animator" : "claude-opus-5-5",
+      "author" : "claude-opus-5-5",
+      "principal" : null
+    }
+  }, {
+    "local_id" : "src-43",
+    "exact" : "This memory is on `research/channel-strategy-correction` and **should not be auto-promoted** until the channel decision (companion memory) and the extraction-gap notion are reviewed together.",
+    "actor" : "claude-opus-5-5",
+    "act" : "directive",
+    "circumstance" : {
+      "context" : "What this changes about prior canonical content"
+    },
+    "footing_case" : "fc-1",
+    "footing" : {
+      "animator" : "claude-opus-5-5",
+      "author" : "claude-opus-5-5",
+      "principal" : null
+    }
+  }, {
+    "local_id" : "src-44",
+    "exact" : "The correction has been attempted before and re-failed; promotion needs to be explicit and accompanied by deletion of the old tagline assertion in the same transaction, not a parallel addition that extraction merges into a confused both-true state.",
+    "actor" : "claude-opus-5-5",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "What this changes about prior canonical content"
+    },
+    "footing_case" : "fc-1",
+    "footing" : {
+      "animator" : "claude-opus-5-5",
+      "author" : "claude-opus-5-5",
+      "principal" : null
+    }
+  }, {
+    "local_id" : "src-45",
+    "exact" : "- The full set of channels available for deployment (covered in companion memory).\n- Which channels map to which tiers (deliberately undecided as of this session — see companion memory).\n- Whether SMS becomes Enterprise-only specifically, or remains available across tiers as an opt-in upsell.",
+    "actor" : "claude-opus-5-5",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "What is not decided by this memory"
+    },
+    "footing_case" : "fc-1",
+    "footing" : {
+      "animator" : "claude-opus-5-5",
+      "author" : "claude-opus-5-5",
+      "principal" : null
+    }
+  }, {
+    "local_id" : "src-46",
+    "exact" : "I think SMS is something that we should offer only for the enterprise plan, because we have to provision numbers individually and manage them and so on and so forth.",
+    "actor" : "Tanya TeamOwner",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "What is not decided by this memory"
+    },
+    "footing_case" : null
+  }, {
+    "local_id" : "src-47",
+    "exact" : "We don't know yet how this maps to tiers... I'm doing this as a demo right now, and I'm trying to get some of these larger clients on the hook... I don't want to make that decision right now.",
+    "actor" : "Tanya TeamOwner",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "What is not decided by this memory"
+    },
+    "footing_case" : null
+  }, {
+    "local_id" : "src-48",
+    "exact" : "The first quote is a leaning.",
+    "actor" : "claude-opus-5-5",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "What is not decided by this memory"
+    },
+    "footing_case" : "fc-1",
+    "footing" : {
+      "animator" : "claude-opus-5-5",
+      "author" : "claude-opus-5-5",
+      "principal" : null
+    }
+  }, {
+    "local_id" : "src-49",
+    "exact" : "The second is the actual epistemic state.",
+    "actor" : "claude-opus-5-5",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "What is not decided by this memory"
+    },
+    "footing_case" : "fc-1",
+    "footing" : {
+      "animator" : "claude-opus-5-5",
+      "author" : "claude-opus-5-5",
+      "principal" : null
+    }
+  }, {
+    "local_id" : "src-50",
+    "exact" : "The leaning is recorded; it is not yet a decision.",
+    "actor" : "claude-opus-5-5",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "What is not decided by this memory"
+    },
+    "footing_case" : "fc-1",
+    "footing" : {
+      "animator" : "claude-opus-5-5",
+      "author" : "claude-opus-5-5",
+      "principal" : null
+    }
+  }, {
+    "local_id" : "src-51",
+    "exact" : "This distinction must be preserved through extraction.",
+    "actor" : "claude-opus-5-5",
+    "act" : "directive",
+    "circumstance" : {
+      "context" : "What is not decided by this memory"
+    },
+    "footing_case" : "fc-1",
+    "footing" : {
+      "animator" : "claude-opus-5-5",
+      "author" : "claude-opus-5-5",
+      "principal" : null
+    }
+  }, {
+    "local_id" : "src-52",
+    "exact" : "- Conversation: Claude.ai mobile session, April 28, 2026\n- Speaker: Tanya Team (founder), in dialogue with Claude (Opus 4.7)\n- Triggering events: Tess Guest conversation (same day or recent), seven Twilio toll-free verification rejections (same day)\n- Related claims in graph: Claim_CoreValuePropInstallExpertise (Foundation), Claim_SMSFormatHonesty (Foundation), Archetype_KnowledgeRichConsumer (Stake), Claim_NarrAppliesAsOntologyExtension (Notion)\n- Tagline being superseded: \"The product is a phone number.\" (currently in Identity section of worldview)",
+    "actor" : "claude-opus-5-5",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Provenance"
+    },
+    "footing_case" : "fc-1",
+    "footing" : {
+      "animator" : "claude-opus-5-5",
+      "author" : "claude-opus-5-5",
+      "principal" : null
+    }
+  } ],
+  "coverage_gaps" : [ ]
+}
