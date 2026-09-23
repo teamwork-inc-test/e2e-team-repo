@@ -1,0 +1,73 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-2",
+    "regions" : [ "plain-spoken" ],
+    "evidence" : [ {
+      "quote" : "I'll be blunt where I can be useful and quiet where I can't.",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Explicitly establishes an unvarnished, direct tenor for the advisory interaction.",
+    "reported" : false,
+    "direction" : {
+      "verdict" : "mint",
+      "node" : "mint-1"
+    }
+  }, {
+    "segment_local_id" : "src-7",
+    "regions" : [ "plain-spoken" ],
+    "evidence" : [ {
+      "quote" : "always arrives dressed as efficiency",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Uses vivid, aphoristic plain phrasing to strip corporate jargon down to its actual dynamic.",
+    "reported" : false,
+    "direction" : {
+      "verdict" : "mint",
+      "node" : "mint-1"
+    }
+  }, {
+    "segment_local_id" : "src-17",
+    "regions" : [ "technical", "plain-spoken" ],
+    "evidence" : [ {
+      "quote" : "Duplicate rate, orphan rate, whatever the three things are that actually bite you.",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Grounds technical domain metrics in blunt operational impact terms.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-23",
+    "regions" : [ "matter-of-fact" ],
+    "evidence" : [ {
+      "quote" : "If it never stops anything, it isn't a gate.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "A flat, unadorned maxim setting an instrumental operational definition.",
+    "reported" : false,
+    "direction" : {
+      "verdict" : "mint",
+      "node" : "mint-1"
+    }
+  }, {
+    "segment_local_id" : "src-29",
+    "regions" : [ "plain-spoken" ],
+    "evidence" : [ {
+      "quote" : "Bring them a hole you've named. They'll forgive a hole. They won't forgive finding one.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Parallel, unadorned conversational maxim framing organizational governance.",
+    "reported" : false,
+    "direction" : {
+      "verdict" : "mint",
+      "node" : "mint-1"
+    }
+  } ],
+  "unmarked" : [ "src-1", "src-3", "src-4", "src-5", "src-6", "src-8", "src-9", "src-10", "src-11", "src-12", "src-13", "src-14", "src-15", "src-16", "src-18", "src-19", "src-20", "src-21", "src-22", "src-24", "src-25", "src-26", "src-27", "src-28" ],
+  "mints" : [ {
+    "id" : "mint-1",
+    "name" : "BluntAphoristicAdvisory",
+    "title" : "blunt where I can be useful",
+    "frame" : "Does the speaker deliver advice through unvarnished, compressed maxims stripped of protocol?",
+    "regions" : [ "plain-spoken", "matter-of-fact" ]
+  } ],
+  "region_mints" : [ ]
+}
