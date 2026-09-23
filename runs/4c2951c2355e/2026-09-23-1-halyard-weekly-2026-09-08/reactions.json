@@ -1,0 +1,77 @@
+{
+  "run_id" : "mp-eng-77169472",
+  "gates" : [ {
+    "id" : "aswritten/clarify",
+    "run?" : false,
+    "gate" : 2,
+    "reason" : "score 0.1 < threshold 0.7",
+    "score" : 0.1,
+    "evidence" : [ "So Thursday I'm telling them: one site at a time, two-week soak between sites, reporting off the replica during cutover, vendor holds reference data until Clyde is green.", "I want to come out of it with the cutover shape actually decided", "The soak is two full weeks. That's the Dockside number, and I'd hold us to it.", "Then that's the rule. Reporting reads come off the replica during cutover." ]
+  }, {
+    "id" : "aswritten/refract",
+    "run?" : true,
+    "gate" : 2,
+    "reason" : "predicate only"
+  }, {
+    "id" : "aswritten/review",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "skill off"
+  }, {
+    "id" : "aswritten/riff",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "requires perspective, expand"
+  } ],
+  "spend" : {
+    "cost_usd" : 0.009392,
+    "passes" : [ {
+      "pass" : "reaction:_score",
+      "llm_calls" : 1,
+      "cost_usd" : 0.0049962
+    }, {
+      "pass" : "reaction:refract",
+      "llm_calls" : 1,
+      "cost_usd" : 0.0043956
+    } ]
+  },
+  "bundle" : {
+    "items" : 1,
+    "audience" : "only-me",
+    "recipients" : 1,
+    "moments_cached" : true,
+    "sent" : [ {
+      "items" : [ {
+        "kind" : "note",
+        "skill" : "aswritten/refract",
+        "audience" : "speakers"
+      } ],
+      "handle" : "tanya+staging@aswritten.ai",
+      "channel" : "email",
+      "status" : "sent",
+      "front_message_id" : "msg_3di6trag",
+      "front_conversation_id" : "cnv_1pgl8xt4"
+    } ]
+  },
+  "policy" : {
+    "mode" : "on",
+    "budget_per_run_usd" : 0.25,
+    "channels" : [ "email", "sms" ]
+  },
+  "jobs" : [ {
+    "skill" : "aswritten/refract",
+    "status" : "ok",
+    "gate" : { },
+    "output" : {
+      "lens" : null,
+      "ask" : "The shift is clear — the cutover is now governed by containment over speed: one site at a time, two-week soak between sites, reporting off the replica during cutover, vendor holds reference data until Clyde is green — but no documents came through with this conversation, so I can't yet say what it changes; point me at the runbook, the site plan, or the steering-group materials and I'll map it from there."
+    },
+    "landing" : {
+      "landed" : "message"
+    },
+    "ms" : 16329
+  } ],
+  "stream" : "fixtures/701",
+  "at" : "2026-09-23T01:46:09.031080364Z",
+  "live_run_id" : "4c2951c2355e"
+}
