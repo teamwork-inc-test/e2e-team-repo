@@ -7,6 +7,37 @@
       "n:Expr_4RealFreyaDesignTokens20260702_6" : 1,
       "n:Expr_4RealFreyaDesignTokens20260702_8" : 1
     },
+    "n:Actor_TanyaTeam" : {
+      "n:Expr_5RealXavierAndTanya60Mins20260720_100" : 2,
+      "n:Expr_5RealXavierAndTanya60Mins20260720_102" : 1,
+      "n:Expr_5RealXavierAndTanya60Mins20260720_110" : 2,
+      "n:Expr_5RealXavierAndTanya60Mins20260720_116" : 1,
+      "n:Expr_5RealXavierAndTanya60Mins20260720_118" : 1,
+      "n:Expr_5RealXavierAndTanya60Mins20260720_120" : 1,
+      "n:Expr_5RealXavierAndTanya60Mins20260720_126" : 1,
+      "n:Expr_5RealXavierAndTanya60Mins20260720_128" : 1,
+      "n:Expr_5RealXavierAndTanya60Mins20260720_144" : 1,
+      "n:Expr_5RealXavierAndTanya60Mins20260720_158" : 1,
+      "n:Expr_5RealXavierAndTanya60Mins20260720_170" : 1,
+      "n:Expr_5RealXavierAndTanya60Mins20260720_176" : 1,
+      "n:Expr_5RealXavierAndTanya60Mins20260720_178" : 1,
+      "n:Expr_5RealXavierAndTanya60Mins20260720_184" : 1,
+      "n:Expr_5RealXavierAndTanya60Mins20260720_186" : 1,
+      "n:Expr_5RealXavierAndTanya60Mins20260720_188" : 1,
+      "n:Expr_5RealXavierAndTanya60Mins20260720_192" : 1,
+      "n:Expr_5RealXavierAndTanya60Mins20260720_194" : 1,
+      "n:Expr_5RealXavierAndTanya60Mins20260720_196" : 1,
+      "n:Expr_5RealXavierAndTanya60Mins20260720_198" : 1,
+      "n:Expr_5RealXavierAndTanya60Mins20260720_202" : 1,
+      "n:Expr_5RealXavierAndTanya60Mins20260720_206" : 1,
+      "n:Expr_5RealXavierAndTanya60Mins20260720_208" : 1,
+      "n:Expr_5RealXavierAndTanya60Mins20260720_210" : 1,
+      "n:Expr_5RealXavierAndTanya60Mins20260720_212" : 1,
+      "n:Expr_5RealXavierAndTanya60Mins20260720_214" : 1,
+      "n:Expr_5RealXavierAndTanya60Mins20260720_222" : 2,
+      "n:Expr_5RealXavierAndTanya60Mins20260720_78" : 1,
+      "n:Expr_5RealXavierAndTanya60Mins20260720_80" : 2
+    },
     "n:Actor_TanyaTeamowner" : {
       "n:Expr_1RealFreyaPodcastSalesMotion20260323_24" : 2,
       "n:Expr_1RealFreyaPodcastSalesMotion20260323_26" : 1,
@@ -29,6 +60,36 @@
       "n:Expr_2RealTessChatWidget20260423_9" : 1,
       "n:Expr_3RealChannelNotProduct20260428_28" : 1
     },
+    "n:Actor_XavierExpert" : {
+      "n:Expr_5RealXavierAndTanya60Mins20260720_105" : 2,
+      "n:Expr_5RealXavierAndTanya60Mins20260720_107" : 1,
+      "n:Expr_5RealXavierAndTanya60Mins20260720_109" : 2,
+      "n:Expr_5RealXavierAndTanya60Mins20260720_111" : 1,
+      "n:Expr_5RealXavierAndTanya60Mins20260720_113" : 1,
+      "n:Expr_5RealXavierAndTanya60Mins20260720_115" : 1,
+      "n:Expr_5RealXavierAndTanya60Mins20260720_117" : 1,
+      "n:Expr_5RealXavierAndTanya60Mins20260720_119" : 1,
+      "n:Expr_5RealXavierAndTanya60Mins20260720_121" : 1,
+      "n:Expr_5RealXavierAndTanya60Mins20260720_123" : 1,
+      "n:Expr_5RealXavierAndTanya60Mins20260720_125" : 1,
+      "n:Expr_5RealXavierAndTanya60Mins20260720_127" : 1,
+      "n:Expr_5RealXavierAndTanya60Mins20260720_129" : 1,
+      "n:Expr_5RealXavierAndTanya60Mins20260720_131" : 1,
+      "n:Expr_5RealXavierAndTanya60Mins20260720_133" : 1,
+      "n:Expr_5RealXavierAndTanya60Mins20260720_143" : 2,
+      "n:Expr_5RealXavierAndTanya60Mins20260720_145" : 1,
+      "n:Expr_5RealXavierAndTanya60Mins20260720_157" : 1,
+      "n:Expr_5RealXavierAndTanya60Mins20260720_171" : 1,
+      "n:Expr_5RealXavierAndTanya60Mins20260720_173" : 1,
+      "n:Expr_5RealXavierAndTanya60Mins20260720_175" : 1,
+      "n:Expr_5RealXavierAndTanya60Mins20260720_177" : 1,
+      "n:Expr_5RealXavierAndTanya60Mins20260720_179" : 1,
+      "n:Expr_5RealXavierAndTanya60Mins20260720_181" : 1,
+      "n:Expr_5RealXavierAndTanya60Mins20260720_183" : 1,
+      "n:Expr_5RealXavierAndTanya60Mins20260720_185" : 1,
+      "n:Expr_5RealXavierAndTanya60Mins20260720_191" : 1,
+      "n:Expr_5RealXavierAndTanya60Mins20260720_79" : 2
+    },
     "n:Narrative_AntiSlackPositioning" : {
       "n:Position_AntiPatternRealtimeChat" : 2,
       "n:Position_PricingTwelveDollars" : 1,
@@ -47,6 +108,7 @@
       "n:Expr_2RealTessChatWidget20260423_44" : 2,
       "n:Expr_2RealTessChatWidget20260423_45" : 1,
       "n:Expr_2RealTessChatWidget20260423_46" : 1,
+      "n:Expr_2RealTessChatWidget20260423_47" : 1,
       "n:Expr_2RealTessChatWidget20260423_54" : 2,
       "n:Expr_3RealChannelNotProduct20260428_20" : 1,
       "n:Expr_3RealChannelNotProduct20260428_21" : 1,
@@ -54,6 +116,7 @@
       "n:Expr_3RealChannelNotProduct20260428_47" : 2,
       "n:Position_ArchetypeRelationalDisambiguation" : 2,
       "n:Position_BehavioralStepPackagingTiers" : 1,
+      "n:Position_EnterprisePilotContractTiering" : 1,
       "n:Position_SmsChannelTierPackaging" : 1
     },
     "n:Narrative_HumanMomentVideoProof" : {
@@ -77,7 +140,7 @@
       "n:Expr_2RealTessChatWidget20260423_41" : 1,
       "n:Expr_2RealTessChatWidget20260423_55" : 1,
       "n:Expr_2RealTessChatWidget20260423_63" : 1,
-      "n:Expr_3RealChannelNotProduct20260428_10" : 2,
+      "n:Expr_3RealChannelNotProduct20260428_10" : 1,
       "n:Expr_3RealChannelNotProduct20260428_40" : 1,
       "n:Expr_3RealChannelNotProduct20260428_7" : 1,
       "n:Expr_3RealChannelNotProduct20260428_8" : 2,
@@ -88,10 +151,16 @@
       "n:Expr_4RealFreyaDesignTokens20260702_3" : 1,
       "n:Expr_4RealFreyaDesignTokens20260702_6" : 1,
       "n:Expr_4RealFreyaDesignTokens20260702_8" : 1,
+      "n:Expr_5RealXavierAndTanya60Mins20260720_105" : 2,
+      "n:Expr_5RealXavierAndTanya60Mins20260720_109" : 1,
+      "n:Expr_5RealXavierAndTanya60Mins20260720_110" : 1,
+      "n:Expr_5RealXavierAndTanya60Mins20260720_79" : 1,
+      "n:Expr_5RealXavierAndTanya60Mins20260720_80" : 1,
+      "n:Position_ConversationalProvenanceDataModel" : 1,
       "n:Position_DesignTokenPerspectiveParallel" : 1,
       "n:Position_InstallableExpertiseCategoryMoat" : 2,
-      "n:Position_OnboardingToolPromptGuidance" : 1,
-      "n:Position_ProductIdentityChannelDisambiguation" : 1,
+      "n:Position_IntermediaryNetworkEffectsFederation" : 1,
+      "n:Position_StagedFundraisingProcessMarketplace" : 2,
       "n:Position_SubgraphScopingTemporalityOntology" : 1
     },
     "n:Narrative_InterviewFlywheel" : {
@@ -124,6 +193,26 @@
       "n:Position_EvaluatorChannelTrustTax" : 2,
       "n:Position_PerShareChatWidgetArchitecture" : 1
     },
+    "n:Narrative_StagedFundraisingProcess" : {
+      "n:Expr_5RealXavierAndTanya60Mins20260720_102" : 2,
+      "n:Expr_5RealXavierAndTanya60Mins20260720_143" : 2,
+      "n:Expr_5RealXavierAndTanya60Mins20260720_144" : 1,
+      "n:Expr_5RealXavierAndTanya60Mins20260720_145" : 1,
+      "n:Expr_5RealXavierAndTanya60Mins20260720_170" : 1,
+      "n:Expr_5RealXavierAndTanya60Mins20260720_171" : 1,
+      "n:Expr_5RealXavierAndTanya60Mins20260720_173" : 1,
+      "n:Expr_5RealXavierAndTanya60Mins20260720_175" : 1,
+      "n:Expr_5RealXavierAndTanya60Mins20260720_176" : 1,
+      "n:Expr_5RealXavierAndTanya60Mins20260720_177" : 1,
+      "n:Expr_5RealXavierAndTanya60Mins20260720_179" : 1,
+      "n:Expr_5RealXavierAndTanya60Mins20260720_181" : 1,
+      "n:Expr_5RealXavierAndTanya60Mins20260720_183" : 1,
+      "n:Expr_5RealXavierAndTanya60Mins20260720_184" : 1,
+      "n:Expr_5RealXavierAndTanya60Mins20260720_185" : 1,
+      "n:Expr_5RealXavierAndTanya60Mins20260720_186" : 1,
+      "n:Expr_5RealXavierAndTanya60Mins20260720_191" : 2,
+      "n:Expr_5RealXavierAndTanya60Mins20260720_222" : 2
+    },
     "n:Position_ArchetypeRelationalDisambiguation" : {
       "n:Expr_2RealTessChatWidget20260423_38" : 1,
       "n:Expr_2RealTessChatWidget20260423_39" : 1,
@@ -131,6 +220,14 @@
       "n:Expr_2RealTessChatWidget20260423_45" : 1,
       "n:Expr_2RealTessChatWidget20260423_54" : 1,
       "n:Expr_3RealChannelNotProduct20260428_29" : 2
+    },
+    "n:Position_ConversationalProvenanceDataModel" : {
+      "n:Expr_5RealXavierAndTanya60Mins20260720_110" : 2,
+      "n:Expr_5RealXavierAndTanya60Mins20260720_78" : 1,
+      "n:Expr_5RealXavierAndTanya60Mins20260720_80" : 2,
+      "n:Expr_5RealXavierAndTanya60Mins20260720_82" : 1,
+      "n:Expr_5RealXavierAndTanya60Mins20260720_84" : 1,
+      "n:Expr_5RealXavierAndTanya60Mins20260720_88" : 1
     },
     "n:Position_EvaluatorChannelTrustTax" : {
       "n:Expr_2RealTessChatWidget20260423_10" : 1,
@@ -157,6 +254,16 @@
       "n:Expr_1RealFreyaPodcastSalesMotion20260323_30" : 1,
       "n:Expr_1RealFreyaPodcastSalesMotion20260323_32" : 2,
       "n:Expr_4RealFreyaDesignTokens20260702_19" : 1
+    },
+    "n:Position_IntermediaryNetworkEffectsFederation" : {
+      "n:Expr_5RealXavierAndTanya60Mins20260720_105" : 2,
+      "n:Expr_5RealXavierAndTanya60Mins20260720_109" : 2,
+      "n:Expr_5RealXavierAndTanya60Mins20260720_111" : 2,
+      "n:Expr_5RealXavierAndTanya60Mins20260720_113" : 1,
+      "n:Expr_5RealXavierAndTanya60Mins20260720_115" : 1,
+      "n:Expr_5RealXavierAndTanya60Mins20260720_117" : 1,
+      "n:Expr_5RealXavierAndTanya60Mins20260720_119" : 1,
+      "n:Expr_5RealXavierAndTanya60Mins20260720_121" : 1
     },
     "n:Position_InterviewFlywheelSalesMotion" : {
       "n:Expr_1RealFreyaPodcastSalesMotion20260323_3" : 2,
@@ -196,6 +303,18 @@
       "n:Expr_3RealChannelNotProduct20260428_47" : 2,
       "n:Expr_3RealChannelNotProduct20260428_48" : 1
     },
+    "n:Position_StagedFundraisingProcessMarketplace" : {
+      "n:Expr_5RealXavierAndTanya60Mins20260720_102" : 1,
+      "n:Expr_5RealXavierAndTanya60Mins20260720_143" : 2,
+      "n:Expr_5RealXavierAndTanya60Mins20260720_145" : 1,
+      "n:Expr_5RealXavierAndTanya60Mins20260720_171" : 1,
+      "n:Expr_5RealXavierAndTanya60Mins20260720_177" : 1,
+      "n:Expr_5RealXavierAndTanya60Mins20260720_179" : 1,
+      "n:Expr_5RealXavierAndTanya60Mins20260720_183" : 1,
+      "n:Expr_5RealXavierAndTanya60Mins20260720_185" : 1,
+      "n:Expr_5RealXavierAndTanya60Mins20260720_191" : 2,
+      "n:Expr_5RealXavierAndTanya60Mins20260720_222" : 2
+    },
     "n:Position_SubgraphScopingTemporalityOntology" : {
       "n:Expr_3RealChannelNotProduct20260428_32" : 2,
       "n:Expr_3RealChannelNotProduct20260428_33" : 2,
@@ -205,22 +324,25 @@
       "n:Expr_3RealChannelNotProduct20260428_37" : 1
     }
   },
-  "generated_from" : "a3b3776b00e91d42f37e53859ea1cd3275e9dfe7",
+  "generated_from" : "d60479f4df57bd74c60ef357e16a3ce7cbb09a43",
   "hubs" : {
     "n:Actor_FreyaFree" : 1,
+    "n:Actor_TanyaTeam" : 1,
     "n:Actor_TanyaTeamowner" : 2,
     "n:Actor_TessGuest" : 1,
-    "n:Narrative_AntiSlackPositioning" : 1,
+    "n:Actor_XavierExpert" : 1,
     "n:Narrative_BehavioralProgressionPackaging" : 1,
     "n:Narrative_HumanMomentVideoProof" : 1,
     "n:Narrative_InstallableExpertise" : 2,
     "n:Narrative_InterviewFlywheel" : 1,
+    "n:Narrative_StagedFundraisingProcess" : 1,
     "n:Position_ArchetypeRelationalDisambiguation" : 2,
     "n:Position_EvaluatorChannelTrustTax" : 2,
     "n:Position_InstallableExpertiseCategoryMoat" : 1,
-    "n:Position_PerShareChatWidgetArchitecture" : 1,
-    "n:Position_ProductIdentityChannelDisambiguation" : 1,
-    "n:Position_SmsChannelTierPackaging" : 1
+    "n:Position_IntermediaryNetworkEffectsFederation" : 1,
+    "n:Position_SmsChannelTierPackaging" : 1,
+    "n:Position_StagedFundraisingProcessMarketplace" : 1,
+    "n:Position_SubgraphScopingTemporalityOntology" : 1
   },
   "params" : {
     "conviction-floor" : 2,
@@ -235,7 +357,7 @@
     "n" : "https://aswritten.ai/narrative#",
     "o" : "https://aswritten.ai/ns/narrative#"
   },
-  "runs_sha" : "8df92e87cea1b7248daae3dcb74be778c5f05c1f",
-  "sittings" : 161,
+  "runs_sha" : "66661f3acedb5ffc683e034a23a77ad2955fed76",
+  "sittings" : 163,
   "spec" : "fidelity-bands/1"
 }

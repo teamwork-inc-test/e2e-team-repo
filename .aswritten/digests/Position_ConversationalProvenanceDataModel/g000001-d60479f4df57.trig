@@ -1,0 +1,33 @@
+@prefix narr: <https://aswritten.ai/narrative#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+GRAPH <https://aswritten.ai/narrative#Digest_Position_ConversationalProvenanceDataModel> {
+  <https://aswritten.ai/narrative#Digest_Position_ConversationalProvenanceDataModel> a narr:Digest ;
+    narr:digestOf <https://aswritten.ai/narrative#Position_ConversationalProvenanceDataModel> ;
+    narr:childCount "11"^^xsd:integer ;
+    narr:generatedFrom "d60479f4df57bd74c60ef357e16a3ce7cbb09a43" ;
+    narr:narration """This position holds that a knowledge graph should model conversation rather than facts: as [the speaker puts it, no entity nodes get created when a tool is merely mentioned](narr:Expr_5RealXavierAndTanya60Mins20260720_94), because [the graph models conversation, with statements clustering under positions they support](narr:Expr_5RealXavierAndTanya60Mins20260720_96). The motivating observation is that [the real meeting is the source of truth yet nobody writes it down usefully](narr:Expr_5RealXavierAndTanya60Mins20260720_78), so ingestion plus citation lets readers [tell whether an AI response is hallucinated by whether it cited someone who actually said it](narr:Expr_5RealXavierAndTanya60Mins20260720_78). Architecturally, [the entire graph is append-only and lives in the customer's repo, with the operator claiming zero data retention](narr:Expr_5RealXavierAndTanya60Mins20260720_84), and [the transcript is treated as the truth while perspective interrogates it over time](narr:Expr_5RealXavierAndTanya60Mins20260720_80). Scaling that read path required [a digest-and-expand ontology with permissioning so actors only see calls they attended](narr:Expr_5RealXavierAndTanya60Mins20260720_82). The strategic claim is that [the accumulated graph of human decisions becomes the moat, with the read layer proprietary even when data is stored elsewhere](narr:Expr_5RealXavierAndTanya60Mins20260720_110). The structure also [surfaces gaps in what the organization knows as an inherent graph feature](narr:Expr_5RealXavierAndTanya60Mins20260720_88), and [clarification reactions from attendees feed back as reconciliation statements](narr:Expr_5RealXavierAndTanya60Mins20260720_90). Authority and entity resolution are deliberately deferred: [the graph witnesses what was said but does not pre-encode what it means](narr:Expr_5RealXavierAndTanya60Mins20260720_92).""" ;
+    narr:covers <https://aswritten.ai/narrative#Expr_5RealXavierAndTanya60Mins20260720_110> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_5RealXavierAndTanya60Mins20260720_78> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_5RealXavierAndTanya60Mins20260720_80> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_5RealXavierAndTanya60Mins20260720_82> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_5RealXavierAndTanya60Mins20260720_84> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_5RealXavierAndTanya60Mins20260720_88> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_5RealXavierAndTanya60Mins20260720_90> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_5RealXavierAndTanya60Mins20260720_92> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_5RealXavierAndTanya60Mins20260720_94> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_5RealXavierAndTanya60Mins20260720_96> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_5RealXavierAndTanya60Mins20260720_98> ;
+    narr:keyPhrase [ narr:text "the graph itself is the moat" ; narr:phraseSource <https://aswritten.ai/narrative#Expr_5RealXavierAndTanya60Mins20260720_110> ] ;
+    narr:keyPhrase [ narr:text "I am not modeling facts in the graph" ; narr:phraseSource <https://aswritten.ai/narrative#Expr_5RealXavierAndTanya60Mins20260720_94> ] ;
+    narr:keyPhrase [ narr:text "The graph models conversation." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_5RealXavierAndTanya60Mins20260720_96> ] ;
+    narr:keyPhrase [ narr:text "The transcript is the truth." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_5RealXavierAndTanya60Mins20260720_80> ] ;
+    narr:keyPhrase [ narr:text "the entire graph is append only it lives in your GitHub repo" ; narr:phraseSource <https://aswritten.ai/narrative#Expr_5RealXavierAndTanya60Mins20260720_84> ] ;
+    narr:keyPhrase [ narr:text "Gap analysis is now in the graph." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_5RealXavierAndTanya60Mins20260720_88> ] ;
+    narr:keyPhrase [ narr:text "the graph witnesses what was said" ; narr:phraseSource <https://aswritten.ai/narrative#Expr_5RealXavierAndTanya60Mins20260720_92> ] ;
+    narr:variation [ narr:text "Deferral of entity resolution is asserted as principle, yet the speaker admits a recent pass tightening actor resolution — the coexist-until-read stance is under active revision." ; narr:over <https://aswritten.ai/narrative#Expr_5RealXavierAndTanya60Mins20260720_96> ; narr:over <https://aswritten.ai/narrative#Expr_5RealXavierAndTanya60Mins20260720_98> ] ;
+    narr:variation [ narr:text "The witness-only graph claims neutrality on disagreement scoring, but the question of how to score conflicting statements is raised and left open, not answered." ; narr:over <https://aswritten.ai/narrative#Expr_5RealXavierAndTanya60Mins20260720_92> ] ;
+    narr:variation [ narr:text "The attendee-notification reconciliation loop is described partly as in-development and uncertain — the speaker isn't sure whether it actually emails attendees." ; narr:over <https://aswritten.ai/narrative#Expr_5RealXavierAndTanya60Mins20260720_90> ] ;
+    narr:variation [ narr:text "Zero-retention/enterprise-safe framing sits in tension with the proprietary read-and-manipulation layer: customers own the data but are told they can't do much with it without the platform." ; narr:over <https://aswritten.ai/narrative#Expr_5RealXavierAndTanya60Mins20260720_84> ; narr:over <https://aswritten.ai/narrative#Expr_5RealXavierAndTanya60Mins20260720_110> ] ;
+    narr:writer "z-ai/glm-5.3-flash:nitro" .
+}

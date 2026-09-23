@@ -1,0 +1,39 @@
+@prefix narr: <https://aswritten.ai/narrative#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+GRAPH <https://aswritten.ai/narrative#Digest_Position_StagedFundraisingProcessMarketplace> {
+  <https://aswritten.ai/narrative#Digest_Position_StagedFundraisingProcessMarketplace> a narr:Digest ;
+    narr:digestOf <https://aswritten.ai/narrative#Position_StagedFundraisingProcessMarketplace> ;
+    narr:childCount "19"^^xsd:integer ;
+    narr:generatedFrom "d60479f4df57bd74c60ef357e16a3ce7cbb09a43" ;
+    narr:narration """This position holds that fundraising should be run as [a staged process that creates a marketplace rather than chasing individual checks](narr:Expr_5RealXavierAndTanya60Mins20260720_191), with [a time-bound, dated process](narr:Expr_5RealXavierAndTanya60Mins20260720_193) and [a two-call script that opens advice-seeking before announcing the raise](narr:Expr_5RealXavierAndTanya60Mins20260720_197) — the [declared, happening-regardless framing](narr:Expr_5RealXavierAndTanya60Mins20260720_199) that avoids the common failure mode. Sequencing advice runs through [holding a big-name investor back until someone is on the hook](narr:Expr_5RealXavierAndTanya60Mins20260720_183), captured in [the howitzer-and-ammunition metaphor](narr:Expr_5RealXavierAndTanya60Mins20260720_185), because [term sheets are what actually spark investor interest](narr:Expr_5RealXavierAndTanya60Mins20260720_189). The founder's current move is [a bridge round toward enterprise traction before a larger seed](narr:Expr_5RealXavierAndTanya60Mins20260720_102), with [a committed application decision](narr:Expr_5RealXavierAndTanya60Mins20260720_222) and [an offer to forward materials directly](narr:Expr_5RealXavierAndTanya60Mins20260720_177).""" ;
+    narr:covers <https://aswritten.ai/narrative#Expr_5RealXavierAndTanya60Mins20260720_102> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_5RealXavierAndTanya60Mins20260720_143> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_5RealXavierAndTanya60Mins20260720_145> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_5RealXavierAndTanya60Mins20260720_171> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_5RealXavierAndTanya60Mins20260720_177> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_5RealXavierAndTanya60Mins20260720_179> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_5RealXavierAndTanya60Mins20260720_183> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_5RealXavierAndTanya60Mins20260720_185> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_5RealXavierAndTanya60Mins20260720_187> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_5RealXavierAndTanya60Mins20260720_189> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_5RealXavierAndTanya60Mins20260720_191> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_5RealXavierAndTanya60Mins20260720_193> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_5RealXavierAndTanya60Mins20260720_195> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_5RealXavierAndTanya60Mins20260720_197> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_5RealXavierAndTanya60Mins20260720_199> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_5RealXavierAndTanya60Mins20260720_205> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_5RealXavierAndTanya60Mins20260720_209> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_5RealXavierAndTanya60Mins20260720_211> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_5RealXavierAndTanya60Mins20260720_222> ;
+    narr:keyPhrase [ narr:text "I'm raising 500k at this point to do a bridge round to get me to enough enterprise traction that I can do a true, you know, million seed." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_5RealXavierAndTanya60Mins20260720_102> ] ;
+    narr:keyPhrase [ narr:text "you are not raising. You're not trying to get someone to give you a check. You are creating a marketplace for as written." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_5RealXavierAndTanya60Mins20260720_191> ] ;
+    narr:keyPhrase [ narr:text "You use the howitzer when you have the ammunition." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_5RealXavierAndTanya60Mins20260720_185> ] ;
+    narr:keyPhrase [ narr:text "Hi, I am raising money. It is happening, right?" ; narr:phraseSource <https://aswritten.ai/narrative#Expr_5RealXavierAndTanya60Mins20260720_199> ] ;
+    narr:keyPhrase [ narr:text "I would wait to do Emery Park." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_5RealXavierAndTanya60Mins20260720_179> ] ;
+    narr:keyPhrase [ narr:text "I'm doing the YC app this week." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_5RealXavierAndTanya60Mins20260720_222> ] ;
+    narr:variation [ narr:text "The accelerator application is urged as high-value, low-cost optionality alongside — not inside — the staged process, a parallel road the marketplace framing doesn't cover." ; narr:over <https://aswritten.ai/narrative#Expr_5RealXavierAndTanya60Mins20260720_143> ; narr:over <https://aswritten.ai/narrative#Expr_5RealXavierAndTanya60Mins20260720_145> ] ;
+    narr:variation [ narr:text "Sequencing tension: the founder is raising a bridge now, while the process advice says hold the big-name investor and documents until a term sheet exists." ; narr:over <https://aswritten.ai/narrative#Expr_5RealXavierAndTanya60Mins20260720_102> ; narr:over <https://aswritten.ai/narrative#Expr_5RealXavierAndTanya60Mins20260720_179> ; narr:over <https://aswritten.ai/narrative#Expr_5RealXavierAndTanya60Mins20260720_209> ] ;
+    narr:variation [ narr:text "An aside pulls against single-track commitment: keeping consulting work open as optionality in case the venture doesn't happen." ; narr:over <https://aswritten.ai/narrative#Expr_5RealXavierAndTanya60Mins20260720_145> ] ;
+    narr:writer "z-ai/glm-5.3-flash:nitro" .
+}
