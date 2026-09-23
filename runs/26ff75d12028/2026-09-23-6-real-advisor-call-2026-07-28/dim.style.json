@@ -1,0 +1,60 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-12",
+    "regions" : [ "anaphora", "metaphor" ],
+    "evidence" : [ {
+      "quote" : "the telephone company always wins. The telephone company always wins because the telephone company sits in between.",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Repeats opening clause across successive statements ('The telephone company always wins') while framing intermediary infrastructure metaphorically as the telephone company.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-14",
+    "regions" : [ "metaphor" ],
+    "evidence" : [ {
+      "quote" : "the graph itself is the moat",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Direct metaphor casting the accumulation of relational graph data as a defensive business moat.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-16",
+    "regions" : [ "parallelism" ],
+    "evidence" : [ {
+      "quote" : "I want to have as written because you have as written and that makes my as written more valuable because you have it.",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Chiasmus-like balanced syntactic recurrence highlighting reciprocal network value.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-20",
+    "regions" : [ "antithesis" ],
+    "evidence" : [ {
+      "quote" : "how it works and the benefits — not the use case",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Contrasts what is being educated vs excluded in deliberate matched negation.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-21",
+    "regions" : [ "antithesis", "parallelism" ],
+    "evidence" : [ {
+      "quote" : "It's not that enterprise isn't a good target. It's that the quote, enterprise plan isn't about enterprise. It's about the shape of the deployment and the needs of the organization.",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Matched parallel 'It's not that... It's that... It's about...' rhetorical framing contrasting nominal labels with structural realities.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-25",
+    "regions" : [ "antithesis" ],
+    "evidence" : [ {
+      "quote" : "The human moment sells, not the text.",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Pithy antithetical opposition setting 'the human moment' directly against 'the text'.",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-1", "src-2", "src-3", "src-4", "src-5", "src-6", "src-7", "src-8", "src-9", "src-10", "src-11", "src-13", "src-15", "src-17", "src-18", "src-19", "src-22", "src-23", "src-24", "src-26", "src-27", "src-28", "src-29", "src-30" ],
+  "mints" : [ ],
+  "region_mints" : [ ]
+}
