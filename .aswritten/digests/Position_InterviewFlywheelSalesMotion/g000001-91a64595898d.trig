@@ -1,0 +1,22 @@
+@prefix narr: <https://aswritten.ai/narrative#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+GRAPH <https://aswritten.ai/narrative#Digest_Position_InterviewFlywheelSalesMotion> {
+  <https://aswritten.ai/narrative#Digest_Position_InterviewFlywheelSalesMotion> a narr:Digest ;
+    narr:digestOf <https://aswritten.ai/narrative#Position_InterviewFlywheelSalesMotion> ;
+    narr:childCount "5"^^xsd:integer ;
+    narr:generatedFrom "91a64595898d7daf51efb7ee046e6c9870fbba0f" ;
+    narr:narration """This position holds that a single expert interview can serve three functions at once. The core claim is that [the demo call, marketing content, and product onboarding are the same event](narr:Expr_1RealFreyaPodcastSalesMotion20260323_3), unpacked as [three outputs from one conversation](narr:Expr_1RealFreyaPodcastSalesMotion20260323_4): an installable perspective delivered with a free account, a published content piece, and a live proof of the product working. The strategic extension is that [this flywheel also builds the marketplace supply side](narr:Expr_1RealFreyaPodcastSalesMotion20260323_5). A supporting observation notes [the interview removes the expert's setup-work barrier](narr:Expr_1RealFreyaPodcastSalesMotion20260323_41), which is what makes the podcast model viable. The owner's own framing of the idea remains tentative — [packaging each interview into installable expertise](narr:Expr_1RealFreyaPodcastSalesMotion20260323_7) is voiced as a possibility, not a commitment.""" ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1RealFreyaPodcastSalesMotion20260323_3> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1RealFreyaPodcastSalesMotion20260323_4> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1RealFreyaPodcastSalesMotion20260323_41> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1RealFreyaPodcastSalesMotion20260323_5> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1RealFreyaPodcastSalesMotion20260323_7> ;
+    narr:keyPhrase [ narr:text "The breakthrough: the demo call, the marketing content, and the product onboarding are the same event." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1RealFreyaPodcastSalesMotion20260323_3> ] ;
+    narr:keyPhrase [ narr:text "Three outputs from one conversation." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1RealFreyaPodcastSalesMotion20260323_4> ] ;
+    narr:keyPhrase [ narr:text "This is a content flywheel that also builds the marketplace supply side." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1RealFreyaPodcastSalesMotion20260323_5> ] ;
+    narr:keyPhrase [ narr:text "the interview removes the \"finding time\" barrier because the expert doesn't have to do the setup work." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1RealFreyaPodcastSalesMotion20260323_41> ] ;
+    narr:variation [ narr:text "The mechanism is asserted in settled, realis terms by the assistant voice, while the owner's own articulation stays irrealis and casual — a possibility being floated, not a decided motion." ; narr:over <https://aswritten.ai/narrative#Expr_1RealFreyaPodcastSalesMotion20260323_3> ; narr:over <https://aswritten.ai/narrative#Expr_1RealFreyaPodcastSalesMotion20260323_7> ] ;
+    narr:variation [ narr:text "The flywheel is framed both as a sales motion (demo/proof) and as a supply-side marketplace build — two different strategic readings of the same event that are not reconciled here." ; narr:over <https://aswritten.ai/narrative#Expr_1RealFreyaPodcastSalesMotion20260323_4> ; narr:over <https://aswritten.ai/narrative#Expr_1RealFreyaPodcastSalesMotion20260323_5> ] ;
+    narr:writer "z-ai/glm-5.3-flash:nitro" .
+}

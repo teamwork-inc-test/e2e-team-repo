@@ -1,0 +1,29 @@
+@prefix narr: <https://aswritten.ai/narrative#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+GRAPH <https://aswritten.ai/narrative#Digest_Narrative_InterviewFlywheel> {
+  <https://aswritten.ai/narrative#Digest_Narrative_InterviewFlywheel> a narr:Digest ;
+    narr:digestOf <https://aswritten.ai/narrative#Narrative_InterviewFlywheel> ;
+    narr:childCount "10"^^xsd:integer ;
+    narr:generatedFrom "91a64595898d7daf51efb7ee046e6c9870fbba0f" ;
+    narr:narration """This narrative holds the interview-flywheel motion: one expert conversation producing [three outputs at once — installable perspective, published content, live demo](narr:Expr_1RealFreyaPodcastSalesMotion20260323_4), framed as [a content flywheel that also builds marketplace supply](narr:Expr_1RealFreyaPodcastSalesMotion20260323_5). The origin runs through [Tanya's casual musing about packaging interviews as installable expertise](narr:Expr_1RealFreyaPodcastSalesMotion20260323_7) and her [notion of seeding first modules with expertise from people she knows](narr:Expr_1RealFreyaPodcastSalesMotion20260323_34). A concrete first case follows: [Freya wanting to interview himself into an installable design-approach perspective](narr:Expr_1RealFreyaPodcastSalesMotion20260323_37), positioned as [one of the first marketplace perspectives](narr:Expr_1RealFreyaPodcastSalesMotion20260323_38), with [his immediate grasp of how the interview removes the expert's setup barrier](narr:Expr_1RealFreyaPodcastSalesMotion20260323_41). Execution surfaces include [the core insight that demo call, marketing content, and onboarding are the same event](narr:Expr_1RealFreyaPodcastSalesMotion20260323_3), [hosting/subdomain plans where the published version should feel like a media property](narr:Expr_1RealFreyaPodcastSalesMotion20260323_44), and [outreach templates committing to explicit free-vs-paid terms with no bait and switch](narr:Expr_1RealFreyaPodcastSalesMotion20260323_45). The arc runs from irrealis musing toward concrete, dated execution.""" ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1RealFreyaPodcastSalesMotion20260323_3> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1RealFreyaPodcastSalesMotion20260323_34> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1RealFreyaPodcastSalesMotion20260323_37> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1RealFreyaPodcastSalesMotion20260323_38> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1RealFreyaPodcastSalesMotion20260323_4> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1RealFreyaPodcastSalesMotion20260323_41> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1RealFreyaPodcastSalesMotion20260323_44> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1RealFreyaPodcastSalesMotion20260323_45> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1RealFreyaPodcastSalesMotion20260323_5> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1RealFreyaPodcastSalesMotion20260323_7> ;
+    narr:keyPhrase [ narr:text "The breakthrough: the demo call, the marketing content, and the product onboarding are the same event." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1RealFreyaPodcastSalesMotion20260323_3> ] ;
+    narr:keyPhrase [ narr:text "This is a content flywheel that also builds the marketplace supply side." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1RealFreyaPodcastSalesMotion20260323_5> ] ;
+    narr:keyPhrase [ narr:text "Three outputs from one conversation." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1RealFreyaPodcastSalesMotion20260323_4> ] ;
+    narr:keyPhrase [ narr:text "No bait and switch." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1RealFreyaPodcastSalesMotion20260323_45> ] ;
+    narr:keyPhrase [ narr:text "The \"drafts\" framing is internal; the published version should feel like a media property." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1RealFreyaPodcastSalesMotion20260323_44> ] ;
+    narr:variation [ narr:text "The motion exists at two conviction levels: Tanya's casual, irrealis 'could I' musing versus Claude's abstract-realis articulation of it as an operating mechanism — the idea is voiced as notion but narrated as settled." ; narr:over <https://aswritten.ai/narrative#Expr_1RealFreyaPodcastSalesMotion20260323_7> ; narr:over <https://aswritten.ai/narrative#Expr_1RealFreyaPodcastSalesMotion20260323_4> ] ;
+    narr:variation [ narr:text "Freya's interview intent is only relayed (calm-positive, via Claude), not held firsthand — the flagship first case rests on a secondhand want." ; narr:over <https://aswritten.ai/narrative#Expr_1RealFreyaPodcastSalesMotion20260323_37> ] ;
+    narr:variation [ narr:text "Communal-sharing seeding (free modules from people Tanya knows) sits alongside a marketplace/commercial framing — gift economy vs supply-side growth remain unreconciled." ; narr:over <https://aswritten.ai/narrative#Expr_1RealFreyaPodcastSalesMotion20260323_34> ; narr:over <https://aswritten.ai/narrative#Expr_1RealFreyaPodcastSalesMotion20260323_5> ] ;
+    narr:writer "z-ai/glm-5.3-flash:nitro" .
+}
