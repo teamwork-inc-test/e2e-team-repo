@@ -1,0 +1,171 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-3",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "One site at a time, a soak between each one before the next starts, reporting off a replica during the cutover windows, vendor keeps reference data until the last site is live.",
+      "kind" : "commitment-marker"
+    } ],
+    "why" : "Tanya lays out the operational architecture and sequence of the plan as settled parameters.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-4",
+    "regions" : [ "principle" ],
+    "evidence" : [ {
+      "quote" : "I'd hold that against whatever pressure comes at you.",
+      "kind" : "commitment-marker"
+    } ],
+    "why" : "Tony advises maintaining sequential execution as a bedrock rule impervious to future organizational pressure.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-5",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "I've watched three of these programmes up close.",
+      "kind" : "epistemic-verb"
+    }, {
+      "quote" : "The two that went big-bang both went backwards — not failed, went backwards, six months of unpicking.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Tony backs his advice with empirical claims drawn from prior programme observations.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-7",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "It's the only part of your plan I'd call settled.",
+      "kind" : "plain-assertion"
+    }, {
+      "quote" : "always",
+      "kind" : "intensifier"
+    } ],
+    "why" : "Tony asserts generalized patterns regarding when and how schedule collapse pressure inevitably manifests.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-9",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "Write down now, while you're calm, why you chose sequential.",
+      "kind" : "commitment-marker"
+    } ],
+    "why" : "Tony issues an explicit directive to lock in the reasoning in advance of anticipated conflict.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-13",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "Your plan has no data-quality gate in it.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Tony makes a flat, unhedged assertion identifying a structural omission in the plan.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-14",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "We have a migration validation step.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Tanya defends the current plan by asserting the existence of an existing validation step.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-15",
+    "regions" : [ "principle" ],
+    "evidence" : [ {
+      "quote" : "Those are completely different questions and every programme I've seen conflates them",
+      "kind" : "intensifier"
+    } ],
+    "why" : "Tony states an invariant epistemic distinction between movement validation and quality validation.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-17",
+    "regions" : [ "principle" ],
+    "evidence" : [ {
+      "quote" : "A site that fails the bar doesn't cut over — it gets a remediation window and it goes to the back of the queue.",
+      "kind" : "commitment-marker"
+    }, {
+      "quote" : "And crucially, somebody who isn't the programme manager owns the gate, because the programme manager has a date.",
+      "kind" : "intensifier"
+    } ],
+    "why" : "Tony defines the non-negotiable structural requirements and governance separation for a real quality gate.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-19",
+    "regions" : [ "principle" ],
+    "evidence" : [ {
+      "quote" : "That's not a comment on you, it's the structure.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Tony frames structural incentive design as an objective operational principle rather than personal judgment.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-21",
+    "regions" : [ "principle" ],
+    "evidence" : [ {
+      "quote" : "the gate costs you a site's worth of delay at least once, and if it never fires you set the bar too low.",
+      "kind" : "commitment-marker"
+    } ],
+    "why" : "Tony articulates an axiomatic operational test for whether a control threshold is genuinely functioning.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-23",
+    "regions" : [ "principle" ],
+    "evidence" : [ {
+      "quote" : "It's the only test I trust on quality gates. If it never stops anything, it isn't a gate.",
+      "kind" : "intensifier"
+    } ],
+    "why" : "Tony reiterates his foundational rule on gate efficacy as an absolute test.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-25",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "The reference-data call is right too, for what it's worth",
+      "kind" : "hedge"
+    }, {
+      "quote" : "Everyone skips it and everyone regrets it around year six.",
+      "kind" : "intensifier"
+    } ],
+    "why" : "Tony endorses specific components with some edge conditions alongside generalized historical observations.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-26",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "We opened that last week, actually.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Tanya confirms an executed operational decision already underway.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-27",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "The quality gate is the hole.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Tony summarizes his assessment of what is settled versus what remains open.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-28",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "I'll take that to the board as the open item rather than wait for them to find it.",
+      "kind" : "commitment-marker"
+    } ],
+    "why" : "Tanya commits to a concrete governance course of action based on the discussion.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-29",
+    "regions" : [ "principle" ],
+    "evidence" : [ {
+      "quote" : "They'll forgive a hole. They won't forgive finding one.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Tony frames proactive disclosure to governance bodies as a general rule of organizational survival.",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-1", "src-2", "src-6", "src-8", "src-10", "src-11", "src-12", "src-16", "src-18", "src-20", "src-22", "src-24" ],
+  "unmarked_rest" : false,
+  "mints" : [ ]
+}
