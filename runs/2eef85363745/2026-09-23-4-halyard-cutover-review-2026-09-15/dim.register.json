@@ -1,0 +1,27 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-15",
+    "regions" : [ "formal" ],
+    "evidence" : [ {
+      "quote" : "I just want it on the record",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Explicit procedural phrasing to formally record a qualification into the meeting record.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-20",
+    "regions" : [ "formal" ],
+    "evidence" : [ {
+      "quote" : "For the record then",
+      "kind" : "framing-move"
+    }, {
+      "quote" : "superseded by this",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Protocol-observing formula used to formalize an official change and supersede previous documentation.",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-1", "src-2", "src-3", "src-4", "src-5", "src-6", "src-7", "src-8", "src-9", "src-10", "src-11", "src-12", "src-13", "src-14", "src-16", "src-17", "src-18", "src-19", "src-21", "src-22", "src-23", "src-24" ],
+  "mints" : [ ],
+  "region_mints" : [ ]
+}
