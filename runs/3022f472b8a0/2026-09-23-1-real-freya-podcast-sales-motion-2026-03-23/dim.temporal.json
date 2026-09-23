@@ -1,0 +1,329 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "past", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "Working session with Freya that clarified the demo format, revealed the podcast/interview as a sales motion, and revised the April 1 launch plan.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Recaps a completed working session and its specific outputs.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-2",
+    "regions" : [ "future", "irrealis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "by end of week",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Points to an upcoming deliverable deadline for specific web properties.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-3",
+    "regions" : [ "present", "realis", "abstract" ],
+    "evidence" : [ {
+      "quote" : "are the same event",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Asserts a conceptual breakthrough framing present operational alignment.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-4",
+    "regions" : [ "present", "realis", "abstract" ],
+    "evidence" : [ {
+      "quote" : "That conversation becomes",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Describes the generalized 3-in-1 functional mechanism of the interview process.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-5",
+    "regions" : [ "present", "realis", "abstract" ],
+    "evidence" : [ {
+      "quote" : "This is a content flywheel",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Characterizes the ongoing structural dynamic in abstract strategic terms.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-7",
+    "regions" : [ "future", "irrealis", "abstract" ],
+    "evidence" : [ {
+      "quote" : "I could build out the marketplace",
+      "kind" : "modal-marker"
+    } ],
+    "why" : "Explores a hypothetical future strategy using the modal 'could'.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-8",
+    "regions" : [ "past", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "Freya's reaction to the demo walkthrough confirmed this",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Refers to a specific past reaction on a call as confirmation of a principle.",
+    "reported" : true
+  }, {
+    "segment_local_id" : "src-9",
+    "regions" : [ "present", "realis", "abstract" ],
+    "evidence" : [ {
+      "quote" : "The interview produces a perspective in a trial account.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Describes the general functional behavior of the system.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-10",
+    "regions" : [ "present", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "The upgrade path is natural behavioral steps",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Enumerates current pricing tier definitions and feature thresholds.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-11",
+    "regions" : [ "present", "realis", "abstract" ],
+    "evidence" : [ {
+      "quote" : "Each tier is a natural next step, not a paywall.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Defines the product packaging philosophy in abstract terms.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-12",
+    "regions" : [ "present", "realis", "abstract" ],
+    "evidence" : [ {
+      "quote" : "The interview seeds the perspective; the user decides how far to take it.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "States the general operational dynamic of user adoption.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-14",
+    "regions" : [ "present", "abstract" ],
+    "evidence" : [ {
+      "quote" : "Don't make people read text in a video.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Issues a generalized design imperative.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-15",
+    "regions" : [ "present", "realis", "abstract" ],
+    "evidence" : [ {
+      "quote" : "The hero video is a human moment, not a screen recording.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Asserts a core design principle for the video asset.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-16",
+    "regions" : [ "future", "irrealis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "The format:\n1. You on a call with someone",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Outlines the planned step-by-step structure for the upcoming video asset.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-17",
+    "regions" : [ "future", "irrealis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "This can be assembled from existing Tess call footage",
+      "kind" : "modal-marker"
+    } ],
+    "why" : "Considers potential concrete production options for assembling footage.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-18",
+    "regions" : [ "present", "realis", "abstract" ],
+    "evidence" : [ {
+      "quote" : "The human moment sells, not the text.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Synthesizes an abstract principle learned from past feedback.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-20",
+    "regions" : [ "present", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "The `, aswritten` at the end of prompt 2 is the mode switch",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Describes the specific technical syntax mechanism in the prompt.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-21",
+    "regions" : [ "present", "realis", "abstract" ],
+    "evidence" : [ {
+      "quote" : "The viewer learns what this means by seeing the output change.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Explains the pedagogical dynamic of the video demonstration.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-24",
+    "regions" : [ "present", "realis", "abstract" ],
+    "evidence" : [ {
+      "quote" : "I've let go of the memory word sort of entirely and I'm now calling it installable expertise.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Describes Tanya's current high-level conceptual narrative reframe.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-26",
+    "regions" : [ "present", "realis", "abstract" ],
+    "evidence" : [ {
+      "quote" : "The real differentiator and the technical moat is that I take textual documents and I extract perspective from them",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Defines the core abstract technical moat and capability.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-28",
+    "regions" : [ "present", "realis", "abstract" ],
+    "evidence" : [ {
+      "quote" : "The target market is becoming an expert that currently packages their work in a static and bounded way.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Defines the broad target customer profile.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-30",
+    "regions" : [ "present", "realis", "abstract" ],
+    "evidence" : [ {
+      "quote" : "It's really about the delegation of work that requires expertise to carry it out.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Expresses the underlying problem space in abstract terms.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-32",
+    "regions" : [ "present", "realis", "abstract" ],
+    "evidence" : [ {
+      "quote" : "I'm more interested in developing the Apple to installable expertise than I am in giving you a toolbox.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Uses an abstract strategic analogy to define product posture.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-34",
+    "regions" : [ "future", "irrealis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "Could I get all the people I know to contribute their expertise as the first modules?",
+      "kind" : "modal-marker"
+    } ],
+    "why" : "Ponders a future concrete go-to-market tactic with known peers.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-35",
+    "regions" : [ "future", "irrealis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "Freya committed to:\n- Style guide by end of week",
+      "kind" : "commitment-marker"
+    } ],
+    "why" : "Reports Freya's commitment to concrete upcoming deliverables.",
+    "reported" : true
+  }, {
+    "segment_local_id" : "src-36",
+    "regions" : [ "future", "irrealis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "What Tanya sends him:\n- Glossary",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Lists concrete items Tanya needs to send to Freya.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-37",
+    "regions" : [ "future", "irrealis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "Freya wants to do an interview himself — create an installable Freya",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Notes a prospective interview and artifact creation for Freya.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-38",
+    "regions" : [ "future", "irrealis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "This would be one of the first perspectives in the marketplace.",
+      "kind" : "modal-marker"
+    } ],
+    "why" : "Speculates on the future placement of Freya's prospective perspective.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-39",
+    "regions" : [ "future", "irrealis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "Scheduled for a future call.",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Explicitly points to a planned future event.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-40",
+    "regions" : [ "past", "realis", "abstract" ],
+    "evidence" : [ {
+      "quote" : "Freya also reflected the same pattern other prospects have shown",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Reports Freya expressing a common prospect hesitation pattern.",
+    "reported" : true
+  }, {
+    "segment_local_id" : "src-41",
+    "regions" : [ "past", "realis", "abstract" ],
+    "evidence" : [ {
+      "quote" : "he also immediately understood the podcast model",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Reports Freya's realization during the call about the podcast dynamic.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-42",
+    "regions" : [ "future", "irrealis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "Above the line (April 1):",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Lists concrete planned launch tasks targeted for April 1.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-43",
+    "regions" : [ "future", "irrealis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "Below the line:\n- Marketplace browse/search",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Defines postponed work items planned for post-launch.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-44",
+    "regions" : [ "present", "concrete" ],
+    "evidence" : [ {
+      "quote" : "Currently drafts.aswritten.ai.",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Addresses current hosting configuration alongside possible future shifts.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-45",
+    "regions" : [ "present", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "SMS and email templates saved to docs/sales/outreach-templates.md",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Confirms existing concrete saved artifacts.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-46",
+    "regions" : [ "future", "irrealis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "Need to save:",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Specifies concrete outstanding action items to be completed.",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-6", "src-13", "src-22", "src-23", "src-25", "src-27", "src-29", "src-31", "src-33" ],
+  "unmarked_rest" : false
+}
