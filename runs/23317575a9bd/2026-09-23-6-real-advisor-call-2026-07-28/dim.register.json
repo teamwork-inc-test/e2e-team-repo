@@ -1,0 +1,52 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-7",
+    "regions" : [ "casual", "irreverent" ],
+    "evidence" : [ {
+      "quote" : "rolled their own bullshit",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Colloquial vulgarity punctures standard technical discourse with informal bluntness.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-13",
+    "regions" : [ "casual" ],
+    "evidence" : [ {
+      "quote" : "shitty job",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Casual swear breaks formality in an otherwise strategic framing.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-14",
+    "regions" : [ "technical" ],
+    "evidence" : [ {
+      "quote" : "read and manipulation layer is proprietary",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Uses software architecture domain terminology to specify product functionality.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-18",
+    "regions" : [ "technical" ],
+    "evidence" : [ {
+      "quote" : "extract perspective from them and then I make that perspective citable in the individual task",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Explicit technical specification of product architecture and mechanisms.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-29",
+    "regions" : [ "casual" ],
+    "evidence" : [ {
+      "quote" : "I gotta pull my head out of the development.",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Idiomatic, loose self-admonition shifting away from the strategic analysis baseline.",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-1", "src-2", "src-3", "src-4", "src-5", "src-6", "src-8", "src-9", "src-10", "src-11", "src-12", "src-15", "src-16", "src-17", "src-19", "src-20", "src-21", "src-22", "src-23", "src-24", "src-25", "src-26", "src-27", "src-28", "src-30" ],
+  "unmarked_rest" : false,
+  "mints" : [ ],
+  "region_mints" : [ ]
+}
