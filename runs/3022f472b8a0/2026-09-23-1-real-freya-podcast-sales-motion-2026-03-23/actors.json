@@ -1,0 +1,27 @@
+{
+  "bindings" : [ {
+    "name" : "Claude",
+    "verdict" : "mint",
+    "target" : null,
+    "label" : "Claude",
+    "why" : "Young repo with no existing actors; minting AI actor Claude."
+  }, {
+    "name" : "Tanya TeamOwner",
+    "verdict" : "mint",
+    "target" : null,
+    "label" : "Tanya TeamOwner",
+    "why" : "Young repo with no existing actors; minting full name from envelope participants."
+  }, {
+    "name" : "Freya Free",
+    "verdict" : "mint",
+    "target" : null,
+    "label" : "Freya Free",
+    "why" : "Young repo with no existing actors; minting participant Freya Free."
+  }, {
+    "name" : "tanya+staging@aswritten.ai",
+    "verdict" : "mint",
+    "target" : null,
+    "label" : "Tanya TeamOwner",
+    "why" : "Envelope account email corresponds to Tanya TeamOwner; converging on fullest name."
+  } ]
+}
