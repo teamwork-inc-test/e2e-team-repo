@@ -1,0 +1,43 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-9",
+    "regions" : [ "conservation", "autonomy" ],
+    "evidence" : [ {
+      "quote" : "People might not want to give their number.",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Tess flags personal phone number privacy and fear of spam as an avoidance motive in skeptical contexts.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-44",
+    "regions" : [ "relatedness" ],
+    "evidence" : [ {
+      "quote" : "She's on Individual because she's my fiancé and beta tester, not a sales target",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Tanya grounds Tess's commercial status in personal relationship and mutual collaboration rather than transactional sales.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-60",
+    "regions" : [ "competence" ],
+    "evidence" : [ {
+      "quote" : "visit this link, install it, come back and say done.",
+      "kind" : "plain-signal"
+    } ],
+    "why" : "Tess prescribes clear procedural guidance to eliminate onboarding confusion and restore user self-efficacy.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-63",
+    "regions" : [ "competence" ],
+    "evidence" : [ {
+      "quote" : "Everything you said about committing and pulling and all of that is completely foreign to me.",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Tess highlights the cognitive barrier created by developer jargon that obscures user mastery.",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-1", "src-2", "src-3", "src-4", "src-5", "src-6", "src-7", "src-8", "src-10", "src-11", "src-12", "src-13", "src-14", "src-15", "src-16", "src-17", "src-18", "src-19", "src-20", "src-21", "src-22", "src-23", "src-24", "src-25", "src-26", "src-27", "src-28", "src-29", "src-30", "src-31", "src-32", "src-33", "src-34", "src-35", "src-36", "src-37", "src-38", "src-39", "src-40", "src-41", "src-42", "src-43", "src-45", "src-46", "src-47", "src-48", "src-49", "src-50", "src-51", "src-52", "src-53", "src-54", "src-55", "src-56", "src-57", "src-58", "src-59", "src-61", "src-62", "src-64", "src-65", "src-66", "src-67", "src-68", "src-69", "src-70", "src-71", "src-72", "src-73", "src-74", "src-75", "src-76", "src-77", "src-78" ],
+  "unmarked_rest" : false,
+  "mints" : [ ],
+  "region_mints" : [ ]
+}
