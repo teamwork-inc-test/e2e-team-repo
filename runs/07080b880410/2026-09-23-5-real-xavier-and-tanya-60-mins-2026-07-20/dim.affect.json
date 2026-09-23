@@ -1,0 +1,116 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-2",
+    "regions" : [ "calm-positive" ],
+    "evidence" : [ {
+      "quote" : "I'm just happy to.",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Warm expression of pleasure and contentment upon reconnecting.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-7",
+    "regions" : [ "calm-positive" ],
+    "evidence" : [ {
+      "quote" : "delightful and a dream",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Expresses warm positive affection when describing the new baby.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-9",
+    "regions" : [ "calm-negative" ],
+    "evidence" : [ {
+      "quote" : "so that's rough. Yeah, it was rough.",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Weary admission of sleep deprivation fatigue.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-17",
+    "regions" : [ "calm-negative" ],
+    "evidence" : [ {
+      "quote" : "it kind of sucked. I'm sorry.",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Low-energy regret and disappointment over past company fallout.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-37",
+    "regions" : [ "activated-negative" ],
+    "evidence" : [ {
+      "quote" : "Shit show. Because this thing is a fucking disaster.",
+      "kind" : "intensifier"
+    } ],
+    "why" : "High-arousal frustration expressed about a chaotic ERP migration consulting engagement.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-67",
+    "regions" : [ "activated-negative" ],
+    "evidence" : [ {
+      "quote" : "I hate slack for all sorts of reasons.",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Strong visceral aversion expressed toward a specific tool.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-68",
+    "regions" : [ "activated-positive" ],
+    "evidence" : [ {
+      "quote" : "Cool. I love that. This is the fun thing about AI Though.",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Enthusiastic and energized approval of the project and possibilities.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-77",
+    "regions" : [ "activated-positive" ],
+    "evidence" : [ {
+      "quote" : "that sounds rad.",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "High-arousal enthusiasm reacting to the product concept.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-140",
+    "regions" : [ "calm-negative" ],
+    "evidence" : [ {
+      "quote" : "I'm feeling a little unsure of what I'm doing right at this point. I feel like I've kind of been like, head down in the trenches of building the thing and maybe got a bit lost in doing so.",
+      "kind" : "plain-signal"
+    } ],
+    "why" : "Vulnerable expression of disorientation, fatigue, and discouragement regarding founder trajectory.",
+    "reported" : false,
+    "direction" : {
+      "verdict" : "mint",
+      "node" : "mint-1"
+    }
+  }, {
+    "segment_local_id" : "src-141",
+    "regions" : [ "calm-negative" ],
+    "evidence" : [ {
+      "quote" : "Sorry, I hope I didn't break things.",
+      "kind" : "plain-signal"
+    } ],
+    "why" : "Subdued concern and apologetic discomfort over having potentially destabilized the speaker.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-151",
+    "regions" : [ "calm-negative" ],
+    "evidence" : [ {
+      "quote" : "I'm sorry, I feel bad that I broke everything.",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Direct expression of sympathetic dismay and remorse over demoralizing the conversational partner.",
+    "reported" : false
+  } ],
+  "unmarked" : [ ],
+  "unmarked_rest" : true,
+  "mints" : [ {
+    "id" : "mint-1",
+    "name" : "FounderDisorientationExhaustion",
+    "title" : "feeling a little unsure and a bit lost in the trenches",
+    "frame" : "Does the speaker express a low-arousal crisis of confidence and directional fatigue from extended solitary execution?",
+    "regions" : [ "calm-negative" ]
+  } ],
+  "region_mints" : [ ]
+}
