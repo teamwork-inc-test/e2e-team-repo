@@ -1,0 +1,46 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "authority-ranking" ],
+    "evidence" : [ {
+      "quote" : "ruled",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Tanya explicitly reports a binding hierarchical determination ('ruled') as team owner.",
+    "reported" : false,
+    "direction" : {
+      "verdict" : "mint",
+      "node" : "mint-1"
+    }
+  }, {
+    "segment_local_id" : "src-2",
+    "regions" : [ "authority-ranking", "communal-sharing" ],
+    "evidence" : [ {
+      "quote" : "Tanya (team owner) ruled on where reaction delivery belongs:",
+      "kind" : "delivery"
+    }, {
+      "quote" : "we route",
+      "kind" : "framing-move"
+    } ],
+    "why" : "The delivery framing establishes authoritative mandate ('ruled') enacted over collective group coordination ('we route').",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-3",
+    "regions" : [ "authority-ranking" ],
+    "evidence" : [ {
+      "quote" : "Tanya held",
+      "kind" : "framing-move"
+    } ],
+    "why" : "The text frames pushback being overridden and the authoritative boundary maintained.",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-4" ],
+  "mints" : [ {
+    "id" : "mint-1",
+    "name" : "OwnerAdjudicationRuling",
+    "title" : "owner ruling to resolve architectural boundary",
+    "frame" : "Does the utterance enact or report a unilateral owner determination to settle a contested decision?",
+    "regions" : [ "authority-ranking" ]
+  } ],
+  "region_mints" : [ ]
+}
