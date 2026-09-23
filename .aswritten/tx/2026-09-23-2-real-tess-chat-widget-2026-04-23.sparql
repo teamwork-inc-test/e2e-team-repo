@@ -1,0 +1,1404 @@
+PREFIX narr: <https://aswritten.ai/narrative#>
+PREFIX aswr: <https://aswritten.ai/aswr#>
+PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX dct:  <http://purl.org/dc/terms/>
+PREFIX xsd:  <http://www.w3.org/2001/XMLSchema#>
+PREFIX oa:   <http://www.w3.org/ns/oa#>
+PREFIX xkos: <http://rdf-vocabulary.ddialliance.org/xkos#>
+
+INSERT DATA {
+  aswr:Tx_20260923T171007Z a prov:Activity ;
+      prov:generatedAtTime "2026-09-23T17:10:07Z"^^xsd:dateTime ;
+      prov:wasAssociatedWith "aswritten.ai" ;
+      prov:wasAttributedTo "scarlet@aswritten.ai" ;
+      aswr:draftedBy "claude-opus-5-5" ;
+      aswr:pipelinePin "8dd07a49bda8" ;
+      aswr:originPath ".aswritten/memories/2026-09-23-2-real-tess-chat-widget-2026-04-23.md" ;
+      dct:title "Multipass source extraction: Tess's Channel-Strategy Feedback and Archetype Reclassification (Apr 23, 2026)" ;
+      prov:generated narr:Sample_2RealTessChatWidget20260423, narr:Expr_2RealTessChatWidget20260423_1, narr:Expr_2RealTessChatWidget20260423_2, narr:Expr_2RealTessChatWidget20260423_3, narr:Expr_2RealTessChatWidget20260423_4, narr:Expr_2RealTessChatWidget20260423_5, narr:Expr_2RealTessChatWidget20260423_6, narr:Expr_2RealTessChatWidget20260423_7, narr:Expr_2RealTessChatWidget20260423_8, narr:Expr_2RealTessChatWidget20260423_9, narr:Expr_2RealTessChatWidget20260423_10, narr:Expr_2RealTessChatWidget20260423_11, narr:Expr_2RealTessChatWidget20260423_12, narr:Expr_2RealTessChatWidget20260423_13, narr:Expr_2RealTessChatWidget20260423_14, narr:Expr_2RealTessChatWidget20260423_15, narr:Expr_2RealTessChatWidget20260423_16, narr:Expr_2RealTessChatWidget20260423_17, narr:Expr_2RealTessChatWidget20260423_18, narr:Expr_2RealTessChatWidget20260423_19, narr:Expr_2RealTessChatWidget20260423_20, narr:Expr_2RealTessChatWidget20260423_21, narr:Expr_2RealTessChatWidget20260423_22, narr:Expr_2RealTessChatWidget20260423_23, narr:Expr_2RealTessChatWidget20260423_24, narr:Expr_2RealTessChatWidget20260423_25, narr:Expr_2RealTessChatWidget20260423_26, narr:Expr_2RealTessChatWidget20260423_27, narr:Expr_2RealTessChatWidget20260423_28, narr:Expr_2RealTessChatWidget20260423_29, narr:Expr_2RealTessChatWidget20260423_30, narr:Expr_2RealTessChatWidget20260423_31, narr:Expr_2RealTessChatWidget20260423_32, narr:Expr_2RealTessChatWidget20260423_33, narr:Expr_2RealTessChatWidget20260423_34, narr:Expr_2RealTessChatWidget20260423_35, narr:Expr_2RealTessChatWidget20260423_36, narr:Expr_2RealTessChatWidget20260423_37, narr:Expr_2RealTessChatWidget20260423_38, narr:Expr_2RealTessChatWidget20260423_39, narr:Expr_2RealTessChatWidget20260423_40, narr:Expr_2RealTessChatWidget20260423_41, narr:Expr_2RealTessChatWidget20260423_42, narr:Expr_2RealTessChatWidget20260423_43, narr:Expr_2RealTessChatWidget20260423_44, narr:Expr_2RealTessChatWidget20260423_45, narr:Expr_2RealTessChatWidget20260423_46, narr:Expr_2RealTessChatWidget20260423_47, narr:Expr_2RealTessChatWidget20260423_48, narr:Expr_2RealTessChatWidget20260423_49, narr:Expr_2RealTessChatWidget20260423_50, narr:Expr_2RealTessChatWidget20260423_51, narr:Expr_2RealTessChatWidget20260423_52, narr:Expr_2RealTessChatWidget20260423_53, narr:Expr_2RealTessChatWidget20260423_54, narr:Expr_2RealTessChatWidget20260423_55, narr:Expr_2RealTessChatWidget20260423_56, narr:Expr_2RealTessChatWidget20260423_57, narr:Expr_2RealTessChatWidget20260423_58, narr:Expr_2RealTessChatWidget20260423_59, narr:Expr_2RealTessChatWidget20260423_60, narr:Expr_2RealTessChatWidget20260423_61, narr:Expr_2RealTessChatWidget20260423_62, narr:Expr_2RealTessChatWidget20260423_63, narr:Expr_2RealTessChatWidget20260423_64, narr:Expr_2RealTessChatWidget20260423_65, narr:Expr_2RealTessChatWidget20260423_66, narr:Expr_2RealTessChatWidget20260423_67, narr:Expr_2RealTessChatWidget20260423_68, narr:Expr_2RealTessChatWidget20260423_69, narr:Expr_2RealTessChatWidget20260423_70, narr:Expr_2RealTessChatWidget20260423_71, narr:Expr_2RealTessChatWidget20260423_72, narr:Expr_2RealTessChatWidget20260423_73, narr:Expr_2RealTessChatWidget20260423_74, narr:Expr_2RealTessChatWidget20260423_75, narr:Expr_2RealTessChatWidget20260423_76, narr:Expr_2RealTessChatWidget20260423_77, narr:Expr_2RealTessChatWidget20260423_78, narr:How_2RealTessChatWidget20260423_9_0, narr:How_2RealTessChatWidget20260423_18_0, narr:How_2RealTessChatWidget20260423_44_0, narr:How_2RealTessChatWidget20260423_54_0, narr:How_2RealTessChatWidget20260423_58_0, narr:How_2RealTessChatWidget20260423_60_0, narr:Actor_TessGuest .
+} ;
+INSERT DATA {
+  GRAPH aswr:Tx_20260923T171007Z {
+    narr:Sample_2RealTessChatWidget20260423 a narr:Sample ;
+        dct:title "Tess's Channel-Strategy Feedback and Archetype Reclassification (Apr 23, 2026)" ;
+        dct:created "2026-04-23"^^xsd:date ;
+        aswr:originPath ".aswritten/memories/2026-09-23-2-real-tess-chat-widget-2026-04-23.md" ;
+        aswr:submittedBy narr:Actor_TanyaTeamowner ;
+        aswr:account narr:Actor_TanyaTeamowner .
+
+    narr:Expr_2RealTessChatWidget20260423_1 a narr:Expression ;
+        narr:actor narr:Actor_Claude ;
+        narr:act "assertive" ;
+        narr:animator narr:Actor_Claude ;
+        narr:author narr:Actor_Claude ;
+        narr:context "Preamble / provenance" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_2RealTessChatWidget20260423 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Written up by Claude (claude-opus-5-5), the assistant in Tanya Team's session, from Tanya's account of her conversation with Tess Guest. Tess's words are as Tanya relayed them; Tanya's are verbatim." ;
+                oa:prefix "ssification (Apr 23, 2026)\n\n> " ;
+                oa:suffix "\n\n## Context\n\nMorning conversa" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "135"^^xsd:integer ;
+                oa:end "333"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T17:10:07Z"^^xsd:dateTime .
+
+    narr:Expr_2RealTessChatWidget20260423_2 a narr:Expression ;
+        narr:actor narr:Actor_Claude ;
+        narr:act "assertive" ;
+        narr:animator narr:Actor_Claude ;
+        narr:author narr:Actor_Claude ;
+        narr:context "Context" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_2RealTessChatWidget20260423 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Morning conversation with Tess." ;
+                oa:prefix "'s are verbatim.\n\n## Context\n\n" ;
+                oa:suffix " Tanya had just learned that s" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "347"^^xsd:integer ;
+                oa:end "378"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T17:10:07Z"^^xsd:dateTime .
+
+    narr:Expr_2RealTessChatWidget20260423_3 a narr:Expression ;
+        narr:actor narr:Actor_Claude ;
+        narr:act "assertive" ;
+        narr:animator narr:Actor_Claude ;
+        narr:author narr:Actor_Claude ;
+        narr:context "Context" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_2RealTessChatWidget20260423 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Tanya had just learned that seven Twilio toll-free numbers she'd submitted for verification all came back rejected — the stated reasons pointed at the website not being active (likely a bad link) and the opt-in form requirement (also likely a bad link)." ;
+                oa:prefix "rning conversation with Tess. " ;
+                oa:suffix " The numbers can be re-submitt" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "379"^^xsd:integer ;
+                oa:end "632"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T17:10:07Z"^^xsd:dateTime .
+
+    narr:Expr_2RealTessChatWidget20260423_4 a narr:Expression ;
+        narr:actor narr:Actor_Claude ;
+        narr:act "assertive" ;
+        narr:animator narr:Actor_Claude ;
+        narr:author narr:Actor_Claude ;
+        narr:context "Context" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_2RealTessChatWidget20260423 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "The numbers can be re-submitted and are back in the review queue." ;
+                oa:prefix "ent (also likely a bad link). " ;
+                oa:suffix " Separately, Tanya had been as" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "633"^^xsd:integer ;
+                oa:end "698"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T17:10:07Z"^^xsd:dateTime .
+
+    narr:Expr_2RealTessChatWidget20260423_5 a narr:Expression ;
+        narr:actor narr:Actor_Claude ;
+        narr:act "assertive" ;
+        narr:animator narr:Actor_Claude ;
+        narr:author narr:Actor_Claude ;
+        narr:principal narr:Actor_TanyaTeamowner ;
+        narr:context "Context" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_2RealTessChatWidget20260423 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Separately, Tanya had been asking whether SMS is actually the right demo strength for beta users like Tess and Pat." ;
+                oa:prefix "are back in the review queue. " ;
+                oa:suffix " She surfaced that question wi" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "699"^^xsd:integer ;
+                oa:end "814"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T17:10:07Z"^^xsd:dateTime .
+
+    narr:Expr_2RealTessChatWidget20260423_6 a narr:Expression ;
+        narr:actor narr:Actor_Claude ;
+        narr:act "assertive" ;
+        narr:animator narr:Actor_Claude ;
+        narr:author narr:Actor_Claude ;
+        narr:context "Context" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_2RealTessChatWidget20260423 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "She surfaced that question with Tess directly." ;
+                oa:prefix "beta users like Tess and Pat. " ;
+                oa:suffix " Tess and Tanya both know Pat " ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "815"^^xsd:integer ;
+                oa:end "861"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T17:10:07Z"^^xsd:dateTime .
+
+    narr:Expr_2RealTessChatWidget20260423_7 a narr:Expression ;
+        narr:actor narr:Actor_Claude ;
+        narr:act "assertive" ;
+        narr:animator narr:Actor_Claude ;
+        narr:author narr:Actor_Claude ;
+        narr:context "Context" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_2RealTessChatWidget20260423 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Tess and Tanya both know Pat personally." ;
+                oa:prefix " question with Tess directly. " ;
+                oa:suffix "\n\n## Tess's Channel Insight: S" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "862"^^xsd:integer ;
+                oa:end "902"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T17:10:07Z"^^xsd:dateTime .
+
+    narr:Expr_2RealTessChatWidget20260423_8 a narr:Expression ;
+        narr:actor narr:Actor_Claude ;
+        narr:act "assertive" ;
+        narr:animator narr:Actor_Claude ;
+        narr:author narr:Actor_Claude ;
+        narr:context "Tess's Channel Insight: SMS Is Spam-Coded in Low-Trust Contexts" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_2RealTessChatWidget20260423 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Tess's response, reconstructed from Tanya's summary:" ;
+                oa:prefix "-Coded in Low-Trust Contexts\n\n" ;
+                oa:suffix "\n\n> Text message, in certain c" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "972"^^xsd:integer ;
+                oa:end "1024"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T17:10:07Z"^^xsd:dateTime .
+
+    narr:Expr_2RealTessChatWidget20260423_9 a narr:Expression ;
+        narr:actor narr:Actor_TessGuest ;
+        narr:act "assertive" ;
+        narr:context "Tess's Channel Insight: SMS Is Spam-Coded in Low-Trust Contexts" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_2RealTessChatWidget20260423 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Text message, in certain contexts, is absolutely the right move. But in a lot of skeptical or lower-trust contexts, texting is so associated with spam now that requiring someone to text might actually be a real downside. People might not want to give their number." ;
+                oa:prefix "cted from Tanya's summary:\n\n> " ;
+                oa:suffix "\n\nThe SMS-feels-honest-not-bot" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "1028"^^xsd:integer ;
+                oa:end "1292"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T17:10:07Z"^^xsd:dateTime .
+
+    narr:Expr_2RealTessChatWidget20260423_10 a narr:Expression ;
+        narr:actor narr:Actor_Claude ;
+        narr:act "assertive" ;
+        narr:animator narr:Actor_Claude ;
+        narr:author narr:Actor_Claude ;
+        narr:context "Tess's Channel Insight: SMS Is Spam-Coded in Low-Trust Contexts" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_2RealTessChatWidget20260423 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "The SMS-feels-honest-not-bot framing holds when the sender is already trusted." ;
+                oa:prefix "t want to give their number.\n\n" ;
+                oa:suffix " It flips in evaluator context" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "1294"^^xsd:integer ;
+                oa:end "1372"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T17:10:07Z"^^xsd:dateTime .
+
+    narr:Expr_2RealTessChatWidget20260423_11 a narr:Expression ;
+        narr:actor narr:Actor_Claude ;
+        narr:act "assertive" ;
+        narr:animator narr:Actor_Claude ;
+        narr:author narr:Actor_Claude ;
+        narr:context "Tess's Channel Insight: SMS Is Spam-Coded in Low-Trust Contexts" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_2RealTessChatWidget20260423 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "It flips in evaluator contexts — SMS is *more* suspicious because spam trained people to distrust unexpected texts." ;
+                oa:prefix "he sender is already trusted. " ;
+                oa:suffix " Tanya's prior claim that SMS " ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "1373"^^xsd:integer ;
+                oa:end "1488"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T17:10:07Z"^^xsd:dateTime .
+
+    narr:Expr_2RealTessChatWidget20260423_12 a narr:Expression ;
+        narr:actor narr:Actor_Claude ;
+        narr:act "assertive" ;
+        narr:animator narr:Actor_Claude ;
+        narr:author narr:Actor_Claude ;
+        narr:context "Tess's Channel Insight: SMS Is Spam-Coded in Low-Trust Contexts" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_2RealTessChatWidget20260423 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Tanya's prior claim that SMS removes the \"bot\" mental frame is context-dependent, not universal." ;
+                oa:prefix "to distrust unexpected texts. " ;
+                oa:suffix "\n\nThe Twilio rejection context" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "1489"^^xsd:integer ;
+                oa:end "1585"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T17:10:07Z"^^xsd:dateTime .
+
+    narr:Expr_2RealTessChatWidget20260423_13 a narr:Expression ;
+        narr:actor narr:Actor_Claude ;
+        narr:act "assertive" ;
+        narr:animator narr:Actor_Claude ;
+        narr:author narr:Actor_Claude ;
+        narr:context "Tess's Channel Insight: SMS Is Spam-Coded in Low-Trust Contexts" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_2RealTessChatWidget20260423 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "The Twilio rejection context is load-bearing here, not incidental." ;
+                oa:prefix "xt-dependent, not universal.\n\n" ;
+                oa:suffix " Seven numbers, rejected en ma" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "1587"^^xsd:integer ;
+                oa:end "1653"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T17:10:07Z"^^xsd:dateTime .
+
+    narr:Expr_2RealTessChatWidget20260423_14 a narr:Expression ;
+        narr:actor narr:Actor_Claude ;
+        narr:act "assertive" ;
+        narr:animator narr:Actor_Claude ;
+        narr:author narr:Actor_Claude ;
+        narr:context "Tess's Channel Insight: SMS Is Spam-Coded in Low-Trust Contexts" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_2RealTessChatWidget20260423 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Seven numbers, rejected en masse, for reasons adjacent to consent-form hygiene, with each beta user requiring their own verification path." ;
+                oa:prefix "bearing here, not incidental. " ;
+                oa:suffix " The operational cost of the S" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "1654"^^xsd:integer ;
+                oa:end "1792"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T17:10:07Z"^^xsd:dateTime .
+
+    narr:Expr_2RealTessChatWidget20260423_15 a narr:Expression ;
+        narr:actor narr:Actor_Claude ;
+        narr:act "assertive" ;
+        narr:animator narr:Actor_Claude ;
+        narr:author narr:Actor_Claude ;
+        narr:context "Tess's Channel Insight: SMS Is Spam-Coded in Low-Trust Contexts" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_2RealTessChatWidget20260423 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "The operational cost of the SMS onramp has been absorbed, not priced." ;
+                oa:prefix " their own verification path. " ;
+                oa:suffix " Tess is naming the deeper ver" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "1793"^^xsd:integer ;
+                oa:end "1862"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T17:10:07Z"^^xsd:dateTime .
+
+    narr:Expr_2RealTessChatWidget20260423_16 a narr:Expression ;
+        narr:actor narr:Actor_Claude ;
+        narr:act "assertive" ;
+        narr:animator narr:Actor_Claude ;
+        narr:author narr:Actor_Claude ;
+        narr:principal narr:Actor_TessGuest ;
+        narr:context "Tess's Channel Insight: SMS Is Spam-Coded in Low-Trust Contexts" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_2RealTessChatWidget20260423 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Tess is naming the deeper version: even when verification succeeds, the channel carries a trust tax in evaluator-grade conversations." ;
+                oa:prefix "as been absorbed, not priced. " ;
+                oa:suffix "\n\n## Tess's Proposal: Chat Wid" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "1863"^^xsd:integer ;
+                oa:end "1996"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T17:10:07Z"^^xsd:dateTime .
+
+    narr:Expr_2RealTessChatWidget20260423_17 a narr:Expression ;
+        narr:actor narr:Actor_Claude ;
+        narr:act "assertive" ;
+        narr:animator narr:Actor_Claude ;
+        narr:author narr:Actor_Claude ;
+        narr:context "Tess's Proposal: Chat Widget on a Web Form" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_2RealTessChatWidget20260423 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Verbatim from Tess (as relayed by Tanya):" ;
+                oa:prefix "l: Chat Widget on a Web Form\n\n" ;
+                oa:suffix "\n\n> Can you just give me a cha" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "2045"^^xsd:integer ;
+                oa:end "2086"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T17:10:07Z"^^xsd:dateTime .
+
+    narr:Expr_2RealTessChatWidget20260423_18 a narr:Expression ;
+        narr:actor narr:Actor_TessGuest ;
+        narr:act "question" ;
+        narr:context "Tess's Proposal: Chat Widget on a Web Form" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_2RealTessChatWidget20260423 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Can you just give me a chat widget on a web form?" ;
+                oa:prefix "ess (as relayed by Tanya):\n\n> " ;
+                oa:suffix "\n\nTanya's architectural respon" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "2090"^^xsd:integer ;
+                oa:end "2139"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T17:10:07Z"^^xsd:dateTime .
+
+    narr:Expr_2RealTessChatWidget20260423_19 a narr:Expression ;
+        narr:actor narr:Actor_Claude ;
+        narr:act "assertive" ;
+        narr:animator narr:Actor_Claude ;
+        narr:author narr:Actor_Claude ;
+        narr:context "Tess's Proposal: Chat Widget on a Web Form" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_2RealTessChatWidget20260423 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Tanya's architectural response — a sketch, not yet a decision:" ;
+                oa:prefix "a chat widget on a web form?\n\n" ;
+                oa:suffix "\n\nFront already has a chat wid" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "2141"^^xsd:integer ;
+                oa:end "2203"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T17:10:07Z"^^xsd:dateTime .
+
+    narr:Expr_2RealTessChatWidget20260423_20 a narr:Expression ;
+        narr:actor narr:Actor_Claude ;
+        narr:act "assertive" ;
+        narr:animator narr:Actor_Claude ;
+        narr:author narr:Actor_Claude ;
+        narr:context "Tess's Proposal: Chat Widget on a Web Form" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_2RealTessChatWidget20260423 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Front already has a chat widget, so the integration exists." ;
+                oa:prefix " sketch, not yet a decision:\n\n" ;
+                oa:suffix " Inboxes may still need to be " ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "2205"^^xsd:integer ;
+                oa:end "2264"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T17:10:07Z"^^xsd:dateTime .
+
+    narr:Expr_2RealTessChatWidget20260423_21 a narr:Expression ;
+        narr:actor narr:Actor_Claude ;
+        narr:act "assertive" ;
+        narr:animator narr:Actor_Claude ;
+        narr:author narr:Actor_Claude ;
+        narr:context "Tess's Proposal: Chat Widget on a Web Form" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_2RealTessChatWidget20260423 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Inboxes may still need to be manually created (open question), but channels under an inbox should be automatable." ;
+                oa:prefix "t, so the integration exists. " ;
+                oa:suffix " The proposal is one widget pe" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "2265"^^xsd:integer ;
+                oa:end "2378"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T17:10:07Z"^^xsd:dateTime .
+
+    narr:Expr_2RealTessChatWidget20260423_22 a narr:Expression ;
+        narr:actor narr:Actor_Claude ;
+        narr:act "assertive" ;
+        narr:animator narr:Actor_Claude ;
+        narr:author narr:Actor_Claude ;
+        narr:context "Tess's Proposal: Chat Widget on a Web Form" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_2RealTessChatWidget20260423 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "The proposal is one widget per share ID — provisioning a channel and widget at share-creation time means each share has its own conversation surface." ;
+                oa:prefix " inbox should be automatable. " ;
+                oa:suffix " Multiple widgets alive at onc" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "2379"^^xsd:integer ;
+                oa:end "2528"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T17:10:07Z"^^xsd:dateTime .
+
+    narr:Expr_2RealTessChatWidget20260423_23 a narr:Expression ;
+        narr:actor narr:Actor_Claude ;
+        narr:act "assertive" ;
+        narr:animator narr:Actor_Claude ;
+        narr:author narr:Actor_Claude ;
+        narr:context "Tess's Proposal: Chat Widget on a Web Form" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_2RealTessChatWidget20260423 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Multiple widgets alive at once makes comparison across share IDs and branches natural." ;
+                oa:prefix "its own conversation surface. " ;
+                oa:suffix " A managed aswritten-org inbox" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "2529"^^xsd:integer ;
+                oa:end "2615"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T17:10:07Z"^^xsd:dateTime .
+
+    narr:Expr_2RealTessChatWidget20260423_24 a narr:Expression ;
+        narr:actor narr:Actor_Claude ;
+        narr:act "assertive" ;
+        narr:animator narr:Actor_Claude ;
+        narr:author narr:Actor_Claude ;
+        narr:context "Tess's Proposal: Chat Widget on a Web Form" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_2RealTessChatWidget20260423 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "A managed aswritten-org inbox holds all these conversations, and conversations do not get assigned to anyone by default, including Tanya." ;
+                oa:prefix "are IDs and branches natural. " ;
+                oa:suffix " No default-assignment avoids " ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "2616"^^xsd:integer ;
+                oa:end "2753"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T17:10:07Z"^^xsd:dateTime .
+
+    narr:Expr_2RealTessChatWidget20260423_25 a narr:Expression ;
+        narr:actor narr:Actor_Claude ;
+        narr:act "assertive" ;
+        narr:animator narr:Actor_Claude ;
+        narr:author narr:Actor_Claude ;
+        narr:context "Tess's Proposal: Chat Widget on a Web Form" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_2RealTessChatWidget20260423 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "No default-assignment avoids the \"every new conversation lands on the founder\" failure mode." ;
+                oa:prefix " by default, including Tanya. " ;
+                oa:suffix "\n\nTanya's conclusion: lower li" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "2754"^^xsd:integer ;
+                oa:end "2846"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T17:10:07Z"^^xsd:dateTime .
+
+    narr:Expr_2RealTessChatWidget20260423_26 a narr:Expression ;
+        narr:actor narr:Actor_Claude ;
+        narr:act "assertive" ;
+        narr:animator narr:Actor_Claude ;
+        narr:author narr:Actor_Claude ;
+        narr:principal narr:Actor_TanyaTeamowner ;
+        narr:context "Tess's Proposal: Chat Widget on a Web Form" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_2RealTessChatWidget20260423 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Tanya's conclusion: lower lift for the demo, lower lift for Tess and others in her category, potentially much more useful." ;
+                oa:prefix "n the founder\" failure mode.\n\n" ;
+                oa:suffix "\n\n## Narrowing the SMS Framing" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "2848"^^xsd:integer ;
+                oa:end "2970"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T17:10:07Z"^^xsd:dateTime .
+
+    narr:Expr_2RealTessChatWidget20260423_27 a narr:Expression ;
+        narr:actor narr:Actor_Claude ;
+        narr:act "assertive" ;
+        narr:animator narr:Actor_Claude ;
+        narr:author narr:Actor_Claude ;
+        narr:context "Narrowing the SMS Framing, Not Killing It" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_2RealTessChatWidget20260423 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Two prior corrections in the perspective already walked the \"SMS is the product\" framing back from its strongest form — the SMS-first product is an overstatement, it's an open product idea, and the consumer motion is gated on understanding usage patterns and cost-per-behavior." ;
+                oa:prefix " SMS Framing, Not Killing It\n\n" ;
+                oa:suffix "\n\nToday's insight narrows it f" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "3018"^^xsd:integer ;
+                oa:end "3295"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T17:10:07Z"^^xsd:dateTime .
+
+    narr:Expr_2RealTessChatWidget20260423_28 a narr:Expression ;
+        narr:actor narr:Actor_Claude ;
+        narr:act "assertive" ;
+        narr:animator narr:Actor_Claude ;
+        narr:author narr:Actor_Claude ;
+        narr:context "Narrowing the SMS Framing, Not Killing It" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_2RealTessChatWidget20260423 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Today's insight narrows it further." ;
+                oa:prefix "terns and cost-per-behavior.\n\n" ;
+                oa:suffix " SMS remains viable for high-t" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "3297"^^xsd:integer ;
+                oa:end "3332"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T17:10:07Z"^^xsd:dateTime .
+
+    narr:Expr_2RealTessChatWidget20260423_29 a narr:Expression ;
+        narr:actor narr:Actor_Claude ;
+        narr:act "assertive" ;
+        narr:animator narr:Actor_Claude ;
+        narr:author narr:Actor_Claude ;
+        narr:context "Narrowing the SMS Framing, Not Killing It" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_2RealTessChatWidget20260423 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "SMS remains viable for high-trust, post-consent, consumer-viral contexts — the channel works where the sender is already welcome." ;
+                oa:prefix "s insight narrows it further. " ;
+                oa:suffix " A chat widget on the share pa" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "3333"^^xsd:integer ;
+                oa:end "3462"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T17:10:07Z"^^xsd:dateTime .
+
+    narr:Expr_2RealTessChatWidget20260423_30 a narr:Expression ;
+        narr:actor narr:Actor_Claude ;
+        narr:act "assertive" ;
+        narr:animator narr:Actor_Claude ;
+        narr:author narr:Actor_Claude ;
+        narr:context "Narrowing the SMS Framing, Not Killing It" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_2RealTessChatWidget20260423 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "A chat widget on the share page is the right fit for evaluator, skeptic, first-touch, and demo contexts — no number, no verification, no opt-in form, no spam frame." ;
+                oa:prefix "he sender is already welcome. " ;
+                oa:suffix " The share page itself is the " ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "3463"^^xsd:integer ;
+                oa:end "3627"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T17:10:07Z"^^xsd:dateTime .
+
+    narr:Expr_2RealTessChatWidget20260423_31 a narr:Expression ;
+        narr:actor narr:Actor_Claude ;
+        narr:act "assertive" ;
+        narr:animator narr:Actor_Claude ;
+        narr:author narr:Actor_Claude ;
+        narr:context "Narrowing the SMS Framing, Not Killing It" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_2RealTessChatWidget20260423 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "The share page itself is the trust context, so the widget inherits it." ;
+                oa:prefix "o opt-in form, no spam frame. " ;
+                oa:suffix " This is a scoping, not a repl" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "3628"^^xsd:integer ;
+                oa:end "3698"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T17:10:07Z"^^xsd:dateTime .
+
+    narr:Expr_2RealTessChatWidget20260423_32 a narr:Expression ;
+        narr:actor narr:Actor_Claude ;
+        narr:act "assertive" ;
+        narr:animator narr:Actor_Claude ;
+        narr:author narr:Actor_Claude ;
+        narr:context "Narrowing the SMS Framing, Not Killing It" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_2RealTessChatWidget20260423 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "This is a scoping, not a replacement." ;
+                oa:prefix "t, so the widget inherits it. " ;
+                oa:suffix " The toll-free verification co" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "3699"^^xsd:integer ;
+                oa:end "3736"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T17:10:07Z"^^xsd:dateTime .
+
+    narr:Expr_2RealTessChatWidget20260423_33 a narr:Expression ;
+        narr:actor narr:Actor_Claude ;
+        narr:act "assertive" ;
+        narr:animator narr:Actor_Claude ;
+        narr:author narr:Actor_Claude ;
+        narr:context "Narrowing the SMS Framing, Not Killing It" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_2RealTessChatWidget20260423 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "The toll-free verification cost per beta user stops being load-bearing for demo strategy, but SMS stays alive in the contexts where it actually works." ;
+                oa:prefix "a scoping, not a replacement. " ;
+                oa:suffix "\n\n## Archetype Reclassificatio" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "3737"^^xsd:integer ;
+                oa:end "3887"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T17:10:07Z"^^xsd:dateTime .
+
+    narr:Expr_2RealTessChatWidget20260423_34 a narr:Expression ;
+        narr:actor narr:Actor_Claude ;
+        narr:act "assertive" ;
+        narr:animator narr:Actor_Claude ;
+        narr:author narr:Actor_Claude ;
+        narr:context "Archetype Reclassification: Tess is a Knowledge Packager" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_2RealTessChatWidget20260423 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "The perspective currently classifies Tess as a Knowledge-Rich Consumer (Archetype C2) and uses her as the exemplar for the Trigger-1 solo-professional archetype." ;
+                oa:prefix "Tess is a Knowledge Packager\n\n" ;
+                oa:suffix " But Tess creates trainings. H" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "3950"^^xsd:integer ;
+                oa:end "4111"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T17:10:07Z"^^xsd:dateTime .
+
+    narr:Expr_2RealTessChatWidget20260423_35 a narr:Expression ;
+        narr:actor narr:Actor_Claude ;
+        narr:act "assertive" ;
+        narr:animator narr:Actor_Claude ;
+        narr:author narr:Actor_Claude ;
+        narr:context "Archetype Reclassification: Tess is a Knowledge Packager" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_2RealTessChatWidget20260423 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "But Tess creates trainings." ;
+                oa:prefix " solo-professional archetype. " ;
+                oa:suffix " Her operational goal for the " ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "4112"^^xsd:integer ;
+                oa:end "4139"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T17:10:07Z"^^xsd:dateTime .
+
+    narr:Expr_2RealTessChatWidget20260423_36 a narr:Expression ;
+        narr:actor narr:Actor_Claude ;
+        narr:act "assertive" ;
+        narr:animator narr:Actor_Claude ;
+        narr:author narr:Actor_Claude ;
+        narr:context "Archetype Reclassification: Tess is a Knowledge Packager" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_2RealTessChatWidget20260423 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Her operational goal for the next six months — already captured in the perspective — is to generalize and prepackage her existing training content for scalability." ;
+                oa:prefix ". But Tess creates trainings. " ;
+                oa:suffix " That is the Knowledge Package" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "4140"^^xsd:integer ;
+                oa:end "4303"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T17:10:07Z"^^xsd:dateTime .
+
+    narr:Expr_2RealTessChatWidget20260423_37 a narr:Expression ;
+        narr:actor narr:Actor_Claude ;
+        narr:act "assertive" ;
+        narr:animator narr:Actor_Claude ;
+        narr:author narr:Actor_Claude ;
+        narr:context "Archetype Reclassification: Tess is a Knowledge Packager" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_2RealTessChatWidget20260423 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "That is the Knowledge Packager motion, identical in structure to how Pat Quill is described (\"has expertise they want to distribute\")." ;
+                oa:prefix "ning content for scalability. " ;
+                oa:suffix " Tess is a Knowledge Packager." ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "4304"^^xsd:integer ;
+                oa:end "4438"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T17:10:07Z"^^xsd:dateTime .
+
+    narr:Expr_2RealTessChatWidget20260423_38 a narr:Expression ;
+        narr:actor narr:Actor_Claude ;
+        narr:act "assertive" ;
+        narr:animator narr:Actor_Claude ;
+        narr:author narr:Actor_Claude ;
+        narr:context "Archetype Reclassification: Tess is a Knowledge Packager" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_2RealTessChatWidget20260423 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Tess is a Knowledge Packager." ;
+                oa:prefix "se they want to distribute\"). " ;
+                oa:suffix "\n\nThe underlying error: the ty" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "4439"^^xsd:integer ;
+                oa:end "4468"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T17:10:07Z"^^xsd:dateTime .
+
+    narr:Expr_2RealTessChatWidget20260423_39 a narr:Expression ;
+        narr:actor narr:Actor_Claude ;
+        narr:act "assertive" ;
+        narr:animator narr:Actor_Claude ;
+        narr:author narr:Actor_Claude ;
+        narr:context "Archetype Reclassification: Tess is a Knowledge Packager" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_2RealTessChatWidget20260423 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "The underlying error: the typology mixed two orthogonal axes — AI-fluency (tinkerer vs consumer) and distribution-motion (packager vs solo-practitioner) — and classified Tess on fluency only." ;
+                oa:prefix "ess is a Knowledge Packager.\n\n" ;
+                oa:suffix " When Tess told Tanya she was " ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "4470"^^xsd:integer ;
+                oa:end "4661"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T17:10:07Z"^^xsd:dateTime .
+
+    narr:Expr_2RealTessChatWidget20260423_40 a narr:Expression ;
+        narr:actor narr:Actor_Claude ;
+        narr:act "assertive" ;
+        narr:animator narr:Actor_Claude ;
+        narr:author narr:Actor_Claude ;
+        narr:principal narr:Actor_TessGuest ;
+        narr:context "Archetype Reclassification: Tess is a Knowledge Packager" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_2RealTessChatWidget20260423 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "When Tess told Tanya she was \"similar to Pat and some other folks,\" she was naming her distribution motion, not her AI-fluency profile." ;
+                oa:prefix "ssified Tess on fluency only. " ;
+                oa:suffix " Pat and Tess are both Knowled" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "4662"^^xsd:integer ;
+                oa:end "4797"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T17:10:07Z"^^xsd:dateTime .
+
+    narr:Expr_2RealTessChatWidget20260423_41 a narr:Expression ;
+        narr:actor narr:Actor_Claude ;
+        narr:act "assertive" ;
+        narr:animator narr:Actor_Claude ;
+        narr:author narr:Actor_Claude ;
+        narr:context "Archetype Reclassification: Tess is a Knowledge Packager" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_2RealTessChatWidget20260423 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Pat and Tess are both Knowledge Packagers; they differ on other axes (Pat has HIPAA requirements; Tess does not)." ;
+                oa:prefix ", not her AI-fluency profile. " ;
+                oa:suffix " Tess and Tanya both know Pat " ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "4798"^^xsd:integer ;
+                oa:end "4911"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T17:10:07Z"^^xsd:dateTime .
+
+    narr:Expr_2RealTessChatWidget20260423_42 a narr:Expression ;
+        narr:actor narr:Actor_Claude ;
+        narr:act "assertive" ;
+        narr:animator narr:Actor_Claude ;
+        narr:author narr:Actor_Claude ;
+        narr:context "Archetype Reclassification: Tess is a Knowledge Packager" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_2RealTessChatWidget20260423 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Tess and Tanya both know Pat personally — the comparison is grounded in direct familiarity, not abstraction." ;
+                oa:prefix "requirements; Tess does not). " ;
+                oa:suffix "\n\n## The Commercial-Status Cor" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "4912"^^xsd:integer ;
+                oa:end "5020"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T17:10:07Z"^^xsd:dateTime .
+
+    narr:Expr_2RealTessChatWidget20260423_43 a narr:Expression ;
+        narr:actor narr:Actor_Claude ;
+        narr:act "assertive" ;
+        narr:animator narr:Actor_Claude ;
+        narr:author narr:Actor_Claude ;
+        narr:context "The Commercial-Status Correction" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_2RealTessChatWidget20260423 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Tanya's exact framing:" ;
+                oa:prefix "Commercial-Status Correction\n\n" ;
+                oa:suffix "\n\n> She's on Individual becaus" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "5059"^^xsd:integer ;
+                oa:end "5081"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T17:10:07Z"^^xsd:dateTime .
+
+    narr:Expr_2RealTessChatWidget20260423_44 a narr:Expression ;
+        narr:actor narr:Actor_TanyaTeamowner ;
+        narr:act "assertive" ;
+        narr:context "The Commercial-Status Correction" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_2RealTessChatWidget20260423 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "She's on Individual because she's my fiancé and beta tester, not a sales target — although she fits the profile." ;
+                oa:prefix "on\n\nTanya's exact framing:\n\n> " ;
+                oa:suffix "\n\nTess's Individual-tier place" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "5085"^^xsd:integer ;
+                oa:end "5197"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T17:10:07Z"^^xsd:dateTime .
+
+    narr:Expr_2RealTessChatWidget20260423_45 a narr:Expression ;
+        narr:actor narr:Actor_Claude ;
+        narr:act "assertive" ;
+        narr:animator narr:Actor_Claude ;
+        narr:author narr:Actor_Claude ;
+        narr:context "The Commercial-Status Correction" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_2RealTessChatWidget20260423 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Tess's Individual-tier placement is a relational arrangement, not a sales-validated pricing decision." ;
+                oa:prefix "though she fits the profile.\n\n" ;
+                oa:suffix " Three facts that the perspect" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "5199"^^xsd:integer ;
+                oa:end "5300"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T17:10:07Z"^^xsd:dateTime .
+
+    narr:Expr_2RealTessChatWidget20260423_46 a narr:Expression ;
+        narr:actor narr:Actor_Claude ;
+        narr:act "assertive" ;
+        narr:animator narr:Actor_Claude ;
+        narr:author narr:Actor_Claude ;
+        narr:context "The Commercial-Status Correction" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_2RealTessChatWidget20260423 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Three facts that the perspective has collapsed into one classification should be held separately:" ;
+                oa:prefix "s-validated pricing decision. " ;
+                oa:suffix "\n\nHer archetype by work motion" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "5301"^^xsd:integer ;
+                oa:end "5398"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T17:10:07Z"^^xsd:dateTime .
+
+    narr:Expr_2RealTessChatWidget20260423_47 a narr:Expression ;
+        narr:actor narr:Actor_Claude ;
+        narr:act "assertive" ;
+        narr:animator narr:Actor_Claude ;
+        narr:author narr:Actor_Claude ;
+        narr:context "The Commercial-Status Correction" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_2RealTessChatWidget20260423 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Her archetype by work motion is Knowledge Packager. Her commercial status is \"relational\" — fiancé and beta tester, on the Individual tier by arrangement, not by sales logic. Her role in the business is primary beta tester — the highest-volume source of product feedback in the company." ;
+                oa:prefix "n should be held separately:\n\n" ;
+                oa:suffix "\n\nThe implications follow from" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "5400"^^xsd:integer ;
+                oa:end "5686"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T17:10:07Z"^^xsd:dateTime .
+
+    narr:Expr_2RealTessChatWidget20260423_48 a narr:Expression ;
+        narr:actor narr:Actor_Claude ;
+        narr:act "assertive" ;
+        narr:animator narr:Actor_Claude ;
+        narr:author narr:Actor_Claude ;
+        narr:context "The Commercial-Status Correction" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_2RealTessChatWidget20260423 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "The implications follow from separating these." ;
+                oa:prefix "uct feedback in the company.\n\n" ;
+                oa:suffix " Tess doesn't validate Individ" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "5688"^^xsd:integer ;
+                oa:end "5734"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T17:10:07Z"^^xsd:dateTime .
+
+    narr:Expr_2RealTessChatWidget20260423_49 a narr:Expression ;
+        narr:actor narr:Actor_Claude ;
+        narr:act "assertive" ;
+        narr:animator narr:Actor_Claude ;
+        narr:author narr:Actor_Claude ;
+        narr:context "The Commercial-Status Correction" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_2RealTessChatWidget20260423 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Tess doesn't validate Individual-tier pricing, because she isn't a prospect — using her as the Trigger-1 exemplar implies \"here's what an Individual-tier user looks like and pays,\" and she doesn't pay." ;
+                oa:prefix "follow from separating these. " ;
+                oa:suffix " Tess doesn't invalidate Profe" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "5735"^^xsd:integer ;
+                oa:end "5936"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T17:10:07Z"^^xsd:dateTime .
+
+    narr:Expr_2RealTessChatWidget20260423_50 a narr:Expression ;
+        narr:actor narr:Actor_Claude ;
+        narr:act "assertive" ;
+        narr:animator narr:Actor_Claude ;
+        narr:author narr:Actor_Claude ;
+        narr:context "The Commercial-Status Correction" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_2RealTessChatWidget20260423 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Tess doesn't invalidate Professional-tier pricing either — her non-payment reflects relationship, not rejected conversion." ;
+                oa:prefix "d pays,\" and she doesn't pay. " ;
+                oa:suffix " And Tess's actual role as pri" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "5937"^^xsd:integer ;
+                oa:end "6059"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T17:10:07Z"^^xsd:dateTime .
+
+    narr:Expr_2RealTessChatWidget20260423_51 a narr:Expression ;
+        narr:actor narr:Actor_Claude ;
+        narr:act "assertive" ;
+        narr:animator narr:Actor_Claude ;
+        narr:author narr:Actor_Claude ;
+        narr:context "The Commercial-Status Correction" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_2RealTessChatWidget20260423 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "And Tess's actual role as primary beta tester is absent from the perspective today." ;
+                oa:prefix "hip, not rejected conversion. " ;
+                oa:suffix " The \"SMB beta cohort\" entry n" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "6060"^^xsd:integer ;
+                oa:end "6143"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T17:10:07Z"^^xsd:dateTime .
+
+    narr:Expr_2RealTessChatWidget20260423_52 a narr:Expression ;
+        narr:actor narr:Actor_Claude ;
+        narr:act "assertive" ;
+        narr:animator narr:Actor_Claude ;
+        narr:author narr:Actor_Claude ;
+        narr:context "The Commercial-Status Correction" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_2RealTessChatWidget20260423 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "The \"SMB beta cohort\" entry names Sol, Pat, Marlo K, Loomhouse Co-op — but not Tess, despite her being the highest-volume feedback source." ;
+                oa:prefix "t from the perspective today. " ;
+                oa:suffix "\n\nTanya's framing of that role" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "6144"^^xsd:integer ;
+                oa:end "6282"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T17:10:07Z"^^xsd:dateTime .
+
+    narr:Expr_2RealTessChatWidget20260423_53 a narr:Expression ;
+        narr:actor narr:Actor_Claude ;
+        narr:act "assertive" ;
+        narr:animator narr:Actor_Claude ;
+        narr:author narr:Actor_Claude ;
+        narr:context "The Commercial-Status Correction" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_2RealTessChatWidget20260423 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Tanya's framing of that role:" ;
+                oa:prefix "hest-volume feedback source.\n\n" ;
+                oa:suffix "\n\n> The vast majority of her f" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "6284"^^xsd:integer ;
+                oa:end "6313"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T17:10:07Z"^^xsd:dateTime .
+
+    narr:Expr_2RealTessChatWidget20260423_54 a narr:Expression ;
+        narr:actor narr:Actor_TanyaTeamowner ;
+        narr:act "assertive" ;
+        narr:context "The Commercial-Status Correction" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_2RealTessChatWidget20260423 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "The vast majority of her feedback is verbal and I just implement. She's the single most prolific beta tester and has had more feedback than anyone." ;
+                oa:prefix "ya's framing of that role:\n\n> " ;
+                oa:suffix "\n\n## Retroactively Surfaced: M" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "6317"^^xsd:integer ;
+                oa:end "6464"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T17:10:07Z"^^xsd:dateTime .
+
+    narr:Expr_2RealTessChatWidget20260423_55 a narr:Expression ;
+        narr:actor narr:Actor_Claude ;
+        narr:act "assertive" ;
+        narr:animator narr:Actor_Claude ;
+        narr:author narr:Actor_Claude ;
+        narr:context "Retroactively Surfaced: March 4 Onboarding UX Feedback" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_2RealTessChatWidget20260423 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "The March 4 Wren onboarding session contains product feedback from Tess that was captured in the transcript but not surfaced when the memory was framed as \"Wren's domain knowledge.\"" ;
+                oa:prefix "rch 4 Onboarding UX Feedback\n\n" ;
+                oa:suffix " The feedback is in the source" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "6525"^^xsd:integer ;
+                oa:end "6706"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T17:10:07Z"^^xsd:dateTime .
+
+    narr:Expr_2RealTessChatWidget20260423_56 a narr:Expression ;
+        narr:actor narr:Actor_Claude ;
+        narr:act "assertive" ;
+        narr:animator narr:Actor_Claude ;
+        narr:author narr:Actor_Claude ;
+        narr:context "Retroactively Surfaced: March 4 Onboarding UX Feedback" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_2RealTessChatWidget20260423 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "The feedback is in the source material and belongs in Tess's beta-tester record." ;
+                oa:prefix "as \"Wren's domain knowledge.\" " ;
+                oa:suffix "\n\n**Tool-language critique [~5" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "6707"^^xsd:integer ;
+                oa:end "6787"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T17:10:07Z"^^xsd:dateTime .
+
+    narr:Expr_2RealTessChatWidget20260423_57 a narr:Expression ;
+        narr:actor narr:Actor_Claude ;
+        narr:act "assertive" ;
+        narr:animator narr:Actor_Claude ;
+        narr:author narr:Actor_Claude ;
+        narr:context "Retroactively Surfaced: March 4 Onboarding UX Feedback / Tool-language critique [~59:59–01:05:03]" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_2RealTessChatWidget20260423 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "When Tess got stuck after installing the connector and didn't know what to say, Tanya named the pattern:" ;
+                oa:prefix "critique [~59:59–01:05:03]:** " ;
+                oa:suffix "\n\n> Feel like this is actually" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "6835"^^xsd:integer ;
+                oa:end "6939"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T17:10:07Z"^^xsd:dateTime .
+
+    narr:Expr_2RealTessChatWidget20260423_58 a narr:Expression ;
+        narr:actor narr:Actor_TanyaTeamowner ;
+        narr:act "expressive" ;
+        narr:context "Retroactively Surfaced: March 4 Onboarding UX Feedback / Tool-language critique [~59:59–01:05:03]" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_2RealTessChatWidget20260423 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Feel like this is actually one of the hardest parts about this thing. Someone's like, what do I say now? And I'm like, I don't know, like, kind of anything." ;
+                oa:prefix ", Tanya named the pattern:\n\n> " ;
+                oa:suffix "\n\nTess's response prescribed t" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "6943"^^xsd:integer ;
+                oa:end "7099"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T17:10:07Z"^^xsd:dateTime .
+
+    narr:Expr_2RealTessChatWidget20260423_59 a narr:Expression ;
+        narr:actor narr:Actor_Claude ;
+        narr:act "assertive" ;
+        narr:animator narr:Actor_Claude ;
+        narr:author narr:Actor_Claude ;
+        narr:context "Retroactively Surfaced: March 4 Onboarding UX Feedback / Tool-language critique [~59:59–01:05:03]" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_2RealTessChatWidget20260423 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Tess's response prescribed the fix directly:" ;
+                oa:prefix "now, like, kind of anything.\n\n" ;
+                oa:suffix "\n\n> It's almost like once conn" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "7101"^^xsd:integer ;
+                oa:end "7145"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T17:10:07Z"^^xsd:dateTime .
+
+    narr:Expr_2RealTessChatWidget20260423_60 a narr:Expression ;
+        narr:actor narr:Actor_TessGuest ;
+        narr:act "directive" ;
+        narr:context "Retroactively Surfaced: March 4 Onboarding UX Feedback / Tool-language critique [~59:59–01:05:03]" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_2RealTessChatWidget20260423 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "It's almost like once connected, blah, come back and compile. I feel like it's really like, visit this link, install it, come back and say done." ;
+                oa:prefix "escribed the fix directly:\n\n> " ;
+                oa:suffix "\n\nThis is a specific prescript" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "7149"^^xsd:integer ;
+                oa:end "7293"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T17:10:07Z"^^xsd:dateTime .
+
+    narr:Expr_2RealTessChatWidget20260423_61 a narr:Expression ;
+        narr:actor narr:Actor_Claude ;
+        narr:act "assertive" ;
+        narr:animator narr:Actor_Claude ;
+        narr:author narr:Actor_Claude ;
+        narr:context "Retroactively Surfaced: March 4 Onboarding UX Feedback / Tool-language critique [~59:59–01:05:03]" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_2RealTessChatWidget20260423 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "This is a specific prescription for clearer tool-language prompts." ;
+                oa:prefix " it, come back and say done.\n\n" ;
+                oa:suffix " The review-without-leaving-ch" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "7295"^^xsd:integer ;
+                oa:end "7361"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T17:10:07Z"^^xsd:dateTime .
+
+    narr:Expr_2RealTessChatWidget20260423_62 a narr:Expression ;
+        narr:actor narr:Actor_Claude ;
+        narr:act "assertive" ;
+        narr:animator narr:Actor_Claude ;
+        narr:author narr:Actor_Claude ;
+        narr:context "Retroactively Surfaced: March 4 Onboarding UX Feedback / Tool-language critique [~59:59–01:05:03]" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_2RealTessChatWidget20260423 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "The review-without-leaving-chat feature Tanya mentioned on the same call addresses an adjacent problem but not this one." ;
+                oa:prefix "learer tool-language prompts. " ;
+                oa:suffix "\n\n**GitHub opacity feedback [~" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "7362"^^xsd:integer ;
+                oa:end "7482"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T17:10:07Z"^^xsd:dateTime .
+
+    narr:Expr_2RealTessChatWidget20260423_63 a narr:Expression ;
+        narr:actor narr:Actor_TessGuest ;
+        narr:act "expressive" ;
+        narr:context "Retroactively Surfaced: March 4 Onboarding UX Feedback / GitHub opacity feedback [~01:01:10]" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_2RealTessChatWidget20260423 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Everything you said about committing and pulling and all of that is completely foreign to me. And so, you know, because I don't understand how that works, even some of the little things where you came back and just wrote one word — like that, you clearly have an understanding of how the back end works. And that didn't make sense. Some of the things you just were like, oh, clearly this one word is what it needs. I'm like, that did not make sense to me." ;
+                oa:prefix "ty feedback [~01:01:10]:**\n\n> " ;
+                oa:suffix "\n\nThe above-the-line abstracti" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "7528"^^xsd:integer ;
+                oa:end "7983"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T17:10:07Z"^^xsd:dateTime .
+
+    narr:Expr_2RealTessChatWidget20260423_64 a narr:Expression ;
+        narr:actor narr:Actor_Claude ;
+        narr:act "assertive" ;
+        narr:animator narr:Actor_Claude ;
+        narr:author narr:Actor_Claude ;
+        narr:context "Retroactively Surfaced: March 4 Onboarding UX Feedback / GitHub opacity feedback [~01:01:10]" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_2RealTessChatWidget20260423 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "The above-the-line abstraction work is motivated in part by exactly this cognitive cost." ;
+                oa:prefix "at did not make sense to me.\n\n" ;
+                oa:suffix "\n\n## Operational Items\n\nThe se" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "7985"^^xsd:integer ;
+                oa:end "8073"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T17:10:07Z"^^xsd:dateTime .
+
+    narr:Expr_2RealTessChatWidget20260423_65 a narr:Expression ;
+        narr:actor narr:Actor_Claude ;
+        narr:act "assertive" ;
+        narr:animator narr:Actor_Claude ;
+        narr:author narr:Actor_Claude ;
+        narr:context "Operational Items" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_2RealTessChatWidget20260423 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "The seven rejected Twilio toll-free numbers are resubmitted to the review queue." ;
+                oa:prefix " cost.\n\n## Operational Items\n\n" ;
+                oa:suffix " Root cause is likely bad webs" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "8097"^^xsd:integer ;
+                oa:end "8177"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T17:10:07Z"^^xsd:dateTime .
+
+    narr:Expr_2RealTessChatWidget20260423_66 a narr:Expression ;
+        narr:actor narr:Actor_Claude ;
+        narr:act "assertive" ;
+        narr:animator narr:Actor_Claude ;
+        narr:author narr:Actor_Claude ;
+        narr:context "Operational Items" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_2RealTessChatWidget20260423 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Root cause is likely bad website link plus bad opt-in form link." ;
+                oa:prefix "ubmitted to the review queue. " ;
+                oa:suffix " If verification fails again, " ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "8178"^^xsd:integer ;
+                oa:end "8242"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T17:10:07Z"^^xsd:dateTime .
+
+    narr:Expr_2RealTessChatWidget20260423_67 a narr:Expression ;
+        narr:actor narr:Actor_Claude ;
+        narr:act "assertive" ;
+        narr:animator narr:Actor_Claude ;
+        narr:author narr:Actor_Claude ;
+        narr:context "Operational Items" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_2RealTessChatWidget20260423 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "If verification fails again, that's the signal to stop investing in the SMS onramp for evaluator contexts and pivot to the chat widget." ;
+                oa:prefix "nk plus bad opt-in form link. " ;
+                oa:suffix "\n\nA Front chat widget spike wo" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "8243"^^xsd:integer ;
+                oa:end "8378"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T17:10:07Z"^^xsd:dateTime .
+
+    narr:Expr_2RealTessChatWidget20260423_68 a narr:Expression ;
+        narr:actor narr:Actor_Claude ;
+        narr:act "assertive" ;
+        narr:animator narr:Actor_Claude ;
+        narr:author narr:Actor_Claude ;
+        narr:context "Operational Items" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_2RealTessChatWidget20260423 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "A Front chat widget spike would confirm whether inbox creation is API-automatable or manual-only, and prototype one share → one widget → one channel → one aswritten-org-inbox thread, verifying that conversations don't auto-assign to Tanya." ;
+                oa:prefix "nd pivot to the chat widget.\n\n" ;
+                oa:suffix "\n\nDemo 1 channel needs an expl" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "8380"^^xsd:integer ;
+                oa:end "8619"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T17:10:07Z"^^xsd:dateTime .
+
+    narr:Expr_2RealTessChatWidget20260423_69 a narr:Expression ;
+        narr:actor narr:Actor_Claude ;
+        narr:act "assertive" ;
+        narr:animator narr:Actor_Claude ;
+        narr:author narr:Actor_Claude ;
+        narr:context "Operational Items" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_2RealTessChatWidget20260423 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Demo 1 channel needs an explicit decision." ;
+                oa:prefix " don't auto-assign to Tanya.\n\n" ;
+                oa:suffix " The Apr 13 Keystone call used" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "8621"^^xsd:integer ;
+                oa:end "8663"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T17:10:07Z"^^xsd:dateTime .
+
+    narr:Expr_2RealTessChatWidget20260423_70 a narr:Expression ;
+        narr:actor narr:Actor_Claude ;
+        narr:act "assertive" ;
+        narr:animator narr:Actor_Claude ;
+        narr:author narr:Actor_Claude ;
+        narr:context "Operational Items" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_2RealTessChatWidget20260423 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "The Apr 13 Keystone call used live SMS." ;
+                oa:prefix "l needs an explicit decision. " ;
+                oa:suffix " Whether the chat widget repla" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "8664"^^xsd:integer ;
+                oa:end "8703"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T17:10:07Z"^^xsd:dateTime .
+
+    narr:Expr_2RealTessChatWidget20260423_71 a narr:Expression ;
+        narr:actor narr:Actor_Claude ;
+        narr:act "assertive" ;
+        narr:animator narr:Actor_Claude ;
+        narr:author narr:Actor_Claude ;
+        narr:context "Operational Items" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_2RealTessChatWidget20260423 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Whether the chat widget replaces or augments SMS for Demo 1 is a decision, not a drift." ;
+                oa:prefix " Keystone call used live SMS. " ;
+                oa:suffix "\n\nTess's feedback pipeline nee" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "8704"^^xsd:integer ;
+                oa:end "8791"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T17:10:07Z"^^xsd:dateTime .
+
+    narr:Expr_2RealTessChatWidget20260423_72 a narr:Expression ;
+        narr:actor narr:Actor_Claude ;
+        narr:act "assertive" ;
+        narr:animator narr:Actor_Claude ;
+        narr:author narr:Actor_Claude ;
+        narr:context "Operational Items" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_2RealTessChatWidget20260423 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Tess's feedback pipeline needs a capture mechanism." ;
+                oa:prefix " is a decision, not a drift.\n\n" ;
+                oa:suffix " Her beta-tester role is only " ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "8793"^^xsd:integer ;
+                oa:end "8844"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T17:10:07Z"^^xsd:dateTime .
+
+    narr:Expr_2RealTessChatWidget20260423_73 a narr:Expression ;
+        narr:actor narr:Actor_Claude ;
+        narr:act "assertive" ;
+        narr:animator narr:Actor_Claude ;
+        narr:author narr:Actor_Claude ;
+        narr:context "Operational Items" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_2RealTessChatWidget20260423 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Her beta-tester role is only defensible if her verbal feedback actually reaches the perspective." ;
+                oa:prefix "ne needs a capture mechanism. " ;
+                oa:suffix " Options include her writing h" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "8845"^^xsd:integer ;
+                oa:end "8941"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T17:10:07Z"^^xsd:dateTime .
+
+    narr:Expr_2RealTessChatWidget20260423_74 a narr:Expression ;
+        narr:actor narr:Actor_Claude ;
+        narr:act "assertive" ;
+        narr:animator narr:Actor_Claude ;
+        narr:author narr:Actor_Claude ;
+        narr:context "Operational Items" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_2RealTessChatWidget20260423 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Options include her writing her own memories, Tanya dictating them after conversations, or a lightweight voice-memo-to-memory pipeline." ;
+                oa:prefix "ally reaches the perspective. " ;
+                oa:suffix "\n\n## Open Questions\n\nWhether t" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "8942"^^xsd:integer ;
+                oa:end "9077"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T17:10:07Z"^^xsd:dateTime .
+
+    narr:Expr_2RealTessChatWidget20260423_75 a narr:Expression ;
+        narr:actor narr:Actor_Claude ;
+        narr:act "question" ;
+        narr:animator narr:Actor_Claude ;
+        narr:author narr:Actor_Claude ;
+        narr:context "Open Questions" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_2RealTessChatWidget20260423 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Whether the chat widget replaces or augments SMS for Tess-category users." ;
+                oa:prefix "pipeline.\n\n## Open Questions\n\n" ;
+                oa:suffix " Whether Front inbox creation " ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "9098"^^xsd:integer ;
+                oa:end "9171"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T17:10:07Z"^^xsd:dateTime .
+
+    narr:Expr_2RealTessChatWidget20260423_76 a narr:Expression ;
+        narr:actor narr:Actor_Claude ;
+        narr:act "question" ;
+        narr:animator narr:Actor_Claude ;
+        narr:author narr:Actor_Claude ;
+        narr:context "Open Questions" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_2RealTessChatWidget20260423 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Whether Front inbox creation is API-automatable." ;
+                oa:prefix " SMS for Tess-category users. " ;
+                oa:suffix " Whether Pat specifically bene" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "9172"^^xsd:integer ;
+                oa:end "9220"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T17:10:07Z"^^xsd:dateTime .
+
+    narr:Expr_2RealTessChatWidget20260423_77 a narr:Expression ;
+        narr:actor narr:Actor_Claude ;
+        narr:act "question" ;
+        narr:animator narr:Actor_Claude ;
+        narr:author narr:Actor_Claude ;
+        narr:context "Open Questions" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_2RealTessChatWidget20260423 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Whether Pat specifically benefits from chat widget versus SMS (Tess grouped herself with him, but his HIPAA-adjacent context might invert the trust tax)." ;
+                oa:prefix " creation is API-automatable. " ;
+                oa:suffix " Whether the underlying typolo" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "9221"^^xsd:integer ;
+                oa:end "9374"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T17:10:07Z"^^xsd:dateTime .
+
+    narr:Expr_2RealTessChatWidget20260423_78 a narr:Expression ;
+        narr:actor narr:Actor_Claude ;
+        narr:act "question" ;
+        narr:animator narr:Actor_Claude ;
+        narr:author narr:Actor_Claude ;
+        narr:context "Open Questions" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_2RealTessChatWidget20260423 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Whether the underlying typology needs fixing (the fluency-vs-distribution axis collision that misclassified Tess may misclassify others too)." ;
+                oa:prefix " might invert the trust tax). " ;
+                oa:suffix "" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "9375"^^xsd:integer ;
+                oa:end "9516"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T17:10:07Z"^^xsd:dateTime .
+
+    narr:How_2RealTessChatWidget20260423_9_0 a oa:Annotation ;
+        oa:hasTarget narr:Expr_2RealTessChatWidget20260423_9 ;
+        narr:how "Tess's response, reconstructed from Tanya's summary:" ;
+        narr:howSide "supply" ;
+        prov:generatedAtTime "2026-09-23T17:10:07Z"^^xsd:dateTime .
+
+    narr:How_2RealTessChatWidget20260423_18_0 a oa:Annotation ;
+        oa:hasTarget narr:Expr_2RealTessChatWidget20260423_18 ;
+        narr:how "Verbatim from Tess (as relayed by Tanya):" ;
+        narr:howSide "supply" ;
+        prov:generatedAtTime "2026-09-23T17:10:07Z"^^xsd:dateTime .
+
+    narr:How_2RealTessChatWidget20260423_44_0 a oa:Annotation ;
+        oa:hasTarget narr:Expr_2RealTessChatWidget20260423_44 ;
+        narr:how "Tanya's exact framing:" ;
+        narr:howSide "supply" ;
+        prov:generatedAtTime "2026-09-23T17:10:07Z"^^xsd:dateTime .
+
+    narr:How_2RealTessChatWidget20260423_54_0 a oa:Annotation ;
+        oa:hasTarget narr:Expr_2RealTessChatWidget20260423_54 ;
+        narr:how "Tanya's framing of that role:" ;
+        narr:howSide "supply" ;
+        prov:generatedAtTime "2026-09-23T17:10:07Z"^^xsd:dateTime .
+
+    narr:How_2RealTessChatWidget20260423_58_0 a oa:Annotation ;
+        oa:hasTarget narr:Expr_2RealTessChatWidget20260423_58 ;
+        narr:how "When Tess got stuck after installing the connector and didn't know what to say, Tanya named the pattern:" ;
+        narr:howSide "supply" ;
+        prov:generatedAtTime "2026-09-23T17:10:07Z"^^xsd:dateTime .
+
+    narr:How_2RealTessChatWidget20260423_60_0 a oa:Annotation ;
+        oa:hasTarget narr:Expr_2RealTessChatWidget20260423_60 ;
+        narr:how "Tess's response prescribed the fix directly:" ;
+        narr:howSide "supply" ;
+        prov:generatedAtTime "2026-09-23T17:10:07Z"^^xsd:dateTime .
+
+    narr:Actor_TessGuest a narr:Actor ;
+        skos:prefLabel "Tess Guest" .
+
+    narr:Actor_Claude a narr:AIActor .
+
+    aswr:Run_20260923T171007Z_actors a prov:Activity ;
+        aswr:runPass "actors" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/9fe0cdf21c3c/2026-09-23-2-real-tess-chat-widget-2026-04-23/actors.json" ;
+        prov:generated narr:Actor_TessGuest ;
+        dct:isPartOf aswr:Tx_20260923T171007Z ;
+        prov:generatedAtTime "2026-09-23T17:10:07Z"^^xsd:dateTime .
+
+    aswr:Run_20260923T171007Z_pass1 a prov:Activity ;
+        aswr:runPass "pass1" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/9fe0cdf21c3c/2026-09-23-2-real-tess-chat-widget-2026-04-23/pass1.json" ;
+        prov:generated narr:Sample_2RealTessChatWidget20260423, narr:Expr_2RealTessChatWidget20260423_1, narr:Expr_2RealTessChatWidget20260423_2, narr:Expr_2RealTessChatWidget20260423_3, narr:Expr_2RealTessChatWidget20260423_4, narr:Expr_2RealTessChatWidget20260423_5, narr:Expr_2RealTessChatWidget20260423_6, narr:Expr_2RealTessChatWidget20260423_7, narr:Expr_2RealTessChatWidget20260423_8, narr:Expr_2RealTessChatWidget20260423_9, narr:Expr_2RealTessChatWidget20260423_10, narr:Expr_2RealTessChatWidget20260423_11, narr:Expr_2RealTessChatWidget20260423_12, narr:Expr_2RealTessChatWidget20260423_13, narr:Expr_2RealTessChatWidget20260423_14, narr:Expr_2RealTessChatWidget20260423_15, narr:Expr_2RealTessChatWidget20260423_16, narr:Expr_2RealTessChatWidget20260423_17, narr:Expr_2RealTessChatWidget20260423_18, narr:Expr_2RealTessChatWidget20260423_19, narr:Expr_2RealTessChatWidget20260423_20, narr:Expr_2RealTessChatWidget20260423_21, narr:Expr_2RealTessChatWidget20260423_22, narr:Expr_2RealTessChatWidget20260423_23, narr:Expr_2RealTessChatWidget20260423_24, narr:Expr_2RealTessChatWidget20260423_25, narr:Expr_2RealTessChatWidget20260423_26, narr:Expr_2RealTessChatWidget20260423_27, narr:Expr_2RealTessChatWidget20260423_28, narr:Expr_2RealTessChatWidget20260423_29, narr:Expr_2RealTessChatWidget20260423_30, narr:Expr_2RealTessChatWidget20260423_31, narr:Expr_2RealTessChatWidget20260423_32, narr:Expr_2RealTessChatWidget20260423_33, narr:Expr_2RealTessChatWidget20260423_34, narr:Expr_2RealTessChatWidget20260423_35, narr:Expr_2RealTessChatWidget20260423_36, narr:Expr_2RealTessChatWidget20260423_37, narr:Expr_2RealTessChatWidget20260423_38, narr:Expr_2RealTessChatWidget20260423_39, narr:Expr_2RealTessChatWidget20260423_40, narr:Expr_2RealTessChatWidget20260423_41, narr:Expr_2RealTessChatWidget20260423_42, narr:Expr_2RealTessChatWidget20260423_43, narr:Expr_2RealTessChatWidget20260423_44, narr:Expr_2RealTessChatWidget20260423_45, narr:Expr_2RealTessChatWidget20260423_46, narr:Expr_2RealTessChatWidget20260423_47, narr:Expr_2RealTessChatWidget20260423_48, narr:Expr_2RealTessChatWidget20260423_49, narr:Expr_2RealTessChatWidget20260423_50, narr:Expr_2RealTessChatWidget20260423_51, narr:Expr_2RealTessChatWidget20260423_52, narr:Expr_2RealTessChatWidget20260423_53, narr:Expr_2RealTessChatWidget20260423_54, narr:Expr_2RealTessChatWidget20260423_55, narr:Expr_2RealTessChatWidget20260423_56, narr:Expr_2RealTessChatWidget20260423_57, narr:Expr_2RealTessChatWidget20260423_58, narr:Expr_2RealTessChatWidget20260423_59, narr:Expr_2RealTessChatWidget20260423_60, narr:Expr_2RealTessChatWidget20260423_61, narr:Expr_2RealTessChatWidget20260423_62, narr:Expr_2RealTessChatWidget20260423_63, narr:Expr_2RealTessChatWidget20260423_64, narr:Expr_2RealTessChatWidget20260423_65, narr:Expr_2RealTessChatWidget20260423_66, narr:Expr_2RealTessChatWidget20260423_67, narr:Expr_2RealTessChatWidget20260423_68, narr:Expr_2RealTessChatWidget20260423_69, narr:Expr_2RealTessChatWidget20260423_70, narr:Expr_2RealTessChatWidget20260423_71, narr:Expr_2RealTessChatWidget20260423_72, narr:Expr_2RealTessChatWidget20260423_73, narr:Expr_2RealTessChatWidget20260423_74, narr:Expr_2RealTessChatWidget20260423_75, narr:Expr_2RealTessChatWidget20260423_76, narr:Expr_2RealTessChatWidget20260423_77, narr:Expr_2RealTessChatWidget20260423_78 ;
+        dct:isPartOf aswr:Tx_20260923T171007Z ;
+        prov:generatedAtTime "2026-09-23T17:10:07Z"^^xsd:dateTime .
+  }
+}
