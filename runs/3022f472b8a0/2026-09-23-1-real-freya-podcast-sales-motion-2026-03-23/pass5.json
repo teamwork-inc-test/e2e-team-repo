@@ -1,0 +1,40 @@
+{
+  "placements" : [ {
+    "verdict" : "mint",
+    "leaf" : "Narrative_InstallableExpertise",
+    "title" : "Installable expertise replaces passive memory with actionable, citable capability",
+    "frame" : "How does the product transform static expert knowledge into citable, delegable capability rather than passive information storage?",
+    "under" : null,
+    "supporting_segments" : [ "src-24", "src-26", "src-28", "src-30", "src-32" ],
+    "why" : "Tanya articulates a foundational product pivot away from the 'memory' paradigm toward 'installable expertise', defining the moat as extracting perspective from documents and making it citable to relieve expert delegation bottlenecks.",
+    "consulted" : [ "Narrative_AntiSlackPositioning", "Narrative_DecisionCaptureAtConsensus", "Narrative_DecisionsEvaporate" ]
+  }, {
+    "verdict" : "mint",
+    "leaf" : "Narrative_InterviewFlywheel",
+    "title" : "A single expert interview unifies product onboarding, marketing content, and sales proof",
+    "frame" : "How does conducting an expert interview simultaneously seed product perspective, generate public content, and prove capability?",
+    "under" : null,
+    "supporting_segments" : [ "src-3", "src-4", "src-5", "src-7", "src-34", "src-37", "src-38", "src-41", "src-44", "src-45" ],
+    "why" : "Establishes the core go-to-market thesis that expert podcast interviews serve a 3-in-1 function: onboarding the expert with a pre-seeded perspective, creating marketing media, and building the supply side of the perspective marketplace without setup friction.",
+    "consulted" : [ "Narrative_AntiSlackPositioning", "Narrative_DecisionCaptureAtConsensus", "Narrative_DecisionsEvaporate" ]
+  }, {
+    "verdict" : "mint",
+    "leaf" : "Narrative_HumanMomentVideoProof",
+    "title" : "Human reactions to cited thinking prove product value over UI walkthroughs",
+    "frame" : "How does showing an expert's live reaction to their cited perspective validate product capability more effectively than screen recordings?",
+    "under" : null,
+    "supporting_segments" : [ "src-8", "src-14", "src-15", "src-16", "src-17", "src-18", "src-20", "src-21" ],
+    "why" : "Captures the positioning principle that video marketing should center on the human moment of an expert reacting to their cited methodology rather than UI text or screen recordings.",
+    "consulted" : [ "Narrative_AntiSlackPositioning", "Narrative_DecisionCaptureAtConsensus" ]
+  }, {
+    "verdict" : "mint",
+    "leaf" : "Narrative_BehavioralProgressionPackaging",
+    "title" : "Commercial tiers follow natural behavioral expansion rather than artificial paywalls",
+    "frame" : "How do pricing tiers map to expanding user commitment starting from a seeded interview?",
+    "under" : null,
+    "supporting_segments" : [ "src-9", "src-10", "src-11", "src-12" ],
+    "why" : "Defines the packaging philosophy where commercial tiers (Free, Expert $81, Team $400, Organization $4K) represent behavioral steps of expanding perspective usage rather than gated barriers.",
+    "consulted" : [ "Narrative_AntiSlackPositioning", "Narrative_DecisionCaptureAtConsensus" ]
+  } ],
+  "unplaced" : [ "src-1", "src-2", "src-6", "src-13", "src-22", "src-23", "src-25", "src-27", "src-29", "src-31", "src-33", "src-35", "src-36", "src-39", "src-40", "src-42", "src-43", "src-46" ]
+}
