@@ -1,0 +1,43 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-40",
+    "regions" : [ "legitimate" ],
+    "evidence" : [ {
+      "quote" : "This tagline should be **superseded**.",
+      "kind" : "modal-marker"
+    } ],
+    "why" : "Claude issues a normative directive to supersede a graph claim based on structural authority/process rules.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-43",
+    "regions" : [ "legitimate" ],
+    "evidence" : [ {
+      "quote" : "**should not be auto-promoted**",
+      "kind" : "modal-marker"
+    } ],
+    "why" : "Establishes a procedural barrier/requirement for promotion in the memory architecture.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-47",
+    "regions" : [ "legitimate" ],
+    "evidence" : [ {
+      "quote" : "I don't want to make that decision right now.",
+      "kind" : "commitment-marker"
+    } ],
+    "why" : "Founder exercises positional authority to defer making a strategic decision.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-51",
+    "regions" : [ "legitimate" ],
+    "evidence" : [ {
+      "quote" : "This distinction must be preserved through extraction.",
+      "kind" : "modal-marker"
+    } ],
+    "why" : "Prescriptive constraint on downstream data processing rule.",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-1", "src-2", "src-3", "src-4", "src-5", "src-6", "src-7", "src-8", "src-9", "src-10", "src-11", "src-12", "src-13", "src-14", "src-15", "src-16", "src-17", "src-18", "src-19", "src-20", "src-21", "src-22", "src-23", "src-24", "src-25", "src-26", "src-27", "src-28", "src-29", "src-30", "src-31", "src-32", "src-33", "src-34", "src-35", "src-36", "src-37", "src-38", "src-39", "src-41", "src-42", "src-44", "src-45", "src-46", "src-48", "src-49", "src-50", "src-52" ],
+  "unmarked_rest" : false,
+  "mints" : [ ],
+  "region_mints" : [ ]
+}
