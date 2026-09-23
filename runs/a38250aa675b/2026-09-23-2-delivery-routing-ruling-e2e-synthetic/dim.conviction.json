@@ -1,0 +1,47 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "ruled",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Framed explicitly as an authoritative ruling settling architectural placement.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-2",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "Tanya (team owner) ruled on where reaction delivery belongs:",
+      "kind" : "delivery"
+    }, {
+      "quote" : "we route every reaction through one bundle per run per person, not one\n> message per skill",
+      "kind" : "commitment-marker"
+    } ],
+    "why" : "Establishes a strict operational rule backed by a formal ruling.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-3",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "held",
+      "kind" : "commitment-marker"
+    }, {
+      "quote" : "the bundle closes when\nthe run closes",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Holds the line against pushback with an unyielding operational rule.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-4",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "The alternative considered and rejected was",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Records a formal rejection of an alternative to solidify the settled decision.",
+    "reported" : false
+  } ],
+  "unmarked" : [ ],
+  "mints" : [ ]
+}
