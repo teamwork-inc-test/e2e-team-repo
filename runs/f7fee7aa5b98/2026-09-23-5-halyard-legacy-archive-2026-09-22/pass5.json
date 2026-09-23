@@ -1,0 +1,22 @@
+{
+  "placements" : [ {
+    "verdict" : "mint",
+    "leaf" : "Narrative_SelfDescribingArchivePreservesMeaning",
+    "title" : "closed history is preserved in self-describing open archives rather than dormant platforms",
+    "frame" : "Does this expression justify extracting closed records into open, self-describing archives to prevent semantic decay and eliminate dual systems of record?",
+    "under" : [ "CutoverStrategy" ],
+    "supporting_segments" : [ "src-3", "src-7", "src-9", "src-11", "src-12", "src-13", "src-15", "src-16", "src-17", "src-22" ],
+    "why" : "Xavier and Tanya argue that keeping a legacy platform running read-only risks semantic rot and ongoing dual-system usage, whereas extracting closed historical records into flat, open, self-describing archives preserves data interpretability and cleanly enforces system decommissioning.",
+    "consulted" : [ "CutoverStrategy", "Narrative_SingleSourceOfTruthUntilFinalCutover", "Narrative_StrictWorkloadIsolationDuringCutover", "Narrative_ContainedPainOverUnboundedRisk" ]
+  }, {
+    "verdict" : "mint",
+    "leaf" : "Narrative_ExtractionScopingBeforeDecommissioningTerms",
+    "title" : "retention mandates and extraction scoping must precede vendor decommissioning agreements",
+    "frame" : "Does this expression insist that data extraction scoping and legal retention mandates are formally established before executing vendor decommissioning contracts?",
+    "under" : [ "CutoverStrategy" ],
+    "supporting_segments" : [ "src-20", "src-22", "src-24", "src-25", "src-27" ],
+    "why" : "Tanya and Tina establish that written legal retention periods and technical scoping for legacy archive extraction must be defined and included during vendor exit negotiations rather than discovered after decommissioning terms are signed.",
+    "consulted" : [ "CutoverStrategy", "Narrative_SingleSourceOfTruthUntilFinalCutover", "Narrative_StrictWorkloadIsolationDuringCutover" ]
+  } ],
+  "unplaced" : [ "src-1", "src-2", "src-4", "src-5", "src-6", "src-8", "src-10", "src-14", "src-18", "src-19", "src-21", "src-23", "src-26", "src-28" ]
+}
