@@ -1,0 +1,136 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-20",
+    "regions" : [ "metaphor" ],
+    "evidence" : [ {
+      "quote" : "pulling the magic bunny out of the hat",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Uses the metaphor of pulling a magic bunny out of a hat to describe performing an improbable rescue.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-23",
+    "regions" : [ "simile" ],
+    "evidence" : [ {
+      "quote" : "it's kind of like a cockroach",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Explicit simile comparing the persistent venture situation to a cockroach.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-31",
+    "regions" : [ "stock-phrase", "metaphor" ],
+    "evidence" : [ {
+      "quote" : "irons in the fire",
+      "kind" : "lexical-marker"
+    }, {
+      "quote" : "put me in coach",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Uses conventional stock idioms and athletic metaphor ('put me in coach', 'irons in the fire') to express readiness and multiple ongoing projects.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-35",
+    "regions" : [ "stock-phrase" ],
+    "evidence" : [ {
+      "quote" : "Idle hands. The devil's workshop.",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Invokes the proverb as a stock phrase to comment on staying constantly busy.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-43",
+    "regions" : [ "simile" ],
+    "evidence" : [ {
+      "quote" : "goes up like Lego pieces",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Explicit simile comparing prefabricated modular building assembly to Lego pieces.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-105",
+    "regions" : [ "metaphor" ],
+    "evidence" : [ {
+      "quote" : "The marginal cost of software development is asymptotically approaching zero.",
+      "kind" : "framing-move"
+    }, {
+      "quote" : "the telephone company always wins.",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Deploys an overarching metaphor of 'the telephone company' as an un-disintermediable intermediary.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-107",
+    "regions" : [ "metaphor" ],
+    "evidence" : [ {
+      "quote" : "never go where the big guns are pointing.",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Uses military weaponry as a metaphor for well-capitalized incumbent competition.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-109",
+    "regions" : [ "analogy", "metaphor" ],
+    "evidence" : [ {
+      "quote" : "The telephone company always wins because the telephone company sits in between. And it's impossible to disintermediate because they sit in between.",
+      "kind" : "framing-move"
+    }, {
+      "quote" : "put a target on your back",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Elaborates the telephone company analogy as structural reasoning about defensibility and sitting in between.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-110",
+    "regions" : [ "metaphor" ],
+    "evidence" : [ {
+      "quote" : "in what I think of as like the white space of the prompt",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Metaphorical formulation of unspecified context as 'the white space of the prompt'.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-111",
+    "regions" : [ "analogy" ],
+    "evidence" : [ {
+      "quote" : "the iPhone destroyed TomTom, not because it had better maps, right? Destroyed Garmin, not because it had better maps.",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Constructs an analogy from historical tech disruption (iPhone vs TomTom/Garmin) to argue against building standalone point solutions.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-185",
+    "regions" : [ "metaphor", "analogy" ],
+    "evidence" : [ {
+      "quote" : "Emery Park is the howitzer. You show up like. Right. You use the howitzer when you have the ammunition.",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Applies an extended artillery metaphor and analogy (howitzer/ammunition to investor/term sheet) to counsel timing.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-191",
+    "regions" : [ "antithesis", "metaphor" ],
+    "evidence" : [ {
+      "quote" : "you are not raising. You're not trying to get someone to give you a check. You are creating a marketplace",
+      "kind" : "framing-move"
+    }, {
+      "quote" : "it is not about individual VCs. It is about maximal VCs.",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Contrasts raising checks with creating a marketplace using direct paired antitheses ('not X, but Y').",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-199",
+    "regions" : [ "antithesis" ],
+    "evidence" : [ {
+      "quote" : "hi, I would like to raise money from you. No, Hi, I am raising money.",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Sets up an antithesis contrasting a passive supplicant posture with an assertive momentum posture.",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-1", "src-2", "src-3", "src-4", "src-5", "src-6", "src-7", "src-8", "src-9", "src-10", "src-11", "src-12", "src-13", "src-14", "src-15", "src-16", "src-17", "src-18", "src-19", "src-21", "src-22", "src-24", "src-25", "src-26", "src-27", "src-28", "src-29", "src-30" ],
+  "unmarked_rest" : true,
+  "mints" : [ ],
+  "region_mints" : [ ]
+}
