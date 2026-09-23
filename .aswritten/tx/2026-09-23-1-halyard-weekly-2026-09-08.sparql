@@ -1,0 +1,733 @@
+PREFIX narr: <https://aswritten.ai/narrative#>
+PREFIX aswr: <https://aswritten.ai/aswr#>
+PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX dct:  <http://purl.org/dc/terms/>
+PREFIX xsd:  <http://www.w3.org/2001/XMLSchema#>
+PREFIX oa:   <http://www.w3.org/ns/oa#>
+PREFIX xkos: <http://rdf-vocabulary.ddialliance.org/xkos#>
+
+INSERT DATA {
+  aswr:Tx_20260923T014157Z a prov:Activity ;
+      prov:generatedAtTime "2026-09-23T01:41:57Z"^^xsd:dateTime ;
+      prov:wasAssociatedWith "aswritten.ai" ;
+      prov:wasAttributedTo "scarlet@aswritten.ai" ;
+      aswr:pipelinePin "8dd07a49bda8" ;
+      aswr:originPath ".aswritten/memories/2026-09-23-1-halyard-weekly-2026-09-08.md" ;
+      dct:title "Multipass source extraction: Halyard Weekly — 2026-09-08" ;
+      prov:generated narr:Sample_1HalyardWeekly20260908, narr:Expr_1HalyardWeekly20260908_1, narr:Expr_1HalyardWeekly20260908_2, narr:Expr_1HalyardWeekly20260908_3, narr:Expr_1HalyardWeekly20260908_4, narr:Expr_1HalyardWeekly20260908_5, narr:Expr_1HalyardWeekly20260908_6, narr:Expr_1HalyardWeekly20260908_7, narr:Expr_1HalyardWeekly20260908_8, narr:Expr_1HalyardWeekly20260908_9, narr:Expr_1HalyardWeekly20260908_10, narr:Expr_1HalyardWeekly20260908_11, narr:Expr_1HalyardWeekly20260908_12, narr:Expr_1HalyardWeekly20260908_13, narr:Expr_1HalyardWeekly20260908_14, narr:Expr_1HalyardWeekly20260908_15, narr:Expr_1HalyardWeekly20260908_16, narr:Expr_1HalyardWeekly20260908_17, narr:Expr_1HalyardWeekly20260908_18, narr:Expr_1HalyardWeekly20260908_19, narr:Expr_1HalyardWeekly20260908_20, narr:Expr_1HalyardWeekly20260908_21, narr:Expr_1HalyardWeekly20260908_22, narr:Expr_1HalyardWeekly20260908_23, narr:Expr_1HalyardWeekly20260908_24, narr:Expr_1HalyardWeekly20260908_25, narr:Expr_1HalyardWeekly20260908_26, narr:Expr_1HalyardWeekly20260908_27, narr:Expr_1HalyardWeekly20260908_28, narr:Expr_1HalyardWeekly20260908_29, narr:Expr_1HalyardWeekly20260908_30, narr:Expr_1HalyardWeekly20260908_31, narr:Expr_1HalyardWeekly20260908_32, narr:Expr_1HalyardWeekly20260908_33, narr:Expr_1HalyardWeekly20260908_34, narr:Expr_1HalyardWeekly20260908_35, narr:Expr_1HalyardWeekly20260908_36, narr:Expr_1HalyardWeekly20260908_37, narr:Expr_1HalyardWeekly20260908_38, narr:Expr_1HalyardWeekly20260908_39, narr:Expr_1HalyardWeekly20260908_40, narr:Expr_1HalyardWeekly20260908_41, narr:Expr_1HalyardWeekly20260908_42, narr:Expr_1HalyardWeekly20260908_43, narr:Expr_1HalyardWeekly20260908_44, narr:Expr_1HalyardWeekly20260908_45, narr:Actor_TanyaTeam, narr:Actor_TanyaTeamowner, narr:Actor_TinaTeam, narr:Actor_XavierExpert .
+} ;
+INSERT DATA {
+  GRAPH aswr:Tx_20260923T014157Z {
+    narr:Sample_1HalyardWeekly20260908 a narr:Sample ;
+        dct:title "Halyard Weekly — 2026-09-08" ;
+        dct:created "2026-09-08"^^xsd:date ;
+        aswr:originPath ".aswritten/memories/2026-09-23-1-halyard-weekly-2026-09-08.md" ;
+        aswr:submittedBy narr:Actor_TanyaTeamowner ;
+        aswr:account narr:Actor_TanyaTeamowner .
+
+    narr:Expr_1HalyardWeekly20260908_1 a narr:Expression ;
+        narr:actor narr:Actor_TanyaTeam ;
+        narr:act "directive" ;
+        narr:context "Halyard Weekly meeting opening" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_1HalyardWeekly20260908 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Morning, both. Let's keep this one tight — I want to come out of it with the cutover shape actually decided, because the steering group asks again on Thursday and I've given them \"we're still working it\" twice now." ;
+                oa:prefix "y\n2026-09-08\n\n**Tanya Team:** " ;
+                oa:suffix "\n\n**Tina Team:** Morning.\n\n**X" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "244"^^xsd:integer ;
+                oa:end "458"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T01:41:57Z"^^xsd:dateTime .
+
+    narr:Expr_1HalyardWeekly20260908_2 a narr:Expression ;
+        narr:actor narr:Actor_TinaTeam ;
+        narr:act "expressive" ;
+        narr:context "Halyard Weekly meeting opening" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_1HalyardWeekly20260908 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Morning." ;
+                oa:prefix "t\" twice now.\n\n**Tina Team:** " ;
+                oa:suffix "\n\n**Xavier Expert:** Morning. " ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "475"^^xsd:integer ;
+                oa:end "483"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T01:41:57Z"^^xsd:dateTime .
+
+    narr:Expr_1HalyardWeekly20260908_3 a narr:Expression ;
+        narr:actor narr:Actor_XavierExpert ;
+        narr:act "assertive" ;
+        narr:context "Halyard Weekly meeting opening" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_1HalyardWeekly20260908 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Morning. I've got the replica numbers, whenever you want them." ;
+                oa:prefix " Morning.\n\n**Xavier Expert:** " ;
+                oa:suffix "\n\n**Tanya Team:** Hold those f" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "504"^^xsd:integer ;
+                oa:end "566"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T01:41:57Z"^^xsd:dateTime .
+
+    narr:Expr_1HalyardWeekly20260908_4 a narr:Expression ;
+        narr:actor narr:Actor_TanyaTeam ;
+        narr:act "directive" ;
+        narr:context "Cutover sequencing discussion" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_1HalyardWeekly20260908 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Hold those for ten minutes. Sequencing first. Tina, you've been living in the site plan — where are we?" ;
+                oa:prefix "u want them.\n\n**Tanya Team:** " ;
+                oa:suffix "\n\n**Tina Team:** Four sites. N" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "584"^^xsd:integer ;
+                oa:end "687"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T01:41:57Z"^^xsd:dateTime .
+
+    narr:Expr_1HalyardWeekly20260908_5 a narr:Expression ;
+        narr:actor narr:Actor_TinaTeam ;
+        narr:act "assertive" ;
+        narr:context "Cutover sequencing discussion" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_1HalyardWeekly20260908 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Four sites. Northgate, Dockside, Ferry Road, and Clyde. Northgate is the smallest and the cleanest, Clyde is the one nobody wants to touch." ;
+                oa:prefix "where are we?\n\n**Tina Team:** " ;
+                oa:suffix "\n\n**Tanya Team:** And the ques" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "704"^^xsd:integer ;
+                oa:end "843"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T01:41:57Z"^^xsd:dateTime .
+
+    narr:Expr_1HalyardWeekly20260908_6 a narr:Expression ;
+        narr:actor narr:Actor_TanyaTeam ;
+        narr:act "assertive" ;
+        narr:context "Cutover sequencing discussion" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_1HalyardWeekly20260908 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "And the question on the table is whether we take them together or one at a time." ;
+                oa:prefix "ts to touch.\n\n**Tanya Team:** " ;
+                oa:suffix "\n\n**Tina Team:** That's the qu" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "861"^^xsd:integer ;
+                oa:end "941"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T01:41:57Z"^^xsd:dateTime .
+
+    narr:Expr_1HalyardWeekly20260908_7 a narr:Expression ;
+        narr:actor narr:Actor_TinaTeam ;
+        narr:act "assertive" ;
+        narr:context "Cutover sequencing discussion" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_1HalyardWeekly20260908 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "That's the question." ;
+                oa:prefix "ne at a time.\n\n**Tina Team:** " ;
+                oa:suffix "\n\n**Tanya Team:** Then let me " ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "958"^^xsd:integer ;
+                oa:end "978"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T01:41:57Z"^^xsd:dateTime .
+
+    narr:Expr_1HalyardWeekly20260908_8 a narr:Expression ;
+        narr:actor narr:Actor_TanyaTeam ;
+        narr:act "declarative" ;
+        narr:context "Cutover sequencing decision" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_1HalyardWeekly20260908 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Then let me say where I've landed, because I don't think I'm going to move off it. We do this one site at a time. A site goes live, it soaks, and only when that soak is clean do we start the next one. No parallel cutovers, not even for the two small ones." ;
+                oa:prefix "he question.\n\n**Tanya Team:** " ;
+                oa:suffix "\n\n**Tina Team:** I'm with you " ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "996"^^xsd:integer ;
+                oa:end "1251"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T01:41:57Z"^^xsd:dateTime .
+
+    narr:Expr_1HalyardWeekly20260908_9 a narr:Expression ;
+        narr:actor narr:Actor_TinaTeam ;
+        narr:act "expressive" ;
+        narr:context "Cutover sequencing decision" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_1HalyardWeekly20260908 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "I'm with you on that." ;
+                oa:prefix "o small ones.\n\n**Tina Team:** " ;
+                oa:suffix "\n\n**Xavier Expert:** Can I pus" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "1268"^^xsd:integer ;
+                oa:end "1289"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T01:41:57Z"^^xsd:dateTime .
+
+    narr:Expr_1HalyardWeekly20260908_10 a narr:Expression ;
+        narr:actor narr:Actor_XavierExpert ;
+        narr:act "question" ;
+        narr:context "Debating parallel cutover vs sequential" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_1HalyardWeekly20260908 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Can I push on it for a second? Not because I disagree — because the steering group will push and I'd rather they push here." ;
+                oa:prefix " on that.\n\n**Xavier Expert:** " ;
+                oa:suffix "\n\n**Tanya Team:** Please.\n\n**X" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "1310"^^xsd:integer ;
+                oa:end "1433"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T01:41:57Z"^^xsd:dateTime .
+
+    narr:Expr_1HalyardWeekly20260908_11 a narr:Expression ;
+        narr:actor narr:Actor_TanyaTeam ;
+        narr:act "directive" ;
+        narr:context "Debating parallel cutover vs sequential" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_1HalyardWeekly20260908 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Please." ;
+                oa:prefix "y push here.\n\n**Tanya Team:** " ;
+                oa:suffix "\n\n**Xavier Expert:** The argum" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "1451"^^xsd:integer ;
+                oa:end "1458"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T01:41:57Z"^^xsd:dateTime .
+
+    narr:Expr_1HalyardWeekly20260908_12 a narr:Expression ;
+        narr:actor narr:Actor_XavierExpert ;
+        narr:act "assertive" ;
+        narr:context "Debating parallel cutover vs sequential" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_1HalyardWeekly20260908 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "The argument for taking Northgate and Ferry Road together is that they share a dispatch desk. If you split them, the desk runs two systems for however long the soak is, and that's the thing the desk supervisor has been shouting about since June." ;
+                oa:prefix "* Please.\n\n**Xavier Expert:** " ;
+                oa:suffix "\n\n**Tanya Team:** It is. And I" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "1479"^^xsd:integer ;
+                oa:end "1724"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T01:41:57Z"^^xsd:dateTime .
+
+    narr:Expr_1HalyardWeekly20260908_13 a narr:Expression ;
+        narr:actor narr:Actor_TanyaTeam ;
+        narr:act "assertive" ;
+        narr:context "Debating parallel cutover vs sequential" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_1HalyardWeekly20260908 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "It is. And I've thought about it, and I still think it's the wrong trade. Running two systems at one desk for a few weeks is a known, contained pain with a named owner. Two cutovers landing in the same week is an unbounded one, and we've got nobody to hand it to." ;
+                oa:prefix " since June.\n\n**Tanya Team:** " ;
+                oa:suffix "\n\n**Xavier Expert:** That's a " ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "1742"^^xsd:integer ;
+                oa:end "2005"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T01:41:57Z"^^xsd:dateTime .
+
+    narr:Expr_1HalyardWeekly20260908_14 a narr:Expression ;
+        narr:actor narr:Actor_XavierExpert ;
+        narr:act "assertive" ;
+        narr:context "Debating parallel cutover vs sequential" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_1HalyardWeekly20260908 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "That's a fair answer. I'd put it to them exactly that way — contained versus unbounded." ;
+                oa:prefix "nd it to.\n\n**Xavier Expert:** " ;
+                oa:suffix "\n\n**Tina Team:** And the desk " ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "2026"^^xsd:integer ;
+                oa:end "2113"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T01:41:57Z"^^xsd:dateTime .
+
+    narr:Expr_1HalyardWeekly20260908_15 a narr:Expression ;
+        narr:actor narr:Actor_TinaTeam ;
+        narr:act "assertive" ;
+        narr:context "Debating parallel cutover vs sequential" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_1HalyardWeekly20260908 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "And the desk supervisor's pain is a rota problem, which is solvable. A double cutover is a staffing problem and a data problem at the same time, which isn't." ;
+                oa:prefix "us unbounded.\n\n**Tina Team:** " ;
+                oa:suffix "\n\n**Tanya Team:** Right. So: o" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "2130"^^xsd:integer ;
+                oa:end "2287"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T01:41:57Z"^^xsd:dateTime .
+
+    narr:Expr_1HalyardWeekly20260908_16 a narr:Expression ;
+        narr:actor narr:Actor_TanyaTeam ;
+        narr:act "assertive" ;
+        narr:context "Establishing soak duration" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_1HalyardWeekly20260908 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Right. So: one at a time, with a soak." ;
+                oa:prefix "which isn't.\n\n**Tanya Team:** " ;
+                oa:suffix "\n\n**Tina Team:** Agreed, and I" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "2305"^^xsd:integer ;
+                oa:end "2343"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T01:41:57Z"^^xsd:dateTime .
+
+    narr:Expr_1HalyardWeekly20260908_17 a narr:Expression ;
+        narr:actor narr:Actor_TinaTeam ;
+        narr:act "directive" ;
+        narr:context "Establishing soak duration" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_1HalyardWeekly20260908 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Agreed, and I want to put a number on the soak, because \"a soak\" without a number turns into three days the first time someone's under pressure. The soak is two full weeks. That's the Dockside number, and I'd hold us to it." ;
+                oa:prefix " with a soak.\n\n**Tina Team:** " ;
+                oa:suffix "\n\n**Tanya Team:** Say more abo" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "2360"^^xsd:integer ;
+                oa:end "2583"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T01:41:57Z"^^xsd:dateTime .
+
+    narr:Expr_1HalyardWeekly20260908_18 a narr:Expression ;
+        narr:actor narr:Actor_TanyaTeam ;
+        narr:act "directive" ;
+        narr:context "Establishing soak duration" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_1HalyardWeekly20260908 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Say more about where two weeks comes from." ;
+                oa:prefix "ld us to it.\n\n**Tanya Team:** " ;
+                oa:suffix "\n\n**Tina Team:** Dockside pilo" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "2601"^^xsd:integer ;
+                oa:end "2643"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T01:41:57Z"^^xsd:dateTime .
+
+    narr:Expr_1HalyardWeekly20260908_19 a narr:Expression ;
+        narr:actor narr:Actor_TinaTeam ;
+        narr:act "assertive" ;
+        narr:context "Establishing soak duration" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_1HalyardWeekly20260908 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Dockside pilot, back in the spring. We watched the exception queue after go-live and it didn't flatten out until day nine or ten. Two weeks gives you the flattening plus a few days to actually look at what flattened. Anything less and you're starting the next site while you're still finding out what the last one did." ;
+                oa:prefix "s comes from.\n\n**Tina Team:** " ;
+                oa:suffix "\n\n**Tanya Team:** That's the r" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "2660"^^xsd:integer ;
+                oa:end "2978"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T01:41:57Z"^^xsd:dateTime .
+
+    narr:Expr_1HalyardWeekly20260908_20 a narr:Expression ;
+        narr:actor narr:Actor_TanyaTeam ;
+        narr:act "declarative" ;
+        narr:context "Establishing soak duration" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_1HalyardWeekly20260908 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "That's the reasoning I wanted on the record. Two weeks, from the Dockside exception curve." ;
+                oa:prefix "ast one did.\n\n**Tanya Team:** " ;
+                oa:suffix "\n\n**Xavier Expert:** I'll note" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "2996"^^xsd:integer ;
+                oa:end "3086"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T01:41:57Z"^^xsd:dateTime .
+
+    narr:Expr_1HalyardWeekly20260908_21 a narr:Expression ;
+        narr:actor narr:Actor_XavierExpert ;
+        narr:act "assertive" ;
+        narr:context "Establishing soak duration" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_1HalyardWeekly20260908 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "I'll note that the exception curve is the only evidence we have for it. It's one site, one season." ;
+                oa:prefix "on curve.\n\n**Xavier Expert:** " ;
+                oa:suffix "\n\n**Tina Team:** It's one site" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "3107"^^xsd:integer ;
+                oa:end "3205"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T01:41:57Z"^^xsd:dateTime .
+
+    narr:Expr_1HalyardWeekly20260908_22 a narr:Expression ;
+        narr:actor narr:Actor_TinaTeam ;
+        narr:act "assertive" ;
+        narr:context "Establishing soak duration" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_1HalyardWeekly20260908 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "It's one site, one season, and it's the only site we've actually done. I'd rather hold two weeks and shorten it with evidence than hold one week and discover we needed two." ;
+                oa:prefix ", one season.\n\n**Tina Team:** " ;
+                oa:suffix "\n\n**Tanya Team:** Agreed. Xavi" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "3222"^^xsd:integer ;
+                oa:end "3394"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T01:41:57Z"^^xsd:dateTime .
+
+    narr:Expr_1HalyardWeekly20260908_23 a narr:Expression ;
+        narr:actor narr:Actor_TanyaTeam ;
+        narr:act "directive" ;
+        narr:context "Reporting replica during cutover" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_1HalyardWeekly20260908 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Agreed. Xavier, replica numbers." ;
+                oa:prefix " needed two.\n\n**Tanya Team:** " ;
+                oa:suffix "\n\n**Xavier Expert:** Right. Du" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "3412"^^xsd:integer ;
+                oa:end "3444"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T01:41:57Z"^^xsd:dateTime .
+
+    narr:Expr_1HalyardWeekly20260908_24 a narr:Expression ;
+        narr:actor narr:Actor_XavierExpert ;
+        narr:act "assertive" ;
+        narr:context "Reporting replica during cutover" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_1HalyardWeekly20260908 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Right. During a cutover window the live system is under load it has never seen — the migration job, the dual-write, and whatever the site is actually doing that day. Reporting on top of that is what took Dockside down for forty minutes." ;
+                oa:prefix " numbers.\n\n**Xavier Expert:** " ;
+                oa:suffix "\n\n**Tanya Team:** I remember t" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "3465"^^xsd:integer ;
+                oa:end "3701"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T01:41:57Z"^^xsd:dateTime .
+
+    narr:Expr_1HalyardWeekly20260908_25 a narr:Expression ;
+        narr:actor narr:Actor_TanyaTeam ;
+        narr:act "assertive" ;
+        narr:context "Reporting replica during cutover" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_1HalyardWeekly20260908 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "I remember the forty minutes." ;
+                oa:prefix "rty minutes.\n\n**Tanya Team:** " ;
+                oa:suffix "\n\n**Xavier Expert:** So the po" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "3719"^^xsd:integer ;
+                oa:end "3748"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T01:41:57Z"^^xsd:dateTime .
+
+    narr:Expr_1HalyardWeekly20260908_26 a narr:Expression ;
+        narr:actor narr:Actor_XavierExpert ;
+        narr:act "directive" ;
+        narr:context "Reporting replica during cutover" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_1HalyardWeekly20260908 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "So the position I want us to take is: during cutover, every reporting read comes off the replica. Not \"should\", not \"where possible\" — reporting does not touch the live system during a cutover window, full stop." ;
+                oa:prefix " minutes.\n\n**Xavier Expert:** " ;
+                oa:suffix "\n\n**Tanya Team:** Does that co" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "3769"^^xsd:integer ;
+                oa:end "3980"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T01:41:57Z"^^xsd:dateTime .
+
+    narr:Expr_1HalyardWeekly20260908_27 a narr:Expression ;
+        narr:actor narr:Actor_TanyaTeam ;
+        narr:act "question" ;
+        narr:context "Reporting replica during cutover" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_1HalyardWeekly20260908 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Does that cost us anything real?" ;
+                oa:prefix ", full stop.\n\n**Tanya Team:** " ;
+                oa:suffix "\n\n**Xavier Expert:** Replica l" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "3998"^^xsd:integer ;
+                oa:end "4030"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T01:41:57Z"^^xsd:dateTime .
+
+    narr:Expr_1HalyardWeekly20260908_28 a narr:Expression ;
+        narr:actor narr:Actor_XavierExpert ;
+        narr:act "assertive" ;
+        narr:context "Reporting replica during cutover" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_1HalyardWeekly20260908 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Replica lag. Somewhere between thirty seconds and four minutes depending on the migration job. So a reporting number can be four minutes stale during a cutover. My argument is that a four-minute-stale number is fine and an outage is not." ;
+                oa:prefix "ing real?\n\n**Xavier Expert:** " ;
+                oa:suffix "\n\n**Tina Team:** Nobody is mak" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "4051"^^xsd:integer ;
+                oa:end "4288"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T01:41:57Z"^^xsd:dateTime .
+
+    narr:Expr_1HalyardWeekly20260908_29 a narr:Expression ;
+        narr:actor narr:Actor_TinaTeam ;
+        narr:act "assertive" ;
+        narr:context "Reporting replica during cutover" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_1HalyardWeekly20260908 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Nobody is making a decision off a four-minute-old parcel count at two in the morning." ;
+                oa:prefix "utage is not.\n\n**Tina Team:** " ;
+                oa:suffix "\n\n**Xavier Expert:** That's my" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "4305"^^xsd:integer ;
+                oa:end "4390"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T01:41:57Z"^^xsd:dateTime .
+
+    narr:Expr_1HalyardWeekly20260908_30 a narr:Expression ;
+        narr:actor narr:Actor_XavierExpert ;
+        narr:act "assertive" ;
+        narr:context "Reporting replica during cutover" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_1HalyardWeekly20260908 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "That's my view too." ;
+                oa:prefix " morning.\n\n**Xavier Expert:** " ;
+                oa:suffix "\n\n**Tanya Team:** Then that's " ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "4411"^^xsd:integer ;
+                oa:end "4430"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T01:41:57Z"^^xsd:dateTime .
+
+    narr:Expr_1HalyardWeekly20260908_31 a narr:Expression ;
+        narr:actor narr:Actor_TanyaTeam ;
+        narr:act "directive" ;
+        narr:context "Reporting replica during cutover" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_1HalyardWeekly20260908 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Then that's the rule. Reporting reads come off the replica during cutover. Xavier, write it into the runbook as a rule and not as guidance, because guidance gets negotiated at three a.m." ;
+                oa:prefix "my view too.\n\n**Tanya Team:** " ;
+                oa:suffix "\n\n**Xavier Expert:** Will do.\n" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "4448"^^xsd:integer ;
+                oa:end "4634"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T01:41:57Z"^^xsd:dateTime .
+
+    narr:Expr_1HalyardWeekly20260908_32 a narr:Expression ;
+        narr:actor narr:Actor_XavierExpert ;
+        narr:act "commissive" ;
+        narr:context "Reporting replica during cutover" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_1HalyardWeekly20260908 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Will do." ;
+                oa:prefix "hree a.m.\n\n**Xavier Expert:** " ;
+                oa:suffix "\n\n**Tanya Team:** Last one. Re" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "4655"^^xsd:integer ;
+                oa:end "4663"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T01:41:57Z"^^xsd:dateTime .
+
+    narr:Expr_1HalyardWeekly20260908_33 a narr:Expression ;
+        narr:actor narr:Actor_TanyaTeam ;
+        narr:act "directive" ;
+        narr:context "Reference data system of record" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_1HalyardWeekly20260908 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Last one. Reference data." ;
+                oa:prefix ":** Will do.\n\n**Tanya Team:** " ;
+                oa:suffix "\n\n**Xavier Expert:** This is t" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "4681"^^xsd:integer ;
+                oa:end "4706"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T01:41:57Z"^^xsd:dateTime .
+
+    narr:Expr_1HalyardWeekly20260908_34 a narr:Expression ;
+        narr:actor narr:Actor_XavierExpert ;
+        narr:act "assertive" ;
+        narr:context "Reference data system of record" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_1HalyardWeekly20260908 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "This is the one I keep going round on. The vendor holds the reference tables — carrier codes, service levels, the zone map. We can take a copy at any point. The question is when we become the system of record for them." ;
+                oa:prefix "nce data.\n\n**Xavier Expert:** " ;
+                oa:suffix "\n\n**Tanya Team:** And your vie" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "4727"^^xsd:integer ;
+                oa:end "4945"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T01:41:57Z"^^xsd:dateTime .
+
+    narr:Expr_1HalyardWeekly20260908_35 a narr:Expression ;
+        narr:actor narr:Actor_TanyaTeam ;
+        narr:act "question" ;
+        narr:context "Reference data system of record" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_1HalyardWeekly20260908 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "And your view?" ;
+                oa:prefix "rd for them.\n\n**Tanya Team:** " ;
+                oa:suffix "\n\n**Xavier Expert:** The vendo" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "4963"^^xsd:integer ;
+                oa:end "4977"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T01:41:57Z"^^xsd:dateTime .
+
+    narr:Expr_1HalyardWeekly20260908_36 a narr:Expression ;
+        narr:actor narr:Actor_XavierExpert ;
+        narr:act "assertive" ;
+        narr:context "Reference data system of record" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_1HalyardWeekly20260908 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "The vendor stays the system of record for reference data until the last site is live. Every site reads from the vendor's copy, we mirror it read-only, and we take ownership on the day Clyde goes green and not a day earlier." ;
+                oa:prefix "our view?\n\n**Xavier Expert:** " ;
+                oa:suffix "\n\n**Tanya Team:** Because?\n\n**" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "4998"^^xsd:integer ;
+                oa:end "5221"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T01:41:57Z"^^xsd:dateTime .
+
+    narr:Expr_1HalyardWeekly20260908_37 a narr:Expression ;
+        narr:actor narr:Actor_TanyaTeam ;
+        narr:act "question" ;
+        narr:context "Reference data system of record" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_1HalyardWeekly20260908 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Because?" ;
+                oa:prefix "day earlier.\n\n**Tanya Team:** " ;
+                oa:suffix "\n\n**Xavier Expert:** Because i" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "5239"^^xsd:integer ;
+                oa:end "5247"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T01:41:57Z"^^xsd:dateTime .
+
+    narr:Expr_1HalyardWeekly20260908_38 a narr:Expression ;
+        narr:actor narr:Actor_XavierExpert ;
+        narr:act "assertive" ;
+        narr:context "Reference data system of record" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_1HalyardWeekly20260908 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Because if we take ownership at site one, we've got two sites on our reference data and two on theirs, and the zone map drifts between them. You find that out from a mis-priced consignment three weeks later. Keeping one source of truth through the whole programme is worth more than getting ownership early." ;
+                oa:prefix " Because?\n\n**Xavier Expert:** " ;
+                oa:suffix "\n\n**Tanya Team:** I agree with" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "5268"^^xsd:integer ;
+                oa:end "5575"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T01:41:57Z"^^xsd:dateTime .
+
+    narr:Expr_1HalyardWeekly20260908_39 a narr:Expression ;
+        narr:actor narr:Actor_TanyaTeam ;
+        narr:act "assertive" ;
+        narr:context "Reference data system of record" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_1HalyardWeekly20260908 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "I agree with that, and I'd add: it also means the vendor can't tell the steering group that their reference data was fine and ours broke it. Their data, their problem, right up until the end." ;
+                oa:prefix "rship early.\n\n**Tanya Team:** " ;
+                oa:suffix "\n\n**Xavier Expert:** That's th" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "5593"^^xsd:integer ;
+                oa:end "5784"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T01:41:57Z"^^xsd:dateTime .
+
+    narr:Expr_1HalyardWeekly20260908_40 a narr:Expression ;
+        narr:actor narr:Actor_XavierExpert ;
+        narr:act "assertive" ;
+        narr:context "Reference data system of record" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_1HalyardWeekly20260908 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "That's the other half of it, yes." ;
+                oa:prefix " the end.\n\n**Xavier Expert:** " ;
+                oa:suffix "\n\n**Tina Team:** No objection " ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "5805"^^xsd:integer ;
+                oa:end "5838"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T01:41:57Z"^^xsd:dateTime .
+
+    narr:Expr_1HalyardWeekly20260908_41 a narr:Expression ;
+        narr:actor narr:Actor_TinaTeam ;
+        narr:act "assertive" ;
+        narr:context "Reference data system of record" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_1HalyardWeekly20260908 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "No objection from me. It's less work for the site teams too." ;
+                oa:prefix "f of it, yes.\n\n**Tina Team:** " ;
+                oa:suffix "\n\n**Tanya Team:** Good. So Thu" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "5855"^^xsd:integer ;
+                oa:end "5915"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T01:41:57Z"^^xsd:dateTime .
+
+    narr:Expr_1HalyardWeekly20260908_42 a narr:Expression ;
+        narr:actor narr:Actor_TanyaTeam ;
+        narr:act "question" ;
+        narr:context "Summary and meeting wrap-up" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_1HalyardWeekly20260908 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Good. So Thursday I'm telling them: one site at a time, two-week soak between sites, reporting off the replica during cutover, vendor holds reference data until Clyde is green. Anything I've mangled?" ;
+                oa:prefix "e teams too.\n\n**Tanya Team:** " ;
+                oa:suffix "\n\n**Tina Team:** That's it.\n\n*" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "5933"^^xsd:integer ;
+                oa:end "6132"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T01:41:57Z"^^xsd:dateTime .
+
+    narr:Expr_1HalyardWeekly20260908_43 a narr:Expression ;
+        narr:actor narr:Actor_TinaTeam ;
+        narr:act "assertive" ;
+        narr:context "Summary and meeting wrap-up" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_1HalyardWeekly20260908 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "That's it." ;
+                oa:prefix "I've mangled?\n\n**Tina Team:** " ;
+                oa:suffix "\n\n**Xavier Expert:** That's it" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "6149"^^xsd:integer ;
+                oa:end "6159"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T01:41:57Z"^^xsd:dateTime .
+
+    narr:Expr_1HalyardWeekly20260908_44 a narr:Expression ;
+        narr:actor narr:Actor_XavierExpert ;
+        narr:act "assertive" ;
+        narr:context "Summary and meeting wrap-up" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_1HalyardWeekly20260908 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "That's it." ;
+                oa:prefix "hat's it.\n\n**Xavier Expert:** " ;
+                oa:suffix "\n\n**Tanya Team:** Thanks both." ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "6180"^^xsd:integer ;
+                oa:end "6190"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T01:41:57Z"^^xsd:dateTime .
+
+    narr:Expr_1HalyardWeekly20260908_45 a narr:Expression ;
+        narr:actor narr:Actor_TanyaTeam ;
+        narr:act "expressive" ;
+        narr:context "Summary and meeting wrap-up" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_1HalyardWeekly20260908 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Thanks both." ;
+                oa:prefix "* That's it.\n\n**Tanya Team:** " ;
+                oa:suffix "\n" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "6208"^^xsd:integer ;
+                oa:end "6220"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T01:41:57Z"^^xsd:dateTime .
+
+    narr:Actor_TanyaTeam a narr:Actor ;
+        skos:prefLabel "Tanya Team" .
+
+    narr:Actor_TanyaTeamowner a narr:Actor ;
+        skos:prefLabel "Tanya TeamOwner" .
+
+    narr:Actor_TinaTeam a narr:Actor ;
+        skos:prefLabel "Tina Team" .
+
+    narr:Actor_XavierExpert a narr:Actor ;
+        skos:prefLabel "Xavier Expert" .
+
+    aswr:Run_20260923T014157Z_actors a prov:Activity ;
+        aswr:runPass "actors" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/4c2951c2355e/2026-09-23-1-halyard-weekly-2026-09-08/actors.json" ;
+        prov:generated narr:Actor_TanyaTeam, narr:Actor_TanyaTeamowner, narr:Actor_TinaTeam, narr:Actor_XavierExpert ;
+        dct:isPartOf aswr:Tx_20260923T014157Z ;
+        prov:generatedAtTime "2026-09-23T01:41:57Z"^^xsd:dateTime .
+
+    aswr:Run_20260923T014157Z_pass1 a prov:Activity ;
+        aswr:runPass "pass1" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/4c2951c2355e/2026-09-23-1-halyard-weekly-2026-09-08/pass1.json" ;
+        prov:generated narr:Sample_1HalyardWeekly20260908, narr:Expr_1HalyardWeekly20260908_1, narr:Expr_1HalyardWeekly20260908_2, narr:Expr_1HalyardWeekly20260908_3, narr:Expr_1HalyardWeekly20260908_4, narr:Expr_1HalyardWeekly20260908_5, narr:Expr_1HalyardWeekly20260908_6, narr:Expr_1HalyardWeekly20260908_7, narr:Expr_1HalyardWeekly20260908_8, narr:Expr_1HalyardWeekly20260908_9, narr:Expr_1HalyardWeekly20260908_10, narr:Expr_1HalyardWeekly20260908_11, narr:Expr_1HalyardWeekly20260908_12, narr:Expr_1HalyardWeekly20260908_13, narr:Expr_1HalyardWeekly20260908_14, narr:Expr_1HalyardWeekly20260908_15, narr:Expr_1HalyardWeekly20260908_16, narr:Expr_1HalyardWeekly20260908_17, narr:Expr_1HalyardWeekly20260908_18, narr:Expr_1HalyardWeekly20260908_19, narr:Expr_1HalyardWeekly20260908_20, narr:Expr_1HalyardWeekly20260908_21, narr:Expr_1HalyardWeekly20260908_22, narr:Expr_1HalyardWeekly20260908_23, narr:Expr_1HalyardWeekly20260908_24, narr:Expr_1HalyardWeekly20260908_25, narr:Expr_1HalyardWeekly20260908_26, narr:Expr_1HalyardWeekly20260908_27, narr:Expr_1HalyardWeekly20260908_28, narr:Expr_1HalyardWeekly20260908_29, narr:Expr_1HalyardWeekly20260908_30, narr:Expr_1HalyardWeekly20260908_31, narr:Expr_1HalyardWeekly20260908_32, narr:Expr_1HalyardWeekly20260908_33, narr:Expr_1HalyardWeekly20260908_34, narr:Expr_1HalyardWeekly20260908_35, narr:Expr_1HalyardWeekly20260908_36, narr:Expr_1HalyardWeekly20260908_37, narr:Expr_1HalyardWeekly20260908_38, narr:Expr_1HalyardWeekly20260908_39, narr:Expr_1HalyardWeekly20260908_40, narr:Expr_1HalyardWeekly20260908_41, narr:Expr_1HalyardWeekly20260908_42, narr:Expr_1HalyardWeekly20260908_43, narr:Expr_1HalyardWeekly20260908_44, narr:Expr_1HalyardWeekly20260908_45 ;
+        dct:isPartOf aswr:Tx_20260923T014157Z ;
+        prov:generatedAtTime "2026-09-23T01:41:57Z"^^xsd:dateTime .
+  }
+}
