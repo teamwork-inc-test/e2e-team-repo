@@ -1,0 +1,54 @@
+{
+  "doc" : {
+    "title" : "Delivery routing ruling (e2e synthetic, attempt 2)",
+    "date_stated" : null,
+    "actors_present" : [ "Tanya TeamOwner", "Tina" ]
+  },
+  "footing_cases" : [ ],
+  "segments" : [ {
+    "local_id" : "src-1",
+    "exact" : "Tanya (team owner) ruled on where reaction delivery belongs:",
+    "actor" : "Tanya TeamOwner",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Delivery routing ruling"
+    },
+    "note" : "Framing sentence introducing the routing ruling quote",
+    "redacted" : false,
+    "footing_case" : null
+  }, {
+    "local_id" : "src-2",
+    "exact" : "we route every reaction through one bundle per run per person, not one\n> message per skill — a person should get one thing to read, not four",
+    "actor" : "Tanya TeamOwner",
+    "act" : "directive",
+    "circumstance" : {
+      "context" : "Delivery routing ruling"
+    },
+    "note" : "Directive establishing reaction delivery policy",
+    "redacted" : false,
+    "footing_case" : null
+  }, {
+    "local_id" : "src-3",
+    "exact" : "Tina pushed back on the batching window and Tanya held: the bundle closes when\nthe run closes, and a skill that misses the close waits for the next run rather\nthan sending on its own.",
+    "actor" : "Tanya TeamOwner",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Delivery routing ruling"
+    },
+    "note" : "Narrating Tina's pushback and Tanya's ruling on the batching window",
+    "redacted" : false,
+    "footing_case" : null
+  }, {
+    "local_id" : "src-4",
+    "exact" : "The alternative considered and rejected was per-skill\ndelivery with client-side collapsing, which moves the ordering problem onto the\nreader.",
+    "actor" : "Tanya TeamOwner",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Delivery routing ruling"
+    },
+    "note" : "Reporting rejected architectural alternative",
+    "redacted" : false,
+    "footing_case" : null
+  } ],
+  "coverage_gaps" : [ ]
+}
