@@ -1,0 +1,116 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-2",
+    "regions" : [ "past", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "June 29, 2026",
+      "kind" : "plain-signal"
+    }, {
+      "quote" : "first: March 23, 2026, where he committed to a style-guide",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Contextualizes specific past historical dates and meetings in actual reality.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-3",
+    "regions" : [ "present", "realis", "abstract" ],
+    "evidence" : [ {
+      "quote" : "is already established in the perspective as a high-conviction (boulder) claim from March 19",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "States an existing, currently established high-level conceptual position in the perspective.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-4",
+    "regions" : [ "present", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "Tanya has not yet actually delivered an aswritten perspective as a deck-alternative to a consulting client",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Reports the concrete present status of deliverables to clients.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-6",
+    "regions" : [ "present", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "I have a process where I extract everything that builds into a design language which gets tokenized.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Describes Freya's actual current concrete workflow.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-8",
+    "regions" : [ "present", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "It doesn't look anything like a Claude website. It looks like the initial designs. And I've actually been able to do this without giving it visuals.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Describes the actual current behavior and outputs of the tool in practice.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-10",
+    "regions" : [ "present", "realis", "abstract" ],
+    "evidence" : [ {
+      "quote" : "without my input through my own lens, it breaks, it falls down. So that shows that the actual unique part is by [my] lens",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Articulates a general principle/abstraction about the lens being the unique governing factor.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-11",
+    "regions" : [ "past", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "I built a bunch of files that represent how were thinking and all the... the equivalent of design tokens for product language.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Recalls specific concrete past work at Northwind.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-13",
+    "regions" : [ "future", "irrealis", "abstract" ],
+    "evidence" : [ {
+      "quote" : "these AI identities have the opportunity to be the brand's identity. Like you can literally shape an AI that thinks like the brand and then let anyone use it across the org",
+      "kind" : "modal-marker"
+    } ],
+    "why" : "Describes an abstract future possibility and opportunity for brand identity in orgs.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-15",
+    "regions" : [ "future", "irrealis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "how do we get from one-shotting a website [that] looks like [Claude] every time to deliver an AI to Coca Cola",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Poses a hypothetical future target state with a concrete example (Coca Cola).",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-17",
+    "regions" : [ "present", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "I haven't delivered an AI perspective as an alternative to a deck to a consulting client yet.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "States the present realis fact of never having delivered the artifact to a client.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-19",
+    "regions" : [ "present", "realis", "abstract" ],
+    "evidence" : [ {
+      "quote" : "what someone is hiring you for now is a static asset that they then are dependent on you to either execute on",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Characterizes the generalized current consulting dynamic.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-20",
+    "regions" : [ "present", "realis", "abstract" ],
+    "evidence" : [ {
+      "quote" : "This is convergent validation from outside aswritten: a designer independently building extraction → tokens → AI-applied output",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Summarizes current validation and abstract conceptual parallels.",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-1", "src-5", "src-7", "src-9", "src-12", "src-14", "src-16", "src-18" ],
+  "unmarked_rest" : false
+}
