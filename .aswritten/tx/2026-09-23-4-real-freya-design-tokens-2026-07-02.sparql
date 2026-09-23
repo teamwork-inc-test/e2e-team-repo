@@ -1,0 +1,378 @@
+PREFIX narr: <https://aswritten.ai/narrative#>
+PREFIX aswr: <https://aswritten.ai/aswr#>
+PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX dct:  <http://purl.org/dc/terms/>
+PREFIX xsd:  <http://www.w3.org/2001/XMLSchema#>
+PREFIX oa:   <http://www.w3.org/ns/oa#>
+PREFIX xkos: <http://rdf-vocabulary.ddialliance.org/xkos#>
+
+INSERT DATA {
+  aswr:Tx_20260923T173236Z a prov:Activity ;
+      prov:generatedAtTime "2026-09-23T17:32:36Z"^^xsd:dateTime ;
+      prov:wasAssociatedWith "aswritten.ai" ;
+      prov:wasAttributedTo "scarlet@aswritten.ai" ;
+      aswr:draftedBy "claude-opus-5-5" ;
+      aswr:pipelinePin "8dd07a49bda8" ;
+      aswr:originPath ".aswritten/memories/2026-09-23-4-real-freya-design-tokens-2026-07-02.md" ;
+      dct:title "Multipass source extraction: Freya Free's Design-Token Practice Independently Validates Perspective-as-Deliverable and Brand-as-AI-Identity" ;
+      prov:generated narr:Sample_4RealFreyaDesignTokens20260702, narr:Expr_4RealFreyaDesignTokens20260702_1, narr:Expr_4RealFreyaDesignTokens20260702_2, narr:Expr_4RealFreyaDesignTokens20260702_3, narr:Expr_4RealFreyaDesignTokens20260702_4, narr:Expr_4RealFreyaDesignTokens20260702_5, narr:Expr_4RealFreyaDesignTokens20260702_6, narr:Expr_4RealFreyaDesignTokens20260702_7, narr:Expr_4RealFreyaDesignTokens20260702_8, narr:Expr_4RealFreyaDesignTokens20260702_9, narr:Expr_4RealFreyaDesignTokens20260702_10, narr:Expr_4RealFreyaDesignTokens20260702_11, narr:Expr_4RealFreyaDesignTokens20260702_12, narr:Expr_4RealFreyaDesignTokens20260702_13, narr:Expr_4RealFreyaDesignTokens20260702_14, narr:Expr_4RealFreyaDesignTokens20260702_15, narr:Expr_4RealFreyaDesignTokens20260702_16, narr:Expr_4RealFreyaDesignTokens20260702_17, narr:Expr_4RealFreyaDesignTokens20260702_18, narr:Expr_4RealFreyaDesignTokens20260702_19, narr:Expr_4RealFreyaDesignTokens20260702_20, narr:How_4RealFreyaDesignTokens20260702_5_0 .
+} ;
+INSERT DATA {
+  GRAPH aswr:Tx_20260923T173236Z {
+    narr:Sample_4RealFreyaDesignTokens20260702 a narr:Sample ;
+        dct:title "Freya Free's Design-Token Practice Independently Validates Perspective-as-Deliverable and Brand-as-AI-Identity" ;
+        dct:created "2026-06-29"^^xsd:date ;
+        aswr:originPath ".aswritten/memories/2026-09-23-4-real-freya-design-tokens-2026-07-02.md" ;
+        aswr:submittedBy narr:Actor_TanyaTeamowner ;
+        aswr:account narr:Actor_TanyaTeamowner .
+
+    narr:Expr_4RealFreyaDesignTokens20260702_1 a narr:Expression ;
+        narr:actor narr:Actor_Claude ;
+        narr:act "assertive" ;
+        narr:animator narr:Actor_Claude ;
+        narr:author narr:Actor_Claude ;
+        narr:context "Header metadata note" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_4RealFreyaDesignTokens20260702 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Written up by Claude (claude-opus-5-5), the assistant in Tanya Team's session, from the call between Tanya Team and Freya Free. Quoted lines are each speaker's own words." ;
+                oa:prefix "e and Brand-as-AI-Identity\n\n> " ;
+                oa:suffix "\n\n**Source:** Call between Tan" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "167"^^xsd:integer ;
+                oa:end "337"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T17:32:36Z"^^xsd:dateTime .
+
+    narr:Expr_4RealFreyaDesignTokens20260702_2 a narr:Expression ;
+        narr:actor narr:Actor_Claude ;
+        narr:act "assertive" ;
+        narr:animator narr:Actor_Claude ;
+        narr:author narr:Actor_Claude ;
+        narr:context "Source specification" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_4RealFreyaDesignTokens20260702 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Source:** Call between Tanya Team and Freya Free, June 29, 2026. Freya is a designer and Northwind-era collaborator. This is the second documented session with him (first: March 23, 2026, where he committed to a style-guide \"system that AI can apply, not static comps\")." ;
+                oa:prefix " each speaker's own words.\n\n**" ;
+                oa:suffix "\n\n**Context.** The idea that t" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "341"^^xsd:integer ;
+                oa:end "611"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T17:32:36Z"^^xsd:dateTime .
+
+    narr:Expr_4RealFreyaDesignTokens20260702_3 a narr:Expression ;
+        narr:actor narr:Actor_Claude ;
+        narr:act "assertive" ;
+        narr:animator narr:Actor_Claude ;
+        narr:author narr:Actor_Claude ;
+        narr:context "Context section" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_4RealFreyaDesignTokens20260702 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "The idea that the consulting deliverable of the AI age is not a deck but an installable perspective is already established in the perspective as a high-conviction (boulder) claim from March 19 — \"instead of a deck, deliver a perspective the whole org can install,\" with the deck as a derived artifact." ;
+                oa:prefix "static comps\").\n\n**Context.** " ;
+                oa:suffix " What this call adds is (a) **" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "626"^^xsd:integer ;
+                oa:end "927"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T17:32:36Z"^^xsd:dateTime .
+
+    narr:Expr_4RealFreyaDesignTokens20260702_4 a narr:Expression ;
+        narr:actor narr:Actor_Claude ;
+        narr:act "assertive" ;
+        narr:animator narr:Actor_Claude ;
+        narr:author narr:Actor_Claude ;
+        narr:context "Context section" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_4RealFreyaDesignTokens20260702 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "What this call adds is (a) **independent validation** of that thesis from a working designer who arrived at it through his own practice, (b) the concrete **design-token ↔ perspective parallel** the graph was explicitly missing, and (c) a **status note**: Tanya has not yet actually delivered an aswritten perspective as a deck-alternative to a consulting client." ;
+                oa:prefix "e deck as a derived artifact. " ;
+                oa:suffix "\n\n**Freya's process — extracti" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "928"^^xsd:integer ;
+                oa:end "1290"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T17:32:36Z"^^xsd:dateTime .
+
+    narr:Expr_4RealFreyaDesignTokens20260702_5 a narr:Expression ;
+        narr:actor narr:Actor_Claude ;
+        narr:act "assertive" ;
+        narr:animator narr:Actor_Claude ;
+        narr:author narr:Actor_Claude ;
+        narr:context "Freya's process — extraction to tokens to AI-applied surfaces" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_4RealFreyaDesignTokens20260702 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Describing what he has been building this year:" ;
+                oa:prefix "ens to AI-applied surfaces.** " ;
+                oa:suffix "\n> \"I have a process where I e" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "1359"^^xsd:integer ;
+                oa:end "1406"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T17:32:36Z"^^xsd:dateTime .
+
+    narr:Expr_4RealFreyaDesignTokens20260702_6 a narr:Expression ;
+        narr:actor narr:Actor_FreyaFree ;
+        narr:act "assertive" ;
+        narr:context "Freya's process — extraction to tokens to AI-applied surfaces" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_4RealFreyaDesignTokens20260702 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "I have a process where I extract everything that builds into a design language which gets tokenized. The tokens get applied to surfaces... if I build a website, I actually build it from the extraction at the beginning. The design tokens need some input. Once the design tokens are there is some specific guidance through the different surfaces or designer license." ;
+                oa:prefix "s been building this year:\n> \"" ;
+                oa:suffix "\"\n\nAnd crucially, the output d" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "1410"^^xsd:integer ;
+                oa:end "1774"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T17:32:36Z"^^xsd:dateTime .
+
+    narr:Expr_4RealFreyaDesignTokens20260702_7 a narr:Expression ;
+        narr:actor narr:Actor_Claude ;
+        narr:act "assertive" ;
+        narr:animator narr:Actor_Claude ;
+        narr:author narr:Actor_Claude ;
+        narr:context "Freya's process — extraction to tokens to AI-applied surfaces" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_4RealFreyaDesignTokens20260702 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "And crucially, the output does not read as generic AI:" ;
+                oa:prefix "rfaces or designer license.\"\n\n" ;
+                oa:suffix "\n> \"the data is taken from the" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "1777"^^xsd:integer ;
+                oa:end "1831"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T17:32:36Z"^^xsd:dateTime .
+
+    narr:Expr_4RealFreyaDesignTokens20260702_8 a narr:Expression ;
+        narr:actor narr:Actor_FreyaFree ;
+        narr:act "assertive" ;
+        narr:context "Freya's process — extraction to tokens to AI-applied surfaces" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_4RealFreyaDesignTokens20260702 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "the data is taken from the extraction and basically made logical designer input... applied to that then goes into Claude and gets converted into a website. It doesn't look anything like a Claude website. It looks like the initial designs. And I've actually been able to do this without giving it visuals. If I want to tighten it, I give it a few visuals." ;
+                oa:prefix "es not read as generic AI:\n> \"" ;
+                oa:suffix "\"\n\n**The lens is the irreducib" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "1835"^^xsd:integer ;
+                oa:end "2189"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T17:32:36Z"^^xsd:dateTime .
+
+    narr:Expr_4RealFreyaDesignTokens20260702_9 a narr:Expression ;
+        narr:actor narr:Actor_Claude ;
+        narr:act "assertive" ;
+        narr:animator narr:Actor_Claude ;
+        narr:author narr:Actor_Claude ;
+        narr:context "The lens is the irreducible part" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_4RealFreyaDesignTokens20260702 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Freya identifies exactly what carries the uniqueness — and names it as the same thing Tanya has built:" ;
+                oa:prefix "ns is the irreducible part.** " ;
+                oa:suffix "\n> \"without my input through m" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "2230"^^xsd:integer ;
+                oa:end "2332"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T17:32:36Z"^^xsd:dateTime .
+
+    narr:Expr_4RealFreyaDesignTokens20260702_10 a narr:Expression ;
+        narr:actor narr:Actor_FreyaFree ;
+        narr:act "assertive" ;
+        narr:context "The lens is the irreducible part" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_4RealFreyaDesignTokens20260702 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "without my input through my own lens, it breaks, it falls down. So that shows that the actual unique part is by [my] lens — is applying the lens, which I suppose is effectively what you've built there... it is the lens that controls all of that." ;
+                oa:prefix "ame thing Tanya has built:\n> \"" ;
+                oa:suffix "\"\n\n**Tanya recognizes it as th" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "2336"^^xsd:integer ;
+                oa:end "2581"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T17:32:36Z"^^xsd:dateTime .
+
+    narr:Expr_4RealFreyaDesignTokens20260702_11 a narr:Expression ;
+        narr:actor narr:Actor_TanyaTeamowner ;
+        narr:act "assertive" ;
+        narr:context "Tanya recognizes it as the Northwind text process — the product's precursor" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_4RealFreyaDesignTokens20260702 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "It sounds like you're doing a very similar process with AI like I did at Northwind with text. Like the precursor to this product was me building... something similar to what you're talking about. I built a bunch of files that represent how were thinking and all the... the equivalent of design tokens for product language. And then I would sort of put that in the top of the chat and use that to generate whatever other new thing were working on." ;
+                oa:prefix "the product's precursor.**\n> \"" ;
+                oa:suffix "\"\n\n**Brand-as-AI-identity, sha" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "2668"^^xsd:integer ;
+                oa:end "3114"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T17:32:36Z"^^xsd:dateTime .
+
+    narr:Expr_4RealFreyaDesignTokens20260702_12 a narr:Expression ;
+        narr:actor narr:Actor_Claude ;
+        narr:act "assertive" ;
+        narr:animator narr:Actor_Claude ;
+        narr:author narr:Actor_Claude ;
+        narr:context "Brand-as-AI-identity, sharpened" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_4RealFreyaDesignTokens20260702 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Tanya pushes the deliverable idea to its endpoint — the AI *is* the brand's identity, usable across the org:" ;
+                oa:prefix "-as-AI-identity, sharpened.** " ;
+                oa:suffix "\n> \"when you're talking about " ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "3154"^^xsd:integer ;
+                oa:end "3262"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T17:32:36Z"^^xsd:dateTime .
+
+    narr:Expr_4RealFreyaDesignTokens20260702_13 a narr:Expression ;
+        narr:actor narr:Actor_TanyaTeamowner ;
+        narr:act "assertive" ;
+        narr:context "Brand-as-AI-identity, sharpened" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_4RealFreyaDesignTokens20260702 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "when you're talking about brand identity... these AI identities have the opportunity to be the brand's identity. Like you can literally shape an AI that thinks like the brand and then let anyone use it across the org and it designs like [it]." ;
+                oa:prefix "ty, usable across the org:\n> \"" ;
+                oa:suffix "\"\n\nAnd the target state, state" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "3266"^^xsd:integer ;
+                oa:end "3508"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T17:32:36Z"^^xsd:dateTime .
+
+    narr:Expr_4RealFreyaDesignTokens20260702_14 a narr:Expression ;
+        narr:actor narr:Actor_Claude ;
+        narr:act "assertive" ;
+        narr:animator narr:Actor_Claude ;
+        narr:author narr:Actor_Claude ;
+        narr:context "Brand-as-AI-identity, sharpened" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_4RealFreyaDesignTokens20260702 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "And the target state, stated as a contrast with the current generic default:" ;
+                oa:prefix "g and it designs like [it].\"\n\n" ;
+                oa:suffix "\n> \"how do we get from one-sho" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "3511"^^xsd:integer ;
+                oa:end "3587"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T17:32:36Z"^^xsd:dateTime .
+
+    narr:Expr_4RealFreyaDesignTokens20260702_15 a narr:Expression ;
+        narr:actor narr:Actor_TanyaTeamowner ;
+        narr:act "question" ;
+        narr:context "Brand-as-AI-identity, sharpened" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_4RealFreyaDesignTokens20260702 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "how do we get from one-shotting a website [that] looks like [Claude] every time to deliver an AI to Coca Cola, where if they ask it to one-shot a website, it looks like Coca Cola and it thinks like Coca Cola and it talks like Coca Cola and it has the narratives and understandings of that?" ;
+                oa:prefix "e current generic default:\n> \"" ;
+                oa:suffix "\"\n\n**The status note — the une" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "3591"^^xsd:integer ;
+                oa:end "3880"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T17:32:36Z"^^xsd:dateTime .
+
+    narr:Expr_4RealFreyaDesignTokens20260702_16 a narr:Expression ;
+        narr:actor narr:Actor_Claude ;
+        narr:act "assertive" ;
+        narr:animator narr:Actor_Claude ;
+        narr:author narr:Actor_Claude ;
+        narr:context "The status note — the unexecuted use case" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_4RealFreyaDesignTokens20260702 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Tanya flags that despite the thesis being settled, she has not run it in practice:" ;
+                oa:prefix " — the unexecuted use case.** " ;
+                oa:suffix "\n> \"I haven't delivered an AI " ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "3930"^^xsd:integer ;
+                oa:end "4012"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T17:32:36Z"^^xsd:dateTime .
+
+    narr:Expr_4RealFreyaDesignTokens20260702_17 a narr:Expression ;
+        narr:actor narr:Actor_TanyaTeamowner ;
+        narr:act "assertive" ;
+        narr:context "The status note — the unexecuted use case" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_4RealFreyaDesignTokens20260702 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "I haven't delivered an AI perspective as an alternative to a deck to a consulting client yet. But actually I think that's a really... that does seem like the future to me." ;
+                oa:prefix "as not run it in practice:\n> \"" ;
+                oa:suffix "\"\n\nShe contrasts it with what " ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "4016"^^xsd:integer ;
+                oa:end "4187"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T17:32:36Z"^^xsd:dateTime .
+
+    narr:Expr_4RealFreyaDesignTokens20260702_18 a narr:Expression ;
+        narr:actor narr:Actor_Claude ;
+        narr:act "assertive" ;
+        narr:animator narr:Actor_Claude ;
+        narr:author narr:Actor_Claude ;
+        narr:context "The status note — the unexecuted use case" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_4RealFreyaDesignTokens20260702 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "She contrasts it with what clients pay for today:" ;
+                oa:prefix "seem like the future to me.\"\n\n" ;
+                oa:suffix "\n> \"what someone is hiring you" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "4190"^^xsd:integer ;
+                oa:end "4239"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T17:32:36Z"^^xsd:dateTime .
+
+    narr:Expr_4RealFreyaDesignTokens20260702_19 a narr:Expression ;
+        narr:actor narr:Actor_TanyaTeamowner ;
+        narr:act "assertive" ;
+        narr:context "The status note — the unexecuted use case" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_4RealFreyaDesignTokens20260702 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "what someone is hiring you for now is a static asset that they then are dependent on you to either execute on, or they need to have someone in house that they pay quite a bit of money to then do a very lossy interpretation of your ideas and then continue on forward." ;
+                oa:prefix "hat clients pay for today:\n> \"" ;
+                oa:suffix "\"\n\n**Why it matters.** This is" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "4243"^^xsd:integer ;
+                oa:end "4509"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T17:32:36Z"^^xsd:dateTime .
+
+    narr:Expr_4RealFreyaDesignTokens20260702_20 a narr:Expression ;
+        narr:actor narr:Actor_Claude ;
+        narr:act "assertive" ;
+        narr:animator narr:Actor_Claude ;
+        narr:author narr:Actor_Claude ;
+        narr:context "Why it matters" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_4RealFreyaDesignTokens20260702 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "This is convergent validation from outside aswritten: a designer independently building extraction → tokens → AI-applied output, and naming \"the lens\" as the irreducible, defensible core — the same claim aswritten makes about perspective. It grounds the design-token/perspective parallel and the brand-as-AI-identity endpoint with primary-source material, and it flags a concrete, still-open product move: actually delivering a perspective to a consulting client in place of a deck." ;
+                oa:prefix "orward.\"\n\n**Why it matters.** " ;
+                oa:suffix "" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "4532"^^xsd:integer ;
+                oa:end "5014"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T17:32:36Z"^^xsd:dateTime .
+
+    narr:How_4RealFreyaDesignTokens20260702_5_0 a oa:Annotation ;
+        oa:hasTarget narr:Expr_4RealFreyaDesignTokens20260702_5 ;
+        narr:how "Describing what he has been building this year:" ;
+        narr:howSide "supply" ;
+        prov:generatedAtTime "2026-09-23T17:32:36Z"^^xsd:dateTime .
+
+    narr:Actor_Claude a narr:AIActor .
+
+    aswr:Run_20260923T173236Z_actors a prov:Activity ;
+        aswr:runPass "actors" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/2af4e1ec87c9/2026-09-23-4-real-freya-design-tokens-2026-07-02/actors.json" ;
+        dct:isPartOf aswr:Tx_20260923T173236Z ;
+        prov:generatedAtTime "2026-09-23T17:32:36Z"^^xsd:dateTime .
+
+    aswr:Run_20260923T173236Z_pass1 a prov:Activity ;
+        aswr:runPass "pass1" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/2af4e1ec87c9/2026-09-23-4-real-freya-design-tokens-2026-07-02/pass1.json" ;
+        prov:generated narr:Sample_4RealFreyaDesignTokens20260702, narr:Expr_4RealFreyaDesignTokens20260702_1, narr:Expr_4RealFreyaDesignTokens20260702_2, narr:Expr_4RealFreyaDesignTokens20260702_3, narr:Expr_4RealFreyaDesignTokens20260702_4, narr:Expr_4RealFreyaDesignTokens20260702_5, narr:Expr_4RealFreyaDesignTokens20260702_6, narr:Expr_4RealFreyaDesignTokens20260702_7, narr:Expr_4RealFreyaDesignTokens20260702_8, narr:Expr_4RealFreyaDesignTokens20260702_9, narr:Expr_4RealFreyaDesignTokens20260702_10, narr:Expr_4RealFreyaDesignTokens20260702_11, narr:Expr_4RealFreyaDesignTokens20260702_12, narr:Expr_4RealFreyaDesignTokens20260702_13, narr:Expr_4RealFreyaDesignTokens20260702_14, narr:Expr_4RealFreyaDesignTokens20260702_15, narr:Expr_4RealFreyaDesignTokens20260702_16, narr:Expr_4RealFreyaDesignTokens20260702_17, narr:Expr_4RealFreyaDesignTokens20260702_18, narr:Expr_4RealFreyaDesignTokens20260702_19, narr:Expr_4RealFreyaDesignTokens20260702_20 ;
+        dct:isPartOf aswr:Tx_20260923T173236Z ;
+        prov:generatedAtTime "2026-09-23T17:32:36Z"^^xsd:dateTime .
+  }
+}
