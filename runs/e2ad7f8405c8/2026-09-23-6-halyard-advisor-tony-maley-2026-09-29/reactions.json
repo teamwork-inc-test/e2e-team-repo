@@ -1,0 +1,77 @@
+{
+  "run_id" : "mp-eng-07b6e88f",
+  "gates" : [ {
+    "id" : "aswritten/clarify",
+    "run?" : false,
+    "gate" : 2,
+    "reason" : "score 0.1 < threshold 0.7",
+    "score" : 0.1,
+    "evidence" : [ "Duplicate rate, orphan rate, whatever the three things are that actually bite you.", "how should pre-cutover source data quality thresholds be defined and tested against migration readiness?", "the advisor's caveat about the mirror's refresh interval leaves one thread open" ]
+  }, {
+    "id" : "aswritten/refract",
+    "run?" : true,
+    "gate" : 2,
+    "reason" : "predicate only"
+  }, {
+    "id" : "aswritten/review",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "skill off"
+  }, {
+    "id" : "aswritten/riff",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "requires perspective, expand"
+  } ],
+  "spend" : {
+    "cost_usd" : 0.010985,
+    "passes" : [ {
+      "pass" : "reaction:_score",
+      "llm_calls" : 1,
+      "cost_usd" : 0.0054802
+    }, {
+      "pass" : "reaction:refract",
+      "llm_calls" : 1,
+      "cost_usd" : 0.00550455
+    } ]
+  },
+  "bundle" : {
+    "items" : 1,
+    "audience" : "only-me",
+    "recipients" : 1,
+    "moments_cached" : true,
+    "sent" : [ {
+      "items" : [ {
+        "kind" : "note",
+        "skill" : "aswritten/refract",
+        "audience" : "speakers"
+      } ],
+      "handle" : "tanya+staging@aswritten.ai",
+      "channel" : "email",
+      "status" : "sent",
+      "front_message_id" : "msg_3di8mhig",
+      "front_conversation_id" : "cnv_1pgm810o"
+    } ]
+  },
+  "policy" : {
+    "mode" : "on",
+    "budget_per_run_usd" : 0.25,
+    "channels" : [ "email", "sms" ]
+  },
+  "jobs" : [ {
+    "skill" : "aswritten/refract",
+    "status" : "ok",
+    "gate" : { },
+    "output" : {
+      "lens" : null,
+      "ask" : "There's a real shift here — the plan needs a data-quality gate with a named bar measured on the source system, owned by someone who isn't the programme manager, with the gap taken to the board as a named open item — but I have no documents in view to test it against; point me at the migration plan or board papers and I'll take it from there."
+    },
+    "landing" : {
+      "landed" : "message"
+    },
+    "ms" : 20769
+  } ],
+  "stream" : "fixtures/701",
+  "at" : "2026-09-23T02:47:48.205400972Z",
+  "live_run_id" : "e2ad7f8405c8"
+}
