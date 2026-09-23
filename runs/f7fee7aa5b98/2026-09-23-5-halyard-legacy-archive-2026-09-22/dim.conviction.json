@@ -1,0 +1,119 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "I'd rather we form a view than have one handed to us.",
+      "kind" : "epistemic-verb"
+    } ],
+    "why" : "States an active preference and orientation towards taking initiative rather than receiving a decision.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-6",
+    "regions" : [ "notion" ],
+    "evidence" : [ {
+      "quote" : "I'd assumed",
+      "kind" : "hedge"
+    } ],
+    "why" : "Expresses an unexamined prior assumption floated without commitment.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-7",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "That's the expensive answer and it's also the fragile one.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Direct, confident assertion diagnosing the flaw in the passive approach.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-9",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "and I'd take it firmly.",
+      "kind" : "intensifier"
+    }, {
+      "quote" : "Then here's the view I'd take",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Presents a clear proposal with stated firmness, but still framed as a view being advanced rather than a finalized decision.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-13",
+    "regions" : [ "principle" ],
+    "evidence" : [ {
+      "quote" : "The data is easy to keep. The meaning is what rots.",
+      "kind" : "plain-assertion"
+    }, {
+      "quote" : "It's the only part that matters in year eight.",
+      "kind" : "intensifier"
+    } ],
+    "why" : "Articulates an enduring, bedrock rule about long-term system and information decay.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-16",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "I'm persuaded. I'd add a reason of my own",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Concurs with the view and offers an additional supporting argument regarding behavioral risk.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-18",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "Both go in the note.",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Operational directive settling what is recorded as the agreed basis.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-20",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "I want legal to give us one in writing.",
+      "kind" : "commitment-marker"
+    } ],
+    "why" : "Stipulates a condition required before committing to a specific retention number.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-22",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "So the position is: the legacy platform is switched off when the last site goes live, the closed history is extracted first into an open self-describing archive, and the retention period comes from legal in writing before we sign anything with the vendor about decommissioning.",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Formally crystallizes and ratifies the agreed operational posture.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-23",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "I'd sign up to that.",
+      "kind" : "commitment-marker"
+    } ],
+    "why" : "Explicit ratification and sign-off on the synthesized decision.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-24",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "Me too. And this needs to be in the vendor exit conversation, not after it.",
+      "kind" : "commitment-marker"
+    } ],
+    "why" : "Second sign-off coupled with an operational sequencing requirement.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-28",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "Give me until the end of next week.",
+      "kind" : "commitment-marker"
+    } ],
+    "why" : "Commissive establishing a firm deadline for the action item.",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-2", "src-3", "src-4", "src-5", "src-8", "src-10", "src-11", "src-12", "src-14", "src-15", "src-17", "src-19", "src-21", "src-25", "src-26", "src-27" ],
+  "mints" : [ ]
+}
