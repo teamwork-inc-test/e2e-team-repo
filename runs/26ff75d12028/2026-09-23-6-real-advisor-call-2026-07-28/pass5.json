@@ -1,0 +1,34 @@
+{
+  "placements" : [ {
+    "verdict" : "reuse",
+    "leaf" : "Narrative_InstallableExpertise",
+    "supporting_segments" : [ "src-6", "src-7", "src-8", "src-9", "src-10", "src-12", "src-13", "src-14", "src-15", "src-16", "src-17", "src-18", "src-19", "src-20", "src-26" ],
+    "why" : "Reinforces the core installable expertise paradigm: extracting citable perspective as a technical moat, targeting non-tech knowledge businesses rather than self-building developers, containing context fragmentation across concurrent AI workspaces, isolating the human lens as the controlling core, and evaluating intermediary network moats against incumbent replication.",
+    "consulted" : [ "Narrative_InstallableExpertise", "Narrative_AntiSlackPositioning" ]
+  }, {
+    "verdict" : "reuse",
+    "leaf" : "Narrative_BehavioralProgressionPackaging",
+    "supporting_segments" : [ "src-2", "src-3", "src-4", "src-5", "src-21" ],
+    "why" : "Expands pricing and packaging strategy by positioning lower tiers for solo builders acting as single-person teams, while defining the enterprise plan by deployment architecture and organizational needs rather than enterprise client labeling.",
+    "consulted" : [ "Narrative_BehavioralProgressionPackaging" ]
+  }, {
+    "verdict" : "reuse",
+    "leaf" : "Narrative_InterviewFlywheel",
+    "supporting_segments" : [ "src-24" ],
+    "why" : "Applies the interview flywheel thesis by proposing a podcast format that simultaneously conducts expert interviews, creates public content, and packages installable expertise to populate the marketplace.",
+    "consulted" : [ "Narrative_InterviewFlywheel", "Narrative_InstallableExpertise" ]
+  }, {
+    "verdict" : "reuse",
+    "leaf" : "Narrative_HumanMomentVideoProof",
+    "supporting_segments" : [ "src-25" ],
+    "why" : "Reasserts the foundational principle that authentic human emotional moments and live reactions drive sales and demonstrate value far more effectively than static textual artifacts.",
+    "consulted" : [ "Narrative_HumanMomentVideoProof" ]
+  }, {
+    "verdict" : "reuse",
+    "leaf" : "Narrative_StagedFundraisingProcess",
+    "supporting_segments" : [ "src-2", "src-28", "src-29", "src-30" ],
+    "why" : "Frames early fundraising strategy and operational focus around strategic environment awareness, urging the founder to shift from continuous product development to active market selling.",
+    "consulted" : [ "Narrative_StagedFundraisingProcess" ]
+  } ],
+  "unplaced" : [ "src-1", "src-11", "src-22", "src-23", "src-27" ]
+}
