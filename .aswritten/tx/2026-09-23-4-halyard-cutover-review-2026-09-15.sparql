@@ -1,0 +1,414 @@
+PREFIX narr: <https://aswritten.ai/narrative#>
+PREFIX aswr: <https://aswritten.ai/aswr#>
+PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX dct:  <http://purl.org/dc/terms/>
+PREFIX xsd:  <http://www.w3.org/2001/XMLSchema#>
+PREFIX oa:   <http://www.w3.org/ns/oa#>
+PREFIX xkos: <http://rdf-vocabulary.ddialliance.org/xkos#>
+
+INSERT DATA {
+  aswr:Tx_20260923T015457Z a prov:Activity ;
+      prov:generatedAtTime "2026-09-23T01:54:57Z"^^xsd:dateTime ;
+      prov:wasAssociatedWith "aswritten.ai" ;
+      prov:wasAttributedTo "scarlet@aswritten.ai" ;
+      aswr:pipelinePin "8dd07a49bda8" ;
+      aswr:originPath ".aswritten/memories/2026-09-23-4-halyard-cutover-review-2026-09-15.md" ;
+      dct:title "Multipass source extraction: Halyard Cutover Review — 2026-09-15" ;
+      prov:generated narr:Sample_4HalyardCutoverReview20260915, narr:Expr_4HalyardCutoverReview20260915_1, narr:Expr_4HalyardCutoverReview20260915_2, narr:Expr_4HalyardCutoverReview20260915_3, narr:Expr_4HalyardCutoverReview20260915_4, narr:Expr_4HalyardCutoverReview20260915_5, narr:Expr_4HalyardCutoverReview20260915_6, narr:Expr_4HalyardCutoverReview20260915_7, narr:Expr_4HalyardCutoverReview20260915_8, narr:Expr_4HalyardCutoverReview20260915_9, narr:Expr_4HalyardCutoverReview20260915_10, narr:Expr_4HalyardCutoverReview20260915_11, narr:Expr_4HalyardCutoverReview20260915_12, narr:Expr_4HalyardCutoverReview20260915_13, narr:Expr_4HalyardCutoverReview20260915_14, narr:Expr_4HalyardCutoverReview20260915_15, narr:Expr_4HalyardCutoverReview20260915_16, narr:Expr_4HalyardCutoverReview20260915_17, narr:Expr_4HalyardCutoverReview20260915_18, narr:Expr_4HalyardCutoverReview20260915_19, narr:Expr_4HalyardCutoverReview20260915_20, narr:Expr_4HalyardCutoverReview20260915_21, narr:Expr_4HalyardCutoverReview20260915_22, narr:Expr_4HalyardCutoverReview20260915_23, narr:Expr_4HalyardCutoverReview20260915_24 .
+} ;
+INSERT DATA {
+  GRAPH aswr:Tx_20260923T015457Z {
+    narr:Sample_4HalyardCutoverReview20260915 a narr:Sample ;
+        dct:title "Halyard Cutover Review — 2026-09-15" ;
+        dct:created "2026-09-15"^^xsd:date ;
+        aswr:originPath ".aswritten/memories/2026-09-23-4-halyard-cutover-review-2026-09-15.md" ;
+        aswr:submittedBy narr:Actor_TanyaTeamowner ;
+        aswr:account narr:Actor_TanyaTeamowner .
+
+    narr:Expr_4HalyardCutoverReview20260915_1 a narr:Expression ;
+        narr:actor narr:Actor_TinaTeam ;
+        narr:act "commissive" ;
+        narr:context "Halyard Cutover Review" ;
+        skos:note "Initiating correction at the top of the meeting" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_4HalyardCutoverReview20260915 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Before we start on anything else, I need to correct something I said, and I'd rather do it at the top than bury it." ;
+                oa:prefix "ew\n2026-09-15\n\n**Tina Team:** " ;
+                oa:suffix "\n\n**Tanya Team:** Go ahead.\n\n*" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "259"^^xsd:integer ;
+                oa:end "374"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T01:54:57Z"^^xsd:dateTime .
+
+    narr:Expr_4HalyardCutoverReview20260915_2 a narr:Expression ;
+        narr:actor narr:Actor_TanyaTeam ;
+        narr:act "directive" ;
+        narr:context "Halyard Cutover Review" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_4HalyardCutoverReview20260915 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Go ahead." ;
+                oa:prefix "han bury it.\n\n**Tanya Team:** " ;
+                oa:suffix "\n\n**Tina Team:** On the eighth" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "392"^^xsd:integer ;
+                oa:end "401"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T01:54:57Z"^^xsd:dateTime .
+
+    narr:Expr_4HalyardCutoverReview20260915_3 a narr:Expression ;
+        narr:actor narr:Actor_TinaTeam ;
+        narr:act "assertive" ;
+        narr:context "Halyard Cutover Review" ;
+        skos:note "Retraction and correction of previous two-week soak estimate" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_4HalyardCutoverReview20260915 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "On the eighth I said the soak between sites has to be two full weeks, and I said I'd hold us to it. That was wrong. I was wrong on the eighth and I want it struck from the plan." ;
+                oa:prefix ":** Go ahead.\n\n**Tina Team:** " ;
+                oa:suffix "\n\n**Tanya Team:** Right. Tell " ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "418"^^xsd:integer ;
+                oa:end "595"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T01:54:57Z"^^xsd:dateTime .
+
+    narr:Expr_4HalyardCutoverReview20260915_4 a narr:Expression ;
+        narr:actor narr:Actor_TanyaTeam ;
+        narr:act "directive" ;
+        narr:context "Halyard Cutover Review" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_4HalyardCutoverReview20260915 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Right. Tell me why." ;
+                oa:prefix "om the plan.\n\n**Tanya Team:** " ;
+                oa:suffix "\n\n**Tina Team:** I quoted the " ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "613"^^xsd:integer ;
+                oa:end "632"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T01:54:57Z"^^xsd:dateTime .
+
+    narr:Expr_4HalyardCutoverReview20260915_5 a narr:Expression ;
+        narr:actor narr:Actor_TinaTeam ;
+        narr:act "assertive" ;
+        narr:context "Halyard Cutover Review" ;
+        skos:note "Explanation of Dockside exception queue log re-analysis" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_4HalyardCutoverReview20260915 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "I quoted the Dockside number — the exception queue not flattening until day nine or ten. I went back through the Dockside logs on Friday because Xavier's comment about it being one site, one season was bothering me. The reason the queue took nine days to flatten at Dockside is that the old reconciliation job ran weekly and every run threw a fresh batch of exceptions. Two weeks was two reconciliation cycles. It was never about the site settling." ;
+                oa:prefix " Tell me why.\n\n**Tina Team:** " ;
+                oa:suffix "\n\n**Xavier Expert:** And that " ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "649"^^xsd:integer ;
+                oa:end "1097"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T01:54:57Z"^^xsd:dateTime .
+
+    narr:Expr_4HalyardCutoverReview20260915_6 a narr:Expression ;
+        narr:actor narr:Actor_XavierExpert ;
+        narr:act "assertive" ;
+        narr:context "Halyard Cutover Review" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_4HalyardCutoverReview20260915 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "And that job is gone." ;
+                oa:prefix "settling.\n\n**Xavier Expert:** " ;
+                oa:suffix "\n\n**Tina Team:** That job is g" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "1118"^^xsd:integer ;
+                oa:end "1139"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T01:54:57Z"^^xsd:dateTime .
+
+    narr:Expr_4HalyardCutoverReview20260915_7 a narr:Expression ;
+        narr:actor narr:Actor_TinaTeam ;
+        narr:act "assertive" ;
+        narr:context "Halyard Cutover Review" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_4HalyardCutoverReview20260915 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "That job is gone. It was retired in July. Nothing in the new platform runs on a weekly cycle — reconciliation is continuous now. So the number I gave was measuring a job that doesn't exist any more, and I attached it to the soak as though it were a property of the site." ;
+                oa:prefix " job is gone.\n\n**Tina Team:** " ;
+                oa:suffix "\n\n**Tanya Team:** So what is t" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "1156"^^xsd:integer ;
+                oa:end "1426"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T01:54:57Z"^^xsd:dateTime .
+
+    narr:Expr_4HalyardCutoverReview20260915_8 a narr:Expression ;
+        narr:actor narr:Actor_TanyaTeam ;
+        narr:act "question" ;
+        narr:context "Halyard Cutover Review" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_4HalyardCutoverReview20260915 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "So what is the soak?" ;
+                oa:prefix "of the site.\n\n**Tanya Team:** " ;
+                oa:suffix "\n\n**Tina Team:** One week. Str" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "1444"^^xsd:integer ;
+                oa:end "1464"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T01:54:57Z"^^xsd:dateTime .
+
+    narr:Expr_4HalyardCutoverReview20260915_9 a narr:Expression ;
+        narr:actor narr:Actor_TinaTeam ;
+        narr:act "assertive" ;
+        narr:context "Halyard Cutover Review" ;
+        skos:note "Proposing revised one-week soak timeline based on corrected analysis" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_4HalyardCutoverReview20260915 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "One week. Strip the reconciliation cycles out of the Dockside curve and the underlying exception rate is flat by day four. One week gives you the flattening plus three days to look at it, which is the same margin I was arguing for. One week is the soak, and please don't hold the plan to two weeks on my say-so, because I was wrong on the eighth." ;
+                oa:prefix " is the soak?\n\n**Tina Team:** " ;
+                oa:suffix "\n\n**Tanya Team:** I want to be" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "1481"^^xsd:integer ;
+                oa:end "1827"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T01:54:57Z"^^xsd:dateTime .
+
+    narr:Expr_4HalyardCutoverReview20260915_10 a narr:Expression ;
+        narr:actor narr:Actor_TanyaTeam ;
+        narr:act "assertive" ;
+        narr:context "Halyard Cutover Review" ;
+        skos:note "Clarifying scope of change vs maintained sequential rollout plan" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_4HalyardCutoverReview20260915 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "I want to be clear about what is and isn't changing here. We are still going one site at a time, and we are still soaking between sites before the next one starts." ;
+                oa:prefix " the eighth.\n\n**Tanya Team:** " ;
+                oa:suffix "\n\n**Tina Team:** Yes. That doe" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "1845"^^xsd:integer ;
+                oa:end "2008"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T01:54:57Z"^^xsd:dateTime .
+
+    narr:Expr_4HalyardCutoverReview20260915_11 a narr:Expression ;
+        narr:actor narr:Actor_TinaTeam ;
+        narr:act "assertive" ;
+        narr:context "Halyard Cutover Review" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_4HalyardCutoverReview20260915 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Yes. That doesn't move at all. The sequencing is right. It's the number I put on the soak that was wrong." ;
+                oa:prefix "t one starts.\n\n**Tina Team:** " ;
+                oa:suffix "\n\n**Tanya Team:** Good, becaus" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "2025"^^xsd:integer ;
+                oa:end "2130"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T01:54:57Z"^^xsd:dateTime .
+
+    narr:Expr_4HalyardCutoverReview20260915_12 a narr:Expression ;
+        narr:actor narr:Actor_TanyaTeam ;
+        narr:act "assertive" ;
+        narr:context "Halyard Cutover Review" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_4HalyardCutoverReview20260915 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Good, because I've already said the sequencing out loud to Freya this morning and she gave me a better argument for it than either of us had." ;
+                oa:prefix "t was wrong.\n\n**Tanya Team:** " ;
+                oa:suffix "\n\n**Xavier Expert:** Can I say" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "2148"^^xsd:integer ;
+                oa:end "2289"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T01:54:57Z"^^xsd:dateTime .
+
+    narr:Expr_4HalyardCutoverReview20260915_13 a narr:Expression ;
+        narr:actor narr:Actor_XavierExpert ;
+        narr:act "assertive" ;
+        narr:context "Halyard Cutover Review" ;
+        skos:note "Question framing an assessment of risk trade-off" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_4HalyardCutoverReview20260915 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Can I say that I think this is the right correction and also that it costs us something? Two weeks was conservative in a place where being conservative was cheap. One week is defensible but it has no slack in it." ;
+                oa:prefix "f us had.\n\n**Xavier Expert:** " ;
+                oa:suffix "\n\n**Tina Team:** That's true. " ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "2310"^^xsd:integer ;
+                oa:end "2522"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T01:54:57Z"^^xsd:dateTime .
+
+    narr:Expr_4HalyardCutoverReview20260915_14 a narr:Expression ;
+        narr:actor narr:Actor_TinaTeam ;
+        narr:act "assertive" ;
+        narr:context "Halyard Cutover Review" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_4HalyardCutoverReview20260915 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "That's true. I'd rather be defensible and know where the slack isn't than conservative for a reason that turned out to be imaginary." ;
+                oa:prefix " slack in it.\n\n**Tina Team:** " ;
+                oa:suffix "\n\n**Xavier Expert:** Agreed. I" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "2539"^^xsd:integer ;
+                oa:end "2671"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T01:54:57Z"^^xsd:dateTime .
+
+    narr:Expr_4HalyardCutoverReview20260915_15 a narr:Expression ;
+        narr:actor narr:Actor_XavierExpert ;
+        narr:act "assertive" ;
+        narr:context "Halyard Cutover Review" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_4HalyardCutoverReview20260915 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Agreed. I just want it on the record that the new number is tight, not safe." ;
+                oa:prefix "maginary.\n\n**Xavier Expert:** " ;
+                oa:suffix "\n\n**Tanya Team:** Noted. Tina," ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "2692"^^xsd:integer ;
+                oa:end "2768"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T01:54:57Z"^^xsd:dateTime .
+
+    narr:Expr_4HalyardCutoverReview20260915_16 a narr:Expression ;
+        narr:actor narr:Actor_TanyaTeam ;
+        narr:act "question" ;
+        narr:context "Halyard Cutover Review" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_4HalyardCutoverReview20260915 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Noted. Tina, does this change the four-site total?" ;
+                oa:prefix "t, not safe.\n\n**Tanya Team:** " ;
+                oa:suffix "\n\n**Tina Team:** It takes thre" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "2786"^^xsd:integer ;
+                oa:end "2836"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T01:54:57Z"^^xsd:dateTime .
+
+    narr:Expr_4HalyardCutoverReview20260915_17 a narr:Expression ;
+        narr:actor narr:Actor_TinaTeam ;
+        narr:act "assertive" ;
+        narr:context "Halyard Cutover Review" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_4HalyardCutoverReview20260915 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "It takes three weeks out of the programme. Four sites, three soaks between them, a week off each." ;
+                oa:prefix "r-site total?\n\n**Tina Team:** " ;
+                oa:suffix "\n\n**Tanya Team:** Which I will" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "2853"^^xsd:integer ;
+                oa:end "2950"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T01:54:57Z"^^xsd:dateTime .
+
+    narr:Expr_4HalyardCutoverReview20260915_18 a narr:Expression ;
+        narr:actor narr:Actor_TanyaTeam ;
+        narr:act "declarative" ;
+        narr:context "Halyard Cutover Review" ;
+        skos:note "Decision to allocate recovered time to the Clyde buffer" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_4HalyardCutoverReview20260915 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Which I will not be spending. That goes into the Clyde buffer." ;
+                oa:prefix "ek off each.\n\n**Tanya Team:** " ;
+                oa:suffix "\n\n**Tina Team:** I'd assumed s" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "2968"^^xsd:integer ;
+                oa:end "3030"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T01:54:57Z"^^xsd:dateTime .
+
+    narr:Expr_4HalyardCutoverReview20260915_19 a narr:Expression ;
+        narr:actor narr:Actor_TinaTeam ;
+        narr:act "assertive" ;
+        narr:context "Halyard Cutover Review" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_4HalyardCutoverReview20260915 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "I'd assumed so." ;
+                oa:prefix "Clyde buffer.\n\n**Tina Team:** " ;
+                oa:suffix "\n\n**Tanya Team:** Right. For t" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "3047"^^xsd:integer ;
+                oa:end "3062"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T01:54:57Z"^^xsd:dateTime .
+
+    narr:Expr_4HalyardCutoverReview20260915_20 a narr:Expression ;
+        narr:actor narr:Actor_TanyaTeam ;
+        narr:act "declarative" ;
+        narr:context "Halyard Cutover Review" ;
+        skos:note "Formal ratification of superseded timeline" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_4HalyardCutoverReview20260915 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Right. For the record then: the soak between sites is one week, not two, and my note from the eighth about two weeks should be read as superseded by this." ;
+                oa:prefix " assumed so.\n\n**Tanya Team:** " ;
+                oa:suffix " Tina, can you put the Docksid" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "3080"^^xsd:integer ;
+                oa:end "3234"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T01:54:57Z"^^xsd:dateTime .
+
+    narr:Expr_4HalyardCutoverReview20260915_21 a narr:Expression ;
+        narr:actor narr:Actor_TanyaTeam ;
+        narr:act "directive" ;
+        narr:context "Halyard Cutover Review" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_4HalyardCutoverReview20260915 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Tina, can you put the Dockside re-analysis somewhere the steering group can see it? They heard me say two weeks on the tenth." ;
+                oa:prefix "e read as superseded by this. " ;
+                oa:suffix "\n\n**Tina Team:** I'll write it" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "3235"^^xsd:integer ;
+                oa:end "3360"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T01:54:57Z"^^xsd:dateTime .
+
+    narr:Expr_4HalyardCutoverReview20260915_22 a narr:Expression ;
+        narr:actor narr:Actor_TinaTeam ;
+        narr:act "commissive" ;
+        narr:context "Halyard Cutover Review" ;
+        skos:note "Action item commitment" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_4HalyardCutoverReview20260915 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "I'll write it up today." ;
+                oa:prefix "on the tenth.\n\n**Tina Team:** " ;
+                oa:suffix "\n\n**Tanya Team:** Thank you fo" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "3377"^^xsd:integer ;
+                oa:end "3400"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T01:54:57Z"^^xsd:dateTime .
+
+    narr:Expr_4HalyardCutoverReview20260915_23 a narr:Expression ;
+        narr:actor narr:Actor_TanyaTeam ;
+        narr:act "expressive" ;
+        narr:context "Halyard Cutover Review" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_4HalyardCutoverReview20260915 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Thank you for bringing it rather than letting it ride." ;
+                oa:prefix "it up today.\n\n**Tanya Team:** " ;
+                oa:suffix "\n\n**Tina Team:** It would have" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "3418"^^xsd:integer ;
+                oa:end "3472"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T01:54:57Z"^^xsd:dateTime .
+
+    narr:Expr_4HalyardCutoverReview20260915_24 a narr:Expression ;
+        narr:actor narr:Actor_TinaTeam ;
+        narr:act "assertive" ;
+        narr:context "Halyard Cutover Review" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_4HalyardCutoverReview20260915 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "It would have come out at Northgate either way, and worse." ;
+                oa:prefix "ting it ride.\n\n**Tina Team:** " ;
+                oa:suffix "\n" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "3489"^^xsd:integer ;
+                oa:end "3547"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T01:54:57Z"^^xsd:dateTime .
+
+    aswr:Run_20260923T015457Z_actors a prov:Activity ;
+        aswr:runPass "actors" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/2eef85363745/2026-09-23-4-halyard-cutover-review-2026-09-15/actors.json" ;
+        dct:isPartOf aswr:Tx_20260923T015457Z ;
+        prov:generatedAtTime "2026-09-23T01:54:57Z"^^xsd:dateTime .
+
+    aswr:Run_20260923T015457Z_pass1 a prov:Activity ;
+        aswr:runPass "pass1" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/2eef85363745/2026-09-23-4-halyard-cutover-review-2026-09-15/pass1.json" ;
+        prov:generated narr:Sample_4HalyardCutoverReview20260915, narr:Expr_4HalyardCutoverReview20260915_1, narr:Expr_4HalyardCutoverReview20260915_2, narr:Expr_4HalyardCutoverReview20260915_3, narr:Expr_4HalyardCutoverReview20260915_4, narr:Expr_4HalyardCutoverReview20260915_5, narr:Expr_4HalyardCutoverReview20260915_6, narr:Expr_4HalyardCutoverReview20260915_7, narr:Expr_4HalyardCutoverReview20260915_8, narr:Expr_4HalyardCutoverReview20260915_9, narr:Expr_4HalyardCutoverReview20260915_10, narr:Expr_4HalyardCutoverReview20260915_11, narr:Expr_4HalyardCutoverReview20260915_12, narr:Expr_4HalyardCutoverReview20260915_13, narr:Expr_4HalyardCutoverReview20260915_14, narr:Expr_4HalyardCutoverReview20260915_15, narr:Expr_4HalyardCutoverReview20260915_16, narr:Expr_4HalyardCutoverReview20260915_17, narr:Expr_4HalyardCutoverReview20260915_18, narr:Expr_4HalyardCutoverReview20260915_19, narr:Expr_4HalyardCutoverReview20260915_20, narr:Expr_4HalyardCutoverReview20260915_21, narr:Expr_4HalyardCutoverReview20260915_22, narr:Expr_4HalyardCutoverReview20260915_23, narr:Expr_4HalyardCutoverReview20260915_24 ;
+        dct:isPartOf aswr:Tx_20260923T015457Z ;
+        prov:generatedAtTime "2026-09-23T01:54:57Z"^^xsd:dateTime .
+  }
+}
