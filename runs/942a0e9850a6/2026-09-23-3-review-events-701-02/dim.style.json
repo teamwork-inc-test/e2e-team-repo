@@ -1,0 +1,24 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-3",
+    "regions" : [ "antithesis" ],
+    "evidence" : [ {
+      "quote" : "this reads as though containment settled the sequencing; the call weighed it against local site friction and did not settle it",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Opposes what the text appears to convey ('settled') against what the discussion actually did ('did not settle it') within a single framed correction.",
+    "reported" : true
+  }, {
+    "segment_local_id" : "src-4",
+    "regions" : [ "antithesis" ],
+    "evidence" : [ {
+      "quote" : "we never agreed a single-site pilot — the call settled on two sites in parallel",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Constructs deliberate contrast setting what was never agreed ('single-site pilot') against what was settled ('two sites in parallel').",
+    "reported" : true
+  } ],
+  "unmarked" : [ "src-1", "src-2" ],
+  "mints" : [ ],
+  "region_mints" : [ ]
+}
