@@ -1,0 +1,47 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "past", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "Tanya (team owner) ruled on where reaction delivery belongs:",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Framing assertion reports a settled, specific past decision event.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-2",
+    "regions" : [ "future", "irrealis", "abstract" ],
+    "evidence" : [ {
+      "quote" : "we route every reaction through one bundle per run per person",
+      "kind" : "commitment-marker"
+    }, {
+      "quote" : "a person should get one thing to read, not four",
+      "kind" : "modal-marker"
+    } ],
+    "why" : "Prescriptive rule establishes an intended policy principle for future runs.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-3",
+    "regions" : [ "present", "abstract" ],
+    "evidence" : [ {
+      "quote" : "the bundle closes when\nthe run closes",
+      "kind" : "plain-assertion"
+    }, {
+      "quote" : "a skill that misses the close waits for the next run",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Defines general recurring system mechanics and timing rules across runs.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-4",
+    "regions" : [ "past", "realis", "abstract" ],
+    "evidence" : [ {
+      "quote" : "The alternative considered and rejected was per-skill\ndelivery with client-side collapsing",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Recounts a settled architectural alternative evaluation and rationale.",
+    "reported" : false
+  } ],
+  "unmarked" : [ ],
+  "unmarked_rest" : false
+}
