@@ -1,0 +1,1055 @@
+PREFIX narr: <https://aswritten.ai/narrative#>
+PREFIX aswr: <https://aswritten.ai/aswr#>
+PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX dct:  <http://purl.org/dc/terms/>
+PREFIX xsd:  <http://www.w3.org/2001/XMLSchema#>
+PREFIX oa:   <http://www.w3.org/ns/oa#>
+PREFIX xkos: <http://rdf-vocabulary.ddialliance.org/xkos#>
+
+INSERT DATA {
+  aswr:Tx_20260923T185702Z a prov:Activity ;
+      prov:generatedAtTime "2026-09-23T18:57:02Z"^^xsd:dateTime ;
+      prov:wasAssociatedWith "aswritten.ai" ;
+      prov:wasAttributedTo "scarlet@aswritten.ai" ;
+      aswr:pipelinePin "8dd07a49bda8" ;
+      aswr:originPath ".aswritten/memories/2026-09-23-6-real-advisor-call-2026-07-28.md" ;
+      dct:title "Multipass fragment: 6RealAdvisorCall20260728" ;
+      prov:generated narr:VecAffect_6RealAdvisorCall20260728_7, narr:VecAffect_6RealAdvisorCall20260728_8, narr:VecAffect_6RealAdvisorCall20260728_27, narr:VecConviction_6RealAdvisorCall20260728_2, narr:VecConviction_6RealAdvisorCall20260728_3, narr:VecConviction_6RealAdvisorCall20260728_4, narr:VecConviction_6RealAdvisorCall20260728_5, narr:VecConviction_6RealAdvisorCall20260728_6, narr:VecConviction_6RealAdvisorCall20260728_7, narr:VecConviction_6RealAdvisorCall20260728_8, narr:VecConviction_6RealAdvisorCall20260728_9, narr:VecConviction_6RealAdvisorCall20260728_10, narr:VecConviction_6RealAdvisorCall20260728_12, narr:VecConviction_6RealAdvisorCall20260728_13, narr:VecConviction_6RealAdvisorCall20260728_14, narr:VecConviction_6RealAdvisorCall20260728_15, narr:VecConviction_6RealAdvisorCall20260728_16, narr:VecConviction_6RealAdvisorCall20260728_17, narr:VecConviction_6RealAdvisorCall20260728_18, narr:VecConviction_6RealAdvisorCall20260728_19, narr:VecConviction_6RealAdvisorCall20260728_20, narr:VecConviction_6RealAdvisorCall20260728_21, narr:VecConviction_6RealAdvisorCall20260728_23, narr:VecConviction_6RealAdvisorCall20260728_24, narr:VecConviction_6RealAdvisorCall20260728_25, narr:VecConviction_6RealAdvisorCall20260728_26, narr:VecConviction_6RealAdvisorCall20260728_27, narr:VecConviction_6RealAdvisorCall20260728_28, narr:VecConviction_6RealAdvisorCall20260728_29, narr:VecConviction_6RealAdvisorCall20260728_30, narr:VecPower_6RealAdvisorCall20260728_4, narr:VecPower_6RealAdvisorCall20260728_10, narr:VecPower_6RealAdvisorCall20260728_12, narr:VecPower_6RealAdvisorCall20260728_20, narr:VecPower_6RealAdvisorCall20260728_28, narr:VecPower_6RealAdvisorCall20260728_30, narr:DirRegister_OperatingThesisMaxim, narr:VecRegister_6RealAdvisorCall20260728_7, narr:VecRegister_6RealAdvisorCall20260728_12, narr:VecRegister_6RealAdvisorCall20260728_18, narr:VecRelational_6RealAdvisorCall20260728_4, narr:VecRelational_6RealAdvisorCall20260728_10, narr:VecRelational_6RealAdvisorCall20260728_13, narr:VecRelational_6RealAdvisorCall20260728_16, narr:VecRelational_6RealAdvisorCall20260728_28, narr:VecRelational_6RealAdvisorCall20260728_30, narr:VecStyle_6RealAdvisorCall20260728_12, narr:VecStyle_6RealAdvisorCall20260728_14, narr:VecStyle_6RealAdvisorCall20260728_16, narr:VecStyle_6RealAdvisorCall20260728_20, narr:VecStyle_6RealAdvisorCall20260728_21, narr:VecStyle_6RealAdvisorCall20260728_25, narr:VecTemporal_6RealAdvisorCall20260728_1, narr:VecTemporal_6RealAdvisorCall20260728_2, narr:VecTemporal_6RealAdvisorCall20260728_3, narr:VecTemporal_6RealAdvisorCall20260728_4, narr:VecTemporal_6RealAdvisorCall20260728_5, narr:VecTemporal_6RealAdvisorCall20260728_6, narr:VecTemporal_6RealAdvisorCall20260728_7, narr:VecTemporal_6RealAdvisorCall20260728_8, narr:VecTemporal_6RealAdvisorCall20260728_9, narr:VecTemporal_6RealAdvisorCall20260728_10, narr:VecTemporal_6RealAdvisorCall20260728_12, narr:VecTemporal_6RealAdvisorCall20260728_13, narr:VecTemporal_6RealAdvisorCall20260728_14, narr:VecTemporal_6RealAdvisorCall20260728_15, narr:VecTemporal_6RealAdvisorCall20260728_16, narr:VecTemporal_6RealAdvisorCall20260728_17, narr:VecTemporal_6RealAdvisorCall20260728_18, narr:VecTemporal_6RealAdvisorCall20260728_19, narr:VecTemporal_6RealAdvisorCall20260728_20, narr:VecTemporal_6RealAdvisorCall20260728_21, narr:VecTemporal_6RealAdvisorCall20260728_23, narr:VecTemporal_6RealAdvisorCall20260728_24, narr:VecTemporal_6RealAdvisorCall20260728_25, narr:VecTemporal_6RealAdvisorCall20260728_26, narr:VecTemporal_6RealAdvisorCall20260728_27, narr:VecTemporal_6RealAdvisorCall20260728_28, narr:VecTemporal_6RealAdvisorCall20260728_29, narr:VecTemporal_6RealAdvisorCall20260728_30, narr:VecValue_6RealAdvisorCall20260728_4, narr:VecValue_6RealAdvisorCall20260728_8, narr:VecValue_6RealAdvisorCall20260728_9, narr:VecValue_6RealAdvisorCall20260728_16, narr:VecValue_6RealAdvisorCall20260728_17, narr:VecValue_6RealAdvisorCall20260728_25, narr:VecValue_6RealAdvisorCall20260728_28, narr:Position_SoloBuilderB2CPositioning, narr:Position_NonTechKnowledgeCompanyTargeting, narr:Position_ContextFragmentationContainment .
+} ;
+INSERT DATA {
+  GRAPH aswr:Tx_20260923T185702Z {
+    narr:VecAffect_6RealAdvisorCall20260728_7 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_6RealAdvisorCall20260728_7 ;
+        narr:dimension narr:Dim_Affect ;
+        narr:region narr:Affect_ActivatedNegative ;
+        narr:evidence "lexical-marker: rolled their own bullshit" ;
+        narr:reported false ;
+        skos:note "Colloquial dismissive phrasing conveys acute exasperation / cynical annoyance with competitor habits." ;
+        prov:generatedAtTime "2026-09-23T18:57:02Z"^^xsd:dateTime .
+
+    narr:VecAffect_6RealAdvisorCall20260728_8 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_6RealAdvisorCall20260728_8 ;
+        narr:dimension narr:Dim_Affect ;
+        narr:region narr:Affect_ActivatedNegative ;
+        narr:evidence "lexical-marker: I'm worried what's going to break or cross over." ;
+        narr:reported false ;
+        skos:note "Explicit expression of personal worry and anxiety over complexity and chaos." ;
+        prov:generatedAtTime "2026-09-23T18:57:02Z"^^xsd:dateTime .
+
+    narr:VecAffect_6RealAdvisorCall20260728_27 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_6RealAdvisorCall20260728_27 ;
+        narr:dimension narr:Dim_Affect ;
+        narr:region narr:Affect_ActivatedPositive ;
+        narr:evidence "intensifier: that's really catapult" ;
+        narr:reported false ;
+        skos:note "Enthusiastic positive projection of rapid momentum and excitement for growth." ;
+        prov:generatedAtTime "2026-09-23T18:57:02Z"^^xsd:dateTime .
+
+    narr:VecConviction_6RealAdvisorCall20260728_2 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_6RealAdvisorCall20260728_2 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Notion ;
+        narr:evidence "hedge: One of the things I've been thinking a lot about is the pricing and whether all of that is too low or sort of how the positioning is here." ;
+        narr:reported false ;
+        skos:note "Tanya articulates pricing and positioning concerns as exploratory thoughts rather than a settled stance." ;
+        prov:generatedAtTime "2026-09-23T18:57:02Z"^^xsd:dateTime .
+
+    narr:VecConviction_6RealAdvisorCall20260728_3 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_6RealAdvisorCall20260728_3 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Claim ;
+        narr:evidence "epistemic-verb: I think that's the angle." ;
+        narr:reported false ;
+        skos:note "Tina stakes out an assertive GTM thesis grounded in an epistemic stance." ;
+        prov:generatedAtTime "2026-09-23T18:57:02Z"^^xsd:dateTime .
+
+    narr:VecConviction_6RealAdvisorCall20260728_4 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_6RealAdvisorCall20260728_4 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Claim ;
+        narr:evidence "intensifier: The numbers really work." ;
+        narr:reported false ;
+        skos:note "Tina asserts the viability of the B2C economics directly." ;
+        prov:generatedAtTime "2026-09-23T18:57:02Z"^^xsd:dateTime .
+
+    narr:VecConviction_6RealAdvisorCall20260728_5 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_6RealAdvisorCall20260728_5 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Notion ;
+        narr:evidence "hedge: Maybe that is the more direct distillation of the shift I'm having" ;
+        narr:reported false ;
+        skos:note "Tanya frames her realization with 'maybe', exploring an emergent shift rather than making a firm operational pivot." ;
+        prov:generatedAtTime "2026-09-23T18:57:02Z"^^xsd:dateTime .
+
+    narr:VecConviction_6RealAdvisorCall20260728_6 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_6RealAdvisorCall20260728_6 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Claim ;
+        narr:evidence "plain-assertion: Trying to go after tech companies is going to be hard because tech companies all think they've solved the problem." ;
+        narr:reported false ;
+        skos:note "Xavier makes an unhedged claim about the difficulty of selling to tech companies." ;
+        prov:generatedAtTime "2026-09-23T18:57:02Z"^^xsd:dateTime .
+
+    narr:VecConviction_6RealAdvisorCall20260728_7 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_6RealAdvisorCall20260728_7 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Claim ;
+        narr:evidence "plain-assertion: The problem with most developers and entrepreneurs is they've already rolled their own bullshit." ;
+        narr:reported false ;
+        skos:note "Tanya affirms Xavier's point with a direct, assertive diagnosis." ;
+        prov:generatedAtTime "2026-09-23T18:57:02Z"^^xsd:dateTime .
+
+    narr:VecConviction_6RealAdvisorCall20260728_8 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_6RealAdvisorCall20260728_8 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Claim ;
+        narr:evidence "epistemic-verb: I'm worried what's going to break or cross over." ;
+        narr:reported false ;
+        skos:note "Tina expresses personal operational vulnerability and concern as a live observation." ;
+        prov:generatedAtTime "2026-09-23T18:57:02Z"^^xsd:dateTime .
+
+    narr:VecConviction_6RealAdvisorCall20260728_9 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_6RealAdvisorCall20260728_9 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Claim ;
+        narr:evidence "plain-assertion: The more involved people are, the more they need separation from their own chaos." ;
+        narr:reported false ;
+        skos:note "Tina presents a generalized rule of user need as an asserted claim." ;
+        prov:generatedAtTime "2026-09-23T18:57:02Z"^^xsd:dateTime .
+
+    narr:VecConviction_6RealAdvisorCall20260728_10 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_6RealAdvisorCall20260728_10 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Claim ;
+        narr:evidence "framing-move: Find a company that's actually a knowledge company that doesn't think of themselves as a knowledge company." ;
+        narr:reported false ;
+        skos:note "Xavier gives strategic advice framed as an imperative directive." ;
+        prov:generatedAtTime "2026-09-23T18:57:02Z"^^xsd:dateTime .
+
+    narr:VecConviction_6RealAdvisorCall20260728_12 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_6RealAdvisorCall20260728_12 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Principle ;
+        narr:evidence "intensifier: One of my operating theses is the telephone company always wins." ;
+        narr:reported false ;
+        skos:note "Xavier explicitly names an 'operating thesis' with absolute ('always') framing as foundational doctrine." ;
+        prov:generatedAtTime "2026-09-23T18:57:02Z"^^xsd:dateTime .
+
+    narr:VecConviction_6RealAdvisorCall20260728_13 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_6RealAdvisorCall20260728_13 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Claim ;
+        narr:evidence "plain-assertion: the intrinsic cost of switching would be too high to a new thing." ;
+        narr:reported false ;
+        skos:note "Xavier states an economic analysis of incumbent switching costs." ;
+        prov:generatedAtTime "2026-09-23T18:57:02Z"^^xsd:dateTime .
+
+    narr:VecConviction_6RealAdvisorCall20260728_14 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_6RealAdvisorCall20260728_14 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Claim ;
+        narr:evidence "plain-assertion: the graph itself is the moat, right?" ;
+        narr:reported false ;
+        skos:note "Tanya asserts the architectural defensibility of the product." ;
+        prov:generatedAtTime "2026-09-23T18:57:02Z"^^xsd:dateTime .
+
+    narr:VecConviction_6RealAdvisorCall20260728_15 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_6RealAdvisorCall20260728_15 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Claim ;
+        narr:evidence "hedge: I just think that like, like the, the core problem is like someone comes along and builds a better version of that, right?" ;
+        narr:reported false ;
+        skos:note "Xavier pushes back with a counter-claim hedged with conversational disfluencies." ;
+        prov:generatedAtTime "2026-09-23T18:57:02Z"^^xsd:dateTime .
+
+    narr:VecConviction_6RealAdvisorCall20260728_16 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_6RealAdvisorCall20260728_16 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Claim ;
+        narr:evidence "plain-assertion: I want to have as written because you have as written and that makes my as written more valuable because you have it." ;
+        narr:reported false ;
+        skos:note "Xavier asserts the necessity of network effects for product value." ;
+        prov:generatedAtTime "2026-09-23T18:57:02Z"^^xsd:dateTime .
+
+    narr:VecConviction_6RealAdvisorCall20260728_17 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_6RealAdvisorCall20260728_17 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Claim ;
+        narr:evidence "plain-assertion: So that shows that the actual unique part is by my lens — is applying the lens" ;
+        narr:reported false ;
+        skos:note "Freya asserts what constitutes the core value of the system based on personal testing." ;
+        prov:generatedAtTime "2026-09-23T18:57:02Z"^^xsd:dateTime .
+
+    narr:VecConviction_6RealAdvisorCall20260728_18 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_6RealAdvisorCall20260728_18 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Claim ;
+        narr:evidence "plain-assertion: The real differentiator and the technical moat is that I take textual documents and I extract perspective from them and then I make that perspective citable in the individual task." ;
+        narr:reported false ;
+        skos:note "Tanya defines the technical differentiator in direct, unhedged terms." ;
+        prov:generatedAtTime "2026-09-23T18:57:02Z"^^xsd:dateTime .
+
+    narr:VecConviction_6RealAdvisorCall20260728_19 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_6RealAdvisorCall20260728_19 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Claim ;
+        narr:evidence "plain-assertion: 90% of what I see people chasing though is structure for context and memory." ;
+        narr:reported false ;
+        skos:note "Tina provides an empirical observation from market conversations." ;
+        prov:generatedAtTime "2026-09-23T18:57:02Z"^^xsd:dateTime .
+
+    narr:VecConviction_6RealAdvisorCall20260728_20 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_6RealAdvisorCall20260728_20 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Claim ;
+        narr:evidence "plain-assertion: You're selling to an audience that wants something like this… they're looking for a solution." ;
+        narr:reported false ;
+        skos:note "Tina instructs on positioning by asserting market demand dynamics." ;
+        prov:generatedAtTime "2026-09-23T18:57:02Z"^^xsd:dateTime .
+
+    narr:VecConviction_6RealAdvisorCall20260728_21 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_6RealAdvisorCall20260728_21 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Claim ;
+        narr:evidence "plain-assertion: It's not that enterprise isn't a good target. It's that the quote, enterprise plan isn't about enterprise. It's about the shape of the deployment and the needs of the organization." ;
+        narr:reported false ;
+        skos:note "Tanya clarifies product tier definitions through analytical distinction." ;
+        prov:generatedAtTime "2026-09-23T18:57:02Z"^^xsd:dateTime .
+
+    narr:VecConviction_6RealAdvisorCall20260728_23 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_6RealAdvisorCall20260728_23 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Notion ;
+        narr:evidence "hedge: I have an idea of when I have the time, I will invest and build the perspective." ;
+        narr:reported false ;
+        skos:note "Freya expresses a conditional, future intention without concrete operational commitment." ;
+        prov:generatedAtTime "2026-09-23T18:57:02Z"^^xsd:dateTime .
+
+    narr:VecConviction_6RealAdvisorCall20260728_24 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_6RealAdvisorCall20260728_24 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Notion ;
+        narr:evidence "modal-marker: I could build out the marketplace by basically creating a podcast" ;
+        narr:reported false ;
+        skos:note "Tanya explores a potential distribution and bootstrapping idea with 'could'." ;
+        prov:generatedAtTime "2026-09-23T18:57:02Z"^^xsd:dateTime .
+
+    narr:VecConviction_6RealAdvisorCall20260728_25 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_6RealAdvisorCall20260728_25 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Principle ;
+        narr:evidence "plain-assertion: The human moment sells, not the text." ;
+        narr:reported false ;
+        skos:note "Freya delivers an axiomatic, bedrock value statement about human connection versus text." ;
+        prov:generatedAtTime "2026-09-23T18:57:02Z"^^xsd:dateTime .
+
+    narr:VecConviction_6RealAdvisorCall20260728_26 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_6RealAdvisorCall20260728_26 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Notion ;
+        narr:evidence "hedge: that does seem like the future to me." ;
+        narr:reported false ;
+        skos:note "Tanya floats a prospective consulting deliverable idea, acknowledging she has not tested it yet." ;
+        prov:generatedAtTime "2026-09-23T18:57:02Z"^^xsd:dateTime .
+
+    narr:VecConviction_6RealAdvisorCall20260728_27 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_6RealAdvisorCall20260728_27 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Claim ;
+        narr:evidence "epistemic-verb: I think you've got a sticky product." ;
+        narr:reported false ;
+        skos:note "Tina predicts product stickiness and word-of-mouth momentum." ;
+        prov:generatedAtTime "2026-09-23T18:57:02Z"^^xsd:dateTime .
+
+    narr:VecConviction_6RealAdvisorCall20260728_28 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_6RealAdvisorCall20260728_28 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Claim ;
+        narr:evidence "epistemic-verb: Short term, like this, this thing can win and I think you should win." ;
+        narr:reported false ;
+        skos:note "Xavier offers advice on strategic positioning and market awareness." ;
+        prov:generatedAtTime "2026-09-23T18:57:02Z"^^xsd:dateTime .
+
+    narr:VecConviction_6RealAdvisorCall20260728_29 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_6RealAdvisorCall20260728_29 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Decision ;
+        narr:evidence "commitment-marker: I gotta pull my head out of the development." ;
+        narr:reported false ;
+        skos:note "Tanya adopts an operational commitment to change her behavior." ;
+        prov:generatedAtTime "2026-09-23T18:57:02Z"^^xsd:dateTime .
+
+    narr:VecConviction_6RealAdvisorCall20260728_30 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_6RealAdvisorCall20260728_30 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Decision ;
+        narr:evidence "commitment-marker: Just stop and go sell it." ;
+        narr:reported false ;
+        skos:note "Xavier delivers a direct operational command reinforcing the decision to pivot to sales." ;
+        prov:generatedAtTime "2026-09-23T18:57:02Z"^^xsd:dateTime .
+
+    narr:VecPower_6RealAdvisorCall20260728_4 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_6RealAdvisorCall20260728_4 ;
+        narr:dimension narr:Dim_Power ;
+        narr:region narr:Power_RationalPersuasion ;
+        narr:evidence "framing-move: Think about the numbers though, right? The numbers really work. B2C. Because if we take theory that every single person is now their own team." ;
+        narr:reported false ;
+        skos:note "Tina uses logical framing and numerical reasoning ('The numbers really work... Because if we take theory') to convince Tanya." ;
+        prov:generatedAtTime "2026-09-23T18:57:02Z"^^xsd:dateTime .
+
+    narr:VecPower_6RealAdvisorCall20260728_10 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_6RealAdvisorCall20260728_10 ;
+        narr:dimension narr:Dim_Power ;
+        narr:region narr:Power_Expert ;
+        narr:evidence "performed-act: Find a company that's actually a knowledge company that doesn't think of themselves as a knowledge company." ;
+        narr:reported false ;
+        skos:note "Xavier issues advisory operational guidance grounded in his practitioner expertise." ;
+        prov:generatedAtTime "2026-09-23T18:57:02Z"^^xsd:dateTime .
+
+    narr:VecPower_6RealAdvisorCall20260728_12 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_6RealAdvisorCall20260728_12 ;
+        narr:dimension narr:Dim_Power ;
+        narr:region narr:Power_Expert ;
+        narr:region narr:Power_RationalPersuasion ;
+        narr:evidence "framing-move: One of my operating theses is the telephone company always wins. The telephone company always wins because the telephone company sits in between." ;
+        narr:reported false ;
+        skos:note "Xavier invokes his established operational frameworks ('operating theses') to build a deductive structural argument." ;
+        prov:generatedAtTime "2026-09-23T18:57:02Z"^^xsd:dateTime .
+
+    narr:VecPower_6RealAdvisorCall20260728_20 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_6RealAdvisorCall20260728_20 ;
+        narr:dimension narr:Dim_Power ;
+        narr:region narr:Power_Expert ;
+        narr:region narr:Power_RationalPersuasion ;
+        narr:evidence "framing-move: You're selling to an audience that wants something like this… they're looking for a solution. You're educating them on how it works and the benefits — not the use case." ;
+        narr:reported false ;
+        skos:note "Tina instructs Tanya on sales positioning based on go-to-market knowledge and strategic logic." ;
+        prov:generatedAtTime "2026-09-23T18:57:02Z"^^xsd:dateTime .
+
+    narr:VecPower_6RealAdvisorCall20260728_28 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_6RealAdvisorCall20260728_28 ;
+        narr:dimension narr:Dim_Power ;
+        narr:region narr:Power_Expert ;
+        narr:evidence "framing-move: Short term, like this, this thing can win and I think you should win. But like know the, know the strategic environment you are operating in" ;
+        narr:reported false ;
+        skos:note "Xavier adopts the posture of an expert strategic advisor directing executive focus." ;
+        prov:generatedAtTime "2026-09-23T18:57:02Z"^^xsd:dateTime .
+
+    narr:VecPower_6RealAdvisorCall20260728_30 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_6RealAdvisorCall20260728_30 ;
+        narr:dimension narr:Dim_Power ;
+        narr:region narr:Power_Pressure ;
+        narr:evidence "performed-act: Yeah, exactly. Just stop and go sell it." ;
+        narr:reported false ;
+        skos:note "Xavier applies direct, decisive pressure urging immediate executive action over contemplation." ;
+        prov:generatedAtTime "2026-09-23T18:57:02Z"^^xsd:dateTime .
+
+    narr:DirRegister_OperatingThesisMaxim a narr:DirectionalNode ;
+        dct:source narr:Sample_6RealAdvisorCall20260728 ;
+        narr:dimension narr:Dim_Register ;
+        narr:region narr:Register_Formal ;
+        narr:region narr:Register_Technical ;
+        narr:frame "Is the speaker elevating an immediate observation into a formal, recurring operating rule or thesis?" ;
+        skos:note "operating thesis framing" ;
+        prov:generatedAtTime "2026-09-23T18:57:02Z"^^xsd:dateTime .
+
+    narr:VecRegister_6RealAdvisorCall20260728_7 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_6RealAdvisorCall20260728_7 ;
+        narr:dimension narr:Dim_Register ;
+        narr:region narr:Register_Irreverent ;
+        narr:region narr:Register_Casual ;
+        narr:evidence "lexical-marker: rolled their own bullshit" ;
+        narr:reported false ;
+        skos:note "Uses blunt colloquial profanity to punctuate and dismiss competitor and developer self-built solutions." ;
+        prov:generatedAtTime "2026-09-23T18:57:02Z"^^xsd:dateTime .
+
+    narr:VecRegister_6RealAdvisorCall20260728_12 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_6RealAdvisorCall20260728_12 ;
+        narr:dimension narr:Dim_Register ;
+        narr:region narr:Register_Formal ;
+        narr:region narr:Register_Technical ;
+        narr:direction narr:DirRegister_OperatingThesisMaxim ;
+        narr:evidence "framing-move: One of my operating theses is" ;
+        narr:reported false ;
+        skos:note "Elevates conversational advice into an abstract, structured business maxim." ;
+        prov:generatedAtTime "2026-09-23T18:57:02Z"^^xsd:dateTime .
+
+    narr:VecRegister_6RealAdvisorCall20260728_18 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_6RealAdvisorCall20260728_18 ;
+        narr:dimension narr:Dim_Register ;
+        narr:region narr:Register_Technical ;
+        narr:evidence "lexical-marker: technical moat is that I take textual documents and I extract perspective from them and then I make that perspective citable in the individual task" ;
+        narr:reported false ;
+        skos:note "Shifts from loose conversational pitch into precise system architecture and product definition terminology." ;
+        prov:generatedAtTime "2026-09-23T18:57:02Z"^^xsd:dateTime .
+
+    narr:VecRelational_6RealAdvisorCall20260728_4 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_6RealAdvisorCall20260728_4 ;
+        narr:dimension narr:Dim_Relational ;
+        narr:region narr:Relational_CommunalSharing ;
+        narr:evidence "framing-move: every single person is now their own team" ;
+        narr:reported false ;
+        skos:note "Frames individual actors through the collective, undifferentiated pooling model of a 'team'." ;
+        prov:generatedAtTime "2026-09-23T18:57:02Z"^^xsd:dateTime .
+
+    narr:VecRelational_6RealAdvisorCall20260728_10 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_6RealAdvisorCall20260728_10 ;
+        narr:dimension narr:Dim_Relational ;
+        narr:region narr:Relational_AuthorityRanking ;
+        narr:evidence "plain-signal: Find a company that's actually a knowledge company that doesn't think of themselves as a knowledge company." ;
+        narr:reported false ;
+        skos:note "Enacts an advisory command/imperative instructing the founder how to target." ;
+        prov:generatedAtTime "2026-09-23T18:57:02Z"^^xsd:dateTime .
+
+    narr:VecRelational_6RealAdvisorCall20260728_13 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_6RealAdvisorCall20260728_13 ;
+        narr:dimension narr:Dim_Relational ;
+        narr:region narr:Relational_MarketPricing ;
+        narr:evidence "lexical-marker: intrinsic cost of switching would be too high" ;
+        narr:reported false ;
+        skos:note "Analyzes strategic positioning strictly through the lens of switching costs, competition, and economic barriers." ;
+        prov:generatedAtTime "2026-09-23T18:57:02Z"^^xsd:dateTime .
+
+    narr:VecRelational_6RealAdvisorCall20260728_16 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_6RealAdvisorCall20260728_16 ;
+        narr:dimension narr:Dim_Relational ;
+        narr:region narr:Relational_EqualityMatching ;
+        narr:evidence "framing-move: I want to have as written because you have as written and that makes my as written more valuable because you have it." ;
+        narr:reported false ;
+        skos:note "Articulates symmetric peer-to-peer reciprocity and network exchange value between individual participants." ;
+        prov:generatedAtTime "2026-09-23T18:57:02Z"^^xsd:dateTime .
+
+    narr:VecRelational_6RealAdvisorCall20260728_28 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_6RealAdvisorCall20260728_28 ;
+        narr:dimension narr:Dim_Relational ;
+        narr:region narr:Relational_AuthorityRanking ;
+        narr:evidence "plain-signal: know the, know the strategic environment you are operating in" ;
+        narr:reported false ;
+        skos:note "Advisory directive asserting strategic oversight and senior guidance." ;
+        prov:generatedAtTime "2026-09-23T18:57:02Z"^^xsd:dateTime .
+
+    narr:VecRelational_6RealAdvisorCall20260728_30 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_6RealAdvisorCall20260728_30 ;
+        narr:dimension narr:Dim_Relational ;
+        narr:region narr:Relational_AuthorityRanking ;
+        narr:evidence "plain-signal: Just stop and go sell it." ;
+        narr:reported false ;
+        skos:note "Blunt directive command prescribing the founder's immediate course of action." ;
+        prov:generatedAtTime "2026-09-23T18:57:02Z"^^xsd:dateTime .
+
+    narr:VecStyle_6RealAdvisorCall20260728_12 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_6RealAdvisorCall20260728_12 ;
+        narr:dimension narr:Dim_Style ;
+        narr:region narr:Style_Anaphora ;
+        narr:region narr:Style_Metaphor ;
+        narr:evidence "framing-move: the telephone company always wins. The telephone company always wins because the telephone company sits in between." ;
+        narr:reported false ;
+        skos:note "Repeats opening clause across successive statements ('The telephone company always wins') while framing intermediary infrastructure metaphorically as the telephone company." ;
+        prov:generatedAtTime "2026-09-23T18:57:02Z"^^xsd:dateTime .
+
+    narr:VecStyle_6RealAdvisorCall20260728_14 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_6RealAdvisorCall20260728_14 ;
+        narr:dimension narr:Dim_Style ;
+        narr:region narr:Style_Metaphor ;
+        narr:evidence "framing-move: the graph itself is the moat" ;
+        narr:reported false ;
+        skos:note "Direct metaphor casting the accumulation of relational graph data as a defensive business moat." ;
+        prov:generatedAtTime "2026-09-23T18:57:02Z"^^xsd:dateTime .
+
+    narr:VecStyle_6RealAdvisorCall20260728_16 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_6RealAdvisorCall20260728_16 ;
+        narr:dimension narr:Dim_Style ;
+        narr:region narr:Style_Parallelism ;
+        narr:evidence "framing-move: I want to have as written because you have as written and that makes my as written more valuable because you have it." ;
+        narr:reported false ;
+        skos:note "Chiasmus-like balanced syntactic recurrence highlighting reciprocal network value." ;
+        prov:generatedAtTime "2026-09-23T18:57:02Z"^^xsd:dateTime .
+
+    narr:VecStyle_6RealAdvisorCall20260728_20 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_6RealAdvisorCall20260728_20 ;
+        narr:dimension narr:Dim_Style ;
+        narr:region narr:Style_Antithesis ;
+        narr:evidence "framing-move: how it works and the benefits — not the use case" ;
+        narr:reported false ;
+        skos:note "Contrasts what is being educated vs excluded in deliberate matched negation." ;
+        prov:generatedAtTime "2026-09-23T18:57:02Z"^^xsd:dateTime .
+
+    narr:VecStyle_6RealAdvisorCall20260728_21 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_6RealAdvisorCall20260728_21 ;
+        narr:dimension narr:Dim_Style ;
+        narr:region narr:Style_Antithesis ;
+        narr:region narr:Style_Parallelism ;
+        narr:evidence "framing-move: It's not that enterprise isn't a good target. It's that the quote, enterprise plan isn't about enterprise. It's about the shape of the deployment and the needs of the organization." ;
+        narr:reported false ;
+        skos:note "Matched parallel 'It's not that... It's that... It's about...' rhetorical framing contrasting nominal labels with structural realities." ;
+        prov:generatedAtTime "2026-09-23T18:57:02Z"^^xsd:dateTime .
+
+    narr:VecStyle_6RealAdvisorCall20260728_25 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_6RealAdvisorCall20260728_25 ;
+        narr:dimension narr:Dim_Style ;
+        narr:region narr:Style_Antithesis ;
+        narr:evidence "framing-move: The human moment sells, not the text." ;
+        narr:reported false ;
+        skos:note "Pithy antithetical opposition setting 'the human moment' directly against 'the text'." ;
+        prov:generatedAtTime "2026-09-23T18:57:02Z"^^xsd:dateTime .
+
+    narr:VecTemporal_6RealAdvisorCall20260728_1 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_6RealAdvisorCall20260728_1 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Present ;
+        narr:region narr:Temporal_Realis ;
+        narr:region narr:Temporal_Concrete ;
+        narr:evidence "plain-assertion: Tanya Team has pulled three of her advisors onto one call before she starts fundraising" ;
+        narr:reported false ;
+        skos:note "Narrates the immediate realis background and concrete setup of the call." ;
+        prov:generatedAtTime "2026-09-23T18:57:02Z"^^xsd:dateTime .
+
+    narr:VecTemporal_6RealAdvisorCall20260728_2 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_6RealAdvisorCall20260728_2 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Present ;
+        narr:region narr:Temporal_Realis ;
+        narr:region narr:Temporal_Concrete ;
+        narr:evidence "lexical-marker: I am just starting to fundraise." ;
+        narr:reported false ;
+        skos:note "Describes current immediate activities and pricing reflections in realis terms." ;
+        prov:generatedAtTime "2026-09-23T18:57:02Z"^^xsd:dateTime .
+
+    narr:VecTemporal_6RealAdvisorCall20260728_3 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_6RealAdvisorCall20260728_3 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Abstract ;
+        narr:evidence "framing-move: From a B2C perspective, to the single people who are building whole companies on their own." ;
+        narr:reported false ;
+        skos:note "Framing an abstract market segment and target audience category." ;
+        prov:generatedAtTime "2026-09-23T18:57:02Z"^^xsd:dateTime .
+
+    narr:VecTemporal_6RealAdvisorCall20260728_4 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_6RealAdvisorCall20260728_4 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Irrealis ;
+        narr:region narr:Temporal_Abstract ;
+        narr:evidence "framing-move: Because if we take theory that every single person is now their own team." ;
+        narr:reported false ;
+        skos:note "Hypothetical generalized theoretical premise about future market structures." ;
+        prov:generatedAtTime "2026-09-23T18:57:02Z"^^xsd:dateTime .
+
+    narr:VecTemporal_6RealAdvisorCall20260728_5 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_6RealAdvisorCall20260728_5 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Present ;
+        narr:region narr:Temporal_Realis ;
+        narr:region narr:Temporal_Abstract ;
+        narr:evidence "epistemic-verb: realizing that it's actually more of a B2C product than a B2B product." ;
+        narr:reported false ;
+        skos:note "Reflects an ongoing conceptual shift regarding product tier categories." ;
+        prov:generatedAtTime "2026-09-23T18:57:02Z"^^xsd:dateTime .
+
+    narr:VecTemporal_6RealAdvisorCall20260728_6 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_6RealAdvisorCall20260728_6 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Future ;
+        narr:region narr:Temporal_Irrealis ;
+        narr:region narr:Temporal_Abstract ;
+        narr:evidence "plain-assertion: Trying to go after tech companies is going to be hard" ;
+        narr:reported false ;
+        skos:note "Projects difficulty of targeting a broad category in future sales attempts." ;
+        prov:generatedAtTime "2026-09-23T18:57:02Z"^^xsd:dateTime .
+
+    narr:VecTemporal_6RealAdvisorCall20260728_7 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_6RealAdvisorCall20260728_7 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Present ;
+        narr:region narr:Temporal_Realis ;
+        narr:region narr:Temporal_Abstract ;
+        narr:evidence "plain-assertion: The problem with most developers and entrepreneurs is they've already rolled their own bullshit." ;
+        narr:reported false ;
+        skos:note "States an existing general condition across developers and entrepreneurs." ;
+        prov:generatedAtTime "2026-09-23T18:57:02Z"^^xsd:dateTime .
+
+    narr:VecTemporal_6RealAdvisorCall20260728_8 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_6RealAdvisorCall20260728_8 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Present ;
+        narr:region narr:Temporal_Realis ;
+        narr:region narr:Temporal_Concrete ;
+        narr:evidence "plain-assertion: People like me have 10 repos on the go with Claude right now" ;
+        narr:reported false ;
+        skos:note "Anchored in current, concrete workflows and immediate anxieties." ;
+        prov:generatedAtTime "2026-09-23T18:57:02Z"^^xsd:dateTime .
+
+    narr:VecTemporal_6RealAdvisorCall20260728_9 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_6RealAdvisorCall20260728_9 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Abstract ;
+        narr:evidence "plain-assertion: The more involved people are, the more they need separation from their own chaos." ;
+        narr:reported false ;
+        skos:note "Articulates a general, timeless behavioral principle." ;
+        prov:generatedAtTime "2026-09-23T18:57:02Z"^^xsd:dateTime .
+
+    narr:VecTemporal_6RealAdvisorCall20260728_10 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_6RealAdvisorCall20260728_10 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Future ;
+        narr:region narr:Temporal_Irrealis ;
+        narr:region narr:Temporal_Abstract ;
+        narr:evidence "framing-move: Find a company that's actually a knowledge company that doesn't think of themselves as a knowledge company." ;
+        narr:reported false ;
+        skos:note "Directive aimed at finding hypothetical future customer profiles." ;
+        prov:generatedAtTime "2026-09-23T18:57:02Z"^^xsd:dateTime .
+
+    narr:VecTemporal_6RealAdvisorCall20260728_12 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_6RealAdvisorCall20260728_12 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Present ;
+        narr:region narr:Temporal_Realis ;
+        narr:region narr:Temporal_Abstract ;
+        narr:evidence "plain-assertion: The telephone company always wins because the telephone company sits in between." ;
+        narr:reported false ;
+        skos:note "Presents an enduring abstract operating principle." ;
+        prov:generatedAtTime "2026-09-23T18:57:02Z"^^xsd:dateTime .
+
+    narr:VecTemporal_6RealAdvisorCall20260728_13 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_6RealAdvisorCall20260728_13 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Irrealis ;
+        narr:region narr:Temporal_Abstract ;
+        narr:evidence "framing-move: If there's an incumbent, right, who has a beachhead already" ;
+        narr:reported false ;
+        skos:note "Posits a conditional economic scenario around switching costs." ;
+        prov:generatedAtTime "2026-09-23T18:57:02Z"^^xsd:dateTime .
+
+    narr:VecTemporal_6RealAdvisorCall20260728_14 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_6RealAdvisorCall20260728_14 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Present ;
+        narr:region narr:Temporal_Realis ;
+        narr:region narr:Temporal_Abstract ;
+        narr:evidence "plain-assertion: the graph itself is the moat, right? And like, yes, I'm letting someone store the data in their repo, but the read and manipulation layer is proprietary." ;
+        narr:reported false ;
+        skos:note "Describes current architectural moat dynamics and design principles." ;
+        prov:generatedAtTime "2026-09-23T18:57:02Z"^^xsd:dateTime .
+
+    narr:VecTemporal_6RealAdvisorCall20260728_15 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_6RealAdvisorCall20260728_15 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Future ;
+        narr:region narr:Temporal_Irrealis ;
+        narr:region narr:Temporal_Abstract ;
+        narr:evidence "framing-move: someone comes along and builds a better version of that, right?" ;
+        narr:reported false ;
+        skos:note "Hypothetical future risk of competitive replication." ;
+        prov:generatedAtTime "2026-09-23T18:57:02Z"^^xsd:dateTime .
+
+    narr:VecTemporal_6RealAdvisorCall20260728_16 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_6RealAdvisorCall20260728_16 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Irrealis ;
+        narr:region narr:Temporal_Abstract ;
+        narr:evidence "framing-move: I want to have as written because you have as written and that makes my as written more valuable because you have it." ;
+        narr:reported false ;
+        skos:note "Constructs a hypothetical network-effect dynamic." ;
+        prov:generatedAtTime "2026-09-23T18:57:02Z"^^xsd:dateTime .
+
+    narr:VecTemporal_6RealAdvisorCall20260728_17 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_6RealAdvisorCall20260728_17 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Present ;
+        narr:region narr:Temporal_Realis ;
+        narr:region narr:Temporal_Abstract ;
+        narr:evidence "plain-assertion: Without my input through my own lens, it breaks, it falls down. So that shows that the actual unique part is by my lens" ;
+        narr:reported false ;
+        skos:note "Formulates a general principle from current systemic operation." ;
+        prov:generatedAtTime "2026-09-23T18:57:02Z"^^xsd:dateTime .
+
+    narr:VecTemporal_6RealAdvisorCall20260728_18 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_6RealAdvisorCall20260728_18 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Present ;
+        narr:region narr:Temporal_Realis ;
+        narr:region narr:Temporal_Concrete ;
+        narr:evidence "plain-assertion: The real differentiator and the technical moat is that I take textual documents and I extract perspective from them" ;
+        narr:reported false ;
+        skos:note "Asserts concrete, existing technical features and operations." ;
+        prov:generatedAtTime "2026-09-23T18:57:02Z"^^xsd:dateTime .
+
+    narr:VecTemporal_6RealAdvisorCall20260728_19 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_6RealAdvisorCall20260728_19 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Present ;
+        narr:region narr:Temporal_Realis ;
+        narr:region narr:Temporal_Abstract ;
+        narr:evidence "plain-assertion: 90% of what I see people chasing though is structure for context and memory." ;
+        narr:reported false ;
+        skos:note "Observations of prevailing general market demand patterns." ;
+        prov:generatedAtTime "2026-09-23T18:57:02Z"^^xsd:dateTime .
+
+    narr:VecTemporal_6RealAdvisorCall20260728_20 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_6RealAdvisorCall20260728_20 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Present ;
+        narr:region narr:Temporal_Realis ;
+        narr:region narr:Temporal_Abstract ;
+        narr:evidence "plain-assertion: You're educating them on how it works and the benefits — not the use case." ;
+        narr:reported false ;
+        skos:note "Frames the current abstract nature of the go-to-market interaction." ;
+        prov:generatedAtTime "2026-09-23T18:57:02Z"^^xsd:dateTime .
+
+    narr:VecTemporal_6RealAdvisorCall20260728_21 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_6RealAdvisorCall20260728_21 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Present ;
+        narr:region narr:Temporal_Realis ;
+        narr:region narr:Temporal_Abstract ;
+        narr:evidence "plain-assertion: It's about the shape of the deployment and the needs of the organization." ;
+        narr:reported false ;
+        skos:note "Characterizes the abstract definitions of enterprise product tiers." ;
+        prov:generatedAtTime "2026-09-23T18:57:02Z"^^xsd:dateTime .
+
+    narr:VecTemporal_6RealAdvisorCall20260728_23 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_6RealAdvisorCall20260728_23 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Future ;
+        narr:region narr:Temporal_Irrealis ;
+        narr:region narr:Temporal_Concrete ;
+        narr:evidence "commitment-marker: when I have the time, I will invest and build the perspective." ;
+        narr:reported false ;
+        skos:note "Pledges a contingent future personal action." ;
+        prov:generatedAtTime "2026-09-23T18:57:02Z"^^xsd:dateTime .
+
+    narr:VecTemporal_6RealAdvisorCall20260728_24 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_6RealAdvisorCall20260728_24 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Future ;
+        narr:region narr:Temporal_Concrete ;
+        narr:evidence "modal-marker: I could build out the marketplace by basically creating a podcast where I interview people" ;
+        narr:reported false ;
+        skos:note "Concrete future idea with modal suspension." ;
+        prov:generatedAtTime "2026-09-23T18:57:02Z"^^xsd:dateTime .
+
+    narr:VecTemporal_6RealAdvisorCall20260728_25 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_6RealAdvisorCall20260728_25 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Abstract ;
+        narr:evidence "plain-assertion: The human moment sells, not the text." ;
+        narr:reported false ;
+        skos:note "A timeless abstract maxim on value proposition." ;
+        prov:generatedAtTime "2026-09-23T18:57:02Z"^^xsd:dateTime .
+
+    narr:VecTemporal_6RealAdvisorCall20260728_26 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_6RealAdvisorCall20260728_26 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Future ;
+        narr:region narr:Temporal_Concrete ;
+        narr:evidence "lexical-marker: that does seem like the future to me." ;
+        narr:reported false ;
+        skos:note "Evaluates a concrete consulting artifact as a future direction." ;
+        prov:generatedAtTime "2026-09-23T18:57:02Z"^^xsd:dateTime .
+
+    narr:VecTemporal_6RealAdvisorCall20260728_27 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_6RealAdvisorCall20260728_27 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Future ;
+        narr:region narr:Temporal_Irrealis ;
+        narr:region narr:Temporal_Concrete ;
+        narr:evidence "plain-assertion: If you can get it into the hands of 20, 50 people... The word of mouth of that will just... that's really catapult." ;
+        narr:reported false ;
+        skos:note "Predicts conditional future growth based on a specific user cohort size." ;
+        prov:generatedAtTime "2026-09-23T18:57:02Z"^^xsd:dateTime .
+
+    narr:VecTemporal_6RealAdvisorCall20260728_28 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_6RealAdvisorCall20260728_28 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Future ;
+        narr:region narr:Temporal_Abstract ;
+        narr:evidence "lexical-marker: where the world will go." ;
+        narr:reported false ;
+        skos:note "Directs focus toward broad future strategic environments." ;
+        prov:generatedAtTime "2026-09-23T18:57:02Z"^^xsd:dateTime .
+
+    narr:VecTemporal_6RealAdvisorCall20260728_29 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_6RealAdvisorCall20260728_29 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Present ;
+        narr:region narr:Temporal_Realis ;
+        narr:region narr:Temporal_Concrete ;
+        narr:evidence "modal-marker: I gotta pull my head out of the development." ;
+        narr:reported false ;
+        skos:note "Immediate concrete shift of personal working focus in the present." ;
+        prov:generatedAtTime "2026-09-23T18:57:02Z"^^xsd:dateTime .
+
+    narr:VecTemporal_6RealAdvisorCall20260728_30 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_6RealAdvisorCall20260728_30 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Future ;
+        narr:region narr:Temporal_Concrete ;
+        narr:evidence "plain-signal: Just stop and go sell it." ;
+        narr:reported false ;
+        skos:note "Immediate directive prescribing concrete next action." ;
+        prov:generatedAtTime "2026-09-23T18:57:02Z"^^xsd:dateTime .
+
+    narr:VecValue_6RealAdvisorCall20260728_4 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_6RealAdvisorCall20260728_4 ;
+        narr:dimension narr:Dim_Value ;
+        narr:region narr:Value_Autonomy ;
+        narr:evidence "plain-assertion: every single person is now their own team" ;
+        narr:reported false ;
+        skos:note "Appeals to individual self-sufficiency and self-origination as the foundational premise." ;
+        prov:generatedAtTime "2026-09-23T18:57:02Z"^^xsd:dateTime .
+
+    narr:VecValue_6RealAdvisorCall20260728_8 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_6RealAdvisorCall20260728_8 ;
+        narr:dimension narr:Dim_Value ;
+        narr:region narr:Value_Conservation ;
+        narr:evidence "plain-assertion: I'm worried what's going to break or cross over" ;
+        narr:reported false ;
+        skos:note "Expresses concern over preserving stability and preventing system breakdown." ;
+        prov:generatedAtTime "2026-09-23T18:57:02Z"^^xsd:dateTime .
+
+    narr:VecValue_6RealAdvisorCall20260728_9 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_6RealAdvisorCall20260728_9 ;
+        narr:dimension narr:Dim_Value ;
+        narr:region narr:Value_Conservation ;
+        narr:evidence "plain-assertion: separation from their own chaos" ;
+        narr:reported false ;
+        skos:note "Appeals to order, containment, and stabilization against personal operational disorder." ;
+        prov:generatedAtTime "2026-09-23T18:57:02Z"^^xsd:dateTime .
+
+    narr:VecValue_6RealAdvisorCall20260728_16 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_6RealAdvisorCall20260728_16 ;
+        narr:dimension narr:Dim_Value ;
+        narr:region narr:Value_Relatedness ;
+        narr:evidence "plain-assertion: makes my as written more valuable because you have it" ;
+        narr:reported false ;
+        skos:note "Frames product value as deriving directly from mutual adoption and network connection." ;
+        prov:generatedAtTime "2026-09-23T18:57:02Z"^^xsd:dateTime .
+
+    narr:VecValue_6RealAdvisorCall20260728_17 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_6RealAdvisorCall20260728_17 ;
+        narr:dimension narr:Dim_Value ;
+        narr:region narr:Value_Autonomy ;
+        narr:evidence "plain-assertion: Without my input through my own lens, it breaks" ;
+        narr:reported false ;
+        skos:note "Locates essential value in personal agency and self-originated perspective." ;
+        prov:generatedAtTime "2026-09-23T18:57:02Z"^^xsd:dateTime .
+
+    narr:VecValue_6RealAdvisorCall20260728_25 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_6RealAdvisorCall20260728_25 ;
+        narr:dimension narr:Dim_Value ;
+        narr:region narr:Value_Relatedness ;
+        narr:evidence "plain-assertion: The human moment sells, not the text." ;
+        narr:reported false ;
+        skos:note "Identifies intersubjective human connection over impersonal artifact as the core value." ;
+        prov:generatedAtTime "2026-09-23T18:57:02Z"^^xsd:dateTime .
+
+    narr:VecValue_6RealAdvisorCall20260728_28 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_6RealAdvisorCall20260728_28 ;
+        narr:dimension narr:Dim_Value ;
+        narr:region narr:Value_SelfEnhancement ;
+        narr:evidence "plain-assertion: this thing can win and I think you should win" ;
+        narr:reported false ;
+        skos:note "Explicitly appeals to winning and market dominance as the desired outcome." ;
+        prov:generatedAtTime "2026-09-23T18:57:02Z"^^xsd:dateTime .
+
+    narr:Expr_6RealAdvisorCall20260728_6 narr:supports narr:Narrative_InstallableExpertise .
+
+    narr:Expr_6RealAdvisorCall20260728_7 narr:supports narr:Narrative_InstallableExpertise .
+
+    narr:Expr_6RealAdvisorCall20260728_8 narr:supports narr:Narrative_InstallableExpertise .
+
+    narr:Expr_6RealAdvisorCall20260728_9 narr:supports narr:Narrative_InstallableExpertise .
+
+    narr:Expr_6RealAdvisorCall20260728_10 narr:supports narr:Narrative_InstallableExpertise .
+
+    narr:Expr_6RealAdvisorCall20260728_12 narr:supports narr:Narrative_InstallableExpertise .
+
+    narr:Expr_6RealAdvisorCall20260728_13 narr:supports narr:Narrative_InstallableExpertise .
+
+    narr:Expr_6RealAdvisorCall20260728_14 narr:supports narr:Narrative_InstallableExpertise .
+
+    narr:Expr_6RealAdvisorCall20260728_15 narr:supports narr:Narrative_InstallableExpertise .
+
+    narr:Expr_6RealAdvisorCall20260728_16 narr:supports narr:Narrative_InstallableExpertise .
+
+    narr:Expr_6RealAdvisorCall20260728_17 narr:supports narr:Narrative_InstallableExpertise .
+
+    narr:Expr_6RealAdvisorCall20260728_18 narr:supports narr:Narrative_InstallableExpertise .
+
+    narr:Expr_6RealAdvisorCall20260728_19 narr:supports narr:Narrative_InstallableExpertise .
+
+    narr:Expr_6RealAdvisorCall20260728_20 narr:supports narr:Narrative_InstallableExpertise .
+
+    narr:Expr_6RealAdvisorCall20260728_26 narr:supports narr:Narrative_InstallableExpertise .
+
+    narr:Expr_6RealAdvisorCall20260728_2 narr:supports narr:Narrative_BehavioralProgressionPackaging .
+
+    narr:Expr_6RealAdvisorCall20260728_3 narr:supports narr:Narrative_BehavioralProgressionPackaging .
+
+    narr:Expr_6RealAdvisorCall20260728_4 narr:supports narr:Narrative_BehavioralProgressionPackaging .
+
+    narr:Expr_6RealAdvisorCall20260728_5 narr:supports narr:Narrative_BehavioralProgressionPackaging .
+
+    narr:Expr_6RealAdvisorCall20260728_21 narr:supports narr:Narrative_BehavioralProgressionPackaging .
+
+    narr:Expr_6RealAdvisorCall20260728_24 narr:supports narr:Narrative_InterviewFlywheel .
+
+    narr:Expr_6RealAdvisorCall20260728_25 narr:supports narr:Narrative_HumanMomentVideoProof .
+
+    narr:Expr_6RealAdvisorCall20260728_2 narr:supports narr:Narrative_StagedFundraisingProcess .
+
+    narr:Expr_6RealAdvisorCall20260728_28 narr:supports narr:Narrative_StagedFundraisingProcess .
+
+    narr:Expr_6RealAdvisorCall20260728_29 narr:supports narr:Narrative_StagedFundraisingProcess .
+
+    narr:Expr_6RealAdvisorCall20260728_30 narr:supports narr:Narrative_StagedFundraisingProcess .
+
+    narr:Position_SoloBuilderB2CPositioning a narr:Position ;
+        narr:frame "How should product positioning and pricing balance individual solo builders as single-person teams against traditional enterprise B2B tiers?" ;
+        prov:generatedAtTime "2026-09-23T18:57:02Z"^^xsd:dateTime .
+
+    narr:Position_SoloBuilderB2CPositioning narr:supports narr:Narrative_BehavioralProgressionPackaging .
+
+    narr:Expr_6RealAdvisorCall20260728_3 narr:supports narr:Position_SoloBuilderB2CPositioning .
+
+    narr:Expr_6RealAdvisorCall20260728_4 narr:supports narr:Position_SoloBuilderB2CPositioning .
+
+    narr:Expr_6RealAdvisorCall20260728_5 narr:supports narr:Position_SoloBuilderB2CPositioning .
+
+    narr:Position_NonTechKnowledgeCompanyTargeting a narr:Position ;
+        narr:frame "How should target market qualification distinguish covert knowledge companies from tech companies that build proprietary workarounds?" ;
+        prov:generatedAtTime "2026-09-23T18:57:02Z"^^xsd:dateTime .
+
+    narr:Position_NonTechKnowledgeCompanyTargeting narr:supports narr:Narrative_InstallableExpertise .
+
+    narr:Expr_6RealAdvisorCall20260728_6 narr:supports narr:Position_NonTechKnowledgeCompanyTargeting .
+
+    narr:Expr_6RealAdvisorCall20260728_7 narr:supports narr:Position_NonTechKnowledgeCompanyTargeting .
+
+    narr:Expr_6RealAdvisorCall20260728_10 narr:supports narr:Position_NonTechKnowledgeCompanyTargeting .
+
+    narr:Position_ContextFragmentationContainment a narr:Position ;
+        narr:frame "How does multi-project AI development generate demand for organizational separation and cognitive chaos containment?" ;
+        prov:generatedAtTime "2026-09-23T18:57:02Z"^^xsd:dateTime .
+
+    narr:Position_ContextFragmentationContainment narr:supports narr:Narrative_InstallableExpertise .
+
+    narr:Expr_6RealAdvisorCall20260728_8 narr:supports narr:Position_ContextFragmentationContainment .
+
+    narr:Expr_6RealAdvisorCall20260728_9 narr:supports narr:Position_ContextFragmentationContainment .
+
+    narr:Expr_6RealAdvisorCall20260728_12 narr:supports narr:Position_IntermediaryNetworkEffectsFederation .
+
+    narr:Expr_6RealAdvisorCall20260728_13 narr:supports narr:Position_IntermediaryNetworkEffectsFederation .
+
+    narr:Expr_6RealAdvisorCall20260728_15 narr:supports narr:Position_IntermediaryNetworkEffectsFederation .
+
+    narr:Expr_6RealAdvisorCall20260728_16 narr:supports narr:Position_IntermediaryNetworkEffectsFederation .
+
+    narr:Expr_6RealAdvisorCall20260728_14 narr:supports narr:Position_InstallableExpertiseCategoryMoat .
+
+    narr:Expr_6RealAdvisorCall20260728_18 narr:supports narr:Position_InstallableExpertiseCategoryMoat .
+
+    narr:Expr_6RealAdvisorCall20260728_26 narr:supports narr:Position_InstallableExpertiseCategoryMoat .
+
+    narr:Expr_6RealAdvisorCall20260728_17 narr:supports narr:Position_DesignTokenPerspectiveParallel .
+
+    narr:Expr_6RealAdvisorCall20260728_21 narr:supports narr:Position_BehavioralStepPackagingTiers .
+
+    narr:Expr_6RealAdvisorCall20260728_24 narr:supports narr:Position_InterviewFlywheelSalesMotion .
+
+    narr:Expr_6RealAdvisorCall20260728_25 narr:supports narr:Position_HumanMomentDemoVideo .
+
+    aswr:Miss_6RealAdvisorCall20260728_resolve_trip a aswr:Miss ;
+        aswr:missPass "resolve" ;
+        aswr:missClass "floor" ;
+        aswr:missError "resolutions empty against a populated perspective" ;
+        aswr:missModel "google/gemini-3.7-flash" ;
+        aswr:tripFloor "empty_on_populated" ;
+        aswr:tripRatio "0.0000"^^xsd:decimal ;
+        aswr:tripOutcome "accepted-flagged" ;
+        aswr:tripFallbackModel "anthropic/claude-sonnet-5" ;
+        aswr:missScope narr:Sample_6RealAdvisorCall20260728 ;
+        prov:generatedAtTime "2026-09-23T18:57:02Z"^^xsd:dateTime .
+
+    aswr:Run_20260923T185702Z_dim_affect a prov:Activity ;
+        aswr:runPass "dim.affect" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/26ff75d12028/2026-09-23-6-real-advisor-call-2026-07-28/dim.affect.json" ;
+        prov:generated narr:VecAffect_6RealAdvisorCall20260728_7, narr:VecAffect_6RealAdvisorCall20260728_8, narr:VecAffect_6RealAdvisorCall20260728_27 ;
+        dct:isPartOf aswr:Tx_20260923T185702Z ;
+        prov:generatedAtTime "2026-09-23T18:57:02Z"^^xsd:dateTime .
+
+    aswr:Run_20260923T185702Z_dim_conviction a prov:Activity ;
+        aswr:runPass "dim.conviction" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/26ff75d12028/2026-09-23-6-real-advisor-call-2026-07-28/dim.conviction.json" ;
+        prov:generated narr:VecConviction_6RealAdvisorCall20260728_2, narr:VecConviction_6RealAdvisorCall20260728_3, narr:VecConviction_6RealAdvisorCall20260728_4, narr:VecConviction_6RealAdvisorCall20260728_5, narr:VecConviction_6RealAdvisorCall20260728_6, narr:VecConviction_6RealAdvisorCall20260728_7, narr:VecConviction_6RealAdvisorCall20260728_8, narr:VecConviction_6RealAdvisorCall20260728_9, narr:VecConviction_6RealAdvisorCall20260728_10, narr:VecConviction_6RealAdvisorCall20260728_12, narr:VecConviction_6RealAdvisorCall20260728_13, narr:VecConviction_6RealAdvisorCall20260728_14, narr:VecConviction_6RealAdvisorCall20260728_15, narr:VecConviction_6RealAdvisorCall20260728_16, narr:VecConviction_6RealAdvisorCall20260728_17, narr:VecConviction_6RealAdvisorCall20260728_18, narr:VecConviction_6RealAdvisorCall20260728_19, narr:VecConviction_6RealAdvisorCall20260728_20, narr:VecConviction_6RealAdvisorCall20260728_21, narr:VecConviction_6RealAdvisorCall20260728_23, narr:VecConviction_6RealAdvisorCall20260728_24, narr:VecConviction_6RealAdvisorCall20260728_25, narr:VecConviction_6RealAdvisorCall20260728_26, narr:VecConviction_6RealAdvisorCall20260728_27, narr:VecConviction_6RealAdvisorCall20260728_28, narr:VecConviction_6RealAdvisorCall20260728_29, narr:VecConviction_6RealAdvisorCall20260728_30 ;
+        dct:isPartOf aswr:Tx_20260923T185702Z ;
+        prov:generatedAtTime "2026-09-23T18:57:02Z"^^xsd:dateTime .
+
+    aswr:Run_20260923T185702Z_dim_power a prov:Activity ;
+        aswr:runPass "dim.power" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/26ff75d12028/2026-09-23-6-real-advisor-call-2026-07-28/dim.power.json" ;
+        prov:generated narr:VecPower_6RealAdvisorCall20260728_4, narr:VecPower_6RealAdvisorCall20260728_10, narr:VecPower_6RealAdvisorCall20260728_12, narr:VecPower_6RealAdvisorCall20260728_20, narr:VecPower_6RealAdvisorCall20260728_28, narr:VecPower_6RealAdvisorCall20260728_30 ;
+        dct:isPartOf aswr:Tx_20260923T185702Z ;
+        prov:generatedAtTime "2026-09-23T18:57:02Z"^^xsd:dateTime .
+
+    aswr:Run_20260923T185702Z_dim_register a prov:Activity ;
+        aswr:runPass "dim.register" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/26ff75d12028/2026-09-23-6-real-advisor-call-2026-07-28/dim.register.json" ;
+        prov:generated narr:DirRegister_OperatingThesisMaxim, narr:VecRegister_6RealAdvisorCall20260728_7, narr:VecRegister_6RealAdvisorCall20260728_12, narr:VecRegister_6RealAdvisorCall20260728_18 ;
+        dct:isPartOf aswr:Tx_20260923T185702Z ;
+        prov:generatedAtTime "2026-09-23T18:57:02Z"^^xsd:dateTime .
+
+    aswr:Run_20260923T185702Z_dim_relational a prov:Activity ;
+        aswr:runPass "dim.relational" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/26ff75d12028/2026-09-23-6-real-advisor-call-2026-07-28/dim.relational.json" ;
+        prov:generated narr:VecRelational_6RealAdvisorCall20260728_4, narr:VecRelational_6RealAdvisorCall20260728_10, narr:VecRelational_6RealAdvisorCall20260728_13, narr:VecRelational_6RealAdvisorCall20260728_16, narr:VecRelational_6RealAdvisorCall20260728_28, narr:VecRelational_6RealAdvisorCall20260728_30 ;
+        dct:isPartOf aswr:Tx_20260923T185702Z ;
+        prov:generatedAtTime "2026-09-23T18:57:02Z"^^xsd:dateTime .
+
+    aswr:Run_20260923T185702Z_dim_style a prov:Activity ;
+        aswr:runPass "dim.style" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/26ff75d12028/2026-09-23-6-real-advisor-call-2026-07-28/dim.style.json" ;
+        prov:generated narr:VecStyle_6RealAdvisorCall20260728_12, narr:VecStyle_6RealAdvisorCall20260728_14, narr:VecStyle_6RealAdvisorCall20260728_16, narr:VecStyle_6RealAdvisorCall20260728_20, narr:VecStyle_6RealAdvisorCall20260728_21, narr:VecStyle_6RealAdvisorCall20260728_25 ;
+        dct:isPartOf aswr:Tx_20260923T185702Z ;
+        prov:generatedAtTime "2026-09-23T18:57:02Z"^^xsd:dateTime .
+
+    aswr:Run_20260923T185702Z_dim_temporal a prov:Activity ;
+        aswr:runPass "dim.temporal" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/26ff75d12028/2026-09-23-6-real-advisor-call-2026-07-28/dim.temporal.json" ;
+        prov:generated narr:VecTemporal_6RealAdvisorCall20260728_1, narr:VecTemporal_6RealAdvisorCall20260728_2, narr:VecTemporal_6RealAdvisorCall20260728_3, narr:VecTemporal_6RealAdvisorCall20260728_4, narr:VecTemporal_6RealAdvisorCall20260728_5, narr:VecTemporal_6RealAdvisorCall20260728_6, narr:VecTemporal_6RealAdvisorCall20260728_7, narr:VecTemporal_6RealAdvisorCall20260728_8, narr:VecTemporal_6RealAdvisorCall20260728_9, narr:VecTemporal_6RealAdvisorCall20260728_10, narr:VecTemporal_6RealAdvisorCall20260728_12, narr:VecTemporal_6RealAdvisorCall20260728_13, narr:VecTemporal_6RealAdvisorCall20260728_14, narr:VecTemporal_6RealAdvisorCall20260728_15, narr:VecTemporal_6RealAdvisorCall20260728_16, narr:VecTemporal_6RealAdvisorCall20260728_17, narr:VecTemporal_6RealAdvisorCall20260728_18, narr:VecTemporal_6RealAdvisorCall20260728_19, narr:VecTemporal_6RealAdvisorCall20260728_20, narr:VecTemporal_6RealAdvisorCall20260728_21, narr:VecTemporal_6RealAdvisorCall20260728_23, narr:VecTemporal_6RealAdvisorCall20260728_24, narr:VecTemporal_6RealAdvisorCall20260728_25, narr:VecTemporal_6RealAdvisorCall20260728_26, narr:VecTemporal_6RealAdvisorCall20260728_27, narr:VecTemporal_6RealAdvisorCall20260728_28, narr:VecTemporal_6RealAdvisorCall20260728_29, narr:VecTemporal_6RealAdvisorCall20260728_30 ;
+        dct:isPartOf aswr:Tx_20260923T185702Z ;
+        prov:generatedAtTime "2026-09-23T18:57:02Z"^^xsd:dateTime .
+
+    aswr:Run_20260923T185702Z_dim_value a prov:Activity ;
+        aswr:runPass "dim.value" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/26ff75d12028/2026-09-23-6-real-advisor-call-2026-07-28/dim.value.json" ;
+        prov:generated narr:VecValue_6RealAdvisorCall20260728_4, narr:VecValue_6RealAdvisorCall20260728_8, narr:VecValue_6RealAdvisorCall20260728_9, narr:VecValue_6RealAdvisorCall20260728_16, narr:VecValue_6RealAdvisorCall20260728_17, narr:VecValue_6RealAdvisorCall20260728_25, narr:VecValue_6RealAdvisorCall20260728_28 ;
+        dct:isPartOf aswr:Tx_20260923T185702Z ;
+        prov:generatedAtTime "2026-09-23T18:57:02Z"^^xsd:dateTime .
+
+    aswr:Run_20260923T185702Z_pass5 a prov:Activity ;
+        aswr:runPass "pass5" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/26ff75d12028/2026-09-23-6-real-advisor-call-2026-07-28/pass5.json" ;
+        dct:isPartOf aswr:Tx_20260923T185702Z ;
+        prov:generatedAtTime "2026-09-23T18:57:02Z"^^xsd:dateTime .
+
+    aswr:Run_20260923T185702Z_position a prov:Activity ;
+        aswr:runPass "position" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/26ff75d12028/2026-09-23-6-real-advisor-call-2026-07-28/position.json" ;
+        prov:generated narr:Position_SoloBuilderB2CPositioning, narr:Position_NonTechKnowledgeCompanyTargeting, narr:Position_ContextFragmentationContainment ;
+        dct:isPartOf aswr:Tx_20260923T185702Z ;
+        prov:generatedAtTime "2026-09-23T18:57:02Z"^^xsd:dateTime .
+  }
+}
