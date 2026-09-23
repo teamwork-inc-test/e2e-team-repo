@@ -1,0 +1,249 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-2",
+    "regions" : [ "notion" ],
+    "evidence" : [ {
+      "quote" : "One of the things I've been thinking a lot about is the pricing and whether all of that is too low or sort of how the positioning is here.",
+      "kind" : "hedge"
+    } ],
+    "why" : "Tanya articulates pricing and positioning concerns as exploratory thoughts rather than a settled stance.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-3",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "I think that's the angle.",
+      "kind" : "epistemic-verb"
+    } ],
+    "why" : "Tina stakes out an assertive GTM thesis grounded in an epistemic stance.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-4",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "The numbers really work.",
+      "kind" : "intensifier"
+    } ],
+    "why" : "Tina asserts the viability of the B2C economics directly.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-5",
+    "regions" : [ "notion" ],
+    "evidence" : [ {
+      "quote" : "Maybe that is the more direct distillation of the shift I'm having",
+      "kind" : "hedge"
+    } ],
+    "why" : "Tanya frames her realization with 'maybe', exploring an emergent shift rather than making a firm operational pivot.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-6",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "Trying to go after tech companies is going to be hard because tech companies all think they've solved the problem.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Xavier makes an unhedged claim about the difficulty of selling to tech companies.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-7",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "The problem with most developers and entrepreneurs is they've already rolled their own bullshit.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Tanya affirms Xavier's point with a direct, assertive diagnosis.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-8",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "I'm worried what's going to break or cross over.",
+      "kind" : "epistemic-verb"
+    } ],
+    "why" : "Tina expresses personal operational vulnerability and concern as a live observation.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-9",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "The more involved people are, the more they need separation from their own chaos.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Tina presents a generalized rule of user need as an asserted claim.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-10",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "Find a company that's actually a knowledge company that doesn't think of themselves as a knowledge company.",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Xavier gives strategic advice framed as an imperative directive.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-12",
+    "regions" : [ "principle" ],
+    "evidence" : [ {
+      "quote" : "One of my operating theses is the telephone company always wins.",
+      "kind" : "intensifier"
+    } ],
+    "why" : "Xavier explicitly names an 'operating thesis' with absolute ('always') framing as foundational doctrine.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-13",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "the intrinsic cost of switching would be too high to a new thing.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Xavier states an economic analysis of incumbent switching costs.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-14",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "the graph itself is the moat, right?",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Tanya asserts the architectural defensibility of the product.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-15",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "I just think that like, like the, the core problem is like someone comes along and builds a better version of that, right?",
+      "kind" : "hedge"
+    } ],
+    "why" : "Xavier pushes back with a counter-claim hedged with conversational disfluencies.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-16",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "I want to have as written because you have as written and that makes my as written more valuable because you have it.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Xavier asserts the necessity of network effects for product value.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-17",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "So that shows that the actual unique part is by my lens — is applying the lens",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Freya asserts what constitutes the core value of the system based on personal testing.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-18",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "The real differentiator and the technical moat is that I take textual documents and I extract perspective from them and then I make that perspective citable in the individual task.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Tanya defines the technical differentiator in direct, unhedged terms.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-19",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "90% of what I see people chasing though is structure for context and memory.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Tina provides an empirical observation from market conversations.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-20",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "You're selling to an audience that wants something like this… they're looking for a solution.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Tina instructs on positioning by asserting market demand dynamics.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-21",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "It's not that enterprise isn't a good target. It's that the quote, enterprise plan isn't about enterprise. It's about the shape of the deployment and the needs of the organization.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Tanya clarifies product tier definitions through analytical distinction.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-23",
+    "regions" : [ "notion" ],
+    "evidence" : [ {
+      "quote" : "I have an idea of when I have the time, I will invest and build the perspective.",
+      "kind" : "hedge"
+    } ],
+    "why" : "Freya expresses a conditional, future intention without concrete operational commitment.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-24",
+    "regions" : [ "notion" ],
+    "evidence" : [ {
+      "quote" : "I could build out the marketplace by basically creating a podcast",
+      "kind" : "modal-marker"
+    } ],
+    "why" : "Tanya explores a potential distribution and bootstrapping idea with 'could'.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-25",
+    "regions" : [ "principle" ],
+    "evidence" : [ {
+      "quote" : "The human moment sells, not the text.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Freya delivers an axiomatic, bedrock value statement about human connection versus text.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-26",
+    "regions" : [ "notion" ],
+    "evidence" : [ {
+      "quote" : "that does seem like the future to me.",
+      "kind" : "hedge"
+    } ],
+    "why" : "Tanya floats a prospective consulting deliverable idea, acknowledging she has not tested it yet.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-27",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "I think you've got a sticky product.",
+      "kind" : "epistemic-verb"
+    } ],
+    "why" : "Tina predicts product stickiness and word-of-mouth momentum.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-28",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "Short term, like this, this thing can win and I think you should win.",
+      "kind" : "epistemic-verb"
+    } ],
+    "why" : "Xavier offers advice on strategic positioning and market awareness.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-29",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "I gotta pull my head out of the development.",
+      "kind" : "commitment-marker"
+    } ],
+    "why" : "Tanya adopts an operational commitment to change her behavior.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-30",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "Just stop and go sell it.",
+      "kind" : "commitment-marker"
+    } ],
+    "why" : "Xavier delivers a direct operational command reinforcing the decision to pivot to sales.",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-1", "src-11", "src-22" ],
+  "unmarked_rest" : false,
+  "mints" : [ ]
+}
