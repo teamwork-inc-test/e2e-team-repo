@@ -1,0 +1,945 @@
+PREFIX narr: <https://aswritten.ai/narrative#>
+PREFIX aswr: <https://aswritten.ai/aswr#>
+PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX dct:  <http://purl.org/dc/terms/>
+PREFIX xsd:  <http://www.w3.org/2001/XMLSchema#>
+PREFIX oa:   <http://www.w3.org/ns/oa#>
+PREFIX xkos: <http://rdf-vocabulary.ddialliance.org/xkos#>
+
+INSERT DATA {
+  aswr:Tx_20260923T172221Z a prov:Activity ;
+      prov:generatedAtTime "2026-09-23T17:22:21Z"^^xsd:dateTime ;
+      prov:wasAssociatedWith "aswritten.ai" ;
+      prov:wasAttributedTo "scarlet@aswritten.ai" ;
+      aswr:draftedBy "claude-opus-5-5" ;
+      aswr:pipelinePin "8dd07a49bda8" ;
+      aswr:originPath ".aswritten/memories/2026-09-23-3-real-channel-not-product-2026-04-28.md" ;
+      dct:title "Multipass fragment: 3RealChannelNotProduct20260428" ;
+      prov:generated narr:VecAffect_3RealChannelNotProduct20260428_11, narr:VecAffect_3RealChannelNotProduct20260428_47, narr:VecConviction_3RealChannelNotProduct20260428_7, narr:VecConviction_3RealChannelNotProduct20260428_8, narr:VecConviction_3RealChannelNotProduct20260428_15, narr:VecConviction_3RealChannelNotProduct20260428_20, narr:VecConviction_3RealChannelNotProduct20260428_21, narr:VecConviction_3RealChannelNotProduct20260428_27, narr:VecConviction_3RealChannelNotProduct20260428_35, narr:VecConviction_3RealChannelNotProduct20260428_40, narr:VecConviction_3RealChannelNotProduct20260428_43, narr:VecConviction_3RealChannelNotProduct20260428_46, narr:VecConviction_3RealChannelNotProduct20260428_47, narr:VecConviction_3RealChannelNotProduct20260428_51, narr:VecPower_3RealChannelNotProduct20260428_40, narr:VecPower_3RealChannelNotProduct20260428_43, narr:VecPower_3RealChannelNotProduct20260428_47, narr:VecPower_3RealChannelNotProduct20260428_51, narr:VecRegister_3RealChannelNotProduct20260428_11, narr:VecRegister_3RealChannelNotProduct20260428_21, narr:VecRegister_3RealChannelNotProduct20260428_28, narr:VecRegister_3RealChannelNotProduct20260428_46, narr:VecRegister_3RealChannelNotProduct20260428_47, narr:VecRelational_3RealChannelNotProduct20260428_20, narr:VecRelational_3RealChannelNotProduct20260428_21, narr:VecRelational_3RealChannelNotProduct20260428_46, narr:VecRelational_3RealChannelNotProduct20260428_47, narr:VecStyle_3RealChannelNotProduct20260428_8, narr:VecStyle_3RealChannelNotProduct20260428_14, narr:VecStyle_3RealChannelNotProduct20260428_19, narr:VecStyle_3RealChannelNotProduct20260428_28, narr:VecStyle_3RealChannelNotProduct20260428_42, narr:VecTemporal_3RealChannelNotProduct20260428_2, narr:VecTemporal_3RealChannelNotProduct20260428_4, narr:VecTemporal_3RealChannelNotProduct20260428_5, narr:VecTemporal_3RealChannelNotProduct20260428_7, narr:VecTemporal_3RealChannelNotProduct20260428_8, narr:VecTemporal_3RealChannelNotProduct20260428_9, narr:VecTemporal_3RealChannelNotProduct20260428_10, narr:VecTemporal_3RealChannelNotProduct20260428_11, narr:VecTemporal_3RealChannelNotProduct20260428_12, narr:VecTemporal_3RealChannelNotProduct20260428_14, narr:VecTemporal_3RealChannelNotProduct20260428_15, narr:VecTemporal_3RealChannelNotProduct20260428_20, narr:VecTemporal_3RealChannelNotProduct20260428_22, narr:VecTemporal_3RealChannelNotProduct20260428_24, narr:VecTemporal_3RealChannelNotProduct20260428_25, narr:VecTemporal_3RealChannelNotProduct20260428_26, narr:VecTemporal_3RealChannelNotProduct20260428_27, narr:VecTemporal_3RealChannelNotProduct20260428_28, narr:VecTemporal_3RealChannelNotProduct20260428_30, narr:VecTemporal_3RealChannelNotProduct20260428_33, narr:VecTemporal_3RealChannelNotProduct20260428_36, narr:VecTemporal_3RealChannelNotProduct20260428_40, narr:VecTemporal_3RealChannelNotProduct20260428_43, narr:VecTemporal_3RealChannelNotProduct20260428_46, narr:VecTemporal_3RealChannelNotProduct20260428_47, narr:VecTemporal_3RealChannelNotProduct20260428_50, narr:VecTemporal_3RealChannelNotProduct20260428_52, narr:VecValue_3RealChannelNotProduct20260428_9, narr:VecValue_3RealChannelNotProduct20260428_14, narr:VecValue_3RealChannelNotProduct20260428_15, narr:VecValue_3RealChannelNotProduct20260428_18, narr:VecValue_3RealChannelNotProduct20260428_27, narr:Position_ProductIdentityChannelDisambiguation, narr:Position_SmsChannelTierPackaging, narr:Position_SubgraphScopingTemporalityOntology .
+} ;
+INSERT DATA {
+  GRAPH aswr:Tx_20260923T172221Z {
+    narr:VecAffect_3RealChannelNotProduct20260428_11 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_3RealChannelNotProduct20260428_11 ;
+        narr:dimension narr:Dim_Affect ;
+        narr:region narr:Affect_ActivatedPositive ;
+        narr:evidence "lexical-marker: That's gold." ;
+        narr:reported true ;
+        skos:note "Quoted endorsement expressing high enthusiasm and positive validation." ;
+        prov:generatedAtTime "2026-09-23T17:22:21Z"^^xsd:dateTime .
+
+    narr:VecAffect_3RealChannelNotProduct20260428_47 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_3RealChannelNotProduct20260428_47 ;
+        narr:dimension narr:Dim_Affect ;
+        narr:region narr:Affect_CalmNegative ;
+        narr:evidence "plain-signal: I don't want to make that decision right now." ;
+        narr:reported false ;
+        skos:note "Tanya explicitly defers commitment under ambiguity, exhibiting low-arousal hesitation/reluctance." ;
+        prov:generatedAtTime "2026-09-23T17:22:21Z"^^xsd:dateTime .
+
+    narr:VecConviction_3RealChannelNotProduct20260428_7 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_3RealChannelNotProduct20260428_7 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Claim ;
+        narr:evidence "plain-assertion: The text for topic memory was really an exploration" ;
+        narr:evidence "intensifier: that was always a product experiment" ;
+        narr:reported false ;
+        skos:note "Tanya asserts the epistemic status of past work with clarifying firmness ('really', 'always')." ;
+        prov:generatedAtTime "2026-09-23T17:22:21Z"^^xsd:dateTime .
+
+    narr:VecConviction_3RealChannelNotProduct20260428_8 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_3RealChannelNotProduct20260428_8 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Principle ;
+        narr:evidence "plain-assertion: The product is not a phone number; it's the phone number distribution channel" ;
+        narr:reported false ;
+        skos:note "Bedrock definitional correction establishing core product identity against a channel misattribution." ;
+        prov:generatedAtTime "2026-09-23T17:22:21Z"^^xsd:dateTime .
+
+    narr:VecConviction_3RealChannelNotProduct20260428_15 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_3RealChannelNotProduct20260428_15 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Claim ;
+        narr:evidence "plain-assertion: There is some real value to the way the phone number feels" ;
+        narr:evidence "intensifier: That's really important" ;
+        narr:reported false ;
+        skos:note "Committed defense of the UX texture value of SMS without making it global product identity." ;
+        prov:generatedAtTime "2026-09-23T17:22:21Z"^^xsd:dateTime .
+
+    narr:VecConviction_3RealChannelNotProduct20260428_20 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_3RealChannelNotProduct20260428_20 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Claim ;
+        narr:evidence "plain-assertion: That's a bonus; it's an upsell." ;
+        narr:reported false ;
+        skos:note "Direct assertive framing repositioning SMS as an add-on." ;
+        prov:generatedAtTime "2026-09-23T17:22:21Z"^^xsd:dateTime .
+
+    narr:VecConviction_3RealChannelNotProduct20260428_21 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_3RealChannelNotProduct20260428_21 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Claim ;
+        narr:evidence "plain-assertion: It's also a lot more work because of the maintenance around fraud" ;
+        narr:reported false ;
+        skos:note "Asserted operational trade-off based on ongoing verification friction." ;
+        prov:generatedAtTime "2026-09-23T17:22:21Z"^^xsd:dateTime .
+
+    narr:VecConviction_3RealChannelNotProduct20260428_27 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_3RealChannelNotProduct20260428_27 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Claim ;
+        narr:evidence "epistemic-verb: She thinks that text message, in certain contexts, is absolutely the right move" ;
+        narr:evidence "hedge: might actually be a real downside" ;
+        narr:reported true ;
+        skos:note "Reported evaluation from Tess showing nuanced contextual stance on SMS friction." ;
+        prov:generatedAtTime "2026-09-23T17:22:21Z"^^xsd:dateTime .
+
+    narr:VecConviction_3RealChannelNotProduct20260428_35 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_3RealChannelNotProduct20260428_35 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Notion ;
+        narr:evidence "hedge: I suppose" ;
+        narr:evidence "hedge: sort of subgrouping" ;
+        narr:reported false ;
+        skos:note "Floated architectural thought explored with explicit hedging ('I suppose', 'sort of')." ;
+        prov:generatedAtTime "2026-09-23T17:22:21Z"^^xsd:dateTime .
+
+    narr:VecConviction_3RealChannelNotProduct20260428_40 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_3RealChannelNotProduct20260428_40 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Decision ;
+        narr:evidence "commitment-marker: This tagline should be **superseded**." ;
+        narr:reported false ;
+        skos:note "Explicit instruction settling graph state by retiring the old tagline." ;
+        prov:generatedAtTime "2026-09-23T17:22:21Z"^^xsd:dateTime .
+
+    narr:VecConviction_3RealChannelNotProduct20260428_43 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_3RealChannelNotProduct20260428_43 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Decision ;
+        narr:evidence "commitment-marker: **should not be auto-promoted**" ;
+        narr:reported false ;
+        skos:note "Operational gating decision holding promotion pending joint review." ;
+        prov:generatedAtTime "2026-09-23T17:22:21Z"^^xsd:dateTime .
+
+    narr:VecConviction_3RealChannelNotProduct20260428_46 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_3RealChannelNotProduct20260428_46 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Notion ;
+        narr:evidence "epistemic-verb: I think SMS is something that we should offer only for the enterprise plan" ;
+        narr:reported false ;
+        skos:note "Epistemic verb 'I think' framing an unfinalized leaning for tiering." ;
+        prov:generatedAtTime "2026-09-23T17:22:21Z"^^xsd:dateTime .
+
+    narr:VecConviction_3RealChannelNotProduct20260428_47 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_3RealChannelNotProduct20260428_47 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Decision ;
+        narr:evidence "plain-assertion: We don't know yet how this maps to tiers" ;
+        narr:evidence "commitment-marker: I don't want to make that decision right now." ;
+        narr:reported false ;
+        skos:note "Explicit performative refusal to decide, fixing the current epistemic state as undecided." ;
+        prov:generatedAtTime "2026-09-23T17:22:21Z"^^xsd:dateTime .
+
+    narr:VecConviction_3RealChannelNotProduct20260428_51 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_3RealChannelNotProduct20260428_51 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Decision ;
+        narr:evidence "commitment-marker: This distinction must be preserved through extraction." ;
+        narr:reported false ;
+        skos:note "Normative extraction rule locking the distinction between a leaning and a decision." ;
+        prov:generatedAtTime "2026-09-23T17:22:21Z"^^xsd:dateTime .
+
+    narr:VecPower_3RealChannelNotProduct20260428_40 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_3RealChannelNotProduct20260428_40 ;
+        narr:dimension narr:Dim_Power ;
+        narr:region narr:Power_Legitimate ;
+        narr:evidence "modal-marker: This tagline should be **superseded**." ;
+        narr:reported false ;
+        skos:note "Claude issues a normative directive to supersede a graph claim based on structural authority/process rules." ;
+        prov:generatedAtTime "2026-09-23T17:22:21Z"^^xsd:dateTime .
+
+    narr:VecPower_3RealChannelNotProduct20260428_43 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_3RealChannelNotProduct20260428_43 ;
+        narr:dimension narr:Dim_Power ;
+        narr:region narr:Power_Legitimate ;
+        narr:evidence "modal-marker: **should not be auto-promoted**" ;
+        narr:reported false ;
+        skos:note "Establishes a procedural barrier/requirement for promotion in the memory architecture." ;
+        prov:generatedAtTime "2026-09-23T17:22:21Z"^^xsd:dateTime .
+
+    narr:VecPower_3RealChannelNotProduct20260428_47 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_3RealChannelNotProduct20260428_47 ;
+        narr:dimension narr:Dim_Power ;
+        narr:region narr:Power_Legitimate ;
+        narr:evidence "commitment-marker: I don't want to make that decision right now." ;
+        narr:reported false ;
+        skos:note "Founder exercises positional authority to defer making a strategic decision." ;
+        prov:generatedAtTime "2026-09-23T17:22:21Z"^^xsd:dateTime .
+
+    narr:VecPower_3RealChannelNotProduct20260428_51 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_3RealChannelNotProduct20260428_51 ;
+        narr:dimension narr:Dim_Power ;
+        narr:region narr:Power_Legitimate ;
+        narr:evidence "modal-marker: This distinction must be preserved through extraction." ;
+        narr:reported false ;
+        skos:note "Prescriptive constraint on downstream data processing rule." ;
+        prov:generatedAtTime "2026-09-23T17:22:21Z"^^xsd:dateTime .
+
+    narr:VecRegister_3RealChannelNotProduct20260428_11 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_3RealChannelNotProduct20260428_11 ;
+        narr:dimension narr:Dim_Register ;
+        narr:region narr:Register_Casual ;
+        narr:region narr:Register_Enthusiastic ;
+        narr:evidence "lexical-marker: That's gold." ;
+        narr:reported true ;
+        skos:note "Colloquial enthusiasm departing from the prevailing analytical architectural baseline." ;
+        prov:generatedAtTime "2026-09-23T17:22:21Z"^^xsd:dateTime .
+
+    narr:VecRegister_3RealChannelNotProduct20260428_21 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_3RealChannelNotProduct20260428_21 ;
+        narr:dimension narr:Dim_Register ;
+        narr:region narr:Register_Casual ;
+        narr:evidence "lexical-marker: a lot more work because of the maintenance around fraud, et cetera" ;
+        narr:reported false ;
+        skos:note "Casual conversational shorthand departing from formal specification register." ;
+        prov:generatedAtTime "2026-09-23T17:22:21Z"^^xsd:dateTime .
+
+    narr:VecRegister_3RealChannelNotProduct20260428_28 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_3RealChannelNotProduct20260428_28 ;
+        narr:dimension narr:Dim_Register ;
+        narr:region narr:Register_Casual ;
+        narr:region narr:Register_PlainSpoken ;
+        narr:evidence "lexical-marker: Can you just give me a chat widget on a web form?" ;
+        narr:reported false ;
+        skos:note "Direct, informal user phrasing contrasting with structured system analysis." ;
+        prov:generatedAtTime "2026-09-23T17:22:21Z"^^xsd:dateTime .
+
+    narr:VecRegister_3RealChannelNotProduct20260428_46 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_3RealChannelNotProduct20260428_46 ;
+        narr:dimension narr:Dim_Register ;
+        narr:region narr:Register_Casual ;
+        narr:evidence "lexical-marker: and so on and so forth." ;
+        narr:reported false ;
+        skos:note "Informal conversational trailing marker in live dialogue." ;
+        prov:generatedAtTime "2026-09-23T17:22:21Z"^^xsd:dateTime .
+
+    narr:VecRegister_3RealChannelNotProduct20260428_47 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_3RealChannelNotProduct20260428_47 ;
+        narr:dimension narr:Dim_Register ;
+        narr:region narr:Register_Casual ;
+        narr:evidence "lexical-marker: I'm trying to get some of these larger clients on the hook" ;
+        narr:reported false ;
+        skos:note "Colloquial commercial idiom ('on the hook') within deliberative spoken decision-making." ;
+        prov:generatedAtTime "2026-09-23T17:22:21Z"^^xsd:dateTime .
+
+    narr:VecRelational_3RealChannelNotProduct20260428_20 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_3RealChannelNotProduct20260428_20 ;
+        narr:dimension narr:Dim_Relational ;
+        narr:region narr:Relational_MarketPricing ;
+        narr:evidence "framing-move: That's a bonus; it's an upsell." ;
+        narr:reported false ;
+        skos:note "Enacts market-pricing by explicitly categorizing a feature in commercial tiered exchange terms (bonus/upsell)." ;
+        prov:generatedAtTime "2026-09-23T17:22:21Z"^^xsd:dateTime .
+
+    narr:VecRelational_3RealChannelNotProduct20260428_21 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_3RealChannelNotProduct20260428_21 ;
+        narr:dimension narr:Dim_Relational ;
+        narr:region narr:Relational_MarketPricing ;
+        narr:evidence "framing-move: It's also a lot more work because of the maintenance around fraud, et cetera" ;
+        narr:reported false ;
+        skos:note "Weighs operational maintenance burden against value delivery, using cost-benefit proportionality." ;
+        prov:generatedAtTime "2026-09-23T17:22:21Z"^^xsd:dateTime .
+
+    narr:VecRelational_3RealChannelNotProduct20260428_46 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_3RealChannelNotProduct20260428_46 ;
+        narr:dimension narr:Dim_Relational ;
+        narr:region narr:Relational_MarketPricing ;
+        narr:evidence "framing-move: I think SMS is something that we should offer only for the enterprise plan, because we have to provision numbers individually and manage them and so on and so forth." ;
+        narr:reported false ;
+        skos:note "Frames tier-gating based directly on marginal operational cost and maintenance overhead." ;
+        prov:generatedAtTime "2026-09-23T17:22:21Z"^^xsd:dateTime .
+
+    narr:VecRelational_3RealChannelNotProduct20260428_47 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_3RealChannelNotProduct20260428_47 ;
+        narr:dimension narr:Dim_Relational ;
+        narr:region narr:Relational_MarketPricing ;
+        narr:evidence "framing-move: I'm doing this as a demo right now, and I'm trying to get some of these larger clients on the hook" ;
+        narr:reported false ;
+        skos:note "Explicit commercial instrumental framing of ongoing interactions with potential enterprise buyers." ;
+        prov:generatedAtTime "2026-09-23T17:22:21Z"^^xsd:dateTime .
+
+    narr:VecStyle_3RealChannelNotProduct20260428_8 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_3RealChannelNotProduct20260428_8 ;
+        narr:dimension narr:Dim_Style ;
+        narr:region narr:Style_Antithesis ;
+        narr:evidence "framing-move: The product is not a phone number; it's the phone number distribution channel" ;
+        narr:reported false ;
+        skos:note "Classic antithetical construction setting what the product is not directly against what it is in matched grammatical structure." ;
+        prov:generatedAtTime "2026-09-23T17:22:21Z"^^xsd:dateTime .
+
+    narr:VecStyle_3RealChannelNotProduct20260428_14 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_3RealChannelNotProduct20260428_14 ;
+        narr:dimension narr:Dim_Style ;
+        narr:region narr:Style_Antithesis ;
+        narr:region narr:Style_Parallelism ;
+        narr:evidence "framing-move: It is the right channel in some contexts" ;
+        narr:evidence "framing-move: and the wrong channel in others" ;
+        narr:reported false ;
+        skos:note "Parallel and antithetical framing setting 'right channel in some contexts' against 'wrong channel in others' with balanced parenthetical qualification." ;
+        prov:generatedAtTime "2026-09-23T17:22:21Z"^^xsd:dateTime .
+
+    narr:VecStyle_3RealChannelNotProduct20260428_19 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_3RealChannelNotProduct20260428_19 ;
+        narr:dimension narr:Dim_Style ;
+        narr:region narr:Style_Antithesis ;
+        narr:evidence "framing-move: it's a *channel property*, not a product identity" ;
+        narr:reported false ;
+        skos:note "Antithesis balancing an affirmative categorization against a negative one." ;
+        prov:generatedAtTime "2026-09-23T17:22:21Z"^^xsd:dateTime .
+
+    narr:VecStyle_3RealChannelNotProduct20260428_28 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_3RealChannelNotProduct20260428_28 ;
+        narr:dimension narr:Dim_Style ;
+        narr:region narr:Style_RhetoricalQuestion ;
+        narr:evidence "performed-act: Can you just give me a chat widget on a web form?" ;
+        narr:reported false ;
+        skos:note "Direct question performing customer pushback/plea for simpler interface." ;
+        prov:generatedAtTime "2026-09-23T17:22:21Z"^^xsd:dateTime .
+
+    narr:VecStyle_3RealChannelNotProduct20260428_42 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_3RealChannelNotProduct20260428_42 ;
+        narr:dimension narr:Dim_Style ;
+        narr:region narr:Style_Metaphor ;
+        narr:evidence "lexical-marker: Feather your arrows." ;
+        narr:reported false ;
+        skos:note "Quoted company tagline employing archery metaphor for preparing/equipping capabilities." ;
+        prov:generatedAtTime "2026-09-23T17:22:21Z"^^xsd:dateTime .
+
+    narr:VecTemporal_3RealChannelNotProduct20260428_2 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_3RealChannelNotProduct20260428_2 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Present ;
+        narr:region narr:Temporal_Realis ;
+        narr:region narr:Temporal_Concrete ;
+        narr:evidence "plain-assertion: The graph has \"the product is a phone number\" embedded as a tagline-level claim in the Identity section." ;
+        narr:reported false ;
+        skos:note "Asserts current factual state of a specific section in the graph." ;
+        prov:generatedAtTime "2026-09-23T17:22:21Z"^^xsd:dateTime .
+
+    narr:VecTemporal_3RealChannelNotProduct20260428_4 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_3RealChannelNotProduct20260428_4 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Past ;
+        narr:region narr:Temporal_Realis ;
+        narr:region narr:Temporal_Abstract ;
+        narr:evidence "plain-assertion: Tanya has tried to correct this before." ;
+        narr:reported false ;
+        skos:note "Focuses on past repeated attempts to make a correction." ;
+        prov:generatedAtTime "2026-09-23T17:22:21Z"^^xsd:dateTime .
+
+    narr:VecTemporal_3RealChannelNotProduct20260428_5 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_3RealChannelNotProduct20260428_5 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Present ;
+        narr:region narr:Temporal_Realis ;
+        narr:region narr:Temporal_Abstract ;
+        narr:evidence "plain-assertion: It keeps re-embedding" ;
+        narr:reported false ;
+        skos:note "Describes ongoing recurring behavior and pipeline limitations." ;
+        prov:generatedAtTime "2026-09-23T17:22:21Z"^^xsd:dateTime .
+
+    narr:VecTemporal_3RealChannelNotProduct20260428_7 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_3RealChannelNotProduct20260428_7 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Past ;
+        narr:region narr:Temporal_Realis ;
+        narr:region narr:Temporal_Concrete ;
+        narr:evidence "plain-assertion: The text for topic memory was really an exploration" ;
+        narr:reported false ;
+        skos:note "Reflects back on a past specific memory and product experiment." ;
+        prov:generatedAtTime "2026-09-23T17:22:21Z"^^xsd:dateTime .
+
+    narr:VecTemporal_3RealChannelNotProduct20260428_8 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_3RealChannelNotProduct20260428_8 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Present ;
+        narr:region narr:Temporal_Realis ;
+        narr:region narr:Temporal_Abstract ;
+        narr:evidence "plain-assertion: The product is not a phone number; it's the phone number distribution channel" ;
+        narr:reported false ;
+        skos:note "Clarifies present categorical definition of product versus channel." ;
+        prov:generatedAtTime "2026-09-23T17:22:21Z"^^xsd:dateTime .
+
+    narr:VecTemporal_3RealChannelNotProduct20260428_9 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_3RealChannelNotProduct20260428_9 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Present ;
+        narr:region narr:Temporal_Realis ;
+        narr:region narr:Temporal_Abstract ;
+        narr:evidence "plain-assertion: The product is curated expertise installation" ;
+        narr:reported false ;
+        skos:note "States the present core definition and high-level concept." ;
+        prov:generatedAtTime "2026-09-23T17:22:21Z"^^xsd:dateTime .
+
+    narr:VecTemporal_3RealChannelNotProduct20260428_10 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_3RealChannelNotProduct20260428_10 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Past ;
+        narr:region narr:Temporal_Realis ;
+        narr:region narr:Temporal_Concrete ;
+        narr:evidence "lexical-marker: March 19, 2026 strategy session" ;
+        narr:reported false ;
+        skos:note "Anchors alignment to a past dated strategy artifact." ;
+        prov:generatedAtTime "2026-09-23T17:22:21Z"^^xsd:dateTime .
+
+    narr:VecTemporal_3RealChannelNotProduct20260428_11 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_3RealChannelNotProduct20260428_11 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Past ;
+        narr:region narr:Temporal_Realis ;
+        narr:region narr:Temporal_Concrete ;
+        narr:evidence "plain-assertion: Tanya at the time: \"That's gold.\"" ;
+        narr:reported true ;
+        skos:note "Reports Tanya's historical past reaction." ;
+        prov:generatedAtTime "2026-09-23T17:22:21Z"^^xsd:dateTime .
+
+    narr:VecTemporal_3RealChannelNotProduct20260428_12 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_3RealChannelNotProduct20260428_12 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Present ;
+        narr:region narr:Temporal_Realis ;
+        narr:region narr:Temporal_Abstract ;
+        narr:evidence "plain-assertion: The phone number / SMS is a distribution channel." ;
+        narr:reported false ;
+        skos:note "States a current categorical fact." ;
+        prov:generatedAtTime "2026-09-23T17:22:21Z"^^xsd:dateTime .
+
+    narr:VecTemporal_3RealChannelNotProduct20260428_14 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_3RealChannelNotProduct20260428_14 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Present ;
+        narr:region narr:Temporal_Abstract ;
+        narr:evidence "plain-assertion: It is the right channel in some contexts" ;
+        narr:reported false ;
+        skos:note "Evaluates generalized contextual conditions and trade-offs." ;
+        prov:generatedAtTime "2026-09-23T17:22:21Z"^^xsd:dateTime .
+
+    narr:VecTemporal_3RealChannelNotProduct20260428_15 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_3RealChannelNotProduct20260428_15 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Present ;
+        narr:region narr:Temporal_Realis ;
+        narr:region narr:Temporal_Abstract ;
+        narr:evidence "plain-assertion: There is some real value to the way the phone number feels." ;
+        narr:reported false ;
+        skos:note "Discusses present general experiential qualities of the format." ;
+        prov:generatedAtTime "2026-09-23T17:22:21Z"^^xsd:dateTime .
+
+    narr:VecTemporal_3RealChannelNotProduct20260428_20 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_3RealChannelNotProduct20260428_20 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Present ;
+        narr:region narr:Temporal_Realis ;
+        narr:region narr:Temporal_Abstract ;
+        narr:evidence "plain-assertion: That's a bonus; it's an upsell." ;
+        narr:reported false ;
+        skos:note "Categorizes the commercial role in present conceptual terms." ;
+        prov:generatedAtTime "2026-09-23T17:22:21Z"^^xsd:dateTime .
+
+    narr:VecTemporal_3RealChannelNotProduct20260428_22 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_3RealChannelNotProduct20260428_22 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Past ;
+        narr:region narr:Temporal_Realis ;
+        narr:region narr:Temporal_Concrete ;
+        narr:evidence "plain-assertion: all seven came back rejected" ;
+        narr:reported false ;
+        skos:note "Recounts a specific past dated event on April 28, 2026." ;
+        prov:generatedAtTime "2026-09-23T17:22:21Z"^^xsd:dateTime .
+
+    narr:VecTemporal_3RealChannelNotProduct20260428_24 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_3RealChannelNotProduct20260428_24 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Future ;
+        narr:region narr:Temporal_Concrete ;
+        narr:evidence "modal-marker: The numbers can be resubmitted to the review queue." ;
+        narr:reported false ;
+        skos:note "Refers to a potential future concrete action." ;
+        prov:generatedAtTime "2026-09-23T17:22:21Z"^^xsd:dateTime .
+
+    narr:VecTemporal_3RealChannelNotProduct20260428_25 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_3RealChannelNotProduct20260428_25 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Present ;
+        narr:region narr:Temporal_Realis ;
+        narr:region narr:Temporal_Abstract ;
+        narr:evidence "plain-assertion: verification churn is a permanent operational cost of running SMS at scale." ;
+        narr:reported false ;
+        skos:note "Establishes a generalized ongoing operational pattern." ;
+        prov:generatedAtTime "2026-09-23T17:22:21Z"^^xsd:dateTime .
+
+    narr:VecTemporal_3RealChannelNotProduct20260428_26 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_3RealChannelNotProduct20260428_26 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Past ;
+        narr:region narr:Temporal_Realis ;
+        narr:region narr:Temporal_Concrete ;
+        narr:evidence "plain-assertion: Tanya asked Tess whether SMS is the right demo channel" ;
+        narr:reported true ;
+        skos:note "Recounts a specific past interaction between Tanya and Tess." ;
+        prov:generatedAtTime "2026-09-23T17:22:21Z"^^xsd:dateTime .
+
+    narr:VecTemporal_3RealChannelNotProduct20260428_27 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_3RealChannelNotProduct20260428_27 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Present ;
+        narr:region narr:Temporal_Abstract ;
+        narr:evidence "plain-assertion: texting is so associated with spam now" ;
+        narr:reported true ;
+        skos:note "Reports Tess's perspective on current generalized sentiment and friction." ;
+        prov:generatedAtTime "2026-09-23T17:22:21Z"^^xsd:dateTime .
+
+    narr:VecTemporal_3RealChannelNotProduct20260428_28 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_3RealChannelNotProduct20260428_28 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Present ;
+        narr:region narr:Temporal_Irrealis ;
+        narr:region narr:Temporal_Concrete ;
+        narr:evidence "plain-assertion: Can you just give me a chat widget on a web form?" ;
+        narr:reported false ;
+        skos:note "Requests a specific alternative UI artifact." ;
+        prov:generatedAtTime "2026-09-23T17:22:21Z"^^xsd:dateTime .
+
+    narr:VecTemporal_3RealChannelNotProduct20260428_30 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_3RealChannelNotProduct20260428_30 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Present ;
+        narr:region narr:Temporal_Realis ;
+        narr:region narr:Temporal_Abstract ;
+        narr:evidence "plain-assertion: SMS-as-channel adds a **trust friction** for this archetype" ;
+        narr:reported false ;
+        skos:note "Analyzes general archetype dynamics based on new evidence." ;
+        prov:generatedAtTime "2026-09-23T17:22:21Z"^^xsd:dateTime .
+
+    narr:VecTemporal_3RealChannelNotProduct20260428_33 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_3RealChannelNotProduct20260428_33 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Past ;
+        narr:region narr:Temporal_Realis ;
+        narr:region narr:Temporal_Concrete ;
+        narr:evidence "plain-assertion: deliberately deferred from the April 9 launch to avoid breaking extraction tests." ;
+        narr:reported false ;
+        skos:note "Refers to a specific past design decision and date." ;
+        prov:generatedAtTime "2026-09-23T17:22:21Z"^^xsd:dateTime .
+
+    narr:VecTemporal_3RealChannelNotProduct20260428_36 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_3RealChannelNotProduct20260428_36 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Present ;
+        narr:region narr:Temporal_Realis ;
+        narr:region narr:Temporal_Abstract ;
+        narr:evidence "plain-assertion: There is currently no structural way to say" ;
+        narr:reported false ;
+        skos:note "Describes the current architectural state of the system." ;
+        prov:generatedAtTime "2026-09-23T17:22:21Z"^^xsd:dateTime .
+
+    narr:VecTemporal_3RealChannelNotProduct20260428_40 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_3RealChannelNotProduct20260428_40 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Future ;
+        narr:region narr:Temporal_Irrealis ;
+        narr:region narr:Temporal_Concrete ;
+        narr:evidence "modal-marker: This tagline should be **superseded**." ;
+        narr:reported false ;
+        skos:note "Prescribes a future desired action on a specific tagline." ;
+        prov:generatedAtTime "2026-09-23T17:22:21Z"^^xsd:dateTime .
+
+    narr:VecTemporal_3RealChannelNotProduct20260428_43 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_3RealChannelNotProduct20260428_43 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Future ;
+        narr:region narr:Temporal_Irrealis ;
+        narr:region narr:Temporal_Concrete ;
+        narr:evidence "modal-marker: **should not be auto-promoted**" ;
+        narr:reported false ;
+        skos:note "Directs future promotion behavior regarding this memory branch." ;
+        prov:generatedAtTime "2026-09-23T17:22:21Z"^^xsd:dateTime .
+
+    narr:VecTemporal_3RealChannelNotProduct20260428_46 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_3RealChannelNotProduct20260428_46 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Future ;
+        narr:region narr:Temporal_Irrealis ;
+        narr:region narr:Temporal_Abstract ;
+        narr:evidence "modal-marker: I think SMS is something that we should offer only for the enterprise plan" ;
+        narr:reported false ;
+        skos:note "Expresses an opinion on future tiering policy." ;
+        prov:generatedAtTime "2026-09-23T17:22:21Z"^^xsd:dateTime .
+
+    narr:VecTemporal_3RealChannelNotProduct20260428_47 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_3RealChannelNotProduct20260428_47 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Present ;
+        narr:region narr:Temporal_Realis ;
+        narr:region narr:Temporal_Concrete ;
+        narr:evidence "plain-assertion: I'm doing this as a demo right now, and I'm trying to get some of these larger clients on the hook" ;
+        narr:reported false ;
+        skos:note "Describes current immediate activities and active negotiations." ;
+        prov:generatedAtTime "2026-09-23T17:22:21Z"^^xsd:dateTime .
+
+    narr:VecTemporal_3RealChannelNotProduct20260428_50 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_3RealChannelNotProduct20260428_50 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Present ;
+        narr:region narr:Temporal_Realis ;
+        narr:region narr:Temporal_Abstract ;
+        narr:evidence "plain-assertion: The leaning is recorded; it is not yet a decision." ;
+        narr:reported false ;
+        skos:note "States the present epistemic status of the tiering discussion." ;
+        prov:generatedAtTime "2026-09-23T17:22:21Z"^^xsd:dateTime .
+
+    narr:VecTemporal_3RealChannelNotProduct20260428_52 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_3RealChannelNotProduct20260428_52 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Past ;
+        narr:region narr:Temporal_Realis ;
+        narr:region narr:Temporal_Concrete ;
+        narr:evidence "lexical-marker: Conversation: Claude.ai mobile session, April 28, 2026" ;
+        narr:reported false ;
+        skos:note "Summarizes metadata of past specific interactions and claims." ;
+        prov:generatedAtTime "2026-09-23T17:22:21Z"^^xsd:dateTime .
+
+    narr:VecValue_3RealChannelNotProduct20260428_9 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_3RealChannelNotProduct20260428_9 ;
+        narr:dimension narr:Dim_Value ;
+        narr:region narr:Value_Competence ;
+        narr:evidence "plain-assertion: curated expertise installation** — a way to install expertise into your AI and verify where it's coming from." ;
+        narr:reported false ;
+        skos:note "Frames value around verified competence and quality of craft in AI capabilities." ;
+        prov:generatedAtTime "2026-09-23T17:22:21Z"^^xsd:dateTime .
+
+    narr:VecValue_3RealChannelNotProduct20260428_14 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_3RealChannelNotProduct20260428_14 ;
+        narr:dimension narr:Dim_Value ;
+        narr:region narr:Value_Conservation ;
+        narr:region narr:Value_Relatedness ;
+        narr:evidence "lexical-marker: trust-signal" ;
+        narr:evidence "lexical-marker: spam-adjacent" ;
+        narr:reported false ;
+        skos:note "Appeals to preservation of trust, safety from spam, and relational friction in communication channels." ;
+        prov:generatedAtTime "2026-09-23T17:22:21Z"^^xsd:dateTime .
+
+    narr:VecValue_3RealChannelNotProduct20260428_15 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_3RealChannelNotProduct20260428_15 ;
+        narr:dimension narr:Dim_Value ;
+        narr:region narr:Value_Relatedness ;
+        narr:evidence "plain-assertion: a phone number doesn't feel like an AI chat in the same way that chat does." ;
+        narr:reported false ;
+        skos:note "Focuses on the interpersonal feel and relational authenticity of the channel." ;
+        prov:generatedAtTime "2026-09-23T17:22:21Z"^^xsd:dateTime .
+
+    narr:VecValue_3RealChannelNotProduct20260428_18 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_3RealChannelNotProduct20260428_18 ;
+        narr:dimension narr:Dim_Value ;
+        narr:region narr:Value_Conservation ;
+        narr:evidence "plain-assertion: SMS-as-trust-signal remains genuine value." ;
+        narr:reported false ;
+        skos:note "Directly asserts the value of trust preservation." ;
+        prov:generatedAtTime "2026-09-23T17:22:21Z"^^xsd:dateTime .
+
+    narr:VecValue_3RealChannelNotProduct20260428_27 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_3RealChannelNotProduct20260428_27 ;
+        narr:dimension narr:Dim_Value ;
+        narr:region narr:Value_Conservation ;
+        narr:region narr:Value_Autonomy ;
+        narr:evidence "plain-assertion: People might not want to give their number." ;
+        narr:evidence "lexical-marker: skeptical or lower-trust contexts" ;
+        narr:reported true ;
+        skos:note "Relays user desire for privacy/autonomy over personal data and protection against spam risk." ;
+        prov:generatedAtTime "2026-09-23T17:22:21Z"^^xsd:dateTime .
+
+    narr:Expr_3RealChannelNotProduct20260428_2 narr:supports narr:Narrative_InstallableExpertise .
+
+    narr:Expr_3RealChannelNotProduct20260428_3 narr:supports narr:Narrative_InstallableExpertise .
+
+    narr:Expr_3RealChannelNotProduct20260428_4 narr:supports narr:Narrative_InstallableExpertise .
+
+    narr:Expr_3RealChannelNotProduct20260428_5 narr:supports narr:Narrative_InstallableExpertise .
+
+    narr:Expr_3RealChannelNotProduct20260428_7 narr:supports narr:Narrative_InstallableExpertise .
+
+    narr:Expr_3RealChannelNotProduct20260428_8 narr:supports narr:Narrative_InstallableExpertise .
+
+    narr:Expr_3RealChannelNotProduct20260428_9 narr:supports narr:Narrative_InstallableExpertise .
+
+    narr:Expr_3RealChannelNotProduct20260428_10 narr:supports narr:Narrative_InstallableExpertise .
+
+    narr:Expr_3RealChannelNotProduct20260428_11 narr:supports narr:Narrative_InstallableExpertise .
+
+    narr:Expr_3RealChannelNotProduct20260428_12 narr:supports narr:Narrative_InstallableExpertise .
+
+    narr:Expr_3RealChannelNotProduct20260428_13 narr:supports narr:Narrative_InstallableExpertise .
+
+    narr:Expr_3RealChannelNotProduct20260428_19 narr:supports narr:Narrative_InstallableExpertise .
+
+    narr:Expr_3RealChannelNotProduct20260428_32 narr:supports narr:Narrative_InstallableExpertise .
+
+    narr:Expr_3RealChannelNotProduct20260428_33 narr:supports narr:Narrative_InstallableExpertise .
+
+    narr:Expr_3RealChannelNotProduct20260428_34 narr:supports narr:Narrative_InstallableExpertise .
+
+    narr:Expr_3RealChannelNotProduct20260428_35 narr:supports narr:Narrative_InstallableExpertise .
+
+    narr:Expr_3RealChannelNotProduct20260428_36 narr:supports narr:Narrative_InstallableExpertise .
+
+    narr:Expr_3RealChannelNotProduct20260428_37 narr:supports narr:Narrative_InstallableExpertise .
+
+    narr:Expr_3RealChannelNotProduct20260428_39 narr:supports narr:Narrative_InstallableExpertise .
+
+    narr:Expr_3RealChannelNotProduct20260428_40 narr:supports narr:Narrative_InstallableExpertise .
+
+    narr:Expr_3RealChannelNotProduct20260428_41 narr:supports narr:Narrative_InstallableExpertise .
+
+    narr:Expr_3RealChannelNotProduct20260428_42 narr:supports narr:Narrative_InstallableExpertise .
+
+    narr:Expr_3RealChannelNotProduct20260428_44 narr:supports narr:Narrative_InstallableExpertise .
+
+    narr:Position_InstallableExpertiseCategoryMoat narr:supports narr:Narrative_InstallableExpertise .
+
+    narr:Expr_3RealChannelNotProduct20260428_14 narr:supports narr:Narrative_InterviewFlywheel .
+
+    narr:Expr_3RealChannelNotProduct20260428_15 narr:supports narr:Narrative_InterviewFlywheel .
+
+    narr:Expr_3RealChannelNotProduct20260428_16 narr:supports narr:Narrative_InterviewFlywheel .
+
+    narr:Expr_3RealChannelNotProduct20260428_17 narr:supports narr:Narrative_InterviewFlywheel .
+
+    narr:Expr_3RealChannelNotProduct20260428_18 narr:supports narr:Narrative_InterviewFlywheel .
+
+    narr:Expr_3RealChannelNotProduct20260428_22 narr:supports narr:Narrative_InterviewFlywheel .
+
+    narr:Expr_3RealChannelNotProduct20260428_23 narr:supports narr:Narrative_InterviewFlywheel .
+
+    narr:Expr_3RealChannelNotProduct20260428_24 narr:supports narr:Narrative_InterviewFlywheel .
+
+    narr:Expr_3RealChannelNotProduct20260428_25 narr:supports narr:Narrative_InterviewFlywheel .
+
+    narr:Expr_3RealChannelNotProduct20260428_26 narr:supports narr:Narrative_InterviewFlywheel .
+
+    narr:Expr_3RealChannelNotProduct20260428_27 narr:supports narr:Narrative_InterviewFlywheel .
+
+    narr:Expr_3RealChannelNotProduct20260428_28 narr:supports narr:Narrative_InterviewFlywheel .
+
+    narr:Expr_3RealChannelNotProduct20260428_30 narr:supports narr:Narrative_InterviewFlywheel .
+
+    narr:Expr_3RealChannelNotProduct20260428_31 narr:supports narr:Narrative_InterviewFlywheel .
+
+    narr:Position_EvaluatorChannelTrustTax narr:supports narr:Narrative_InterviewFlywheel .
+
+    narr:Expr_3RealChannelNotProduct20260428_20 narr:supports narr:Narrative_BehavioralProgressionPackaging .
+
+    narr:Expr_3RealChannelNotProduct20260428_21 narr:supports narr:Narrative_BehavioralProgressionPackaging .
+
+    narr:Expr_3RealChannelNotProduct20260428_26 narr:supports narr:Narrative_BehavioralProgressionPackaging .
+
+    narr:Expr_3RealChannelNotProduct20260428_29 narr:supports narr:Narrative_BehavioralProgressionPackaging .
+
+    narr:Expr_3RealChannelNotProduct20260428_45 narr:supports narr:Narrative_BehavioralProgressionPackaging .
+
+    narr:Expr_3RealChannelNotProduct20260428_46 narr:supports narr:Narrative_BehavioralProgressionPackaging .
+
+    narr:Expr_3RealChannelNotProduct20260428_47 narr:supports narr:Narrative_BehavioralProgressionPackaging .
+
+    narr:Expr_3RealChannelNotProduct20260428_48 narr:supports narr:Narrative_BehavioralProgressionPackaging .
+
+    narr:Expr_3RealChannelNotProduct20260428_49 narr:supports narr:Narrative_BehavioralProgressionPackaging .
+
+    narr:Expr_3RealChannelNotProduct20260428_50 narr:supports narr:Narrative_BehavioralProgressionPackaging .
+
+    narr:Position_BehavioralStepPackagingTiers narr:supports narr:Narrative_BehavioralProgressionPackaging .
+
+    narr:Position_ArchetypeRelationalDisambiguation narr:supports narr:Narrative_BehavioralProgressionPackaging .
+
+    narr:Position_ProductIdentityChannelDisambiguation a narr:Position ;
+        narr:frame "How does core product identity distinguish curated expertise installation from communication and distribution channels?" ;
+        narr:extends narr:Position_InstallableExpertiseCategoryMoat ;
+        prov:generatedAtTime "2026-09-23T17:22:21Z"^^xsd:dateTime .
+
+    narr:Position_ProductIdentityChannelDisambiguation narr:supports narr:Narrative_InstallableExpertise .
+
+    narr:Expr_3RealChannelNotProduct20260428_7 narr:supports narr:Position_ProductIdentityChannelDisambiguation .
+
+    narr:Expr_3RealChannelNotProduct20260428_8 narr:supports narr:Position_ProductIdentityChannelDisambiguation .
+
+    narr:Expr_3RealChannelNotProduct20260428_9 narr:supports narr:Position_ProductIdentityChannelDisambiguation .
+
+    narr:Expr_3RealChannelNotProduct20260428_12 narr:supports narr:Position_ProductIdentityChannelDisambiguation .
+
+    narr:Expr_3RealChannelNotProduct20260428_13 narr:supports narr:Position_ProductIdentityChannelDisambiguation .
+
+    narr:Expr_3RealChannelNotProduct20260428_19 narr:supports narr:Position_ProductIdentityChannelDisambiguation .
+
+    narr:Expr_3RealChannelNotProduct20260428_39 narr:supports narr:Position_ProductIdentityChannelDisambiguation .
+
+    narr:Expr_3RealChannelNotProduct20260428_41 narr:supports narr:Position_ProductIdentityChannelDisambiguation .
+
+    narr:Position_SmsChannelTierPackaging a narr:Position ;
+        narr:frame "How should high-overhead distribution channels like SMS be mapped to commercial tiers and enterprise packaging?" ;
+        narr:extends narr:Position_BehavioralStepPackagingTiers ;
+        prov:generatedAtTime "2026-09-23T17:22:21Z"^^xsd:dateTime .
+
+    narr:Position_SmsChannelTierPackaging narr:supports narr:Narrative_BehavioralProgressionPackaging .
+
+    narr:Expr_3RealChannelNotProduct20260428_20 narr:supports narr:Position_SmsChannelTierPackaging .
+
+    narr:Expr_3RealChannelNotProduct20260428_21 narr:supports narr:Position_SmsChannelTierPackaging .
+
+    narr:Expr_3RealChannelNotProduct20260428_45 narr:supports narr:Position_SmsChannelTierPackaging .
+
+    narr:Expr_3RealChannelNotProduct20260428_46 narr:supports narr:Position_SmsChannelTierPackaging .
+
+    narr:Expr_3RealChannelNotProduct20260428_47 narr:supports narr:Position_SmsChannelTierPackaging .
+
+    narr:Expr_3RealChannelNotProduct20260428_48 narr:supports narr:Position_SmsChannelTierPackaging .
+
+    narr:Expr_3RealChannelNotProduct20260428_49 narr:supports narr:Position_SmsChannelTierPackaging .
+
+    narr:Expr_3RealChannelNotProduct20260428_50 narr:supports narr:Position_SmsChannelTierPackaging .
+
+    narr:Position_SubgraphScopingTemporalityOntology a narr:Position ;
+        narr:frame "How can extraction architectures isolate exploratory experiment claims from root product definitions to prevent narrative drift?" ;
+        prov:generatedAtTime "2026-09-23T17:22:21Z"^^xsd:dateTime .
+
+    narr:Position_SubgraphScopingTemporalityOntology narr:supports narr:Narrative_InstallableExpertise .
+
+    narr:Expr_3RealChannelNotProduct20260428_5 narr:supports narr:Position_SubgraphScopingTemporalityOntology .
+
+    narr:Expr_3RealChannelNotProduct20260428_32 narr:supports narr:Position_SubgraphScopingTemporalityOntology .
+
+    narr:Expr_3RealChannelNotProduct20260428_33 narr:supports narr:Position_SubgraphScopingTemporalityOntology .
+
+    narr:Expr_3RealChannelNotProduct20260428_34 narr:supports narr:Position_SubgraphScopingTemporalityOntology .
+
+    narr:Expr_3RealChannelNotProduct20260428_35 narr:supports narr:Position_SubgraphScopingTemporalityOntology .
+
+    narr:Expr_3RealChannelNotProduct20260428_36 narr:supports narr:Position_SubgraphScopingTemporalityOntology .
+
+    narr:Expr_3RealChannelNotProduct20260428_37 narr:supports narr:Position_SubgraphScopingTemporalityOntology .
+
+    narr:Expr_3RealChannelNotProduct20260428_14 narr:supports narr:Position_EvaluatorChannelTrustTax .
+
+    narr:Expr_3RealChannelNotProduct20260428_15 narr:supports narr:Position_EvaluatorChannelTrustTax .
+
+    narr:Expr_3RealChannelNotProduct20260428_18 narr:supports narr:Position_EvaluatorChannelTrustTax .
+
+    narr:Expr_3RealChannelNotProduct20260428_22 narr:supports narr:Position_EvaluatorChannelTrustTax .
+
+    narr:Expr_3RealChannelNotProduct20260428_25 narr:supports narr:Position_EvaluatorChannelTrustTax .
+
+    narr:Expr_3RealChannelNotProduct20260428_27 narr:supports narr:Position_EvaluatorChannelTrustTax .
+
+    narr:Expr_3RealChannelNotProduct20260428_28 narr:supports narr:Position_EvaluatorChannelTrustTax .
+
+    narr:Expr_3RealChannelNotProduct20260428_30 narr:supports narr:Position_EvaluatorChannelTrustTax .
+
+    narr:Expr_3RealChannelNotProduct20260428_31 narr:supports narr:Position_EvaluatorChannelTrustTax .
+
+    narr:Expr_3RealChannelNotProduct20260428_26 narr:supports narr:Position_ArchetypeRelationalDisambiguation .
+
+    narr:Expr_3RealChannelNotProduct20260428_29 narr:supports narr:Position_ArchetypeRelationalDisambiguation .
+
+    aswr:Miss_3RealChannelNotProduct20260428_conviction_trip a aswr:Miss ;
+        aswr:missPass "conviction" ;
+        aswr:missClass "floor" ;
+        aswr:missError "marked 12/52 under 0.25 for conviction" ;
+        aswr:missModel "google/gemini-3.7-flash" ;
+        aswr:tripFloor "marked_ratio" ;
+        aswr:tripRatio "0.2308"^^xsd:decimal ;
+        aswr:tripOutcome "accepted-flagged" ;
+        aswr:tripFallbackModel "anthropic/claude-sonnet-5" ;
+        aswr:missScope narr:Sample_3RealChannelNotProduct20260428 ;
+        prov:generatedAtTime "2026-09-23T17:22:21Z"^^xsd:dateTime .
+
+    aswr:Run_20260923T172221Z_dim_affect a prov:Activity ;
+        aswr:runPass "dim.affect" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/8bf074e60639/2026-09-23-3-real-channel-not-product-2026-04-28/dim.affect.json" ;
+        prov:generated narr:VecAffect_3RealChannelNotProduct20260428_11, narr:VecAffect_3RealChannelNotProduct20260428_47 ;
+        dct:isPartOf aswr:Tx_20260923T172221Z ;
+        prov:generatedAtTime "2026-09-23T17:22:21Z"^^xsd:dateTime .
+
+    aswr:Run_20260923T172221Z_dim_conviction a prov:Activity ;
+        aswr:runPass "dim.conviction" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/8bf074e60639/2026-09-23-3-real-channel-not-product-2026-04-28/dim.conviction.json" ;
+        prov:generated narr:VecConviction_3RealChannelNotProduct20260428_7, narr:VecConviction_3RealChannelNotProduct20260428_8, narr:VecConviction_3RealChannelNotProduct20260428_15, narr:VecConviction_3RealChannelNotProduct20260428_20, narr:VecConviction_3RealChannelNotProduct20260428_21, narr:VecConviction_3RealChannelNotProduct20260428_27, narr:VecConviction_3RealChannelNotProduct20260428_35, narr:VecConviction_3RealChannelNotProduct20260428_40, narr:VecConviction_3RealChannelNotProduct20260428_43, narr:VecConviction_3RealChannelNotProduct20260428_46, narr:VecConviction_3RealChannelNotProduct20260428_47, narr:VecConviction_3RealChannelNotProduct20260428_51 ;
+        dct:isPartOf aswr:Tx_20260923T172221Z ;
+        prov:generatedAtTime "2026-09-23T17:22:21Z"^^xsd:dateTime .
+
+    aswr:Run_20260923T172221Z_dim_power a prov:Activity ;
+        aswr:runPass "dim.power" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/8bf074e60639/2026-09-23-3-real-channel-not-product-2026-04-28/dim.power.json" ;
+        prov:generated narr:VecPower_3RealChannelNotProduct20260428_40, narr:VecPower_3RealChannelNotProduct20260428_43, narr:VecPower_3RealChannelNotProduct20260428_47, narr:VecPower_3RealChannelNotProduct20260428_51 ;
+        dct:isPartOf aswr:Tx_20260923T172221Z ;
+        prov:generatedAtTime "2026-09-23T17:22:21Z"^^xsd:dateTime .
+
+    aswr:Run_20260923T172221Z_dim_register a prov:Activity ;
+        aswr:runPass "dim.register" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/8bf074e60639/2026-09-23-3-real-channel-not-product-2026-04-28/dim.register.json" ;
+        prov:generated narr:VecRegister_3RealChannelNotProduct20260428_11, narr:VecRegister_3RealChannelNotProduct20260428_21, narr:VecRegister_3RealChannelNotProduct20260428_28, narr:VecRegister_3RealChannelNotProduct20260428_46, narr:VecRegister_3RealChannelNotProduct20260428_47 ;
+        dct:isPartOf aswr:Tx_20260923T172221Z ;
+        prov:generatedAtTime "2026-09-23T17:22:21Z"^^xsd:dateTime .
+
+    aswr:Run_20260923T172221Z_dim_relational a prov:Activity ;
+        aswr:runPass "dim.relational" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/8bf074e60639/2026-09-23-3-real-channel-not-product-2026-04-28/dim.relational.json" ;
+        prov:generated narr:VecRelational_3RealChannelNotProduct20260428_20, narr:VecRelational_3RealChannelNotProduct20260428_21, narr:VecRelational_3RealChannelNotProduct20260428_46, narr:VecRelational_3RealChannelNotProduct20260428_47 ;
+        dct:isPartOf aswr:Tx_20260923T172221Z ;
+        prov:generatedAtTime "2026-09-23T17:22:21Z"^^xsd:dateTime .
+
+    aswr:Run_20260923T172221Z_dim_style a prov:Activity ;
+        aswr:runPass "dim.style" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/8bf074e60639/2026-09-23-3-real-channel-not-product-2026-04-28/dim.style.json" ;
+        prov:generated narr:VecStyle_3RealChannelNotProduct20260428_8, narr:VecStyle_3RealChannelNotProduct20260428_14, narr:VecStyle_3RealChannelNotProduct20260428_19, narr:VecStyle_3RealChannelNotProduct20260428_28, narr:VecStyle_3RealChannelNotProduct20260428_42 ;
+        dct:isPartOf aswr:Tx_20260923T172221Z ;
+        prov:generatedAtTime "2026-09-23T17:22:21Z"^^xsd:dateTime .
+
+    aswr:Run_20260923T172221Z_dim_temporal a prov:Activity ;
+        aswr:runPass "dim.temporal" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/8bf074e60639/2026-09-23-3-real-channel-not-product-2026-04-28/dim.temporal.json" ;
+        prov:generated narr:VecTemporal_3RealChannelNotProduct20260428_2, narr:VecTemporal_3RealChannelNotProduct20260428_4, narr:VecTemporal_3RealChannelNotProduct20260428_5, narr:VecTemporal_3RealChannelNotProduct20260428_7, narr:VecTemporal_3RealChannelNotProduct20260428_8, narr:VecTemporal_3RealChannelNotProduct20260428_9, narr:VecTemporal_3RealChannelNotProduct20260428_10, narr:VecTemporal_3RealChannelNotProduct20260428_11, narr:VecTemporal_3RealChannelNotProduct20260428_12, narr:VecTemporal_3RealChannelNotProduct20260428_14, narr:VecTemporal_3RealChannelNotProduct20260428_15, narr:VecTemporal_3RealChannelNotProduct20260428_20, narr:VecTemporal_3RealChannelNotProduct20260428_22, narr:VecTemporal_3RealChannelNotProduct20260428_24, narr:VecTemporal_3RealChannelNotProduct20260428_25, narr:VecTemporal_3RealChannelNotProduct20260428_26, narr:VecTemporal_3RealChannelNotProduct20260428_27, narr:VecTemporal_3RealChannelNotProduct20260428_28, narr:VecTemporal_3RealChannelNotProduct20260428_30, narr:VecTemporal_3RealChannelNotProduct20260428_33, narr:VecTemporal_3RealChannelNotProduct20260428_36, narr:VecTemporal_3RealChannelNotProduct20260428_40, narr:VecTemporal_3RealChannelNotProduct20260428_43, narr:VecTemporal_3RealChannelNotProduct20260428_46, narr:VecTemporal_3RealChannelNotProduct20260428_47, narr:VecTemporal_3RealChannelNotProduct20260428_50, narr:VecTemporal_3RealChannelNotProduct20260428_52 ;
+        dct:isPartOf aswr:Tx_20260923T172221Z ;
+        prov:generatedAtTime "2026-09-23T17:22:21Z"^^xsd:dateTime .
+
+    aswr:Run_20260923T172221Z_dim_value a prov:Activity ;
+        aswr:runPass "dim.value" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/8bf074e60639/2026-09-23-3-real-channel-not-product-2026-04-28/dim.value.json" ;
+        prov:generated narr:VecValue_3RealChannelNotProduct20260428_9, narr:VecValue_3RealChannelNotProduct20260428_14, narr:VecValue_3RealChannelNotProduct20260428_15, narr:VecValue_3RealChannelNotProduct20260428_18, narr:VecValue_3RealChannelNotProduct20260428_27 ;
+        dct:isPartOf aswr:Tx_20260923T172221Z ;
+        prov:generatedAtTime "2026-09-23T17:22:21Z"^^xsd:dateTime .
+
+    aswr:Run_20260923T172221Z_pass5 a prov:Activity ;
+        aswr:runPass "pass5" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/8bf074e60639/2026-09-23-3-real-channel-not-product-2026-04-28/pass5.json" ;
+        dct:isPartOf aswr:Tx_20260923T172221Z ;
+        prov:generatedAtTime "2026-09-23T17:22:21Z"^^xsd:dateTime .
+
+    aswr:Run_20260923T172221Z_position a prov:Activity ;
+        aswr:runPass "position" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/8bf074e60639/2026-09-23-3-real-channel-not-product-2026-04-28/position.json" ;
+        prov:generated narr:Position_ProductIdentityChannelDisambiguation, narr:Position_SmsChannelTierPackaging, narr:Position_SubgraphScopingTemporalityOntology ;
+        dct:isPartOf aswr:Tx_20260923T172221Z ;
+        prov:generatedAtTime "2026-09-23T17:22:21Z"^^xsd:dateTime .
+  }
+}
