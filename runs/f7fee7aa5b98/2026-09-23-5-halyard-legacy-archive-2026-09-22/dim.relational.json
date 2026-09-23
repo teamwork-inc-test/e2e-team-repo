@@ -1,0 +1,70 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "communal-sharing" ],
+    "evidence" : [ {
+      "quote" : "I'd rather we form a view than have one handed to us",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Frames the working group as a collective unit establishing a shared internal stance versus passive external reception.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-7",
+    "regions" : [ "market-pricing" ],
+    "evidence" : [ {
+      "quote" : "That's the expensive answer and it's also the fragile one",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Frames the option explicitly in terms of cost and fragility/risk trade-offs.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-15",
+    "regions" : [ "market-pricing" ],
+    "evidence" : [ {
+      "quote" : "Cost and effort now, against a risk that lands years from now",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Weighs immediate resource expenditure directly against delayed risk exposure.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-20",
+    "regions" : [ "authority-ranking" ],
+    "evidence" : [ {
+      "quote" : "I want legal to give us one in writing",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Defers authoritative decision-making on retention duration to formal legal mandate.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-23",
+    "regions" : [ "communal-sharing" ],
+    "evidence" : [ {
+      "quote" : "I'd sign up to that.",
+      "kind" : "commitment-marker"
+    } ],
+    "why" : "Expresses consensus and voluntary buy-in into the collective alignment.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-27",
+    "regions" : [ "authority-ranking" ],
+    "evidence" : [ {
+      "quote" : "Xavier, can you scope the extraction enough that I can put a number in front of the vendor?",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Directs a team member to deliver work to support commercial negotiation.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-28",
+    "regions" : [ "equality-matching" ],
+    "evidence" : [ {
+      "quote" : "Give me until the end of next week.",
+      "kind" : "commitment-marker"
+    } ],
+    "why" : "Sets a reciprocal timeline commitment in direct response to a task request.",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-2", "src-3", "src-4", "src-5", "src-6", "src-8", "src-9", "src-10", "src-11", "src-12", "src-13", "src-14", "src-16", "src-17", "src-18", "src-19", "src-21", "src-22", "src-24", "src-25", "src-26" ],
+  "unmarked_rest" : false,
+  "mints" : [ ],
+  "region_mints" : [ ]
+}
