@@ -1,0 +1,43 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-13",
+    "regions" : [ "market-pricing" ],
+    "evidence" : [ {
+      "quote" : "it costs us something? Two weeks was conservative in a place where being conservative was cheap. One week is defensible but it has no slack in it.",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Xavier evaluates the schedule change explicitly through cost-benefit, trade-offs, and margins of risk/slack.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-18",
+    "regions" : [ "authority-ranking" ],
+    "evidence" : [ {
+      "quote" : "Which I will not be spending. That goes into the Clyde buffer.",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Tanya exercises hierarchical executive authority over the allocation and expenditure of program buffer time.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-20",
+    "regions" : [ "authority-ranking" ],
+    "evidence" : [ {
+      "quote" : "For the record then: the soak between sites is one week, not two, and my note from the eighth about two weeks should be read as superseded by this.",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Formal ruling and record-setting superseding prior authoritative guidance.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-21",
+    "regions" : [ "authority-ranking" ],
+    "evidence" : [ {
+      "quote" : "Tina, can you put the Dockside re-analysis somewhere the steering group can see it? They heard me say two weeks on the tenth.",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Directing subordinate reporting up to a formal governance body (steering group).",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-1", "src-2", "src-3", "src-4", "src-5", "src-6", "src-7", "src-8", "src-9", "src-10", "src-11", "src-12", "src-14", "src-15", "src-16", "src-17", "src-19", "src-22", "src-23", "src-24" ],
+  "unmarked_rest" : false,
+  "mints" : [ ],
+  "region_mints" : [ ]
+}
