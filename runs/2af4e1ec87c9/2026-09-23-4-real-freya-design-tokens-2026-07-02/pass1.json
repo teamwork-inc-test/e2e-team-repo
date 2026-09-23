@@ -1,0 +1,260 @@
+{
+  "doc" : {
+    "title" : "Freya Free's Design-Token Practice Independently Validates Perspective-as-Deliverable and Brand-as-AI-Identity",
+    "date_stated" : "2026-06-29",
+    "actors_present" : [ "claude-opus-5-5", "Freya Free", "Tanya TeamOwner" ]
+  },
+  "footing_cases" : [ {
+    "id" : "fc-1",
+    "animator" : "claude-opus-5-5",
+    "author" : "claude-opus-5-5",
+    "principal" : null,
+    "when" : "Editorial narration, summary, context, framing, or synthesis authored by the assistant"
+  } ],
+  "segments" : [ {
+    "local_id" : "src-1",
+    "exact" : "Written up by Claude (claude-opus-5-5), the assistant in Tanya Team's session, from the call between Tanya Team and Freya Free. Quoted lines are each speaker's own words.",
+    "actor" : "claude-opus-5-5",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Header metadata note"
+    },
+    "footing_case" : "fc-1",
+    "footing" : {
+      "animator" : "claude-opus-5-5",
+      "author" : "claude-opus-5-5",
+      "principal" : null
+    }
+  }, {
+    "local_id" : "src-2",
+    "exact" : "Source:** Call between Tanya Team and Freya Free, June 29, 2026. Freya is a designer and Northwind-era collaborator. This is the second documented session with him (first: March 23, 2026, where he committed to a style-guide \"system that AI can apply, not static comps\").",
+    "actor" : "claude-opus-5-5",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Source specification"
+    },
+    "footing_case" : "fc-1",
+    "footing" : {
+      "animator" : "claude-opus-5-5",
+      "author" : "claude-opus-5-5",
+      "principal" : null
+    }
+  }, {
+    "local_id" : "src-3",
+    "exact" : "The idea that the consulting deliverable of the AI age is not a deck but an installable perspective is already established in the perspective as a high-conviction (boulder) claim from March 19 — \"instead of a deck, deliver a perspective the whole org can install,\" with the deck as a derived artifact.",
+    "actor" : "claude-opus-5-5",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Context section"
+    },
+    "footing_case" : "fc-1",
+    "footing" : {
+      "animator" : "claude-opus-5-5",
+      "author" : "claude-opus-5-5",
+      "principal" : null
+    }
+  }, {
+    "local_id" : "src-4",
+    "exact" : "What this call adds is (a) **independent validation** of that thesis from a working designer who arrived at it through his own practice, (b) the concrete **design-token ↔ perspective parallel** the graph was explicitly missing, and (c) a **status note**: Tanya has not yet actually delivered an aswritten perspective as a deck-alternative to a consulting client.",
+    "actor" : "claude-opus-5-5",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Context section"
+    },
+    "footing_case" : "fc-1",
+    "footing" : {
+      "animator" : "claude-opus-5-5",
+      "author" : "claude-opus-5-5",
+      "principal" : null
+    }
+  }, {
+    "local_id" : "src-5",
+    "exact" : "Describing what he has been building this year:",
+    "actor" : "claude-opus-5-5",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Freya's process — extraction to tokens to AI-applied surfaces"
+    },
+    "how" : [ {
+      "span" : "Describing what he has been building this year:",
+      "side" : "supply"
+    } ],
+    "footing_case" : "fc-1",
+    "footing" : {
+      "animator" : "claude-opus-5-5",
+      "author" : "claude-opus-5-5",
+      "principal" : null
+    }
+  }, {
+    "local_id" : "src-6",
+    "exact" : "I have a process where I extract everything that builds into a design language which gets tokenized. The tokens get applied to surfaces... if I build a website, I actually build it from the extraction at the beginning. The design tokens need some input. Once the design tokens are there is some specific guidance through the different surfaces or designer license.",
+    "actor" : "Freya Free",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Freya's process — extraction to tokens to AI-applied surfaces"
+    },
+    "footing_case" : null
+  }, {
+    "local_id" : "src-7",
+    "exact" : "And crucially, the output does not read as generic AI:",
+    "actor" : "claude-opus-5-5",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Freya's process — extraction to tokens to AI-applied surfaces"
+    },
+    "footing_case" : "fc-1",
+    "footing" : {
+      "animator" : "claude-opus-5-5",
+      "author" : "claude-opus-5-5",
+      "principal" : null
+    }
+  }, {
+    "local_id" : "src-8",
+    "exact" : "the data is taken from the extraction and basically made logical designer input... applied to that then goes into Claude and gets converted into a website. It doesn't look anything like a Claude website. It looks like the initial designs. And I've actually been able to do this without giving it visuals. If I want to tighten it, I give it a few visuals.",
+    "actor" : "Freya Free",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Freya's process — extraction to tokens to AI-applied surfaces"
+    },
+    "footing_case" : null
+  }, {
+    "local_id" : "src-9",
+    "exact" : "Freya identifies exactly what carries the uniqueness — and names it as the same thing Tanya has built:",
+    "actor" : "claude-opus-5-5",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "The lens is the irreducible part"
+    },
+    "footing_case" : "fc-1",
+    "footing" : {
+      "animator" : "claude-opus-5-5",
+      "author" : "claude-opus-5-5",
+      "principal" : null
+    }
+  }, {
+    "local_id" : "src-10",
+    "exact" : "without my input through my own lens, it breaks, it falls down. So that shows that the actual unique part is by [my] lens — is applying the lens, which I suppose is effectively what you've built there... it is the lens that controls all of that.",
+    "actor" : "Freya Free",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "The lens is the irreducible part"
+    },
+    "footing_case" : null
+  }, {
+    "local_id" : "src-11",
+    "exact" : "It sounds like you're doing a very similar process with AI like I did at Northwind with text. Like the precursor to this product was me building... something similar to what you're talking about. I built a bunch of files that represent how were thinking and all the... the equivalent of design tokens for product language. And then I would sort of put that in the top of the chat and use that to generate whatever other new thing were working on.",
+    "actor" : "Tanya TeamOwner",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Tanya recognizes it as the Northwind text process — the product's precursor"
+    },
+    "footing_case" : null
+  }, {
+    "local_id" : "src-12",
+    "exact" : "Tanya pushes the deliverable idea to its endpoint — the AI *is* the brand's identity, usable across the org:",
+    "actor" : "claude-opus-5-5",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Brand-as-AI-identity, sharpened"
+    },
+    "footing_case" : "fc-1",
+    "footing" : {
+      "animator" : "claude-opus-5-5",
+      "author" : "claude-opus-5-5",
+      "principal" : null
+    }
+  }, {
+    "local_id" : "src-13",
+    "exact" : "when you're talking about brand identity... these AI identities have the opportunity to be the brand's identity. Like you can literally shape an AI that thinks like the brand and then let anyone use it across the org and it designs like [it].",
+    "actor" : "Tanya TeamOwner",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Brand-as-AI-identity, sharpened"
+    },
+    "footing_case" : null
+  }, {
+    "local_id" : "src-14",
+    "exact" : "And the target state, stated as a contrast with the current generic default:",
+    "actor" : "claude-opus-5-5",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Brand-as-AI-identity, sharpened"
+    },
+    "footing_case" : "fc-1",
+    "footing" : {
+      "animator" : "claude-opus-5-5",
+      "author" : "claude-opus-5-5",
+      "principal" : null
+    }
+  }, {
+    "local_id" : "src-15",
+    "exact" : "how do we get from one-shotting a website [that] looks like [Claude] every time to deliver an AI to Coca Cola, where if they ask it to one-shot a website, it looks like Coca Cola and it thinks like Coca Cola and it talks like Coca Cola and it has the narratives and understandings of that?",
+    "actor" : "Tanya TeamOwner",
+    "act" : "question",
+    "circumstance" : {
+      "context" : "Brand-as-AI-identity, sharpened"
+    },
+    "footing_case" : null
+  }, {
+    "local_id" : "src-16",
+    "exact" : "Tanya flags that despite the thesis being settled, she has not run it in practice:",
+    "actor" : "claude-opus-5-5",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "The status note — the unexecuted use case"
+    },
+    "footing_case" : "fc-1",
+    "footing" : {
+      "animator" : "claude-opus-5-5",
+      "author" : "claude-opus-5-5",
+      "principal" : null
+    }
+  }, {
+    "local_id" : "src-17",
+    "exact" : "I haven't delivered an AI perspective as an alternative to a deck to a consulting client yet. But actually I think that's a really... that does seem like the future to me.",
+    "actor" : "Tanya TeamOwner",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "The status note — the unexecuted use case"
+    },
+    "footing_case" : null
+  }, {
+    "local_id" : "src-18",
+    "exact" : "She contrasts it with what clients pay for today:",
+    "actor" : "claude-opus-5-5",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "The status note — the unexecuted use case"
+    },
+    "footing_case" : "fc-1",
+    "footing" : {
+      "animator" : "claude-opus-5-5",
+      "author" : "claude-opus-5-5",
+      "principal" : null
+    }
+  }, {
+    "local_id" : "src-19",
+    "exact" : "what someone is hiring you for now is a static asset that they then are dependent on you to either execute on, or they need to have someone in house that they pay quite a bit of money to then do a very lossy interpretation of your ideas and then continue on forward.",
+    "actor" : "Tanya TeamOwner",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "The status note — the unexecuted use case"
+    },
+    "footing_case" : null
+  }, {
+    "local_id" : "src-20",
+    "exact" : "This is convergent validation from outside aswritten: a designer independently building extraction → tokens → AI-applied output, and naming \"the lens\" as the irreducible, defensible core — the same claim aswritten makes about perspective. It grounds the design-token/perspective parallel and the brand-as-AI-identity endpoint with primary-source material, and it flags a concrete, still-open product move: actually delivering a perspective to a consulting client in place of a deck.",
+    "actor" : "claude-opus-5-5",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Why it matters"
+    },
+    "footing_case" : "fc-1",
+    "footing" : {
+      "animator" : "claude-opus-5-5",
+      "author" : "claude-opus-5-5",
+      "principal" : null
+    }
+  } ],
+  "coverage_gaps" : [ ]
+}
