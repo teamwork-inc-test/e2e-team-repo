@@ -1,0 +1,27 @@
+{
+  "bindings" : [ {
+    "name" : "Xavier Expert",
+    "verdict" : "mint",
+    "target" : null,
+    "label" : "Xavier Expert",
+    "why" : "No existing actor matches Xavier Expert."
+  }, {
+    "name" : "Tanya Team",
+    "verdict" : "mint",
+    "target" : null,
+    "label" : "Tanya Team",
+    "why" : "Distinct surname from existing Tanya TeamOwner; minted to avoid unconfident merge."
+  }, {
+    "name" : "Tanya TeamOwner",
+    "verdict" : "bind",
+    "target" : "Actor_TanyaTeamowner",
+    "label" : null,
+    "why" : "Exact match to existing actor Actor_TanyaTeamowner and envelope submitted_by."
+  }, {
+    "name" : "tanya+staging@aswritten.ai",
+    "verdict" : "bind",
+    "target" : "Actor_TanyaTeamowner",
+    "label" : null,
+    "why" : "Matches the account email for Tanya TeamOwner in the envelope metadata."
+  } ]
+}
