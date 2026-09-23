@@ -1,0 +1,868 @@
+PREFIX narr: <https://aswritten.ai/narrative#>
+PREFIX aswr: <https://aswritten.ai/aswr#>
+PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX dct:  <http://purl.org/dc/terms/>
+PREFIX xsd:  <http://www.w3.org/2001/XMLSchema#>
+PREFIX oa:   <http://www.w3.org/ns/oa#>
+PREFIX xkos: <http://rdf-vocabulary.ddialliance.org/xkos#>
+
+INSERT DATA {
+  aswr:Tx_20260923T014158Z a prov:Activity ;
+      prov:generatedAtTime "2026-09-23T01:41:58Z"^^xsd:dateTime ;
+      prov:wasAssociatedWith "aswritten.ai" ;
+      prov:wasAttributedTo "scarlet@aswritten.ai" ;
+      aswr:pipelinePin "8dd07a49bda8" ;
+      aswr:originPath ".aswritten/memories/2026-09-23-1-halyard-weekly-2026-09-08.md" ;
+      dct:title "Multipass fragment: 1HalyardWeekly20260908" ;
+      prov:generated narr:VecAffect_1HalyardWeekly20260908_1, narr:VecConviction_1HalyardWeekly20260908_8, narr:VecConviction_1HalyardWeekly20260908_13, narr:VecConviction_1HalyardWeekly20260908_15, narr:VecConviction_1HalyardWeekly20260908_16, narr:VecConviction_1HalyardWeekly20260908_17, narr:VecConviction_1HalyardWeekly20260908_19, narr:VecConviction_1HalyardWeekly20260908_20, narr:VecConviction_1HalyardWeekly20260908_22, narr:VecConviction_1HalyardWeekly20260908_26, narr:VecConviction_1HalyardWeekly20260908_28, narr:VecConviction_1HalyardWeekly20260908_31, narr:VecConviction_1HalyardWeekly20260908_36, narr:VecConviction_1HalyardWeekly20260908_38, narr:VecConviction_1HalyardWeekly20260908_39, narr:VecConviction_1HalyardWeekly20260908_42, narr:VecPower_1HalyardWeekly20260908_1, narr:VecPower_1HalyardWeekly20260908_4, narr:VecPower_1HalyardWeekly20260908_8, narr:VecPower_1HalyardWeekly20260908_10, narr:VecPower_1HalyardWeekly20260908_13, narr:VecPower_1HalyardWeekly20260908_17, narr:VecPower_1HalyardWeekly20260908_26, narr:VecPower_1HalyardWeekly20260908_31, narr:VecPower_1HalyardWeekly20260908_36, narr:VecPower_1HalyardWeekly20260908_38, narr:VecRegister_1HalyardWeekly20260908_1, narr:VecRegister_1HalyardWeekly20260908_26, narr:VecRegister_1HalyardWeekly20260908_31, narr:VecRelational_1HalyardWeekly20260908_1, narr:VecRelational_1HalyardWeekly20260908_8, narr:VecRelational_1HalyardWeekly20260908_10, narr:VecRelational_1HalyardWeekly20260908_13, narr:VecRelational_1HalyardWeekly20260908_28, narr:VecRelational_1HalyardWeekly20260908_31, narr:VecStyle_1HalyardWeekly20260908_13, narr:VecStyle_1HalyardWeekly20260908_15, narr:VecStyle_1HalyardWeekly20260908_22, narr:VecStyle_1HalyardWeekly20260908_31, narr:VecStyle_1HalyardWeekly20260908_39, narr:VecTemporal_1HalyardWeekly20260908_1, narr:VecTemporal_1HalyardWeekly20260908_5, narr:VecTemporal_1HalyardWeekly20260908_8, narr:VecTemporal_1HalyardWeekly20260908_12, narr:VecTemporal_1HalyardWeekly20260908_13, narr:VecTemporal_1HalyardWeekly20260908_17, narr:VecTemporal_1HalyardWeekly20260908_19, narr:VecTemporal_1HalyardWeekly20260908_24, narr:VecTemporal_1HalyardWeekly20260908_26, narr:VecTemporal_1HalyardWeekly20260908_28, narr:VecTemporal_1HalyardWeekly20260908_31, narr:VecTemporal_1HalyardWeekly20260908_36, narr:VecTemporal_1HalyardWeekly20260908_38, narr:VecTemporal_1HalyardWeekly20260908_42, narr:DirValue_ContainmentOverSpeed, narr:VecValue_1HalyardWeekly20260908_13, narr:VecValue_1HalyardWeekly20260908_28, narr:VecValue_1HalyardWeekly20260908_38, narr:CutoverStrategy, narr:Narrative_ContainedPainOverUnboundedRisk, narr:Narrative_StrictWorkloadIsolationDuringCutover, narr:Narrative_SingleSourceOfTruthUntilFinalCutover, narr:Position_SiteCutoverSequencingStrategy, narr:Position_PostGoLiveSoakDurationBasis, narr:Position_CutoverReportingReadIsolation, narr:Position_ReferenceDataSourceOfRecordTransition .
+} ;
+INSERT DATA {
+  GRAPH aswr:Tx_20260923T014158Z {
+    narr:VecAffect_1HalyardWeekly20260908_1 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_1HalyardWeekly20260908_1 ;
+        narr:dimension narr:Dim_Affect ;
+        narr:region narr:Affect_ActivatedNegative ;
+        narr:evidence "framing-move: because the steering group asks again on Thursday and I've given them \"we're still working it\" twice now." ;
+        narr:reported false ;
+        skos:note "Urgency and pressure from repeated stalling with the steering group drive the opening demand to settle the decision." ;
+        prov:generatedAtTime "2026-09-23T01:41:58Z"^^xsd:dateTime .
+
+    narr:VecConviction_1HalyardWeekly20260908_8 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_1HalyardWeekly20260908_8 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Decision ;
+        narr:evidence "commitment-marker: I don't think I'm going to move off it. We do this one site at a time." ;
+        narr:evidence "performed-act: No parallel cutovers, not even for the two small ones." ;
+        narr:reported false ;
+        skos:note "Tanya states an unmovable operational stance and rules out parallel cutovers firmly." ;
+        prov:generatedAtTime "2026-09-23T01:41:58Z"^^xsd:dateTime .
+
+    narr:VecConviction_1HalyardWeekly20260908_13 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_1HalyardWeekly20260908_13 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Claim ;
+        narr:evidence "epistemic-verb: I still think it's the wrong trade." ;
+        narr:reported false ;
+        skos:note "Tanya defends her position against Xavier's test using comparative risk reasoning." ;
+        prov:generatedAtTime "2026-09-23T01:41:58Z"^^xsd:dateTime .
+
+    narr:VecConviction_1HalyardWeekly20260908_15 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_1HalyardWeekly20260908_15 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Claim ;
+        narr:evidence "plain-assertion: the desk supervisor's pain is a rota problem, which is solvable." ;
+        narr:reported false ;
+        skos:note "Tina offers a structured defense supporting Tanya's stance." ;
+        prov:generatedAtTime "2026-09-23T01:41:58Z"^^xsd:dateTime .
+
+    narr:VecConviction_1HalyardWeekly20260908_16 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_1HalyardWeekly20260908_16 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Decision ;
+        narr:evidence "performed-act: Right. So: one at a time, with a soak." ;
+        narr:reported false ;
+        skos:note "Tanya ratifies the one-at-a-time sequencing decision." ;
+        prov:generatedAtTime "2026-09-23T01:41:58Z"^^xsd:dateTime .
+
+    narr:VecConviction_1HalyardWeekly20260908_17 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_1HalyardWeekly20260908_17 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Claim ;
+        narr:evidence "commitment-marker: The soak is two full weeks. That's the Dockside number, and I'd hold us to it." ;
+        narr:reported false ;
+        skos:note "Tina strongly proposes and stakes out a two-week duration requirement." ;
+        prov:generatedAtTime "2026-09-23T01:41:58Z"^^xsd:dateTime .
+
+    narr:VecConviction_1HalyardWeekly20260908_19 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_1HalyardWeekly20260908_19 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Claim ;
+        narr:evidence "plain-assertion: Two weeks gives you the flattening plus a few days to actually look at what flattened." ;
+        narr:reported false ;
+        skos:note "Tina provides empirical defense from the spring pilot curve." ;
+        prov:generatedAtTime "2026-09-23T01:41:58Z"^^xsd:dateTime .
+
+    narr:VecConviction_1HalyardWeekly20260908_20 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_1HalyardWeekly20260908_20 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Decision ;
+        narr:evidence "performed-act: That's the reasoning I wanted on the record. Two weeks, from the Dockside exception curve." ;
+        narr:reported false ;
+        skos:note "Tanya puts the two-week duration on the official record, ratifying it." ;
+        prov:generatedAtTime "2026-09-23T01:41:58Z"^^xsd:dateTime .
+
+    narr:VecConviction_1HalyardWeekly20260908_22 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_1HalyardWeekly20260908_22 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Claim ;
+        narr:evidence "plain-assertion: I'd rather hold two weeks and shorten it with evidence than hold one week and discover we needed two." ;
+        narr:reported false ;
+        skos:note "Tina defends the conservatism of the duration estimate." ;
+        prov:generatedAtTime "2026-09-23T01:41:58Z"^^xsd:dateTime .
+
+    narr:VecConviction_1HalyardWeekly20260908_26 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_1HalyardWeekly20260908_26 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Claim ;
+        narr:evidence "intensifier: Not \"should\", not \"where possible\" — reporting does not touch the live system during a cutover window, full stop." ;
+        narr:reported false ;
+        skos:note "Xavier proposes an absolute operational rule with strict boundaries." ;
+        prov:generatedAtTime "2026-09-23T01:41:58Z"^^xsd:dateTime .
+
+    narr:VecConviction_1HalyardWeekly20260908_28 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_1HalyardWeekly20260908_28 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Claim ;
+        narr:evidence "plain-assertion: My argument is that a four-minute-stale number is fine and an outage is not." ;
+        narr:reported false ;
+        skos:note "Xavier frames his trade-off argument ready to defend it." ;
+        prov:generatedAtTime "2026-09-23T01:41:58Z"^^xsd:dateTime .
+
+    narr:VecConviction_1HalyardWeekly20260908_31 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_1HalyardWeekly20260908_31 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Decision ;
+        narr:evidence "performed-act: Then that's the rule. Reporting reads come off the replica during cutover." ;
+        narr:evidence "commitment-marker: write it into the runbook as a rule and not as guidance" ;
+        narr:reported false ;
+        skos:note "Tanya formally adopts the rule and directs it to be written into the runbook as binding." ;
+        prov:generatedAtTime "2026-09-23T01:41:58Z"^^xsd:dateTime .
+
+    narr:VecConviction_1HalyardWeekly20260908_36 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_1HalyardWeekly20260908_36 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Claim ;
+        narr:evidence "plain-assertion: The vendor stays the system of record for reference data until the last site is live." ;
+        narr:evidence "commitment-marker: and we take ownership on the day Clyde goes green and not a day earlier." ;
+        narr:reported false ;
+        skos:note "Xavier outlines his recommended position on reference data ownership." ;
+        prov:generatedAtTime "2026-09-23T01:41:58Z"^^xsd:dateTime .
+
+    narr:VecConviction_1HalyardWeekly20260908_38 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_1HalyardWeekly20260908_38 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Claim ;
+        narr:evidence "plain-assertion: Keeping one source of truth through the whole programme is worth more than getting ownership early." ;
+        narr:reported false ;
+        skos:note "Xavier articulates the rationale behind delaying system-of-record ownership." ;
+        prov:generatedAtTime "2026-09-23T01:41:58Z"^^xsd:dateTime .
+
+    narr:VecConviction_1HalyardWeekly20260908_39 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_1HalyardWeekly20260908_39 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Claim ;
+        narr:evidence "plain-assertion: I agree with that, and I'd add: it also means the vendor can't tell the steering group that their reference data was fine and ours broke it." ;
+        narr:reported false ;
+        skos:note "Tanya seconds the claim and adds defensive rationale." ;
+        prov:generatedAtTime "2026-09-23T01:41:58Z"^^xsd:dateTime .
+
+    narr:VecConviction_1HalyardWeekly20260908_42 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_1HalyardWeekly20260908_42 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Decision ;
+        narr:evidence "performed-act: So Thursday I'm telling them: one site at a time, two-week soak between sites, reporting off the replica during cutover, vendor holds reference data until Clyde is green." ;
+        narr:reported false ;
+        skos:note "Tanya summarizes the four ratified decisions to take to the steering group." ;
+        prov:generatedAtTime "2026-09-23T01:41:58Z"^^xsd:dateTime .
+
+    narr:VecPower_1HalyardWeekly20260908_1 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_1HalyardWeekly20260908_1 ;
+        narr:dimension narr:Dim_Power ;
+        narr:region narr:Power_Pressure ;
+        narr:region narr:Power_Legitimate ;
+        narr:evidence "framing-move: Let's keep this one tight — I want to come out of it with the cutover shape actually decided, because the steering group asks again on Thursday" ;
+        narr:reported false ;
+        skos:note "Tanya sets a firm agenda constraint by invoking executive steering committee pressure and deadlines." ;
+        prov:generatedAtTime "2026-09-23T01:41:58Z"^^xsd:dateTime .
+
+    narr:VecPower_1HalyardWeekly20260908_4 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_1HalyardWeekly20260908_4 ;
+        narr:dimension narr:Dim_Power ;
+        narr:region narr:Power_Legitimate ;
+        narr:region narr:Power_Consultation ;
+        narr:evidence "performed-act: Hold those for ten minutes. Sequencing first. Tina, you've been living in the site plan — where are we?" ;
+        narr:reported false ;
+        skos:note "Tanya exercises meeting control (procedural authority) and invites Tina to lead the situational assessment." ;
+        prov:generatedAtTime "2026-09-23T01:41:58Z"^^xsd:dateTime .
+
+    narr:VecPower_1HalyardWeekly20260908_8 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_1HalyardWeekly20260908_8 ;
+        narr:dimension narr:Dim_Power ;
+        narr:region narr:Power_Legitimate ;
+        narr:evidence "commitment-marker: Then let me say where I've landed, because I don't think I'm going to move off it. We do this one site at a time." ;
+        narr:reported false ;
+        skos:note "Tanya establishes a firm organizational decision through her role authority." ;
+        prov:generatedAtTime "2026-09-23T01:41:58Z"^^xsd:dateTime .
+
+    narr:VecPower_1HalyardWeekly20260908_10 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_1HalyardWeekly20260908_10 ;
+        narr:dimension narr:Dim_Power ;
+        narr:region narr:Power_Consultation ;
+        narr:evidence "framing-move: Can I push on it for a second? Not because I disagree — because the steering group will push and I'd rather they push here." ;
+        narr:reported false ;
+        skos:note "Xavier explicitly seeks permission to stress-test the decision through red-teaming." ;
+        prov:generatedAtTime "2026-09-23T01:41:58Z"^^xsd:dateTime .
+
+    narr:VecPower_1HalyardWeekly20260908_13 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_1HalyardWeekly20260908_13 ;
+        narr:dimension narr:Dim_Power ;
+        narr:region narr:Power_RationalPersuasion ;
+        narr:evidence "plain-assertion: Running two systems at one desk for a few weeks is a known, contained pain with a named owner. Two cutovers landing in the same week is an unbounded one, and we've got nobody to hand it to." ;
+        narr:reported false ;
+        skos:note "Tanya justifies the decision using a rational trade-off between bounded and unbounded risk." ;
+        prov:generatedAtTime "2026-09-23T01:41:58Z"^^xsd:dateTime .
+
+    narr:VecPower_1HalyardWeekly20260908_17 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_1HalyardWeekly20260908_17 ;
+        narr:dimension narr:Dim_Power ;
+        narr:region narr:Power_Expert ;
+        narr:region narr:Power_RationalPersuasion ;
+        narr:evidence "commitment-marker: The soak is two full weeks. That's the Dockside number, and I'd hold us to it." ;
+        narr:reported false ;
+        skos:note "Tina uses empirical benchmark data from the Dockside pilot to set a technical standard." ;
+        prov:generatedAtTime "2026-09-23T01:41:58Z"^^xsd:dateTime .
+
+    narr:VecPower_1HalyardWeekly20260908_26 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_1HalyardWeekly20260908_26 ;
+        narr:dimension narr:Dim_Power ;
+        narr:region narr:Power_Expert ;
+        narr:region narr:Power_RationalPersuasion ;
+        narr:evidence "intensifier: So the position I want us to take is: during cutover, every reporting read comes off the replica. Not \"should\", not \"where possible\" — reporting does not touch the live system during a cutover window, full stop." ;
+        narr:reported false ;
+        skos:note "Xavier leverages technical expertise and outage analysis to argue for a strict operational rule." ;
+        prov:generatedAtTime "2026-09-23T01:41:58Z"^^xsd:dateTime .
+
+    narr:VecPower_1HalyardWeekly20260908_31 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_1HalyardWeekly20260908_31 ;
+        narr:dimension narr:Dim_Power ;
+        narr:region narr:Power_Legitimate ;
+        narr:evidence "performed-act: Then that's the rule. Reporting reads come off the replica during cutover. Xavier, write it into the runbook as a rule and not as guidance" ;
+        narr:reported false ;
+        skos:note "Tanya codifies the recommendation into an official rule and assigns action items via positional authority." ;
+        prov:generatedAtTime "2026-09-23T01:41:58Z"^^xsd:dateTime .
+
+    narr:VecPower_1HalyardWeekly20260908_36 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_1HalyardWeekly20260908_36 ;
+        narr:dimension narr:Dim_Power ;
+        narr:region narr:Power_Expert ;
+        narr:region narr:Power_RationalPersuasion ;
+        narr:evidence "plain-assertion: The vendor stays the system of record for reference data until the last site is live. Every site reads from the vendor's copy, we mirror it read-only, and we take ownership on the day Clyde goes green and not a day earlier." ;
+        narr:reported false ;
+        skos:note "Xavier articulates a technical policy based on data governance expertise." ;
+        prov:generatedAtTime "2026-09-23T01:41:58Z"^^xsd:dateTime .
+
+    narr:VecPower_1HalyardWeekly20260908_38 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_1HalyardWeekly20260908_38 ;
+        narr:dimension narr:Dim_Power ;
+        narr:region narr:Power_RationalPersuasion ;
+        narr:evidence "plain-assertion: Because if we take ownership at site one, we've got two sites on our reference data and two on theirs, and the zone map drifts between them." ;
+        narr:reported false ;
+        skos:note "Xavier provides cause-and-effect logical reasoning to defend his architectural stance." ;
+        prov:generatedAtTime "2026-09-23T01:41:58Z"^^xsd:dateTime .
+
+    narr:VecRegister_1HalyardWeekly20260908_1 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_1HalyardWeekly20260908_1 ;
+        narr:dimension narr:Dim_Register ;
+        narr:region narr:Register_Casual ;
+        narr:evidence "address-form: Morning, both. Let's keep this one tight" ;
+        narr:reported false ;
+        skos:note "Informal collective greeting and colloquial framing establishing working session cadence." ;
+        prov:generatedAtTime "2026-09-23T01:41:58Z"^^xsd:dateTime .
+
+    narr:VecRegister_1HalyardWeekly20260908_26 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_1HalyardWeekly20260908_26 ;
+        narr:dimension narr:Dim_Register ;
+        narr:region narr:Register_Technical ;
+        narr:evidence "lexical-marker: reporting does not touch the live system during a cutover window, full stop." ;
+        narr:reported false ;
+        skos:note "Strict technical operational prescription framed in precise infrastructure terms." ;
+        prov:generatedAtTime "2026-09-23T01:41:58Z"^^xsd:dateTime .
+
+    narr:VecRegister_1HalyardWeekly20260908_31 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_1HalyardWeekly20260908_31 ;
+        narr:dimension narr:Dim_Register ;
+        narr:region narr:Register_PlainSpoken ;
+        narr:evidence "framing-move: write it into the runbook as a rule and not as guidance, because guidance gets negotiated at three a.m." ;
+        narr:reported false ;
+        skos:note "Direct, unadorned operational rationale translating architecture into plain governance rules." ;
+        prov:generatedAtTime "2026-09-23T01:41:58Z"^^xsd:dateTime .
+
+    narr:VecRelational_1HalyardWeekly20260908_1 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_1HalyardWeekly20260908_1 ;
+        narr:dimension narr:Dim_Relational ;
+        narr:region narr:Relational_AuthorityRanking ;
+        narr:evidence "framing-move: Let's keep this one tight — I want to come out of it with the cutover shape actually decided" ;
+        narr:reported false ;
+        skos:note "Tanya sets meeting boundaries and declares the required outcome based on external steering group reporting demands." ;
+        prov:generatedAtTime "2026-09-23T01:41:58Z"^^xsd:dateTime .
+
+    narr:VecRelational_1HalyardWeekly20260908_8 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_1HalyardWeekly20260908_8 ;
+        narr:dimension narr:Dim_Relational ;
+        narr:region narr:Relational_AuthorityRanking ;
+        narr:evidence "performed-act: Then let me say where I've landed, because I don't think I'm going to move off it." ;
+        narr:reported false ;
+        skos:note "Tanya executes an executive decision, establishing a non-negotiable policy for the rollout." ;
+        prov:generatedAtTime "2026-09-23T01:41:58Z"^^xsd:dateTime .
+
+    narr:VecRelational_1HalyardWeekly20260908_10 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_1HalyardWeekly20260908_10 ;
+        narr:dimension narr:Dim_Relational ;
+        narr:region narr:Relational_EqualityMatching ;
+        narr:evidence "address-form: Can I push on it for a second?" ;
+        narr:reported false ;
+        skos:note "Xavier explicitly requests conversational permission to stress-test the established stance." ;
+        prov:generatedAtTime "2026-09-23T01:41:58Z"^^xsd:dateTime .
+
+    narr:VecRelational_1HalyardWeekly20260908_13 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_1HalyardWeekly20260908_13 ;
+        narr:dimension narr:Dim_Relational ;
+        narr:region narr:Relational_MarketPricing ;
+        narr:evidence "framing-move: Running two systems at one desk for a few weeks is a known, contained pain with a named owner. Two cutovers landing in the same week is an unbounded one" ;
+        narr:reported false ;
+        skos:note "Tanya evaluates the decision by explicitly weighing risk trade-offs and bounded vs unbounded operational costs." ;
+        prov:generatedAtTime "2026-09-23T01:41:58Z"^^xsd:dateTime .
+
+    narr:VecRelational_1HalyardWeekly20260908_28 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_1HalyardWeekly20260908_28 ;
+        narr:dimension narr:Dim_Relational ;
+        narr:region narr:Relational_MarketPricing ;
+        narr:evidence "framing-move: My argument is that a four-minute-stale number is fine and an outage is not." ;
+        narr:reported false ;
+        skos:note "Xavier frames technical latency as an acceptable trade-off cost against outage risk." ;
+        prov:generatedAtTime "2026-09-23T01:41:58Z"^^xsd:dateTime .
+
+    narr:VecRelational_1HalyardWeekly20260908_31 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_1HalyardWeekly20260908_31 ;
+        narr:dimension narr:Dim_Relational ;
+        narr:region narr:Relational_AuthorityRanking ;
+        narr:evidence "performed-act: Then that's the rule. Reporting reads come off the replica during cutover. Xavier, write it into the runbook as a rule and not as guidance" ;
+        narr:reported false ;
+        skos:note "Tanya exercises managerial authority to convert a proposal into a mandatory operational rule." ;
+        prov:generatedAtTime "2026-09-23T01:41:58Z"^^xsd:dateTime .
+
+    narr:VecStyle_1HalyardWeekly20260908_13 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_1HalyardWeekly20260908_13 ;
+        narr:dimension narr:Dim_Style ;
+        narr:region narr:Style_Antithesis ;
+        narr:region narr:Style_Parallelism ;
+        narr:evidence "framing-move: Running two systems at one desk for a few weeks is a known, contained pain with a named owner. Two cutovers landing in the same week is an unbounded one, and we've got nobody to hand it to." ;
+        narr:reported false ;
+        skos:note "Opposed concepts (known, contained pain vs unbounded) balanced across two structured sentences." ;
+        prov:generatedAtTime "2026-09-23T01:41:58Z"^^xsd:dateTime .
+
+    narr:VecStyle_1HalyardWeekly20260908_15 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_1HalyardWeekly20260908_15 ;
+        narr:dimension narr:Dim_Style ;
+        narr:region narr:Style_Antithesis ;
+        narr:region narr:Style_Parallelism ;
+        narr:evidence "framing-move: And the desk supervisor's pain is a rota problem, which is solvable. A double cutover is a staffing problem and a data problem at the same time, which isn't." ;
+        narr:reported false ;
+        skos:note "Parallel syntactic clauses contrasting solvable vs unsolvable problems." ;
+        prov:generatedAtTime "2026-09-23T01:41:58Z"^^xsd:dateTime .
+
+    narr:VecStyle_1HalyardWeekly20260908_22 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_1HalyardWeekly20260908_22 ;
+        narr:dimension narr:Dim_Style ;
+        narr:region narr:Style_Antithesis ;
+        narr:region narr:Style_Parallelism ;
+        narr:evidence "framing-move: I'd rather hold two weeks and shorten it with evidence than hold one week and discover we needed two." ;
+        narr:reported false ;
+        skos:note "Matched comparative structure balancing two contrasting courses of action." ;
+        prov:generatedAtTime "2026-09-23T01:41:58Z"^^xsd:dateTime .
+
+    narr:VecStyle_1HalyardWeekly20260908_31 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_1HalyardWeekly20260908_31 ;
+        narr:dimension narr:Dim_Style ;
+        narr:region narr:Style_Antithesis ;
+        narr:evidence "framing-move: write it into the runbook as a rule and not as guidance, because guidance gets negotiated at three a.m." ;
+        narr:reported false ;
+        skos:note "Explicit contrast between a rule and guidance with a sharp explanatory clause." ;
+        prov:generatedAtTime "2026-09-23T01:41:58Z"^^xsd:dateTime .
+
+    narr:VecStyle_1HalyardWeekly20260908_39 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_1HalyardWeekly20260908_39 ;
+        narr:dimension narr:Dim_Style ;
+        narr:region narr:Style_Parallelism ;
+        narr:evidence "lexical-marker: Their data, their problem" ;
+        narr:reported false ;
+        skos:note "Balanced, symmetrical two-part phrase creating rhythmic emphasis." ;
+        prov:generatedAtTime "2026-09-23T01:41:58Z"^^xsd:dateTime .
+
+    narr:VecTemporal_1HalyardWeekly20260908_1 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_1HalyardWeekly20260908_1 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Future ;
+        narr:region narr:Temporal_Irrealis ;
+        narr:region narr:Temporal_Concrete ;
+        narr:evidence "framing-move: I want to come out of it with the cutover shape actually decided, because the steering group asks again on Thursday" ;
+        narr:reported false ;
+        skos:note "Tanya frames the goal of the meeting looking forward to Thursday's steering group session with specific concrete constraints." ;
+        prov:generatedAtTime "2026-09-23T01:41:58Z"^^xsd:dateTime .
+
+    narr:VecTemporal_1HalyardWeekly20260908_5 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_1HalyardWeekly20260908_5 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Present ;
+        narr:region narr:Temporal_Realis ;
+        narr:region narr:Temporal_Concrete ;
+        narr:evidence "plain-assertion: Northgate is the smallest and the cleanest, Clyde is the one nobody wants to touch." ;
+        narr:reported false ;
+        skos:note "Tina describes the actual current state of the four specific sites." ;
+        prov:generatedAtTime "2026-09-23T01:41:58Z"^^xsd:dateTime .
+
+    narr:VecTemporal_1HalyardWeekly20260908_8 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_1HalyardWeekly20260908_8 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Future ;
+        narr:region narr:Temporal_Irrealis ;
+        narr:region narr:Temporal_Abstract ;
+        narr:evidence "commitment-marker: We do this one site at a time. A site goes live, it soaks, and only when that soak is clean do we start the next one." ;
+        narr:reported false ;
+        skos:note "Tanya lays down the general procedural sequence and operating policy for cutovers." ;
+        prov:generatedAtTime "2026-09-23T01:41:58Z"^^xsd:dateTime .
+
+    narr:VecTemporal_1HalyardWeekly20260908_12 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_1HalyardWeekly20260908_12 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Present ;
+        narr:region narr:Temporal_Realis ;
+        narr:region narr:Temporal_Concrete ;
+        narr:evidence "plain-assertion: that's the thing the desk supervisor has been shouting about since June." ;
+        narr:reported false ;
+        skos:note "Xavier describes the concrete operational status quo and historical complaint regarding the shared dispatch desk." ;
+        prov:generatedAtTime "2026-09-23T01:41:58Z"^^xsd:dateTime .
+
+    narr:VecTemporal_1HalyardWeekly20260908_13 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_1HalyardWeekly20260908_13 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Present ;
+        narr:region narr:Temporal_Abstract ;
+        narr:evidence "plain-assertion: Running two systems at one desk for a few weeks is a known, contained pain with a named owner. Two cutovers landing in the same week is an unbounded one" ;
+        narr:reported false ;
+        skos:note "Tanya evaluates the trade-off at an abstract, categorical level between contained and unbounded risk." ;
+        prov:generatedAtTime "2026-09-23T01:41:58Z"^^xsd:dateTime .
+
+    narr:VecTemporal_1HalyardWeekly20260908_17 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_1HalyardWeekly20260908_17 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Future ;
+        narr:region narr:Temporal_Irrealis ;
+        narr:region narr:Temporal_Concrete ;
+        narr:evidence "commitment-marker: The soak is two full weeks. That's the Dockside number, and I'd hold us to it." ;
+        narr:reported false ;
+        skos:note "Tina sets a specific future operational duration rule based on past precedent." ;
+        prov:generatedAtTime "2026-09-23T01:41:58Z"^^xsd:dateTime .
+
+    narr:VecTemporal_1HalyardWeekly20260908_19 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_1HalyardWeekly20260908_19 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Past ;
+        narr:region narr:Temporal_Realis ;
+        narr:region narr:Temporal_Concrete ;
+        narr:evidence "plain-assertion: Dockside pilot, back in the spring. We watched the exception queue after go-live and it didn't flatten out until day nine or ten." ;
+        narr:reported false ;
+        skos:note "Tina provides concrete historical observation of the Dockside pilot exception queue." ;
+        prov:generatedAtTime "2026-09-23T01:41:58Z"^^xsd:dateTime .
+
+    narr:VecTemporal_1HalyardWeekly20260908_24 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_1HalyardWeekly20260908_24 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Past ;
+        narr:region narr:Temporal_Realis ;
+        narr:region narr:Temporal_Concrete ;
+        narr:evidence "plain-assertion: Reporting on top of that is what took Dockside down for forty minutes." ;
+        narr:reported false ;
+        skos:note "Xavier recalls the factual historical incident where reporting took Dockside down." ;
+        prov:generatedAtTime "2026-09-23T01:41:58Z"^^xsd:dateTime .
+
+    narr:VecTemporal_1HalyardWeekly20260908_26 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_1HalyardWeekly20260908_26 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Future ;
+        narr:region narr:Temporal_Irrealis ;
+        narr:region narr:Temporal_Concrete ;
+        narr:evidence "performed-act: during cutover, every reporting read comes off the replica. Not \"should\", not \"where possible\" — reporting does not touch the live system during a cutover window, full stop." ;
+        narr:reported false ;
+        skos:note "Xavier proposes a strict operational rule governing cutover windows." ;
+        prov:generatedAtTime "2026-09-23T01:41:58Z"^^xsd:dateTime .
+
+    narr:VecTemporal_1HalyardWeekly20260908_28 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_1HalyardWeekly20260908_28 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Present ;
+        narr:region narr:Temporal_Concrete ;
+        narr:evidence "modal-marker: Somewhere between thirty seconds and four minutes depending on the migration job. So a reporting number can be four minutes stale during a cutover." ;
+        narr:reported false ;
+        skos:note "Xavier evaluates the concrete quantitative impact of replica lag." ;
+        prov:generatedAtTime "2026-09-23T01:41:58Z"^^xsd:dateTime .
+
+    narr:VecTemporal_1HalyardWeekly20260908_31 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_1HalyardWeekly20260908_31 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Future ;
+        narr:region narr:Temporal_Irrealis ;
+        narr:region narr:Temporal_Concrete ;
+        narr:evidence "performed-act: Xavier, write it into the runbook as a rule and not as guidance" ;
+        narr:reported false ;
+        skos:note "Tanya gives a directive for future documentation in the runbook." ;
+        prov:generatedAtTime "2026-09-23T01:41:58Z"^^xsd:dateTime .
+
+    narr:VecTemporal_1HalyardWeekly20260908_36 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_1HalyardWeekly20260908_36 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Future ;
+        narr:region narr:Temporal_Irrealis ;
+        narr:region narr:Temporal_Concrete ;
+        narr:evidence "plain-assertion: The vendor stays the system of record for reference data until the last site is live. Every site reads from the vendor's copy, we mirror it read-only, and we take ownership on the day Clyde goes green" ;
+        narr:reported false ;
+        skos:note "Xavier details the future phased plan for reference data cutover through the Clyde go-live." ;
+        prov:generatedAtTime "2026-09-23T01:41:58Z"^^xsd:dateTime .
+
+    narr:VecTemporal_1HalyardWeekly20260908_38 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_1HalyardWeekly20260908_38 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Future ;
+        narr:region narr:Temporal_Abstract ;
+        narr:evidence "plain-assertion: Keeping one source of truth through the whole programme is worth more than getting ownership early." ;
+        narr:reported false ;
+        skos:note "Xavier invokes an overarching abstract principle for the programme's data integrity." ;
+        prov:generatedAtTime "2026-09-23T01:41:58Z"^^xsd:dateTime .
+
+    narr:VecTemporal_1HalyardWeekly20260908_42 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_1HalyardWeekly20260908_42 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Future ;
+        narr:region narr:Temporal_Irrealis ;
+        narr:region narr:Temporal_Concrete ;
+        narr:evidence "commitment-marker: So Thursday I'm telling them: one site at a time, two-week soak between sites, reporting off the replica during cutover, vendor holds reference data until Clyde is green." ;
+        narr:reported false ;
+        skos:note "Tanya summarizes the four concrete decisions to be presented on Thursday." ;
+        prov:generatedAtTime "2026-09-23T01:41:58Z"^^xsd:dateTime .
+
+    narr:DirValue_ContainmentOverSpeed a narr:DirectionalNode ;
+        dct:source narr:Sample_1HalyardWeekly20260908 ;
+        narr:dimension narr:Dim_Value ;
+        narr:region narr:Value_Conservation ;
+        narr:frame "Does this expression explicitly justify a tradeoff by elevating operational stability and blast-radius containment above velocity or control?" ;
+        skos:note "contained risk prioritized over speed or early ownership" ;
+        prov:generatedAtTime "2026-09-23T01:41:58Z"^^xsd:dateTime .
+
+    narr:VecValue_1HalyardWeekly20260908_13 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_1HalyardWeekly20260908_13 ;
+        narr:dimension narr:Dim_Value ;
+        narr:region narr:Value_Conservation ;
+        narr:direction narr:DirValue_ContainmentOverSpeed ;
+        narr:evidence "framing-move: Running two systems at one desk for a few weeks is a known, contained pain with a named owner. Two cutovers landing in the same week is an unbounded one, and we've got nobody to hand it to." ;
+        narr:reported false ;
+        skos:note "Tanya frames the decision around risk containment, predictability, and stability over unbounded operational risk." ;
+        prov:generatedAtTime "2026-09-23T01:41:58Z"^^xsd:dateTime .
+
+    narr:VecValue_1HalyardWeekly20260908_28 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_1HalyardWeekly20260908_28 ;
+        narr:dimension narr:Dim_Value ;
+        narr:region narr:Value_Conservation ;
+        narr:direction narr:DirValue_ContainmentOverSpeed ;
+        narr:evidence "framing-move: My argument is that a four-minute-stale number is fine and an outage is not." ;
+        narr:reported false ;
+        skos:note "Xavier explicitly values system stability and outage prevention over fresh data." ;
+        prov:generatedAtTime "2026-09-23T01:41:58Z"^^xsd:dateTime .
+
+    narr:VecValue_1HalyardWeekly20260908_38 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_1HalyardWeekly20260908_38 ;
+        narr:dimension narr:Dim_Value ;
+        narr:region narr:Value_Conservation ;
+        narr:direction narr:DirValue_ContainmentOverSpeed ;
+        narr:evidence "plain-assertion: Keeping one source of truth through the whole programme is worth more than getting ownership early." ;
+        narr:reported false ;
+        skos:note "Xavier explicitly prioritizes data consistency and single-source stability over early autonomy or ownership." ;
+        prov:generatedAtTime "2026-09-23T01:41:58Z"^^xsd:dateTime .
+
+    narr:CutoverStrategy a narr:Strata ;
+        dct:source narr:Sample_1HalyardWeekly20260908 ;
+        narr:frame "How does the organization structure, sequence, and isolate technical and operational risks during multi-site system cutovers?" ;
+        narr:region narr:ChangeManagement ;
+        narr:region narr:RiskGuardrails ;
+        skos:note "operational containment and governance rules for multi-site rollouts" ;
+        prov:generatedAtTime "2026-09-23T01:41:58Z"^^xsd:dateTime .
+
+    narr:Expr_1HalyardWeekly20260908_1 narr:supports narr:CutoverStrategy .
+
+    narr:Expr_1HalyardWeekly20260908_8 narr:supports narr:CutoverStrategy .
+
+    narr:Expr_1HalyardWeekly20260908_13 narr:supports narr:CutoverStrategy .
+
+    narr:Expr_1HalyardWeekly20260908_16 narr:supports narr:CutoverStrategy .
+
+    narr:Expr_1HalyardWeekly20260908_26 narr:supports narr:CutoverStrategy .
+
+    narr:Expr_1HalyardWeekly20260908_31 narr:supports narr:CutoverStrategy .
+
+    narr:Expr_1HalyardWeekly20260908_36 narr:supports narr:CutoverStrategy .
+
+    narr:Expr_1HalyardWeekly20260908_42 narr:supports narr:CutoverStrategy .
+
+    narr:Narrative_ContainedPainOverUnboundedRisk a narr:Narrative ;
+        dct:source narr:Sample_1HalyardWeekly20260908 ;
+        narr:frame "Does this expression justify sequential rollouts and empirical soak intervals by prioritizing bounded operational friction over concurrent deployment risk?" ;
+        skos:broader narr:CutoverStrategy ;
+        skos:note "known, contained operational friction is prioritized over unbounded parallel cutover risk" ;
+        prov:generatedAtTime "2026-09-23T01:41:58Z"^^xsd:dateTime .
+
+    narr:Expr_1HalyardWeekly20260908_1 narr:supports narr:Narrative_ContainedPainOverUnboundedRisk .
+
+    narr:Expr_1HalyardWeekly20260908_5 narr:supports narr:Narrative_ContainedPainOverUnboundedRisk .
+
+    narr:Expr_1HalyardWeekly20260908_6 narr:supports narr:Narrative_ContainedPainOverUnboundedRisk .
+
+    narr:Expr_1HalyardWeekly20260908_8 narr:supports narr:Narrative_ContainedPainOverUnboundedRisk .
+
+    narr:Expr_1HalyardWeekly20260908_12 narr:supports narr:Narrative_ContainedPainOverUnboundedRisk .
+
+    narr:Expr_1HalyardWeekly20260908_13 narr:supports narr:Narrative_ContainedPainOverUnboundedRisk .
+
+    narr:Expr_1HalyardWeekly20260908_14 narr:supports narr:Narrative_ContainedPainOverUnboundedRisk .
+
+    narr:Expr_1HalyardWeekly20260908_15 narr:supports narr:Narrative_ContainedPainOverUnboundedRisk .
+
+    narr:Expr_1HalyardWeekly20260908_16 narr:supports narr:Narrative_ContainedPainOverUnboundedRisk .
+
+    narr:Expr_1HalyardWeekly20260908_17 narr:supports narr:Narrative_ContainedPainOverUnboundedRisk .
+
+    narr:Expr_1HalyardWeekly20260908_19 narr:supports narr:Narrative_ContainedPainOverUnboundedRisk .
+
+    narr:Expr_1HalyardWeekly20260908_20 narr:supports narr:Narrative_ContainedPainOverUnboundedRisk .
+
+    narr:Expr_1HalyardWeekly20260908_21 narr:supports narr:Narrative_ContainedPainOverUnboundedRisk .
+
+    narr:Expr_1HalyardWeekly20260908_22 narr:supports narr:Narrative_ContainedPainOverUnboundedRisk .
+
+    narr:Expr_1HalyardWeekly20260908_42 narr:supports narr:Narrative_ContainedPainOverUnboundedRisk .
+
+    narr:Narrative_StrictWorkloadIsolationDuringCutover a narr:Narrative ;
+        dct:source narr:Sample_1HalyardWeekly20260908 ;
+        narr:frame "Does this expression mandate strict infrastructure isolation to protect transactional production stability during critical migration windows?" ;
+        skos:broader narr:CutoverStrategy ;
+        skos:note "reporting workloads are strictly isolated to replicas during high-load cutovers" ;
+        prov:generatedAtTime "2026-09-23T01:41:58Z"^^xsd:dateTime .
+
+    narr:Expr_1HalyardWeekly20260908_24 narr:supports narr:Narrative_StrictWorkloadIsolationDuringCutover .
+
+    narr:Expr_1HalyardWeekly20260908_25 narr:supports narr:Narrative_StrictWorkloadIsolationDuringCutover .
+
+    narr:Expr_1HalyardWeekly20260908_26 narr:supports narr:Narrative_StrictWorkloadIsolationDuringCutover .
+
+    narr:Expr_1HalyardWeekly20260908_28 narr:supports narr:Narrative_StrictWorkloadIsolationDuringCutover .
+
+    narr:Expr_1HalyardWeekly20260908_29 narr:supports narr:Narrative_StrictWorkloadIsolationDuringCutover .
+
+    narr:Expr_1HalyardWeekly20260908_31 narr:supports narr:Narrative_StrictWorkloadIsolationDuringCutover .
+
+    narr:Expr_1HalyardWeekly20260908_42 narr:supports narr:Narrative_StrictWorkloadIsolationDuringCutover .
+
+    narr:Narrative_SingleSourceOfTruthUntilFinalCutover a narr:Narrative ;
+        dct:source narr:Sample_1HalyardWeekly20260908 ;
+        narr:frame "Does this expression defend retaining a single external source of truth throughout a phased rollout to prevent reference data drift and cross-system accountability gaps?" ;
+        skos:broader narr:CutoverStrategy ;
+        skos:note "vendor remains the authoritative system of record until full programme cutover" ;
+        prov:generatedAtTime "2026-09-23T01:41:58Z"^^xsd:dateTime .
+
+    narr:Expr_1HalyardWeekly20260908_34 narr:supports narr:Narrative_SingleSourceOfTruthUntilFinalCutover .
+
+    narr:Expr_1HalyardWeekly20260908_36 narr:supports narr:Narrative_SingleSourceOfTruthUntilFinalCutover .
+
+    narr:Expr_1HalyardWeekly20260908_38 narr:supports narr:Narrative_SingleSourceOfTruthUntilFinalCutover .
+
+    narr:Expr_1HalyardWeekly20260908_39 narr:supports narr:Narrative_SingleSourceOfTruthUntilFinalCutover .
+
+    narr:Expr_1HalyardWeekly20260908_41 narr:supports narr:Narrative_SingleSourceOfTruthUntilFinalCutover .
+
+    narr:Expr_1HalyardWeekly20260908_42 narr:supports narr:Narrative_SingleSourceOfTruthUntilFinalCutover .
+
+    narr:ChangeManagement a narr:StrataRegion ;
+        skos:prefLabel "Change Management" ;
+        skos:definition "Safe, auditable changes in code, configuration, and policy." ;
+        xkos:depth 3 ;
+        dct:source narr:Sample_1HalyardWeekly20260908 ;
+        prov:generatedAtTime "2026-09-23T01:41:58Z"^^xsd:dateTime .
+
+    narr:RiskGuardrails a narr:StrataRegion ;
+        skos:prefLabel "Risk & Guardrails" ;
+        skos:definition "Where we will not go and what we'll mitigate by design." ;
+        xkos:depth 3 ;
+        dct:source narr:Sample_1HalyardWeekly20260908 ;
+        prov:generatedAtTime "2026-09-23T01:41:58Z"^^xsd:dateTime .
+
+    narr:Position_SiteCutoverSequencingStrategy a narr:Position ;
+        narr:frame "how should multi-site cutovers be sequenced when operational containment conflicts with local site friction?" ;
+        prov:generatedAtTime "2026-09-23T01:41:58Z"^^xsd:dateTime .
+
+    narr:Expr_1HalyardWeekly20260908_8 narr:supports narr:Position_SiteCutoverSequencingStrategy .
+
+    narr:Expr_1HalyardWeekly20260908_12 narr:supports narr:Position_SiteCutoverSequencingStrategy .
+
+    narr:Expr_1HalyardWeekly20260908_13 narr:supports narr:Position_SiteCutoverSequencingStrategy .
+
+    narr:Expr_1HalyardWeekly20260908_15 narr:supports narr:Position_SiteCutoverSequencingStrategy .
+
+    narr:Expr_1HalyardWeekly20260908_16 narr:supports narr:Position_SiteCutoverSequencingStrategy .
+
+    narr:Position_PostGoLiveSoakDurationBasis a narr:Position ;
+        narr:frame "how is the minimum soak duration between site cutovers determined and validated?" ;
+        prov:generatedAtTime "2026-09-23T01:41:58Z"^^xsd:dateTime .
+
+    narr:Expr_1HalyardWeekly20260908_17 narr:supports narr:Position_PostGoLiveSoakDurationBasis .
+
+    narr:Expr_1HalyardWeekly20260908_19 narr:supports narr:Position_PostGoLiveSoakDurationBasis .
+
+    narr:Expr_1HalyardWeekly20260908_20 narr:supports narr:Position_PostGoLiveSoakDurationBasis .
+
+    narr:Expr_1HalyardWeekly20260908_21 narr:supports narr:Position_PostGoLiveSoakDurationBasis .
+
+    narr:Expr_1HalyardWeekly20260908_22 narr:supports narr:Position_PostGoLiveSoakDurationBasis .
+
+    narr:Position_CutoverReportingReadIsolation a narr:Position ;
+        narr:frame "how are reporting workloads isolated from production systems during high-load cutover windows?" ;
+        prov:generatedAtTime "2026-09-23T01:41:58Z"^^xsd:dateTime .
+
+    narr:Expr_1HalyardWeekly20260908_24 narr:supports narr:Position_CutoverReportingReadIsolation .
+
+    narr:Expr_1HalyardWeekly20260908_26 narr:supports narr:Position_CutoverReportingReadIsolation .
+
+    narr:Expr_1HalyardWeekly20260908_28 narr:supports narr:Position_CutoverReportingReadIsolation .
+
+    narr:Expr_1HalyardWeekly20260908_31 narr:supports narr:Position_CutoverReportingReadIsolation .
+
+    narr:Position_ReferenceDataSourceOfRecordTransition a narr:Position ;
+        narr:frame "at what milestone in a multi-site rollout should reference data authority transfer from vendor to internal systems?" ;
+        prov:generatedAtTime "2026-09-23T01:41:58Z"^^xsd:dateTime .
+
+    narr:Expr_1HalyardWeekly20260908_34 narr:supports narr:Position_ReferenceDataSourceOfRecordTransition .
+
+    narr:Expr_1HalyardWeekly20260908_36 narr:supports narr:Position_ReferenceDataSourceOfRecordTransition .
+
+    narr:Expr_1HalyardWeekly20260908_38 narr:supports narr:Position_ReferenceDataSourceOfRecordTransition .
+
+    narr:Expr_1HalyardWeekly20260908_39 narr:supports narr:Position_ReferenceDataSourceOfRecordTransition .
+
+    narr:Expr_1HalyardWeekly20260908_41 narr:supports narr:Position_ReferenceDataSourceOfRecordTransition .
+
+    aswr:Miss_1HalyardWeekly20260908_narrative_trip a aswr:Miss ;
+        aswr:missPass "narrative" ;
+        aswr:missClass "floor" ;
+        aswr:missError "unplaced 19/45 exceeds 0.34" ;
+        aswr:missModel "google/gemini-3.7-flash" ;
+        aswr:tripFloor "unplaced_ratio" ;
+        aswr:tripRatio "0.4222"^^xsd:decimal ;
+        aswr:tripOutcome "accepted-flagged" ;
+        aswr:tripFallbackModel "anthropic/claude-sonnet-5" ;
+        aswr:missScope narr:Sample_1HalyardWeekly20260908 ;
+        prov:generatedAtTime "2026-09-23T01:41:58Z"^^xsd:dateTime .
+
+    aswr:Miss_1HalyardWeekly20260908_resolve_trip a aswr:Miss ;
+        aswr:missPass "resolve" ;
+        aswr:missClass "floor" ;
+        aswr:missError "resolutions empty against a populated perspective" ;
+        aswr:missModel "google/gemini-3.7-flash" ;
+        aswr:tripFloor "empty_on_populated" ;
+        aswr:tripRatio "0.0000"^^xsd:decimal ;
+        aswr:tripOutcome "accepted-flagged" ;
+        aswr:tripFallbackModel "anthropic/claude-sonnet-5" ;
+        aswr:missScope narr:Sample_1HalyardWeekly20260908 ;
+        prov:generatedAtTime "2026-09-23T01:41:58Z"^^xsd:dateTime .
+
+    aswr:Miss_1HalyardWeekly20260908_temporal_trip a aswr:Miss ;
+        aswr:missPass "temporal" ;
+        aswr:missClass "floor" ;
+        aswr:missError "marked 14/45 under 0.34 for temporal" ;
+        aswr:missModel "google/gemini-3.7-flash" ;
+        aswr:tripFloor "marked_ratio" ;
+        aswr:tripRatio "0.3111"^^xsd:decimal ;
+        aswr:tripOutcome "accepted-flagged" ;
+        aswr:tripFallbackModel "anthropic/claude-sonnet-5" ;
+        aswr:missScope narr:Sample_1HalyardWeekly20260908 ;
+        prov:generatedAtTime "2026-09-23T01:41:58Z"^^xsd:dateTime .
+
+    aswr:Run_20260923T014158Z_dim_affect a prov:Activity ;
+        aswr:runPass "dim.affect" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/4c2951c2355e/2026-09-23-1-halyard-weekly-2026-09-08/dim.affect.json" ;
+        prov:generated narr:VecAffect_1HalyardWeekly20260908_1 ;
+        dct:isPartOf aswr:Tx_20260923T014158Z ;
+        prov:generatedAtTime "2026-09-23T01:41:58Z"^^xsd:dateTime .
+
+    aswr:Run_20260923T014158Z_dim_conviction a prov:Activity ;
+        aswr:runPass "dim.conviction" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/4c2951c2355e/2026-09-23-1-halyard-weekly-2026-09-08/dim.conviction.json" ;
+        prov:generated narr:VecConviction_1HalyardWeekly20260908_8, narr:VecConviction_1HalyardWeekly20260908_13, narr:VecConviction_1HalyardWeekly20260908_15, narr:VecConviction_1HalyardWeekly20260908_16, narr:VecConviction_1HalyardWeekly20260908_17, narr:VecConviction_1HalyardWeekly20260908_19, narr:VecConviction_1HalyardWeekly20260908_20, narr:VecConviction_1HalyardWeekly20260908_22, narr:VecConviction_1HalyardWeekly20260908_26, narr:VecConviction_1HalyardWeekly20260908_28, narr:VecConviction_1HalyardWeekly20260908_31, narr:VecConviction_1HalyardWeekly20260908_36, narr:VecConviction_1HalyardWeekly20260908_38, narr:VecConviction_1HalyardWeekly20260908_39, narr:VecConviction_1HalyardWeekly20260908_42 ;
+        dct:isPartOf aswr:Tx_20260923T014158Z ;
+        prov:generatedAtTime "2026-09-23T01:41:58Z"^^xsd:dateTime .
+
+    aswr:Run_20260923T014158Z_dim_power a prov:Activity ;
+        aswr:runPass "dim.power" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/4c2951c2355e/2026-09-23-1-halyard-weekly-2026-09-08/dim.power.json" ;
+        prov:generated narr:VecPower_1HalyardWeekly20260908_1, narr:VecPower_1HalyardWeekly20260908_4, narr:VecPower_1HalyardWeekly20260908_8, narr:VecPower_1HalyardWeekly20260908_10, narr:VecPower_1HalyardWeekly20260908_13, narr:VecPower_1HalyardWeekly20260908_17, narr:VecPower_1HalyardWeekly20260908_26, narr:VecPower_1HalyardWeekly20260908_31, narr:VecPower_1HalyardWeekly20260908_36, narr:VecPower_1HalyardWeekly20260908_38 ;
+        dct:isPartOf aswr:Tx_20260923T014158Z ;
+        prov:generatedAtTime "2026-09-23T01:41:58Z"^^xsd:dateTime .
+
+    aswr:Run_20260923T014158Z_dim_register a prov:Activity ;
+        aswr:runPass "dim.register" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/4c2951c2355e/2026-09-23-1-halyard-weekly-2026-09-08/dim.register.json" ;
+        prov:generated narr:VecRegister_1HalyardWeekly20260908_1, narr:VecRegister_1HalyardWeekly20260908_26, narr:VecRegister_1HalyardWeekly20260908_31 ;
+        dct:isPartOf aswr:Tx_20260923T014158Z ;
+        prov:generatedAtTime "2026-09-23T01:41:58Z"^^xsd:dateTime .
+
+    aswr:Run_20260923T014158Z_dim_relational a prov:Activity ;
+        aswr:runPass "dim.relational" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/4c2951c2355e/2026-09-23-1-halyard-weekly-2026-09-08/dim.relational.json" ;
+        prov:generated narr:VecRelational_1HalyardWeekly20260908_1, narr:VecRelational_1HalyardWeekly20260908_8, narr:VecRelational_1HalyardWeekly20260908_10, narr:VecRelational_1HalyardWeekly20260908_13, narr:VecRelational_1HalyardWeekly20260908_28, narr:VecRelational_1HalyardWeekly20260908_31 ;
+        dct:isPartOf aswr:Tx_20260923T014158Z ;
+        prov:generatedAtTime "2026-09-23T01:41:58Z"^^xsd:dateTime .
+
+    aswr:Run_20260923T014158Z_dim_style a prov:Activity ;
+        aswr:runPass "dim.style" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/4c2951c2355e/2026-09-23-1-halyard-weekly-2026-09-08/dim.style.json" ;
+        prov:generated narr:VecStyle_1HalyardWeekly20260908_13, narr:VecStyle_1HalyardWeekly20260908_15, narr:VecStyle_1HalyardWeekly20260908_22, narr:VecStyle_1HalyardWeekly20260908_31, narr:VecStyle_1HalyardWeekly20260908_39 ;
+        dct:isPartOf aswr:Tx_20260923T014158Z ;
+        prov:generatedAtTime "2026-09-23T01:41:58Z"^^xsd:dateTime .
+
+    aswr:Run_20260923T014158Z_dim_temporal a prov:Activity ;
+        aswr:runPass "dim.temporal" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/4c2951c2355e/2026-09-23-1-halyard-weekly-2026-09-08/dim.temporal.json" ;
+        prov:generated narr:VecTemporal_1HalyardWeekly20260908_1, narr:VecTemporal_1HalyardWeekly20260908_5, narr:VecTemporal_1HalyardWeekly20260908_8, narr:VecTemporal_1HalyardWeekly20260908_12, narr:VecTemporal_1HalyardWeekly20260908_13, narr:VecTemporal_1HalyardWeekly20260908_17, narr:VecTemporal_1HalyardWeekly20260908_19, narr:VecTemporal_1HalyardWeekly20260908_24, narr:VecTemporal_1HalyardWeekly20260908_26, narr:VecTemporal_1HalyardWeekly20260908_28, narr:VecTemporal_1HalyardWeekly20260908_31, narr:VecTemporal_1HalyardWeekly20260908_36, narr:VecTemporal_1HalyardWeekly20260908_38, narr:VecTemporal_1HalyardWeekly20260908_42 ;
+        dct:isPartOf aswr:Tx_20260923T014158Z ;
+        prov:generatedAtTime "2026-09-23T01:41:58Z"^^xsd:dateTime .
+
+    aswr:Run_20260923T014158Z_dim_value a prov:Activity ;
+        aswr:runPass "dim.value" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/4c2951c2355e/2026-09-23-1-halyard-weekly-2026-09-08/dim.value.json" ;
+        prov:generated narr:DirValue_ContainmentOverSpeed, narr:VecValue_1HalyardWeekly20260908_13, narr:VecValue_1HalyardWeekly20260908_28, narr:VecValue_1HalyardWeekly20260908_38 ;
+        dct:isPartOf aswr:Tx_20260923T014158Z ;
+        prov:generatedAtTime "2026-09-23T01:41:58Z"^^xsd:dateTime .
+
+    aswr:Run_20260923T014158Z_pass5 a prov:Activity ;
+        aswr:runPass "pass5" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/4c2951c2355e/2026-09-23-1-halyard-weekly-2026-09-08/pass5.json" ;
+        prov:generated narr:CutoverStrategy, narr:Narrative_ContainedPainOverUnboundedRisk, narr:Narrative_StrictWorkloadIsolationDuringCutover, narr:Narrative_SingleSourceOfTruthUntilFinalCutover ;
+        dct:isPartOf aswr:Tx_20260923T014158Z ;
+        prov:generatedAtTime "2026-09-23T01:41:58Z"^^xsd:dateTime .
+
+    aswr:Run_20260923T014158Z_position a prov:Activity ;
+        aswr:runPass "position" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/4c2951c2355e/2026-09-23-1-halyard-weekly-2026-09-08/position.json" ;
+        prov:generated narr:Position_SiteCutoverSequencingStrategy, narr:Position_PostGoLiveSoakDurationBasis, narr:Position_CutoverReportingReadIsolation, narr:Position_ReferenceDataSourceOfRecordTransition ;
+        dct:isPartOf aswr:Tx_20260923T014158Z ;
+        prov:generatedAtTime "2026-09-23T01:41:58Z"^^xsd:dateTime .
+  }
+}
