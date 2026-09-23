@@ -1,0 +1,50 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "past", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "ruled",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Framing records a completed past ruling on a concrete architectural responsibility.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-2",
+    "regions" : [ "present", "irrealis", "abstract" ],
+    "evidence" : [ {
+      "quote" : "should get",
+      "kind" : "modal-marker"
+    } ],
+    "why" : "Prescribes a normative design rule and architectural policy across runs and users.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-3",
+    "regions" : [ "past", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "pushed back",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Reports Tina's completed past objection regarding a specific configuration parameter.",
+    "reported" : true
+  }, {
+    "segment_local_id" : "src-4",
+    "regions" : [ "present", "realis", "abstract" ],
+    "evidence" : [ {
+      "quote" : "held: the bundle closes when\nthe run closes",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Defines the active, standing operational rule governing bundle lifecycle and late skills.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-5",
+    "regions" : [ "past", "realis", "abstract" ],
+    "evidence" : [ {
+      "quote" : "considered and rejected",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Documents a past design evaluation and technical rejection of an architectural pattern.",
+    "reported" : false
+  } ],
+  "unmarked" : [ ],
+  "unmarked_rest" : false
+}
