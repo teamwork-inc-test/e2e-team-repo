@@ -1,0 +1,57 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-11",
+    "regions" : [ "competence", "conservation" ],
+    "evidence" : [ {
+      "quote" : "Not a database dump that needs the vendor's version of their engine to restore. Not a proprietary export format. Flat files, an open format, a schema next to them, and a written description of what a \"consignment status of 7\" actually meant in 2017",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Appeals to technical craft, durability, and long-term comprehensibility over convenience.",
+    "reported" : false,
+    "direction" : {
+      "verdict" : "mint",
+      "node" : "mint-1"
+    }
+  }, {
+    "segment_local_id" : "src-13",
+    "regions" : [ "conservation", "competence" ],
+    "evidence" : [ {
+      "quote" : "The data is easy to keep. The meaning is what rots.",
+      "kind" : "plain-signal"
+    } ],
+    "why" : "Identifies semantic preservation and craft rigor as the essential, fragile value to protect.",
+    "reported" : false,
+    "direction" : {
+      "verdict" : "mint",
+      "node" : "mint-1"
+    }
+  }, {
+    "segment_local_id" : "src-15",
+    "regions" : [ "self-transcendence" ],
+    "evidence" : [ {
+      "quote" : "Cost and effort now, against a risk that lands years from now on someone who isn't in this room.",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Frames responsibility as stewardship for future stakeholders who are not present to advocate for themselves.",
+    "reported" : false,
+    "direction" : {
+      "verdict" : "mint",
+      "node" : "mint-2"
+    }
+  } ],
+  "unmarked" : [ "src-1", "src-2", "src-3", "src-4", "src-5", "src-6", "src-7", "src-8", "src-9", "src-10", "src-12", "src-14", "src-16", "src-17", "src-18", "src-19", "src-20", "src-21", "src-22", "src-23", "src-24", "src-25", "src-26", "src-27", "src-28" ],
+  "mints" : [ {
+    "id" : "mint-1",
+    "name" : "PreservingSemanticIntegrity",
+    "title" : "the meaning is what rots",
+    "frame" : "Does this expression prioritize preserving the semantic interpretability and craftsmanship of assets over mere raw storage?",
+    "regions" : [ "conservation", "competence" ]
+  }, {
+    "id" : "mint-2",
+    "name" : "StewardshipForFutureActors",
+    "title" : "someone who isn't in this room",
+    "frame" : "Is the action motivated by preventing harm or burdening future custodians not present to advocate for themselves?",
+    "regions" : [ "self-transcendence" ]
+  } ],
+  "region_mints" : [ ]
+}
