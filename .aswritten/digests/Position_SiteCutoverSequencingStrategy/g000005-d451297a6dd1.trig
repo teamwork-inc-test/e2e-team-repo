@@ -1,0 +1,55 @@
+@prefix narr: <https://aswritten.ai/narrative#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+GRAPH <https://aswritten.ai/narrative#Digest_Position_SiteCutoverSequencingStrategy> {
+  <https://aswritten.ai/narrative#Digest_Position_SiteCutoverSequencingStrategy> a narr:Digest ;
+    narr:digestOf <https://aswritten.ai/narrative#Position_SiteCutoverSequencingStrategy> ;
+    narr:childCount "28"^^xsd:integer ;
+    narr:generatedFrom "d451297a6dd1dbdf2eecccafc5b2a8b4c1a89a3a" ;
+    narr:narration """This position holds the sequencing debate for multi-site cutovers, and the arc runs from judgment to constraint to external ratification — while remaining formally contested. The mainline opens as [a firm one-site-at-a-time stance with a clean soak before the next site](narr:Expr_1HalyardWeekly20260908_8), restated as [a settled decision to sequence singly](narr:Expr_1HalyardWeekly20260908_16) and compressed to [the bare one-at-a-time rule](narr:Expr_2HalyardOpsReadiness20260915_6). The counterweight is [the case for pairing two sites sharing a dispatch desk](narr:Expr_1HalyardWeekly20260908_12), met by [the rota-problem-versus-staffing-problem rebuttal](narr:Expr_1HalyardWeekly20260908_15) and [the contained-pain-with-a-named-owner trade](narr:Expr_1HalyardWeekly20260908_13). The arithmetic layer lands hard: [a supervisor-count showing a same-week double cutover strips the region's rota](narr:Expr_2HalyardOpsReadiness20260915_11), capped by [the flat claim that the people don't exist](narr:Expr_2HalyardOpsReadiness20260915_12) and [the reframing from risk to arithmetic](narr:Expr_2HalyardOpsReadiness20260915_14), which [the technical rules silently assuming one open cutover window](narr:Expr_2HalyardOpsReadiness20260915_25) reinforce. A review adds a scoping note: [the sequential plan unchanged while an adjacent number is corrected](narr:Expr_4HalyardCutoverReview20260915_10), with [agreement that only the soak figure was wrong](narr:Expr_4HalyardCutoverReview20260915_11). New since the last digest, an outside advisor layer arrives: [a four-site plan summary restating the sequence](narr:Expr_6HalyardAdvisorTonyMaley20260929_3), [advice to hold the approach against pressure](narr:Expr_6HalyardAdvisorTonyMaley20260929_4), [precedent from three programmes where big-bang went backwards](narr:Expr_6HalyardAdvisorTonyMaley20260929_5), [a warning that pressure to collapse the sequence arrives dressed as efficiency](narr:Expr_6HalyardAdvisorTonyMaley20260929_7), and [a directive to write the reasons down now](narr:Expr_6HalyardAdvisorTonyMaley20260929_9). But review acts still contest the settled reading: [an acceptance of the change into this position](narr:Expr_3ReviewEvents70102_2) sits beside [a rejection arguing the call settled on two sites in parallel](narr:Expr_3ReviewEvents70102_4) and [a change request saying containment did not settle the sequencing](narr:Expr_3ReviewEvents70102_3). The register runs antithesis-first with parallelism and metaphor behind it.""" ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_12> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_13> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_15> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_16> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_8> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_11> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_12> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_13> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_14> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_15> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_16> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_17> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_25> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_26> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_6> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_7> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_9> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_3ReviewEvents70102_2> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_3ReviewEvents70102_3> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_3ReviewEvents70102_4> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_4HalyardCutoverReview20260915_10> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_4HalyardCutoverReview20260915_11> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_4HalyardCutoverReview20260915_12> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_6HalyardAdvisorTonyMaley20260929_3> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_6HalyardAdvisorTonyMaley20260929_4> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_6HalyardAdvisorTonyMaley20260929_5> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_6HalyardAdvisorTonyMaley20260929_7> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_6HalyardAdvisorTonyMaley20260929_9> ;
+    narr:keyPhrase [ narr:text "We do this one site at a time. A site goes live, it soaks, and only when that soak is clean do we start the next one. No parallel cutovers, not even for the two small ones." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_8> ] ;
+    narr:keyPhrase [ narr:text "I can't staff that. It isn't that it's hard, it's that the people don't exist." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_12> ] ;
+    narr:keyPhrase [ narr:text "Last week you were arguing it as risk. I'm telling you it's arithmetic. One site at a time is the only sequencing my rota can actually produce people for." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_14> ] ;
+    narr:keyPhrase [ narr:text "The two that went big-bang both went backwards — not failed, went backwards, six months of unpicking. The one that went sequentially was boring and finished." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_6HalyardAdvisorTonyMaley20260929_5> ] ;
+    narr:keyPhrase [ narr:text "the pressure to collapse the sequence always comes in month four, from someone who wasn't there in month one, and it always arrives dressed as efficiency." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_6HalyardAdvisorTonyMaley20260929_7> ] ;
+    narr:keyPhrase [ narr:text "we never agreed a single-site pilot — the call settled on two sites in parallel" ; narr:phraseSource <https://aswritten.ai/narrative#Expr_3ReviewEvents70102_4> ] ;
+    narr:variation [ narr:text "The pairing alternative — two sites sharing a dispatch desk taken together — was argued and rejected on trade-off grounds, not dismissed; the desk-friction road not taken lives here." ; narr:over <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_12> ; narr:over <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_13> ] ;
+    narr:variation [ narr:text "Review acts contest what the original call actually settled: one rejection claims it was two sites in parallel, and a change request says containment never settled sequencing at all — the 'settled' reading is formally disputed." ; narr:over <https://aswritten.ai/narrative#Expr_3ReviewEvents70102_4> ; narr:over <https://aswritten.ai/narrative#Expr_3ReviewEvents70102_3> ; narr:over <https://aswritten.ai/narrative#Expr_3ReviewEvents70102_2> ] ;
+    narr:variation [ narr:text "The advisor layer reframes the position from argued trade-off to defended precedent, warning the sequence will be attacked in month four — the position is now something to hold, not just something decided." ; narr:over <https://aswritten.ai/narrative#Expr_6HalyardAdvisorTonyMaley20260929_7> ; narr:over <https://aswritten.ai/narrative#Expr_6HalyardAdvisorTonyMaley20260929_9> ] ;
+    narr:variation [ narr:text "The strongest supporting argument is credited as coming from outside the room, and the technical rules were found to carry an unstated one-window assumption — the position's foundations were partly discovered, not chosen." ; narr:over <https://aswritten.ai/narrative#Expr_4HalyardCutoverReview20260915_12> ; narr:over <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_25> ] ;
+    narr:voiceTrait [ narr:dim "conviction" ; narr:reading "decision-forward — stances are voiced as landed calls, then hardened into principle when challenged" ; narr:text "Then let me say where I've landed, because I don't think I'm going to move off it." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_8> ] ;
+    narr:voiceTrait [ narr:dim "power" ; narr:reading "legitimate authority at the decision points, but readily ceding the floor to expert and informational force when the better argument arrives" ; narr:text "Noted, and I'll lead with yours on Thursday." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_17> ] ;
+    narr:voiceTrait [ narr:dim "temporal" ; narr:reading "moves between abstract future framing when deciding and concrete present-real when the constraint is named" ; narr:text "A site goes live, it soaks, and only when the soak is clean do we start the next. No two cutovers running at once." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_7> ] ;
+    narr:voiceTrait [ narr:dim "relational" ; narr:reading "authority-ranking in how decisions are owned and delegated" ; narr:text "Noted, and I'll lead with yours on Thursday." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_17> ] ;
+    narr:voiceTrait [ narr:dim "style" ; narr:reading "antithesis-first — the sentence names what it isn't before what it is — with parallelism and metaphor behind it" ; narr:text "It is. And I've thought about it, and I still think it's the wrong trade." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_13> ] ;
+    narr:voiceTrait [ narr:dim "value" ; narr:reading "conservation — the trade favors contained, known pain over unbounded exposure" ; narr:text "Running two systems at one desk for a few weeks is a known, contained pain with a named owner." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_13> ] ;
+    narr:writer "z-ai/glm-5.3-flash:nitro" .
+}

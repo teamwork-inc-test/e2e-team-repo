@@ -1,0 +1,31 @@
+@prefix narr: <https://aswritten.ai/narrative#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+GRAPH <https://aswritten.ai/narrative#Digest_Position_LegacyRecordArchivalStrategy> {
+  <https://aswritten.ai/narrative#Digest_Position_LegacyRecordArchivalStrategy> a narr:Digest ;
+    narr:digestOf <https://aswritten.ai/narrative#Position_LegacyRecordArchivalStrategy> ;
+    narr:childCount "11"^^xsd:integer ;
+    narr:generatedFrom "d451297a6dd1dbdf2eecccafc5b2a8b4c1a89a3a" ;
+    narr:narration """This position holds that closed legacy-platform history should be extracted into an open, self-describing archive rather than kept alive as a read-only system. [The problem statement](narr:Expr_5HalyardLegacyArchive20260922_3) frames the gap: open work migrates, eleven years of closed history does not. [The core stance](narr:Expr_5HalyardLegacyArchive20260922_9) rejects keeping the legacy platform alive, arguing a dormant system fails quietly until someone needs an old record for a claim — [the fragility argument](narr:Expr_5HalyardLegacyArchive20260922_7) makes that cost explicit. [The archival prescription](narr:Expr_5HalyardLegacyArchive20260922_11) specifies flat files, open formats, a schema, and field-meaning documentation readable in a decade without the vendor. [The decay thesis](narr:Expr_5HalyardLegacyArchive20260922_13) holds that data is easy to keep but meaning rots. [The counterargument acknowledgment](narr:Expr_5HalyardLegacyArchive20260922_15) names why this never gets done: cost now, risk later on someone absent. [A behavioural addition](narr:Expr_5HalyardLegacyArchive20260922_16) argues an obviously-dead archive prevents a second system of record, which [the expert concedes](narr:Expr_5HalyardLegacyArchive20260922_17) is the stronger argument. [The formalized position](narr:Expr_5HalyardLegacyArchive20260922_22) states switch-off at last-site go-live, extraction first, and written legal retention terms before signing decommissioning papers. Since the prior digest, [an external advisor's endorsement](narr:Expr_6HalyardAdvisorTonyMaley20260929_25) arrived — do the archive, everyone regrets skipping it around year six — and [the reply](narr:Expr_6HalyardAdvisorTonyMaley20260929_26) notes it was already opened the week prior, so the position now carries outside validation on top of the internal decision.""" ;
+    narr:covers <https://aswritten.ai/narrative#Expr_5HalyardLegacyArchive20260922_11> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_5HalyardLegacyArchive20260922_13> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_5HalyardLegacyArchive20260922_15> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_5HalyardLegacyArchive20260922_16> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_5HalyardLegacyArchive20260922_17> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_5HalyardLegacyArchive20260922_22> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_5HalyardLegacyArchive20260922_3> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_5HalyardLegacyArchive20260922_7> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_5HalyardLegacyArchive20260922_9> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_6HalyardAdvisorTonyMaley20260929_25> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_6HalyardAdvisorTonyMaley20260929_26> ;
+    narr:keyPhrase [ narr:text "We do not keep the legacy platform alive as a read-only system." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_5HalyardLegacyArchive20260922_9> ] ;
+    narr:keyPhrase [ narr:text "The data is easy to keep. The meaning is what rots." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_5HalyardLegacyArchive20260922_13> ] ;
+    narr:keyPhrase [ narr:text "Cost and effort now, against a risk that lands years from now on someone who isn't in this room." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_5HalyardLegacyArchive20260922_15> ] ;
+    narr:keyPhrase [ narr:text "An archive that is obviously an archive kills that." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_5HalyardLegacyArchive20260922_16> ] ;
+    narr:keyPhrase [ narr:text "the retention period comes from legal in writing before we sign anything with the vendor about decommissioning" ; narr:phraseSource <https://aswritten.ai/narrative#Expr_5HalyardLegacyArchive20260922_22> ] ;
+    narr:keyPhrase [ narr:text "Everyone skips it and everyone regrets it around year six." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_6HalyardAdvisorTonyMaley20260929_25> ] ;
+    narr:variation [ narr:text "The expert ranks his own decay argument second: the behavioural second-system argument is 'a better argument than mine' — the position's strongest footing is not the one its author originated." ; narr:over <https://aswritten.ai/narrative#Expr_5HalyardLegacyArchive20260922_17> ; narr:over <https://aswritten.ai/narrative#Expr_5HalyardLegacyArchive20260922_16> ] ;
+    narr:variation [ narr:text "The advisor's endorsement arrives after the fact — the archive was already opened the week prior, so external validation trails the decision rather than shaping it." ; narr:over <https://aswritten.ai/narrative#Expr_6HalyardAdvisorTonyMaley20260929_25> ; narr:over <https://aswritten.ai/narrative#Expr_6HalyardAdvisorTonyMaley20260929_26> ] ;
+    narr:variation [ narr:text "The counterargument is named but unresolved in principle: cost now versus deferred risk on absent people is acknowledged as the reason this 'never gets done' — the position answers it with sequencing and legal terms, not by dissolving the cost." ; narr:over <https://aswritten.ai/narrative#Expr_5HalyardLegacyArchive20260922_15> ; narr:over <https://aswritten.ai/narrative#Expr_5HalyardLegacyArchive20260922_22> ] ;
+    narr:writer "z-ai/glm-5.3-flash:nitro" .
+}

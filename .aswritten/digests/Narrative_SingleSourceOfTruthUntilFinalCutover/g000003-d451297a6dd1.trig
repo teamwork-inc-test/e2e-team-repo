@@ -1,0 +1,30 @@
+@prefix narr: <https://aswritten.ai/narrative#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+GRAPH <https://aswritten.ai/narrative#Digest_Narrative_SingleSourceOfTruthUntilFinalCutover> {
+  <https://aswritten.ai/narrative#Digest_Narrative_SingleSourceOfTruthUntilFinalCutover> a narr:Digest ;
+    narr:digestOf <https://aswritten.ai/narrative#Narrative_SingleSourceOfTruthUntilFinalCutover> ;
+    narr:childCount "11"^^xsd:integer ;
+    narr:generatedFrom "d451297a6dd1dbdf2eecccafc5b2a8b4c1a89a3a" ;
+    narr:narration """The narrative holds that [the vendor stays the system of record for reference data until the last site is live](narr:Expr_1HalyardWeekly20260908_36), opening from [the recurring question of when ownership actually transfers](narr:Expr_1HalyardWeekly20260908_34) and grounded in [the drift risk of split ownership — divergence surfacing via a mis-priced consignment weeks later](narr:Expr_1HalyardWeekly20260908_38). [An accountability corollary](narr:Expr_1HalyardWeekly20260908_39) keeps blame with the vendor through the programme, and [site-team assent](narr:Expr_1HalyardWeekly20260908_41) folds it into [a steering-group summary of the rollout cadence](narr:Expr_1HalyardWeekly20260908_42). A second session adds [the hidden dependency: both rules assume one cutover window open at a time, and would need rewriting under a parallel rollout](narr:Expr_2HalyardOpsReadiness20260915_25), drawing [a decision to stay sequential](narr:Expr_2HalyardOpsReadiness20260915_26). A third session carries [an advisor's endorsement of the reference-data call, hedged on the mirror's refresh interval](narr:Expr_6HalyardAdvisorTonyMaley20260929_25), and [a migration-plan outline restating the cadence and the vendor-holds rule](narr:Expr_6HalyardAdvisorTonyMaley20260929_3), now gathered under [the position on when reference-data authority transfers](narr:Position_ReferenceDataSourceOfRecordTransition). Nothing here records the vendor's own agreement, and the mirror's refresh interval remains unverified.""" ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_34> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_36> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_38> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_39> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_41> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_42> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_25> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_26> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_6HalyardAdvisorTonyMaley20260929_25> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_6HalyardAdvisorTonyMaley20260929_3> ;
+    narr:covers <https://aswritten.ai/narrative#Position_ReferenceDataSourceOfRecordTransition> ;
+    narr:keyPhrase [ narr:text "The vendor stays the system of record for reference data until the last site is live." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_36> ] ;
+    narr:keyPhrase [ narr:text "You find that out from a mis-priced consignment three weeks later." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_38> ] ;
+    narr:keyPhrase [ narr:text "Their data, their problem, right up until the end." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_39> ] ;
+    narr:keyPhrase [ narr:text "If we ever went parallel, both of those would need rewriting." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_25> ] ;
+    narr:keyPhrase [ narr:text "though I'd want to see the mirror's refresh interval before I said more" ; narr:phraseSource <https://aswritten.ai/narrative#Expr_6HalyardAdvisorTonyMaley20260929_25> ] ;
+    narr:variation [ narr:text "The advisor endorses the call but withholds full backing pending the mirror's refresh interval — an unverified operational assumption beneath the rule." ; narr:over <https://aswritten.ai/narrative#Expr_6HalyardAdvisorTonyMaley20260929_25> ] ;
+    narr:variation [ narr:text "The rule only holds under a sequential rollout; a parallel path would force a rewrite, closed by decision rather than by argument." ; narr:over <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_25> ; narr:over <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_26> ] ;
+    narr:variation [ narr:text "Nothing in the graph records the vendor's own agreement to holding reference data until cutover." ; narr:over <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_36> ] ;
+    narr:writer "z-ai/glm-5.3-flash:nitro" .
+}

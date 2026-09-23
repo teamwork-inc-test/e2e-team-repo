@@ -1,0 +1,25 @@
+@prefix narr: <https://aswritten.ai/narrative#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+GRAPH <https://aswritten.ai/narrative#Digest_Position_PreCutoverDataQualityGateEnforcement> {
+  <https://aswritten.ai/narrative#Digest_Position_PreCutoverDataQualityGateEnforcement> a narr:Digest ;
+    narr:digestOf <https://aswritten.ai/narrative#Position_PreCutoverDataQualityGateEnforcement> ;
+    narr:childCount "7"^^xsd:integer ;
+    narr:generatedFrom "d451297a6dd1dbdf2eecccafc5b2a8b4c1a89a3a" ;
+    narr:narration """This position gathers an advisor's argument that a [pre-cutover data-quality gate is missing from the plan](narr:Expr_6HalyardAdvisorTonyMaley20260929_13), and the pushback that [a migration validation step already exists](narr:Expr_6HalyardAdvisorTonyMaley20260929_14) — which the advisor [distinguishes as movement-validation, not quality](narr:Expr_6HalyardAdvisorTonyMaley20260929_15). From there the thread builds the gate's shape: [a named quality bar measured on the source system, with non-programme ownership](narr:Expr_6HalyardAdvisorTonyMaley20260929_17), a [directive to budget for gate-caused delay](narr:Expr_6HalyardAdvisorTonyMaley20260929_21), and [the self-test that a gate which never fires isn't a gate](narr:Expr_6HalyardAdvisorTonyMaley20260929_23). It closes on [an assessment that sequencing and archive are done but the gate is the hole](narr:Expr_6HalyardAdvisorTonyMaley20260929_27). The span covers gate definition, ownership, testing, and cost — not migration sequencing or archive design, which sit outside it.""" ;
+    narr:covers <https://aswritten.ai/narrative#Expr_6HalyardAdvisorTonyMaley20260929_13> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_6HalyardAdvisorTonyMaley20260929_14> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_6HalyardAdvisorTonyMaley20260929_15> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_6HalyardAdvisorTonyMaley20260929_17> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_6HalyardAdvisorTonyMaley20260929_21> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_6HalyardAdvisorTonyMaley20260929_23> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_6HalyardAdvisorTonyMaley20260929_27> ;
+    narr:keyPhrase [ narr:text "Your plan has no data-quality gate in it. Nowhere in what you just described does anything stop a site cutting over with bad data." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_6HalyardAdvisorTonyMaley20260929_13> ] ;
+    narr:keyPhrase [ narr:text "A validation step tells you the data moved. It doesn't tell you the data was any good before it moved." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_6HalyardAdvisorTonyMaley20260929_15> ] ;
+    narr:keyPhrase [ narr:text "A site that fails the bar doesn't cut over — it gets a remediation window and it goes to the back of the queue." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_6HalyardAdvisorTonyMaley20260929_17> ] ;
+    narr:keyPhrase [ narr:text "Budget for it now: the gate costs you a site's worth of delay at least once, and if it never fires you set the bar too low." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_6HalyardAdvisorTonyMaley20260929_21> ] ;
+    narr:keyPhrase [ narr:text "If it never stops anything, it isn't a gate." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_6HalyardAdvisorTonyMaley20260929_23> ] ;
+    narr:variation [ narr:text "The team's claim that a migration validation step already exists stands against the advisor's argument that validation and quality are different questions — unresolved in this graph." ; narr:over <https://aswritten.ai/narrative#Expr_6HalyardAdvisorTonyMaley20260929_14> ; narr:over <https://aswritten.ai/narrative#Expr_6HalyardAdvisorTonyMaley20260929_15> ] ;
+    narr:variation [ narr:text "The closing assessment concedes the plan is otherwise further along than most, qualifying the opening critique's severity." ; narr:over <https://aswritten.ai/narrative#Expr_6HalyardAdvisorTonyMaley20260929_27> ; narr:over <https://aswritten.ai/narrative#Expr_6HalyardAdvisorTonyMaley20260929_13> ] ;
+    narr:writer "z-ai/glm-5.3-flash:nitro" .
+}

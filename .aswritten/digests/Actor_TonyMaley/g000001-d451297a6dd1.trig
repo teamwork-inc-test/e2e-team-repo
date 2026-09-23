@@ -1,0 +1,43 @@
+@prefix narr: <https://aswritten.ai/narrative#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+GRAPH <https://aswritten.ai/narrative#Digest_Actor_TonyMaley> {
+  <https://aswritten.ai/narrative#Digest_Actor_TonyMaley> a narr:Digest ;
+    narr:digestOf <https://aswritten.ai/narrative#Actor_TonyMaley> ;
+    narr:childCount "15"^^xsd:integer ;
+    narr:generatedFrom "d451297a6dd1dbdf2eecccafc5b2a8b4c1a89a3a" ;
+    narr:narration """Tony Maley's voice here is an advisor reviewing a migration plan, opening with [blunt-where-useful acceptance](narr:Expr_6HalyardAdvisorTonyMaley20260929_2) and a [forewarning of the hard part](narr:Expr_6HalyardAdvisorTonyMaley20260929_11). The mainline runs through [precedent from three programmes he watched](narr:Expr_6HalyardAdvisorTonyMaley20260929_5), [advice to hold the sequential approach](narr:Expr_6HalyardAdvisorTonyMaley20260929_4), and [a directive to write down the reasons while calm](narr:Expr_6HalyardAdvisorTonyMaley20260929_9) against [pressure that arrives dressed as efficiency](narr:Expr_6HalyardAdvisorTonyMaley20260929_7). The critique centers on [the missing data-quality gate](narr:Expr_6HalyardAdvisorTonyMaley20260929_13), sharpened by [the distinction between movement validation and data quality](narr:Expr_6HalyardAdvisorTonyMaley20260929_15), then built out as [a named bar, measured on source, owned by someone other than the programme manager](narr:Expr_6HalyardAdvisorTonyMaley20260929_17) — including [why the advisee shouldn't hold the gate](narr:Expr_6HalyardAdvisorTonyMaley20260929_19) — plus [budgeting for the delay it causes](narr:Expr_6HalyardAdvisorTonyMaley20260929_21) and [the test that a gate which never fires isn't a gate](narr:Expr_6HalyardAdvisorTonyMaley20260929_23). Side notes cover [reference-data endorsement with a caveat and an archive directive](narr:Expr_6HalyardAdvisorTonyMaley20260929_25), closing on [the plan's status](narr:Expr_6HalyardAdvisorTonyMaley20260929_27) and [the strategy of naming your own hole](narr:Expr_6HalyardAdvisorTonyMaley20260929_29).""" ;
+    narr:covers <https://aswritten.ai/narrative#Expr_6HalyardAdvisorTonyMaley20260929_11> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_6HalyardAdvisorTonyMaley20260929_13> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_6HalyardAdvisorTonyMaley20260929_15> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_6HalyardAdvisorTonyMaley20260929_17> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_6HalyardAdvisorTonyMaley20260929_19> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_6HalyardAdvisorTonyMaley20260929_2> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_6HalyardAdvisorTonyMaley20260929_21> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_6HalyardAdvisorTonyMaley20260929_23> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_6HalyardAdvisorTonyMaley20260929_25> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_6HalyardAdvisorTonyMaley20260929_27> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_6HalyardAdvisorTonyMaley20260929_29> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_6HalyardAdvisorTonyMaley20260929_4> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_6HalyardAdvisorTonyMaley20260929_5> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_6HalyardAdvisorTonyMaley20260929_7> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_6HalyardAdvisorTonyMaley20260929_9> ;
+    narr:keyPhrase [ narr:text "Your plan has no data-quality gate in it. Nowhere in what you just described does anything stop a site cutting over with bad data." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_6HalyardAdvisorTonyMaley20260929_13> ] ;
+    narr:keyPhrase [ narr:text "A validation step tells you the data moved. It doesn't tell you the data was any good before it moved." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_6HalyardAdvisorTonyMaley20260929_15> ] ;
+    narr:keyPhrase [ narr:text "The two that went big-bang both went backwards — not failed, went backwards, six months of unpicking. The one that went sequentially was boring and finished." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_6HalyardAdvisorTonyMaley20260929_5> ] ;
+    narr:keyPhrase [ narr:text "If it never stops anything, it isn't a gate." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_6HalyardAdvisorTonyMaley20260929_23> ] ;
+    narr:keyPhrase [ narr:text "They'll forgive a hole. They won't forgive finding one." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_6HalyardAdvisorTonyMaley20260929_29> ] ;
+    narr:keyPhrase [ narr:text "I'll be blunt where I can be useful and quiet where I can't." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_6HalyardAdvisorTonyMaley20260929_2> ] ;
+    narr:variation [ narr:text "Endorsement is qualified, not flat: the plan is 'further along than most' yet the quality gate is named as the hole — praise and critique in the same breath." ; narr:over <https://aswritten.ai/narrative#Expr_6HalyardAdvisorTonyMaley20260929_27> ; narr:over <https://aswritten.ai/narrative#Expr_6HalyardAdvisorTonyMaley20260929_13> ] ;
+    narr:variation [ narr:text "The reference-data call is endorsed only conditionally, pending seeing the mirror's refresh interval — approval held open rather than given." ; narr:over <https://aswritten.ai/narrative#Expr_6HalyardAdvisorTonyMaley20260929_25> ] ;
+    narr:variation [ narr:text "He flags his own critique as unwelcome ('the part you won't like') and separates the structural point from a personal judgment of the advisee." ; narr:over <https://aswritten.ai/narrative#Expr_6HalyardAdvisorTonyMaley20260929_11> ; narr:over <https://aswritten.ai/narrative#Expr_6HalyardAdvisorTonyMaley20260929_19> ] ;
+    narr:voiceTrait [ narr:dim "conviction" ; narr:reading "principles over opinions — claims get promoted to rules with a test attached" ; narr:text "It's the only test I trust on quality gates. If it never stops anything, it isn't a gate." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_6HalyardAdvisorTonyMaley20260929_23> ] ;
+    narr:voiceTrait [ narr:dim "temporal" ; narr:reading "alternates concrete-past precedent with future-irrealis instruction — evidence first, then the rule" ; narr:text "The two that went big-bang both went backwards — not failed, went backwards, six months of unpicking." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_6HalyardAdvisorTonyMaley20260929_5> ] ;
+    narr:voiceTrait [ narr:dim "power" ; narr:reading "expert rational-persuasion — argues from structural design, not command" ; narr:text "somebody who isn't the programme manager owns the gate, because the programme manager has a date." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_6HalyardAdvisorTonyMaley20260929_17> ] ;
+    narr:voiceTrait [ narr:dim "register" ; narr:reading "plain-spoken with occasional metaphor doing the work of an argument" ; narr:text "it always arrives dressed as efficiency." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_6HalyardAdvisorTonyMaley20260929_7> ] ;
+    narr:voiceTrait [ narr:dim "relational" ; narr:reading "authority-ranking — speaks from seniority but explicitly de-personalizes the hard calls" ; narr:text "That's not a comment on you, it's the structure." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_6HalyardAdvisorTonyMaley20260929_19> ] ;
+    narr:voiceTrait [ narr:dim "value" ; narr:reading "competence and conservation — protects against loss and prizes named problems over hidden ones" ; narr:text "They'll forgive a hole. They won't forgive finding one." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_6HalyardAdvisorTonyMaley20260929_29> ] ;
+    narr:voiceTrait [ narr:dim "style" ; narr:reading "antithesis-first with parallelism — the sentence defines a thing by what it is not" ; narr:text "A validation step tells you the data moved. It doesn't tell you the data was any good before it moved." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_6HalyardAdvisorTonyMaley20260929_15> ] ;
+    narr:voiceTrait [ narr:dim "affect" ; narr:reading "calm-positive baseline even while delivering criticism" ; narr:text "Happy to look. I'll be blunt where I can be useful and quiet where I can't." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_6HalyardAdvisorTonyMaley20260929_2> ] ;
+    narr:writer "z-ai/glm-5.3-flash:nitro" .
+}

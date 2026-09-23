@@ -33,7 +33,11 @@
       "n:Expr_5HalyardLegacyArchive20260922_16" : 1,
       "n:Expr_5HalyardLegacyArchive20260922_18" : 1,
       "n:Expr_5HalyardLegacyArchive20260922_20" : 1,
-      "n:Expr_5HalyardLegacyArchive20260922_22" : 1
+      "n:Expr_5HalyardLegacyArchive20260922_22" : 1,
+      "n:Expr_6HalyardAdvisorTonyMaley20260929_14" : 1,
+      "n:Expr_6HalyardAdvisorTonyMaley20260929_26" : 1,
+      "n:Expr_6HalyardAdvisorTonyMaley20260929_28" : 1,
+      "n:Expr_6HalyardAdvisorTonyMaley20260929_3" : 1
     },
     "n:Actor_TinaTeam" : {
       "n:Expr_1HalyardWeekly20260908_15" : 1,
@@ -50,6 +54,17 @@
       "n:Expr_4HalyardCutoverReview20260915_7" : 1,
       "n:Expr_4HalyardCutoverReview20260915_9" : 2,
       "n:Expr_5HalyardLegacyArchive20260922_24" : 1
+    },
+    "n:Actor_TonyMaley" : {
+      "n:Expr_6HalyardAdvisorTonyMaley20260929_13" : 1,
+      "n:Expr_6HalyardAdvisorTonyMaley20260929_15" : 2,
+      "n:Expr_6HalyardAdvisorTonyMaley20260929_17" : 2,
+      "n:Expr_6HalyardAdvisorTonyMaley20260929_19" : 2,
+      "n:Expr_6HalyardAdvisorTonyMaley20260929_21" : 1,
+      "n:Expr_6HalyardAdvisorTonyMaley20260929_23" : 1,
+      "n:Expr_6HalyardAdvisorTonyMaley20260929_29" : 1,
+      "n:Expr_6HalyardAdvisorTonyMaley20260929_4" : 1,
+      "n:Expr_6HalyardAdvisorTonyMaley20260929_9" : 1
     },
     "n:Actor_XavierExpert" : {
       "n:Expr_1HalyardWeekly20260908_12" : 1,
@@ -77,13 +92,16 @@
       "n:Expr_1HalyardWeekly20260908_42" : 1,
       "n:Expr_1HalyardWeekly20260908_8" : 1,
       "n:Narrative_ContainedPainOverUnboundedRisk" : 2,
-      "n:Narrative_ExtractionScopingBeforeDecommissioningTerms" : 1,
-      "n:Narrative_SelfDescribingArchivePreservesMeaning" : 1,
+      "n:Narrative_ProactiveGovernanceRiskDisclosure" : 1,
+      "n:Narrative_SelfDescribingArchivePreservesMeaning" : 2,
       "n:Narrative_SingleSourceOfTruthUntilFinalCutover" : 1,
+      "n:Narrative_SourceQualityGatesRequireIndependentEnforcement" : 1,
       "n:Narrative_StrictWorkloadIsolationDuringCutover" : 1,
       "n:Position_CrossSiteOperationalLearning" : 1,
+      "n:Position_CutoverGatekeeperRoleSeparation" : 1,
       "n:Position_DecommissioningRetentionSequencing" : 1,
-      "n:Position_LegacyRecordArchivalStrategy" : 2
+      "n:Position_LegacyRecordArchivalStrategy" : 2,
+      "n:Position_PreCutoverDataQualityGateEnforcement" : 1
     },
     "n:Narrative_AntiSlackPositioning" : {
       "n:Position_AntiPatternRealtimeChat" : 2,
@@ -93,9 +111,7 @@
     },
     "n:Narrative_ContainedPainOverUnboundedRisk" : {
       "n:Expr_1HalyardWeekly20260908_13" : 1,
-      "n:Expr_1HalyardWeekly20260908_15" : 1,
       "n:Expr_1HalyardWeekly20260908_16" : 1,
-      "n:Expr_1HalyardWeekly20260908_17" : 1,
       "n:Expr_1HalyardWeekly20260908_20" : 1,
       "n:Expr_1HalyardWeekly20260908_42" : 1,
       "n:Expr_1HalyardWeekly20260908_8" : 1,
@@ -115,6 +131,9 @@
       "n:Expr_4HalyardCutoverReview20260915_20" : 1,
       "n:Expr_4HalyardCutoverReview20260915_3" : 1,
       "n:Expr_4HalyardCutoverReview20260915_9" : 1,
+      "n:Expr_6HalyardAdvisorTonyMaley20260929_3" : 1,
+      "n:Expr_6HalyardAdvisorTonyMaley20260929_4" : 1,
+      "n:Expr_6HalyardAdvisorTonyMaley20260929_9" : 1,
       "n:Position_PostGoLiveSoakDurationBasis" : 1,
       "n:Position_SiteCutoverSequencingStrategy" : 2
     },
@@ -126,20 +145,31 @@
       "n:Expr_5HalyardLegacyArchive20260922_27" : 1
     },
     "n:Narrative_SelfDescribingArchivePreservesMeaning" : {
-      "n:Expr_5HalyardLegacyArchive20260922_11" : 1,
       "n:Expr_5HalyardLegacyArchive20260922_13" : 2,
       "n:Expr_5HalyardLegacyArchive20260922_16" : 1,
       "n:Expr_5HalyardLegacyArchive20260922_22" : 2,
       "n:Expr_5HalyardLegacyArchive20260922_7" : 1,
-      "n:Expr_5HalyardLegacyArchive20260922_9" : 1
+      "n:Expr_5HalyardLegacyArchive20260922_9" : 1,
+      "n:Expr_6HalyardAdvisorTonyMaley20260929_25" : 1,
+      "n:Expr_6HalyardAdvisorTonyMaley20260929_26" : 1,
+      "n:Position_LegacyRecordArchivalStrategy" : 2
     },
     "n:Narrative_SingleSourceOfTruthUntilFinalCutover" : {
       "n:Expr_1HalyardWeekly20260908_36" : 1,
       "n:Expr_1HalyardWeekly20260908_38" : 1,
       "n:Expr_1HalyardWeekly20260908_39" : 1,
       "n:Expr_1HalyardWeekly20260908_42" : 2,
-      "n:Expr_2HalyardOpsReadiness20260915_25" : 1,
-      "n:Expr_2HalyardOpsReadiness20260915_26" : 2
+      "n:Expr_2HalyardOpsReadiness20260915_26" : 2,
+      "n:Expr_6HalyardAdvisorTonyMaley20260929_3" : 1,
+      "n:Position_ReferenceDataSourceOfRecordTransition" : 2
+    },
+    "n:Narrative_SourceQualityGatesRequireIndependentEnforcement" : {
+      "n:Expr_6HalyardAdvisorTonyMaley20260929_13" : 1,
+      "n:Expr_6HalyardAdvisorTonyMaley20260929_15" : 2,
+      "n:Expr_6HalyardAdvisorTonyMaley20260929_17" : 2,
+      "n:Expr_6HalyardAdvisorTonyMaley20260929_19" : 1,
+      "n:Expr_6HalyardAdvisorTonyMaley20260929_21" : 1,
+      "n:Expr_6HalyardAdvisorTonyMaley20260929_23" : 1
     },
     "n:Narrative_StrictWorkloadIsolationDuringCutover" : {
       "n:Expr_1HalyardWeekly20260908_26" : 1,
@@ -165,12 +195,12 @@
       "n:Expr_5HalyardLegacyArchive20260922_28" : 1
     },
     "n:Position_LegacyRecordArchivalStrategy" : {
-      "n:Expr_5HalyardLegacyArchive20260922_11" : 1,
       "n:Expr_5HalyardLegacyArchive20260922_13" : 2,
       "n:Expr_5HalyardLegacyArchive20260922_16" : 1,
       "n:Expr_5HalyardLegacyArchive20260922_22" : 2,
       "n:Expr_5HalyardLegacyArchive20260922_7" : 1,
-      "n:Expr_5HalyardLegacyArchive20260922_9" : 1
+      "n:Expr_5HalyardLegacyArchive20260922_9" : 1,
+      "n:Expr_6HalyardAdvisorTonyMaley20260929_26" : 1
     },
     "n:Position_PostGoLiveSoakDurationBasis" : {
       "n:Expr_1HalyardWeekly20260908_17" : 1,
@@ -180,6 +210,14 @@
       "n:Expr_2HalyardOpsReadiness20260915_28" : 1,
       "n:Expr_2HalyardOpsReadiness20260915_29" : 2
     },
+    "n:Position_PreCutoverDataQualityGateEnforcement" : {
+      "n:Expr_6HalyardAdvisorTonyMaley20260929_13" : 1,
+      "n:Expr_6HalyardAdvisorTonyMaley20260929_14" : 1,
+      "n:Expr_6HalyardAdvisorTonyMaley20260929_15" : 2,
+      "n:Expr_6HalyardAdvisorTonyMaley20260929_17" : 2,
+      "n:Expr_6HalyardAdvisorTonyMaley20260929_21" : 1,
+      "n:Expr_6HalyardAdvisorTonyMaley20260929_23" : 1
+    },
     "n:Position_ReferenceDataSourceOfRecordTransition" : {
       "n:Expr_1HalyardWeekly20260908_34" : 1,
       "n:Expr_1HalyardWeekly20260908_36" : 2,
@@ -188,9 +226,7 @@
       "n:Expr_1HalyardWeekly20260908_41" : 1
     },
     "n:Position_SiteCutoverSequencingStrategy" : {
-      "n:Expr_1HalyardWeekly20260908_13" : 1,
-      "n:Expr_1HalyardWeekly20260908_15" : 1,
-      "n:Expr_1HalyardWeekly20260908_16" : 2,
+      "n:Expr_1HalyardWeekly20260908_16" : 1,
       "n:Expr_1HalyardWeekly20260908_8" : 1,
       "n:Expr_2HalyardOpsReadiness20260915_16" : 2,
       "n:Expr_2HalyardOpsReadiness20260915_17" : 1,
@@ -200,25 +236,31 @@
       "n:Expr_3ReviewEvents70102_2" : 1,
       "n:Expr_3ReviewEvents70102_3" : 2,
       "n:Expr_3ReviewEvents70102_4" : 2,
-      "n:Expr_4HalyardCutoverReview20260915_10" : 1
+      "n:Expr_4HalyardCutoverReview20260915_10" : 1,
+      "n:Expr_6HalyardAdvisorTonyMaley20260929_3" : 1,
+      "n:Expr_6HalyardAdvisorTonyMaley20260929_4" : 2,
+      "n:Expr_6HalyardAdvisorTonyMaley20260929_9" : 1
     }
   },
-  "generated_from" : "88e36c162aa3ba30a94074c3b2f7b68fbe13aefc",
+  "generated_from" : "d451297a6dd1dbdf2eecccafc5b2a8b4c1a89a3a",
   "hubs" : {
     "n:Actor_FreyaFree" : 1,
     "n:Actor_TanyaTeam" : 2,
     "n:Actor_TinaTeam" : 1,
+    "n:Actor_TonyMaley" : 1,
     "n:Actor_XavierExpert" : 1,
     "n:CutoverStrategy" : 2,
     "n:Narrative_ContainedPainOverUnboundedRisk" : 2,
     "n:Narrative_ExtractionScopingBeforeDecommissioningTerms" : 1,
-    "n:Narrative_SelfDescribingArchivePreservesMeaning" : 1,
+    "n:Narrative_SelfDescribingArchivePreservesMeaning" : 2,
     "n:Narrative_SingleSourceOfTruthUntilFinalCutover" : 1,
+    "n:Narrative_SourceQualityGatesRequireIndependentEnforcement" : 1,
     "n:Narrative_StrictWorkloadIsolationDuringCutover" : 1,
-    "n:Position_CrossSiteOperationalLearning" : 1,
     "n:Position_DecommissioningRetentionSequencing" : 1,
-    "n:Position_LegacyRecordArchivalStrategy" : 1,
+    "n:Position_LegacyRecordArchivalStrategy" : 2,
     "n:Position_PostGoLiveSoakDurationBasis" : 1,
+    "n:Position_PreCutoverDataQualityGateEnforcement" : 1,
+    "n:Position_ReferenceDataSourceOfRecordTransition" : 1,
     "n:Position_SiteCutoverSequencingStrategy" : 2
   },
   "params" : {
@@ -234,7 +276,7 @@
     "n" : "https://aswritten.ai/narrative#",
     "o" : "https://aswritten.ai/ns/narrative#"
   },
-  "runs_sha" : "a515dddf349ee7b9bc6b3287b84edd9cdc9ccf42",
-  "sittings" : 153,
+  "runs_sha" : "ad53ed8f6565a311d2bff2df38182b3a0e5b341e",
+  "sittings" : 154,
   "spec" : "fidelity-bands/1"
 }

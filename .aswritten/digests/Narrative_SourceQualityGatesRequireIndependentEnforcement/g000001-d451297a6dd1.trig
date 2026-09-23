@@ -1,0 +1,28 @@
+@prefix narr: <https://aswritten.ai/narrative#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+GRAPH <https://aswritten.ai/narrative#Digest_Narrative_SourceQualityGatesRequireIndependentEnforcement> {
+  <https://aswritten.ai/narrative#Digest_Narrative_SourceQualityGatesRequireIndependentEnforcement> a narr:Digest ;
+    narr:digestOf <https://aswritten.ai/narrative#Narrative_SourceQualityGatesRequireIndependentEnforcement> ;
+    narr:childCount "8"^^xsd:integer ;
+    narr:generatedFrom "d451297a6dd1dbdf2eecccafc5b2a8b4c1a89a3a" ;
+    narr:narration """This narrative holds the argument that migration plans need a [data-quality gate measured on the source system](narr:Expr_6HalyardAdvisorTonyMaley20260929_17), with gatekeeping authority [deliberately held by someone other than the programme manager](narr:Expr_6HalyardAdvisorTonyMaley20260929_19). It opens from a [critique that the plan contains no gate at all](narr:Expr_6HalyardAdvisorTonyMaley20260929_13), meets the pushback that [a migration validation step already exists](narr:Expr_6HalyardAdvisorTonyMaley20260929_14), and answers it with the [distinction between proving data moved and proving data was good](narr:Expr_6HalyardAdvisorTonyMaley20260929_15). The design carries an operational cost the speaker asks be [budgeted for in advance as at least one site's worth of delay](narr:Expr_6HalyardAdvisorTonyMaley20260929_21), and a self-test for the gate itself: [if it never stops anything, it isn't a gate](narr:Expr_6HalyardAdvisorTonyMaley20260929_23). It closes on a [summary that sequencing and archive are in place and the quality gate is the hole](narr:Expr_6HalyardAdvisorTonyMaley20260929_27).""" ;
+    narr:covers <https://aswritten.ai/narrative#Expr_6HalyardAdvisorTonyMaley20260929_13> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_6HalyardAdvisorTonyMaley20260929_14> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_6HalyardAdvisorTonyMaley20260929_15> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_6HalyardAdvisorTonyMaley20260929_17> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_6HalyardAdvisorTonyMaley20260929_19> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_6HalyardAdvisorTonyMaley20260929_21> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_6HalyardAdvisorTonyMaley20260929_23> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_6HalyardAdvisorTonyMaley20260929_27> ;
+    narr:keyPhrase [ narr:text "Your plan has no data-quality gate in it. Nowhere in what you just described does anything stop a site cutting over with bad data." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_6HalyardAdvisorTonyMaley20260929_13> ] ;
+    narr:keyPhrase [ narr:text "A validation step tells you the data moved. It doesn't tell you the data was any good before it moved." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_6HalyardAdvisorTonyMaley20260929_15> ] ;
+    narr:keyPhrase [ narr:text "A named quality bar, measured on the source system, before the site is allowed into a cutover window." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_6HalyardAdvisorTonyMaley20260929_17> ] ;
+    narr:keyPhrase [ narr:text "Budget for it now: the gate costs you a site's worth of delay at least once, and if it never fires you set the bar too low." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_6HalyardAdvisorTonyMaley20260929_21> ] ;
+    narr:keyPhrase [ narr:text "If it never stops anything, it isn't a gate." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_6HalyardAdvisorTonyMaley20260929_23> ] ;
+    narr:keyPhrase [ narr:text "The sequencing and the archive you've got. The quality gate is the hole." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_6HalyardAdvisorTonyMaley20260929_27> ] ;
+    narr:variation [ narr:text "The team's claim that a migration validation step already exists stands in the graph as the counter-position the gate argument is built against — not resolved, but distinguished." ; narr:over <https://aswritten.ai/narrative#Expr_6HalyardAdvisorTonyMaley20260929_14> ; narr:over <https://aswritten.ai/narrative#Expr_6HalyardAdvisorTonyMaley20260929_15> ] ;
+    narr:variation [ narr:text "The gate is framed as both a safeguard and a guaranteed cost — the same mechanism that protects the cutover is the one the speaker insists will delay at least one site." ; narr:over <https://aswritten.ai/narrative#Expr_6HalyardAdvisorTonyMaley20260929_17> ; narr:over <https://aswritten.ai/narrative#Expr_6HalyardAdvisorTonyMaley20260929_21> ] ;
+    narr:variation [ narr:text "The closing assessment is mixed rather than triumphant: the plan is further along than most, yet the central recommendation remains unimplemented." ; narr:over <https://aswritten.ai/narrative#Expr_6HalyardAdvisorTonyMaley20260929_27> ] ;
+    narr:writer "z-ai/glm-5.3-flash:nitro" .
+}

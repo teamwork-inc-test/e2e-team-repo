@@ -1,0 +1,46 @@
+@prefix narr: <https://aswritten.ai/narrative#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+GRAPH <https://aswritten.ai/narrative#Digest_CutoverStrategy> {
+  <https://aswritten.ai/narrative#Digest_CutoverStrategy> a narr:Digest ;
+    narr:digestOf <https://aswritten.ai/narrative#CutoverStrategy> ;
+    narr:childCount "21"^^xsd:integer ;
+    narr:generatedFrom "d451297a6dd1dbdf2eecccafc5b2a8b4c1a89a3a" ;
+    narr:narration """This hub holds a working session opened under [steering-group pressure to decide the shape now](narr:Expr_1HalyardWeekly20260908_1), resolving into a cutover doctrine: [a sequential one-site-at-a-time commitment, no parallel cutovers even for the small sites](narr:Expr_1HalyardWeekly20260908_8), defended as [contained pain with a named owner versus unbounded concurrent risk](narr:Expr_1HalyardWeekly20260908_13), and [summed as one at a time, with a soak](narr:Expr_1HalyardWeekly20260908_16). Two isolation rules qualify the sequencing: [reporting reads barred from the live system during cutover windows](narr:Expr_1HalyardWeekly20260908_26), ratified as [a runbook rule rather than negotiable guidance](narr:Expr_1HalyardWeekly20260908_31), and [vendor-held reference data persisting until the final site goes green](narr:Expr_1HalyardWeekly20260908_36). The session closes with [a read-back of the full position for the steering group](narr:Expr_1HalyardWeekly20260908_42). The reasoning generalizes into [bounded-friction-over-unbounded-risk](narr:Narrative_ContainedPainOverUnboundedRisk), [single-source-of-truth retention](narr:Narrative_SingleSourceOfTruthUntilFinalCutover), and [strict workload isolation](narr:Narrative_StrictWorkloadIsolationDuringCutover). Newer attachments extend the span well beyond the session: [retention mandates and extraction scoping sequenced ahead of vendor decommissioning agreements](narr:Position_DecommissioningRetentionSequencing), [preservation of closed legacy records in self-describing open archives](narr:Position_LegacyRecordArchivalStrategy), [an unvoiced question about cross-site operational learning and skill compounding](narr:Position_CrossSiteOperationalLearning), [separation of cutover gate-approval rights from schedule incentives](narr:Position_CutoverGatekeeperRoleSeparation), [definition and testing of pre-cutover source data quality thresholds](narr:Position_PreCutoverDataQualityGateEnforcement), and [how unresolved programme vulnerabilities are presented to oversight bodies](narr:Position_ProactiveGovernanceRiskDisclosure) — the last three carrying no voiced claim yet, standing as open frames alongside the settled doctrine.""" ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_1> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_13> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_16> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_26> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_31> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_36> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_42> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_8> ;
+    narr:covers <https://aswritten.ai/narrative#Narrative_ContainedPainOverUnboundedRisk> ;
+    narr:covers <https://aswritten.ai/narrative#Narrative_ExtractionScopingBeforeDecommissioningTerms> ;
+    narr:covers <https://aswritten.ai/narrative#Narrative_ProactiveGovernanceRiskDisclosure> ;
+    narr:covers <https://aswritten.ai/narrative#Narrative_SelfDescribingArchivePreservesMeaning> ;
+    narr:covers <https://aswritten.ai/narrative#Narrative_SingleSourceOfTruthUntilFinalCutover> ;
+    narr:covers <https://aswritten.ai/narrative#Narrative_SourceQualityGatesRequireIndependentEnforcement> ;
+    narr:covers <https://aswritten.ai/narrative#Narrative_StrictWorkloadIsolationDuringCutover> ;
+    narr:covers <https://aswritten.ai/narrative#Position_CrossSiteOperationalLearning> ;
+    narr:covers <https://aswritten.ai/narrative#Position_CutoverGatekeeperRoleSeparation> ;
+    narr:covers <https://aswritten.ai/narrative#Position_DecommissioningRetentionSequencing> ;
+    narr:covers <https://aswritten.ai/narrative#Position_LegacyRecordArchivalStrategy> ;
+    narr:covers <https://aswritten.ai/narrative#Position_PreCutoverDataQualityGateEnforcement> ;
+    narr:covers <https://aswritten.ai/narrative#Position_ProactiveGovernanceRiskDisclosure> ;
+    narr:keyPhrase [ narr:text "No parallel cutovers, not even for the two small ones." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_8> ] ;
+    narr:keyPhrase [ narr:text "Running two systems at one desk for a few weeks is a known, contained pain with a named owner. Two cutovers landing in the same week is an unbounded one, and we've got nobody to hand it to." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_13> ] ;
+    narr:keyPhrase [ narr:text "Right. So: one at a time, with a soak." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_16> ] ;
+    narr:keyPhrase [ narr:text "reporting does not touch the live system during a cutover window, full stop." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_26> ] ;
+    narr:keyPhrase [ narr:text "write it into the runbook as a rule and not as guidance, because guidance gets negotiated at three a.m." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_31> ] ;
+    narr:keyPhrase [ narr:text "we take ownership on the day Clyde goes green and not a day earlier." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_36> ] ;
+    narr:variation [ narr:text "The sequential doctrine is settled, but three newer frames — gatekeeper separation, data quality gates, proactive governance disclosure — sit as open questions with no voiced claim, potentially qualifying how the doctrine is enforced rather than whether it holds." ; narr:over <https://aswritten.ai/narrative#Position_CutoverGatekeeperRoleSeparation> ; narr:over <https://aswritten.ai/narrative#Position_PreCutoverDataQualityGateEnforcement> ; narr:over <https://aswritten.ai/narrative#Position_ProactiveGovernanceRiskDisclosure> ] ;
+    narr:variation [ narr:text "The cross-site learning frame quietly cuts against the sequential commitment's framing: one-site-at-a-time was argued as contained pain, not as skill compounding — the learning benefit is unclaimed." ; narr:over <https://aswritten.ai/narrative#Position_CrossSiteOperationalLearning> ; narr:over <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_13> ] ;
+    narr:variation [ narr:text "Vendor-as-system-of-record until final cutover sits in tension with the decommissioning-sequencing and legacy-archival frames, which push toward owning extraction and preservation terms earlier in the vendor relationship." ; narr:over <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_36> ; narr:over <https://aswritten.ai/narrative#Position_DecommissioningRetentionSequencing> ; narr:over <https://aswritten.ai/narrative#Position_LegacyRecordArchivalStrategy> ] ;
+    narr:voiceTrait [ narr:dim "conviction" ; narr:reading "moves from defended claim to flat decision in a single beat — the position is argued once, then stated as settled" ; narr:text "Right. So: one at a time, with a soak." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_16> ] ;
+    narr:voiceTrait [ narr:dim "power" ; narr:reading "legitimate authority closing on expert persuasion — she ratifies others' technical positions rather than generating them" ; narr:text "Then that's the rule." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_31> ] ;
+    narr:voiceTrait [ narr:dim "relational" ; narr:reading "authority-ranking default — she frames the meeting's shape and assigns the write-down" ; narr:text "Xavier, write it into the runbook as a rule and not as guidance, because guidance gets negotiated at three a.m." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_31> ] ;
+    narr:voiceTrait [ narr:dim "style" ; narr:reading "antithesis-first — the sentence names what it isn't before what it is" ; narr:text "Not \"should\", not \"where possible\"" ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_26> ] ;
+    narr:voiceTrait [ narr:dim "temporal" ; narr:reading "concrete-future and irrealis — she speaks in commitments about what will happen, not abstractions" ; narr:text "So Thursday I'm telling them: one site at a time, two-week soak between sites, reporting off the replica during cutover, vendor holds reference data until Clyde is green." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_42> ] ;
+    narr:writer "z-ai/glm-5.3-flash:nitro" .
+}
