@@ -1,0 +1,28 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-2",
+    "regions" : [ "antithesis", "parallelism" ],
+    "evidence" : [ {
+      "quote" : "one bundle per run per person, not one\n> message per skill",
+      "kind" : "framing-move"
+    }, {
+      "quote" : "one thing to read, not four",
+      "kind" : "framing-move"
+    } ],
+    "why" : "The prescription is structured through matched negative-contrast pairs ('one X, not Y') setting the chosen boundary against its rejected alternative.",
+    "reported" : false,
+    "direction" : {
+      "verdict" : "mint",
+      "node" : "mint-1"
+    }
+  } ],
+  "unmarked" : [ "src-1", "src-3", "src-4" ],
+  "mints" : [ {
+    "id" : "mint-1",
+    "name" : "RuleAsMatchedOpposition",
+    "title" : "crystallize a rule into matched opposed clauses",
+    "frame" : "Does the utterance formulate an operational rule by explicitly contrasting what is prescribed against what is rejected in matched clauses?",
+    "regions" : [ "antithesis", "parallelism" ]
+  } ],
+  "region_mints" : [ ]
+}
