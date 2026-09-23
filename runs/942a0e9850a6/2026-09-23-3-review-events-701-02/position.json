@@ -1,0 +1,10 @@
+{
+  "positions" : [ ],
+  "attaches" : [ {
+    "position" : "Position_SiteCutoverSequencingStrategy",
+    "members" : [ "src-2", "src-3", "src-4" ],
+    "why" : "Tina accepts the cutover sequencing strategy framing, while Tanya's review feedback introduces direct counter-claims regarding whether containment settled the sequencing versus local site friction and whether the call agreed on parallel sites over a single-site pilot."
+  } ],
+  "position_revisions" : [ ],
+  "ungrouped" : [ "src-1" ]
+}
