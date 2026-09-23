@@ -1,0 +1,421 @@
+{
+  "doc" : {
+    "title" : "Halyard Weekly — 2026-09-08",
+    "date_stated" : "2026-09-08",
+    "actors_present" : [ "Tanya Team", "Tina Team", "Xavier Expert" ]
+  },
+  "segments" : [ {
+    "local_id" : "src-1",
+    "exact" : "Morning, both. Let's keep this one tight — I want to come out of it with the cutover shape actually decided, because the steering group asks again on Thursday and I've given them \"we're still working it\" twice now.",
+    "actor" : "Tanya Team",
+    "act" : "directive",
+    "circumstance" : {
+      "context" : "Halyard Weekly meeting opening"
+    },
+    "footing_case" : null
+  }, {
+    "local_id" : "src-2",
+    "exact" : "Morning.",
+    "prefix" : "**Tina Team:** ",
+    "suffix" : "\n\n**Xavier Expert:** Morning.",
+    "actor" : "Tina Team",
+    "act" : "expressive",
+    "circumstance" : {
+      "context" : "Halyard Weekly meeting opening"
+    },
+    "footing_case" : null
+  }, {
+    "local_id" : "src-3",
+    "exact" : "Morning. I've got the replica numbers, whenever you want them.",
+    "actor" : "Xavier Expert",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Halyard Weekly meeting opening"
+    },
+    "footing_case" : null
+  }, {
+    "local_id" : "src-4",
+    "exact" : "Hold those for ten minutes. Sequencing first. Tina, you've been living in the site plan — where are we?",
+    "actor" : "Tanya Team",
+    "act" : "directive",
+    "circumstance" : {
+      "context" : "Cutover sequencing discussion"
+    },
+    "footing_case" : null
+  }, {
+    "local_id" : "src-5",
+    "exact" : "Four sites. Northgate, Dockside, Ferry Road, and Clyde. Northgate is the smallest and the cleanest, Clyde is the one nobody wants to touch.",
+    "actor" : "Tina Team",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Cutover sequencing discussion"
+    },
+    "footing_case" : null
+  }, {
+    "local_id" : "src-6",
+    "exact" : "And the question on the table is whether we take them together or one at a time.",
+    "actor" : "Tanya Team",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Cutover sequencing discussion"
+    },
+    "footing_case" : null
+  }, {
+    "local_id" : "src-7",
+    "exact" : "That's the question.",
+    "actor" : "Tina Team",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Cutover sequencing discussion"
+    },
+    "footing_case" : null
+  }, {
+    "local_id" : "src-8",
+    "exact" : "Then let me say where I've landed, because I don't think I'm going to move off it. We do this one site at a time. A site goes live, it soaks, and only when that soak is clean do we start the next one. No parallel cutovers, not even for the two small ones.",
+    "actor" : "Tanya Team",
+    "act" : "declarative",
+    "circumstance" : {
+      "context" : "Cutover sequencing decision"
+    },
+    "footing_case" : null
+  }, {
+    "local_id" : "src-9",
+    "exact" : "I'm with you on that.",
+    "actor" : "Tina Team",
+    "act" : "expressive",
+    "circumstance" : {
+      "context" : "Cutover sequencing decision"
+    },
+    "footing_case" : null
+  }, {
+    "local_id" : "src-10",
+    "exact" : "Can I push on it for a second? Not because I disagree — because the steering group will push and I'd rather they push here.",
+    "actor" : "Xavier Expert",
+    "act" : "question",
+    "circumstance" : {
+      "context" : "Debating parallel cutover vs sequential"
+    },
+    "footing_case" : null
+  }, {
+    "local_id" : "src-11",
+    "exact" : "Please.",
+    "actor" : "Tanya Team",
+    "act" : "directive",
+    "circumstance" : {
+      "context" : "Debating parallel cutover vs sequential"
+    },
+    "footing_case" : null
+  }, {
+    "local_id" : "src-12",
+    "exact" : "The argument for taking Northgate and Ferry Road together is that they share a dispatch desk. If you split them, the desk runs two systems for however long the soak is, and that's the thing the desk supervisor has been shouting about since June.",
+    "actor" : "Xavier Expert",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Debating parallel cutover vs sequential"
+    },
+    "footing_case" : null
+  }, {
+    "local_id" : "src-13",
+    "exact" : "It is. And I've thought about it, and I still think it's the wrong trade. Running two systems at one desk for a few weeks is a known, contained pain with a named owner. Two cutovers landing in the same week is an unbounded one, and we've got nobody to hand it to.",
+    "actor" : "Tanya Team",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Debating parallel cutover vs sequential"
+    },
+    "footing_case" : null
+  }, {
+    "local_id" : "src-14",
+    "exact" : "That's a fair answer. I'd put it to them exactly that way — contained versus unbounded.",
+    "actor" : "Xavier Expert",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Debating parallel cutover vs sequential"
+    },
+    "footing_case" : null
+  }, {
+    "local_id" : "src-15",
+    "exact" : "And the desk supervisor's pain is a rota problem, which is solvable. A double cutover is a staffing problem and a data problem at the same time, which isn't.",
+    "actor" : "Tina Team",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Debating parallel cutover vs sequential"
+    },
+    "footing_case" : null
+  }, {
+    "local_id" : "src-16",
+    "exact" : "Right. So: one at a time, with a soak.",
+    "actor" : "Tanya Team",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Establishing soak duration"
+    },
+    "footing_case" : null
+  }, {
+    "local_id" : "src-17",
+    "exact" : "Agreed, and I want to put a number on the soak, because \"a soak\" without a number turns into three days the first time someone's under pressure. The soak is two full weeks. That's the Dockside number, and I'd hold us to it.",
+    "actor" : "Tina Team",
+    "act" : "directive",
+    "circumstance" : {
+      "context" : "Establishing soak duration"
+    },
+    "footing_case" : null
+  }, {
+    "local_id" : "src-18",
+    "exact" : "Say more about where two weeks comes from.",
+    "actor" : "Tanya Team",
+    "act" : "directive",
+    "circumstance" : {
+      "context" : "Establishing soak duration"
+    },
+    "footing_case" : null
+  }, {
+    "local_id" : "src-19",
+    "exact" : "Dockside pilot, back in the spring. We watched the exception queue after go-live and it didn't flatten out until day nine or ten. Two weeks gives you the flattening plus a few days to actually look at what flattened. Anything less and you're starting the next site while you're still finding out what the last one did.",
+    "actor" : "Tina Team",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Establishing soak duration"
+    },
+    "footing_case" : null
+  }, {
+    "local_id" : "src-20",
+    "exact" : "That's the reasoning I wanted on the record. Two weeks, from the Dockside exception curve.",
+    "actor" : "Tanya Team",
+    "act" : "declarative",
+    "circumstance" : {
+      "context" : "Establishing soak duration"
+    },
+    "footing_case" : null
+  }, {
+    "local_id" : "src-21",
+    "exact" : "I'll note that the exception curve is the only evidence we have for it. It's one site, one season.",
+    "actor" : "Xavier Expert",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Establishing soak duration"
+    },
+    "footing_case" : null
+  }, {
+    "local_id" : "src-22",
+    "exact" : "It's one site, one season, and it's the only site we've actually done. I'd rather hold two weeks and shorten it with evidence than hold one week and discover we needed two.",
+    "actor" : "Tina Team",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Establishing soak duration"
+    },
+    "footing_case" : null
+  }, {
+    "local_id" : "src-23",
+    "exact" : "Agreed. Xavier, replica numbers.",
+    "actor" : "Tanya Team",
+    "act" : "directive",
+    "circumstance" : {
+      "context" : "Reporting replica during cutover"
+    },
+    "footing_case" : null
+  }, {
+    "local_id" : "src-24",
+    "exact" : "Right. During a cutover window the live system is under load it has never seen — the migration job, the dual-write, and whatever the site is actually doing that day. Reporting on top of that is what took Dockside down for forty minutes.",
+    "actor" : "Xavier Expert",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Reporting replica during cutover"
+    },
+    "footing_case" : null
+  }, {
+    "local_id" : "src-25",
+    "exact" : "I remember the forty minutes.",
+    "actor" : "Tanya Team",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Reporting replica during cutover"
+    },
+    "footing_case" : null
+  }, {
+    "local_id" : "src-26",
+    "exact" : "So the position I want us to take is: during cutover, every reporting read comes off the replica. Not \"should\", not \"where possible\" — reporting does not touch the live system during a cutover window, full stop.",
+    "actor" : "Xavier Expert",
+    "act" : "directive",
+    "circumstance" : {
+      "context" : "Reporting replica during cutover"
+    },
+    "footing_case" : null
+  }, {
+    "local_id" : "src-27",
+    "exact" : "Does that cost us anything real?",
+    "actor" : "Tanya Team",
+    "act" : "question",
+    "circumstance" : {
+      "context" : "Reporting replica during cutover"
+    },
+    "footing_case" : null
+  }, {
+    "local_id" : "src-28",
+    "exact" : "Replica lag. Somewhere between thirty seconds and four minutes depending on the migration job. So a reporting number can be four minutes stale during a cutover. My argument is that a four-minute-stale number is fine and an outage is not.",
+    "actor" : "Xavier Expert",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Reporting replica during cutover"
+    },
+    "footing_case" : null
+  }, {
+    "local_id" : "src-29",
+    "exact" : "Nobody is making a decision off a four-minute-old parcel count at two in the morning.",
+    "actor" : "Tina Team",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Reporting replica during cutover"
+    },
+    "footing_case" : null
+  }, {
+    "local_id" : "src-30",
+    "exact" : "That's my view too.",
+    "actor" : "Xavier Expert",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Reporting replica during cutover"
+    },
+    "footing_case" : null
+  }, {
+    "local_id" : "src-31",
+    "exact" : "Then that's the rule. Reporting reads come off the replica during cutover. Xavier, write it into the runbook as a rule and not as guidance, because guidance gets negotiated at three a.m.",
+    "actor" : "Tanya Team",
+    "act" : "directive",
+    "circumstance" : {
+      "context" : "Reporting replica during cutover"
+    },
+    "footing_case" : null
+  }, {
+    "local_id" : "src-32",
+    "exact" : "Will do.",
+    "actor" : "Xavier Expert",
+    "act" : "commissive",
+    "circumstance" : {
+      "context" : "Reporting replica during cutover"
+    },
+    "footing_case" : null
+  }, {
+    "local_id" : "src-33",
+    "exact" : "Last one. Reference data.",
+    "actor" : "Tanya Team",
+    "act" : "directive",
+    "circumstance" : {
+      "context" : "Reference data system of record"
+    },
+    "footing_case" : null
+  }, {
+    "local_id" : "src-34",
+    "exact" : "This is the one I keep going round on. The vendor holds the reference tables — carrier codes, service levels, the zone map. We can take a copy at any point. The question is when we become the system of record for them.",
+    "actor" : "Xavier Expert",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Reference data system of record"
+    },
+    "footing_case" : null
+  }, {
+    "local_id" : "src-35",
+    "exact" : "And your view?",
+    "actor" : "Tanya Team",
+    "act" : "question",
+    "circumstance" : {
+      "context" : "Reference data system of record"
+    },
+    "footing_case" : null
+  }, {
+    "local_id" : "src-36",
+    "exact" : "The vendor stays the system of record for reference data until the last site is live. Every site reads from the vendor's copy, we mirror it read-only, and we take ownership on the day Clyde goes green and not a day earlier.",
+    "actor" : "Xavier Expert",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Reference data system of record"
+    },
+    "footing_case" : null
+  }, {
+    "local_id" : "src-37",
+    "exact" : "Because?",
+    "actor" : "Tanya Team",
+    "act" : "question",
+    "circumstance" : {
+      "context" : "Reference data system of record"
+    },
+    "footing_case" : null
+  }, {
+    "local_id" : "src-38",
+    "exact" : "Because if we take ownership at site one, we've got two sites on our reference data and two on theirs, and the zone map drifts between them. You find that out from a mis-priced consignment three weeks later. Keeping one source of truth through the whole programme is worth more than getting ownership early.",
+    "actor" : "Xavier Expert",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Reference data system of record"
+    },
+    "footing_case" : null
+  }, {
+    "local_id" : "src-39",
+    "exact" : "I agree with that, and I'd add: it also means the vendor can't tell the steering group that their reference data was fine and ours broke it. Their data, their problem, right up until the end.",
+    "actor" : "Tanya Team",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Reference data system of record"
+    },
+    "footing_case" : null
+  }, {
+    "local_id" : "src-40",
+    "exact" : "That's the other half of it, yes.",
+    "actor" : "Xavier Expert",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Reference data system of record"
+    },
+    "footing_case" : null
+  }, {
+    "local_id" : "src-41",
+    "exact" : "No objection from me. It's less work for the site teams too.",
+    "actor" : "Tina Team",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Reference data system of record"
+    },
+    "footing_case" : null
+  }, {
+    "local_id" : "src-42",
+    "exact" : "Good. So Thursday I'm telling them: one site at a time, two-week soak between sites, reporting off the replica during cutover, vendor holds reference data until Clyde is green. Anything I've mangled?",
+    "actor" : "Tanya Team",
+    "act" : "question",
+    "circumstance" : {
+      "context" : "Summary and meeting wrap-up"
+    },
+    "footing_case" : null
+  }, {
+    "local_id" : "src-43",
+    "exact" : "That's it.",
+    "prefix" : "**Tina Team:** ",
+    "suffix" : "\n\n**Xavier Expert:** That's it",
+    "actor" : "Tina Team",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Summary and meeting wrap-up"
+    },
+    "footing_case" : null
+  }, {
+    "local_id" : "src-44",
+    "exact" : "That's it.",
+    "prefix" : "**Xavier Expert:** ",
+    "suffix" : "\n\n**Tanya Team:** Thanks both.",
+    "actor" : "Xavier Expert",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Summary and meeting wrap-up"
+    },
+    "footing_case" : null
+  }, {
+    "local_id" : "src-45",
+    "exact" : "Thanks both.",
+    "actor" : "Tanya Team",
+    "act" : "expressive",
+    "circumstance" : {
+      "context" : "Summary and meeting wrap-up"
+    },
+    "footing_case" : null
+  } ],
+  "coverage_gaps" : [ ],
+  "footing_cases" : [ ]
+}
