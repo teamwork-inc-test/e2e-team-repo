@@ -1,0 +1,143 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "I need to correct something I said",
+      "kind" : "commitment-marker"
+    } ],
+    "why" : "Direct first-person commitment to retracting a prior statement upfront.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-3",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "I want it struck from the plan",
+      "kind" : "commitment-marker"
+    } ],
+    "why" : "Decisive operational demand to remove a parameter from the formal plan.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-5",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "It was never about the site settling.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Asserted factual reinterpretation grounded in historical log analysis.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-7",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "Nothing in the new platform runs on a weekly cycle",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Unhedged factual assertion about platform architecture.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-9",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "One week is the soak",
+      "kind" : "plain-assertion"
+    }, {
+      "quote" : "please don't hold the plan to two weeks on my say-so",
+      "kind" : "commitment-marker"
+    } ],
+    "why" : "Establishes the operative soak timeline and formally releases the previous constraint.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-10",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "We are still going one site at a time, and we are still soaking between sites before the next one starts.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Ratifies invariant architectural decisions and baseline sequencing rules.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-11",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "That doesn't move at all.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Strong affirmation of the plan's sequencing structure.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-13",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "One week is defensible but it has no slack in it.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Evaluative assessment of the risk posture and margin of the new timeline.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-14",
+    "regions" : [ "principle" ],
+    "evidence" : [ {
+      "quote" : "I'd rather be defensible and know where the slack isn't than conservative for a reason that turned out to be imaginary.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Articulates a foundational engineering/epistemic principle: grounded visibility over illusory safety buffers.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-15",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "I just want it on the record that the new number is tight, not safe.",
+      "kind" : "commitment-marker"
+    } ],
+    "why" : "Formal qualification placed on the record regarding risk tolerance.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-17",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "It takes three weeks out of the programme.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Direct mathematical calculation of program impact.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-18",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "Which I will not be spending. That goes into the Clyde buffer.",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Authoritative reallocation of recovered schedule time into a project buffer.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-20",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "For the record then: the soak between sites is one week, not two, and my note from the eighth about two weeks should be read as superseded by this.",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Formal performative declarative updating official record and superseding previous directives.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-22",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "I'll write it up today.",
+      "kind" : "commitment-marker"
+    } ],
+    "why" : "Commissive commitment to document and publish the re-analysis.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-24",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "It would have come out at Northgate either way, and worse.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Assertive claim about inevitable discovery during rollout.",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-2", "src-4", "src-6", "src-8", "src-12", "src-16", "src-19", "src-21", "src-23" ],
+  "mints" : [ ]
+}
