@@ -1,0 +1,22 @@
+{
+  "placements" : [ {
+    "verdict" : "reuse",
+    "leaf" : "Narrative_ContainedPainOverUnboundedRisk",
+    "supporting_segments" : [ "src-2", "src-3", "src-6", "src-7", "src-9", "src-11", "src-12", "src-13", "src-14", "src-15", "src-16", "src-17", "src-18", "src-19", "src-20", "src-21", "src-22", "src-25", "src-26", "src-28", "src-29" ],
+    "why" : "Freya forcefully reinforces the sequential cutover strategy and soak duration by demonstrating that multi-site parallel cutovers are an arithmetic impossibility given supervisor staffing levels, while also highlighting the compounding benefit of cross-site team learning.",
+    "consulted" : [ "Narrative_ContainedPainOverUnboundedRisk", "CutoverStrategy" ]
+  }, {
+    "verdict" : "reuse",
+    "leaf" : "Narrative_StrictWorkloadIsolationDuringCutover",
+    "supporting_segments" : [ "src-25", "src-26" ],
+    "why" : "Xavier explicitly notes that the reporting replica isolation rule is predicated on having only a single cutover window active at any time, reinforcing the operational isolation boundary.",
+    "consulted" : [ "Narrative_StrictWorkloadIsolationDuringCutover", "CutoverStrategy" ]
+  }, {
+    "verdict" : "reuse",
+    "leaf" : "Narrative_SingleSourceOfTruthUntilFinalCutover",
+    "supporting_segments" : [ "src-25", "src-26" ],
+    "why" : "Xavier confirms that maintaining reference data authority with the vendor throughout the rollout assumes sequential one-at-a-time execution and would need rewriting under parallel cutovers.",
+    "consulted" : [ "Narrative_SingleSourceOfTruthUntilFinalCutover", "CutoverStrategy" ]
+  } ],
+  "unplaced" : [ "src-1", "src-4", "src-5", "src-8", "src-10", "src-23", "src-24", "src-27", "src-30", "src-31" ]
+}
