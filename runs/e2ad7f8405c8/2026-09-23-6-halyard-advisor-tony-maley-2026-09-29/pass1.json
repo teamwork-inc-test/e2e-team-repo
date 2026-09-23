@@ -1,0 +1,300 @@
+{
+  "doc" : {
+    "title" : "Halyard — Advisor Session with Tony Maley — 2026-09-29",
+    "date_stated" : "2026-09-29",
+    "actors_present" : [ "Tanya Team", "Tony Maley" ]
+  },
+  "segments" : [ {
+    "local_id" : "src-1",
+    "exact" : "Tony, thanks for making time. You're not on the programme and I'm not asking you to join it — I want an outside read on the plan before it goes to the board, and you've seen more of these than anyone I can get on a call.",
+    "actor" : "Tanya Team",
+    "act" : "expressive",
+    "circumstance" : {
+      "context" : "Advisor session on Halyard plan"
+    },
+    "note" : "Thanks and sets the frame/context for the review request",
+    "footing_case" : null
+  }, {
+    "local_id" : "src-2",
+    "exact" : "Happy to look. I'll be blunt where I can be useful and quiet where I can't. Give me the plan.",
+    "actor" : "Tony Maley",
+    "act" : "directive",
+    "circumstance" : {
+      "context" : "Advisor session on Halyard plan"
+    },
+    "note" : "Acceptance and prompt to share plan",
+    "footing_case" : null
+  }, {
+    "local_id" : "src-3",
+    "exact" : "Four sites off a vendor platform. One site at a time, a soak between each one before the next starts, reporting off a replica during the cutover windows, vendor keeps reference data until the last site is live.",
+    "actor" : "Tanya Team",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Advisor session on Halyard plan"
+    },
+    "note" : "Summary outline of migration plan",
+    "footing_case" : null
+  }, {
+    "local_id" : "src-4",
+    "exact" : "You're right to go one site at a time, and I'd hold that against whatever pressure comes at you.",
+    "actor" : "Tony Maley",
+    "act" : "directive",
+    "circumstance" : {
+      "context" : "Advisor session on Halyard plan"
+    },
+    "note" : "Advises holding sequential approach",
+    "footing_case" : null
+  }, {
+    "local_id" : "src-5",
+    "exact" : "I've watched three of these programmes up close. The two that went big-bang both went backwards — not failed, went backwards, six months of unpicking. The one that went sequentially was boring and finished.",
+    "actor" : "Tony Maley",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Advisor session on Halyard plan"
+    },
+    "note" : "Precedent evidence on sequential vs big-bang",
+    "footing_case" : null
+  }, {
+    "local_id" : "src-6",
+    "exact" : "That's a stronger endorsement than I expected.",
+    "actor" : "Tanya Team",
+    "act" : "expressive",
+    "circumstance" : {
+      "context" : "Advisor session on Halyard plan"
+    },
+    "note" : null,
+    "footing_case" : null
+  }, {
+    "local_id" : "src-7",
+    "exact" : "It's the only part of your plan I'd call settled. And the pressure to collapse the sequence always comes in month four, from someone who wasn't there in month one, and it always arrives dressed as efficiency.",
+    "actor" : "Tony Maley",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Advisor session on Halyard plan"
+    },
+    "note" : null,
+    "footing_case" : null
+  }, {
+    "local_id" : "src-8",
+    "exact" : "It's already started, if I'm honest.",
+    "actor" : "Tanya Team",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Advisor session on Halyard plan"
+    },
+    "note" : null,
+    "footing_case" : null
+  }, {
+    "local_id" : "src-9",
+    "exact" : "Of course it has. Write down now, while you're calm, why you chose sequential. When they come at you in month four you want the reasons in your own handwriting, not reconstructed under pressure.",
+    "actor" : "Tony Maley",
+    "act" : "directive",
+    "circumstance" : {
+      "context" : "Advisor session on Halyard plan"
+    },
+    "note" : "Directive to document reasons now",
+    "footing_case" : null
+  }, {
+    "local_id" : "src-10",
+    "exact" : "That's good advice.",
+    "actor" : "Tanya Team",
+    "act" : "expressive",
+    "circumstance" : {
+      "context" : "Advisor session on Halyard plan"
+    },
+    "note" : null,
+    "footing_case" : null
+  }, {
+    "local_id" : "src-11",
+    "exact" : "Now the part you won't like.",
+    "actor" : "Tony Maley",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Advisor session on Halyard plan"
+    },
+    "note" : "Conversational transition/forewarning",
+    "footing_case" : null
+  }, {
+    "local_id" : "src-12",
+    "exact" : "Go on.",
+    "actor" : "Tanya Team",
+    "act" : "directive",
+    "circumstance" : {
+      "context" : "Advisor session on Halyard plan"
+    },
+    "note" : null,
+    "footing_case" : null
+  }, {
+    "local_id" : "src-13",
+    "exact" : "Your plan has no data-quality gate in it. Nowhere in what you just described does anything stop a site cutting over with bad data.",
+    "actor" : "Tony Maley",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Advisor session on Halyard plan"
+    },
+    "note" : "Critique identifying missing gate",
+    "footing_case" : null
+  }, {
+    "local_id" : "src-14",
+    "exact" : "We have a migration validation step.",
+    "actor" : "Tanya Team",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Advisor session on Halyard plan"
+    },
+    "note" : null,
+    "footing_case" : null
+  }, {
+    "local_id" : "src-15",
+    "exact" : "A validation step tells you the data moved. It doesn't tell you the data was any good before it moved. Those are completely different questions and every programme I've seen conflates them, including the two that went backwards.",
+    "actor" : "Tony Maley",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Advisor session on Halyard plan"
+    },
+    "note" : "Distinguishes movement validation from data quality gate",
+    "footing_case" : null
+  }, {
+    "local_id" : "src-16",
+    "exact" : "Say what you mean by a gate.",
+    "actor" : "Tanya Team",
+    "act" : "directive",
+    "circumstance" : {
+      "context" : "Advisor session on Halyard plan"
+    },
+    "note" : null,
+    "footing_case" : null
+  }, {
+    "local_id" : "src-17",
+    "exact" : "A named quality bar, measured on the source system, before the site is allowed into a cutover window. Duplicate rate, orphan rate, whatever the three things are that actually bite you. A site that fails the bar doesn't cut over — it gets a remediation window and it goes to the back of the queue. And crucially, somebody who isn't the programme manager owns the gate, because the programme manager has a date.",
+    "actor" : "Tony Maley",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Advisor session on Halyard plan"
+    },
+    "note" : "Defines components and ownership of a quality gate",
+    "footing_case" : null
+  }, {
+    "local_id" : "src-18",
+    "exact" : "That last part is pointed.",
+    "actor" : "Tanya Team",
+    "act" : "expressive",
+    "circumstance" : {
+      "context" : "Advisor session on Halyard plan"
+    },
+    "note" : null,
+    "footing_case" : null
+  }, {
+    "local_id" : "src-19",
+    "exact" : "It's meant to be. You are the person who will be tempted to wave a site through, and you should not be the person holding the gate. That's not a comment on you, it's the structure.",
+    "actor" : "Tony Maley",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Advisor session on Halyard plan"
+    },
+    "note" : null,
+    "footing_case" : null
+  }, {
+    "local_id" : "src-20",
+    "exact" : "No, that's fair. Nobody has said that to me yet.",
+    "actor" : "Tanya Team",
+    "act" : "expressive",
+    "circumstance" : {
+      "context" : "Advisor session on Halyard plan"
+    },
+    "note" : "Concurrence with critique",
+    "footing_case" : null
+  }, {
+    "local_id" : "src-21",
+    "exact" : "Nobody says it, because by the time it matters everyone has a date. Budget for it now: the gate costs you a site's worth of delay at least once, and if it never fires you set the bar too low.",
+    "actor" : "Tony Maley",
+    "act" : "directive",
+    "circumstance" : {
+      "context" : "Advisor session on Halyard plan"
+    },
+    "note" : "Directive to budget for gate delay",
+    "footing_case" : null
+  }, {
+    "local_id" : "src-22",
+    "exact" : "That's a good test.",
+    "actor" : "Tanya Team",
+    "act" : "expressive",
+    "circumstance" : {
+      "context" : "Advisor session on Halyard plan"
+    },
+    "note" : null,
+    "footing_case" : null
+  }, {
+    "local_id" : "src-23",
+    "exact" : "It's the only test I trust on quality gates. If it never stops anything, it isn't a gate.",
+    "actor" : "Tony Maley",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Advisor session on Halyard plan"
+    },
+    "note" : null,
+    "footing_case" : null
+  }, {
+    "local_id" : "src-24",
+    "exact" : "Anything else?",
+    "actor" : "Tanya Team",
+    "act" : "question",
+    "circumstance" : {
+      "context" : "Advisor session on Halyard plan"
+    },
+    "note" : null,
+    "footing_case" : null
+  }, {
+    "local_id" : "src-25",
+    "exact" : "The reference-data call is right too, for what it's worth, though I'd want to see the mirror's refresh interval before I said more. And the archive thing you mentioned in passing — do it. Everyone skips it and everyone regrets it around year six.",
+    "actor" : "Tony Maley",
+    "act" : "directive",
+    "circumstance" : {
+      "context" : "Advisor session on Halyard plan"
+    },
+    "note" : "Feedback on reference data and directive on archive",
+    "footing_case" : null
+  }, {
+    "local_id" : "src-26",
+    "exact" : "We opened that last week, actually.",
+    "actor" : "Tanya Team",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Advisor session on Halyard plan"
+    },
+    "note" : null,
+    "footing_case" : null
+  }, {
+    "local_id" : "src-27",
+    "exact" : "Then you're further along than most. The sequencing and the archive you've got. The quality gate is the hole.",
+    "actor" : "Tony Maley",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Advisor session on Halyard plan"
+    },
+    "note" : "Summary assessment of plan status",
+    "footing_case" : null
+  }, {
+    "local_id" : "src-28",
+    "exact" : "I'll take that to the board as the open item rather than wait for them to find it.",
+    "actor" : "Tanya Team",
+    "act" : "commissive",
+    "circumstance" : {
+      "context" : "Advisor session on Halyard plan"
+    },
+    "note" : "Commitment to present gap proactively to board",
+    "footing_case" : null
+  }, {
+    "local_id" : "src-29",
+    "exact" : "That's the right move. Bring them a hole you've named. They'll forgive a hole. They won't forgive finding one.",
+    "actor" : "Tony Maley",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Advisor session on Halyard plan"
+    },
+    "note" : "Endorsement and rationale",
+    "footing_case" : null
+  } ],
+  "coverage_gaps" : [ ],
+  "footing_cases" : [ ]
+}
