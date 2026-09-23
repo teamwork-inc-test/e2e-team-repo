@@ -1,0 +1,158 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-7",
+    "regions" : [ "present", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "about five days ago when she decided that she's not keen on sleeping at night.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Describes ongoing concrete sleep issues with the infant beginning five days ago.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-27",
+    "regions" : [ "past", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "Around Christmas, northwind be recognized, et cetera, like, stop being a thing",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Narrates the collapse of Northwind around Christmas time.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-37",
+    "regions" : [ "present", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "I am migrating a ERP that was built in the 80s to a modern one.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "States ongoing consulting work for Millbrook Specialty Feeds.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-43",
+    "regions" : [ "present", "realis", "abstract" ],
+    "evidence" : [ {
+      "quote" : "Prefabricated buildings for commercial buildings.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Explains Framewell's general business model and operational process.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-59",
+    "regions" : [ "future", "irrealis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "This is speculative, but I don't have this project yet. But I am pitching Building America",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Describes an upcoming speculative pitch for a prospective project.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-63",
+    "regions" : [ "present", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "I own 25% of a agricultural equipment dealership in North Carolina, and I'm flying there tomorrow night",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "States actual ownership share and specific travel plans.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-77",
+    "regions" : [ "present", "abstract" ],
+    "evidence" : [ {
+      "quote" : "The thesis is that AI is moving to the edges, so we should do AI on the edge rather than on the center.",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Articulates the overarching architectural thesis behind Burrow.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-78",
+    "regions" : [ "present", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "And so the first thing that I created for them was the ability to ingest all of those calls",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Describes existing product functionality deployed for the pilot client.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-102",
+    "regions" : [ "future", "irrealis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "I'm raising 500k at this point to do a bridge round",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Outlines specific active fundraising targets.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-105",
+    "regions" : [ "present", "abstract" ],
+    "evidence" : [ {
+      "quote" : "The marginal cost of software development is asymptotically approaching zero.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "States an abstract macroeconomic operating premise.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-109",
+    "regions" : [ "present", "abstract" ],
+    "evidence" : [ {
+      "quote" : "The telephone company always wins because the telephone company sits in between.",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Elaborates on the general principle of intermediary moats.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-140",
+    "regions" : [ "present", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "This front end experience that you saw is a couple weeks old and it's very raw",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Reflects on the current actual state of the product interface and business direction.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-143",
+    "regions" : [ "future", "irrealis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "I think you should definitely apply to yc.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Directs future action toward applying to Y Combinator.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-177",
+    "regions" : [ "future", "irrealis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "Send me a forwardable email and I will forward it to her.",
+      "kind" : "commitment-marker"
+    } ],
+    "why" : "Commits to forwarding an introductory email upon receipt.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-195",
+    "regions" : [ "future", "irrealis", "abstract" ],
+    "evidence" : [ {
+      "quote" : "You are doing the first round, which is asking for advice. Then the second round call back is like a.",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Outlines the staged methodology for prospective investor outreach.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-214",
+    "regions" : [ "present", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "there's currently an MSA out for like, you know, six grand a month. That's in legal review.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "States the actual present status of the enterprise contract in legal review.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-222",
+    "regions" : [ "future", "irrealis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "All right, well, I'm doing the YC app this week.",
+      "kind" : "commitment-marker"
+    } ],
+    "why" : "Expresses commitment to submitting the application in the coming days.",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-1", "src-2", "src-3", "src-4", "src-5", "src-6", "src-8", "src-9", "src-10" ],
+  "unmarked_rest" : true
+}
