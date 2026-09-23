@@ -11,11 +11,11 @@
       "n:Expr_1E2EDefaultRef1788774012301_1" : 1,
       "n:Expr_1E2EDefaultRef1788860066803_1" : 1,
       "n:Expr_1E2EDefaultRef1788946504627_1" : 1,
-      "n:Expr_2DeliveryRoutingRulingE2ESynthetic_1" : 1,
+      "n:Expr_2DeliveryRoutingRulingE2ESynthetic_1" : 2,
       "n:Expr_2DeliveryRoutingRulingE2ESynthetic_2" : 2,
       "n:Expr_2DeliveryRoutingRulingE2ESynthetic_3" : 2,
       "n:Expr_2DeliveryRoutingRulingE2ESynthetic_4" : 2,
-      "n:Expr_2DeliveryRoutingRulingE2ESynthetic_5" : 2
+      "n:Expr_2DeliveryRoutingRulingE2ESynthetic_5" : 1
     },
     "n:DesignTradeoffs" : {
       "n:Expr_2DeliveryRoutingRulingE2ESynthetic_2" : 2,
@@ -47,6 +47,7 @@
       "n:Expr_1E2EDefaultRef1789293262875_1" : 1
     },
     "n:Narrative_ReactionDeliveryBundling" : {
+      "n:Expr_2DeliveryRoutingRulingE2ESynthetic_1" : 1,
       "n:Expr_2DeliveryRoutingRulingE2ESynthetic_2" : 2,
       "n:Expr_2DeliveryRoutingRulingE2ESynthetic_3" : 1,
       "n:Expr_2DeliveryRoutingRulingE2ESynthetic_4" : 1,
@@ -54,7 +55,7 @@
       "n:Position_ReactionDeliveryBundlingAndBatchingBoundary" : 2
     }
   },
-  "generated_from" : "9bef05300088f1f7e37ba41177a383ed5d568268",
+  "generated_from" : "411714723637e58c0009500fa410fa3461b7df91",
   "hubs" : {
     "n:Actor_Tanya_Staging" : 2,
     "n:DesignTradeoffs" : 2,
@@ -75,7 +76,7 @@
     "n" : "https://aswritten.ai/narrative#",
     "o" : "https://aswritten.ai/ns/narrative#"
   },
-  "runs_sha" : "38e764965489ba0579633dd53c7db1cfce150f2d",
+  "runs_sha" : "ebca1a3f5f0d458cf09466bcfbdf24a3fcf4f56c",
   "sittings" : 163,
   "spec" : "fidelity-bands/1"
 }
