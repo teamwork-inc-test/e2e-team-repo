@@ -1,0 +1,52 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "consultation", "expert" ],
+    "evidence" : [ {
+      "quote" : "I want an outside read on the plan before it goes to the board, and you've seen more of these than anyone I can get on a call.",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Tanya explicitly invites external consultation based on Tony's demonstrated expert experience across prior programmes.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-5",
+    "regions" : [ "expert", "rational-persuasion" ],
+    "evidence" : [ {
+      "quote" : "I've watched three of these programmes up close. The two that went big-bang both went backwards — not failed, went backwards, six months of unpicking. The one that went sequentially was boring and finished.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Tony asserts expert authority and rational persuasion by citing empirical comparative outcomes from his direct observation of past implementations.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-9",
+    "regions" : [ "rational-persuasion" ],
+    "evidence" : [ {
+      "quote" : "Write down now, while you're calm, why you chose sequential. When they come at you in month four you want the reasons in your own handwriting, not reconstructed under pressure.",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Tony provides tactical advisory instruction based on predicting organizational pressure dynamics.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-17",
+    "regions" : [ "legitimate", "rational-persuasion" ],
+    "evidence" : [ {
+      "quote" : "somebody who isn't the programme manager owns the gate, because the programme manager has a date.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Tony argues for structural governance separation of powers, positioning gate ownership outside conflicting schedule delivery authority.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-28",
+    "regions" : [ "informational" ],
+    "evidence" : [ {
+      "quote" : "I'll take that to the board as the open item rather than wait for them to find it.",
+      "kind" : "commitment-marker"
+    } ],
+    "why" : "Tanya plans an upward influence move by controlling the disclosure and framing of program vulnerabilities before governance identifies them.",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-2", "src-3", "src-4", "src-6", "src-7", "src-8", "src-10", "src-11", "src-12", "src-13", "src-14", "src-15", "src-16", "src-18", "src-19", "src-20", "src-21", "src-22", "src-23", "src-24", "src-25", "src-26", "src-27", "src-29" ],
+  "unmarked_rest" : false,
+  "mints" : [ ],
+  "region_mints" : [ ]
+}
