@@ -1,0 +1,34 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "authority-ranking" ],
+    "evidence" : [ {
+      "quote" : "Tanya (team owner) ruled on where reaction delivery belongs:",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Enacts and reports authority-ranking governance via owner-level ruling.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-2",
+    "regions" : [ "authority-ranking" ],
+    "evidence" : [ {
+      "quote" : "we route every reaction through one bundle per run per person",
+      "kind" : "modal-marker"
+    } ],
+    "why" : "Issues a prescriptive operational directive establishing delivery constraints.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-3",
+    "regions" : [ "authority-ranking" ],
+    "evidence" : [ {
+      "quote" : "Tina pushed back on the batching window and Tanya held",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Describes challenge and hierarchical resolution where owner held the line against pushback.",
+    "reported" : true
+  } ],
+  "unmarked" : [ "src-4" ],
+  "unmarked_rest" : false,
+  "mints" : [ ],
+  "region_mints" : [ ]
+}
