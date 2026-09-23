@@ -1,0 +1,257 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "present", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "Tanya Team has pulled three of her advisors onto one call before she starts fundraising",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Narrates the immediate realis background and concrete setup of the call.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-2",
+    "regions" : [ "present", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "I am just starting to fundraise.",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Describes current immediate activities and pricing reflections in realis terms.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-3",
+    "regions" : [ "abstract" ],
+    "evidence" : [ {
+      "quote" : "From a B2C perspective, to the single people who are building whole companies on their own.",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Framing an abstract market segment and target audience category.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-4",
+    "regions" : [ "irrealis", "abstract" ],
+    "evidence" : [ {
+      "quote" : "Because if we take theory that every single person is now their own team.",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Hypothetical generalized theoretical premise about future market structures.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-5",
+    "regions" : [ "present", "realis", "abstract" ],
+    "evidence" : [ {
+      "quote" : "realizing that it's actually more of a B2C product than a B2B product.",
+      "kind" : "epistemic-verb"
+    } ],
+    "why" : "Reflects an ongoing conceptual shift regarding product tier categories.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-6",
+    "regions" : [ "future", "irrealis", "abstract" ],
+    "evidence" : [ {
+      "quote" : "Trying to go after tech companies is going to be hard",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Projects difficulty of targeting a broad category in future sales attempts.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-7",
+    "regions" : [ "present", "realis", "abstract" ],
+    "evidence" : [ {
+      "quote" : "The problem with most developers and entrepreneurs is they've already rolled their own bullshit.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "States an existing general condition across developers and entrepreneurs.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-8",
+    "regions" : [ "present", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "People like me have 10 repos on the go with Claude right now",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Anchored in current, concrete workflows and immediate anxieties.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-9",
+    "regions" : [ "abstract" ],
+    "evidence" : [ {
+      "quote" : "The more involved people are, the more they need separation from their own chaos.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Articulates a general, timeless behavioral principle.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-10",
+    "regions" : [ "future", "irrealis", "abstract" ],
+    "evidence" : [ {
+      "quote" : "Find a company that's actually a knowledge company that doesn't think of themselves as a knowledge company.",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Directive aimed at finding hypothetical future customer profiles.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-12",
+    "regions" : [ "present", "realis", "abstract" ],
+    "evidence" : [ {
+      "quote" : "The telephone company always wins because the telephone company sits in between.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Presents an enduring abstract operating principle.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-13",
+    "regions" : [ "irrealis", "abstract" ],
+    "evidence" : [ {
+      "quote" : "If there's an incumbent, right, who has a beachhead already",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Posits a conditional economic scenario around switching costs.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-14",
+    "regions" : [ "present", "realis", "abstract" ],
+    "evidence" : [ {
+      "quote" : "the graph itself is the moat, right? And like, yes, I'm letting someone store the data in their repo, but the read and manipulation layer is proprietary.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Describes current architectural moat dynamics and design principles.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-15",
+    "regions" : [ "future", "irrealis", "abstract" ],
+    "evidence" : [ {
+      "quote" : "someone comes along and builds a better version of that, right?",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Hypothetical future risk of competitive replication.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-16",
+    "regions" : [ "irrealis", "abstract" ],
+    "evidence" : [ {
+      "quote" : "I want to have as written because you have as written and that makes my as written more valuable because you have it.",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Constructs a hypothetical network-effect dynamic.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-17",
+    "regions" : [ "present", "realis", "abstract" ],
+    "evidence" : [ {
+      "quote" : "Without my input through my own lens, it breaks, it falls down. So that shows that the actual unique part is by my lens",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Formulates a general principle from current systemic operation.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-18",
+    "regions" : [ "present", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "The real differentiator and the technical moat is that I take textual documents and I extract perspective from them",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Asserts concrete, existing technical features and operations.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-19",
+    "regions" : [ "present", "realis", "abstract" ],
+    "evidence" : [ {
+      "quote" : "90% of what I see people chasing though is structure for context and memory.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Observations of prevailing general market demand patterns.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-20",
+    "regions" : [ "present", "realis", "abstract" ],
+    "evidence" : [ {
+      "quote" : "You're educating them on how it works and the benefits — not the use case.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Frames the current abstract nature of the go-to-market interaction.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-21",
+    "regions" : [ "present", "realis", "abstract" ],
+    "evidence" : [ {
+      "quote" : "It's about the shape of the deployment and the needs of the organization.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Characterizes the abstract definitions of enterprise product tiers.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-23",
+    "regions" : [ "future", "irrealis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "when I have the time, I will invest and build the perspective.",
+      "kind" : "commitment-marker"
+    } ],
+    "why" : "Pledges a contingent future personal action.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-24",
+    "regions" : [ "future", "concrete" ],
+    "evidence" : [ {
+      "quote" : "I could build out the marketplace by basically creating a podcast where I interview people",
+      "kind" : "modal-marker"
+    } ],
+    "why" : "Concrete future idea with modal suspension.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-25",
+    "regions" : [ "abstract" ],
+    "evidence" : [ {
+      "quote" : "The human moment sells, not the text.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "A timeless abstract maxim on value proposition.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-26",
+    "regions" : [ "future", "concrete" ],
+    "evidence" : [ {
+      "quote" : "that does seem like the future to me.",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Evaluates a concrete consulting artifact as a future direction.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-27",
+    "regions" : [ "future", "irrealis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "If you can get it into the hands of 20, 50 people... The word of mouth of that will just... that's really catapult.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Predicts conditional future growth based on a specific user cohort size.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-28",
+    "regions" : [ "future", "abstract" ],
+    "evidence" : [ {
+      "quote" : "where the world will go.",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Directs focus toward broad future strategic environments.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-29",
+    "regions" : [ "present", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "I gotta pull my head out of the development.",
+      "kind" : "modal-marker"
+    } ],
+    "why" : "Immediate concrete shift of personal working focus in the present.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-30",
+    "regions" : [ "future", "concrete" ],
+    "evidence" : [ {
+      "quote" : "Just stop and go sell it.",
+      "kind" : "plain-signal"
+    } ],
+    "why" : "Immediate directive prescribing concrete next action.",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-11", "src-22" ],
+  "unmarked_rest" : false
+}
