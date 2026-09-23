@@ -1,0 +1,18 @@
+{
+  "positions" : [ {
+    "name" : "LegacyRecordArchivalStrategy",
+    "frame" : "how should closed legacy platform records and their operational meaning be preserved when migrating off a vendor system?",
+    "members" : [ "src-3", "src-7", "src-9", "src-11", "src-13", "src-15", "src-16", "src-17", "src-22" ],
+    "why" : "The group weighs the long-term decay and dual-system behavioral risks of leaving a legacy platform running read-only against extracting closed history into flat, self-describing, open-format archives with explicit semantic documentation.",
+    "under" : [ "CutoverStrategy" ]
+  }, {
+    "name" : "DecommissioningRetentionSequencing",
+    "frame" : "at what point in vendor exit negotiations must legal retention mandates and data extraction scoping be established?",
+    "members" : [ "src-20", "src-22", "src-23", "src-24", "src-25", "src-27", "src-28" ],
+    "why" : "The team deliberates on the sequencing of decommissioning terms, establishing that formal legal retention periods and technical extraction scoping must precede signing exit agreements with the vendor.",
+    "under" : [ "CutoverStrategy" ]
+  } ],
+  "attaches" : [ ],
+  "position_revisions" : [ ],
+  "ungrouped" : [ "src-1", "src-2", "src-4", "src-5", "src-6", "src-8", "src-10", "src-12", "src-14", "src-18", "src-19", "src-21", "src-26" ]
+}
