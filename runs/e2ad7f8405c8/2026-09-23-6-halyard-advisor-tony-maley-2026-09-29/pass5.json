@@ -1,0 +1,43 @@
+{
+  "placements" : [ {
+    "verdict" : "reuse",
+    "leaf" : "Narrative_ContainedPainOverUnboundedRisk",
+    "supporting_segments" : [ "src-3", "src-4", "src-5", "src-7", "src-9" ],
+    "why" : "Tony validates the sequential rollout strategy using comparative evidence from prior migration failures and advises committing the rationale to writing early to resist mid-programme pressure to collapse the schedule.",
+    "consulted" : [ "Narrative_ContainedPainOverUnboundedRisk", "Narrative_StrictWorkloadIsolationDuringCutover" ],
+    "adopted_positions" : [ "Position_SiteCutoverSequencingStrategy" ]
+  }, {
+    "verdict" : "reuse",
+    "leaf" : "Narrative_SingleSourceOfTruthUntilFinalCutover",
+    "supporting_segments" : [ "src-3", "src-25" ],
+    "why" : "Tanya reiterates and Tony endorses maintaining the vendor as the authoritative system of record for reference data across the full phased cutover sequence.",
+    "consulted" : [ "Narrative_SingleSourceOfTruthUntilFinalCutover", "CutoverStrategy" ],
+    "adopted_positions" : [ "Position_ReferenceDataSourceOfRecordTransition" ]
+  }, {
+    "verdict" : "reuse",
+    "leaf" : "Narrative_SelfDescribingArchivePreservesMeaning",
+    "supporting_segments" : [ "src-25", "src-26" ],
+    "why" : "Tony urges proactive extraction of legacy records into an archive to avoid long-term operational regret, confirming Tanya's active initiative from the previous week.",
+    "consulted" : [ "Narrative_SelfDescribingArchivePreservesMeaning", "Narrative_ExtractionScopingBeforeDecommissioningTerms" ],
+    "adopted_positions" : [ "Position_LegacyRecordArchivalStrategy" ]
+  }, {
+    "verdict" : "mint",
+    "leaf" : "Narrative_SourceQualityGatesRequireIndependentEnforcement",
+    "title" : "source quality gates require independent stopping power",
+    "frame" : "Does this expression mandate that pre-cutover data quality be measured against strict source-system thresholds with gatekeeping authority isolated from delivery schedule incentives?",
+    "under" : [ "CutoverStrategy" ],
+    "supporting_segments" : [ "src-13", "src-14", "src-15", "src-17", "src-19", "src-21", "src-23", "src-27" ],
+    "why" : "Tony identifies a fundamental governance and technical omission in the migration plan: confounding data movement validation with source data quality, and failing to assign gate ownership to a role independent of programme delivery deadlines.",
+    "consulted" : [ "CutoverStrategy", "Narrative_ContainedPainOverUnboundedRisk", "Narrative_StrictWorkloadIsolationDuringCutover" ]
+  }, {
+    "verdict" : "mint",
+    "leaf" : "Narrative_ProactiveGovernanceRiskDisclosure",
+    "title" : "proactively surfacing programme gaps preserves governance trust",
+    "frame" : "Does this expression advocate presenting known structural risks and missing controls to oversight bodies before governance uncovers them independently?",
+    "under" : [ "CutoverStrategy" ],
+    "supporting_segments" : [ "src-28", "src-29" ],
+    "why" : "Tanya and Tony agree on a governance strategy of preemptively escalating known control gaps to the board to preserve institutional credibility.",
+    "consulted" : [ "CutoverStrategy", "Narrative_ContainedPainOverUnboundedRisk" ]
+  } ],
+  "unplaced" : [ "src-1", "src-2", "src-6", "src-8", "src-10", "src-11", "src-12", "src-16", "src-18", "src-20", "src-22", "src-24" ]
+}
