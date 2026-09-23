@@ -1,0 +1,293 @@
+{
+  "doc" : {
+    "title" : "Advisor Call — Tanya Team, Tina Team, Xavier Expert, Freya Free — 2026-07-28",
+    "date_stated" : "2026-07-28",
+    "actors_present" : [ "Tanya Team", "Tina Team", "Xavier Expert", "Freya Free" ]
+  },
+  "footing_cases" : [ {
+    "id" : "fc-1",
+    "animator" : "Tanya TeamOwner",
+    "author" : "Tanya TeamOwner",
+    "principal" : null,
+    "when" : "Editorial/framing prose introducing the transcript or context"
+  } ],
+  "segments" : [ {
+    "local_id" : "src-1",
+    "exact" : "Tanya Team has pulled three of her advisors onto one call before she starts fundraising, to settle who aswritten sells to first and what keeps them. Tina Team works sales and go-to-market with her; Xavier Expert is an operator who consults for mid-market businesses; Freya Free is a designer who has worked with her on the brand. Each has given Tanya a view on this separately; this is the first time the four of them are on one call.",
+    "actor" : "Tanya TeamOwner",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Context introduction before advisor transcript"
+    },
+    "footing_case" : "fc-1",
+    "footing" : {
+      "animator" : "Tanya TeamOwner",
+      "author" : "Tanya TeamOwner",
+      "principal" : null
+    }
+  }, {
+    "local_id" : "src-2",
+    "exact" : "I am just starting to fundraise. I'm looking for organizations that want to use the thing. One of the things I've been thinking a lot about is the pricing and whether all of that is too low or sort of how the positioning is here.",
+    "actor" : "Tanya Team",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Advisor Call — 2026-07-28"
+    },
+    "footing_case" : null
+  }, {
+    "local_id" : "src-3",
+    "exact" : "From a B2C perspective, to the single people who are building whole companies on their own. I think that's the angle.",
+    "actor" : "Tina Team",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Advisor Call — 2026-07-28"
+    },
+    "footing_case" : null
+  }, {
+    "local_id" : "src-4",
+    "exact" : "Think about the numbers though, right? The numbers really work. B2C. Because if we take theory that every single person is now their own team.",
+    "actor" : "Tina Team",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Advisor Call — 2026-07-28"
+    },
+    "note" : "Rhetorical question / imperative serving a single assertive move on B2C economics",
+    "footing_case" : null
+  }, {
+    "local_id" : "src-5",
+    "exact" : "Maybe that is the more direct distillation of the shift I'm having is just realizing that it's actually more of a B2C product than a B2B product. And there's still a top tier that's a B2B tier, but the bottom tiers are big and direct and like not that confusing.",
+    "actor" : "Tanya Team",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Advisor Call — 2026-07-28"
+    },
+    "footing_case" : null
+  }, {
+    "local_id" : "src-6",
+    "exact" : "Trying to go after tech companies is going to be hard because tech companies all think they've solved the problem.",
+    "actor" : "Xavier Expert",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Advisor Call — 2026-07-28"
+    },
+    "footing_case" : null
+  }, {
+    "local_id" : "src-7",
+    "exact" : "Yeah, I know, right? The problem with most developers and entrepreneurs is they've already rolled their own bullshit.",
+    "actor" : "Tanya Team",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Advisor Call — 2026-07-28"
+    },
+    "footing_case" : null
+  }, {
+    "local_id" : "src-8",
+    "exact" : "People like me have 10 repos on the go with Claude right now and... all this tooling and different skills... I'm worried what's going to break or cross over.",
+    "actor" : "Tina Team",
+    "act" : "expressive",
+    "circumstance" : {
+      "context" : "Advisor Call — 2026-07-28"
+    },
+    "footing_case" : null
+  }, {
+    "local_id" : "src-9",
+    "exact" : "The more involved people are, the more they need separation from their own chaos.",
+    "actor" : "Tina Team",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Advisor Call — 2026-07-28"
+    },
+    "footing_case" : null
+  }, {
+    "local_id" : "src-10",
+    "exact" : "Find a company that's actually a knowledge company that doesn't think of themselves as a knowledge company.",
+    "actor" : "Xavier Expert",
+    "act" : "directive",
+    "circumstance" : {
+      "context" : "Advisor Call — 2026-07-28"
+    },
+    "footing_case" : null
+  }, {
+    "local_id" : "src-11",
+    "exact" : "Go on.",
+    "actor" : "Tanya Team",
+    "act" : "directive",
+    "circumstance" : {
+      "context" : "Advisor Call — 2026-07-28"
+    },
+    "footing_case" : null
+  }, {
+    "local_id" : "src-12",
+    "exact" : "One of my operating theses is the telephone company always wins. The telephone company always wins because the telephone company sits in between. And it's impossible to disintermediate because they sit in between.",
+    "actor" : "Xavier Expert",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Advisor Call — 2026-07-28"
+    },
+    "footing_case" : null
+  }, {
+    "local_id" : "src-13",
+    "exact" : "If there's an incumbent, right, who has a beachhead already, there's nothing that prevents them from like doing a shitty job. But it's enough that like the intrinsic cost of switching would be too high to a new thing.",
+    "actor" : "Xavier Expert",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Advisor Call — 2026-07-28"
+    },
+    "footing_case" : null
+  }, {
+    "local_id" : "src-14",
+    "exact" : "The more calls and decisions that you have ingested into a graph, the graph itself is the moat, right? And like, yes, I'm letting someone store the data in their repo, but the read and manipulation layer is proprietary.",
+    "actor" : "Tanya Team",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Advisor Call — 2026-07-28"
+    },
+    "footing_case" : null
+  }, {
+    "local_id" : "src-15",
+    "exact" : "I think that's true and I'm not disagreeing with that. I just think that like, like the, the core problem is like someone comes along and builds a better version of that, right?",
+    "actor" : "Xavier Expert",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Advisor Call — 2026-07-28"
+    },
+    "footing_case" : null
+  }, {
+    "local_id" : "src-16",
+    "exact" : "I want to have as written because you have as written and that makes my as written more valuable because you have it.",
+    "actor" : "Xavier Expert",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Advisor Call — 2026-07-28"
+    },
+    "note" : "Voicing a hypothetical network effect user stance",
+    "footing_case" : null
+  }, {
+    "local_id" : "src-17",
+    "exact" : "Without my input through my own lens, it breaks, it falls down. So that shows that the actual unique part is by my lens — is applying the lens, which I suppose is effectively what you've built there... it is the lens that controls all of that.",
+    "actor" : "Freya Free",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Advisor Call — 2026-07-28"
+    },
+    "footing_case" : null
+  }, {
+    "local_id" : "src-18",
+    "exact" : "The real differentiator and the technical moat is that I take textual documents and I extract perspective from them and then I make that perspective citable in the individual task.",
+    "actor" : "Tanya Team",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Advisor Call — 2026-07-28"
+    },
+    "footing_case" : null
+  }, {
+    "local_id" : "src-19",
+    "exact" : "90% of what I see people chasing though is structure for context and memory.",
+    "actor" : "Tina Team",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Advisor Call — 2026-07-28"
+    },
+    "footing_case" : null
+  }, {
+    "local_id" : "src-20",
+    "exact" : "You're selling to an audience that wants something like this… they're looking for a solution. You're educating them on how it works and the benefits — not the use case.",
+    "actor" : "Tina Team",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Advisor Call — 2026-07-28"
+    },
+    "footing_case" : null
+  }, {
+    "local_id" : "src-21",
+    "exact" : "It's not that enterprise isn't a good target. It's that the quote, enterprise plan isn't about enterprise. It's about the shape of the deployment and the needs of the organization.",
+    "actor" : "Tanya Team",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Advisor Call — 2026-07-28"
+    },
+    "footing_case" : null
+  }, {
+    "local_id" : "src-22",
+    "exact" : "That's fair.",
+    "actor" : "Xavier Expert",
+    "act" : "expressive",
+    "circumstance" : {
+      "context" : "Advisor Call — 2026-07-28"
+    },
+    "footing_case" : null
+  }, {
+    "local_id" : "src-23",
+    "exact" : "I have an idea of when I have the time, I will invest and build the perspective.",
+    "actor" : "Freya Free",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Advisor Call — 2026-07-28"
+    },
+    "footing_case" : null
+  }, {
+    "local_id" : "src-24",
+    "exact" : "I could build out the marketplace by basically creating a podcast where I interview people about their business and perspective, and each of those things gets packaged into an installable expertise and they're just available.",
+    "actor" : "Tanya Team",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Advisor Call — 2026-07-28"
+    },
+    "footing_case" : null
+  }, {
+    "local_id" : "src-25",
+    "exact" : "The human moment sells, not the text.",
+    "actor" : "Freya Free",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Advisor Call — 2026-07-28"
+    },
+    "footing_case" : null
+  }, {
+    "local_id" : "src-26",
+    "exact" : "I haven't delivered an AI perspective as an alternative to a deck to a consulting client yet. But actually I think that's a really... that does seem like the future to me.",
+    "actor" : "Tanya Team",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Advisor Call — 2026-07-28"
+    },
+    "footing_case" : null
+  }, {
+    "local_id" : "src-27",
+    "exact" : "I think you've got a sticky product. If you can get it into the hands of 20, 50 people... The word of mouth of that will just... that's really catapult.",
+    "actor" : "Tina Team",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Advisor Call — 2026-07-28"
+    },
+    "footing_case" : null
+  }, {
+    "local_id" : "src-28",
+    "exact" : "Short term, like this, this thing can win and I think you should win. But like know the, know the strategic environment you are operating in and the world where the, where, where the world will go.",
+    "actor" : "Xavier Expert",
+    "act" : "directive",
+    "circumstance" : {
+      "context" : "Advisor Call — 2026-07-28"
+    },
+    "footing_case" : null
+  }, {
+    "local_id" : "src-29",
+    "exact" : "Yeah. Working on it. I gotta pull my head out of the development.",
+    "actor" : "Tanya Team",
+    "act" : "commissive",
+    "circumstance" : {
+      "context" : "Advisor Call — 2026-07-28"
+    },
+    "footing_case" : null
+  }, {
+    "local_id" : "src-30",
+    "exact" : "Yeah, exactly. Just stop and go sell it.",
+    "actor" : "Xavier Expert",
+    "act" : "directive",
+    "circumstance" : {
+      "context" : "Advisor Call — 2026-07-28"
+    },
+    "footing_case" : null
+  } ],
+  "coverage_gaps" : [ ]
+}
