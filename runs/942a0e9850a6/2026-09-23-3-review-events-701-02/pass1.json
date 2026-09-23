@@ -1,0 +1,87 @@
+{
+  "doc" : {
+    "title" : "Review: Position_SiteCutoverSequencingStrategy — 2026-09-23",
+    "date_stated" : "2026-09-23",
+    "actors_present" : [ "Claude", "Tina", "Tanya TeamOwner" ]
+  },
+  "footing_cases" : [ {
+    "id" : "fc-1",
+    "animator" : "Claude",
+    "author" : "Claude",
+    "principal" : null,
+    "when" : "Editorial narration by Claude recording review acts"
+  }, {
+    "id" : "fc-2",
+    "animator" : "Claude",
+    "author" : "Claude",
+    "principal" : "Tina",
+    "when" : "Reported speech/review action naming Tina with explicit review verb"
+  }, {
+    "id" : "fc-3",
+    "animator" : "Claude",
+    "author" : "Claude",
+    "principal" : "Tanya TeamOwner",
+    "when" : "Reported speech/review action naming Tanya with embedded quote/review verb submitted on her behalf"
+  } ],
+  "segments" : [ {
+    "local_id" : "src-1",
+    "exact" : "These are review acts on narr:Position_SiteCutoverSequencingStrategy, narr:Expr_1HalyardWeekly20260908_12, narr:Expr_1HalyardWeekly20260908_8, at revision .aswritten/memories/2026-09-23-1-halyard-weekly-2026-09-08.md@base.",
+    "actor" : "Claude",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Review: Position_SiteCutoverSequencingStrategy — 2026-09-23"
+    },
+    "footing_case" : "fc-1",
+    "footing" : {
+      "animator" : "Claude",
+      "author" : "Claude",
+      "principal" : null
+    }
+  }, {
+    "local_id" : "src-2",
+    "exact" : "Tina accepted the change from .aswritten/memories/2026-09-23-1-halyard-weekly-2026-09-08.md to narr:Position_SiteCutoverSequencingStrategy (revision .aswritten/memories/2026-09-23-1-halyard-weekly-2026-09-08.md@base).",
+    "actor" : "Tina",
+    "act" : "declarative",
+    "circumstance" : {
+      "context" : "Review: Position_SiteCutoverSequencingStrategy — 2026-09-23"
+    },
+    "note" : "Review acceptance act reported by Claude",
+    "footing_case" : "fc-2",
+    "footing" : {
+      "animator" : "Claude",
+      "author" : "Claude",
+      "principal" : "Tina"
+    }
+  }, {
+    "local_id" : "src-3",
+    "exact" : "Tanya requested changes on the change from .aswritten/memories/2026-09-23-1-halyard-weekly-2026-09-08.md to narr:Expr_1HalyardWeekly20260908_12 (revision .aswritten/memories/2026-09-23-1-halyard-weekly-2026-09-08.md@base): \"this reads as though containment settled the sequencing; the call weighed it against local site friction and did not settle it\"",
+    "actor" : "Tanya TeamOwner",
+    "act" : "directive",
+    "circumstance" : {
+      "context" : "Review: Position_SiteCutoverSequencingStrategy — 2026-09-23"
+    },
+    "note" : "Change request review act with quoted rationale",
+    "footing_case" : "fc-3",
+    "footing" : {
+      "animator" : "Claude",
+      "author" : "Claude",
+      "principal" : "Tanya TeamOwner"
+    }
+  }, {
+    "local_id" : "src-4",
+    "exact" : "Tanya rejected the change from .aswritten/memories/2026-09-23-1-halyard-weekly-2026-09-08.md to narr:Expr_1HalyardWeekly20260908_8 (revision .aswritten/memories/2026-09-23-1-halyard-weekly-2026-09-08.md@base): \"we never agreed a single-site pilot — the call settled on two sites in parallel\" Submitted by Claude on Tanya's behalf.",
+    "actor" : "Tanya TeamOwner",
+    "act" : "declarative",
+    "circumstance" : {
+      "context" : "Review: Position_SiteCutoverSequencingStrategy — 2026-09-23"
+    },
+    "note" : "Rejection review act with quoted rationale submitted on Tanya's behalf",
+    "footing_case" : "fc-3",
+    "footing" : {
+      "animator" : "Claude",
+      "author" : "Claude",
+      "principal" : "Tanya TeamOwner"
+    }
+  } ],
+  "coverage_gaps" : [ ]
+}
