@@ -1,0 +1,56 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-9",
+    "regions" : [ "plain-spoken", "technical" ],
+    "evidence" : [ {
+      "quote" : "extract the closed history into a flat, self-describing archive — the records plus a schema description plus a document explaining what the fields mean",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Translates technical architectural architecture requirements into plain-spoken concrete operational items.",
+    "reported" : false,
+    "direction" : {
+      "verdict" : "mint",
+      "node" : "mint-1"
+    }
+  }, {
+    "segment_local_id" : "src-11",
+    "regions" : [ "plain-spoken", "technical" ],
+    "evidence" : [ {
+      "quote" : "Not a database dump that needs the vendor's version of their engine to restore. Not a proprietary export format. Flat files, an open format, a schema next to them",
+      "kind" : "plain-signal"
+    } ],
+    "why" : "Deliberate demystification of technical system preservation into transparent, accessible terminology.",
+    "reported" : false,
+    "direction" : {
+      "verdict" : "mint",
+      "node" : "mint-1"
+    }
+  }, {
+    "segment_local_id" : "src-13",
+    "regions" : [ "plain-spoken" ],
+    "evidence" : [ {
+      "quote" : "The data is easy to keep. The meaning is what rots.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Aphoristic maxim distilling a complex archival principle into stark, plain language.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-22",
+    "regions" : [ "formal", "matter-of-fact" ],
+    "evidence" : [ {
+      "quote" : "So the position is: the legacy platform is switched off when the last site goes live, the closed history is extracted first into an open self-describing archive, and the retention period comes from legal in writing before we sign anything with the vendor about decommissioning.",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Formally crystallizing meeting consensus into an explicit governance position.",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-1", "src-2", "src-3", "src-4", "src-5", "src-6", "src-7", "src-8", "src-10", "src-12", "src-14", "src-15", "src-16", "src-17", "src-18", "src-19", "src-20", "src-21", "src-23", "src-24", "src-25", "src-26", "src-27", "src-28" ],
+  "mints" : [ {
+    "id" : "mint-1",
+    "name" : "DemystifiedTechnicalTranslation",
+    "title" : "flat, self-describing archive explained without proprietary jargon",
+    "frame" : "Does the speaker deliberately unpack a technical construct into plain, durable component parts to ensure mutual comprehension?",
+    "regions" : [ "plain-spoken", "technical" ]
+  } ],
+  "region_mints" : [ ]
+}
