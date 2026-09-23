@@ -1,0 +1,248 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-2",
+    "regions" : [ "present", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "The graph has \"the product is a phone number\" embedded as a tagline-level claim in the Identity section.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Asserts current factual state of a specific section in the graph.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-4",
+    "regions" : [ "past", "realis", "abstract" ],
+    "evidence" : [ {
+      "quote" : "Tanya has tried to correct this before.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Focuses on past repeated attempts to make a correction.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-5",
+    "regions" : [ "present", "realis", "abstract" ],
+    "evidence" : [ {
+      "quote" : "It keeps re-embedding",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Describes ongoing recurring behavior and pipeline limitations.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-7",
+    "regions" : [ "past", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "The text for topic memory was really an exploration",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Reflects back on a past specific memory and product experiment.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-8",
+    "regions" : [ "present", "realis", "abstract" ],
+    "evidence" : [ {
+      "quote" : "The product is not a phone number; it's the phone number distribution channel",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Clarifies present categorical definition of product versus channel.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-9",
+    "regions" : [ "present", "realis", "abstract" ],
+    "evidence" : [ {
+      "quote" : "The product is curated expertise installation",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "States the present core definition and high-level concept.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-10",
+    "regions" : [ "past", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "March 19, 2026 strategy session",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Anchors alignment to a past dated strategy artifact.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-11",
+    "regions" : [ "past", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "Tanya at the time: \"That's gold.\"",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Reports Tanya's historical past reaction.",
+    "reported" : true
+  }, {
+    "segment_local_id" : "src-12",
+    "regions" : [ "present", "realis", "abstract" ],
+    "evidence" : [ {
+      "quote" : "The phone number / SMS is a distribution channel.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "States a current categorical fact.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-14",
+    "regions" : [ "present", "abstract" ],
+    "evidence" : [ {
+      "quote" : "It is the right channel in some contexts",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Evaluates generalized contextual conditions and trade-offs.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-15",
+    "regions" : [ "present", "realis", "abstract" ],
+    "evidence" : [ {
+      "quote" : "There is some real value to the way the phone number feels.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Discusses present general experiential qualities of the format.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-20",
+    "regions" : [ "present", "realis", "abstract" ],
+    "evidence" : [ {
+      "quote" : "That's a bonus; it's an upsell.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Categorizes the commercial role in present conceptual terms.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-22",
+    "regions" : [ "past", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "all seven came back rejected",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Recounts a specific past dated event on April 28, 2026.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-24",
+    "regions" : [ "future", "concrete" ],
+    "evidence" : [ {
+      "quote" : "The numbers can be resubmitted to the review queue.",
+      "kind" : "modal-marker"
+    } ],
+    "why" : "Refers to a potential future concrete action.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-25",
+    "regions" : [ "present", "realis", "abstract" ],
+    "evidence" : [ {
+      "quote" : "verification churn is a permanent operational cost of running SMS at scale.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Establishes a generalized ongoing operational pattern.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-26",
+    "regions" : [ "past", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "Tanya asked Tess whether SMS is the right demo channel",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Recounts a specific past interaction between Tanya and Tess.",
+    "reported" : true
+  }, {
+    "segment_local_id" : "src-27",
+    "regions" : [ "present", "abstract" ],
+    "evidence" : [ {
+      "quote" : "texting is so associated with spam now",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Reports Tess's perspective on current generalized sentiment and friction.",
+    "reported" : true
+  }, {
+    "segment_local_id" : "src-28",
+    "regions" : [ "present", "irrealis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "Can you just give me a chat widget on a web form?",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Requests a specific alternative UI artifact.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-30",
+    "regions" : [ "present", "realis", "abstract" ],
+    "evidence" : [ {
+      "quote" : "SMS-as-channel adds a **trust friction** for this archetype",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Analyzes general archetype dynamics based on new evidence.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-33",
+    "regions" : [ "past", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "deliberately deferred from the April 9 launch to avoid breaking extraction tests.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Refers to a specific past design decision and date.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-36",
+    "regions" : [ "present", "realis", "abstract" ],
+    "evidence" : [ {
+      "quote" : "There is currently no structural way to say",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Describes the current architectural state of the system.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-40",
+    "regions" : [ "future", "irrealis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "This tagline should be **superseded**.",
+      "kind" : "modal-marker"
+    } ],
+    "why" : "Prescribes a future desired action on a specific tagline.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-43",
+    "regions" : [ "future", "irrealis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "**should not be auto-promoted**",
+      "kind" : "modal-marker"
+    } ],
+    "why" : "Directs future promotion behavior regarding this memory branch.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-46",
+    "regions" : [ "future", "irrealis", "abstract" ],
+    "evidence" : [ {
+      "quote" : "I think SMS is something that we should offer only for the enterprise plan",
+      "kind" : "modal-marker"
+    } ],
+    "why" : "Expresses an opinion on future tiering policy.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-47",
+    "regions" : [ "present", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "I'm doing this as a demo right now, and I'm trying to get some of these larger clients on the hook",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Describes current immediate activities and active negotiations.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-50",
+    "regions" : [ "present", "realis", "abstract" ],
+    "evidence" : [ {
+      "quote" : "The leaning is recorded; it is not yet a decision.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "States the present epistemic status of the tiering discussion.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-52",
+    "regions" : [ "past", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "Conversation: Claude.ai mobile session, April 28, 2026",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Summarizes metadata of past specific interactions and claims.",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-1", "src-3", "src-6", "src-13", "src-16", "src-17", "src-18", "src-19", "src-21", "src-23", "src-29", "src-31", "src-32", "src-34", "src-35", "src-37", "src-38", "src-39", "src-41", "src-42", "src-44", "src-45", "src-48", "src-49", "src-51" ],
+  "unmarked_rest" : false
+}
