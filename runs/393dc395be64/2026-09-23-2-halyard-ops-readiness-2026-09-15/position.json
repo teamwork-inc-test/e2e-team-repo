@@ -1,0 +1,24 @@
+{
+  "positions" : [ {
+    "name" : "CrossSiteOperationalLearning",
+    "frame" : "how does sequential rollout sequencing leverage operational learning and skill compounding across site teams?",
+    "members" : [ "src-18", "src-19", "src-20", "src-21", "src-22" ],
+    "why" : "Explores the secondary operational justification for sequential cutovers: enabling supervisors and staff to build cumulative execution competence from earlier cutovers rather than propagating errors in parallel.",
+    "under" : [ "CutoverStrategy" ],
+    "lineage" : {
+      "relation" : "extends",
+      "target" : "Position_SiteCutoverSequencingStrategy"
+    }
+  } ],
+  "attaches" : [ {
+    "position" : "Position_SiteCutoverSequencingStrategy",
+    "members" : [ "src-6", "src-7", "src-9", "src-11", "src-12", "src-13", "src-14", "src-15", "src-16", "src-17", "src-25", "src-26" ],
+    "why" : "Reinforces the sequential one-site-at-a-time cutover strategy with non-negotiable rota and supervisor capacity arithmetic as a hard constraint, and confirms that database replica and reference-data rules depend on a single open cutover window."
+  }, {
+    "position" : "Position_PostGoLiveSoakDurationBasis",
+    "members" : [ "src-28", "src-29" ],
+    "why" : "Establishes that soak duration must be preserved against schedule slippage so that operational supervisors are not double-booked during overlapping cutover fallout."
+  } ],
+  "position_revisions" : [ ],
+  "ungrouped" : [ "src-1", "src-2", "src-3", "src-4", "src-5", "src-8", "src-10", "src-23", "src-24", "src-27", "src-30", "src-31" ]
+}
