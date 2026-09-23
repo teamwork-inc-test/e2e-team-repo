@@ -1,0 +1,40 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-2",
+    "regions" : [ "legitimate" ],
+    "evidence" : [ {
+      "quote" : "accepted the change",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Tina exercises formal review authority to approve a proposed change.",
+    "reported" : true
+  }, {
+    "segment_local_id" : "src-3",
+    "regions" : [ "legitimate", "rational-persuasion" ],
+    "evidence" : [ {
+      "quote" : "requested changes",
+      "kind" : "performed-act"
+    }, {
+      "quote" : "the call weighed it against local site friction and did not settle it",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Tanya uses review authority to request changes, grounding the directive in an evidentiary correction of what the call decided.",
+    "reported" : true
+  }, {
+    "segment_local_id" : "src-4",
+    "regions" : [ "legitimate", "informational" ],
+    "evidence" : [ {
+      "quote" : "rejected the change",
+      "kind" : "performed-act"
+    }, {
+      "quote" : "the call settled on two sites in parallel",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Tanya exercises veto authority to reject a change while supplying the factual record of what was actually agreed.",
+    "reported" : true
+  } ],
+  "unmarked" : [ "src-1" ],
+  "unmarked_rest" : false,
+  "mints" : [ ],
+  "region_mints" : [ ]
+}
