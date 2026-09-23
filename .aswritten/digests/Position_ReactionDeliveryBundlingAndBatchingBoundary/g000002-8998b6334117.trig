@@ -1,0 +1,25 @@
+@prefix narr: <https://aswritten.ai/narrative#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+GRAPH <https://aswritten.ai/narrative#Digest_Position_ReactionDeliveryBundlingAndBatchingBoundary> {
+  <https://aswritten.ai/narrative#Digest_Position_ReactionDeliveryBundlingAndBatchingBoundary> a narr:Digest ;
+    narr:digestOf <https://aswritten.ai/narrative#Position_ReactionDeliveryBundlingAndBatchingBoundary> ;
+    narr:childCount "7"^^xsd:integer ;
+    narr:generatedFrom "8998b6334117df5bcce63dca0a15747b34734886" ;
+    narr:narration """This position holds that [reactions route through one bundle per run per person, not one message per skill](narr:Expr_2DeliveryRoutingRulingE2ESynthetic_2), restated the next day as a [directive establishing reaction delivery policy](narr:Expr_3DeliveryRoutingRulingE2ESyntheticAttempt2_2). The bundling window is bounded by [the bundle closing when the run closes, with a late skill waiting for the next run rather than sending on its own](narr:Expr_2DeliveryRoutingRulingE2ESynthetic_3), narrated again in [Tina's pushback and the ruling on the batching window](narr:Expr_3DeliveryRoutingRulingE2ESyntheticAttempt2_3). The boundary was chosen against a [rejected alternative of per-skill delivery with client-side collapsing](narr:Expr_2DeliveryRoutingRulingE2ESynthetic_4), reported separately on both days in [the rejected architectural alternative](narr:Expr_2DeliveryRoutingRulingE2ESynthetic_5) and [the report of the rejected alternative](narr:Expr_3DeliveryRoutingRulingE2ESyntheticAttempt2_4).""" ;
+    narr:reaction """The mainline ruling is unchanged from the prior digest — the [one-bundle-per-run routing](narr:Expr_2DeliveryRoutingRulingE2ESynthetic_2) and [run-close boundary](narr:Expr_2DeliveryRoutingRulingE2ESynthetic_3) still hold. What's new: the rejected alternative now has [its own dated expression](narr:Expr_2DeliveryRoutingRulingE2ESynthetic_5) rather than living only inside the ruling's narration, and the [second-day narration of Tina's pushback](narr:Expr_3DeliveryRoutingRulingE2ESyntheticAttempt2_3) carries a relayed authority-ranking signal — the pushback is witnessed through [Tanya's](narr:Expr_3DeliveryRoutingRulingE2ESyntheticAttempt2_3) rendering, not [Tina's](narr:Expr_3DeliveryRoutingRulingE2ESyntheticAttempt2_3) own words. The variation surface is sharper than before; the position itself didn't move.""" ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2DeliveryRoutingRulingE2ESynthetic_2> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2DeliveryRoutingRulingE2ESynthetic_3> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2DeliveryRoutingRulingE2ESynthetic_4> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2DeliveryRoutingRulingE2ESynthetic_5> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_3DeliveryRoutingRulingE2ESyntheticAttempt2_2> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_3DeliveryRoutingRulingE2ESyntheticAttempt2_3> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_3DeliveryRoutingRulingE2ESyntheticAttempt2_4> ;
+    narr:keyPhrase [ narr:text "we route every reaction through one bundle per run per person, not one\n> message per skill — a person should get one thing to read, not four" ; narr:phraseSource <https://aswritten.ai/narrative#Expr_2DeliveryRoutingRulingE2ESynthetic_2> ] ;
+    narr:keyPhrase [ narr:text "Tina pushed back on the batching window and Tanya held: the bundle closes when\nthe run closes, and a skill that misses the close waits for the next run rather\nthan sending on its own." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_2DeliveryRoutingRulingE2ESynthetic_3> ] ;
+    narr:keyPhrase [ narr:text "The alternative considered and rejected was per-skill\ndelivery with client-side collapsing, which moves the ordering problem onto the\nreader." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_2DeliveryRoutingRulingE2ESynthetic_4> ] ;
+    narr:keyPhrase [ narr:text "Directive establishing reaction delivery policy" ; narr:phraseSource <https://aswritten.ai/narrative#Expr_3DeliveryRoutingRulingE2ESyntheticAttempt2_2> ] ;
+    narr:variation [ narr:text "Tina pushed back on the batching window; the ruling held the boundary rather than revising it — the dissent is recorded, not resolved into the position." ; narr:over <https://aswritten.ai/narrative#Expr_2DeliveryRoutingRulingE2ESynthetic_3> ; narr:over <https://aswritten.ai/narrative#Expr_3DeliveryRoutingRulingE2ESyntheticAttempt2_3> ] ;
+    narr:variation [ narr:text "A rejected alternative — per-skill delivery with client-side collapsing — remains the road not taken, argued against on the grounds that it moves the ordering problem onto the reader." ; narr:over <https://aswritten.ai/narrative#Expr_2DeliveryRoutingRulingE2ESynthetic_4> ; narr:over <https://aswritten.ai/narrative#Expr_2DeliveryRoutingRulingE2ESynthetic_5> ; narr:over <https://aswritten.ai/narrative#Expr_3DeliveryRoutingRulingE2ESyntheticAttempt2_4> ] ;
+    narr:writer "z-ai/glm-5.3-flash:nitro" .
+}
