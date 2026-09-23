@@ -1,0 +1,55 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "antithesis" ],
+    "evidence" : [ {
+      "quote" : "at the top than bury it",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Opposed alternatives framed as deliberate contrast ('at the top than bury it').",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-10",
+    "regions" : [ "anaphora", "parallelism" ],
+    "evidence" : [ {
+      "quote" : "and we are still",
+      "kind" : "lexical-marker"
+    }, {
+      "quote" : "We are still going one site at a time, and we are still soaking between sites",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Repeated opening structure 'we are still [verb-ing]' establishing matched parallel assertions.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-14",
+    "regions" : [ "antithesis", "parallelism" ],
+    "evidence" : [ {
+      "quote" : "rather be defensible and know where the slack isn't than conservative for a reason that turned out to be imaginary",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Balanced comparative antithesis contrasting two stances ('defensible and know...' vs 'conservative for a reason...').",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-15",
+    "regions" : [ "antithesis" ],
+    "evidence" : [ {
+      "quote" : "tight, not safe",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Direct antithetical pair ('tight, not safe') qualifying the revised figure.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-17",
+    "regions" : [ "rule-of-three" ],
+    "evidence" : [ {
+      "quote" : "Four sites, three soaks between them, a week off each.",
+      "kind" : "framing-move"
+    } ],
+    "why" : "A three-part rhythmic summary triad laying out the arithmetic.",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-2", "src-3", "src-4", "src-5", "src-6", "src-7", "src-8", "src-9", "src-11", "src-12", "src-13", "src-16", "src-18", "src-19", "src-20", "src-21", "src-22", "src-23", "src-24" ],
+  "unmarked_rest" : false,
+  "mints" : [ ],
+  "region_mints" : [ ]
+}
