@@ -1,0 +1,25 @@
+{
+  "placements" : [ {
+    "verdict" : "reuse",
+    "leaf" : "Narrative_InstallableExpertise",
+    "adopted_positions" : [ "Position_InstallableExpertiseCategoryMoat" ],
+    "supporting_segments" : [ "src-2", "src-3", "src-4", "src-5", "src-7", "src-8", "src-9", "src-10", "src-11", "src-12", "src-13", "src-19", "src-32", "src-33", "src-34", "src-35", "src-36", "src-37", "src-39", "src-40", "src-41", "src-42", "src-44" ],
+    "why" : "Establishes core product identity as curated expertise installation rather than communication endpoints (phone numbers), while identifying ontology and extraction pipeline mechanisms (temporality, subgraph scoping) needed to keep experimental channel exploration from corrupting root product definitions.",
+    "consulted" : [ "Narrative_InstallableExpertise", "Narrative_InterviewFlywheel", "Narrative_AntiSlackPositioning" ]
+  }, {
+    "verdict" : "reuse",
+    "leaf" : "Narrative_InterviewFlywheel",
+    "adopted_positions" : [ "Position_EvaluatorChannelTrustTax" ],
+    "supporting_segments" : [ "src-14", "src-15", "src-16", "src-17", "src-18", "src-22", "src-23", "src-24", "src-25", "src-26", "src-27", "src-28", "src-30", "src-31" ],
+    "why" : "Develops channel distribution dynamics and trust trade-offs, contrasting SMS's non-bot authenticity in high-trust contexts against the spam-association friction and ongoing Twilio toll-free verification churn in skeptical evaluator workflows.",
+    "consulted" : [ "Narrative_InterviewFlywheel", "Narrative_InstallableExpertise" ]
+  }, {
+    "verdict" : "reuse",
+    "leaf" : "Narrative_BehavioralProgressionPackaging",
+    "adopted_positions" : [ "Position_BehavioralStepPackagingTiers", "Position_ArchetypeRelationalDisambiguation" ],
+    "supporting_segments" : [ "src-20", "src-21", "src-26", "src-29", "src-45", "src-46", "src-47", "src-48", "src-49", "src-50" ],
+    "why" : "Evaluates commercial packaging and tier gating for high-maintenance channels like SMS (e.g. potential enterprise-only restriction vs. opt-in upsell), while examining archetype-specific frictions and explicitly holding the tier mapping undecided.",
+    "consulted" : [ "Narrative_BehavioralProgressionPackaging", "Narrative_InstallableExpertise" ]
+  } ],
+  "unplaced" : [ "src-1", "src-6", "src-38", "src-43", "src-51", "src-52" ]
+}
