@@ -1,0 +1,10 @@
+{
+  "positions" : [ ],
+  "attaches" : [ {
+    "position" : "Position_ReactionDeliveryBundlingAndBatchingBoundary",
+    "members" : [ "src-2", "src-3", "src-4" ],
+    "why" : "These expressions define the operational bundling policy (one bundle per run per person), the batching window closure rule held against pushback, and the rejected alternative of per-skill delivery with client-side collapsing, all directly addressing where reaction delivery bundling and batching windows should be bounded across multi-skill runs."
+  } ],
+  "position_revisions" : [ ],
+  "ungrouped" : [ "src-1" ]
+}
