@@ -1,0 +1,67 @@
+PREFIX narr: <https://aswritten.ai/narrative#>
+PREFIX aswr: <https://aswritten.ai/aswr#>
+PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX dct:  <http://purl.org/dc/terms/>
+PREFIX xsd:  <http://www.w3.org/2001/XMLSchema#>
+PREFIX oa:   <http://www.w3.org/ns/oa#>
+PREFIX xkos: <http://rdf-vocabulary.ddialliance.org/xkos#>
+
+INSERT DATA {
+  aswr:Tx_20260923T015247Z a prov:Activity ;
+      prov:generatedAtTime "2026-09-23T01:52:47Z"^^xsd:dateTime ;
+      prov:wasAssociatedWith "aswritten.ai" ;
+      prov:wasAttributedTo "scarlet@aswritten.ai" ;
+      aswr:pipelinePin "8dd07a49bda8" ;
+      dct:title "Multipass reconciliations: 3ReviewEvents70102" ;
+      prov:generated narr:Recon_3ReviewEvents70102_2, narr:Recon_3ReviewEvents70102_3, narr:Demoted_3ReviewEvents70102_1 .
+} ;
+INSERT DATA {
+  GRAPH aswr:Tx_20260923T015247Z {
+    narr:Recon_3ReviewEvents70102_2 a narr:Reconciliation ;
+        oa:hasTarget narr:CutoverStrategy ;
+        oa:hasTarget narr:Narrative_ContainedPainOverUnboundedRisk ;
+        narr:principal narr:Actor_TanyaTeamowner ;
+        skos:note "Tanya requested changes on the change from .aswritten/memories/2026-09-23-1-halyard-weekly-2026-09-08.md to narr:Expr_1HalyardWeekly20260908_12 (revision .aswritten/memories/2026-09-23-1-halyard-weekly-2026-09-08.md@base): \"this reads as though containment settled the sequencing; the call weighed it against local site friction and did not settle it\"" ;
+        narr:contradicts narr:Expr_1HalyardWeekly20260908_12 ;
+        dct:source narr:Expr_3ReviewEvents70102_3 ;
+        prov:generatedAtTime "2026-09-23T01:52:47Z"^^xsd:dateTime .
+
+    narr:Recon_3ReviewEvents70102_3 a narr:Reconciliation ;
+        oa:hasTarget narr:CutoverStrategy ;
+        oa:hasTarget narr:Narrative_ContainedPainOverUnboundedRisk ;
+        narr:principal narr:Actor_TanyaTeamowner ;
+        skos:note "Tanya rejected the change from .aswritten/memories/2026-09-23-1-halyard-weekly-2026-09-08.md to narr:Expr_1HalyardWeekly20260908_8 (revision .aswritten/memories/2026-09-23-1-halyard-weekly-2026-09-08.md@base): \"we never agreed a single-site pilot — the call settled on two sites in parallel\" Submitted by Claude on Tanya's behalf." ;
+        narr:contradicts narr:Expr_1HalyardWeekly20260908_8 ;
+        dct:source narr:Expr_3ReviewEvents70102_4 ;
+        prov:generatedAtTime "2026-09-23T01:52:47Z"^^xsd:dateTime .
+
+    narr:Demoted_3ReviewEvents70102_1 a narr:DemotedReconciliation ;
+        oa:hasTarget narr:Expr_3ReviewEvents70102_2 ;
+        skos:note "principal \"Tina\" (narr:Actor_TinaTeam) is not the envelope's human (tanya+staging@aswritten.ai → narr:Actor_TanyaTeamowner) or 'session'" ;
+        dct:source narr:Sample_3ReviewEvents70102 ;
+        prov:generatedAtTime "2026-09-23T01:52:47Z"^^xsd:dateTime .
+
+    aswr:Run_20260923T015247Z_pass2 a prov:Activity ;
+        aswr:runPass "pass2" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/942a0e9850a6/2026-09-23-3-review-events-701-02/pass2.json" ;
+        dct:isPartOf aswr:Tx_20260923T015247Z ;
+        prov:generatedAtTime "2026-09-23T01:52:47Z"^^xsd:dateTime .
+
+    aswr:Run_20260923T015247Z_pass3 a prov:Activity ;
+        aswr:runPass "pass3" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/942a0e9850a6/2026-09-23-3-review-events-701-02/pass3.json" ;
+        prov:generated narr:Recon_3ReviewEvents70102_2, narr:Recon_3ReviewEvents70102_3, narr:Demoted_3ReviewEvents70102_1 ;
+        dct:isPartOf aswr:Tx_20260923T015247Z ;
+        prov:generatedAtTime "2026-09-23T01:52:47Z"^^xsd:dateTime .
+
+    narr:Expr_3ReviewEvents70102_1 narr:see narr:Expr_1HalyardWeekly20260908_12 .
+    narr:Expr_3ReviewEvents70102_1 narr:see narr:Expr_1HalyardWeekly20260908_8 .
+    narr:Expr_3ReviewEvents70102_1 narr:see narr:Position_SiteCutoverSequencingStrategy .
+    narr:Expr_3ReviewEvents70102_3 narr:see narr:Position_SiteCutoverSequencingStrategy .
+    narr:Expr_3ReviewEvents70102_4 narr:see narr:Position_SiteCutoverSequencingStrategy .
+  }
+}
