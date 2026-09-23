@@ -1,0 +1,154 @@
+{
+  "resolutions" : [ {
+    "commentary_local_id" : "src-10",
+    "phrase" : "`Claim_CoreValuePropInstallExpertise` (Foundation-level, March 19, 2026 strategy session): *\"A way to install expertise into your AI and verify where it's coming from.\"",
+    "verdict" : "confident",
+    "binding" : {
+      "referents" : [ {
+        "iri" : "Position_InstallableExpertiseCategoryMoat",
+        "relation" : "see",
+        "why" : "Anchors on the foundational definition and moat of installable expertise."
+      }, {
+        "iri" : "Expr_1RealFreyaPodcastSalesMotion20260323_24",
+        "relation" : "see",
+        "why" : "Directly quotes Tanya defining installable expertise over memory."
+      } ],
+      "targets" : [ "Narrative_InstallableExpertise" ]
+    },
+    "why" : "Specific reference to the March installable expertise foundation position.",
+    "consulted" : [ "Narrative_InstallableExpertise", "Position_InstallableExpertiseCategoryMoat", "Expr_1RealFreyaPodcastSalesMotion20260323_24" ]
+  }, {
+    "commentary_local_id" : "src-16",
+    "phrase" : "`Claim_SMSFormatHonesty` (Foundation): *\"The SMS format makes AI personalization feel honest rather than fake because it removes the 'bot' mental frame associated with chat boxes.\"",
+    "verdict" : "confident",
+    "binding" : {
+      "referents" : [ {
+        "iri" : "Expr_2RealTessChatWidget20260423_10",
+        "relation" : "see",
+        "why" : "Refers to the SMS-feels-honest-not-bot framing from prior strategy."
+      }, {
+        "iri" : "Position_EvaluatorChannelTrustTax",
+        "relation" : "extends",
+        "why" : "Extends the SMS honesty framing by bounding its applicability to high-trust sender contexts."
+      } ],
+      "targets" : [ "Position_EvaluatorChannelTrustTax", "Narrative_InterviewFlywheel" ]
+    },
+    "why" : "Matches the specific foundation claim on SMS honesty and its contextual scoping in EvaluatorChannelTrustTax.",
+    "consulted" : [ "Position_EvaluatorChannelTrustTax", "Expr_2RealTessChatWidget20260423_10", "Expr_2RealTessChatWidget20260423_12" ]
+  }, {
+    "commentary_local_id" : "src-22",
+    "phrase" : "seven additional Twilio toll-free numbers were submitted for verification and **all seven came back rejected**",
+    "verdict" : "confident",
+    "binding" : {
+      "referents" : [ {
+        "iri" : "Expr_2RealTessChatWidget20260423_14",
+        "relation" : "see",
+        "why" : "Records the previous batch of toll-free verification rejections."
+      }, {
+        "iri" : "Expr_2RealTessChatWidget20260423_3",
+        "relation" : "extends",
+        "why" : "Adds the new operational cycle of seven rejections to the ongoing Twilio verification issue."
+      } ],
+      "targets" : [ "Narrative_InterviewFlywheel" ]
+    },
+    "why" : "Direct operational continuation of the Twilio toll-free verification rejection history.",
+    "consulted" : [ "Narrative_InterviewFlywheel", "Expr_2RealTessChatWidget20260423_3", "Expr_2RealTessChatWidget20260423_14" ]
+  }, {
+    "commentary_local_id" : "src-27",
+    "phrase" : "She thinks that text message, in certain contexts, is absolutely the right move, but in a lot of skeptical or lower-trust contexts, texting is so associated with spam now that requiring someone to text might actually be a real downside. People might not want to give their number.",
+    "verdict" : "confident",
+    "binding" : {
+      "referents" : [ {
+        "iri" : "Expr_2RealTessChatWidget20260423_9",
+        "relation" : "see",
+        "why" : "Verbatim citation of Tess's feedback on spam associations and trust downsides of SMS."
+      }, {
+        "iri" : "Position_EvaluatorChannelTrustTax",
+        "relation" : "extends",
+        "why" : "Direct witness grounding for the evaluator channel trust tax position."
+      } ],
+      "targets" : [ "Position_EvaluatorChannelTrustTax", "Narrative_InterviewFlywheel" ]
+    },
+    "why" : "Direct quotation and restatement of Tess's feedback already recorded in Expr_2RealTessChatWidget20260423_9.",
+    "consulted" : [ "Position_EvaluatorChannelTrustTax", "Expr_2RealTessChatWidget20260423_9" ]
+  }, {
+    "commentary_local_id" : "src-29",
+    "phrase" : "`Archetype_KnowledgeRichConsumer` (Stake): *\"Main barrier is technical (MCP installation, GitHub abstraction), not behavioral.\"* Tess is named there as a canonical example.",
+    "verdict" : "confident",
+    "binding" : {
+      "referents" : [ {
+        "iri" : "Position_ArchetypeRelationalDisambiguation",
+        "relation" : "see",
+        "why" : "Disentangles Tess's classification from the Knowledge-Rich Consumer archetype."
+      }, {
+        "iri" : "Narrative_BehavioralProgressionPackaging",
+        "relation" : "see",
+        "why" : "The narrative mapping user archetypes and behavioral tiers."
+      } ],
+      "targets" : [ "Position_ArchetypeRelationalDisambiguation", "Narrative_BehavioralProgressionPackaging" ]
+    },
+    "why" : "Refers to the prior classification of Tess as Knowledge-Rich Consumer and the resulting disambiguation.",
+    "consulted" : [ "Position_ArchetypeRelationalDisambiguation", "Narrative_BehavioralProgressionPackaging", "Expr_2RealTessChatWidget20260423_38" ]
+  }, {
+    "commentary_local_id" : "src-33",
+    "phrase" : "`Claim_NarrAppliesAsOntologyExtension` (Notion, deferred post-launch): a `narr:appliesAs` predicate with values `current | nearFuture | exploration | speculative`",
+    "verdict" : "new",
+    "why" : "No prior node in the active perspective matches this deferred ontology extension predicate.",
+    "consulted" : [ "Thematic", "Narrative_InstallableExpertise", "Narrative_InterviewFlywheel" ]
+  }, {
+    "commentary_local_id" : "src-39",
+    "phrase" : "tagline: \"The product is a phone number.\"",
+    "verdict" : "confident",
+    "binding" : {
+      "referents" : [ {
+        "iri" : "Expr_2RealTessChatWidget20260423_27",
+        "relation" : "supersedes",
+        "why" : "Explicitly names and supersedes the prior tagline claim that SMS/phone number is the product."
+      } ],
+      "targets" : [ "Narrative_InterviewFlywheel" ]
+    },
+    "why" : "Refers to the over-embedded tagline in Identity which walked back in Expr_2RealTessChatWidget20260423_27.",
+    "consulted" : [ "Narrative_InterviewFlywheel", "Expr_2RealTessChatWidget20260423_27", "Expr_2RealTessChatWidget20260423_28" ]
+  }, {
+    "commentary_local_id" : "src-40",
+    "phrase" : "This tagline should be **superseded**.",
+    "verdict" : "confident",
+    "binding" : {
+      "referents" : [ {
+        "iri" : "Expr_2RealTessChatWidget20260423_27",
+        "relation" : "supersedes",
+        "why" : "Directive replacing the 'SMS is the product' tagline."
+      } ],
+      "targets" : [ "Narrative_InterviewFlywheel" ]
+    },
+    "why" : "Explicit directive to mark the prior SMS-as-product claim as superseded.",
+    "consulted" : [ "Narrative_InterviewFlywheel", "Expr_2RealTessChatWidget20260423_27" ]
+  }, {
+    "commentary_local_id" : "src-52",
+    "phrase" : "- Related claims in graph: Claim_CoreValuePropInstallExpertise (Foundation), Claim_SMSFormatHonesty (Foundation), Archetype_KnowledgeRichConsumer (Stake), Claim_NarrAppliesAsOntologyExtension (Notion)\n- Tagline being superseded: \"The product is a phone number.\"",
+    "verdict" : "confident",
+    "binding" : {
+      "referents" : [ {
+        "iri" : "Position_InstallableExpertiseCategoryMoat",
+        "relation" : "see",
+        "why" : "Summary index referencing core value prop of installable expertise."
+      }, {
+        "iri" : "Position_EvaluatorChannelTrustTax",
+        "relation" : "see",
+        "why" : "Summary index referencing SMS format honesty."
+      }, {
+        "iri" : "Position_ArchetypeRelationalDisambiguation",
+        "relation" : "see",
+        "why" : "Summary index referencing Knowledge-Rich Consumer archetype."
+      }, {
+        "iri" : "Expr_2RealTessChatWidget20260423_27",
+        "relation" : "supersedes",
+        "why" : "Summary index noting supersession of the phone number tagline."
+      } ],
+      "targets" : [ "Narrative_InterviewFlywheel", "Narrative_InstallableExpertise" ]
+    },
+    "why" : "Bundle index segment resolving explicitly to the four primary referenced positions and expressions.",
+    "consulted" : [ "Narrative_InterviewFlywheel", "Narrative_InstallableExpertise", "Position_InstallableExpertiseCategoryMoat", "Position_EvaluatorChannelTrustTax", "Position_ArchetypeRelationalDisambiguation", "Expr_2RealTessChatWidget20260423_27" ]
+  } ],
+  "unreferenced_commentary" : [ "src-1", "src-2", "src-3", "src-4", "src-5", "src-6", "src-9", "src-11", "src-12", "src-13", "src-14", "src-17", "src-18", "src-19", "src-23", "src-24", "src-25", "src-26", "src-30", "src-31", "src-32", "src-34", "src-36", "src-37", "src-38", "src-41", "src-42", "src-43", "src-44", "src-45", "src-48", "src-49", "src-50", "src-51" ]
+}
