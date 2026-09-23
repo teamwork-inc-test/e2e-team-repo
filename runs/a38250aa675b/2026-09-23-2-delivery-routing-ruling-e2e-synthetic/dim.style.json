@@ -1,0 +1,28 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-2",
+    "regions" : [ "antithesis", "parallelism" ],
+    "evidence" : [ {
+      "quote" : "one bundle per run per person, not one\n> message per skill",
+      "kind" : "framing-move"
+    }, {
+      "quote" : "one thing to read, not four",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Dual balanced antithetical clauses contrasting single aggregation against fragmented delivery using matched syntactic opposition ('one X not Y').",
+    "reported" : false,
+    "direction" : {
+      "verdict" : "mint",
+      "node" : "mint-1"
+    }
+  } ],
+  "unmarked" : [ "src-1", "src-3", "src-4" ],
+  "mints" : [ {
+    "id" : "mint-1",
+    "name" : "RuleAsMatchedOpposition",
+    "title" : "crystallize a rule into matched opposed clauses",
+    "frame" : "Does the utterance state a normative rule or boundary by contrasting what should happen directly against what should not in parallel structure?",
+    "regions" : [ "antithesis", "parallelism" ]
+  } ],
+  "region_mints" : [ ]
+}
