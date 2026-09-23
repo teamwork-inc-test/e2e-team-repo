@@ -1,0 +1,32 @@
+{
+  "positions" : [ {
+    "name" : "PreCutoverDataQualityGateEnforcement",
+    "frame" : "how should pre-cutover source data quality thresholds be defined and tested against migration readiness?",
+    "members" : [ "src-13", "src-14", "src-15", "src-17", "src-21", "src-23", "src-27" ],
+    "why" : "The discussion distinguishes source data health from transfer validation, framing an effective quality gate as an empirical threshold on the source system that must genuinely possess the power and calibrated likelihood of pausing a cutover.",
+    "under" : [ "CutoverStrategy" ]
+  }, {
+    "name" : "CutoverGatekeeperRoleSeparation",
+    "frame" : "how should decision rights for cutover gate approvals be separated from schedule delivery incentives?",
+    "members" : [ "src-17", "src-19" ],
+    "why" : "This read focuses on governance architecture: separating quality gate veto authority from the programme manager whose delivery schedule creates an inherent incentive conflict.",
+    "under" : [ "CutoverStrategy" ]
+  }, {
+    "name" : "ProactiveGovernanceRiskDisclosure",
+    "frame" : "how should unresolved programme vulnerabilities and missing controls be presented to oversight bodies?",
+    "members" : [ "src-28", "src-29" ],
+    "why" : "The exchange examines strategic transparency with board governance, contrasting proactive escalation of identified gaps with the governance fallout of discovered omissions.",
+    "under" : [ "CutoverStrategy" ]
+  } ],
+  "attaches" : [ {
+    "position" : "Position_SiteCutoverSequencingStrategy",
+    "members" : [ "src-3", "src-4", "src-5", "src-7", "src-9" ],
+    "why" : "Tony reinforces the sequential site cutover strategy with empirical comparative evidence from past programmes and advises documenting the rationale early to defend against mid-programme pressure to collapse the schedule."
+  }, {
+    "position" : "Position_LegacyRecordArchivalStrategy",
+    "members" : [ "src-25", "src-26" ],
+    "why" : "Tony endorses the requirement to extract closed history into an archive early rather than deferring it, noting the long-term operational regret that occurs when legacy archives are neglected."
+  } ],
+  "position_revisions" : [ ],
+  "ungrouped" : [ "src-1", "src-2", "src-6", "src-8", "src-10", "src-11", "src-12", "src-16", "src-18", "src-20", "src-22", "src-24" ]
+}
