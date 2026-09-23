@@ -1,0 +1,81 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-6",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "I have a process where I extract everything that builds into a design language which gets tokenized.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Freya describes his current operational working method directly as factual practice.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-8",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "It doesn't look anything like a Claude website. It looks like the initial designs.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Unhedged empirical assertion of the outcome of his process.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-10",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "without my input through my own lens, it breaks, it falls down. So that shows that the actual unique part is by [my] lens",
+      "kind" : "plain-assertion"
+    }, {
+      "quote" : "I suppose",
+      "kind" : "hedge"
+    } ],
+    "why" : "Asserts a core finding from his experiments while slightly hedging the exact equivalence to Tanya's system.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-11",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "It sounds like you're doing a very similar process",
+      "kind" : "hedge"
+    }, {
+      "quote" : "I built a bunch of files that represent how were thinking",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Tanya claims historical continuity with her Northwind workflow, framed through analogical comparison.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-13",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "these AI identities have the opportunity to be the brand's identity.",
+      "kind" : "plain-assertion"
+    }, {
+      "quote" : "literally",
+      "kind" : "intensifier"
+    } ],
+    "why" : "Strong assertive claim projecting the strategic capability of AI brand identity.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-17",
+    "regions" : [ "notion" ],
+    "evidence" : [ {
+      "quote" : "that does seem like the future to me.",
+      "kind" : "hedge"
+    }, {
+      "quote" : "I haven't delivered an AI perspective as an alternative to a deck to a consulting client yet.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Acknowledges lack of execution and frames future orientation with epistemic softening ('seem like').",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-19",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "what someone is hiring you for now is a static asset",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Direct assertive characterization of existing client consulting deliverables.",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-1", "src-2", "src-3", "src-4", "src-5", "src-7", "src-9", "src-12", "src-14", "src-15", "src-16", "src-18", "src-20" ],
+  "unmarked_rest" : false,
+  "mints" : [ ]
+}
