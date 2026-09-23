@@ -43,10 +43,11 @@
       "n:Expr_1E2EDefaultRef1788946504627_1" : 1,
       "n:Expr_1E2EDefaultRef1789032827498_1" : 1,
       "n:Expr_1E2EDefaultRef1789119299167_1" : 1,
-      "n:Expr_1E2EDefaultRef1789205481061_1" : 1
+      "n:Expr_1E2EDefaultRef1789205481061_1" : 1,
+      "n:Expr_1E2EDefaultRef1789293262875_1" : 1
     }
   },
-  "generated_from" : "5c64cda027d4023f9839532ff6d25201db9dca30",
+  "generated_from" : "3ee2cd79e9af3ae2e99489cf24ba94be93b0f48e",
   "hubs" : {
     "n:Actor_Tanya_Staging" : 2,
     "n:DesignTradeoffs" : 2,
@@ -66,7 +67,7 @@
     "n" : "https://aswritten.ai/narrative#",
     "o" : "https://aswritten.ai/ns/narrative#"
   },
-  "runs_sha" : "6b8cb3c5d91db2e2f2d77d785e6e0e2369d7fce6",
-  "sittings" : 148,
+  "runs_sha" : "8a208771caed50e2a1c1af1d185cba030e3a96b9",
+  "sittings" : 155,
   "spec" : "fidelity-bands/1"
 }
