@@ -1,0 +1,43 @@
+@prefix narr: <https://aswritten.ai/narrative#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+GRAPH <https://aswritten.ai/narrative#Digest_Actor_XavierExpert> {
+  <https://aswritten.ai/narrative#Digest_Actor_XavierExpert> a narr:Digest ;
+    narr:digestOf <https://aswritten.ai/narrative#Actor_XavierExpert> ;
+    narr:childCount "18"^^xsd:integer ;
+    narr:generatedFrom "37b6bf2c84965cc245e031aab2e50ce7a0484a10" ;
+    narr:narration """Xavier's voice here runs from [inviting scrutiny before the steering group pushes](narr:Expr_1HalyardWeekly20260908_10) through two technical positions. The first builds from [a shared-dispatch-desk argument for pairing two sites](narr:Expr_1HalyardWeekly20260908_12), which he then stress-tests himself by [flagging the thinness of its evidence](narr:Expr_1HalyardWeekly20260908_21). He grounds [a hard replica-only rule during cutover](narr:Expr_1HalyardWeekly20260908_26) in [a past outage caused by reporting under load](narr:Expr_1HalyardWeekly20260908_24) and prices the tradeoff with [a replica-lag range](narr:Expr_1HalyardWeekly20260908_28). The second thread runs from [an open question on reference-data ownership](narr:Expr_1HalyardWeekly20260908_34) to [a firm vendor-stays-system-of-record position](narr:Expr_1HalyardWeekly20260908_36) argued via [a drift risk between sites](narr:Expr_1HalyardWeekly20260908_38). A week later he [ranks competing arguments for the same rule](narr:Expr_2HalyardOpsReadiness20260915_15), offers [a learning-curve rationale](narr:Expr_2HalyardOpsReadiness20260915_19), and [names a previously unstated assumption both rules rest on](narr:Expr_2HalyardOpsReadiness20260915_25).""" ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_10> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_12> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_14> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_21> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_24> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_26> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_28> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_3> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_30> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_32> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_34> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_36> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_38> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_40> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_44> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_15> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_19> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_25> ;
+    narr:keyPhrase [ narr:text "during cutover, every reporting read comes off the replica" ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_26> ] ;
+    narr:keyPhrase [ narr:text "a four-minute-stale number is fine and an outage is not" ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_28> ] ;
+    narr:keyPhrase [ narr:text "The vendor stays the system of record for reference data until the last site is live" ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_36> ] ;
+    narr:keyPhrase [ narr:text "It's one site, one season." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_21> ] ;
+    narr:keyPhrase [ narr:text "If we ever went parallel, both of those would need rewriting." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_25> ] ;
+    narr:variation [ narr:text "He undercuts his own mainline: the shared-desk argument rests on a single site and season of evidence, which he says aloud rather than smoothing over." ; narr:over <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_21> ] ;
+    narr:variation [ narr:text "Both firm rules carry a stated fragility — they assume one cutover window at a time, and a parallel cutover would force a rewrite." ; narr:over <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_25> ] ;
+    narr:variation [ narr:text "He distinguishes his drift-risk argument from a colleague's hard-constraint framing of the same rule, ranking his own case as not the strongest." ; narr:over <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_15> ] ;
+    narr:voiceTrait [ narr:dim "power" ; narr:reading "expert-plus-rational-persuasion — he argues from evidence and mechanism, and invites challenge rather than asserting rank" ; narr:text "Not because I disagree — because the steering group will push and I'd rather they push here." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_10> ] ;
+    narr:voiceTrait [ narr:dim "conviction" ; narr:reading "claim-register conviction — firm positions stated as rules, with the reasoning attached" ; narr:text "Not \"should\", not \"where possible\" — reporting does not touch the live system during a cutover window, full stop." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_26> ] ;
+    narr:voiceTrait [ narr:dim "temporal" ; narr:reading "concrete and dated — he argues from specific past incidents and named sites, moving to the abstract only when pricing a principle" ; narr:text "Reporting on top of that is what took Dockside down for forty minutes." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_24> ] ;
+    narr:voiceTrait [ narr:dim "value" ; narr:reading "conservation-leaning — he prices what stability is worth against the cost of waiting" ; narr:text "Keeping one source of truth through the whole programme is worth more than getting ownership early." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_38> ] ;
+    narr:voiceTrait [ narr:dim "relational" ; narr:reading "equality-matching with the group, market-pricing when weighing tradeoffs" ; narr:text "Can I push on it for a second?" ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_10> ] ;
+    narr:voiceTrait [ narr:dim "register" ; narr:reading "technical baseline, shifting formal when putting something on the record" ; narr:text "For the record, that's the strongest argument anyone's made for it." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_15> ] ;
+    narr:writer "z-ai/glm-5.3-flash:nitro" .
+}

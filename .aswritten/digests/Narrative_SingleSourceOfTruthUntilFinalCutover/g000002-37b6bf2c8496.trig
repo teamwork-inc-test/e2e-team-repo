@@ -1,0 +1,33 @@
+@prefix narr: <https://aswritten.ai/narrative#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+GRAPH <https://aswritten.ai/narrative#Digest_Narrative_SingleSourceOfTruthUntilFinalCutover> {
+  <https://aswritten.ai/narrative#Digest_Narrative_SingleSourceOfTruthUntilFinalCutover> a narr:Digest ;
+    narr:digestOf <https://aswritten.ai/narrative#Narrative_SingleSourceOfTruthUntilFinalCutover> ;
+    narr:childCount "8"^^xsd:integer ;
+    narr:generatedFrom "37b6bf2c84965cc245e031aab2e50ce7a0484a10" ;
+    narr:narration """This narrative argues that [the vendor stays the system of record for reference data until the last site is live](narr:Expr_1HalyardWeekly20260908_36), grounded in [the drift risk of split ownership — divergence discovered via a mis-priced consignment weeks later](narr:Expr_1HalyardWeekly20260908_38). [An accountability corollary](narr:Expr_1HalyardWeekly20260908_39) keeps blame with the vendor through the programme, and [site-team assent](narr:Expr_1HalyardWeekly20260908_41) folds it into [a steering-group summary of the rollout cadence](narr:Expr_1HalyardWeekly20260908_42). The arc opens on [the framing question of when ownership actually transfers](narr:Expr_1HalyardWeekly20260908_34). A second session adds a hidden dependency: [the rule assumes one cutover window open at a time, and would need rewriting under a parallel rollout](narr:Expr_2HalyardOpsReadiness20260915_25), which draws [a decision to stay sequential](narr:Expr_2HalyardOpsReadiness20260915_26). Nothing here records the vendor's own agreement.""" ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_34> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_36> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_38> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_39> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_41> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_42> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_25> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_26> ;
+    narr:keyPhrase [ narr:text "The vendor stays the system of record for reference data until the last site is live." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_36> ] ;
+    narr:keyPhrase [ narr:text "we take ownership on the day Clyde goes green and not a day earlier" ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_36> ] ;
+    narr:keyPhrase [ narr:text "Keeping one source of truth through the whole programme is worth more than getting ownership early." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_38> ] ;
+    narr:keyPhrase [ narr:text "Their data, their problem, right up until the end." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_39> ] ;
+    narr:keyPhrase [ narr:text "If we ever went parallel, both of those would need rewriting." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_25> ] ;
+    narr:keyPhrase [ narr:text "Then let's not go parallel." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_26> ] ;
+    narr:variation [ narr:text "The rule rests on an unstated assumption — one cutover window at a time — that a parallel rollout would break, and the response was to foreclose parallel rather than rewrite the rule." ; narr:over <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_25> ; narr:over <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_26> ] ;
+    narr:variation [ narr:text "The vendor's own agreement to remain system of record is nowhere recorded; the position is ratified internally only." ; narr:over <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_36> ; narr:over <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_42> ] ;
+    narr:voiceTrait [ narr:dim "conviction" ; narr:reading "claims argued to decisions — positions are stated as claims and then converted by assent into settled calls" ; narr:text "Keeping one source of truth through the whole programme is worth more than getting ownership early." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_38> ] ;
+    narr:voiceTrait [ narr:dim "power" ; narr:reading "expert rational-persuasion doing the work, with legitimate authority closing the call in one line" ; narr:text "Then let's not go parallel." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_26> ] ;
+    narr:voiceTrait [ narr:dim "temporal" ; narr:reading "future-irrealis framing for the rule itself, abstract-present for the reasoning beneath it" ; narr:text "we take ownership on the day Clyde goes green and not a day earlier" ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_36> ] ;
+    narr:voiceTrait [ narr:dim "value" ; narr:reading "conservation — protecting against loss outweighs early gain" ; narr:text "You find that out from a mis-priced consignment three weeks later." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_38> ] ;
+    narr:voiceTrait [ narr:dim "style" ; narr:reading "parallelism — paired clauses carry the argument's rhythm" ; narr:text "Their data, their problem, right up until the end." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_39> ] ;
+    narr:voiceTrait [ narr:dim "register" ; narr:reading "technical when naming system dependencies" ; narr:text "The replica rule and the reference-data rule both assume one cutover window open at a time" ; narr:phraseSource <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_25> ] ;
+    narr:writer "z-ai/glm-5.3-flash:nitro" .
+}

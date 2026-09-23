@@ -1,5 +1,14 @@
 {
   "children" : {
+    "n:Actor_FreyaFree" : {
+      "n:Expr_2HalyardOpsReadiness20260915_11" : 1,
+      "n:Expr_2HalyardOpsReadiness20260915_12" : 2,
+      "n:Expr_2HalyardOpsReadiness20260915_14" : 1,
+      "n:Expr_2HalyardOpsReadiness20260915_16" : 2,
+      "n:Expr_2HalyardOpsReadiness20260915_22" : 1,
+      "n:Expr_2HalyardOpsReadiness20260915_28" : 1,
+      "n:Expr_2HalyardOpsReadiness20260915_9" : 1
+    },
     "n:Actor_TanyaTeam" : {
       "n:Expr_1HalyardWeekly20260908_1" : 1,
       "n:Expr_1HalyardWeekly20260908_13" : 1,
@@ -8,9 +17,15 @@
       "n:Expr_1HalyardWeekly20260908_25" : 1,
       "n:Expr_1HalyardWeekly20260908_31" : 2,
       "n:Expr_1HalyardWeekly20260908_39" : 1,
-      "n:Expr_1HalyardWeekly20260908_42" : 1,
+      "n:Expr_1HalyardWeekly20260908_42" : 2,
       "n:Expr_1HalyardWeekly20260908_6" : 1,
-      "n:Expr_1HalyardWeekly20260908_8" : 1
+      "n:Expr_1HalyardWeekly20260908_8" : 1,
+      "n:Expr_2HalyardOpsReadiness20260915_17" : 1,
+      "n:Expr_2HalyardOpsReadiness20260915_2" : 1,
+      "n:Expr_2HalyardOpsReadiness20260915_26" : 1,
+      "n:Expr_2HalyardOpsReadiness20260915_29" : 1,
+      "n:Expr_2HalyardOpsReadiness20260915_6" : 1,
+      "n:Expr_2HalyardOpsReadiness20260915_7" : 1
     },
     "n:Actor_TinaTeam" : {
       "n:Expr_1HalyardWeekly20260908_15" : 2,
@@ -27,9 +42,10 @@
       "n:Expr_1HalyardWeekly20260908_24" : 1,
       "n:Expr_1HalyardWeekly20260908_26" : 2,
       "n:Expr_1HalyardWeekly20260908_28" : 2,
-      "n:Expr_1HalyardWeekly20260908_34" : 1,
       "n:Expr_1HalyardWeekly20260908_36" : 2,
-      "n:Expr_1HalyardWeekly20260908_38" : 1
+      "n:Expr_1HalyardWeekly20260908_38" : 1,
+      "n:Expr_2HalyardOpsReadiness20260915_15" : 1,
+      "n:Expr_2HalyardOpsReadiness20260915_25" : 1
     },
     "n:CutoverStrategy" : {
       "n:Expr_1HalyardWeekly20260908_13" : 1,
@@ -40,7 +56,8 @@
       "n:Expr_1HalyardWeekly20260908_8" : 1,
       "n:Narrative_ContainedPainOverUnboundedRisk" : 2,
       "n:Narrative_SingleSourceOfTruthUntilFinalCutover" : 1,
-      "n:Narrative_StrictWorkloadIsolationDuringCutover" : 1
+      "n:Narrative_StrictWorkloadIsolationDuringCutover" : 1,
+      "n:Position_CrossSiteOperationalLearning" : 2
     },
     "n:Narrative_AntiSlackPositioning" : {
       "n:Position_AntiPatternRealtimeChat" : 2,
@@ -57,29 +74,46 @@
       "n:Expr_1HalyardWeekly20260908_20" : 2,
       "n:Expr_1HalyardWeekly20260908_22" : 1,
       "n:Expr_1HalyardWeekly20260908_42" : 2,
-      "n:Expr_1HalyardWeekly20260908_8" : 1
+      "n:Expr_1HalyardWeekly20260908_8" : 1,
+      "n:Expr_2HalyardOpsReadiness20260915_12" : 1,
+      "n:Expr_2HalyardOpsReadiness20260915_16" : 2,
+      "n:Expr_2HalyardOpsReadiness20260915_17" : 1,
+      "n:Expr_2HalyardOpsReadiness20260915_2" : 1,
+      "n:Expr_2HalyardOpsReadiness20260915_26" : 1,
+      "n:Expr_2HalyardOpsReadiness20260915_29" : 1,
+      "n:Expr_2HalyardOpsReadiness20260915_6" : 1,
+      "n:Expr_2HalyardOpsReadiness20260915_7" : 1
     },
     "n:Narrative_SingleSourceOfTruthUntilFinalCutover" : {
-      "n:Expr_1HalyardWeekly20260908_34" : 1,
       "n:Expr_1HalyardWeekly20260908_36" : 1,
       "n:Expr_1HalyardWeekly20260908_38" : 1,
       "n:Expr_1HalyardWeekly20260908_39" : 1,
-      "n:Expr_1HalyardWeekly20260908_42" : 2
+      "n:Expr_1HalyardWeekly20260908_42" : 2,
+      "n:Expr_2HalyardOpsReadiness20260915_25" : 1,
+      "n:Expr_2HalyardOpsReadiness20260915_26" : 2
     },
     "n:Narrative_StrictWorkloadIsolationDuringCutover" : {
-      "n:Expr_1HalyardWeekly20260908_24" : 1,
-      "n:Expr_1HalyardWeekly20260908_25" : 1,
       "n:Expr_1HalyardWeekly20260908_26" : 1,
       "n:Expr_1HalyardWeekly20260908_28" : 1,
       "n:Expr_1HalyardWeekly20260908_31" : 2,
-      "n:Expr_1HalyardWeekly20260908_42" : 2
+      "n:Expr_1HalyardWeekly20260908_42" : 2,
+      "n:Expr_2HalyardOpsReadiness20260915_25" : 1,
+      "n:Expr_2HalyardOpsReadiness20260915_26" : 1
+    },
+    "n:Position_CrossSiteOperationalLearning" : {
+      "n:Expr_2HalyardOpsReadiness20260915_18" : 1,
+      "n:Expr_2HalyardOpsReadiness20260915_19" : 1,
+      "n:Expr_2HalyardOpsReadiness20260915_20" : 1,
+      "n:Expr_2HalyardOpsReadiness20260915_21" : 1,
+      "n:Expr_2HalyardOpsReadiness20260915_22" : 2
     },
     "n:Position_PostGoLiveSoakDurationBasis" : {
       "n:Expr_1HalyardWeekly20260908_17" : 1,
       "n:Expr_1HalyardWeekly20260908_19" : 1,
       "n:Expr_1HalyardWeekly20260908_20" : 2,
-      "n:Expr_1HalyardWeekly20260908_21" : 1,
-      "n:Expr_1HalyardWeekly20260908_22" : 1
+      "n:Expr_1HalyardWeekly20260908_22" : 1,
+      "n:Expr_2HalyardOpsReadiness20260915_28" : 1,
+      "n:Expr_2HalyardOpsReadiness20260915_29" : 2
     },
     "n:Position_ReferenceDataSourceOfRecordTransition" : {
       "n:Expr_1HalyardWeekly20260908_34" : 1,
@@ -89,15 +123,20 @@
       "n:Expr_1HalyardWeekly20260908_41" : 1
     },
     "n:Position_SiteCutoverSequencingStrategy" : {
-      "n:Expr_1HalyardWeekly20260908_12" : 1,
       "n:Expr_1HalyardWeekly20260908_13" : 1,
       "n:Expr_1HalyardWeekly20260908_15" : 1,
       "n:Expr_1HalyardWeekly20260908_16" : 2,
-      "n:Expr_1HalyardWeekly20260908_8" : 1
+      "n:Expr_1HalyardWeekly20260908_8" : 2,
+      "n:Expr_2HalyardOpsReadiness20260915_16" : 2,
+      "n:Expr_2HalyardOpsReadiness20260915_17" : 1,
+      "n:Expr_2HalyardOpsReadiness20260915_26" : 1,
+      "n:Expr_2HalyardOpsReadiness20260915_6" : 1,
+      "n:Expr_2HalyardOpsReadiness20260915_7" : 1
     }
   },
-  "generated_from" : "6554c93c5c55a181b729ea30886d1ffe6558631d",
+  "generated_from" : "37b6bf2c84965cc245e031aab2e50ce7a0484a10",
   "hubs" : {
+    "n:Actor_FreyaFree" : 1,
     "n:Actor_TanyaTeam" : 2,
     "n:Actor_TinaTeam" : 1,
     "n:Actor_XavierExpert" : 1,
@@ -106,9 +145,10 @@
     "n:Narrative_ContainedPainOverUnboundedRisk" : 2,
     "n:Narrative_SingleSourceOfTruthUntilFinalCutover" : 1,
     "n:Narrative_StrictWorkloadIsolationDuringCutover" : 1,
-    "n:Position_PostGoLiveSoakDurationBasis" : 2,
+    "n:Position_CrossSiteOperationalLearning" : 1,
+    "n:Position_PostGoLiveSoakDurationBasis" : 1,
     "n:Position_ReferenceDataSourceOfRecordTransition" : 1,
-    "n:Position_SiteCutoverSequencingStrategy" : 1
+    "n:Position_SiteCutoverSequencingStrategy" : 2
   },
   "params" : {
     "conviction-floor" : 2,
@@ -123,7 +163,7 @@
     "n" : "https://aswritten.ai/narrative#",
     "o" : "https://aswritten.ai/ns/narrative#"
   },
-  "runs_sha" : "2e67354b443badc46b201c8e0e482e71e1bab25c",
-  "sittings" : 149,
+  "runs_sha" : "86af26277b03c4b76e6b848d86ab9995576da11f",
+  "sittings" : 150,
   "spec" : "fidelity-bands/1"
 }

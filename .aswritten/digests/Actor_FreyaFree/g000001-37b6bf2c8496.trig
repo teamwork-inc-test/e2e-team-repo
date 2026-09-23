@@ -1,0 +1,40 @@
+@prefix narr: <https://aswritten.ai/narrative#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+GRAPH <https://aswritten.ai/narrative#Digest_Actor_FreyaFree> {
+  <https://aswritten.ai/narrative#Digest_Actor_FreyaFree> a narr:Digest ;
+    narr:digestOf <https://aswritten.ai/narrative#Actor_FreyaFree> ;
+    narr:childCount "13"^^xsd:integer ;
+    narr:generatedFrom "37b6bf2c84965cc245e031aab2e50ce7a0484a10" ;
+    narr:narration """Freya Free's expressions here trace a single exchange over cutover staffing, opening with [a request to lay out the plan](narr:Expr_2HalyardOpsReadiness20260915_5) and a brief [acknowledgment](narr:Expr_2HalyardOpsReadiness20260915_8) before she sets out [the staffing math behind a single region's rota](narr:Expr_2HalyardOpsReadiness20260915_11) and states flatly [that the needed people don't exist](narr:Expr_2HalyardOpsReadiness20260915_12). She reframes the disagreement from [risk to arithmetic](narr:Expr_2HalyardOpsReadiness20260915_14) and names [the one constraint that doesn't move](narr:Expr_2HalyardOpsReadiness20260915_16), while also pointing to [a second, non-staffing benefit of sequencing cutovers one at a time](narr:Expr_2HalyardOpsReadiness20260915_18) and confirming it with [a short affirmation](narr:Expr_2HalyardOpsReadiness20260915_20). She qualifies her own position by admitting [she'd still favor sequencing even with more staff, though less forcefully, and would lead with the staffing case before the steering group](narr:Expr_2HalyardOpsReadiness20260915_22), then sets [the condition she needs going forward](narr:Expr_2HalyardOpsReadiness20260915_28) and closes [settled](narr:Expr_2HalyardOpsReadiness20260915_30), having opened the exchange with [a claim that this is the only shape that works](narr:Expr_2HalyardOpsReadiness20260915_9) and [simple willingness](narr:Expr_2HalyardOpsReadiness20260915_4).""" ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_11> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_12> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_14> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_16> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_18> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_20> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_22> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_28> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_30> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_4> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_5> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_8> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_9> ;
+    narr:keyPhrase [ narr:text "I have eleven supervisors across the whole region." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_11> ] ;
+    narr:keyPhrase [ narr:text "I can't staff that. It isn't that it's hard, it's that the people don't exist." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_12> ] ;
+    narr:keyPhrase [ narr:text "Last week you were arguing it as risk. I'm telling you it's arithmetic." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_14> ] ;
+    narr:keyPhrase [ narr:text "It's the one that doesn't move. The others you can argue with." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_16> ] ;
+    narr:keyPhrase [ narr:text "The Dockside crew were visibly better on night two than night one, and that was the same night." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_18> ] ;
+    narr:keyPhrase [ narr:text "If you gave me twenty supervisors tomorrow I'd still say one at a time, for the learning reason." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_22> ] ;
+    narr:keyPhrase [ narr:text "If the soak gets eaten, my supervisors are back on the floor at the same time as the next cutover and we're in the same place by another route." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_28> ] ;
+    narr:variation [ narr:text "Her interlocutor framed the issue as risk; she insists it's arithmetic, not risk — a reframing, not a shared premise." ; narr:over <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_14> ] ;
+    narr:variation [ narr:text "The 'doesn't move' principle softens under her own hypothetical: with unlimited staff she'd still prefer sequencing but concedes she'd argue it less strongly." ; narr:over <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_16> ; narr:over <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_22> ] ;
+    narr:variation [ narr:text "Two distinct justifications for one-at-a-time sequencing coexist: the hard staffing shortage and a softer learning-curve benefit she flags as harder to put in front of the steering group." ; narr:over <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_11> ; narr:over <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_12> ; narr:over <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_18> ; narr:over <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_22> ] ;
+    narr:voiceTrait [ narr:dim "conviction" ; narr:reading "states her position as settled fact, then names one constraint as absolute against others she'll concede are arguable." ; narr:text "It's the one that doesn't move. The others you can argue with." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_16> ] ;
+    narr:voiceTrait [ narr:dim "style" ; narr:reading "argues through contrast pairs, setting the other side's frame against her own in the same breath." ; narr:text "Last week you were arguing it as risk. I'm telling you it's arithmetic." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_14> ] ;
+    narr:voiceTrait [ narr:dim "power" ; narr:reading "leads with operational specifics and headcount rather than appeals to authority." ; narr:text "I have eleven supervisors across the whole region." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_11> ] ;
+    narr:voiceTrait [ narr:dim "relational" ; narr:reading "shifts registers between deferring to a steering group and negotiating terms as an equal party." ; narr:text "The staffing argument is the one I'd put in front of the steering group." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_22> ] ;
+    narr:voiceTrait [ narr:dim "value" ; narr:reading "values her team's visible improvement across repeated runs, treating it as worth something a plan can't capture." ; narr:text "The Dockside crew were visibly better on night two than night one, and that was the same night." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_18> ] ;
+    narr:voiceTrait [ narr:dim "affect" ; narr:reading "closes agreements with short, settled affirmations rather than elaboration." ; narr:text "Then I'm content." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_30> ] ;
+    narr:writer "subscription.anthropic/claude-sonnet-5" .
+}
