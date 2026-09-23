@@ -1,0 +1,43 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "legitimate" ],
+    "evidence" : [ {
+      "quote" : "(team owner) ruled on where reaction delivery belongs:",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Explicit role-based positional authority invoked to issue a definitive ruling.",
+    "reported" : false,
+    "direction" : {
+      "verdict" : "mint",
+      "node" : "mint-1"
+    }
+  }, {
+    "segment_local_id" : "src-2",
+    "regions" : [ "rational-persuasion" ],
+    "evidence" : [ {
+      "quote" : "a person should get one thing to read, not four",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Backs the directive with reader-centric logical justification.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-3",
+    "regions" : [ "legitimate" ],
+    "evidence" : [ {
+      "quote" : "Tina pushed back on the batching window and Tanya held",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Maintains authority and holds the line against pushback.",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-4" ],
+  "mints" : [ {
+    "id" : "mint-1",
+    "name" : "PositionalOwnerRuling",
+    "title" : "owner ruling by formal role authority",
+    "frame" : "Does the speaker invoke formal role or ownership to issue an authoritative ruling?",
+    "regions" : [ "legitimate" ]
+  } ],
+  "region_mints" : [ ]
+}
