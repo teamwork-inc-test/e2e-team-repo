@@ -1,0 +1,26 @@
+{
+  "positions" : [ {
+    "name" : "SiteCutoverSequencingStrategy",
+    "frame" : "how should multi-site cutovers be sequenced when operational containment conflicts with local site friction?",
+    "members" : [ "src-8", "src-12", "src-13", "src-15", "src-16" ],
+    "why" : "Weighs the trade-off between bounded, contained operational friction (running dual systems at a shared desk) versus unbounded risk (attempting parallel site cutovers with shared staffing)."
+  }, {
+    "name" : "PostGoLiveSoakDurationBasis",
+    "frame" : "how is the minimum soak duration between site cutovers determined and validated?",
+    "members" : [ "src-17", "src-19", "src-20", "src-21", "src-22" ],
+    "why" : "Grounds the two-week soak policy in historical exception-queue stabilization data from the Dockside pilot, balancing empirical caution against pressure to shorten timelines."
+  }, {
+    "name" : "CutoverReportingReadIsolation",
+    "frame" : "how are reporting workloads isolated from production systems during high-load cutover windows?",
+    "members" : [ "src-24", "src-26", "src-28", "src-31" ],
+    "why" : "Establishes a mandatory runbook rule isolating production instances by offloading all reporting queries to replicas during cutovers, trading minor query latency for outage prevention."
+  }, {
+    "name" : "ReferenceDataSourceOfRecordTransition",
+    "frame" : "at what milestone in a multi-site rollout should reference data authority transfer from vendor to internal systems?",
+    "members" : [ "src-34", "src-36", "src-38", "src-39", "src-41" ],
+    "why" : "Determines that vendor reference data remains the single system of record throughout the entire migration programme until the final site (Clyde) goes live, preventing configuration drift."
+  } ],
+  "attaches" : [ ],
+  "position_revisions" : [ ],
+  "ungrouped" : [ "src-1", "src-2", "src-3", "src-4", "src-5", "src-6", "src-7", "src-9", "src-10", "src-11", "src-14", "src-18", "src-23", "src-25", "src-27", "src-29", "src-30", "src-32", "src-33", "src-35", "src-37", "src-40", "src-42", "src-43", "src-44", "src-45" ]
+}
