@@ -55,7 +55,7 @@
       "n:Position_ReactionDeliveryBundlingAndBatchingBoundary" : 2
     }
   },
-  "generated_from" : "411714723637e58c0009500fa410fa3461b7df91",
+  "generated_from" : "e243209c0431ecc9aaa3e6c2064a4a3943e79c30",
   "hubs" : {
     "n:Actor_Tanya_Staging" : 2,
     "n:DesignTradeoffs" : 2,
@@ -76,7 +76,7 @@
     "n" : "https://aswritten.ai/narrative#",
     "o" : "https://aswritten.ai/ns/narrative#"
   },
-  "runs_sha" : "ebca1a3f5f0d458cf09466bcfbdf24a3fcf4f56c",
+  "runs_sha" : "b610aa4c2665babb3d286c9da752b5a0880fedf2",
   "sittings" : 163,
   "spec" : "fidelity-bands/1"
 }
