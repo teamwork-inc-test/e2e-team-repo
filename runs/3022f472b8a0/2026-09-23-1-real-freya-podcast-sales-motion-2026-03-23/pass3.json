@@ -1,0 +1,113 @@
+{
+  "reconciliations" : [ ],
+  "standalone" : [ {
+    "segment_id" : "src-18",
+    "why" : "Verdict new: no prior observation or position matches Tina's quote."
+  }, {
+    "segment_id" : "src-1",
+    "why" : "Fresh witnessed commentary without prior graph referents to reconcile."
+  }, {
+    "segment_id" : "src-2",
+    "why" : "Fresh witnessed commentary without prior graph referents to reconcile."
+  }, {
+    "segment_id" : "src-3",
+    "why" : "Fresh witnessed commentary without prior graph referents to reconcile."
+  }, {
+    "segment_id" : "src-4",
+    "why" : "Fresh witnessed commentary without prior graph referents to reconcile."
+  }, {
+    "segment_id" : "src-5",
+    "why" : "Fresh witnessed commentary without prior graph referents to reconcile."
+  }, {
+    "segment_id" : "src-6",
+    "why" : "Fresh witnessed commentary without prior graph referents to reconcile."
+  }, {
+    "segment_id" : "src-8",
+    "why" : "Fresh witnessed commentary without prior graph referents to reconcile."
+  }, {
+    "segment_id" : "src-9",
+    "why" : "Fresh witnessed commentary without prior graph referents to reconcile."
+  }, {
+    "segment_id" : "src-10",
+    "why" : "Fresh witnessed commentary without prior graph referents to reconcile."
+  }, {
+    "segment_id" : "src-11",
+    "why" : "Fresh witnessed commentary without prior graph referents to reconcile."
+  }, {
+    "segment_id" : "src-12",
+    "why" : "Fresh witnessed commentary without prior graph referents to reconcile."
+  }, {
+    "segment_id" : "src-13",
+    "why" : "Fresh witnessed commentary without prior graph referents to reconcile."
+  }, {
+    "segment_id" : "src-16",
+    "why" : "Fresh witnessed commentary without prior graph referents to reconcile."
+  }, {
+    "segment_id" : "src-17",
+    "why" : "Fresh witnessed commentary without prior graph referents to reconcile."
+  }, {
+    "segment_id" : "src-20",
+    "why" : "Fresh witnessed commentary without prior graph referents to reconcile."
+  }, {
+    "segment_id" : "src-21",
+    "why" : "Fresh witnessed commentary without prior graph referents to reconcile."
+  }, {
+    "segment_id" : "src-22",
+    "why" : "Fresh witnessed commentary without prior graph referents to reconcile."
+  }, {
+    "segment_id" : "src-23",
+    "why" : "Fresh witnessed commentary without prior graph referents to reconcile."
+  }, {
+    "segment_id" : "src-25",
+    "why" : "Fresh witnessed commentary without prior graph referents to reconcile."
+  }, {
+    "segment_id" : "src-27",
+    "why" : "Fresh witnessed commentary without prior graph referents to reconcile."
+  }, {
+    "segment_id" : "src-29",
+    "why" : "Fresh witnessed commentary without prior graph referents to reconcile."
+  }, {
+    "segment_id" : "src-31",
+    "why" : "Fresh witnessed commentary without prior graph referents to reconcile."
+  }, {
+    "segment_id" : "src-33",
+    "why" : "Fresh witnessed commentary without prior graph referents to reconcile."
+  }, {
+    "segment_id" : "src-35",
+    "why" : "Fresh witnessed commentary without prior graph referents to reconcile."
+  }, {
+    "segment_id" : "src-36",
+    "why" : "Fresh witnessed commentary without prior graph referents to reconcile."
+  }, {
+    "segment_id" : "src-37",
+    "why" : "Fresh witnessed commentary without prior graph referents to reconcile."
+  }, {
+    "segment_id" : "src-38",
+    "why" : "Fresh witnessed commentary without prior graph referents to reconcile."
+  }, {
+    "segment_id" : "src-39",
+    "why" : "Fresh witnessed commentary without prior graph referents to reconcile."
+  }, {
+    "segment_id" : "src-40",
+    "why" : "Fresh witnessed commentary without prior graph referents to reconcile."
+  }, {
+    "segment_id" : "src-41",
+    "why" : "Fresh witnessed commentary without prior graph referents to reconcile."
+  }, {
+    "segment_id" : "src-42",
+    "why" : "Fresh witnessed commentary without prior graph referents to reconcile."
+  }, {
+    "segment_id" : "src-43",
+    "why" : "Fresh witnessed commentary without prior graph referents to reconcile."
+  }, {
+    "segment_id" : "src-44",
+    "why" : "Fresh witnessed commentary without prior graph referents to reconcile."
+  }, {
+    "segment_id" : "src-45",
+    "why" : "Fresh witnessed commentary without prior graph referents to reconcile."
+  }, {
+    "segment_id" : "src-46",
+    "why" : "Fresh witnessed commentary without prior graph referents to reconcile."
+  } ],
+  "held" : [ ]
+}
