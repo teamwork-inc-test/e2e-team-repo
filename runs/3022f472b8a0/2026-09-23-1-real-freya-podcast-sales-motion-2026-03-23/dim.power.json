@@ -1,0 +1,43 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-14",
+    "regions" : [ "expert" ],
+    "evidence" : [ {
+      "quote" : "Don't make people read text in a video.",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Freya exerts expert guidance via direct instruction on design practices.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-24",
+    "regions" : [ "inspirational-appeal" ],
+    "evidence" : [ {
+      "quote" : "Because what we need and the big narrative foundation is not intelligence is capability.",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Tanya reframes strategy around a higher-level vision of capability over mere information.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-32",
+    "regions" : [ "inspirational-appeal" ],
+    "evidence" : [ {
+      "quote" : "I'm more interested in developing the Apple to installable expertise than I am in giving you a toolbox.",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Tanya invokes an aspirational brand analogy to define strategic ambition.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-35",
+    "regions" : [ "legitimate" ],
+    "evidence" : [ {
+      "quote" : "Freya committed to:",
+      "kind" : "commitment-marker"
+    } ],
+    "why" : "Freya makes explicit operational commitments regarding deliverables.",
+    "reported" : true
+  } ],
+  "unmarked" : [ "src-1", "src-2", "src-3", "src-4", "src-5", "src-6", "src-7", "src-8", "src-9", "src-10", "src-11", "src-12", "src-13", "src-15", "src-16", "src-17", "src-18", "src-20", "src-21", "src-22", "src-23", "src-25", "src-26", "src-27", "src-28", "src-29", "src-30", "src-31", "src-33", "src-34", "src-36", "src-37", "src-38", "src-39", "src-40", "src-41", "src-42", "src-43", "src-44", "src-45", "src-46" ],
+  "unmarked_rest" : false,
+  "mints" : [ ],
+  "region_mints" : [ ]
+}
