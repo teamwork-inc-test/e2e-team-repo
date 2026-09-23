@@ -1,0 +1,47 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "past", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "ruled on where reaction delivery belongs:",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Narrative framing reporting a past, settled ruling on a specific system behavior.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-2",
+    "regions" : [ "present", "irrealis", "abstract" ],
+    "evidence" : [ {
+      "quote" : "we route every reaction through one bundle per run per person",
+      "kind" : "plain-assertion"
+    }, {
+      "quote" : "a person should get one thing to read",
+      "kind" : "modal-marker"
+    } ],
+    "why" : "Prescriptive policy stating an abstract design rule and normative requirement ('should').",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-3",
+    "regions" : [ "present", "realis", "abstract" ],
+    "evidence" : [ {
+      "quote" : "Tina pushed back on the batching window and Tanya held",
+      "kind" : "plain-assertion"
+    }, {
+      "quote" : "the bundle closes when\nthe run closes",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Describes an established rule and its structural operating condition.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-4",
+    "regions" : [ "past", "realis", "abstract" ],
+    "evidence" : [ {
+      "quote" : "The alternative considered and rejected was per-skill\ndelivery",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Recounts a past decision evaluating and rejecting an architectural alternative.",
+    "reported" : false
+  } ],
+  "unmarked" : [ ],
+  "unmarked_rest" : false
+}
