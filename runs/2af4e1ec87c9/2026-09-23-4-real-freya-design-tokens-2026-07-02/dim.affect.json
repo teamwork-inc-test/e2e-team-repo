@@ -1,0 +1,24 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-13",
+    "regions" : [ "activated-positive" ],
+    "evidence" : [ {
+      "quote" : "Like you can literally shape an AI that thinks like the brand and then let anyone use it across the org and it designs like [it].",
+      "kind" : "intensifier"
+    } ],
+    "why" : "Tanya speaks with energized enthusiasm and expansive vision ('literally shape an AI that thinks like the brand').",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-17",
+    "regions" : [ "calm-positive" ],
+    "evidence" : [ {
+      "quote" : "that does seem like the future to me.",
+      "kind" : "epistemic-verb"
+    } ],
+    "why" : "Tanya reflects with calm, settled conviction about where the practice is heading.",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-1", "src-2", "src-3", "src-4", "src-5", "src-6", "src-7", "src-8", "src-9", "src-10", "src-11", "src-12", "src-14", "src-15", "src-16", "src-18", "src-19", "src-20" ],
+  "mints" : [ ],
+  "region_mints" : [ ]
+}
