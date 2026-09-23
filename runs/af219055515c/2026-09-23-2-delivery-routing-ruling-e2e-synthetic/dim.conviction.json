@@ -1,0 +1,53 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "Tanya (team owner) ruled on where reaction delivery belongs:",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Framed explicitly as a formal ruling by the team owner on system architecture.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-2",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "we route every reaction through one bundle per run per person, not one\n> message per skill",
+      "kind" : "commitment-marker"
+    }, {
+      "quote" : "Tanya (team owner) ruled on where reaction delivery belongs:",
+      "kind" : "delivery"
+    } ],
+    "why" : "Operational routing rule issued under an authoritative ruling context.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-3",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "Tina pushed back on the batching window",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Reported pushback contesting a parameter, representing Tina's counter-claim.",
+    "reported" : true
+  }, {
+    "segment_local_id" : "src-4",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "Tanya held: the bundle closes when\nthe run closes",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Formal holding settling the edge-case handling definitively.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-5",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "The alternative considered and rejected was per-skill\ndelivery",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Explicit rejection of an alternative architecture establishes settled decision.",
+    "reported" : false
+  } ],
+  "unmarked" : [ ],
+  "mints" : [ ]
+}
