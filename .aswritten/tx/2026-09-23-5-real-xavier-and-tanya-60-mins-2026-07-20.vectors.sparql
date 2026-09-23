@@ -1,0 +1,1327 @@
+PREFIX narr: <https://aswritten.ai/narrative#>
+PREFIX aswr: <https://aswritten.ai/aswr#>
+PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX dct:  <http://purl.org/dc/terms/>
+PREFIX xsd:  <http://www.w3.org/2001/XMLSchema#>
+PREFIX oa:   <http://www.w3.org/ns/oa#>
+PREFIX xkos: <http://rdf-vocabulary.ddialliance.org/xkos#>
+
+INSERT DATA {
+  aswr:Tx_20260923T184446Z a prov:Activity ;
+      prov:generatedAtTime "2026-09-23T18:44:46Z"^^xsd:dateTime ;
+      prov:wasAssociatedWith "aswritten.ai" ;
+      prov:wasAttributedTo "scarlet@aswritten.ai" ;
+      aswr:pipelinePin "8dd07a49bda8" ;
+      aswr:originPath ".aswritten/memories/2026-09-23-5-real-xavier-and-tanya-60-mins-2026-07-20.md" ;
+      dct:title "Multipass fragment: 5RealXavierAndTanya60Mins20260720" ;
+      prov:generated narr:VecAffect_5RealXavierAndTanya60Mins20260720_7, narr:VecAffect_5RealXavierAndTanya60Mins20260720_9, narr:VecAffect_5RealXavierAndTanya60Mins20260720_11, narr:VecAffect_5RealXavierAndTanya60Mins20260720_37, narr:VecAffect_5RealXavierAndTanya60Mins20260720_67, narr:VecAffect_5RealXavierAndTanya60Mins20260720_68, narr:VecAffect_5RealXavierAndTanya60Mins20260720_77, narr:VecAffect_5RealXavierAndTanya60Mins20260720_140, narr:VecAffect_5RealXavierAndTanya60Mins20260720_141, narr:VecAffect_5RealXavierAndTanya60Mins20260720_151, narr:DirConviction_OperatingThesisAsBedrock, narr:VecConviction_5RealXavierAndTanya60Mins20260720_79, narr:VecConviction_5RealXavierAndTanya60Mins20260720_80, narr:VecConviction_5RealXavierAndTanya60Mins20260720_87, narr:VecConviction_5RealXavierAndTanya60Mins20260720_105, narr:VecConviction_5RealXavierAndTanya60Mins20260720_109, narr:VecConviction_5RealXavierAndTanya60Mins20260720_110, narr:VecConviction_5RealXavierAndTanya60Mins20260720_140, narr:VecConviction_5RealXavierAndTanya60Mins20260720_143, narr:VecConviction_5RealXavierAndTanya60Mins20260720_155, narr:VecConviction_5RealXavierAndTanya60Mins20260720_178, narr:VecConviction_5RealXavierAndTanya60Mins20260720_191, narr:VecConviction_5RealXavierAndTanya60Mins20260720_222, narr:VecPower_5RealXavierAndTanya60Mins20260720_85, narr:VecPower_5RealXavierAndTanya60Mins20260720_99, narr:VecPower_5RealXavierAndTanya60Mins20260720_100, narr:VecPower_5RealXavierAndTanya60Mins20260720_103, narr:VecPower_5RealXavierAndTanya60Mins20260720_143, narr:VecPower_5RealXavierAndTanya60Mins20260720_177, narr:VecPower_5RealXavierAndTanya60Mins20260720_183, narr:VecPower_5RealXavierAndTanya60Mins20260720_193, narr:VecPower_5RealXavierAndTanya60Mins20260720_199, narr:VecPower_5RealXavierAndTanya60Mins20260720_217, narr:DirRegister_OntologicalProvenanceJargon, narr:VecRegister_5RealXavierAndTanya60Mins20260720_37, narr:VecRegister_5RealXavierAndTanya60Mins20260720_59, narr:VecRegister_5RealXavierAndTanya60Mins20260720_77, narr:VecRegister_5RealXavierAndTanya60Mins20260720_82, narr:VecRegister_5RealXavierAndTanya60Mins20260720_83, narr:VecRegister_5RealXavierAndTanya60Mins20260720_105, narr:VecRegister_5RealXavierAndTanya60Mins20260720_185, narr:VecRelational_5RealXavierAndTanya60Mins20260720_2, narr:VecRelational_5RealXavierAndTanya60Mins20260720_27, narr:VecRelational_5RealXavierAndTanya60Mins20260720_31, narr:VecRelational_5RealXavierAndTanya60Mins20260720_37, narr:VecRelational_5RealXavierAndTanya60Mins20260720_100, narr:VecRelational_5RealXavierAndTanya60Mins20260720_119, narr:VecRelational_5RealXavierAndTanya60Mins20260720_125, narr:VecRelational_5RealXavierAndTanya60Mins20260720_135, narr:VecRelational_5RealXavierAndTanya60Mins20260720_177, narr:VecRelational_5RealXavierAndTanya60Mins20260720_199, narr:VecRelational_5RealXavierAndTanya60Mins20260720_205, narr:VecRelational_5RealXavierAndTanya60Mins20260720_214, narr:VecStyle_5RealXavierAndTanya60Mins20260720_20, narr:VecStyle_5RealXavierAndTanya60Mins20260720_23, narr:VecStyle_5RealXavierAndTanya60Mins20260720_31, narr:VecStyle_5RealXavierAndTanya60Mins20260720_35, narr:VecStyle_5RealXavierAndTanya60Mins20260720_43, narr:VecStyle_5RealXavierAndTanya60Mins20260720_105, narr:VecStyle_5RealXavierAndTanya60Mins20260720_107, narr:VecStyle_5RealXavierAndTanya60Mins20260720_109, narr:VecStyle_5RealXavierAndTanya60Mins20260720_110, narr:VecStyle_5RealXavierAndTanya60Mins20260720_111, narr:VecStyle_5RealXavierAndTanya60Mins20260720_185, narr:VecStyle_5RealXavierAndTanya60Mins20260720_191, narr:VecStyle_5RealXavierAndTanya60Mins20260720_199, narr:VecTemporal_5RealXavierAndTanya60Mins20260720_7, narr:VecTemporal_5RealXavierAndTanya60Mins20260720_27, narr:VecTemporal_5RealXavierAndTanya60Mins20260720_37, narr:VecTemporal_5RealXavierAndTanya60Mins20260720_43, narr:VecTemporal_5RealXavierAndTanya60Mins20260720_59, narr:VecTemporal_5RealXavierAndTanya60Mins20260720_63, narr:VecTemporal_5RealXavierAndTanya60Mins20260720_77, narr:VecTemporal_5RealXavierAndTanya60Mins20260720_78, narr:VecTemporal_5RealXavierAndTanya60Mins20260720_102, narr:VecTemporal_5RealXavierAndTanya60Mins20260720_105, narr:VecTemporal_5RealXavierAndTanya60Mins20260720_109, narr:VecTemporal_5RealXavierAndTanya60Mins20260720_140, narr:VecTemporal_5RealXavierAndTanya60Mins20260720_143, narr:VecTemporal_5RealXavierAndTanya60Mins20260720_177, narr:VecTemporal_5RealXavierAndTanya60Mins20260720_195, narr:VecTemporal_5RealXavierAndTanya60Mins20260720_214, narr:VecTemporal_5RealXavierAndTanya60Mins20260720_222, narr:DirValue_VerifiableProvenanceIntegrity, narr:VecValue_5RealXavierAndTanya60Mins20260720_12, narr:VecValue_5RealXavierAndTanya60Mins20260720_78, narr:VecValue_5RealXavierAndTanya60Mins20260720_84, narr:VecValue_5RealXavierAndTanya60Mins20260720_109, narr:VecValue_5RealXavierAndTanya60Mins20260720_119, narr:VecValue_5RealXavierAndTanya60Mins20260720_145, narr:VecValue_5RealXavierAndTanya60Mins20260720_191, narr:Narrative_StagedFundraisingProcess, narr:Position_ConversationalProvenanceDataModel, narr:Position_IntermediaryNetworkEffectsFederation, narr:Position_StagedFundraisingProcessMarketplace, narr:Position_EnterprisePilotContractTiering .
+} ;
+INSERT DATA {
+  GRAPH aswr:Tx_20260923T184446Z {
+    narr:VecAffect_5RealXavierAndTanya60Mins20260720_7 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_5RealXavierAndTanya60Mins20260720_7 ;
+        narr:dimension narr:Dim_Affect ;
+        narr:region narr:Affect_ActivatedPositive ;
+        narr:evidence "lexical-marker: delightful and a dream" ;
+        narr:reported false ;
+        skos:note "Warm enthusiasm describing the baby's demeanor." ;
+        prov:generatedAtTime "2026-09-23T18:44:46Z"^^xsd:dateTime .
+
+    narr:VecAffect_5RealXavierAndTanya60Mins20260720_9 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_5RealXavierAndTanya60Mins20260720_9 ;
+        narr:dimension narr:Dim_Affect ;
+        narr:region narr:Affect_CalmNegative ;
+        narr:evidence "lexical-marker: so that's rough. Yeah, it was rough." ;
+        narr:reported false ;
+        skos:note "Low-energy acknowledgment of exhaustion and lack of sleep." ;
+        prov:generatedAtTime "2026-09-23T18:44:46Z"^^xsd:dateTime .
+
+    narr:VecAffect_5RealXavierAndTanya60Mins20260720_11 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_5RealXavierAndTanya60Mins20260720_11 ;
+        narr:dimension narr:Dim_Affect ;
+        narr:region narr:Affect_ActivatedNegative ;
+        narr:evidence "intensifier: fucked out there." ;
+        narr:reported false ;
+        skos:note "Intensified negative assessment of external macro conditions." ;
+        prov:generatedAtTime "2026-09-23T18:44:46Z"^^xsd:dateTime .
+
+    narr:VecAffect_5RealXavierAndTanya60Mins20260720_37 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_5RealXavierAndTanya60Mins20260720_37 ;
+        narr:dimension narr:Dim_Affect ;
+        narr:region narr:Affect_ActivatedNegative ;
+        narr:evidence "intensifier: Shit show. Because this thing is a fucking disaster." ;
+        narr:reported false ;
+        skos:note "High-arousal frustration describing the messy legacy migration project." ;
+        prov:generatedAtTime "2026-09-23T18:44:46Z"^^xsd:dateTime .
+
+    narr:VecAffect_5RealXavierAndTanya60Mins20260720_67 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_5RealXavierAndTanya60Mins20260720_67 ;
+        narr:dimension narr:Dim_Affect ;
+        narr:region narr:Affect_ActivatedNegative ;
+        narr:evidence "lexical-marker: I hate slack" ;
+        narr:reported false ;
+        skos:note "Vigorous, blunt expression of aversion driving the personal build project." ;
+        prov:generatedAtTime "2026-09-23T18:44:46Z"^^xsd:dateTime .
+
+    narr:VecAffect_5RealXavierAndTanya60Mins20260720_68 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_5RealXavierAndTanya60Mins20260720_68 ;
+        narr:dimension narr:Dim_Affect ;
+        narr:region narr:Affect_ActivatedPositive ;
+        narr:evidence "lexical-marker: Cool. I love that." ;
+        narr:reported false ;
+        skos:note "Enthusiastic endorsement of building new things with AI." ;
+        prov:generatedAtTime "2026-09-23T18:44:46Z"^^xsd:dateTime .
+
+    narr:VecAffect_5RealXavierAndTanya60Mins20260720_77 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_5RealXavierAndTanya60Mins20260720_77 ;
+        narr:dimension narr:Dim_Affect ;
+        narr:region narr:Affect_ActivatedPositive ;
+        narr:evidence "lexical-marker: that sounds rad." ;
+        narr:reported false ;
+        skos:note "Spontaneous positive enthusiasm for the product concept." ;
+        prov:generatedAtTime "2026-09-23T18:44:46Z"^^xsd:dateTime .
+
+    narr:VecAffect_5RealXavierAndTanya60Mins20260720_140 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_5RealXavierAndTanya60Mins20260720_140 ;
+        narr:dimension narr:Dim_Affect ;
+        narr:region narr:Affect_CalmNegative ;
+        narr:evidence "hedge: I'm feeling a little unsure of what I'm doing right at this point. I feel like I've kind of been like, head down in the trenches of building the thing and maybe got a bit lost in doing so." ;
+        narr:reported false ;
+        skos:note "Vulnerable, subdued disorientation and waning confidence about strategic direction." ;
+        prov:generatedAtTime "2026-09-23T18:44:46Z"^^xsd:dateTime .
+
+    narr:VecAffect_5RealXavierAndTanya60Mins20260720_141 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_5RealXavierAndTanya60Mins20260720_141 ;
+        narr:dimension narr:Dim_Affect ;
+        narr:region narr:Affect_CalmNegative ;
+        narr:evidence "performed-act: Sorry, I hope I didn't break things." ;
+        narr:reported false ;
+        skos:note "Regretful concern upon noticing the interlocutor's deflation." ;
+        prov:generatedAtTime "2026-09-23T18:44:46Z"^^xsd:dateTime .
+
+    narr:VecAffect_5RealXavierAndTanya60Mins20260720_151 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_5RealXavierAndTanya60Mins20260720_151 ;
+        narr:dimension narr:Dim_Affect ;
+        narr:region narr:Affect_CalmNegative ;
+        narr:evidence "performed-act: I'm sorry, I feel bad that I broke everything." ;
+        narr:reported false ;
+        skos:note "Renewed subdued apology for puncturing certainty." ;
+        prov:generatedAtTime "2026-09-23T18:44:46Z"^^xsd:dateTime .
+
+    narr:DirConviction_OperatingThesisAsBedrock a narr:DirectionalNode ;
+        dct:source narr:Sample_5RealXavierAndTanya60Mins20260720 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Principle ;
+        narr:frame "Does the speaker invoke an explicit 'operating thesis' as non-negotiable strategic ground?" ;
+        skos:note "operating theses treated as foundational strategic bedrock" ;
+        prov:generatedAtTime "2026-09-23T18:44:46Z"^^xsd:dateTime .
+
+    narr:VecConviction_5RealXavierAndTanya60Mins20260720_79 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_5RealXavierAndTanya60Mins20260720_79 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Principle ;
+        narr:evidence "plain-assertion: And the transcript is the truth, because it exists." ;
+        narr:reported false ;
+        skos:note "Stated as an absolute foundational axiom about ground-truth reality without hedging." ;
+        prov:generatedAtTime "2026-09-23T18:44:46Z"^^xsd:dateTime .
+
+    narr:VecConviction_5RealXavierAndTanya60Mins20260720_80 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_5RealXavierAndTanya60Mins20260720_80 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Claim ;
+        narr:evidence "plain-assertion: The transcript is the truth. But then from there the perspective becomes a way to interrogate the truth and it changes over time." ;
+        narr:reported false ;
+        skos:note "Builds upon the axiom with an architectural claim about how the system interprets truth." ;
+        prov:generatedAtTime "2026-09-23T18:44:46Z"^^xsd:dateTime .
+
+    narr:VecConviction_5RealXavierAndTanya60Mins20260720_87 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_5RealXavierAndTanya60Mins20260720_87 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Claim ;
+        narr:evidence "plain-assertion: Git is not ideal for data, it is not designed for data. Dolt is designed for data." ;
+        narr:reported false ;
+        skos:note "Unhedged technical assertion contrasting tools based on purpose." ;
+        prov:generatedAtTime "2026-09-23T18:44:46Z"^^xsd:dateTime .
+
+    narr:VecConviction_5RealXavierAndTanya60Mins20260720_105 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_5RealXavierAndTanya60Mins20260720_105 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Principle ;
+        narr:direction narr:DirConviction_OperatingThesisAsBedrock ;
+        narr:evidence "commitment-marker: One of my operating theses is the telephone company always wins." ;
+        narr:reported false ;
+        skos:note "Explicitly framed as an enduring operating thesis / strategic principle." ;
+        prov:generatedAtTime "2026-09-23T18:44:46Z"^^xsd:dateTime .
+
+    narr:VecConviction_5RealXavierAndTanya60Mins20260720_109 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_5RealXavierAndTanya60Mins20260720_109 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Claim ;
+        narr:evidence "plain-assertion: The telephone company always wins because the telephone company sits in between. And it's impossible to disintermediate because they sit in between." ;
+        narr:reported false ;
+        skos:note "Asserts the mechanics backing up his operating thesis." ;
+        prov:generatedAtTime "2026-09-23T18:44:46Z"^^xsd:dateTime .
+
+    narr:VecConviction_5RealXavierAndTanya60Mins20260720_110 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_5RealXavierAndTanya60Mins20260720_110 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Claim ;
+        narr:evidence "plain-assertion: And so like the moat becomes over time, the more calls and decisions that you have ingested into a graph, the graph itself is the moat" ;
+        narr:reported false ;
+        skos:note "Asserts a core strategic theory of data moat and defensibility." ;
+        prov:generatedAtTime "2026-09-23T18:44:46Z"^^xsd:dateTime .
+
+    narr:VecConviction_5RealXavierAndTanya60Mins20260720_140 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_5RealXavierAndTanya60Mins20260720_140 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Notion ;
+        narr:evidence "hedge: I don't know, I'm feeling a little unsure of what I'm doing right at this point." ;
+        narr:evidence "hedge: now I'm feeling less sure." ;
+        narr:reported false ;
+        skos:note "Expresses overt uncertainty and hesitation regarding strategy and positioning." ;
+        prov:generatedAtTime "2026-09-23T18:44:46Z"^^xsd:dateTime .
+
+    narr:VecConviction_5RealXavierAndTanya60Mins20260720_143 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_5RealXavierAndTanya60Mins20260720_143 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Decision ;
+        narr:evidence "intensifier: I think you should definitely apply to yc." ;
+        narr:reported false ;
+        skos:note "Firm directive recommendation marked with an intensifier." ;
+        prov:generatedAtTime "2026-09-23T18:44:46Z"^^xsd:dateTime .
+
+    narr:VecConviction_5RealXavierAndTanya60Mins20260720_155 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_5RealXavierAndTanya60Mins20260720_155 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Notion ;
+        narr:evidence "hedge: I don't want to say I'm certain about these hypotheses. I'm not certain about these hypotheses." ;
+        narr:reported false ;
+        skos:note "Explicit disclaimer of certainty regarding strategic hypotheses." ;
+        prov:generatedAtTime "2026-09-23T18:44:46Z"^^xsd:dateTime .
+
+    narr:VecConviction_5RealXavierAndTanya60Mins20260720_178 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_5RealXavierAndTanya60Mins20260720_178 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Decision ;
+        narr:evidence "performed-act: Cool. Will do." ;
+        narr:reported false ;
+        skos:note "Direct commissive commitment to follow through on an action." ;
+        prov:generatedAtTime "2026-09-23T18:44:46Z"^^xsd:dateTime .
+
+    narr:VecConviction_5RealXavierAndTanya60Mins20260720_191 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_5RealXavierAndTanya60Mins20260720_191 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Claim ;
+        narr:evidence "plain-assertion: it is not about individual VCs. It is about maximal VCs." ;
+        narr:reported false ;
+        skos:note "Definitive normative statement defining fundraising strategy." ;
+        prov:generatedAtTime "2026-09-23T18:44:46Z"^^xsd:dateTime .
+
+    narr:VecConviction_5RealXavierAndTanya60Mins20260720_222 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_5RealXavierAndTanya60Mins20260720_222 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Decision ;
+        narr:evidence "commitment-marker: All right, well, I'm doing the YC app this week." ;
+        narr:reported false ;
+        skos:note "Committed statement of scheduled action." ;
+        prov:generatedAtTime "2026-09-23T18:44:46Z"^^xsd:dateTime .
+
+    narr:VecPower_5RealXavierAndTanya60Mins20260720_85 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_5RealXavierAndTanya60Mins20260720_85 ;
+        narr:dimension narr:Dim_Power ;
+        narr:region narr:Power_Expert ;
+        narr:region narr:Power_RationalPersuasion ;
+        narr:evidence "modal-marker: You should look at dolt instead of git, dolt, D O L T dolt and then also beads." ;
+        narr:reported false ;
+        skos:note "Xavier offers technical architectural guidance based on specialized knowledge of database/versioning tools." ;
+        prov:generatedAtTime "2026-09-23T18:44:46Z"^^xsd:dateTime .
+
+    narr:VecPower_5RealXavierAndTanya60Mins20260720_99 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_5RealXavierAndTanya60Mins20260720_99 ;
+        narr:dimension narr:Dim_Power ;
+        narr:region narr:Power_Consultation ;
+        narr:evidence "framing-move: How can I be helpful? What would you like?" ;
+        narr:reported false ;
+        skos:note "Xavier explicitly invites Tanya to state how he can assist and direct his involvement." ;
+        prov:generatedAtTime "2026-09-23T18:44:46Z"^^xsd:dateTime .
+
+    narr:VecPower_5RealXavierAndTanya60Mins20260720_100 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_5RealXavierAndTanya60Mins20260720_100 ;
+        narr:dimension narr:Dim_Power ;
+        narr:region narr:Power_Consultation ;
+        narr:evidence "framing-move: First of all, I'm curious if that sounds appropriate to you." ;
+        narr:reported false ;
+        skos:note "Tanya actively invites Xavier's evaluation and input on her commercial pricing model." ;
+        prov:generatedAtTime "2026-09-23T18:44:46Z"^^xsd:dateTime .
+
+    narr:VecPower_5RealXavierAndTanya60Mins20260720_103 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_5RealXavierAndTanya60Mins20260720_103 ;
+        narr:dimension narr:Dim_Power ;
+        narr:region narr:Power_Consultation ;
+        narr:evidence "performed-act: can I just provide feedback?" ;
+        narr:reported false ;
+        skos:note "Xavier asks permission to offer strategic and product critique before delivering it." ;
+        prov:generatedAtTime "2026-09-23T18:44:46Z"^^xsd:dateTime .
+
+    narr:VecPower_5RealXavierAndTanya60Mins20260720_143 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_5RealXavierAndTanya60Mins20260720_143 ;
+        narr:dimension narr:Dim_Power ;
+        narr:region narr:Power_Expert ;
+        narr:region narr:Power_RationalPersuasion ;
+        narr:evidence "modal-marker: I think you should definitely apply to yc." ;
+        narr:reported false ;
+        skos:note "Xavier gives direct strategic advice regarding fundraising and accelerator options." ;
+        prov:generatedAtTime "2026-09-23T18:44:46Z"^^xsd:dateTime .
+
+    narr:VecPower_5RealXavierAndTanya60Mins20260720_177 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_5RealXavierAndTanya60Mins20260720_177 ;
+        narr:dimension narr:Dim_Power ;
+        narr:region narr:Power_Expert ;
+        narr:region narr:Power_Reward ;
+        narr:evidence "commitment-marker: Send me a forwardable email and I will forward it to her." ;
+        narr:reported false ;
+        skos:note "Xavier offers gatekeeper/network access to a key contact conditional on Tanya providing the email." ;
+        prov:generatedAtTime "2026-09-23T18:44:46Z"^^xsd:dateTime .
+
+    narr:VecPower_5RealXavierAndTanya60Mins20260720_183 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_5RealXavierAndTanya60Mins20260720_183 ;
+        narr:dimension narr:Dim_Power ;
+        narr:region narr:Power_Expert ;
+        narr:region narr:Power_RationalPersuasion ;
+        narr:evidence "framing-move: I would show up to Emery Park. When I've got like when you have somebody on the hook is the moment you show up to Emery Park. Because then Emery Park accelerates it." ;
+        narr:reported false ;
+        skos:note "Xavier provides tactical investor sequencing advice based on strategic experience." ;
+        prov:generatedAtTime "2026-09-23T18:44:46Z"^^xsd:dateTime .
+
+    narr:VecPower_5RealXavierAndTanya60Mins20260720_193 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_5RealXavierAndTanya60Mins20260720_193 ;
+        narr:dimension narr:Dim_Power ;
+        narr:region narr:Power_Expert ;
+        narr:region narr:Power_RationalPersuasion ;
+        narr:evidence "modal-marker: And you need to run a process. Right. So it is specific. It is time bound. It is like starts at a date, ends at a date." ;
+        narr:reported false ;
+        skos:note "Xavier instructs Tanya on the mechanics and discipline of running an institutional fundraising process." ;
+        prov:generatedAtTime "2026-09-23T18:44:46Z"^^xsd:dateTime .
+
+    narr:VecPower_5RealXavierAndTanya60Mins20260720_199 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_5RealXavierAndTanya60Mins20260720_199 ;
+        narr:dimension narr:Dim_Power ;
+        narr:region narr:Power_Expert ;
+        narr:region narr:Power_RationalPersuasion ;
+        narr:evidence "framing-move: You do not like the failure mode that most people engage in. And this is. I did this constantly is I show up and be like, hi, I would like to raise money from you. No, Hi, I am raising money. It is happening, right?" ;
+        narr:reported false ;
+        skos:note "Xavier leverages his own past fundraising mistakes and tactical insights to reframe her pitch stance." ;
+        prov:generatedAtTime "2026-09-23T18:44:46Z"^^xsd:dateTime .
+
+    narr:VecPower_5RealXavierAndTanya60Mins20260720_217 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_5RealXavierAndTanya60Mins20260720_217 ;
+        narr:dimension narr:Dim_Power ;
+        narr:region narr:Power_Expert ;
+        narr:region narr:Power_RationalPersuasion ;
+        narr:evidence "framing-move: Find a company that's actually a knowledge company that doesn't think of themselves as a knowledge company." ;
+        narr:reported false ;
+        skos:note "Xavier directs her commercial targeting strategy based on market analysis of SaaS adoption." ;
+        prov:generatedAtTime "2026-09-23T18:44:46Z"^^xsd:dateTime .
+
+    narr:DirRegister_OntologicalProvenanceJargon a narr:DirectionalNode ;
+        dct:source narr:Sample_5RealXavierAndTanya60Mins20260720 ;
+        narr:dimension narr:Dim_Register ;
+        narr:region narr:Register_Technical ;
+        narr:frame "Does the utterance deploy specialized knowledge-graph and provenance semantics rather than general engineering terms?" ;
+        skos:note "full provenance inside of digested nodes" ;
+        prov:generatedAtTime "2026-09-23T18:44:46Z"^^xsd:dateTime .
+
+    narr:VecRegister_5RealXavierAndTanya60Mins20260720_37 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_5RealXavierAndTanya60Mins20260720_37 ;
+        narr:dimension narr:Dim_Register ;
+        narr:region narr:Register_Technical ;
+        narr:region narr:Register_Casual ;
+        narr:evidence "lexical-marker: ERP that was built in the 80s to a modern one" ;
+        narr:evidence "intensifier: Shit show. Because this thing is a fucking disaster." ;
+        narr:reported false ;
+        skos:note "Switches sharply from system architecture domain terms to blunt, profane vernacular evaluation." ;
+        prov:generatedAtTime "2026-09-23T18:44:46Z"^^xsd:dateTime .
+
+    narr:VecRegister_5RealXavierAndTanya60Mins20260720_59 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_5RealXavierAndTanya60Mins20260720_59 ;
+        narr:dimension narr:Dim_Register ;
+        narr:region narr:Register_Technical ;
+        narr:evidence "lexical-marker: cryptographically secure" ;
+        narr:evidence "lexical-marker: graph stuff where you're not exposing your whole contact list" ;
+        narr:reported false ;
+        skos:note "Invokes technical cryptographic framing and protocol mechanics natively." ;
+        prov:generatedAtTime "2026-09-23T18:44:46Z"^^xsd:dateTime .
+
+    narr:VecRegister_5RealXavierAndTanya60Mins20260720_77 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_5RealXavierAndTanya60Mins20260720_77 ;
+        narr:dimension narr:Dim_Register ;
+        narr:region narr:Register_Technical ;
+        narr:evidence "framing-move: AI on the edge rather than on the center" ;
+        narr:evidence "lexical-marker: gets OCR'd in the timeline" ;
+        narr:reported false ;
+        skos:note "Frames architectural thesis using native systems and edge computing terminology." ;
+        prov:generatedAtTime "2026-09-23T18:44:46Z"^^xsd:dateTime .
+
+    narr:VecRegister_5RealXavierAndTanya60Mins20260720_82 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_5RealXavierAndTanya60Mins20260720_82 ;
+        narr:dimension narr:Dim_Register ;
+        narr:region narr:Register_Technical ;
+        narr:direction narr:DirRegister_OntologicalProvenanceJargon ;
+        narr:evidence "lexical-marker: V2 Ontology and how I did collapse and expand around graphs and this digest narration" ;
+        narr:evidence "lexical-marker: full provenance inside of digested nodes" ;
+        narr:reported false ;
+        skos:note "Describes knowledge architecture using specialized structural ontology terminology." ;
+        prov:generatedAtTime "2026-09-23T18:44:46Z"^^xsd:dateTime .
+
+    narr:VecRegister_5RealXavierAndTanya60Mins20260720_83 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_5RealXavierAndTanya60Mins20260720_83 ;
+        narr:dimension narr:Dim_Register ;
+        narr:region narr:Register_Technical ;
+        narr:direction narr:DirRegister_OntologicalProvenanceJargon ;
+        narr:evidence "lexical-marker: knowledge anchors associated with it" ;
+        narr:evidence "lexical-marker: part of a timeline. It can be superseded." ;
+        narr:reported false ;
+        skos:note "Matches the specialized knowledge-graph provenance register with structured schema terms." ;
+        prov:generatedAtTime "2026-09-23T18:44:46Z"^^xsd:dateTime .
+
+    narr:VecRegister_5RealXavierAndTanya60Mins20260720_105 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_5RealXavierAndTanya60Mins20260720_105 ;
+        narr:dimension narr:Dim_Register ;
+        narr:region narr:Register_MatterOfFact ;
+        narr:region narr:Register_Technical ;
+        narr:evidence "plain-assertion: The marginal cost of software development is asymptotically approaching zero." ;
+        narr:reported false ;
+        skos:note "Delivers an economic thesis with formal analytical precision amidst casual conversation." ;
+        prov:generatedAtTime "2026-09-23T18:44:46Z"^^xsd:dateTime .
+
+    narr:VecRegister_5RealXavierAndTanya60Mins20260720_185 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_5RealXavierAndTanya60Mins20260720_185 ;
+        narr:dimension narr:Dim_Register ;
+        narr:region narr:Register_Playful ;
+        narr:region narr:Register_Casual ;
+        narr:evidence "framing-move: Emery Park is the howitzer. You show up like. Right. You use the howitzer when you have the ammunition." ;
+        narr:reported false ;
+        skos:note "Uses vivid, exaggerated military metaphor to illustrate venture fundraising leverage." ;
+        prov:generatedAtTime "2026-09-23T18:44:46Z"^^xsd:dateTime .
+
+    narr:VecRelational_5RealXavierAndTanya60Mins20260720_2 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_5RealXavierAndTanya60Mins20260720_2 ;
+        narr:dimension narr:Dim_Relational ;
+        narr:region narr:Relational_CommunalSharing ;
+        narr:evidence "framing-move: We finally tracked each other down. It's been ages." ;
+        narr:reported false ;
+        skos:note "Enacts mutual communal solidarity and shared connection after time apart." ;
+        prov:generatedAtTime "2026-09-23T18:44:46Z"^^xsd:dateTime .
+
+    narr:VecRelational_5RealXavierAndTanya60Mins20260720_27 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_5RealXavierAndTanya60Mins20260720_27 ;
+        narr:dimension narr:Dim_Relational ;
+        narr:region narr:Relational_AuthorityRanking ;
+        narr:evidence "plain-signal: Tina's like, we can't. He's like, we're going to try to restart a whole new thing" ;
+        narr:reported true ;
+        skos:note "Reports Tina exercising executive direction over team strategy and reorganization." ;
+        prov:generatedAtTime "2026-09-23T18:44:46Z"^^xsd:dateTime .
+
+    narr:VecRelational_5RealXavierAndTanya60Mins20260720_31 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_5RealXavierAndTanya60Mins20260720_31 ;
+        narr:dimension narr:Dim_Relational ;
+        narr:region narr:Relational_AuthorityRanking ;
+        narr:evidence "lexical-marker: put me in coach" ;
+        narr:reported false ;
+        skos:note "Signals subordination and readiness to follow leadership when called upon." ;
+        prov:generatedAtTime "2026-09-23T18:44:46Z"^^xsd:dateTime .
+
+    narr:VecRelational_5RealXavierAndTanya60Mins20260720_37 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_5RealXavierAndTanya60Mins20260720_37 ;
+        narr:dimension narr:Dim_Relational ;
+        narr:region narr:Relational_AuthorityRanking ;
+        narr:evidence "plain-signal: the person that the owner hired to run the business, who was the champion of the ERP got fired." ;
+        narr:reported true ;
+        skos:note "Reports hierarchical owner power resulting in termination of an executive." ;
+        prov:generatedAtTime "2026-09-23T18:44:46Z"^^xsd:dateTime .
+
+    narr:VecRelational_5RealXavierAndTanya60Mins20260720_100 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_5RealXavierAndTanya60Mins20260720_100 ;
+        narr:dimension narr:Dim_Relational ;
+        narr:region narr:Relational_MarketPricing ;
+        narr:evidence "plain-assertion: the team pricing is about $400 a month. Not about is $400 a month. And then enterprise pricing starts at four grand, plus some setup" ;
+        narr:reported false ;
+        skos:note "Enacts market-pricing by articulating formal fee schedules, tiers, and contractual rates." ;
+        prov:generatedAtTime "2026-09-23T18:44:46Z"^^xsd:dateTime .
+
+    narr:VecRelational_5RealXavierAndTanya60Mins20260720_119 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_5RealXavierAndTanya60Mins20260720_119 ;
+        narr:dimension narr:Dim_Relational ;
+        narr:region narr:Relational_MarketPricing ;
+        narr:evidence "framing-move: You sit in between, right? You like literally they can't rip you out without breaking it for somebody else." ;
+        narr:reported false ;
+        skos:note "Frames strategic moat durability through structural dependency and transaction costs." ;
+        prov:generatedAtTime "2026-09-23T18:44:46Z"^^xsd:dateTime .
+
+    narr:VecRelational_5RealXavierAndTanya60Mins20260720_125 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_5RealXavierAndTanya60Mins20260720_125 ;
+        narr:dimension narr:Dim_Relational ;
+        narr:region narr:Relational_EqualityMatching ;
+        narr:region narr:Relational_MarketPricing ;
+        narr:evidence "framing-move: I pay for as written, you pay for as written. And like, because we're both paying for as written, we're both different companies, different people, like different clients, it is more valuable for both of us." ;
+        narr:reported false ;
+        skos:note "Articulates symmetrical reciprocal benefit predicated on mutual commercial exchange." ;
+        prov:generatedAtTime "2026-09-23T18:44:46Z"^^xsd:dateTime .
+
+    narr:VecRelational_5RealXavierAndTanya60Mins20260720_135 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_5RealXavierAndTanya60Mins20260720_135 ;
+        narr:dimension narr:Dim_Relational ;
+        narr:region narr:Relational_MarketPricing ;
+        narr:evidence "plain-assertion: I'm charging framewell probably about 15 grand a month. Ideally 20. Right. I'm charging this. That's the one. The other company I'm going to charge like $10,000 a month." ;
+        narr:reported false ;
+        skos:note "Sets out fee-for-service proportional billing arrangements across clients." ;
+        prov:generatedAtTime "2026-09-23T18:44:46Z"^^xsd:dateTime .
+
+    narr:VecRelational_5RealXavierAndTanya60Mins20260720_177 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_5RealXavierAndTanya60Mins20260720_177 ;
+        narr:dimension narr:Dim_Relational ;
+        narr:region narr:Relational_EqualityMatching ;
+        narr:evidence "commitment-marker: Send me a forwardable email and I will forward it to her." ;
+        narr:reported false ;
+        skos:note "Enacts reciprocal peer networking mechanics via mediated introduction." ;
+        prov:generatedAtTime "2026-09-23T18:44:46Z"^^xsd:dateTime .
+
+    narr:VecRelational_5RealXavierAndTanya60Mins20260720_199 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_5RealXavierAndTanya60Mins20260720_199 ;
+        narr:dimension narr:Dim_Relational ;
+        narr:region narr:Relational_MarketPricing ;
+        narr:region narr:Relational_AuthorityRanking ;
+        narr:evidence "framing-move: No, Hi, I am raising money. It is happening, right?" ;
+        narr:reported false ;
+        skos:note "Instructs shifting the relational stance from supplicant to commanding market creator." ;
+        prov:generatedAtTime "2026-09-23T18:44:46Z"^^xsd:dateTime .
+
+    narr:VecRelational_5RealXavierAndTanya60Mins20260720_205 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_5RealXavierAndTanya60Mins20260720_205 ;
+        narr:dimension narr:Dim_Relational ;
+        narr:region narr:Relational_MarketPricing ;
+        narr:evidence "framing-move: The position is, why should I take your dollars rather than someone else's? Right." ;
+        narr:reported false ;
+        skos:note "Directs relational framing to competitive market leverage where capital competes for allocation." ;
+        prov:generatedAtTime "2026-09-23T18:44:46Z"^^xsd:dateTime .
+
+    narr:VecRelational_5RealXavierAndTanya60Mins20260720_214 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_5RealXavierAndTanya60Mins20260720_214 ;
+        narr:dimension narr:Dim_Relational ;
+        narr:region narr:Relational_MarketPricing ;
+        narr:evidence "plain-assertion: they've been paying me $800 a month. And there's currently an MSA out for like, you know, six grand a month. That's in legal review." ;
+        narr:reported true ;
+        skos:note "Reports commercial contract pricing and formal Master Services Agreement negotiation." ;
+        prov:generatedAtTime "2026-09-23T18:44:46Z"^^xsd:dateTime .
+
+    narr:VecStyle_5RealXavierAndTanya60Mins20260720_20 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_5RealXavierAndTanya60Mins20260720_20 ;
+        narr:dimension narr:Dim_Style ;
+        narr:region narr:Style_Metaphor ;
+        narr:evidence "lexical-marker: pulling the magic bunny out of the hat" ;
+        narr:reported false ;
+        skos:note "Uses the metaphor of pulling a magic bunny out of a hat to describe performing an improbable rescue." ;
+        prov:generatedAtTime "2026-09-23T18:44:46Z"^^xsd:dateTime .
+
+    narr:VecStyle_5RealXavierAndTanya60Mins20260720_23 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_5RealXavierAndTanya60Mins20260720_23 ;
+        narr:dimension narr:Dim_Style ;
+        narr:region narr:Style_Simile ;
+        narr:evidence "lexical-marker: it's kind of like a cockroach" ;
+        narr:reported false ;
+        skos:note "Explicit simile comparing the persistent venture situation to a cockroach." ;
+        prov:generatedAtTime "2026-09-23T18:44:46Z"^^xsd:dateTime .
+
+    narr:VecStyle_5RealXavierAndTanya60Mins20260720_31 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_5RealXavierAndTanya60Mins20260720_31 ;
+        narr:dimension narr:Dim_Style ;
+        narr:region narr:Style_StockPhrase ;
+        narr:region narr:Style_Metaphor ;
+        narr:evidence "lexical-marker: irons in the fire" ;
+        narr:evidence "lexical-marker: put me in coach" ;
+        narr:reported false ;
+        skos:note "Uses conventional stock idioms and athletic metaphor ('put me in coach', 'irons in the fire') to express readiness and multiple ongoing projects." ;
+        prov:generatedAtTime "2026-09-23T18:44:46Z"^^xsd:dateTime .
+
+    narr:VecStyle_5RealXavierAndTanya60Mins20260720_35 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_5RealXavierAndTanya60Mins20260720_35 ;
+        narr:dimension narr:Dim_Style ;
+        narr:region narr:Style_StockPhrase ;
+        narr:evidence "lexical-marker: Idle hands. The devil's workshop." ;
+        narr:reported false ;
+        skos:note "Invokes the proverb as a stock phrase to comment on staying constantly busy." ;
+        prov:generatedAtTime "2026-09-23T18:44:46Z"^^xsd:dateTime .
+
+    narr:VecStyle_5RealXavierAndTanya60Mins20260720_43 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_5RealXavierAndTanya60Mins20260720_43 ;
+        narr:dimension narr:Dim_Style ;
+        narr:region narr:Style_Simile ;
+        narr:evidence "lexical-marker: goes up like Lego pieces" ;
+        narr:reported false ;
+        skos:note "Explicit simile comparing prefabricated modular building assembly to Lego pieces." ;
+        prov:generatedAtTime "2026-09-23T18:44:46Z"^^xsd:dateTime .
+
+    narr:VecStyle_5RealXavierAndTanya60Mins20260720_105 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_5RealXavierAndTanya60Mins20260720_105 ;
+        narr:dimension narr:Dim_Style ;
+        narr:region narr:Style_Metaphor ;
+        narr:evidence "framing-move: The marginal cost of software development is asymptotically approaching zero." ;
+        narr:evidence "framing-move: the telephone company always wins." ;
+        narr:reported false ;
+        skos:note "Deploys an overarching metaphor of 'the telephone company' as an un-disintermediable intermediary." ;
+        prov:generatedAtTime "2026-09-23T18:44:46Z"^^xsd:dateTime .
+
+    narr:VecStyle_5RealXavierAndTanya60Mins20260720_107 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_5RealXavierAndTanya60Mins20260720_107 ;
+        narr:dimension narr:Dim_Style ;
+        narr:region narr:Style_Metaphor ;
+        narr:evidence "lexical-marker: never go where the big guns are pointing." ;
+        narr:reported false ;
+        skos:note "Uses military weaponry as a metaphor for well-capitalized incumbent competition." ;
+        prov:generatedAtTime "2026-09-23T18:44:46Z"^^xsd:dateTime .
+
+    narr:VecStyle_5RealXavierAndTanya60Mins20260720_109 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_5RealXavierAndTanya60Mins20260720_109 ;
+        narr:dimension narr:Dim_Style ;
+        narr:region narr:Style_Analogy ;
+        narr:region narr:Style_Metaphor ;
+        narr:evidence "framing-move: The telephone company always wins because the telephone company sits in between. And it's impossible to disintermediate because they sit in between." ;
+        narr:evidence "lexical-marker: put a target on your back" ;
+        narr:reported false ;
+        skos:note "Elaborates the telephone company analogy as structural reasoning about defensibility and sitting in between." ;
+        prov:generatedAtTime "2026-09-23T18:44:46Z"^^xsd:dateTime .
+
+    narr:VecStyle_5RealXavierAndTanya60Mins20260720_110 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_5RealXavierAndTanya60Mins20260720_110 ;
+        narr:dimension narr:Dim_Style ;
+        narr:region narr:Style_Metaphor ;
+        narr:evidence "lexical-marker: in what I think of as like the white space of the prompt" ;
+        narr:reported false ;
+        skos:note "Metaphorical formulation of unspecified context as 'the white space of the prompt'." ;
+        prov:generatedAtTime "2026-09-23T18:44:46Z"^^xsd:dateTime .
+
+    narr:VecStyle_5RealXavierAndTanya60Mins20260720_111 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_5RealXavierAndTanya60Mins20260720_111 ;
+        narr:dimension narr:Dim_Style ;
+        narr:region narr:Style_Analogy ;
+        narr:evidence "framing-move: the iPhone destroyed TomTom, not because it had better maps, right? Destroyed Garmin, not because it had better maps." ;
+        narr:reported false ;
+        skos:note "Constructs an analogy from historical tech disruption (iPhone vs TomTom/Garmin) to argue against building standalone point solutions." ;
+        prov:generatedAtTime "2026-09-23T18:44:46Z"^^xsd:dateTime .
+
+    narr:VecStyle_5RealXavierAndTanya60Mins20260720_185 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_5RealXavierAndTanya60Mins20260720_185 ;
+        narr:dimension narr:Dim_Style ;
+        narr:region narr:Style_Metaphor ;
+        narr:region narr:Style_Analogy ;
+        narr:evidence "framing-move: Emery Park is the howitzer. You show up like. Right. You use the howitzer when you have the ammunition." ;
+        narr:reported false ;
+        skos:note "Applies an extended artillery metaphor and analogy (howitzer/ammunition to investor/term sheet) to counsel timing." ;
+        prov:generatedAtTime "2026-09-23T18:44:46Z"^^xsd:dateTime .
+
+    narr:VecStyle_5RealXavierAndTanya60Mins20260720_191 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_5RealXavierAndTanya60Mins20260720_191 ;
+        narr:dimension narr:Dim_Style ;
+        narr:region narr:Style_Antithesis ;
+        narr:region narr:Style_Metaphor ;
+        narr:evidence "framing-move: you are not raising. You're not trying to get someone to give you a check. You are creating a marketplace" ;
+        narr:evidence "framing-move: it is not about individual VCs. It is about maximal VCs." ;
+        narr:reported false ;
+        skos:note "Contrasts raising checks with creating a marketplace using direct paired antitheses ('not X, but Y')." ;
+        prov:generatedAtTime "2026-09-23T18:44:46Z"^^xsd:dateTime .
+
+    narr:VecStyle_5RealXavierAndTanya60Mins20260720_199 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_5RealXavierAndTanya60Mins20260720_199 ;
+        narr:dimension narr:Dim_Style ;
+        narr:region narr:Style_Antithesis ;
+        narr:evidence "framing-move: hi, I would like to raise money from you. No, Hi, I am raising money." ;
+        narr:reported false ;
+        skos:note "Sets up an antithesis contrasting a passive supplicant posture with an assertive momentum posture." ;
+        prov:generatedAtTime "2026-09-23T18:44:46Z"^^xsd:dateTime .
+
+    narr:VecTemporal_5RealXavierAndTanya60Mins20260720_7 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_5RealXavierAndTanya60Mins20260720_7 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Present ;
+        narr:region narr:Temporal_Realis ;
+        narr:region narr:Temporal_Concrete ;
+        narr:evidence "plain-assertion: about five days ago when she decided that she's not keen on sleeping at night." ;
+        narr:reported false ;
+        skos:note "Describes ongoing concrete sleep issues with the infant beginning five days ago." ;
+        prov:generatedAtTime "2026-09-23T18:44:46Z"^^xsd:dateTime .
+
+    narr:VecTemporal_5RealXavierAndTanya60Mins20260720_27 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_5RealXavierAndTanya60Mins20260720_27 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Past ;
+        narr:region narr:Temporal_Realis ;
+        narr:region narr:Temporal_Concrete ;
+        narr:evidence "plain-assertion: Around Christmas, northwind be recognized, et cetera, like, stop being a thing" ;
+        narr:reported false ;
+        skos:note "Narrates the collapse of Northwind around Christmas time." ;
+        prov:generatedAtTime "2026-09-23T18:44:46Z"^^xsd:dateTime .
+
+    narr:VecTemporal_5RealXavierAndTanya60Mins20260720_37 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_5RealXavierAndTanya60Mins20260720_37 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Present ;
+        narr:region narr:Temporal_Realis ;
+        narr:region narr:Temporal_Concrete ;
+        narr:evidence "plain-assertion: I am migrating a ERP that was built in the 80s to a modern one." ;
+        narr:reported false ;
+        skos:note "States ongoing consulting work for Millbrook Specialty Feeds." ;
+        prov:generatedAtTime "2026-09-23T18:44:46Z"^^xsd:dateTime .
+
+    narr:VecTemporal_5RealXavierAndTanya60Mins20260720_43 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_5RealXavierAndTanya60Mins20260720_43 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Present ;
+        narr:region narr:Temporal_Realis ;
+        narr:region narr:Temporal_Abstract ;
+        narr:evidence "plain-assertion: Prefabricated buildings for commercial buildings." ;
+        narr:reported false ;
+        skos:note "Explains Framewell's general business model and operational process." ;
+        prov:generatedAtTime "2026-09-23T18:44:46Z"^^xsd:dateTime .
+
+    narr:VecTemporal_5RealXavierAndTanya60Mins20260720_59 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_5RealXavierAndTanya60Mins20260720_59 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Future ;
+        narr:region narr:Temporal_Irrealis ;
+        narr:region narr:Temporal_Concrete ;
+        narr:evidence "plain-assertion: This is speculative, but I don't have this project yet. But I am pitching Building America" ;
+        narr:reported false ;
+        skos:note "Describes an upcoming speculative pitch for a prospective project." ;
+        prov:generatedAtTime "2026-09-23T18:44:46Z"^^xsd:dateTime .
+
+    narr:VecTemporal_5RealXavierAndTanya60Mins20260720_63 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_5RealXavierAndTanya60Mins20260720_63 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Present ;
+        narr:region narr:Temporal_Realis ;
+        narr:region narr:Temporal_Concrete ;
+        narr:evidence "plain-assertion: I own 25% of a agricultural equipment dealership in North Carolina, and I'm flying there tomorrow night" ;
+        narr:reported false ;
+        skos:note "States actual ownership share and specific travel plans." ;
+        prov:generatedAtTime "2026-09-23T18:44:46Z"^^xsd:dateTime .
+
+    narr:VecTemporal_5RealXavierAndTanya60Mins20260720_77 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_5RealXavierAndTanya60Mins20260720_77 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Present ;
+        narr:region narr:Temporal_Abstract ;
+        narr:evidence "framing-move: The thesis is that AI is moving to the edges, so we should do AI on the edge rather than on the center." ;
+        narr:reported false ;
+        skos:note "Articulates the overarching architectural thesis behind Burrow." ;
+        prov:generatedAtTime "2026-09-23T18:44:46Z"^^xsd:dateTime .
+
+    narr:VecTemporal_5RealXavierAndTanya60Mins20260720_78 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_5RealXavierAndTanya60Mins20260720_78 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Present ;
+        narr:region narr:Temporal_Realis ;
+        narr:region narr:Temporal_Concrete ;
+        narr:evidence "plain-assertion: And so the first thing that I created for them was the ability to ingest all of those calls" ;
+        narr:reported false ;
+        skos:note "Describes existing product functionality deployed for the pilot client." ;
+        prov:generatedAtTime "2026-09-23T18:44:46Z"^^xsd:dateTime .
+
+    narr:VecTemporal_5RealXavierAndTanya60Mins20260720_102 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_5RealXavierAndTanya60Mins20260720_102 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Future ;
+        narr:region narr:Temporal_Irrealis ;
+        narr:region narr:Temporal_Concrete ;
+        narr:evidence "plain-assertion: I'm raising 500k at this point to do a bridge round" ;
+        narr:reported false ;
+        skos:note "Outlines specific active fundraising targets." ;
+        prov:generatedAtTime "2026-09-23T18:44:46Z"^^xsd:dateTime .
+
+    narr:VecTemporal_5RealXavierAndTanya60Mins20260720_105 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_5RealXavierAndTanya60Mins20260720_105 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Present ;
+        narr:region narr:Temporal_Abstract ;
+        narr:evidence "plain-assertion: The marginal cost of software development is asymptotically approaching zero." ;
+        narr:reported false ;
+        skos:note "States an abstract macroeconomic operating premise." ;
+        prov:generatedAtTime "2026-09-23T18:44:46Z"^^xsd:dateTime .
+
+    narr:VecTemporal_5RealXavierAndTanya60Mins20260720_109 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_5RealXavierAndTanya60Mins20260720_109 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Present ;
+        narr:region narr:Temporal_Abstract ;
+        narr:evidence "framing-move: The telephone company always wins because the telephone company sits in between." ;
+        narr:reported false ;
+        skos:note "Elaborates on the general principle of intermediary moats." ;
+        prov:generatedAtTime "2026-09-23T18:44:46Z"^^xsd:dateTime .
+
+    narr:VecTemporal_5RealXavierAndTanya60Mins20260720_140 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_5RealXavierAndTanya60Mins20260720_140 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Present ;
+        narr:region narr:Temporal_Realis ;
+        narr:region narr:Temporal_Concrete ;
+        narr:evidence "plain-assertion: This front end experience that you saw is a couple weeks old and it's very raw" ;
+        narr:reported false ;
+        skos:note "Reflects on the current actual state of the product interface and business direction." ;
+        prov:generatedAtTime "2026-09-23T18:44:46Z"^^xsd:dateTime .
+
+    narr:VecTemporal_5RealXavierAndTanya60Mins20260720_143 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_5RealXavierAndTanya60Mins20260720_143 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Future ;
+        narr:region narr:Temporal_Irrealis ;
+        narr:region narr:Temporal_Concrete ;
+        narr:evidence "plain-assertion: I think you should definitely apply to yc." ;
+        narr:reported false ;
+        skos:note "Directs future action toward applying to Y Combinator." ;
+        prov:generatedAtTime "2026-09-23T18:44:46Z"^^xsd:dateTime .
+
+    narr:VecTemporal_5RealXavierAndTanya60Mins20260720_177 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_5RealXavierAndTanya60Mins20260720_177 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Future ;
+        narr:region narr:Temporal_Irrealis ;
+        narr:region narr:Temporal_Concrete ;
+        narr:evidence "commitment-marker: Send me a forwardable email and I will forward it to her." ;
+        narr:reported false ;
+        skos:note "Commits to forwarding an introductory email upon receipt." ;
+        prov:generatedAtTime "2026-09-23T18:44:46Z"^^xsd:dateTime .
+
+    narr:VecTemporal_5RealXavierAndTanya60Mins20260720_195 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_5RealXavierAndTanya60Mins20260720_195 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Future ;
+        narr:region narr:Temporal_Irrealis ;
+        narr:region narr:Temporal_Abstract ;
+        narr:evidence "framing-move: You are doing the first round, which is asking for advice. Then the second round call back is like a." ;
+        narr:reported false ;
+        skos:note "Outlines the staged methodology for prospective investor outreach." ;
+        prov:generatedAtTime "2026-09-23T18:44:46Z"^^xsd:dateTime .
+
+    narr:VecTemporal_5RealXavierAndTanya60Mins20260720_214 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_5RealXavierAndTanya60Mins20260720_214 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Present ;
+        narr:region narr:Temporal_Realis ;
+        narr:region narr:Temporal_Concrete ;
+        narr:evidence "plain-assertion: there's currently an MSA out for like, you know, six grand a month. That's in legal review." ;
+        narr:reported false ;
+        skos:note "States the actual present status of the enterprise contract in legal review." ;
+        prov:generatedAtTime "2026-09-23T18:44:46Z"^^xsd:dateTime .
+
+    narr:VecTemporal_5RealXavierAndTanya60Mins20260720_222 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_5RealXavierAndTanya60Mins20260720_222 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Future ;
+        narr:region narr:Temporal_Irrealis ;
+        narr:region narr:Temporal_Concrete ;
+        narr:evidence "commitment-marker: All right, well, I'm doing the YC app this week." ;
+        narr:reported false ;
+        skos:note "Expresses commitment to submitting the application in the coming days." ;
+        prov:generatedAtTime "2026-09-23T18:44:46Z"^^xsd:dateTime .
+
+    narr:DirValue_VerifiableProvenanceIntegrity a narr:DirectionalNode ;
+        dct:source narr:Sample_5RealXavierAndTanya60Mins20260720 ;
+        narr:dimension narr:Dim_Value ;
+        narr:region narr:Value_Competence ;
+        narr:region narr:Value_Conservation ;
+        narr:frame "Does the utterance treat traceable attribution and verifiable origin as an essential standard of craft or truth?" ;
+        skos:note "full provenance of the ideas" ;
+        prov:generatedAtTime "2026-09-23T18:44:46Z"^^xsd:dateTime .
+
+    narr:VecValue_5RealXavierAndTanya60Mins20260720_12 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_5RealXavierAndTanya60Mins20260720_12 ;
+        narr:dimension narr:Dim_Value ;
+        narr:region narr:Value_Conservation ;
+        narr:region narr:Value_Relatedness ;
+        narr:evidence "framing-move: If my blinders are up enough and I stay focused on the, like, wonderful people right around me, things are great, you know, you just can't stray too far." ;
+        narr:reported false ;
+        skos:note "Expresses preservation of stability by deliberately narrowing attention to immediate personal connections." ;
+        prov:generatedAtTime "2026-09-23T18:44:46Z"^^xsd:dateTime .
+
+    narr:VecValue_5RealXavierAndTanya60Mins20260720_78 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_5RealXavierAndTanya60Mins20260720_78 ;
+        narr:dimension narr:Dim_Value ;
+        narr:region narr:Value_Competence ;
+        narr:region narr:Value_Conservation ;
+        narr:direction narr:DirValue_VerifiableProvenanceIntegrity ;
+        narr:evidence "plain-assertion: So you get full provenance of the ideas and you can essentially tell whether an AI is hallucinated or not by whether or not it cited someone that actually said it." ;
+        narr:reported false ;
+        skos:note "Appeals to evidentiary rigor, verification, and provenance integrity as core functional standards." ;
+        prov:generatedAtTime "2026-09-23T18:44:46Z"^^xsd:dateTime .
+
+    narr:VecValue_5RealXavierAndTanya60Mins20260720_84 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_5RealXavierAndTanya60Mins20260720_84 ;
+        narr:dimension narr:Dim_Value ;
+        narr:region narr:Value_Autonomy ;
+        narr:region narr:Value_Conservation ;
+        narr:evidence "lexical-marker: lives in your GitHub repo. So I don't store any data" ;
+        narr:evidence "lexical-marker: completely enterprise safe" ;
+        narr:reported false ;
+        skos:note "Elevates customer control/ownership of data and strict operational security as explicit goods." ;
+        prov:generatedAtTime "2026-09-23T18:44:46Z"^^xsd:dateTime .
+
+    narr:VecValue_5RealXavierAndTanya60Mins20260720_109 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_5RealXavierAndTanya60Mins20260720_109 ;
+        narr:dimension narr:Dim_Value ;
+        narr:region narr:Value_SelfEnhancement ;
+        narr:region narr:Value_Conservation ;
+        narr:evidence "framing-move: The telephone company always wins because the telephone company sits in between. And it's impossible to disintermediate because they sit in between." ;
+        narr:reported false ;
+        skos:note "Frames strategic winning and market survival through unassailable positioning and durable lock-in." ;
+        prov:generatedAtTime "2026-09-23T18:44:46Z"^^xsd:dateTime .
+
+    narr:VecValue_5RealXavierAndTanya60Mins20260720_119 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_5RealXavierAndTanya60Mins20260720_119 ;
+        narr:dimension narr:Dim_Value ;
+        narr:region narr:Value_SelfEnhancement ;
+        narr:evidence "lexical-marker: how do you build something that is non commodifiable?" ;
+        narr:evidence "plain-assertion: You like literally they can't rip you out without breaking it for somebody else." ;
+        narr:reported false ;
+        skos:note "Focuses on achieving defensibility, structural indispensable standing, and market insulation." ;
+        prov:generatedAtTime "2026-09-23T18:44:46Z"^^xsd:dateTime .
+
+    narr:VecValue_5RealXavierAndTanya60Mins20260720_145 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_5RealXavierAndTanya60Mins20260720_145 ;
+        narr:dimension narr:Dim_Value ;
+        narr:region narr:Value_Autonomy ;
+        narr:region narr:Value_OpennessToChange ;
+        narr:evidence "framing-move: YC is high value, low cost. Execute across the optionality because you've got like, you got the, you know, you got some degree of traction. You like have a thing. You can always pivot in YC" ;
+        narr:reported false ;
+        skos:note "Values maintaining self-directed optionality and room for exploratory maneuvering under low execution cost." ;
+        prov:generatedAtTime "2026-09-23T18:44:46Z"^^xsd:dateTime .
+
+    narr:VecValue_5RealXavierAndTanya60Mins20260720_191 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_5RealXavierAndTanya60Mins20260720_191 ;
+        narr:dimension narr:Dim_Value ;
+        narr:region narr:Value_SelfEnhancement ;
+        narr:evidence "framing-move: you are not raising. You're not trying to get someone to give you a check. You are creating a marketplace for as written." ;
+        narr:reported false ;
+        skos:note "Frames interaction as an assertion of high market power, standing, and leverage rather than supplicancy." ;
+        prov:generatedAtTime "2026-09-23T18:44:46Z"^^xsd:dateTime .
+
+    narr:Expr_5RealXavierAndTanya60Mins20260720_78 narr:supports narr:Narrative_InstallableExpertise .
+
+    narr:Expr_5RealXavierAndTanya60Mins20260720_79 narr:supports narr:Narrative_InstallableExpertise .
+
+    narr:Expr_5RealXavierAndTanya60Mins20260720_80 narr:supports narr:Narrative_InstallableExpertise .
+
+    narr:Expr_5RealXavierAndTanya60Mins20260720_82 narr:supports narr:Narrative_InstallableExpertise .
+
+    narr:Expr_5RealXavierAndTanya60Mins20260720_84 narr:supports narr:Narrative_InstallableExpertise .
+
+    narr:Expr_5RealXavierAndTanya60Mins20260720_88 narr:supports narr:Narrative_InstallableExpertise .
+
+    narr:Expr_5RealXavierAndTanya60Mins20260720_90 narr:supports narr:Narrative_InstallableExpertise .
+
+    narr:Expr_5RealXavierAndTanya60Mins20260720_92 narr:supports narr:Narrative_InstallableExpertise .
+
+    narr:Expr_5RealXavierAndTanya60Mins20260720_94 narr:supports narr:Narrative_InstallableExpertise .
+
+    narr:Expr_5RealXavierAndTanya60Mins20260720_96 narr:supports narr:Narrative_InstallableExpertise .
+
+    narr:Expr_5RealXavierAndTanya60Mins20260720_98 narr:supports narr:Narrative_InstallableExpertise .
+
+    narr:Expr_5RealXavierAndTanya60Mins20260720_105 narr:supports narr:Narrative_InstallableExpertise .
+
+    narr:Expr_5RealXavierAndTanya60Mins20260720_107 narr:supports narr:Narrative_InstallableExpertise .
+
+    narr:Expr_5RealXavierAndTanya60Mins20260720_109 narr:supports narr:Narrative_InstallableExpertise .
+
+    narr:Expr_5RealXavierAndTanya60Mins20260720_110 narr:supports narr:Narrative_InstallableExpertise .
+
+    narr:Expr_5RealXavierAndTanya60Mins20260720_111 narr:supports narr:Narrative_InstallableExpertise .
+
+    narr:Expr_5RealXavierAndTanya60Mins20260720_113 narr:supports narr:Narrative_InstallableExpertise .
+
+    narr:Expr_5RealXavierAndTanya60Mins20260720_115 narr:supports narr:Narrative_InstallableExpertise .
+
+    narr:Expr_5RealXavierAndTanya60Mins20260720_116 narr:supports narr:Narrative_InstallableExpertise .
+
+    narr:Expr_5RealXavierAndTanya60Mins20260720_117 narr:supports narr:Narrative_InstallableExpertise .
+
+    narr:Expr_5RealXavierAndTanya60Mins20260720_118 narr:supports narr:Narrative_InstallableExpertise .
+
+    narr:Expr_5RealXavierAndTanya60Mins20260720_119 narr:supports narr:Narrative_InstallableExpertise .
+
+    narr:Expr_5RealXavierAndTanya60Mins20260720_120 narr:supports narr:Narrative_InstallableExpertise .
+
+    narr:Expr_5RealXavierAndTanya60Mins20260720_121 narr:supports narr:Narrative_InstallableExpertise .
+
+    narr:Expr_5RealXavierAndTanya60Mins20260720_123 narr:supports narr:Narrative_InstallableExpertise .
+
+    narr:Expr_5RealXavierAndTanya60Mins20260720_125 narr:supports narr:Narrative_InstallableExpertise .
+
+    narr:Expr_5RealXavierAndTanya60Mins20260720_126 narr:supports narr:Narrative_InstallableExpertise .
+
+    narr:Expr_5RealXavierAndTanya60Mins20260720_127 narr:supports narr:Narrative_InstallableExpertise .
+
+    narr:Expr_5RealXavierAndTanya60Mins20260720_128 narr:supports narr:Narrative_InstallableExpertise .
+
+    narr:Expr_5RealXavierAndTanya60Mins20260720_129 narr:supports narr:Narrative_InstallableExpertise .
+
+    narr:Expr_5RealXavierAndTanya60Mins20260720_131 narr:supports narr:Narrative_InstallableExpertise .
+
+    narr:Expr_5RealXavierAndTanya60Mins20260720_133 narr:supports narr:Narrative_InstallableExpertise .
+
+    narr:Expr_5RealXavierAndTanya60Mins20260720_157 narr:supports narr:Narrative_InstallableExpertise .
+
+    narr:Expr_5RealXavierAndTanya60Mins20260720_158 narr:supports narr:Narrative_InstallableExpertise .
+
+    narr:Position_InstallableExpertiseCategoryMoat narr:supports narr:Narrative_InstallableExpertise .
+
+    narr:Position_SubgraphScopingTemporalityOntology narr:supports narr:Narrative_InstallableExpertise .
+
+    narr:Position_DesignTokenPerspectiveParallel narr:supports narr:Narrative_InstallableExpertise .
+
+    narr:Position_BrandAsAiIdentity narr:supports narr:Narrative_InstallableExpertise .
+
+    narr:Expr_5RealXavierAndTanya60Mins20260720_100 narr:supports narr:Narrative_BehavioralProgressionPackaging .
+
+    narr:Expr_5RealXavierAndTanya60Mins20260720_212 narr:supports narr:Narrative_BehavioralProgressionPackaging .
+
+    narr:Expr_5RealXavierAndTanya60Mins20260720_214 narr:supports narr:Narrative_BehavioralProgressionPackaging .
+
+    narr:Expr_5RealXavierAndTanya60Mins20260720_215 narr:supports narr:Narrative_BehavioralProgressionPackaging .
+
+    narr:Position_BehavioralStepPackagingTiers narr:supports narr:Narrative_BehavioralProgressionPackaging .
+
+    narr:Position_SmsChannelTierPackaging narr:supports narr:Narrative_BehavioralProgressionPackaging .
+
+    narr:Narrative_StagedFundraisingProcess a narr:Narrative ;
+        dct:source narr:Sample_5RealXavierAndTanya60Mins20260720 ;
+        narr:frame "How does orchestrating a competitive, time-bound marketplace across prospective investors build fundraising leverage compared to seeking individual checks sequentially?" ;
+        skos:note "Time-bound investor marketplace discipline replaces sequential capital seeking" ;
+        prov:generatedAtTime "2026-09-23T18:44:46Z"^^xsd:dateTime .
+
+    narr:Expr_5RealXavierAndTanya60Mins20260720_102 narr:supports narr:Narrative_StagedFundraisingProcess .
+
+    narr:Expr_5RealXavierAndTanya60Mins20260720_143 narr:supports narr:Narrative_StagedFundraisingProcess .
+
+    narr:Expr_5RealXavierAndTanya60Mins20260720_144 narr:supports narr:Narrative_StagedFundraisingProcess .
+
+    narr:Expr_5RealXavierAndTanya60Mins20260720_145 narr:supports narr:Narrative_StagedFundraisingProcess .
+
+    narr:Expr_5RealXavierAndTanya60Mins20260720_170 narr:supports narr:Narrative_StagedFundraisingProcess .
+
+    narr:Expr_5RealXavierAndTanya60Mins20260720_171 narr:supports narr:Narrative_StagedFundraisingProcess .
+
+    narr:Expr_5RealXavierAndTanya60Mins20260720_173 narr:supports narr:Narrative_StagedFundraisingProcess .
+
+    narr:Expr_5RealXavierAndTanya60Mins20260720_175 narr:supports narr:Narrative_StagedFundraisingProcess .
+
+    narr:Expr_5RealXavierAndTanya60Mins20260720_176 narr:supports narr:Narrative_StagedFundraisingProcess .
+
+    narr:Expr_5RealXavierAndTanya60Mins20260720_177 narr:supports narr:Narrative_StagedFundraisingProcess .
+
+    narr:Expr_5RealXavierAndTanya60Mins20260720_179 narr:supports narr:Narrative_StagedFundraisingProcess .
+
+    narr:Expr_5RealXavierAndTanya60Mins20260720_181 narr:supports narr:Narrative_StagedFundraisingProcess .
+
+    narr:Expr_5RealXavierAndTanya60Mins20260720_183 narr:supports narr:Narrative_StagedFundraisingProcess .
+
+    narr:Expr_5RealXavierAndTanya60Mins20260720_184 narr:supports narr:Narrative_StagedFundraisingProcess .
+
+    narr:Expr_5RealXavierAndTanya60Mins20260720_185 narr:supports narr:Narrative_StagedFundraisingProcess .
+
+    narr:Expr_5RealXavierAndTanya60Mins20260720_186 narr:supports narr:Narrative_StagedFundraisingProcess .
+
+    narr:Expr_5RealXavierAndTanya60Mins20260720_187 narr:supports narr:Narrative_StagedFundraisingProcess .
+
+    narr:Expr_5RealXavierAndTanya60Mins20260720_188 narr:supports narr:Narrative_StagedFundraisingProcess .
+
+    narr:Expr_5RealXavierAndTanya60Mins20260720_189 narr:supports narr:Narrative_StagedFundraisingProcess .
+
+    narr:Expr_5RealXavierAndTanya60Mins20260720_191 narr:supports narr:Narrative_StagedFundraisingProcess .
+
+    narr:Expr_5RealXavierAndTanya60Mins20260720_192 narr:supports narr:Narrative_StagedFundraisingProcess .
+
+    narr:Expr_5RealXavierAndTanya60Mins20260720_193 narr:supports narr:Narrative_StagedFundraisingProcess .
+
+    narr:Expr_5RealXavierAndTanya60Mins20260720_194 narr:supports narr:Narrative_StagedFundraisingProcess .
+
+    narr:Expr_5RealXavierAndTanya60Mins20260720_195 narr:supports narr:Narrative_StagedFundraisingProcess .
+
+    narr:Expr_5RealXavierAndTanya60Mins20260720_196 narr:supports narr:Narrative_StagedFundraisingProcess .
+
+    narr:Expr_5RealXavierAndTanya60Mins20260720_197 narr:supports narr:Narrative_StagedFundraisingProcess .
+
+    narr:Expr_5RealXavierAndTanya60Mins20260720_198 narr:supports narr:Narrative_StagedFundraisingProcess .
+
+    narr:Expr_5RealXavierAndTanya60Mins20260720_199 narr:supports narr:Narrative_StagedFundraisingProcess .
+
+    narr:Expr_5RealXavierAndTanya60Mins20260720_201 narr:supports narr:Narrative_StagedFundraisingProcess .
+
+    narr:Expr_5RealXavierAndTanya60Mins20260720_202 narr:supports narr:Narrative_StagedFundraisingProcess .
+
+    narr:Expr_5RealXavierAndTanya60Mins20260720_203 narr:supports narr:Narrative_StagedFundraisingProcess .
+
+    narr:Expr_5RealXavierAndTanya60Mins20260720_205 narr:supports narr:Narrative_StagedFundraisingProcess .
+
+    narr:Expr_5RealXavierAndTanya60Mins20260720_206 narr:supports narr:Narrative_StagedFundraisingProcess .
+
+    narr:Expr_5RealXavierAndTanya60Mins20260720_207 narr:supports narr:Narrative_StagedFundraisingProcess .
+
+    narr:Expr_5RealXavierAndTanya60Mins20260720_208 narr:supports narr:Narrative_StagedFundraisingProcess .
+
+    narr:Expr_5RealXavierAndTanya60Mins20260720_209 narr:supports narr:Narrative_StagedFundraisingProcess .
+
+    narr:Expr_5RealXavierAndTanya60Mins20260720_210 narr:supports narr:Narrative_StagedFundraisingProcess .
+
+    narr:Expr_5RealXavierAndTanya60Mins20260720_211 narr:supports narr:Narrative_StagedFundraisingProcess .
+
+    narr:Expr_5RealXavierAndTanya60Mins20260720_222 narr:supports narr:Narrative_StagedFundraisingProcess .
+
+    narr:Position_ConversationalProvenanceDataModel a narr:Position ;
+        narr:frame "How does modeling organizational conversation with append-only provenance differ from traditional entity-fact knowledge graphs?" ;
+        narr:extends narr:Position_InstallableExpertiseCategoryMoat ;
+        prov:generatedAtTime "2026-09-23T18:44:46Z"^^xsd:dateTime .
+
+    narr:Position_ConversationalProvenanceDataModel narr:supports narr:Narrative_InstallableExpertise .
+
+    narr:Expr_5RealXavierAndTanya60Mins20260720_78 narr:supports narr:Position_ConversationalProvenanceDataModel .
+
+    narr:Expr_5RealXavierAndTanya60Mins20260720_80 narr:supports narr:Position_ConversationalProvenanceDataModel .
+
+    narr:Expr_5RealXavierAndTanya60Mins20260720_82 narr:supports narr:Position_ConversationalProvenanceDataModel .
+
+    narr:Expr_5RealXavierAndTanya60Mins20260720_84 narr:supports narr:Position_ConversationalProvenanceDataModel .
+
+    narr:Expr_5RealXavierAndTanya60Mins20260720_88 narr:supports narr:Position_ConversationalProvenanceDataModel .
+
+    narr:Expr_5RealXavierAndTanya60Mins20260720_90 narr:supports narr:Position_ConversationalProvenanceDataModel .
+
+    narr:Expr_5RealXavierAndTanya60Mins20260720_92 narr:supports narr:Position_ConversationalProvenanceDataModel .
+
+    narr:Expr_5RealXavierAndTanya60Mins20260720_94 narr:supports narr:Position_ConversationalProvenanceDataModel .
+
+    narr:Expr_5RealXavierAndTanya60Mins20260720_96 narr:supports narr:Position_ConversationalProvenanceDataModel .
+
+    narr:Expr_5RealXavierAndTanya60Mins20260720_98 narr:supports narr:Position_ConversationalProvenanceDataModel .
+
+    narr:Expr_5RealXavierAndTanya60Mins20260720_110 narr:supports narr:Position_ConversationalProvenanceDataModel .
+
+    narr:Position_IntermediaryNetworkEffectsFederation a narr:Position ;
+        narr:frame "How can cross-organizational graph federation and intermediary network effects protect against commodity AI transcription and incumbent displacement?" ;
+        prov:generatedAtTime "2026-09-23T18:44:46Z"^^xsd:dateTime .
+
+    narr:Position_IntermediaryNetworkEffectsFederation narr:supports narr:Narrative_InstallableExpertise .
+
+    narr:Expr_5RealXavierAndTanya60Mins20260720_105 narr:supports narr:Position_IntermediaryNetworkEffectsFederation .
+
+    narr:Expr_5RealXavierAndTanya60Mins20260720_109 narr:supports narr:Position_IntermediaryNetworkEffectsFederation .
+
+    narr:Expr_5RealXavierAndTanya60Mins20260720_111 narr:supports narr:Position_IntermediaryNetworkEffectsFederation .
+
+    narr:Expr_5RealXavierAndTanya60Mins20260720_113 narr:supports narr:Position_IntermediaryNetworkEffectsFederation .
+
+    narr:Expr_5RealXavierAndTanya60Mins20260720_115 narr:supports narr:Position_IntermediaryNetworkEffectsFederation .
+
+    narr:Expr_5RealXavierAndTanya60Mins20260720_117 narr:supports narr:Position_IntermediaryNetworkEffectsFederation .
+
+    narr:Expr_5RealXavierAndTanya60Mins20260720_119 narr:supports narr:Position_IntermediaryNetworkEffectsFederation .
+
+    narr:Expr_5RealXavierAndTanya60Mins20260720_121 narr:supports narr:Position_IntermediaryNetworkEffectsFederation .
+
+    narr:Expr_5RealXavierAndTanya60Mins20260720_125 narr:supports narr:Position_IntermediaryNetworkEffectsFederation .
+
+    narr:Expr_5RealXavierAndTanya60Mins20260720_127 narr:supports narr:Position_IntermediaryNetworkEffectsFederation .
+
+    narr:Expr_5RealXavierAndTanya60Mins20260720_128 narr:supports narr:Position_IntermediaryNetworkEffectsFederation .
+
+    narr:Expr_5RealXavierAndTanya60Mins20260720_133 narr:supports narr:Position_IntermediaryNetworkEffectsFederation .
+
+    narr:Expr_5RealXavierAndTanya60Mins20260720_157 narr:supports narr:Position_IntermediaryNetworkEffectsFederation .
+
+    narr:Expr_5RealXavierAndTanya60Mins20260720_158 narr:supports narr:Position_IntermediaryNetworkEffectsFederation .
+
+    narr:Position_StagedFundraisingProcessMarketplace a narr:Position ;
+        narr:frame "How should early-stage founders stage fundraising rounds and orchestrate competitive investor momentum rather than seeking individual checks?" ;
+        prov:generatedAtTime "2026-09-23T18:44:46Z"^^xsd:dateTime .
+
+    narr:Position_StagedFundraisingProcessMarketplace narr:supports narr:Narrative_InstallableExpertise .
+
+    narr:Expr_5RealXavierAndTanya60Mins20260720_102 narr:supports narr:Position_StagedFundraisingProcessMarketplace .
+
+    narr:Expr_5RealXavierAndTanya60Mins20260720_143 narr:supports narr:Position_StagedFundraisingProcessMarketplace .
+
+    narr:Expr_5RealXavierAndTanya60Mins20260720_145 narr:supports narr:Position_StagedFundraisingProcessMarketplace .
+
+    narr:Expr_5RealXavierAndTanya60Mins20260720_171 narr:supports narr:Position_StagedFundraisingProcessMarketplace .
+
+    narr:Expr_5RealXavierAndTanya60Mins20260720_177 narr:supports narr:Position_StagedFundraisingProcessMarketplace .
+
+    narr:Expr_5RealXavierAndTanya60Mins20260720_179 narr:supports narr:Position_StagedFundraisingProcessMarketplace .
+
+    narr:Expr_5RealXavierAndTanya60Mins20260720_183 narr:supports narr:Position_StagedFundraisingProcessMarketplace .
+
+    narr:Expr_5RealXavierAndTanya60Mins20260720_185 narr:supports narr:Position_StagedFundraisingProcessMarketplace .
+
+    narr:Expr_5RealXavierAndTanya60Mins20260720_187 narr:supports narr:Position_StagedFundraisingProcessMarketplace .
+
+    narr:Expr_5RealXavierAndTanya60Mins20260720_189 narr:supports narr:Position_StagedFundraisingProcessMarketplace .
+
+    narr:Expr_5RealXavierAndTanya60Mins20260720_191 narr:supports narr:Position_StagedFundraisingProcessMarketplace .
+
+    narr:Expr_5RealXavierAndTanya60Mins20260720_193 narr:supports narr:Position_StagedFundraisingProcessMarketplace .
+
+    narr:Expr_5RealXavierAndTanya60Mins20260720_195 narr:supports narr:Position_StagedFundraisingProcessMarketplace .
+
+    narr:Expr_5RealXavierAndTanya60Mins20260720_197 narr:supports narr:Position_StagedFundraisingProcessMarketplace .
+
+    narr:Expr_5RealXavierAndTanya60Mins20260720_199 narr:supports narr:Position_StagedFundraisingProcessMarketplace .
+
+    narr:Expr_5RealXavierAndTanya60Mins20260720_205 narr:supports narr:Position_StagedFundraisingProcessMarketplace .
+
+    narr:Expr_5RealXavierAndTanya60Mins20260720_209 narr:supports narr:Position_StagedFundraisingProcessMarketplace .
+
+    narr:Expr_5RealXavierAndTanya60Mins20260720_211 narr:supports narr:Position_StagedFundraisingProcessMarketplace .
+
+    narr:Expr_5RealXavierAndTanya60Mins20260720_222 narr:supports narr:Position_StagedFundraisingProcessMarketplace .
+
+    narr:Position_EnterprisePilotContractTiering a narr:Position ;
+        narr:frame "How should pricing and contract structures scale from team self-service to automated enterprise meeting ingestion?" ;
+        prov:generatedAtTime "2026-09-23T18:44:46Z"^^xsd:dateTime .
+
+    narr:Position_EnterprisePilotContractTiering narr:supports narr:Narrative_BehavioralProgressionPackaging .
+
+    narr:Expr_5RealXavierAndTanya60Mins20260720_100 narr:supports narr:Position_EnterprisePilotContractTiering .
+
+    narr:Expr_5RealXavierAndTanya60Mins20260720_212 narr:supports narr:Position_EnterprisePilotContractTiering .
+
+    narr:Expr_5RealXavierAndTanya60Mins20260720_214 narr:supports narr:Position_EnterprisePilotContractTiering .
+
+    aswr:Miss_5RealXavierAndTanya60Mins20260720_conviction_trip a aswr:Miss ;
+        aswr:missPass "conviction" ;
+        aswr:missClass "floor" ;
+        aswr:missError "marked 12/247 under 0.25 for conviction" ;
+        aswr:missModel "google/gemini-3.7-flash" ;
+        aswr:tripFloor "marked_ratio" ;
+        aswr:tripRatio "0.0486"^^xsd:decimal ;
+        aswr:tripOutcome "accepted-flagged" ;
+        aswr:tripFallbackModel "anthropic/claude-sonnet-5" ;
+        aswr:missScope narr:Sample_5RealXavierAndTanya60Mins20260720 ;
+        prov:generatedAtTime "2026-09-23T18:44:46Z"^^xsd:dateTime .
+
+    aswr:Miss_5RealXavierAndTanya60Mins20260720_narrative_trip a aswr:Miss ;
+        aswr:missPass "narrative" ;
+        aswr:missClass "floor" ;
+        aswr:missError "unplaced 170/247 exceeds 0.34" ;
+        aswr:missModel "google/gemini-3.7-flash" ;
+        aswr:tripFloor "unplaced_ratio" ;
+        aswr:tripRatio "0.6883"^^xsd:decimal ;
+        aswr:tripOutcome "accepted-flagged" ;
+        aswr:tripFallbackModel "anthropic/claude-sonnet-5" ;
+        aswr:missScope narr:Sample_5RealXavierAndTanya60Mins20260720 ;
+        prov:generatedAtTime "2026-09-23T18:44:46Z"^^xsd:dateTime .
+
+    aswr:Miss_5RealXavierAndTanya60Mins20260720_resolve_trip a aswr:Miss ;
+        aswr:missPass "resolve" ;
+        aswr:missClass "floor" ;
+        aswr:missError "resolutions empty against a populated perspective" ;
+        aswr:missModel "google/gemini-3.7-flash" ;
+        aswr:tripFloor "empty_on_populated" ;
+        aswr:tripRatio "0.0000"^^xsd:decimal ;
+        aswr:tripOutcome "accepted-flagged" ;
+        aswr:tripFallbackModel "anthropic/claude-sonnet-5" ;
+        aswr:missScope narr:Sample_5RealXavierAndTanya60Mins20260720 ;
+        prov:generatedAtTime "2026-09-23T18:44:46Z"^^xsd:dateTime .
+
+    aswr:Miss_5RealXavierAndTanya60Mins20260720_temporal_trip a aswr:Miss ;
+        aswr:missPass "temporal" ;
+        aswr:missClass "floor" ;
+        aswr:missError "marked 17/247 under 0.34 for temporal" ;
+        aswr:missModel "google/gemini-3.7-flash" ;
+        aswr:tripFloor "marked_ratio" ;
+        aswr:tripRatio "0.0688"^^xsd:decimal ;
+        aswr:tripOutcome "accepted-flagged" ;
+        aswr:tripFallbackModel "anthropic/claude-sonnet-5" ;
+        aswr:missScope narr:Sample_5RealXavierAndTanya60Mins20260720 ;
+        prov:generatedAtTime "2026-09-23T18:44:46Z"^^xsd:dateTime .
+
+    aswr:Run_20260923T184446Z_dim_affect a prov:Activity ;
+        aswr:runPass "dim.affect" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/7f859f5ae6db/2026-09-23-5-real-xavier-and-tanya-60-mins-2026-07-20/dim.affect.json" ;
+        prov:generated narr:VecAffect_5RealXavierAndTanya60Mins20260720_7, narr:VecAffect_5RealXavierAndTanya60Mins20260720_9, narr:VecAffect_5RealXavierAndTanya60Mins20260720_11, narr:VecAffect_5RealXavierAndTanya60Mins20260720_37, narr:VecAffect_5RealXavierAndTanya60Mins20260720_67, narr:VecAffect_5RealXavierAndTanya60Mins20260720_68, narr:VecAffect_5RealXavierAndTanya60Mins20260720_77, narr:VecAffect_5RealXavierAndTanya60Mins20260720_140, narr:VecAffect_5RealXavierAndTanya60Mins20260720_141, narr:VecAffect_5RealXavierAndTanya60Mins20260720_151 ;
+        dct:isPartOf aswr:Tx_20260923T184446Z ;
+        prov:generatedAtTime "2026-09-23T18:44:46Z"^^xsd:dateTime .
+
+    aswr:Run_20260923T184446Z_dim_conviction a prov:Activity ;
+        aswr:runPass "dim.conviction" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/7f859f5ae6db/2026-09-23-5-real-xavier-and-tanya-60-mins-2026-07-20/dim.conviction.json" ;
+        prov:generated narr:DirConviction_OperatingThesisAsBedrock, narr:VecConviction_5RealXavierAndTanya60Mins20260720_79, narr:VecConviction_5RealXavierAndTanya60Mins20260720_80, narr:VecConviction_5RealXavierAndTanya60Mins20260720_87, narr:VecConviction_5RealXavierAndTanya60Mins20260720_105, narr:VecConviction_5RealXavierAndTanya60Mins20260720_109, narr:VecConviction_5RealXavierAndTanya60Mins20260720_110, narr:VecConviction_5RealXavierAndTanya60Mins20260720_140, narr:VecConviction_5RealXavierAndTanya60Mins20260720_143, narr:VecConviction_5RealXavierAndTanya60Mins20260720_155, narr:VecConviction_5RealXavierAndTanya60Mins20260720_178, narr:VecConviction_5RealXavierAndTanya60Mins20260720_191, narr:VecConviction_5RealXavierAndTanya60Mins20260720_222 ;
+        dct:isPartOf aswr:Tx_20260923T184446Z ;
+        prov:generatedAtTime "2026-09-23T18:44:46Z"^^xsd:dateTime .
+
+    aswr:Run_20260923T184446Z_dim_power a prov:Activity ;
+        aswr:runPass "dim.power" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/7f859f5ae6db/2026-09-23-5-real-xavier-and-tanya-60-mins-2026-07-20/dim.power.json" ;
+        prov:generated narr:VecPower_5RealXavierAndTanya60Mins20260720_85, narr:VecPower_5RealXavierAndTanya60Mins20260720_99, narr:VecPower_5RealXavierAndTanya60Mins20260720_100, narr:VecPower_5RealXavierAndTanya60Mins20260720_103, narr:VecPower_5RealXavierAndTanya60Mins20260720_143, narr:VecPower_5RealXavierAndTanya60Mins20260720_177, narr:VecPower_5RealXavierAndTanya60Mins20260720_183, narr:VecPower_5RealXavierAndTanya60Mins20260720_193, narr:VecPower_5RealXavierAndTanya60Mins20260720_199, narr:VecPower_5RealXavierAndTanya60Mins20260720_217 ;
+        dct:isPartOf aswr:Tx_20260923T184446Z ;
+        prov:generatedAtTime "2026-09-23T18:44:46Z"^^xsd:dateTime .
+
+    aswr:Run_20260923T184446Z_dim_register a prov:Activity ;
+        aswr:runPass "dim.register" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/7f859f5ae6db/2026-09-23-5-real-xavier-and-tanya-60-mins-2026-07-20/dim.register.json" ;
+        prov:generated narr:DirRegister_OntologicalProvenanceJargon, narr:VecRegister_5RealXavierAndTanya60Mins20260720_37, narr:VecRegister_5RealXavierAndTanya60Mins20260720_59, narr:VecRegister_5RealXavierAndTanya60Mins20260720_77, narr:VecRegister_5RealXavierAndTanya60Mins20260720_82, narr:VecRegister_5RealXavierAndTanya60Mins20260720_83, narr:VecRegister_5RealXavierAndTanya60Mins20260720_105, narr:VecRegister_5RealXavierAndTanya60Mins20260720_185 ;
+        dct:isPartOf aswr:Tx_20260923T184446Z ;
+        prov:generatedAtTime "2026-09-23T18:44:46Z"^^xsd:dateTime .
+
+    aswr:Run_20260923T184446Z_dim_relational a prov:Activity ;
+        aswr:runPass "dim.relational" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/7f859f5ae6db/2026-09-23-5-real-xavier-and-tanya-60-mins-2026-07-20/dim.relational.json" ;
+        prov:generated narr:VecRelational_5RealXavierAndTanya60Mins20260720_2, narr:VecRelational_5RealXavierAndTanya60Mins20260720_27, narr:VecRelational_5RealXavierAndTanya60Mins20260720_31, narr:VecRelational_5RealXavierAndTanya60Mins20260720_37, narr:VecRelational_5RealXavierAndTanya60Mins20260720_100, narr:VecRelational_5RealXavierAndTanya60Mins20260720_119, narr:VecRelational_5RealXavierAndTanya60Mins20260720_125, narr:VecRelational_5RealXavierAndTanya60Mins20260720_135, narr:VecRelational_5RealXavierAndTanya60Mins20260720_177, narr:VecRelational_5RealXavierAndTanya60Mins20260720_199, narr:VecRelational_5RealXavierAndTanya60Mins20260720_205, narr:VecRelational_5RealXavierAndTanya60Mins20260720_214 ;
+        dct:isPartOf aswr:Tx_20260923T184446Z ;
+        prov:generatedAtTime "2026-09-23T18:44:46Z"^^xsd:dateTime .
+
+    aswr:Run_20260923T184446Z_dim_style a prov:Activity ;
+        aswr:runPass "dim.style" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/7f859f5ae6db/2026-09-23-5-real-xavier-and-tanya-60-mins-2026-07-20/dim.style.json" ;
+        prov:generated narr:VecStyle_5RealXavierAndTanya60Mins20260720_20, narr:VecStyle_5RealXavierAndTanya60Mins20260720_23, narr:VecStyle_5RealXavierAndTanya60Mins20260720_31, narr:VecStyle_5RealXavierAndTanya60Mins20260720_35, narr:VecStyle_5RealXavierAndTanya60Mins20260720_43, narr:VecStyle_5RealXavierAndTanya60Mins20260720_105, narr:VecStyle_5RealXavierAndTanya60Mins20260720_107, narr:VecStyle_5RealXavierAndTanya60Mins20260720_109, narr:VecStyle_5RealXavierAndTanya60Mins20260720_110, narr:VecStyle_5RealXavierAndTanya60Mins20260720_111, narr:VecStyle_5RealXavierAndTanya60Mins20260720_185, narr:VecStyle_5RealXavierAndTanya60Mins20260720_191, narr:VecStyle_5RealXavierAndTanya60Mins20260720_199 ;
+        dct:isPartOf aswr:Tx_20260923T184446Z ;
+        prov:generatedAtTime "2026-09-23T18:44:46Z"^^xsd:dateTime .
+
+    aswr:Run_20260923T184446Z_dim_temporal a prov:Activity ;
+        aswr:runPass "dim.temporal" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/7f859f5ae6db/2026-09-23-5-real-xavier-and-tanya-60-mins-2026-07-20/dim.temporal.json" ;
+        prov:generated narr:VecTemporal_5RealXavierAndTanya60Mins20260720_7, narr:VecTemporal_5RealXavierAndTanya60Mins20260720_27, narr:VecTemporal_5RealXavierAndTanya60Mins20260720_37, narr:VecTemporal_5RealXavierAndTanya60Mins20260720_43, narr:VecTemporal_5RealXavierAndTanya60Mins20260720_59, narr:VecTemporal_5RealXavierAndTanya60Mins20260720_63, narr:VecTemporal_5RealXavierAndTanya60Mins20260720_77, narr:VecTemporal_5RealXavierAndTanya60Mins20260720_78, narr:VecTemporal_5RealXavierAndTanya60Mins20260720_102, narr:VecTemporal_5RealXavierAndTanya60Mins20260720_105, narr:VecTemporal_5RealXavierAndTanya60Mins20260720_109, narr:VecTemporal_5RealXavierAndTanya60Mins20260720_140, narr:VecTemporal_5RealXavierAndTanya60Mins20260720_143, narr:VecTemporal_5RealXavierAndTanya60Mins20260720_177, narr:VecTemporal_5RealXavierAndTanya60Mins20260720_195, narr:VecTemporal_5RealXavierAndTanya60Mins20260720_214, narr:VecTemporal_5RealXavierAndTanya60Mins20260720_222 ;
+        dct:isPartOf aswr:Tx_20260923T184446Z ;
+        prov:generatedAtTime "2026-09-23T18:44:46Z"^^xsd:dateTime .
+
+    aswr:Run_20260923T184446Z_dim_value a prov:Activity ;
+        aswr:runPass "dim.value" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/7f859f5ae6db/2026-09-23-5-real-xavier-and-tanya-60-mins-2026-07-20/dim.value.json" ;
+        prov:generated narr:DirValue_VerifiableProvenanceIntegrity, narr:VecValue_5RealXavierAndTanya60Mins20260720_12, narr:VecValue_5RealXavierAndTanya60Mins20260720_78, narr:VecValue_5RealXavierAndTanya60Mins20260720_84, narr:VecValue_5RealXavierAndTanya60Mins20260720_109, narr:VecValue_5RealXavierAndTanya60Mins20260720_119, narr:VecValue_5RealXavierAndTanya60Mins20260720_145, narr:VecValue_5RealXavierAndTanya60Mins20260720_191 ;
+        dct:isPartOf aswr:Tx_20260923T184446Z ;
+        prov:generatedAtTime "2026-09-23T18:44:46Z"^^xsd:dateTime .
+
+    aswr:Run_20260923T184446Z_pass5 a prov:Activity ;
+        aswr:runPass "pass5" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/7f859f5ae6db/2026-09-23-5-real-xavier-and-tanya-60-mins-2026-07-20/pass5.json" ;
+        prov:generated narr:Narrative_StagedFundraisingProcess ;
+        dct:isPartOf aswr:Tx_20260923T184446Z ;
+        prov:generatedAtTime "2026-09-23T18:44:46Z"^^xsd:dateTime .
+
+    aswr:Run_20260923T184446Z_position a prov:Activity ;
+        aswr:runPass "position" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/7f859f5ae6db/2026-09-23-5-real-xavier-and-tanya-60-mins-2026-07-20/position.json" ;
+        prov:generated narr:Position_ConversationalProvenanceDataModel, narr:Position_IntermediaryNetworkEffectsFederation, narr:Position_StagedFundraisingProcessMarketplace, narr:Position_EnterprisePilotContractTiering ;
+        dct:isPartOf aswr:Tx_20260923T184446Z ;
+        prov:generatedAtTime "2026-09-23T18:44:46Z"^^xsd:dateTime .
+  }
+}
