@@ -1,0 +1,129 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-7",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "The text for topic memory was really an exploration",
+      "kind" : "plain-assertion"
+    }, {
+      "quote" : "that was always a product experiment",
+      "kind" : "intensifier"
+    } ],
+    "why" : "Tanya asserts the epistemic status of past work with clarifying firmness ('really', 'always').",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-8",
+    "regions" : [ "principle" ],
+    "evidence" : [ {
+      "quote" : "The product is not a phone number; it's the phone number distribution channel",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Bedrock definitional correction establishing core product identity against a channel misattribution.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-15",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "There is some real value to the way the phone number feels",
+      "kind" : "plain-assertion"
+    }, {
+      "quote" : "That's really important",
+      "kind" : "intensifier"
+    } ],
+    "why" : "Committed defense of the UX texture value of SMS without making it global product identity.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-20",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "That's a bonus; it's an upsell.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Direct assertive framing repositioning SMS as an add-on.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-21",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "It's also a lot more work because of the maintenance around fraud",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Asserted operational trade-off based on ongoing verification friction.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-27",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "She thinks that text message, in certain contexts, is absolutely the right move",
+      "kind" : "epistemic-verb"
+    }, {
+      "quote" : "might actually be a real downside",
+      "kind" : "hedge"
+    } ],
+    "why" : "Reported evaluation from Tess showing nuanced contextual stance on SMS friction.",
+    "reported" : true
+  }, {
+    "segment_local_id" : "src-35",
+    "regions" : [ "notion" ],
+    "evidence" : [ {
+      "quote" : "I suppose",
+      "kind" : "hedge"
+    }, {
+      "quote" : "sort of subgrouping",
+      "kind" : "hedge"
+    } ],
+    "why" : "Floated architectural thought explored with explicit hedging ('I suppose', 'sort of').",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-40",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "This tagline should be **superseded**.",
+      "kind" : "commitment-marker"
+    } ],
+    "why" : "Explicit instruction settling graph state by retiring the old tagline.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-43",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "**should not be auto-promoted**",
+      "kind" : "commitment-marker"
+    } ],
+    "why" : "Operational gating decision holding promotion pending joint review.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-46",
+    "regions" : [ "notion" ],
+    "evidence" : [ {
+      "quote" : "I think SMS is something that we should offer only for the enterprise plan",
+      "kind" : "epistemic-verb"
+    } ],
+    "why" : "Epistemic verb 'I think' framing an unfinalized leaning for tiering.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-47",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "We don't know yet how this maps to tiers",
+      "kind" : "plain-assertion"
+    }, {
+      "quote" : "I don't want to make that decision right now.",
+      "kind" : "commitment-marker"
+    } ],
+    "why" : "Explicit performative refusal to decide, fixing the current epistemic state as undecided.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-51",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "This distinction must be preserved through extraction.",
+      "kind" : "commitment-marker"
+    } ],
+    "why" : "Normative extraction rule locking the distinction between a leaning and a decision.",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-1", "src-2", "src-3", "src-4", "src-5", "src-6", "src-9", "src-10", "src-11", "src-12", "src-13", "src-14", "src-16", "src-17", "src-18", "src-19", "src-22", "src-23", "src-24", "src-25", "src-26", "src-28", "src-29", "src-30", "src-31", "src-32", "src-33", "src-34", "src-36", "src-37", "src-38", "src-39", "src-41", "src-42", "src-44", "src-45", "src-48", "src-49", "src-50", "src-52" ],
+  "unmarked_rest" : false,
+  "mints" : [ ]
+}
