@@ -1,0 +1,52 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-2",
+    "regions" : [ "antithesis" ],
+    "evidence" : [ {
+      "quote" : "blunt where I can be useful and quiet where I can't",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Opposed paired conditions structured as matched contrasting clauses (blunt/useful vs quiet/can't).",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-7",
+    "regions" : [ "metaphor" ],
+    "evidence" : [ {
+      "quote" : "it always arrives dressed as efficiency",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Abstract organisational pressure personified and spoken of as wearing clothing/disguise.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-15",
+    "regions" : [ "antithesis", "parallelism" ],
+    "evidence" : [ {
+      "quote" : "tells you the data moved. It doesn't tell you the data was any good before it moved",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Parallel syntactic clauses contrasting what a validation step confirms versus what it fails to verify.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-23",
+    "regions" : [ "antithesis" ],
+    "evidence" : [ {
+      "quote" : "If it never stops anything, it isn't a gate",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Definition via negative conditional opposition between functional mechanism and nominal label.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-29",
+    "regions" : [ "parallelism", "antithesis" ],
+    "evidence" : [ {
+      "quote" : "They'll forgive a hole. They won't forgive finding one.",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Matched parallel clauses setting up direct antithetical contrast between proactive disclosure and discovery.",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-1", "src-3", "src-4", "src-5", "src-6", "src-8", "src-9", "src-10", "src-11", "src-12", "src-13", "src-14", "src-16", "src-17", "src-18", "src-19", "src-20", "src-21", "src-22", "src-24", "src-25", "src-26", "src-27", "src-28" ],
+  "unmarked_rest" : false,
+  "mints" : [ ],
+  "region_mints" : [ ]
+}
