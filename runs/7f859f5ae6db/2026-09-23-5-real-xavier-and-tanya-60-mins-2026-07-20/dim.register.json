@@ -1,0 +1,99 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-37",
+    "regions" : [ "technical", "casual" ],
+    "evidence" : [ {
+      "quote" : "ERP that was built in the 80s to a modern one",
+      "kind" : "lexical-marker"
+    }, {
+      "quote" : "Shit show. Because this thing is a fucking disaster.",
+      "kind" : "intensifier"
+    } ],
+    "why" : "Switches sharply from system architecture domain terms to blunt, profane vernacular evaluation.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-59",
+    "regions" : [ "technical" ],
+    "evidence" : [ {
+      "quote" : "cryptographically secure",
+      "kind" : "lexical-marker"
+    }, {
+      "quote" : "graph stuff where you're not exposing your whole contact list",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Invokes technical cryptographic framing and protocol mechanics natively.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-77",
+    "regions" : [ "technical" ],
+    "evidence" : [ {
+      "quote" : "AI on the edge rather than on the center",
+      "kind" : "framing-move"
+    }, {
+      "quote" : "gets OCR'd in the timeline",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Frames architectural thesis using native systems and edge computing terminology.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-82",
+    "regions" : [ "technical" ],
+    "evidence" : [ {
+      "quote" : "V2 Ontology and how I did collapse and expand around graphs and this digest narration",
+      "kind" : "lexical-marker"
+    }, {
+      "quote" : "full provenance inside of digested nodes",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Describes knowledge architecture using specialized structural ontology terminology.",
+    "reported" : false,
+    "direction" : {
+      "verdict" : "mint",
+      "node" : "mint-1"
+    }
+  }, {
+    "segment_local_id" : "src-83",
+    "regions" : [ "technical" ],
+    "evidence" : [ {
+      "quote" : "knowledge anchors associated with it",
+      "kind" : "lexical-marker"
+    }, {
+      "quote" : "part of a timeline. It can be superseded.",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Matches the specialized knowledge-graph provenance register with structured schema terms.",
+    "reported" : false,
+    "direction" : {
+      "verdict" : "mint",
+      "node" : "mint-1"
+    }
+  }, {
+    "segment_local_id" : "src-105",
+    "regions" : [ "matter-of-fact", "technical" ],
+    "evidence" : [ {
+      "quote" : "The marginal cost of software development is asymptotically approaching zero.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Delivers an economic thesis with formal analytical precision amidst casual conversation.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-185",
+    "regions" : [ "playful", "casual" ],
+    "evidence" : [ {
+      "quote" : "Emery Park is the howitzer. You show up like. Right. You use the howitzer when you have the ammunition.",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Uses vivid, exaggerated military metaphor to illustrate venture fundraising leverage.",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-1", "src-2", "src-3", "src-4", "src-5", "src-6", "src-7", "src-8", "src-9", "src-10", "src-11", "src-12", "src-13", "src-14", "src-15", "src-16", "src-17", "src-18", "src-19", "src-20", "src-21", "src-22", "src-23", "src-24", "src-25", "src-26", "src-27", "src-28", "src-29", "src-30", "src-31", "src-32", "src-33", "src-34", "src-35", "src-36", "src-38", "src-39", "src-40", "src-41", "src-42", "src-43", "src-44", "src-45", "src-46", "src-47", "src-48", "src-49", "src-50", "src-51", "src-52", "src-53", "src-54", "src-55", "src-56", "src-57", "src-58", "src-60", "src-61", "src-62", "src-63", "src-64", "src-65", "src-66", "src-67", "src-68", "src-69", "src-70", "src-71", "src-72", "src-73", "src-74", "src-75", "src-78", "src-79", "src-80", "src-81", "src-84", "src-85", "src-86", "src-87", "src-88", "src-89", "src-90", "src-91", "src-92", "src-93", "src-94", "src-95", "src-96", "src-97", "src-98", "src-99", "src-100" ],
+  "unmarked_rest" : true,
+  "mints" : [ {
+    "id" : "mint-1",
+    "name" : "OntologicalProvenanceJargon",
+    "title" : "full provenance inside of digested nodes",
+    "frame" : "Does the utterance deploy specialized knowledge-graph and provenance semantics rather than general engineering terms?",
+    "regions" : [ "technical" ]
+  } ],
+  "region_mints" : [ ]
+}
