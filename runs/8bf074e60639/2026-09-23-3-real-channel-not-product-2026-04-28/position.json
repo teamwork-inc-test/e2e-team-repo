@@ -1,0 +1,40 @@
+{
+  "positions" : [ {
+    "name" : "ProductIdentityChannelDisambiguation",
+    "frame" : "How does core product identity distinguish curated expertise installation from communication and distribution channels?",
+    "members" : [ "src-7", "src-8", "src-9", "src-12", "src-13", "src-19", "src-39", "src-41" ],
+    "why" : "Disentangles the foundational definition of the product (curated expertise installation) from the phone number / SMS channel, which was mistakenly elevated to a global identity tagline through exploratory experiments.",
+    "under" : [ "Narrative_InstallableExpertise" ],
+    "lineage" : {
+      "relation" : "extends",
+      "target" : "Position_InstallableExpertiseCategoryMoat"
+    }
+  }, {
+    "name" : "SmsChannelTierPackaging",
+    "frame" : "How should high-overhead distribution channels like SMS be mapped to commercial tiers and enterprise packaging?",
+    "members" : [ "src-20", "src-21", "src-45", "src-46", "src-47", "src-48", "src-49", "src-50" ],
+    "why" : "Balances the high operational and verification costs of individual SMS provisioning against commercial packaging, weighing an enterprise-only restriction against an opt-in upsell while explicitly holding the decision in an undecided epistemic state.",
+    "under" : [ "Narrative_BehavioralProgressionPackaging" ],
+    "lineage" : {
+      "relation" : "extends",
+      "target" : "Position_BehavioralStepPackagingTiers"
+    }
+  }, {
+    "name" : "SubgraphScopingTemporalityOntology",
+    "frame" : "How can extraction architectures isolate exploratory experiment claims from root product definitions to prevent narrative drift?",
+    "members" : [ "src-5", "src-32", "src-33", "src-34", "src-35", "src-36", "src-37" ],
+    "why" : "Identifies architectural and ontological gaps in the extraction pipeline—specifically temporality classification and subgraph segmentation—that cause local experimental positioning to contaminate global worldview.",
+    "under" : [ "Narrative_InstallableExpertise" ]
+  } ],
+  "attaches" : [ {
+    "position" : "Position_EvaluatorChannelTrustTax",
+    "members" : [ "src-14", "src-15", "src-18", "src-22", "src-25", "src-27", "src-28", "src-30", "src-31" ],
+    "why" : "Continues the evaluation of channel-dependent trust dynamics, contrasting the authentic texture of SMS in high-trust contexts with the spam friction and operational verification burden in skeptical or evaluator contexts."
+  }, {
+    "position" : "Position_ArchetypeRelationalDisambiguation",
+    "members" : [ "src-26", "src-29" ],
+    "why" : "Connects user archetype classification to channel suitability, noting how technical and trust barriers manifest specifically across the Knowledge-Rich Consumer persona."
+  } ],
+  "position_revisions" : [ ],
+  "ungrouped" : [ "src-1", "src-2", "src-3", "src-4", "src-6", "src-10", "src-11", "src-16", "src-17", "src-23", "src-24", "src-38", "src-40", "src-42", "src-43", "src-44", "src-51", "src-52" ]
+}
