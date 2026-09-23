@@ -1,0 +1,12 @@
+{
+  "resolutions" : [ {
+    "commentary_local_id" : "src-18",
+    "phrase" : "Tina's \"it just looks real\"",
+    "verdict" : "new",
+    "binding" : null,
+    "candidates" : null,
+    "why" : "No prior observation or position capturing Tina's 'it just looks real' quote exists in the current graph.",
+    "consulted" : [ "Sample_Sprint4Retro_20260322", "Sample_TeamworkProductVision_20260310", "StyleObs_Antithesis_DecisionsEvaporate", "Obs_TanyaThesisProven", "Narrative_AntiSlackPositioning" ]
+  } ],
+  "unreferenced_commentary" : [ "src-1", "src-2", "src-3", "src-4", "src-5", "src-6", "src-8", "src-9", "src-10", "src-11", "src-12", "src-13", "src-16", "src-17", "src-20", "src-21", "src-22", "src-23", "src-25", "src-27", "src-29", "src-31", "src-33", "src-35", "src-36", "src-37", "src-38", "src-39", "src-40", "src-41", "src-42", "src-43", "src-44", "src-45", "src-46" ]
+}
