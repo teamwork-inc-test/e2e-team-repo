@@ -29,7 +29,11 @@
       "n:Expr_2HalyardOpsReadiness20260915_7" : 1,
       "n:Expr_4HalyardCutoverReview20260915_10" : 1,
       "n:Expr_4HalyardCutoverReview20260915_18" : 1,
-      "n:Expr_4HalyardCutoverReview20260915_20" : 1
+      "n:Expr_4HalyardCutoverReview20260915_20" : 1,
+      "n:Expr_5HalyardLegacyArchive20260922_16" : 1,
+      "n:Expr_5HalyardLegacyArchive20260922_18" : 1,
+      "n:Expr_5HalyardLegacyArchive20260922_20" : 1,
+      "n:Expr_5HalyardLegacyArchive20260922_22" : 1
     },
     "n:Actor_TinaTeam" : {
       "n:Expr_1HalyardWeekly20260908_15" : 1,
@@ -44,21 +48,26 @@
       "n:Expr_4HalyardCutoverReview20260915_3" : 2,
       "n:Expr_4HalyardCutoverReview20260915_5" : 1,
       "n:Expr_4HalyardCutoverReview20260915_7" : 1,
-      "n:Expr_4HalyardCutoverReview20260915_9" : 2
+      "n:Expr_4HalyardCutoverReview20260915_9" : 2,
+      "n:Expr_5HalyardLegacyArchive20260922_24" : 1
     },
     "n:Actor_XavierExpert" : {
       "n:Expr_1HalyardWeekly20260908_12" : 1,
       "n:Expr_1HalyardWeekly20260908_14" : 1,
       "n:Expr_1HalyardWeekly20260908_21" : 1,
-      "n:Expr_1HalyardWeekly20260908_24" : 1,
       "n:Expr_1HalyardWeekly20260908_26" : 2,
-      "n:Expr_1HalyardWeekly20260908_28" : 2,
-      "n:Expr_1HalyardWeekly20260908_36" : 2,
-      "n:Expr_1HalyardWeekly20260908_38" : 2,
+      "n:Expr_1HalyardWeekly20260908_28" : 1,
+      "n:Expr_1HalyardWeekly20260908_36" : 1,
+      "n:Expr_1HalyardWeekly20260908_38" : 1,
       "n:Expr_2HalyardOpsReadiness20260915_15" : 1,
       "n:Expr_2HalyardOpsReadiness20260915_25" : 1,
       "n:Expr_4HalyardCutoverReview20260915_13" : 1,
-      "n:Expr_4HalyardCutoverReview20260915_15" : 1
+      "n:Expr_4HalyardCutoverReview20260915_15" : 1,
+      "n:Expr_5HalyardLegacyArchive20260922_13" : 2,
+      "n:Expr_5HalyardLegacyArchive20260922_23" : 2,
+      "n:Expr_5HalyardLegacyArchive20260922_28" : 2,
+      "n:Expr_5HalyardLegacyArchive20260922_7" : 1,
+      "n:Expr_5HalyardLegacyArchive20260922_9" : 1
     },
     "n:CutoverStrategy" : {
       "n:Expr_1HalyardWeekly20260908_13" : 1,
@@ -68,9 +77,13 @@
       "n:Expr_1HalyardWeekly20260908_42" : 1,
       "n:Expr_1HalyardWeekly20260908_8" : 1,
       "n:Narrative_ContainedPainOverUnboundedRisk" : 2,
+      "n:Narrative_ExtractionScopingBeforeDecommissioningTerms" : 1,
+      "n:Narrative_SelfDescribingArchivePreservesMeaning" : 1,
       "n:Narrative_SingleSourceOfTruthUntilFinalCutover" : 1,
       "n:Narrative_StrictWorkloadIsolationDuringCutover" : 1,
-      "n:Position_CrossSiteOperationalLearning" : 2
+      "n:Position_CrossSiteOperationalLearning" : 1,
+      "n:Position_DecommissioningRetentionSequencing" : 1,
+      "n:Position_LegacyRecordArchivalStrategy" : 2
     },
     "n:Narrative_AntiSlackPositioning" : {
       "n:Position_AntiPatternRealtimeChat" : 2,
@@ -105,6 +118,21 @@
       "n:Position_PostGoLiveSoakDurationBasis" : 1,
       "n:Position_SiteCutoverSequencingStrategy" : 2
     },
+    "n:Narrative_ExtractionScopingBeforeDecommissioningTerms" : {
+      "n:Expr_5HalyardLegacyArchive20260922_20" : 1,
+      "n:Expr_5HalyardLegacyArchive20260922_22" : 2,
+      "n:Expr_5HalyardLegacyArchive20260922_24" : 1,
+      "n:Expr_5HalyardLegacyArchive20260922_25" : 1,
+      "n:Expr_5HalyardLegacyArchive20260922_27" : 1
+    },
+    "n:Narrative_SelfDescribingArchivePreservesMeaning" : {
+      "n:Expr_5HalyardLegacyArchive20260922_11" : 1,
+      "n:Expr_5HalyardLegacyArchive20260922_13" : 2,
+      "n:Expr_5HalyardLegacyArchive20260922_16" : 1,
+      "n:Expr_5HalyardLegacyArchive20260922_22" : 2,
+      "n:Expr_5HalyardLegacyArchive20260922_7" : 1,
+      "n:Expr_5HalyardLegacyArchive20260922_9" : 1
+    },
     "n:Narrative_SingleSourceOfTruthUntilFinalCutover" : {
       "n:Expr_1HalyardWeekly20260908_36" : 1,
       "n:Expr_1HalyardWeekly20260908_38" : 1,
@@ -127,6 +155,22 @@
       "n:Expr_2HalyardOpsReadiness20260915_20" : 1,
       "n:Expr_2HalyardOpsReadiness20260915_21" : 1,
       "n:Expr_2HalyardOpsReadiness20260915_22" : 2
+    },
+    "n:Position_DecommissioningRetentionSequencing" : {
+      "n:Expr_5HalyardLegacyArchive20260922_20" : 1,
+      "n:Expr_5HalyardLegacyArchive20260922_22" : 2,
+      "n:Expr_5HalyardLegacyArchive20260922_23" : 2,
+      "n:Expr_5HalyardLegacyArchive20260922_24" : 1,
+      "n:Expr_5HalyardLegacyArchive20260922_25" : 1,
+      "n:Expr_5HalyardLegacyArchive20260922_28" : 1
+    },
+    "n:Position_LegacyRecordArchivalStrategy" : {
+      "n:Expr_5HalyardLegacyArchive20260922_11" : 1,
+      "n:Expr_5HalyardLegacyArchive20260922_13" : 2,
+      "n:Expr_5HalyardLegacyArchive20260922_16" : 1,
+      "n:Expr_5HalyardLegacyArchive20260922_22" : 2,
+      "n:Expr_5HalyardLegacyArchive20260922_7" : 1,
+      "n:Expr_5HalyardLegacyArchive20260922_9" : 1
     },
     "n:Position_PostGoLiveSoakDurationBasis" : {
       "n:Expr_1HalyardWeekly20260908_17" : 1,
@@ -159,20 +203,22 @@
       "n:Expr_4HalyardCutoverReview20260915_10" : 1
     }
   },
-  "generated_from" : "15f407e18ffc5e9c0ca0aea4e54d4e1ce1679f5c",
+  "generated_from" : "88e36c162aa3ba30a94074c3b2f7b68fbe13aefc",
   "hubs" : {
     "n:Actor_FreyaFree" : 1,
     "n:Actor_TanyaTeam" : 2,
     "n:Actor_TinaTeam" : 1,
     "n:Actor_XavierExpert" : 1,
     "n:CutoverStrategy" : 2,
-    "n:Narrative_AntiSlackPositioning" : 1,
     "n:Narrative_ContainedPainOverUnboundedRisk" : 2,
+    "n:Narrative_ExtractionScopingBeforeDecommissioningTerms" : 1,
+    "n:Narrative_SelfDescribingArchivePreservesMeaning" : 1,
     "n:Narrative_SingleSourceOfTruthUntilFinalCutover" : 1,
     "n:Narrative_StrictWorkloadIsolationDuringCutover" : 1,
     "n:Position_CrossSiteOperationalLearning" : 1,
+    "n:Position_DecommissioningRetentionSequencing" : 1,
+    "n:Position_LegacyRecordArchivalStrategy" : 1,
     "n:Position_PostGoLiveSoakDurationBasis" : 1,
-    "n:Position_ReferenceDataSourceOfRecordTransition" : 1,
     "n:Position_SiteCutoverSequencingStrategy" : 2
   },
   "params" : {
@@ -188,7 +234,7 @@
     "n" : "https://aswritten.ai/narrative#",
     "o" : "https://aswritten.ai/ns/narrative#"
   },
-  "runs_sha" : "2f023fd63868b2c403fcbc674eb93f625a15f25d",
-  "sittings" : 152,
+  "runs_sha" : "a515dddf349ee7b9bc6b3287b84edd9cdc9ccf42",
+  "sittings" : 153,
   "spec" : "fidelity-bands/1"
 }

@@ -1,0 +1,25 @@
+@prefix narr: <https://aswritten.ai/narrative#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+GRAPH <https://aswritten.ai/narrative#Digest_Position_DecommissioningRetentionSequencing> {
+  <https://aswritten.ai/narrative#Digest_Position_DecommissioningRetentionSequencing> a narr:Digest ;
+    narr:digestOf <https://aswritten.ai/narrative#Position_DecommissioningRetentionSequencing> ;
+    narr:childCount "7"^^xsd:integer ;
+    narr:generatedFrom "88e36c162aa3ba30a94074c3b2f7b68fbe13aefc" ;
+    narr:narration """This position holds that [retention mandates and extraction scoping must be settled with legal before any vendor decommissioning terms are signed](narr:Expr_5HalyardLegacyArchive20260922_22). The sequencing argument runs: [legal's retention period should arrive in writing, not decided ad hoc](narr:Expr_5HalyardLegacyArchive20260922_20), with [an interest in going beyond the mandated floor for a claims-relevant subset](narr:Expr_5HalyardLegacyArchive20260922_20). The group ratified it — [one member signed on](narr:Expr_5HalyardLegacyArchive20260922_23), another [insisting it belongs inside the vendor exit conversation, not after](narr:Expr_5HalyardLegacyArchive20260922_24). A near-miss admission sharpens the stakes: [the mistake would have been signing decommissioning terms first and discovering the extraction requirement afterwards](narr:Expr_5HalyardLegacyArchive20260922_25). The position closes with [a delegation to scope the extraction so a number can be put in front of the vendor](narr:Expr_5HalyardLegacyArchive20260922_27), accepted with [a commitment to a deadline](narr:Expr_5HalyardLegacyArchive20260922_28).""" ;
+    narr:covers <https://aswritten.ai/narrative#Expr_5HalyardLegacyArchive20260922_20> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_5HalyardLegacyArchive20260922_22> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_5HalyardLegacyArchive20260922_23> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_5HalyardLegacyArchive20260922_24> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_5HalyardLegacyArchive20260922_25> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_5HalyardLegacyArchive20260922_27> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_5HalyardLegacyArchive20260922_28> ;
+    narr:keyPhrase [ narr:text "the retention period comes from legal in writing before we sign anything with the vendor about decommissioning" ; narr:phraseSource <https://aswritten.ai/narrative#Expr_5HalyardLegacyArchive20260922_22> ] ;
+    narr:keyPhrase [ narr:text "I want to go beyond that for the claims-relevant subset, and I don't want to decide that number today — I want legal to give us one in writing." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_5HalyardLegacyArchive20260922_20> ] ;
+    narr:keyPhrase [ narr:text "And this needs to be in the vendor exit conversation, not after it." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_5HalyardLegacyArchive20260922_24> ] ;
+    narr:keyPhrase [ narr:text "I'd have signed the decommissioning terms first and discovered the extraction requirement afterwards." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_5HalyardLegacyArchive20260922_25> ] ;
+    narr:keyPhrase [ narr:text "Give me until the end of next week." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_5HalyardLegacyArchive20260922_28> ] ;
+    narr:variation [ narr:text "The position is unanimous in this record — no dissent — but it exists because of a counterfactual near-miss: the default path almost taken was signing first and scoping later." ; narr:over <https://aswritten.ai/narrative#Expr_5HalyardLegacyArchive20260922_25> ; narr:over <https://aswritten.ai/narrative#Expr_5HalyardLegacyArchive20260922_24> ] ;
+    narr:variation [ narr:text "An open tension: the claims-relevant subset may exceed the legal-mandated retention floor, and that number is explicitly deferred, not resolved." ; narr:over <https://aswritten.ai/narrative#Expr_5HalyardLegacyArchive20260922_20> ; narr:over <https://aswritten.ai/narrative#Expr_5HalyardLegacyArchive20260922_28> ] ;
+    narr:writer "z-ai/glm-5.3-flash:nitro" .
+}

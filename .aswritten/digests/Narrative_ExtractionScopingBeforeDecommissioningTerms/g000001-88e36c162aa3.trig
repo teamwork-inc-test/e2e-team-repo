@@ -1,0 +1,21 @@
+@prefix narr: <https://aswritten.ai/narrative#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+GRAPH <https://aswritten.ai/narrative#Digest_Narrative_ExtractionScopingBeforeDecommissioningTerms> {
+  <https://aswritten.ai/narrative#Digest_Narrative_ExtractionScopingBeforeDecommissioningTerms> a narr:Digest ;
+    narr:digestOf <https://aswritten.ai/narrative#Narrative_ExtractionScopingBeforeDecommissioningTerms> ;
+    narr:childCount "5"^^xsd:integer ;
+    narr:generatedFrom "88e36c162aa3ba30a94074c3b2f7b68fbe13aefc" ;
+    narr:narration """This narrative holds a single coherent position: that [a written retention period from legal must precede any vendor decommissioning terms](narr:Expr_5HalyardLegacyArchive20260922_22), with [the legacy platform switched off only after the last site goes live and closed history extracted into a self-describing archive](narr:Expr_5HalyardLegacyArchive20260922_22). The scoping demand is concrete — [seven years from record date for consignment data, with a longer claims-relevant subset to be set by legal in writing](narr:Expr_5HalyardLegacyArchive20260922_20) — and the sequencing is explicit: [this belongs in the vendor exit conversation, not after it](narr:Expr_5HalyardLegacyArchive20260922_24). The near-miss is acknowledged — [the decommissioning terms would have been signed before the extraction requirement was discovered](narr:Expr_5HalyardLegacyArchive20260922_25) had legal not asked — and it closes with [a tasking to scope the extraction so a number can be put in front of the vendor](narr:Expr_5HalyardLegacyArchive20260922_27). All children support the frame; nothing here qualifies or contests it.""" ;
+    narr:covers <https://aswritten.ai/narrative#Expr_5HalyardLegacyArchive20260922_20> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_5HalyardLegacyArchive20260922_22> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_5HalyardLegacyArchive20260922_24> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_5HalyardLegacyArchive20260922_25> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_5HalyardLegacyArchive20260922_27> ;
+    narr:keyPhrase [ narr:text "the retention period comes from legal in writing before we sign anything with the vendor about decommissioning" ; narr:phraseSource <https://aswritten.ai/narrative#Expr_5HalyardLegacyArchive20260922_22> ] ;
+    narr:keyPhrase [ narr:text "Legal says seven years from the record date for the consignment data" ; narr:phraseSource <https://aswritten.ai/narrative#Expr_5HalyardLegacyArchive20260922_20> ] ;
+    narr:keyPhrase [ narr:text "this needs to be in the vendor exit conversation, not after it" ; narr:phraseSource <https://aswritten.ai/narrative#Expr_5HalyardLegacyArchive20260922_24> ] ;
+    narr:keyPhrase [ narr:text "I'd have signed the decommissioning terms first and discovered the extraction requirement afterwards" ; narr:phraseSource <https://aswritten.ai/narrative#Expr_5HalyardLegacyArchive20260922_25> ] ;
+    narr:keyPhrase [ narr:text "can you scope the extraction enough that I can put a number in front of the vendor" ; narr:phraseSource <https://aswritten.ai/narrative#Expr_5HalyardLegacyArchive20260922_27> ] ;
+    narr:writer "z-ai/glm-5.3-flash:nitro" .
+}

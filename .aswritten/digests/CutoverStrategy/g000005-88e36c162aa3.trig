@@ -1,0 +1,35 @@
+@prefix narr: <https://aswritten.ai/narrative#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+GRAPH <https://aswritten.ai/narrative#Digest_CutoverStrategy> {
+  <https://aswritten.ai/narrative#Digest_CutoverStrategy> a narr:Digest ;
+    narr:digestOf <https://aswritten.ai/narrative#CutoverStrategy> ;
+    narr:childCount "16"^^xsd:integer ;
+    narr:generatedFrom "88e36c162aa3ba30a94074c3b2f7b68fbe13aefc" ;
+    narr:narration """This hub holds a single working session, opened under [steering-group pressure to decide the shape now](narr:Expr_1HalyardWeekly20260908_1), that resolves into a cutover doctrine: [a sequential one-site-at-a-time commitment, no parallel cutovers even for the small sites](narr:Expr_1HalyardWeekly20260908_8), defended as [contained pain with a named owner versus unbounded concurrent risk](narr:Expr_1HalyardWeekly20260908_13), and [summed as one at a time, with a soak](narr:Expr_1HalyardWeekly20260908_16). Two isolation rules qualify the sequencing: [reporting reads barred from the live system during cutover windows](narr:Expr_1HalyardWeekly20260908_26), ratified as [a runbook rule rather than negotiable guidance](narr:Expr_1HalyardWeekly20260908_31), and [vendor-held reference data persisting until the final site goes green](narr:Expr_1HalyardWeekly20260908_36). The session closes with [a read-back of the full position for the steering group](narr:Expr_1HalyardWeekly20260908_42). The reasoning generalizes into [bounded-friction-over-unbounded-risk](narr:Narrative_ContainedPainOverUnboundedRisk), [single-source-of-truth retention](narr:Narrative_SingleSourceOfTruthUntilFinalCutover), and [strict workload isolation](narr:Narrative_StrictWorkloadIsolationDuringCutover). Newer attachments extend the span beyond the session itself: [retention mandates and extraction scoping sequenced ahead of vendor decommissioning agreements](narr:Position_DecommissioningRetentionSequencing), [preservation of closed legacy records in self-describing open archives](narr:Position_LegacyRecordArchivalStrategy), and an unvoiced question about [cross-site operational learning and skill compounding](narr:Position_CrossSiteOperationalLearning) that sits alongside without a claim attached.""" ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_1> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_13> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_16> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_26> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_31> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_36> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_42> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_8> ;
+    narr:covers <https://aswritten.ai/narrative#Narrative_ContainedPainOverUnboundedRisk> ;
+    narr:covers <https://aswritten.ai/narrative#Narrative_ExtractionScopingBeforeDecommissioningTerms> ;
+    narr:covers <https://aswritten.ai/narrative#Narrative_SelfDescribingArchivePreservesMeaning> ;
+    narr:covers <https://aswritten.ai/narrative#Narrative_SingleSourceOfTruthUntilFinalCutover> ;
+    narr:covers <https://aswritten.ai/narrative#Narrative_StrictWorkloadIsolationDuringCutover> ;
+    narr:covers <https://aswritten.ai/narrative#Position_CrossSiteOperationalLearning> ;
+    narr:covers <https://aswritten.ai/narrative#Position_DecommissioningRetentionSequencing> ;
+    narr:covers <https://aswritten.ai/narrative#Position_LegacyRecordArchivalStrategy> ;
+    narr:keyPhrase [ narr:text "one at a time, with a soak" ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_16> ] ;
+    narr:keyPhrase [ narr:text "No parallel cutovers, not even for the two small ones." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_8> ] ;
+    narr:keyPhrase [ narr:text "Running two systems at one desk for a few weeks is a known, contained pain with a named owner. Two cutovers landing in the same week is an unbounded one, and we've got nobody to hand it to." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_13> ] ;
+    narr:keyPhrase [ narr:text "reporting does not touch the live system during a cutover window, full stop." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_26> ] ;
+    narr:keyPhrase [ narr:text "write it into the runbook as a rule and not as guidance, because guidance gets negotiated at three a.m." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_31> ] ;
+    narr:keyPhrase [ narr:text "we take ownership on the day Clyde goes green and not a day earlier." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_36> ] ;
+    narr:variation [ narr:text "The sequential doctrine is asserted as settled, but the cross-site learning question — whether the sequencing should leverage skill compounding across teams — sits open with no claim attached" ; narr:over <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_8> ; narr:over <https://aswritten.ai/narrative#Position_CrossSiteOperationalLearning> ] ;
+    narr:variation [ narr:text "The session's scope is cutover mechanics, but the newer decommissioning and archival positions push the span toward vendor-exit sequencing and legacy preservation, which the session itself never addressed" ; narr:over <https://aswritten.ai/narrative#Position_DecommissioningRetentionSequencing> ; narr:over <https://aswritten.ai/narrative#Position_LegacyRecordArchivalStrategy> ] ;
+    narr:writer "z-ai/glm-5.3-flash:nitro" .
+}
