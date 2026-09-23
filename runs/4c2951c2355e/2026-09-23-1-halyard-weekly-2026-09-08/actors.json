@@ -1,0 +1,33 @@
+{
+  "bindings" : [ {
+    "name" : "Tanya Team",
+    "verdict" : "mint",
+    "target" : null,
+    "label" : "Tanya Team",
+    "why" : "Young repo with no existing actors; minting distinct new actor."
+  }, {
+    "name" : "Tina Team",
+    "verdict" : "mint",
+    "target" : null,
+    "label" : "Tina Team",
+    "why" : "Young repo with no existing actors; minting new actor."
+  }, {
+    "name" : "Xavier Expert",
+    "verdict" : "mint",
+    "target" : null,
+    "label" : "Xavier Expert",
+    "why" : "Young repo with no existing actors; minting new actor."
+  }, {
+    "name" : "Tanya TeamOwner",
+    "verdict" : "mint",
+    "target" : null,
+    "label" : "Tanya TeamOwner",
+    "why" : "Young repo with no existing actors; minting new actor from envelope participant."
+  }, {
+    "name" : "tanya+staging@aswritten.ai",
+    "verdict" : "mint",
+    "target" : null,
+    "label" : "Tanya TeamOwner",
+    "why" : "Account email for participant Tanya TeamOwner; converges onto identical mint label."
+  } ]
+}
