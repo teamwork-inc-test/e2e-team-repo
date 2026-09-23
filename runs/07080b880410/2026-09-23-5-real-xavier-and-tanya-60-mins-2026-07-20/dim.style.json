@@ -1,0 +1,145 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-9",
+    "regions" : [ "antithesis", "parallelism" ],
+    "evidence" : [ {
+      "quote" : "All the important things are excellent. All the unimportant things are weird.",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Matched parallel opposition contrasting 'important things' / 'excellent' against 'unimportant things' / 'weird'.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-20",
+    "regions" : [ "metaphor" ],
+    "evidence" : [ {
+      "quote" : "pulling the magic bunny out of the hat in time",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Metaphorical idiom representing last-minute rescue as stage magic.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-23",
+    "regions" : [ "simile" ],
+    "evidence" : [ {
+      "quote" : "it's kind of like a cockroach, that whole thing",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Explicit simile comparing the persistent situation to a cockroach.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-31",
+    "regions" : [ "metaphor", "stock-phrase" ],
+    "evidence" : [ {
+      "quote" : "ready for the rocket ride",
+      "kind" : "lexical-marker"
+    }, {
+      "quote" : "put me in coach",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Metaphorical idioms and stock sports/venture phrases framing readiness.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-35",
+    "regions" : [ "stock-phrase" ],
+    "evidence" : [ {
+      "quote" : "Idle hands. The devil's workshop.",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Proverbial stock phrase cited and applied directly to ongoing activity.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-43",
+    "regions" : [ "simile" ],
+    "evidence" : [ {
+      "quote" : "it goes up like Lego pieces in on site",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Explicit simile comparing modular construction to Lego pieces.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-77",
+    "regions" : [ "metaphor" ],
+    "evidence" : [ {
+      "quote" : "Zoom's in memory hall",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Metaphorical framing of ephemeral video calls as a memory hole / memory hall.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-105",
+    "regions" : [ "stock-phrase" ],
+    "evidence" : [ {
+      "quote" : "the telephone company always wins",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Speaker's recurring strategic aphorism/stock phrase introduced as an operating thesis.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-107",
+    "regions" : [ "metaphor", "stock-phrase" ],
+    "evidence" : [ {
+      "quote" : "never go where the big guns are pointing",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Metaphorical maxim framing market positioning away from heavy competitors.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-111",
+    "regions" : [ "analogy" ],
+    "evidence" : [ {
+      "quote" : "the iPhone destroyed TomTom, not because it had better maps, right? Destroyed Garmin, not because it had better maps.",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Historical tech analogy used to argue how platform reach disintermediates standalone tooling.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-183",
+    "regions" : [ "metaphor" ],
+    "evidence" : [ {
+      "quote" : "when you have somebody on the hook",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Metaphor comparing securing investor/customer commitment to catching a fish.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-185",
+    "regions" : [ "metaphor", "analogy" ],
+    "evidence" : [ {
+      "quote" : "Emery Park is the howitzer. You show up like. Right. You use the howitzer when you have the ammunition.",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Metaphor and analogical reasoning comparing an influential connector to heavy artillery that requires leverage to fire.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-190",
+    "regions" : [ "parallelism", "antithesis" ],
+    "evidence" : [ {
+      "quote" : "No one will give you money until you have traction. And then no one will give you money until someone else wants to give you money.",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Chained parallel structure expressing paradoxical investor logic.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-191",
+    "regions" : [ "antithesis" ],
+    "evidence" : [ {
+      "quote" : "it is not about individual VCs. It is about maximal VCs.",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Direct 'not X, but Y' antithetical framing.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-199",
+    "regions" : [ "antithesis" ],
+    "evidence" : [ {
+      "quote" : "No, Hi, I am raising money. It is happening, right?",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Antithetical staging contrasting supplicant pitching with momentum pitching.",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-1", "src-2", "src-3", "src-4", "src-5", "src-6", "src-7", "src-8", "src-10", "src-11", "src-12", "src-13", "src-14", "src-15", "src-16", "src-17", "src-18", "src-19", "src-21", "src-22", "src-24", "src-25", "src-26", "src-27", "src-28", "src-29", "src-30" ],
+  "unmarked_rest" : true,
+  "mints" : [ ],
+  "region_mints" : [ ]
+}
