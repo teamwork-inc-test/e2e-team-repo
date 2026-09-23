@@ -1,0 +1,35 @@
+@prefix narr: <https://aswritten.ai/narrative#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+GRAPH <https://aswritten.ai/narrative#Digest_Actor_TinaTeam> {
+  <https://aswritten.ai/narrative#Digest_Actor_TinaTeam> a narr:Digest ;
+    narr:digestOf <https://aswritten.ai/narrative#Actor_TinaTeam> ;
+    narr:childCount "12"^^xsd:integer ;
+    narr:generatedFrom "038ff151773b49d81baa34278a5dac05b09761a2" ;
+    narr:narration """Tina Team's voice here is operational and evidence-first. She frames [the four-site rollout, with one site nobody wants to touch](narr:Expr_1HalyardWeekly20260908_5), argues [why a double cutover is a different class of problem](narr:Expr_1HalyardWeekly20260908_15), and pins [a hard two-week number on the soak](narr:Expr_1HalyardWeekly20260908_17) grounded in [what the spring pilot actually showed](narr:Expr_1HalyardWeekly20260908_19), defended as [evidence-first rather than speed-first](narr:Expr_1HalyardWeekly20260908_22). Around that spine runs a facilitator's register: short acknowledgments ([\"That's the question.\"](narr:Expr_1HalyardWeekly20260908_7), [\"I'm with you on that.\"](narr:Expr_1HalyardWeekly20260908_9)), a blunt reality-check on [nobody deciding off stale counts](narr:Expr_1HalyardWeekly20260908_29), easy [concession when a proposal lightens site-team load](narr:Expr_1HalyardWeekly20260908_41), and [terse meeting openers and closers](narr:Expr_1HalyardWeekly20260908_2). A new child records [a review acceptance act, relayed through Claude's report](narr:Expr_3ReviewEvents70102_2) — her signature on a decision, not her own voiced argument. The profile is claim-conviction throughout, with expert/rational-persuasion power when pinning numbers down.""" ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_15> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_17> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_19> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_2> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_22> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_29> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_41> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_43> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_5> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_7> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_9> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_3ReviewEvents70102_2> ;
+    narr:keyPhrase [ narr:text "A double cutover is a staffing problem and a data problem at the same time, which isn't." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_15> ] ;
+    narr:keyPhrase [ narr:text "The soak is two full weeks. That's the Dockside number, and I'd hold us to it." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_17> ] ;
+    narr:keyPhrase [ narr:text "it didn't flatten out until day nine or ten" ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_19> ] ;
+    narr:keyPhrase [ narr:text "I'd rather hold two weeks and shorten it with evidence than hold one week and discover we needed two." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_22> ] ;
+    narr:keyPhrase [ narr:text "Nobody is making a decision off a four-minute-old parcel count at two in the morning." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_29> ] ;
+    narr:variation [ narr:text "The acceptance act carries decision/legitimate conviction only as relayed through Claude's report — a signature, not her own voiced stance, so the cutover position's ratification shouldn't be read as her arguing it." ; narr:over <https://aswritten.ai/narrative#Expr_3ReviewEvents70102_2> ; narr:over <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_17> ] ;
+    narr:variation [ narr:text "Against the hard two-week hold sits her own concession register — easy agreement when a proposal lightens site-team load — a flexibility the soak number doesn't show." ; narr:over <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_41> ; narr:over <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_17> ] ;
+    narr:voiceTrait [ narr:dim "conviction" ; narr:reading "claim-conviction — she asserts positions plainly and holds them against pressure" ; narr:text "I'd rather hold two weeks and shorten it with evidence than hold one week and discover we needed two." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_22> ] ;
+    narr:voiceTrait [ narr:dim "power" ; narr:reading "expert/rational-persuasion — she wins by pinning numbers and evidence, not by pulling rank" ; narr:text "The soak is two full weeks. That's the Dockside number, and I'd hold us to it." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_17> ] ;
+    narr:voiceTrait [ narr:dim "temporal" ; narr:reading "concrete and dated — she argues from specific past measurements into specific future commitments" ; narr:text "We watched the exception queue after go-live and it didn't flatten out until day nine or ten." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_19> ] ;
+    narr:voiceTrait [ narr:dim "style" ; narr:reading "antithesis with parallelism — the sentence names what a thing isn't before saying what it is" ; narr:text "A double cutover is a staffing problem and a data problem at the same time, which isn't." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_15> ] ;
+    narr:voiceTrait [ narr:dim "relational" ; narr:reading "authority-ranking appears only in the relayed acceptance act — witnessed through someone else's rendering, never in her own words" ] ;
+    narr:writer "z-ai/glm-5.3-flash:nitro" .
+}

@@ -1,0 +1,40 @@
+@prefix narr: <https://aswritten.ai/narrative#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+GRAPH <https://aswritten.ai/narrative#Digest_Position_SiteCutoverSequencingStrategy> {
+  <https://aswritten.ai/narrative#Digest_Position_SiteCutoverSequencingStrategy> a narr:Digest ;
+    narr:digestOf <https://aswritten.ai/narrative#Position_SiteCutoverSequencingStrategy> ;
+    narr:childCount "20"^^xsd:integer ;
+    narr:generatedFrom "038ff151773b49d81baa34278a5dac05b09761a2" ;
+    narr:narration """This position holds the sequencing debate for multi-site cutovers, and the arc runs from judgment to constraint — but is now itself under review. The mainline opens as [a firm one-site-at-a-time stance with a clean soak gate](narr:Expr_1HalyardWeekly20260908_8), restated as [a settled decision to sequence singly](narr:Expr_1HalyardWeekly20260908_16) and compressed to [the bare one-at-a-time rule](narr:Expr_2HalyardOpsReadiness20260915_6). The counterweight is [the case for pairing two sites sharing a dispatch desk](narr:Expr_1HalyardWeekly20260908_12), with two rebuttals: [the desk pain is a solvable rota problem while a double cutover is not](narr:Expr_1HalyardWeekly20260908_15) and [a contained pain with a named owner beats an unbounded one](narr:Expr_1HalyardWeekly20260908_13). The arithmetic layer lands hard: [a supervisor-count showing a same-week double cutover strips the region's rota](narr:Expr_2HalyardOpsReadiness20260915_11), capped by [the flat claim that the people don't exist](narr:Expr_2HalyardOpsReadiness20260915_12) and [the reframing from risk to arithmetic](narr:Expr_2HalyardOpsReadiness20260915_14), which [the technical rules silently assuming one open cutover window](narr:Expr_2HalyardOpsReadiness20260915_25) reinforce. But review acts now contest the settled reading: [an acceptance of the change into this position](narr:Expr_3ReviewEvents70102_2) sits beside [a rejection arguing the call settled on two sites in parallel, not a single-site pilot](narr:Expr_3ReviewEvents70102_4) and [a change request saying containment did not settle the sequencing](narr:Expr_3ReviewEvents70102_3). The register runs antithesis-first with parallelism and metaphor behind it.""" ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_12> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_13> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_15> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_16> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_8> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_11> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_12> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_13> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_14> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_15> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_16> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_17> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_25> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_26> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_6> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_7> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_9> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_3ReviewEvents70102_2> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_3ReviewEvents70102_3> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_3ReviewEvents70102_4> ;
+    narr:keyPhrase [ narr:text "We do this one site at a time. A site goes live, it soaks, and only when that soak is clean do we start the next one. No parallel cutovers, not even for the two small ones." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_8> ] ;
+    narr:keyPhrase [ narr:text "I can't staff that. It isn't that it's hard, it's that the people don't exist." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_12> ] ;
+    narr:keyPhrase [ narr:text "Last week you were arguing it as risk. I'm telling you it's arithmetic. One site at a time is the only sequencing my rota can actually produce people for." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_14> ] ;
+    narr:keyPhrase [ narr:text "The replica rule and the reference-data rule both assume one cutover window open at a time" ; narr:phraseSource <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_25> ] ;
+    narr:keyPhrase [ narr:text "we never agreed a single-site pilot — the call settled on two sites in parallel" ; narr:phraseSource <https://aswritten.ai/narrative#Expr_3ReviewEvents70102_4> ] ;
+    narr:keyPhrase [ narr:text "this reads as though containment settled the sequencing; the call weighed it against local site friction and did not settle it" ; narr:phraseSource <https://aswritten.ai/narrative#Expr_3ReviewEvents70102_3> ] ;
+    narr:variation [ narr:text "Review acts now dispute what the call actually settled: one rejection says the decision was two sites in parallel, never a single-site pilot, directly contradicting the one-at-a-time mainline." ; narr:over <https://aswritten.ai/narrative#Expr_3ReviewEvents70102_4> ; narr:over <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_8> ] ;
+    narr:variation [ narr:text "A change request argues the digest-side framing overstates closure — containment was weighed against local site friction and the sequencing was not settled." ; narr:over <https://aswritten.ai/narrative#Expr_3ReviewEvents70102_3> ] ;
+    narr:variation [ narr:text "The original counterweight — pairing two sites sharing a dispatch desk, on a grievance running since June — remains on record and was argued, not dismissed." ; narr:over <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_12> ] ;
+    narr:writer "z-ai/glm-5.3-flash:nitro" .
+}
