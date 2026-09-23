@@ -1,0 +1,34 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "casual" ],
+    "evidence" : [ {
+      "quote" : "Morning, both. Let's keep this one tight",
+      "kind" : "address-form"
+    } ],
+    "why" : "Informal collective greeting and colloquial framing establishing working session cadence.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-26",
+    "regions" : [ "technical" ],
+    "evidence" : [ {
+      "quote" : "reporting does not touch the live system during a cutover window, full stop.",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Strict technical operational prescription framed in precise infrastructure terms.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-31",
+    "regions" : [ "plain-spoken" ],
+    "evidence" : [ {
+      "quote" : "write it into the runbook as a rule and not as guidance, because guidance gets negotiated at three a.m.",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Direct, unadorned operational rationale translating architecture into plain governance rules.",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-2", "src-3", "src-4", "src-5", "src-6", "src-7", "src-8", "src-9", "src-10", "src-11", "src-12", "src-13", "src-14", "src-15", "src-16", "src-17", "src-18", "src-19", "src-20", "src-21", "src-22", "src-23", "src-24", "src-25", "src-27", "src-28", "src-29", "src-30", "src-32", "src-33", "src-34", "src-35", "src-36", "src-37", "src-38", "src-39", "src-40", "src-41", "src-42", "src-43", "src-44", "src-45" ],
+  "unmarked_rest" : false,
+  "mints" : [ ],
+  "region_mints" : [ ]
+}
