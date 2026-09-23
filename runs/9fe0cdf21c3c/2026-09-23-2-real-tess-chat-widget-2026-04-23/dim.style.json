@@ -1,0 +1,106 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-10",
+    "regions" : [ "antithesis" ],
+    "evidence" : [ {
+      "quote" : "The SMS-feels-honest-not-bot framing holds when the sender is already trusted.",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Establishes the positive half of a deliberate framing contrast paired with the subsequent evaluator context.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-11",
+    "regions" : [ "antithesis" ],
+    "evidence" : [ {
+      "quote" : "It flips in evaluator contexts — SMS is *more* suspicious because spam trained people to distrust unexpected texts.",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Explicit contrastive reversal of the trust dynamic ('holds' vs 'flips').",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-15",
+    "regions" : [ "antithesis" ],
+    "evidence" : [ {
+      "quote" : "The operational cost of the SMS onramp has been absorbed, not priced.",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Classic 'X, not Y' antithesis contrasting absorption versus pricing.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-16",
+    "regions" : [ "metaphor" ],
+    "evidence" : [ {
+      "quote" : "the channel carries a trust tax in evaluator-grade conversations.",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Metaphorical formulation framing evaluator hesitation as a 'trust tax'.",
+    "reported" : true
+  }, {
+    "segment_local_id" : "src-18",
+    "regions" : [ "rhetorical-question" ],
+    "evidence" : [ {
+      "quote" : "Can you just give me a chat widget on a web form?",
+      "kind" : "performed-act"
+    } ],
+    "why" : "A direct colloquial request framed as an interrogative proposing a simplified path.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-22",
+    "regions" : [ "parallelism" ],
+    "evidence" : [ {
+      "quote" : "one widget per share ID — provisioning a channel and widget at share-creation time means each share has its own conversation surface.",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Repeated structural mapping ('one widget per share ID', 'each share has its own conversation surface').",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-32",
+    "regions" : [ "antithesis" ],
+    "evidence" : [ {
+      "quote" : "This is a scoping, not a replacement.",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Precise 'X, not Y' definitional antithesis clarifying boundary adjustments.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-45",
+    "regions" : [ "antithesis" ],
+    "evidence" : [ {
+      "quote" : "a relational arrangement, not a sales-validated pricing decision.",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Antithesis opposing relational circumstances against commercial market validation.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-47",
+    "regions" : [ "rule-of-three", "parallelism" ],
+    "evidence" : [ {
+      "quote" : "Her archetype by work motion is Knowledge Packager. Her commercial status is \"relational\" — fiancé and beta tester, on the Individual tier by arrangement, not by sales logic. Her role in the business is primary beta tester — the highest-volume source of product feedback in the company.",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Triadic parallel structure: three successive sentences starting with 'Her [domain] is/by...'.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-68",
+    "regions" : [ "parallelism" ],
+    "evidence" : [ {
+      "quote" : "one share → one widget → one channel → one aswritten-org-inbox thread",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Chained parallel formula mapping 1:1 correspondences across pipeline tiers.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-71",
+    "regions" : [ "antithesis" ],
+    "evidence" : [ {
+      "quote" : "a decision, not a drift.",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Concise 'X, not Y' antithesis emphasizing intentional choice over passive drift.",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-1", "src-2", "src-3", "src-4", "src-5", "src-6", "src-7", "src-8", "src-9", "src-12", "src-13", "src-14", "src-17", "src-19", "src-20", "src-21", "src-23", "src-24", "src-25", "src-26", "src-27", "src-28", "src-29", "src-30", "src-31", "src-33", "src-34", "src-35", "src-36", "src-37", "src-38", "src-39", "src-40", "src-41", "src-42", "src-43", "src-44", "src-46", "src-48", "src-49", "src-50", "src-51", "src-52", "src-53", "src-54", "src-55", "src-56", "src-57", "src-58", "src-59", "src-60", "src-61", "src-62", "src-63", "src-64", "src-65", "src-66", "src-67", "src-69", "src-70", "src-72", "src-73", "src-74", "src-75", "src-76", "src-77", "src-78" ],
+  "unmarked_rest" : false,
+  "mints" : [ ],
+  "region_mints" : [ ]
+}
