@@ -1,0 +1,51 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-4",
+    "regions" : [ "rational-persuasion" ],
+    "evidence" : [ {
+      "quote" : "Think about the numbers though, right? The numbers really work. B2C. Because if we take theory that every single person is now their own team.",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Tina uses deductive argumentation and numbers logic to persuade Tanya of the B2C direction.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-10",
+    "regions" : [ "expert", "rational-persuasion" ],
+    "evidence" : [ {
+      "quote" : "Find a company that's actually a knowledge company that doesn't think of themselves as a knowledge company.",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Xavier provides advisory strategic direction drawing on domain expertise.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-12",
+    "regions" : [ "expert" ],
+    "evidence" : [ {
+      "quote" : "One of my operating theses is the telephone company always wins.",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Xavier asserts authority derived from his operating mental models and expertise.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-28",
+    "regions" : [ "expert", "rational-persuasion" ],
+    "evidence" : [ {
+      "quote" : "know the strategic environment you are operating in and the world where the, where, where the world will go.",
+      "kind" : "modal-marker"
+    } ],
+    "why" : "Xavier offers high-level strategic imperative based on forward-looking market expertise.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-30",
+    "regions" : [ "pressure" ],
+    "evidence" : [ {
+      "quote" : "Just stop and go sell it.",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Xavier issues an urgent, directive command demanding immediate transition to sales.",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-1", "src-2", "src-3", "src-5", "src-6", "src-7", "src-8", "src-9", "src-11", "src-13", "src-14", "src-15", "src-16", "src-17", "src-18", "src-19", "src-20", "src-21", "src-22", "src-23", "src-24", "src-25", "src-26", "src-27", "src-29" ],
+  "mints" : [ ],
+  "region_mints" : [ ]
+}
