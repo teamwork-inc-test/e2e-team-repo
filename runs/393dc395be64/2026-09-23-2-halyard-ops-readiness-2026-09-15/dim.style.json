@@ -1,0 +1,51 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-11",
+    "regions" : [ "metaphor" ],
+    "evidence" : [ {
+      "quote" : "coughing up",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Metaphorical depiction of lingering technical fallout from a prior cutover as being 'coughed up'.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-12",
+    "regions" : [ "antithesis" ],
+    "evidence" : [ {
+      "quote" : "It isn't that it's hard, it's that the people don't exist.",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Direct antithetical pairing contrasting difficulty of execution against impossibility of existence.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-14",
+    "regions" : [ "antithesis" ],
+    "evidence" : [ {
+      "quote" : "Last week you were arguing it as risk. I'm telling you it's arithmetic.",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Antithesis setting conceptual framing ('risk') against immutable calculation ('arithmetic').",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-16",
+    "regions" : [ "antithesis" ],
+    "evidence" : [ {
+      "quote" : "It's the one that doesn't move. The others you can argue with.",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Antithesis contrasting unmovable constraints with negotiable arguments.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-28",
+    "regions" : [ "metaphor" ],
+    "evidence" : [ {
+      "quote" : "the soak gets eaten",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Metaphorical phrasing depicting schedule compression as the buffer being 'eaten'.",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-1", "src-2", "src-3", "src-4", "src-5", "src-6", "src-7", "src-8", "src-9", "src-10", "src-13", "src-15", "src-17", "src-18", "src-19", "src-20", "src-21", "src-22", "src-23", "src-24", "src-25", "src-26", "src-27", "src-29", "src-30", "src-31" ],
+  "mints" : [ ],
+  "region_mints" : [ ]
+}
