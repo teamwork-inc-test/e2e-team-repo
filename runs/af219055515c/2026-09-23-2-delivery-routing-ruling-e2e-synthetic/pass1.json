@@ -1,0 +1,102 @@
+{
+  "doc" : {
+    "title" : "Delivery routing ruling (e2e synthetic)",
+    "date_stated" : null,
+    "actors_present" : [ "Tanya TeamOwner", "Tina" ]
+  },
+  "footing_cases" : [ {
+    "id" : "fc-1",
+    "animator" : "Tanya TeamOwner",
+    "author" : "Tanya TeamOwner",
+    "principal" : null,
+    "when" : "editorial narration describing decisions, alternatives, and framing context"
+  }, {
+    "id" : "fc-2",
+    "animator" : "Tanya TeamOwner",
+    "author" : "Tanya TeamOwner",
+    "principal" : "Tina",
+    "when" : "reported pushback naming Tina directly with a speech/stance verb"
+  }, {
+    "id" : "fc-3",
+    "animator" : "Tanya TeamOwner",
+    "author" : "Tanya TeamOwner",
+    "principal" : "Tanya TeamOwner",
+    "when" : "reported stance naming Tanya holding the rule"
+  } ],
+  "segments" : [ {
+    "local_id" : "src-1",
+    "exact" : "Tanya (team owner) ruled on where reaction delivery belongs:",
+    "actor" : "Tanya TeamOwner",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Delivery routing ruling"
+    },
+    "footing_case" : "fc-1",
+    "note" : "Quote-frame introducing Tanya's ruling quote",
+    "footing" : {
+      "animator" : "Tanya TeamOwner",
+      "author" : "Tanya TeamOwner",
+      "principal" : null
+    }
+  }, {
+    "local_id" : "src-2",
+    "exact" : "we route every reaction through one bundle per run per person, not one\n> message per skill — a person should get one thing to read, not four",
+    "actor" : "Tanya TeamOwner",
+    "act" : "directive",
+    "circumstance" : {
+      "context" : "Delivery routing ruling"
+    },
+    "footing_case" : null,
+    "how" : [ {
+      "span" : "Tanya (team owner) ruled on where reaction delivery belongs:",
+      "side" : "supply"
+    } ],
+    "note" : "Verbatim quote stating the routing rule"
+  }, {
+    "local_id" : "src-3",
+    "exact" : "Tina pushed back on the batching window",
+    "actor" : "Tanya TeamOwner",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Delivery routing ruling"
+    },
+    "footing_case" : "fc-2",
+    "note" : "Reported pushback from Tina",
+    "footing" : {
+      "animator" : "Tanya TeamOwner",
+      "author" : "Tanya TeamOwner",
+      "principal" : "Tina"
+    }
+  }, {
+    "local_id" : "src-4",
+    "exact" : "Tanya held: the bundle closes when\nthe run closes, and a skill that misses the close waits for the next run rather\nthan sending on its own.",
+    "actor" : "Tanya TeamOwner",
+    "act" : "declarative",
+    "circumstance" : {
+      "context" : "Delivery routing ruling"
+    },
+    "footing_case" : "fc-3",
+    "note" : "Reported ruling / stance held by Tanya",
+    "footing" : {
+      "animator" : "Tanya TeamOwner",
+      "author" : "Tanya TeamOwner",
+      "principal" : "Tanya TeamOwner"
+    }
+  }, {
+    "local_id" : "src-5",
+    "exact" : "The alternative considered and rejected was per-skill\ndelivery with client-side collapsing, which moves the ordering problem onto the\nreader.",
+    "actor" : "Tanya TeamOwner",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Delivery routing ruling"
+    },
+    "footing_case" : "fc-1",
+    "note" : "Editorial summary of rejected alternative",
+    "footing" : {
+      "animator" : "Tanya TeamOwner",
+      "author" : "Tanya TeamOwner",
+      "principal" : null
+    }
+  } ],
+  "coverage_gaps" : [ ]
+}
