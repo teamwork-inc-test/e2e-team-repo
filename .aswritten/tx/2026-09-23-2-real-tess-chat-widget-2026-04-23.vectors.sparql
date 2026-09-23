@@ -1,0 +1,999 @@
+PREFIX narr: <https://aswritten.ai/narrative#>
+PREFIX aswr: <https://aswritten.ai/aswr#>
+PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX dct:  <http://purl.org/dc/terms/>
+PREFIX xsd:  <http://www.w3.org/2001/XMLSchema#>
+PREFIX oa:   <http://www.w3.org/ns/oa#>
+PREFIX xkos: <http://rdf-vocabulary.ddialliance.org/xkos#>
+
+INSERT DATA {
+  aswr:Tx_20260923T171553Z a prov:Activity ;
+      prov:generatedAtTime "2026-09-23T17:15:53Z"^^xsd:dateTime ;
+      prov:wasAssociatedWith "aswritten.ai" ;
+      prov:wasAttributedTo "scarlet@aswritten.ai" ;
+      aswr:pipelinePin "8dd07a49bda8" ;
+      aswr:originPath ".aswritten/memories/2026-09-23-2-real-tess-chat-widget-2026-04-23.md" ;
+      dct:title "Multipass fragment: 2RealTessChatWidget20260423" ;
+      prov:generated narr:VecAffect_2RealTessChatWidget20260423_58, narr:VecAffect_2RealTessChatWidget20260423_63, narr:VecConviction_2RealTessChatWidget20260423_5, narr:VecConviction_2RealTessChatWidget20260423_9, narr:VecConviction_2RealTessChatWidget20260423_19, narr:VecConviction_2RealTessChatWidget20260423_26, narr:VecConviction_2RealTessChatWidget20260423_44, narr:VecConviction_2RealTessChatWidget20260423_54, narr:VecConviction_2RealTessChatWidget20260423_58, narr:VecConviction_2RealTessChatWidget20260423_60, narr:VecConviction_2RealTessChatWidget20260423_63, narr:VecPower_2RealTessChatWidget20260423_9, narr:VecPower_2RealTessChatWidget20260423_18, narr:VecPower_2RealTessChatWidget20260423_44, narr:VecPower_2RealTessChatWidget20260423_60, narr:VecRegister_2RealTessChatWidget20260423_58, narr:VecRegister_2RealTessChatWidget20260423_60, narr:VecRegister_2RealTessChatWidget20260423_63, narr:VecRelational_2RealTessChatWidget20260423_9, narr:VecRelational_2RealTessChatWidget20260423_10, narr:VecRelational_2RealTessChatWidget20260423_16, narr:VecRelational_2RealTessChatWidget20260423_18, narr:VecRelational_2RealTessChatWidget20260423_26, narr:VecRelational_2RealTessChatWidget20260423_44, narr:VecRelational_2RealTessChatWidget20260423_45, narr:VecRelational_2RealTessChatWidget20260423_47, narr:VecRelational_2RealTessChatWidget20260423_49, narr:VecRelational_2RealTessChatWidget20260423_54, narr:VecStyle_2RealTessChatWidget20260423_10, narr:VecStyle_2RealTessChatWidget20260423_11, narr:VecStyle_2RealTessChatWidget20260423_15, narr:VecStyle_2RealTessChatWidget20260423_16, narr:VecStyle_2RealTessChatWidget20260423_18, narr:VecStyle_2RealTessChatWidget20260423_22, narr:VecStyle_2RealTessChatWidget20260423_32, narr:VecStyle_2RealTessChatWidget20260423_45, narr:VecStyle_2RealTessChatWidget20260423_47, narr:VecStyle_2RealTessChatWidget20260423_68, narr:VecStyle_2RealTessChatWidget20260423_71, narr:VecTemporal_2RealTessChatWidget20260423_3, narr:VecTemporal_2RealTessChatWidget20260423_4, narr:VecTemporal_2RealTessChatWidget20260423_5, narr:VecTemporal_2RealTessChatWidget20260423_9, narr:VecTemporal_2RealTessChatWidget20260423_10, narr:VecTemporal_2RealTessChatWidget20260423_11, narr:VecTemporal_2RealTessChatWidget20260423_14, narr:VecTemporal_2RealTessChatWidget20260423_16, narr:VecTemporal_2RealTessChatWidget20260423_18, narr:VecTemporal_2RealTessChatWidget20260423_20, narr:VecTemporal_2RealTessChatWidget20260423_22, narr:VecTemporal_2RealTessChatWidget20260423_26, narr:VecTemporal_2RealTessChatWidget20260423_30, narr:VecTemporal_2RealTessChatWidget20260423_36, narr:VecTemporal_2RealTessChatWidget20260423_44, narr:VecTemporal_2RealTessChatWidget20260423_47, narr:VecTemporal_2RealTessChatWidget20260423_54, narr:VecTemporal_2RealTessChatWidget20260423_55, narr:VecTemporal_2RealTessChatWidget20260423_60, narr:VecTemporal_2RealTessChatWidget20260423_63, narr:VecTemporal_2RealTessChatWidget20260423_67, narr:VecTemporal_2RealTessChatWidget20260423_68, narr:VecTemporal_2RealTessChatWidget20260423_70, narr:VecTemporal_2RealTessChatWidget20260423_71, narr:VecTemporal_2RealTessChatWidget20260423_74, narr:VecValue_2RealTessChatWidget20260423_9, narr:VecValue_2RealTessChatWidget20260423_44, narr:VecValue_2RealTessChatWidget20260423_60, narr:VecValue_2RealTessChatWidget20260423_63, narr:Position_EvaluatorChannelTrustTax, narr:Position_PerShareChatWidgetArchitecture, narr:Position_ArchetypeRelationalDisambiguation, narr:Position_OnboardingToolPromptGuidance .
+} ;
+INSERT DATA {
+  GRAPH aswr:Tx_20260923T171553Z {
+    narr:VecAffect_2RealTessChatWidget20260423_58 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_2RealTessChatWidget20260423_58 ;
+        narr:dimension narr:Dim_Affect ;
+        narr:region narr:Affect_CalmNegative ;
+        narr:evidence "lexical-marker: one of the hardest parts about this thing" ;
+        narr:evidence "hedge: I don't know, like, kind of anything." ;
+        narr:reported false ;
+        skos:note "Tanya registers low-arousal difficulty and mild perplexity regarding the open-ended prompt hurdle." ;
+        prov:generatedAtTime "2026-09-23T17:15:53Z"^^xsd:dateTime .
+
+    narr:VecAffect_2RealTessChatWidget20260423_63 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_2RealTessChatWidget20260423_63 ;
+        narr:dimension narr:Dim_Affect ;
+        narr:region narr:Affect_CalmNegative ;
+        narr:evidence "lexical-marker: completely foreign to me" ;
+        narr:evidence "lexical-marker: that did not make sense to me" ;
+        narr:reported false ;
+        skos:note "Tess conveys candid cognitive bewilderment and estrangement from the backend mental model without high arousal." ;
+        prov:generatedAtTime "2026-09-23T17:15:53Z"^^xsd:dateTime .
+
+    narr:VecConviction_2RealTessChatWidget20260423_5 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_2RealTessChatWidget20260423_5 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Notion ;
+        narr:evidence "hedge: asking whether SMS is actually the right demo strength" ;
+        narr:reported true ;
+        skos:note "Tanya floats an open exploratory question querying prior assumptions." ;
+        prov:generatedAtTime "2026-09-23T17:15:53Z"^^xsd:dateTime .
+
+    narr:VecConviction_2RealTessChatWidget20260423_9 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_2RealTessChatWidget20260423_9 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Claim ;
+        narr:evidence "intensifier: is absolutely the right move" ;
+        narr:evidence "hedge: might actually be a real downside" ;
+        narr:reported false ;
+        skos:note "Tess asserts a qualified claim contrasting specific contexts against low-trust environments." ;
+        prov:generatedAtTime "2026-09-23T17:15:53Z"^^xsd:dateTime .
+
+    narr:VecConviction_2RealTessChatWidget20260423_19 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_2RealTessChatWidget20260423_19 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Notion ;
+        narr:evidence "hedge: a sketch, not yet a decision" ;
+        narr:reported false ;
+        skos:note "Explicitly characterized as an exploratory architectural sketch rather than a committed decision." ;
+        prov:generatedAtTime "2026-09-23T17:15:53Z"^^xsd:dateTime .
+
+    narr:VecConviction_2RealTessChatWidget20260423_26 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_2RealTessChatWidget20260423_26 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Claim ;
+        narr:evidence "hedge: potentially much more useful" ;
+        narr:reported true ;
+        skos:note "Tanya's relayed conclusion evaluates the trade-off as a defensible stance with mild hedging." ;
+        prov:generatedAtTime "2026-09-23T17:15:53Z"^^xsd:dateTime .
+
+    narr:VecConviction_2RealTessChatWidget20260423_44 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_2RealTessChatWidget20260423_44 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Claim ;
+        narr:evidence "plain-assertion: She's on Individual because she's my fiancé and beta tester, not a sales target" ;
+        narr:reported false ;
+        skos:note "Tanya plainly asserts the relational premise governing Tess's tier placement." ;
+        prov:generatedAtTime "2026-09-23T17:15:53Z"^^xsd:dateTime .
+
+    narr:VecConviction_2RealTessChatWidget20260423_54 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_2RealTessChatWidget20260423_54 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Claim ;
+        narr:evidence "intensifier: She's the single most prolific beta tester and has had more feedback than anyone." ;
+        narr:reported false ;
+        skos:note "Tanya makes a firm assertion regarding Tess's operational feedback volume." ;
+        prov:generatedAtTime "2026-09-23T17:15:53Z"^^xsd:dateTime .
+
+    narr:VecConviction_2RealTessChatWidget20260423_58 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_2RealTessChatWidget20260423_58 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Notion ;
+        narr:evidence "hedge: Feel like this is actually one of the hardest parts" ;
+        narr:evidence "hedge: kind of anything" ;
+        narr:reported false ;
+        skos:note "Tanya expresses the onboarding friction with exploratory, hedged phrasing." ;
+        prov:generatedAtTime "2026-09-23T17:15:53Z"^^xsd:dateTime .
+
+    narr:VecConviction_2RealTessChatWidget20260423_60 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_2RealTessChatWidget20260423_60 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Notion ;
+        narr:evidence "hedge: It's almost like" ;
+        narr:evidence "hedge: I feel like it's really like" ;
+        narr:reported false ;
+        skos:note "Tess offers a hedged heuristic prescription for tool-language clarity." ;
+        prov:generatedAtTime "2026-09-23T17:15:53Z"^^xsd:dateTime .
+
+    narr:VecConviction_2RealTessChatWidget20260423_63 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_2RealTessChatWidget20260423_63 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Claim ;
+        narr:evidence "intensifier: is completely foreign to me" ;
+        narr:evidence "plain-assertion: that did not make sense to me" ;
+        narr:reported false ;
+        skos:note "Tess firmly asserts her subjective confusion and the illegibility of backend concepts." ;
+        prov:generatedAtTime "2026-09-23T17:15:53Z"^^xsd:dateTime .
+
+    narr:VecPower_2RealTessChatWidget20260423_9 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_2RealTessChatWidget20260423_9 ;
+        narr:dimension narr:Dim_Power ;
+        narr:region narr:Power_RationalPersuasion ;
+        narr:region narr:Power_Expert ;
+        narr:evidence "framing-move: Text message, in certain contexts, is absolutely the right move. But in a lot of skeptical or lower-trust contexts, texting is so associated with spam now that requiring someone to text might actually be a real downside." ;
+        narr:reported false ;
+        skos:note "Tess uses logical reasoning and user-context knowledge to push back on channel assumptions." ;
+        prov:generatedAtTime "2026-09-23T17:15:53Z"^^xsd:dateTime .
+
+    narr:VecPower_2RealTessChatWidget20260423_18 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_2RealTessChatWidget20260423_18 ;
+        narr:dimension narr:Dim_Power ;
+        narr:region narr:Power_Consultation ;
+        narr:evidence "lexical-marker: Can you just give me a chat widget on a web form?" ;
+        narr:reported false ;
+        skos:note "Tess directly requests an alternative solution via a question shaping the product decision." ;
+        prov:generatedAtTime "2026-09-23T17:15:53Z"^^xsd:dateTime .
+
+    narr:VecPower_2RealTessChatWidget20260423_44 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_2RealTessChatWidget20260423_44 ;
+        narr:dimension narr:Dim_Power ;
+        narr:region narr:Power_Legitimate ;
+        narr:evidence "framing-move: She's on Individual because she's my fiancé and beta tester, not a sales target" ;
+        narr:reported false ;
+        skos:note "Tanya defines commercial status and tier placement by owner prerogative and relational arrangement." ;
+        prov:generatedAtTime "2026-09-23T17:15:53Z"^^xsd:dateTime .
+
+    narr:VecPower_2RealTessChatWidget20260423_60 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_2RealTessChatWidget20260423_60 ;
+        narr:dimension narr:Dim_Power ;
+        narr:region narr:Power_Expert ;
+        narr:evidence "framing-move: I feel like it's really like, visit this link, install it, come back and say done." ;
+        narr:reported false ;
+        skos:note "Tess prescribes specific instructional language based on user experience friction." ;
+        prov:generatedAtTime "2026-09-23T17:15:53Z"^^xsd:dateTime .
+
+    narr:VecRegister_2RealTessChatWidget20260423_58 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_2RealTessChatWidget20260423_58 ;
+        narr:dimension narr:Dim_Register ;
+        narr:region narr:Register_Casual ;
+        narr:evidence "lexical-marker: Feel like this is actually one of the hardest parts about this thing. Someone's like, what do I say now? And I'm like, I don't know, like, kind of anything." ;
+        narr:reported false ;
+        skos:note "Colloquial conversational markers, filler words ('like, kind of anything'), and informal speech-reporting construct a casual register." ;
+        prov:generatedAtTime "2026-09-23T17:15:53Z"^^xsd:dateTime .
+
+    narr:VecRegister_2RealTessChatWidget20260423_60 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_2RealTessChatWidget20260423_60 ;
+        narr:dimension narr:Dim_Register ;
+        narr:region narr:Register_Casual ;
+        narr:evidence "lexical-marker: It's almost like once connected, blah, come back and compile. I feel like it's really like, visit this link, install it, come back and say done." ;
+        narr:reported false ;
+        skos:note "Informal placeholder 'blah' and conversational syntax establish a casual register." ;
+        prov:generatedAtTime "2026-09-23T17:15:53Z"^^xsd:dateTime .
+
+    narr:VecRegister_2RealTessChatWidget20260423_63 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_2RealTessChatWidget20260423_63 ;
+        narr:dimension narr:Dim_Register ;
+        narr:region narr:Register_PlainSpoken ;
+        narr:region narr:Register_Casual ;
+        narr:evidence "plain-assertion: Everything you said about committing and pulling and all of that is completely foreign to me. And so, you know, because I don't understand how that works, even some of the little things where you came back and just wrote one word — like that, you clearly have an understanding of how the back end works. And that didn't make sense. Some of the things you just were like, oh, clearly this one word is what it needs. I'm like, that did not make sense to me." ;
+        narr:reported false ;
+        skos:note "Direct rejection of technical git jargon in favor of plain, conversational non-technical user framing." ;
+        prov:generatedAtTime "2026-09-23T17:15:53Z"^^xsd:dateTime .
+
+    narr:VecRelational_2RealTessChatWidget20260423_9 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_2RealTessChatWidget20260423_9 ;
+        narr:dimension narr:Dim_Relational ;
+        narr:region narr:Relational_MarketPricing ;
+        narr:evidence "framing-move: requiring someone to text might actually be a real downside. People might not want to give their number." ;
+        narr:reported false ;
+        skos:note "Evaluates channel choice via trade-offs and personal data cost/tax to the user." ;
+        prov:generatedAtTime "2026-09-23T17:15:53Z"^^xsd:dateTime .
+
+    narr:VecRelational_2RealTessChatWidget20260423_10 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_2RealTessChatWidget20260423_10 ;
+        narr:dimension narr:Dim_Relational ;
+        narr:region narr:Relational_CommunalSharing ;
+        narr:evidence "plain-assertion: The SMS-feels-honest-not-bot framing holds when the sender is already trusted." ;
+        narr:reported false ;
+        skos:note "Relies on pre-existing mutual trust and shared identity context." ;
+        prov:generatedAtTime "2026-09-23T17:15:53Z"^^xsd:dateTime .
+
+    narr:VecRelational_2RealTessChatWidget20260423_16 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_2RealTessChatWidget20260423_16 ;
+        narr:dimension narr:Dim_Relational ;
+        narr:region narr:Relational_MarketPricing ;
+        narr:evidence "lexical-marker: the channel carries a trust tax in evaluator-grade conversations." ;
+        narr:reported true ;
+        skos:note "Frames interpersonal trust explicitly as an economic cost/tax." ;
+        prov:generatedAtTime "2026-09-23T17:15:53Z"^^xsd:dateTime .
+
+    narr:VecRelational_2RealTessChatWidget20260423_18 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_2RealTessChatWidget20260423_18 ;
+        narr:dimension narr:Dim_Relational ;
+        narr:region narr:Relational_EqualityMatching ;
+        narr:evidence "framing-move: Can you just give me a chat widget on a web form?" ;
+        narr:reported false ;
+        skos:note "Requests a straightforward peer-level interface accommodation." ;
+        prov:generatedAtTime "2026-09-23T17:15:53Z"^^xsd:dateTime .
+
+    narr:VecRelational_2RealTessChatWidget20260423_26 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_2RealTessChatWidget20260423_26 ;
+        narr:dimension narr:Dim_Relational ;
+        narr:region narr:Relational_MarketPricing ;
+        narr:evidence "framing-move: lower lift for the demo, lower lift for Tess and others in her category, potentially much more useful." ;
+        narr:reported true ;
+        skos:note "Evaluates implementation options along cost/lift and utility return dimensions." ;
+        prov:generatedAtTime "2026-09-23T17:15:53Z"^^xsd:dateTime .
+
+    narr:VecRelational_2RealTessChatWidget20260423_44 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_2RealTessChatWidget20260423_44 ;
+        narr:dimension narr:Dim_Relational ;
+        narr:region narr:Relational_CommunalSharing ;
+        narr:region narr:Relational_MarketPricing ;
+        narr:evidence "framing-move: She's on Individual because she's my fiancé and beta tester, not a sales target" ;
+        narr:reported false ;
+        skos:note "Explicitly contrasts relational communal sharing (fiancé/beta tester) against market pricing (commercial sales target)." ;
+        prov:generatedAtTime "2026-09-23T17:15:53Z"^^xsd:dateTime .
+
+    narr:VecRelational_2RealTessChatWidget20260423_45 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_2RealTessChatWidget20260423_45 ;
+        narr:dimension narr:Dim_Relational ;
+        narr:region narr:Relational_CommunalSharing ;
+        narr:region narr:Relational_MarketPricing ;
+        narr:evidence "framing-move: a relational arrangement, not a sales-validated pricing decision." ;
+        narr:reported false ;
+        skos:note "Analytically separates the communal relational tie from a market-pricing contract." ;
+        prov:generatedAtTime "2026-09-23T17:15:53Z"^^xsd:dateTime .
+
+    narr:VecRelational_2RealTessChatWidget20260423_47 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_2RealTessChatWidget20260423_47 ;
+        narr:dimension narr:Dim_Relational ;
+        narr:region narr:Relational_CommunalSharing ;
+        narr:region narr:Relational_MarketPricing ;
+        narr:evidence "framing-move: Her commercial status is \"relational\" — fiancé and beta tester, on the Individual tier by arrangement, not by sales logic." ;
+        narr:reported false ;
+        skos:note "Distinguishes personal bond and communal beta role from commercial market exchange logic." ;
+        prov:generatedAtTime "2026-09-23T17:15:53Z"^^xsd:dateTime .
+
+    narr:VecRelational_2RealTessChatWidget20260423_49 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_2RealTessChatWidget20260423_49 ;
+        narr:dimension narr:Dim_Relational ;
+        narr:region narr:Relational_MarketPricing ;
+        narr:evidence "plain-assertion: Tess doesn't validate Individual-tier pricing, because she isn't a prospect — using her as the Trigger-1 exemplar implies \"here's what an Individual-tier user looks like and pays,\" and she doesn't pay." ;
+        narr:reported false ;
+        skos:note "Applies market-pricing validation criteria to reject using a non-paying communal contact as pricing proof." ;
+        prov:generatedAtTime "2026-09-23T17:15:53Z"^^xsd:dateTime .
+
+    narr:VecRelational_2RealTessChatWidget20260423_54 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_2RealTessChatWidget20260423_54 ;
+        narr:dimension narr:Dim_Relational ;
+        narr:region narr:Relational_EqualityMatching ;
+        narr:evidence "plain-assertion: The vast majority of her feedback is verbal and I just implement." ;
+        narr:reported false ;
+        skos:note "Enacts a direct, informal feedback-and-implementation exchange loop." ;
+        prov:generatedAtTime "2026-09-23T17:15:53Z"^^xsd:dateTime .
+
+    narr:VecStyle_2RealTessChatWidget20260423_10 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_2RealTessChatWidget20260423_10 ;
+        narr:dimension narr:Dim_Style ;
+        narr:region narr:Style_Antithesis ;
+        narr:evidence "framing-move: The SMS-feels-honest-not-bot framing holds when the sender is already trusted." ;
+        narr:reported false ;
+        skos:note "Establishes the positive half of a deliberate framing contrast paired with the subsequent evaluator context." ;
+        prov:generatedAtTime "2026-09-23T17:15:53Z"^^xsd:dateTime .
+
+    narr:VecStyle_2RealTessChatWidget20260423_11 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_2RealTessChatWidget20260423_11 ;
+        narr:dimension narr:Dim_Style ;
+        narr:region narr:Style_Antithesis ;
+        narr:evidence "framing-move: It flips in evaluator contexts — SMS is *more* suspicious because spam trained people to distrust unexpected texts." ;
+        narr:reported false ;
+        skos:note "Explicit contrastive reversal of the trust dynamic ('holds' vs 'flips')." ;
+        prov:generatedAtTime "2026-09-23T17:15:53Z"^^xsd:dateTime .
+
+    narr:VecStyle_2RealTessChatWidget20260423_15 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_2RealTessChatWidget20260423_15 ;
+        narr:dimension narr:Dim_Style ;
+        narr:region narr:Style_Antithesis ;
+        narr:evidence "lexical-marker: The operational cost of the SMS onramp has been absorbed, not priced." ;
+        narr:reported false ;
+        skos:note "Classic 'X, not Y' antithesis contrasting absorption versus pricing." ;
+        prov:generatedAtTime "2026-09-23T17:15:53Z"^^xsd:dateTime .
+
+    narr:VecStyle_2RealTessChatWidget20260423_16 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_2RealTessChatWidget20260423_16 ;
+        narr:dimension narr:Dim_Style ;
+        narr:region narr:Style_Metaphor ;
+        narr:evidence "lexical-marker: the channel carries a trust tax in evaluator-grade conversations." ;
+        narr:reported true ;
+        skos:note "Metaphorical formulation framing evaluator hesitation as a 'trust tax'." ;
+        prov:generatedAtTime "2026-09-23T17:15:53Z"^^xsd:dateTime .
+
+    narr:VecStyle_2RealTessChatWidget20260423_18 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_2RealTessChatWidget20260423_18 ;
+        narr:dimension narr:Dim_Style ;
+        narr:region narr:Style_RhetoricalQuestion ;
+        narr:evidence "performed-act: Can you just give me a chat widget on a web form?" ;
+        narr:reported false ;
+        skos:note "A direct colloquial request framed as an interrogative proposing a simplified path." ;
+        prov:generatedAtTime "2026-09-23T17:15:53Z"^^xsd:dateTime .
+
+    narr:VecStyle_2RealTessChatWidget20260423_22 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_2RealTessChatWidget20260423_22 ;
+        narr:dimension narr:Dim_Style ;
+        narr:region narr:Style_Parallelism ;
+        narr:evidence "lexical-marker: one widget per share ID — provisioning a channel and widget at share-creation time means each share has its own conversation surface." ;
+        narr:reported false ;
+        skos:note "Repeated structural mapping ('one widget per share ID', 'each share has its own conversation surface')." ;
+        prov:generatedAtTime "2026-09-23T17:15:53Z"^^xsd:dateTime .
+
+    narr:VecStyle_2RealTessChatWidget20260423_32 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_2RealTessChatWidget20260423_32 ;
+        narr:dimension narr:Dim_Style ;
+        narr:region narr:Style_Antithesis ;
+        narr:evidence "framing-move: This is a scoping, not a replacement." ;
+        narr:reported false ;
+        skos:note "Precise 'X, not Y' definitional antithesis clarifying boundary adjustments." ;
+        prov:generatedAtTime "2026-09-23T17:15:53Z"^^xsd:dateTime .
+
+    narr:VecStyle_2RealTessChatWidget20260423_45 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_2RealTessChatWidget20260423_45 ;
+        narr:dimension narr:Dim_Style ;
+        narr:region narr:Style_Antithesis ;
+        narr:evidence "framing-move: a relational arrangement, not a sales-validated pricing decision." ;
+        narr:reported false ;
+        skos:note "Antithesis opposing relational circumstances against commercial market validation." ;
+        prov:generatedAtTime "2026-09-23T17:15:53Z"^^xsd:dateTime .
+
+    narr:VecStyle_2RealTessChatWidget20260423_47 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_2RealTessChatWidget20260423_47 ;
+        narr:dimension narr:Dim_Style ;
+        narr:region narr:Style_RuleOfThree ;
+        narr:region narr:Style_Parallelism ;
+        narr:evidence "lexical-marker: Her archetype by work motion is Knowledge Packager. Her commercial status is \"relational\" — fiancé and beta tester, on the Individual tier by arrangement, not by sales logic. Her role in the business is primary beta tester — the highest-volume source of product feedback in the company." ;
+        narr:reported false ;
+        skos:note "Triadic parallel structure: three successive sentences starting with 'Her [domain] is/by...'." ;
+        prov:generatedAtTime "2026-09-23T17:15:53Z"^^xsd:dateTime .
+
+    narr:VecStyle_2RealTessChatWidget20260423_68 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_2RealTessChatWidget20260423_68 ;
+        narr:dimension narr:Dim_Style ;
+        narr:region narr:Style_Parallelism ;
+        narr:evidence "lexical-marker: one share → one widget → one channel → one aswritten-org-inbox thread" ;
+        narr:reported false ;
+        skos:note "Chained parallel formula mapping 1:1 correspondences across pipeline tiers." ;
+        prov:generatedAtTime "2026-09-23T17:15:53Z"^^xsd:dateTime .
+
+    narr:VecStyle_2RealTessChatWidget20260423_71 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_2RealTessChatWidget20260423_71 ;
+        narr:dimension narr:Dim_Style ;
+        narr:region narr:Style_Antithesis ;
+        narr:evidence "framing-move: a decision, not a drift." ;
+        narr:reported false ;
+        skos:note "Concise 'X, not Y' antithesis emphasizing intentional choice over passive drift." ;
+        prov:generatedAtTime "2026-09-23T17:15:53Z"^^xsd:dateTime .
+
+    narr:VecTemporal_2RealTessChatWidget20260423_3 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_2RealTessChatWidget20260423_3 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Past ;
+        narr:region narr:Temporal_Realis ;
+        narr:region narr:Temporal_Concrete ;
+        narr:evidence "plain-assertion: seven Twilio toll-free numbers she'd submitted for verification all came back rejected" ;
+        narr:reported false ;
+        skos:note "Narrates a completed concrete past event with actual outcome." ;
+        prov:generatedAtTime "2026-09-23T17:15:53Z"^^xsd:dateTime .
+
+    narr:VecTemporal_2RealTessChatWidget20260423_4 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_2RealTessChatWidget20260423_4 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Present ;
+        narr:region narr:Temporal_Realis ;
+        narr:region narr:Temporal_Concrete ;
+        narr:evidence "plain-assertion: are back in the review queue" ;
+        narr:reported false ;
+        skos:note "Describes the current actual status of specific artifacts." ;
+        prov:generatedAtTime "2026-09-23T17:15:53Z"^^xsd:dateTime .
+
+    narr:VecTemporal_2RealTessChatWidget20260423_5 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_2RealTessChatWidget20260423_5 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Past ;
+        narr:region narr:Temporal_Realis ;
+        narr:region narr:Temporal_Concrete ;
+        narr:evidence "plain-assertion: had been asking whether SMS is actually the right demo strength" ;
+        narr:reported true ;
+        skos:note "Reports Tanya's prior reflective inquiry regarding specific beta users." ;
+        prov:generatedAtTime "2026-09-23T17:15:53Z"^^xsd:dateTime .
+
+    narr:VecTemporal_2RealTessChatWidget20260423_9 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_2RealTessChatWidget20260423_9 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Present ;
+        narr:region narr:Temporal_Irrealis ;
+        narr:region narr:Temporal_Abstract ;
+        narr:evidence "modal-marker: might actually be a real downside. People might not want to give their number." ;
+        narr:reported false ;
+        skos:note "Tess outlines hypothetical, generalized user behavior under skeptical conditions." ;
+        prov:generatedAtTime "2026-09-23T17:15:53Z"^^xsd:dateTime .
+
+    narr:VecTemporal_2RealTessChatWidget20260423_10 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_2RealTessChatWidget20260423_10 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Present ;
+        narr:region narr:Temporal_Realis ;
+        narr:region narr:Temporal_Abstract ;
+        narr:evidence "plain-assertion: holds when the sender is already trusted" ;
+        narr:reported false ;
+        skos:note "States an ongoing general conceptual pattern." ;
+        prov:generatedAtTime "2026-09-23T17:15:53Z"^^xsd:dateTime .
+
+    narr:VecTemporal_2RealTessChatWidget20260423_11 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_2RealTessChatWidget20260423_11 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Present ;
+        narr:region narr:Temporal_Realis ;
+        narr:region narr:Temporal_Abstract ;
+        narr:evidence "plain-assertion: It flips in evaluator contexts" ;
+        narr:reported false ;
+        skos:note "Articulates an abstract general rule about perception." ;
+        prov:generatedAtTime "2026-09-23T17:15:53Z"^^xsd:dateTime .
+
+    narr:VecTemporal_2RealTessChatWidget20260423_14 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_2RealTessChatWidget20260423_14 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Past ;
+        narr:region narr:Temporal_Realis ;
+        narr:region narr:Temporal_Concrete ;
+        narr:evidence "plain-assertion: Seven numbers, rejected en masse" ;
+        narr:reported false ;
+        skos:note "Recounts a specific actual historical rejection event." ;
+        prov:generatedAtTime "2026-09-23T17:15:53Z"^^xsd:dateTime .
+
+    narr:VecTemporal_2RealTessChatWidget20260423_16 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_2RealTessChatWidget20260423_16 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Present ;
+        narr:region narr:Temporal_Realis ;
+        narr:region narr:Temporal_Abstract ;
+        narr:evidence "plain-assertion: the channel carries a trust tax in evaluator-grade conversations" ;
+        narr:reported true ;
+        skos:note "Formulates a general conceptual principle underlying Tess's feedback." ;
+        prov:generatedAtTime "2026-09-23T17:15:53Z"^^xsd:dateTime .
+
+    narr:VecTemporal_2RealTessChatWidget20260423_18 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_2RealTessChatWidget20260423_18 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Future ;
+        narr:region narr:Temporal_Irrealis ;
+        narr:region narr:Temporal_Concrete ;
+        narr:evidence "plain-assertion: Can you just give me a chat widget on a web form?" ;
+        narr:reported false ;
+        skos:note "Requests a prospective concrete feature implementation." ;
+        prov:generatedAtTime "2026-09-23T17:15:53Z"^^xsd:dateTime .
+
+    narr:VecTemporal_2RealTessChatWidget20260423_20 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_2RealTessChatWidget20260423_20 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Present ;
+        narr:region narr:Temporal_Realis ;
+        narr:region narr:Temporal_Concrete ;
+        narr:evidence "plain-assertion: Front already has a chat widget, so the integration exists." ;
+        narr:reported false ;
+        skos:note "States an existing concrete capability." ;
+        prov:generatedAtTime "2026-09-23T17:15:53Z"^^xsd:dateTime .
+
+    narr:VecTemporal_2RealTessChatWidget20260423_22 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_2RealTessChatWidget20260423_22 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Future ;
+        narr:region narr:Temporal_Irrealis ;
+        narr:region narr:Temporal_Concrete ;
+        narr:evidence "framing-move: The proposal is one widget per share ID" ;
+        narr:reported false ;
+        skos:note "Proposes a prospective concrete architectural design." ;
+        prov:generatedAtTime "2026-09-23T17:15:53Z"^^xsd:dateTime .
+
+    narr:VecTemporal_2RealTessChatWidget20260423_26 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_2RealTessChatWidget20260423_26 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Future ;
+        narr:region narr:Temporal_Irrealis ;
+        narr:region narr:Temporal_Abstract ;
+        narr:evidence "plain-assertion: lower lift for the demo, lower lift for Tess and others in her category, potentially much more useful" ;
+        narr:reported true ;
+        skos:note "Projects expected future benefits across a user class." ;
+        prov:generatedAtTime "2026-09-23T17:15:53Z"^^xsd:dateTime .
+
+    narr:VecTemporal_2RealTessChatWidget20260423_30 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_2RealTessChatWidget20260423_30 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Present ;
+        narr:region narr:Temporal_Abstract ;
+        narr:evidence "plain-assertion: is the right fit for evaluator, skeptic, first-touch, and demo contexts" ;
+        narr:reported false ;
+        skos:note "Defines categorical appropriateness across abstract context types." ;
+        prov:generatedAtTime "2026-09-23T17:15:53Z"^^xsd:dateTime .
+
+    narr:VecTemporal_2RealTessChatWidget20260423_36 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_2RealTessChatWidget20260423_36 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Future ;
+        narr:region narr:Temporal_Irrealis ;
+        narr:region narr:Temporal_Abstract ;
+        narr:evidence "plain-assertion: operational goal for the next six months — already captured in the perspective — is to generalize and prepackage her existing training content" ;
+        narr:reported false ;
+        skos:note "Identifies planned future trajectory for generalizing content." ;
+        prov:generatedAtTime "2026-09-23T17:15:53Z"^^xsd:dateTime .
+
+    narr:VecTemporal_2RealTessChatWidget20260423_44 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_2RealTessChatWidget20260423_44 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Present ;
+        narr:region narr:Temporal_Realis ;
+        narr:region narr:Temporal_Concrete ;
+        narr:evidence "plain-assertion: She's on Individual because she's my fiancé and beta tester" ;
+        narr:reported false ;
+        skos:note "Describes the current actual commercial relationship with a specific person." ;
+        prov:generatedAtTime "2026-09-23T17:15:53Z"^^xsd:dateTime .
+
+    narr:VecTemporal_2RealTessChatWidget20260423_47 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_2RealTessChatWidget20260423_47 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Present ;
+        narr:region narr:Temporal_Realis ;
+        narr:region narr:Temporal_Concrete ;
+        narr:evidence "plain-assertion: Her commercial status is \"relational\" — fiancé and beta tester" ;
+        narr:reported false ;
+        skos:note "States the present factual standing and role of Tess." ;
+        prov:generatedAtTime "2026-09-23T17:15:53Z"^^xsd:dateTime .
+
+    narr:VecTemporal_2RealTessChatWidget20260423_54 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_2RealTessChatWidget20260423_54 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Present ;
+        narr:region narr:Temporal_Realis ;
+        narr:region narr:Temporal_Concrete ;
+        narr:evidence "plain-assertion: The vast majority of her feedback is verbal and I just implement. She's the single most prolific beta tester" ;
+        narr:reported false ;
+        skos:note "Asserts present ongoing practice regarding Tess's testing contributions." ;
+        prov:generatedAtTime "2026-09-23T17:15:53Z"^^xsd:dateTime .
+
+    narr:VecTemporal_2RealTessChatWidget20260423_55 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_2RealTessChatWidget20260423_55 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Past ;
+        narr:region narr:Temporal_Realis ;
+        narr:region narr:Temporal_Concrete ;
+        narr:evidence "plain-assertion: March 4 Wren onboarding session contains product feedback from Tess that was captured in the transcript" ;
+        narr:reported false ;
+        skos:note "References a specific historical session and recorded feedback." ;
+        prov:generatedAtTime "2026-09-23T17:15:53Z"^^xsd:dateTime .
+
+    narr:VecTemporal_2RealTessChatWidget20260423_60 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_2RealTessChatWidget20260423_60 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Future ;
+        narr:region narr:Temporal_Irrealis ;
+        narr:region narr:Temporal_Concrete ;
+        narr:evidence "plain-assertion: visit this link, install it, come back and say done." ;
+        narr:reported false ;
+        skos:note "Prescribes a prospective concrete UX flow." ;
+        prov:generatedAtTime "2026-09-23T17:15:53Z"^^xsd:dateTime .
+
+    narr:VecTemporal_2RealTessChatWidget20260423_63 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_2RealTessChatWidget20260423_63 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Past ;
+        narr:region narr:Temporal_Realis ;
+        narr:region narr:Temporal_Concrete ;
+        narr:evidence "plain-assertion: Everything you said about committing and pulling and all of that is completely foreign to me." ;
+        narr:reported false ;
+        skos:note "Tess reflects on her actual past experience during the onboarding interaction." ;
+        prov:generatedAtTime "2026-09-23T17:15:53Z"^^xsd:dateTime .
+
+    narr:VecTemporal_2RealTessChatWidget20260423_67 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_2RealTessChatWidget20260423_67 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Future ;
+        narr:region narr:Temporal_Irrealis ;
+        narr:region narr:Temporal_Concrete ;
+        narr:evidence "plain-assertion: If verification fails again, that's the signal to stop investing in the SMS onramp" ;
+        narr:reported false ;
+        skos:note "Outlines a conditional future action based on a specific trigger." ;
+        prov:generatedAtTime "2026-09-23T17:15:53Z"^^xsd:dateTime .
+
+    narr:VecTemporal_2RealTessChatWidget20260423_68 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_2RealTessChatWidget20260423_68 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Future ;
+        narr:region narr:Temporal_Irrealis ;
+        narr:region narr:Temporal_Concrete ;
+        narr:evidence "modal-marker: A Front chat widget spike would confirm whether inbox creation is API-automatable" ;
+        narr:reported false ;
+        skos:note "Hypothesizes what an intended future technical spike would demonstrate." ;
+        prov:generatedAtTime "2026-09-23T17:15:53Z"^^xsd:dateTime .
+
+    narr:VecTemporal_2RealTessChatWidget20260423_70 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_2RealTessChatWidget20260423_70 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Past ;
+        narr:region narr:Temporal_Realis ;
+        narr:region narr:Temporal_Concrete ;
+        narr:evidence "plain-assertion: The Apr 13 Keystone call used live SMS." ;
+        narr:reported false ;
+        skos:note "Narrates a specific historical fact from a prior call." ;
+        prov:generatedAtTime "2026-09-23T17:15:53Z"^^xsd:dateTime .
+
+    narr:VecTemporal_2RealTessChatWidget20260423_71 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_2RealTessChatWidget20260423_71 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Future ;
+        narr:region narr:Temporal_Irrealis ;
+        narr:region narr:Temporal_Concrete ;
+        narr:evidence "plain-assertion: Whether the chat widget replaces or augments SMS for Demo 1 is a decision" ;
+        narr:reported false ;
+        skos:note "Frames an upcoming concrete product choice." ;
+        prov:generatedAtTime "2026-09-23T17:15:53Z"^^xsd:dateTime .
+
+    narr:VecTemporal_2RealTessChatWidget20260423_74 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_2RealTessChatWidget20260423_74 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Future ;
+        narr:region narr:Temporal_Irrealis ;
+        narr:region narr:Temporal_Concrete ;
+        narr:evidence "plain-assertion: Options include her writing her own memories, Tanya dictating them after conversations" ;
+        narr:reported false ;
+        skos:note "Lists potential future implementation paths." ;
+        prov:generatedAtTime "2026-09-23T17:15:53Z"^^xsd:dateTime .
+
+    narr:VecValue_2RealTessChatWidget20260423_9 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_2RealTessChatWidget20260423_9 ;
+        narr:dimension narr:Dim_Value ;
+        narr:region narr:Value_Conservation ;
+        narr:region narr:Value_Autonomy ;
+        narr:evidence "framing-move: People might not want to give their number." ;
+        narr:reported false ;
+        skos:note "Tess flags personal phone number privacy and fear of spam as an avoidance motive in skeptical contexts." ;
+        prov:generatedAtTime "2026-09-23T17:15:53Z"^^xsd:dateTime .
+
+    narr:VecValue_2RealTessChatWidget20260423_44 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_2RealTessChatWidget20260423_44 ;
+        narr:dimension narr:Dim_Value ;
+        narr:region narr:Value_Relatedness ;
+        narr:evidence "framing-move: She's on Individual because she's my fiancé and beta tester, not a sales target" ;
+        narr:reported false ;
+        skos:note "Tanya grounds Tess's commercial status in personal relationship and mutual collaboration rather than transactional sales." ;
+        prov:generatedAtTime "2026-09-23T17:15:53Z"^^xsd:dateTime .
+
+    narr:VecValue_2RealTessChatWidget20260423_60 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_2RealTessChatWidget20260423_60 ;
+        narr:dimension narr:Dim_Value ;
+        narr:region narr:Value_Competence ;
+        narr:evidence "plain-signal: visit this link, install it, come back and say done." ;
+        narr:reported false ;
+        skos:note "Tess prescribes clear procedural guidance to eliminate onboarding confusion and restore user self-efficacy." ;
+        prov:generatedAtTime "2026-09-23T17:15:53Z"^^xsd:dateTime .
+
+    narr:VecValue_2RealTessChatWidget20260423_63 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_2RealTessChatWidget20260423_63 ;
+        narr:dimension narr:Dim_Value ;
+        narr:region narr:Value_Competence ;
+        narr:evidence "lexical-marker: Everything you said about committing and pulling and all of that is completely foreign to me." ;
+        narr:reported false ;
+        skos:note "Tess highlights the cognitive barrier created by developer jargon that obscures user mastery." ;
+        prov:generatedAtTime "2026-09-23T17:15:53Z"^^xsd:dateTime .
+
+    narr:Expr_2RealTessChatWidget20260423_3 narr:supports narr:Narrative_InterviewFlywheel .
+
+    narr:Expr_2RealTessChatWidget20260423_4 narr:supports narr:Narrative_InterviewFlywheel .
+
+    narr:Expr_2RealTessChatWidget20260423_5 narr:supports narr:Narrative_InterviewFlywheel .
+
+    narr:Expr_2RealTessChatWidget20260423_6 narr:supports narr:Narrative_InterviewFlywheel .
+
+    narr:Expr_2RealTessChatWidget20260423_7 narr:supports narr:Narrative_InterviewFlywheel .
+
+    narr:Expr_2RealTessChatWidget20260423_9 narr:supports narr:Narrative_InterviewFlywheel .
+
+    narr:Expr_2RealTessChatWidget20260423_10 narr:supports narr:Narrative_InterviewFlywheel .
+
+    narr:Expr_2RealTessChatWidget20260423_11 narr:supports narr:Narrative_InterviewFlywheel .
+
+    narr:Expr_2RealTessChatWidget20260423_12 narr:supports narr:Narrative_InterviewFlywheel .
+
+    narr:Expr_2RealTessChatWidget20260423_13 narr:supports narr:Narrative_InterviewFlywheel .
+
+    narr:Expr_2RealTessChatWidget20260423_14 narr:supports narr:Narrative_InterviewFlywheel .
+
+    narr:Expr_2RealTessChatWidget20260423_15 narr:supports narr:Narrative_InterviewFlywheel .
+
+    narr:Expr_2RealTessChatWidget20260423_16 narr:supports narr:Narrative_InterviewFlywheel .
+
+    narr:Expr_2RealTessChatWidget20260423_18 narr:supports narr:Narrative_InterviewFlywheel .
+
+    narr:Expr_2RealTessChatWidget20260423_20 narr:supports narr:Narrative_InterviewFlywheel .
+
+    narr:Expr_2RealTessChatWidget20260423_21 narr:supports narr:Narrative_InterviewFlywheel .
+
+    narr:Expr_2RealTessChatWidget20260423_22 narr:supports narr:Narrative_InterviewFlywheel .
+
+    narr:Expr_2RealTessChatWidget20260423_23 narr:supports narr:Narrative_InterviewFlywheel .
+
+    narr:Expr_2RealTessChatWidget20260423_24 narr:supports narr:Narrative_InterviewFlywheel .
+
+    narr:Expr_2RealTessChatWidget20260423_25 narr:supports narr:Narrative_InterviewFlywheel .
+
+    narr:Expr_2RealTessChatWidget20260423_26 narr:supports narr:Narrative_InterviewFlywheel .
+
+    narr:Expr_2RealTessChatWidget20260423_27 narr:supports narr:Narrative_InterviewFlywheel .
+
+    narr:Expr_2RealTessChatWidget20260423_28 narr:supports narr:Narrative_InterviewFlywheel .
+
+    narr:Expr_2RealTessChatWidget20260423_29 narr:supports narr:Narrative_InterviewFlywheel .
+
+    narr:Expr_2RealTessChatWidget20260423_30 narr:supports narr:Narrative_InterviewFlywheel .
+
+    narr:Expr_2RealTessChatWidget20260423_31 narr:supports narr:Narrative_InterviewFlywheel .
+
+    narr:Expr_2RealTessChatWidget20260423_32 narr:supports narr:Narrative_InterviewFlywheel .
+
+    narr:Expr_2RealTessChatWidget20260423_33 narr:supports narr:Narrative_InterviewFlywheel .
+
+    narr:Expr_2RealTessChatWidget20260423_65 narr:supports narr:Narrative_InterviewFlywheel .
+
+    narr:Expr_2RealTessChatWidget20260423_66 narr:supports narr:Narrative_InterviewFlywheel .
+
+    narr:Expr_2RealTessChatWidget20260423_67 narr:supports narr:Narrative_InterviewFlywheel .
+
+    narr:Expr_2RealTessChatWidget20260423_68 narr:supports narr:Narrative_InterviewFlywheel .
+
+    narr:Expr_2RealTessChatWidget20260423_69 narr:supports narr:Narrative_InterviewFlywheel .
+
+    narr:Expr_2RealTessChatWidget20260423_70 narr:supports narr:Narrative_InterviewFlywheel .
+
+    narr:Expr_2RealTessChatWidget20260423_71 narr:supports narr:Narrative_InterviewFlywheel .
+
+    narr:Expr_2RealTessChatWidget20260423_75 narr:supports narr:Narrative_InterviewFlywheel .
+
+    narr:Expr_2RealTessChatWidget20260423_76 narr:supports narr:Narrative_InterviewFlywheel .
+
+    narr:Expr_2RealTessChatWidget20260423_77 narr:supports narr:Narrative_InterviewFlywheel .
+
+    narr:Expr_2RealTessChatWidget20260423_34 narr:supports narr:Narrative_BehavioralProgressionPackaging .
+
+    narr:Expr_2RealTessChatWidget20260423_39 narr:supports narr:Narrative_BehavioralProgressionPackaging .
+
+    narr:Expr_2RealTessChatWidget20260423_40 narr:supports narr:Narrative_BehavioralProgressionPackaging .
+
+    narr:Expr_2RealTessChatWidget20260423_41 narr:supports narr:Narrative_BehavioralProgressionPackaging .
+
+    narr:Expr_2RealTessChatWidget20260423_44 narr:supports narr:Narrative_BehavioralProgressionPackaging .
+
+    narr:Expr_2RealTessChatWidget20260423_45 narr:supports narr:Narrative_BehavioralProgressionPackaging .
+
+    narr:Expr_2RealTessChatWidget20260423_46 narr:supports narr:Narrative_BehavioralProgressionPackaging .
+
+    narr:Expr_2RealTessChatWidget20260423_47 narr:supports narr:Narrative_BehavioralProgressionPackaging .
+
+    narr:Expr_2RealTessChatWidget20260423_48 narr:supports narr:Narrative_BehavioralProgressionPackaging .
+
+    narr:Expr_2RealTessChatWidget20260423_49 narr:supports narr:Narrative_BehavioralProgressionPackaging .
+
+    narr:Expr_2RealTessChatWidget20260423_50 narr:supports narr:Narrative_BehavioralProgressionPackaging .
+
+    narr:Expr_2RealTessChatWidget20260423_51 narr:supports narr:Narrative_BehavioralProgressionPackaging .
+
+    narr:Expr_2RealTessChatWidget20260423_52 narr:supports narr:Narrative_BehavioralProgressionPackaging .
+
+    narr:Expr_2RealTessChatWidget20260423_53 narr:supports narr:Narrative_BehavioralProgressionPackaging .
+
+    narr:Expr_2RealTessChatWidget20260423_54 narr:supports narr:Narrative_BehavioralProgressionPackaging .
+
+    narr:Expr_2RealTessChatWidget20260423_72 narr:supports narr:Narrative_BehavioralProgressionPackaging .
+
+    narr:Expr_2RealTessChatWidget20260423_73 narr:supports narr:Narrative_BehavioralProgressionPackaging .
+
+    narr:Expr_2RealTessChatWidget20260423_74 narr:supports narr:Narrative_BehavioralProgressionPackaging .
+
+    narr:Expr_2RealTessChatWidget20260423_78 narr:supports narr:Narrative_BehavioralProgressionPackaging .
+
+    narr:Expr_2RealTessChatWidget20260423_35 narr:supports narr:Narrative_InstallableExpertise .
+
+    narr:Expr_2RealTessChatWidget20260423_36 narr:supports narr:Narrative_InstallableExpertise .
+
+    narr:Expr_2RealTessChatWidget20260423_37 narr:supports narr:Narrative_InstallableExpertise .
+
+    narr:Expr_2RealTessChatWidget20260423_38 narr:supports narr:Narrative_InstallableExpertise .
+
+    narr:Expr_2RealTessChatWidget20260423_41 narr:supports narr:Narrative_InstallableExpertise .
+
+    narr:Expr_2RealTessChatWidget20260423_55 narr:supports narr:Narrative_InstallableExpertise .
+
+    narr:Expr_2RealTessChatWidget20260423_56 narr:supports narr:Narrative_InstallableExpertise .
+
+    narr:Expr_2RealTessChatWidget20260423_57 narr:supports narr:Narrative_InstallableExpertise .
+
+    narr:Expr_2RealTessChatWidget20260423_58 narr:supports narr:Narrative_InstallableExpertise .
+
+    narr:Expr_2RealTessChatWidget20260423_59 narr:supports narr:Narrative_InstallableExpertise .
+
+    narr:Expr_2RealTessChatWidget20260423_60 narr:supports narr:Narrative_InstallableExpertise .
+
+    narr:Expr_2RealTessChatWidget20260423_61 narr:supports narr:Narrative_InstallableExpertise .
+
+    narr:Expr_2RealTessChatWidget20260423_62 narr:supports narr:Narrative_InstallableExpertise .
+
+    narr:Expr_2RealTessChatWidget20260423_63 narr:supports narr:Narrative_InstallableExpertise .
+
+    narr:Expr_2RealTessChatWidget20260423_64 narr:supports narr:Narrative_InstallableExpertise .
+
+    narr:Position_EvaluatorChannelTrustTax a narr:Position ;
+        narr:frame "How does channel selection impact user trust across high-trust versus skeptical evaluator contexts?" ;
+        prov:generatedAtTime "2026-09-23T17:15:53Z"^^xsd:dateTime .
+
+    narr:Position_EvaluatorChannelTrustTax narr:supports narr:Narrative_InterviewFlywheel .
+
+    narr:Expr_2RealTessChatWidget20260423_9 narr:supports narr:Position_EvaluatorChannelTrustTax .
+
+    narr:Expr_2RealTessChatWidget20260423_10 narr:supports narr:Position_EvaluatorChannelTrustTax .
+
+    narr:Expr_2RealTessChatWidget20260423_11 narr:supports narr:Position_EvaluatorChannelTrustTax .
+
+    narr:Expr_2RealTessChatWidget20260423_16 narr:supports narr:Position_EvaluatorChannelTrustTax .
+
+    narr:Expr_2RealTessChatWidget20260423_29 narr:supports narr:Position_EvaluatorChannelTrustTax .
+
+    narr:Expr_2RealTessChatWidget20260423_30 narr:supports narr:Position_EvaluatorChannelTrustTax .
+
+    narr:Expr_2RealTessChatWidget20260423_31 narr:supports narr:Position_EvaluatorChannelTrustTax .
+
+    narr:Position_PerShareChatWidgetArchitecture a narr:Position ;
+        narr:frame "How should web chat interfaces be provisioned and routed to enable isolated multi-share conversation surfaces without founder triage bottlenecks?" ;
+        prov:generatedAtTime "2026-09-23T17:15:53Z"^^xsd:dateTime .
+
+    narr:Position_PerShareChatWidgetArchitecture narr:supports narr:Narrative_InterviewFlywheel .
+
+    narr:Expr_2RealTessChatWidget20260423_20 narr:supports narr:Position_PerShareChatWidgetArchitecture .
+
+    narr:Expr_2RealTessChatWidget20260423_21 narr:supports narr:Position_PerShareChatWidgetArchitecture .
+
+    narr:Expr_2RealTessChatWidget20260423_22 narr:supports narr:Position_PerShareChatWidgetArchitecture .
+
+    narr:Expr_2RealTessChatWidget20260423_23 narr:supports narr:Position_PerShareChatWidgetArchitecture .
+
+    narr:Expr_2RealTessChatWidget20260423_24 narr:supports narr:Position_PerShareChatWidgetArchitecture .
+
+    narr:Expr_2RealTessChatWidget20260423_25 narr:supports narr:Position_PerShareChatWidgetArchitecture .
+
+    narr:Expr_2RealTessChatWidget20260423_26 narr:supports narr:Position_PerShareChatWidgetArchitecture .
+
+    narr:Position_ArchetypeRelationalDisambiguation a narr:Position ;
+        narr:frame "How should user classification separate operational work motion, commercial billing status, and internal beta testing roles?" ;
+        prov:generatedAtTime "2026-09-23T17:15:53Z"^^xsd:dateTime .
+
+    narr:Position_ArchetypeRelationalDisambiguation narr:supports narr:Narrative_BehavioralProgressionPackaging .
+
+    narr:Expr_2RealTessChatWidget20260423_38 narr:supports narr:Position_ArchetypeRelationalDisambiguation .
+
+    narr:Expr_2RealTessChatWidget20260423_39 narr:supports narr:Position_ArchetypeRelationalDisambiguation .
+
+    narr:Expr_2RealTessChatWidget20260423_44 narr:supports narr:Position_ArchetypeRelationalDisambiguation .
+
+    narr:Expr_2RealTessChatWidget20260423_45 narr:supports narr:Position_ArchetypeRelationalDisambiguation .
+
+    narr:Expr_2RealTessChatWidget20260423_47 narr:supports narr:Position_ArchetypeRelationalDisambiguation .
+
+    narr:Expr_2RealTessChatWidget20260423_49 narr:supports narr:Position_ArchetypeRelationalDisambiguation .
+
+    narr:Expr_2RealTessChatWidget20260423_50 narr:supports narr:Position_ArchetypeRelationalDisambiguation .
+
+    narr:Expr_2RealTessChatWidget20260423_54 narr:supports narr:Position_ArchetypeRelationalDisambiguation .
+
+    narr:Position_OnboardingToolPromptGuidance a narr:Position ;
+        narr:frame "How should post-installation UX guide non-technical users from connector setup to immediate execution without backend jargon?" ;
+        narr:extends narr:Position_LaunchBoundaryAprilFirst ;
+        prov:generatedAtTime "2026-09-23T17:15:53Z"^^xsd:dateTime .
+
+    narr:Position_OnboardingToolPromptGuidance narr:supports narr:Narrative_InstallableExpertise .
+
+    narr:Expr_2RealTessChatWidget20260423_58 narr:supports narr:Position_OnboardingToolPromptGuidance .
+
+    narr:Expr_2RealTessChatWidget20260423_60 narr:supports narr:Position_OnboardingToolPromptGuidance .
+
+    narr:Expr_2RealTessChatWidget20260423_61 narr:supports narr:Position_OnboardingToolPromptGuidance .
+
+    narr:Expr_2RealTessChatWidget20260423_63 narr:supports narr:Position_OnboardingToolPromptGuidance .
+
+    narr:Expr_2RealTessChatWidget20260423_64 narr:supports narr:Position_OnboardingToolPromptGuidance .
+
+    aswr:Run_20260923T171553Z_dim_affect a prov:Activity ;
+        aswr:runPass "dim.affect" ;
+        aswr:resumed "true"^^xsd:boolean ;
+        aswr:artifact "aswritten/runs:runs/9fe0cdf21c3c/2026-09-23-2-real-tess-chat-widget-2026-04-23/dim.affect.json" ;
+        prov:generated narr:VecAffect_2RealTessChatWidget20260423_58, narr:VecAffect_2RealTessChatWidget20260423_63 ;
+        dct:isPartOf aswr:Tx_20260923T171553Z ;
+        prov:generatedAtTime "2026-09-23T17:15:53Z"^^xsd:dateTime .
+
+    aswr:Run_20260923T171553Z_dim_conviction a prov:Activity ;
+        aswr:runPass "dim.conviction" ;
+        aswr:resumed "true"^^xsd:boolean ;
+        aswr:artifact "aswritten/runs:runs/9fe0cdf21c3c/2026-09-23-2-real-tess-chat-widget-2026-04-23/dim.conviction.json" ;
+        prov:generated narr:VecConviction_2RealTessChatWidget20260423_5, narr:VecConviction_2RealTessChatWidget20260423_9, narr:VecConviction_2RealTessChatWidget20260423_19, narr:VecConviction_2RealTessChatWidget20260423_26, narr:VecConviction_2RealTessChatWidget20260423_44, narr:VecConviction_2RealTessChatWidget20260423_54, narr:VecConviction_2RealTessChatWidget20260423_58, narr:VecConviction_2RealTessChatWidget20260423_60, narr:VecConviction_2RealTessChatWidget20260423_63 ;
+        dct:isPartOf aswr:Tx_20260923T171553Z ;
+        prov:generatedAtTime "2026-09-23T17:15:53Z"^^xsd:dateTime .
+
+    aswr:Run_20260923T171553Z_dim_power a prov:Activity ;
+        aswr:runPass "dim.power" ;
+        aswr:resumed "true"^^xsd:boolean ;
+        aswr:artifact "aswritten/runs:runs/9fe0cdf21c3c/2026-09-23-2-real-tess-chat-widget-2026-04-23/dim.power.json" ;
+        prov:generated narr:VecPower_2RealTessChatWidget20260423_9, narr:VecPower_2RealTessChatWidget20260423_18, narr:VecPower_2RealTessChatWidget20260423_44, narr:VecPower_2RealTessChatWidget20260423_60 ;
+        dct:isPartOf aswr:Tx_20260923T171553Z ;
+        prov:generatedAtTime "2026-09-23T17:15:53Z"^^xsd:dateTime .
+
+    aswr:Run_20260923T171553Z_dim_register a prov:Activity ;
+        aswr:runPass "dim.register" ;
+        aswr:resumed "true"^^xsd:boolean ;
+        aswr:artifact "aswritten/runs:runs/9fe0cdf21c3c/2026-09-23-2-real-tess-chat-widget-2026-04-23/dim.register.json" ;
+        prov:generated narr:VecRegister_2RealTessChatWidget20260423_58, narr:VecRegister_2RealTessChatWidget20260423_60, narr:VecRegister_2RealTessChatWidget20260423_63 ;
+        dct:isPartOf aswr:Tx_20260923T171553Z ;
+        prov:generatedAtTime "2026-09-23T17:15:53Z"^^xsd:dateTime .
+
+    aswr:Run_20260923T171553Z_dim_relational a prov:Activity ;
+        aswr:runPass "dim.relational" ;
+        aswr:resumed "true"^^xsd:boolean ;
+        aswr:artifact "aswritten/runs:runs/9fe0cdf21c3c/2026-09-23-2-real-tess-chat-widget-2026-04-23/dim.relational.json" ;
+        prov:generated narr:VecRelational_2RealTessChatWidget20260423_9, narr:VecRelational_2RealTessChatWidget20260423_10, narr:VecRelational_2RealTessChatWidget20260423_16, narr:VecRelational_2RealTessChatWidget20260423_18, narr:VecRelational_2RealTessChatWidget20260423_26, narr:VecRelational_2RealTessChatWidget20260423_44, narr:VecRelational_2RealTessChatWidget20260423_45, narr:VecRelational_2RealTessChatWidget20260423_47, narr:VecRelational_2RealTessChatWidget20260423_49, narr:VecRelational_2RealTessChatWidget20260423_54 ;
+        dct:isPartOf aswr:Tx_20260923T171553Z ;
+        prov:generatedAtTime "2026-09-23T17:15:53Z"^^xsd:dateTime .
+
+    aswr:Run_20260923T171553Z_dim_style a prov:Activity ;
+        aswr:runPass "dim.style" ;
+        aswr:resumed "true"^^xsd:boolean ;
+        aswr:artifact "aswritten/runs:runs/9fe0cdf21c3c/2026-09-23-2-real-tess-chat-widget-2026-04-23/dim.style.json" ;
+        prov:generated narr:VecStyle_2RealTessChatWidget20260423_10, narr:VecStyle_2RealTessChatWidget20260423_11, narr:VecStyle_2RealTessChatWidget20260423_15, narr:VecStyle_2RealTessChatWidget20260423_16, narr:VecStyle_2RealTessChatWidget20260423_18, narr:VecStyle_2RealTessChatWidget20260423_22, narr:VecStyle_2RealTessChatWidget20260423_32, narr:VecStyle_2RealTessChatWidget20260423_45, narr:VecStyle_2RealTessChatWidget20260423_47, narr:VecStyle_2RealTessChatWidget20260423_68, narr:VecStyle_2RealTessChatWidget20260423_71 ;
+        dct:isPartOf aswr:Tx_20260923T171553Z ;
+        prov:generatedAtTime "2026-09-23T17:15:53Z"^^xsd:dateTime .
+
+    aswr:Run_20260923T171553Z_dim_temporal a prov:Activity ;
+        aswr:runPass "dim.temporal" ;
+        aswr:resumed "true"^^xsd:boolean ;
+        aswr:artifact "aswritten/runs:runs/9fe0cdf21c3c/2026-09-23-2-real-tess-chat-widget-2026-04-23/dim.temporal.json" ;
+        prov:generated narr:VecTemporal_2RealTessChatWidget20260423_3, narr:VecTemporal_2RealTessChatWidget20260423_4, narr:VecTemporal_2RealTessChatWidget20260423_5, narr:VecTemporal_2RealTessChatWidget20260423_9, narr:VecTemporal_2RealTessChatWidget20260423_10, narr:VecTemporal_2RealTessChatWidget20260423_11, narr:VecTemporal_2RealTessChatWidget20260423_14, narr:VecTemporal_2RealTessChatWidget20260423_16, narr:VecTemporal_2RealTessChatWidget20260423_18, narr:VecTemporal_2RealTessChatWidget20260423_20, narr:VecTemporal_2RealTessChatWidget20260423_22, narr:VecTemporal_2RealTessChatWidget20260423_26, narr:VecTemporal_2RealTessChatWidget20260423_30, narr:VecTemporal_2RealTessChatWidget20260423_36, narr:VecTemporal_2RealTessChatWidget20260423_44, narr:VecTemporal_2RealTessChatWidget20260423_47, narr:VecTemporal_2RealTessChatWidget20260423_54, narr:VecTemporal_2RealTessChatWidget20260423_55, narr:VecTemporal_2RealTessChatWidget20260423_60, narr:VecTemporal_2RealTessChatWidget20260423_63, narr:VecTemporal_2RealTessChatWidget20260423_67, narr:VecTemporal_2RealTessChatWidget20260423_68, narr:VecTemporal_2RealTessChatWidget20260423_70, narr:VecTemporal_2RealTessChatWidget20260423_71, narr:VecTemporal_2RealTessChatWidget20260423_74 ;
+        dct:isPartOf aswr:Tx_20260923T171553Z ;
+        prov:generatedAtTime "2026-09-23T17:15:53Z"^^xsd:dateTime .
+
+    aswr:Run_20260923T171553Z_dim_value a prov:Activity ;
+        aswr:runPass "dim.value" ;
+        aswr:resumed "true"^^xsd:boolean ;
+        aswr:artifact "aswritten/runs:runs/9fe0cdf21c3c/2026-09-23-2-real-tess-chat-widget-2026-04-23/dim.value.json" ;
+        prov:generated narr:VecValue_2RealTessChatWidget20260423_9, narr:VecValue_2RealTessChatWidget20260423_44, narr:VecValue_2RealTessChatWidget20260423_60, narr:VecValue_2RealTessChatWidget20260423_63 ;
+        dct:isPartOf aswr:Tx_20260923T171553Z ;
+        prov:generatedAtTime "2026-09-23T17:15:53Z"^^xsd:dateTime .
+
+    aswr:Run_20260923T171553Z_pass5 a prov:Activity ;
+        aswr:runPass "pass5" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/9fe0cdf21c3c/2026-09-23-2-real-tess-chat-widget-2026-04-23/pass5.json" ;
+        dct:isPartOf aswr:Tx_20260923T171553Z ;
+        prov:generatedAtTime "2026-09-23T17:15:53Z"^^xsd:dateTime .
+
+    aswr:Run_20260923T171553Z_position a prov:Activity ;
+        aswr:runPass "position" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/9fe0cdf21c3c/2026-09-23-2-real-tess-chat-widget-2026-04-23/position.json" ;
+        prov:generated narr:Position_EvaluatorChannelTrustTax, narr:Position_PerShareChatWidgetArchitecture, narr:Position_ArchetypeRelationalDisambiguation, narr:Position_OnboardingToolPromptGuidance ;
+        dct:isPartOf aswr:Tx_20260923T171553Z ;
+        prov:generatedAtTime "2026-09-23T17:15:53Z"^^xsd:dateTime .
+  }
+}

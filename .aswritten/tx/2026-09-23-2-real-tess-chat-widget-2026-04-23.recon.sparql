@@ -1,0 +1,46 @@
+PREFIX narr: <https://aswritten.ai/narrative#>
+PREFIX aswr: <https://aswritten.ai/aswr#>
+PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX dct:  <http://purl.org/dc/terms/>
+PREFIX xsd:  <http://www.w3.org/2001/XMLSchema#>
+PREFIX oa:   <http://www.w3.org/ns/oa#>
+PREFIX xkos: <http://rdf-vocabulary.ddialliance.org/xkos#>
+
+INSERT DATA {
+  aswr:Tx_20260923T171554Z a prov:Activity ;
+      prov:generatedAtTime "2026-09-23T17:15:54Z"^^xsd:dateTime ;
+      prov:wasAssociatedWith "aswritten.ai" ;
+      prov:wasAttributedTo "scarlet@aswritten.ai" ;
+      aswr:pipelinePin "8dd07a49bda8" ;
+      dct:title "Multipass reconciliations: 2RealTessChatWidget20260423" ;
+      prov:generated narr:Recon_2RealTessChatWidget20260423_1 .
+} ;
+INSERT DATA {
+  GRAPH aswr:Tx_20260923T171554Z {
+    narr:Recon_2RealTessChatWidget20260423_1 a narr:Reconciliation ;
+        oa:hasTarget narr:Position_LaunchBoundaryAprilFirst ;
+        narr:principal narr:Actor_TanyaTeamowner ;
+        skos:note "The above-the-line abstraction work is motivated in part by exactly this cognitive cost." ;
+        narr:extends narr:Expr_1RealFreyaPodcastSalesMotion20260323_42 ;
+        narr:extends narr:Position_LaunchBoundaryAprilFirst ;
+        dct:source narr:Expr_2RealTessChatWidget20260423_64 ;
+        prov:generatedAtTime "2026-09-23T17:15:54Z"^^xsd:dateTime .
+
+    aswr:Run_20260923T171554Z_pass2 a prov:Activity ;
+        aswr:runPass "pass2" ;
+        aswr:resumed "true"^^xsd:boolean ;
+        aswr:artifact "aswritten/runs:runs/9fe0cdf21c3c/2026-09-23-2-real-tess-chat-widget-2026-04-23/pass2.json" ;
+        dct:isPartOf aswr:Tx_20260923T171554Z ;
+        prov:generatedAtTime "2026-09-23T17:15:54Z"^^xsd:dateTime .
+
+    aswr:Run_20260923T171554Z_pass3 a prov:Activity ;
+        aswr:runPass "pass3" ;
+        aswr:resumed "true"^^xsd:boolean ;
+        aswr:artifact "aswritten/runs:runs/9fe0cdf21c3c/2026-09-23-2-real-tess-chat-widget-2026-04-23/pass3.json" ;
+        prov:generated narr:Recon_2RealTessChatWidget20260423_1 ;
+        dct:isPartOf aswr:Tx_20260923T171554Z ;
+        prov:generatedAtTime "2026-09-23T17:15:54Z"^^xsd:dateTime .
+  }
+}
