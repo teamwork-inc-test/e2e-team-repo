@@ -1,0 +1,51 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-3",
+    "regions" : [ "parallelism", "antithesis" ],
+    "evidence" : [ {
+      "quote" : "We migrate the open work. We do not migrate the closed history",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Matched grammatical sentence structures placed in explicit contrast (migrate open work vs. do not migrate closed history).",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-9",
+    "regions" : [ "rule-of-three" ],
+    "evidence" : [ {
+      "quote" : "the records plus a schema description plus a document explaining what the fields mean",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "A deliberate three-part rhythmic elaboration defining the components of the archive.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-11",
+    "regions" : [ "anaphora" ],
+    "evidence" : [ {
+      "quote" : "Not a database dump that needs the vendor's version of their engine to restore. Not a proprietary export format.",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Repetition of initial 'Not a...' across successive negative definitions.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-13",
+    "regions" : [ "parallelism", "antithesis" ],
+    "evidence" : [ {
+      "quote" : "The data is easy to keep. The meaning is what rots.",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Matched balanced subject-predicate constructions placed in direct opposition to contrast data retention with semantic decay.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-17",
+    "regions" : [ "parallelism", "antithesis" ],
+    "evidence" : [ {
+      "quote" : "Mine is about decay. Yours is about behaviour.",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Matched parallel possessive subject assertions setting two complementary arguments into antithetical contrast.",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-1", "src-2", "src-4", "src-5", "src-6", "src-7", "src-8", "src-10", "src-12", "src-14", "src-15", "src-16", "src-18", "src-19", "src-20", "src-21", "src-22", "src-23", "src-24", "src-25", "src-26", "src-27", "src-28" ],
+  "mints" : [ ],
+  "region_mints" : [ ]
+}
