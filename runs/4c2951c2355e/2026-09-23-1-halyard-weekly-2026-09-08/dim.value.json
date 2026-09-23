@@ -1,0 +1,52 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-13",
+    "regions" : [ "conservation" ],
+    "evidence" : [ {
+      "quote" : "Running two systems at one desk for a few weeks is a known, contained pain with a named owner. Two cutovers landing in the same week is an unbounded one, and we've got nobody to hand it to.",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Tanya frames the decision around risk containment, predictability, and stability over unbounded operational risk.",
+    "reported" : false,
+    "direction" : {
+      "verdict" : "mint",
+      "node" : "mint-1"
+    }
+  }, {
+    "segment_local_id" : "src-28",
+    "regions" : [ "conservation" ],
+    "evidence" : [ {
+      "quote" : "My argument is that a four-minute-stale number is fine and an outage is not.",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Xavier explicitly values system stability and outage prevention over fresh data.",
+    "reported" : false,
+    "direction" : {
+      "verdict" : "mint",
+      "node" : "mint-1"
+    }
+  }, {
+    "segment_local_id" : "src-38",
+    "regions" : [ "conservation" ],
+    "evidence" : [ {
+      "quote" : "Keeping one source of truth through the whole programme is worth more than getting ownership early.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Xavier explicitly prioritizes data consistency and single-source stability over early autonomy or ownership.",
+    "reported" : false,
+    "direction" : {
+      "verdict" : "mint",
+      "node" : "mint-1"
+    }
+  } ],
+  "unmarked" : [ "src-1", "src-2", "src-3", "src-4", "src-5", "src-6", "src-7", "src-8", "src-9", "src-10", "src-11", "src-12", "src-14", "src-15", "src-16", "src-17", "src-18", "src-19", "src-20", "src-21", "src-22", "src-23", "src-24", "src-25", "src-26", "src-27", "src-29", "src-30", "src-31", "src-32", "src-33", "src-34", "src-35", "src-36", "src-37", "src-39", "src-40", "src-41", "src-42", "src-43", "src-44", "src-45" ],
+  "unmarked_rest" : false,
+  "mints" : [ {
+    "id" : "mint-1",
+    "name" : "ContainmentOverSpeed",
+    "title" : "contained risk prioritized over speed or early ownership",
+    "frame" : "Does this expression explicitly justify a tradeoff by elevating operational stability and blast-radius containment above velocity or control?",
+    "regions" : [ "conservation" ]
+  } ],
+  "region_mints" : [ ]
+}
