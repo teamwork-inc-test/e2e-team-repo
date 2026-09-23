@@ -1,0 +1,22 @@
+{
+  "placements" : [ {
+    "verdict" : "reuse",
+    "leaf" : "Narrative_InterviewFlywheel",
+    "supporting_segments" : [ "src-3", "src-4", "src-5", "src-6", "src-7", "src-9", "src-10", "src-11", "src-12", "src-13", "src-14", "src-15", "src-16", "src-18", "src-20", "src-21", "src-22", "src-23", "src-24", "src-25", "src-26", "src-27", "src-28", "src-29", "src-30", "src-31", "src-32", "src-33", "src-65", "src-66", "src-67", "src-68", "src-69", "src-70", "src-71", "src-75", "src-76", "src-77" ],
+    "why" : "Extends the expert demo and outreach workflow by addressing channel-level trust dynamics, scoping the first-touch evaluation surface from spam-sensitive SMS to an unassigned per-share Front chat widget.",
+    "consulted" : [ "Narrative_InterviewFlywheel", "Narrative_HumanMomentVideoProof", "Position_InterviewFlywheelSalesMotion", "Position_LaunchBoundaryAprilFirst" ]
+  }, {
+    "verdict" : "reuse",
+    "leaf" : "Narrative_BehavioralProgressionPackaging",
+    "supporting_segments" : [ "src-34", "src-39", "src-40", "src-41", "src-44", "src-45", "src-46", "src-47", "src-48", "src-49", "src-50", "src-51", "src-52", "src-53", "src-54", "src-72", "src-73", "src-74", "src-78" ],
+    "why" : "Clarifies commercial progression boundaries by separating relational beta-tester tier accommodations from market-validated pricing tiers, preventing personal arrangements from distorting commercial packaging logic.",
+    "consulted" : [ "Narrative_BehavioralProgressionPackaging", "Position_BehavioralStepPackagingTiers", "Narrative_InstallableExpertise" ]
+  }, {
+    "verdict" : "reuse",
+    "leaf" : "Narrative_InstallableExpertise",
+    "supporting_segments" : [ "src-35", "src-36", "src-37", "src-38", "src-41", "src-55", "src-56", "src-57", "src-58", "src-59", "src-60", "src-61", "src-62", "src-63", "src-64" ],
+    "why" : "Reinforces the core target market of Knowledge Packagers seeking to generalize and distribute training content, while identifying the cognitive abstraction and prompt clarity required to install expertise without technical git friction.",
+    "consulted" : [ "Narrative_InstallableExpertise", "Position_InstallableExpertiseCategoryMoat", "Position_LaunchBoundaryAprilFirst" ]
+  } ],
+  "unplaced" : [ "src-1", "src-2", "src-8", "src-17", "src-19", "src-42", "src-43" ]
+}
