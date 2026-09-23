@@ -1,0 +1,48 @@
+{
+  "positions" : [ {
+    "name" : "SoloBuilderB2CPositioning",
+    "frame" : "How should product positioning and pricing balance individual solo builders as single-person teams against traditional enterprise B2B tiers?",
+    "members" : [ "src-3", "src-4", "src-5" ],
+    "why" : "Tina and Tanya recognize that solo builders operating multiple projects function effectively as their own teams, shifting commercial orientation toward high-volume B2C tiers while preserving an enterprise tier for organizational deployment shapes.",
+    "under" : [ "Narrative_BehavioralProgressionPackaging" ]
+  }, {
+    "name" : "NonTechKnowledgeCompanyTargeting",
+    "frame" : "How should target market qualification distinguish covert knowledge companies from tech companies that build proprietary workarounds?",
+    "members" : [ "src-6", "src-7", "src-10" ],
+    "why" : "Xavier and Tanya identify tech companies and developers as high-friction sales targets due to homemade custom tooling, directing qualification toward non-tech businesses whose operations are fundamentally knowledge-driven without identifying as such.",
+    "under" : [ "Narrative_InstallableExpertise" ]
+  }, {
+    "name" : "ContextFragmentationContainment",
+    "frame" : "How does multi-project AI development generate demand for organizational separation and cognitive chaos containment?",
+    "members" : [ "src-8", "src-9" ],
+    "why" : "Tina articulates the acute operational anxiety of managing concurrent AI coding workspaces, framing the product's value proposition around containing context crossover and separating users from their personal workflow disorder.",
+    "under" : [ "Narrative_InstallableExpertise" ]
+  } ],
+  "attaches" : [ {
+    "position" : "Position_IntermediaryNetworkEffectsFederation",
+    "members" : [ "src-12", "src-13", "src-15", "src-16" ],
+    "why" : "Xavier reiterates his operating thesis that enduring software moats require intermediary telephone-company positioning and reciprocal multi-tenant network value rather than easily commoditized single-tenant feature superiority."
+  }, {
+    "position" : "Position_InstallableExpertiseCategoryMoat",
+    "members" : [ "src-14", "src-18", "src-26" ],
+    "why" : "Tanya reaffirms that extracting citable perspective from documents and ingesting accumulated decisions into a proprietary graph creates an actionable technical moat, maintaining the perspective-as-deck-alternative as the strategic deliverable horizon."
+  }, {
+    "position" : "Position_DesignTokenPerspectiveParallel",
+    "members" : [ "src-17" ],
+    "why" : "Freya confirms from her design practice that personal perspective acts as the irreducible controlling lens governing AI output quality across surfaces."
+  }, {
+    "position" : "Position_BehavioralStepPackagingTiers",
+    "members" : [ "src-21" ],
+    "why" : "Tanya clarifies that the enterprise plan reflects deployment architecture and operational infrastructure needs rather than customer category labels alone."
+  }, {
+    "position" : "Position_InterviewFlywheelSalesMotion",
+    "members" : [ "src-24" ],
+    "why" : "Tanya outlines the podcast interview model as a dual distribution flywheel that simultaneously produces content and populates the marketplace with installable expertise."
+  }, {
+    "position" : "Position_HumanMomentDemoVideo",
+    "members" : [ "src-25" ],
+    "why" : "Freya distills the principle that emotional human resonance and authentic reaction drive sales conversion over textual documentation."
+  } ],
+  "position_revisions" : [ ],
+  "ungrouped" : [ "src-1", "src-2", "src-11", "src-19", "src-20", "src-22", "src-23", "src-27", "src-28", "src-29", "src-30" ]
+}
