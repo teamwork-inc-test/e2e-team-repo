@@ -1,0 +1,91 @@
+{
+  "run_id" : "mp-eng-2c9d7f4f",
+  "gates" : [ {
+    "id" : "aswritten/clarify",
+    "run?" : false,
+    "gate" : 2,
+    "reason" : "score 0.1 < threshold 0.7",
+    "score" : 0.1,
+    "evidence" : [ "thinking a lot about is the pricing and whether all of that is too low or sort of how the positioning is here", "Maybe that is the more direct distillation of the shift I'm having is just realizing that it's actually more of a B2C product than a B2B product.", "resolutions empty against a populated perspective" ]
+  }, {
+    "id" : "aswritten/refract",
+    "run?" : true,
+    "gate" : 2,
+    "reason" : "predicate only"
+  }, {
+    "id" : "aswritten/review",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "skill off"
+  }, {
+    "id" : "aswritten/riff",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "requires perspective, expand"
+  } ],
+  "spend" : {
+    "cost_usd" : 0.015034,
+    "passes" : [ {
+      "pass" : "reaction:_score",
+      "llm_calls" : 1,
+      "cost_usd" : 0.00540885
+    }, {
+      "pass" : "reaction:refract",
+      "llm_calls" : 1,
+      "cost_usd" : 0.0096248
+    } ]
+  },
+  "bundle" : {
+    "items" : 1,
+    "audience" : "only-me",
+    "recipients" : 1,
+    "moments_cached" : true,
+    "sent" : [ {
+      "items" : [ {
+        "kind" : "note",
+        "skill" : "aswritten/refract",
+        "audience" : "speakers"
+      } ],
+      "handle" : "tanya+staging@aswritten.ai",
+      "channel" : "email",
+      "status" : "sent",
+      "front_message_id" : "msg_3djdhwvc",
+      "front_conversation_id" : "cnv_1ph73bs8"
+    } ]
+  },
+  "policy" : {
+    "mode" : "on",
+    "budget_per_run_usd" : 0.25,
+    "channels" : [ "email", "sms" ]
+  },
+  "jobs" : [ {
+    "skill" : "aswritten/refract",
+    "status" : "ok",
+    "gate" : { },
+    "output" : {
+      "lens" : {
+        "shift" : "The product is B2C: the buyer is the single person building a whole company on their own, and the top \"B2B\" tier is a shape of deployment, not a different customer. That turns the open pricing question into a who-do-we-sell-to-first question.",
+        "affected" : [ ],
+        "other_lenses" : [ "The claim that the unique part is the proprietary way of reading documents — \"it is the lens that controls all of that\" — restates the design-token thread nearly verbatim, firming the differentiator story rather than revising it.", "Xavier's \"Just stop and go sell it\" lands with Tanya's \"I gotta pull my head out of the development\" as a decision-level commitment to stop building and sell now — a new urgency register worth its own reaction.", "The telephone-company operating thesis (\"the telephone company always wins\") recurs nearly verbatim in this second call, firming a one-off argument into repeated doctrine alongside the switching-cost challenge.", "Freya's \"The human moment sells, not the text\" now stands in her own voice as a dated principle, moving the demo-video claim from derived insight to restated conviction." ],
+        "drew_on" : [ "narrated.delta_line — \"Shifts the go-to-market focus toward solo operators and B2C positioning…\"", "committed.tx — new position narr:Position_SoloOperatorB2CPositioning, frame \"How should go-to-market positioning balance individual solo operators against top-tier enterprise deployments?\"", "committed.tx — new position narr:Position_TargetCustomerKnowledgeProfile, frame on distinguishing non-tech knowledge organizations from developer teams with bespoke tooling", "narr:Expr_6RealAdvisorCall20260728_5 — \"it's actually more of a B2C product than a B2B product\"", "narr:Expr_6RealAdvisorCall20260728_3 / _4 — Tina's B2C angle and \"every single person is now their own team\"", "narr:Expr_6RealAdvisorCall20260728_21 — \"the enterprise plan isn't about enterprise. It's about the shape of the deployment\"", "narr:Expr_6RealAdvisorCall20260728_20 — \"You're educating them on how it works and the benefits — not the use case.\"", "hub reaction (Tanya Team) — the B2C turn and deployment-shape reframing supersede the old \"pricing under active doubt\" framing; now an active repositioning", "hub reaction (Narrative_BehavioralProgressionPackaging) — a new go-to-market-shape thread entered the picture", "hub reaction (Tanya TeamOwner) — \"the go-to-market turn\" is the new movement; the separate advisor views converge for the first time" ],
+        "quote" : "Maybe that is the more direct distillation of the shift I'm having is just realizing that it's actually more of a B2C product than a B2B product.",
+        "approaches" : [ "pricing and tier structure", "who we sell to first", "the pitch (educating, not use-case selling)", "the fundraising story" ],
+        "speaker" : "Tanya Team",
+        "message" : "Here's the shift: aswritten is a B2C product. The buyer is the single person building a whole company on their own — \"every single person is now their own team\" — and the top \"B2B\" tier is a shape of deployment, not a different customer. In Tanya's words: \"Maybe that is the more direct distillation of the shift I'm having is just realizing that it's actually more of a B2C product than a B2B product.\"\n\nIt changes our approach to:\n\n- **Pricing and tiers** — the bottom tiers are the product: \"big and direct and like not that confusing.\"\n- **Who we sell to first** — solo operators; not tech companies, who \"all think they've solved the problem,\" and Xavier's directive to find the knowledge company that doesn't think of itself as one.\n- **The pitch** — educating a solution-seeking audience \"on how it works and the benefits — not the use case.\"\n- **The fundraising story** — the pricing doubt stops being a number to tune and becomes a positioning claim.\n\nBefore/after, on the opening of the 2026-07-28 advisor call:\n\n**As written:** Tanya opens with pricing doubt — \"thinking a lot about is the pricing and whether all of that is too low or sort of how the positioning is here.\" Tina offers B2C as an angle; Tanya allows it \"maybe\" distills a shift she's having, with \"still a top tier that's a B2B tier.\" On the page: an advisor's suggestion under consideration — pricing open, positioning unsettled, B2C one option among several.\n\n**Through the shift:** the pricing doubt was never about the number — it's the symptom of aiming at the wrong buyer. The bottom tiers are the product, sold direct to the person building alone; the \"B2B tier\" is a deployment shape, not an audience. The hedging reads as repositioning in progress, and Tina's \"I think that's the angle\" is where the call lands, not a proposal on the table.\n\nRight read?\n\n**What it moves:** honestly, nothing beyond this call yet — no other documents came back in view on this stream, so there's no list to give and I won't invent one. The shift is real in the record (a new go-to-market position was minted, and the pricing thread moved from doubt to repositioning), but the documents it should rewrite aren't in front of me.\n\nOnce the stream's documents are in view — or if you point me at them — I'll list what this shifts across and apply it in one pull request. Want me to?",
+        "eye_chart" : {
+          "document" : ".aswritten/memories/2026-09-23-6-real-advisor-call-2026-07-28.md",
+          "section" : "\"I am just starting to fundraise\" — opening exchange",
+          "as_written" : "Tanya opens with pricing doubt: \"One of the things I've been thinking a lot about is the pricing and whether all of that is too low or sort of how the positioning is here.\" Tina offers B2C as an angle — \"I think that's the angle\" — and Tanya allows it \"maybe\" distills a shift she's having, with \"still a top tier that's a B2B tier.\" On the page: an advisor's suggestion under consideration — pricing open, positioning unsettled, B2C one option among several.",
+          "through_the_lens" : "The pricing doubt was never about the number — it's the symptom of aiming at the wrong buyer. The bottom tiers are the product: big, direct, not confusing, sold direct to the person building alone. The \"B2B tier\" is a deployment shape, not an audience. The hedging reads as a repositioning in progress, and Tina's \"I think that's the angle\" is where the call lands, not a proposal on the table."
+        }
+      }
+    },
+    "landing" : {
+      "landed" : "message"
+    },
+    "ms" : 70477
+  } ],
+  "stream" : "fixtures/701-real",
+  "at" : "2026-09-23T18:18:19.751919323Z",
+  "live_run_id" : "23317575a9bd"
+}
