@@ -1,0 +1,39 @@
+{
+  "bindings" : [ {
+    "name" : "Tanya TeamOwner",
+    "verdict" : "bind",
+    "target" : "Actor_TanyaTeamowner",
+    "label" : null,
+    "why" : "Exact match to existing actor Actor_TanyaTeamowner."
+  }, {
+    "name" : "Tanya Team",
+    "verdict" : "bind",
+    "target" : "Actor_TanyaTeam",
+    "label" : null,
+    "why" : "Exact match to existing actor Actor_TanyaTeam."
+  }, {
+    "name" : "Tina Team",
+    "verdict" : "mint",
+    "target" : null,
+    "label" : "Tina Team",
+    "why" : "No existing actor for Tina Team; minting new actor."
+  }, {
+    "name" : "Xavier Expert",
+    "verdict" : "bind",
+    "target" : "Actor_XavierExpert",
+    "label" : null,
+    "why" : "Exact match to existing actor Actor_XavierExpert."
+  }, {
+    "name" : "Freya Free",
+    "verdict" : "bind",
+    "target" : "Actor_FreyaFree",
+    "label" : null,
+    "why" : "Exact match to existing actor Actor_FreyaFree."
+  }, {
+    "name" : "tanya+staging@aswritten.ai",
+    "verdict" : "bind",
+    "target" : "Actor_TanyaTeamowner",
+    "label" : null,
+    "why" : "Submitted account email matching submitter Tanya TeamOwner."
+  } ]
+}
