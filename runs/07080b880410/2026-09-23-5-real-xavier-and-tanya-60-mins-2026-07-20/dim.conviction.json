@@ -1,0 +1,168 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-37",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "you can't do an ERP transition unless you have people there who are on board and believe in it",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Asserts a categorical operational rule based on consulting experience.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-79",
+    "regions" : [ "principle" ],
+    "evidence" : [ {
+      "quote" : "And the transcript is the truth, because it exists.",
+      "kind" : "intensifier"
+    } ],
+    "why" : "Bedrock epistemological principle treated as an absolute baseline truth.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-80",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "The transcript is the truth.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Reiterates the core stance before explaining the mechanism built on top of it.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-85",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "You should look at dolt instead of git",
+      "kind" : "modal-marker"
+    } ],
+    "why" : "Direct prescriptive recommendation grounded in technical judgment.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-87",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "Git is not ideal for data, it is not designed for data. Dolt is designed for data.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Flat, definitive assertion contrasting system architectures.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-105",
+    "regions" : [ "principle" ],
+    "evidence" : [ {
+      "quote" : "One of my operating theses is the telephone company always wins.",
+      "kind" : "epistemic-verb"
+    } ],
+    "why" : "Frames an enduring strategic premise as a core 'operating thesis'.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-107",
+    "regions" : [ "principle" ],
+    "evidence" : [ {
+      "quote" : "never go where the big guns are pointing",
+      "kind" : "intensifier"
+    } ],
+    "why" : "Maximal, rule-of-thumb strategic principle voiced as an absolute imperative.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-109",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "The telephone company always wins because the telephone company sits in between. And it's impossible to disintermediate because they sit in between.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Defends the thesis by asserting the structural mechanism behind network moats.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-110",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "the moat becomes over time, the more calls and decisions that you have ingested into a graph, the graph itself is the moat",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Articulates Tanya's core architectural claim regarding defensibility.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-140",
+    "regions" : [ "notion" ],
+    "evidence" : [ {
+      "quote" : "I don't know, I'm feeling a little unsure of what I'm doing right at this point.",
+      "kind" : "hedge"
+    } ],
+    "why" : "Explicitly steps back from certainty into doubt, hesitation, and exploratory reassessment.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-143",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "I think you should definitely apply to yc.",
+      "kind" : "intensifier"
+    } ],
+    "why" : "Strong, unequivocal advisory directive treated as a settled path.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-155",
+    "regions" : [ "notion" ],
+    "evidence" : [ {
+      "quote" : "I don't want to say I'm certain about these hypotheses. I'm not certain about these hypotheses.",
+      "kind" : "hedge"
+    } ],
+    "why" : "Explicitly hedges personal certainty and frames views as untested working hypotheses.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-177",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "Send me a forwardable email and I will forward it to her.",
+      "kind" : "commitment-marker"
+    } ],
+    "why" : "Operational agreement establishing a settled next action.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-178",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "Cool. Will do.",
+      "kind" : "commitment-marker"
+    } ],
+    "why" : "Immediate commissive ratification of the operational plan.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-183",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "when you have somebody on the hook is the moment you show up to Emery Park",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Prescribes strategic sequencing for engaging key network contacts.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-191",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "it is not about individual VCs. It is about maximal VCs.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Asserts a categorical fundraising paradigm shift.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-193",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "you need to run a process. Right. So it is specific. It is time bound.",
+      "kind" : "commitment-marker"
+    } ],
+    "why" : "Asserts strict procedural criteria for successful execution.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-222",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "I'm doing the YC app this week.",
+      "kind" : "commitment-marker"
+    } ],
+    "why" : "Settled decision committing to immediate execution within a defined timeframe.",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-1", "src-2", "src-3", "src-4", "src-5", "src-6", "src-7", "src-8", "src-9", "src-10" ],
+  "unmarked_rest" : true,
+  "mints" : [ ]
+}
