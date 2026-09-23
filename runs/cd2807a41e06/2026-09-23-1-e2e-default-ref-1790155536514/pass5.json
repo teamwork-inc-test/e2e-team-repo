@@ -1,0 +1,10 @@
+{
+  "placements" : [ {
+    "verdict" : "reuse",
+    "leaf" : "Narrative_DefaultRefTopicBranch",
+    "supporting_segments" : [ "src-1" ],
+    "why" : "The segment explicitly states the test assertion verifying that an omitted ref defaults to topic branch creation, perfectly matching the existing Narrative_DefaultRefTopicBranch leaf.",
+    "consulted" : [ "Narrative_DefaultRefTopicBranch", "Narrative_ReactionDeliveryBundling", "DesignTradeoffs" ]
+  } ],
+  "unplaced" : [ ]
+}
