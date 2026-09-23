@@ -1,0 +1,137 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-2",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "settled the cutover shape",
+      "kind" : "commitment-marker"
+    } ],
+    "why" : "Reports an already-settled operational plan for the migration shape.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-6",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "One site at a time.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "States the established operational sequencing rule.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-7",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "No two cutovers running at once.",
+      "kind" : "commitment-marker"
+    } ],
+    "why" : "Defines the non-negotiable operational sequencing constraint.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-9",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "That's the only shape that works",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Freya makes an assertive claim defending the shape from her operational vantage.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-12",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "I can't staff that.",
+      "kind" : "plain-assertion"
+    }, {
+      "quote" : "the people don't exist.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Asserts a factual, unmovable resourcing reality as an unyielding claim.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-14",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "I'm telling you it's arithmetic.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Reframes the position from risk to an arithmetic impossibility claim.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-15",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "Yours is a hard constraint.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Evaluates and confirms the strength of the staffing argument.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-16",
+    "regions" : [ "principle" ],
+    "evidence" : [ {
+      "quote" : "It's the one that doesn't move.",
+      "kind" : "intensifier"
+    } ],
+    "why" : "Characterizes the physical staffing limitation as an immovable bedrock condition.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-17",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "I'll lead with yours on Thursday.",
+      "kind" : "commitment-marker"
+    } ],
+    "why" : "Tanya makes an explicit commissive decision on how to present the plan.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-22",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "I'd still say one at a time",
+      "kind" : "hedge"
+    }, {
+      "quote" : "I want to be careful.",
+      "kind" : "hedge"
+    } ],
+    "why" : "Nuances her conviction level under hypothetical conditions while maintaining the core claim.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-25",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "both assume one cutover window open at a time",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "States the architectural assumptions supporting the one-at-a-time decision.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-26",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "let's not go parallel.",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Performs an explicit decision to rule out parallel execution.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-28",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "we're in the same place by another route.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Asserts the operational consequence if the soak period is compromised.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-29",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "I'll hold it.",
+      "kind" : "commitment-marker"
+    } ],
+    "why" : "Commissive commitment binding Tanya to the soak duration rule.",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-1", "src-3", "src-4", "src-5", "src-8", "src-10", "src-11", "src-13", "src-18", "src-19", "src-20", "src-21", "src-23", "src-24", "src-27", "src-30", "src-31" ],
+  "mints" : [ ]
+}
