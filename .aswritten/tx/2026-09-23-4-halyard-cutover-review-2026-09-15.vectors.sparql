@@ -1,0 +1,769 @@
+PREFIX narr: <https://aswritten.ai/narrative#>
+PREFIX aswr: <https://aswritten.ai/aswr#>
+PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX dct:  <http://purl.org/dc/terms/>
+PREFIX xsd:  <http://www.w3.org/2001/XMLSchema#>
+PREFIX oa:   <http://www.w3.org/ns/oa#>
+PREFIX xkos: <http://rdf-vocabulary.ddialliance.org/xkos#>
+
+INSERT DATA {
+  aswr:Tx_20260923T015458Z a prov:Activity ;
+      prov:generatedAtTime "2026-09-23T01:54:58Z"^^xsd:dateTime ;
+      prov:wasAssociatedWith "aswritten.ai" ;
+      prov:wasAttributedTo "scarlet@aswritten.ai" ;
+      aswr:pipelinePin "8dd07a49bda8" ;
+      aswr:originPath ".aswritten/memories/2026-09-23-4-halyard-cutover-review-2026-09-15.md" ;
+      dct:title "Multipass fragment: 4HalyardCutoverReview20260915" ;
+      prov:generated narr:VecAffect_4HalyardCutoverReview20260915_12, narr:VecAffect_4HalyardCutoverReview20260915_23, narr:VecConviction_4HalyardCutoverReview20260915_1, narr:VecConviction_4HalyardCutoverReview20260915_3, narr:VecConviction_4HalyardCutoverReview20260915_5, narr:VecConviction_4HalyardCutoverReview20260915_7, narr:VecConviction_4HalyardCutoverReview20260915_9, narr:VecConviction_4HalyardCutoverReview20260915_10, narr:VecConviction_4HalyardCutoverReview20260915_11, narr:VecConviction_4HalyardCutoverReview20260915_13, narr:VecConviction_4HalyardCutoverReview20260915_14, narr:VecConviction_4HalyardCutoverReview20260915_15, narr:VecConviction_4HalyardCutoverReview20260915_17, narr:VecConviction_4HalyardCutoverReview20260915_18, narr:VecConviction_4HalyardCutoverReview20260915_20, narr:VecConviction_4HalyardCutoverReview20260915_22, narr:VecConviction_4HalyardCutoverReview20260915_24, narr:VecPower_4HalyardCutoverReview20260915_2, narr:VecPower_4HalyardCutoverReview20260915_4, narr:VecPower_4HalyardCutoverReview20260915_5, narr:VecPower_4HalyardCutoverReview20260915_7, narr:VecPower_4HalyardCutoverReview20260915_9, narr:VecPower_4HalyardCutoverReview20260915_10, narr:VecPower_4HalyardCutoverReview20260915_13, narr:VecPower_4HalyardCutoverReview20260915_15, narr:VecPower_4HalyardCutoverReview20260915_18, narr:VecPower_4HalyardCutoverReview20260915_20, narr:VecPower_4HalyardCutoverReview20260915_21, narr:VecRegister_4HalyardCutoverReview20260915_15, narr:VecRegister_4HalyardCutoverReview20260915_20, narr:VecRelational_4HalyardCutoverReview20260915_13, narr:VecRelational_4HalyardCutoverReview20260915_18, narr:VecRelational_4HalyardCutoverReview20260915_20, narr:VecRelational_4HalyardCutoverReview20260915_21, narr:VecStyle_4HalyardCutoverReview20260915_1, narr:VecStyle_4HalyardCutoverReview20260915_10, narr:VecStyle_4HalyardCutoverReview20260915_14, narr:VecStyle_4HalyardCutoverReview20260915_15, narr:VecStyle_4HalyardCutoverReview20260915_17, narr:VecTemporal_4HalyardCutoverReview20260915_1, narr:VecTemporal_4HalyardCutoverReview20260915_3, narr:VecTemporal_4HalyardCutoverReview20260915_5, narr:VecTemporal_4HalyardCutoverReview20260915_6, narr:VecTemporal_4HalyardCutoverReview20260915_7, narr:VecTemporal_4HalyardCutoverReview20260915_9, narr:VecTemporal_4HalyardCutoverReview20260915_10, narr:VecTemporal_4HalyardCutoverReview20260915_12, narr:VecTemporal_4HalyardCutoverReview20260915_13, narr:VecTemporal_4HalyardCutoverReview20260915_14, narr:VecTemporal_4HalyardCutoverReview20260915_15, narr:VecTemporal_4HalyardCutoverReview20260915_17, narr:VecTemporal_4HalyardCutoverReview20260915_18, narr:VecTemporal_4HalyardCutoverReview20260915_20, narr:VecTemporal_4HalyardCutoverReview20260915_21, narr:VecTemporal_4HalyardCutoverReview20260915_22, narr:VecTemporal_4HalyardCutoverReview20260915_24, narr:DirValue_DefensibleOverPrecautionary, narr:VecValue_4HalyardCutoverReview20260915_1, narr:VecValue_4HalyardCutoverReview20260915_13, narr:VecValue_4HalyardCutoverReview20260915_14, narr:VecValue_4HalyardCutoverReview20260915_23, narr:PositionRevision_PostGoLiveSoakDurationBasis_4HalyardCutoverReview20260915 .
+} ;
+INSERT DATA {
+  GRAPH aswr:Tx_20260923T015458Z {
+    narr:VecAffect_4HalyardCutoverReview20260915_12 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_4HalyardCutoverReview20260915_12 ;
+        narr:dimension narr:Dim_Affect ;
+        narr:region narr:Affect_CalmPositive ;
+        narr:evidence "lexical-marker: Good, because I've already said the sequencing out loud" ;
+        narr:reported false ;
+        skos:note "Tanya expresses calm relief and satisfaction that the sequencing remains intact." ;
+        prov:generatedAtTime "2026-09-23T01:54:58Z"^^xsd:dateTime .
+
+    narr:VecAffect_4HalyardCutoverReview20260915_23 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_4HalyardCutoverReview20260915_23 ;
+        narr:dimension narr:Dim_Affect ;
+        narr:region narr:Affect_CalmPositive ;
+        narr:evidence "lexical-marker: Thank you for bringing it rather than letting it ride." ;
+        narr:reported false ;
+        skos:note "Tanya offers direct, appreciative warmth for Tina's proactive disclosure." ;
+        prov:generatedAtTime "2026-09-23T01:54:58Z"^^xsd:dateTime .
+
+    narr:VecConviction_4HalyardCutoverReview20260915_1 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_4HalyardCutoverReview20260915_1 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Claim ;
+        narr:evidence "commitment-marker: I need to correct something I said" ;
+        narr:reported false ;
+        skos:note "Direct first-person commitment to retracting a prior statement upfront." ;
+        prov:generatedAtTime "2026-09-23T01:54:58Z"^^xsd:dateTime .
+
+    narr:VecConviction_4HalyardCutoverReview20260915_3 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_4HalyardCutoverReview20260915_3 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Decision ;
+        narr:evidence "commitment-marker: I want it struck from the plan" ;
+        narr:reported false ;
+        skos:note "Decisive operational demand to remove a parameter from the formal plan." ;
+        prov:generatedAtTime "2026-09-23T01:54:58Z"^^xsd:dateTime .
+
+    narr:VecConviction_4HalyardCutoverReview20260915_5 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_4HalyardCutoverReview20260915_5 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Claim ;
+        narr:evidence "plain-assertion: It was never about the site settling." ;
+        narr:reported false ;
+        skos:note "Asserted factual reinterpretation grounded in historical log analysis." ;
+        prov:generatedAtTime "2026-09-23T01:54:58Z"^^xsd:dateTime .
+
+    narr:VecConviction_4HalyardCutoverReview20260915_7 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_4HalyardCutoverReview20260915_7 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Claim ;
+        narr:evidence "plain-assertion: Nothing in the new platform runs on a weekly cycle" ;
+        narr:reported false ;
+        skos:note "Unhedged factual assertion about platform architecture." ;
+        prov:generatedAtTime "2026-09-23T01:54:58Z"^^xsd:dateTime .
+
+    narr:VecConviction_4HalyardCutoverReview20260915_9 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_4HalyardCutoverReview20260915_9 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Decision ;
+        narr:evidence "plain-assertion: One week is the soak" ;
+        narr:evidence "commitment-marker: please don't hold the plan to two weeks on my say-so" ;
+        narr:reported false ;
+        skos:note "Establishes the operative soak timeline and formally releases the previous constraint." ;
+        prov:generatedAtTime "2026-09-23T01:54:58Z"^^xsd:dateTime .
+
+    narr:VecConviction_4HalyardCutoverReview20260915_10 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_4HalyardCutoverReview20260915_10 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Decision ;
+        narr:evidence "plain-assertion: We are still going one site at a time, and we are still soaking between sites before the next one starts." ;
+        narr:reported false ;
+        skos:note "Ratifies invariant architectural decisions and baseline sequencing rules." ;
+        prov:generatedAtTime "2026-09-23T01:54:58Z"^^xsd:dateTime .
+
+    narr:VecConviction_4HalyardCutoverReview20260915_11 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_4HalyardCutoverReview20260915_11 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Claim ;
+        narr:evidence "plain-assertion: That doesn't move at all." ;
+        narr:reported false ;
+        skos:note "Strong affirmation of the plan's sequencing structure." ;
+        prov:generatedAtTime "2026-09-23T01:54:58Z"^^xsd:dateTime .
+
+    narr:VecConviction_4HalyardCutoverReview20260915_13 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_4HalyardCutoverReview20260915_13 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Claim ;
+        narr:evidence "plain-assertion: One week is defensible but it has no slack in it." ;
+        narr:reported false ;
+        skos:note "Evaluative assessment of the risk posture and margin of the new timeline." ;
+        prov:generatedAtTime "2026-09-23T01:54:58Z"^^xsd:dateTime .
+
+    narr:VecConviction_4HalyardCutoverReview20260915_14 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_4HalyardCutoverReview20260915_14 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Principle ;
+        narr:evidence "plain-assertion: I'd rather be defensible and know where the slack isn't than conservative for a reason that turned out to be imaginary." ;
+        narr:reported false ;
+        skos:note "Articulates a foundational engineering/epistemic principle: grounded visibility over illusory safety buffers." ;
+        prov:generatedAtTime "2026-09-23T01:54:58Z"^^xsd:dateTime .
+
+    narr:VecConviction_4HalyardCutoverReview20260915_15 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_4HalyardCutoverReview20260915_15 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Claim ;
+        narr:evidence "commitment-marker: I just want it on the record that the new number is tight, not safe." ;
+        narr:reported false ;
+        skos:note "Formal qualification placed on the record regarding risk tolerance." ;
+        prov:generatedAtTime "2026-09-23T01:54:58Z"^^xsd:dateTime .
+
+    narr:VecConviction_4HalyardCutoverReview20260915_17 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_4HalyardCutoverReview20260915_17 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Claim ;
+        narr:evidence "plain-assertion: It takes three weeks out of the programme." ;
+        narr:reported false ;
+        skos:note "Direct mathematical calculation of program impact." ;
+        prov:generatedAtTime "2026-09-23T01:54:58Z"^^xsd:dateTime .
+
+    narr:VecConviction_4HalyardCutoverReview20260915_18 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_4HalyardCutoverReview20260915_18 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Decision ;
+        narr:evidence "performed-act: Which I will not be spending. That goes into the Clyde buffer." ;
+        narr:reported false ;
+        skos:note "Authoritative reallocation of recovered schedule time into a project buffer." ;
+        prov:generatedAtTime "2026-09-23T01:54:58Z"^^xsd:dateTime .
+
+    narr:VecConviction_4HalyardCutoverReview20260915_20 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_4HalyardCutoverReview20260915_20 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Decision ;
+        narr:evidence "performed-act: For the record then: the soak between sites is one week, not two, and my note from the eighth about two weeks should be read as superseded by this." ;
+        narr:reported false ;
+        skos:note "Formal performative declarative updating official record and superseding previous directives." ;
+        prov:generatedAtTime "2026-09-23T01:54:58Z"^^xsd:dateTime .
+
+    narr:VecConviction_4HalyardCutoverReview20260915_22 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_4HalyardCutoverReview20260915_22 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Decision ;
+        narr:evidence "commitment-marker: I'll write it up today." ;
+        narr:reported false ;
+        skos:note "Commissive commitment to document and publish the re-analysis." ;
+        prov:generatedAtTime "2026-09-23T01:54:58Z"^^xsd:dateTime .
+
+    narr:VecConviction_4HalyardCutoverReview20260915_24 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_4HalyardCutoverReview20260915_24 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Claim ;
+        narr:evidence "plain-assertion: It would have come out at Northgate either way, and worse." ;
+        narr:reported false ;
+        skos:note "Assertive claim about inevitable discovery during rollout." ;
+        prov:generatedAtTime "2026-09-23T01:54:58Z"^^xsd:dateTime .
+
+    narr:VecPower_4HalyardCutoverReview20260915_2 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_4HalyardCutoverReview20260915_2 ;
+        narr:dimension narr:Dim_Power ;
+        narr:region narr:Power_Legitimate ;
+        narr:evidence "performed-act: Go ahead." ;
+        narr:reported false ;
+        skos:note "Chairing/procedural authorization granting the floor." ;
+        prov:generatedAtTime "2026-09-23T01:54:58Z"^^xsd:dateTime .
+
+    narr:VecPower_4HalyardCutoverReview20260915_4 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_4HalyardCutoverReview20260915_4 ;
+        narr:dimension narr:Dim_Power ;
+        narr:region narr:Power_Legitimate ;
+        narr:evidence "framing-move: Right. Tell me why." ;
+        narr:reported false ;
+        skos:note "Directing the speaker to present justification per role authority." ;
+        prov:generatedAtTime "2026-09-23T01:54:58Z"^^xsd:dateTime .
+
+    narr:VecPower_4HalyardCutoverReview20260915_5 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_4HalyardCutoverReview20260915_5 ;
+        narr:dimension narr:Dim_Power ;
+        narr:region narr:Power_Informational ;
+        narr:region narr:Power_RationalPersuasion ;
+        narr:evidence "plain-assertion: The reason the queue took nine days to flatten at Dockside is that the old reconciliation job ran weekly and every run threw a fresh batch of exceptions." ;
+        narr:reported false ;
+        skos:note "Supplying root-cause log data and logical deduction to dismantle prior guidance." ;
+        prov:generatedAtTime "2026-09-23T01:54:58Z"^^xsd:dateTime .
+
+    narr:VecPower_4HalyardCutoverReview20260915_7 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_4HalyardCutoverReview20260915_7 ;
+        narr:dimension narr:Dim_Power ;
+        narr:region narr:Power_Informational ;
+        narr:region narr:Power_RationalPersuasion ;
+        narr:evidence "plain-assertion: Nothing in the new platform runs on a weekly cycle — reconciliation is continuous now." ;
+        narr:reported false ;
+        skos:note "Explaining the architectural reality to logically justify dropping the obsolete metric." ;
+        prov:generatedAtTime "2026-09-23T01:54:58Z"^^xsd:dateTime .
+
+    narr:VecPower_4HalyardCutoverReview20260915_9 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_4HalyardCutoverReview20260915_9 ;
+        narr:dimension narr:Dim_Power ;
+        narr:region narr:Power_RationalPersuasion ;
+        narr:evidence "plain-assertion: Strip the reconciliation cycles out of the Dockside curve and the underlying exception rate is flat by day four." ;
+        narr:reported false ;
+        skos:note "Constructing the calculation and evidence base for the new proposed timeline." ;
+        prov:generatedAtTime "2026-09-23T01:54:58Z"^^xsd:dateTime .
+
+    narr:VecPower_4HalyardCutoverReview20260915_10 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_4HalyardCutoverReview20260915_10 ;
+        narr:dimension narr:Dim_Power ;
+        narr:region narr:Power_Legitimate ;
+        narr:evidence "performed-act: We are still going one site at a time, and we are still soaking between sites before the next one starts." ;
+        narr:reported false ;
+        skos:note "Setting the boundaries and invariant scope of the operational plan by managerial authority." ;
+        prov:generatedAtTime "2026-09-23T01:54:58Z"^^xsd:dateTime .
+
+    narr:VecPower_4HalyardCutoverReview20260915_13 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_4HalyardCutoverReview20260915_13 ;
+        narr:dimension narr:Dim_Power ;
+        narr:region narr:Power_Expert ;
+        narr:evidence "plain-assertion: One week is defensible but it has no slack in it." ;
+        narr:reported false ;
+        skos:note "Providing domain assessment of operational risk and lack of margin." ;
+        prov:generatedAtTime "2026-09-23T01:54:58Z"^^xsd:dateTime .
+
+    narr:VecPower_4HalyardCutoverReview20260915_15 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_4HalyardCutoverReview20260915_15 ;
+        narr:dimension narr:Dim_Power ;
+        narr:region narr:Power_Expert ;
+        narr:evidence "framing-move: I just want it on the record that the new number is tight, not safe." ;
+        narr:reported false ;
+        skos:note "Entering formal technical qualification/dissent onto the record based on professional risk judgment." ;
+        prov:generatedAtTime "2026-09-23T01:54:58Z"^^xsd:dateTime .
+
+    narr:VecPower_4HalyardCutoverReview20260915_18 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_4HalyardCutoverReview20260915_18 ;
+        narr:dimension narr:Dim_Power ;
+        narr:region narr:Power_Legitimate ;
+        narr:evidence "performed-act: Which I will not be spending. That goes into the Clyde buffer." ;
+        narr:reported false ;
+        skos:note "Exercising sole decision-making authority over buffer reallocation." ;
+        prov:generatedAtTime "2026-09-23T01:54:58Z"^^xsd:dateTime .
+
+    narr:VecPower_4HalyardCutoverReview20260915_20 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_4HalyardCutoverReview20260915_20 ;
+        narr:dimension narr:Dim_Power ;
+        narr:region narr:Power_Legitimate ;
+        narr:evidence "performed-act: For the record then: the soak between sites is one week, not two, and my note from the eighth about two weeks should be read as superseded by this." ;
+        narr:reported false ;
+        skos:note "Formally ratifying the change of plan and superseding prior guidance for the governance record." ;
+        prov:generatedAtTime "2026-09-23T01:54:58Z"^^xsd:dateTime .
+
+    narr:VecPower_4HalyardCutoverReview20260915_21 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_4HalyardCutoverReview20260915_21 ;
+        narr:dimension narr:Dim_Power ;
+        narr:region narr:Power_Legitimate ;
+        narr:region narr:Power_Consultation ;
+        narr:evidence "performed-act: Tina, can you put the Dockside re-analysis somewhere the steering group can see it?" ;
+        narr:reported false ;
+        skos:note "Tasking team member with upstream stakeholder documentation." ;
+        prov:generatedAtTime "2026-09-23T01:54:58Z"^^xsd:dateTime .
+
+    narr:VecRegister_4HalyardCutoverReview20260915_15 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_4HalyardCutoverReview20260915_15 ;
+        narr:dimension narr:Dim_Register ;
+        narr:region narr:Register_Formal ;
+        narr:evidence "framing-move: I just want it on the record" ;
+        narr:reported false ;
+        skos:note "Explicit procedural phrasing to formally record a qualification into the meeting record." ;
+        prov:generatedAtTime "2026-09-23T01:54:58Z"^^xsd:dateTime .
+
+    narr:VecRegister_4HalyardCutoverReview20260915_20 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_4HalyardCutoverReview20260915_20 ;
+        narr:dimension narr:Dim_Register ;
+        narr:region narr:Register_Formal ;
+        narr:evidence "framing-move: For the record then" ;
+        narr:evidence "performed-act: superseded by this" ;
+        narr:reported false ;
+        skos:note "Protocol-observing formula used to formalize an official change and supersede previous documentation." ;
+        prov:generatedAtTime "2026-09-23T01:54:58Z"^^xsd:dateTime .
+
+    narr:VecRelational_4HalyardCutoverReview20260915_13 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_4HalyardCutoverReview20260915_13 ;
+        narr:dimension narr:Dim_Relational ;
+        narr:region narr:Relational_MarketPricing ;
+        narr:evidence "framing-move: it costs us something? Two weeks was conservative in a place where being conservative was cheap. One week is defensible but it has no slack in it." ;
+        narr:reported false ;
+        skos:note "Xavier evaluates the schedule change explicitly through cost-benefit, trade-offs, and margins of risk/slack." ;
+        prov:generatedAtTime "2026-09-23T01:54:58Z"^^xsd:dateTime .
+
+    narr:VecRelational_4HalyardCutoverReview20260915_18 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_4HalyardCutoverReview20260915_18 ;
+        narr:dimension narr:Dim_Relational ;
+        narr:region narr:Relational_AuthorityRanking ;
+        narr:evidence "performed-act: Which I will not be spending. That goes into the Clyde buffer." ;
+        narr:reported false ;
+        skos:note "Tanya exercises hierarchical executive authority over the allocation and expenditure of program buffer time." ;
+        prov:generatedAtTime "2026-09-23T01:54:58Z"^^xsd:dateTime .
+
+    narr:VecRelational_4HalyardCutoverReview20260915_20 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_4HalyardCutoverReview20260915_20 ;
+        narr:dimension narr:Dim_Relational ;
+        narr:region narr:Relational_AuthorityRanking ;
+        narr:evidence "performed-act: For the record then: the soak between sites is one week, not two, and my note from the eighth about two weeks should be read as superseded by this." ;
+        narr:reported false ;
+        skos:note "Formal ruling and record-setting superseding prior authoritative guidance." ;
+        prov:generatedAtTime "2026-09-23T01:54:58Z"^^xsd:dateTime .
+
+    narr:VecRelational_4HalyardCutoverReview20260915_21 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_4HalyardCutoverReview20260915_21 ;
+        narr:dimension narr:Dim_Relational ;
+        narr:region narr:Relational_AuthorityRanking ;
+        narr:evidence "framing-move: Tina, can you put the Dockside re-analysis somewhere the steering group can see it? They heard me say two weeks on the tenth." ;
+        narr:reported false ;
+        skos:note "Directing subordinate reporting up to a formal governance body (steering group)." ;
+        prov:generatedAtTime "2026-09-23T01:54:58Z"^^xsd:dateTime .
+
+    narr:VecStyle_4HalyardCutoverReview20260915_1 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_4HalyardCutoverReview20260915_1 ;
+        narr:dimension narr:Dim_Style ;
+        narr:region narr:Style_Antithesis ;
+        narr:evidence "lexical-marker: at the top than bury it" ;
+        narr:reported false ;
+        skos:note "Opposed alternatives framed as deliberate contrast ('at the top than bury it')." ;
+        prov:generatedAtTime "2026-09-23T01:54:58Z"^^xsd:dateTime .
+
+    narr:VecStyle_4HalyardCutoverReview20260915_10 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_4HalyardCutoverReview20260915_10 ;
+        narr:dimension narr:Dim_Style ;
+        narr:region narr:Style_Anaphora ;
+        narr:region narr:Style_Parallelism ;
+        narr:evidence "lexical-marker: and we are still" ;
+        narr:evidence "framing-move: We are still going one site at a time, and we are still soaking between sites" ;
+        narr:reported false ;
+        skos:note "Repeated opening structure 'we are still [verb-ing]' establishing matched parallel assertions." ;
+        prov:generatedAtTime "2026-09-23T01:54:58Z"^^xsd:dateTime .
+
+    narr:VecStyle_4HalyardCutoverReview20260915_14 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_4HalyardCutoverReview20260915_14 ;
+        narr:dimension narr:Dim_Style ;
+        narr:region narr:Style_Antithesis ;
+        narr:region narr:Style_Parallelism ;
+        narr:evidence "framing-move: rather be defensible and know where the slack isn't than conservative for a reason that turned out to be imaginary" ;
+        narr:reported false ;
+        skos:note "Balanced comparative antithesis contrasting two stances ('defensible and know...' vs 'conservative for a reason...')." ;
+        prov:generatedAtTime "2026-09-23T01:54:58Z"^^xsd:dateTime .
+
+    narr:VecStyle_4HalyardCutoverReview20260915_15 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_4HalyardCutoverReview20260915_15 ;
+        narr:dimension narr:Dim_Style ;
+        narr:region narr:Style_Antithesis ;
+        narr:evidence "lexical-marker: tight, not safe" ;
+        narr:reported false ;
+        skos:note "Direct antithetical pair ('tight, not safe') qualifying the revised figure." ;
+        prov:generatedAtTime "2026-09-23T01:54:58Z"^^xsd:dateTime .
+
+    narr:VecStyle_4HalyardCutoverReview20260915_17 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_4HalyardCutoverReview20260915_17 ;
+        narr:dimension narr:Dim_Style ;
+        narr:region narr:Style_RuleOfThree ;
+        narr:evidence "framing-move: Four sites, three soaks between them, a week off each." ;
+        narr:reported false ;
+        skos:note "A three-part rhythmic summary triad laying out the arithmetic." ;
+        prov:generatedAtTime "2026-09-23T01:54:58Z"^^xsd:dateTime .
+
+    narr:VecTemporal_4HalyardCutoverReview20260915_1 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_4HalyardCutoverReview20260915_1 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Present ;
+        narr:region narr:Temporal_Irrealis ;
+        narr:region narr:Temporal_Concrete ;
+        narr:evidence "commitment-marker: I need to correct something I said" ;
+        narr:reported false ;
+        skos:note "Tina focuses on an immediate present need to amend a specific prior statement." ;
+        prov:generatedAtTime "2026-09-23T01:54:58Z"^^xsd:dateTime .
+
+    narr:VecTemporal_4HalyardCutoverReview20260915_3 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_4HalyardCutoverReview20260915_3 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Past ;
+        narr:region narr:Temporal_Realis ;
+        narr:region narr:Temporal_Concrete ;
+        narr:evidence "plain-assertion: On the eighth I said the soak between sites has to be two full weeks" ;
+        narr:reported false ;
+        skos:note "Refers concretely to a past factual statement made on a specific date." ;
+        prov:generatedAtTime "2026-09-23T01:54:58Z"^^xsd:dateTime .
+
+    narr:VecTemporal_4HalyardCutoverReview20260915_5 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_4HalyardCutoverReview20260915_5 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Past ;
+        narr:region narr:Temporal_Realis ;
+        narr:region narr:Temporal_Concrete ;
+        narr:evidence "plain-assertion: I quoted the Dockside number — the exception queue not flattening until day nine or ten." ;
+        narr:reported false ;
+        skos:note "Tina reviews historical log data and past technical realities from the Dockside job." ;
+        prov:generatedAtTime "2026-09-23T01:54:58Z"^^xsd:dateTime .
+
+    narr:VecTemporal_4HalyardCutoverReview20260915_6 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_4HalyardCutoverReview20260915_6 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Present ;
+        narr:region narr:Temporal_Realis ;
+        narr:region narr:Temporal_Concrete ;
+        narr:evidence "plain-assertion: And that job is gone." ;
+        narr:reported false ;
+        skos:note "Xavier states the current actual status of a specific batch job." ;
+        prov:generatedAtTime "2026-09-23T01:54:58Z"^^xsd:dateTime .
+
+    narr:VecTemporal_4HalyardCutoverReview20260915_7 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_4HalyardCutoverReview20260915_7 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Present ;
+        narr:region narr:Temporal_Realis ;
+        narr:region narr:Temporal_Concrete ;
+        narr:evidence "plain-assertion: reconciliation is continuous now." ;
+        narr:reported false ;
+        skos:note "Focuses on the actual present operational architecture." ;
+        prov:generatedAtTime "2026-09-23T01:54:58Z"^^xsd:dateTime .
+
+    narr:VecTemporal_4HalyardCutoverReview20260915_9 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_4HalyardCutoverReview20260915_9 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Present ;
+        narr:region narr:Temporal_Realis ;
+        narr:region narr:Temporal_Concrete ;
+        narr:evidence "plain-assertion: One week gives you the flattening plus three days to look at it" ;
+        narr:reported false ;
+        skos:note "Establishes the concrete timing calculation grounded in the reviewed data." ;
+        prov:generatedAtTime "2026-09-23T01:54:58Z"^^xsd:dateTime .
+
+    narr:VecTemporal_4HalyardCutoverReview20260915_10 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_4HalyardCutoverReview20260915_10 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Future ;
+        narr:region narr:Temporal_Irrealis ;
+        narr:region narr:Temporal_Concrete ;
+        narr:evidence "plain-assertion: We are still going one site at a time" ;
+        narr:reported false ;
+        skos:note "Tanya clarifies the planned execution sequence for upcoming site cutovers." ;
+        prov:generatedAtTime "2026-09-23T01:54:58Z"^^xsd:dateTime .
+
+    narr:VecTemporal_4HalyardCutoverReview20260915_12 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_4HalyardCutoverReview20260915_12 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Past ;
+        narr:region narr:Temporal_Realis ;
+        narr:region narr:Temporal_Concrete ;
+        narr:evidence "plain-assertion: I've already said the sequencing out loud to Freya this morning" ;
+        narr:reported false ;
+        skos:note "Tanya recounts an actual conversation that took place earlier in the day." ;
+        prov:generatedAtTime "2026-09-23T01:54:58Z"^^xsd:dateTime .
+
+    narr:VecTemporal_4HalyardCutoverReview20260915_13 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_4HalyardCutoverReview20260915_13 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Present ;
+        narr:region narr:Temporal_Realis ;
+        narr:region narr:Temporal_Abstract ;
+        narr:evidence "plain-assertion: One week is defensible but it has no slack in it." ;
+        narr:reported false ;
+        skos:note "Xavier evaluates the general risk profile and trade-offs of the proposed schedule." ;
+        prov:generatedAtTime "2026-09-23T01:54:58Z"^^xsd:dateTime .
+
+    narr:VecTemporal_4HalyardCutoverReview20260915_14 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_4HalyardCutoverReview20260915_14 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Present ;
+        narr:region narr:Temporal_Irrealis ;
+        narr:region narr:Temporal_Abstract ;
+        narr:evidence "plain-assertion: I'd rather be defensible and know where the slack isn't" ;
+        narr:reported false ;
+        skos:note "Tina expresses an abstract preference regarding planning principles." ;
+        prov:generatedAtTime "2026-09-23T01:54:58Z"^^xsd:dateTime .
+
+    narr:VecTemporal_4HalyardCutoverReview20260915_15 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_4HalyardCutoverReview20260915_15 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Present ;
+        narr:region narr:Temporal_Realis ;
+        narr:region narr:Temporal_Abstract ;
+        narr:evidence "plain-assertion: the new number is tight, not safe." ;
+        narr:reported false ;
+        skos:note "Xavier records an abstract characterization of the current plan parameter." ;
+        prov:generatedAtTime "2026-09-23T01:54:58Z"^^xsd:dateTime .
+
+    narr:VecTemporal_4HalyardCutoverReview20260915_17 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_4HalyardCutoverReview20260915_17 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Future ;
+        narr:region narr:Temporal_Irrealis ;
+        narr:region narr:Temporal_Concrete ;
+        narr:evidence "plain-assertion: It takes three weeks out of the programme." ;
+        narr:reported false ;
+        skos:note "Tina projects the specific schedule impact across the upcoming four sites." ;
+        prov:generatedAtTime "2026-09-23T01:54:58Z"^^xsd:dateTime .
+
+    narr:VecTemporal_4HalyardCutoverReview20260915_18 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_4HalyardCutoverReview20260915_18 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Future ;
+        narr:region narr:Temporal_Irrealis ;
+        narr:region narr:Temporal_Concrete ;
+        narr:evidence "performed-act: Which I will not be spending. That goes into the Clyde buffer." ;
+        narr:reported false ;
+        skos:note "Tanya directs the allocation of future saved schedule time into a named buffer." ;
+        prov:generatedAtTime "2026-09-23T01:54:58Z"^^xsd:dateTime .
+
+    narr:VecTemporal_4HalyardCutoverReview20260915_20 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_4HalyardCutoverReview20260915_20 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Present ;
+        narr:region narr:Temporal_Realis ;
+        narr:region narr:Temporal_Concrete ;
+        narr:evidence "performed-act: the soak between sites is one week, not two" ;
+        narr:reported false ;
+        skos:note "Tanya formally ratifies the current updated soak specification on the record." ;
+        prov:generatedAtTime "2026-09-23T01:54:58Z"^^xsd:dateTime .
+
+    narr:VecTemporal_4HalyardCutoverReview20260915_21 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_4HalyardCutoverReview20260915_21 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Past ;
+        narr:region narr:Temporal_Realis ;
+        narr:region narr:Temporal_Concrete ;
+        narr:evidence "plain-assertion: They heard me say two weeks on the tenth." ;
+        narr:reported false ;
+        skos:note "Tanya points to a specific past briefing event with the steering group." ;
+        prov:generatedAtTime "2026-09-23T01:54:58Z"^^xsd:dateTime .
+
+    narr:VecTemporal_4HalyardCutoverReview20260915_22 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_4HalyardCutoverReview20260915_22 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Future ;
+        narr:region narr:Temporal_Irrealis ;
+        narr:region narr:Temporal_Concrete ;
+        narr:evidence "commitment-marker: I'll write it up today." ;
+        narr:reported false ;
+        skos:note "Tina commits to writing the specific analysis documentation later today." ;
+        prov:generatedAtTime "2026-09-23T01:54:58Z"^^xsd:dateTime .
+
+    narr:VecTemporal_4HalyardCutoverReview20260915_24 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_4HalyardCutoverReview20260915_24 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Future ;
+        narr:region narr:Temporal_Abstract ;
+        narr:evidence "modal-marker: It would have come out at Northgate either way, and worse." ;
+        narr:reported false ;
+        skos:note "Tina considers a counterfactual/future risk pattern at Northgate; the explicit modal 'would have' suspends the realis sub-axis." ;
+        prov:generatedAtTime "2026-09-23T01:54:58Z"^^xsd:dateTime .
+
+    narr:DirValue_DefensibleOverPrecautionary a narr:DirectionalNode ;
+        dct:source narr:Sample_4HalyardCutoverReview20260915 ;
+        narr:dimension narr:Dim_Value ;
+        narr:region narr:Value_Competence ;
+        narr:frame "Does the speaker choose demonstrable, empirically verified precision over ungrounded precautionary padding or face-saving?" ;
+        skos:note "defensible rather than conservative for imaginary reasons" ;
+        prov:generatedAtTime "2026-09-23T01:54:58Z"^^xsd:dateTime .
+
+    narr:VecValue_4HalyardCutoverReview20260915_1 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_4HalyardCutoverReview20260915_1 ;
+        narr:dimension narr:Dim_Value ;
+        narr:region narr:Value_Competence ;
+        narr:direction narr:DirValue_DefensibleOverPrecautionary ;
+        narr:evidence "framing-move: I need to correct something I said, and I'd rather do it at the top than bury it." ;
+        narr:reported false ;
+        skos:note "Tina prioritizes immediate factual correction and analytical integrity over saving face or concealing error." ;
+        prov:generatedAtTime "2026-09-23T01:54:58Z"^^xsd:dateTime .
+
+    narr:VecValue_4HalyardCutoverReview20260915_13 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_4HalyardCutoverReview20260915_13 ;
+        narr:dimension narr:Dim_Value ;
+        narr:region narr:Value_Conservation ;
+        narr:evidence "lexical-marker: Two weeks was conservative in a place where being conservative was cheap. One week is defensible but it has no slack in it." ;
+        narr:reported false ;
+        skos:note "Xavier explicitly weighs conservation and safety margin (cheap slack) against defensibility." ;
+        prov:generatedAtTime "2026-09-23T01:54:58Z"^^xsd:dateTime .
+
+    narr:VecValue_4HalyardCutoverReview20260915_14 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_4HalyardCutoverReview20260915_14 ;
+        narr:dimension narr:Dim_Value ;
+        narr:region narr:Value_Competence ;
+        narr:direction narr:DirValue_DefensibleOverPrecautionary ;
+        narr:evidence "lexical-marker: I'd rather be defensible and know where the slack isn't than conservative for a reason that turned out to be imaginary." ;
+        narr:reported false ;
+        skos:note "Tina explicitly values grounded technical rigor and empirical accuracy over artificial buffer." ;
+        prov:generatedAtTime "2026-09-23T01:54:58Z"^^xsd:dateTime .
+
+    narr:VecValue_4HalyardCutoverReview20260915_23 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_4HalyardCutoverReview20260915_23 ;
+        narr:dimension narr:Dim_Value ;
+        narr:region narr:Value_Relatedness ;
+        narr:evidence "performed-act: Thank you for bringing it rather than letting it ride." ;
+        narr:reported false ;
+        skos:note "Tanya expresses appreciation and reinforces the relational trust of surfacing hard corrections proactively." ;
+        prov:generatedAtTime "2026-09-23T01:54:58Z"^^xsd:dateTime .
+
+    narr:Expr_4HalyardCutoverReview20260915_3 narr:supports narr:Narrative_ContainedPainOverUnboundedRisk .
+
+    narr:Expr_4HalyardCutoverReview20260915_5 narr:supports narr:Narrative_ContainedPainOverUnboundedRisk .
+
+    narr:Expr_4HalyardCutoverReview20260915_7 narr:supports narr:Narrative_ContainedPainOverUnboundedRisk .
+
+    narr:Expr_4HalyardCutoverReview20260915_9 narr:supports narr:Narrative_ContainedPainOverUnboundedRisk .
+
+    narr:Expr_4HalyardCutoverReview20260915_10 narr:supports narr:Narrative_ContainedPainOverUnboundedRisk .
+
+    narr:Expr_4HalyardCutoverReview20260915_11 narr:supports narr:Narrative_ContainedPainOverUnboundedRisk .
+
+    narr:Expr_4HalyardCutoverReview20260915_12 narr:supports narr:Narrative_ContainedPainOverUnboundedRisk .
+
+    narr:Expr_4HalyardCutoverReview20260915_13 narr:supports narr:Narrative_ContainedPainOverUnboundedRisk .
+
+    narr:Expr_4HalyardCutoverReview20260915_14 narr:supports narr:Narrative_ContainedPainOverUnboundedRisk .
+
+    narr:Expr_4HalyardCutoverReview20260915_15 narr:supports narr:Narrative_ContainedPainOverUnboundedRisk .
+
+    narr:Expr_4HalyardCutoverReview20260915_17 narr:supports narr:Narrative_ContainedPainOverUnboundedRisk .
+
+    narr:Expr_4HalyardCutoverReview20260915_18 narr:supports narr:Narrative_ContainedPainOverUnboundedRisk .
+
+    narr:Expr_4HalyardCutoverReview20260915_20 narr:supports narr:Narrative_ContainedPainOverUnboundedRisk .
+
+    narr:Position_PostGoLiveSoakDurationBasis narr:supports narr:Narrative_ContainedPainOverUnboundedRisk .
+
+    narr:Position_SiteCutoverSequencingStrategy narr:supports narr:Narrative_ContainedPainOverUnboundedRisk .
+
+    narr:Expr_4HalyardCutoverReview20260915_10 narr:supports narr:Position_SiteCutoverSequencingStrategy .
+
+    narr:Expr_4HalyardCutoverReview20260915_11 narr:supports narr:Position_SiteCutoverSequencingStrategy .
+
+    narr:Expr_4HalyardCutoverReview20260915_12 narr:supports narr:Position_SiteCutoverSequencingStrategy .
+
+    narr:PositionRevision_PostGoLiveSoakDurationBasis_4HalyardCutoverReview20260915 a narr:PositionRevision ;
+        narr:revises narr:Position_PostGoLiveSoakDurationBasis ;
+        narr:adds narr:Expr_4HalyardCutoverReview20260915_3 ;
+        narr:adds narr:Expr_4HalyardCutoverReview20260915_5 ;
+        narr:adds narr:Expr_4HalyardCutoverReview20260915_7 ;
+        narr:adds narr:Expr_4HalyardCutoverReview20260915_9 ;
+        narr:adds narr:Expr_4HalyardCutoverReview20260915_13 ;
+        narr:adds narr:Expr_4HalyardCutoverReview20260915_14 ;
+        narr:adds narr:Expr_4HalyardCutoverReview20260915_15 ;
+        narr:adds narr:Expr_4HalyardCutoverReview20260915_20 ;
+        narr:drops narr:Expr_1HalyardWeekly20260908_17 ;
+        narr:drops narr:Expr_1HalyardWeekly20260908_19 ;
+        narr:drops narr:Expr_1HalyardWeekly20260908_20 ;
+        narr:drops narr:Expr_1HalyardWeekly20260908_22 ;
+        prov:generatedAtTime "2026-09-23T01:54:58Z"^^xsd:dateTime .
+
+    aswr:Miss_4HalyardCutoverReview20260915_narrative_trip a aswr:Miss ;
+        aswr:missPass "narrative" ;
+        aswr:missClass "floor" ;
+        aswr:missError "unplaced 11/24 exceeds 0.34" ;
+        aswr:missModel "google/gemini-3.7-flash" ;
+        aswr:tripFloor "unplaced_ratio" ;
+        aswr:tripRatio "0.4583"^^xsd:decimal ;
+        aswr:tripOutcome "accepted-flagged" ;
+        aswr:tripFallbackModel "anthropic/claude-sonnet-5" ;
+        aswr:missScope narr:Sample_4HalyardCutoverReview20260915 ;
+        prov:generatedAtTime "2026-09-23T01:54:58Z"^^xsd:dateTime .
+
+    aswr:Miss_4HalyardCutoverReview20260915_resolve_trip a aswr:Miss ;
+        aswr:missPass "resolve" ;
+        aswr:missClass "floor" ;
+        aswr:missError "resolutions empty against a populated perspective" ;
+        aswr:missModel "google/gemini-3.7-flash" ;
+        aswr:tripFloor "empty_on_populated" ;
+        aswr:tripRatio "0.0000"^^xsd:decimal ;
+        aswr:tripOutcome "accepted-flagged" ;
+        aswr:tripFallbackModel "anthropic/claude-sonnet-5" ;
+        aswr:missScope narr:Sample_4HalyardCutoverReview20260915 ;
+        prov:generatedAtTime "2026-09-23T01:54:58Z"^^xsd:dateTime .
+
+    aswr:Run_20260923T015458Z_dim_affect a prov:Activity ;
+        aswr:runPass "dim.affect" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/2eef85363745/2026-09-23-4-halyard-cutover-review-2026-09-15/dim.affect.json" ;
+        prov:generated narr:VecAffect_4HalyardCutoverReview20260915_12, narr:VecAffect_4HalyardCutoverReview20260915_23 ;
+        dct:isPartOf aswr:Tx_20260923T015458Z ;
+        prov:generatedAtTime "2026-09-23T01:54:58Z"^^xsd:dateTime .
+
+    aswr:Run_20260923T015458Z_dim_conviction a prov:Activity ;
+        aswr:runPass "dim.conviction" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/2eef85363745/2026-09-23-4-halyard-cutover-review-2026-09-15/dim.conviction.json" ;
+        prov:generated narr:VecConviction_4HalyardCutoverReview20260915_1, narr:VecConviction_4HalyardCutoverReview20260915_3, narr:VecConviction_4HalyardCutoverReview20260915_5, narr:VecConviction_4HalyardCutoverReview20260915_7, narr:VecConviction_4HalyardCutoverReview20260915_9, narr:VecConviction_4HalyardCutoverReview20260915_10, narr:VecConviction_4HalyardCutoverReview20260915_11, narr:VecConviction_4HalyardCutoverReview20260915_13, narr:VecConviction_4HalyardCutoverReview20260915_14, narr:VecConviction_4HalyardCutoverReview20260915_15, narr:VecConviction_4HalyardCutoverReview20260915_17, narr:VecConviction_4HalyardCutoverReview20260915_18, narr:VecConviction_4HalyardCutoverReview20260915_20, narr:VecConviction_4HalyardCutoverReview20260915_22, narr:VecConviction_4HalyardCutoverReview20260915_24 ;
+        dct:isPartOf aswr:Tx_20260923T015458Z ;
+        prov:generatedAtTime "2026-09-23T01:54:58Z"^^xsd:dateTime .
+
+    aswr:Run_20260923T015458Z_dim_power a prov:Activity ;
+        aswr:runPass "dim.power" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/2eef85363745/2026-09-23-4-halyard-cutover-review-2026-09-15/dim.power.json" ;
+        prov:generated narr:VecPower_4HalyardCutoverReview20260915_2, narr:VecPower_4HalyardCutoverReview20260915_4, narr:VecPower_4HalyardCutoverReview20260915_5, narr:VecPower_4HalyardCutoverReview20260915_7, narr:VecPower_4HalyardCutoverReview20260915_9, narr:VecPower_4HalyardCutoverReview20260915_10, narr:VecPower_4HalyardCutoverReview20260915_13, narr:VecPower_4HalyardCutoverReview20260915_15, narr:VecPower_4HalyardCutoverReview20260915_18, narr:VecPower_4HalyardCutoverReview20260915_20, narr:VecPower_4HalyardCutoverReview20260915_21 ;
+        dct:isPartOf aswr:Tx_20260923T015458Z ;
+        prov:generatedAtTime "2026-09-23T01:54:58Z"^^xsd:dateTime .
+
+    aswr:Run_20260923T015458Z_dim_register a prov:Activity ;
+        aswr:runPass "dim.register" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/2eef85363745/2026-09-23-4-halyard-cutover-review-2026-09-15/dim.register.json" ;
+        prov:generated narr:VecRegister_4HalyardCutoverReview20260915_15, narr:VecRegister_4HalyardCutoverReview20260915_20 ;
+        dct:isPartOf aswr:Tx_20260923T015458Z ;
+        prov:generatedAtTime "2026-09-23T01:54:58Z"^^xsd:dateTime .
+
+    aswr:Run_20260923T015458Z_dim_relational a prov:Activity ;
+        aswr:runPass "dim.relational" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/2eef85363745/2026-09-23-4-halyard-cutover-review-2026-09-15/dim.relational.json" ;
+        prov:generated narr:VecRelational_4HalyardCutoverReview20260915_13, narr:VecRelational_4HalyardCutoverReview20260915_18, narr:VecRelational_4HalyardCutoverReview20260915_20, narr:VecRelational_4HalyardCutoverReview20260915_21 ;
+        dct:isPartOf aswr:Tx_20260923T015458Z ;
+        prov:generatedAtTime "2026-09-23T01:54:58Z"^^xsd:dateTime .
+
+    aswr:Run_20260923T015458Z_dim_style a prov:Activity ;
+        aswr:runPass "dim.style" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/2eef85363745/2026-09-23-4-halyard-cutover-review-2026-09-15/dim.style.json" ;
+        prov:generated narr:VecStyle_4HalyardCutoverReview20260915_1, narr:VecStyle_4HalyardCutoverReview20260915_10, narr:VecStyle_4HalyardCutoverReview20260915_14, narr:VecStyle_4HalyardCutoverReview20260915_15, narr:VecStyle_4HalyardCutoverReview20260915_17 ;
+        dct:isPartOf aswr:Tx_20260923T015458Z ;
+        prov:generatedAtTime "2026-09-23T01:54:58Z"^^xsd:dateTime .
+
+    aswr:Run_20260923T015458Z_dim_temporal a prov:Activity ;
+        aswr:runPass "dim.temporal" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/2eef85363745/2026-09-23-4-halyard-cutover-review-2026-09-15/dim.temporal.json" ;
+        prov:generated narr:VecTemporal_4HalyardCutoverReview20260915_1, narr:VecTemporal_4HalyardCutoverReview20260915_3, narr:VecTemporal_4HalyardCutoverReview20260915_5, narr:VecTemporal_4HalyardCutoverReview20260915_6, narr:VecTemporal_4HalyardCutoverReview20260915_7, narr:VecTemporal_4HalyardCutoverReview20260915_9, narr:VecTemporal_4HalyardCutoverReview20260915_10, narr:VecTemporal_4HalyardCutoverReview20260915_12, narr:VecTemporal_4HalyardCutoverReview20260915_13, narr:VecTemporal_4HalyardCutoverReview20260915_14, narr:VecTemporal_4HalyardCutoverReview20260915_15, narr:VecTemporal_4HalyardCutoverReview20260915_17, narr:VecTemporal_4HalyardCutoverReview20260915_18, narr:VecTemporal_4HalyardCutoverReview20260915_20, narr:VecTemporal_4HalyardCutoverReview20260915_21, narr:VecTemporal_4HalyardCutoverReview20260915_22, narr:VecTemporal_4HalyardCutoverReview20260915_24 ;
+        dct:isPartOf aswr:Tx_20260923T015458Z ;
+        prov:generatedAtTime "2026-09-23T01:54:58Z"^^xsd:dateTime .
+
+    aswr:Run_20260923T015458Z_dim_value a prov:Activity ;
+        aswr:runPass "dim.value" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/2eef85363745/2026-09-23-4-halyard-cutover-review-2026-09-15/dim.value.json" ;
+        prov:generated narr:DirValue_DefensibleOverPrecautionary, narr:VecValue_4HalyardCutoverReview20260915_1, narr:VecValue_4HalyardCutoverReview20260915_13, narr:VecValue_4HalyardCutoverReview20260915_14, narr:VecValue_4HalyardCutoverReview20260915_23 ;
+        dct:isPartOf aswr:Tx_20260923T015458Z ;
+        prov:generatedAtTime "2026-09-23T01:54:58Z"^^xsd:dateTime .
+
+    aswr:Run_20260923T015458Z_pass5 a prov:Activity ;
+        aswr:runPass "pass5" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/2eef85363745/2026-09-23-4-halyard-cutover-review-2026-09-15/pass5.json" ;
+        dct:isPartOf aswr:Tx_20260923T015458Z ;
+        prov:generatedAtTime "2026-09-23T01:54:58Z"^^xsd:dateTime .
+
+    aswr:Run_20260923T015458Z_position a prov:Activity ;
+        aswr:runPass "position" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/2eef85363745/2026-09-23-4-halyard-cutover-review-2026-09-15/position.json" ;
+        prov:generated narr:PositionRevision_PostGoLiveSoakDurationBasis_4HalyardCutoverReview20260915 ;
+        dct:isPartOf aswr:Tx_20260923T015458Z ;
+        prov:generatedAtTime "2026-09-23T01:54:58Z"^^xsd:dateTime .
+  }
+}
