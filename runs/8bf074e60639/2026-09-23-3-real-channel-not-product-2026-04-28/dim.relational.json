@@ -1,0 +1,43 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-20",
+    "regions" : [ "market-pricing" ],
+    "evidence" : [ {
+      "quote" : "That's a bonus; it's an upsell.",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Enacts market-pricing by explicitly categorizing a feature in commercial tiered exchange terms (bonus/upsell).",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-21",
+    "regions" : [ "market-pricing" ],
+    "evidence" : [ {
+      "quote" : "It's also a lot more work because of the maintenance around fraud, et cetera",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Weighs operational maintenance burden against value delivery, using cost-benefit proportionality.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-46",
+    "regions" : [ "market-pricing" ],
+    "evidence" : [ {
+      "quote" : "I think SMS is something that we should offer only for the enterprise plan, because we have to provision numbers individually and manage them and so on and so forth.",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Frames tier-gating based directly on marginal operational cost and maintenance overhead.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-47",
+    "regions" : [ "market-pricing" ],
+    "evidence" : [ {
+      "quote" : "I'm doing this as a demo right now, and I'm trying to get some of these larger clients on the hook",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Explicit commercial instrumental framing of ongoing interactions with potential enterprise buyers.",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-1", "src-2", "src-3", "src-4", "src-5", "src-6", "src-7", "src-8", "src-9", "src-10", "src-11", "src-12", "src-13", "src-14", "src-15", "src-16", "src-17", "src-18", "src-19", "src-22", "src-23", "src-24", "src-25", "src-26", "src-27", "src-28", "src-29", "src-30", "src-31", "src-32", "src-33", "src-34", "src-35", "src-36", "src-37", "src-38", "src-39", "src-40", "src-41", "src-42", "src-43", "src-44", "src-45", "src-48", "src-49", "src-50", "src-51", "src-52" ],
+  "unmarked_rest" : false,
+  "mints" : [ ],
+  "region_mints" : [ ]
+}
