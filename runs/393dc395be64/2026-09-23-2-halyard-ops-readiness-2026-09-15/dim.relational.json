@@ -1,0 +1,79 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "equality-matching" ],
+    "evidence" : [ {
+      "quote" : "Freya, thanks for making the time.",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Politeness formula enacting reciprocal social courtesy and acknowledgement of time given.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-3",
+    "regions" : [ "authority-ranking" ],
+    "evidence" : [ {
+      "quote" : "I want your read on it from the rota side before it hardens.",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Explicitly seeks operational consultation and review before managerial solidification/decision-locking.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-17",
+    "regions" : [ "authority-ranking" ],
+    "evidence" : [ {
+      "quote" : "Noted, and I'll lead with yours on Thursday.",
+      "kind" : "commitment-marker"
+    } ],
+    "why" : "Adopts Freya's operational case to present up to governance/steering authorities.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-22",
+    "regions" : [ "authority-ranking" ],
+    "evidence" : [ {
+      "quote" : "The staffing argument is the one I'd put in front of the steering group.",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Frames argument selection specifically for upward governance accountability.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-27",
+    "regions" : [ "equality-matching" ],
+    "evidence" : [ {
+      "quote" : "Freya, what do you need from me?",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Invites a bilateral exchange of requirements and reciprocal support.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-28",
+    "regions" : [ "equality-matching" ],
+    "evidence" : [ {
+      "quote" : "The dates, as early as you can give them, and a commitment that a soak doesn't get shortened because a date slipped.",
+      "kind" : "commitment-marker"
+    } ],
+    "why" : "Specifies explicit bilateral terms and protective commitments required in exchange.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-29",
+    "regions" : [ "equality-matching" ],
+    "evidence" : [ {
+      "quote" : "That's fair and I'll hold it.",
+      "kind" : "commitment-marker"
+    } ],
+    "why" : "Explicitly ratifies the fairness of the proposed reciprocal commitment.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-31",
+    "regions" : [ "equality-matching" ],
+    "evidence" : [ {
+      "quote" : "Thanks, Freya. Genuinely useful.",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Closes the transaction with explicit reciprocal appreciation.",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-2", "src-4", "src-5", "src-6", "src-7", "src-8", "src-9", "src-10", "src-11", "src-12", "src-13", "src-14", "src-15", "src-16", "src-18", "src-19", "src-20", "src-21", "src-23", "src-24", "src-25", "src-26", "src-30" ],
+  "unmarked_rest" : false,
+  "mints" : [ ],
+  "region_mints" : [ ]
+}
