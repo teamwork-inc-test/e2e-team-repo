@@ -1,0 +1,10 @@
+{
+  "placements" : [ {
+    "verdict" : "reuse",
+    "leaf" : "Narrative_ContainedPainOverUnboundedRisk",
+    "supporting_segments" : [ "src-2", "src-3", "src-4" ],
+    "why" : "Tina's acceptance ratifies the sequential cutover and containment strategy, while Tanya's review acts contest whether containment versus local site friction was settled (Expr_12) and whether single-site sequencing was agreed over parallel sites (Expr_8), directly addressing the core tension in Narrative_ContainedPainOverUnboundedRisk.",
+    "consulted" : [ "Narrative_ContainedPainOverUnboundedRisk", "Narrative_SingleSourceOfTruthUntilFinalCutover", "Narrative_StrictWorkloadIsolationDuringCutover" ]
+  } ],
+  "unplaced" : [ "src-1" ]
+}
