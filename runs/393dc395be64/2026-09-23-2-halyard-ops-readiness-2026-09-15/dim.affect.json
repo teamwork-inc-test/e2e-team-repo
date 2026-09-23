@@ -1,0 +1,33 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-4",
+    "regions" : [ "calm-positive" ],
+    "evidence" : [ {
+      "quote" : "Happy to.",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Readily signals low-arousal positive willingness and satisfaction.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-30",
+    "regions" : [ "calm-positive" ],
+    "evidence" : [ {
+      "quote" : "Then I'm content.",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Explicitly states a settled state of satisfaction and low-arousal positive resolution.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-31",
+    "regions" : [ "calm-positive" ],
+    "evidence" : [ {
+      "quote" : "Genuinely useful.",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Expresses warm appreciation and positive satisfaction with the discussion outcome.",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-1", "src-2", "src-3", "src-5", "src-6", "src-7", "src-8", "src-9", "src-10", "src-11", "src-12", "src-13", "src-14", "src-15", "src-16", "src-17", "src-18", "src-19", "src-20", "src-21", "src-22", "src-23", "src-24", "src-25", "src-26", "src-27", "src-28", "src-29" ],
+  "mints" : [ ],
+  "region_mints" : [ ]
+}
