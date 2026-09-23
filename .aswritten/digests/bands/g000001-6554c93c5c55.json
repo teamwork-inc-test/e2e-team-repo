@@ -1,0 +1,129 @@
+{
+  "children" : {
+    "n:Actor_TanyaTeam" : {
+      "n:Expr_1HalyardWeekly20260908_1" : 1,
+      "n:Expr_1HalyardWeekly20260908_13" : 1,
+      "n:Expr_1HalyardWeekly20260908_16" : 2,
+      "n:Expr_1HalyardWeekly20260908_20" : 2,
+      "n:Expr_1HalyardWeekly20260908_25" : 1,
+      "n:Expr_1HalyardWeekly20260908_31" : 2,
+      "n:Expr_1HalyardWeekly20260908_39" : 1,
+      "n:Expr_1HalyardWeekly20260908_42" : 1,
+      "n:Expr_1HalyardWeekly20260908_6" : 1,
+      "n:Expr_1HalyardWeekly20260908_8" : 1
+    },
+    "n:Actor_TinaTeam" : {
+      "n:Expr_1HalyardWeekly20260908_15" : 2,
+      "n:Expr_1HalyardWeekly20260908_17" : 2,
+      "n:Expr_1HalyardWeekly20260908_19" : 1,
+      "n:Expr_1HalyardWeekly20260908_22" : 1,
+      "n:Expr_1HalyardWeekly20260908_29" : 1,
+      "n:Expr_1HalyardWeekly20260908_41" : 1
+    },
+    "n:Actor_XavierExpert" : {
+      "n:Expr_1HalyardWeekly20260908_12" : 1,
+      "n:Expr_1HalyardWeekly20260908_14" : 1,
+      "n:Expr_1HalyardWeekly20260908_21" : 1,
+      "n:Expr_1HalyardWeekly20260908_24" : 1,
+      "n:Expr_1HalyardWeekly20260908_26" : 2,
+      "n:Expr_1HalyardWeekly20260908_28" : 2,
+      "n:Expr_1HalyardWeekly20260908_34" : 1,
+      "n:Expr_1HalyardWeekly20260908_36" : 2,
+      "n:Expr_1HalyardWeekly20260908_38" : 1
+    },
+    "n:CutoverStrategy" : {
+      "n:Expr_1HalyardWeekly20260908_13" : 1,
+      "n:Expr_1HalyardWeekly20260908_16" : 2,
+      "n:Expr_1HalyardWeekly20260908_26" : 1,
+      "n:Expr_1HalyardWeekly20260908_31" : 2,
+      "n:Expr_1HalyardWeekly20260908_42" : 1,
+      "n:Expr_1HalyardWeekly20260908_8" : 1,
+      "n:Narrative_ContainedPainOverUnboundedRisk" : 2,
+      "n:Narrative_SingleSourceOfTruthUntilFinalCutover" : 1,
+      "n:Narrative_StrictWorkloadIsolationDuringCutover" : 1
+    },
+    "n:Narrative_AntiSlackPositioning" : {
+      "n:Position_AntiPatternRealtimeChat" : 2,
+      "n:Position_PricingTwelveDollars" : 1,
+      "n:Position_ProductCategoryAsyncPlatform" : 1,
+      "n:Position_TargetMarketRemoteTeams" : 1
+    },
+    "n:Narrative_ContainedPainOverUnboundedRisk" : {
+      "n:Expr_1HalyardWeekly20260908_13" : 1,
+      "n:Expr_1HalyardWeekly20260908_15" : 1,
+      "n:Expr_1HalyardWeekly20260908_16" : 2,
+      "n:Expr_1HalyardWeekly20260908_17" : 1,
+      "n:Expr_1HalyardWeekly20260908_19" : 1,
+      "n:Expr_1HalyardWeekly20260908_20" : 2,
+      "n:Expr_1HalyardWeekly20260908_22" : 1,
+      "n:Expr_1HalyardWeekly20260908_42" : 2,
+      "n:Expr_1HalyardWeekly20260908_8" : 1
+    },
+    "n:Narrative_SingleSourceOfTruthUntilFinalCutover" : {
+      "n:Expr_1HalyardWeekly20260908_34" : 1,
+      "n:Expr_1HalyardWeekly20260908_36" : 1,
+      "n:Expr_1HalyardWeekly20260908_38" : 1,
+      "n:Expr_1HalyardWeekly20260908_39" : 1,
+      "n:Expr_1HalyardWeekly20260908_42" : 2
+    },
+    "n:Narrative_StrictWorkloadIsolationDuringCutover" : {
+      "n:Expr_1HalyardWeekly20260908_24" : 1,
+      "n:Expr_1HalyardWeekly20260908_25" : 1,
+      "n:Expr_1HalyardWeekly20260908_26" : 1,
+      "n:Expr_1HalyardWeekly20260908_28" : 1,
+      "n:Expr_1HalyardWeekly20260908_31" : 2,
+      "n:Expr_1HalyardWeekly20260908_42" : 2
+    },
+    "n:Position_PostGoLiveSoakDurationBasis" : {
+      "n:Expr_1HalyardWeekly20260908_17" : 1,
+      "n:Expr_1HalyardWeekly20260908_19" : 1,
+      "n:Expr_1HalyardWeekly20260908_20" : 2,
+      "n:Expr_1HalyardWeekly20260908_21" : 1,
+      "n:Expr_1HalyardWeekly20260908_22" : 1
+    },
+    "n:Position_ReferenceDataSourceOfRecordTransition" : {
+      "n:Expr_1HalyardWeekly20260908_34" : 1,
+      "n:Expr_1HalyardWeekly20260908_36" : 2,
+      "n:Expr_1HalyardWeekly20260908_38" : 1,
+      "n:Expr_1HalyardWeekly20260908_39" : 1,
+      "n:Expr_1HalyardWeekly20260908_41" : 1
+    },
+    "n:Position_SiteCutoverSequencingStrategy" : {
+      "n:Expr_1HalyardWeekly20260908_12" : 1,
+      "n:Expr_1HalyardWeekly20260908_13" : 1,
+      "n:Expr_1HalyardWeekly20260908_15" : 1,
+      "n:Expr_1HalyardWeekly20260908_16" : 2,
+      "n:Expr_1HalyardWeekly20260908_8" : 1
+    }
+  },
+  "generated_from" : "6554c93c5c55a181b729ea30886d1ffe6558631d",
+  "hubs" : {
+    "n:Actor_TanyaTeam" : 2,
+    "n:Actor_TinaTeam" : 1,
+    "n:Actor_XavierExpert" : 1,
+    "n:CutoverStrategy" : 2,
+    "n:Narrative_AntiSlackPositioning" : 1,
+    "n:Narrative_ContainedPainOverUnboundedRisk" : 2,
+    "n:Narrative_SingleSourceOfTruthUntilFinalCutover" : 1,
+    "n:Narrative_StrictWorkloadIsolationDuringCutover" : 1,
+    "n:Position_PostGoLiveSoakDurationBasis" : 2,
+    "n:Position_ReferenceDataSourceOfRecordTransition" : 1,
+    "n:Position_SiteCutoverSequencingStrategy" : 1
+  },
+  "params" : {
+    "conviction-floor" : 2,
+    "indexed-cap" : 24,
+    "indexed-frac" : 0.35,
+    "indexed-min" : 4,
+    "rich-cap" : 4,
+    "rich-frac" : 0.15,
+    "rich-min" : 1
+  },
+  "prefixes" : {
+    "n" : "https://aswritten.ai/narrative#",
+    "o" : "https://aswritten.ai/ns/narrative#"
+  },
+  "runs_sha" : "2e67354b443badc46b201c8e0e482e71e1bab25c",
+  "sittings" : 149,
+  "spec" : "fidelity-bands/1"
+}

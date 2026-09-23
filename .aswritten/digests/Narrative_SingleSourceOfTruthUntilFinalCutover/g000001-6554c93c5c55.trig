@@ -1,0 +1,29 @@
+@prefix narr: <https://aswritten.ai/narrative#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+GRAPH <https://aswritten.ai/narrative#Digest_Narrative_SingleSourceOfTruthUntilFinalCutover> {
+  <https://aswritten.ai/narrative#Digest_Narrative_SingleSourceOfTruthUntilFinalCutover> a narr:Digest ;
+    narr:digestOf <https://aswritten.ai/narrative#Narrative_SingleSourceOfTruthUntilFinalCutover> ;
+    narr:childCount "6"^^xsd:integer ;
+    narr:generatedFrom "6554c93c5c55a181b729ea30886d1ffe6558631d" ;
+    narr:narration """This narrative holds a single position, argued and then ratified in one sitting: the vendor remains the system of record for reference data — carrier codes, service levels, the zone map — until the final site cutover. [The core rule](narr:Expr_1HalyardWeekly20260908_36) fixes the handover trigger to the last site going green, with a read-only mirror in the interim. [The rationale](narr:Expr_1HalyardWeekly20260908_38) is drift risk: split ownership across sites lets reference data diverge, discovered only via a mis-priced consignment weeks later. [An accountability corollary](narr:Expr_1HalyardWeekly20260908_39) adds that single-source retention keeps blame with the vendor through the programme. [Site-team relief](narr:Expr_1HalyardWeekly20260908_41) and [a Thursday steering-group summary](narr:Expr_1HalyardWeekly20260908_42) close the loop, folding the rule into the rollout cadence. [The open framing question](narr:Expr_1HalyardWeekly20260908_34) — when does ownership actually transfer — is what the whole arc answers, though nothing here records the vendor's own agreement.""" ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_34> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_36> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_38> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_39> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_41> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_42> ;
+    narr:keyPhrase [ narr:text "The vendor stays the system of record for reference data until the last site is live." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_36> ] ;
+    narr:keyPhrase [ narr:text "we take ownership on the day Clyde goes green and not a day earlier" ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_36> ] ;
+    narr:keyPhrase [ narr:text "the zone map drifts between them. You find that out from a mis-priced consignment three weeks later." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_38> ] ;
+    narr:keyPhrase [ narr:text "Their data, their problem, right up until the end." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_39> ] ;
+    narr:keyPhrase [ narr:text "vendor holds reference data until Clyde is green" ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_42> ] ;
+    narr:variation [ narr:text "Unanimous in the room, but the position rests entirely on internal reasoning — the vendor's consent to holding reference data through cutover is nowhere witnessed." ; narr:over <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_42> ] ;
+    narr:variation [ narr:text "The framing question (when do we become system of record?) stays genuinely open in the earliest expression even as later children treat it as settled." ; narr:over <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_34> ] ;
+    narr:voiceTrait [ narr:dim "conviction" ; narr:reading "moves from musing claim to firm decision within one exchange — the position hardens as it's spoken" ; narr:text "So Thursday I'm telling them: one site at a time, two-week soak between sites" ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_42> ] ;
+    narr:voiceTrait [ narr:dim "power" ; narr:reading "expert rational-persuasion — wins by consequence, not authority" ; narr:text "Keeping one source of truth through the whole programme is worth more than getting ownership early." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_38> ] ;
+    narr:voiceTrait [ narr:dim "temporal" ; narr:reading "future-irrealis anchored to a concrete named trigger date" ; narr:text "we take ownership on the day Clyde goes green and not a day earlier" ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_36> ] ;
+    narr:voiceTrait [ narr:dim "value" ; narr:reading "conservation — protecting against loss outweighs early gain" ; narr:text "Keeping one source of truth through the whole programme is worth more than getting ownership early." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_38> ] ;
+    narr:voiceTrait [ narr:dim "style" ; narr:reading "parallelism in the ratifying voice — paired clauses mirror the structure" ; narr:text "Their data, their problem, right up until the end." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_39> ] ;
+    narr:writer "z-ai/glm-5.3-flash:nitro" .
+}

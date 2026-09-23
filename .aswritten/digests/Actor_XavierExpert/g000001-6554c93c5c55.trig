@@ -1,0 +1,42 @@
+@prefix narr: <https://aswritten.ai/narrative#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+GRAPH <https://aswritten.ai/narrative#Digest_Actor_XavierExpert> {
+  <https://aswritten.ai/narrative#Digest_Actor_XavierExpert> a narr:Digest ;
+    narr:digestOf <https://aswritten.ai/narrative#Actor_XavierExpert> ;
+    narr:childCount "15"^^xsd:integer ;
+    narr:generatedFrom "6554c93c5c55a181b729ea30886d1ffe6558631d" ;
+    narr:narration """Xavier's turns in this session move between [inviting scrutiny of his own read before it lands elsewhere](narr:Expr_1HalyardWeekly20260908_10) and building out two separate technical positions. He opens with [a coupling argument for two sites sharing a desk](narr:Expr_1HalyardWeekly20260908_12), gets [agreement on the framing](narr:Expr_1HalyardWeekly20260908_14), then flags that [the evidence behind it is thin — one site, one season](narr:Expr_1HalyardWeekly20260908_21). He cites [a past cutover outage](narr:Expr_1HalyardWeekly20260908_24) to justify [a hard rule that reporting never touches the live system during cutover](narr:Expr_1HalyardWeekly20260908_26), then quantifies the tradeoff with [a replica-lag figure](narr:Expr_1HalyardWeekly20260908_28). A second, separate thread runs from [an open question on who owns reference data](narr:Expr_1HalyardWeekly20260908_34) to [a firm position that the vendor stays system of record until the last site is live](narr:Expr_1HalyardWeekly20260908_36), backed by [a drift-risk argument for keeping one source of truth](narr:Expr_1HalyardWeekly20260908_38).""" ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_10> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_12> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_14> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_21> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_24> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_26> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_28> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_3> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_30> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_32> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_34> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_36> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_38> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_40> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_44> ;
+    narr:keyPhrase [ narr:text "reporting does not touch the live system during a cutover window, full stop." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_26> ] ;
+    narr:keyPhrase [ narr:text "a four-minute-stale number is fine and an outage is not." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_28> ] ;
+    narr:keyPhrase [ narr:text "we take ownership on the day Clyde goes green and not a day earlier." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_36> ] ;
+    narr:keyPhrase [ narr:text "Keeping one source of truth through the whole programme is worth more than getting ownership early." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_38> ] ;
+    narr:keyPhrase [ narr:text "It's one site, one season." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_21> ] ;
+    narr:keyPhrase [ narr:text "the steering group will push and I'd rather they push here." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_10> ] ;
+    narr:keyPhrase [ narr:text "Reporting on top of that is what took Dockside down for forty minutes." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_24> ] ;
+    narr:variation [ narr:text "The reporting-boundary claim, stated as an absolute rule, rests on evidence Xavier himself flags as thin — one site, one season." ; narr:over <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_26> ; narr:over <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_21> ] ;
+    narr:variation [ narr:text "Before landing the desk-coupling argument, Xavier frames it as something to be pressure-tested rather than settled — a provisional posture against his later declarative claims." ; narr:over <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_10> ; narr:over <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_12> ] ;
+    narr:variation [ narr:text "Two independent policy threads run in parallel — cutover reporting boundary vs vendor reference-data ownership timing — argued via different logics, outage precedent versus drift risk." ; narr:over <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_26> ; narr:over <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_36> ] ;
+    narr:voiceTrait [ narr:dim "conviction" ; narr:reading "flat declarative rules once he's decided, no hedge left in the sentence" ; narr:text "reporting does not touch the live system during a cutover window, full stop." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_26> ] ;
+    narr:voiceTrait [ narr:dim "power" ; narr:reading "leads with expert framing, persuades on reasoning rather than asserting authority" ; narr:text "we take ownership on the day Clyde goes green and not a day earlier." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_36> ] ;
+    narr:voiceTrait [ narr:dim "temporal" ; narr:reading "grounds arguments concretely, pulling a past incident forward to justify a future rule" ; narr:text "Reporting on top of that is what took Dockside down for forty minutes." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_24> ] ;
+    narr:voiceTrait [ narr:dim "value" ; narr:reading "weighs continuity and one source of truth over incremental gains" ; narr:text "Keeping one source of truth through the whole programme is worth more than getting ownership early." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_38> ] ;
+    narr:voiceTrait [ narr:dim "relational" ; narr:reading "frames his own claims as material for peers to test, not impose" ; narr:text "the steering group will push and I'd rather they push here." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_10> ] ;
+    narr:voiceTrait [ narr:dim "register" ; narr:reading "reaches for precise technical vocabulary and quantified specifics over vague language" ; narr:text "Replica lag. Somewhere between thirty seconds and four minutes depending on the migration job." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_28> ] ;
+    narr:writer "subscription.anthropic/claude-sonnet-5" .
+}

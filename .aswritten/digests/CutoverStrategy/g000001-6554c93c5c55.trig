@@ -1,0 +1,30 @@
+@prefix narr: <https://aswritten.ai/narrative#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+GRAPH <https://aswritten.ai/narrative#Digest_CutoverStrategy> {
+  <https://aswritten.ai/narrative#Digest_CutoverStrategy> a narr:Digest ;
+    narr:digestOf <https://aswritten.ai/narrative#CutoverStrategy> ;
+    narr:childCount "11"^^xsd:integer ;
+    narr:generatedFrom "6554c93c5c55a181b729ea30886d1ffe6558631d" ;
+    narr:narration """This hub holds a single working session that resolves into a cutover doctrine. It opens with [a demand to decide the shape now, under steering-group pressure](narr:Expr_1HalyardWeekly20260908_1), and lands on [a sequential one-site-at-a-time commitment with no parallel cutovers, even for the small sites](narr:Expr_1HalyardWeekly20260908_8) — [summed as one at a time, with a soak](narr:Expr_1HalyardWeekly20260908_16). Two isolation rules qualify the sequencing: [reporting reads are barred from the live system during cutover windows](narr:Expr_1HalyardWeekly20260908_26), ratified as [a runbook rule rather than negotiable guidance](narr:Expr_1HalyardWeekly20260908_31), and [vendor-held reference data persists until the final site goes green](narr:Expr_1HalyardWeekly20260908_36). The session closes with [a read-back of the full position for the steering group](narr:Expr_1HalyardWeekly20260908_42). The reasoning beneath it is generalized in [a bounded-friction-over-unbounded-risk justification](narr:Narrative_ContainedPainOverUnboundedRisk), alongside [single-source-of-truth retention](narr:Narrative_SingleSourceOfTruthUntilFinalCutover) and [strict workload isolation](narr:Narrative_StrictWorkloadIsolationDuringCutover).""" ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_1> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_13> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_16> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_26> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_31> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_36> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_42> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_8> ;
+    narr:covers <https://aswritten.ai/narrative#Narrative_ContainedPainOverUnboundedRisk> ;
+    narr:covers <https://aswritten.ai/narrative#Narrative_SingleSourceOfTruthUntilFinalCutover> ;
+    narr:covers <https://aswritten.ai/narrative#Narrative_StrictWorkloadIsolationDuringCutover> ;
+    narr:keyPhrase [ narr:text "No parallel cutovers, not even for the two small ones." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_8> ] ;
+    narr:keyPhrase [ narr:text "one at a time, with a soak." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_16> ] ;
+    narr:keyPhrase [ narr:text "reporting does not touch the live system during a cutover window, full stop." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_26> ] ;
+    narr:keyPhrase [ narr:text "guidance gets negotiated at three a.m." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_31> ] ;
+    narr:keyPhrase [ narr:text "we take ownership on the day Clyde goes green and not a day earlier." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_36> ] ;
+    narr:variation [ narr:text "The sequential doctrine was actively contested — the counter-position argued two cutovers in one week are unbounded risk, but conceded running two systems at one desk is itself a real, owned pain for weeks." ; narr:over <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_13> ] ;
+    narr:variation [ narr:text "The reporting rule was hardened against its own future erosion: the distinction between rule and guidance exists because guidance gets renegotiated under pressure at odd hours." ; narr:over <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_31> ] ;
+    narr:variation [ narr:text "Ownership of reference data is deliberately deferred, not transferred — the vendor stays authoritative until the last site is green, leaving a standing dependency rather than a clean handover." ; narr:over <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_36> ] ;
+    narr:writer "z-ai/glm-5.3-flash:nitro" .
+}

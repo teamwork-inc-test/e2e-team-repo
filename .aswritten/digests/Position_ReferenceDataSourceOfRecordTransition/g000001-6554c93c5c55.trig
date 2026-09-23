@@ -1,0 +1,23 @@
+@prefix narr: <https://aswritten.ai/narrative#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+GRAPH <https://aswritten.ai/narrative#Digest_Position_ReferenceDataSourceOfRecordTransition> {
+  <https://aswritten.ai/narrative#Digest_Position_ReferenceDataSourceOfRecordTransition> a narr:Digest ;
+    narr:digestOf <https://aswritten.ai/narrative#Position_ReferenceDataSourceOfRecordTransition> ;
+    narr:childCount "5"^^xsd:integer ;
+    narr:generatedFrom "6554c93c5c55a181b729ea30886d1ffe6558631d" ;
+    narr:narration """This position holds the question of [when reference-data authority moves from vendor to internal systems](narr:Expr_1HalyardWeekly20260908_34) — carrier codes, service levels, the zone map — during a multi-site rollout. The mainline answer is [vendor stays system of record until the last site is live, with a read-only mirror and ownership taken on the final cutover day](narr:Expr_1HalyardWeekly20260908_36), grounded in [the drift risk of split ownership and a mis-priced consignment surfacing weeks later](narr:Expr_1HalyardWeekly20260908_38). Support widens beyond the operational case: [an accountability argument that vendor data problems stay the vendor's to answer for](narr:Expr_1HalyardWeekly20260908_39), and [a lighter workload for site teams](narr:Expr_1HalyardWeekly20260908_41). The opening framing itself is voiced as unresolved — something the speaker keeps going round on — so the position carries both a firm proposal and the live question it answers.""" ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_34> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_36> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_38> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_39> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_41> ;
+    narr:keyPhrase [ narr:text "The question is when we become the system of record for them." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_34> ] ;
+    narr:keyPhrase [ narr:text "The vendor stays the system of record for reference data until the last site is live." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_36> ] ;
+    narr:keyPhrase [ narr:text "we take ownership on the day Clyde goes green and not a day earlier" ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_36> ] ;
+    narr:keyPhrase [ narr:text "the zone map drifts between them. You find that out from a mis-priced consignment three weeks later." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_38> ] ;
+    narr:keyPhrase [ narr:text "Their data, their problem, right up until the end." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_39> ] ;
+    narr:variation [ narr:text "The position's own author frames the milestone as an open question he keeps circling, not a settled call — the firm last-site rule is one answer among possible ones." ; narr:over <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_34> ; narr:over <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_36> ] ;
+    narr:variation [ narr:text "Support splits by motive: drift-avoidance and single-source-of-truth conservation on one side, vendor accountability and reduced site-team workload on the other — different reasons could pull apart if the cutover slips." ; narr:over <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_38> ; narr:over <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_39> ; narr:over <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_41> ] ;
+    narr:writer "z-ai/glm-5.3-flash:nitro" .
+}

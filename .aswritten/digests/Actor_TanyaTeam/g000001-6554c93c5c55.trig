@@ -1,0 +1,44 @@
+@prefix narr: <https://aswritten.ai/narrative#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+GRAPH <https://aswritten.ai/narrative#Digest_Actor_TanyaTeam> {
+  <https://aswritten.ai/narrative#Digest_Actor_TanyaTeam> a narr:Digest ;
+    narr:digestOf <https://aswritten.ai/narrative#Actor_TanyaTeam> ;
+    narr:childCount "19"^^xsd:integer ;
+    narr:generatedFrom "6554c93c5c55a181b729ea30886d1ffe6558631d" ;
+    narr:narration """Tanya's voice here is a chair running a tight meeting toward a decision she has already largely made. She opens by [bounding the discussion against a steering-group deadline](narr:Expr_1HalyardWeekly20260908_1), then [states her landing position on sequencing before hearing others out](narr:Expr_1HalyardWeekly20260908_8), and defends it by [pricing the two cutovers as a contained versus an unbounded risk](narr:Expr_1HalyardWeekly20260908_13). She probes rather than accepts — [asking where a two-week figure comes from](narr:Expr_1HalyardWeekly20260908_18) — and once satisfied, [ratifies the reasoning on the record](narr:Expr_1HalyardWeekly20260908_20). She converts agreements into rules, [ordering the replica reporting constraint written as a rule, not guidance](narr:Expr_1HalyardWeekly20260908_31), and adds a [political framing that keeps reference-data blame on the vendor](narr:Expr_1HalyardWeekly20260908_39). She closes by [rehearsing exactly what she will tell the steering group](narr:Expr_1HalyardWeekly20260908_42). The register is casual-but-commanding: antithesis and parallelism dominate her org-lane style, and she runs consultation and legitimate authority side by side.""" ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_1> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_11> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_13> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_16> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_18> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_20> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_23> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_25> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_27> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_31> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_33> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_35> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_37> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_39> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_4> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_42> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_45> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_6> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_8> ;
+    narr:keyPhrase [ narr:text "We do this one site at a time. A site goes live, it soaks, and only when that soak is clean do we start the next one. No parallel cutovers, not even for the two small ones." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_8> ] ;
+    narr:keyPhrase [ narr:text "Running two systems at one desk for a few weeks is a known, contained pain with a named owner. Two cutovers landing in the same week is an unbounded one, and we've got nobody to hand it to." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_13> ] ;
+    narr:keyPhrase [ narr:text "Then that's the rule. Reporting reads come off the replica during cutover. Xavier, write it into the runbook as a rule and not as guidance, because guidance gets negotiated at three a.m." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_31> ] ;
+    narr:keyPhrase [ narr:text "Their data, their problem, right up until the end." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_39> ] ;
+    narr:keyPhrase [ narr:text "one site at a time, two-week soak between sites, reporting off the replica during cutover, vendor holds reference data until Clyde is green" ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_42> ] ;
+    narr:variation [ narr:text "She opens with a firm decision but still genuinely probes it — demanding the source of the two-week figure before ratifying, so the firmness is tested, not automatic." ; narr:over <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_8> ; narr:over <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_18> ; narr:over <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_20> ] ;
+    narr:variation [ narr:text "Alongside the operational reasoning sits a political motive — keeping the vendor on the hook for reference data with the steering group — a different register of justification than risk-containment." ; narr:over <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_13> ; narr:over <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_39> ] ;
+    narr:voiceTrait [ narr:dim "conviction" ; narr:reading "decisive and pre-committed — she announces where she's landed, then stress-tests it before sealing it" ; narr:text "Then let me say where I've landed, because I don't think I'm going to move off it." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_8> ] ;
+    narr:voiceTrait [ narr:dim "power" ; narr:reading "legitimate authority exercised through consultation — she directs the agenda but extracts reasoning first" ; narr:text "Hold those for ten minutes. Sequencing first. Tina, you've been living in the site plan — where are we?" ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_4> ] ;
+    narr:voiceTrait [ narr:dim "relational" ; narr:reading "authority-ranking — she assigns, ratifies, and closes on her own say" ; narr:text "Agreed. Xavier, replica numbers." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_23> ] ;
+    narr:voiceTrait [ narr:dim "style" ; narr:reading "antithesis and parallelism — she argues by setting two futures side by side" ; narr:text "Running two systems at one desk for a few weeks is a known, contained pain with a named owner. Two cutovers landing in the same week is an unbounded one, and we've got nobody to hand it to." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_13> ] ;
+    narr:voiceTrait [ narr:dim "temporal" ; narr:reading "concrete-future and irrealis — she reasons about what could go wrong, then fixes what will happen" ; narr:text "Then that's the rule. Reporting reads come off the replica during cutover." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_31> ] ;
+    narr:voiceTrait [ narr:dim "register" ; narr:reading "casual in the open, plain-spoken when ruling — informality that never softens the directive" ; narr:text "Morning, both. Let's keep this one tight — I want to come out of it with the cutover shape actually decided" ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_1> ] ;
+    narr:voiceTrait [ narr:dim "affect" ; narr:reading "activated-negative under deadline pressure — impatience worn openly" ; narr:text "I've given them \"we're still working it\" twice now." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_1> ] ;
+    narr:writer "z-ai/glm-5.3-flash:nitro" .
+}
