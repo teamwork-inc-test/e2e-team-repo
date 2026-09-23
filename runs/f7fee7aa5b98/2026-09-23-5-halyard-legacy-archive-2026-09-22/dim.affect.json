@@ -1,0 +1,25 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-16",
+    "regions" : [ "calm-positive" ],
+    "evidence" : [ {
+      "quote" : "I'm persuaded.",
+      "kind" : "plain-signal"
+    } ],
+    "why" : "Clear expression of settled agreement and satisfaction with the proposed direction.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-21",
+    "regions" : [ "calm-positive" ],
+    "evidence" : [ {
+      "quote" : "Sensible.",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Succinct endorsement registering low-arousal approval and contentment with the plan.",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-1", "src-2", "src-3", "src-4", "src-5", "src-6", "src-7", "src-8", "src-9", "src-10", "src-11", "src-12", "src-13", "src-14", "src-15", "src-17", "src-18", "src-19", "src-20", "src-22", "src-23", "src-24", "src-25", "src-26", "src-27", "src-28" ],
+  "unmarked_rest" : false,
+  "mints" : [ ],
+  "region_mints" : [ ]
+}
