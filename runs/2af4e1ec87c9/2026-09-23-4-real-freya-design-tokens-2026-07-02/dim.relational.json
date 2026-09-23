@@ -1,0 +1,52 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-10",
+    "regions" : [ "communal-sharing" ],
+    "evidence" : [ {
+      "quote" : "effectively what you've built there",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Freya aligns his independent practice directly with Tanya's platform, establishing shared conceptual identity and convergence.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-11",
+    "regions" : [ "communal-sharing" ],
+    "evidence" : [ {
+      "quote" : "It sounds like you're doing a very similar process with AI like I did at Northwind with text.",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Tanya reciprocates the alignment, grounding their work in shared past history and parallel practices.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-13",
+    "regions" : [ "communal-sharing" ],
+    "evidence" : [ {
+      "quote" : "let anyone use it across the org",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Envisions undifferentiated communal distribution of brand identity across an entire organization.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-17",
+    "regions" : [ "market-pricing" ],
+    "evidence" : [ {
+      "quote" : "I haven't delivered an AI perspective as an alternative to a deck to a consulting client yet.",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Evaluates consulting engagements and deliverables against standard client transaction models.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-19",
+    "regions" : [ "market-pricing" ],
+    "evidence" : [ {
+      "quote" : "what someone is hiring you for now is a static asset that they then are dependent on you to either execute on, or they need to have someone in house that they pay quite a bit of money to then do a very lossy interpretation of your ideas",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Critiques the existing vendor-client market pricing/hiring dependency dynamics.",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-1", "src-2", "src-3", "src-4", "src-5", "src-6", "src-7", "src-8", "src-9", "src-12", "src-14", "src-15", "src-16", "src-18", "src-20" ],
+  "unmarked_rest" : false,
+  "mints" : [ ],
+  "region_mints" : [ ]
+}
