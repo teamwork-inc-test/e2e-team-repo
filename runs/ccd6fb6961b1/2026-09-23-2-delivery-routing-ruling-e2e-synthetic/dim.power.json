@@ -1,0 +1,44 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "legitimate" ],
+    "evidence" : [ {
+      "quote" : "(team owner) ruled",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Authority is exercised directly through formal position/role ('team owner') to establish a binding decision ('ruled').",
+    "reported" : false,
+    "direction" : {
+      "verdict" : "mint",
+      "node" : "mint-1"
+    }
+  }, {
+    "segment_local_id" : "src-2",
+    "regions" : [ "rational-persuasion" ],
+    "evidence" : [ {
+      "quote" : "a person should get one thing to read, not four",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Backs the directive rule with a rationale rooted in reader experience and cognitive load.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-3",
+    "regions" : [ "legitimate" ],
+    "evidence" : [ {
+      "quote" : "Tanya held",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Maintains authority against pushback, enforcing strict adherence to the established closing boundary.",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-4" ],
+  "unmarked_rest" : false,
+  "mints" : [ {
+    "id" : "mint-1",
+    "name" : "PositionalOwnerRuling",
+    "title" : "owner ruling based on positional authority",
+    "frame" : "Does the speaker invoke their explicit formal ownership or role to issue an unappealable operational ruling?",
+    "regions" : [ "legitimate" ]
+  } ],
+  "region_mints" : [ ]
+}
