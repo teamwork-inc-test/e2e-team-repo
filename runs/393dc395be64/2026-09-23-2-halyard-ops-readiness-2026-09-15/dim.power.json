@@ -1,0 +1,113 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-3",
+    "regions" : [ "consultation" ],
+    "evidence" : [ {
+      "quote" : "I want your read on it from the rota side before it hardens.",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Tanya explicitly invites Freya into shaping the operational plan prior to finalizing it.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-11",
+    "regions" : [ "rational-persuasion", "informational" ],
+    "evidence" : [ {
+      "quote" : "A cutover night pulls four of my supervisors out of the normal rota",
+      "kind" : "plain-assertion"
+    }, {
+      "quote" : "Two cutovers in the same week means eight of eleven are on cutover duty",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Freya influences sequencing decisions by laying out precise staffing arithmetic and operational facts.",
+    "reported" : false,
+    "direction" : {
+      "verdict" : "mint",
+      "node" : "mint-1"
+    }
+  }, {
+    "segment_local_id" : "src-14",
+    "regions" : [ "rational-persuasion", "expert" ],
+    "evidence" : [ {
+      "quote" : "I'm telling you it's arithmetic. One site at a time is the only sequencing my rota can actually produce people for.",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Freya frames the argument as unyielding numerical reality based on her domain expertise over rota management.",
+    "reported" : false,
+    "direction" : {
+      "verdict" : "mint",
+      "node" : "mint-1"
+    }
+  }, {
+    "segment_local_id" : "src-15",
+    "regions" : [ "rational-persuasion" ],
+    "evidence" : [ {
+      "quote" : "Yours is a hard constraint.",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Xavier explicitly ratifies Freya's logical argument as an unyielding structural constraint over speculative risk arguments.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-24",
+    "regions" : [ "consultation" ],
+    "evidence" : [ {
+      "quote" : "Xavier, anything from your side that changes?",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Tanya consults technical stakeholder Xavier to verify system rules against the proposed sequencing.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-25",
+    "regions" : [ "expert", "informational" ],
+    "evidence" : [ {
+      "quote" : "The replica rule and the reference-data rule both assume one cutover window open at a time",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Xavier leverages technical expertise and architectural rules to enforce the single-cutover constraint.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-26",
+    "regions" : [ "legitimate" ],
+    "evidence" : [ {
+      "quote" : "Then let's not go parallel.",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Tanya uses decision authority to formally lock in the non-parallel operational constraint.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-27",
+    "regions" : [ "consultation" ],
+    "evidence" : [ {
+      "quote" : "Freya, what do you need from me?",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Tanya asks directly for operational requirements and constraints from the rota owner.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-28",
+    "regions" : [ "rational-persuasion", "pressure" ],
+    "evidence" : [ {
+      "quote" : "a commitment that a soak doesn't get shortened because a date slipped.",
+      "kind" : "commitment-marker"
+    } ],
+    "why" : "Freya conditions operational feasibility on a hard managerial commitment regarding schedule integrity.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-29",
+    "regions" : [ "legitimate" ],
+    "evidence" : [ {
+      "quote" : "That's fair and I'll hold it.",
+      "kind" : "commitment-marker"
+    } ],
+    "why" : "Tanya commits managerial authority to uphold the soak schedule boundary.",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-1", "src-2", "src-4", "src-5", "src-6", "src-7", "src-8", "src-9", "src-10", "src-12", "src-13", "src-16", "src-17", "src-18", "src-19", "src-20", "src-21", "src-22", "src-23", "src-30", "src-31" ],
+  "mints" : [ {
+    "id" : "mint-1",
+    "name" : "HardArithmeticAsMandate",
+    "title" : "it's arithmetic, not risk",
+    "frame" : "Does the speaker ground authority and influence in non-negotiable physical or mathematical capacity rather than negotiable risk assessments?",
+    "regions" : [ "rational-persuasion", "expert" ]
+  } ],
+  "region_mints" : [ ]
+}
