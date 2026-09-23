@@ -1,0 +1,11 @@
+{
+  "placements" : [ {
+    "verdict" : "reuse",
+    "leaf" : "Narrative_ReactionDeliveryBundling",
+    "adopted_positions" : [ "Position_ReactionDeliveryBundlingAndBatchingBoundary" ],
+    "supporting_segments" : [ "src-1", "src-2", "src-3", "src-4" ],
+    "why" : "All four segments articulate the reaction delivery policy: the owner's ruling mandate (src-1), bundling reactions per run per person to minimize recipient fragmentation (src-2), holding the batching window boundary against pushback (src-3), and documenting the rejected per-skill delivery alternative (src-4).",
+    "consulted" : [ "Narrative_ReactionDeliveryBundling", "DesignTradeoffs", "Narrative_DefaultRefTopicBranch" ]
+  } ],
+  "unplaced" : [ ]
+}
