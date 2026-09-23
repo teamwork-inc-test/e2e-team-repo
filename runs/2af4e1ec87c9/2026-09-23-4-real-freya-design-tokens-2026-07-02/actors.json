@@ -1,0 +1,27 @@
+{
+  "bindings" : [ {
+    "name" : "claude-opus-5-5",
+    "verdict" : "bind",
+    "target" : "Actor_Claude",
+    "label" : null,
+    "why" : "AI model name drafted_by matches existing AI actor Claude."
+  }, {
+    "name" : "Freya Free",
+    "verdict" : "bind",
+    "target" : "Actor_FreyaFree",
+    "label" : null,
+    "why" : "Exact match to existing actor Freya Free."
+  }, {
+    "name" : "Tanya TeamOwner",
+    "verdict" : "bind",
+    "target" : "Actor_TanyaTeamowner",
+    "label" : null,
+    "why" : "Exact match to existing actor Tanya TeamOwner."
+  }, {
+    "name" : "tanya+staging@aswritten.ai",
+    "verdict" : "bind",
+    "target" : "Actor_TanyaTeamowner",
+    "label" : null,
+    "why" : "Account email for submitted_by Tanya TeamOwner binds to Tanya TeamOwner."
+  } ]
+}
