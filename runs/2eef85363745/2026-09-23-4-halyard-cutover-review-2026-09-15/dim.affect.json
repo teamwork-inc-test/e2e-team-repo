@@ -1,0 +1,25 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-12",
+    "regions" : [ "calm-positive" ],
+    "evidence" : [ {
+      "quote" : "Good, because I've already said the sequencing out loud",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Tanya expresses calm relief and satisfaction that the sequencing remains intact.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-23",
+    "regions" : [ "calm-positive" ],
+    "evidence" : [ {
+      "quote" : "Thank you for bringing it rather than letting it ride.",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Tanya offers direct, appreciative warmth for Tina's proactive disclosure.",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-1", "src-2", "src-3", "src-4", "src-5", "src-6", "src-7", "src-8", "src-9", "src-10", "src-11", "src-13", "src-14", "src-15", "src-16", "src-17", "src-18", "src-19", "src-20", "src-21", "src-22", "src-24" ],
+  "unmarked_rest" : false,
+  "mints" : [ ],
+  "region_mints" : [ ]
+}
