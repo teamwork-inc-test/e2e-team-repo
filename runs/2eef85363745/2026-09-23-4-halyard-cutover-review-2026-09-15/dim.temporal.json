@@ -1,0 +1,158 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "present", "irrealis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "I need to correct something I said",
+      "kind" : "commitment-marker"
+    } ],
+    "why" : "Tina focuses on an immediate present need to amend a specific prior statement.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-3",
+    "regions" : [ "past", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "On the eighth I said the soak between sites has to be two full weeks",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Refers concretely to a past factual statement made on a specific date.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-5",
+    "regions" : [ "past", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "I quoted the Dockside number — the exception queue not flattening until day nine or ten.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Tina reviews historical log data and past technical realities from the Dockside job.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-6",
+    "regions" : [ "present", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "And that job is gone.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Xavier states the current actual status of a specific batch job.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-7",
+    "regions" : [ "present", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "reconciliation is continuous now.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Focuses on the actual present operational architecture.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-9",
+    "regions" : [ "present", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "One week gives you the flattening plus three days to look at it",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Establishes the concrete timing calculation grounded in the reviewed data.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-10",
+    "regions" : [ "future", "irrealis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "We are still going one site at a time",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Tanya clarifies the planned execution sequence for upcoming site cutovers.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-12",
+    "regions" : [ "past", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "I've already said the sequencing out loud to Freya this morning",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Tanya recounts an actual conversation that took place earlier in the day.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-13",
+    "regions" : [ "present", "realis", "abstract" ],
+    "evidence" : [ {
+      "quote" : "One week is defensible but it has no slack in it.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Xavier evaluates the general risk profile and trade-offs of the proposed schedule.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-14",
+    "regions" : [ "present", "irrealis", "abstract" ],
+    "evidence" : [ {
+      "quote" : "I'd rather be defensible and know where the slack isn't",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Tina expresses an abstract preference regarding planning principles.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-15",
+    "regions" : [ "present", "realis", "abstract" ],
+    "evidence" : [ {
+      "quote" : "the new number is tight, not safe.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Xavier records an abstract characterization of the current plan parameter.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-17",
+    "regions" : [ "future", "irrealis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "It takes three weeks out of the programme.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Tina projects the specific schedule impact across the upcoming four sites.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-18",
+    "regions" : [ "future", "irrealis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "Which I will not be spending. That goes into the Clyde buffer.",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Tanya directs the allocation of future saved schedule time into a named buffer.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-20",
+    "regions" : [ "present", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "the soak between sites is one week, not two",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Tanya formally ratifies the current updated soak specification on the record.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-21",
+    "regions" : [ "past", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "They heard me say two weeks on the tenth.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Tanya points to a specific past briefing event with the steering group.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-22",
+    "regions" : [ "future", "irrealis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "I'll write it up today.",
+      "kind" : "commitment-marker"
+    } ],
+    "why" : "Tina commits to writing the specific analysis documentation later today.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-24",
+    "regions" : [ "future", "abstract" ],
+    "evidence" : [ {
+      "quote" : "It would have come out at Northgate either way, and worse.",
+      "kind" : "modal-marker"
+    } ],
+    "why" : "Tina considers a counterfactual/future risk pattern at Northgate; the explicit modal 'would have' suspends the realis sub-axis.",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-2", "src-4", "src-8", "src-11", "src-16", "src-19", "src-23" ],
+  "unmarked_rest" : false
+}
