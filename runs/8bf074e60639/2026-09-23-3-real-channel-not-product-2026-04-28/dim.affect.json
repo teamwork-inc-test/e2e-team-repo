@@ -1,0 +1,25 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-11",
+    "regions" : [ "activated-positive" ],
+    "evidence" : [ {
+      "quote" : "That's gold.",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Quoted endorsement expressing high enthusiasm and positive validation.",
+    "reported" : true
+  }, {
+    "segment_local_id" : "src-47",
+    "regions" : [ "calm-negative" ],
+    "evidence" : [ {
+      "quote" : "I don't want to make that decision right now.",
+      "kind" : "plain-signal"
+    } ],
+    "why" : "Tanya explicitly defers commitment under ambiguity, exhibiting low-arousal hesitation/reluctance.",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-1", "src-2", "src-3", "src-4", "src-5", "src-6", "src-7", "src-8", "src-9", "src-10", "src-12", "src-13", "src-14", "src-15", "src-16", "src-17", "src-18", "src-19", "src-20", "src-21", "src-22", "src-23", "src-24", "src-25", "src-26", "src-27", "src-28", "src-29", "src-30", "src-31", "src-32", "src-33", "src-34", "src-35", "src-36", "src-37", "src-38", "src-39", "src-40", "src-41", "src-42", "src-43", "src-44", "src-45", "src-46", "src-48", "src-49", "src-50", "src-51", "src-52" ],
+  "unmarked_rest" : false,
+  "mints" : [ ],
+  "region_mints" : [ ]
+}
