@@ -1,0 +1,351 @@
+{
+  "doc" : {
+    "title" : "Halyard Ops Readiness — 2026-09-15",
+    "date_stated" : "2026-09-15",
+    "actors_present" : [ "Tanya Team", "Freya Free", "Xavier Expert" ]
+  },
+  "footing_cases" : [ ],
+  "segments" : [ {
+    "local_id" : "src-1",
+    "exact" : "Freya, thanks for making the time.",
+    "actor" : "Tanya Team",
+    "act" : "expressive",
+    "circumstance" : {
+      "context" : "Halyard Ops Readiness meeting"
+    },
+    "note" : null,
+    "redacted" : false,
+    "footing_case" : null
+  }, {
+    "local_id" : "src-2",
+    "exact" : "You haven't been in these, so the short version: four sites, we're migrating them off the vendor platform, and last week we settled the cutover shape.",
+    "actor" : "Tanya Team",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Halyard Ops Readiness meeting"
+    },
+    "note" : null,
+    "redacted" : false,
+    "footing_case" : null
+  }, {
+    "local_id" : "src-3",
+    "exact" : "I want your read on it from the rota side before it hardens.",
+    "actor" : "Tanya Team",
+    "act" : "directive",
+    "circumstance" : {
+      "context" : "Halyard Ops Readiness meeting"
+    },
+    "note" : null,
+    "redacted" : false,
+    "footing_case" : null
+  }, {
+    "local_id" : "src-4",
+    "exact" : "Happy to.",
+    "actor" : "Freya Free",
+    "act" : "expressive",
+    "circumstance" : {
+      "context" : "Halyard Ops Readiness meeting"
+    },
+    "note" : null,
+    "redacted" : false,
+    "footing_case" : null
+  }, {
+    "local_id" : "src-5",
+    "exact" : "Give me the shape.",
+    "actor" : "Freya Free",
+    "act" : "directive",
+    "circumstance" : {
+      "context" : "Halyard Ops Readiness meeting"
+    },
+    "note" : null,
+    "redacted" : false,
+    "footing_case" : null
+  }, {
+    "local_id" : "src-6",
+    "exact" : "One site at a time.",
+    "actor" : "Tanya Team",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Halyard Ops Readiness meeting"
+    },
+    "note" : null,
+    "redacted" : false,
+    "footing_case" : null
+  }, {
+    "local_id" : "src-7",
+    "exact" : "A site goes live, it soaks, and only when the soak is clean do we start the next. No two cutovers running at once.",
+    "actor" : "Tanya Team",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Halyard Ops Readiness meeting"
+    },
+    "note" : null,
+    "redacted" : false,
+    "footing_case" : null
+  }, {
+    "local_id" : "src-8",
+    "exact" : "Good.",
+    "actor" : "Freya Free",
+    "act" : "expressive",
+    "circumstance" : {
+      "context" : "Halyard Ops Readiness meeting"
+    },
+    "note" : null,
+    "redacted" : false,
+    "footing_case" : null
+  }, {
+    "local_id" : "src-9",
+    "exact" : "That's the only shape that works, and I'll tell you exactly why from where I sit.",
+    "actor" : "Freya Free",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Halyard Ops Readiness meeting"
+    },
+    "note" : null,
+    "redacted" : false,
+    "footing_case" : null
+  }, {
+    "local_id" : "src-10",
+    "exact" : "Go on.",
+    "actor" : "Tanya Team",
+    "act" : "directive",
+    "circumstance" : {
+      "context" : "Halyard Ops Readiness meeting"
+    },
+    "note" : null,
+    "redacted" : false,
+    "footing_case" : null
+  }, {
+    "local_id" : "src-11",
+    "exact" : "A cutover night pulls four of my supervisors out of the normal rota — two on the floor, one on the desk, one on the phone to the vendor. I have eleven supervisors across the whole region. Two cutovers in the same week means eight of eleven are on cutover duty, and the other three are covering four sites' worth of normal operations plus whatever the first cutover is still coughing up.",
+    "actor" : "Freya Free",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Halyard Ops Readiness meeting"
+    },
+    "note" : null,
+    "redacted" : false,
+    "footing_case" : null
+  }, {
+    "local_id" : "src-12",
+    "exact" : "I can't staff that. It isn't that it's hard, it's that the people don't exist.",
+    "actor" : "Freya Free",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Halyard Ops Readiness meeting"
+    },
+    "note" : null,
+    "redacted" : false,
+    "footing_case" : null
+  }, {
+    "local_id" : "src-13",
+    "exact" : "That's a much more concrete version of what I was arguing last week.",
+    "actor" : "Tanya Team",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Halyard Ops Readiness meeting"
+    },
+    "note" : null,
+    "redacted" : false,
+    "footing_case" : null
+  }, {
+    "local_id" : "src-14",
+    "exact" : "Last week you were arguing it as risk. I'm telling you it's arithmetic. One site at a time is the only sequencing my rota can actually produce people for.",
+    "actor" : "Freya Free",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Halyard Ops Readiness meeting"
+    },
+    "note" : null,
+    "redacted" : false,
+    "footing_case" : null
+  }, {
+    "local_id" : "src-15",
+    "exact" : "For the record, that's the strongest argument anyone's made for it. The one I gave was about data drift and the one Tanya gave was about unbounded risk. Yours is a hard constraint.",
+    "actor" : "Xavier Expert",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Halyard Ops Readiness meeting"
+    },
+    "note" : null,
+    "redacted" : false,
+    "footing_case" : null
+  }, {
+    "local_id" : "src-16",
+    "exact" : "It's the one that doesn't move. The others you can argue with.",
+    "actor" : "Freya Free",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Halyard Ops Readiness meeting"
+    },
+    "note" : null,
+    "redacted" : false,
+    "footing_case" : null
+  }, {
+    "local_id" : "src-17",
+    "exact" : "Noted, and I'll lead with yours on Thursday.",
+    "actor" : "Tanya Team",
+    "act" : "commissive",
+    "circumstance" : {
+      "context" : "Halyard Ops Readiness meeting"
+    },
+    "note" : null,
+    "redacted" : false,
+    "footing_case" : null
+  }, {
+    "local_id" : "src-18",
+    "exact" : "There's a second thing that falls out of it. If we're one at a time, my supervisors get to do the second cutover having done the first one. That's worth something you won't see in a plan. The Dockside crew were visibly better on night two than night one, and that was the same night.",
+    "actor" : "Freya Free",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Halyard Ops Readiness meeting"
+    },
+    "note" : null,
+    "redacted" : false,
+    "footing_case" : null
+  }, {
+    "local_id" : "src-19",
+    "exact" : "Learning curve across sites rather than four teams all making the same mistake in parallel.",
+    "actor" : "Xavier Expert",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Halyard Ops Readiness meeting"
+    },
+    "note" : null,
+    "redacted" : false,
+    "footing_case" : null
+  }, {
+    "local_id" : "src-20",
+    "exact" : "Exactly that.",
+    "actor" : "Freya Free",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Halyard Ops Readiness meeting"
+    },
+    "note" : null,
+    "redacted" : false,
+    "footing_case" : null
+  }, {
+    "local_id" : "src-21",
+    "exact" : "So you'd hold the one-at-a-time sequencing even if the staffing eased?",
+    "actor" : "Tanya Team",
+    "act" : "question",
+    "circumstance" : {
+      "context" : "Halyard Ops Readiness meeting"
+    },
+    "note" : null,
+    "redacted" : false,
+    "footing_case" : null
+  }, {
+    "local_id" : "src-22",
+    "exact" : "I would, yes, but I want to be careful. If you gave me twenty supervisors tomorrow I'd still say one at a time, for the learning reason. But I'd be saying it less strongly. The staffing argument is the one I'd put in front of the steering group.",
+    "actor" : "Freya Free",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Halyard Ops Readiness meeting"
+    },
+    "note" : null,
+    "redacted" : false,
+    "footing_case" : null
+  }, {
+    "local_id" : "src-23",
+    "exact" : "Understood.",
+    "actor" : "Tanya Team",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Halyard Ops Readiness meeting"
+    },
+    "note" : null,
+    "redacted" : false,
+    "footing_case" : null
+  }, {
+    "local_id" : "src-24",
+    "exact" : "Xavier, anything from your side that changes?",
+    "actor" : "Tanya Team",
+    "act" : "question",
+    "circumstance" : {
+      "context" : "Halyard Ops Readiness meeting"
+    },
+    "note" : null,
+    "redacted" : false,
+    "footing_case" : null
+  }, {
+    "local_id" : "src-25",
+    "exact" : "No. It reinforces. The replica rule and the reference-data rule both assume one cutover window open at a time — I hadn't stated that assumption, and it's worth stating. If we ever went parallel, both of those would need rewriting.",
+    "actor" : "Xavier Expert",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Halyard Ops Readiness meeting"
+    },
+    "note" : null,
+    "redacted" : false,
+    "footing_case" : null
+  }, {
+    "local_id" : "src-26",
+    "exact" : "Then let's not go parallel.",
+    "actor" : "Tanya Team",
+    "act" : "directive",
+    "circumstance" : {
+      "context" : "Halyard Ops Readiness meeting"
+    },
+    "note" : null,
+    "redacted" : false,
+    "footing_case" : null
+  }, {
+    "local_id" : "src-27",
+    "exact" : "Freya, what do you need from me?",
+    "actor" : "Tanya Team",
+    "act" : "question",
+    "circumstance" : {
+      "context" : "Halyard Ops Readiness meeting"
+    },
+    "note" : null,
+    "redacted" : false,
+    "footing_case" : null
+  }, {
+    "local_id" : "src-28",
+    "exact" : "The dates, as early as you can give them, and a commitment that a soak doesn't get shortened because a date slipped. If the soak gets eaten, my supervisors are back on the floor at the same time as the next cutover and we're in the same place by another route.",
+    "actor" : "Freya Free",
+    "act" : "directive",
+    "circumstance" : {
+      "context" : "Halyard Ops Readiness meeting"
+    },
+    "note" : null,
+    "redacted" : false,
+    "footing_case" : null
+  }, {
+    "local_id" : "src-29",
+    "exact" : "That's fair and I'll hold it.",
+    "actor" : "Tanya Team",
+    "act" : "commissive",
+    "circumstance" : {
+      "context" : "Halyard Ops Readiness meeting"
+    },
+    "note" : null,
+    "redacted" : false,
+    "footing_case" : null
+  }, {
+    "local_id" : "src-30",
+    "exact" : "Then I'm content.",
+    "actor" : "Freya Free",
+    "act" : "expressive",
+    "circumstance" : {
+      "context" : "Halyard Ops Readiness meeting"
+    },
+    "note" : null,
+    "redacted" : false,
+    "footing_case" : null
+  }, {
+    "local_id" : "src-31",
+    "exact" : "Thanks, Freya. Genuinely useful.",
+    "actor" : "Tanya Team",
+    "act" : "expressive",
+    "circumstance" : {
+      "context" : "Halyard Ops Readiness meeting"
+    },
+    "note" : null,
+    "redacted" : false,
+    "footing_case" : null
+  } ],
+  "coverage_gaps" : [ ]
+}
