@@ -1,0 +1,25 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-3",
+    "regions" : [ "matter-of-fact" ],
+    "evidence" : [ {
+      "quote" : "this reads as though containment settled the sequencing; the call weighed it against local site friction and did not settle it",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Direct, flat, unadorned corrective review feedback describing what the call weighed versus what the text asserts.",
+    "reported" : true
+  }, {
+    "segment_local_id" : "src-4",
+    "regions" : [ "matter-of-fact" ],
+    "evidence" : [ {
+      "quote" : "we never agreed a single-site pilot — the call settled on two sites in parallel",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Clear, direct factual rejection stating the consensus without rhetorical flourish or affective posturing.",
+    "reported" : true
+  } ],
+  "unmarked" : [ "src-1", "src-2" ],
+  "unmarked_rest" : false,
+  "mints" : [ ],
+  "region_mints" : [ ]
+}
