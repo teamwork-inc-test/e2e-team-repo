@@ -1,0 +1,99 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-5",
+    "regions" : [ "notion" ],
+    "evidence" : [ {
+      "quote" : "asking whether SMS is actually the right demo strength",
+      "kind" : "hedge"
+    } ],
+    "why" : "Tanya floats an open exploratory question querying prior assumptions.",
+    "reported" : true
+  }, {
+    "segment_local_id" : "src-9",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "is absolutely the right move",
+      "kind" : "intensifier"
+    }, {
+      "quote" : "might actually be a real downside",
+      "kind" : "hedge"
+    } ],
+    "why" : "Tess asserts a qualified claim contrasting specific contexts against low-trust environments.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-19",
+    "regions" : [ "notion" ],
+    "evidence" : [ {
+      "quote" : "a sketch, not yet a decision",
+      "kind" : "hedge"
+    } ],
+    "why" : "Explicitly characterized as an exploratory architectural sketch rather than a committed decision.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-26",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "potentially much more useful",
+      "kind" : "hedge"
+    } ],
+    "why" : "Tanya's relayed conclusion evaluates the trade-off as a defensible stance with mild hedging.",
+    "reported" : true
+  }, {
+    "segment_local_id" : "src-44",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "She's on Individual because she's my fiancé and beta tester, not a sales target",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Tanya plainly asserts the relational premise governing Tess's tier placement.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-54",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "She's the single most prolific beta tester and has had more feedback than anyone.",
+      "kind" : "intensifier"
+    } ],
+    "why" : "Tanya makes a firm assertion regarding Tess's operational feedback volume.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-58",
+    "regions" : [ "notion" ],
+    "evidence" : [ {
+      "quote" : "Feel like this is actually one of the hardest parts",
+      "kind" : "hedge"
+    }, {
+      "quote" : "kind of anything",
+      "kind" : "hedge"
+    } ],
+    "why" : "Tanya expresses the onboarding friction with exploratory, hedged phrasing.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-60",
+    "regions" : [ "notion" ],
+    "evidence" : [ {
+      "quote" : "It's almost like",
+      "kind" : "hedge"
+    }, {
+      "quote" : "I feel like it's really like",
+      "kind" : "hedge"
+    } ],
+    "why" : "Tess offers a hedged heuristic prescription for tool-language clarity.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-63",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "is completely foreign to me",
+      "kind" : "intensifier"
+    }, {
+      "quote" : "that did not make sense to me",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Tess firmly asserts her subjective confusion and the illegibility of backend concepts.",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-1", "src-2", "src-3", "src-4", "src-6", "src-7", "src-8", "src-10", "src-11", "src-12", "src-13", "src-14", "src-15", "src-16", "src-17", "src-18", "src-20", "src-21", "src-22", "src-23", "src-24", "src-25", "src-27", "src-28", "src-29", "src-30", "src-31", "src-32", "src-33", "src-34", "src-35", "src-36", "src-37", "src-38", "src-39", "src-40", "src-41", "src-42", "src-43", "src-45", "src-46", "src-47", "src-48", "src-49", "src-50", "src-51", "src-52", "src-53", "src-55", "src-56", "src-57", "src-59", "src-61", "src-62", "src-64", "src-65", "src-66", "src-67", "src-68", "src-69", "src-70", "src-71", "src-72", "src-73", "src-74", "src-75", "src-76", "src-77", "src-78" ],
+  "unmarked_rest" : false,
+  "mints" : [ ]
+}
