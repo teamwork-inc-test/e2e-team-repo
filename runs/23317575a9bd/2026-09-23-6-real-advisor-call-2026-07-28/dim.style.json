@@ -1,0 +1,51 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-12",
+    "regions" : [ "anaphora", "analogy" ],
+    "evidence" : [ {
+      "quote" : "the telephone company always wins. The telephone company always wins because the telephone company sits in between.",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Repeated opening clause across adjacent sentences establishes an operating thesis via analogy.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-14",
+    "regions" : [ "metaphor" ],
+    "evidence" : [ {
+      "quote" : "the graph itself is the moat",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Direct AS-comparison equating the ingested decision graph to a defensible moat.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-20",
+    "regions" : [ "antithesis" ],
+    "evidence" : [ {
+      "quote" : "You're educating them on how it works and the benefits — not the use case.",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Contrasts the pedagogical focus against use-case selling within a single oppositional frame.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-21",
+    "regions" : [ "antithesis" ],
+    "evidence" : [ {
+      "quote" : "It's not that enterprise isn't a good target. It's that the quote, enterprise plan isn't about enterprise. It's about the shape of the deployment and the needs of the organization.",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Parallel oppositional framing setting 'not about enterprise' against deployment shape and organizational needs.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-25",
+    "regions" : [ "antithesis" ],
+    "evidence" : [ {
+      "quote" : "The human moment sells, not the text.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Terse oppositional aphorism contrasting human connection directly against text.",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-1", "src-2", "src-3", "src-4", "src-5", "src-6", "src-7", "src-8", "src-9", "src-10", "src-11", "src-13", "src-15", "src-16", "src-17", "src-18", "src-19", "src-22", "src-23", "src-24", "src-26", "src-27", "src-28", "src-29", "src-30" ],
+  "mints" : [ ],
+  "region_mints" : [ ]
+}
