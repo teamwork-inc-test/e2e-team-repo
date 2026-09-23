@@ -1,0 +1,34 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-18",
+    "regions" : [ "competence" ],
+    "evidence" : [ {
+      "quote" : "my supervisors get to do the second cutover having done the first one. That's worth something you won't see in a plan.",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Appeals directly to operational mastery and cumulative skill building as a primary good.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-19",
+    "regions" : [ "competence" ],
+    "evidence" : [ {
+      "quote" : "Learning curve across sites rather than four teams all making the same mistake in parallel.",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Frames value in competence and avoiding preventable errors through shared operational learning.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-28",
+    "regions" : [ "conservation" ],
+    "evidence" : [ {
+      "quote" : "a commitment that a soak doesn't get shortened because a date slipped.",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Prioritizes system stability and safety buffers over schedule acceleration.",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-1", "src-2", "src-3", "src-4", "src-5", "src-6", "src-7", "src-8", "src-9", "src-10", "src-11", "src-12", "src-13", "src-14", "src-15", "src-16", "src-17", "src-20", "src-21", "src-22", "src-23", "src-24", "src-25", "src-26", "src-27", "src-29", "src-30", "src-31" ],
+  "unmarked_rest" : false,
+  "mints" : [ ],
+  "region_mints" : [ ]
+}
