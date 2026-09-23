@@ -1,0 +1,60 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "authority-ranking" ],
+    "evidence" : [ {
+      "quote" : "Let's keep this one tight — I want to come out of it with the cutover shape actually decided",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Tanya sets meeting boundaries and declares the required outcome based on external steering group reporting demands.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-8",
+    "regions" : [ "authority-ranking" ],
+    "evidence" : [ {
+      "quote" : "Then let me say where I've landed, because I don't think I'm going to move off it.",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Tanya executes an executive decision, establishing a non-negotiable policy for the rollout.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-10",
+    "regions" : [ "equality-matching" ],
+    "evidence" : [ {
+      "quote" : "Can I push on it for a second?",
+      "kind" : "address-form"
+    } ],
+    "why" : "Xavier explicitly requests conversational permission to stress-test the established stance.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-13",
+    "regions" : [ "market-pricing" ],
+    "evidence" : [ {
+      "quote" : "Running two systems at one desk for a few weeks is a known, contained pain with a named owner. Two cutovers landing in the same week is an unbounded one",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Tanya evaluates the decision by explicitly weighing risk trade-offs and bounded vs unbounded operational costs.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-28",
+    "regions" : [ "market-pricing" ],
+    "evidence" : [ {
+      "quote" : "My argument is that a four-minute-stale number is fine and an outage is not.",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Xavier frames technical latency as an acceptable trade-off cost against outage risk.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-31",
+    "regions" : [ "authority-ranking" ],
+    "evidence" : [ {
+      "quote" : "Then that's the rule. Reporting reads come off the replica during cutover. Xavier, write it into the runbook as a rule and not as guidance",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Tanya exercises managerial authority to convert a proposal into a mandatory operational rule.",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-2", "src-3", "src-4", "src-5", "src-6", "src-7", "src-9", "src-11", "src-12", "src-14", "src-15", "src-16", "src-17", "src-18", "src-19", "src-20", "src-21", "src-22", "src-23", "src-24", "src-25", "src-26", "src-27", "src-29", "src-30", "src-32", "src-33", "src-34", "src-35", "src-36", "src-37", "src-38", "src-39", "src-40", "src-41", "src-42", "src-43", "src-44", "src-45" ],
+  "mints" : [ ],
+  "region_mints" : [ ]
+}
