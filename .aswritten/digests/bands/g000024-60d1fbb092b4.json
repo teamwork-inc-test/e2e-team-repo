@@ -11,11 +11,11 @@
       "n:Expr_1E2EDefaultRef1788774012301_1" : 1,
       "n:Expr_1E2EDefaultRef1788860066803_1" : 1,
       "n:Expr_1E2EDefaultRef1788946504627_1" : 1,
-      "n:Expr_1E2EDefaultRef1789032827498_1" : 1,
       "n:Expr_2DeliveryRoutingRulingE2ESynthetic_1" : 2,
       "n:Expr_2DeliveryRoutingRulingE2ESynthetic_2" : 2,
+      "n:Expr_2DeliveryRoutingRulingE2ESynthetic_3" : 2,
       "n:Expr_2DeliveryRoutingRulingE2ESynthetic_4" : 2,
-      "n:Expr_2DeliveryRoutingRulingE2ESynthetic_5" : 2
+      "n:Expr_2DeliveryRoutingRulingE2ESynthetic_5" : 1
     },
     "n:DesignTradeoffs" : {
       "n:Expr_2DeliveryRoutingRulingE2ESynthetic_2" : 2,
@@ -45,14 +45,22 @@
       "n:Expr_1E2EDefaultRef1789119299167_1" : 1,
       "n:Expr_1E2EDefaultRef1789205481061_1" : 1,
       "n:Expr_1E2EDefaultRef1789293262875_1" : 1
+    },
+    "n:Narrative_ReactionDeliveryBundling" : {
+      "n:Expr_2DeliveryRoutingRulingE2ESynthetic_2" : 2,
+      "n:Expr_2DeliveryRoutingRulingE2ESynthetic_3" : 1,
+      "n:Expr_2DeliveryRoutingRulingE2ESynthetic_4" : 1,
+      "n:Expr_2DeliveryRoutingRulingE2ESynthetic_5" : 1,
+      "n:Position_ReactionDeliveryBundlingAndBatchingBoundary" : 2
     }
   },
-  "generated_from" : "3ee2cd79e9af3ae2e99489cf24ba94be93b0f48e",
+  "generated_from" : "60d1fbb092b43d809785b542db82af6b8369cac5",
   "hubs" : {
     "n:Actor_Tanya_Staging" : 2,
     "n:DesignTradeoffs" : 2,
     "n:Narrative_AntiSlackPositioning" : 1,
-    "n:Narrative_DefaultRefTopicBranch" : 2
+    "n:Narrative_DefaultRefTopicBranch" : 2,
+    "n:Narrative_ReactionDeliveryBundling" : 1
   },
   "params" : {
     "conviction-floor" : 2,
@@ -67,7 +75,7 @@
     "n" : "https://aswritten.ai/narrative#",
     "o" : "https://aswritten.ai/ns/narrative#"
   },
-  "runs_sha" : "8a208771caed50e2a1c1af1d185cba030e3a96b9",
-  "sittings" : 155,
+  "runs_sha" : "ed552062ad37758bd4512b5f4f8182868d323811",
+  "sittings" : 157,
   "spec" : "fidelity-bands/1"
 }
