@@ -1,0 +1,115 @@
+{
+  "run_id" : "mp-eng-0774ac05",
+  "gates" : [ {
+    "id" : "aswritten/clarify",
+    "run?" : false,
+    "gate" : 2,
+    "reason" : "score 0.1 < threshold 0.7",
+    "score" : 0.1,
+    "evidence" : [ "I don't want to make that decision right now.", "The leaning is recorded; it is not yet a decision.", "This distinction must be preserved through extraction.", "That claim is **not superseded** by this correction.", "segments [\\\"src-27\\\"] footing explicitly carries a principal other than tanya+staging@aswritten.ai → narr:Actor_TanyaTeamowner" ]
+  }, {
+    "id" : "aswritten/refract",
+    "run?" : true,
+    "gate" : 2,
+    "reason" : "predicate only"
+  }, {
+    "id" : "aswritten/review",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "skill off"
+  }, {
+    "id" : "aswritten/riff",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "requires perspective, expand"
+  } ],
+  "spend" : {
+    "cost_usd" : 0.017279,
+    "passes" : [ {
+      "pass" : "reaction:_score",
+      "llm_calls" : 1,
+      "cost_usd" : 0.00613405
+    }, {
+      "pass" : "reaction:refract",
+      "llm_calls" : 1,
+      "cost_usd" : 0.01114505
+    } ]
+  },
+  "bundle" : {
+    "items" : 1,
+    "audience" : "only-me",
+    "recipients" : 1,
+    "moments_cached" : true,
+    "sent" : [ {
+      "items" : [ {
+        "kind" : "note",
+        "skill" : "aswritten/refract",
+        "audience" : "speakers"
+      } ],
+      "handle" : "tanya+staging@aswritten.ai",
+      "channel" : "email",
+      "status" : "sent",
+      "front_message_id" : "msg_3dj9uo2w",
+      "front_conversation_id" : "cnv_1ph5d5ig"
+    } ]
+  },
+  "policy" : {
+    "mode" : "on",
+    "budget_per_run_usd" : 0.25,
+    "channels" : [ "email", "sms" ]
+  },
+  "jobs" : [ {
+    "skill" : "aswritten/refract",
+    "status" : "ok",
+    "gate" : { },
+    "output" : {
+      "lens" : {
+        "shift" : "The product is not a phone number — it's curated expertise installation. The phone number/SMS is one distribution channel among several, right in some contexts and wrong in others, so channel choices become fit calls rather than identity statements.",
+        "affected" : [ {
+          "document" : "worldview — Identity section",
+          "section" : "tagline: 'The product is a phone number.'",
+          "how" : "Superseded — replaced by the curated-expertise-installation positioning; the old assertion is deleted in the same transaction, not merged alongside as both-true."
+        }, {
+          "document" : "Claim_CoreValuePropInstallExpertise (Foundation)",
+          "section" : "'A way to install expertise into your AI and verify where it's coming from.'",
+          "how" : "Promoted from consistent supporting claim to the positive product identity the old tagline was mis-carrying."
+        }, {
+          "document" : "Claim_SMSFormatHonesty (Foundation)",
+          "section" : "'The SMS format makes AI personalization feel honest rather than fake…'",
+          "how" : "Explicitly not superseded but re-scoped: SMS-as-trust-signal is a channel property that pays in some contexts, not a product identity."
+        }, {
+          "document" : "Archetype_KnowledgeRichConsumer (Stake)",
+          "section" : "'Main barrier is technical (MCP installation, GitHub abstraction), not behavioral.'",
+          "how" : "Gains a behavioral trust-friction strand — spam association and number-sharing reluctance make SMS the wrong demo channel for Tess's cohort; chat widget on a web form instead."
+        }, {
+          "document" : "companion memory (channel decision)",
+          "section" : "'Which channels map to which tiers (deliberately undecided as of this session)'",
+          "how" : "Holds the enterprise-only SMS leaning as a leaning, not a decision — and its open state gates promotion of this correction."
+        }, {
+          "document" : "text-for-topic experiment memories",
+          "section" : "claims asserting SMS-as-product",
+          "how" : "Re-read as experiment-local channel findings rather than root product definition; the source of the mis-embedding that keeps re-failing."
+        } ],
+        "other_lenses" : [ "SMS is a bonus/upsell with real maintenance overhead — verification churn is a permanent cost — and Tanya leans enterprise-only, but the tier mapping is deliberately left undecided (a recorded leaning, not a decision).", "The evaluator trust-tax story is now a contested tradeoff rather than a one-directional tax: seven rejected Twilio verifications make churn a permanent operational cost, while the not-an-AI-chat trust signal remains genuine value.", "Exploratory experiment claims keep hardening into product identity because there is no structural way to scope a subgraph — a newly named ontology gap, distinct from the deferred temporality fix, that explains why the phone-number tagline keeps re-embedding." ],
+        "drew_on" : [ "narrated.delta_line — supersedes the 'product is a phone number' tagline; SMS reframed as distribution channel rather than core identity", "Expr_3RealChannelNotProduct20260428_8 — 'The product is not a phone number; it's the phone number distribution channel' (principle-level correction)", "Expr_3RealChannelNotProduct20260428_9 — 'The product is curated expertise installation', aligned to Claim_CoreValuePropInstallExpertise", "Expr_3RealChannelNotProduct20260428_14 / _19 — right channel in some contexts; 'a channel property, not a product identity'", "Recon_3RealChannelNotProduct20260428_5 — tagline supersession with named replacement positioning", "Recon_3RealChannelNotProduct20260428_2 — Claim_SMSFormatHonesty explicitly not superseded; the correction is about scope", "Position_ProductIdentityChannelDisambiguation — new frame distinguishing curated expertise installation from communication/distribution channels" ],
+        "quote" : "The product is not a phone number; it's the phone number distribution channel, and it's the right distribution channel for certain contexts.",
+        "approaches" : [ "product identity and taglines", "SMS packaging and tiering", "demo-channel choice per audience", "how experiment claims are recorded vs. promoted" ],
+        "speaker" : "Tanya Team",
+        "message" : "Here's the shift: the product is not a phone number — it's curated expertise installation. The phone number/SMS is one distribution channel among several, right in some contexts and wrong in others, so channel choices become fit calls rather than identity statements.\n\nTanya, verbatim: \"The product is not a phone number; it's the phone number distribution channel, and it's the right distribution channel for certain contexts.\"\n\nWhat it changes our approach to:\n• Product identity and taglines — the old tagline gets superseded, not reworded.\n• SMS packaging and tiering — an upsell with real overhead, leaning enterprise, tier mapping deliberately open.\n• Demo-channel choice per audience — right where the not-an-AI-chat trust signal pays, wrong where SMS reads as spam-adjacent.\n• How experiment claims are recorded — what an experiment asserted stays distinct from what the product is.\n\nConfirm it on one passage — \"What this changes about prior canonical content\":\n\nAs written: The Identity section of the worldview includes the line: tagline: 'The product is a phone number.' This tagline should be superseded. The replacement positioning, in Tanya's voice: 'The product is curated expertise installation. The phone number is the distribution channel for contexts where the trust-signal of \"not an AI chat\" is worth its operational cost — primarily enterprise.'\n\nThrough the shift: the old tagline isn't a slogan due for rewording — it's a category error. An experiment's channel got promoted into standing identity, and it keeps re-embedding because nothing distinguishes what an experiment asserted from what the product is. The product is curated expertise installation; the phone number is one channel among several, worth its verification churn only where the trust signal pays — primarily enterprise — and wrong where SMS reads as spam-adjacent. Every identity statement downstream now has to agree with the replacement line, and the old tagline has to be deleted in the same transaction, not merged in as both-true.\n\nIs that the right reading?\n\nWhere this moves, per the documents the session itself names (I don't have the broader document index on this run, so flag anything I've missed):\n\n1. worldview — Identity section · tagline: 'The product is a phone number.' · Superseded: replaced by the curated-expertise-installation positioning; old assertion deleted in the same transaction, not merged alongside.\n2. Claim_CoreValuePropInstallExpertise (Foundation) · 'A way to install expertise into your AI and verify where it's coming from.' · Promoted from consistent supporting claim to the positive product identity.\n3. Claim_SMSFormatHonesty (Foundation) · 'The SMS format makes AI personalization feel honest rather than fake…' · Stands, but re-scoped: a channel property with real value in some contexts, not product identity.\n4. Archetype_KnowledgeRichConsumer (Stake) · 'Main barrier is technical (MCP installation, GitHub abstraction), not behavioral.' · Gains a behavioral strand: spam association and number-sharing reluctance make SMS the wrong demo channel for Tess's cohort — chat widget on a web form instead.\n5. Companion channel-decision memory · 'Which channels map to which tiers (deliberately undecided as of this session)' · Holds the enterprise-only leaning as a leaning, not a decision — and its open state gates promotion of this correction.\n6. Text-for-topic experiment memories · claims asserting SMS-as-product · Re-read as experiment-local channel findings, not root product definition; the source of the mis-embedding that keeps re-failing.\n\nWant me to apply this across these 6 documents?",
+        "eye_chart" : {
+          "document" : ".aswritten/memories/2026-09-23-3-real-channel-not-product-2026-04-28.md",
+          "section" : "What this changes about prior canonical content",
+          "as_written" : "The Identity section of the worldview includes the line: tagline: 'The product is a phone number.' This tagline should be superseded. The replacement positioning, in Tanya's voice from this session and consistent with prior strategy work: The product is curated expertise installation. The phone number is the distribution channel for contexts where the trust-signal of 'not an AI chat' is worth its operational cost — primarily enterprise.",
+          "through_the_lens" : "Read through the shift, the old tagline isn't a slogan due for rewording — it's a category error. An experiment's channel got promoted into standing identity, and it keeps re-embedding because nothing distinguishes what an experiment asserted from what the product is. The product is curated expertise installation; the phone number is one channel among several, worth its verification churn only where the not-an-AI-chat trust signal pays — primarily enterprise — and wrong where SMS reads as spam-adjacent. Every identity statement downstream now has to agree with the replacement line, and the old tagline has to be deleted in the same transaction, not merged in as both-true."
+        }
+      }
+    },
+    "landing" : {
+      "landed" : "message"
+    },
+    "ms" : 65499
+  } ],
+  "stream" : "fixtures/701-real",
+  "at" : "2026-09-23T17:31:53.816012198Z",
+  "live_run_id" : "8bf074e60639"
+}
