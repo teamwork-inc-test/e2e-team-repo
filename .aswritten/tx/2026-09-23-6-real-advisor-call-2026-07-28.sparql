@@ -1,0 +1,502 @@
+PREFIX narr: <https://aswritten.ai/narrative#>
+PREFIX aswr: <https://aswritten.ai/aswr#>
+PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX dct:  <http://purl.org/dc/terms/>
+PREFIX xsd:  <http://www.w3.org/2001/XMLSchema#>
+PREFIX oa:   <http://www.w3.org/ns/oa#>
+PREFIX xkos: <http://rdf-vocabulary.ddialliance.org/xkos#>
+
+INSERT DATA {
+  aswr:Tx_20260923T185701Z a prov:Activity ;
+      prov:generatedAtTime "2026-09-23T18:57:01Z"^^xsd:dateTime ;
+      prov:wasAssociatedWith "aswritten.ai" ;
+      prov:wasAttributedTo "scarlet@aswritten.ai" ;
+      aswr:pipelinePin "8dd07a49bda8" ;
+      aswr:originPath ".aswritten/memories/2026-09-23-6-real-advisor-call-2026-07-28.md" ;
+      dct:title "Multipass source extraction: Advisor Call — Tanya Team, Tina Team, Xavier Expert, Freya Free — 2026-07-28" ;
+      prov:generated narr:Sample_6RealAdvisorCall20260728, narr:Expr_6RealAdvisorCall20260728_1, narr:Expr_6RealAdvisorCall20260728_2, narr:Expr_6RealAdvisorCall20260728_3, narr:Expr_6RealAdvisorCall20260728_4, narr:Expr_6RealAdvisorCall20260728_5, narr:Expr_6RealAdvisorCall20260728_6, narr:Expr_6RealAdvisorCall20260728_7, narr:Expr_6RealAdvisorCall20260728_8, narr:Expr_6RealAdvisorCall20260728_9, narr:Expr_6RealAdvisorCall20260728_10, narr:Expr_6RealAdvisorCall20260728_11, narr:Expr_6RealAdvisorCall20260728_12, narr:Expr_6RealAdvisorCall20260728_13, narr:Expr_6RealAdvisorCall20260728_14, narr:Expr_6RealAdvisorCall20260728_15, narr:Expr_6RealAdvisorCall20260728_16, narr:Expr_6RealAdvisorCall20260728_17, narr:Expr_6RealAdvisorCall20260728_18, narr:Expr_6RealAdvisorCall20260728_19, narr:Expr_6RealAdvisorCall20260728_20, narr:Expr_6RealAdvisorCall20260728_21, narr:Expr_6RealAdvisorCall20260728_22, narr:Expr_6RealAdvisorCall20260728_23, narr:Expr_6RealAdvisorCall20260728_24, narr:Expr_6RealAdvisorCall20260728_25, narr:Expr_6RealAdvisorCall20260728_26, narr:Expr_6RealAdvisorCall20260728_27, narr:Expr_6RealAdvisorCall20260728_28, narr:Expr_6RealAdvisorCall20260728_29, narr:Expr_6RealAdvisorCall20260728_30, narr:Actor_TinaTeam .
+} ;
+INSERT DATA {
+  GRAPH aswr:Tx_20260923T185701Z {
+    narr:Sample_6RealAdvisorCall20260728 a narr:Sample ;
+        dct:title "Advisor Call — Tanya Team, Tina Team, Xavier Expert, Freya Free — 2026-07-28" ;
+        dct:created "2026-07-28"^^xsd:date ;
+        aswr:originPath ".aswritten/memories/2026-09-23-6-real-advisor-call-2026-07-28.md" ;
+        aswr:submittedBy narr:Actor_TanyaTeamowner ;
+        aswr:account narr:Actor_TanyaTeamowner .
+
+    narr:Expr_6RealAdvisorCall20260728_1 a narr:Expression ;
+        narr:actor narr:Actor_TanyaTeamowner ;
+        narr:act "assertive" ;
+        narr:animator narr:Actor_TanyaTeamowner ;
+        narr:author narr:Actor_TanyaTeamowner ;
+        narr:context "Context paragraph setting up the advisor call transcript" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_6RealAdvisorCall20260728 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Tanya Team has pulled three of her advisors onto one call before she starts fundraising, to settle who aswritten sells to first and what keeps them. Tina Team works sales and go-to-market with her; Xavier Expert is an operator who consults for mid-market businesses; Freya Free is a designer who has worked with her on the brand. Each has given Tanya a view on this separately; this is the first time the four of them are on one call." ;
+                oa:prefix "xture's composed/ directory.\n\n" ;
+                oa:suffix "\n\n# Advisor Call — Tanya Team," ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "422"^^xsd:integer ;
+                oa:end "856"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T18:57:01Z"^^xsd:dateTime .
+
+    narr:Expr_6RealAdvisorCall20260728_2 a narr:Expression ;
+        narr:actor narr:Actor_TanyaTeam ;
+        narr:act "assertive" ;
+        narr:context "Advisor Call — 2026-07-28" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_6RealAdvisorCall20260728 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "I am just starting to fundraise. I'm looking for organizations that want to use the thing. One of the things I've been thinking a lot about is the pricing and whether all of that is too low or sort of how the positioning is here." ;
+                oa:prefix "8\n2026-07-28\n\n**Tanya Team:** " ;
+                oa:suffix "\n\n**Tina Team:** From a B2C pe" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "965"^^xsd:integer ;
+                oa:end "1194"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T18:57:01Z"^^xsd:dateTime .
+
+    narr:Expr_6RealAdvisorCall20260728_3 a narr:Expression ;
+        narr:actor narr:Actor_TinaTeam ;
+        narr:act "assertive" ;
+        narr:context "Advisor Call — 2026-07-28" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_6RealAdvisorCall20260728 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "From a B2C perspective, to the single people who are building whole companies on their own. I think that's the angle." ;
+                oa:prefix "ning is here.\n\n**Tina Team:** " ;
+                oa:suffix "\n\n**Tina Team:** Think about t" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "1211"^^xsd:integer ;
+                oa:end "1328"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T18:57:01Z"^^xsd:dateTime .
+
+    narr:Expr_6RealAdvisorCall20260728_4 a narr:Expression ;
+        narr:actor narr:Actor_TinaTeam ;
+        narr:act "assertive" ;
+        narr:context "Advisor Call — 2026-07-28" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_6RealAdvisorCall20260728 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Think about the numbers though, right? The numbers really work. B2C. Because if we take theory that every single person is now their own team." ;
+                oa:prefix "'s the angle.\n\n**Tina Team:** " ;
+                oa:suffix "\n\n**Tanya Team:** Maybe that i" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "1345"^^xsd:integer ;
+                oa:end "1487"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T18:57:01Z"^^xsd:dateTime .
+
+    narr:Expr_6RealAdvisorCall20260728_5 a narr:Expression ;
+        narr:actor narr:Actor_TanyaTeam ;
+        narr:act "assertive" ;
+        narr:context "Advisor Call — 2026-07-28" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_6RealAdvisorCall20260728 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Maybe that is the more direct distillation of the shift I'm having is just realizing that it's actually more of a B2C product than a B2B product. And there's still a top tier that's a B2B tier, but the bottom tiers are big and direct and like not that confusing." ;
+                oa:prefix "ir own team.\n\n**Tanya Team:** " ;
+                oa:suffix "\n\n**Xavier Expert:** Trying to" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "1505"^^xsd:integer ;
+                oa:end "1767"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T18:57:01Z"^^xsd:dateTime .
+
+    narr:Expr_6RealAdvisorCall20260728_6 a narr:Expression ;
+        narr:actor narr:Actor_XavierExpert ;
+        narr:act "assertive" ;
+        narr:context "Advisor Call — 2026-07-28" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_6RealAdvisorCall20260728 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Trying to go after tech companies is going to be hard because tech companies all think they've solved the problem." ;
+                oa:prefix "onfusing.\n\n**Xavier Expert:** " ;
+                oa:suffix "\n\n**Tanya Team:** Yeah, I know" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "1788"^^xsd:integer ;
+                oa:end "1902"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T18:57:01Z"^^xsd:dateTime .
+
+    narr:Expr_6RealAdvisorCall20260728_7 a narr:Expression ;
+        narr:actor narr:Actor_TanyaTeam ;
+        narr:act "assertive" ;
+        narr:context "Advisor Call — 2026-07-28" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_6RealAdvisorCall20260728 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Yeah, I know, right? The problem with most developers and entrepreneurs is they've already rolled their own bullshit." ;
+                oa:prefix "the problem.\n\n**Tanya Team:** " ;
+                oa:suffix "\n\n**Tina Team:** People like m" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "1920"^^xsd:integer ;
+                oa:end "2037"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T18:57:01Z"^^xsd:dateTime .
+
+    narr:Expr_6RealAdvisorCall20260728_8 a narr:Expression ;
+        narr:actor narr:Actor_TinaTeam ;
+        narr:act "expressive" ;
+        narr:context "Advisor Call — 2026-07-28" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_6RealAdvisorCall20260728 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "People like me have 10 repos on the go with Claude right now and... all this tooling and different skills... I'm worried what's going to break or cross over." ;
+                oa:prefix "own bullshit.\n\n**Tina Team:** " ;
+                oa:suffix "\n\n**Tina Team:** The more invo" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "2054"^^xsd:integer ;
+                oa:end "2211"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T18:57:01Z"^^xsd:dateTime .
+
+    narr:Expr_6RealAdvisorCall20260728_9 a narr:Expression ;
+        narr:actor narr:Actor_TinaTeam ;
+        narr:act "assertive" ;
+        narr:context "Advisor Call — 2026-07-28" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_6RealAdvisorCall20260728 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "The more involved people are, the more they need separation from their own chaos." ;
+                oa:prefix "r cross over.\n\n**Tina Team:** " ;
+                oa:suffix "\n\n**Xavier Expert:** Find a co" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "2228"^^xsd:integer ;
+                oa:end "2309"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T18:57:01Z"^^xsd:dateTime .
+
+    narr:Expr_6RealAdvisorCall20260728_10 a narr:Expression ;
+        narr:actor narr:Actor_XavierExpert ;
+        narr:act "directive" ;
+        narr:context "Advisor Call — 2026-07-28" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_6RealAdvisorCall20260728 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Find a company that's actually a knowledge company that doesn't think of themselves as a knowledge company." ;
+                oa:prefix "wn chaos.\n\n**Xavier Expert:** " ;
+                oa:suffix "\n\n**Tanya Team:** Go on.\n\n**Xa" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "2330"^^xsd:integer ;
+                oa:end "2437"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T18:57:01Z"^^xsd:dateTime .
+
+    narr:Expr_6RealAdvisorCall20260728_11 a narr:Expression ;
+        narr:actor narr:Actor_TanyaTeam ;
+        narr:act "directive" ;
+        narr:context "Advisor Call — 2026-07-28" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_6RealAdvisorCall20260728 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Go on." ;
+                oa:prefix "dge company.\n\n**Tanya Team:** " ;
+                oa:suffix "\n\n**Xavier Expert:** One of my" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "2455"^^xsd:integer ;
+                oa:end "2461"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T18:57:01Z"^^xsd:dateTime .
+
+    narr:Expr_6RealAdvisorCall20260728_12 a narr:Expression ;
+        narr:actor narr:Actor_XavierExpert ;
+        narr:act "assertive" ;
+        narr:context "Advisor Call — 2026-07-28" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_6RealAdvisorCall20260728 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "One of my operating theses is the telephone company always wins. The telephone company always wins because the telephone company sits in between. And it's impossible to disintermediate because they sit in between." ;
+                oa:prefix "** Go on.\n\n**Xavier Expert:** " ;
+                oa:suffix "\n\n**Xavier Expert:** If there'" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "2482"^^xsd:integer ;
+                oa:end "2695"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T18:57:01Z"^^xsd:dateTime .
+
+    narr:Expr_6RealAdvisorCall20260728_13 a narr:Expression ;
+        narr:actor narr:Actor_XavierExpert ;
+        narr:act "assertive" ;
+        narr:context "Advisor Call — 2026-07-28" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_6RealAdvisorCall20260728 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "If there's an incumbent, right, who has a beachhead already, there's nothing that prevents them from like doing a shitty job. But it's enough that like the intrinsic cost of switching would be too high to a new thing." ;
+                oa:prefix " between.\n\n**Xavier Expert:** " ;
+                oa:suffix "\n\n**Tanya Team:** The more cal" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "2716"^^xsd:integer ;
+                oa:end "2933"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T18:57:01Z"^^xsd:dateTime .
+
+    narr:Expr_6RealAdvisorCall20260728_14 a narr:Expression ;
+        narr:actor narr:Actor_TanyaTeam ;
+        narr:act "assertive" ;
+        narr:context "Advisor Call — 2026-07-28" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_6RealAdvisorCall20260728 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "The more calls and decisions that you have ingested into a graph, the graph itself is the moat, right? And like, yes, I'm letting someone store the data in their repo, but the read and manipulation layer is proprietary." ;
+                oa:prefix "a new thing.\n\n**Tanya Team:** " ;
+                oa:suffix "\n\n**Xavier Expert:** I think t" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "2951"^^xsd:integer ;
+                oa:end "3170"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T18:57:01Z"^^xsd:dateTime .
+
+    narr:Expr_6RealAdvisorCall20260728_15 a narr:Expression ;
+        narr:actor narr:Actor_XavierExpert ;
+        narr:act "assertive" ;
+        narr:context "Advisor Call — 2026-07-28" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_6RealAdvisorCall20260728 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "I think that's true and I'm not disagreeing with that. I just think that like, like the, the core problem is like someone comes along and builds a better version of that, right?" ;
+                oa:prefix "prietary.\n\n**Xavier Expert:** " ;
+                oa:suffix "\n\n**Xavier Expert:** I want to" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "3191"^^xsd:integer ;
+                oa:end "3368"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T18:57:01Z"^^xsd:dateTime .
+
+    narr:Expr_6RealAdvisorCall20260728_16 a narr:Expression ;
+        narr:actor narr:Actor_XavierExpert ;
+        narr:act "assertive" ;
+        narr:context "Advisor Call — 2026-07-28" ;
+        skos:note "Voicing network effect user perspective" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_6RealAdvisorCall20260728 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "I want to have as written because you have as written and that makes my as written more valuable because you have it." ;
+                oa:prefix "t, right?\n\n**Xavier Expert:** " ;
+                oa:suffix "\n\n**Freya Free:** Without my i" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "3389"^^xsd:integer ;
+                oa:end "3506"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T18:57:01Z"^^xsd:dateTime .
+
+    narr:Expr_6RealAdvisorCall20260728_17 a narr:Expression ;
+        narr:actor narr:Actor_FreyaFree ;
+        narr:act "assertive" ;
+        narr:context "Advisor Call — 2026-07-28" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_6RealAdvisorCall20260728 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Without my input through my own lens, it breaks, it falls down. So that shows that the actual unique part is by my lens — is applying the lens, which I suppose is effectively what you've built there... it is the lens that controls all of that." ;
+                oa:prefix "you have it.\n\n**Freya Free:** " ;
+                oa:suffix "\n\n**Tanya Team:** The real dif" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "3524"^^xsd:integer ;
+                oa:end "3767"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T18:57:01Z"^^xsd:dateTime .
+
+    narr:Expr_6RealAdvisorCall20260728_18 a narr:Expression ;
+        narr:actor narr:Actor_TanyaTeam ;
+        narr:act "assertive" ;
+        narr:context "Advisor Call — 2026-07-28" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_6RealAdvisorCall20260728 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "The real differentiator and the technical moat is that I take textual documents and I extract perspective from them and then I make that perspective citable in the individual task." ;
+                oa:prefix "all of that.\n\n**Tanya Team:** " ;
+                oa:suffix "\n\n**Tina Team:** 90% of what I" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "3785"^^xsd:integer ;
+                oa:end "3965"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T18:57:01Z"^^xsd:dateTime .
+
+    narr:Expr_6RealAdvisorCall20260728_19 a narr:Expression ;
+        narr:actor narr:Actor_TinaTeam ;
+        narr:act "assertive" ;
+        narr:context "Advisor Call — 2026-07-28" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_6RealAdvisorCall20260728 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "90% of what I see people chasing though is structure for context and memory." ;
+                oa:prefix "ividual task.\n\n**Tina Team:** " ;
+                oa:suffix "\n\n**Tina Team:** You're sellin" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "3982"^^xsd:integer ;
+                oa:end "4058"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T18:57:01Z"^^xsd:dateTime .
+
+    narr:Expr_6RealAdvisorCall20260728_20 a narr:Expression ;
+        narr:actor narr:Actor_TinaTeam ;
+        narr:act "assertive" ;
+        narr:context "Advisor Call — 2026-07-28" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_6RealAdvisorCall20260728 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "You're selling to an audience that wants something like this… they're looking for a solution. You're educating them on how it works and the benefits — not the use case." ;
+                oa:prefix "t and memory.\n\n**Tina Team:** " ;
+                oa:suffix "\n\n**Tanya Team:** It's not tha" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "4075"^^xsd:integer ;
+                oa:end "4243"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T18:57:01Z"^^xsd:dateTime .
+
+    narr:Expr_6RealAdvisorCall20260728_21 a narr:Expression ;
+        narr:actor narr:Actor_TanyaTeam ;
+        narr:act "assertive" ;
+        narr:context "Advisor Call — 2026-07-28" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_6RealAdvisorCall20260728 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "It's not that enterprise isn't a good target. It's that the quote, enterprise plan isn't about enterprise. It's about the shape of the deployment and the needs of the organization." ;
+                oa:prefix "he use case.\n\n**Tanya Team:** " ;
+                oa:suffix "\n\n**Xavier Expert:** That's fa" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "4261"^^xsd:integer ;
+                oa:end "4441"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T18:57:01Z"^^xsd:dateTime .
+
+    narr:Expr_6RealAdvisorCall20260728_22 a narr:Expression ;
+        narr:actor narr:Actor_XavierExpert ;
+        narr:act "assertive" ;
+        narr:context "Advisor Call — 2026-07-28" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_6RealAdvisorCall20260728 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "That's fair." ;
+                oa:prefix "nization.\n\n**Xavier Expert:** " ;
+                oa:suffix "\n\n**Freya Free:** I have an id" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "4462"^^xsd:integer ;
+                oa:end "4474"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T18:57:01Z"^^xsd:dateTime .
+
+    narr:Expr_6RealAdvisorCall20260728_23 a narr:Expression ;
+        narr:actor narr:Actor_FreyaFree ;
+        narr:act "commissive" ;
+        narr:context "Advisor Call — 2026-07-28" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_6RealAdvisorCall20260728 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "I have an idea of when I have the time, I will invest and build the perspective." ;
+                oa:prefix "That's fair.\n\n**Freya Free:** " ;
+                oa:suffix "\n\n**Tanya Team:** I could buil" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "4492"^^xsd:integer ;
+                oa:end "4572"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T18:57:01Z"^^xsd:dateTime .
+
+    narr:Expr_6RealAdvisorCall20260728_24 a narr:Expression ;
+        narr:actor narr:Actor_TanyaTeam ;
+        narr:act "assertive" ;
+        narr:context "Advisor Call — 2026-07-28" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_6RealAdvisorCall20260728 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "I could build out the marketplace by basically creating a podcast where I interview people about their business and perspective, and each of those things gets packaged into an installable expertise and they're just available." ;
+                oa:prefix "perspective.\n\n**Tanya Team:** " ;
+                oa:suffix "\n\n**Freya Free:** The human mo" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "4590"^^xsd:integer ;
+                oa:end "4815"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T18:57:01Z"^^xsd:dateTime .
+
+    narr:Expr_6RealAdvisorCall20260728_25 a narr:Expression ;
+        narr:actor narr:Actor_FreyaFree ;
+        narr:act "assertive" ;
+        narr:context "Advisor Call — 2026-07-28" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_6RealAdvisorCall20260728 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "The human moment sells, not the text." ;
+                oa:prefix "t available.\n\n**Freya Free:** " ;
+                oa:suffix "\n\n**Tanya Team:** I haven't de" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "4833"^^xsd:integer ;
+                oa:end "4870"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T18:57:01Z"^^xsd:dateTime .
+
+    narr:Expr_6RealAdvisorCall20260728_26 a narr:Expression ;
+        narr:actor narr:Actor_TanyaTeam ;
+        narr:act "assertive" ;
+        narr:context "Advisor Call — 2026-07-28" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_6RealAdvisorCall20260728 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "I haven't delivered an AI perspective as an alternative to a deck to a consulting client yet. But actually I think that's a really... that does seem like the future to me." ;
+                oa:prefix "ot the text.\n\n**Tanya Team:** " ;
+                oa:suffix "\n\n**Tina Team:** I think you'v" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "4888"^^xsd:integer ;
+                oa:end "5059"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T18:57:01Z"^^xsd:dateTime .
+
+    narr:Expr_6RealAdvisorCall20260728_27 a narr:Expression ;
+        narr:actor narr:Actor_TinaTeam ;
+        narr:act "assertive" ;
+        narr:context "Advisor Call — 2026-07-28" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_6RealAdvisorCall20260728 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "I think you've got a sticky product. If you can get it into the hands of 20, 50 people... The word of mouth of that will just... that's really catapult." ;
+                oa:prefix "future to me.\n\n**Tina Team:** " ;
+                oa:suffix "\n\n**Xavier Expert:** Short ter" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "5076"^^xsd:integer ;
+                oa:end "5228"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T18:57:01Z"^^xsd:dateTime .
+
+    narr:Expr_6RealAdvisorCall20260728_28 a narr:Expression ;
+        narr:actor narr:Actor_XavierExpert ;
+        narr:act "directive" ;
+        narr:context "Advisor Call — 2026-07-28" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_6RealAdvisorCall20260728 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Short term, like this, this thing can win and I think you should win. But like know the, know the strategic environment you are operating in and the world where the, where, where the world will go." ;
+                oa:prefix "catapult.\n\n**Xavier Expert:** " ;
+                oa:suffix "\n\n**Tanya Team:** Yeah. Workin" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "5249"^^xsd:integer ;
+                oa:end "5446"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T18:57:01Z"^^xsd:dateTime .
+
+    narr:Expr_6RealAdvisorCall20260728_29 a narr:Expression ;
+        narr:actor narr:Actor_TanyaTeam ;
+        narr:act "assertive" ;
+        narr:context "Advisor Call — 2026-07-28" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_6RealAdvisorCall20260728 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Yeah. Working on it. I gotta pull my head out of the development." ;
+                oa:prefix "rld will go.\n\n**Tanya Team:** " ;
+                oa:suffix "\n\n**Xavier Expert:** Yeah, exa" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "5464"^^xsd:integer ;
+                oa:end "5529"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T18:57:01Z"^^xsd:dateTime .
+
+    narr:Expr_6RealAdvisorCall20260728_30 a narr:Expression ;
+        narr:actor narr:Actor_XavierExpert ;
+        narr:act "directive" ;
+        narr:context "Advisor Call — 2026-07-28" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_6RealAdvisorCall20260728 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Yeah, exactly. Just stop and go sell it." ;
+                oa:prefix "elopment.\n\n**Xavier Expert:** " ;
+                oa:suffix "\n" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "5550"^^xsd:integer ;
+                oa:end "5590"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T18:57:01Z"^^xsd:dateTime .
+
+    narr:Actor_TinaTeam a narr:Actor ;
+        skos:prefLabel "Tina Team" .
+
+    aswr:Run_20260923T185701Z_actors a prov:Activity ;
+        aswr:runPass "actors" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/26ff75d12028/2026-09-23-6-real-advisor-call-2026-07-28/actors.json" ;
+        prov:generated narr:Actor_TinaTeam ;
+        dct:isPartOf aswr:Tx_20260923T185701Z ;
+        prov:generatedAtTime "2026-09-23T18:57:01Z"^^xsd:dateTime .
+
+    aswr:Run_20260923T185701Z_pass1 a prov:Activity ;
+        aswr:runPass "pass1" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/26ff75d12028/2026-09-23-6-real-advisor-call-2026-07-28/pass1.json" ;
+        prov:generated narr:Sample_6RealAdvisorCall20260728, narr:Expr_6RealAdvisorCall20260728_1, narr:Expr_6RealAdvisorCall20260728_2, narr:Expr_6RealAdvisorCall20260728_3, narr:Expr_6RealAdvisorCall20260728_4, narr:Expr_6RealAdvisorCall20260728_5, narr:Expr_6RealAdvisorCall20260728_6, narr:Expr_6RealAdvisorCall20260728_7, narr:Expr_6RealAdvisorCall20260728_8, narr:Expr_6RealAdvisorCall20260728_9, narr:Expr_6RealAdvisorCall20260728_10, narr:Expr_6RealAdvisorCall20260728_11, narr:Expr_6RealAdvisorCall20260728_12, narr:Expr_6RealAdvisorCall20260728_13, narr:Expr_6RealAdvisorCall20260728_14, narr:Expr_6RealAdvisorCall20260728_15, narr:Expr_6RealAdvisorCall20260728_16, narr:Expr_6RealAdvisorCall20260728_17, narr:Expr_6RealAdvisorCall20260728_18, narr:Expr_6RealAdvisorCall20260728_19, narr:Expr_6RealAdvisorCall20260728_20, narr:Expr_6RealAdvisorCall20260728_21, narr:Expr_6RealAdvisorCall20260728_22, narr:Expr_6RealAdvisorCall20260728_23, narr:Expr_6RealAdvisorCall20260728_24, narr:Expr_6RealAdvisorCall20260728_25, narr:Expr_6RealAdvisorCall20260728_26, narr:Expr_6RealAdvisorCall20260728_27, narr:Expr_6RealAdvisorCall20260728_28, narr:Expr_6RealAdvisorCall20260728_29, narr:Expr_6RealAdvisorCall20260728_30 ;
+        dct:isPartOf aswr:Tx_20260923T185701Z ;
+        prov:generatedAtTime "2026-09-23T18:57:01Z"^^xsd:dateTime .
+  }
+}
