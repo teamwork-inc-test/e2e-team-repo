@@ -1,0 +1,11 @@
+{
+  "placements" : [ {
+    "verdict" : "reuse",
+    "leaf" : "Narrative_ReactionDeliveryBundling",
+    "supporting_segments" : [ "src-2", "src-3", "src-4" ],
+    "adopted_positions" : [ "Position_ReactionDeliveryBundlingAndBatchingBoundary" ],
+    "why" : "Segments src-2, src-3, and src-4 define the core architectural policy for aggregating reaction notifications into a single bundle per run per person, enforcing the run-close boundary against pushback, and explicitly rejecting per-skill client-side collapsing.",
+    "consulted" : [ "Narrative_ReactionDeliveryBundling", "DesignTradeoffs", "Narrative_DefaultRefTopicBranch", "Narrative_AntiSlackPositioning" ]
+  } ],
+  "unplaced" : [ "src-1" ]
+}
