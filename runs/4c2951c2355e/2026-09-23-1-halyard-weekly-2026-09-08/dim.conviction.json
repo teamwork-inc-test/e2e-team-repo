@@ -1,0 +1,150 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-8",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "I don't think I'm going to move off it. We do this one site at a time.",
+      "kind" : "commitment-marker"
+    }, {
+      "quote" : "No parallel cutovers, not even for the two small ones.",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Tanya states an unmovable operational stance and rules out parallel cutovers firmly.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-13",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "I still think it's the wrong trade.",
+      "kind" : "epistemic-verb"
+    } ],
+    "why" : "Tanya defends her position against Xavier's test using comparative risk reasoning.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-15",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "the desk supervisor's pain is a rota problem, which is solvable.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Tina offers a structured defense supporting Tanya's stance.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-16",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "Right. So: one at a time, with a soak.",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Tanya ratifies the one-at-a-time sequencing decision.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-17",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "The soak is two full weeks. That's the Dockside number, and I'd hold us to it.",
+      "kind" : "commitment-marker"
+    } ],
+    "why" : "Tina strongly proposes and stakes out a two-week duration requirement.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-19",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "Two weeks gives you the flattening plus a few days to actually look at what flattened.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Tina provides empirical defense from the spring pilot curve.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-20",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "That's the reasoning I wanted on the record. Two weeks, from the Dockside exception curve.",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Tanya puts the two-week duration on the official record, ratifying it.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-22",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "I'd rather hold two weeks and shorten it with evidence than hold one week and discover we needed two.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Tina defends the conservatism of the duration estimate.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-26",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "Not \"should\", not \"where possible\" — reporting does not touch the live system during a cutover window, full stop.",
+      "kind" : "intensifier"
+    } ],
+    "why" : "Xavier proposes an absolute operational rule with strict boundaries.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-28",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "My argument is that a four-minute-stale number is fine and an outage is not.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Xavier frames his trade-off argument ready to defend it.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-31",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "Then that's the rule. Reporting reads come off the replica during cutover.",
+      "kind" : "performed-act"
+    }, {
+      "quote" : "write it into the runbook as a rule and not as guidance",
+      "kind" : "commitment-marker"
+    } ],
+    "why" : "Tanya formally adopts the rule and directs it to be written into the runbook as binding.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-36",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "The vendor stays the system of record for reference data until the last site is live.",
+      "kind" : "plain-assertion"
+    }, {
+      "quote" : "and we take ownership on the day Clyde goes green and not a day earlier.",
+      "kind" : "commitment-marker"
+    } ],
+    "why" : "Xavier outlines his recommended position on reference data ownership.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-38",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "Keeping one source of truth through the whole programme is worth more than getting ownership early.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Xavier articulates the rationale behind delaying system-of-record ownership.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-39",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "I agree with that, and I'd add: it also means the vendor can't tell the steering group that their reference data was fine and ours broke it.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Tanya seconds the claim and adds defensive rationale.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-42",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "So Thursday I'm telling them: one site at a time, two-week soak between sites, reporting off the replica during cutover, vendor holds reference data until Clyde is green.",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Tanya summarizes the four ratified decisions to take to the steering group.",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-1", "src-2", "src-3", "src-4", "src-5", "src-6", "src-7", "src-9", "src-10", "src-11", "src-12", "src-14", "src-18", "src-21", "src-23", "src-24", "src-25", "src-27", "src-29", "src-30", "src-32", "src-33", "src-34", "src-35", "src-37", "src-40", "src-41", "src-43", "src-44", "src-45" ],
+  "unmarked_rest" : false,
+  "mints" : [ ]
+}
