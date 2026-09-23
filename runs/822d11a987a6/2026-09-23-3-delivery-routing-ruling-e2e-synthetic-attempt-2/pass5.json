@@ -1,0 +1,11 @@
+{
+  "placements" : [ {
+    "verdict" : "reuse",
+    "leaf" : "Narrative_ReactionDeliveryBundling",
+    "supporting_segments" : [ "src-1", "src-2", "src-3", "src-4" ],
+    "why" : "Restates and reinforces the reaction delivery policy: bundling reactions per run per person, holding the batching window boundary at run close against pushback, and rejecting client-side per-skill collapsing to protect recipient cognitive load.",
+    "consulted" : [ "Narrative_ReactionDeliveryBundling", "DesignTradeoffs", "Narrative_DefaultRefTopicBranch", "Narrative_AntiSlackPositioning" ],
+    "adopted_positions" : [ "Position_ReactionDeliveryBundlingAndBatchingBoundary" ]
+  } ],
+  "unplaced" : [ ]
+}
