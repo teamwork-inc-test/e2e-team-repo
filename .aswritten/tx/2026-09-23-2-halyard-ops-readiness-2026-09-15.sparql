@@ -1,0 +1,514 @@
+PREFIX narr: <https://aswritten.ai/narrative#>
+PREFIX aswr: <https://aswritten.ai/aswr#>
+PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX dct:  <http://purl.org/dc/terms/>
+PREFIX xsd:  <http://www.w3.org/2001/XMLSchema#>
+PREFIX oa:   <http://www.w3.org/ns/oa#>
+PREFIX xkos: <http://rdf-vocabulary.ddialliance.org/xkos#>
+
+INSERT DATA {
+  aswr:Tx_20260923T014706Z a prov:Activity ;
+      prov:generatedAtTime "2026-09-23T01:47:06Z"^^xsd:dateTime ;
+      prov:wasAssociatedWith "aswritten.ai" ;
+      prov:wasAttributedTo "scarlet@aswritten.ai" ;
+      aswr:pipelinePin "8dd07a49bda8" ;
+      aswr:originPath ".aswritten/memories/2026-09-23-2-halyard-ops-readiness-2026-09-15.md" ;
+      dct:title "Multipass source extraction: Halyard Ops Readiness — 2026-09-15" ;
+      prov:generated narr:Sample_2HalyardOpsReadiness20260915, narr:Expr_2HalyardOpsReadiness20260915_1, narr:Expr_2HalyardOpsReadiness20260915_2, narr:Expr_2HalyardOpsReadiness20260915_3, narr:Expr_2HalyardOpsReadiness20260915_4, narr:Expr_2HalyardOpsReadiness20260915_5, narr:Expr_2HalyardOpsReadiness20260915_6, narr:Expr_2HalyardOpsReadiness20260915_7, narr:Expr_2HalyardOpsReadiness20260915_8, narr:Expr_2HalyardOpsReadiness20260915_9, narr:Expr_2HalyardOpsReadiness20260915_10, narr:Expr_2HalyardOpsReadiness20260915_11, narr:Expr_2HalyardOpsReadiness20260915_12, narr:Expr_2HalyardOpsReadiness20260915_13, narr:Expr_2HalyardOpsReadiness20260915_14, narr:Expr_2HalyardOpsReadiness20260915_15, narr:Expr_2HalyardOpsReadiness20260915_16, narr:Expr_2HalyardOpsReadiness20260915_17, narr:Expr_2HalyardOpsReadiness20260915_18, narr:Expr_2HalyardOpsReadiness20260915_19, narr:Expr_2HalyardOpsReadiness20260915_20, narr:Expr_2HalyardOpsReadiness20260915_21, narr:Expr_2HalyardOpsReadiness20260915_22, narr:Expr_2HalyardOpsReadiness20260915_23, narr:Expr_2HalyardOpsReadiness20260915_24, narr:Expr_2HalyardOpsReadiness20260915_25, narr:Expr_2HalyardOpsReadiness20260915_26, narr:Expr_2HalyardOpsReadiness20260915_27, narr:Expr_2HalyardOpsReadiness20260915_28, narr:Expr_2HalyardOpsReadiness20260915_29, narr:Expr_2HalyardOpsReadiness20260915_30, narr:Expr_2HalyardOpsReadiness20260915_31, narr:Actor_FreyaFree .
+} ;
+INSERT DATA {
+  GRAPH aswr:Tx_20260923T014706Z {
+    narr:Sample_2HalyardOpsReadiness20260915 a narr:Sample ;
+        dct:title "Halyard Ops Readiness — 2026-09-15" ;
+        dct:created "2026-09-15"^^xsd:date ;
+        aswr:originPath ".aswritten/memories/2026-09-23-2-halyard-ops-readiness-2026-09-15.md" ;
+        aswr:submittedBy narr:Actor_TanyaTeamowner ;
+        aswr:account narr:Actor_TanyaTeamowner .
+
+    narr:Expr_2HalyardOpsReadiness20260915_1 a narr:Expression ;
+        narr:actor narr:Actor_TanyaTeam ;
+        narr:act "expressive" ;
+        narr:context "Halyard Ops Readiness meeting" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_2HalyardOpsReadiness20260915 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Freya, thanks for making the time." ;
+                oa:prefix "s\n2026-09-15\n\n**Tanya Team:** " ;
+                oa:suffix " You haven't been in these, so" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "259"^^xsd:integer ;
+                oa:end "293"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T01:47:06Z"^^xsd:dateTime .
+
+    narr:Expr_2HalyardOpsReadiness20260915_2 a narr:Expression ;
+        narr:actor narr:Actor_TanyaTeam ;
+        narr:act "assertive" ;
+        narr:context "Halyard Ops Readiness meeting" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_2HalyardOpsReadiness20260915 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "You haven't been in these, so the short version: four sites, we're migrating them off the vendor platform, and last week we settled the cutover shape." ;
+                oa:prefix ", thanks for making the time. " ;
+                oa:suffix " I want your read on it from t" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "294"^^xsd:integer ;
+                oa:end "444"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T01:47:06Z"^^xsd:dateTime .
+
+    narr:Expr_2HalyardOpsReadiness20260915_3 a narr:Expression ;
+        narr:actor narr:Actor_TanyaTeam ;
+        narr:act "directive" ;
+        narr:context "Halyard Ops Readiness meeting" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_2HalyardOpsReadiness20260915 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "I want your read on it from the rota side before it hardens." ;
+                oa:prefix "we settled the cutover shape. " ;
+                oa:suffix "\n\n**Freya Free:** Happy to. Gi" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "445"^^xsd:integer ;
+                oa:end "505"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T01:47:06Z"^^xsd:dateTime .
+
+    narr:Expr_2HalyardOpsReadiness20260915_4 a narr:Expression ;
+        narr:actor narr:Actor_FreyaFree ;
+        narr:act "expressive" ;
+        narr:context "Halyard Ops Readiness meeting" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_2HalyardOpsReadiness20260915 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Happy to." ;
+                oa:prefix " it hardens.\n\n**Freya Free:** " ;
+                oa:suffix " Give me the shape.\n\n**Tanya T" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "523"^^xsd:integer ;
+                oa:end "532"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T01:47:06Z"^^xsd:dateTime .
+
+    narr:Expr_2HalyardOpsReadiness20260915_5 a narr:Expression ;
+        narr:actor narr:Actor_FreyaFree ;
+        narr:act "directive" ;
+        narr:context "Halyard Ops Readiness meeting" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_2HalyardOpsReadiness20260915 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Give me the shape." ;
+                oa:prefix "s.\n\n**Freya Free:** Happy to. " ;
+                oa:suffix "\n\n**Tanya Team:** One site at " ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "533"^^xsd:integer ;
+                oa:end "551"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T01:47:06Z"^^xsd:dateTime .
+
+    narr:Expr_2HalyardOpsReadiness20260915_6 a narr:Expression ;
+        narr:actor narr:Actor_TanyaTeam ;
+        narr:act "assertive" ;
+        narr:context "Halyard Ops Readiness meeting" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_2HalyardOpsReadiness20260915 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "One site at a time." ;
+                oa:prefix "e the shape.\n\n**Tanya Team:** " ;
+                oa:suffix " A site goes live, it soaks, a" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "569"^^xsd:integer ;
+                oa:end "588"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T01:47:06Z"^^xsd:dateTime .
+
+    narr:Expr_2HalyardOpsReadiness20260915_7 a narr:Expression ;
+        narr:actor narr:Actor_TanyaTeam ;
+        narr:act "assertive" ;
+        narr:context "Halyard Ops Readiness meeting" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_2HalyardOpsReadiness20260915 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "A site goes live, it soaks, and only when the soak is clean do we start the next. No two cutovers running at once." ;
+                oa:prefix "a Team:** One site at a time. " ;
+                oa:suffix "\n\n**Freya Free:** Good. That's" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "589"^^xsd:integer ;
+                oa:end "703"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T01:47:06Z"^^xsd:dateTime .
+
+    narr:Expr_2HalyardOpsReadiness20260915_8 a narr:Expression ;
+        narr:actor narr:Actor_FreyaFree ;
+        narr:act "expressive" ;
+        narr:context "Halyard Ops Readiness meeting" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_2HalyardOpsReadiness20260915 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Good." ;
+                oa:prefix "ing at once.\n\n**Freya Free:** " ;
+                oa:suffix " That's the only shape that wo" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "721"^^xsd:integer ;
+                oa:end "726"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T01:47:06Z"^^xsd:dateTime .
+
+    narr:Expr_2HalyardOpsReadiness20260915_9 a narr:Expression ;
+        narr:actor narr:Actor_FreyaFree ;
+        narr:act "assertive" ;
+        narr:context "Halyard Ops Readiness meeting" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_2HalyardOpsReadiness20260915 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "That's the only shape that works, and I'll tell you exactly why from where I sit." ;
+                oa:prefix " once.\n\n**Freya Free:** Good. " ;
+                oa:suffix "\n\n**Tanya Team:** Go on.\n\n**Fr" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "727"^^xsd:integer ;
+                oa:end "808"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T01:47:06Z"^^xsd:dateTime .
+
+    narr:Expr_2HalyardOpsReadiness20260915_10 a narr:Expression ;
+        narr:actor narr:Actor_TanyaTeam ;
+        narr:act "directive" ;
+        narr:context "Halyard Ops Readiness meeting" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_2HalyardOpsReadiness20260915 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Go on." ;
+                oa:prefix "where I sit.\n\n**Tanya Team:** " ;
+                oa:suffix "\n\n**Freya Free:** A cutover ni" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "826"^^xsd:integer ;
+                oa:end "832"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T01:47:06Z"^^xsd:dateTime .
+
+    narr:Expr_2HalyardOpsReadiness20260915_11 a narr:Expression ;
+        narr:actor narr:Actor_FreyaFree ;
+        narr:act "assertive" ;
+        narr:context "Halyard Ops Readiness meeting" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_2HalyardOpsReadiness20260915 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "A cutover night pulls four of my supervisors out of the normal rota — two on the floor, one on the desk, one on the phone to the vendor. I have eleven supervisors across the whole region. Two cutovers in the same week means eight of eleven are on cutover duty, and the other three are covering four sites' worth of normal operations plus whatever the first cutover is still coughing up." ;
+                oa:prefix "am:** Go on.\n\n**Freya Free:** " ;
+                oa:suffix " I can't staff that. It isn't " ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "850"^^xsd:integer ;
+                oa:end "1236"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T01:47:06Z"^^xsd:dateTime .
+
+    narr:Expr_2HalyardOpsReadiness20260915_12 a narr:Expression ;
+        narr:actor narr:Actor_FreyaFree ;
+        narr:act "assertive" ;
+        narr:context "Halyard Ops Readiness meeting" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_2HalyardOpsReadiness20260915 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "I can't staff that. It isn't that it's hard, it's that the people don't exist." ;
+                oa:prefix "cutover is still coughing up. " ;
+                oa:suffix "\n\n**Tanya Team:** That's a muc" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "1237"^^xsd:integer ;
+                oa:end "1315"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T01:47:06Z"^^xsd:dateTime .
+
+    narr:Expr_2HalyardOpsReadiness20260915_13 a narr:Expression ;
+        narr:actor narr:Actor_TanyaTeam ;
+        narr:act "assertive" ;
+        narr:context "Halyard Ops Readiness meeting" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_2HalyardOpsReadiness20260915 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "That's a much more concrete version of what I was arguing last week." ;
+                oa:prefix "don't exist.\n\n**Tanya Team:** " ;
+                oa:suffix "\n\n**Freya Free:** Last week yo" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "1333"^^xsd:integer ;
+                oa:end "1401"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T01:47:06Z"^^xsd:dateTime .
+
+    narr:Expr_2HalyardOpsReadiness20260915_14 a narr:Expression ;
+        narr:actor narr:Actor_FreyaFree ;
+        narr:act "assertive" ;
+        narr:context "Halyard Ops Readiness meeting" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_2HalyardOpsReadiness20260915 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Last week you were arguing it as risk. I'm telling you it's arithmetic. One site at a time is the only sequencing my rota can actually produce people for." ;
+                oa:prefix "g last week.\n\n**Freya Free:** " ;
+                oa:suffix "\n\n**Xavier Expert:** For the r" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "1419"^^xsd:integer ;
+                oa:end "1573"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T01:47:06Z"^^xsd:dateTime .
+
+    narr:Expr_2HalyardOpsReadiness20260915_15 a narr:Expression ;
+        narr:actor narr:Actor_XavierExpert ;
+        narr:act "assertive" ;
+        narr:context "Halyard Ops Readiness meeting" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_2HalyardOpsReadiness20260915 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "For the record, that's the strongest argument anyone's made for it. The one I gave was about data drift and the one Tanya gave was about unbounded risk. Yours is a hard constraint." ;
+                oa:prefix "ople for.\n\n**Xavier Expert:** " ;
+                oa:suffix "\n\n**Freya Free:** It's the one" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "1594"^^xsd:integer ;
+                oa:end "1774"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T01:47:06Z"^^xsd:dateTime .
+
+    narr:Expr_2HalyardOpsReadiness20260915_16 a narr:Expression ;
+        narr:actor narr:Actor_FreyaFree ;
+        narr:act "assertive" ;
+        narr:context "Halyard Ops Readiness meeting" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_2HalyardOpsReadiness20260915 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "It's the one that doesn't move. The others you can argue with." ;
+                oa:prefix " constraint.\n\n**Freya Free:** " ;
+                oa:suffix "\n\n**Tanya Team:** Noted, and I" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "1792"^^xsd:integer ;
+                oa:end "1854"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T01:47:06Z"^^xsd:dateTime .
+
+    narr:Expr_2HalyardOpsReadiness20260915_17 a narr:Expression ;
+        narr:actor narr:Actor_TanyaTeam ;
+        narr:act "commissive" ;
+        narr:context "Halyard Ops Readiness meeting" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_2HalyardOpsReadiness20260915 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Noted, and I'll lead with yours on Thursday." ;
+                oa:prefix " argue with.\n\n**Tanya Team:** " ;
+                oa:suffix "\n\n**Freya Free:** There's a se" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "1872"^^xsd:integer ;
+                oa:end "1916"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T01:47:06Z"^^xsd:dateTime .
+
+    narr:Expr_2HalyardOpsReadiness20260915_18 a narr:Expression ;
+        narr:actor narr:Actor_FreyaFree ;
+        narr:act "assertive" ;
+        narr:context "Halyard Ops Readiness meeting" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_2HalyardOpsReadiness20260915 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "There's a second thing that falls out of it. If we're one at a time, my supervisors get to do the second cutover having done the first one. That's worth something you won't see in a plan. The Dockside crew were visibly better on night two than night one, and that was the same night." ;
+                oa:prefix "on Thursday.\n\n**Freya Free:** " ;
+                oa:suffix "\n\n**Xavier Expert:** Learning " ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "1934"^^xsd:integer ;
+                oa:end "2217"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T01:47:06Z"^^xsd:dateTime .
+
+    narr:Expr_2HalyardOpsReadiness20260915_19 a narr:Expression ;
+        narr:actor narr:Actor_XavierExpert ;
+        narr:act "assertive" ;
+        narr:context "Halyard Ops Readiness meeting" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_2HalyardOpsReadiness20260915 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Learning curve across sites rather than four teams all making the same mistake in parallel." ;
+                oa:prefix "me night.\n\n**Xavier Expert:** " ;
+                oa:suffix "\n\n**Freya Free:** Exactly that" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "2238"^^xsd:integer ;
+                oa:end "2329"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T01:47:06Z"^^xsd:dateTime .
+
+    narr:Expr_2HalyardOpsReadiness20260915_20 a narr:Expression ;
+        narr:actor narr:Actor_FreyaFree ;
+        narr:act "assertive" ;
+        narr:context "Halyard Ops Readiness meeting" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_2HalyardOpsReadiness20260915 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Exactly that." ;
+                oa:prefix "in parallel.\n\n**Freya Free:** " ;
+                oa:suffix "\n\n**Tanya Team:** So you'd hol" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "2347"^^xsd:integer ;
+                oa:end "2360"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T01:47:06Z"^^xsd:dateTime .
+
+    narr:Expr_2HalyardOpsReadiness20260915_21 a narr:Expression ;
+        narr:actor narr:Actor_TanyaTeam ;
+        narr:act "question" ;
+        narr:context "Halyard Ops Readiness meeting" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_2HalyardOpsReadiness20260915 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "So you'd hold the one-at-a-time sequencing even if the staffing eased?" ;
+                oa:prefix "xactly that.\n\n**Tanya Team:** " ;
+                oa:suffix "\n\n**Freya Free:** I would, yes" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "2378"^^xsd:integer ;
+                oa:end "2448"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T01:47:06Z"^^xsd:dateTime .
+
+    narr:Expr_2HalyardOpsReadiness20260915_22 a narr:Expression ;
+        narr:actor narr:Actor_FreyaFree ;
+        narr:act "assertive" ;
+        narr:context "Halyard Ops Readiness meeting" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_2HalyardOpsReadiness20260915 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "I would, yes, but I want to be careful. If you gave me twenty supervisors tomorrow I'd still say one at a time, for the learning reason. But I'd be saying it less strongly. The staffing argument is the one I'd put in front of the steering group." ;
+                oa:prefix "ffing eased?\n\n**Freya Free:** " ;
+                oa:suffix "\n\n**Tanya Team:** Understood. " ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "2466"^^xsd:integer ;
+                oa:end "2711"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T01:47:06Z"^^xsd:dateTime .
+
+    narr:Expr_2HalyardOpsReadiness20260915_23 a narr:Expression ;
+        narr:actor narr:Actor_TanyaTeam ;
+        narr:act "assertive" ;
+        narr:context "Halyard Ops Readiness meeting" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_2HalyardOpsReadiness20260915 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Understood." ;
+                oa:prefix "ering group.\n\n**Tanya Team:** " ;
+                oa:suffix " Xavier, anything from your si" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "2729"^^xsd:integer ;
+                oa:end "2740"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T01:47:06Z"^^xsd:dateTime .
+
+    narr:Expr_2HalyardOpsReadiness20260915_24 a narr:Expression ;
+        narr:actor narr:Actor_TanyaTeam ;
+        narr:act "question" ;
+        narr:context "Halyard Ops Readiness meeting" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_2HalyardOpsReadiness20260915 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Xavier, anything from your side that changes?" ;
+                oa:prefix "\n\n**Tanya Team:** Understood. " ;
+                oa:suffix "\n\n**Xavier Expert:** No. It re" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "2741"^^xsd:integer ;
+                oa:end "2786"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T01:47:06Z"^^xsd:dateTime .
+
+    narr:Expr_2HalyardOpsReadiness20260915_25 a narr:Expression ;
+        narr:actor narr:Actor_XavierExpert ;
+        narr:act "assertive" ;
+        narr:context "Halyard Ops Readiness meeting" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_2HalyardOpsReadiness20260915 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "No. It reinforces. The replica rule and the reference-data rule both assume one cutover window open at a time — I hadn't stated that assumption, and it's worth stating. If we ever went parallel, both of those would need rewriting." ;
+                oa:prefix " changes?\n\n**Xavier Expert:** " ;
+                oa:suffix "\n\n**Tanya Team:** Then let's n" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "2807"^^xsd:integer ;
+                oa:end "3037"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T01:47:06Z"^^xsd:dateTime .
+
+    narr:Expr_2HalyardOpsReadiness20260915_26 a narr:Expression ;
+        narr:actor narr:Actor_TanyaTeam ;
+        narr:act "directive" ;
+        narr:context "Halyard Ops Readiness meeting" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_2HalyardOpsReadiness20260915 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Then let's not go parallel." ;
+                oa:prefix "d rewriting.\n\n**Tanya Team:** " ;
+                oa:suffix " Freya, what do you need from " ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "3055"^^xsd:integer ;
+                oa:end "3082"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T01:47:06Z"^^xsd:dateTime .
+
+    narr:Expr_2HalyardOpsReadiness20260915_27 a narr:Expression ;
+        narr:actor narr:Actor_TanyaTeam ;
+        narr:act "question" ;
+        narr:context "Halyard Ops Readiness meeting" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_2HalyardOpsReadiness20260915 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Freya, what do you need from me?" ;
+                oa:prefix "* Then let's not go parallel. " ;
+                oa:suffix "\n\n**Freya Free:** The dates, a" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "3083"^^xsd:integer ;
+                oa:end "3115"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T01:47:06Z"^^xsd:dateTime .
+
+    narr:Expr_2HalyardOpsReadiness20260915_28 a narr:Expression ;
+        narr:actor narr:Actor_FreyaFree ;
+        narr:act "directive" ;
+        narr:context "Halyard Ops Readiness meeting" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_2HalyardOpsReadiness20260915 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "The dates, as early as you can give them, and a commitment that a soak doesn't get shortened because a date slipped. If the soak gets eaten, my supervisors are back on the floor at the same time as the next cutover and we're in the same place by another route." ;
+                oa:prefix "eed from me?\n\n**Freya Free:** " ;
+                oa:suffix "\n\n**Tanya Team:** That's fair " ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "3133"^^xsd:integer ;
+                oa:end "3393"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T01:47:06Z"^^xsd:dateTime .
+
+    narr:Expr_2HalyardOpsReadiness20260915_29 a narr:Expression ;
+        narr:actor narr:Actor_TanyaTeam ;
+        narr:act "commissive" ;
+        narr:context "Halyard Ops Readiness meeting" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_2HalyardOpsReadiness20260915 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "That's fair and I'll hold it." ;
+                oa:prefix "other route.\n\n**Tanya Team:** " ;
+                oa:suffix "\n\n**Freya Free:** Then I'm con" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "3411"^^xsd:integer ;
+                oa:end "3440"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T01:47:06Z"^^xsd:dateTime .
+
+    narr:Expr_2HalyardOpsReadiness20260915_30 a narr:Expression ;
+        narr:actor narr:Actor_FreyaFree ;
+        narr:act "expressive" ;
+        narr:context "Halyard Ops Readiness meeting" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_2HalyardOpsReadiness20260915 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Then I'm content." ;
+                oa:prefix "'ll hold it.\n\n**Freya Free:** " ;
+                oa:suffix "\n\n**Tanya Team:** Thanks, Frey" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "3458"^^xsd:integer ;
+                oa:end "3475"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T01:47:06Z"^^xsd:dateTime .
+
+    narr:Expr_2HalyardOpsReadiness20260915_31 a narr:Expression ;
+        narr:actor narr:Actor_TanyaTeam ;
+        narr:act "expressive" ;
+        narr:context "Halyard Ops Readiness meeting" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_2HalyardOpsReadiness20260915 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Thanks, Freya. Genuinely useful." ;
+                oa:prefix "I'm content.\n\n**Tanya Team:** " ;
+                oa:suffix "\n" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "3493"^^xsd:integer ;
+                oa:end "3525"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T01:47:06Z"^^xsd:dateTime .
+
+    narr:Actor_FreyaFree a narr:Actor ;
+        skos:prefLabel "Freya Free" .
+
+    aswr:Run_20260923T014706Z_actors a prov:Activity ;
+        aswr:runPass "actors" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/393dc395be64/2026-09-23-2-halyard-ops-readiness-2026-09-15/actors.json" ;
+        prov:generated narr:Actor_FreyaFree ;
+        dct:isPartOf aswr:Tx_20260923T014706Z ;
+        prov:generatedAtTime "2026-09-23T01:47:06Z"^^xsd:dateTime .
+
+    aswr:Run_20260923T014706Z_pass1 a prov:Activity ;
+        aswr:runPass "pass1" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/393dc395be64/2026-09-23-2-halyard-ops-readiness-2026-09-15/pass1.json" ;
+        prov:generated narr:Sample_2HalyardOpsReadiness20260915, narr:Expr_2HalyardOpsReadiness20260915_1, narr:Expr_2HalyardOpsReadiness20260915_2, narr:Expr_2HalyardOpsReadiness20260915_3, narr:Expr_2HalyardOpsReadiness20260915_4, narr:Expr_2HalyardOpsReadiness20260915_5, narr:Expr_2HalyardOpsReadiness20260915_6, narr:Expr_2HalyardOpsReadiness20260915_7, narr:Expr_2HalyardOpsReadiness20260915_8, narr:Expr_2HalyardOpsReadiness20260915_9, narr:Expr_2HalyardOpsReadiness20260915_10, narr:Expr_2HalyardOpsReadiness20260915_11, narr:Expr_2HalyardOpsReadiness20260915_12, narr:Expr_2HalyardOpsReadiness20260915_13, narr:Expr_2HalyardOpsReadiness20260915_14, narr:Expr_2HalyardOpsReadiness20260915_15, narr:Expr_2HalyardOpsReadiness20260915_16, narr:Expr_2HalyardOpsReadiness20260915_17, narr:Expr_2HalyardOpsReadiness20260915_18, narr:Expr_2HalyardOpsReadiness20260915_19, narr:Expr_2HalyardOpsReadiness20260915_20, narr:Expr_2HalyardOpsReadiness20260915_21, narr:Expr_2HalyardOpsReadiness20260915_22, narr:Expr_2HalyardOpsReadiness20260915_23, narr:Expr_2HalyardOpsReadiness20260915_24, narr:Expr_2HalyardOpsReadiness20260915_25, narr:Expr_2HalyardOpsReadiness20260915_26, narr:Expr_2HalyardOpsReadiness20260915_27, narr:Expr_2HalyardOpsReadiness20260915_28, narr:Expr_2HalyardOpsReadiness20260915_29, narr:Expr_2HalyardOpsReadiness20260915_30, narr:Expr_2HalyardOpsReadiness20260915_31 ;
+        dct:isPartOf aswr:Tx_20260923T014706Z ;
+        prov:generatedAtTime "2026-09-23T01:47:06Z"^^xsd:dateTime .
+  }
+}
