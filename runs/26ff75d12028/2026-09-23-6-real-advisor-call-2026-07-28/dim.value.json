@@ -1,0 +1,69 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-4",
+    "regions" : [ "autonomy" ],
+    "evidence" : [ {
+      "quote" : "every single person is now their own team",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Appeals to individual self-sufficiency and self-origination as the foundational premise.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-8",
+    "regions" : [ "conservation" ],
+    "evidence" : [ {
+      "quote" : "I'm worried what's going to break or cross over",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Expresses concern over preserving stability and preventing system breakdown.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-9",
+    "regions" : [ "conservation" ],
+    "evidence" : [ {
+      "quote" : "separation from their own chaos",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Appeals to order, containment, and stabilization against personal operational disorder.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-16",
+    "regions" : [ "relatedness" ],
+    "evidence" : [ {
+      "quote" : "makes my as written more valuable because you have it",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Frames product value as deriving directly from mutual adoption and network connection.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-17",
+    "regions" : [ "autonomy" ],
+    "evidence" : [ {
+      "quote" : "Without my input through my own lens, it breaks",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Locates essential value in personal agency and self-originated perspective.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-25",
+    "regions" : [ "relatedness" ],
+    "evidence" : [ {
+      "quote" : "The human moment sells, not the text.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Identifies intersubjective human connection over impersonal artifact as the core value.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-28",
+    "regions" : [ "self-enhancement" ],
+    "evidence" : [ {
+      "quote" : "this thing can win and I think you should win",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Explicitly appeals to winning and market dominance as the desired outcome.",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-1", "src-2", "src-3", "src-5", "src-6", "src-7", "src-10", "src-11", "src-12", "src-13", "src-14", "src-15", "src-18", "src-19", "src-20", "src-21", "src-22", "src-23", "src-24", "src-26", "src-27", "src-29", "src-30" ],
+  "mints" : [ ],
+  "region_mints" : [ ]
+}
