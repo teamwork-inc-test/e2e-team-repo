@@ -1,0 +1,27 @@
+{
+  "bindings" : [ {
+    "name" : "Claude",
+    "verdict" : "mint",
+    "target" : null,
+    "label" : "Claude",
+    "why" : "AI model actor not present in existing actors list."
+  }, {
+    "name" : "Tina",
+    "verdict" : "bind",
+    "target" : "Actor_TinaTeam",
+    "label" : null,
+    "why" : "Unambiguously matches existing actor Actor_TinaTeam (Tina Team)."
+  }, {
+    "name" : "Tanya TeamOwner",
+    "verdict" : "bind",
+    "target" : "Actor_TanyaTeamowner",
+    "label" : null,
+    "why" : "Exact match to existing actor Actor_TanyaTeamowner."
+  }, {
+    "name" : "tanya+staging@aswritten.ai",
+    "verdict" : "bind",
+    "target" : "Actor_TanyaTeamowner",
+    "label" : null,
+    "why" : "Account email corresponding to Tanya TeamOwner in envelope metadata."
+  } ]
+}
