@@ -1,0 +1,993 @@
+PREFIX narr: <https://aswritten.ai/narrative#>
+PREFIX aswr: <https://aswritten.ai/aswr#>
+PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX dct:  <http://purl.org/dc/terms/>
+PREFIX xsd:  <http://www.w3.org/2001/XMLSchema#>
+PREFIX oa:   <http://www.w3.org/ns/oa#>
+PREFIX xkos: <http://rdf-vocabulary.ddialliance.org/xkos#>
+
+INSERT DATA {
+  aswr:Tx_20260923T165642Z a prov:Activity ;
+      prov:generatedAtTime "2026-09-23T16:56:42Z"^^xsd:dateTime ;
+      prov:wasAssociatedWith "aswritten.ai" ;
+      prov:wasAttributedTo "scarlet@aswritten.ai" ;
+      aswr:pipelinePin "8dd07a49bda8" ;
+      aswr:originPath ".aswritten/memories/2026-09-23-1-real-freya-podcast-sales-motion-2026-03-23.md" ;
+      dct:title "Multipass fragment: 1RealFreyaPodcastSalesMotion20260323" ;
+      prov:generated narr:VecAffect_1RealFreyaPodcastSalesMotion20260323_8, narr:VecAffect_1RealFreyaPodcastSalesMotion20260323_37, narr:VecConviction_1RealFreyaPodcastSalesMotion20260323_7, narr:VecConviction_1RealFreyaPodcastSalesMotion20260323_14, narr:VecConviction_1RealFreyaPodcastSalesMotion20260323_15, narr:VecConviction_1RealFreyaPodcastSalesMotion20260323_24, narr:VecConviction_1RealFreyaPodcastSalesMotion20260323_26, narr:VecConviction_1RealFreyaPodcastSalesMotion20260323_30, narr:VecConviction_1RealFreyaPodcastSalesMotion20260323_32, narr:VecConviction_1RealFreyaPodcastSalesMotion20260323_34, narr:VecConviction_1RealFreyaPodcastSalesMotion20260323_35, narr:VecConviction_1RealFreyaPodcastSalesMotion20260323_42, narr:VecConviction_1RealFreyaPodcastSalesMotion20260323_43, narr:VecPower_1RealFreyaPodcastSalesMotion20260323_14, narr:VecPower_1RealFreyaPodcastSalesMotion20260323_24, narr:VecPower_1RealFreyaPodcastSalesMotion20260323_32, narr:VecPower_1RealFreyaPodcastSalesMotion20260323_35, narr:VecRegister_1RealFreyaPodcastSalesMotion20260323_7, narr:VecRegister_1RealFreyaPodcastSalesMotion20260323_14, narr:VecRegister_1RealFreyaPodcastSalesMotion20260323_24, narr:VecRegister_1RealFreyaPodcastSalesMotion20260323_26, narr:VecRegister_1RealFreyaPodcastSalesMotion20260323_34, narr:VecRelational_1RealFreyaPodcastSalesMotion20260323_10, narr:VecRelational_1RealFreyaPodcastSalesMotion20260323_14, narr:VecRelational_1RealFreyaPodcastSalesMotion20260323_34, narr:VecRelational_1RealFreyaPodcastSalesMotion20260323_35, narr:VecStyle_1RealFreyaPodcastSalesMotion20260323_4, narr:VecStyle_1RealFreyaPodcastSalesMotion20260323_11, narr:VecStyle_1RealFreyaPodcastSalesMotion20260323_15, narr:VecStyle_1RealFreyaPodcastSalesMotion20260323_24, narr:VecStyle_1RealFreyaPodcastSalesMotion20260323_28, narr:VecStyle_1RealFreyaPodcastSalesMotion20260323_32, narr:VecTemporal_1RealFreyaPodcastSalesMotion20260323_1, narr:VecTemporal_1RealFreyaPodcastSalesMotion20260323_2, narr:VecTemporal_1RealFreyaPodcastSalesMotion20260323_3, narr:VecTemporal_1RealFreyaPodcastSalesMotion20260323_4, narr:VecTemporal_1RealFreyaPodcastSalesMotion20260323_5, narr:VecTemporal_1RealFreyaPodcastSalesMotion20260323_7, narr:VecTemporal_1RealFreyaPodcastSalesMotion20260323_8, narr:VecTemporal_1RealFreyaPodcastSalesMotion20260323_9, narr:VecTemporal_1RealFreyaPodcastSalesMotion20260323_10, narr:VecTemporal_1RealFreyaPodcastSalesMotion20260323_11, narr:VecTemporal_1RealFreyaPodcastSalesMotion20260323_12, narr:VecTemporal_1RealFreyaPodcastSalesMotion20260323_14, narr:VecTemporal_1RealFreyaPodcastSalesMotion20260323_15, narr:VecTemporal_1RealFreyaPodcastSalesMotion20260323_16, narr:VecTemporal_1RealFreyaPodcastSalesMotion20260323_17, narr:VecTemporal_1RealFreyaPodcastSalesMotion20260323_18, narr:VecTemporal_1RealFreyaPodcastSalesMotion20260323_20, narr:VecTemporal_1RealFreyaPodcastSalesMotion20260323_21, narr:VecTemporal_1RealFreyaPodcastSalesMotion20260323_24, narr:VecTemporal_1RealFreyaPodcastSalesMotion20260323_26, narr:VecTemporal_1RealFreyaPodcastSalesMotion20260323_28, narr:VecTemporal_1RealFreyaPodcastSalesMotion20260323_30, narr:VecTemporal_1RealFreyaPodcastSalesMotion20260323_32, narr:VecTemporal_1RealFreyaPodcastSalesMotion20260323_34, narr:VecTemporal_1RealFreyaPodcastSalesMotion20260323_35, narr:VecTemporal_1RealFreyaPodcastSalesMotion20260323_36, narr:VecTemporal_1RealFreyaPodcastSalesMotion20260323_37, narr:VecTemporal_1RealFreyaPodcastSalesMotion20260323_38, narr:VecTemporal_1RealFreyaPodcastSalesMotion20260323_39, narr:VecTemporal_1RealFreyaPodcastSalesMotion20260323_40, narr:VecTemporal_1RealFreyaPodcastSalesMotion20260323_41, narr:VecTemporal_1RealFreyaPodcastSalesMotion20260323_42, narr:VecTemporal_1RealFreyaPodcastSalesMotion20260323_43, narr:VecTemporal_1RealFreyaPodcastSalesMotion20260323_44, narr:VecTemporal_1RealFreyaPodcastSalesMotion20260323_45, narr:VecTemporal_1RealFreyaPodcastSalesMotion20260323_46, narr:DirValue_CapabilityOverInformation, narr:VecValue_1RealFreyaPodcastSalesMotion20260323_24, narr:VecValue_1RealFreyaPodcastSalesMotion20260323_30, narr:VecValue_1RealFreyaPodcastSalesMotion20260323_45, narr:Narrative_InstallableExpertise, narr:Narrative_InterviewFlywheel, narr:Narrative_HumanMomentVideoProof, narr:Narrative_BehavioralProgressionPackaging, narr:Position_InterviewFlywheelSalesMotion, narr:Position_HumanMomentDemoVideo, narr:Position_BehavioralStepPackagingTiers, narr:Position_InstallableExpertiseCategoryMoat, narr:Position_LaunchBoundaryAprilFirst .
+} ;
+INSERT DATA {
+  GRAPH aswr:Tx_20260923T165642Z {
+    narr:VecAffect_1RealFreyaPodcastSalesMotion20260323_8 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_1RealFreyaPodcastSalesMotion20260323_8 ;
+        narr:dimension narr:Dim_Affect ;
+        narr:region narr:Affect_ActivatedPositive ;
+        narr:evidence "reception: Freya's reaction to the demo walkthrough confirmed this" ;
+        narr:reported true ;
+        skos:note "Freya's reported enthusiastic reaction to seeing their words cited signals positive arousal." ;
+        prov:generatedAtTime "2026-09-23T16:56:42Z"^^xsd:dateTime .
+
+    narr:VecAffect_1RealFreyaPodcastSalesMotion20260323_37 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_1RealFreyaPodcastSalesMotion20260323_37 ;
+        narr:dimension narr:Dim_Affect ;
+        narr:region narr:Affect_CalmPositive ;
+        narr:evidence "plain-signal: Freya wants to do an interview himself" ;
+        narr:reported true ;
+        skos:note "Reported desire to participate and create an installable perspective reflects positive, constructive engagement." ;
+        prov:generatedAtTime "2026-09-23T16:56:42Z"^^xsd:dateTime .
+
+    narr:VecConviction_1RealFreyaPodcastSalesMotion20260323_7 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_1RealFreyaPodcastSalesMotion20260323_7 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Notion ;
+        narr:evidence "modal-marker: I could build out the marketplace by basically creating a podcast" ;
+        narr:reported false ;
+        skos:note "Modal 'could' combined with 'basically' frames this strategy as an exploratory notion rather than a committed operational decision." ;
+        prov:generatedAtTime "2026-09-23T16:56:42Z"^^xsd:dateTime .
+
+    narr:VecConviction_1RealFreyaPodcastSalesMotion20260323_14 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_1RealFreyaPodcastSalesMotion20260323_14 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Principle ;
+        narr:evidence "commitment-marker: Don't make people read text in a video." ;
+        narr:reported false ;
+        skos:note "Stated as an absolute, foundational rule/maxim for video design." ;
+        prov:generatedAtTime "2026-09-23T16:56:42Z"^^xsd:dateTime .
+
+    narr:VecConviction_1RealFreyaPodcastSalesMotion20260323_15 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_1RealFreyaPodcastSalesMotion20260323_15 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Principle ;
+        narr:evidence "plain-assertion: The hero video is a human moment, not a screen recording." ;
+        narr:reported false ;
+        skos:note "Framed as an essential definition and bedrock rule of what hero videos must be." ;
+        prov:generatedAtTime "2026-09-23T16:56:42Z"^^xsd:dateTime .
+
+    narr:VecConviction_1RealFreyaPodcastSalesMotion20260323_24 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_1RealFreyaPodcastSalesMotion20260323_24 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Principle ;
+        narr:evidence "plain-assertion: I've let go of the memory word sort of entirely and I'm now calling it installable expertise. Because what we need and the big narrative foundation is not intelligence is capability. And more information does not solve your problem." ;
+        narr:reported false ;
+        skos:note "Articulates a core, identity-level conceptual foundation ('not intelligence is capability')." ;
+        prov:generatedAtTime "2026-09-23T16:56:42Z"^^xsd:dateTime .
+
+    narr:VecConviction_1RealFreyaPodcastSalesMotion20260323_26 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_1RealFreyaPodcastSalesMotion20260323_26 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Claim ;
+        narr:evidence "plain-assertion: The real differentiator and the technical moat is that I take textual documents and I extract perspective from them and then I make that perspective citable in the individual task." ;
+        narr:reported false ;
+        skos:note "Firm direct assertion defining competitive differentiation, ready to defend with evidence." ;
+        prov:generatedAtTime "2026-09-23T16:56:42Z"^^xsd:dateTime .
+
+    narr:VecConviction_1RealFreyaPodcastSalesMotion20260323_30 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_1RealFreyaPodcastSalesMotion20260323_30 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Claim ;
+        narr:evidence "plain-assertion: It's really about the delegation of work that requires expertise to carry it out." ;
+        narr:reported false ;
+        skos:note "Definitional claim about the underlying business problem." ;
+        prov:generatedAtTime "2026-09-23T16:56:42Z"^^xsd:dateTime .
+
+    narr:VecConviction_1RealFreyaPodcastSalesMotion20260323_32 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_1RealFreyaPodcastSalesMotion20260323_32 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Principle ;
+        narr:evidence "plain-assertion: I'm more interested in developing the Apple to installable expertise than I am in giving you a toolbox." ;
+        narr:reported false ;
+        skos:note "Articulates high-level product philosophy and long-term orientation." ;
+        prov:generatedAtTime "2026-09-23T16:56:42Z"^^xsd:dateTime .
+
+    narr:VecConviction_1RealFreyaPodcastSalesMotion20260323_34 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_1RealFreyaPodcastSalesMotion20260323_34 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Notion ;
+        narr:evidence "hedge: You know, I could have some initially available perspectives. Could I get all the people I know to contribute their expertise as the first modules?" ;
+        narr:reported false ;
+        skos:note "Formulated as open hypothetical questions and exploratory possibility." ;
+        prov:generatedAtTime "2026-09-23T16:56:42Z"^^xsd:dateTime .
+
+    narr:VecConviction_1RealFreyaPodcastSalesMotion20260323_35 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_1RealFreyaPodcastSalesMotion20260323_35 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Decision ;
+        narr:evidence "performed-act: Freya committed to:\n- Style guide by end of week based on the existing brand package" ;
+        narr:reported true ;
+        skos:note "Records explicit operational commitment and settled deliverable scope." ;
+        prov:generatedAtTime "2026-09-23T16:56:42Z"^^xsd:dateTime .
+
+    narr:VecConviction_1RealFreyaPodcastSalesMotion20260323_42 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_1RealFreyaPodcastSalesMotion20260323_42 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Decision ;
+        narr:evidence "commitment-marker: Above the line (April 1):" ;
+        narr:reported false ;
+        skos:note "Operational line-item prioritization marking settled deliverables for April 1." ;
+        prov:generatedAtTime "2026-09-23T16:56:42Z"^^xsd:dateTime .
+
+    narr:VecConviction_1RealFreyaPodcastSalesMotion20260323_43 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_1RealFreyaPodcastSalesMotion20260323_43 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Decision ;
+        narr:evidence "commitment-marker: Below the line:\n- Marketplace browse/search (distribution is interview-driven, not browse-driven)" ;
+        narr:reported false ;
+        skos:note "Explicit scoping decision deferring features below the launch line." ;
+        prov:generatedAtTime "2026-09-23T16:56:42Z"^^xsd:dateTime .
+
+    narr:VecPower_1RealFreyaPodcastSalesMotion20260323_14 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_1RealFreyaPodcastSalesMotion20260323_14 ;
+        narr:dimension narr:Dim_Power ;
+        narr:region narr:Power_Expert ;
+        narr:evidence "performed-act: Don't make people read text in a video." ;
+        narr:reported false ;
+        skos:note "Freya exerts expert guidance via direct instruction on design practices." ;
+        prov:generatedAtTime "2026-09-23T16:56:42Z"^^xsd:dateTime .
+
+    narr:VecPower_1RealFreyaPodcastSalesMotion20260323_24 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_1RealFreyaPodcastSalesMotion20260323_24 ;
+        narr:dimension narr:Dim_Power ;
+        narr:region narr:Power_InspirationalAppeal ;
+        narr:evidence "framing-move: Because what we need and the big narrative foundation is not intelligence is capability." ;
+        narr:reported false ;
+        skos:note "Tanya reframes strategy around a higher-level vision of capability over mere information." ;
+        prov:generatedAtTime "2026-09-23T16:56:42Z"^^xsd:dateTime .
+
+    narr:VecPower_1RealFreyaPodcastSalesMotion20260323_32 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_1RealFreyaPodcastSalesMotion20260323_32 ;
+        narr:dimension narr:Dim_Power ;
+        narr:region narr:Power_InspirationalAppeal ;
+        narr:evidence "framing-move: I'm more interested in developing the Apple to installable expertise than I am in giving you a toolbox." ;
+        narr:reported false ;
+        skos:note "Tanya invokes an aspirational brand analogy to define strategic ambition." ;
+        prov:generatedAtTime "2026-09-23T16:56:42Z"^^xsd:dateTime .
+
+    narr:VecPower_1RealFreyaPodcastSalesMotion20260323_35 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_1RealFreyaPodcastSalesMotion20260323_35 ;
+        narr:dimension narr:Dim_Power ;
+        narr:region narr:Power_Legitimate ;
+        narr:evidence "commitment-marker: Freya committed to:" ;
+        narr:reported true ;
+        skos:note "Freya makes explicit operational commitments regarding deliverables." ;
+        prov:generatedAtTime "2026-09-23T16:56:42Z"^^xsd:dateTime .
+
+    narr:VecRegister_1RealFreyaPodcastSalesMotion20260323_7 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_1RealFreyaPodcastSalesMotion20260323_7 ;
+        narr:dimension narr:Dim_Register ;
+        narr:region narr:Register_Casual ;
+        narr:evidence "hedge: basically creating a podcast" ;
+        narr:evidence "lexical-marker: and they're just available" ;
+        narr:reported false ;
+        skos:note "Spoken-voice loose syntactic flow and conversational hedging while thinking through a distribution concept." ;
+        prov:generatedAtTime "2026-09-23T16:56:42Z"^^xsd:dateTime .
+
+    narr:VecRegister_1RealFreyaPodcastSalesMotion20260323_14 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_1RealFreyaPodcastSalesMotion20260323_14 ;
+        narr:dimension narr:Dim_Register ;
+        narr:region narr:Register_PlainSpoken ;
+        narr:evidence "plain-assertion: Don't make people read text in a video." ;
+        narr:reported false ;
+        skos:note "Direct, unhedged design rule stated plainly without technical or decorative hedging." ;
+        prov:generatedAtTime "2026-09-23T16:56:42Z"^^xsd:dateTime .
+
+    narr:VecRegister_1RealFreyaPodcastSalesMotion20260323_24 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_1RealFreyaPodcastSalesMotion20260323_24 ;
+        narr:dimension narr:Dim_Register ;
+        narr:region narr:Register_Casual ;
+        narr:region narr:Register_PlainSpoken ;
+        narr:evidence "hedge: sort of entirely" ;
+        narr:evidence "plain-assertion: not intelligence is capability" ;
+        narr:reported false ;
+        skos:note "Conversational thinking-out-loud syntax paired with crisp aphoristic contrast." ;
+        prov:generatedAtTime "2026-09-23T16:56:42Z"^^xsd:dateTime .
+
+    narr:VecRegister_1RealFreyaPodcastSalesMotion20260323_26 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_1RealFreyaPodcastSalesMotion20260323_26 ;
+        narr:dimension narr:Dim_Register ;
+        narr:region narr:Register_Technical ;
+        narr:evidence "lexical-marker: extract perspective from them and then I make that perspective citable in the individual task" ;
+        narr:reported false ;
+        skos:note "Dense native product and architectural terminology defining technical differentiation." ;
+        prov:generatedAtTime "2026-09-23T16:56:42Z"^^xsd:dateTime .
+
+    narr:VecRegister_1RealFreyaPodcastSalesMotion20260323_34 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_1RealFreyaPodcastSalesMotion20260323_34 ;
+        narr:dimension narr:Dim_Register ;
+        narr:region narr:Register_Casual ;
+        narr:evidence "address-form: You know, I could have some" ;
+        narr:evidence "lexical-marker: Like do your design thinking version" ;
+        narr:reported false ;
+        skos:note "Informal collaborative ideation marked by spoken conversational markers ('You know', 'Like')." ;
+        prov:generatedAtTime "2026-09-23T16:56:42Z"^^xsd:dateTime .
+
+    narr:VecRelational_1RealFreyaPodcastSalesMotion20260323_10 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_1RealFreyaPodcastSalesMotion20260323_10 ;
+        narr:dimension narr:Dim_Relational ;
+        narr:region narr:Relational_MarketPricing ;
+        narr:evidence "plain-signal: $81/month" ;
+        narr:evidence "plain-signal: $400/month" ;
+        narr:evidence "plain-signal: $4K/month" ;
+        narr:reported false ;
+        skos:note "Explicitly details tier pricing structures and proportional transactional trade-offs." ;
+        prov:generatedAtTime "2026-09-23T16:56:42Z"^^xsd:dateTime .
+
+    narr:VecRelational_1RealFreyaPodcastSalesMotion20260323_14 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_1RealFreyaPodcastSalesMotion20260323_14 ;
+        narr:dimension narr:Dim_Relational ;
+        narr:region narr:Relational_AuthorityRanking ;
+        narr:evidence "plain-assertion: Don't make people read text in a video." ;
+        narr:reported false ;
+        skos:note "Freya issues an unhedged design imperative directing Tanya's production choices." ;
+        prov:generatedAtTime "2026-09-23T16:56:42Z"^^xsd:dateTime .
+
+    narr:VecRelational_1RealFreyaPodcastSalesMotion20260323_34 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_1RealFreyaPodcastSalesMotion20260323_34 ;
+        narr:dimension narr:Dim_Relational ;
+        narr:region narr:Relational_CommunalSharing ;
+        narr:evidence "plain-signal: get all the people I know to contribute their expertise as the first modules" ;
+        narr:reported false ;
+        skos:note "Proposes pooling contributions from close personal networks based on shared relationship rather than commercial pricing." ;
+        prov:generatedAtTime "2026-09-23T16:56:42Z"^^xsd:dateTime .
+
+    narr:VecRelational_1RealFreyaPodcastSalesMotion20260323_35 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_1RealFreyaPodcastSalesMotion20260323_35 ;
+        narr:dimension narr:Dim_Relational ;
+        narr:region narr:Relational_EqualityMatching ;
+        narr:evidence "commitment-marker: Freya committed to:" ;
+        narr:reported true ;
+        skos:note "Reports explicit mutual commitments and work deliverables agreed upon between collaborators." ;
+        prov:generatedAtTime "2026-09-23T16:56:42Z"^^xsd:dateTime .
+
+    narr:VecStyle_1RealFreyaPodcastSalesMotion20260323_4 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_1RealFreyaPodcastSalesMotion20260323_4 ;
+        narr:dimension narr:Dim_Style ;
+        narr:region narr:Style_RuleOfThree ;
+        narr:evidence "framing-move: Three outputs from one conversation." ;
+        narr:reported false ;
+        skos:note "Constructs a formal triad summing up the three outputs derived from one single interview." ;
+        prov:generatedAtTime "2026-09-23T16:56:42Z"^^xsd:dateTime .
+
+    narr:VecStyle_1RealFreyaPodcastSalesMotion20260323_11 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_1RealFreyaPodcastSalesMotion20260323_11 ;
+        narr:dimension narr:Dim_Style ;
+        narr:region narr:Style_Antithesis ;
+        narr:evidence "framing-move: Each tier is a natural next step, not a paywall." ;
+        narr:reported false ;
+        skos:note "Presents a direct contrast between 'a natural next step' and 'a paywall' within an antithetical frame." ;
+        prov:generatedAtTime "2026-09-23T16:56:42Z"^^xsd:dateTime .
+
+    narr:VecStyle_1RealFreyaPodcastSalesMotion20260323_15 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_1RealFreyaPodcastSalesMotion20260323_15 ;
+        narr:dimension narr:Dim_Style ;
+        narr:region narr:Style_Antithesis ;
+        narr:evidence "plain-assertion: The hero video is a human moment, not a screen recording." ;
+        narr:reported false ;
+        skos:note "Contrasts a 'human moment' directly against 'a screen recording'." ;
+        prov:generatedAtTime "2026-09-23T16:56:42Z"^^xsd:dateTime .
+
+    narr:VecStyle_1RealFreyaPodcastSalesMotion20260323_24 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_1RealFreyaPodcastSalesMotion20260323_24 ;
+        narr:dimension narr:Dim_Style ;
+        narr:region narr:Style_Antithesis ;
+        narr:evidence "framing-move: not intelligence is capability" ;
+        narr:reported false ;
+        skos:note "Frames capability in direct opposition to intelligence as a core thesis." ;
+        prov:generatedAtTime "2026-09-23T16:56:42Z"^^xsd:dateTime .
+
+    narr:VecStyle_1RealFreyaPodcastSalesMotion20260323_28 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_1RealFreyaPodcastSalesMotion20260323_28 ;
+        narr:dimension narr:Dim_Style ;
+        narr:region narr:Style_RhetoricalQuestion ;
+        narr:evidence "framing-move: Are you producing a book, a blog, a set of trainings, a set of courses?" ;
+        narr:reported false ;
+        skos:note "Delivers an escalating series of rhetorical questions characterizing the archetype." ;
+        prov:generatedAtTime "2026-09-23T16:56:42Z"^^xsd:dateTime .
+
+    narr:VecStyle_1RealFreyaPodcastSalesMotion20260323_32 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_1RealFreyaPodcastSalesMotion20260323_32 ;
+        narr:dimension narr:Dim_Style ;
+        narr:region narr:Style_Analogy ;
+        narr:region narr:Style_Antithesis ;
+        narr:evidence "plain-assertion: I'm more interested in developing the Apple to installable expertise than I am in giving you a toolbox." ;
+        narr:reported false ;
+        skos:note "Uses the Apple brand analogy and contrasts a holistic integrated experience against a mere 'toolbox'." ;
+        prov:generatedAtTime "2026-09-23T16:56:42Z"^^xsd:dateTime .
+
+    narr:VecTemporal_1RealFreyaPodcastSalesMotion20260323_1 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_1RealFreyaPodcastSalesMotion20260323_1 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Past ;
+        narr:region narr:Temporal_Realis ;
+        narr:region narr:Temporal_Concrete ;
+        narr:evidence "plain-assertion: Working session with Freya that clarified the demo format, revealed the podcast/interview as a sales motion, and revised the April 1 launch plan." ;
+        narr:reported false ;
+        skos:note "Recaps a completed working session and its specific outputs." ;
+        prov:generatedAtTime "2026-09-23T16:56:42Z"^^xsd:dateTime .
+
+    narr:VecTemporal_1RealFreyaPodcastSalesMotion20260323_2 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_1RealFreyaPodcastSalesMotion20260323_2 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Future ;
+        narr:region narr:Temporal_Irrealis ;
+        narr:region narr:Temporal_Concrete ;
+        narr:evidence "lexical-marker: by end of week" ;
+        narr:reported false ;
+        skos:note "Points to an upcoming deliverable deadline for specific web properties." ;
+        prov:generatedAtTime "2026-09-23T16:56:42Z"^^xsd:dateTime .
+
+    narr:VecTemporal_1RealFreyaPodcastSalesMotion20260323_3 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_1RealFreyaPodcastSalesMotion20260323_3 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Present ;
+        narr:region narr:Temporal_Realis ;
+        narr:region narr:Temporal_Abstract ;
+        narr:evidence "plain-assertion: are the same event" ;
+        narr:reported false ;
+        skos:note "Asserts a conceptual breakthrough framing present operational alignment." ;
+        prov:generatedAtTime "2026-09-23T16:56:42Z"^^xsd:dateTime .
+
+    narr:VecTemporal_1RealFreyaPodcastSalesMotion20260323_4 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_1RealFreyaPodcastSalesMotion20260323_4 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Present ;
+        narr:region narr:Temporal_Realis ;
+        narr:region narr:Temporal_Abstract ;
+        narr:evidence "plain-assertion: That conversation becomes" ;
+        narr:reported false ;
+        skos:note "Describes the generalized 3-in-1 functional mechanism of the interview process." ;
+        prov:generatedAtTime "2026-09-23T16:56:42Z"^^xsd:dateTime .
+
+    narr:VecTemporal_1RealFreyaPodcastSalesMotion20260323_5 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_1RealFreyaPodcastSalesMotion20260323_5 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Present ;
+        narr:region narr:Temporal_Realis ;
+        narr:region narr:Temporal_Abstract ;
+        narr:evidence "plain-assertion: This is a content flywheel" ;
+        narr:reported false ;
+        skos:note "Characterizes the ongoing structural dynamic in abstract strategic terms." ;
+        prov:generatedAtTime "2026-09-23T16:56:42Z"^^xsd:dateTime .
+
+    narr:VecTemporal_1RealFreyaPodcastSalesMotion20260323_7 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_1RealFreyaPodcastSalesMotion20260323_7 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Future ;
+        narr:region narr:Temporal_Irrealis ;
+        narr:region narr:Temporal_Abstract ;
+        narr:evidence "modal-marker: I could build out the marketplace" ;
+        narr:reported false ;
+        skos:note "Explores a hypothetical future strategy using the modal 'could'." ;
+        prov:generatedAtTime "2026-09-23T16:56:42Z"^^xsd:dateTime .
+
+    narr:VecTemporal_1RealFreyaPodcastSalesMotion20260323_8 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_1RealFreyaPodcastSalesMotion20260323_8 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Past ;
+        narr:region narr:Temporal_Realis ;
+        narr:region narr:Temporal_Concrete ;
+        narr:evidence "plain-assertion: Freya's reaction to the demo walkthrough confirmed this" ;
+        narr:reported true ;
+        skos:note "Refers to a specific past reaction on a call as confirmation of a principle." ;
+        prov:generatedAtTime "2026-09-23T16:56:42Z"^^xsd:dateTime .
+
+    narr:VecTemporal_1RealFreyaPodcastSalesMotion20260323_9 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_1RealFreyaPodcastSalesMotion20260323_9 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Present ;
+        narr:region narr:Temporal_Realis ;
+        narr:region narr:Temporal_Abstract ;
+        narr:evidence "plain-assertion: The interview produces a perspective in a trial account." ;
+        narr:reported false ;
+        skos:note "Describes the general functional behavior of the system." ;
+        prov:generatedAtTime "2026-09-23T16:56:42Z"^^xsd:dateTime .
+
+    narr:VecTemporal_1RealFreyaPodcastSalesMotion20260323_10 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_1RealFreyaPodcastSalesMotion20260323_10 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Present ;
+        narr:region narr:Temporal_Realis ;
+        narr:region narr:Temporal_Concrete ;
+        narr:evidence "plain-assertion: The upgrade path is natural behavioral steps" ;
+        narr:reported false ;
+        skos:note "Enumerates current pricing tier definitions and feature thresholds." ;
+        prov:generatedAtTime "2026-09-23T16:56:42Z"^^xsd:dateTime .
+
+    narr:VecTemporal_1RealFreyaPodcastSalesMotion20260323_11 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_1RealFreyaPodcastSalesMotion20260323_11 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Present ;
+        narr:region narr:Temporal_Realis ;
+        narr:region narr:Temporal_Abstract ;
+        narr:evidence "plain-assertion: Each tier is a natural next step, not a paywall." ;
+        narr:reported false ;
+        skos:note "Defines the product packaging philosophy in abstract terms." ;
+        prov:generatedAtTime "2026-09-23T16:56:42Z"^^xsd:dateTime .
+
+    narr:VecTemporal_1RealFreyaPodcastSalesMotion20260323_12 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_1RealFreyaPodcastSalesMotion20260323_12 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Present ;
+        narr:region narr:Temporal_Realis ;
+        narr:region narr:Temporal_Abstract ;
+        narr:evidence "plain-assertion: The interview seeds the perspective; the user decides how far to take it." ;
+        narr:reported false ;
+        skos:note "States the general operational dynamic of user adoption." ;
+        prov:generatedAtTime "2026-09-23T16:56:42Z"^^xsd:dateTime .
+
+    narr:VecTemporal_1RealFreyaPodcastSalesMotion20260323_14 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_1RealFreyaPodcastSalesMotion20260323_14 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Present ;
+        narr:region narr:Temporal_Abstract ;
+        narr:evidence "plain-assertion: Don't make people read text in a video." ;
+        narr:reported false ;
+        skos:note "Issues a generalized design imperative." ;
+        prov:generatedAtTime "2026-09-23T16:56:42Z"^^xsd:dateTime .
+
+    narr:VecTemporal_1RealFreyaPodcastSalesMotion20260323_15 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_1RealFreyaPodcastSalesMotion20260323_15 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Present ;
+        narr:region narr:Temporal_Realis ;
+        narr:region narr:Temporal_Abstract ;
+        narr:evidence "plain-assertion: The hero video is a human moment, not a screen recording." ;
+        narr:reported false ;
+        skos:note "Asserts a core design principle for the video asset." ;
+        prov:generatedAtTime "2026-09-23T16:56:42Z"^^xsd:dateTime .
+
+    narr:VecTemporal_1RealFreyaPodcastSalesMotion20260323_16 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_1RealFreyaPodcastSalesMotion20260323_16 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Future ;
+        narr:region narr:Temporal_Irrealis ;
+        narr:region narr:Temporal_Concrete ;
+        narr:evidence "plain-assertion: The format:\n1. You on a call with someone" ;
+        narr:reported false ;
+        skos:note "Outlines the planned step-by-step structure for the upcoming video asset." ;
+        prov:generatedAtTime "2026-09-23T16:56:42Z"^^xsd:dateTime .
+
+    narr:VecTemporal_1RealFreyaPodcastSalesMotion20260323_17 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_1RealFreyaPodcastSalesMotion20260323_17 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Future ;
+        narr:region narr:Temporal_Irrealis ;
+        narr:region narr:Temporal_Concrete ;
+        narr:evidence "modal-marker: This can be assembled from existing Tess call footage" ;
+        narr:reported false ;
+        skos:note "Considers potential concrete production options for assembling footage." ;
+        prov:generatedAtTime "2026-09-23T16:56:42Z"^^xsd:dateTime .
+
+    narr:VecTemporal_1RealFreyaPodcastSalesMotion20260323_18 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_1RealFreyaPodcastSalesMotion20260323_18 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Present ;
+        narr:region narr:Temporal_Realis ;
+        narr:region narr:Temporal_Abstract ;
+        narr:evidence "plain-assertion: The human moment sells, not the text." ;
+        narr:reported false ;
+        skos:note "Synthesizes an abstract principle learned from past feedback." ;
+        prov:generatedAtTime "2026-09-23T16:56:42Z"^^xsd:dateTime .
+
+    narr:VecTemporal_1RealFreyaPodcastSalesMotion20260323_20 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_1RealFreyaPodcastSalesMotion20260323_20 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Present ;
+        narr:region narr:Temporal_Realis ;
+        narr:region narr:Temporal_Concrete ;
+        narr:evidence "plain-assertion: The `, aswritten` at the end of prompt 2 is the mode switch" ;
+        narr:reported false ;
+        skos:note "Describes the specific technical syntax mechanism in the prompt." ;
+        prov:generatedAtTime "2026-09-23T16:56:42Z"^^xsd:dateTime .
+
+    narr:VecTemporal_1RealFreyaPodcastSalesMotion20260323_21 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_1RealFreyaPodcastSalesMotion20260323_21 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Present ;
+        narr:region narr:Temporal_Realis ;
+        narr:region narr:Temporal_Abstract ;
+        narr:evidence "plain-assertion: The viewer learns what this means by seeing the output change." ;
+        narr:reported false ;
+        skos:note "Explains the pedagogical dynamic of the video demonstration." ;
+        prov:generatedAtTime "2026-09-23T16:56:42Z"^^xsd:dateTime .
+
+    narr:VecTemporal_1RealFreyaPodcastSalesMotion20260323_24 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_1RealFreyaPodcastSalesMotion20260323_24 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Present ;
+        narr:region narr:Temporal_Realis ;
+        narr:region narr:Temporal_Abstract ;
+        narr:evidence "plain-assertion: I've let go of the memory word sort of entirely and I'm now calling it installable expertise." ;
+        narr:reported false ;
+        skos:note "Describes Tanya's current high-level conceptual narrative reframe." ;
+        prov:generatedAtTime "2026-09-23T16:56:42Z"^^xsd:dateTime .
+
+    narr:VecTemporal_1RealFreyaPodcastSalesMotion20260323_26 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_1RealFreyaPodcastSalesMotion20260323_26 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Present ;
+        narr:region narr:Temporal_Realis ;
+        narr:region narr:Temporal_Abstract ;
+        narr:evidence "plain-assertion: The real differentiator and the technical moat is that I take textual documents and I extract perspective from them" ;
+        narr:reported false ;
+        skos:note "Defines the core abstract technical moat and capability." ;
+        prov:generatedAtTime "2026-09-23T16:56:42Z"^^xsd:dateTime .
+
+    narr:VecTemporal_1RealFreyaPodcastSalesMotion20260323_28 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_1RealFreyaPodcastSalesMotion20260323_28 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Present ;
+        narr:region narr:Temporal_Realis ;
+        narr:region narr:Temporal_Abstract ;
+        narr:evidence "plain-assertion: The target market is becoming an expert that currently packages their work in a static and bounded way." ;
+        narr:reported false ;
+        skos:note "Defines the broad target customer profile." ;
+        prov:generatedAtTime "2026-09-23T16:56:42Z"^^xsd:dateTime .
+
+    narr:VecTemporal_1RealFreyaPodcastSalesMotion20260323_30 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_1RealFreyaPodcastSalesMotion20260323_30 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Present ;
+        narr:region narr:Temporal_Realis ;
+        narr:region narr:Temporal_Abstract ;
+        narr:evidence "plain-assertion: It's really about the delegation of work that requires expertise to carry it out." ;
+        narr:reported false ;
+        skos:note "Expresses the underlying problem space in abstract terms." ;
+        prov:generatedAtTime "2026-09-23T16:56:42Z"^^xsd:dateTime .
+
+    narr:VecTemporal_1RealFreyaPodcastSalesMotion20260323_32 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_1RealFreyaPodcastSalesMotion20260323_32 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Present ;
+        narr:region narr:Temporal_Realis ;
+        narr:region narr:Temporal_Abstract ;
+        narr:evidence "plain-assertion: I'm more interested in developing the Apple to installable expertise than I am in giving you a toolbox." ;
+        narr:reported false ;
+        skos:note "Uses an abstract strategic analogy to define product posture." ;
+        prov:generatedAtTime "2026-09-23T16:56:42Z"^^xsd:dateTime .
+
+    narr:VecTemporal_1RealFreyaPodcastSalesMotion20260323_34 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_1RealFreyaPodcastSalesMotion20260323_34 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Future ;
+        narr:region narr:Temporal_Irrealis ;
+        narr:region narr:Temporal_Concrete ;
+        narr:evidence "modal-marker: Could I get all the people I know to contribute their expertise as the first modules?" ;
+        narr:reported false ;
+        skos:note "Ponders a future concrete go-to-market tactic with known peers." ;
+        prov:generatedAtTime "2026-09-23T16:56:42Z"^^xsd:dateTime .
+
+    narr:VecTemporal_1RealFreyaPodcastSalesMotion20260323_35 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_1RealFreyaPodcastSalesMotion20260323_35 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Future ;
+        narr:region narr:Temporal_Irrealis ;
+        narr:region narr:Temporal_Concrete ;
+        narr:evidence "commitment-marker: Freya committed to:\n- Style guide by end of week" ;
+        narr:reported true ;
+        skos:note "Reports Freya's commitment to concrete upcoming deliverables." ;
+        prov:generatedAtTime "2026-09-23T16:56:42Z"^^xsd:dateTime .
+
+    narr:VecTemporal_1RealFreyaPodcastSalesMotion20260323_36 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_1RealFreyaPodcastSalesMotion20260323_36 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Future ;
+        narr:region narr:Temporal_Irrealis ;
+        narr:region narr:Temporal_Concrete ;
+        narr:evidence "plain-assertion: What Tanya sends him:\n- Glossary" ;
+        narr:reported false ;
+        skos:note "Lists concrete items Tanya needs to send to Freya." ;
+        prov:generatedAtTime "2026-09-23T16:56:42Z"^^xsd:dateTime .
+
+    narr:VecTemporal_1RealFreyaPodcastSalesMotion20260323_37 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_1RealFreyaPodcastSalesMotion20260323_37 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Future ;
+        narr:region narr:Temporal_Irrealis ;
+        narr:region narr:Temporal_Concrete ;
+        narr:evidence "plain-assertion: Freya wants to do an interview himself — create an installable Freya" ;
+        narr:reported false ;
+        skos:note "Notes a prospective interview and artifact creation for Freya." ;
+        prov:generatedAtTime "2026-09-23T16:56:42Z"^^xsd:dateTime .
+
+    narr:VecTemporal_1RealFreyaPodcastSalesMotion20260323_38 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_1RealFreyaPodcastSalesMotion20260323_38 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Future ;
+        narr:region narr:Temporal_Irrealis ;
+        narr:region narr:Temporal_Concrete ;
+        narr:evidence "modal-marker: This would be one of the first perspectives in the marketplace." ;
+        narr:reported false ;
+        skos:note "Speculates on the future placement of Freya's prospective perspective." ;
+        prov:generatedAtTime "2026-09-23T16:56:42Z"^^xsd:dateTime .
+
+    narr:VecTemporal_1RealFreyaPodcastSalesMotion20260323_39 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_1RealFreyaPodcastSalesMotion20260323_39 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Future ;
+        narr:region narr:Temporal_Irrealis ;
+        narr:region narr:Temporal_Concrete ;
+        narr:evidence "lexical-marker: Scheduled for a future call." ;
+        narr:reported false ;
+        skos:note "Explicitly points to a planned future event." ;
+        prov:generatedAtTime "2026-09-23T16:56:42Z"^^xsd:dateTime .
+
+    narr:VecTemporal_1RealFreyaPodcastSalesMotion20260323_40 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_1RealFreyaPodcastSalesMotion20260323_40 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Past ;
+        narr:region narr:Temporal_Realis ;
+        narr:region narr:Temporal_Abstract ;
+        narr:evidence "plain-assertion: Freya also reflected the same pattern other prospects have shown" ;
+        narr:reported true ;
+        skos:note "Reports Freya expressing a common prospect hesitation pattern." ;
+        prov:generatedAtTime "2026-09-23T16:56:42Z"^^xsd:dateTime .
+
+    narr:VecTemporal_1RealFreyaPodcastSalesMotion20260323_41 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_1RealFreyaPodcastSalesMotion20260323_41 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Past ;
+        narr:region narr:Temporal_Realis ;
+        narr:region narr:Temporal_Abstract ;
+        narr:evidence "plain-assertion: he also immediately understood the podcast model" ;
+        narr:reported false ;
+        skos:note "Reports Freya's realization during the call about the podcast dynamic." ;
+        prov:generatedAtTime "2026-09-23T16:56:42Z"^^xsd:dateTime .
+
+    narr:VecTemporal_1RealFreyaPodcastSalesMotion20260323_42 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_1RealFreyaPodcastSalesMotion20260323_42 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Future ;
+        narr:region narr:Temporal_Irrealis ;
+        narr:region narr:Temporal_Concrete ;
+        narr:evidence "lexical-marker: Above the line (April 1):" ;
+        narr:reported false ;
+        skos:note "Lists concrete planned launch tasks targeted for April 1." ;
+        prov:generatedAtTime "2026-09-23T16:56:42Z"^^xsd:dateTime .
+
+    narr:VecTemporal_1RealFreyaPodcastSalesMotion20260323_43 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_1RealFreyaPodcastSalesMotion20260323_43 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Future ;
+        narr:region narr:Temporal_Irrealis ;
+        narr:region narr:Temporal_Concrete ;
+        narr:evidence "plain-assertion: Below the line:\n- Marketplace browse/search" ;
+        narr:reported false ;
+        skos:note "Defines postponed work items planned for post-launch." ;
+        prov:generatedAtTime "2026-09-23T16:56:42Z"^^xsd:dateTime .
+
+    narr:VecTemporal_1RealFreyaPodcastSalesMotion20260323_44 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_1RealFreyaPodcastSalesMotion20260323_44 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Present ;
+        narr:region narr:Temporal_Concrete ;
+        narr:evidence "lexical-marker: Currently drafts.aswritten.ai." ;
+        narr:reported false ;
+        skos:note "Addresses current hosting configuration alongside possible future shifts." ;
+        prov:generatedAtTime "2026-09-23T16:56:42Z"^^xsd:dateTime .
+
+    narr:VecTemporal_1RealFreyaPodcastSalesMotion20260323_45 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_1RealFreyaPodcastSalesMotion20260323_45 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Present ;
+        narr:region narr:Temporal_Realis ;
+        narr:region narr:Temporal_Concrete ;
+        narr:evidence "plain-assertion: SMS and email templates saved to docs/sales/outreach-templates.md" ;
+        narr:reported false ;
+        skos:note "Confirms existing concrete saved artifacts." ;
+        prov:generatedAtTime "2026-09-23T16:56:42Z"^^xsd:dateTime .
+
+    narr:VecTemporal_1RealFreyaPodcastSalesMotion20260323_46 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_1RealFreyaPodcastSalesMotion20260323_46 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Future ;
+        narr:region narr:Temporal_Irrealis ;
+        narr:region narr:Temporal_Concrete ;
+        narr:evidence "lexical-marker: Need to save:" ;
+        narr:reported false ;
+        skos:note "Specifies concrete outstanding action items to be completed." ;
+        prov:generatedAtTime "2026-09-23T16:56:42Z"^^xsd:dateTime .
+
+    narr:DirValue_CapabilityOverInformation a narr:DirectionalNode ;
+        dct:source narr:Sample_1RealFreyaPodcastSalesMotion20260323 ;
+        narr:dimension narr:Dim_Value ;
+        narr:region narr:Value_Competence ;
+        narr:frame "Does this expression position actionable capability and competent execution above raw information volume or abstract intelligence?" ;
+        skos:note "not intelligence is capability" ;
+        prov:generatedAtTime "2026-09-23T16:56:42Z"^^xsd:dateTime .
+
+    narr:VecValue_1RealFreyaPodcastSalesMotion20260323_24 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_1RealFreyaPodcastSalesMotion20260323_24 ;
+        narr:dimension narr:Dim_Value ;
+        narr:region narr:Value_Competence ;
+        narr:direction narr:DirValue_CapabilityOverInformation ;
+        narr:evidence "plain-assertion: not intelligence is capability. And more information does not solve your problem." ;
+        narr:reported false ;
+        skos:note "Frames effective capability and actionable mastery over passive information/intelligence as the core value." ;
+        prov:generatedAtTime "2026-09-23T16:56:42Z"^^xsd:dateTime .
+
+    narr:VecValue_1RealFreyaPodcastSalesMotion20260323_30 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_1RealFreyaPodcastSalesMotion20260323_30 ;
+        narr:dimension narr:Dim_Value ;
+        narr:region narr:Value_Autonomy ;
+        narr:region narr:Value_Competence ;
+        narr:evidence "framing-move: It's really about the delegation of work that requires expertise to carry it out. And the person, the business owner, the consultant, the expert, is currently the bottleneck." ;
+        narr:reported false ;
+        skos:note "Appeals to autonomy and operational scale by removing the individual expert bottleneck through codified capability delegation." ;
+        prov:generatedAtTime "2026-09-23T16:56:42Z"^^xsd:dateTime .
+
+    narr:VecValue_1RealFreyaPodcastSalesMotion20260323_45 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_1RealFreyaPodcastSalesMotion20260323_45 ;
+        narr:dimension narr:Dim_Value ;
+        narr:region narr:Value_SelfTranscendence ;
+        narr:evidence "lexical-marker: No bait and switch." ;
+        narr:reported false ;
+        skos:note "Expresses commitment to fair, transparent dealing with prospective partners without deceptive tactics." ;
+        prov:generatedAtTime "2026-09-23T16:56:42Z"^^xsd:dateTime .
+
+    narr:Narrative_InstallableExpertise a narr:Narrative ;
+        dct:source narr:Sample_1RealFreyaPodcastSalesMotion20260323 ;
+        narr:frame "How does the product transform static expert knowledge into citable, delegable capability rather than passive information storage?" ;
+        skos:note "Installable expertise replaces passive memory with actionable, citable capability" ;
+        prov:generatedAtTime "2026-09-23T16:56:42Z"^^xsd:dateTime .
+
+    narr:Expr_1RealFreyaPodcastSalesMotion20260323_24 narr:supports narr:Narrative_InstallableExpertise .
+
+    narr:Expr_1RealFreyaPodcastSalesMotion20260323_26 narr:supports narr:Narrative_InstallableExpertise .
+
+    narr:Expr_1RealFreyaPodcastSalesMotion20260323_28 narr:supports narr:Narrative_InstallableExpertise .
+
+    narr:Expr_1RealFreyaPodcastSalesMotion20260323_30 narr:supports narr:Narrative_InstallableExpertise .
+
+    narr:Expr_1RealFreyaPodcastSalesMotion20260323_32 narr:supports narr:Narrative_InstallableExpertise .
+
+    narr:Narrative_InterviewFlywheel a narr:Narrative ;
+        dct:source narr:Sample_1RealFreyaPodcastSalesMotion20260323 ;
+        narr:frame "How does conducting an expert interview simultaneously seed product perspective, generate public content, and prove capability?" ;
+        skos:note "A single expert interview unifies product onboarding, marketing content, and sales proof" ;
+        prov:generatedAtTime "2026-09-23T16:56:42Z"^^xsd:dateTime .
+
+    narr:Expr_1RealFreyaPodcastSalesMotion20260323_3 narr:supports narr:Narrative_InterviewFlywheel .
+
+    narr:Expr_1RealFreyaPodcastSalesMotion20260323_4 narr:supports narr:Narrative_InterviewFlywheel .
+
+    narr:Expr_1RealFreyaPodcastSalesMotion20260323_5 narr:supports narr:Narrative_InterviewFlywheel .
+
+    narr:Expr_1RealFreyaPodcastSalesMotion20260323_7 narr:supports narr:Narrative_InterviewFlywheel .
+
+    narr:Expr_1RealFreyaPodcastSalesMotion20260323_34 narr:supports narr:Narrative_InterviewFlywheel .
+
+    narr:Expr_1RealFreyaPodcastSalesMotion20260323_37 narr:supports narr:Narrative_InterviewFlywheel .
+
+    narr:Expr_1RealFreyaPodcastSalesMotion20260323_38 narr:supports narr:Narrative_InterviewFlywheel .
+
+    narr:Expr_1RealFreyaPodcastSalesMotion20260323_41 narr:supports narr:Narrative_InterviewFlywheel .
+
+    narr:Expr_1RealFreyaPodcastSalesMotion20260323_44 narr:supports narr:Narrative_InterviewFlywheel .
+
+    narr:Expr_1RealFreyaPodcastSalesMotion20260323_45 narr:supports narr:Narrative_InterviewFlywheel .
+
+    narr:Narrative_HumanMomentVideoProof a narr:Narrative ;
+        dct:source narr:Sample_1RealFreyaPodcastSalesMotion20260323 ;
+        narr:frame "How does showing an expert's live reaction to their cited perspective validate product capability more effectively than screen recordings?" ;
+        skos:note "Human reactions to cited thinking prove product value over UI walkthroughs" ;
+        prov:generatedAtTime "2026-09-23T16:56:42Z"^^xsd:dateTime .
+
+    narr:Expr_1RealFreyaPodcastSalesMotion20260323_8 narr:supports narr:Narrative_HumanMomentVideoProof .
+
+    narr:Expr_1RealFreyaPodcastSalesMotion20260323_14 narr:supports narr:Narrative_HumanMomentVideoProof .
+
+    narr:Expr_1RealFreyaPodcastSalesMotion20260323_15 narr:supports narr:Narrative_HumanMomentVideoProof .
+
+    narr:Expr_1RealFreyaPodcastSalesMotion20260323_16 narr:supports narr:Narrative_HumanMomentVideoProof .
+
+    narr:Expr_1RealFreyaPodcastSalesMotion20260323_17 narr:supports narr:Narrative_HumanMomentVideoProof .
+
+    narr:Expr_1RealFreyaPodcastSalesMotion20260323_18 narr:supports narr:Narrative_HumanMomentVideoProof .
+
+    narr:Expr_1RealFreyaPodcastSalesMotion20260323_20 narr:supports narr:Narrative_HumanMomentVideoProof .
+
+    narr:Expr_1RealFreyaPodcastSalesMotion20260323_21 narr:supports narr:Narrative_HumanMomentVideoProof .
+
+    narr:Narrative_BehavioralProgressionPackaging a narr:Narrative ;
+        dct:source narr:Sample_1RealFreyaPodcastSalesMotion20260323 ;
+        narr:frame "How do pricing tiers map to expanding user commitment starting from a seeded interview?" ;
+        skos:note "Commercial tiers follow natural behavioral expansion rather than artificial paywalls" ;
+        prov:generatedAtTime "2026-09-23T16:56:42Z"^^xsd:dateTime .
+
+    narr:Expr_1RealFreyaPodcastSalesMotion20260323_9 narr:supports narr:Narrative_BehavioralProgressionPackaging .
+
+    narr:Expr_1RealFreyaPodcastSalesMotion20260323_10 narr:supports narr:Narrative_BehavioralProgressionPackaging .
+
+    narr:Expr_1RealFreyaPodcastSalesMotion20260323_11 narr:supports narr:Narrative_BehavioralProgressionPackaging .
+
+    narr:Expr_1RealFreyaPodcastSalesMotion20260323_12 narr:supports narr:Narrative_BehavioralProgressionPackaging .
+
+    narr:Position_InterviewFlywheelSalesMotion a narr:Position ;
+        narr:frame "How can an expert interview serve concurrently as marketing content, product onboarding, and live sales proof?" ;
+        prov:generatedAtTime "2026-09-23T16:56:42Z"^^xsd:dateTime .
+
+    narr:Expr_1RealFreyaPodcastSalesMotion20260323_3 narr:supports narr:Position_InterviewFlywheelSalesMotion .
+
+    narr:Expr_1RealFreyaPodcastSalesMotion20260323_4 narr:supports narr:Position_InterviewFlywheelSalesMotion .
+
+    narr:Expr_1RealFreyaPodcastSalesMotion20260323_5 narr:supports narr:Position_InterviewFlywheelSalesMotion .
+
+    narr:Expr_1RealFreyaPodcastSalesMotion20260323_7 narr:supports narr:Position_InterviewFlywheelSalesMotion .
+
+    narr:Expr_1RealFreyaPodcastSalesMotion20260323_41 narr:supports narr:Position_InterviewFlywheelSalesMotion .
+
+    narr:Position_HumanMomentDemoVideo a narr:Position ;
+        narr:frame "How should product demo videos balance human emotional reaction against UI walkthroughs and screen recordings?" ;
+        prov:generatedAtTime "2026-09-23T16:56:42Z"^^xsd:dateTime .
+
+    narr:Expr_1RealFreyaPodcastSalesMotion20260323_8 narr:supports narr:Position_HumanMomentDemoVideo .
+
+    narr:Expr_1RealFreyaPodcastSalesMotion20260323_14 narr:supports narr:Position_HumanMomentDemoVideo .
+
+    narr:Expr_1RealFreyaPodcastSalesMotion20260323_15 narr:supports narr:Position_HumanMomentDemoVideo .
+
+    narr:Expr_1RealFreyaPodcastSalesMotion20260323_16 narr:supports narr:Position_HumanMomentDemoVideo .
+
+    narr:Expr_1RealFreyaPodcastSalesMotion20260323_18 narr:supports narr:Position_HumanMomentDemoVideo .
+
+    narr:Position_BehavioralStepPackagingTiers a narr:Position ;
+        narr:frame "How should commercial pricing tiers map to natural user expansion rather than restrictive access walls?" ;
+        prov:generatedAtTime "2026-09-23T16:56:42Z"^^xsd:dateTime .
+
+    narr:Expr_1RealFreyaPodcastSalesMotion20260323_9 narr:supports narr:Position_BehavioralStepPackagingTiers .
+
+    narr:Expr_1RealFreyaPodcastSalesMotion20260323_10 narr:supports narr:Position_BehavioralStepPackagingTiers .
+
+    narr:Expr_1RealFreyaPodcastSalesMotion20260323_11 narr:supports narr:Position_BehavioralStepPackagingTiers .
+
+    narr:Expr_1RealFreyaPodcastSalesMotion20260323_12 narr:supports narr:Position_BehavioralStepPackagingTiers .
+
+    narr:Position_InstallableExpertiseCategoryMoat a narr:Position ;
+        narr:frame "What constitutes the boundary and technical moat of installable expertise compared to passive information retrieval?" ;
+        prov:generatedAtTime "2026-09-23T16:56:42Z"^^xsd:dateTime .
+
+    narr:Expr_1RealFreyaPodcastSalesMotion20260323_24 narr:supports narr:Position_InstallableExpertiseCategoryMoat .
+
+    narr:Expr_1RealFreyaPodcastSalesMotion20260323_26 narr:supports narr:Position_InstallableExpertiseCategoryMoat .
+
+    narr:Expr_1RealFreyaPodcastSalesMotion20260323_28 narr:supports narr:Position_InstallableExpertiseCategoryMoat .
+
+    narr:Expr_1RealFreyaPodcastSalesMotion20260323_30 narr:supports narr:Position_InstallableExpertiseCategoryMoat .
+
+    narr:Expr_1RealFreyaPodcastSalesMotion20260323_32 narr:supports narr:Position_InstallableExpertiseCategoryMoat .
+
+    narr:Position_LaunchBoundaryAprilFirst a narr:Position ;
+        narr:frame "How should pre-launch scope separate immediate distribution essentials from deferred marketplace browsing capabilities?" ;
+        prov:generatedAtTime "2026-09-23T16:56:42Z"^^xsd:dateTime .
+
+    narr:Expr_1RealFreyaPodcastSalesMotion20260323_42 narr:supports narr:Position_LaunchBoundaryAprilFirst .
+
+    narr:Expr_1RealFreyaPodcastSalesMotion20260323_43 narr:supports narr:Position_LaunchBoundaryAprilFirst .
+
+    aswr:Miss_1RealFreyaPodcastSalesMotion20260323_conviction_trip a aswr:Miss ;
+        aswr:missPass "conviction" ;
+        aswr:missClass "floor" ;
+        aswr:missError "marked 11/45 under 0.25 for conviction" ;
+        aswr:missModel "google/gemini-3.7-flash" ;
+        aswr:tripFloor "marked_ratio" ;
+        aswr:tripRatio "0.2444"^^xsd:decimal ;
+        aswr:tripOutcome "accepted-flagged" ;
+        aswr:tripFallbackModel "anthropic/claude-sonnet-5" ;
+        aswr:missScope narr:Sample_1RealFreyaPodcastSalesMotion20260323 ;
+        prov:generatedAtTime "2026-09-23T16:56:42Z"^^xsd:dateTime .
+
+    aswr:Miss_1RealFreyaPodcastSalesMotion20260323_narrative_trip a aswr:Miss ;
+        aswr:missPass "narrative" ;
+        aswr:missClass "floor" ;
+        aswr:missError "unplaced 18/45 exceeds 0.34" ;
+        aswr:missModel "google/gemini-3.7-flash" ;
+        aswr:tripFloor "unplaced_ratio" ;
+        aswr:tripRatio "0.4000"^^xsd:decimal ;
+        aswr:tripOutcome "accepted-flagged" ;
+        aswr:tripFallbackModel "anthropic/claude-sonnet-5" ;
+        aswr:missScope narr:Sample_1RealFreyaPodcastSalesMotion20260323 ;
+        prov:generatedAtTime "2026-09-23T16:56:42Z"^^xsd:dateTime .
+
+    aswr:Run_20260923T165642Z_dim_affect a prov:Activity ;
+        aswr:runPass "dim.affect" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/3022f472b8a0/2026-09-23-1-real-freya-podcast-sales-motion-2026-03-23/dim.affect.json" ;
+        prov:generated narr:VecAffect_1RealFreyaPodcastSalesMotion20260323_8, narr:VecAffect_1RealFreyaPodcastSalesMotion20260323_37 ;
+        dct:isPartOf aswr:Tx_20260923T165642Z ;
+        prov:generatedAtTime "2026-09-23T16:56:42Z"^^xsd:dateTime .
+
+    aswr:Run_20260923T165642Z_dim_conviction a prov:Activity ;
+        aswr:runPass "dim.conviction" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/3022f472b8a0/2026-09-23-1-real-freya-podcast-sales-motion-2026-03-23/dim.conviction.json" ;
+        prov:generated narr:VecConviction_1RealFreyaPodcastSalesMotion20260323_7, narr:VecConviction_1RealFreyaPodcastSalesMotion20260323_14, narr:VecConviction_1RealFreyaPodcastSalesMotion20260323_15, narr:VecConviction_1RealFreyaPodcastSalesMotion20260323_24, narr:VecConviction_1RealFreyaPodcastSalesMotion20260323_26, narr:VecConviction_1RealFreyaPodcastSalesMotion20260323_30, narr:VecConviction_1RealFreyaPodcastSalesMotion20260323_32, narr:VecConviction_1RealFreyaPodcastSalesMotion20260323_34, narr:VecConviction_1RealFreyaPodcastSalesMotion20260323_35, narr:VecConviction_1RealFreyaPodcastSalesMotion20260323_42, narr:VecConviction_1RealFreyaPodcastSalesMotion20260323_43 ;
+        dct:isPartOf aswr:Tx_20260923T165642Z ;
+        prov:generatedAtTime "2026-09-23T16:56:42Z"^^xsd:dateTime .
+
+    aswr:Run_20260923T165642Z_dim_power a prov:Activity ;
+        aswr:runPass "dim.power" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/3022f472b8a0/2026-09-23-1-real-freya-podcast-sales-motion-2026-03-23/dim.power.json" ;
+        prov:generated narr:VecPower_1RealFreyaPodcastSalesMotion20260323_14, narr:VecPower_1RealFreyaPodcastSalesMotion20260323_24, narr:VecPower_1RealFreyaPodcastSalesMotion20260323_32, narr:VecPower_1RealFreyaPodcastSalesMotion20260323_35 ;
+        dct:isPartOf aswr:Tx_20260923T165642Z ;
+        prov:generatedAtTime "2026-09-23T16:56:42Z"^^xsd:dateTime .
+
+    aswr:Run_20260923T165642Z_dim_register a prov:Activity ;
+        aswr:runPass "dim.register" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/3022f472b8a0/2026-09-23-1-real-freya-podcast-sales-motion-2026-03-23/dim.register.json" ;
+        prov:generated narr:VecRegister_1RealFreyaPodcastSalesMotion20260323_7, narr:VecRegister_1RealFreyaPodcastSalesMotion20260323_14, narr:VecRegister_1RealFreyaPodcastSalesMotion20260323_24, narr:VecRegister_1RealFreyaPodcastSalesMotion20260323_26, narr:VecRegister_1RealFreyaPodcastSalesMotion20260323_34 ;
+        dct:isPartOf aswr:Tx_20260923T165642Z ;
+        prov:generatedAtTime "2026-09-23T16:56:42Z"^^xsd:dateTime .
+
+    aswr:Run_20260923T165642Z_dim_relational a prov:Activity ;
+        aswr:runPass "dim.relational" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/3022f472b8a0/2026-09-23-1-real-freya-podcast-sales-motion-2026-03-23/dim.relational.json" ;
+        prov:generated narr:VecRelational_1RealFreyaPodcastSalesMotion20260323_10, narr:VecRelational_1RealFreyaPodcastSalesMotion20260323_14, narr:VecRelational_1RealFreyaPodcastSalesMotion20260323_34, narr:VecRelational_1RealFreyaPodcastSalesMotion20260323_35 ;
+        dct:isPartOf aswr:Tx_20260923T165642Z ;
+        prov:generatedAtTime "2026-09-23T16:56:42Z"^^xsd:dateTime .
+
+    aswr:Run_20260923T165642Z_dim_style a prov:Activity ;
+        aswr:runPass "dim.style" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/3022f472b8a0/2026-09-23-1-real-freya-podcast-sales-motion-2026-03-23/dim.style.json" ;
+        prov:generated narr:VecStyle_1RealFreyaPodcastSalesMotion20260323_4, narr:VecStyle_1RealFreyaPodcastSalesMotion20260323_11, narr:VecStyle_1RealFreyaPodcastSalesMotion20260323_15, narr:VecStyle_1RealFreyaPodcastSalesMotion20260323_24, narr:VecStyle_1RealFreyaPodcastSalesMotion20260323_28, narr:VecStyle_1RealFreyaPodcastSalesMotion20260323_32 ;
+        dct:isPartOf aswr:Tx_20260923T165642Z ;
+        prov:generatedAtTime "2026-09-23T16:56:42Z"^^xsd:dateTime .
+
+    aswr:Run_20260923T165642Z_dim_temporal a prov:Activity ;
+        aswr:runPass "dim.temporal" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/3022f472b8a0/2026-09-23-1-real-freya-podcast-sales-motion-2026-03-23/dim.temporal.json" ;
+        prov:generated narr:VecTemporal_1RealFreyaPodcastSalesMotion20260323_1, narr:VecTemporal_1RealFreyaPodcastSalesMotion20260323_2, narr:VecTemporal_1RealFreyaPodcastSalesMotion20260323_3, narr:VecTemporal_1RealFreyaPodcastSalesMotion20260323_4, narr:VecTemporal_1RealFreyaPodcastSalesMotion20260323_5, narr:VecTemporal_1RealFreyaPodcastSalesMotion20260323_7, narr:VecTemporal_1RealFreyaPodcastSalesMotion20260323_8, narr:VecTemporal_1RealFreyaPodcastSalesMotion20260323_9, narr:VecTemporal_1RealFreyaPodcastSalesMotion20260323_10, narr:VecTemporal_1RealFreyaPodcastSalesMotion20260323_11, narr:VecTemporal_1RealFreyaPodcastSalesMotion20260323_12, narr:VecTemporal_1RealFreyaPodcastSalesMotion20260323_14, narr:VecTemporal_1RealFreyaPodcastSalesMotion20260323_15, narr:VecTemporal_1RealFreyaPodcastSalesMotion20260323_16, narr:VecTemporal_1RealFreyaPodcastSalesMotion20260323_17, narr:VecTemporal_1RealFreyaPodcastSalesMotion20260323_18, narr:VecTemporal_1RealFreyaPodcastSalesMotion20260323_20, narr:VecTemporal_1RealFreyaPodcastSalesMotion20260323_21, narr:VecTemporal_1RealFreyaPodcastSalesMotion20260323_24, narr:VecTemporal_1RealFreyaPodcastSalesMotion20260323_26, narr:VecTemporal_1RealFreyaPodcastSalesMotion20260323_28, narr:VecTemporal_1RealFreyaPodcastSalesMotion20260323_30, narr:VecTemporal_1RealFreyaPodcastSalesMotion20260323_32, narr:VecTemporal_1RealFreyaPodcastSalesMotion20260323_34, narr:VecTemporal_1RealFreyaPodcastSalesMotion20260323_35, narr:VecTemporal_1RealFreyaPodcastSalesMotion20260323_36, narr:VecTemporal_1RealFreyaPodcastSalesMotion20260323_37, narr:VecTemporal_1RealFreyaPodcastSalesMotion20260323_38, narr:VecTemporal_1RealFreyaPodcastSalesMotion20260323_39, narr:VecTemporal_1RealFreyaPodcastSalesMotion20260323_40, narr:VecTemporal_1RealFreyaPodcastSalesMotion20260323_41, narr:VecTemporal_1RealFreyaPodcastSalesMotion20260323_42, narr:VecTemporal_1RealFreyaPodcastSalesMotion20260323_43, narr:VecTemporal_1RealFreyaPodcastSalesMotion20260323_44, narr:VecTemporal_1RealFreyaPodcastSalesMotion20260323_45, narr:VecTemporal_1RealFreyaPodcastSalesMotion20260323_46 ;
+        dct:isPartOf aswr:Tx_20260923T165642Z ;
+        prov:generatedAtTime "2026-09-23T16:56:42Z"^^xsd:dateTime .
+
+    aswr:Run_20260923T165642Z_dim_value a prov:Activity ;
+        aswr:runPass "dim.value" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/3022f472b8a0/2026-09-23-1-real-freya-podcast-sales-motion-2026-03-23/dim.value.json" ;
+        prov:generated narr:DirValue_CapabilityOverInformation, narr:VecValue_1RealFreyaPodcastSalesMotion20260323_24, narr:VecValue_1RealFreyaPodcastSalesMotion20260323_30, narr:VecValue_1RealFreyaPodcastSalesMotion20260323_45 ;
+        dct:isPartOf aswr:Tx_20260923T165642Z ;
+        prov:generatedAtTime "2026-09-23T16:56:42Z"^^xsd:dateTime .
+
+    aswr:Run_20260923T165642Z_pass5 a prov:Activity ;
+        aswr:runPass "pass5" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/3022f472b8a0/2026-09-23-1-real-freya-podcast-sales-motion-2026-03-23/pass5.json" ;
+        prov:generated narr:Narrative_InstallableExpertise, narr:Narrative_InterviewFlywheel, narr:Narrative_HumanMomentVideoProof, narr:Narrative_BehavioralProgressionPackaging ;
+        dct:isPartOf aswr:Tx_20260923T165642Z ;
+        prov:generatedAtTime "2026-09-23T16:56:42Z"^^xsd:dateTime .
+
+    aswr:Run_20260923T165642Z_position a prov:Activity ;
+        aswr:runPass "position" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/3022f472b8a0/2026-09-23-1-real-freya-podcast-sales-motion-2026-03-23/position.json" ;
+        prov:generated narr:Position_InterviewFlywheelSalesMotion, narr:Position_HumanMomentDemoVideo, narr:Position_BehavioralStepPackagingTiers, narr:Position_InstallableExpertiseCategoryMoat, narr:Position_LaunchBoundaryAprilFirst ;
+        dct:isPartOf aswr:Tx_20260923T165642Z ;
+        prov:generatedAtTime "2026-09-23T16:56:42Z"^^xsd:dateTime .
+  }
+}
