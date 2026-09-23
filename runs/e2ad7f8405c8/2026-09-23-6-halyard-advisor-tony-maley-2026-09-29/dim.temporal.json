@@ -1,0 +1,149 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "present", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "I want an outside read on the plan before it goes to the board",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Tanya articulates her immediate, concrete objective for the current conversation regarding the specific plan.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-3",
+    "regions" : [ "future", "irrealis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "One site at a time, a soak between each one before the next starts",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Describes the specific planned execution sequence of the upcoming migration.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-5",
+    "regions" : [ "past", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "I've watched three of these programmes up close. The two that went big-bang both went backwards",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Tony recounts specific actual past programmes and their observed concrete outcomes.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-7",
+    "regions" : [ "future", "abstract" ],
+    "evidence" : [ {
+      "quote" : "the pressure to collapse the sequence always comes in month four, from someone who wasn't there in month one, and it always arrives dressed as efficiency.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Generalizes a recurring future pattern and abstract organizational behavior across programmes.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-8",
+    "regions" : [ "present", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "It's already started, if I'm honest.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Tanya reports that this concrete pressure is actively happening right now.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-9",
+    "regions" : [ "future", "irrealis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "When they come at you in month four you want the reasons in your own handwriting",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Tony advises on a specific concrete action to prepare for a prospective future scenario.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-13",
+    "regions" : [ "present", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "Your plan has no data-quality gate in it.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Tony assesses the current state of the actual plan document.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-15",
+    "regions" : [ "present", "realis", "abstract" ],
+    "evidence" : [ {
+      "quote" : "Those are completely different questions and every programme I've seen conflates them",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Tony asserts a general conceptual principle distinguishing data movement from data quality.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-17",
+    "regions" : [ "future", "irrealis", "abstract" ],
+    "evidence" : [ {
+      "quote" : "A named quality bar, measured on the source system, before the site is allowed into a cutover window.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Tony defines the general structural design and hypothetical rules of a quality gate mechanism.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-19",
+    "regions" : [ "future", "concrete" ],
+    "evidence" : [ {
+      "quote" : "You are the person who will be tempted to wave a site through, and you should not be the person holding the gate.",
+      "kind" : "modal-marker"
+    } ],
+    "why" : "Points to Tanya's specific upcoming role pressures and structural governance.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-21",
+    "regions" : [ "future", "irrealis", "abstract" ],
+    "evidence" : [ {
+      "quote" : "the gate costs you a site's worth of delay at least once, and if it never fires you set the bar too low.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Tony outlines a forward-looking operational principle and rule of thumb for gate calibration.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-23",
+    "regions" : [ "present", "realis", "abstract" ],
+    "evidence" : [ {
+      "quote" : "If it never stops anything, it isn't a gate.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Presents a timeless definition/axiom about quality gates.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-25",
+    "regions" : [ "future", "abstract" ],
+    "evidence" : [ {
+      "quote" : "Everyone skips it and everyone regrets it around year six.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Cites a long-range temporal pattern over multi-year horizons across organisations.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-26",
+    "regions" : [ "past", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "We opened that last week, actually.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Tanya reports a concrete completed action that took place the previous week.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-28",
+    "regions" : [ "future", "irrealis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "I'll take that to the board as the open item rather than wait for them to find it.",
+      "kind" : "commitment-marker"
+    } ],
+    "why" : "Tanya commits to a specific upcoming action regarding the board presentation.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-29",
+    "regions" : [ "future", "abstract" ],
+    "evidence" : [ {
+      "quote" : "They'll forgive a hole. They won't forgive finding one.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Tony characterizes general board psychology and prospective reactions to disclosure.",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-2", "src-4", "src-6", "src-10", "src-11", "src-12", "src-14", "src-16", "src-18", "src-20", "src-22", "src-24", "src-27" ],
+  "unmarked_rest" : false
+}
