@@ -1,0 +1,11 @@
+{
+  "placements" : [ {
+    "verdict" : "reuse",
+    "leaf" : "Narrative_ReactionDeliveryBundling",
+    "supporting_segments" : [ "src-1", "src-2", "src-3", "src-4" ],
+    "adopted_positions" : [ "Position_ReactionDeliveryBundlingAndBatchingBoundary" ],
+    "why" : "The segments articulate the operational ruling to bundle reaction notifications per run per person, establish the run close as the firm batching window boundary, and document the rejected per-skill delivery alternative.",
+    "consulted" : [ "Narrative_ReactionDeliveryBundling", "DesignTradeoffs" ]
+  } ],
+  "unplaced" : [ ]
+}
