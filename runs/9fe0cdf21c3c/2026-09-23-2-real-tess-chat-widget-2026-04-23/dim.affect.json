@@ -1,0 +1,30 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-58",
+    "regions" : [ "calm-negative" ],
+    "evidence" : [ {
+      "quote" : "one of the hardest parts about this thing",
+      "kind" : "lexical-marker"
+    }, {
+      "quote" : "I don't know, like, kind of anything.",
+      "kind" : "hedge"
+    } ],
+    "why" : "Tanya registers low-arousal difficulty and mild perplexity regarding the open-ended prompt hurdle.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-63",
+    "regions" : [ "calm-negative" ],
+    "evidence" : [ {
+      "quote" : "completely foreign to me",
+      "kind" : "lexical-marker"
+    }, {
+      "quote" : "that did not make sense to me",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Tess conveys candid cognitive bewilderment and estrangement from the backend mental model without high arousal.",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-1", "src-2", "src-3", "src-4", "src-5", "src-6", "src-7", "src-8", "src-9", "src-10", "src-11", "src-12", "src-13", "src-14", "src-15", "src-16", "src-17", "src-18", "src-19", "src-20", "src-21", "src-22", "src-23", "src-24", "src-25", "src-26", "src-27", "src-28", "src-29", "src-30", "src-31", "src-32", "src-33", "src-34", "src-35", "src-36", "src-37", "src-38", "src-39", "src-40", "src-41", "src-42", "src-43", "src-44", "src-45", "src-46", "src-47", "src-48", "src-49", "src-50", "src-51", "src-52", "src-53", "src-54", "src-55", "src-56", "src-57", "src-59", "src-60", "src-61", "src-62", "src-64", "src-65", "src-66", "src-67", "src-68", "src-69", "src-70", "src-71", "src-72", "src-73", "src-74", "src-75", "src-76", "src-77", "src-78" ],
+  "mints" : [ ],
+  "region_mints" : [ ]
+}
