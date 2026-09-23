@@ -1,0 +1,51 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-13",
+    "regions" : [ "antithesis", "parallelism" ],
+    "evidence" : [ {
+      "quote" : "Running two systems at one desk for a few weeks is a known, contained pain with a named owner. Two cutovers landing in the same week is an unbounded one, and we've got nobody to hand it to.",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Opposed concepts (known, contained pain vs unbounded) balanced across two structured sentences.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-15",
+    "regions" : [ "antithesis", "parallelism" ],
+    "evidence" : [ {
+      "quote" : "And the desk supervisor's pain is a rota problem, which is solvable. A double cutover is a staffing problem and a data problem at the same time, which isn't.",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Parallel syntactic clauses contrasting solvable vs unsolvable problems.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-22",
+    "regions" : [ "antithesis", "parallelism" ],
+    "evidence" : [ {
+      "quote" : "I'd rather hold two weeks and shorten it with evidence than hold one week and discover we needed two.",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Matched comparative structure balancing two contrasting courses of action.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-31",
+    "regions" : [ "antithesis" ],
+    "evidence" : [ {
+      "quote" : "write it into the runbook as a rule and not as guidance, because guidance gets negotiated at three a.m.",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Explicit contrast between a rule and guidance with a sharp explanatory clause.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-39",
+    "regions" : [ "parallelism" ],
+    "evidence" : [ {
+      "quote" : "Their data, their problem",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Balanced, symmetrical two-part phrase creating rhythmic emphasis.",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-1", "src-2", "src-3", "src-4", "src-5", "src-6", "src-7", "src-8", "src-9", "src-10", "src-11", "src-12", "src-14", "src-16", "src-17", "src-18", "src-19", "src-20", "src-21", "src-23", "src-24", "src-25", "src-26", "src-27", "src-28", "src-29", "src-30", "src-32", "src-33", "src-34", "src-35", "src-36", "src-37", "src-38", "src-40", "src-41", "src-42", "src-43", "src-44", "src-45" ],
+  "mints" : [ ],
+  "region_mints" : [ ]
+}
