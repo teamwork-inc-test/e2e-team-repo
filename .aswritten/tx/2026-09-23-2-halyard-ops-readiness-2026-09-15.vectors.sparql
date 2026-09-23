@@ -1,0 +1,858 @@
+PREFIX narr: <https://aswritten.ai/narrative#>
+PREFIX aswr: <https://aswritten.ai/aswr#>
+PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX dct:  <http://purl.org/dc/terms/>
+PREFIX xsd:  <http://www.w3.org/2001/XMLSchema#>
+PREFIX oa:   <http://www.w3.org/ns/oa#>
+PREFIX xkos: <http://rdf-vocabulary.ddialliance.org/xkos#>
+
+INSERT DATA {
+  aswr:Tx_20260923T014707Z a prov:Activity ;
+      prov:generatedAtTime "2026-09-23T01:47:07Z"^^xsd:dateTime ;
+      prov:wasAssociatedWith "aswritten.ai" ;
+      prov:wasAttributedTo "scarlet@aswritten.ai" ;
+      aswr:pipelinePin "8dd07a49bda8" ;
+      aswr:originPath ".aswritten/memories/2026-09-23-2-halyard-ops-readiness-2026-09-15.md" ;
+      dct:title "Multipass fragment: 2HalyardOpsReadiness20260915" ;
+      prov:generated narr:VecAffect_2HalyardOpsReadiness20260915_4, narr:VecAffect_2HalyardOpsReadiness20260915_30, narr:VecAffect_2HalyardOpsReadiness20260915_31, narr:VecConviction_2HalyardOpsReadiness20260915_2, narr:VecConviction_2HalyardOpsReadiness20260915_6, narr:VecConviction_2HalyardOpsReadiness20260915_7, narr:VecConviction_2HalyardOpsReadiness20260915_9, narr:VecConviction_2HalyardOpsReadiness20260915_12, narr:VecConviction_2HalyardOpsReadiness20260915_14, narr:VecConviction_2HalyardOpsReadiness20260915_15, narr:VecConviction_2HalyardOpsReadiness20260915_16, narr:VecConviction_2HalyardOpsReadiness20260915_17, narr:VecConviction_2HalyardOpsReadiness20260915_22, narr:VecConviction_2HalyardOpsReadiness20260915_25, narr:VecConviction_2HalyardOpsReadiness20260915_26, narr:VecConviction_2HalyardOpsReadiness20260915_28, narr:VecConviction_2HalyardOpsReadiness20260915_29, narr:DirPower_HardArithmeticAsMandate, narr:VecPower_2HalyardOpsReadiness20260915_3, narr:VecPower_2HalyardOpsReadiness20260915_11, narr:VecPower_2HalyardOpsReadiness20260915_14, narr:VecPower_2HalyardOpsReadiness20260915_15, narr:VecPower_2HalyardOpsReadiness20260915_24, narr:VecPower_2HalyardOpsReadiness20260915_25, narr:VecPower_2HalyardOpsReadiness20260915_26, narr:VecPower_2HalyardOpsReadiness20260915_27, narr:VecPower_2HalyardOpsReadiness20260915_28, narr:VecPower_2HalyardOpsReadiness20260915_29, narr:DirRegister_ArithmeticConstraintRegister, narr:VecRegister_2HalyardOpsReadiness20260915_11, narr:VecRegister_2HalyardOpsReadiness20260915_14, narr:VecRegister_2HalyardOpsReadiness20260915_15, narr:VecRegister_2HalyardOpsReadiness20260915_25, narr:VecRelational_2HalyardOpsReadiness20260915_1, narr:VecRelational_2HalyardOpsReadiness20260915_3, narr:VecRelational_2HalyardOpsReadiness20260915_17, narr:VecRelational_2HalyardOpsReadiness20260915_22, narr:VecRelational_2HalyardOpsReadiness20260915_27, narr:VecRelational_2HalyardOpsReadiness20260915_28, narr:VecRelational_2HalyardOpsReadiness20260915_29, narr:VecRelational_2HalyardOpsReadiness20260915_31, narr:VecStyle_2HalyardOpsReadiness20260915_11, narr:VecStyle_2HalyardOpsReadiness20260915_12, narr:VecStyle_2HalyardOpsReadiness20260915_14, narr:VecStyle_2HalyardOpsReadiness20260915_16, narr:VecStyle_2HalyardOpsReadiness20260915_28, narr:VecTemporal_2HalyardOpsReadiness20260915_2, narr:VecTemporal_2HalyardOpsReadiness20260915_3, narr:VecTemporal_2HalyardOpsReadiness20260915_6, narr:VecTemporal_2HalyardOpsReadiness20260915_7, narr:VecTemporal_2HalyardOpsReadiness20260915_9, narr:VecTemporal_2HalyardOpsReadiness20260915_11, narr:VecTemporal_2HalyardOpsReadiness20260915_12, narr:VecTemporal_2HalyardOpsReadiness20260915_13, narr:VecTemporal_2HalyardOpsReadiness20260915_14, narr:VecTemporal_2HalyardOpsReadiness20260915_15, narr:VecTemporal_2HalyardOpsReadiness20260915_17, narr:VecTemporal_2HalyardOpsReadiness20260915_18, narr:VecTemporal_2HalyardOpsReadiness20260915_19, narr:VecTemporal_2HalyardOpsReadiness20260915_21, narr:VecTemporal_2HalyardOpsReadiness20260915_22, narr:VecTemporal_2HalyardOpsReadiness20260915_25, narr:VecTemporal_2HalyardOpsReadiness20260915_28, narr:VecTemporal_2HalyardOpsReadiness20260915_29, narr:VecValue_2HalyardOpsReadiness20260915_18, narr:VecValue_2HalyardOpsReadiness20260915_19, narr:VecValue_2HalyardOpsReadiness20260915_28, narr:Position_CrossSiteOperationalLearning .
+} ;
+INSERT DATA {
+  GRAPH aswr:Tx_20260923T014707Z {
+    narr:VecAffect_2HalyardOpsReadiness20260915_4 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_2HalyardOpsReadiness20260915_4 ;
+        narr:dimension narr:Dim_Affect ;
+        narr:region narr:Affect_CalmPositive ;
+        narr:evidence "lexical-marker: Happy to." ;
+        narr:reported false ;
+        skos:note "Readily signals low-arousal positive willingness and satisfaction." ;
+        prov:generatedAtTime "2026-09-23T01:47:07Z"^^xsd:dateTime .
+
+    narr:VecAffect_2HalyardOpsReadiness20260915_30 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_2HalyardOpsReadiness20260915_30 ;
+        narr:dimension narr:Dim_Affect ;
+        narr:region narr:Affect_CalmPositive ;
+        narr:evidence "lexical-marker: Then I'm content." ;
+        narr:reported false ;
+        skos:note "Explicitly states a settled state of satisfaction and low-arousal positive resolution." ;
+        prov:generatedAtTime "2026-09-23T01:47:07Z"^^xsd:dateTime .
+
+    narr:VecAffect_2HalyardOpsReadiness20260915_31 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_2HalyardOpsReadiness20260915_31 ;
+        narr:dimension narr:Dim_Affect ;
+        narr:region narr:Affect_CalmPositive ;
+        narr:evidence "lexical-marker: Genuinely useful." ;
+        narr:reported false ;
+        skos:note "Expresses warm appreciation and positive satisfaction with the discussion outcome." ;
+        prov:generatedAtTime "2026-09-23T01:47:07Z"^^xsd:dateTime .
+
+    narr:VecConviction_2HalyardOpsReadiness20260915_2 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_2HalyardOpsReadiness20260915_2 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Decision ;
+        narr:evidence "commitment-marker: settled the cutover shape" ;
+        narr:reported false ;
+        skos:note "Reports an already-settled operational plan for the migration shape." ;
+        prov:generatedAtTime "2026-09-23T01:47:07Z"^^xsd:dateTime .
+
+    narr:VecConviction_2HalyardOpsReadiness20260915_6 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_2HalyardOpsReadiness20260915_6 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Decision ;
+        narr:evidence "plain-assertion: One site at a time." ;
+        narr:reported false ;
+        skos:note "States the established operational sequencing rule." ;
+        prov:generatedAtTime "2026-09-23T01:47:07Z"^^xsd:dateTime .
+
+    narr:VecConviction_2HalyardOpsReadiness20260915_7 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_2HalyardOpsReadiness20260915_7 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Decision ;
+        narr:evidence "commitment-marker: No two cutovers running at once." ;
+        narr:reported false ;
+        skos:note "Defines the non-negotiable operational sequencing constraint." ;
+        prov:generatedAtTime "2026-09-23T01:47:07Z"^^xsd:dateTime .
+
+    narr:VecConviction_2HalyardOpsReadiness20260915_9 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_2HalyardOpsReadiness20260915_9 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Claim ;
+        narr:evidence "plain-assertion: That's the only shape that works" ;
+        narr:reported false ;
+        skos:note "Freya makes an assertive claim defending the shape from her operational vantage." ;
+        prov:generatedAtTime "2026-09-23T01:47:07Z"^^xsd:dateTime .
+
+    narr:VecConviction_2HalyardOpsReadiness20260915_12 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_2HalyardOpsReadiness20260915_12 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Claim ;
+        narr:evidence "plain-assertion: I can't staff that." ;
+        narr:evidence "plain-assertion: the people don't exist." ;
+        narr:reported false ;
+        skos:note "Asserts a factual, unmovable resourcing reality as an unyielding claim." ;
+        prov:generatedAtTime "2026-09-23T01:47:07Z"^^xsd:dateTime .
+
+    narr:VecConviction_2HalyardOpsReadiness20260915_14 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_2HalyardOpsReadiness20260915_14 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Claim ;
+        narr:evidence "plain-assertion: I'm telling you it's arithmetic." ;
+        narr:reported false ;
+        skos:note "Reframes the position from risk to an arithmetic impossibility claim." ;
+        prov:generatedAtTime "2026-09-23T01:47:07Z"^^xsd:dateTime .
+
+    narr:VecConviction_2HalyardOpsReadiness20260915_15 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_2HalyardOpsReadiness20260915_15 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Claim ;
+        narr:evidence "plain-assertion: Yours is a hard constraint." ;
+        narr:reported false ;
+        skos:note "Evaluates and confirms the strength of the staffing argument." ;
+        prov:generatedAtTime "2026-09-23T01:47:07Z"^^xsd:dateTime .
+
+    narr:VecConviction_2HalyardOpsReadiness20260915_16 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_2HalyardOpsReadiness20260915_16 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Principle ;
+        narr:evidence "intensifier: It's the one that doesn't move." ;
+        narr:reported false ;
+        skos:note "Characterizes the physical staffing limitation as an immovable bedrock condition." ;
+        prov:generatedAtTime "2026-09-23T01:47:07Z"^^xsd:dateTime .
+
+    narr:VecConviction_2HalyardOpsReadiness20260915_17 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_2HalyardOpsReadiness20260915_17 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Decision ;
+        narr:evidence "commitment-marker: I'll lead with yours on Thursday." ;
+        narr:reported false ;
+        skos:note "Tanya makes an explicit commissive decision on how to present the plan." ;
+        prov:generatedAtTime "2026-09-23T01:47:07Z"^^xsd:dateTime .
+
+    narr:VecConviction_2HalyardOpsReadiness20260915_22 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_2HalyardOpsReadiness20260915_22 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Claim ;
+        narr:evidence "hedge: I'd still say one at a time" ;
+        narr:evidence "hedge: I want to be careful." ;
+        narr:reported false ;
+        skos:note "Nuances her conviction level under hypothetical conditions while maintaining the core claim." ;
+        prov:generatedAtTime "2026-09-23T01:47:07Z"^^xsd:dateTime .
+
+    narr:VecConviction_2HalyardOpsReadiness20260915_25 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_2HalyardOpsReadiness20260915_25 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Claim ;
+        narr:evidence "plain-assertion: both assume one cutover window open at a time" ;
+        narr:reported false ;
+        skos:note "States the architectural assumptions supporting the one-at-a-time decision." ;
+        prov:generatedAtTime "2026-09-23T01:47:07Z"^^xsd:dateTime .
+
+    narr:VecConviction_2HalyardOpsReadiness20260915_26 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_2HalyardOpsReadiness20260915_26 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Decision ;
+        narr:evidence "performed-act: let's not go parallel." ;
+        narr:reported false ;
+        skos:note "Performs an explicit decision to rule out parallel execution." ;
+        prov:generatedAtTime "2026-09-23T01:47:07Z"^^xsd:dateTime .
+
+    narr:VecConviction_2HalyardOpsReadiness20260915_28 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_2HalyardOpsReadiness20260915_28 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Claim ;
+        narr:evidence "plain-assertion: we're in the same place by another route." ;
+        narr:reported false ;
+        skos:note "Asserts the operational consequence if the soak period is compromised." ;
+        prov:generatedAtTime "2026-09-23T01:47:07Z"^^xsd:dateTime .
+
+    narr:VecConviction_2HalyardOpsReadiness20260915_29 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_2HalyardOpsReadiness20260915_29 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Decision ;
+        narr:evidence "commitment-marker: I'll hold it." ;
+        narr:reported false ;
+        skos:note "Commissive commitment binding Tanya to the soak duration rule." ;
+        prov:generatedAtTime "2026-09-23T01:47:07Z"^^xsd:dateTime .
+
+    narr:DirPower_HardArithmeticAsMandate a narr:DirectionalNode ;
+        dct:source narr:Sample_2HalyardOpsReadiness20260915 ;
+        narr:dimension narr:Dim_Power ;
+        narr:region narr:Power_RationalPersuasion ;
+        narr:region narr:Power_Expert ;
+        narr:frame "Does the speaker ground authority and influence in non-negotiable physical or mathematical capacity rather than negotiable risk assessments?" ;
+        skos:note "it's arithmetic, not risk" ;
+        prov:generatedAtTime "2026-09-23T01:47:07Z"^^xsd:dateTime .
+
+    narr:VecPower_2HalyardOpsReadiness20260915_3 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_2HalyardOpsReadiness20260915_3 ;
+        narr:dimension narr:Dim_Power ;
+        narr:region narr:Power_Consultation ;
+        narr:evidence "framing-move: I want your read on it from the rota side before it hardens." ;
+        narr:reported false ;
+        skos:note "Tanya explicitly invites Freya into shaping the operational plan prior to finalizing it." ;
+        prov:generatedAtTime "2026-09-23T01:47:07Z"^^xsd:dateTime .
+
+    narr:VecPower_2HalyardOpsReadiness20260915_11 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_2HalyardOpsReadiness20260915_11 ;
+        narr:dimension narr:Dim_Power ;
+        narr:region narr:Power_RationalPersuasion ;
+        narr:region narr:Power_Informational ;
+        narr:direction narr:DirPower_HardArithmeticAsMandate ;
+        narr:evidence "plain-assertion: A cutover night pulls four of my supervisors out of the normal rota" ;
+        narr:evidence "plain-assertion: Two cutovers in the same week means eight of eleven are on cutover duty" ;
+        narr:reported false ;
+        skos:note "Freya influences sequencing decisions by laying out precise staffing arithmetic and operational facts." ;
+        prov:generatedAtTime "2026-09-23T01:47:07Z"^^xsd:dateTime .
+
+    narr:VecPower_2HalyardOpsReadiness20260915_14 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_2HalyardOpsReadiness20260915_14 ;
+        narr:dimension narr:Dim_Power ;
+        narr:region narr:Power_RationalPersuasion ;
+        narr:region narr:Power_Expert ;
+        narr:direction narr:DirPower_HardArithmeticAsMandate ;
+        narr:evidence "framing-move: I'm telling you it's arithmetic. One site at a time is the only sequencing my rota can actually produce people for." ;
+        narr:reported false ;
+        skos:note "Freya frames the argument as unyielding numerical reality based on her domain expertise over rota management." ;
+        prov:generatedAtTime "2026-09-23T01:47:07Z"^^xsd:dateTime .
+
+    narr:VecPower_2HalyardOpsReadiness20260915_15 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_2HalyardOpsReadiness20260915_15 ;
+        narr:dimension narr:Dim_Power ;
+        narr:region narr:Power_RationalPersuasion ;
+        narr:evidence "lexical-marker: Yours is a hard constraint." ;
+        narr:reported false ;
+        skos:note "Xavier explicitly ratifies Freya's logical argument as an unyielding structural constraint over speculative risk arguments." ;
+        prov:generatedAtTime "2026-09-23T01:47:07Z"^^xsd:dateTime .
+
+    narr:VecPower_2HalyardOpsReadiness20260915_24 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_2HalyardOpsReadiness20260915_24 ;
+        narr:dimension narr:Dim_Power ;
+        narr:region narr:Power_Consultation ;
+        narr:evidence "framing-move: Xavier, anything from your side that changes?" ;
+        narr:reported false ;
+        skos:note "Tanya consults technical stakeholder Xavier to verify system rules against the proposed sequencing." ;
+        prov:generatedAtTime "2026-09-23T01:47:07Z"^^xsd:dateTime .
+
+    narr:VecPower_2HalyardOpsReadiness20260915_25 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_2HalyardOpsReadiness20260915_25 ;
+        narr:dimension narr:Dim_Power ;
+        narr:region narr:Power_Expert ;
+        narr:region narr:Power_Informational ;
+        narr:evidence "plain-assertion: The replica rule and the reference-data rule both assume one cutover window open at a time" ;
+        narr:reported false ;
+        skos:note "Xavier leverages technical expertise and architectural rules to enforce the single-cutover constraint." ;
+        prov:generatedAtTime "2026-09-23T01:47:07Z"^^xsd:dateTime .
+
+    narr:VecPower_2HalyardOpsReadiness20260915_26 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_2HalyardOpsReadiness20260915_26 ;
+        narr:dimension narr:Dim_Power ;
+        narr:region narr:Power_Legitimate ;
+        narr:evidence "performed-act: Then let's not go parallel." ;
+        narr:reported false ;
+        skos:note "Tanya uses decision authority to formally lock in the non-parallel operational constraint." ;
+        prov:generatedAtTime "2026-09-23T01:47:07Z"^^xsd:dateTime .
+
+    narr:VecPower_2HalyardOpsReadiness20260915_27 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_2HalyardOpsReadiness20260915_27 ;
+        narr:dimension narr:Dim_Power ;
+        narr:region narr:Power_Consultation ;
+        narr:evidence "framing-move: Freya, what do you need from me?" ;
+        narr:reported false ;
+        skos:note "Tanya asks directly for operational requirements and constraints from the rota owner." ;
+        prov:generatedAtTime "2026-09-23T01:47:07Z"^^xsd:dateTime .
+
+    narr:VecPower_2HalyardOpsReadiness20260915_28 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_2HalyardOpsReadiness20260915_28 ;
+        narr:dimension narr:Dim_Power ;
+        narr:region narr:Power_RationalPersuasion ;
+        narr:region narr:Power_Pressure ;
+        narr:evidence "commitment-marker: a commitment that a soak doesn't get shortened because a date slipped." ;
+        narr:reported false ;
+        skos:note "Freya conditions operational feasibility on a hard managerial commitment regarding schedule integrity." ;
+        prov:generatedAtTime "2026-09-23T01:47:07Z"^^xsd:dateTime .
+
+    narr:VecPower_2HalyardOpsReadiness20260915_29 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_2HalyardOpsReadiness20260915_29 ;
+        narr:dimension narr:Dim_Power ;
+        narr:region narr:Power_Legitimate ;
+        narr:evidence "commitment-marker: That's fair and I'll hold it." ;
+        narr:reported false ;
+        skos:note "Tanya commits managerial authority to uphold the soak schedule boundary." ;
+        prov:generatedAtTime "2026-09-23T01:47:07Z"^^xsd:dateTime .
+
+    narr:DirRegister_ArithmeticConstraintRegister a narr:DirectionalNode ;
+        dct:source narr:Sample_2HalyardOpsReadiness20260915 ;
+        narr:dimension narr:Dim_Register ;
+        narr:region narr:Register_PlainSpoken ;
+        narr:region narr:Register_MatterOfFact ;
+        narr:frame "Does the speaker reframe strategic or policy arguments as plain, non-negotiable operational counts?" ;
+        skos:note "it's arithmetic" ;
+        prov:generatedAtTime "2026-09-23T01:47:07Z"^^xsd:dateTime .
+
+    narr:VecRegister_2HalyardOpsReadiness20260915_11 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_2HalyardOpsReadiness20260915_11 ;
+        narr:dimension narr:Dim_Register ;
+        narr:region narr:Register_PlainSpoken ;
+        narr:direction narr:DirRegister_ArithmeticConstraintRegister ;
+        narr:evidence "lexical-marker: A cutover night pulls four of my supervisors out of the normal rota — two on the floor, one on the desk, one on the phone to the vendor." ;
+        narr:reported false ;
+        skos:note "Breaks down operational staffing constraints into unvarnished, direct headcount breakdown without management jargon." ;
+        prov:generatedAtTime "2026-09-23T01:47:07Z"^^xsd:dateTime .
+
+    narr:VecRegister_2HalyardOpsReadiness20260915_14 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_2HalyardOpsReadiness20260915_14 ;
+        narr:dimension narr:Dim_Register ;
+        narr:region narr:Register_MatterOfFact ;
+        narr:region narr:Register_PlainSpoken ;
+        narr:direction narr:DirRegister_ArithmeticConstraintRegister ;
+        narr:evidence "plain-assertion: I'm telling you it's arithmetic." ;
+        narr:reported false ;
+        skos:note "Strips debate and strategic framing down to blunt mechanical reality." ;
+        prov:generatedAtTime "2026-09-23T01:47:07Z"^^xsd:dateTime .
+
+    narr:VecRegister_2HalyardOpsReadiness20260915_15 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_2HalyardOpsReadiness20260915_15 ;
+        narr:dimension narr:Dim_Register ;
+        narr:region narr:Register_Formal ;
+        narr:evidence "framing-move: For the record" ;
+        narr:reported false ;
+        skos:note "Adopts procedural, record-setting framing departing from the conversational baseline." ;
+        prov:generatedAtTime "2026-09-23T01:47:07Z"^^xsd:dateTime .
+
+    narr:VecRegister_2HalyardOpsReadiness20260915_25 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_2HalyardOpsReadiness20260915_25 ;
+        narr:dimension narr:Dim_Register ;
+        narr:region narr:Register_Technical ;
+        narr:evidence "lexical-marker: The replica rule and the reference-data rule both assume one cutover window open at a time" ;
+        narr:reported false ;
+        skos:note "Shifts into explicit technical domain architecture terms and rule definitions." ;
+        prov:generatedAtTime "2026-09-23T01:47:07Z"^^xsd:dateTime .
+
+    narr:VecRelational_2HalyardOpsReadiness20260915_1 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_2HalyardOpsReadiness20260915_1 ;
+        narr:dimension narr:Dim_Relational ;
+        narr:region narr:Relational_EqualityMatching ;
+        narr:evidence "performed-act: Freya, thanks for making the time." ;
+        narr:reported false ;
+        skos:note "Politeness formula enacting reciprocal social courtesy and acknowledgement of time given." ;
+        prov:generatedAtTime "2026-09-23T01:47:07Z"^^xsd:dateTime .
+
+    narr:VecRelational_2HalyardOpsReadiness20260915_3 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_2HalyardOpsReadiness20260915_3 ;
+        narr:dimension narr:Dim_Relational ;
+        narr:region narr:Relational_AuthorityRanking ;
+        narr:evidence "framing-move: I want your read on it from the rota side before it hardens." ;
+        narr:reported false ;
+        skos:note "Explicitly seeks operational consultation and review before managerial solidification/decision-locking." ;
+        prov:generatedAtTime "2026-09-23T01:47:07Z"^^xsd:dateTime .
+
+    narr:VecRelational_2HalyardOpsReadiness20260915_17 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_2HalyardOpsReadiness20260915_17 ;
+        narr:dimension narr:Dim_Relational ;
+        narr:region narr:Relational_AuthorityRanking ;
+        narr:evidence "commitment-marker: Noted, and I'll lead with yours on Thursday." ;
+        narr:reported false ;
+        skos:note "Adopts Freya's operational case to present up to governance/steering authorities." ;
+        prov:generatedAtTime "2026-09-23T01:47:07Z"^^xsd:dateTime .
+
+    narr:VecRelational_2HalyardOpsReadiness20260915_22 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_2HalyardOpsReadiness20260915_22 ;
+        narr:dimension narr:Dim_Relational ;
+        narr:region narr:Relational_AuthorityRanking ;
+        narr:evidence "framing-move: The staffing argument is the one I'd put in front of the steering group." ;
+        narr:reported false ;
+        skos:note "Frames argument selection specifically for upward governance accountability." ;
+        prov:generatedAtTime "2026-09-23T01:47:07Z"^^xsd:dateTime .
+
+    narr:VecRelational_2HalyardOpsReadiness20260915_27 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_2HalyardOpsReadiness20260915_27 ;
+        narr:dimension narr:Dim_Relational ;
+        narr:region narr:Relational_EqualityMatching ;
+        narr:evidence "framing-move: Freya, what do you need from me?" ;
+        narr:reported false ;
+        skos:note "Invites a bilateral exchange of requirements and reciprocal support." ;
+        prov:generatedAtTime "2026-09-23T01:47:07Z"^^xsd:dateTime .
+
+    narr:VecRelational_2HalyardOpsReadiness20260915_28 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_2HalyardOpsReadiness20260915_28 ;
+        narr:dimension narr:Dim_Relational ;
+        narr:region narr:Relational_EqualityMatching ;
+        narr:evidence "commitment-marker: The dates, as early as you can give them, and a commitment that a soak doesn't get shortened because a date slipped." ;
+        narr:reported false ;
+        skos:note "Specifies explicit bilateral terms and protective commitments required in exchange." ;
+        prov:generatedAtTime "2026-09-23T01:47:07Z"^^xsd:dateTime .
+
+    narr:VecRelational_2HalyardOpsReadiness20260915_29 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_2HalyardOpsReadiness20260915_29 ;
+        narr:dimension narr:Dim_Relational ;
+        narr:region narr:Relational_EqualityMatching ;
+        narr:evidence "commitment-marker: That's fair and I'll hold it." ;
+        narr:reported false ;
+        skos:note "Explicitly ratifies the fairness of the proposed reciprocal commitment." ;
+        prov:generatedAtTime "2026-09-23T01:47:07Z"^^xsd:dateTime .
+
+    narr:VecRelational_2HalyardOpsReadiness20260915_31 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_2HalyardOpsReadiness20260915_31 ;
+        narr:dimension narr:Dim_Relational ;
+        narr:region narr:Relational_EqualityMatching ;
+        narr:evidence "performed-act: Thanks, Freya. Genuinely useful." ;
+        narr:reported false ;
+        skos:note "Closes the transaction with explicit reciprocal appreciation." ;
+        prov:generatedAtTime "2026-09-23T01:47:07Z"^^xsd:dateTime .
+
+    narr:VecStyle_2HalyardOpsReadiness20260915_11 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_2HalyardOpsReadiness20260915_11 ;
+        narr:dimension narr:Dim_Style ;
+        narr:region narr:Style_Metaphor ;
+        narr:evidence "lexical-marker: coughing up" ;
+        narr:reported false ;
+        skos:note "Metaphorical depiction of lingering technical fallout from a prior cutover as being 'coughed up'." ;
+        prov:generatedAtTime "2026-09-23T01:47:07Z"^^xsd:dateTime .
+
+    narr:VecStyle_2HalyardOpsReadiness20260915_12 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_2HalyardOpsReadiness20260915_12 ;
+        narr:dimension narr:Dim_Style ;
+        narr:region narr:Style_Antithesis ;
+        narr:evidence "framing-move: It isn't that it's hard, it's that the people don't exist." ;
+        narr:reported false ;
+        skos:note "Direct antithetical pairing contrasting difficulty of execution against impossibility of existence." ;
+        prov:generatedAtTime "2026-09-23T01:47:07Z"^^xsd:dateTime .
+
+    narr:VecStyle_2HalyardOpsReadiness20260915_14 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_2HalyardOpsReadiness20260915_14 ;
+        narr:dimension narr:Dim_Style ;
+        narr:region narr:Style_Antithesis ;
+        narr:evidence "framing-move: Last week you were arguing it as risk. I'm telling you it's arithmetic." ;
+        narr:reported false ;
+        skos:note "Antithesis setting conceptual framing ('risk') against immutable calculation ('arithmetic')." ;
+        prov:generatedAtTime "2026-09-23T01:47:07Z"^^xsd:dateTime .
+
+    narr:VecStyle_2HalyardOpsReadiness20260915_16 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_2HalyardOpsReadiness20260915_16 ;
+        narr:dimension narr:Dim_Style ;
+        narr:region narr:Style_Antithesis ;
+        narr:evidence "framing-move: It's the one that doesn't move. The others you can argue with." ;
+        narr:reported false ;
+        skos:note "Antithesis contrasting unmovable constraints with negotiable arguments." ;
+        prov:generatedAtTime "2026-09-23T01:47:07Z"^^xsd:dateTime .
+
+    narr:VecStyle_2HalyardOpsReadiness20260915_28 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_2HalyardOpsReadiness20260915_28 ;
+        narr:dimension narr:Dim_Style ;
+        narr:region narr:Style_Metaphor ;
+        narr:evidence "lexical-marker: the soak gets eaten" ;
+        narr:reported false ;
+        skos:note "Metaphorical phrasing depicting schedule compression as the buffer being 'eaten'." ;
+        prov:generatedAtTime "2026-09-23T01:47:07Z"^^xsd:dateTime .
+
+    narr:VecTemporal_2HalyardOpsReadiness20260915_2 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_2HalyardOpsReadiness20260915_2 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Past ;
+        narr:region narr:Temporal_Realis ;
+        narr:region narr:Temporal_Concrete ;
+        narr:evidence "plain-assertion: last week we settled the cutover shape." ;
+        narr:reported false ;
+        skos:note "Focuses on the concrete decision event that occurred last week." ;
+        prov:generatedAtTime "2026-09-23T01:47:07Z"^^xsd:dateTime .
+
+    narr:VecTemporal_2HalyardOpsReadiness20260915_3 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_2HalyardOpsReadiness20260915_3 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Future ;
+        narr:region narr:Temporal_Irrealis ;
+        narr:region narr:Temporal_Concrete ;
+        narr:evidence "lexical-marker: before it hardens." ;
+        narr:reported false ;
+        skos:note "Looks forward to the upcoming hardening of the specific plan before it happens." ;
+        prov:generatedAtTime "2026-09-23T01:47:07Z"^^xsd:dateTime .
+
+    narr:VecTemporal_2HalyardOpsReadiness20260915_6 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_2HalyardOpsReadiness20260915_6 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Abstract ;
+        narr:region narr:Temporal_Present ;
+        narr:evidence "plain-assertion: One site at a time." ;
+        narr:reported false ;
+        skos:note "Defines the core architectural/procedural principle." ;
+        prov:generatedAtTime "2026-09-23T01:47:07Z"^^xsd:dateTime .
+
+    narr:VecTemporal_2HalyardOpsReadiness20260915_7 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_2HalyardOpsReadiness20260915_7 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Future ;
+        narr:region narr:Temporal_Irrealis ;
+        narr:region narr:Temporal_Abstract ;
+        narr:evidence "plain-assertion: only when the soak is clean do we start the next." ;
+        narr:reported false ;
+        skos:note "Specifies conditional, future operational rules across iterations." ;
+        prov:generatedAtTime "2026-09-23T01:47:07Z"^^xsd:dateTime .
+
+    narr:VecTemporal_2HalyardOpsReadiness20260915_9 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_2HalyardOpsReadiness20260915_9 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Present ;
+        narr:region narr:Temporal_Realis ;
+        narr:region narr:Temporal_Concrete ;
+        narr:evidence "plain-assertion: That's the only shape that works" ;
+        narr:reported false ;
+        skos:note "Presents a factual assertion about feasibility from the current operational standpoint." ;
+        prov:generatedAtTime "2026-09-23T01:47:07Z"^^xsd:dateTime .
+
+    narr:VecTemporal_2HalyardOpsReadiness20260915_11 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_2HalyardOpsReadiness20260915_11 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Present ;
+        narr:region narr:Temporal_Realis ;
+        narr:region narr:Temporal_Concrete ;
+        narr:evidence "plain-assertion: I have eleven supervisors across the whole region." ;
+        narr:reported false ;
+        skos:note "Grounds the argument in concrete, current staffing arithmetic." ;
+        prov:generatedAtTime "2026-09-23T01:47:07Z"^^xsd:dateTime .
+
+    narr:VecTemporal_2HalyardOpsReadiness20260915_12 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_2HalyardOpsReadiness20260915_12 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Present ;
+        narr:region narr:Temporal_Realis ;
+        narr:region narr:Temporal_Concrete ;
+        narr:evidence "plain-assertion: it's that the people don't exist." ;
+        narr:reported false ;
+        skos:note "Anchored in present realis constraints regarding staff availability." ;
+        prov:generatedAtTime "2026-09-23T01:47:07Z"^^xsd:dateTime .
+
+    narr:VecTemporal_2HalyardOpsReadiness20260915_13 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_2HalyardOpsReadiness20260915_13 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Past ;
+        narr:region narr:Temporal_Realis ;
+        narr:region narr:Temporal_Concrete ;
+        narr:evidence "plain-assertion: what I was arguing last week." ;
+        narr:reported false ;
+        skos:note "Refers back to concrete debate points raised in the previous week's discussion." ;
+        prov:generatedAtTime "2026-09-23T01:47:07Z"^^xsd:dateTime .
+
+    narr:VecTemporal_2HalyardOpsReadiness20260915_14 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_2HalyardOpsReadiness20260915_14 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Present ;
+        narr:region narr:Temporal_Realis ;
+        narr:region narr:Temporal_Abstract ;
+        narr:evidence "plain-assertion: I'm telling you it's arithmetic." ;
+        narr:reported false ;
+        skos:note "Elevates the staffing constraint to an abstract logical rule (arithmetic)." ;
+        prov:generatedAtTime "2026-09-23T01:47:07Z"^^xsd:dateTime .
+
+    narr:VecTemporal_2HalyardOpsReadiness20260915_15 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_2HalyardOpsReadiness20260915_15 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Past ;
+        narr:region narr:Temporal_Realis ;
+        narr:region narr:Temporal_Abstract ;
+        narr:evidence "plain-assertion: The one I gave was about data drift" ;
+        narr:reported false ;
+        skos:note "Contrasts abstract lines of argument previously submitted by team members." ;
+        prov:generatedAtTime "2026-09-23T01:47:07Z"^^xsd:dateTime .
+
+    narr:VecTemporal_2HalyardOpsReadiness20260915_17 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_2HalyardOpsReadiness20260915_17 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Future ;
+        narr:region narr:Temporal_Realis ;
+        narr:region narr:Temporal_Concrete ;
+        narr:evidence "commitment-marker: I'll lead with yours on Thursday." ;
+        narr:reported false ;
+        skos:note "Commits to a specific concrete action at a scheduled future time." ;
+        prov:generatedAtTime "2026-09-23T01:47:07Z"^^xsd:dateTime .
+
+    narr:VecTemporal_2HalyardOpsReadiness20260915_18 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_2HalyardOpsReadiness20260915_18 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Past ;
+        narr:region narr:Temporal_Realis ;
+        narr:region narr:Temporal_Concrete ;
+        narr:evidence "plain-assertion: The Dockside crew were visibly better on night two than night one" ;
+        narr:reported false ;
+        skos:note "Cites a concrete past instance of the Dockside cutover execution." ;
+        prov:generatedAtTime "2026-09-23T01:47:07Z"^^xsd:dateTime .
+
+    narr:VecTemporal_2HalyardOpsReadiness20260915_19 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_2HalyardOpsReadiness20260915_19 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Abstract ;
+        narr:region narr:Temporal_Present ;
+        narr:evidence "plain-assertion: Learning curve across sites rather than four teams all making the same mistake in parallel." ;
+        narr:reported false ;
+        skos:note "Articulates an abstract general dynamic of organizational learning." ;
+        prov:generatedAtTime "2026-09-23T01:47:07Z"^^xsd:dateTime .
+
+    narr:VecTemporal_2HalyardOpsReadiness20260915_21 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_2HalyardOpsReadiness20260915_21 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Future ;
+        narr:region narr:Temporal_Irrealis ;
+        narr:region narr:Temporal_Concrete ;
+        narr:evidence "modal-marker: even if the staffing eased?" ;
+        narr:reported false ;
+        skos:note "Poses a hypothetical, counterfactual future scenario." ;
+        prov:generatedAtTime "2026-09-23T01:47:07Z"^^xsd:dateTime .
+
+    narr:VecTemporal_2HalyardOpsReadiness20260915_22 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_2HalyardOpsReadiness20260915_22 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Future ;
+        narr:region narr:Temporal_Irrealis ;
+        narr:region narr:Temporal_Concrete ;
+        narr:evidence "modal-marker: If you gave me twenty supervisors tomorrow" ;
+        narr:reported false ;
+        skos:note "Evaluates a hypothetical future condition." ;
+        prov:generatedAtTime "2026-09-23T01:47:07Z"^^xsd:dateTime .
+
+    narr:VecTemporal_2HalyardOpsReadiness20260915_25 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_2HalyardOpsReadiness20260915_25 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Present ;
+        narr:region narr:Temporal_Realis ;
+        narr:region narr:Temporal_Abstract ;
+        narr:evidence "plain-assertion: The replica rule and the reference-data rule both assume one cutover window open at a time" ;
+        narr:reported false ;
+        skos:note "Explains the underlying architectural assumptions in current rules." ;
+        prov:generatedAtTime "2026-09-23T01:47:07Z"^^xsd:dateTime .
+
+    narr:VecTemporal_2HalyardOpsReadiness20260915_28 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_2HalyardOpsReadiness20260915_28 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Future ;
+        narr:region narr:Temporal_Irrealis ;
+        narr:region narr:Temporal_Concrete ;
+        narr:evidence "modal-marker: If the soak gets eaten, my supervisors are back on the floor" ;
+        narr:reported false ;
+        skos:note "Outlines a conditional future operational risk." ;
+        prov:generatedAtTime "2026-09-23T01:47:07Z"^^xsd:dateTime .
+
+    narr:VecTemporal_2HalyardOpsReadiness20260915_29 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_2HalyardOpsReadiness20260915_29 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Future ;
+        narr:region narr:Temporal_Realis ;
+        narr:region narr:Temporal_Concrete ;
+        narr:evidence "commitment-marker: I'll hold it." ;
+        narr:reported false ;
+        skos:note "Commits to an actual stance and rule to be upheld in the future." ;
+        prov:generatedAtTime "2026-09-23T01:47:07Z"^^xsd:dateTime .
+
+    narr:VecValue_2HalyardOpsReadiness20260915_18 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_2HalyardOpsReadiness20260915_18 ;
+        narr:dimension narr:Dim_Value ;
+        narr:region narr:Value_Competence ;
+        narr:evidence "framing-move: my supervisors get to do the second cutover having done the first one. That's worth something you won't see in a plan." ;
+        narr:reported false ;
+        skos:note "Appeals directly to operational mastery and cumulative skill building as a primary good." ;
+        prov:generatedAtTime "2026-09-23T01:47:07Z"^^xsd:dateTime .
+
+    narr:VecValue_2HalyardOpsReadiness20260915_19 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_2HalyardOpsReadiness20260915_19 ;
+        narr:dimension narr:Dim_Value ;
+        narr:region narr:Value_Competence ;
+        narr:evidence "framing-move: Learning curve across sites rather than four teams all making the same mistake in parallel." ;
+        narr:reported false ;
+        skos:note "Frames value in competence and avoiding preventable errors through shared operational learning." ;
+        prov:generatedAtTime "2026-09-23T01:47:07Z"^^xsd:dateTime .
+
+    narr:VecValue_2HalyardOpsReadiness20260915_28 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_2HalyardOpsReadiness20260915_28 ;
+        narr:dimension narr:Dim_Value ;
+        narr:region narr:Value_Conservation ;
+        narr:evidence "lexical-marker: a commitment that a soak doesn't get shortened because a date slipped." ;
+        narr:reported false ;
+        skos:note "Prioritizes system stability and safety buffers over schedule acceleration." ;
+        prov:generatedAtTime "2026-09-23T01:47:07Z"^^xsd:dateTime .
+
+    narr:Expr_2HalyardOpsReadiness20260915_2 narr:supports narr:Narrative_ContainedPainOverUnboundedRisk .
+
+    narr:Expr_2HalyardOpsReadiness20260915_3 narr:supports narr:Narrative_ContainedPainOverUnboundedRisk .
+
+    narr:Expr_2HalyardOpsReadiness20260915_6 narr:supports narr:Narrative_ContainedPainOverUnboundedRisk .
+
+    narr:Expr_2HalyardOpsReadiness20260915_7 narr:supports narr:Narrative_ContainedPainOverUnboundedRisk .
+
+    narr:Expr_2HalyardOpsReadiness20260915_9 narr:supports narr:Narrative_ContainedPainOverUnboundedRisk .
+
+    narr:Expr_2HalyardOpsReadiness20260915_11 narr:supports narr:Narrative_ContainedPainOverUnboundedRisk .
+
+    narr:Expr_2HalyardOpsReadiness20260915_12 narr:supports narr:Narrative_ContainedPainOverUnboundedRisk .
+
+    narr:Expr_2HalyardOpsReadiness20260915_13 narr:supports narr:Narrative_ContainedPainOverUnboundedRisk .
+
+    narr:Expr_2HalyardOpsReadiness20260915_14 narr:supports narr:Narrative_ContainedPainOverUnboundedRisk .
+
+    narr:Expr_2HalyardOpsReadiness20260915_15 narr:supports narr:Narrative_ContainedPainOverUnboundedRisk .
+
+    narr:Expr_2HalyardOpsReadiness20260915_16 narr:supports narr:Narrative_ContainedPainOverUnboundedRisk .
+
+    narr:Expr_2HalyardOpsReadiness20260915_17 narr:supports narr:Narrative_ContainedPainOverUnboundedRisk .
+
+    narr:Expr_2HalyardOpsReadiness20260915_18 narr:supports narr:Narrative_ContainedPainOverUnboundedRisk .
+
+    narr:Expr_2HalyardOpsReadiness20260915_19 narr:supports narr:Narrative_ContainedPainOverUnboundedRisk .
+
+    narr:Expr_2HalyardOpsReadiness20260915_20 narr:supports narr:Narrative_ContainedPainOverUnboundedRisk .
+
+    narr:Expr_2HalyardOpsReadiness20260915_21 narr:supports narr:Narrative_ContainedPainOverUnboundedRisk .
+
+    narr:Expr_2HalyardOpsReadiness20260915_22 narr:supports narr:Narrative_ContainedPainOverUnboundedRisk .
+
+    narr:Expr_2HalyardOpsReadiness20260915_25 narr:supports narr:Narrative_ContainedPainOverUnboundedRisk .
+
+    narr:Expr_2HalyardOpsReadiness20260915_26 narr:supports narr:Narrative_ContainedPainOverUnboundedRisk .
+
+    narr:Expr_2HalyardOpsReadiness20260915_28 narr:supports narr:Narrative_ContainedPainOverUnboundedRisk .
+
+    narr:Expr_2HalyardOpsReadiness20260915_29 narr:supports narr:Narrative_ContainedPainOverUnboundedRisk .
+
+    narr:Expr_2HalyardOpsReadiness20260915_25 narr:supports narr:Narrative_StrictWorkloadIsolationDuringCutover .
+
+    narr:Expr_2HalyardOpsReadiness20260915_26 narr:supports narr:Narrative_StrictWorkloadIsolationDuringCutover .
+
+    narr:Expr_2HalyardOpsReadiness20260915_25 narr:supports narr:Narrative_SingleSourceOfTruthUntilFinalCutover .
+
+    narr:Expr_2HalyardOpsReadiness20260915_26 narr:supports narr:Narrative_SingleSourceOfTruthUntilFinalCutover .
+
+    narr:Position_CrossSiteOperationalLearning a narr:Position ;
+        narr:frame "how does sequential rollout sequencing leverage operational learning and skill compounding across site teams?" ;
+        narr:extends narr:Position_SiteCutoverSequencingStrategy ;
+        prov:generatedAtTime "2026-09-23T01:47:07Z"^^xsd:dateTime .
+
+    narr:Position_CrossSiteOperationalLearning narr:supports narr:CutoverStrategy .
+
+    narr:Expr_2HalyardOpsReadiness20260915_18 narr:supports narr:Position_CrossSiteOperationalLearning .
+
+    narr:Expr_2HalyardOpsReadiness20260915_19 narr:supports narr:Position_CrossSiteOperationalLearning .
+
+    narr:Expr_2HalyardOpsReadiness20260915_20 narr:supports narr:Position_CrossSiteOperationalLearning .
+
+    narr:Expr_2HalyardOpsReadiness20260915_21 narr:supports narr:Position_CrossSiteOperationalLearning .
+
+    narr:Expr_2HalyardOpsReadiness20260915_22 narr:supports narr:Position_CrossSiteOperationalLearning .
+
+    narr:Expr_2HalyardOpsReadiness20260915_6 narr:supports narr:Position_SiteCutoverSequencingStrategy .
+
+    narr:Expr_2HalyardOpsReadiness20260915_7 narr:supports narr:Position_SiteCutoverSequencingStrategy .
+
+    narr:Expr_2HalyardOpsReadiness20260915_9 narr:supports narr:Position_SiteCutoverSequencingStrategy .
+
+    narr:Expr_2HalyardOpsReadiness20260915_11 narr:supports narr:Position_SiteCutoverSequencingStrategy .
+
+    narr:Expr_2HalyardOpsReadiness20260915_12 narr:supports narr:Position_SiteCutoverSequencingStrategy .
+
+    narr:Expr_2HalyardOpsReadiness20260915_13 narr:supports narr:Position_SiteCutoverSequencingStrategy .
+
+    narr:Expr_2HalyardOpsReadiness20260915_14 narr:supports narr:Position_SiteCutoverSequencingStrategy .
+
+    narr:Expr_2HalyardOpsReadiness20260915_15 narr:supports narr:Position_SiteCutoverSequencingStrategy .
+
+    narr:Expr_2HalyardOpsReadiness20260915_16 narr:supports narr:Position_SiteCutoverSequencingStrategy .
+
+    narr:Expr_2HalyardOpsReadiness20260915_17 narr:supports narr:Position_SiteCutoverSequencingStrategy .
+
+    narr:Expr_2HalyardOpsReadiness20260915_25 narr:supports narr:Position_SiteCutoverSequencingStrategy .
+
+    narr:Expr_2HalyardOpsReadiness20260915_26 narr:supports narr:Position_SiteCutoverSequencingStrategy .
+
+    narr:Expr_2HalyardOpsReadiness20260915_28 narr:supports narr:Position_PostGoLiveSoakDurationBasis .
+
+    narr:Expr_2HalyardOpsReadiness20260915_29 narr:supports narr:Position_PostGoLiveSoakDurationBasis .
+
+    aswr:Miss_2HalyardOpsReadiness20260915_resolve_trip a aswr:Miss ;
+        aswr:missPass "resolve" ;
+        aswr:missClass "floor" ;
+        aswr:missError "resolutions empty against a populated perspective" ;
+        aswr:missModel "google/gemini-3.7-flash" ;
+        aswr:tripFloor "empty_on_populated" ;
+        aswr:tripRatio "0.0000"^^xsd:decimal ;
+        aswr:tripOutcome "accepted-flagged" ;
+        aswr:tripFallbackModel "anthropic/claude-sonnet-5" ;
+        aswr:missScope narr:Sample_2HalyardOpsReadiness20260915 ;
+        prov:generatedAtTime "2026-09-23T01:47:07Z"^^xsd:dateTime .
+
+    aswr:Run_20260923T014707Z_dim_affect a prov:Activity ;
+        aswr:runPass "dim.affect" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/393dc395be64/2026-09-23-2-halyard-ops-readiness-2026-09-15/dim.affect.json" ;
+        prov:generated narr:VecAffect_2HalyardOpsReadiness20260915_4, narr:VecAffect_2HalyardOpsReadiness20260915_30, narr:VecAffect_2HalyardOpsReadiness20260915_31 ;
+        dct:isPartOf aswr:Tx_20260923T014707Z ;
+        prov:generatedAtTime "2026-09-23T01:47:07Z"^^xsd:dateTime .
+
+    aswr:Run_20260923T014707Z_dim_conviction a prov:Activity ;
+        aswr:runPass "dim.conviction" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/393dc395be64/2026-09-23-2-halyard-ops-readiness-2026-09-15/dim.conviction.json" ;
+        prov:generated narr:VecConviction_2HalyardOpsReadiness20260915_2, narr:VecConviction_2HalyardOpsReadiness20260915_6, narr:VecConviction_2HalyardOpsReadiness20260915_7, narr:VecConviction_2HalyardOpsReadiness20260915_9, narr:VecConviction_2HalyardOpsReadiness20260915_12, narr:VecConviction_2HalyardOpsReadiness20260915_14, narr:VecConviction_2HalyardOpsReadiness20260915_15, narr:VecConviction_2HalyardOpsReadiness20260915_16, narr:VecConviction_2HalyardOpsReadiness20260915_17, narr:VecConviction_2HalyardOpsReadiness20260915_22, narr:VecConviction_2HalyardOpsReadiness20260915_25, narr:VecConviction_2HalyardOpsReadiness20260915_26, narr:VecConviction_2HalyardOpsReadiness20260915_28, narr:VecConviction_2HalyardOpsReadiness20260915_29 ;
+        dct:isPartOf aswr:Tx_20260923T014707Z ;
+        prov:generatedAtTime "2026-09-23T01:47:07Z"^^xsd:dateTime .
+
+    aswr:Run_20260923T014707Z_dim_power a prov:Activity ;
+        aswr:runPass "dim.power" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/393dc395be64/2026-09-23-2-halyard-ops-readiness-2026-09-15/dim.power.json" ;
+        prov:generated narr:DirPower_HardArithmeticAsMandate, narr:VecPower_2HalyardOpsReadiness20260915_3, narr:VecPower_2HalyardOpsReadiness20260915_11, narr:VecPower_2HalyardOpsReadiness20260915_14, narr:VecPower_2HalyardOpsReadiness20260915_15, narr:VecPower_2HalyardOpsReadiness20260915_24, narr:VecPower_2HalyardOpsReadiness20260915_25, narr:VecPower_2HalyardOpsReadiness20260915_26, narr:VecPower_2HalyardOpsReadiness20260915_27, narr:VecPower_2HalyardOpsReadiness20260915_28, narr:VecPower_2HalyardOpsReadiness20260915_29 ;
+        dct:isPartOf aswr:Tx_20260923T014707Z ;
+        prov:generatedAtTime "2026-09-23T01:47:07Z"^^xsd:dateTime .
+
+    aswr:Run_20260923T014707Z_dim_register a prov:Activity ;
+        aswr:runPass "dim.register" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/393dc395be64/2026-09-23-2-halyard-ops-readiness-2026-09-15/dim.register.json" ;
+        prov:generated narr:DirRegister_ArithmeticConstraintRegister, narr:VecRegister_2HalyardOpsReadiness20260915_11, narr:VecRegister_2HalyardOpsReadiness20260915_14, narr:VecRegister_2HalyardOpsReadiness20260915_15, narr:VecRegister_2HalyardOpsReadiness20260915_25 ;
+        dct:isPartOf aswr:Tx_20260923T014707Z ;
+        prov:generatedAtTime "2026-09-23T01:47:07Z"^^xsd:dateTime .
+
+    aswr:Run_20260923T014707Z_dim_relational a prov:Activity ;
+        aswr:runPass "dim.relational" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/393dc395be64/2026-09-23-2-halyard-ops-readiness-2026-09-15/dim.relational.json" ;
+        prov:generated narr:VecRelational_2HalyardOpsReadiness20260915_1, narr:VecRelational_2HalyardOpsReadiness20260915_3, narr:VecRelational_2HalyardOpsReadiness20260915_17, narr:VecRelational_2HalyardOpsReadiness20260915_22, narr:VecRelational_2HalyardOpsReadiness20260915_27, narr:VecRelational_2HalyardOpsReadiness20260915_28, narr:VecRelational_2HalyardOpsReadiness20260915_29, narr:VecRelational_2HalyardOpsReadiness20260915_31 ;
+        dct:isPartOf aswr:Tx_20260923T014707Z ;
+        prov:generatedAtTime "2026-09-23T01:47:07Z"^^xsd:dateTime .
+
+    aswr:Run_20260923T014707Z_dim_style a prov:Activity ;
+        aswr:runPass "dim.style" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/393dc395be64/2026-09-23-2-halyard-ops-readiness-2026-09-15/dim.style.json" ;
+        prov:generated narr:VecStyle_2HalyardOpsReadiness20260915_11, narr:VecStyle_2HalyardOpsReadiness20260915_12, narr:VecStyle_2HalyardOpsReadiness20260915_14, narr:VecStyle_2HalyardOpsReadiness20260915_16, narr:VecStyle_2HalyardOpsReadiness20260915_28 ;
+        dct:isPartOf aswr:Tx_20260923T014707Z ;
+        prov:generatedAtTime "2026-09-23T01:47:07Z"^^xsd:dateTime .
+
+    aswr:Run_20260923T014707Z_dim_temporal a prov:Activity ;
+        aswr:runPass "dim.temporal" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/393dc395be64/2026-09-23-2-halyard-ops-readiness-2026-09-15/dim.temporal.json" ;
+        prov:generated narr:VecTemporal_2HalyardOpsReadiness20260915_2, narr:VecTemporal_2HalyardOpsReadiness20260915_3, narr:VecTemporal_2HalyardOpsReadiness20260915_6, narr:VecTemporal_2HalyardOpsReadiness20260915_7, narr:VecTemporal_2HalyardOpsReadiness20260915_9, narr:VecTemporal_2HalyardOpsReadiness20260915_11, narr:VecTemporal_2HalyardOpsReadiness20260915_12, narr:VecTemporal_2HalyardOpsReadiness20260915_13, narr:VecTemporal_2HalyardOpsReadiness20260915_14, narr:VecTemporal_2HalyardOpsReadiness20260915_15, narr:VecTemporal_2HalyardOpsReadiness20260915_17, narr:VecTemporal_2HalyardOpsReadiness20260915_18, narr:VecTemporal_2HalyardOpsReadiness20260915_19, narr:VecTemporal_2HalyardOpsReadiness20260915_21, narr:VecTemporal_2HalyardOpsReadiness20260915_22, narr:VecTemporal_2HalyardOpsReadiness20260915_25, narr:VecTemporal_2HalyardOpsReadiness20260915_28, narr:VecTemporal_2HalyardOpsReadiness20260915_29 ;
+        dct:isPartOf aswr:Tx_20260923T014707Z ;
+        prov:generatedAtTime "2026-09-23T01:47:07Z"^^xsd:dateTime .
+
+    aswr:Run_20260923T014707Z_dim_value a prov:Activity ;
+        aswr:runPass "dim.value" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/393dc395be64/2026-09-23-2-halyard-ops-readiness-2026-09-15/dim.value.json" ;
+        prov:generated narr:VecValue_2HalyardOpsReadiness20260915_18, narr:VecValue_2HalyardOpsReadiness20260915_19, narr:VecValue_2HalyardOpsReadiness20260915_28 ;
+        dct:isPartOf aswr:Tx_20260923T014707Z ;
+        prov:generatedAtTime "2026-09-23T01:47:07Z"^^xsd:dateTime .
+
+    aswr:Run_20260923T014707Z_pass5 a prov:Activity ;
+        aswr:runPass "pass5" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/393dc395be64/2026-09-23-2-halyard-ops-readiness-2026-09-15/pass5.json" ;
+        dct:isPartOf aswr:Tx_20260923T014707Z ;
+        prov:generatedAtTime "2026-09-23T01:47:07Z"^^xsd:dateTime .
+
+    aswr:Run_20260923T014707Z_position a prov:Activity ;
+        aswr:runPass "position" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/393dc395be64/2026-09-23-2-halyard-ops-readiness-2026-09-15/position.json" ;
+        prov:generated narr:Position_CrossSiteOperationalLearning ;
+        dct:isPartOf aswr:Tx_20260923T014707Z ;
+        prov:generatedAtTime "2026-09-23T01:47:07Z"^^xsd:dateTime .
+  }
+}
