@@ -1,0 +1,73 @@
+{
+  "doc" : {
+    "title" : "Delivery routing ruling (e2e synthetic)",
+    "date_stated" : null,
+    "actors_present" : [ "Tanya TeamOwner", "Tina" ]
+  },
+  "footing_cases" : [ {
+    "id" : "fc-1",
+    "animator" : "Tanya TeamOwner",
+    "author" : "Tanya TeamOwner",
+    "principal" : null,
+    "when" : "editorial narration introducing quotes or describing events"
+  }, {
+    "id" : "fc-2",
+    "animator" : "Tanya TeamOwner",
+    "author" : "Tanya TeamOwner",
+    "principal" : "Tanya TeamOwner",
+    "when" : "reported speech attributing Tanya's ruling or stance"
+  } ],
+  "segments" : [ {
+    "local_id" : "src-1",
+    "exact" : "Tanya (team owner) ruled on where reaction delivery belongs:",
+    "actor" : "Tanya TeamOwner",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Delivery routing ruling"
+    },
+    "footing_case" : "fc-1",
+    "footing" : {
+      "animator" : "Tanya TeamOwner",
+      "author" : "Tanya TeamOwner",
+      "principal" : null
+    }
+  }, {
+    "local_id" : "src-2",
+    "exact" : "we route every reaction through one bundle per run per person, not one\n> message per skill — a person should get one thing to read, not four",
+    "actor" : "Tanya TeamOwner",
+    "act" : "directive",
+    "circumstance" : {
+      "context" : "Delivery routing ruling"
+    },
+    "footing_case" : null
+  }, {
+    "local_id" : "src-3",
+    "exact" : "Tina pushed back on the batching window and Tanya held: the bundle closes when\nthe run closes, and a skill that misses the close waits for the next run rather\nthan sending on its own.",
+    "actor" : "Tanya TeamOwner",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Delivery routing ruling"
+    },
+    "footing_case" : "fc-2",
+    "footing" : {
+      "animator" : "Tanya TeamOwner",
+      "author" : "Tanya TeamOwner",
+      "principal" : "Tanya TeamOwner"
+    }
+  }, {
+    "local_id" : "src-4",
+    "exact" : "The alternative considered and rejected was per-skill\ndelivery with client-side collapsing, which moves the ordering problem onto the\nreader.",
+    "actor" : "Tanya TeamOwner",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Delivery routing ruling"
+    },
+    "footing_case" : "fc-1",
+    "footing" : {
+      "animator" : "Tanya TeamOwner",
+      "author" : "Tanya TeamOwner",
+      "principal" : null
+    }
+  } ],
+  "coverage_gaps" : [ ]
+}
