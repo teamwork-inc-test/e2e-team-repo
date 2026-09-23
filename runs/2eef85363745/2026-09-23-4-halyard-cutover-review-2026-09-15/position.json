@@ -1,0 +1,15 @@
+{
+  "positions" : [ ],
+  "attaches" : [ {
+    "position" : "Position_SiteCutoverSequencingStrategy",
+    "members" : [ "src-10", "src-11", "src-12" ],
+    "why" : "Tanya and Tina explicitly reaffirm that sequential one-site-at-a-time rollout remains the fixed, invariant cutover strategy even as the soak duration between sites is recalculated."
+  } ],
+  "position_revisions" : [ {
+    "revises" : "Position_PostGoLiveSoakDurationBasis",
+    "adds" : [ "src-3", "src-5", "src-7", "src-9", "src-13", "src-14", "src-15", "src-20" ],
+    "drops" : [ "Expr_1HalyardWeekly20260908_17", "Expr_1HalyardWeekly20260908_19", "Expr_1HalyardWeekly20260908_20", "Expr_1HalyardWeekly20260908_22" ],
+    "why" : "Tina retracts her earlier two-week soak mandate after discovering the Dockside exception queue delay was caused by a retired weekly batch reconciliation job rather than site settling time; continuous reconciliation on the new platform reduces the empirically verified soak baseline to one week, which Tanya formally adopts to supersede prior guidance while Xavier notes the tighter margin."
+  } ],
+  "ungrouped" : [ "src-1", "src-2", "src-4", "src-6", "src-8", "src-16", "src-17", "src-18", "src-19", "src-21", "src-22", "src-23", "src-24" ]
+}
