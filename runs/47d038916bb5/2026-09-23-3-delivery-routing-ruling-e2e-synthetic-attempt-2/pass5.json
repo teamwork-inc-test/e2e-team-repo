@@ -1,0 +1,10 @@
+{
+  "placements" : [ {
+    "verdict" : "reuse",
+    "leaf" : "Narrative_ReactionDeliveryBundling",
+    "supporting_segments" : [ "src-1", "src-2", "src-3", "src-4" ],
+    "why" : "All segments directly articulate the decision, rationale, boundary enforcement, and rejected alternative for bundling reaction notifications per run per person, exactly matching Narrative_ReactionDeliveryBundling.",
+    "consulted" : [ "Narrative_ReactionDeliveryBundling", "DesignTradeoffs", "Narrative_DefaultRefTopicBranch" ]
+  } ],
+  "unplaced" : [ ]
+}
