@@ -1,0 +1,56 @@
+{
+  "reconciliations" : [ {
+    "segment_ids" : [ "src-3", "src-4" ],
+    "note" : "The idea that the consulting deliverable of the AI age is not a deck but an installable perspective is already established in the perspective as a high-conviction (boulder) claim from March 19 — \"instead of a deck, deliver a perspective the whole org can install,\" with the deck as a derived artifact. What this call adds is (a) **independent validation** of that thesis from a working designer who arrived at it through his own practice, (b) the concrete **design-token ↔ perspective parallel** the graph was explicitly missing, and (c) a **status note**: Tanya has not yet actually delivered an aswritten perspective as a deck-alternative to a consulting client.",
+    "targets" : [ "Narrative_InstallableExpertise" ],
+    "referents" : [ {
+      "ref" : "Position_InstallableExpertiseCategoryMoat",
+      "relation" : "extends"
+    }, {
+      "ref" : "Narrative_InstallableExpertise",
+      "relation" : "extends"
+    } ],
+    "principal" : "Tanya TeamOwner"
+  }, {
+    "segment_ids" : [ "src-20" ],
+    "note" : "This is convergent validation from outside aswritten: a designer independently building extraction → tokens → AI-applied output, and naming \"the lens\" as the irreducible, defensible core — the same claim aswritten makes about perspective. It grounds the design-token/perspective parallel and the brand-as-AI-identity endpoint with primary-source material, and it flags a concrete, still-open product move: actually delivering a perspective to a consulting client in place of a deck.",
+    "targets" : [ "Narrative_InstallableExpertise" ],
+    "referents" : [ {
+      "ref" : "Position_InstallableExpertiseCategoryMoat",
+      "relation" : "extends"
+    }, {
+      "ref" : "Narrative_InstallableExpertise",
+      "relation" : "extends"
+    } ],
+    "principal" : "Tanya TeamOwner"
+  } ],
+  "standalone" : [ {
+    "segment_id" : "src-1",
+    "why" : "Unendorsed model-composed metadata preamble describing document composition."
+  }, {
+    "segment_id" : "src-2",
+    "why" : "Preamble establishing call source context and prior session history without making a reconciliation claim."
+  }, {
+    "segment_id" : "src-5",
+    "why" : "Transitional lead-in commentary introducing primary source quote."
+  }, {
+    "segment_id" : "src-7",
+    "why" : "Transitional lead-in commentary introducing primary source quote."
+  }, {
+    "segment_id" : "src-9",
+    "why" : "Transitional lead-in commentary introducing primary source quote."
+  }, {
+    "segment_id" : "src-12",
+    "why" : "Transitional lead-in commentary introducing primary source quote."
+  }, {
+    "segment_id" : "src-14",
+    "why" : "Transitional lead-in commentary introducing primary source quote."
+  }, {
+    "segment_id" : "src-16",
+    "why" : "Transitional lead-in commentary introducing primary source quote."
+  }, {
+    "segment_id" : "src-18",
+    "why" : "Transitional lead-in commentary introducing primary source quote."
+  } ],
+  "held" : [ ]
+}
