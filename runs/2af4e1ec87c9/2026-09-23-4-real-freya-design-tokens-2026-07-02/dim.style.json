@@ -1,0 +1,47 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-10",
+    "regions" : [ "metaphor" ],
+    "evidence" : [ {
+      "quote" : "it is the lens that controls all of that.",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Metaphorical framing of an extracted worldview/perspective as a 'lens' that controls output.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-11",
+    "regions" : [ "analogy" ],
+    "evidence" : [ {
+      "quote" : "It sounds like you're doing a very similar process with AI like I did at Northwind with text.",
+      "kind" : "framing-move"
+    }, {
+      "quote" : "the equivalent of design tokens for product language.",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Explicit structured comparison mapping design tokens in visual design to text/product language tokens in AI prompting.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-15",
+    "regions" : [ "rhetorical-question", "parallelism" ],
+    "evidence" : [ {
+      "quote" : "it looks like Coca Cola and it thinks like Coca Cola and it talks like Coca Cola",
+      "kind" : "plain-signal"
+    } ],
+    "why" : "A rhetorical vision question deploying tricolon parallelism and polysyndeton ('and it looks... and it thinks... and it talks...').",
+    "reported" : false,
+    "direction" : {
+      "verdict" : "mint",
+      "node" : "mint-1"
+    }
+  } ],
+  "unmarked" : [ "src-1", "src-2", "src-3", "src-4", "src-5", "src-6", "src-7", "src-8", "src-9", "src-12", "src-13", "src-14", "src-16", "src-17", "src-18", "src-19", "src-20" ],
+  "unmarked_rest" : false,
+  "mints" : [ {
+    "id" : "mint-1",
+    "name" : "TricolonAttributeCadence",
+    "title" : "matched sensory-cognitive triad in goal framing",
+    "frame" : "Does the utterance structure an ideal target state through a rhythmic triad of matched sensory and behavioral attributes?",
+    "regions" : [ "parallelism", "rule-of-three" ]
+  } ],
+  "region_mints" : [ ]
+}
