@@ -1,0 +1,77 @@
+{
+  "run_id" : "mp-eng-75ccbc85",
+  "gates" : [ {
+    "id" : "aswritten/clarify",
+    "run?" : false,
+    "gate" : 2,
+    "reason" : "score 0.0 < threshold 0.7",
+    "score" : 0.0,
+    "evidence" : [ "plain-assertion: We shipped the async decision widget.", "plain-assertion: Velocity was 23 points, highest this quarter.", "Firm evaluative retrospective claim made without epistemic hedges.", "Direct, unhedged statement of sprint metrics and quarterly context." ]
+  }, {
+    "id" : "aswritten/refract",
+    "run?" : true,
+    "gate" : 2,
+    "reason" : "predicate only"
+  }, {
+    "id" : "aswritten/review",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "skill off"
+  }, {
+    "id" : "aswritten/riff",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "requires perspective, expand"
+  } ],
+  "spend" : {
+    "cost_usd" : 0.003393,
+    "passes" : [ {
+      "pass" : "reaction:_score",
+      "llm_calls" : 1,
+      "cost_usd" : 0.00149405
+    }, {
+      "pass" : "reaction:refract",
+      "llm_calls" : 1,
+      "cost_usd" : 0.00189845
+    } ]
+  },
+  "bundle" : {
+    "items" : 1,
+    "audience" : "only-me",
+    "recipients" : 1,
+    "moments_cached" : true,
+    "sent" : [ {
+      "items" : [ {
+        "kind" : "note",
+        "skill" : "aswritten/refract",
+        "audience" : "speakers"
+      } ],
+      "handle" : "tanya+staging@aswritten.ai",
+      "channel" : "email",
+      "status" : "sent",
+      "front_message_id" : "msg_3dihqpig",
+      "front_conversation_id" : "cnv_1pgrkew8"
+    } ]
+  },
+  "policy" : {
+    "mode" : "on",
+    "budget_per_run_usd" : 0.25,
+    "channels" : [ "email", "sms" ]
+  },
+  "jobs" : [ {
+    "skill" : "aswritten/refract",
+    "status" : "ok",
+    "gate" : { },
+    "output" : {
+      "lens" : null,
+      "ask" : "The shift I can see is that the Zephyr integration is now treated as the key unlock behind the async decision widget's record 23-point velocity — but this stream has no documents yet, so there's nowhere to confirm or apply it; point me at the docs this should touch and I'll work it through."
+    },
+    "landing" : {
+      "landed" : "message"
+    },
+    "ms" : 11341
+  } ],
+  "stream" : "e2e-collab-1790155532039",
+  "at" : "2026-09-23T09:29:23.490857738Z",
+  "live_run_id" : "4cd1581d2705"
+}
