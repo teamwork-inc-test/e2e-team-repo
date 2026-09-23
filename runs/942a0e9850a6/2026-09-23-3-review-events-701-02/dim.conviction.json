@@ -1,0 +1,35 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-2",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "accepted the change",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Performing acceptance of a change constitutes a formal ratification act.",
+    "reported" : true
+  }, {
+    "segment_local_id" : "src-3",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "this reads as though containment settled the sequencing; the call weighed it against local site friction and did not settle it",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Tanya articulates an interpretive correction regarding what the call settled, stating it as a firm factual claim.",
+    "reported" : true
+  }, {
+    "segment_local_id" : "src-4",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "rejected the change",
+      "kind" : "performed-act"
+    }, {
+      "quote" : "we never agreed a single-site pilot — the call settled on two sites in parallel",
+      "kind" : "commitment-marker"
+    } ],
+    "why" : "Performs an explicit rejection and cites a settled operational decision ('the call settled on two sites in parallel').",
+    "reported" : true
+  } ],
+  "unmarked" : [ "src-1" ],
+  "mints" : [ ]
+}
