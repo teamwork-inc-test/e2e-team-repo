@@ -1,0 +1,31 @@
+{
+  "positions" : [ {
+    "name" : "InterviewFlywheelSalesMotion",
+    "frame" : "How can an expert interview serve concurrently as marketing content, product onboarding, and live sales proof?",
+    "members" : [ "src-3", "src-4", "src-5", "src-7", "src-41" ],
+    "why" : "The conversation identifies a triple-output mechanism where interviewing an expert seeds their product perspective, generates published media content, and proves product capability without requiring separate onboarding friction."
+  }, {
+    "name" : "HumanMomentDemoVideo",
+    "frame" : "How should product demo videos balance human emotional reaction against UI walkthroughs and screen recordings?",
+    "members" : [ "src-8", "src-14", "src-15", "src-16", "src-18" ],
+    "why" : "Freya and Tanya converge on structuring the hero video around the human conversational moment and the expert's visceral reaction to citation rather than reading UI text or standard screen recordings."
+  }, {
+    "name" : "BehavioralStepPackagingTiers",
+    "frame" : "How should commercial pricing tiers map to natural user expansion rather than restrictive access walls?",
+    "members" : [ "src-9", "src-10", "src-11", "src-12" ],
+    "why" : "Packages the commercial structure (Free, Expert $81, Team $400, Org $4K) as behavioral progressions originating from the initial interview seed."
+  }, {
+    "name" : "InstallableExpertiseCategoryMoat",
+    "frame" : "What constitutes the boundary and technical moat of installable expertise compared to passive information retrieval?",
+    "members" : [ "src-24", "src-26", "src-28", "src-30", "src-32" ],
+    "why" : "Tanya articulates an explicit conceptual pivot from memory to installable expertise, defining the moat as extracting perspective and making it citable to enable delegation beyond human bottlenecks."
+  }, {
+    "name" : "LaunchBoundaryAprilFirst",
+    "frame" : "How should pre-launch scope separate immediate distribution essentials from deferred marketplace browsing capabilities?",
+    "members" : [ "src-42", "src-43" ],
+    "why" : "Establishes a firm delivery line separating active interview-driven distribution and playback capabilities from passive browse/search marketplace features."
+  } ],
+  "attaches" : [ ],
+  "position_revisions" : [ ],
+  "ungrouped" : [ "src-1", "src-2", "src-6", "src-13", "src-17", "src-20", "src-21", "src-22", "src-23", "src-25", "src-27", "src-29", "src-31", "src-33", "src-34", "src-35", "src-36", "src-37", "src-38", "src-39", "src-40", "src-44", "src-45", "src-46" ]
+}
