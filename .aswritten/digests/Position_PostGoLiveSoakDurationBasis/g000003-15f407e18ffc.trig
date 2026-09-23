@@ -1,0 +1,31 @@
+@prefix narr: <https://aswritten.ai/narrative#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+GRAPH <https://aswritten.ai/narrative#Digest_Position_PostGoLiveSoakDurationBasis> {
+  <https://aswritten.ai/narrative#Digest_Position_PostGoLiveSoakDurationBasis> a narr:Digest ;
+    narr:digestOf <https://aswritten.ai/narrative#Position_PostGoLiveSoakDurationBasis> ;
+    narr:childCount "11"^^xsd:integer ;
+    narr:generatedFrom "15f407e18ffc5e9c0ca0aea4e54d4e1ce1679f5c" ;
+    narr:narration """The position's basis was overturned within a week. It opened as a [two-week minimum soak defended on the Dockside exception curve](narr:Expr_1HalyardWeekly20260908_21), with the evidence base flagged as [one site, one season](narr:Expr_1HalyardWeekly20260908_21). At the ops-readiness review, [a demand for dates plus a commitment that a soak doesn't get shortened because a date slipped](narr:Expr_2HalyardOpsReadiness20260915_28) was met with [an agreement to hold it](narr:Expr_2HalyardOpsReadiness20260915_29). At the cutover review the author [retracted the two-week figure outright](narr:Expr_4HalyardCutoverReview20260915_3), having [re-analyzed the logs and found the nine-day flattening was an artifact of a retired weekly reconciliation job](narr:Expr_4HalyardCutoverReview20260915_5) — [nothing in the new platform runs on a weekly cycle](narr:Expr_4HalyardCutoverReview20260915_7). The revised basis is [one week: underlying exception rate flat by day four, plus three days of margin](narr:Expr_4HalyardCutoverReview20260915_9), formally [ratified on the record as superseding the earlier note](narr:Expr_4HalyardCutoverReview20260915_20). The register throughout runs antithesis and formal — [tight, not safe](narr:Expr_4HalyardCutoverReview20260915_15).""" ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_21> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_28> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_29> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_4HalyardCutoverReview20260915_13> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_4HalyardCutoverReview20260915_14> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_4HalyardCutoverReview20260915_15> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_4HalyardCutoverReview20260915_20> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_4HalyardCutoverReview20260915_3> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_4HalyardCutoverReview20260915_5> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_4HalyardCutoverReview20260915_7> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_4HalyardCutoverReview20260915_9> ;
+    narr:keyPhrase [ narr:text "I'll note that the exception curve is the only evidence we have for it. It's one site, one season." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_21> ] ;
+    narr:keyPhrase [ narr:text "The reason the queue took nine days to flatten at Dockside is that the old reconciliation job ran weekly and every run threw a fresh batch of exceptions. Two weeks was two reconciliation cycles. It was never about the site settling." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_4HalyardCutoverReview20260915_5> ] ;
+    narr:keyPhrase [ narr:text "One week gives you the flattening plus three days to look at it, which is the same margin I was arguing for." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_4HalyardCutoverReview20260915_9> ] ;
+    narr:keyPhrase [ narr:text "the soak between sites is one week, not two, and my note from the eighth about two weeks should be read as superseded by this." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_4HalyardCutoverReview20260915_20> ] ;
+    narr:keyPhrase [ narr:text "a commitment that a soak doesn't get shortened because a date slipped" ; narr:phraseSource <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_28> ] ;
+    narr:keyPhrase [ narr:text "I'd rather be defensible and know where the slack isn't than conservative for a reason that turned out to be imaginary." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_4HalyardCutoverReview20260915_14> ] ;
+    narr:variation [ narr:text "The correction is accepted but priced: one week is defensible yet has no slack in it, and the cost is put on the record as 'tight, not safe'." ; narr:over <https://aswritten.ai/narrative#Expr_4HalyardCutoverReview20260915_13> ; narr:over <https://aswritten.ai/narrative#Expr_4HalyardCutoverReview20260915_15> ] ;
+    narr:variation [ narr:text "The enforcement commitment agreed at ops-readiness was made for the two-week soak; whether it carries to the shortened one-week number is unresolved." ; narr:over <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_28> ; narr:over <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_29> ] ;
+    narr:variation [ narr:text "The original evidence limitation ('one site, one season') was the seed of the retraction — the basis was measuring a retired job, not the site." ; narr:over <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_21> ; narr:over <https://aswritten.ai/narrative#Expr_4HalyardCutoverReview20260915_7> ] ;
+    narr:writer "z-ai/glm-5.3-flash:nitro" .
+}

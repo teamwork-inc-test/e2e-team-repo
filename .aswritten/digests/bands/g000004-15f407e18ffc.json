@@ -20,21 +20,31 @@
       "n:Expr_1HalyardWeekly20260908_42" : 2,
       "n:Expr_1HalyardWeekly20260908_6" : 1,
       "n:Expr_1HalyardWeekly20260908_8" : 1,
+      "n:Expr_2HalyardOpsReadiness20260915_13" : 1,
       "n:Expr_2HalyardOpsReadiness20260915_17" : 1,
       "n:Expr_2HalyardOpsReadiness20260915_2" : 1,
       "n:Expr_2HalyardOpsReadiness20260915_26" : 1,
       "n:Expr_2HalyardOpsReadiness20260915_29" : 1,
       "n:Expr_2HalyardOpsReadiness20260915_6" : 1,
-      "n:Expr_2HalyardOpsReadiness20260915_7" : 1
+      "n:Expr_2HalyardOpsReadiness20260915_7" : 1,
+      "n:Expr_4HalyardCutoverReview20260915_10" : 1,
+      "n:Expr_4HalyardCutoverReview20260915_18" : 1,
+      "n:Expr_4HalyardCutoverReview20260915_20" : 1
     },
     "n:Actor_TinaTeam" : {
-      "n:Expr_1HalyardWeekly20260908_15" : 2,
+      "n:Expr_1HalyardWeekly20260908_15" : 1,
       "n:Expr_1HalyardWeekly20260908_17" : 1,
       "n:Expr_1HalyardWeekly20260908_19" : 1,
       "n:Expr_1HalyardWeekly20260908_22" : 1,
-      "n:Expr_1HalyardWeekly20260908_29" : 1,
-      "n:Expr_1HalyardWeekly20260908_41" : 1,
-      "n:Expr_3ReviewEvents70102_2" : 2
+      "n:Expr_3ReviewEvents70102_2" : 2,
+      "n:Expr_4HalyardCutoverReview20260915_11" : 1,
+      "n:Expr_4HalyardCutoverReview20260915_14" : 2,
+      "n:Expr_4HalyardCutoverReview20260915_17" : 1,
+      "n:Expr_4HalyardCutoverReview20260915_22" : 1,
+      "n:Expr_4HalyardCutoverReview20260915_3" : 2,
+      "n:Expr_4HalyardCutoverReview20260915_5" : 1,
+      "n:Expr_4HalyardCutoverReview20260915_7" : 1,
+      "n:Expr_4HalyardCutoverReview20260915_9" : 2
     },
     "n:Actor_XavierExpert" : {
       "n:Expr_1HalyardWeekly20260908_12" : 1,
@@ -44,9 +54,11 @@
       "n:Expr_1HalyardWeekly20260908_26" : 2,
       "n:Expr_1HalyardWeekly20260908_28" : 2,
       "n:Expr_1HalyardWeekly20260908_36" : 2,
-      "n:Expr_1HalyardWeekly20260908_38" : 1,
+      "n:Expr_1HalyardWeekly20260908_38" : 2,
       "n:Expr_2HalyardOpsReadiness20260915_15" : 1,
-      "n:Expr_2HalyardOpsReadiness20260915_25" : 1
+      "n:Expr_2HalyardOpsReadiness20260915_25" : 1,
+      "n:Expr_4HalyardCutoverReview20260915_13" : 1,
+      "n:Expr_4HalyardCutoverReview20260915_15" : 1
     },
     "n:CutoverStrategy" : {
       "n:Expr_1HalyardWeekly20260908_13" : 1,
@@ -69,9 +81,8 @@
     "n:Narrative_ContainedPainOverUnboundedRisk" : {
       "n:Expr_1HalyardWeekly20260908_13" : 1,
       "n:Expr_1HalyardWeekly20260908_15" : 1,
-      "n:Expr_1HalyardWeekly20260908_16" : 2,
+      "n:Expr_1HalyardWeekly20260908_16" : 1,
       "n:Expr_1HalyardWeekly20260908_17" : 1,
-      "n:Expr_1HalyardWeekly20260908_19" : 1,
       "n:Expr_1HalyardWeekly20260908_20" : 1,
       "n:Expr_1HalyardWeekly20260908_42" : 1,
       "n:Expr_1HalyardWeekly20260908_8" : 1,
@@ -84,7 +95,15 @@
       "n:Expr_2HalyardOpsReadiness20260915_7" : 1,
       "n:Expr_3ReviewEvents70102_2" : 1,
       "n:Expr_3ReviewEvents70102_3" : 2,
-      "n:Expr_3ReviewEvents70102_4" : 2
+      "n:Expr_3ReviewEvents70102_4" : 2,
+      "n:Expr_4HalyardCutoverReview20260915_10" : 1,
+      "n:Expr_4HalyardCutoverReview20260915_14" : 2,
+      "n:Expr_4HalyardCutoverReview20260915_18" : 1,
+      "n:Expr_4HalyardCutoverReview20260915_20" : 1,
+      "n:Expr_4HalyardCutoverReview20260915_3" : 1,
+      "n:Expr_4HalyardCutoverReview20260915_9" : 1,
+      "n:Position_PostGoLiveSoakDurationBasis" : 1,
+      "n:Position_SiteCutoverSequencingStrategy" : 2
     },
     "n:Narrative_SingleSourceOfTruthUntilFinalCutover" : {
       "n:Expr_1HalyardWeekly20260908_36" : 1,
@@ -125,7 +144,9 @@
       "n:Expr_1HalyardWeekly20260908_41" : 1
     },
     "n:Position_SiteCutoverSequencingStrategy" : {
-      "n:Expr_1HalyardWeekly20260908_16" : 1,
+      "n:Expr_1HalyardWeekly20260908_13" : 1,
+      "n:Expr_1HalyardWeekly20260908_15" : 1,
+      "n:Expr_1HalyardWeekly20260908_16" : 2,
       "n:Expr_1HalyardWeekly20260908_8" : 1,
       "n:Expr_2HalyardOpsReadiness20260915_16" : 2,
       "n:Expr_2HalyardOpsReadiness20260915_17" : 1,
@@ -134,10 +155,11 @@
       "n:Expr_2HalyardOpsReadiness20260915_7" : 1,
       "n:Expr_3ReviewEvents70102_2" : 1,
       "n:Expr_3ReviewEvents70102_3" : 2,
-      "n:Expr_3ReviewEvents70102_4" : 2
+      "n:Expr_3ReviewEvents70102_4" : 2,
+      "n:Expr_4HalyardCutoverReview20260915_10" : 1
     }
   },
-  "generated_from" : "038ff151773b49d81baa34278a5dac05b09761a2",
+  "generated_from" : "15f407e18ffc5e9c0ca0aea4e54d4e1ce1679f5c",
   "hubs" : {
     "n:Actor_FreyaFree" : 1,
     "n:Actor_TanyaTeam" : 2,
@@ -166,7 +188,7 @@
     "n" : "https://aswritten.ai/narrative#",
     "o" : "https://aswritten.ai/ns/narrative#"
   },
-  "runs_sha" : "65b74e6c41ba7dc56ab20e5e1a56ae2cb1e8ddc5",
-  "sittings" : 151,
+  "runs_sha" : "2f023fd63868b2c403fcbc674eb93f625a15f25d",
+  "sittings" : 152,
   "spec" : "fidelity-bands/1"
 }
