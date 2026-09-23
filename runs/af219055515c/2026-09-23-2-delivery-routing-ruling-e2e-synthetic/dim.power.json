@@ -1,0 +1,50 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "legitimate" ],
+    "evidence" : [ {
+      "quote" : "Tanya (team owner) ruled",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Frames authority explicitly through organizational position ('team owner') and formal decision-making ('ruled').",
+    "reported" : false,
+    "direction" : {
+      "verdict" : "mint",
+      "node" : "mint-1"
+    }
+  }, {
+    "segment_local_id" : "src-2",
+    "regions" : [ "legitimate", "rational-persuasion" ],
+    "evidence" : [ {
+      "quote" : "we route every reaction through one bundle per run per person, not one\n> message per skill",
+      "kind" : "performed-act"
+    }, {
+      "quote" : "a person should get one thing to read, not four",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Issues an authoritative routing mandate backed by an architectural and user-experience justification.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-4",
+    "regions" : [ "legitimate" ],
+    "evidence" : [ {
+      "quote" : "Tanya held:",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Establishes a binding rule on run timing and cutoff boundaries via formal team-lead holding.",
+    "reported" : false,
+    "direction" : {
+      "verdict" : "mint",
+      "node" : "mint-1"
+    }
+  } ],
+  "unmarked" : [ "src-3", "src-5" ],
+  "mints" : [ {
+    "id" : "mint-1",
+    "name" : "RulingByOwnershipAuthority",
+    "title" : "ruled / held by team owner",
+    "frame" : "Does the speaker establish a binding operational decision by explicitly invoking formal ownership authority rather than negotiating consensus?",
+    "regions" : [ "legitimate" ]
+  } ],
+  "region_mints" : [ ]
+}
