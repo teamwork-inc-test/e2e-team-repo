@@ -1,0 +1,42 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-5",
+    "regions" : [ "conservation" ],
+    "evidence" : [ {
+      "quote" : "was boring and finished",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Frames stability, predictability, and low-drama execution ('boring and finished') as the superior operational good over high-risk approaches.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-17",
+    "regions" : [ "competence" ],
+    "evidence" : [ {
+      "quote" : "A named quality bar, measured on the source system, before the site is allowed into a cutover window.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Appeals directly to quality of craft and objective standards of mastery/rigor before allowing transition.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-23",
+    "regions" : [ "competence" ],
+    "evidence" : [ {
+      "quote" : "If it never stops anything, it isn't a gate.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Establishes a rigorous standard of genuine efficacy and quality enforcement as the core test of validity.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-29",
+    "regions" : [ "conservation" ],
+    "evidence" : [ {
+      "quote" : "Bring them a hole you've named. They'll forgive a hole. They won't forgive finding one.",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Appeals to risk mitigation and institutional trust preservation through proactive disclosure.",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-1", "src-2", "src-3", "src-4", "src-6", "src-7", "src-8", "src-9", "src-10", "src-11", "src-12", "src-13", "src-14", "src-15", "src-16", "src-18", "src-19", "src-20", "src-21", "src-22", "src-24", "src-25", "src-26", "src-27", "src-28" ],
+  "mints" : [ ],
+  "region_mints" : [ ]
+}
