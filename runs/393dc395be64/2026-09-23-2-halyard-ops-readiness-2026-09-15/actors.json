@@ -1,0 +1,28 @@
+{
+  "bindings" : [ {
+    "name" : "Tanya Team",
+    "verdict" : "bind",
+    "target" : "Actor_TanyaTeam",
+    "why" : "Exact match to existing actor Actor_TanyaTeam."
+  }, {
+    "name" : "Freya Free",
+    "verdict" : "mint",
+    "label" : "Freya Free",
+    "why" : "No existing actor matches Freya Free."
+  }, {
+    "name" : "Xavier Expert",
+    "verdict" : "bind",
+    "target" : "Actor_XavierExpert",
+    "why" : "Exact match to existing actor Actor_XavierExpert."
+  }, {
+    "name" : "Tanya TeamOwner",
+    "verdict" : "bind",
+    "target" : "Actor_TanyaTeamowner",
+    "why" : "Exact match to existing actor Actor_TanyaTeamowner."
+  }, {
+    "name" : "tanya+staging@aswritten.ai",
+    "verdict" : "bind",
+    "target" : "Actor_TanyaTeamowner",
+    "why" : "Envelope account email matches submitter Tanya TeamOwner."
+  } ]
+}
