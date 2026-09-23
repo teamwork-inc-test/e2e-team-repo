@@ -1,0 +1,60 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-4",
+    "regions" : [ "rational-persuasion" ],
+    "evidence" : [ {
+      "quote" : "Think about the numbers though, right? The numbers really work. B2C. Because if we take theory that every single person is now their own team.",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Tina uses logical framing and numerical reasoning ('The numbers really work... Because if we take theory') to convince Tanya.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-10",
+    "regions" : [ "expert" ],
+    "evidence" : [ {
+      "quote" : "Find a company that's actually a knowledge company that doesn't think of themselves as a knowledge company.",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Xavier issues advisory operational guidance grounded in his practitioner expertise.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-12",
+    "regions" : [ "expert", "rational-persuasion" ],
+    "evidence" : [ {
+      "quote" : "One of my operating theses is the telephone company always wins. The telephone company always wins because the telephone company sits in between.",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Xavier invokes his established operational frameworks ('operating theses') to build a deductive structural argument.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-20",
+    "regions" : [ "expert", "rational-persuasion" ],
+    "evidence" : [ {
+      "quote" : "You're selling to an audience that wants something like this… they're looking for a solution. You're educating them on how it works and the benefits — not the use case.",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Tina instructs Tanya on sales positioning based on go-to-market knowledge and strategic logic.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-28",
+    "regions" : [ "expert" ],
+    "evidence" : [ {
+      "quote" : "Short term, like this, this thing can win and I think you should win. But like know the, know the strategic environment you are operating in",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Xavier adopts the posture of an expert strategic advisor directing executive focus.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-30",
+    "regions" : [ "pressure" ],
+    "evidence" : [ {
+      "quote" : "Yeah, exactly. Just stop and go sell it.",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Xavier applies direct, decisive pressure urging immediate executive action over contemplation.",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-1", "src-2", "src-3", "src-5", "src-6", "src-7", "src-8", "src-9", "src-11", "src-13", "src-14", "src-15", "src-16", "src-17", "src-18", "src-19", "src-21", "src-22", "src-23", "src-24", "src-25", "src-26", "src-27", "src-29" ],
+  "mints" : [ ],
+  "region_mints" : [ ]
+}
