@@ -1,0 +1,91 @@
+{
+  "run_id" : "mp-eng-b62bde0e",
+  "gates" : [ {
+    "id" : "aswritten/clarify",
+    "run?" : false,
+    "gate" : 2,
+    "reason" : "score 0.1 < threshold 0.7",
+    "score" : 0.1,
+    "evidence" : [ "the team pricing is about $400 a month. Not about is $400 a month. And then enterprise pricing starts at four grand, plus some setup", "All right, well, I'm doing the YC app this week.", "there's currently an MSA out for like, you know, six grand a month. That's in legal review." ]
+  }, {
+    "id" : "aswritten/refract",
+    "run?" : true,
+    "gate" : 2,
+    "reason" : "predicate only"
+  }, {
+    "id" : "aswritten/review",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "skill off"
+  }, {
+    "id" : "aswritten/riff",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "requires perspective, expand"
+  } ],
+  "spend" : {
+    "cost_usd" : 0.021519,
+    "passes" : [ {
+      "pass" : "reaction:_score",
+      "llm_calls" : 1,
+      "cost_usd" : 0.0052898
+    }, {
+      "pass" : "reaction:refract",
+      "llm_calls" : 1,
+      "cost_usd" : 0.016229
+    } ]
+  },
+  "bundle" : {
+    "items" : 1,
+    "audience" : "only-me",
+    "recipients" : 1,
+    "moments_cached" : true,
+    "sent" : [ {
+      "items" : [ {
+        "kind" : "note",
+        "skill" : "aswritten/refract",
+        "audience" : "speakers"
+      } ],
+      "handle" : "tanya+staging@aswritten.ai",
+      "channel" : "email",
+      "status" : "sent",
+      "front_message_id" : "msg_3djgi8q0",
+      "front_conversation_id" : "cnv_1ph8i1ns"
+    } ]
+  },
+  "policy" : {
+    "mode" : "on",
+    "budget_per_run_usd" : 0.25,
+    "channels" : [ "email", "sms" ]
+  },
+  "jobs" : [ {
+    "skill" : "aswritten/refract",
+    "status" : "ok",
+    "gate" : { },
+    "output" : {
+      "lens" : {
+        "shift" : "Here's the shift: the moat is no longer the citable perspective — it's the conversations themselves, ingested append-only and compounding with every call and decision. Like the telephone company, we win by sitting in between: the more calls and decisions in the record, the harder we are to rip out, and commodity transcription stops being the threat.",
+        "affected" : [ ],
+        "other_lenses" : [ "Fundraising becomes a time-bound marketplace rather than sequential asks — 'you are not raising… you are creating a marketplace,' run as a dated process aimed at 'maximal VCs,' with the YC application committed to this week.", "A live pricing check: team at $400/month, enterprise from $4k, an existing payer at $800 with a $6k/month MSA in legal review — and Xavier's open question whether the tiers are too low." ],
+        "drew_on" : [ "Xavier: 'the more calls and decisions that you have ingested into a graph, the graph itself is the moat' (narr:Expr_5RealXavierAndTanya60Mins20260720_110)", "Xavier: 'The telephone company always wins because the telephone company sits in between. And it's impossible to disintermediate because they sit in between.' (narr:Expr_5RealXavierAndTanya60Mins20260720_109)", "Xavier: 'they can't rip you out without breaking it for somebody else' and 'how do you build something that is non commodifiable?' (narr:Expr_5RealXavierAndTanya60Mins20260720_119)", "Tanya: 'the entire graph is append only… I actually operate entirely as the Zero data retention processor' — the append-only substrate the moat now rests on", "Tanya's provenance pitch ('full provenance of the ideas… cited someone that actually said it') — the prior citable-perspective framing the shift moves past", "Hub reaction (InstallableExpertise): the telephone-company framing 'now sits directly against the citable-perspective moat the original thesis rested on'", "delta_line: 'Reframes the data moat as an append-only conversational provenance model, extending the thesis of intermediary network effects to protect against commodity AI transcription'" ],
+        "quote" : "And so like the moat becomes over time, the more calls and decisions that you have ingested into a graph, the graph itself is the moat",
+        "approaches" : [ "The YC application — pitch the position we occupy, not the feature list", "Team and enterprise pricing — $400/$4k reads as priced against transcription, not against the moat; the 'too low?' question becomes structural", "The data layer — append-only storage, Dolt over Git ('Git is not designed for data. Dolt is designed for data.')", "Which customers to chase — 'a knowledge company that doesn't think of themselves as a knowledge company'" ],
+        "speaker" : "Xavier Expert",
+        "message" : "Here's the shift: the moat is no longer the citable perspective — it's the conversations themselves, ingested append-only and compounding with every call and decision. Xavier's telephone-company thesis is now load-bearing: we win by sitting in between, impossible to disintermediate, which means commodity transcription stops being the threat.\n\nThat changes how we approach the YC application (lead with the position we occupy, not the feature list), team and enterprise pricing ($400 and $4k read as priced against transcription, not against the moat — the 'too low?' question is now structural), the data layer (append-only storage, Dolt over Git), and which customers to chase (knowledge companies that don't call themselves knowledge companies).\n\nBefore/after, from this conversation — your provenance pitch. As written: 'So you get full provenance of the ideas and you can essentially tell whether an AI is hallucinated or not by whether or not it cited someone that actually said it.' Through the shift: the citations stay, but they stop being the moat — what makes us hard to replace is the position, every call and decision a customer runs through aswritten landing in an append-only record 'they can't rip you out without breaking it for somebody else.' The pitch leads with sitting in between, not with better citations.\n\nIs that the right reading?\n\nOne honest gap: this stream's document index came back empty, so I can't yet list which documents move, and I won't guess. If there's a thesis page, pricing notes, or YC-application drafts, those are where I'd expect this to land — point me at them and I'll map the reach, then ask before applying anything.",
+        "eye_chart" : {
+          "document" : ".aswritten/memories/2026-09-23-5-real-xavier-and-tanya-60-mins-2026-07-20.md",
+          "section" : "So you get full provenance of the ideas",
+          "as_written" : "So you get full provenance of the ideas and you can essentially tell whether an AI is hallucinated or not by whether or not it cited someone that actually said it.",
+          "through_the_lens" : "The citations stay — they're the proof — but they stop being the moat. What makes us hard to replace is the position: every call and decision a customer runs through aswritten lands in an append-only record 'they can't rip you out without breaking it for somebody else,' and it compounds with each one. The pitch leads with sitting in between, not with better citations."
+        }
+      }
+    },
+    "landing" : {
+      "landed" : "message"
+    },
+    "ms" : 140045
+  } ],
+  "stream" : "fixtures/701-real",
+  "at" : "2026-09-23T18:56:22.620717805Z",
+  "live_run_id" : "7f859f5ae6db"
+}
