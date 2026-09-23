@@ -1,0 +1,33 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-58",
+    "regions" : [ "casual" ],
+    "evidence" : [ {
+      "quote" : "Feel like this is actually one of the hardest parts about this thing. Someone's like, what do I say now? And I'm like, I don't know, like, kind of anything.",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Colloquial conversational markers, filler words ('like, kind of anything'), and informal speech-reporting construct a casual register.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-60",
+    "regions" : [ "casual" ],
+    "evidence" : [ {
+      "quote" : "It's almost like once connected, blah, come back and compile. I feel like it's really like, visit this link, install it, come back and say done.",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Informal placeholder 'blah' and conversational syntax establish a casual register.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-63",
+    "regions" : [ "plain-spoken", "casual" ],
+    "evidence" : [ {
+      "quote" : "Everything you said about committing and pulling and all of that is completely foreign to me. And so, you know, because I don't understand how that works, even some of the little things where you came back and just wrote one word — like that, you clearly have an understanding of how the back end works. And that didn't make sense. Some of the things you just were like, oh, clearly this one word is what it needs. I'm like, that did not make sense to me.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Direct rejection of technical git jargon in favor of plain, conversational non-technical user framing.",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-1", "src-2", "src-3", "src-4", "src-5", "src-6", "src-7", "src-8", "src-9", "src-10", "src-11", "src-12", "src-13", "src-14", "src-15", "src-16", "src-17", "src-18", "src-19", "src-20", "src-21", "src-22", "src-23", "src-24", "src-25", "src-26", "src-27", "src-28", "src-29", "src-30", "src-31", "src-32", "src-33", "src-34", "src-35", "src-36", "src-37", "src-38", "src-39", "src-40", "src-41", "src-42", "src-43", "src-44", "src-45", "src-46", "src-47", "src-48", "src-49", "src-50", "src-51", "src-52", "src-53", "src-54", "src-55", "src-56", "src-57", "src-59", "src-61", "src-62", "src-64", "src-65", "src-66", "src-67", "src-68", "src-69", "src-70", "src-71", "src-72", "src-73", "src-74", "src-75", "src-76", "src-77", "src-78" ],
+  "mints" : [ ],
+  "region_mints" : [ ]
+}
