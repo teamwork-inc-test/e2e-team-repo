@@ -1,0 +1,59 @@
+{
+  "placements" : [ {
+    "adopted_positions" : [ "Position_InstallableExpertiseCategoryMoat", "Position_TelephoneCompanyNetworkMoat", "Position_DesignTokenPerspectiveParallel" ],
+    "supporting_segments" : [ "src-6", "src-7", "src-10", "src-12", "src-13", "src-14", "src-15", "src-16", "src-17", "src-18", "src-19", "src-20", "src-23", "src-26", "src-28" ],
+    "under" : null,
+    "why" : "Segments directly advance the core installable expertise narrative: technical differentiation through citable perspective extraction, applying the unique personal/brand lens, targeting non-tech knowledge organizations over resistant developers, navigating incumbent disintermediation, and the telephone company network moat thesis.",
+    "verdict" : "reuse",
+    "leaf" : "Narrative_InstallableExpertise",
+    "region" : null,
+    "title" : null,
+    "frame" : null,
+    "consulted" : [ "Narrative_InstallableExpertise", "Narrative_AntiSlackPositioning", "Narrative_DecisionsEvaporate", "Narrative_BehavioralProgressionPackaging" ]
+  }, {
+    "adopted_positions" : [ "Position_BehavioralStepPackagingTiers" ],
+    "supporting_segments" : [ "src-3", "src-4", "src-5", "src-8", "src-9", "src-21" ],
+    "under" : null,
+    "why" : "Segments discuss mapping tiers to behavioral realities: capturing solo builders managing multiple repos who need separation from operational chaos via direct B2C lower tiers, while defining enterprise tiering by deployment shape rather than customer size.",
+    "verdict" : "reuse",
+    "leaf" : "Narrative_BehavioralProgressionPackaging",
+    "region" : null,
+    "title" : null,
+    "frame" : null,
+    "consulted" : [ "Narrative_BehavioralProgressionPackaging", "Narrative_InstallableExpertise", "Narrative_FundraisingMarketplaceMomentum" ]
+  }, {
+    "adopted_positions" : [ "Position_FundraisingMarketplaceProcessStaging" ],
+    "supporting_segments" : [ "src-2", "src-27", "src-29", "src-30" ],
+    "under" : null,
+    "why" : "Segments center on fundraising preparation, testing pricing assumptions, leveraging early word-of-mouth adoption milestones to catapult growth, and the founder's commitment to stop development iterations and execute sales.",
+    "verdict" : "reuse",
+    "leaf" : "Narrative_FundraisingMarketplaceMomentum",
+    "region" : null,
+    "title" : null,
+    "frame" : null,
+    "consulted" : [ "Narrative_FundraisingMarketplaceMomentum", "Narrative_InstallableExpertise", "Narrative_InterviewFlywheel" ]
+  }, {
+    "adopted_positions" : [ "Position_InterviewFlywheelSalesMotion" ],
+    "supporting_segments" : [ "src-24" ],
+    "under" : null,
+    "why" : "Segment outlines Tanya's podcast strategy where expert interviews simultaneously serve to package perspectives and build out marketplace inventory.",
+    "verdict" : "reuse",
+    "leaf" : "Narrative_InterviewFlywheel",
+    "region" : null,
+    "title" : null,
+    "frame" : null,
+    "consulted" : [ "Narrative_InterviewFlywheel", "Narrative_InstallableExpertise" ]
+  }, {
+    "adopted_positions" : [ "Position_HumanMomentDemoVideo" ],
+    "supporting_segments" : [ "src-25" ],
+    "under" : null,
+    "why" : "Segment asserts Freya's principle that human emotional moments, rather than text or static proof points, drive sales conversion.",
+    "verdict" : "reuse",
+    "leaf" : "Narrative_HumanMomentVideoProof",
+    "region" : null,
+    "title" : null,
+    "frame" : null,
+    "consulted" : [ "Narrative_HumanMomentVideoProof", "Narrative_InstallableExpertise" ]
+  } ],
+  "unplaced" : [ "src-1", "src-11", "src-22" ]
+}
