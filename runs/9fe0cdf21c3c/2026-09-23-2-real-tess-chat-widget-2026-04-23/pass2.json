@@ -1,0 +1,103 @@
+{
+  "resolutions" : [ {
+    "commentary_local_id" : "src-12",
+    "phrase" : "Tanya's prior claim that SMS removes the \"bot\" mental frame",
+    "verdict" : "new",
+    "binding" : null,
+    "candidates" : null,
+    "why" : "No prior node in the navigated perspective holds Tanya's claim that SMS removes the bot mental frame.",
+    "consulted" : [ "Narrative_InterviewFlywheel", "Narrative_HumanMomentVideoProof", "Position_AntiPatternRealtimeChat" ]
+  }, {
+    "commentary_local_id" : "src-27",
+    "phrase" : "Two prior corrections in the perspective already walked the \"SMS is the product\" framing back from its strongest form",
+    "verdict" : "new",
+    "binding" : null,
+    "candidates" : null,
+    "why" : "No prior corrections walking back SMS-first product framing exist in the current perspective.",
+    "consulted" : [ "Narrative_InterviewFlywheel", "Position_InterviewFlywheelSalesMotion", "Thematic" ]
+  }, {
+    "commentary_local_id" : "src-34",
+    "phrase" : "The perspective currently classifies Tess as a Knowledge-Rich Consumer (Archetype C2) and uses her as the exemplar for the Trigger-1 solo-professional archetype.",
+    "verdict" : "new",
+    "binding" : null,
+    "candidates" : null,
+    "why" : "No archetype classification or Trigger-1 exemplar node for Tess is present in the navigated perspective.",
+    "consulted" : [ "Thematic", "Actor_TanyaTeamowner", "People" ]
+  }, {
+    "commentary_local_id" : "src-36",
+    "phrase" : "Her operational goal for the next six months — already captured in the perspective — is to generalize and prepackage her existing training content for scalability.",
+    "verdict" : "new",
+    "binding" : null,
+    "candidates" : null,
+    "why" : "Tess's operational six-month goal is not present in the current perspective.",
+    "consulted" : [ "Thematic", "People" ]
+  }, {
+    "commentary_local_id" : "src-37",
+    "phrase" : "identical in structure to how Pat Quill is described (\"has expertise they want to distribute\")",
+    "verdict" : "new",
+    "binding" : null,
+    "candidates" : null,
+    "why" : "Pat Quill and their description do not appear in the navigated perspective.",
+    "consulted" : [ "People", "Thematic" ]
+  }, {
+    "commentary_local_id" : "src-51",
+    "phrase" : "Tess's actual role as primary beta tester is absent from the perspective today.",
+    "verdict" : "new",
+    "binding" : null,
+    "candidates" : null,
+    "why" : "No prior node documenting Tess's beta tester status exists in the perspective.",
+    "consulted" : [ "People", "Thematic" ]
+  }, {
+    "commentary_local_id" : "src-52",
+    "phrase" : "The \"SMB beta cohort\" entry names Sol, Pat, Marlo K, Loomhouse Co-op — but not Tess",
+    "verdict" : "new",
+    "binding" : null,
+    "candidates" : null,
+    "why" : "The 'SMB beta cohort' entry is not present in the navigated perspective.",
+    "consulted" : [ "Thematic", "Documents" ]
+  }, {
+    "commentary_local_id" : "src-55",
+    "phrase" : "The March 4 Wren onboarding session contains product feedback from Tess that was captured in the transcript but not surfaced when the memory was framed as \"Wren's domain knowledge.\"",
+    "verdict" : "new",
+    "binding" : null,
+    "candidates" : null,
+    "why" : "The March 4 Wren onboarding session document is not present in the navigated perspective.",
+    "consulted" : [ "Documents", "Thematic" ]
+  }, {
+    "commentary_local_id" : "src-62",
+    "phrase" : "The review-without-leaving-chat feature Tanya mentioned on the same call",
+    "verdict" : "new",
+    "binding" : null,
+    "candidates" : null,
+    "why" : "The review-without-leaving-chat feature mentioned in the Wren onboarding session is not in the navigated perspective.",
+    "consulted" : [ "Documents", "Thematic" ]
+  }, {
+    "commentary_local_id" : "src-64",
+    "phrase" : "The above-the-line abstraction work",
+    "verdict" : "confident",
+    "binding" : {
+      "referents" : [ {
+        "iri" : "Expr_1RealFreyaPodcastSalesMotion20260323_42",
+        "relation" : "extends",
+        "why" : "Explains the user cognitive friction motivation behind the above-the-line scope items (omitting git/repo complexity)."
+      }, {
+        "iri" : "Position_LaunchBoundaryAprilFirst",
+        "relation" : "extends",
+        "why" : "Adds UX rationale to the April 1 launch boundary scope definition."
+      } ],
+      "targets" : [ "Position_LaunchBoundaryAprilFirst" ]
+    },
+    "candidates" : null,
+    "why" : "Directly references and extends the April 1 above-the-line launch boundary scoping repo/git abstraction.",
+    "consulted" : [ "Position_LaunchBoundaryAprilFirst", "Expr_1RealFreyaPodcastSalesMotion20260323_42" ]
+  }, {
+    "commentary_local_id" : "src-70",
+    "phrase" : "The Apr 13 Keystone call used live SMS.",
+    "verdict" : "new",
+    "binding" : null,
+    "candidates" : null,
+    "why" : "The Apr 13 Keystone call is not present in the navigated perspective.",
+    "consulted" : [ "Documents", "Thematic" ]
+  } ],
+  "unreferenced_commentary" : [ "src-1", "src-2", "src-3", "src-4", "src-5", "src-6", "src-7", "src-8", "src-10", "src-11", "src-13", "src-14", "src-15", "src-16", "src-17", "src-19", "src-20", "src-21", "src-22", "src-23", "src-24", "src-25", "src-26", "src-28", "src-29", "src-30", "src-31", "src-32", "src-33", "src-35", "src-38", "src-39", "src-40", "src-41", "src-42", "src-43", "src-45", "src-46", "src-47", "src-48", "src-49", "src-50", "src-53", "src-56", "src-57", "src-59", "src-61", "src-65", "src-66", "src-67", "src-68", "src-69", "src-71", "src-72", "src-73", "src-74", "src-75", "src-76", "src-77", "src-78" ]
+}
