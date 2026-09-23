@@ -1,0 +1,36 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-2",
+    "regions" : [ "authority-ranking" ],
+    "evidence" : [ {
+      "quote" : "accepted the change",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Reports formal acceptance and sign-off in the governance review workflow.",
+    "reported" : true
+  }, {
+    "segment_local_id" : "src-3",
+    "regions" : [ "authority-ranking" ],
+    "evidence" : [ {
+      "quote" : "requested changes",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Enacts hierarchical review authority by requiring modifications prior to approval.",
+    "reported" : true
+  }, {
+    "segment_local_id" : "src-4",
+    "regions" : [ "authority-ranking", "communal-sharing" ],
+    "evidence" : [ {
+      "quote" : "rejected the change",
+      "kind" : "performed-act"
+    }, {
+      "quote" : "we never agreed",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Enacts governance rejection authority while appealing to shared collective consensus.",
+    "reported" : true
+  } ],
+  "unmarked" : [ "src-1" ],
+  "mints" : [ ],
+  "region_mints" : [ ]
+}
