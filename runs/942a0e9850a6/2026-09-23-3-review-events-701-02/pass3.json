@@ -1,0 +1,35 @@
+{
+  "reconciliations" : [ {
+    "segment_ids" : [ "src-2" ],
+    "note" : "Tina accepted the change from .aswritten/memories/2026-09-23-1-halyard-weekly-2026-09-08.md to narr:Position_SiteCutoverSequencingStrategy (revision .aswritten/memories/2026-09-23-1-halyard-weekly-2026-09-08.md@base).",
+    "targets" : [ "CutoverStrategy" ],
+    "referents" : [ {
+      "ref" : "Position_SiteCutoverSequencingStrategy",
+      "relation" : "extends"
+    } ],
+    "principal" : "Tina"
+  }, {
+    "segment_ids" : [ "src-3" ],
+    "note" : "Tanya requested changes on the change from .aswritten/memories/2026-09-23-1-halyard-weekly-2026-09-08.md to narr:Expr_1HalyardWeekly20260908_12 (revision .aswritten/memories/2026-09-23-1-halyard-weekly-2026-09-08.md@base): \"this reads as though containment settled the sequencing; the call weighed it against local site friction and did not settle it\"",
+    "targets" : [ "CutoverStrategy", "Narrative_ContainedPainOverUnboundedRisk" ],
+    "referents" : [ {
+      "ref" : "Expr_1HalyardWeekly20260908_12",
+      "relation" : "contradicts"
+    } ],
+    "principal" : "Tanya TeamOwner"
+  }, {
+    "segment_ids" : [ "src-4" ],
+    "note" : "Tanya rejected the change from .aswritten/memories/2026-09-23-1-halyard-weekly-2026-09-08.md to narr:Expr_1HalyardWeekly20260908_8 (revision .aswritten/memories/2026-09-23-1-halyard-weekly-2026-09-08.md@base): \"we never agreed a single-site pilot — the call settled on two sites in parallel\" Submitted by Claude on Tanya's behalf.",
+    "targets" : [ "CutoverStrategy", "Narrative_ContainedPainOverUnboundedRisk" ],
+    "referents" : [ {
+      "ref" : "Expr_1HalyardWeekly20260908_8",
+      "relation" : "contradicts"
+    } ],
+    "principal" : "Tanya TeamOwner"
+  } ],
+  "standalone" : [ {
+    "segment_id" : "src-1",
+    "why" : "no recorded principal (unendorsed composition)"
+  } ],
+  "held" : [ ]
+}
