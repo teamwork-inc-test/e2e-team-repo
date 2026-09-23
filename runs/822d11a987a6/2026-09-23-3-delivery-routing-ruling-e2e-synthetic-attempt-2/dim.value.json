@@ -1,0 +1,25 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-2",
+    "regions" : [ "self-transcendence" ],
+    "evidence" : [ {
+      "quote" : "a person should get one thing to read, not four",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Appeals to the reader's experience and cognitive load as the normative motive for architecture.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-4",
+    "regions" : [ "self-transcendence" ],
+    "evidence" : [ {
+      "quote" : "moves the ordering problem onto the\nreader",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Rejects an alternative specifically because it imposes the burden and problem onto the reader.",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-1", "src-3" ],
+  "unmarked_rest" : false,
+  "mints" : [ ],
+  "region_mints" : [ ]
+}
