@@ -1,0 +1,91 @@
+{
+  "run_id" : "mp-eng-93acbfb3",
+  "gates" : [ {
+    "id" : "aswritten/clarify",
+    "run?" : false,
+    "gate" : 2,
+    "reason" : "score 0.1 < threshold 0.7",
+    "score" : 0.1,
+    "evidence" : [ "Whether the chat widget replaces or augments SMS for Demo 1 is a decision", "If verification fails again, that's the signal to stop investing in the SMS onramp", "A Front chat widget spike would confirm whether inbox creation is API-automatable", "Options include her writing her own memories, Tanya dictating them after conversations" ]
+  }, {
+    "id" : "aswritten/refract",
+    "run?" : true,
+    "gate" : 2,
+    "reason" : "predicate only"
+  }, {
+    "id" : "aswritten/review",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "skill off"
+  }, {
+    "id" : "aswritten/riff",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "requires perspective, expand"
+  } ],
+  "spend" : {
+    "cost_usd" : 0.014521,
+    "passes" : [ {
+      "pass" : "reaction:_score",
+      "llm_calls" : 1,
+      "cost_usd" : 0.00486895
+    }, {
+      "pass" : "reaction:refract",
+      "llm_calls" : 1,
+      "cost_usd" : 0.00965175
+    } ]
+  },
+  "bundle" : {
+    "items" : 1,
+    "audience" : "only-me",
+    "recipients" : 1,
+    "moments_cached" : true,
+    "sent" : [ {
+      "items" : [ {
+        "kind" : "note",
+        "skill" : "aswritten/refract",
+        "audience" : "speakers"
+      } ],
+      "handle" : "tanya+staging@aswritten.ai",
+      "channel" : "email",
+      "status" : "sent",
+      "front_message_id" : "msg_3dj92pbc",
+      "front_conversation_id" : "cnv_1ph4zxew"
+    } ]
+  },
+  "policy" : {
+    "mode" : "on",
+    "budget_per_run_usd" : 0.25,
+    "channels" : [ "email", "sms" ]
+  },
+  "jobs" : [ {
+    "skill" : "aswritten/refract",
+    "status" : "ok",
+    "gate" : { },
+    "output" : {
+      "lens" : {
+        "shift" : "SMS stops being the default demo channel: in evaluator and skeptic contexts it's spam-coded and carries a trust tax, so first-touch conversations move to a chat widget on the share page while SMS stays scoped to high-trust, post-consent contexts. Channel choice now follows trust context, and the SMS onramp carries an explicit stop condition.",
+        "affected" : [ ],
+        "other_lenses" : [ "Tess is a Knowledge Packager, not a Knowledge-Rich Consumer: the typology conflated AI-fluency with distribution motion, and she can't anchor Individual-tier pricing because her tier is a relational arrangement, not a sales outcome.", "Post-install onboarding is named as one of the product's hardest open problems: non-technical users need tool-language like 'visit this link, install it, come back and say done,' and backend jargon (commit, pull) carries real cognitive cost.", "Tanya's voice profile gains its first calm-negative register — the candid 'one of the hardest parts about this thing' admission softens the previously all-confident sales-motion read." ],
+        "drew_on" : [ "Tess's channel insight (Expr_2RealTessChatWidget20260423_9): texting is spam-associated in skeptical contexts; people might not want to give their number", "The trust-tax formulation (Expr_2RealTessChatWidget20260423_16, Position_EvaluatorChannelTrustTax): 'the channel carries a trust tax in evaluator-grade conversations'", "Tess's request and Tanya's sketch (Expr_2RealTessChatWidget20260423_18/_22, Position_PerShareChatWidgetArchitecture): chat widget on a web form, one widget per share ID, managed inbox, no default assignment", "Tanya's trade-off conclusion (Expr_2RealTessChatWidget20260423_26): lower lift for the demo, lower lift for Tess's category, potentially much more useful", "The boundary (Expr_2RealTessChatWidget20260423_32): 'This is a scoping, not a replacement'", "The stop condition (Expr_2RealTessChatWidget20260423_67): if verification fails again, stop investing in the SMS onramp for evaluator contexts and pivot to the chat widget", "Hub reaction on the flywheel naming the Tess trust-tax thread plus the per-share widget answer as the biggest move" ],
+        "quote" : "But in a lot of skeptical or lower-trust contexts, texting is so associated with spam now that requiring someone to text might actually be a real downside.",
+        "approaches" : [ "the Demo 1 channel decision (explicit, not drift)", "the SMS onramp investment — stop if verification fails again", "share architecture: one widget per share ID, nothing auto-assigned to the founder" ],
+        "speaker" : "Tess Guest, as relayed by Tanya TeamOwner",
+        "message" : "Here's the shift, from Tess's pushback: SMS stops being the default demo channel. In evaluator and skeptic contexts it's spam-coded — 'requiring someone to text might actually be a real downside' — so first-touch conversations move to a chat widget on the share page, and SMS stays scoped to high-trust, post-consent contexts. It changes how we approach the Demo 1 channel decision (explicit, not drift), the SMS onramp investment (stop if verification fails again), and share architecture (one widget per share ID, nothing auto-assigned to you).\n\nThe before/after, on 'Narrowing the SMS Framing, Not Killing It' in today's write-up:\n\nAs written: 'SMS remains viable for high-trust, post-consent, consumer-viral contexts — the channel works where the sender is already welcome. A chat widget on the share page is the right fit for evaluator, skeptic, first-touch, and demo contexts — no number, no verification, no opt-in form, no spam frame. … This is a scoping, not a replacement.'\n\nThrough the shift: this is the operating rule, not a caveat. Channel choice follows trust context — the share page carries the trust, so the widget inherits it; SMS keeps only the contexts where the sender is already welcome; per-user toll-free verification stops being load-bearing for demo strategy; and Demo 1's live SMS (Apr 13 Keystone) becomes an explicit decision, with a second verification failure as the signal to stop investing in the SMS onramp.\n\nRight read?\n\nWhat it moves: no other documents are in view for this stream, so I can't list what shifts yet — but this should touch everything that states the SMS demo framing, the per-user verification cost, and the Demo 1 plan. Want me to pull the documents and apply this across everything it moves?",
+        "eye_chart" : {
+          "document" : ".aswritten/memories/2026-09-23-2-real-tess-chat-widget-2026-04-23.md",
+          "section" : "Narrowing the SMS Framing, Not Killing It",
+          "as_written" : "Today's insight narrows it further. SMS remains viable for high-trust, post-consent, consumer-viral contexts — the channel works where the sender is already welcome. A chat widget on the share page is the right fit for evaluator, skeptic, first-touch, and demo contexts — no number, no verification, no opt-in form, no spam frame. This is a scoping, not a replacement.",
+          "through_the_lens" : "This reads as the operating rule, not a caveat: pick the surface by trust context. The share page carries the trust, so the widget inherits it and evaluator conversations need no number, no verification, no opt-in form; SMS keeps only the contexts where the sender is already welcome. Per-user toll-free verification stops being load-bearing for demo strategy, Demo 1's live SMS from the Apr 13 Keystone call becomes an explicit decision, and a second verification failure is the signal to stop investing in the SMS onramp for evaluator contexts."
+        }
+      }
+    },
+    "landing" : {
+      "landed" : "message"
+    },
+    "ms" : 68401
+  } ],
+  "stream" : "fixtures/701-real",
+  "at" : "2026-09-23T17:21:35.073367168Z",
+  "live_run_id" : "9fe0cdf21c3c"
+}
