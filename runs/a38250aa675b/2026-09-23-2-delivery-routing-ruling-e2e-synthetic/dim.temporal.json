@@ -1,0 +1,41 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "past", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "ruled on where reaction delivery belongs",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Narrates a past concrete ruling event as an actual settled fact.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-2",
+    "regions" : [ "present", "irrealis", "abstract" ],
+    "evidence" : [ {
+      "quote" : "should get one thing to read",
+      "kind" : "modal-marker"
+    } ],
+    "why" : "Articulates a normative architectural rule and desired design principle.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-3",
+    "regions" : [ "present", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "the bundle closes when\nthe run closes",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Specifies the actual operational timing logic established by the ruling.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-4",
+    "regions" : [ "past", "realis", "abstract" ],
+    "evidence" : [ {
+      "quote" : "The alternative considered and rejected was",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Evaluates a rejected design alternative and its architectural implications in retrospect.",
+    "reported" : false
+  } ],
+  "unmarked" : [ ],
+  "unmarked_rest" : false
+}
