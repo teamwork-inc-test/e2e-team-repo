@@ -1,0 +1,77 @@
+{
+  "run_id" : "mp-eng-d5f75d03",
+  "gates" : [ {
+    "id" : "aswritten/clarify",
+    "run?" : false,
+    "gate" : 2,
+    "reason" : "score 0.05 < threshold 0.7",
+    "score" : 0.05,
+    "evidence" : [ "So the position is: the legacy platform is switched off when the last site goes live, the closed history is extracted first into an open self-describing archive, and the retention period comes from legal in writing before we sign anything with the vendor about decommissioning.", "I want legal to give us one in writing.", "Xavier, can you scope the extraction enough that I can put a number in front of the vendor?", "Give me until the end of next week.", "I'd sign up to that." ]
+  }, {
+    "id" : "aswritten/refract",
+    "run?" : true,
+    "gate" : 2,
+    "reason" : "predicate only"
+  }, {
+    "id" : "aswritten/review",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "skill off"
+  }, {
+    "id" : "aswritten/riff",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "requires perspective, expand"
+  } ],
+  "spend" : {
+    "cost_usd" : 0.00941,
+    "passes" : [ {
+      "pass" : "reaction:_score",
+      "llm_calls" : 1,
+      "cost_usd" : 0.0044415
+    }, {
+      "pass" : "reaction:refract",
+      "llm_calls" : 1,
+      "cost_usd" : 0.00496855
+    } ]
+  },
+  "bundle" : {
+    "items" : 1,
+    "audience" : "only-me",
+    "recipients" : 1,
+    "moments_cached" : true,
+    "sent" : [ {
+      "items" : [ {
+        "kind" : "note",
+        "skill" : "aswritten/refract",
+        "audience" : "speakers"
+      } ],
+      "handle" : "tanya+staging@aswritten.ai",
+      "channel" : "email",
+      "status" : "sent",
+      "front_message_id" : "msg_3di7fw6g",
+      "front_conversation_id" : "cnv_1pgllaw8"
+    } ]
+  },
+  "policy" : {
+    "mode" : "on",
+    "budget_per_run_usd" : 0.25,
+    "channels" : [ "email", "sms" ]
+  },
+  "jobs" : [ {
+    "skill" : "aswritten/refract",
+    "status" : "ok",
+    "gate" : { },
+    "output" : {
+      "lens" : null,
+      "ask" : "I can see the shift — closed legacy history now gets pulled into a flat, self-describing archive rather than keeping the old vendor platform alive, and legal's retention mandate has to be in writing before any decommissioning terms get signed — but this run surfaced none of your existing documents to read that against, so point me at the cutover plan or the vendor-exit paperwork and I'll show you what changes there."
+    },
+    "landing" : {
+      "landed" : "message"
+    },
+    "ms" : 29347
+  } ],
+  "stream" : "fixtures/701",
+  "at" : "2026-09-23T02:06:55.092970291Z",
+  "live_run_id" : "f7fee7aa5b98"
+}
