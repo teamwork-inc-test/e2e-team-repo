@@ -1,0 +1,77 @@
+{
+  "run_id" : "mp-eng-5412f0a3",
+  "gates" : [ {
+    "id" : "aswritten/clarify",
+    "run?" : false,
+    "gate" : 2,
+    "reason" : "score 0.05 < threshold 0.7",
+    "score" : 0.05,
+    "evidence" : [ "commitment-marker: I'll lead with yours on Thursday.", "performed-act: Then let's not go parallel.", "commitment-marker: That's fair and I'll hold it.", "hedge: I'd still say one at a time", "plain-assertion: I have eleven supervisors across the whole region." ]
+  }, {
+    "id" : "aswritten/refract",
+    "run?" : true,
+    "gate" : 2,
+    "reason" : "predicate only"
+  }, {
+    "id" : "aswritten/review",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "skill off"
+  }, {
+    "id" : "aswritten/riff",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "requires perspective, expand"
+  } ],
+  "spend" : {
+    "cost_usd" : 0.010645,
+    "passes" : [ {
+      "pass" : "reaction:_score",
+      "llm_calls" : 1,
+      "cost_usd" : 0.0048107
+    }, {
+      "pass" : "reaction:refract",
+      "llm_calls" : 1,
+      "cost_usd" : 0.00583395
+    } ]
+  },
+  "bundle" : {
+    "items" : 1,
+    "audience" : "only-me",
+    "recipients" : 1,
+    "moments_cached" : true,
+    "sent" : [ {
+      "items" : [ {
+        "kind" : "note",
+        "skill" : "aswritten/refract",
+        "audience" : "speakers"
+      } ],
+      "handle" : "tanya+staging@aswritten.ai",
+      "channel" : "email",
+      "status" : "sent",
+      "front_message_id" : "msg_3di70xk8",
+      "front_conversation_id" : "cnv_1pglcwvc"
+    } ]
+  },
+  "policy" : {
+    "mode" : "on",
+    "budget_per_run_usd" : 0.25,
+    "channels" : [ "email", "sms" ]
+  },
+  "jobs" : [ {
+    "skill" : "aswritten/refract",
+    "status" : "ok",
+    "gate" : { },
+    "output" : {
+      "lens" : null,
+      "ask" : "I can see the shift — the one-site-at-a-time cutover case now leads with Freya's staffing arithmetic ('I'm telling you it's arithmetic') rather than the risk trade-off, with parallel cutover explicitly ruled out and a new cross-site-learning benefit on record — but no documents came through with this run, so I can't yet show where it lands or what it would rewrite."
+    },
+    "landing" : {
+      "landed" : "message"
+    },
+    "ms" : 38786
+  } ],
+  "stream" : "fixtures/701",
+  "at" : "2026-09-23T01:53:03.731220906Z",
+  "live_run_id" : "393dc395be64"
+}
