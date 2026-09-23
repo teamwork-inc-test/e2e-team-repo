@@ -1,0 +1,49 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-10",
+    "regions" : [ "market-pricing" ],
+    "evidence" : [ {
+      "quote" : "$81/month",
+      "kind" : "plain-signal"
+    }, {
+      "quote" : "$400/month",
+      "kind" : "plain-signal"
+    }, {
+      "quote" : "$4K/month",
+      "kind" : "plain-signal"
+    } ],
+    "why" : "Explicitly details tier pricing structures and proportional transactional trade-offs.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-14",
+    "regions" : [ "authority-ranking" ],
+    "evidence" : [ {
+      "quote" : "Don't make people read text in a video.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Freya issues an unhedged design imperative directing Tanya's production choices.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-34",
+    "regions" : [ "communal-sharing" ],
+    "evidence" : [ {
+      "quote" : "get all the people I know to contribute their expertise as the first modules",
+      "kind" : "plain-signal"
+    } ],
+    "why" : "Proposes pooling contributions from close personal networks based on shared relationship rather than commercial pricing.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-35",
+    "regions" : [ "equality-matching" ],
+    "evidence" : [ {
+      "quote" : "Freya committed to:",
+      "kind" : "commitment-marker"
+    } ],
+    "why" : "Reports explicit mutual commitments and work deliverables agreed upon between collaborators.",
+    "reported" : true
+  } ],
+  "unmarked" : [ "src-1", "src-2", "src-3", "src-4", "src-5", "src-6", "src-7", "src-8", "src-9", "src-11", "src-12", "src-13", "src-15", "src-16", "src-17", "src-18", "src-20", "src-21", "src-22", "src-23", "src-24", "src-25", "src-26", "src-27", "src-28", "src-29", "src-30", "src-31", "src-32", "src-33", "src-36", "src-37", "src-38", "src-39", "src-40", "src-41", "src-42", "src-43", "src-44", "src-45", "src-46" ],
+  "unmarked_rest" : false,
+  "mints" : [ ],
+  "region_mints" : [ ]
+}
