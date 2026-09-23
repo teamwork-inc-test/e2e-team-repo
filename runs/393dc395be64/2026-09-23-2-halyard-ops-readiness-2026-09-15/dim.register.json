@@ -1,0 +1,56 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-11",
+    "regions" : [ "plain-spoken" ],
+    "evidence" : [ {
+      "quote" : "A cutover night pulls four of my supervisors out of the normal rota — two on the floor, one on the desk, one on the phone to the vendor.",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Breaks down operational staffing constraints into unvarnished, direct headcount breakdown without management jargon.",
+    "reported" : false,
+    "direction" : {
+      "verdict" : "mint",
+      "node" : "mint-1"
+    }
+  }, {
+    "segment_local_id" : "src-14",
+    "regions" : [ "matter-of-fact", "plain-spoken" ],
+    "evidence" : [ {
+      "quote" : "I'm telling you it's arithmetic.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Strips debate and strategic framing down to blunt mechanical reality.",
+    "reported" : false,
+    "direction" : {
+      "verdict" : "mint",
+      "node" : "mint-1"
+    }
+  }, {
+    "segment_local_id" : "src-15",
+    "regions" : [ "formal" ],
+    "evidence" : [ {
+      "quote" : "For the record",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Adopts procedural, record-setting framing departing from the conversational baseline.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-25",
+    "regions" : [ "technical" ],
+    "evidence" : [ {
+      "quote" : "The replica rule and the reference-data rule both assume one cutover window open at a time",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Shifts into explicit technical domain architecture terms and rule definitions.",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-1", "src-2", "src-3", "src-4", "src-5", "src-6", "src-7", "src-8", "src-9", "src-10", "src-12", "src-13", "src-16", "src-17", "src-18", "src-19", "src-20", "src-21", "src-22", "src-23", "src-24", "src-26", "src-27", "src-28", "src-29", "src-30", "src-31" ],
+  "mints" : [ {
+    "id" : "mint-1",
+    "name" : "ArithmeticConstraintRegister",
+    "title" : "it's arithmetic",
+    "frame" : "Does the speaker reframe strategic or policy arguments as plain, non-negotiable operational counts?",
+    "regions" : [ "plain-spoken", "matter-of-fact" ]
+  } ],
+  "region_mints" : [ ]
+}
