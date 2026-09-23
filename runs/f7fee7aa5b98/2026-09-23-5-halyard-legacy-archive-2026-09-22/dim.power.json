@@ -1,0 +1,79 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "legitimate" ],
+    "evidence" : [ {
+      "quote" : "I'd rather we form a view than have one handed to us",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Establishes proactive stance and team agency in setting policy before authority is externally imposed.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-7",
+    "regions" : [ "expert", "rational-persuasion" ],
+    "evidence" : [ {
+      "quote" : "That's the expensive answer and it's also the fragile one.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Xavier leverages technical domain understanding to challenge default vendor assumptions with logic.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-9",
+    "regions" : [ "expert", "rational-persuasion" ],
+    "evidence" : [ {
+      "quote" : "Then here's the view I'd take, and I'd take it firmly.",
+      "kind" : "intensifier"
+    } ],
+    "why" : "Asserts a technical architectural recommendation grounded in expert experience.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-16",
+    "regions" : [ "rational-persuasion" ],
+    "evidence" : [ {
+      "quote" : "If Ferry Road can still look something up in the old system, someone at Ferry Road will",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Tanya builds on the proposal using behavioral reasoning about dual-system risk.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-18",
+    "regions" : [ "legitimate" ],
+    "evidence" : [ {
+      "quote" : "Both go in the note.",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Exercises meeting-owner positional authority to record decision rationale.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-20",
+    "regions" : [ "legitimate", "rational-persuasion" ],
+    "evidence" : [ {
+      "quote" : "I want legal to give us one in writing.",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Insists on formal procedural legitimacy from legal counsel before locking in retention commitments.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-22",
+    "regions" : [ "legitimate" ],
+    "evidence" : [ {
+      "quote" : "So the position is:",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Exercises chair authority to crystallize and mandate the team's official operational position.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-27",
+    "regions" : [ "consultation", "legitimate" ],
+    "evidence" : [ {
+      "quote" : "Xavier, can you scope the extraction enough that I can put a number in front of the vendor?",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Assigns work and invites technical scoping using leader authority.",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-2", "src-3", "src-4", "src-5", "src-6", "src-8", "src-10", "src-11", "src-12", "src-13", "src-14", "src-15", "src-17", "src-19", "src-21", "src-23", "src-24", "src-25", "src-26", "src-28" ],
+  "unmarked_rest" : false,
+  "mints" : [ ],
+  "region_mints" : [ ]
+}
