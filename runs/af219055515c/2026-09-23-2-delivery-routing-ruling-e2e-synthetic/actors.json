@@ -1,0 +1,21 @@
+{
+  "bindings" : [ {
+    "name" : "Tanya TeamOwner",
+    "verdict" : "bind",
+    "target" : "Actor_Tanya_Staging",
+    "label" : "Tanya TeamOwner",
+    "why" : "Associated with account tanya+staging@aswritten.ai in envelope metadata, matching Actor_Tanya_Staging."
+  }, {
+    "name" : "Tina",
+    "verdict" : "bind",
+    "target" : "Actor_Tina",
+    "label" : null,
+    "why" : "Exact match to existing Actor_Tina."
+  }, {
+    "name" : "tanya+staging@aswritten.ai",
+    "verdict" : "bind",
+    "target" : "Actor_Tanya_Staging",
+    "label" : "Tanya TeamOwner",
+    "why" : "Explicitly identifies Actor_Tanya_Staging via email match."
+  } ]
+}
