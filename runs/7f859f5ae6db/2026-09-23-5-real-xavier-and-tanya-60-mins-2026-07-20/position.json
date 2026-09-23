@@ -1,0 +1,34 @@
+{
+  "positions" : [ {
+    "name" : "ConversationalProvenanceDataModel",
+    "frame" : "How does modeling organizational conversation with append-only provenance differ from traditional entity-fact knowledge graphs?",
+    "members" : [ "src-78", "src-80", "src-82", "src-84", "src-88", "src-90", "src-92", "src-94", "src-96", "src-98", "src-110" ],
+    "why" : "Tanya articulates the architectural foundation of the V2 ontology: the system models live conversations and decision moments with full provenance and zero data retention in GitHub repositories, performing entity and authority disambiguation at generation time rather than pre-computing static entity facts.",
+    "under" : [ "Narrative_InstallableExpertise" ],
+    "lineage" : {
+      "relation" : "extends",
+      "target" : "Position_InstallableExpertiseCategoryMoat"
+    }
+  }, {
+    "name" : "IntermediaryNetworkEffectsFederation",
+    "frame" : "How can cross-organizational graph federation and intermediary network effects protect against commodity AI transcription and incumbent displacement?",
+    "members" : [ "src-105", "src-109", "src-111", "src-113", "src-115", "src-117", "src-119", "src-121", "src-125", "src-127", "src-128", "src-133", "src-157", "src-158" ],
+    "why" : "Xavier argues that point-solution transcription tools (Fireflies, Otter) will inevitably commoditize and that durability requires becoming an un-disintermediable intermediary like a telephone company; Tanya and Xavier explore how federating private conversational graphs across organizational boundaries creates bilateral network lock-in.",
+    "under" : [ "Narrative_InstallableExpertise" ]
+  }, {
+    "name" : "StagedFundraisingProcessMarketplace",
+    "frame" : "How should early-stage founders stage fundraising rounds and orchestrate competitive investor momentum rather than seeking individual checks?",
+    "members" : [ "src-102", "src-143", "src-145", "src-171", "src-177", "src-179", "src-183", "src-185", "src-187", "src-189", "src-191", "src-193", "src-195", "src-197", "src-199", "src-205", "src-209", "src-211", "src-222" ],
+    "why" : "Xavier advises Tanya on conducting an institutional venture round as a time-bound marketplace rather than sequential asks, prescribing an initial advice-gathering phase to build conviction, reserving high-leverage champions like Emery Park until a term sheet exists, and asserting power through process discipline.",
+    "under" : [ "Narrative_InstallableExpertise" ]
+  }, {
+    "name" : "EnterprisePilotContractTiering",
+    "frame" : "How should pricing and contract structures scale from team self-service to automated enterprise meeting ingestion?",
+    "members" : [ "src-100", "src-212", "src-214" ],
+    "why" : "Tanya details the commercial packaging shift from $400/month team plans to $4k+/month enterprise packages driven by pilot feedback demanding automated meeting ingestion, citing her current enterprise pilot moving from an $800/month trial to a $6,000/month MSA in legal review.",
+    "under" : [ "Narrative_BehavioralProgressionPackaging" ]
+  } ],
+  "attaches" : [ ],
+  "position_revisions" : [ ],
+  "ungrouped" : [ "src-1", "src-2", "src-3", "src-4", "src-5", "src-6", "src-7", "src-8", "src-9", "src-10", "src-11", "src-12", "src-13", "src-14", "src-15", "src-16", "src-17", "src-18", "src-19", "src-20", "src-21", "src-22", "src-23", "src-24", "src-25", "src-26", "src-27", "src-28", "src-29", "src-30", "src-31", "src-32", "src-33", "src-34", "src-35", "src-36", "src-37", "src-38", "src-39", "src-40", "src-41", "src-42", "src-43", "src-44", "src-45", "src-46", "src-47", "src-48", "src-49", "src-50", "src-51", "src-52", "src-53", "src-54", "src-55", "src-56", "src-57", "src-58", "src-59", "src-60", "src-61", "src-62", "src-63", "src-64", "src-65", "src-66", "src-67", "src-68", "src-69", "src-70", "src-71", "src-72", "src-73", "src-74", "src-75", "src-77", "src-79", "src-81", "src-83", "src-85", "src-86", "src-87", "src-89", "src-91", "src-93", "src-95", "src-97", "src-99", "src-101", "src-103", "src-104", "src-106", "src-107", "src-108", "src-112", "src-114", "src-116", "src-118", "src-120", "src-122", "src-123", "src-124", "src-126", "src-129", "src-130", "src-131", "src-132", "src-134", "src-135", "src-136", "src-137", "src-138", "src-139", "src-140", "src-141", "src-142", "src-144", "src-146", "src-147", "src-148", "src-149", "src-150", "src-151", "src-152", "src-153", "src-154", "src-155", "src-159", "src-160", "src-161", "src-162", "src-163", "src-164", "src-165", "src-166", "src-167", "src-168", "src-169", "src-170", "src-172", "src-173", "src-174", "src-175", "src-176", "src-178", "src-180", "src-181", "src-182", "src-184", "src-186", "src-188", "src-190", "src-192", "src-194", "src-196", "src-198", "src-200", "src-201", "src-202", "src-203", "src-204", "src-206", "src-207", "src-208", "src-210", "src-213", "src-215", "src-216", "src-217", "src-218", "src-219", "src-220", "src-221", "src-223", "src-224", "src-225", "src-226", "src-227", "src-228", "src-229", "src-230", "src-231", "src-232", "src-233", "src-234", "src-235", "src-236", "src-237", "src-238", "src-239", "src-240", "src-241", "src-242", "src-243", "src-244", "src-245", "src-246", "src-247", "src-248", "src-249" ]
+}
