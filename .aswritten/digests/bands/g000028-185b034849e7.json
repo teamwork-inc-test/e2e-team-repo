@@ -9,13 +9,15 @@
       "n:Expr_1E2EDefaultRef1788600637900_1" : 1,
       "n:Expr_1E2EDefaultRef1788687000950_1" : 1,
       "n:Expr_1E2EDefaultRef1788774012301_1" : 1,
-      "n:Expr_1E2EDefaultRef1788860066803_1" : 1,
-      "n:Expr_1E2EDefaultRef1788946504627_1" : 1,
       "n:Expr_2DeliveryRoutingRulingE2ESynthetic_1" : 2,
       "n:Expr_2DeliveryRoutingRulingE2ESynthetic_2" : 2,
       "n:Expr_2DeliveryRoutingRulingE2ESynthetic_3" : 2,
       "n:Expr_2DeliveryRoutingRulingE2ESynthetic_4" : 2,
-      "n:Expr_2DeliveryRoutingRulingE2ESynthetic_5" : 1
+      "n:Expr_2DeliveryRoutingRulingE2ESynthetic_5" : 1,
+      "n:Expr_3DeliveryRoutingRulingE2ESyntheticAttempt2_1" : 1,
+      "n:Expr_3DeliveryRoutingRulingE2ESyntheticAttempt2_2" : 1,
+      "n:Expr_3DeliveryRoutingRulingE2ESyntheticAttempt2_3" : 1,
+      "n:Expr_3DeliveryRoutingRulingE2ESyntheticAttempt2_4" : 1
     },
     "n:DesignTradeoffs" : {
       "n:Expr_2DeliveryRoutingRulingE2ESynthetic_2" : 2,
@@ -49,19 +51,33 @@
     "n:Narrative_ReactionDeliveryBundling" : {
       "n:Expr_2DeliveryRoutingRulingE2ESynthetic_1" : 1,
       "n:Expr_2DeliveryRoutingRulingE2ESynthetic_2" : 2,
-      "n:Expr_2DeliveryRoutingRulingE2ESynthetic_3" : 1,
+      "n:Expr_2DeliveryRoutingRulingE2ESynthetic_3" : 2,
       "n:Expr_2DeliveryRoutingRulingE2ESynthetic_4" : 1,
       "n:Expr_2DeliveryRoutingRulingE2ESynthetic_5" : 1,
+      "n:Expr_3DeliveryRoutingRulingE2ESyntheticAttempt2_1" : 1,
+      "n:Expr_3DeliveryRoutingRulingE2ESyntheticAttempt2_2" : 1,
+      "n:Expr_3DeliveryRoutingRulingE2ESyntheticAttempt2_3" : 1,
+      "n:Expr_3DeliveryRoutingRulingE2ESyntheticAttempt2_4" : 1,
       "n:Position_ReactionDeliveryBundlingAndBatchingBoundary" : 2
+    },
+    "n:Position_ReactionDeliveryBundlingAndBatchingBoundary" : {
+      "n:Expr_2DeliveryRoutingRulingE2ESynthetic_2" : 2,
+      "n:Expr_2DeliveryRoutingRulingE2ESynthetic_3" : 2,
+      "n:Expr_2DeliveryRoutingRulingE2ESynthetic_4" : 1,
+      "n:Expr_2DeliveryRoutingRulingE2ESynthetic_5" : 1,
+      "n:Expr_3DeliveryRoutingRulingE2ESyntheticAttempt2_2" : 1,
+      "n:Expr_3DeliveryRoutingRulingE2ESyntheticAttempt2_3" : 1,
+      "n:Expr_3DeliveryRoutingRulingE2ESyntheticAttempt2_4" : 1
     }
   },
-  "generated_from" : "e243209c0431ecc9aaa3e6c2064a4a3943e79c30",
+  "generated_from" : "185b034849e7d34e4de901fb011c25159c650d14",
   "hubs" : {
     "n:Actor_Tanya_Staging" : 2,
     "n:DesignTradeoffs" : 2,
     "n:Narrative_AntiSlackPositioning" : 1,
     "n:Narrative_DefaultRefTopicBranch" : 2,
-    "n:Narrative_ReactionDeliveryBundling" : 1
+    "n:Narrative_ReactionDeliveryBundling" : 1,
+    "n:Position_ReactionDeliveryBundlingAndBatchingBoundary" : 2
   },
   "params" : {
     "conviction-floor" : 2,
@@ -76,7 +92,7 @@
     "n" : "https://aswritten.ai/narrative#",
     "o" : "https://aswritten.ai/ns/narrative#"
   },
-  "runs_sha" : "b610aa4c2665babb3d286c9da752b5a0880fedf2",
-  "sittings" : 163,
+  "runs_sha" : "974dd481396765a4ca0fd6dcb0ae341274659833",
+  "sittings" : 164,
   "spec" : "fidelity-bands/1"
 }
