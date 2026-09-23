@@ -1,0 +1,86 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-12",
+    "regions" : [ "conservation", "relatedness" ],
+    "evidence" : [ {
+      "quote" : "If my blinders are up enough and I stay focused on the, like, wonderful people right around me, things are great, you know, you just can't stray too far.",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Expresses preservation of stability by deliberately narrowing attention to immediate personal connections.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-78",
+    "regions" : [ "competence", "conservation" ],
+    "evidence" : [ {
+      "quote" : "So you get full provenance of the ideas and you can essentially tell whether an AI is hallucinated or not by whether or not it cited someone that actually said it.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Appeals to evidentiary rigor, verification, and provenance integrity as core functional standards.",
+    "reported" : false,
+    "direction" : {
+      "verdict" : "mint",
+      "node" : "mint-1"
+    }
+  }, {
+    "segment_local_id" : "src-84",
+    "regions" : [ "autonomy", "conservation" ],
+    "evidence" : [ {
+      "quote" : "lives in your GitHub repo. So I don't store any data",
+      "kind" : "lexical-marker"
+    }, {
+      "quote" : "completely enterprise safe",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Elevates customer control/ownership of data and strict operational security as explicit goods.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-109",
+    "regions" : [ "self-enhancement", "conservation" ],
+    "evidence" : [ {
+      "quote" : "The telephone company always wins because the telephone company sits in between. And it's impossible to disintermediate because they sit in between.",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Frames strategic winning and market survival through unassailable positioning and durable lock-in.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-119",
+    "regions" : [ "self-enhancement" ],
+    "evidence" : [ {
+      "quote" : "how do you build something that is non commodifiable?",
+      "kind" : "lexical-marker"
+    }, {
+      "quote" : "You like literally they can't rip you out without breaking it for somebody else.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Focuses on achieving defensibility, structural indispensable standing, and market insulation.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-145",
+    "regions" : [ "autonomy", "openness-to-change" ],
+    "evidence" : [ {
+      "quote" : "YC is high value, low cost. Execute across the optionality because you've got like, you got the, you know, you got some degree of traction. You like have a thing. You can always pivot in YC",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Values maintaining self-directed optionality and room for exploratory maneuvering under low execution cost.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-191",
+    "regions" : [ "self-enhancement" ],
+    "evidence" : [ {
+      "quote" : "you are not raising. You're not trying to get someone to give you a check. You are creating a marketplace for as written.",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Frames interaction as an assertion of high market power, standing, and leverage rather than supplicancy.",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-1", "src-2", "src-3", "src-4", "src-5", "src-6", "src-7", "src-8", "src-9", "src-10", "src-11", "src-13", "src-14", "src-15", "src-16", "src-17", "src-18", "src-19", "src-20" ],
+  "unmarked_rest" : true,
+  "mints" : [ {
+    "id" : "mint-1",
+    "name" : "VerifiableProvenanceIntegrity",
+    "title" : "full provenance of the ideas",
+    "frame" : "Does the utterance treat traceable attribution and verifiable origin as an essential standard of craft or truth?",
+    "regions" : [ "competence", "conservation" ]
+  } ],
+  "region_mints" : [ ]
+}
