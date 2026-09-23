@@ -1,0 +1,167 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-2",
+    "regions" : [ "past", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "last week we settled the cutover shape.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Focuses on the concrete decision event that occurred last week.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-3",
+    "regions" : [ "future", "irrealis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "before it hardens.",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Looks forward to the upcoming hardening of the specific plan before it happens.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-6",
+    "regions" : [ "abstract", "present" ],
+    "evidence" : [ {
+      "quote" : "One site at a time.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Defines the core architectural/procedural principle.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-7",
+    "regions" : [ "future", "irrealis", "abstract" ],
+    "evidence" : [ {
+      "quote" : "only when the soak is clean do we start the next.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Specifies conditional, future operational rules across iterations.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-9",
+    "regions" : [ "present", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "That's the only shape that works",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Presents a factual assertion about feasibility from the current operational standpoint.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-11",
+    "regions" : [ "present", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "I have eleven supervisors across the whole region.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Grounds the argument in concrete, current staffing arithmetic.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-12",
+    "regions" : [ "present", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "it's that the people don't exist.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Anchored in present realis constraints regarding staff availability.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-13",
+    "regions" : [ "past", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "what I was arguing last week.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Refers back to concrete debate points raised in the previous week's discussion.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-14",
+    "regions" : [ "present", "realis", "abstract" ],
+    "evidence" : [ {
+      "quote" : "I'm telling you it's arithmetic.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Elevates the staffing constraint to an abstract logical rule (arithmetic).",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-15",
+    "regions" : [ "past", "realis", "abstract" ],
+    "evidence" : [ {
+      "quote" : "The one I gave was about data drift",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Contrasts abstract lines of argument previously submitted by team members.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-17",
+    "regions" : [ "future", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "I'll lead with yours on Thursday.",
+      "kind" : "commitment-marker"
+    } ],
+    "why" : "Commits to a specific concrete action at a scheduled future time.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-18",
+    "regions" : [ "past", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "The Dockside crew were visibly better on night two than night one",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Cites a concrete past instance of the Dockside cutover execution.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-19",
+    "regions" : [ "abstract", "present" ],
+    "evidence" : [ {
+      "quote" : "Learning curve across sites rather than four teams all making the same mistake in parallel.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Articulates an abstract general dynamic of organizational learning.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-21",
+    "regions" : [ "future", "irrealis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "even if the staffing eased?",
+      "kind" : "modal-marker"
+    } ],
+    "why" : "Poses a hypothetical, counterfactual future scenario.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-22",
+    "regions" : [ "future", "irrealis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "If you gave me twenty supervisors tomorrow",
+      "kind" : "modal-marker"
+    } ],
+    "why" : "Evaluates a hypothetical future condition.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-25",
+    "regions" : [ "present", "realis", "abstract" ],
+    "evidence" : [ {
+      "quote" : "The replica rule and the reference-data rule both assume one cutover window open at a time",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Explains the underlying architectural assumptions in current rules.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-28",
+    "regions" : [ "future", "irrealis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "If the soak gets eaten, my supervisors are back on the floor",
+      "kind" : "modal-marker"
+    } ],
+    "why" : "Outlines a conditional future operational risk.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-29",
+    "regions" : [ "future", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "I'll hold it.",
+      "kind" : "commitment-marker"
+    } ],
+    "why" : "Commits to an actual stance and rule to be upheld in the future.",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-1", "src-4", "src-5", "src-8", "src-10", "src-16", "src-20", "src-23", "src-24", "src-26", "src-27", "src-30", "src-31" ],
+  "unmarked_rest" : false
+}
