@@ -1,0 +1,80 @@
+{
+  "resolutions" : [ {
+    "commentary_local_id" : "src-2",
+    "phrase" : "first: March 23, 2026, where he committed to a style-guide \"system that AI can apply, not static comps\"",
+    "verdict" : "confident",
+    "binding" : {
+      "referents" : [ {
+        "iri" : "Sample_1RealFreyaPodcastSalesMotion20260323",
+        "relation" : "see",
+        "why" : "Anchors on the prior March 23, 2026 call with Freya Free recorded in the graph."
+      }, {
+        "iri" : "Actor_FreyaFree",
+        "relation" : "see",
+        "why" : "Names the external actor Freya Free."
+      } ],
+      "targets" : [ "Actor_FreyaFree", "Narrative_InstallableExpertise" ]
+    },
+    "candidates" : null,
+    "why" : "Directly references the March 23, 2026 session with Freya Free in the graph.",
+    "consulted" : [ "Sample_1RealFreyaPodcastSalesMotion20260323", "Actor_FreyaFree", "Narrative_InstallableExpertise" ]
+  }, {
+    "commentary_local_id" : "src-3",
+    "phrase" : "The idea that the consulting deliverable of the AI age is not a deck but an installable perspective is already established in the perspective as a high-conviction (boulder) claim from March 19 — \"instead of a deck, deliver a perspective the whole org can install,\" with the deck as a derived artifact.",
+    "verdict" : "confident",
+    "binding" : {
+      "referents" : [ {
+        "iri" : "Position_InstallableExpertiseCategoryMoat",
+        "relation" : "see",
+        "why" : "References the existing position on deliverable shift from static decks to installable expertise."
+      }, {
+        "iri" : "Narrative_InstallableExpertise",
+        "relation" : "see",
+        "why" : "Anchors on the root narrative defining installable expertise as actionable, citable capability."
+      } ],
+      "targets" : [ "Position_InstallableExpertiseCategoryMoat", "Narrative_InstallableExpertise" ]
+    },
+    "candidates" : null,
+    "why" : "Points unambiguously to the established foundational category moat position regarding deck-to-perspective deliverable transition.",
+    "consulted" : [ "Position_InstallableExpertiseCategoryMoat", "Narrative_InstallableExpertise", "Expr_1RealFreyaPodcastSalesMotion20260323_28" ]
+  }, {
+    "commentary_local_id" : "src-4",
+    "phrase" : "independent validation of that thesis from a working designer who arrived at it through his own practice",
+    "verdict" : "confident",
+    "binding" : {
+      "referents" : [ {
+        "iri" : "Position_InstallableExpertiseCategoryMoat",
+        "relation" : "extends",
+        "why" : "Extends the deliverable and category moat thesis with external validation from design token workflows."
+      }, {
+        "iri" : "Narrative_InstallableExpertise",
+        "relation" : "extends",
+        "why" : "Adds the design-token ↔ perspective parallel to the narrative digest."
+      } ],
+      "targets" : [ "Position_InstallableExpertiseCategoryMoat", "Narrative_InstallableExpertise" ]
+    },
+    "candidates" : null,
+    "why" : "Engages and extends the installable expertise category thesis with independent design-token practice evidence.",
+    "consulted" : [ "Position_InstallableExpertiseCategoryMoat", "Narrative_InstallableExpertise" ]
+  }, {
+    "commentary_local_id" : "src-20",
+    "phrase" : "the same claim aswritten makes about perspective",
+    "verdict" : "confident",
+    "binding" : {
+      "referents" : [ {
+        "iri" : "Position_InstallableExpertiseCategoryMoat",
+        "relation" : "extends",
+        "why" : "Corroborates the technical moat and perspective deliverable claim with external convergent validation."
+      }, {
+        "iri" : "Narrative_InstallableExpertise",
+        "relation" : "extends",
+        "why" : "Extends the core installable expertise narrative with brand-as-AI-identity and consulting deck-replacement framing."
+      } ],
+      "targets" : [ "Position_InstallableExpertiseCategoryMoat", "Narrative_InstallableExpertise" ]
+    },
+    "candidates" : null,
+    "why" : "Binds convergent external validation directly to the core perspective and category moat position.",
+    "consulted" : [ "Position_InstallableExpertiseCategoryMoat", "Narrative_InstallableExpertise" ]
+  } ],
+  "unreferenced_commentary" : [ "src-1", "src-5", "src-7", "src-9", "src-12", "src-14", "src-16", "src-18" ]
+}
