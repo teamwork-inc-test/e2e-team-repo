@@ -1,0 +1,51 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-2",
+    "regions" : [ "market-pricing" ],
+    "evidence" : [ {
+      "quote" : "One of the things I've been thinking a lot about is the pricing and whether all of that is too low",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Enacts market-pricing by framing the focus on price level, monetary valuation, and fundraising exchange.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-13",
+    "regions" : [ "market-pricing" ],
+    "evidence" : [ {
+      "quote" : "the intrinsic cost of switching would be too high",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Invokes cost-benefit proportionality and switching costs to describe relational lock-in.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-16",
+    "regions" : [ "equality-matching" ],
+    "evidence" : [ {
+      "quote" : "I want to have as written because you have as written and that makes my as written more valuable because you have it.",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Frames network value through symmetric, peer-to-peer reciprocity and mutual matching.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-28",
+    "regions" : [ "authority-ranking" ],
+    "evidence" : [ {
+      "quote" : "know the strategic environment you are operating in",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Enacts an advisory hierarchy by issuing a direct strategic command/instruction.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-30",
+    "regions" : [ "authority-ranking" ],
+    "evidence" : [ {
+      "quote" : "Just stop and go sell it.",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Enacts directive guidance via direct imperative command in the advisor-founder dynamic.",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-1", "src-3", "src-4", "src-5", "src-6", "src-7", "src-8", "src-9", "src-10", "src-11", "src-12", "src-14", "src-15", "src-17", "src-18", "src-19", "src-20", "src-21", "src-22", "src-23", "src-24", "src-25", "src-26", "src-27", "src-29" ],
+  "mints" : [ ],
+  "region_mints" : [ ]
+}
