@@ -1,0 +1,106 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-2",
+    "regions" : [ "legitimate" ],
+    "evidence" : [ {
+      "quote" : "Go ahead.",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Chairing/procedural authorization granting the floor.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-4",
+    "regions" : [ "legitimate" ],
+    "evidence" : [ {
+      "quote" : "Right. Tell me why.",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Directing the speaker to present justification per role authority.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-5",
+    "regions" : [ "informational", "rational-persuasion" ],
+    "evidence" : [ {
+      "quote" : "The reason the queue took nine days to flatten at Dockside is that the old reconciliation job ran weekly and every run threw a fresh batch of exceptions.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Supplying root-cause log data and logical deduction to dismantle prior guidance.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-7",
+    "regions" : [ "informational", "rational-persuasion" ],
+    "evidence" : [ {
+      "quote" : "Nothing in the new platform runs on a weekly cycle — reconciliation is continuous now.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Explaining the architectural reality to logically justify dropping the obsolete metric.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-9",
+    "regions" : [ "rational-persuasion" ],
+    "evidence" : [ {
+      "quote" : "Strip the reconciliation cycles out of the Dockside curve and the underlying exception rate is flat by day four.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Constructing the calculation and evidence base for the new proposed timeline.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-10",
+    "regions" : [ "legitimate" ],
+    "evidence" : [ {
+      "quote" : "We are still going one site at a time, and we are still soaking between sites before the next one starts.",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Setting the boundaries and invariant scope of the operational plan by managerial authority.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-13",
+    "regions" : [ "expert" ],
+    "evidence" : [ {
+      "quote" : "One week is defensible but it has no slack in it.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Providing domain assessment of operational risk and lack of margin.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-15",
+    "regions" : [ "expert" ],
+    "evidence" : [ {
+      "quote" : "I just want it on the record that the new number is tight, not safe.",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Entering formal technical qualification/dissent onto the record based on professional risk judgment.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-18",
+    "regions" : [ "legitimate" ],
+    "evidence" : [ {
+      "quote" : "Which I will not be spending. That goes into the Clyde buffer.",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Exercising sole decision-making authority over buffer reallocation.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-20",
+    "regions" : [ "legitimate" ],
+    "evidence" : [ {
+      "quote" : "For the record then: the soak between sites is one week, not two, and my note from the eighth about two weeks should be read as superseded by this.",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Formally ratifying the change of plan and superseding prior guidance for the governance record.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-21",
+    "regions" : [ "legitimate", "consultation" ],
+    "evidence" : [ {
+      "quote" : "Tina, can you put the Dockside re-analysis somewhere the steering group can see it?",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Tasking team member with upstream stakeholder documentation.",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-1", "src-3", "src-6", "src-8", "src-11", "src-12", "src-14", "src-16", "src-17", "src-19", "src-22", "src-23", "src-24" ],
+  "unmarked_rest" : false,
+  "mints" : [ ],
+  "region_mints" : [ ]
+}
