@@ -1,0 +1,50 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "legitimate" ],
+    "evidence" : [ {
+      "quote" : "team owner",
+      "kind" : "framing-move"
+    }, {
+      "quote" : "ruled",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Authority is exercised directly from role title and formal ruling power.",
+    "reported" : false,
+    "direction" : {
+      "verdict" : "mint",
+      "node" : "mint-1"
+    }
+  }, {
+    "segment_local_id" : "src-2",
+    "regions" : [ "legitimate", "rational-persuasion" ],
+    "evidence" : [ {
+      "quote" : "we route every reaction",
+      "kind" : "performed-act"
+    }, {
+      "quote" : "a person should get one thing to read, not four",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Issues a binding operational directive backed by user-experience logic.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-3",
+    "regions" : [ "legitimate" ],
+    "evidence" : [ {
+      "quote" : "Tanya held",
+      "kind" : "plain-signal"
+    } ],
+    "why" : "Maintains authority against pushback to enforce the batching boundary.",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-4" ],
+  "unmarked_rest" : false,
+  "mints" : [ {
+    "id" : "mint-1",
+    "name" : "OwnerRoleRuling",
+    "title" : "ruled as team owner",
+    "frame" : "Does the speaker invoke their explicit ownership title to settle an architectural or process dispute?",
+    "regions" : [ "legitimate" ]
+  } ],
+  "region_mints" : [ ]
+}
