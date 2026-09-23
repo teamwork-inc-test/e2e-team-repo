@@ -1,0 +1,24 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-2",
+    "regions" : [ "self-transcendence" ],
+    "evidence" : [ {
+      "quote" : "a person should get one thing to read, not four",
+      "kind" : "modal-marker"
+    } ],
+    "why" : "Appeals to minimizing cognitive burden on the reader as the normative good.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-5",
+    "regions" : [ "self-transcendence" ],
+    "evidence" : [ {
+      "quote" : "which moves the ordering problem onto the\nreader.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Rejects an architectural alternative explicitly to spare the recipient from bearing the burden.",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-1", "src-3", "src-4" ],
+  "mints" : [ ],
+  "region_mints" : [ ]
+}
