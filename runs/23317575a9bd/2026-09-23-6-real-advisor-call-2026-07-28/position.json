@@ -1,0 +1,38 @@
+{
+  "positions" : [ {
+    "name" : "SoloOperatorB2CPositioning",
+    "frame" : "How should go-to-market positioning balance individual solo operators against top-tier enterprise deployments?",
+    "members" : [ "src-3", "src-4", "src-5", "src-8", "src-9" ],
+    "why" : "Tina argues for treating solo builders operating with multiple AI tools as their own complete teams, which Tanya adopts as a shift toward a direct B2C bottom tier beneath an enterprise tier.",
+    "under" : [ "Narrative_BehavioralProgressionPackaging" ]
+  }, {
+    "name" : "TargetCustomerKnowledgeProfile",
+    "frame" : "How should target customer qualification distinguish non-tech knowledge organizations from developer teams with bespoke tooling?",
+    "members" : [ "src-6", "src-7", "src-10" ],
+    "why" : "Xavier advises targeting organizations that operate on knowledge without identifying as tech companies, noting alongside Tanya that technical builders resist adoption because they build their own fragmented solutions.",
+    "under" : [ "Narrative_InstallableExpertise" ]
+  } ],
+  "attaches" : [ {
+    "position" : "Position_TelephoneCompanyNetworkMoat",
+    "members" : [ "src-12", "src-13", "src-14", "src-15", "src-16" ],
+    "why" : "Xavier and Tanya explore whether defensibility stems from proprietary graph manipulation over customer data or cross-organizational network positioning where counterparties both use the product."
+  }, {
+    "position" : "Position_DesignTokenPerspectiveParallel",
+    "members" : [ "src-17" ],
+    "why" : "Freya articulates how applying an expert's personal lens is the irreducible unique component that prevents AI output from breaking."
+  }, {
+    "position" : "Position_InstallableExpertiseCategoryMoat",
+    "members" : [ "src-18", "src-26" ],
+    "why" : "Tanya reaffirms the core technical differentiator of extracting citable perspective from textual documents and notes delivering perspectives as deck alternatives remains the strategic future."
+  }, {
+    "position" : "Position_InterviewFlywheelSalesMotion",
+    "members" : [ "src-24" ],
+    "why" : "Tanya describes building marketplace inventory by interviewing experts on a podcast and converting each conversation into an installable perspective."
+  }, {
+    "position" : "Position_HumanMomentDemoVideo",
+    "members" : [ "src-25" ],
+    "why" : "Freya states the core sales dynamic that human emotional moments drive conversion over textual proof."
+  } ],
+  "position_revisions" : [ ],
+  "ungrouped" : [ "src-1", "src-2", "src-11", "src-19", "src-20", "src-21", "src-22", "src-23", "src-27", "src-28", "src-29", "src-30" ]
+}
