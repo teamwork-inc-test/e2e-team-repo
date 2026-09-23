@@ -1,0 +1,255 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-2",
+    "regions" : [ "notion" ],
+    "evidence" : [ {
+      "quote" : "thinking a lot about is the pricing and whether all of that is too low or sort of how the positioning is here",
+      "kind" : "hedge"
+    } ],
+    "why" : "Speaker frames pricing and positioning exploration with hedges ('whether', 'sort of') as an open exploration.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-3",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "I think that's the angle.",
+      "kind" : "epistemic-verb"
+    } ],
+    "why" : "Clear first-person assertion advancing a specific angle while open to discussion.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-4",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "The numbers really work.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Asserted as an active argument in discussion.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-5",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "Maybe that is the more direct distillation of the shift I'm having is just realizing that it's actually more of a B2C product than a B2B product.",
+      "kind" : "hedge"
+    } ],
+    "why" : "Hedging ('Maybe') surrounds an emerging committed realization, keeping it at claim level.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-6",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "Trying to go after tech companies is going to be hard because tech companies all think they've solved the problem.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "A flat unhedged operational assertion defended by an explanatory rationale.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-7",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "The problem with most developers and entrepreneurs is they've already rolled their own bullshit.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Strong assertive agreement framing a general truth about developers.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-8",
+    "regions" : [ "notion" ],
+    "evidence" : [ {
+      "quote" : "I'm worried what's going to break or cross over.",
+      "kind" : "epistemic-verb"
+    } ],
+    "why" : "Expressing exploratory unease and concern without settling on a definite proposition.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-9",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "The more involved people are, the more they need separation from their own chaos.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Asserted general rule offered to frame the user need.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-10",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "Find a company that's actually a knowledge company that doesn't think of themselves as a knowledge company.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Directive delivering strategic advice based on an assertive premise.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-12",
+    "regions" : [ "principle" ],
+    "evidence" : [ {
+      "quote" : "One of my operating theses is the telephone company always wins.",
+      "kind" : "commitment-marker"
+    }, {
+      "quote" : "always",
+      "kind" : "intensifier"
+    } ],
+    "why" : "Explicitly labelled as an 'operating thesis' with universal permanence ('always wins').",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-13",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "the intrinsic cost of switching would be too high to a new thing.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Conditional reasoning offered as an assertive defense of incumbent moats.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-14",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "the graph itself is the moat, right?",
+      "kind" : "plain-assertion"
+    }, {
+      "quote" : "the read and manipulation layer is proprietary.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Presents an architectural and competitive thesis ready to be defended.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-15",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "I think that's true and I'm not disagreeing with that. I just think that like, like the, the core problem is like someone comes along and builds a better version of that, right?",
+      "kind" : "epistemic-verb"
+    } ],
+    "why" : "Epistemic stance challenging an assumption while acknowledging common ground.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-16",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "that makes my as written more valuable because you have it.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Asserts a network-effects hypothesis.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-17",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "it is the lens that controls all of that.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Asserts a core product value thesis arrived at through analytical deduction.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-18",
+    "regions" : [ "principle" ],
+    "evidence" : [ {
+      "quote" : "The real differentiator and the technical moat is that I take textual documents and I extract perspective from them and then I make that perspective citable in the individual task.",
+      "kind" : "commitment-marker"
+    } ],
+    "why" : "Core bedrock definition of product identity and technical differentiation.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-19",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "90% of what I see people chasing though is structure for context and memory.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Observation-based market assertion.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-20",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "You're educating them on how it works and the benefits — not the use case.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Direct advice asserting the educational sales posture required.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-21",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "It's about the shape of the deployment and the needs of the organization.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Definitional positioning assertion distinguishing deployment shape from enterprise label.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-23",
+    "regions" : [ "notion" ],
+    "evidence" : [ {
+      "quote" : "I have an idea of when I have the time, I will invest and build the perspective.",
+      "kind" : "hedge"
+    } ],
+    "why" : "Hedging intent behind future availability ('when I have the time').",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-24",
+    "regions" : [ "notion" ],
+    "evidence" : [ {
+      "quote" : "I could build out the marketplace by basically creating a podcast",
+      "kind" : "modal-marker"
+    } ],
+    "why" : "Floats a potential GTM tactic ('I could build') in an exploratory manner.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-25",
+    "regions" : [ "principle" ],
+    "evidence" : [ {
+      "quote" : "The human moment sells, not the text.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Formulated as an absolute, foundational aphorism/creed.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-26",
+    "regions" : [ "notion" ],
+    "evidence" : [ {
+      "quote" : "that does seem like the future to me.",
+      "kind" : "hedge"
+    } ],
+    "why" : "Hedged reflection ('does seem like') on an unproven offering.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-27",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "I think you've got a sticky product.",
+      "kind" : "epistemic-verb"
+    } ],
+    "why" : "Belief asserted about product stickiness contingent on early distribution.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-28",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "Short term, like this, this thing can win and I think you should win.",
+      "kind" : "epistemic-verb"
+    } ],
+    "why" : "Advice asserting short-term viability against future strategic shifts.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-29",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "I gotta pull my head out of the development.",
+      "kind" : "commitment-marker"
+    } ],
+    "why" : "A commissive self-commitment to shift focus from development to selling.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-30",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "Just stop and go sell it.",
+      "kind" : "commitment-marker"
+    } ],
+    "why" : "Definitive ratification directive mandating immediate operational action.",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-1", "src-11", "src-22" ],
+  "unmarked_rest" : false,
+  "mints" : [ ]
+}
