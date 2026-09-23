@@ -1,0 +1,42 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-9",
+    "regions" : [ "rational-persuasion", "expert" ],
+    "evidence" : [ {
+      "quote" : "Text message, in certain contexts, is absolutely the right move. But in a lot of skeptical or lower-trust contexts, texting is so associated with spam now that requiring someone to text might actually be a real downside.",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Tess uses logical reasoning and user-context knowledge to push back on channel assumptions.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-18",
+    "regions" : [ "consultation" ],
+    "evidence" : [ {
+      "quote" : "Can you just give me a chat widget on a web form?",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Tess directly requests an alternative solution via a question shaping the product decision.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-44",
+    "regions" : [ "legitimate" ],
+    "evidence" : [ {
+      "quote" : "She's on Individual because she's my fiancé and beta tester, not a sales target",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Tanya defines commercial status and tier placement by owner prerogative and relational arrangement.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-60",
+    "regions" : [ "expert" ],
+    "evidence" : [ {
+      "quote" : "I feel like it's really like, visit this link, install it, come back and say done.",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Tess prescribes specific instructional language based on user experience friction.",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-1", "src-2", "src-3", "src-4", "src-5", "src-6", "src-7", "src-8", "src-10", "src-11", "src-12", "src-13", "src-14", "src-15", "src-16", "src-17", "src-19", "src-20", "src-21", "src-22", "src-23", "src-24", "src-25", "src-26", "src-27", "src-28", "src-29", "src-30", "src-31", "src-32", "src-33", "src-34", "src-35", "src-36", "src-37", "src-38", "src-39", "src-40", "src-41", "src-42", "src-43", "src-45", "src-46", "src-47", "src-48", "src-49", "src-50", "src-51", "src-52", "src-53", "src-54", "src-55", "src-56", "src-57", "src-58", "src-59", "src-61", "src-62", "src-63", "src-64", "src-65", "src-66", "src-67", "src-68", "src-69", "src-70", "src-71", "src-72", "src-73", "src-74", "src-75", "src-76", "src-77", "src-78" ],
+  "mints" : [ ],
+  "region_mints" : [ ]
+}
