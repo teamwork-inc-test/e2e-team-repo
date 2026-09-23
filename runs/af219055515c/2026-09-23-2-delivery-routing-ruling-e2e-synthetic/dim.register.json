@@ -1,0 +1,25 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-2",
+    "regions" : [ "plain-spoken" ],
+    "evidence" : [ {
+      "quote" : "a person should get one thing to read, not four",
+      "kind" : "plain-signal"
+    } ],
+    "why" : "Reduces technical routing logic to a grounded, simple reader-experience principle.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-5",
+    "regions" : [ "technical" ],
+    "evidence" : [ {
+      "quote" : "client-side collapsing",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Employs domain-specific architecture terminology to describe the rejected alternative.",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-1", "src-3", "src-4" ],
+  "unmarked_rest" : false,
+  "mints" : [ ],
+  "region_mints" : [ ]
+}
