@@ -1,0 +1,11 @@
+{
+  "placements" : [ {
+    "verdict" : "reuse",
+    "leaf" : "Narrative_ContainedPainOverUnboundedRisk",
+    "supporting_segments" : [ "src-3", "src-5", "src-7", "src-9", "src-10", "src-11", "src-12", "src-13", "src-14", "src-15", "src-17", "src-18", "src-20" ],
+    "why" : "Tina revises the soak duration between sequential cutovers from two weeks to one week after re-analyzing Dockside exception logs and finding the previous delay was driven by a retired weekly batch reconciliation job rather than site settling time; Xavier marks the revised soak as tight rather than safe, and Tanya formally ratifies the one-week duration to supersede previous notes while holding invariant one-at-a-time sequencing and allocating the saved three weeks to the Clyde risk buffer.",
+    "consulted" : [ "Narrative_ContainedPainOverUnboundedRisk", "Narrative_StrictWorkloadIsolationDuringCutover", "Narrative_SingleSourceOfTruthUntilFinalCutover" ],
+    "adopted_positions" : [ "Position_PostGoLiveSoakDurationBasis", "Position_SiteCutoverSequencingStrategy" ]
+  } ],
+  "unplaced" : [ "src-1", "src-2", "src-4", "src-6", "src-8", "src-16", "src-19", "src-21", "src-22", "src-23", "src-24" ]
+}
