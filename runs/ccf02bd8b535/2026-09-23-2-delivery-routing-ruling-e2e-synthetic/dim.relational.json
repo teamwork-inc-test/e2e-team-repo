@@ -1,0 +1,37 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "authority-ranking" ],
+    "evidence" : [ {
+      "quote" : "ruled on",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Enacts/reports formal authoritative governance ruling by the team owner.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-2",
+    "regions" : [ "authority-ranking" ],
+    "evidence" : [ {
+      "quote" : "we route every reaction",
+      "kind" : "plain-assertion"
+    }, {
+      "quote" : "Tanya (team owner) ruled on where reaction delivery belongs:",
+      "kind" : "delivery"
+    } ],
+    "why" : "Sets architectural rules and requirements under team owner authority mandate.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-3",
+    "regions" : [ "authority-ranking" ],
+    "evidence" : [ {
+      "quote" : "Tina pushed back on the batching window and Tanya held",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Reports hierarchical firmness against pushback, maintaining the owner's decision.",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-4" ],
+  "unmarked_rest" : false,
+  "mints" : [ ],
+  "region_mints" : [ ]
+}
