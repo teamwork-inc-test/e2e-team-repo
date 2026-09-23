@@ -1,0 +1,227 @@
+{
+  "reconciliations" : [ {
+    "segment_ids" : [ "src-64" ],
+    "note" : "The above-the-line abstraction work is motivated in part by exactly this cognitive cost.",
+    "targets" : [ "Position_LaunchBoundaryAprilFirst" ],
+    "referents" : [ {
+      "ref" : "Expr_1RealFreyaPodcastSalesMotion20260323_42",
+      "relation" : "extends"
+    }, {
+      "ref" : "Position_LaunchBoundaryAprilFirst",
+      "relation" : "extends"
+    } ],
+    "principal" : "Tanya TeamOwner"
+  } ],
+  "standalone" : [ {
+    "segment_id" : "src-1",
+    "why" : "Unreferenced fresh commentary."
+  }, {
+    "segment_id" : "src-2",
+    "why" : "Unreferenced fresh commentary."
+  }, {
+    "segment_id" : "src-3",
+    "why" : "Unreferenced fresh commentary."
+  }, {
+    "segment_id" : "src-4",
+    "why" : "Unreferenced fresh commentary."
+  }, {
+    "segment_id" : "src-5",
+    "why" : "Unreferenced fresh commentary."
+  }, {
+    "segment_id" : "src-6",
+    "why" : "Unreferenced fresh commentary."
+  }, {
+    "segment_id" : "src-7",
+    "why" : "Unreferenced fresh commentary."
+  }, {
+    "segment_id" : "src-8",
+    "why" : "Unreferenced fresh commentary."
+  }, {
+    "segment_id" : "src-10",
+    "why" : "Unreferenced fresh commentary."
+  }, {
+    "segment_id" : "src-11",
+    "why" : "Unreferenced fresh commentary."
+  }, {
+    "segment_id" : "src-12",
+    "why" : "Verdict new (no prior node in perspective)."
+  }, {
+    "segment_id" : "src-13",
+    "why" : "Unreferenced fresh commentary."
+  }, {
+    "segment_id" : "src-14",
+    "why" : "Unreferenced fresh commentary."
+  }, {
+    "segment_id" : "src-15",
+    "why" : "Unreferenced fresh commentary."
+  }, {
+    "segment_id" : "src-16",
+    "why" : "Unreferenced fresh commentary."
+  }, {
+    "segment_id" : "src-17",
+    "why" : "Unreferenced fresh commentary."
+  }, {
+    "segment_id" : "src-19",
+    "why" : "Unreferenced fresh commentary."
+  }, {
+    "segment_id" : "src-20",
+    "why" : "Unreferenced fresh commentary."
+  }, {
+    "segment_id" : "src-21",
+    "why" : "Unreferenced fresh commentary."
+  }, {
+    "segment_id" : "src-22",
+    "why" : "Unreferenced fresh commentary."
+  }, {
+    "segment_id" : "src-23",
+    "why" : "Unreferenced fresh commentary."
+  }, {
+    "segment_id" : "src-24",
+    "why" : "Unreferenced fresh commentary."
+  }, {
+    "segment_id" : "src-25",
+    "why" : "Unreferenced fresh commentary."
+  }, {
+    "segment_id" : "src-26",
+    "why" : "Unreferenced fresh commentary."
+  }, {
+    "segment_id" : "src-27",
+    "why" : "Verdict new (no prior node in perspective)."
+  }, {
+    "segment_id" : "src-28",
+    "why" : "Unreferenced fresh commentary."
+  }, {
+    "segment_id" : "src-29",
+    "why" : "Unreferenced fresh commentary."
+  }, {
+    "segment_id" : "src-30",
+    "why" : "Unreferenced fresh commentary."
+  }, {
+    "segment_id" : "src-31",
+    "why" : "Unreferenced fresh commentary."
+  }, {
+    "segment_id" : "src-32",
+    "why" : "Unreferenced fresh commentary."
+  }, {
+    "segment_id" : "src-33",
+    "why" : "Unreferenced fresh commentary."
+  }, {
+    "segment_id" : "src-34",
+    "why" : "Verdict new (no prior node in perspective)."
+  }, {
+    "segment_id" : "src-35",
+    "why" : "Unreferenced fresh commentary."
+  }, {
+    "segment_id" : "src-36",
+    "why" : "Verdict new (no prior node in perspective)."
+  }, {
+    "segment_id" : "src-37",
+    "why" : "Verdict new (no prior node in perspective)."
+  }, {
+    "segment_id" : "src-38",
+    "why" : "Unreferenced fresh commentary."
+  }, {
+    "segment_id" : "src-39",
+    "why" : "Unreferenced fresh commentary."
+  }, {
+    "segment_id" : "src-40",
+    "why" : "Unreferenced fresh commentary."
+  }, {
+    "segment_id" : "src-41",
+    "why" : "Unreferenced fresh commentary."
+  }, {
+    "segment_id" : "src-42",
+    "why" : "Unreferenced fresh commentary."
+  }, {
+    "segment_id" : "src-43",
+    "why" : "Unreferenced fresh commentary."
+  }, {
+    "segment_id" : "src-45",
+    "why" : "Unreferenced fresh commentary."
+  }, {
+    "segment_id" : "src-46",
+    "why" : "Unreferenced fresh commentary."
+  }, {
+    "segment_id" : "src-47",
+    "why" : "Unreferenced fresh commentary."
+  }, {
+    "segment_id" : "src-48",
+    "why" : "Unreferenced fresh commentary."
+  }, {
+    "segment_id" : "src-49",
+    "why" : "Unreferenced fresh commentary."
+  }, {
+    "segment_id" : "src-50",
+    "why" : "Unreferenced fresh commentary."
+  }, {
+    "segment_id" : "src-51",
+    "why" : "Verdict new (no prior node in perspective)."
+  }, {
+    "segment_id" : "src-52",
+    "why" : "Verdict new (no prior node in perspective)."
+  }, {
+    "segment_id" : "src-53",
+    "why" : "Unreferenced fresh commentary."
+  }, {
+    "segment_id" : "src-55",
+    "why" : "Verdict new (no prior node in perspective)."
+  }, {
+    "segment_id" : "src-56",
+    "why" : "Unreferenced fresh commentary."
+  }, {
+    "segment_id" : "src-57",
+    "why" : "Unreferenced fresh commentary."
+  }, {
+    "segment_id" : "src-59",
+    "why" : "Unreferenced fresh commentary."
+  }, {
+    "segment_id" : "src-61",
+    "why" : "Unreferenced fresh commentary."
+  }, {
+    "segment_id" : "src-62",
+    "why" : "Verdict new (no prior node in perspective)."
+  }, {
+    "segment_id" : "src-65",
+    "why" : "Unreferenced fresh commentary."
+  }, {
+    "segment_id" : "src-66",
+    "why" : "Unreferenced fresh commentary."
+  }, {
+    "segment_id" : "src-67",
+    "why" : "Unreferenced fresh commentary."
+  }, {
+    "segment_id" : "src-68",
+    "why" : "Unreferenced fresh commentary."
+  }, {
+    "segment_id" : "src-69",
+    "why" : "Unreferenced fresh commentary."
+  }, {
+    "segment_id" : "src-70",
+    "why" : "Verdict new (no prior node in perspective)."
+  }, {
+    "segment_id" : "src-71",
+    "why" : "Unreferenced fresh commentary."
+  }, {
+    "segment_id" : "src-72",
+    "why" : "Unreferenced fresh commentary."
+  }, {
+    "segment_id" : "src-73",
+    "why" : "Unreferenced fresh commentary."
+  }, {
+    "segment_id" : "src-74",
+    "why" : "Unreferenced fresh commentary."
+  }, {
+    "segment_id" : "src-75",
+    "why" : "Unreferenced fresh commentary."
+  }, {
+    "segment_id" : "src-76",
+    "why" : "Unreferenced fresh commentary."
+  }, {
+    "segment_id" : "src-77",
+    "why" : "Unreferenced fresh commentary."
+  }, {
+    "segment_id" : "src-78",
+    "why" : "Unreferenced fresh commentary."
+  } ],
+  "held" : [ ]
+}
