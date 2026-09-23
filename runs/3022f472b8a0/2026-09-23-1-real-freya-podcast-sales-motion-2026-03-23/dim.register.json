@@ -1,0 +1,61 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-7",
+    "regions" : [ "casual" ],
+    "evidence" : [ {
+      "quote" : "basically creating a podcast",
+      "kind" : "hedge"
+    }, {
+      "quote" : "and they're just available",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Spoken-voice loose syntactic flow and conversational hedging while thinking through a distribution concept.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-14",
+    "regions" : [ "plain-spoken" ],
+    "evidence" : [ {
+      "quote" : "Don't make people read text in a video.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Direct, unhedged design rule stated plainly without technical or decorative hedging.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-24",
+    "regions" : [ "casual", "plain-spoken" ],
+    "evidence" : [ {
+      "quote" : "sort of entirely",
+      "kind" : "hedge"
+    }, {
+      "quote" : "not intelligence is capability",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Conversational thinking-out-loud syntax paired with crisp aphoristic contrast.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-26",
+    "regions" : [ "technical" ],
+    "evidence" : [ {
+      "quote" : "extract perspective from them and then I make that perspective citable in the individual task",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Dense native product and architectural terminology defining technical differentiation.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-34",
+    "regions" : [ "casual" ],
+    "evidence" : [ {
+      "quote" : "You know, I could have some",
+      "kind" : "address-form"
+    }, {
+      "quote" : "Like do your design thinking version",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Informal collaborative ideation marked by spoken conversational markers ('You know', 'Like').",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-1", "src-2", "src-3", "src-4", "src-5", "src-6", "src-8", "src-9", "src-10", "src-11", "src-12", "src-13", "src-15", "src-16", "src-17", "src-18", "src-20", "src-21", "src-22", "src-23", "src-25", "src-27", "src-28", "src-29", "src-30", "src-31", "src-32", "src-33", "src-35", "src-36", "src-37", "src-38", "src-39", "src-40", "src-41", "src-42", "src-43", "src-44", "src-45", "src-46" ],
+  "unmarked_rest" : false,
+  "mints" : [ ],
+  "region_mints" : [ ]
+}
