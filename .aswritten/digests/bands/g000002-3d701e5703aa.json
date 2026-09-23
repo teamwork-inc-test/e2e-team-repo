@@ -1,0 +1,163 @@
+{
+  "children" : {
+    "n:Actor_TanyaTeamowner" : {
+      "n:Expr_1RealFreyaPodcastSalesMotion20260323_24" : 2,
+      "n:Expr_1RealFreyaPodcastSalesMotion20260323_26" : 1,
+      "n:Expr_1RealFreyaPodcastSalesMotion20260323_30" : 1,
+      "n:Expr_1RealFreyaPodcastSalesMotion20260323_32" : 2,
+      "n:Expr_2RealTessChatWidget20260423_44" : 1,
+      "n:Expr_2RealTessChatWidget20260423_54" : 1
+    },
+    "n:Narrative_AntiSlackPositioning" : {
+      "n:Position_AntiPatternRealtimeChat" : 2,
+      "n:Position_PricingTwelveDollars" : 1,
+      "n:Position_ProductCategoryAsyncPlatform" : 1,
+      "n:Position_TargetMarketRemoteTeams" : 1
+    },
+    "n:Narrative_BehavioralProgressionPackaging" : {
+      "n:Expr_1RealFreyaPodcastSalesMotion20260323_10" : 2,
+      "n:Expr_1RealFreyaPodcastSalesMotion20260323_11" : 2,
+      "n:Expr_1RealFreyaPodcastSalesMotion20260323_12" : 1,
+      "n:Expr_1RealFreyaPodcastSalesMotion20260323_9" : 1,
+      "n:Expr_2RealTessChatWidget20260423_34" : 1,
+      "n:Expr_2RealTessChatWidget20260423_39" : 1,
+      "n:Expr_2RealTessChatWidget20260423_40" : 1,
+      "n:Expr_2RealTessChatWidget20260423_41" : 1,
+      "n:Expr_2RealTessChatWidget20260423_44" : 2,
+      "n:Expr_2RealTessChatWidget20260423_45" : 1,
+      "n:Expr_2RealTessChatWidget20260423_46" : 1,
+      "n:Expr_2RealTessChatWidget20260423_47" : 1,
+      "n:Expr_2RealTessChatWidget20260423_54" : 2,
+      "n:Position_ArchetypeRelationalDisambiguation" : 2
+    },
+    "n:Narrative_HumanMomentVideoProof" : {
+      "n:Expr_1RealFreyaPodcastSalesMotion20260323_14" : 2,
+      "n:Expr_1RealFreyaPodcastSalesMotion20260323_15" : 2,
+      "n:Expr_1RealFreyaPodcastSalesMotion20260323_16" : 1,
+      "n:Expr_1RealFreyaPodcastSalesMotion20260323_17" : 1,
+      "n:Expr_1RealFreyaPodcastSalesMotion20260323_18" : 1,
+      "n:Expr_1RealFreyaPodcastSalesMotion20260323_20" : 1
+    },
+    "n:Narrative_InstallableExpertise" : {
+      "n:Expr_1RealFreyaPodcastSalesMotion20260323_24" : 2,
+      "n:Expr_1RealFreyaPodcastSalesMotion20260323_26" : 2,
+      "n:Expr_1RealFreyaPodcastSalesMotion20260323_28" : 1,
+      "n:Expr_1RealFreyaPodcastSalesMotion20260323_30" : 1,
+      "n:Expr_1RealFreyaPodcastSalesMotion20260323_32" : 2,
+      "n:Expr_2RealTessChatWidget20260423_35" : 1,
+      "n:Expr_2RealTessChatWidget20260423_36" : 1,
+      "n:Expr_2RealTessChatWidget20260423_37" : 1,
+      "n:Expr_2RealTessChatWidget20260423_38" : 1,
+      "n:Expr_2RealTessChatWidget20260423_63" : 1,
+      "n:Position_OnboardingToolPromptGuidance" : 2
+    },
+    "n:Narrative_InterviewFlywheel" : {
+      "n:Expr_1RealFreyaPodcastSalesMotion20260323_3" : 2,
+      "n:Expr_1RealFreyaPodcastSalesMotion20260323_34" : 2,
+      "n:Expr_1RealFreyaPodcastSalesMotion20260323_37" : 1,
+      "n:Expr_1RealFreyaPodcastSalesMotion20260323_38" : 1,
+      "n:Expr_1RealFreyaPodcastSalesMotion20260323_4" : 1,
+      "n:Expr_1RealFreyaPodcastSalesMotion20260323_41" : 1,
+      "n:Expr_1RealFreyaPodcastSalesMotion20260323_44" : 1,
+      "n:Expr_1RealFreyaPodcastSalesMotion20260323_45" : 1,
+      "n:Expr_1RealFreyaPodcastSalesMotion20260323_5" : 1,
+      "n:Expr_1RealFreyaPodcastSalesMotion20260323_7" : 1,
+      "n:Expr_2RealTessChatWidget20260423_10" : 1,
+      "n:Expr_2RealTessChatWidget20260423_11" : 1,
+      "n:Expr_2RealTessChatWidget20260423_12" : 1,
+      "n:Expr_2RealTessChatWidget20260423_13" : 1,
+      "n:Expr_2RealTessChatWidget20260423_14" : 1,
+      "n:Expr_2RealTessChatWidget20260423_15" : 1,
+      "n:Expr_2RealTessChatWidget20260423_16" : 1,
+      "n:Expr_2RealTessChatWidget20260423_18" : 1,
+      "n:Expr_2RealTessChatWidget20260423_20" : 1,
+      "n:Expr_2RealTessChatWidget20260423_26" : 2,
+      "n:Expr_2RealTessChatWidget20260423_9" : 2,
+      "n:Position_EvaluatorChannelTrustTax" : 2,
+      "n:Position_PerShareChatWidgetArchitecture" : 1
+    },
+    "n:Position_ArchetypeRelationalDisambiguation" : {
+      "n:Expr_2RealTessChatWidget20260423_38" : 1,
+      "n:Expr_2RealTessChatWidget20260423_39" : 1,
+      "n:Expr_2RealTessChatWidget20260423_44" : 2,
+      "n:Expr_2RealTessChatWidget20260423_45" : 1,
+      "n:Expr_2RealTessChatWidget20260423_47" : 1,
+      "n:Expr_2RealTessChatWidget20260423_54" : 2
+    },
+    "n:Position_EvaluatorChannelTrustTax" : {
+      "n:Expr_2RealTessChatWidget20260423_10" : 2,
+      "n:Expr_2RealTessChatWidget20260423_11" : 1,
+      "n:Expr_2RealTessChatWidget20260423_16" : 1,
+      "n:Expr_2RealTessChatWidget20260423_29" : 1,
+      "n:Expr_2RealTessChatWidget20260423_30" : 1,
+      "n:Expr_2RealTessChatWidget20260423_9" : 2
+    },
+    "n:Position_HumanMomentDemoVideo" : {
+      "n:Expr_1RealFreyaPodcastSalesMotion20260323_14" : 2,
+      "n:Expr_1RealFreyaPodcastSalesMotion20260323_15" : 1,
+      "n:Expr_1RealFreyaPodcastSalesMotion20260323_16" : 1,
+      "n:Expr_1RealFreyaPodcastSalesMotion20260323_18" : 1,
+      "n:Expr_1RealFreyaPodcastSalesMotion20260323_8" : 1
+    },
+    "n:Position_InstallableExpertiseCategoryMoat" : {
+      "n:Expr_1RealFreyaPodcastSalesMotion20260323_24" : 2,
+      "n:Expr_1RealFreyaPodcastSalesMotion20260323_26" : 1,
+      "n:Expr_1RealFreyaPodcastSalesMotion20260323_28" : 1,
+      "n:Expr_1RealFreyaPodcastSalesMotion20260323_30" : 1,
+      "n:Expr_1RealFreyaPodcastSalesMotion20260323_32" : 1
+    },
+    "n:Position_InterviewFlywheelSalesMotion" : {
+      "n:Expr_1RealFreyaPodcastSalesMotion20260323_3" : 2,
+      "n:Expr_1RealFreyaPodcastSalesMotion20260323_4" : 1,
+      "n:Expr_1RealFreyaPodcastSalesMotion20260323_41" : 1,
+      "n:Expr_1RealFreyaPodcastSalesMotion20260323_5" : 1,
+      "n:Expr_1RealFreyaPodcastSalesMotion20260323_7" : 1
+    },
+    "n:Position_OnboardingToolPromptGuidance" : {
+      "n:Expr_2RealTessChatWidget20260423_58" : 1,
+      "n:Expr_2RealTessChatWidget20260423_60" : 1,
+      "n:Expr_2RealTessChatWidget20260423_61" : 1,
+      "n:Expr_2RealTessChatWidget20260423_63" : 2,
+      "n:Expr_2RealTessChatWidget20260423_64" : 1
+    },
+    "n:Position_PerShareChatWidgetArchitecture" : {
+      "n:Expr_2RealTessChatWidget20260423_20" : 2,
+      "n:Expr_2RealTessChatWidget20260423_21" : 1,
+      "n:Expr_2RealTessChatWidget20260423_22" : 1,
+      "n:Expr_2RealTessChatWidget20260423_23" : 1,
+      "n:Expr_2RealTessChatWidget20260423_24" : 1,
+      "n:Expr_2RealTessChatWidget20260423_26" : 2
+    }
+  },
+  "generated_from" : "3d701e5703aa3f959ba54d59603077ba4a8ce3db",
+  "hubs" : {
+    "n:Actor_TanyaTeamowner" : 2,
+    "n:Narrative_AntiSlackPositioning" : 1,
+    "n:Narrative_BehavioralProgressionPackaging" : 1,
+    "n:Narrative_HumanMomentVideoProof" : 1,
+    "n:Narrative_InstallableExpertise" : 1,
+    "n:Narrative_InterviewFlywheel" : 2,
+    "n:Position_ArchetypeRelationalDisambiguation" : 2,
+    "n:Position_EvaluatorChannelTrustTax" : 2,
+    "n:Position_HumanMomentDemoVideo" : 1,
+    "n:Position_InstallableExpertiseCategoryMoat" : 1,
+    "n:Position_OnboardingToolPromptGuidance" : 1,
+    "n:Position_PerShareChatWidgetArchitecture" : 1
+  },
+  "params" : {
+    "conviction-floor" : 2,
+    "indexed-cap" : 24,
+    "indexed-frac" : 0.35,
+    "indexed-min" : 4,
+    "rich-cap" : 4,
+    "rich-frac" : 0.15,
+    "rich-min" : 1
+  },
+  "prefixes" : {
+    "n" : "https://aswritten.ai/narrative#",
+    "o" : "https://aswritten.ai/ns/narrative#"
+  },
+  "runs_sha" : "5c3d027b728277832b653d3fd2fc2cdd2d9ccd84",
+  "sittings" : 159,
+  "spec" : "fidelity-bands/1"
+}

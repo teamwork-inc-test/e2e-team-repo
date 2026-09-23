@@ -1,0 +1,22 @@
+@prefix narr: <https://aswritten.ai/narrative#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+GRAPH <https://aswritten.ai/narrative#Digest_Position_OnboardingToolPromptGuidance> {
+  <https://aswritten.ai/narrative#Digest_Position_OnboardingToolPromptGuidance> a narr:Digest ;
+    narr:digestOf <https://aswritten.ai/narrative#Position_OnboardingToolPromptGuidance> ;
+    narr:childCount "5"^^xsd:integer ;
+    narr:generatedFrom "3d701e5703aa3f959ba54d59603077ba4a8ce3db" ;
+    narr:narration """This position gathers a single exchange about how a chat widget should guide a non-technical user from connecting a tool to actually using it. [Tanya names the blank-prompt problem — the user connected but doesn't know what to say next](narr:Expr_2RealTessChatWidget20260423_58), and [Tess proposes a concrete post-connection script: visit the link, install, come back and say done](narr:Expr_2RealTessChatWidget20260423_60). [Tess grounds the need in her own experience: backend vocabulary like committing and pulling, and single-word replies that presuppose understanding, were completely foreign to her](narr:Expr_2RealTessChatWidget20260423_63). Two assistant framings sit alongside: [one reading the exchange as a specific prescription for clearer tool-language prompts](narr:Expr_2RealTessChatWidget20260423_61), and [one tying the cognitive cost to broader above-the-line abstraction work](narr:Expr_2RealTessChatWidget20260423_64). All dated the same day; the position holds the problem statement and candidate guidance open rather than a settled design.""" ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2RealTessChatWidget20260423_58> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2RealTessChatWidget20260423_60> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2RealTessChatWidget20260423_61> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2RealTessChatWidget20260423_63> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2RealTessChatWidget20260423_64> ;
+    narr:keyPhrase [ narr:text "Someone's like, what do I say now? And I'm like, I don't know, like, kind of anything." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_2RealTessChatWidget20260423_58> ] ;
+    narr:keyPhrase [ narr:text "visit this link, install it, come back and say done" ; narr:phraseSource <https://aswritten.ai/narrative#Expr_2RealTessChatWidget20260423_60> ] ;
+    narr:keyPhrase [ narr:text "Everything you said about committing and pulling and all of that is completely foreign to me." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_2RealTessChatWidget20260423_63> ] ;
+    narr:keyPhrase [ narr:text "This is a specific prescription for clearer tool-language prompts." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_2RealTessChatWidget20260423_61> ] ;
+    narr:variation [ narr:text "The user-side evidence is negative and past-tense (what confused her), while the proposed guidance is future and irrealis — a prescription not yet tested." ; narr:over <https://aswritten.ai/narrative#Expr_2RealTessChatWidget20260423_63> ; narr:over <https://aswritten.ai/narrative#Expr_2RealTessChatWidget20260423_60> ] ;
+    narr:variation [ narr:text "The assistant framings generalize the exchange (a prescription, a motivation for abstraction work) beyond what the speakers themselves claimed." ; narr:over <https://aswritten.ai/narrative#Expr_2RealTessChatWidget20260423_61> ; narr:over <https://aswritten.ai/narrative#Expr_2RealTessChatWidget20260423_64> ] ;
+    narr:writer "z-ai/glm-5.3-flash:nitro" .
+}

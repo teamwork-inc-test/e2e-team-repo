@@ -1,0 +1,28 @@
+@prefix narr: <https://aswritten.ai/narrative#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+GRAPH <https://aswritten.ai/narrative#Digest_Position_ArchetypeRelationalDisambiguation> {
+  <https://aswritten.ai/narrative#Digest_Position_ArchetypeRelationalDisambiguation> a narr:Digest ;
+    narr:digestOf <https://aswritten.ai/narrative#Position_ArchetypeRelationalDisambiguation> ;
+    narr:childCount "8"^^xsd:integer ;
+    narr:generatedFrom "3d701e5703aa3f959ba54d59603077ba4a8ce3db" ;
+    narr:narration """This position disentangles three orthogonal ways of classifying a single user, all converging on the same case. The diagnosis is that [the typology conflated AI-fluency with distribution-motion](narr:Expr_2RealTessChatWidget20260423_39), which produced a misread; the corrected reading names her [work-motion archetype as Knowledge Packager](narr:Expr_2RealTessChatWidget20260423_38). Alongside archetype, the position separates [commercial status as a relational arrangement rather than a sales-validated pricing decision](narr:Expr_2RealTessChatWidget20260423_45) — the owner states plainly [she is on Individual because she is fiancé and beta tester, not a sales target](narr:Expr_2RealTessChatWidget20260423_44) — and separates [her business role as the company's most prolific source of product feedback](narr:Expr_2RealTessChatWidget20260423_54). The third axis, pricing evidence, is bounded from both sides: [she cannot serve as the Individual-tier exemplar because she does not pay](narr:Expr_2RealTessChatWidget20260423_49), yet [her non-payment equally does not invalidate Professional-tier pricing](narr:Expr_2RealTessChatWidget20260423_50). The synthesis holds all three in one frame: [archetype by work motion, commercial status relational, role as primary beta tester](narr:Expr_2RealTessChatWidget20260423_47).""" ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2RealTessChatWidget20260423_38> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2RealTessChatWidget20260423_39> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2RealTessChatWidget20260423_44> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2RealTessChatWidget20260423_45> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2RealTessChatWidget20260423_47> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2RealTessChatWidget20260423_49> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2RealTessChatWidget20260423_50> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2RealTessChatWidget20260423_54> ;
+    narr:keyPhrase [ narr:text "The underlying error: the typology mixed two orthogonal axes — AI-fluency (tinkerer vs consumer) and distribution-motion (packager vs solo-practitioner) — and classified Tess on fluency only." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_2RealTessChatWidget20260423_39> ] ;
+    narr:keyPhrase [ narr:text "Tess is a Knowledge Packager." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_2RealTessChatWidget20260423_38> ] ;
+    narr:keyPhrase [ narr:text "She's on Individual because she's my fiancé and beta tester, not a sales target — although she fits the profile." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_2RealTessChatWidget20260423_44> ] ;
+    narr:keyPhrase [ narr:text "Tess doesn't validate Individual-tier pricing, because she isn't a prospect — using her as the Trigger-1 exemplar implies \"here's what an Individual-tier user looks like and pays,\" and she doesn't pay." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_2RealTessChatWidget20260423_49> ] ;
+    narr:keyPhrase [ narr:text "Tess doesn't invalidate Professional-tier pricing either — her non-payment reflects relationship, not rejected conversion." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_2RealTessChatWidget20260423_50> ] ;
+    narr:keyPhrase [ narr:text "She's the single most prolific beta tester and has had more feedback than anyone." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_2RealTessChatWidget20260423_54> ] ;
+    narr:variation [ narr:text "Tension between axes: the archetype label (Knowledge Packager) and the commercial label (relational, non-paying) point in opposite directions for the same person — she 'fits the profile' of a paying user yet is not one." ; narr:over <https://aswritten.ai/narrative#Expr_2RealTessChatWidget20260423_38> ; narr:over <https://aswritten.ai/narrative#Expr_2RealTessChatWidget20260423_44> ] ;
+    narr:variation [ narr:text "Pricing evidence cuts both ways: she is disqualified as an Individual-tier exemplar, but her case is also explicitly fenced off from counting against Professional-tier conversion." ; narr:over <https://aswritten.ai/narrative#Expr_2RealTessChatWidget20260423_49> ; narr:over <https://aswritten.ai/narrative#Expr_2RealTessChatWidget20260423_50> ] ;
+    narr:variation [ narr:text "Relational framing vs market framing collide in the same expressions — communal-sharing and market-pricing regions co-occur wherever her tier placement is discussed." ; narr:over <https://aswritten.ai/narrative#Expr_2RealTessChatWidget20260423_44> ; narr:over <https://aswritten.ai/narrative#Expr_2RealTessChatWidget20260423_45> ] ;
+    narr:writer "z-ai/glm-5.3-flash:nitro" .
+}

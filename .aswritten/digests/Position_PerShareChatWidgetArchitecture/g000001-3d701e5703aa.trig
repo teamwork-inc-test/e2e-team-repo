@@ -1,0 +1,25 @@
+@prefix narr: <https://aswritten.ai/narrative#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+GRAPH <https://aswritten.ai/narrative#Digest_Position_PerShareChatWidgetArchitecture> {
+  <https://aswritten.ai/narrative#Digest_Position_PerShareChatWidgetArchitecture> a narr:Digest ;
+    narr:digestOf <https://aswritten.ai/narrative#Position_PerShareChatWidgetArchitecture> ;
+    narr:childCount "7"^^xsd:integer ;
+    narr:generatedFrom "3d701e5703aa3f959ba54d59603077ba4a8ce3db" ;
+    narr:narration """This position holds a single coherent architecture: [one widget per share ID, provisioned at share-creation time](narr:Expr_2RealTessChatWidget20260423_22), so each share gets its own conversation surface. It leans on [an existing chat widget integration in Front](narr:Expr_2RealTessChatWidget20260423_20) rather than building from scratch, and claims [channels under an inbox are automatable even if inbox creation itself may stay manual](narr:Expr_2RealTessChatWidget20260423_21). The routing story runs through [a managed org inbox holding all share conversations with no default assignee](narr:Expr_2RealTessChatWidget20260423_24), explicitly to avoid [the failure mode where every new conversation lands on the founder](narr:Expr_2RealTessChatWidget20260423_25). A side benefit: [multiple live widgets make cross-share and cross-branch comparison natural](narr:Expr_2RealTessChatWidget20260423_23). The value case is carried as a relayed assessment — [lower lift for the demo and for similar users, potentially much more useful](narr:Expr_2RealTessChatWidget20260423_26) — signed by the principal but voiced secondhand, so it reads as endorsement, not owned conviction.""" ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2RealTessChatWidget20260423_20> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2RealTessChatWidget20260423_21> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2RealTessChatWidget20260423_22> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2RealTessChatWidget20260423_23> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2RealTessChatWidget20260423_24> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2RealTessChatWidget20260423_25> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2RealTessChatWidget20260423_26> ;
+    narr:keyPhrase [ narr:text "The proposal is one widget per share ID — provisioning a channel and widget at share-creation time means each share has its own conversation surface." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_2RealTessChatWidget20260423_22> ] ;
+    narr:keyPhrase [ narr:text "Front already has a chat widget, so the integration exists." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_2RealTessChatWidget20260423_20> ] ;
+    narr:keyPhrase [ narr:text "Inboxes may still need to be manually created (open question), but channels under an inbox should be automatable." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_2RealTessChatWidget20260423_21> ] ;
+    narr:keyPhrase [ narr:text "No default-assignment avoids the \"every new conversation lands on the founder\" failure mode." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_2RealTessChatWidget20260423_25> ] ;
+    narr:keyPhrase [ narr:text "Tanya's conclusion: lower lift for the demo, lower lift for Tess and others in her category, potentially much more useful." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_2RealTessChatWidget20260423_26> ] ;
+    narr:variation [ narr:text "Inbox creation is flagged as an open question that may remain manual — the automation claim covers channels, not the whole provisioning path." ; narr:over <https://aswritten.ai/narrative#Expr_2RealTessChatWidget20260423_21> ] ;
+    narr:variation [ narr:text "The value conclusion is relayed through a secondhand rendering (signed by the principal, voiced by the assistant), so it is endorsement rather than owned conviction." ; narr:over <https://aswritten.ai/narrative#Expr_2RealTessChatWidget20260423_26> ] ;
+    narr:writer "z-ai/glm-5.3-flash:nitro" .
+}

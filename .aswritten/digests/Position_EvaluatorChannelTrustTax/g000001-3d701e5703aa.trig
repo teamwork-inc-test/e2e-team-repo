@@ -1,0 +1,27 @@
+@prefix narr: <https://aswritten.ai/narrative#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+GRAPH <https://aswritten.ai/narrative#Digest_Position_EvaluatorChannelTrustTax> {
+  <https://aswritten.ai/narrative#Digest_Position_EvaluatorChannelTrustTax> a narr:Digest ;
+    narr:digestOf <https://aswritten.ai/narrative#Position_EvaluatorChannelTrustTax> ;
+    narr:childCount "7"^^xsd:integer ;
+    narr:generatedFrom "3d701e5703aa3f959ba54d59603077ba4a8ce3db" ;
+    narr:narration """This position holds that channel choice carries a trust cost that varies by audience. The mainline runs from [Tess's opening claim that texting reads as spam in skeptical contexts](narr:Expr_2RealTessChatWidget20260423_9), through the [observation that the SMS-feels-honest framing only holds with an already-trusted sender](narr:Expr_2RealTessChatWidget20260423_10) and its [flip-side: SMS is more suspicious for evaluators because spam trained distrust of unexpected texts](narr:Expr_2RealTessChatWidget20260423_11), to [Tess's relayed framing that even successful verification leaves a channel-level trust tax in evaluator-grade conversations](narr:Expr_2RealTessChatWidget20260423_16). The resolution side is conditional rather than absolute: [SMS stays viable for high-trust, post-consent, consumer-viral contexts](narr:Expr_2RealTessChatWidget20260423_29), while [a chat widget on the share page fits evaluator, skeptic, first-touch, and demo contexts](narr:Expr_2RealTessChatWidget20260423_30) because [the share page itself is the trust context the widget inherits](narr:Expr_2RealTessChatWidget20260423_31). The register is antithesis-heavy — claims stated as what flips, not what holds — with the trust-tax metaphor arriving relayed through [Tess](narr:Expr_2RealTessChatWidget20260423_16) rather than as the voicer's own.""" ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2RealTessChatWidget20260423_10> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2RealTessChatWidget20260423_11> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2RealTessChatWidget20260423_16> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2RealTessChatWidget20260423_29> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2RealTessChatWidget20260423_30> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2RealTessChatWidget20260423_31> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2RealTessChatWidget20260423_9> ;
+    narr:keyPhrase [ narr:text "People might not want to give their number." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_2RealTessChatWidget20260423_9> ] ;
+    narr:keyPhrase [ narr:text "The SMS-feels-honest-not-bot framing holds when the sender is already trusted." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_2RealTessChatWidget20260423_10> ] ;
+    narr:keyPhrase [ narr:text "It flips in evaluator contexts — SMS is *more* suspicious because spam trained people to distrust unexpected texts." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_2RealTessChatWidget20260423_11> ] ;
+    narr:keyPhrase [ narr:text "even when verification succeeds, the channel carries a trust tax in evaluator-grade conversations." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_2RealTessChatWidget20260423_16> ] ;
+    narr:keyPhrase [ narr:text "SMS remains viable for high-trust, post-consent, consumer-viral contexts — the channel works where the sender is already welcome." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_2RealTessChatWidget20260423_29> ] ;
+    narr:keyPhrase [ narr:text "A chat widget on the share page is the right fit for evaluator, skeptic, first-touch, and demo contexts — no number, no verification, no opt-in form, no spam frame." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_2RealTessChatWidget20260423_30> ] ;
+    narr:variation [ narr:text "SMS is not rejected outright — it survives as the right channel where the sender is already welcome, qualifying any read of this as anti-SMS." ; narr:over <https://aswritten.ai/narrative#Expr_2RealTessChatWidget20260423_29> ] ;
+    narr:variation [ narr:text "The trust-tax framing was relayed through Tess rather than voiced as the speaker's own conviction — the metaphor's ownership stays open." ; narr:over <https://aswritten.ai/narrative#Expr_2RealTessChatWidget20260423_16> ] ;
+    narr:variation [ narr:text "Two mechanisms compete for why SMS fails with evaluators: spam-trained distrust of the channel itself versus reluctance to hand over a number — the widget answer sidesteps both but doesn't settle which dominates." ; narr:over <https://aswritten.ai/narrative#Expr_2RealTessChatWidget20260423_9> ; narr:over <https://aswritten.ai/narrative#Expr_2RealTessChatWidget20260423_11> ] ;
+    narr:writer "z-ai/glm-5.3-flash:nitro" .
+}
