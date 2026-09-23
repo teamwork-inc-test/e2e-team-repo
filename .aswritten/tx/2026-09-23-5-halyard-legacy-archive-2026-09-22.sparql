@@ -1,0 +1,465 @@
+PREFIX narr: <https://aswritten.ai/narrative#>
+PREFIX aswr: <https://aswritten.ai/aswr#>
+PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX dct:  <http://purl.org/dc/terms/>
+PREFIX xsd:  <http://www.w3.org/2001/XMLSchema#>
+PREFIX oa:   <http://www.w3.org/ns/oa#>
+PREFIX xkos: <http://rdf-vocabulary.ddialliance.org/xkos#>
+
+INSERT DATA {
+  aswr:Tx_20260923T020106Z a prov:Activity ;
+      prov:generatedAtTime "2026-09-23T02:01:06Z"^^xsd:dateTime ;
+      prov:wasAssociatedWith "aswritten.ai" ;
+      prov:wasAttributedTo "scarlet@aswritten.ai" ;
+      aswr:pipelinePin "8dd07a49bda8" ;
+      aswr:originPath ".aswritten/memories/2026-09-23-5-halyard-legacy-archive-2026-09-22.md" ;
+      dct:title "Multipass source extraction: Halyard — Legacy Archive Working Session — 2026-09-22" ;
+      prov:generated narr:Sample_5HalyardLegacyArchive20260922, narr:Expr_5HalyardLegacyArchive20260922_1, narr:Expr_5HalyardLegacyArchive20260922_2, narr:Expr_5HalyardLegacyArchive20260922_3, narr:Expr_5HalyardLegacyArchive20260922_4, narr:Expr_5HalyardLegacyArchive20260922_5, narr:Expr_5HalyardLegacyArchive20260922_6, narr:Expr_5HalyardLegacyArchive20260922_7, narr:Expr_5HalyardLegacyArchive20260922_8, narr:Expr_5HalyardLegacyArchive20260922_9, narr:Expr_5HalyardLegacyArchive20260922_10, narr:Expr_5HalyardLegacyArchive20260922_11, narr:Expr_5HalyardLegacyArchive20260922_12, narr:Expr_5HalyardLegacyArchive20260922_13, narr:Expr_5HalyardLegacyArchive20260922_14, narr:Expr_5HalyardLegacyArchive20260922_15, narr:Expr_5HalyardLegacyArchive20260922_16, narr:Expr_5HalyardLegacyArchive20260922_17, narr:Expr_5HalyardLegacyArchive20260922_18, narr:Expr_5HalyardLegacyArchive20260922_19, narr:Expr_5HalyardLegacyArchive20260922_20, narr:Expr_5HalyardLegacyArchive20260922_21, narr:Expr_5HalyardLegacyArchive20260922_22, narr:Expr_5HalyardLegacyArchive20260922_23, narr:Expr_5HalyardLegacyArchive20260922_24, narr:Expr_5HalyardLegacyArchive20260922_25, narr:Expr_5HalyardLegacyArchive20260922_26, narr:Expr_5HalyardLegacyArchive20260922_27, narr:Expr_5HalyardLegacyArchive20260922_28 .
+} ;
+INSERT DATA {
+  GRAPH aswr:Tx_20260923T020106Z {
+    narr:Sample_5HalyardLegacyArchive20260922 a narr:Sample ;
+        dct:title "Halyard — Legacy Archive Working Session — 2026-09-22" ;
+        dct:created "2026-09-22"^^xsd:date ;
+        aswr:originPath ".aswritten/memories/2026-09-23-5-halyard-legacy-archive-2026-09-22.md" ;
+        aswr:submittedBy narr:Actor_TanyaTeamowner ;
+        aswr:account narr:Actor_TanyaTeamowner .
+
+    narr:Expr_5HalyardLegacyArchive20260922_1 a narr:Expression ;
+        narr:actor narr:Actor_TanyaTeam ;
+        narr:act "assertive" ;
+        narr:context "Halyard — Legacy Archive Working Session" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_5HalyardLegacyArchive20260922 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "This one is a topic we have genuinely never opened. Legal came to me on Friday with a question nobody in this programme has an answer to, and I'd rather we form a view than have one handed to us." ;
+                oa:prefix "n\n2026-09-22\n\n**Tanya Team:** " ;
+                oa:suffix "\n\n**Xavier Expert:** Which que" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "296"^^xsd:integer ;
+                oa:end "491"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T02:01:06Z"^^xsd:dateTime .
+
+    narr:Expr_5HalyardLegacyArchive20260922_2 a narr:Expression ;
+        narr:actor narr:Actor_XavierExpert ;
+        narr:act "question" ;
+        narr:context "Halyard — Legacy Archive Working Session" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_5HalyardLegacyArchive20260922 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Which question?" ;
+                oa:prefix "ed to us.\n\n**Xavier Expert:** " ;
+                oa:suffix "\n\n**Tanya Team:** What happens" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "512"^^xsd:integer ;
+                oa:end "527"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T02:01:06Z"^^xsd:dateTime .
+
+    narr:Expr_5HalyardLegacyArchive20260922_3 a narr:Expression ;
+        narr:actor narr:Actor_TanyaTeam ;
+        narr:act "assertive" ;
+        narr:context "Halyard — Legacy Archive Working Session" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_5HalyardLegacyArchive20260922 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "What happens to the records that stay behind. Everything from before a site's cutover lives in the old platform. We migrate the open work. We do not migrate the closed history — eleven years of it." ;
+                oa:prefix "ch question?\n\n**Tanya Team:** " ;
+                oa:suffix "\n\n**Xavier Expert:** Right, an" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "545"^^xsd:integer ;
+                oa:end "742"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T02:01:06Z"^^xsd:dateTime .
+
+    narr:Expr_5HalyardLegacyArchive20260922_4 a narr:Expression ;
+        narr:actor narr:Actor_XavierExpert ;
+        narr:act "assertive" ;
+        narr:context "Halyard — Legacy Archive Working Session" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_5HalyardLegacyArchive20260922 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Right, and the vendor's contract ends when the last site goes live, so at some point that platform gets switched off." ;
+                oa:prefix "rs of it.\n\n**Xavier Expert:** " ;
+                oa:suffix "\n\n**Tanya Team:** That's the q" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "763"^^xsd:integer ;
+                oa:end "880"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T02:01:06Z"^^xsd:dateTime .
+
+    narr:Expr_5HalyardLegacyArchive20260922_5 a narr:Expression ;
+        narr:actor narr:Actor_TanyaTeam ;
+        narr:act "assertive" ;
+        narr:context "Halyard — Legacy Archive Working Session" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_5HalyardLegacyArchive20260922 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "That's the question. When, and in what state." ;
+                oa:prefix "witched off.\n\n**Tanya Team:** " ;
+                oa:suffix "\n\n**Tina Team:** I'd assumed w" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "898"^^xsd:integer ;
+                oa:end "943"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T02:01:06Z"^^xsd:dateTime .
+
+    narr:Expr_5HalyardLegacyArchive20260922_6 a narr:Expression ;
+        narr:actor narr:Actor_TinaTeam ;
+        narr:act "assertive" ;
+        narr:context "Halyard — Legacy Archive Working Session" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_5HalyardLegacyArchive20260922 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "I'd assumed we'd just keep paying the vendor to leave it running." ;
+                oa:prefix "n what state.\n\n**Tina Team:** " ;
+                oa:suffix "\n\n**Xavier Expert:** That's th" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "960"^^xsd:integer ;
+                oa:end "1025"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T02:01:06Z"^^xsd:dateTime .
+
+    narr:Expr_5HalyardLegacyArchive20260922_7 a narr:Expression ;
+        narr:actor narr:Actor_XavierExpert ;
+        narr:act "assertive" ;
+        narr:context "Halyard — Legacy Archive Working Session" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_5HalyardLegacyArchive20260922 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "That's the expensive answer and it's also the fragile one. A system nobody uses and nobody patches is a system that stops working quietly, and you find out the day someone needs a consignment record from 2019 for a claim." ;
+                oa:prefix " running.\n\n**Xavier Expert:** " ;
+                oa:suffix "\n\n**Tanya Team:** That's exact" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "1046"^^xsd:integer ;
+                oa:end "1267"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T02:01:06Z"^^xsd:dateTime .
+
+    narr:Expr_5HalyardLegacyArchive20260922_8 a narr:Expression ;
+        narr:actor narr:Actor_TanyaTeam ;
+        narr:act "assertive" ;
+        narr:context "Halyard — Legacy Archive Working Session" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_5HalyardLegacyArchive20260922 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "That's exactly the scenario legal raised." ;
+                oa:prefix "for a claim.\n\n**Tanya Team:** " ;
+                oa:suffix "\n\n**Xavier Expert:** Then here" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "1285"^^xsd:integer ;
+                oa:end "1326"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T02:01:06Z"^^xsd:dateTime .
+
+    narr:Expr_5HalyardLegacyArchive20260922_9 a narr:Expression ;
+        narr:actor narr:Actor_XavierExpert ;
+        narr:act "assertive" ;
+        narr:context "Halyard — Legacy Archive Working Session" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_5HalyardLegacyArchive20260922 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Then here's the view I'd take, and I'd take it firmly. We do not keep the legacy platform alive as a read-only system. We extract the closed history into a flat, self-describing archive — the records plus a schema description plus a document explaining what the fields mean — and we hold that. The archive outlives the platform." ;
+                oa:prefix "l raised.\n\n**Xavier Expert:** " ;
+                oa:suffix "\n\n**Tanya Team:** Say more abo" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "1347"^^xsd:integer ;
+                oa:end "1675"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T02:01:06Z"^^xsd:dateTime .
+
+    narr:Expr_5HalyardLegacyArchive20260922_10 a narr:Expression ;
+        narr:actor narr:Actor_TanyaTeam ;
+        narr:act "directive" ;
+        narr:context "Halyard — Legacy Archive Working Session" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_5HalyardLegacyArchive20260922 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Say more about \"self-describing\"." ;
+                oa:prefix "he platform.\n\n**Tanya Team:** " ;
+                oa:suffix "\n\n**Xavier Expert:** Meaning y" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "1693"^^xsd:integer ;
+                oa:end "1726"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T02:01:06Z"^^xsd:dateTime .
+
+    narr:Expr_5HalyardLegacyArchive20260922_11 a narr:Expression ;
+        narr:actor narr:Actor_XavierExpert ;
+        narr:act "assertive" ;
+        narr:context "Halyard — Legacy Archive Working Session" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_5HalyardLegacyArchive20260922 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Meaning you can read it in ten years with nothing but the files. Not a database dump that needs the vendor's version of their engine to restore. Not a proprietary export format. Flat files, an open format, a schema next to them, and a written description of what a \"consignment status of 7\" actually meant in 2017, because nobody will remember and the vendor won't exist." ;
+                oa:prefix "cribing\".\n\n**Xavier Expert:** " ;
+                oa:suffix "\n\n**Tina Team:** That last par" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "1747"^^xsd:integer ;
+                oa:end "2118"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T02:01:06Z"^^xsd:dateTime .
+
+    narr:Expr_5HalyardLegacyArchive20260922_12 a narr:Expression ;
+        narr:actor narr:Actor_TinaTeam ;
+        narr:act "assertive" ;
+        narr:context "Halyard — Legacy Archive Working Session" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_5HalyardLegacyArchive20260922 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "That last part is the bit that always gets skipped." ;
+                oa:prefix " won't exist.\n\n**Tina Team:** " ;
+                oa:suffix "\n\n**Xavier Expert:** It's the " ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "2135"^^xsd:integer ;
+                oa:end "2186"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T02:01:06Z"^^xsd:dateTime .
+
+    narr:Expr_5HalyardLegacyArchive20260922_13 a narr:Expression ;
+        narr:actor narr:Actor_XavierExpert ;
+        narr:act "assertive" ;
+        narr:context "Halyard — Legacy Archive Working Session" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_5HalyardLegacyArchive20260922 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "It's the only part that matters in year eight. The data is easy to keep. The meaning is what rots." ;
+                oa:prefix " skipped.\n\n**Xavier Expert:** " ;
+                oa:suffix "\n\n**Tanya Team:** What's the a" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "2207"^^xsd:integer ;
+                oa:end "2305"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T02:01:06Z"^^xsd:dateTime .
+
+    narr:Expr_5HalyardLegacyArchive20260922_14 a narr:Expression ;
+        narr:actor narr:Actor_TanyaTeam ;
+        narr:act "question" ;
+        narr:context "Halyard — Legacy Archive Working Session" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_5HalyardLegacyArchive20260922 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "What's the argument against?" ;
+                oa:prefix "s what rots.\n\n**Tanya Team:** " ;
+                oa:suffix "\n\n**Xavier Expert:** Cost and " ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "2323"^^xsd:integer ;
+                oa:end "2351"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T02:01:06Z"^^xsd:dateTime .
+
+    narr:Expr_5HalyardLegacyArchive20260922_15 a narr:Expression ;
+        narr:actor narr:Actor_XavierExpert ;
+        narr:act "assertive" ;
+        narr:context "Halyard — Legacy Archive Working Session" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_5HalyardLegacyArchive20260922 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Cost and effort now, against a risk that lands years from now on someone who isn't in this room. That's the whole argument against, and it's why it never gets done." ;
+                oa:prefix " against?\n\n**Xavier Expert:** " ;
+                oa:suffix "\n\n**Tanya Team:** I'm persuade" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "2372"^^xsd:integer ;
+                oa:end "2536"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T02:01:06Z"^^xsd:dateTime .
+
+    narr:Expr_5HalyardLegacyArchive20260922_16 a narr:Expression ;
+        narr:actor narr:Actor_TanyaTeam ;
+        narr:act "assertive" ;
+        narr:context "Halyard — Legacy Archive Working Session" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_5HalyardLegacyArchive20260922 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "I'm persuaded. I'd add a reason of my own: a live legacy platform is a thing people will keep using. If Ferry Road can still look something up in the old system, someone at Ferry Road will, and then we've got two systems of record for a year. An archive that is obviously an archive kills that." ;
+                oa:prefix "r gets done.\n\n**Tanya Team:** " ;
+                oa:suffix "\n\n**Xavier Expert:** That's a " ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "2554"^^xsd:integer ;
+                oa:end "2848"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T02:01:06Z"^^xsd:dateTime .
+
+    narr:Expr_5HalyardLegacyArchive20260922_17 a narr:Expression ;
+        narr:actor narr:Actor_XavierExpert ;
+        narr:act "assertive" ;
+        narr:context "Halyard — Legacy Archive Working Session" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_5HalyardLegacyArchive20260922 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "That's a better argument than mine, actually. Mine is about decay. Yours is about behaviour." ;
+                oa:prefix "lls that.\n\n**Xavier Expert:** " ;
+                oa:suffix "\n\n**Tanya Team:** Both go in t" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "2869"^^xsd:integer ;
+                oa:end "2961"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T02:01:06Z"^^xsd:dateTime .
+
+    narr:Expr_5HalyardLegacyArchive20260922_18 a narr:Expression ;
+        narr:actor narr:Actor_TanyaTeam ;
+        narr:act "directive" ;
+        narr:context "Halyard — Legacy Archive Working Session" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_5HalyardLegacyArchive20260922 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Both go in the note." ;
+                oa:prefix "t behaviour.\n\n**Tanya Team:** " ;
+                oa:suffix "\n\n**Tina Team:** How long do w" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "2979"^^xsd:integer ;
+                oa:end "2999"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T02:01:06Z"^^xsd:dateTime .
+
+    narr:Expr_5HalyardLegacyArchive20260922_19 a narr:Expression ;
+        narr:actor narr:Actor_TinaTeam ;
+        narr:act "question" ;
+        narr:context "Halyard — Legacy Archive Working Session" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_5HalyardLegacyArchive20260922 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "How long do we hold it?" ;
+                oa:prefix " in the note.\n\n**Tina Team:** " ;
+                oa:suffix "\n\n**Tanya Team:** Legal says s" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "3016"^^xsd:integer ;
+                oa:end "3039"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T02:01:06Z"^^xsd:dateTime .
+
+    narr:Expr_5HalyardLegacyArchive20260922_20 a narr:Expression ;
+        narr:actor narr:Actor_TanyaTeam ;
+        narr:act "assertive" ;
+        narr:context "Halyard — Legacy Archive Working Session" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_5HalyardLegacyArchive20260922 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Legal says seven years from the record date for the consignment data. I want to go beyond that for the claims-relevant subset, and I don't want to decide that number today — I want legal to give us one in writing." ;
+                oa:prefix " we hold it?\n\n**Tanya Team:** " ;
+                oa:suffix "\n\n**Tina Team:** Sensible.\n\n**" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "3057"^^xsd:integer ;
+                oa:end "3270"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T02:01:06Z"^^xsd:dateTime .
+
+    narr:Expr_5HalyardLegacyArchive20260922_21 a narr:Expression ;
+        narr:actor narr:Actor_TinaTeam ;
+        narr:act "expressive" ;
+        narr:context "Halyard — Legacy Archive Working Session" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_5HalyardLegacyArchive20260922 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Sensible." ;
+                oa:prefix "e in writing.\n\n**Tina Team:** " ;
+                oa:suffix "\n\n**Tanya Team:** So the posit" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "3287"^^xsd:integer ;
+                oa:end "3296"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T02:01:06Z"^^xsd:dateTime .
+
+    narr:Expr_5HalyardLegacyArchive20260922_22 a narr:Expression ;
+        narr:actor narr:Actor_TanyaTeam ;
+        narr:act "assertive" ;
+        narr:context "Halyard — Legacy Archive Working Session" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_5HalyardLegacyArchive20260922 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "So the position is: the legacy platform is switched off when the last site goes live, the closed history is extracted first into an open self-describing archive, and the retention period comes from legal in writing before we sign anything with the vendor about decommissioning." ;
+                oa:prefix "** Sensible.\n\n**Tanya Team:** " ;
+                oa:suffix "\n\n**Xavier Expert:** I'd sign " ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "3314"^^xsd:integer ;
+                oa:end "3591"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T02:01:06Z"^^xsd:dateTime .
+
+    narr:Expr_5HalyardLegacyArchive20260922_23 a narr:Expression ;
+        narr:actor narr:Actor_XavierExpert ;
+        narr:act "commissive" ;
+        narr:context "Halyard — Legacy Archive Working Session" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_5HalyardLegacyArchive20260922 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "I'd sign up to that." ;
+                oa:prefix "ssioning.\n\n**Xavier Expert:** " ;
+                oa:suffix "\n\n**Tina Team:** Me too. And t" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "3612"^^xsd:integer ;
+                oa:end "3632"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T02:01:06Z"^^xsd:dateTime .
+
+    narr:Expr_5HalyardLegacyArchive20260922_24 a narr:Expression ;
+        narr:actor narr:Actor_TinaTeam ;
+        narr:act "assertive" ;
+        narr:context "Halyard — Legacy Archive Working Session" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_5HalyardLegacyArchive20260922 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Me too. And this needs to be in the vendor exit conversation, not after it." ;
+                oa:prefix "n up to that.\n\n**Tina Team:** " ;
+                oa:suffix "\n\n**Tanya Team:** Yes. That's " ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "3649"^^xsd:integer ;
+                oa:end "3724"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T02:01:06Z"^^xsd:dateTime .
+
+    narr:Expr_5HalyardLegacyArchive20260922_25 a narr:Expression ;
+        narr:actor narr:Actor_TanyaTeam ;
+        narr:act "assertive" ;
+        narr:context "Halyard — Legacy Archive Working Session" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_5HalyardLegacyArchive20260922 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Yes. That's the thing I'd have got wrong if legal hadn't asked on Friday — I'd have signed the decommissioning terms first and discovered the extraction requirement afterwards." ;
+                oa:prefix "ot after it.\n\n**Tanya Team:** " ;
+                oa:suffix "\n\n**Xavier Expert:** Which is " ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "3742"^^xsd:integer ;
+                oa:end "3918"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T02:01:06Z"^^xsd:dateTime .
+
+    narr:Expr_5HalyardLegacyArchive20260922_26 a narr:Expression ;
+        narr:actor narr:Actor_XavierExpert ;
+        narr:act "assertive" ;
+        narr:context "Halyard — Legacy Archive Working Session" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_5HalyardLegacyArchive20260922 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Which is the order these always go in." ;
+                oa:prefix "terwards.\n\n**Xavier Expert:** " ;
+                oa:suffix "\n\n**Tanya Team:** Not this tim" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "3939"^^xsd:integer ;
+                oa:end "3977"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T02:01:06Z"^^xsd:dateTime .
+
+    narr:Expr_5HalyardLegacyArchive20260922_27 a narr:Expression ;
+        narr:actor narr:Actor_TanyaTeam ;
+        narr:act "directive" ;
+        narr:context "Halyard — Legacy Archive Working Session" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_5HalyardLegacyArchive20260922 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Not this time. Xavier, can you scope the extraction enough that I can put a number in front of the vendor?" ;
+                oa:prefix "lways go in.\n\n**Tanya Team:** " ;
+                oa:suffix "\n\n**Xavier Expert:** Give me u" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "3995"^^xsd:integer ;
+                oa:end "4101"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T02:01:06Z"^^xsd:dateTime .
+
+    narr:Expr_5HalyardLegacyArchive20260922_28 a narr:Expression ;
+        narr:actor narr:Actor_XavierExpert ;
+        narr:act "commissive" ;
+        narr:context "Halyard — Legacy Archive Working Session" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_5HalyardLegacyArchive20260922 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Give me until the end of next week." ;
+                oa:prefix "e vendor?\n\n**Xavier Expert:** " ;
+                oa:suffix "\n" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "4122"^^xsd:integer ;
+                oa:end "4157"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T02:01:06Z"^^xsd:dateTime .
+
+    aswr:Run_20260923T020106Z_actors a prov:Activity ;
+        aswr:runPass "actors" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/f7fee7aa5b98/2026-09-23-5-halyard-legacy-archive-2026-09-22/actors.json" ;
+        dct:isPartOf aswr:Tx_20260923T020106Z ;
+        prov:generatedAtTime "2026-09-23T02:01:06Z"^^xsd:dateTime .
+
+    aswr:Run_20260923T020106Z_pass1 a prov:Activity ;
+        aswr:runPass "pass1" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/f7fee7aa5b98/2026-09-23-5-halyard-legacy-archive-2026-09-22/pass1.json" ;
+        prov:generated narr:Sample_5HalyardLegacyArchive20260922, narr:Expr_5HalyardLegacyArchive20260922_1, narr:Expr_5HalyardLegacyArchive20260922_2, narr:Expr_5HalyardLegacyArchive20260922_3, narr:Expr_5HalyardLegacyArchive20260922_4, narr:Expr_5HalyardLegacyArchive20260922_5, narr:Expr_5HalyardLegacyArchive20260922_6, narr:Expr_5HalyardLegacyArchive20260922_7, narr:Expr_5HalyardLegacyArchive20260922_8, narr:Expr_5HalyardLegacyArchive20260922_9, narr:Expr_5HalyardLegacyArchive20260922_10, narr:Expr_5HalyardLegacyArchive20260922_11, narr:Expr_5HalyardLegacyArchive20260922_12, narr:Expr_5HalyardLegacyArchive20260922_13, narr:Expr_5HalyardLegacyArchive20260922_14, narr:Expr_5HalyardLegacyArchive20260922_15, narr:Expr_5HalyardLegacyArchive20260922_16, narr:Expr_5HalyardLegacyArchive20260922_17, narr:Expr_5HalyardLegacyArchive20260922_18, narr:Expr_5HalyardLegacyArchive20260922_19, narr:Expr_5HalyardLegacyArchive20260922_20, narr:Expr_5HalyardLegacyArchive20260922_21, narr:Expr_5HalyardLegacyArchive20260922_22, narr:Expr_5HalyardLegacyArchive20260922_23, narr:Expr_5HalyardLegacyArchive20260922_24, narr:Expr_5HalyardLegacyArchive20260922_25, narr:Expr_5HalyardLegacyArchive20260922_26, narr:Expr_5HalyardLegacyArchive20260922_27, narr:Expr_5HalyardLegacyArchive20260922_28 ;
+        dct:isPartOf aswr:Tx_20260923T020106Z ;
+        prov:generatedAtTime "2026-09-23T02:01:06Z"^^xsd:dateTime .
+  }
+}
