@@ -1,5 +1,12 @@
 {
   "children" : {
+    "n:Actor_FreyaFree" : {
+      "n:Expr_1RealFreyaPodcastSalesMotion20260323_14" : 2,
+      "n:Expr_1RealFreyaPodcastSalesMotion20260323_15" : 1,
+      "n:Expr_4RealFreyaDesignTokens20260702_10" : 1,
+      "n:Expr_4RealFreyaDesignTokens20260702_6" : 1,
+      "n:Expr_4RealFreyaDesignTokens20260702_8" : 1
+    },
     "n:Actor_TanyaTeamowner" : {
       "n:Expr_1RealFreyaPodcastSalesMotion20260323_24" : 2,
       "n:Expr_1RealFreyaPodcastSalesMotion20260323_26" : 1,
@@ -9,8 +16,11 @@
       "n:Expr_2RealTessChatWidget20260423_54" : 1,
       "n:Expr_3RealChannelNotProduct20260428_15" : 1,
       "n:Expr_3RealChannelNotProduct20260428_20" : 1,
-      "n:Expr_3RealChannelNotProduct20260428_47" : 1,
-      "n:Expr_3RealChannelNotProduct20260428_8" : 2
+      "n:Expr_3RealChannelNotProduct20260428_21" : 1,
+      "n:Expr_3RealChannelNotProduct20260428_47" : 2,
+      "n:Expr_3RealChannelNotProduct20260428_7" : 1,
+      "n:Expr_3RealChannelNotProduct20260428_8" : 2,
+      "n:Expr_4RealFreyaDesignTokens20260702_11" : 1
     },
     "n:Actor_TessGuest" : {
       "n:Expr_2RealTessChatWidget20260423_18" : 1,
@@ -66,18 +76,22 @@
       "n:Expr_2RealTessChatWidget20260423_38" : 1,
       "n:Expr_2RealTessChatWidget20260423_41" : 1,
       "n:Expr_2RealTessChatWidget20260423_55" : 1,
-      "n:Expr_2RealTessChatWidget20260423_56" : 1,
-      "n:Expr_2RealTessChatWidget20260423_57" : 1,
-      "n:Expr_2RealTessChatWidget20260423_58" : 1,
-      "n:Expr_2RealTessChatWidget20260423_59" : 1,
       "n:Expr_2RealTessChatWidget20260423_63" : 1,
       "n:Expr_3RealChannelNotProduct20260428_10" : 2,
       "n:Expr_3RealChannelNotProduct20260428_40" : 1,
       "n:Expr_3RealChannelNotProduct20260428_7" : 1,
       "n:Expr_3RealChannelNotProduct20260428_8" : 2,
-      "n:Position_InstallableExpertiseCategoryMoat" : 1,
+      "n:Expr_4RealFreyaDesignTokens20260702_10" : 1,
+      "n:Expr_4RealFreyaDesignTokens20260702_11" : 1,
+      "n:Expr_4RealFreyaDesignTokens20260702_13" : 1,
+      "n:Expr_4RealFreyaDesignTokens20260702_19" : 1,
+      "n:Expr_4RealFreyaDesignTokens20260702_3" : 1,
+      "n:Expr_4RealFreyaDesignTokens20260702_6" : 1,
+      "n:Expr_4RealFreyaDesignTokens20260702_8" : 1,
+      "n:Position_DesignTokenPerspectiveParallel" : 1,
+      "n:Position_InstallableExpertiseCategoryMoat" : 2,
       "n:Position_OnboardingToolPromptGuidance" : 1,
-      "n:Position_ProductIdentityChannelDisambiguation" : 2,
+      "n:Position_ProductIdentityChannelDisambiguation" : 1,
       "n:Position_SubgraphScopingTemporalityOntology" : 1
     },
     "n:Narrative_InterviewFlywheel" : {
@@ -141,7 +155,8 @@
       "n:Expr_1RealFreyaPodcastSalesMotion20260323_26" : 1,
       "n:Expr_1RealFreyaPodcastSalesMotion20260323_28" : 1,
       "n:Expr_1RealFreyaPodcastSalesMotion20260323_30" : 1,
-      "n:Expr_1RealFreyaPodcastSalesMotion20260323_32" : 1
+      "n:Expr_1RealFreyaPodcastSalesMotion20260323_32" : 2,
+      "n:Expr_4RealFreyaDesignTokens20260702_19" : 1
     },
     "n:Position_InterviewFlywheelSalesMotion" : {
       "n:Expr_1RealFreyaPodcastSalesMotion20260323_3" : 2,
@@ -190,15 +205,16 @@
       "n:Expr_3RealChannelNotProduct20260428_37" : 1
     }
   },
-  "generated_from" : "08dbf2d09d3a625ffd65c009778ee0a98c8715fd",
+  "generated_from" : "a3b3776b00e91d42f37e53859ea1cd3275e9dfe7",
   "hubs" : {
+    "n:Actor_FreyaFree" : 1,
     "n:Actor_TanyaTeamowner" : 2,
     "n:Actor_TessGuest" : 1,
     "n:Narrative_AntiSlackPositioning" : 1,
     "n:Narrative_BehavioralProgressionPackaging" : 1,
     "n:Narrative_HumanMomentVideoProof" : 1,
-    "n:Narrative_InstallableExpertise" : 1,
-    "n:Narrative_InterviewFlywheel" : 2,
+    "n:Narrative_InstallableExpertise" : 2,
+    "n:Narrative_InterviewFlywheel" : 1,
     "n:Position_ArchetypeRelationalDisambiguation" : 2,
     "n:Position_EvaluatorChannelTrustTax" : 2,
     "n:Position_InstallableExpertiseCategoryMoat" : 1,
@@ -219,7 +235,7 @@
     "n" : "https://aswritten.ai/narrative#",
     "o" : "https://aswritten.ai/ns/narrative#"
   },
-  "runs_sha" : "62d77fc99facb0709f161bb4596c495fce7d62fa",
-  "sittings" : 160,
+  "runs_sha" : "8df92e87cea1b7248daae3dcb74be778c5f05c1f",
+  "sittings" : 161,
   "spec" : "fidelity-bands/1"
 }
