@@ -1,0 +1,57 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-17",
+    "regions" : [ "authority-ranking" ],
+    "evidence" : [ {
+      "quote" : "somebody who isn't the programme manager owns the gate, because the programme manager has a date",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Enacts structural governance and authority separation based on institutional incentives rather than delivery hierarchy.",
+    "reported" : false,
+    "direction" : {
+      "verdict" : "mint",
+      "node" : "mint-1"
+    }
+  }, {
+    "segment_local_id" : "src-19",
+    "regions" : [ "authority-ranking" ],
+    "evidence" : [ {
+      "quote" : "you should not be the person holding the gate. That's not a comment on you, it's the structure",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Frames decision rights and gatekeeper veto power as structural separation of authority to protect against role conflict.",
+    "reported" : false,
+    "direction" : {
+      "verdict" : "mint",
+      "node" : "mint-1"
+    }
+  }, {
+    "segment_local_id" : "src-28",
+    "regions" : [ "authority-ranking" ],
+    "evidence" : [ {
+      "quote" : "I'll take that to the board as the open item rather than wait for them to find it.",
+      "kind" : "commitment-marker"
+    } ],
+    "why" : "Positions governance reporting proactively toward the board's oversight authority.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-29",
+    "regions" : [ "authority-ranking" ],
+    "evidence" : [ {
+      "quote" : "Bring them a hole you've named. They'll forgive a hole. They won't forgive finding one.",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Advises navigating fiduciary and hierarchical oversight through transparent upward escalation.",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-1", "src-2", "src-3", "src-4", "src-5", "src-6", "src-7", "src-8", "src-9", "src-10", "src-11", "src-12", "src-13", "src-14", "src-15", "src-16", "src-18", "src-20", "src-21", "src-22", "src-23", "src-24", "src-25", "src-26", "src-27" ],
+  "unmarked_rest" : false,
+  "mints" : [ {
+    "id" : "mint-1",
+    "name" : "DisinterestedGatekeeping",
+    "title" : "somebody who isn't the delivery lead owns the gate",
+    "frame" : "Does this relational structure remove gatekeeping authority from delivery-incentivized roles to prevent compromised approvals?",
+    "regions" : [ "authority-ranking" ]
+  } ],
+  "region_mints" : [ ]
+}
