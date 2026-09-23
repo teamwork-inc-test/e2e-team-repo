@@ -1,0 +1,80 @@
+{
+  "resolutions" : [ {
+    "commentary_local_id" : "src-1",
+    "phrase" : "narr:Position_SiteCutoverSequencingStrategy, narr:Expr_1HalyardWeekly20260908_12, narr:Expr_1HalyardWeekly20260908_8",
+    "verdict" : "confident",
+    "binding" : {
+      "referents" : [ {
+        "iri" : "Position_SiteCutoverSequencingStrategy",
+        "relation" : "see",
+        "why" : "Names the target position under review as context anchor."
+      }, {
+        "iri" : "Expr_1HalyardWeekly20260908_12",
+        "relation" : "see",
+        "why" : "Names the expression under review as context anchor."
+      }, {
+        "iri" : "Expr_1HalyardWeekly20260908_8",
+        "relation" : "see",
+        "why" : "Names the expression under review as context anchor."
+      } ],
+      "targets" : [ "CutoverStrategy", "Position_SiteCutoverSequencingStrategy" ]
+    },
+    "candidates" : null,
+    "why" : "Preamble explicitly identifies the position and expressions being reviewed in the graph.",
+    "consulted" : [ "Position_SiteCutoverSequencingStrategy", "Expr_1HalyardWeekly20260908_12", "Expr_1HalyardWeekly20260908_8", "CutoverStrategy" ]
+  }, {
+    "commentary_local_id" : "src-2",
+    "phrase" : "narr:Position_SiteCutoverSequencingStrategy",
+    "verdict" : "confident",
+    "binding" : {
+      "referents" : [ {
+        "iri" : "Position_SiteCutoverSequencingStrategy",
+        "relation" : "extends",
+        "why" : "Tina accepted the position extraction, affirming the settled sequencing framing."
+      } ],
+      "targets" : [ "CutoverStrategy", "Position_SiteCutoverSequencingStrategy" ]
+    },
+    "candidates" : null,
+    "why" : "Direct acceptance of the Position_SiteCutoverSequencingStrategy extraction.",
+    "consulted" : [ "Position_SiteCutoverSequencingStrategy", "CutoverStrategy" ]
+  }, {
+    "commentary_local_id" : "src-3",
+    "phrase" : "narr:Expr_1HalyardWeekly20260908_12",
+    "verdict" : "confident",
+    "binding" : {
+      "referents" : [ {
+        "iri" : "Expr_1HalyardWeekly20260908_12",
+        "relation" : "contradicts",
+        "why" : "Tanya requested changes, asserting the discussion weighed containment against local friction rather than settling it."
+      }, {
+        "iri" : "Position_SiteCutoverSequencingStrategy",
+        "relation" : "see",
+        "why" : "Expression sits under this position."
+      } ],
+      "targets" : [ "CutoverStrategy", "Position_SiteCutoverSequencingStrategy", "Narrative_ContainedPainOverUnboundedRisk" ]
+    },
+    "candidates" : null,
+    "why" : "Direct change request challenging the interpretation and settled framing of Expr_1HalyardWeekly20260908_12.",
+    "consulted" : [ "Expr_1HalyardWeekly20260908_12", "Position_SiteCutoverSequencingStrategy", "Narrative_ContainedPainOverUnboundedRisk", "CutoverStrategy" ]
+  }, {
+    "commentary_local_id" : "src-4",
+    "phrase" : "narr:Expr_1HalyardWeekly20260908_8",
+    "verdict" : "confident",
+    "binding" : {
+      "referents" : [ {
+        "iri" : "Expr_1HalyardWeekly20260908_8",
+        "relation" : "contradicts",
+        "why" : "Tanya rejected the expression, asserting the call settled on two parallel sites rather than single-site sequencing."
+      }, {
+        "iri" : "Position_SiteCutoverSequencingStrategy",
+        "relation" : "see",
+        "why" : "Expression belongs to this position."
+      } ],
+      "targets" : [ "CutoverStrategy", "Position_SiteCutoverSequencingStrategy", "Narrative_ContainedPainOverUnboundedRisk" ]
+    },
+    "candidates" : null,
+    "why" : "Explicit rejection of Expr_1HalyardWeekly20260908_8 with contradictory substantive claim.",
+    "consulted" : [ "Expr_1HalyardWeekly20260908_8", "Position_SiteCutoverSequencingStrategy", "Narrative_ContainedPainOverUnboundedRisk", "CutoverStrategy" ]
+  } ],
+  "unreferenced_commentary" : [ ]
+}
