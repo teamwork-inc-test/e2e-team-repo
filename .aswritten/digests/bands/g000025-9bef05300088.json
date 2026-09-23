@@ -11,11 +11,11 @@
       "n:Expr_1E2EDefaultRef1788774012301_1" : 1,
       "n:Expr_1E2EDefaultRef1788860066803_1" : 1,
       "n:Expr_1E2EDefaultRef1788946504627_1" : 1,
-      "n:Expr_2DeliveryRoutingRulingE2ESynthetic_1" : 2,
+      "n:Expr_2DeliveryRoutingRulingE2ESynthetic_1" : 1,
       "n:Expr_2DeliveryRoutingRulingE2ESynthetic_2" : 2,
       "n:Expr_2DeliveryRoutingRulingE2ESynthetic_3" : 2,
       "n:Expr_2DeliveryRoutingRulingE2ESynthetic_4" : 2,
-      "n:Expr_2DeliveryRoutingRulingE2ESynthetic_5" : 1
+      "n:Expr_2DeliveryRoutingRulingE2ESynthetic_5" : 2
     },
     "n:DesignTradeoffs" : {
       "n:Expr_2DeliveryRoutingRulingE2ESynthetic_2" : 2,
@@ -54,7 +54,7 @@
       "n:Position_ReactionDeliveryBundlingAndBatchingBoundary" : 2
     }
   },
-  "generated_from" : "60d1fbb092b43d809785b542db82af6b8369cac5",
+  "generated_from" : "9bef05300088f1f7e37ba41177a383ed5d568268",
   "hubs" : {
     "n:Actor_Tanya_Staging" : 2,
     "n:DesignTradeoffs" : 2,
@@ -75,7 +75,7 @@
     "n" : "https://aswritten.ai/narrative#",
     "o" : "https://aswritten.ai/ns/narrative#"
   },
-  "runs_sha" : "ed552062ad37758bd4512b5f4f8182868d323811",
-  "sittings" : 157,
+  "runs_sha" : "38e764965489ba0579633dd53c7db1cfce150f2d",
+  "sittings" : 163,
   "spec" : "fidelity-bands/1"
 }
