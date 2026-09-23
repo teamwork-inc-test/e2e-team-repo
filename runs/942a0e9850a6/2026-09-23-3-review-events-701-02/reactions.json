@@ -1,0 +1,127 @@
+{
+  "run_id" : "mp-eng-7ba127d5",
+  "gates" : [ {
+    "id" : "aswritten/clarify",
+    "run?" : true,
+    "gate" : 2,
+    "score" : 0.8,
+    "evidence" : [ "the call weighed it against local site friction and did not settle it", "we never agreed a single-site pilot — the call settled on two sites in parallel", "the variation section now carries a live dispute about what was decided", "Submitted by Claude on Tanya's behalf.", "sequencing remains unsettled due to site friction" ],
+    "why" : "The committed reconciliations encode the same decision stated two directly contradictory ways — sequencing 'did not settle' versus 'settled on two sites in parallel' — and the record's new contested status depends on which is right, compounded by both rationales being relayed ('Submitted by Claude on Tanya's behalf') rather than voiced, so the perspective now leans on a decision the conversation itself never answered."
+  }, {
+    "id" : "aswritten/refract",
+    "run?" : true,
+    "gate" : 2,
+    "reason" : "predicate only"
+  }, {
+    "id" : "aswritten/review",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "skill off"
+  }, {
+    "id" : "aswritten/riff",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "requires perspective, expand"
+  } ],
+  "spend" : {
+    "cost_usd" : 0.021585,
+    "passes" : [ {
+      "pass" : "reaction:_score",
+      "llm_calls" : 1,
+      "cost_usd" : 0.0038035
+    }, {
+      "pass" : "reaction:clarify",
+      "llm_calls" : 1,
+      "cost_usd" : 0.0063181
+    }, {
+      "pass" : "reaction:refract",
+      "llm_calls" : 1,
+      "cost_usd" : 0.01146365
+    } ]
+  },
+  "bundle" : {
+    "items" : 2,
+    "audience" : "only-me",
+    "recipients" : 1,
+    "moments_cached" : true,
+    "sent" : [ {
+      "items" : [ {
+        "kind" : "question",
+        "skill" : "aswritten/clarify",
+        "audience" : "speakers"
+      }, {
+        "kind" : "note",
+        "skill" : "aswritten/refract",
+        "audience" : "speakers"
+      } ],
+      "handle" : "tanya+staging@aswritten.ai",
+      "channel" : "email",
+      "status" : "sent",
+      "front_message_id" : "msg_3di775bc",
+      "front_conversation_id" : "cnv_1pglggbs"
+    } ]
+  },
+  "policy" : {
+    "mode" : "on",
+    "budget_per_run_usd" : 0.25,
+    "channels" : [ "email", "sms" ]
+  },
+  "jobs" : [ {
+    "skill" : "aswritten/clarify",
+    "status" : "ok",
+    "gate" : {
+      "score" : 0.8,
+      "evidence" : [ "the call weighed it against local site friction and did not settle it", "we never agreed a single-site pilot — the call settled on two sites in parallel", "the variation section now carries a live dispute about what was decided", "Submitted by Claude on Tanya's behalf.", "sequencing remains unsettled due to site friction" ],
+      "why" : "The committed reconciliations encode the same decision stated two directly contradictory ways — sequencing 'did not settle' versus 'settled on two sites in parallel' — and the record's new contested status depends on which is right, compounded by both rationales being relayed ('Submitted by Claude on Tanya's behalf') rather than voiced, so the perspective now leans on a decision the conversation itself never answered."
+    },
+    "output" : {
+      "questions" : [ {
+        "to" : "Tanya TeamOwner",
+        "quote" : "the call weighed it against local site friction and did not settle it",
+        "question" : "Your rejection in this same review says \"the call settled on two sites in parallel\" — did the call settle the sequencing or not, and what exactly was the \"it\" that stayed open?",
+        "because" : "The record read this comment as the sequencing staying open while also recording your other comment as a settled two-site-parallel call, and the updated cutover-strategy take leans on both readings at once."
+      } ]
+    },
+    "landing" : {
+      "landed" : "message"
+    },
+    "ms" : 72641
+  }, {
+    "skill" : "aswritten/refract",
+    "status" : "ok",
+    "gate" : { },
+    "output" : {
+      "lens" : {
+        "shift" : "The one-site-at-a-time cutover was never actually agreed: Tanya's review rejects the record's sequential commitment — the call settled on two sites in parallel — so the cutover decision we've been reading as landed is now a disputed record.",
+        "affected" : [ {
+          "document" : ".aswritten/memories/2026-09-23-1-halyard-weekly-2026-09-08.md",
+          "section" : "the sequential commitment (Expr_1HalyardWeekly20260908_8)",
+          "how" : "The agreement Tanya rejects as never-made; it now reads as a mis-statement of a call that settled two sites in parallel."
+        }, {
+          "document" : ".aswritten/memories/2026-09-23-1-halyard-weekly-2026-09-08.md",
+          "section" : "the read-back (Expr_1HalyardWeekly20260908_42)",
+          "how" : "It currently seals the one-site-at-a-time plan as settled; it now seals a decision that was never agreed and needs the correction or the dispute attached."
+        } ],
+        "other_lenses" : [ "Containment didn't settle the sequencing — Tanya's requested-changes act on the containment passage (Expr_1HalyardWeekly20260908_12): 'the call weighed it against local site friction and did not settle it' — removes the reading that the containment decision settled the rollout order, and taken with the rejection suggests the call settled parallel two-site implementation while leaving the detailed order open.", "Tina's acceptance ratifies the soak-and-sequencing position — the stance hardened into an accepted position without a new word from her — though it arrived relayed, so its provenance is part of the record too." ],
+        "drew_on" : [ "document — Tanya's rejection rationale (Expr_3ReviewEvents70102_4): 'we never agreed a single-site pilot — the call settled on two sites in parallel'", "document — Tanya's requested-changes rationale (Expr_3ReviewEvents70102_3): 'this reads as though containment settled the sequencing; the call weighed it against local site friction and did not settle it'", "committed.recon — Recon_3ReviewEvents70102_3 (rejection contradicts Expr_1HalyardWeekly20260908_8) and Recon_3ReviewEvents70102_2 (requested changes contradict Expr_1HalyardWeekly20260908_12)", "narrated.hub_reactions — Position_SiteCutoverSequencingStrategy ('can no longer be narrated as landed; a live dispute about what was decided'), Narrative_ContainedPainOverUnboundedRisk ('settled status is now contested at the review layer'), CutoverStrategy (arc: steering-group pressure → sequential commitment → read-back)", "narrated.delta_line — 'Reframes the site cutover strategy by rejecting a single-site pilot in favor of parallel two-site implementation'", "committed.tx — VecConviction_3ReviewEvents70102_4 / VecPower_3ReviewEvents70102_4 (rejection performed as veto citing the settled call)" ],
+        "quote" : "we never agreed a single-site pilot — the call settled on two sites in parallel",
+        "approaches" : [ "how we account for the cutover sequencing — disputed, not settled", "the weight the containment rationale can carry in the record", "downstream planning that assumed one site at a time (the soak, the framing of the isolation rules)" ],
+        "speaker" : "Tanya",
+        "message" : "Here's the shift: the one-site-at-a-time cutover was never actually agreed. Tanya's review rejects the record's sequential commitment outright — \"we never agreed a single-site pilot — the call settled on two sites in parallel\" — so what we've been reading as a landed decision is now a disputed record. (The rejection was submitted by Claude on Tanya's behalf, so the correction's own provenance is part of the record too.)\n\nIt changes how we approach the cutover sequencing account — disputed, not settled — the weight the containment rationale can carry in the record, and any planning downstream that assumed one site at a time: the soak, the framing of the isolation rules.\n\nCheck it on one passage — .aswritten/memories/2026-09-23-1-halyard-weekly-2026-09-08.md, the sequential commitment (\"one site at a time\"):\n\nAs written: under steering-group pressure the meeting commits to bringing sites over one at a time, and the read-back later in the same record repeats the plan back as settled, two-week soak attached. (No section text came through with this run, so this is the passage as the running account holds it — tell me if it reads differently.)\n\nWith the rejection in hand: the section no longer states the decision of record; it misstates it. What the call settled, per Tanya, was two sites in parallel — the single-site pilot was never agreed — so the commitment reads as a mis-statement awaiting correction, and the read-back seals a decision that wasn't made. Until that's corrected, the passage carries a live dispute, not a landed plan.\n\nRight lens?\n\nWhere else this lands:\n• .aswritten/memories/2026-09-23-1-halyard-weekly-2026-09-08.md — the sequential commitment (Expr_1HalyardWeekly20260908_8): the agreement Tanya rejects as never-made; it now reads as a mis-statement of a call that settled two sites in parallel.\n• Same file — the read-back (Expr_1HalyardWeekly20260908_42): it currently seals the one-site-at-a-time plan; it now seals a decision that was never agreed and needs the correction or the dispute attached.\n\nBeyond the weekly record: the cutover account told as pressure → commitment → read-back can no longer be told as landed, and the ops-readiness arithmetic constraint now sits in a disputed mainline rather than a settled basis. No other documents came through with this run, so I'm naming only what the review acts pin down rather than guessing at files.\n\nTwo more shifts queued behind this one, each worth its own pass: (1) Tanya's companion correction — \"the call weighed it against local site friction and did not settle it\" — removes the reading that containment settled the sequencing (it targets the containment passage, Expr_1HalyardWeekly20260908_12); taken together the two acts suggest the call settled parallel two-site implementation while leaving the detailed order open. (2) Tina's acceptance ratifies the soak-and-sequencing position — the stance hardened into an accepted position without a new word from her.\n\nWant me to apply this across the weekly record's two passages?",
+        "eye_chart" : {
+          "document" : ".aswritten/memories/2026-09-23-1-halyard-weekly-2026-09-08.md",
+          "section" : "the sequential commitment — one site at a time (Expr_1HalyardWeekly20260908_8)",
+          "as_written" : "Under steering-group pressure the meeting commits to bringing sites over one at a time, and the read-back later in the same record repeats the plan back as settled, two-week soak attached. (No section text came through with this run, so this is the passage as the running account holds it — tell me if it reads differently.)",
+          "through_the_lens" : "The section no longer states the decision of record — it misstates it. What the call settled, per Tanya, was two sites in parallel; the single-site pilot was never agreed. The commitment reads as a mis-statement awaiting correction, and the read-back seals a decision that wasn't made: a live dispute, not a landed plan."
+        }
+      }
+    },
+    "landing" : {
+      "landed" : "message"
+    },
+    "ms" : 121054
+  } ],
+  "stream" : "fixtures/701",
+  "at" : "2026-09-23T01:59:16.355988914Z",
+  "live_run_id" : "942a0e9850a6"
+}
