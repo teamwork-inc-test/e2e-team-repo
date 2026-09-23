@@ -1,0 +1,1109 @@
+{
+  "doc" : {
+    "title" : "Tess's Channel-Strategy Feedback and Archetype Reclassification (Apr 23, 2026)",
+    "date_stated" : "2026-04-23",
+    "actors_present" : [ "claude-opus-5-5", "Tess Guest", "Tanya TeamOwner" ]
+  },
+  "footing_cases" : [ {
+    "id" : "fc-1",
+    "animator" : "claude-opus-5-5",
+    "author" : "claude-opus-5-5",
+    "principal" : null,
+    "when" : "Editorial prose composed by Claude summarizing background, synthesis, and operational takeaways"
+  }, {
+    "id" : "fc-2",
+    "animator" : "claude-opus-5-5",
+    "author" : "claude-opus-5-5",
+    "principal" : "Tess Guest",
+    "when" : "Reported speech explicitly naming Tess with a speech verb inside the sentence"
+  }, {
+    "id" : "fc-3",
+    "animator" : "claude-opus-5-5",
+    "author" : "claude-opus-5-5",
+    "principal" : "Tanya TeamOwner",
+    "when" : "Reported speech explicitly naming Tanya with a speech verb inside the sentence"
+  } ],
+  "segments" : [ {
+    "local_id" : "src-1",
+    "exact" : "Written up by Claude (claude-opus-5-5), the assistant in Tanya Team's session, from Tanya's account of her conversation with Tess Guest. Tess's words are as Tanya relayed them; Tanya's are verbatim.",
+    "actor" : "claude-opus-5-5",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Preamble / provenance"
+    },
+    "footing_case" : "fc-1",
+    "footing" : {
+      "animator" : "claude-opus-5-5",
+      "author" : "claude-opus-5-5",
+      "principal" : null
+    }
+  }, {
+    "local_id" : "src-2",
+    "exact" : "Morning conversation with Tess.",
+    "actor" : "claude-opus-5-5",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Context"
+    },
+    "footing_case" : "fc-1",
+    "footing" : {
+      "animator" : "claude-opus-5-5",
+      "author" : "claude-opus-5-5",
+      "principal" : null
+    }
+  }, {
+    "local_id" : "src-3",
+    "exact" : "Tanya had just learned that seven Twilio toll-free numbers she'd submitted for verification all came back rejected — the stated reasons pointed at the website not being active (likely a bad link) and the opt-in form requirement (also likely a bad link).",
+    "actor" : "claude-opus-5-5",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Context"
+    },
+    "footing_case" : "fc-1",
+    "footing" : {
+      "animator" : "claude-opus-5-5",
+      "author" : "claude-opus-5-5",
+      "principal" : null
+    }
+  }, {
+    "local_id" : "src-4",
+    "exact" : "The numbers can be re-submitted and are back in the review queue.",
+    "actor" : "claude-opus-5-5",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Context"
+    },
+    "footing_case" : "fc-1",
+    "footing" : {
+      "animator" : "claude-opus-5-5",
+      "author" : "claude-opus-5-5",
+      "principal" : null
+    }
+  }, {
+    "local_id" : "src-5",
+    "exact" : "Separately, Tanya had been asking whether SMS is actually the right demo strength for beta users like Tess and Pat.",
+    "actor" : "claude-opus-5-5",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Context"
+    },
+    "footing_case" : "fc-3",
+    "footing" : {
+      "animator" : "claude-opus-5-5",
+      "author" : "claude-opus-5-5",
+      "principal" : "Tanya TeamOwner"
+    }
+  }, {
+    "local_id" : "src-6",
+    "exact" : "She surfaced that question with Tess directly.",
+    "actor" : "claude-opus-5-5",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Context"
+    },
+    "footing_case" : "fc-1",
+    "footing" : {
+      "animator" : "claude-opus-5-5",
+      "author" : "claude-opus-5-5",
+      "principal" : null
+    }
+  }, {
+    "local_id" : "src-7",
+    "exact" : "Tess and Tanya both know Pat personally.",
+    "actor" : "claude-opus-5-5",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Context"
+    },
+    "footing_case" : "fc-1",
+    "footing" : {
+      "animator" : "claude-opus-5-5",
+      "author" : "claude-opus-5-5",
+      "principal" : null
+    }
+  }, {
+    "local_id" : "src-8",
+    "exact" : "Tess's response, reconstructed from Tanya's summary:",
+    "actor" : "claude-opus-5-5",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Tess's Channel Insight: SMS Is Spam-Coded in Low-Trust Contexts"
+    },
+    "footing_case" : "fc-1",
+    "footing" : {
+      "animator" : "claude-opus-5-5",
+      "author" : "claude-opus-5-5",
+      "principal" : null
+    }
+  }, {
+    "local_id" : "src-9",
+    "exact" : "Text message, in certain contexts, is absolutely the right move. But in a lot of skeptical or lower-trust contexts, texting is so associated with spam now that requiring someone to text might actually be a real downside. People might not want to give their number.",
+    "actor" : "Tess Guest",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Tess's Channel Insight: SMS Is Spam-Coded in Low-Trust Contexts"
+    },
+    "how" : [ {
+      "span" : "Tess's response, reconstructed from Tanya's summary:",
+      "side" : "supply"
+    } ],
+    "footing_case" : null
+  }, {
+    "local_id" : "src-10",
+    "exact" : "The SMS-feels-honest-not-bot framing holds when the sender is already trusted.",
+    "actor" : "claude-opus-5-5",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Tess's Channel Insight: SMS Is Spam-Coded in Low-Trust Contexts"
+    },
+    "footing_case" : "fc-1",
+    "footing" : {
+      "animator" : "claude-opus-5-5",
+      "author" : "claude-opus-5-5",
+      "principal" : null
+    }
+  }, {
+    "local_id" : "src-11",
+    "exact" : "It flips in evaluator contexts — SMS is *more* suspicious because spam trained people to distrust unexpected texts.",
+    "actor" : "claude-opus-5-5",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Tess's Channel Insight: SMS Is Spam-Coded in Low-Trust Contexts"
+    },
+    "footing_case" : "fc-1",
+    "footing" : {
+      "animator" : "claude-opus-5-5",
+      "author" : "claude-opus-5-5",
+      "principal" : null
+    }
+  }, {
+    "local_id" : "src-12",
+    "exact" : "Tanya's prior claim that SMS removes the \"bot\" mental frame is context-dependent, not universal.",
+    "actor" : "claude-opus-5-5",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Tess's Channel Insight: SMS Is Spam-Coded in Low-Trust Contexts"
+    },
+    "footing_case" : "fc-1",
+    "footing" : {
+      "animator" : "claude-opus-5-5",
+      "author" : "claude-opus-5-5",
+      "principal" : null
+    }
+  }, {
+    "local_id" : "src-13",
+    "exact" : "The Twilio rejection context is load-bearing here, not incidental.",
+    "actor" : "claude-opus-5-5",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Tess's Channel Insight: SMS Is Spam-Coded in Low-Trust Contexts"
+    },
+    "footing_case" : "fc-1",
+    "footing" : {
+      "animator" : "claude-opus-5-5",
+      "author" : "claude-opus-5-5",
+      "principal" : null
+    }
+  }, {
+    "local_id" : "src-14",
+    "exact" : "Seven numbers, rejected en masse, for reasons adjacent to consent-form hygiene, with each beta user requiring their own verification path.",
+    "actor" : "claude-opus-5-5",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Tess's Channel Insight: SMS Is Spam-Coded in Low-Trust Contexts"
+    },
+    "footing_case" : "fc-1",
+    "footing" : {
+      "animator" : "claude-opus-5-5",
+      "author" : "claude-opus-5-5",
+      "principal" : null
+    }
+  }, {
+    "local_id" : "src-15",
+    "exact" : "The operational cost of the SMS onramp has been absorbed, not priced.",
+    "actor" : "claude-opus-5-5",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Tess's Channel Insight: SMS Is Spam-Coded in Low-Trust Contexts"
+    },
+    "footing_case" : "fc-1",
+    "footing" : {
+      "animator" : "claude-opus-5-5",
+      "author" : "claude-opus-5-5",
+      "principal" : null
+    }
+  }, {
+    "local_id" : "src-16",
+    "exact" : "Tess is naming the deeper version: even when verification succeeds, the channel carries a trust tax in evaluator-grade conversations.",
+    "actor" : "claude-opus-5-5",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Tess's Channel Insight: SMS Is Spam-Coded in Low-Trust Contexts"
+    },
+    "footing_case" : "fc-2",
+    "footing" : {
+      "animator" : "claude-opus-5-5",
+      "author" : "claude-opus-5-5",
+      "principal" : "Tess Guest"
+    }
+  }, {
+    "local_id" : "src-17",
+    "exact" : "Verbatim from Tess (as relayed by Tanya):",
+    "actor" : "claude-opus-5-5",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Tess's Proposal: Chat Widget on a Web Form"
+    },
+    "footing_case" : "fc-1",
+    "footing" : {
+      "animator" : "claude-opus-5-5",
+      "author" : "claude-opus-5-5",
+      "principal" : null
+    }
+  }, {
+    "local_id" : "src-18",
+    "exact" : "Can you just give me a chat widget on a web form?",
+    "actor" : "Tess Guest",
+    "act" : "question",
+    "circumstance" : {
+      "context" : "Tess's Proposal: Chat Widget on a Web Form"
+    },
+    "how" : [ {
+      "span" : "Verbatim from Tess (as relayed by Tanya):",
+      "side" : "supply"
+    } ],
+    "footing_case" : null
+  }, {
+    "local_id" : "src-19",
+    "exact" : "Tanya's architectural response — a sketch, not yet a decision:",
+    "actor" : "claude-opus-5-5",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Tess's Proposal: Chat Widget on a Web Form"
+    },
+    "footing_case" : "fc-1",
+    "footing" : {
+      "animator" : "claude-opus-5-5",
+      "author" : "claude-opus-5-5",
+      "principal" : null
+    }
+  }, {
+    "local_id" : "src-20",
+    "exact" : "Front already has a chat widget, so the integration exists.",
+    "actor" : "claude-opus-5-5",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Tess's Proposal: Chat Widget on a Web Form"
+    },
+    "footing_case" : "fc-1",
+    "footing" : {
+      "animator" : "claude-opus-5-5",
+      "author" : "claude-opus-5-5",
+      "principal" : null
+    }
+  }, {
+    "local_id" : "src-21",
+    "exact" : "Inboxes may still need to be manually created (open question), but channels under an inbox should be automatable.",
+    "actor" : "claude-opus-5-5",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Tess's Proposal: Chat Widget on a Web Form"
+    },
+    "footing_case" : "fc-1",
+    "footing" : {
+      "animator" : "claude-opus-5-5",
+      "author" : "claude-opus-5-5",
+      "principal" : null
+    }
+  }, {
+    "local_id" : "src-22",
+    "exact" : "The proposal is one widget per share ID — provisioning a channel and widget at share-creation time means each share has its own conversation surface.",
+    "actor" : "claude-opus-5-5",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Tess's Proposal: Chat Widget on a Web Form"
+    },
+    "footing_case" : "fc-1",
+    "footing" : {
+      "animator" : "claude-opus-5-5",
+      "author" : "claude-opus-5-5",
+      "principal" : null
+    }
+  }, {
+    "local_id" : "src-23",
+    "exact" : "Multiple widgets alive at once makes comparison across share IDs and branches natural.",
+    "actor" : "claude-opus-5-5",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Tess's Proposal: Chat Widget on a Web Form"
+    },
+    "footing_case" : "fc-1",
+    "footing" : {
+      "animator" : "claude-opus-5-5",
+      "author" : "claude-opus-5-5",
+      "principal" : null
+    }
+  }, {
+    "local_id" : "src-24",
+    "exact" : "A managed aswritten-org inbox holds all these conversations, and conversations do not get assigned to anyone by default, including Tanya.",
+    "actor" : "claude-opus-5-5",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Tess's Proposal: Chat Widget on a Web Form"
+    },
+    "footing_case" : "fc-1",
+    "footing" : {
+      "animator" : "claude-opus-5-5",
+      "author" : "claude-opus-5-5",
+      "principal" : null
+    }
+  }, {
+    "local_id" : "src-25",
+    "exact" : "No default-assignment avoids the \"every new conversation lands on the founder\" failure mode.",
+    "actor" : "claude-opus-5-5",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Tess's Proposal: Chat Widget on a Web Form"
+    },
+    "footing_case" : "fc-1",
+    "footing" : {
+      "animator" : "claude-opus-5-5",
+      "author" : "claude-opus-5-5",
+      "principal" : null
+    }
+  }, {
+    "local_id" : "src-26",
+    "exact" : "Tanya's conclusion: lower lift for the demo, lower lift for Tess and others in her category, potentially much more useful.",
+    "actor" : "claude-opus-5-5",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Tess's Proposal: Chat Widget on a Web Form"
+    },
+    "footing_case" : "fc-3",
+    "footing" : {
+      "animator" : "claude-opus-5-5",
+      "author" : "claude-opus-5-5",
+      "principal" : "Tanya TeamOwner"
+    }
+  }, {
+    "local_id" : "src-27",
+    "exact" : "Two prior corrections in the perspective already walked the \"SMS is the product\" framing back from its strongest form — the SMS-first product is an overstatement, it's an open product idea, and the consumer motion is gated on understanding usage patterns and cost-per-behavior.",
+    "actor" : "claude-opus-5-5",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Narrowing the SMS Framing, Not Killing It"
+    },
+    "footing_case" : "fc-1",
+    "footing" : {
+      "animator" : "claude-opus-5-5",
+      "author" : "claude-opus-5-5",
+      "principal" : null
+    }
+  }, {
+    "local_id" : "src-28",
+    "exact" : "Today's insight narrows it further.",
+    "actor" : "claude-opus-5-5",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Narrowing the SMS Framing, Not Killing It"
+    },
+    "footing_case" : "fc-1",
+    "footing" : {
+      "animator" : "claude-opus-5-5",
+      "author" : "claude-opus-5-5",
+      "principal" : null
+    }
+  }, {
+    "local_id" : "src-29",
+    "exact" : "SMS remains viable for high-trust, post-consent, consumer-viral contexts — the channel works where the sender is already welcome.",
+    "actor" : "claude-opus-5-5",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Narrowing the SMS Framing, Not Killing It"
+    },
+    "footing_case" : "fc-1",
+    "footing" : {
+      "animator" : "claude-opus-5-5",
+      "author" : "claude-opus-5-5",
+      "principal" : null
+    }
+  }, {
+    "local_id" : "src-30",
+    "exact" : "A chat widget on the share page is the right fit for evaluator, skeptic, first-touch, and demo contexts — no number, no verification, no opt-in form, no spam frame.",
+    "actor" : "claude-opus-5-5",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Narrowing the SMS Framing, Not Killing It"
+    },
+    "footing_case" : "fc-1",
+    "footing" : {
+      "animator" : "claude-opus-5-5",
+      "author" : "claude-opus-5-5",
+      "principal" : null
+    }
+  }, {
+    "local_id" : "src-31",
+    "exact" : "The share page itself is the trust context, so the widget inherits it.",
+    "actor" : "claude-opus-5-5",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Narrowing the SMS Framing, Not Killing It"
+    },
+    "footing_case" : "fc-1",
+    "footing" : {
+      "animator" : "claude-opus-5-5",
+      "author" : "claude-opus-5-5",
+      "principal" : null
+    }
+  }, {
+    "local_id" : "src-32",
+    "exact" : "This is a scoping, not a replacement.",
+    "actor" : "claude-opus-5-5",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Narrowing the SMS Framing, Not Killing It"
+    },
+    "footing_case" : "fc-1",
+    "footing" : {
+      "animator" : "claude-opus-5-5",
+      "author" : "claude-opus-5-5",
+      "principal" : null
+    }
+  }, {
+    "local_id" : "src-33",
+    "exact" : "The toll-free verification cost per beta user stops being load-bearing for demo strategy, but SMS stays alive in the contexts where it actually works.",
+    "actor" : "claude-opus-5-5",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Narrowing the SMS Framing, Not Killing It"
+    },
+    "footing_case" : "fc-1",
+    "footing" : {
+      "animator" : "claude-opus-5-5",
+      "author" : "claude-opus-5-5",
+      "principal" : null
+    }
+  }, {
+    "local_id" : "src-34",
+    "exact" : "The perspective currently classifies Tess as a Knowledge-Rich Consumer (Archetype C2) and uses her as the exemplar for the Trigger-1 solo-professional archetype.",
+    "actor" : "claude-opus-5-5",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Archetype Reclassification: Tess is a Knowledge Packager"
+    },
+    "footing_case" : "fc-1",
+    "footing" : {
+      "animator" : "claude-opus-5-5",
+      "author" : "claude-opus-5-5",
+      "principal" : null
+    }
+  }, {
+    "local_id" : "src-35",
+    "exact" : "But Tess creates trainings.",
+    "actor" : "claude-opus-5-5",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Archetype Reclassification: Tess is a Knowledge Packager"
+    },
+    "footing_case" : "fc-1",
+    "footing" : {
+      "animator" : "claude-opus-5-5",
+      "author" : "claude-opus-5-5",
+      "principal" : null
+    }
+  }, {
+    "local_id" : "src-36",
+    "exact" : "Her operational goal for the next six months — already captured in the perspective — is to generalize and prepackage her existing training content for scalability.",
+    "actor" : "claude-opus-5-5",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Archetype Reclassification: Tess is a Knowledge Packager"
+    },
+    "footing_case" : "fc-1",
+    "footing" : {
+      "animator" : "claude-opus-5-5",
+      "author" : "claude-opus-5-5",
+      "principal" : null
+    }
+  }, {
+    "local_id" : "src-37",
+    "exact" : "That is the Knowledge Packager motion, identical in structure to how Pat Quill is described (\"has expertise they want to distribute\").",
+    "actor" : "claude-opus-5-5",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Archetype Reclassification: Tess is a Knowledge Packager"
+    },
+    "footing_case" : "fc-1",
+    "footing" : {
+      "animator" : "claude-opus-5-5",
+      "author" : "claude-opus-5-5",
+      "principal" : null
+    }
+  }, {
+    "local_id" : "src-38",
+    "exact" : "Tess is a Knowledge Packager.",
+    "actor" : "claude-opus-5-5",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Archetype Reclassification: Tess is a Knowledge Packager"
+    },
+    "footing_case" : "fc-1",
+    "footing" : {
+      "animator" : "claude-opus-5-5",
+      "author" : "claude-opus-5-5",
+      "principal" : null
+    }
+  }, {
+    "local_id" : "src-39",
+    "exact" : "The underlying error: the typology mixed two orthogonal axes — AI-fluency (tinkerer vs consumer) and distribution-motion (packager vs solo-practitioner) — and classified Tess on fluency only.",
+    "actor" : "claude-opus-5-5",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Archetype Reclassification: Tess is a Knowledge Packager"
+    },
+    "footing_case" : "fc-1",
+    "footing" : {
+      "animator" : "claude-opus-5-5",
+      "author" : "claude-opus-5-5",
+      "principal" : null
+    }
+  }, {
+    "local_id" : "src-40",
+    "exact" : "When Tess told Tanya she was \"similar to Pat and some other folks,\" she was naming her distribution motion, not her AI-fluency profile.",
+    "actor" : "claude-opus-5-5",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Archetype Reclassification: Tess is a Knowledge Packager"
+    },
+    "footing_case" : "fc-2",
+    "footing" : {
+      "animator" : "claude-opus-5-5",
+      "author" : "claude-opus-5-5",
+      "principal" : "Tess Guest"
+    }
+  }, {
+    "local_id" : "src-41",
+    "exact" : "Pat and Tess are both Knowledge Packagers; they differ on other axes (Pat has HIPAA requirements; Tess does not).",
+    "actor" : "claude-opus-5-5",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Archetype Reclassification: Tess is a Knowledge Packager"
+    },
+    "footing_case" : "fc-1",
+    "footing" : {
+      "animator" : "claude-opus-5-5",
+      "author" : "claude-opus-5-5",
+      "principal" : null
+    }
+  }, {
+    "local_id" : "src-42",
+    "exact" : "Tess and Tanya both know Pat personally — the comparison is grounded in direct familiarity, not abstraction.",
+    "actor" : "claude-opus-5-5",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Archetype Reclassification: Tess is a Knowledge Packager"
+    },
+    "footing_case" : "fc-1",
+    "footing" : {
+      "animator" : "claude-opus-5-5",
+      "author" : "claude-opus-5-5",
+      "principal" : null
+    }
+  }, {
+    "local_id" : "src-43",
+    "exact" : "Tanya's exact framing:",
+    "actor" : "claude-opus-5-5",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "The Commercial-Status Correction"
+    },
+    "footing_case" : "fc-1",
+    "footing" : {
+      "animator" : "claude-opus-5-5",
+      "author" : "claude-opus-5-5",
+      "principal" : null
+    }
+  }, {
+    "local_id" : "src-44",
+    "exact" : "She's on Individual because she's my fiancé and beta tester, not a sales target — although she fits the profile.",
+    "actor" : "Tanya TeamOwner",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "The Commercial-Status Correction"
+    },
+    "how" : [ {
+      "span" : "Tanya's exact framing:",
+      "side" : "supply"
+    } ],
+    "footing_case" : null
+  }, {
+    "local_id" : "src-45",
+    "exact" : "Tess's Individual-tier placement is a relational arrangement, not a sales-validated pricing decision.",
+    "actor" : "claude-opus-5-5",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "The Commercial-Status Correction"
+    },
+    "footing_case" : "fc-1",
+    "footing" : {
+      "animator" : "claude-opus-5-5",
+      "author" : "claude-opus-5-5",
+      "principal" : null
+    }
+  }, {
+    "local_id" : "src-46",
+    "exact" : "Three facts that the perspective has collapsed into one classification should be held separately:",
+    "actor" : "claude-opus-5-5",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "The Commercial-Status Correction"
+    },
+    "footing_case" : "fc-1",
+    "footing" : {
+      "animator" : "claude-opus-5-5",
+      "author" : "claude-opus-5-5",
+      "principal" : null
+    }
+  }, {
+    "local_id" : "src-47",
+    "exact" : "Her archetype by work motion is Knowledge Packager. Her commercial status is \"relational\" — fiancé and beta tester, on the Individual tier by arrangement, not by sales logic. Her role in the business is primary beta tester — the highest-volume source of product feedback in the company.",
+    "actor" : "claude-opus-5-5",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "The Commercial-Status Correction"
+    },
+    "footing_case" : "fc-1",
+    "footing" : {
+      "animator" : "claude-opus-5-5",
+      "author" : "claude-opus-5-5",
+      "principal" : null
+    }
+  }, {
+    "local_id" : "src-48",
+    "exact" : "The implications follow from separating these.",
+    "actor" : "claude-opus-5-5",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "The Commercial-Status Correction"
+    },
+    "footing_case" : "fc-1",
+    "footing" : {
+      "animator" : "claude-opus-5-5",
+      "author" : "claude-opus-5-5",
+      "principal" : null
+    }
+  }, {
+    "local_id" : "src-49",
+    "exact" : "Tess doesn't validate Individual-tier pricing, because she isn't a prospect — using her as the Trigger-1 exemplar implies \"here's what an Individual-tier user looks like and pays,\" and she doesn't pay.",
+    "actor" : "claude-opus-5-5",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "The Commercial-Status Correction"
+    },
+    "footing_case" : "fc-1",
+    "footing" : {
+      "animator" : "claude-opus-5-5",
+      "author" : "claude-opus-5-5",
+      "principal" : null
+    }
+  }, {
+    "local_id" : "src-50",
+    "exact" : "Tess doesn't invalidate Professional-tier pricing either — her non-payment reflects relationship, not rejected conversion.",
+    "actor" : "claude-opus-5-5",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "The Commercial-Status Correction"
+    },
+    "footing_case" : "fc-1",
+    "footing" : {
+      "animator" : "claude-opus-5-5",
+      "author" : "claude-opus-5-5",
+      "principal" : null
+    }
+  }, {
+    "local_id" : "src-51",
+    "exact" : "And Tess's actual role as primary beta tester is absent from the perspective today.",
+    "actor" : "claude-opus-5-5",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "The Commercial-Status Correction"
+    },
+    "footing_case" : "fc-1",
+    "footing" : {
+      "animator" : "claude-opus-5-5",
+      "author" : "claude-opus-5-5",
+      "principal" : null
+    }
+  }, {
+    "local_id" : "src-52",
+    "exact" : "The \"SMB beta cohort\" entry names Sol, Pat, Marlo K, Loomhouse Co-op — but not Tess, despite her being the highest-volume feedback source.",
+    "actor" : "claude-opus-5-5",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "The Commercial-Status Correction"
+    },
+    "footing_case" : "fc-1",
+    "footing" : {
+      "animator" : "claude-opus-5-5",
+      "author" : "claude-opus-5-5",
+      "principal" : null
+    }
+  }, {
+    "local_id" : "src-53",
+    "exact" : "Tanya's framing of that role:",
+    "actor" : "claude-opus-5-5",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "The Commercial-Status Correction"
+    },
+    "footing_case" : "fc-1",
+    "footing" : {
+      "animator" : "claude-opus-5-5",
+      "author" : "claude-opus-5-5",
+      "principal" : null
+    }
+  }, {
+    "local_id" : "src-54",
+    "exact" : "The vast majority of her feedback is verbal and I just implement. She's the single most prolific beta tester and has had more feedback than anyone.",
+    "actor" : "Tanya TeamOwner",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "The Commercial-Status Correction"
+    },
+    "how" : [ {
+      "span" : "Tanya's framing of that role:",
+      "side" : "supply"
+    } ],
+    "footing_case" : null
+  }, {
+    "local_id" : "src-55",
+    "exact" : "The March 4 Wren onboarding session contains product feedback from Tess that was captured in the transcript but not surfaced when the memory was framed as \"Wren's domain knowledge.\"",
+    "actor" : "claude-opus-5-5",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Retroactively Surfaced: March 4 Onboarding UX Feedback"
+    },
+    "footing_case" : "fc-1",
+    "footing" : {
+      "animator" : "claude-opus-5-5",
+      "author" : "claude-opus-5-5",
+      "principal" : null
+    }
+  }, {
+    "local_id" : "src-56",
+    "exact" : "The feedback is in the source material and belongs in Tess's beta-tester record.",
+    "actor" : "claude-opus-5-5",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Retroactively Surfaced: March 4 Onboarding UX Feedback"
+    },
+    "footing_case" : "fc-1",
+    "footing" : {
+      "animator" : "claude-opus-5-5",
+      "author" : "claude-opus-5-5",
+      "principal" : null
+    }
+  }, {
+    "local_id" : "src-57",
+    "exact" : "When Tess got stuck after installing the connector and didn't know what to say, Tanya named the pattern:",
+    "actor" : "claude-opus-5-5",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Retroactively Surfaced: March 4 Onboarding UX Feedback / Tool-language critique [~59:59–01:05:03]"
+    },
+    "footing_case" : "fc-1",
+    "footing" : {
+      "animator" : "claude-opus-5-5",
+      "author" : "claude-opus-5-5",
+      "principal" : null
+    }
+  }, {
+    "local_id" : "src-58",
+    "exact" : "Feel like this is actually one of the hardest parts about this thing. Someone's like, what do I say now? And I'm like, I don't know, like, kind of anything.",
+    "actor" : "Tanya TeamOwner",
+    "act" : "expressive",
+    "circumstance" : {
+      "context" : "Retroactively Surfaced: March 4 Onboarding UX Feedback / Tool-language critique [~59:59–01:05:03]"
+    },
+    "how" : [ {
+      "span" : "When Tess got stuck after installing the connector and didn't know what to say, Tanya named the pattern:",
+      "side" : "supply"
+    } ],
+    "footing_case" : null
+  }, {
+    "local_id" : "src-59",
+    "exact" : "Tess's response prescribed the fix directly:",
+    "actor" : "claude-opus-5-5",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Retroactively Surfaced: March 4 Onboarding UX Feedback / Tool-language critique [~59:59–01:05:03]"
+    },
+    "footing_case" : "fc-1",
+    "footing" : {
+      "animator" : "claude-opus-5-5",
+      "author" : "claude-opus-5-5",
+      "principal" : null
+    }
+  }, {
+    "local_id" : "src-60",
+    "exact" : "It's almost like once connected, blah, come back and compile. I feel like it's really like, visit this link, install it, come back and say done.",
+    "actor" : "Tess Guest",
+    "act" : "directive",
+    "circumstance" : {
+      "context" : "Retroactively Surfaced: March 4 Onboarding UX Feedback / Tool-language critique [~59:59–01:05:03]"
+    },
+    "how" : [ {
+      "span" : "Tess's response prescribed the fix directly:",
+      "side" : "supply"
+    } ],
+    "footing_case" : null
+  }, {
+    "local_id" : "src-61",
+    "exact" : "This is a specific prescription for clearer tool-language prompts.",
+    "actor" : "claude-opus-5-5",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Retroactively Surfaced: March 4 Onboarding UX Feedback / Tool-language critique [~59:59–01:05:03]"
+    },
+    "footing_case" : "fc-1",
+    "footing" : {
+      "animator" : "claude-opus-5-5",
+      "author" : "claude-opus-5-5",
+      "principal" : null
+    }
+  }, {
+    "local_id" : "src-62",
+    "exact" : "The review-without-leaving-chat feature Tanya mentioned on the same call addresses an adjacent problem but not this one.",
+    "actor" : "claude-opus-5-5",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Retroactively Surfaced: March 4 Onboarding UX Feedback / Tool-language critique [~59:59–01:05:03]"
+    },
+    "footing_case" : "fc-1",
+    "footing" : {
+      "animator" : "claude-opus-5-5",
+      "author" : "claude-opus-5-5",
+      "principal" : null
+    }
+  }, {
+    "local_id" : "src-63",
+    "exact" : "Everything you said about committing and pulling and all of that is completely foreign to me. And so, you know, because I don't understand how that works, even some of the little things where you came back and just wrote one word — like that, you clearly have an understanding of how the back end works. And that didn't make sense. Some of the things you just were like, oh, clearly this one word is what it needs. I'm like, that did not make sense to me.",
+    "actor" : "Tess Guest",
+    "act" : "expressive",
+    "circumstance" : {
+      "context" : "Retroactively Surfaced: March 4 Onboarding UX Feedback / GitHub opacity feedback [~01:01:10]"
+    },
+    "footing_case" : null
+  }, {
+    "local_id" : "src-64",
+    "exact" : "The above-the-line abstraction work is motivated in part by exactly this cognitive cost.",
+    "actor" : "claude-opus-5-5",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Retroactively Surfaced: March 4 Onboarding UX Feedback / GitHub opacity feedback [~01:01:10]"
+    },
+    "footing_case" : "fc-1",
+    "footing" : {
+      "animator" : "claude-opus-5-5",
+      "author" : "claude-opus-5-5",
+      "principal" : null
+    }
+  }, {
+    "local_id" : "src-65",
+    "exact" : "The seven rejected Twilio toll-free numbers are resubmitted to the review queue.",
+    "actor" : "claude-opus-5-5",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Operational Items"
+    },
+    "footing_case" : "fc-1",
+    "footing" : {
+      "animator" : "claude-opus-5-5",
+      "author" : "claude-opus-5-5",
+      "principal" : null
+    }
+  }, {
+    "local_id" : "src-66",
+    "exact" : "Root cause is likely bad website link plus bad opt-in form link.",
+    "actor" : "claude-opus-5-5",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Operational Items"
+    },
+    "footing_case" : "fc-1",
+    "footing" : {
+      "animator" : "claude-opus-5-5",
+      "author" : "claude-opus-5-5",
+      "principal" : null
+    }
+  }, {
+    "local_id" : "src-67",
+    "exact" : "If verification fails again, that's the signal to stop investing in the SMS onramp for evaluator contexts and pivot to the chat widget.",
+    "actor" : "claude-opus-5-5",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Operational Items"
+    },
+    "footing_case" : "fc-1",
+    "footing" : {
+      "animator" : "claude-opus-5-5",
+      "author" : "claude-opus-5-5",
+      "principal" : null
+    }
+  }, {
+    "local_id" : "src-68",
+    "exact" : "A Front chat widget spike would confirm whether inbox creation is API-automatable or manual-only, and prototype one share → one widget → one channel → one aswritten-org-inbox thread, verifying that conversations don't auto-assign to Tanya.",
+    "actor" : "claude-opus-5-5",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Operational Items"
+    },
+    "footing_case" : "fc-1",
+    "footing" : {
+      "animator" : "claude-opus-5-5",
+      "author" : "claude-opus-5-5",
+      "principal" : null
+    }
+  }, {
+    "local_id" : "src-69",
+    "exact" : "Demo 1 channel needs an explicit decision.",
+    "actor" : "claude-opus-5-5",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Operational Items"
+    },
+    "footing_case" : "fc-1",
+    "footing" : {
+      "animator" : "claude-opus-5-5",
+      "author" : "claude-opus-5-5",
+      "principal" : null
+    }
+  }, {
+    "local_id" : "src-70",
+    "exact" : "The Apr 13 Keystone call used live SMS.",
+    "actor" : "claude-opus-5-5",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Operational Items"
+    },
+    "footing_case" : "fc-1",
+    "footing" : {
+      "animator" : "claude-opus-5-5",
+      "author" : "claude-opus-5-5",
+      "principal" : null
+    }
+  }, {
+    "local_id" : "src-71",
+    "exact" : "Whether the chat widget replaces or augments SMS for Demo 1 is a decision, not a drift.",
+    "actor" : "claude-opus-5-5",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Operational Items"
+    },
+    "footing_case" : "fc-1",
+    "footing" : {
+      "animator" : "claude-opus-5-5",
+      "author" : "claude-opus-5-5",
+      "principal" : null
+    }
+  }, {
+    "local_id" : "src-72",
+    "exact" : "Tess's feedback pipeline needs a capture mechanism.",
+    "actor" : "claude-opus-5-5",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Operational Items"
+    },
+    "footing_case" : "fc-1",
+    "footing" : {
+      "animator" : "claude-opus-5-5",
+      "author" : "claude-opus-5-5",
+      "principal" : null
+    }
+  }, {
+    "local_id" : "src-73",
+    "exact" : "Her beta-tester role is only defensible if her verbal feedback actually reaches the perspective.",
+    "actor" : "claude-opus-5-5",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Operational Items"
+    },
+    "footing_case" : "fc-1",
+    "footing" : {
+      "animator" : "claude-opus-5-5",
+      "author" : "claude-opus-5-5",
+      "principal" : null
+    }
+  }, {
+    "local_id" : "src-74",
+    "exact" : "Options include her writing her own memories, Tanya dictating them after conversations, or a lightweight voice-memo-to-memory pipeline.",
+    "actor" : "claude-opus-5-5",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Operational Items"
+    },
+    "footing_case" : "fc-1",
+    "footing" : {
+      "animator" : "claude-opus-5-5",
+      "author" : "claude-opus-5-5",
+      "principal" : null
+    }
+  }, {
+    "local_id" : "src-75",
+    "exact" : "Whether the chat widget replaces or augments SMS for Tess-category users.",
+    "actor" : "claude-opus-5-5",
+    "act" : "question",
+    "circumstance" : {
+      "context" : "Open Questions"
+    },
+    "footing_case" : "fc-1",
+    "footing" : {
+      "animator" : "claude-opus-5-5",
+      "author" : "claude-opus-5-5",
+      "principal" : null
+    }
+  }, {
+    "local_id" : "src-76",
+    "exact" : "Whether Front inbox creation is API-automatable.",
+    "actor" : "claude-opus-5-5",
+    "act" : "question",
+    "circumstance" : {
+      "context" : "Open Questions"
+    },
+    "footing_case" : "fc-1",
+    "footing" : {
+      "animator" : "claude-opus-5-5",
+      "author" : "claude-opus-5-5",
+      "principal" : null
+    }
+  }, {
+    "local_id" : "src-77",
+    "exact" : "Whether Pat specifically benefits from chat widget versus SMS (Tess grouped herself with him, but his HIPAA-adjacent context might invert the trust tax).",
+    "actor" : "claude-opus-5-5",
+    "act" : "question",
+    "circumstance" : {
+      "context" : "Open Questions"
+    },
+    "footing_case" : "fc-1",
+    "footing" : {
+      "animator" : "claude-opus-5-5",
+      "author" : "claude-opus-5-5",
+      "principal" : null
+    }
+  }, {
+    "local_id" : "src-78",
+    "exact" : "Whether the underlying typology needs fixing (the fluency-vs-distribution axis collision that misclassified Tess may misclassify others too).",
+    "actor" : "claude-opus-5-5",
+    "act" : "question",
+    "circumstance" : {
+      "context" : "Open Questions"
+    },
+    "footing_case" : "fc-1",
+    "footing" : {
+      "animator" : "claude-opus-5-5",
+      "author" : "claude-opus-5-5",
+      "principal" : null
+    }
+  } ],
+  "coverage_gaps" : [ ]
+}
