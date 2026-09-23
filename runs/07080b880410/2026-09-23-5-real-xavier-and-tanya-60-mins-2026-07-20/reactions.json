@@ -1,0 +1,91 @@
+{
+  "run_id" : "mp-eng-e2c07a50",
+  "gates" : [ {
+    "id" : "aswritten/clarify",
+    "run?" : false,
+    "gate" : 2,
+    "reason" : "score 0.1 < threshold 0.7",
+    "score" : 0.1,
+    "evidence" : [ "the team pricing is about $400 a month. Not about is $400 a month. And then enterprise pricing starts at four grand, plus some setup", "I'm charging framewell probably about 15 grand a month. Ideally 20.", "Send me a forwardable email and I will forward it to her.", "surfaced it rather than picking a winner" ]
+  }, {
+    "id" : "aswritten/refract",
+    "run?" : true,
+    "gate" : 2,
+    "reason" : "predicate only"
+  }, {
+    "id" : "aswritten/review",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "skill off"
+  }, {
+    "id" : "aswritten/riff",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "requires perspective, expand"
+  } ],
+  "spend" : {
+    "cost_usd" : 0.017497,
+    "passes" : [ {
+      "pass" : "reaction:_score",
+      "llm_calls" : 1,
+      "cost_usd" : 0.0056041
+    }, {
+      "pass" : "reaction:refract",
+      "llm_calls" : 1,
+      "cost_usd" : 0.0118928
+    } ]
+  },
+  "bundle" : {
+    "items" : 1,
+    "audience" : "only-me",
+    "recipients" : 1,
+    "moments_cached" : true,
+    "sent" : [ {
+      "items" : [ {
+        "kind" : "note",
+        "skill" : "aswritten/refract",
+        "audience" : "speakers"
+      } ],
+      "handle" : "tanya+staging@aswritten.ai",
+      "channel" : "email",
+      "status" : "sent",
+      "front_message_id" : "msg_3djcovjc",
+      "front_conversation_id" : "cnv_1ph6pjl4"
+    } ]
+  },
+  "policy" : {
+    "mode" : "on",
+    "budget_per_run_usd" : 0.25,
+    "channels" : [ "email", "sms" ]
+  },
+  "jobs" : [ {
+    "skill" : "aswritten/refract",
+    "status" : "ok",
+    "gate" : { },
+    "output" : {
+      "lens" : {
+        "shift" : "The fundraising posture flips from asking for checks to creating a competitive marketplace for the round — investors are a market to stage and win, not individual asks. It changes how the bridge round is run, how investors are approached, when advisor introductions get spent, and whether the near-term priority is building or selling.",
+        "affected" : [ ],
+        "other_lenses" : [ "Defensibility re-anchors on the ingested record itself — \"the graph itself is the moat\" — backed by the telephone-company thesis that whoever sits in between can't be disintermediated; it now stands in unresolved tension with the older claim that the moat is the tooling that builds the perspective.", "Near-term priority flips from development to active sales — \"Just stop and go sell it\" — with the YC application committed for this week.", "Authority and identity resolve at read time rather than being pre-summarized: the record witnesses what was said and whoever reads it weighs it — newly formalized as the perspective's epistemics." ],
+        "drew_on" : [ "narrated.delta_line — \"Reframes the fundraising posture from soliciting checks to creating a competitive investor marketplace\"", "committed.tx Expr_5RealXavierAndTanya60Mins20260720_191 — \"you are not raising… You are creating a marketplace for as written.\"", "committed.tx Expr_193 — \"you need to run a process… It is specific. It is time bound.\"", "committed.tx Expr_183 — \"when you have somebody on the hook is the moment you show up to Emery Park\"", "committed.tx Expr_199 — \"No, Hi, I am raising money. It is happening.\"", "committed.tx Expr_222 and Expr_247 — \"I'm doing the YC app this week\" / \"Just stop and go sell it\"", "minted in this transaction: narr:Position_FundraisingMarketplaceProcessStaging, narr:Narrative_FundraisingMarketplaceMomentum", "conversation as written — Tanya: \"I'm raising 500k at this point to do a bridge round…\" (the before/after passage)" ],
+        "quote" : "you are not raising. You're not trying to get someone to give you a check. You are creating a marketplace for as written.",
+        "approaches" : [ "running the bridge round as a specific, time-bound process with a start date and an end date", "investor conversations — momentum and competition (\"it is happening\"), not individual pleas", "advisor introductions — the Emery Park introduction held back until somebody is on the hook", "the YC application — reapply now, on the strength of the paid pilot", "near-term priorities — stop building, go sell" ],
+        "speaker" : "Xavier Expert",
+        "message" : "Here's the shift: you're not asking investors for checks — you're creating a marketplace they compete inside. Xavier's framing: \"you are not raising. You're not trying to get someone to give you a check. You are creating a marketplace for as written.\" That changes our approach to running the bridge round (specific, time-bound, a start date and an end date), to investor conversations (momentum, not plea — \"No, Hi, I am raising money. It is happening.\"), to advisor introductions (the Emery Park introduction held back until somebody is on the hook), to the YC application (committed, this week), and to the near-term priority (stop building, go sell).\n\nBefore — your own words on July 20: \"I'm raising 500k at this point to do a bridge round to get me to enough enterprise traction that I can do a true, you know, million seed.\" As written, that's a request for runway: money now to buy the time to earn traction later, the seed a milestone out ahead.\n\nThrough the shift, the same line reads as the opening of a staged market: the paid enterprise pilot and everything already ingested are the goods on the table, the round runs between fixed dates so that maximal VCs compete, and the \"million seed\" stops being a milestone to beg toward — it's what happens when the market clears. YC is one venue inside that process, not a separate plea.\n\nRight lens?\n\nWhere it lands: nothing beyond this conversation came back in this pass — the document index is empty — so I can't show reach yet, and I won't guess at files I haven't seen.\n\nWant me to pull the fundraising, pitch, and YC documents and apply this across them in one pass?",
+        "eye_chart" : {
+          "document" : ".aswritten/memories/2026-09-23-5-real-xavier-and-tanya-60-mins-2026-07-20.md",
+          "section" : "I'm raising 500k at this point to do a bridge round",
+          "as_written" : "\"I'm raising 500k at this point to do a bridge round to get me to enough enterprise traction that I can do a true, you know, million seed.\" As written this is a request for runway: money now to buy the time to earn traction later, the seed a milestone out ahead.",
+          "through_the_lens" : "The same line now reads as the opening of a staged market rather than a request. The paid enterprise pilot and everything already ingested are the goods on the table; the round runs between fixed dates so that maximal VCs compete; and the \"million seed\" stops being a milestone to beg toward — it's what happens when the market clears. The YC application is one venue inside that process, not a separate plea."
+        }
+      }
+    },
+    "landing" : {
+      "landed" : "message"
+    },
+    "ms" : 95411
+  } ],
+  "stream" : "fixtures/701-real",
+  "at" : "2026-09-23T18:07:47.366191241Z",
+  "live_run_id" : "07080b880410"
+}
