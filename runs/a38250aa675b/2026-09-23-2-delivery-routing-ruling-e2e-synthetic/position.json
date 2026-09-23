@@ -1,0 +1,10 @@
+{
+  "positions" : [ ],
+  "attaches" : [ {
+    "position" : "Position_ReactionDeliveryBundlingAndBatchingBoundary",
+    "members" : [ "src-2", "src-3", "src-4" ],
+    "why" : "The segments directly articulate the routing rule (one bundle per run per person), the operational batching boundary when the run closes despite pushback, and the explicit rejection of client-side collapsing."
+  } ],
+  "position_revisions" : [ ],
+  "ungrouped" : [ "src-1" ]
+}
