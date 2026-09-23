@@ -1,0 +1,40 @@
+{
+  "placements" : [ {
+    "adopted_positions" : [ "Position_InstallableExpertiseCategoryMoat", "Position_SubgraphScopingTemporalityOntology", "Position_DesignTokenPerspectiveParallel", "Position_BrandAsAiIdentity" ],
+    "lineage" : null,
+    "supporting_segments" : [ "src-78", "src-79", "src-80", "src-82", "src-84", "src-88", "src-90", "src-92", "src-94", "src-96", "src-98", "src-105", "src-107", "src-109", "src-110", "src-111", "src-113", "src-115", "src-116", "src-117", "src-118", "src-119", "src-120", "src-121", "src-123", "src-125", "src-126", "src-127", "src-128", "src-129", "src-131", "src-133", "src-157", "src-158" ],
+    "under" : null,
+    "why" : "Tanya and Xavier elaborate the core technical moat of installable expertise: modeling live conversational provenance and decisions directly in customer repositories with zero data retention, performing entity resolution and authority weighting at generation time, and building defensible moats through cross-organizational graph federation and intermediary network effects that resist commodity AI transcription tools.",
+    "verdict" : "reuse",
+    "leaf" : "Narrative_InstallableExpertise",
+    "region" : null,
+    "title" : null,
+    "frame" : null,
+    "consulted" : [ "Narrative_InstallableExpertise", "Narrative_AntiSlackPositioning", "Narrative_DecisionCaptureAtConsensus", "Narrative_DecisionsEvaporate" ]
+  }, {
+    "adopted_positions" : [ "Position_BehavioralStepPackagingTiers", "Position_SmsChannelTierPackaging" ],
+    "lineage" : null,
+    "supporting_segments" : [ "src-100", "src-212", "src-214", "src-215" ],
+    "under" : null,
+    "why" : "Tanya articulates commercial pricing progression transitioning from $400/month team plans to $4k+/month enterprise packages driven by pilot customer pull for automated meeting ingestion, validating the progression with an active pilot moving from an $800/month trial to a $6,000/month MSA in legal review.",
+    "verdict" : "reuse",
+    "leaf" : "Narrative_BehavioralProgressionPackaging",
+    "region" : null,
+    "title" : null,
+    "frame" : null,
+    "consulted" : [ "Narrative_BehavioralProgressionPackaging", "Narrative_InstallableExpertise" ]
+  }, {
+    "adopted_positions" : null,
+    "lineage" : null,
+    "supporting_segments" : [ "src-102", "src-143", "src-144", "src-145", "src-170", "src-171", "src-173", "src-175", "src-176", "src-177", "src-179", "src-181", "src-183", "src-184", "src-185", "src-186", "src-187", "src-188", "src-189", "src-191", "src-192", "src-193", "src-194", "src-195", "src-196", "src-197", "src-198", "src-199", "src-201", "src-202", "src-203", "src-205", "src-206", "src-207", "src-208", "src-209", "src-210", "src-211", "src-222" ],
+    "under" : null,
+    "why" : "Xavier mentors Tanya on conducting an institutional venture round as a time-bound marketplace rather than sequential asks, prescribing a staged advice-gathering phase to build conviction, reserving high-leverage champions like Emery Park until a term sheet exists, and asserting power through process discipline.",
+    "verdict" : "mint",
+    "leaf" : "Narrative_StagedFundraisingProcess",
+    "region" : null,
+    "title" : "Time-bound investor marketplace discipline replaces sequential capital seeking",
+    "frame" : "How does orchestrating a competitive, time-bound marketplace across prospective investors build fundraising leverage compared to seeking individual checks sequentially?",
+    "consulted" : [ "Narrative_InstallableExpertise", "Narrative_InterviewFlywheel" ]
+  } ],
+  "unplaced" : [ "src-1", "src-2", "src-3", "src-4", "src-5", "src-6", "src-7", "src-8", "src-9", "src-10", "src-11", "src-12", "src-13", "src-14", "src-15", "src-16", "src-17", "src-18", "src-19", "src-20", "src-21", "src-22", "src-23", "src-24", "src-25", "src-26", "src-27", "src-28", "src-29", "src-30", "src-31", "src-32", "src-33", "src-34", "src-35", "src-36", "src-37", "src-38", "src-39", "src-40", "src-41", "src-42", "src-43", "src-44", "src-45", "src-46", "src-47", "src-48", "src-49", "src-50", "src-51", "src-52", "src-53", "src-54", "src-55", "src-56", "src-57", "src-58", "src-59", "src-60", "src-61", "src-62", "src-63", "src-64", "src-65", "src-66", "src-67", "src-68", "src-69", "src-70", "src-71", "src-72", "src-73", "src-74", "src-75", "src-77", "src-81", "src-83", "src-85", "src-86", "src-87", "src-89", "src-91", "src-93", "src-95", "src-97", "src-99", "src-101", "src-103", "src-104", "src-106", "src-108", "src-112", "src-114", "src-122", "src-124", "src-130", "src-132", "src-134", "src-135", "src-136", "src-137", "src-138", "src-139", "src-140", "src-141", "src-142", "src-146", "src-147", "src-148", "src-149", "src-150", "src-151", "src-152", "src-153", "src-154", "src-155", "src-159", "src-160", "src-161", "src-162", "src-163", "src-164", "src-165", "src-166", "src-167", "src-168", "src-169", "src-172", "src-174", "src-178", "src-180", "src-182", "src-190", "src-200", "src-204", "src-213", "src-216", "src-217", "src-218", "src-219", "src-220", "src-221", "src-223", "src-224", "src-225", "src-226", "src-227", "src-228", "src-229", "src-230", "src-231", "src-232", "src-233", "src-234", "src-235", "src-236", "src-237", "src-238", "src-239", "src-240", "src-241", "src-242", "src-243", "src-244", "src-245", "src-246", "src-247", "src-248", "src-249" ]
+}
