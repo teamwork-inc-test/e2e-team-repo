@@ -1,0 +1,24 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-2",
+    "regions" : [ "self-transcendence" ],
+    "evidence" : [ {
+      "quote" : "a person should get one thing to read, not four",
+      "kind" : "modal-marker"
+    } ],
+    "why" : "Appeals to the reader's experience and cognitive load as the normative rationale ('should get one thing to read') for the routing decision.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-4",
+    "regions" : [ "self-transcendence" ],
+    "evidence" : [ {
+      "quote" : "moves the ordering problem onto the\nreader",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Rejects an architectural alternative specifically because it imposes negative externalities on the end user/reader.",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-1", "src-3" ],
+  "mints" : [ ],
+  "region_mints" : [ ]
+}
