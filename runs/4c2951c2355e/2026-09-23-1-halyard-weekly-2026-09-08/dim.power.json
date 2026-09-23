@@ -1,0 +1,96 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "pressure", "legitimate" ],
+    "evidence" : [ {
+      "quote" : "Let's keep this one tight — I want to come out of it with the cutover shape actually decided, because the steering group asks again on Thursday",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Tanya sets a firm agenda constraint by invoking executive steering committee pressure and deadlines.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-4",
+    "regions" : [ "legitimate", "consultation" ],
+    "evidence" : [ {
+      "quote" : "Hold those for ten minutes. Sequencing first. Tina, you've been living in the site plan — where are we?",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Tanya exercises meeting control (procedural authority) and invites Tina to lead the situational assessment.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-8",
+    "regions" : [ "legitimate" ],
+    "evidence" : [ {
+      "quote" : "Then let me say where I've landed, because I don't think I'm going to move off it. We do this one site at a time.",
+      "kind" : "commitment-marker"
+    } ],
+    "why" : "Tanya establishes a firm organizational decision through her role authority.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-10",
+    "regions" : [ "consultation" ],
+    "evidence" : [ {
+      "quote" : "Can I push on it for a second? Not because I disagree — because the steering group will push and I'd rather they push here.",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Xavier explicitly seeks permission to stress-test the decision through red-teaming.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-13",
+    "regions" : [ "rational-persuasion" ],
+    "evidence" : [ {
+      "quote" : "Running two systems at one desk for a few weeks is a known, contained pain with a named owner. Two cutovers landing in the same week is an unbounded one, and we've got nobody to hand it to.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Tanya justifies the decision using a rational trade-off between bounded and unbounded risk.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-17",
+    "regions" : [ "expert", "rational-persuasion" ],
+    "evidence" : [ {
+      "quote" : "The soak is two full weeks. That's the Dockside number, and I'd hold us to it.",
+      "kind" : "commitment-marker"
+    } ],
+    "why" : "Tina uses empirical benchmark data from the Dockside pilot to set a technical standard.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-26",
+    "regions" : [ "expert", "rational-persuasion" ],
+    "evidence" : [ {
+      "quote" : "So the position I want us to take is: during cutover, every reporting read comes off the replica. Not \"should\", not \"where possible\" — reporting does not touch the live system during a cutover window, full stop.",
+      "kind" : "intensifier"
+    } ],
+    "why" : "Xavier leverages technical expertise and outage analysis to argue for a strict operational rule.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-31",
+    "regions" : [ "legitimate" ],
+    "evidence" : [ {
+      "quote" : "Then that's the rule. Reporting reads come off the replica during cutover. Xavier, write it into the runbook as a rule and not as guidance",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Tanya codifies the recommendation into an official rule and assigns action items via positional authority.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-36",
+    "regions" : [ "expert", "rational-persuasion" ],
+    "evidence" : [ {
+      "quote" : "The vendor stays the system of record for reference data until the last site is live. Every site reads from the vendor's copy, we mirror it read-only, and we take ownership on the day Clyde goes green and not a day earlier.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Xavier articulates a technical policy based on data governance expertise.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-38",
+    "regions" : [ "rational-persuasion" ],
+    "evidence" : [ {
+      "quote" : "Because if we take ownership at site one, we've got two sites on our reference data and two on theirs, and the zone map drifts between them.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Xavier provides cause-and-effect logical reasoning to defend his architectural stance.",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-2", "src-3", "src-5", "src-6", "src-7", "src-9", "src-11", "src-12", "src-14", "src-15", "src-16", "src-18", "src-19", "src-20", "src-21", "src-22", "src-23", "src-24", "src-25", "src-27", "src-28", "src-29", "src-30", "src-32", "src-33", "src-34", "src-35", "src-37", "src-39", "src-40", "src-41", "src-42", "src-43", "src-44", "src-45" ],
+  "mints" : [ ],
+  "region_mints" : [ ]
+}
