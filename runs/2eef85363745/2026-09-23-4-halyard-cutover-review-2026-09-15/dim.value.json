@@ -1,0 +1,56 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "competence" ],
+    "evidence" : [ {
+      "quote" : "I need to correct something I said, and I'd rather do it at the top than bury it.",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Tina prioritizes immediate factual correction and analytical integrity over saving face or concealing error.",
+    "reported" : false,
+    "direction" : {
+      "verdict" : "mint",
+      "node" : "mint-1"
+    }
+  }, {
+    "segment_local_id" : "src-13",
+    "regions" : [ "conservation" ],
+    "evidence" : [ {
+      "quote" : "Two weeks was conservative in a place where being conservative was cheap. One week is defensible but it has no slack in it.",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Xavier explicitly weighs conservation and safety margin (cheap slack) against defensibility.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-14",
+    "regions" : [ "competence" ],
+    "evidence" : [ {
+      "quote" : "I'd rather be defensible and know where the slack isn't than conservative for a reason that turned out to be imaginary.",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Tina explicitly values grounded technical rigor and empirical accuracy over artificial buffer.",
+    "reported" : false,
+    "direction" : {
+      "verdict" : "mint",
+      "node" : "mint-1"
+    }
+  }, {
+    "segment_local_id" : "src-23",
+    "regions" : [ "relatedness" ],
+    "evidence" : [ {
+      "quote" : "Thank you for bringing it rather than letting it ride.",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Tanya expresses appreciation and reinforces the relational trust of surfacing hard corrections proactively.",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-2", "src-3", "src-4", "src-5", "src-6", "src-7", "src-8", "src-9", "src-10", "src-11", "src-12", "src-15", "src-16", "src-17", "src-18", "src-19", "src-20", "src-21", "src-22", "src-24" ],
+  "mints" : [ {
+    "id" : "mint-1",
+    "name" : "DefensibleOverPrecautionary",
+    "title" : "defensible rather than conservative for imaginary reasons",
+    "frame" : "Does the speaker choose demonstrable, empirically verified precision over ungrounded precautionary padding or face-saving?",
+    "regions" : [ "competence" ]
+  } ],
+  "region_mints" : [ ]
+}
