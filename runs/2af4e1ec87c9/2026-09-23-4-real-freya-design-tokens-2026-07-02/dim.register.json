@@ -1,0 +1,43 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-6",
+    "regions" : [ "technical" ],
+    "evidence" : [ {
+      "quote" : "design language which gets tokenized. The tokens get applied to surfaces",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Freya describes his design practice using specialized design-systems and tokenization vocabulary.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-11",
+    "regions" : [ "casual", "technical" ],
+    "evidence" : [ {
+      "quote" : "Like the precursor to this product was me building... something similar to what you're talking about. I built a bunch of files that represent how were thinking and all the... the equivalent of design tokens for product language. And then I would sort of put that in the top of the chat",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Tanya bridges product architecture and prompt engineering through loose spoken syntax and conversational fillers.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-13",
+    "regions" : [ "casual" ],
+    "evidence" : [ {
+      "quote" : "Like you can literally shape an AI that thinks like the brand and then let anyone use it across the org",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Conversational colloquialisms ('Like', 'literally') frame a speculative vision for organizational AI identity.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-15",
+    "regions" : [ "casual", "technical" ],
+    "evidence" : [ {
+      "quote" : "one-shotting a website",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Colloquial prompt-engineering jargon ('one-shotting') anchors the target comparison.",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-1", "src-2", "src-3", "src-4", "src-5", "src-7", "src-8", "src-9", "src-10", "src-12", "src-14", "src-16", "src-17", "src-18", "src-19", "src-20" ],
+  "unmarked_rest" : false,
+  "mints" : [ ],
+  "region_mints" : [ ]
+}
