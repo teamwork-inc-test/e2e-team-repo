@@ -1,0 +1,32 @@
+@prefix narr: <https://aswritten.ai/narrative#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+GRAPH <https://aswritten.ai/narrative#Digest_Position_SmsChannelTierPackaging> {
+  <https://aswritten.ai/narrative#Digest_Position_SmsChannelTierPackaging> a narr:Digest ;
+    narr:digestOf <https://aswritten.ai/narrative#Position_SmsChannelTierPackaging> ;
+    narr:childCount "8"^^xsd:integer ;
+    narr:generatedFrom "08dbf2d09d3a625ffd65c009778ee0a98c8715fd" ;
+    narr:narration """This position holds how a high-overhead channel should map to commercial tiers, and it deliberately holds it open. The owner's [leaning toward restricting it to the top plan](narr:Expr_3RealChannelNotProduct20260428_46) rests on provisioning and management overhead, reinforced by [the maintenance burden around fraud and verification](narr:Expr_3RealChannelNotProduct20260428_21) and the framing of it as [an upsell rather than a core feature](narr:Expr_3RealChannelNotProduct20260428_20). But the owner [explicitly declined to decide during the session](narr:Expr_3RealChannelNotProduct20260428_47), citing live demo pressure and larger clients being courted. The assistant's framing keeps the distinction honest: [the leaning is recorded, not yet a decision](narr:Expr_3RealChannelNotProduct20260428_50), with [the first quote a leaning](narr:Expr_3RealChannelNotProduct20260428_48) and [the second the actual epistemic state](narr:Expr_3RealChannelNotProduct20260428_49). Open questions are logged: [channel-to-tier mapping left undecided, and whether the channel goes top-tier-only or stays an opt-in upsell across tiers](narr:Expr_3RealChannelNotProduct20260428_45).""" ;
+    narr:covers <https://aswritten.ai/narrative#Expr_3RealChannelNotProduct20260428_20> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_3RealChannelNotProduct20260428_21> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_3RealChannelNotProduct20260428_45> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_3RealChannelNotProduct20260428_46> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_3RealChannelNotProduct20260428_47> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_3RealChannelNotProduct20260428_48> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_3RealChannelNotProduct20260428_49> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_3RealChannelNotProduct20260428_50> ;
+    narr:keyPhrase [ narr:text "I think SMS is something that we should offer only for the enterprise plan, because we have to provision numbers individually and manage them and so on and so forth." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_3RealChannelNotProduct20260428_46> ] ;
+    narr:keyPhrase [ narr:text "We don't know yet how this maps to tiers... I'm doing this as a demo right now, and I'm trying to get some of these larger clients on the hook... I don't want to make that decision right now." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_3RealChannelNotProduct20260428_47> ] ;
+    narr:keyPhrase [ narr:text "It's also a lot more work because of the maintenance around fraud, et cetera, as we're seeing above with the verification." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_3RealChannelNotProduct20260428_21> ] ;
+    narr:keyPhrase [ narr:text "That's a bonus; it's an upsell." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_3RealChannelNotProduct20260428_20> ] ;
+    narr:keyPhrase [ narr:text "The leaning is recorded; it is not yet a decision." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_3RealChannelNotProduct20260428_50> ] ;
+    narr:variation [ narr:text "The owner leans toward top-plan-only restriction, but explicitly withholds the decision — the leaning and the epistemic state are kept distinct rather than merged." ; narr:over <https://aswritten.ai/narrative#Expr_3RealChannelNotProduct20260428_46> ; narr:over <https://aswritten.ai/narrative#Expr_3RealChannelNotProduct20260428_47> ; narr:over <https://aswritten.ai/narrative#Expr_3RealChannelNotProduct20260428_50> ] ;
+    narr:variation [ narr:text "An alternative packaging path remains live: the channel as an opt-in upsell across tiers rather than a top-tier exclusive." ; narr:over <https://aswritten.ai/narrative#Expr_3RealChannelNotProduct20260428_45> ; narr:over <https://aswritten.ai/narrative#Expr_3RealChannelNotProduct20260428_20> ] ;
+    narr:voiceTrait [ narr:dim "conviction" ; narr:reading "moves from casual notion to explicit refusal-to-decide — the owner names the leaning as a leaning, not a commitment" ; narr:text "I don't want to make that decision right now." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_3RealChannelNotProduct20260428_47> ] ;
+    narr:voiceTrait [ narr:dim "relational" ; narr:reading "consistently frames channel decisions in market-pricing terms — cost of provisioning, upsell value, client pressure" ; narr:text "That's a bonus; it's an upsell." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_3RealChannelNotProduct20260428_20> ] ;
+    narr:voiceTrait [ narr:dim "temporal" ; narr:reading "swings between irrealis future framing and concrete present pressure — the decision deferred because the present is busy" ; narr:text "I'm doing this as a demo right now, and I'm trying to get some of these larger clients on the hook" ; narr:phraseSource <https://aswritten.ai/narrative#Expr_3RealChannelNotProduct20260428_47> ] ;
+    narr:voiceTrait [ narr:dim "register" ; narr:reading "casual, trailing-off spoken register even when making pricing calls" ; narr:text "because we have to provision numbers individually and manage them and so on and so forth" ; narr:phraseSource <https://aswritten.ai/narrative#Expr_3RealChannelNotProduct20260428_46> ] ;
+    narr:voiceTrait [ narr:dim "affect" ; narr:reading "calm-negative under decision pressure — flat, slightly weary, not heated" ; narr:text "I don't want to make that decision right now." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_3RealChannelNotProduct20260428_47> ] ;
+    narr:voiceTrait [ narr:dim "power" ; narr:reading "asserts legitimate authority to defer — the owner claims the right to hold the decision open" ; narr:text "I don't want to make that decision right now." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_3RealChannelNotProduct20260428_47> ] ;
+    narr:writer "z-ai/glm-5.3-flash:nitro" .
+}

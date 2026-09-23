@@ -1,0 +1,30 @@
+@prefix narr: <https://aswritten.ai/narrative#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+GRAPH <https://aswritten.ai/narrative#Digest_Position_ArchetypeRelationalDisambiguation> {
+  <https://aswritten.ai/narrative#Digest_Position_ArchetypeRelationalDisambiguation> a narr:Digest ;
+    narr:digestOf <https://aswritten.ai/narrative#Position_ArchetypeRelationalDisambiguation> ;
+    narr:childCount "10"^^xsd:integer ;
+    narr:generatedFrom "08dbf2d09d3a625ffd65c009778ee0a98c8715fd" ;
+    narr:narration """This position disentangles three orthogonal ways of classifying a single user, converging on one case. The diagnosis names [a typology that conflated AI-fluency with distribution-motion](narr:Expr_2RealTessChatWidget20260423_39), corrected to read her [work-motion archetype as a packager type](narr:Expr_2RealTessChatWidget20260423_38). Commercial status is separated as [a relational arrangement rather than a sales-validated pricing call](narr:Expr_2RealTessChatWidget20260423_45), with the owner stating plainly [her tier placement rests on relationship, not sales targeting](narr:Expr_2RealTessChatWidget20260423_44) — and her business role is named as [the company's highest-volume feedback source](narr:Expr_2RealTessChatWidget20260423_54). Pricing evidence is bounded both ways: [she cannot exemplify Individual-tier payment behavior](narr:Expr_2RealTessChatWidget20260423_49), yet [her non-payment doesn't undercut Professional-tier pricing either](narr:Expr_2RealTessChatWidget20260423_50). The synthesis holds all three together in [one frame naming archetype, commercial status, and role separately](narr:Expr_2RealTessChatWidget20260423_47). A separate thread asks [whether a given outreach channel suits her cohort](narr:Expr_3RealChannelNotProduct20260428_26), placing her as [a canonical example within a differently-named consumer archetype where the barrier is technical rather than behavioral](narr:Expr_3RealChannelNotProduct20260428_29).""" ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2RealTessChatWidget20260423_38> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2RealTessChatWidget20260423_39> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2RealTessChatWidget20260423_44> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2RealTessChatWidget20260423_45> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2RealTessChatWidget20260423_47> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2RealTessChatWidget20260423_49> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2RealTessChatWidget20260423_50> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2RealTessChatWidget20260423_54> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_3RealChannelNotProduct20260428_26> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_3RealChannelNotProduct20260428_29> ;
+    narr:keyPhrase [ narr:text "Tess is a Knowledge Packager." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_2RealTessChatWidget20260423_38> ] ;
+    narr:keyPhrase [ narr:text "She's on Individual because she's my fiancé and beta tester, not a sales target — although she fits the profile." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_2RealTessChatWidget20260423_44> ] ;
+    narr:keyPhrase [ narr:text "Tess's Individual-tier placement is a relational arrangement, not a sales-validated pricing decision." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_2RealTessChatWidget20260423_45> ] ;
+    narr:keyPhrase [ narr:text "Tess doesn't validate Individual-tier pricing, because she isn't a prospect" ; narr:phraseSource <https://aswritten.ai/narrative#Expr_2RealTessChatWidget20260423_49> ] ;
+    narr:keyPhrase [ narr:text "She's the single most prolific beta tester and has had more feedback than anyone." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_2RealTessChatWidget20260423_54> ] ;
+    narr:keyPhrase [ narr:text "Main barrier is technical (MCP installation, GitHub abstraction), not behavioral." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_3RealChannelNotProduct20260428_29> ] ;
+    narr:variation [ narr:text "The work-motion archetype call sits against a separate, differently-labeled cohort naming raised for a channel-suitability question — the two archetype framings aren't reconciled here." ; narr:over <https://aswritten.ai/narrative#Expr_2RealTessChatWidget20260423_38> ; narr:over <https://aswritten.ai/narrative#Expr_3RealChannelNotProduct20260428_29> ] ;
+    narr:variation [ narr:text "Pricing-evidence bound cuts both directions: she can't validate the Individual tier, but her non-payment also can't be read as rejecting the Professional tier." ; narr:over <https://aswritten.ai/narrative#Expr_2RealTessChatWidget20260423_49> ; narr:over <https://aswritten.ai/narrative#Expr_2RealTessChatWidget20260423_50> ] ;
+    narr:variation [ narr:text "The channel question is posed and relayed, not settled — an open thread rather than a concluded axis like the other three." ; narr:over <https://aswritten.ai/narrative#Expr_3RealChannelNotProduct20260428_26> ] ;
+    narr:writer "subscription.anthropic/claude-sonnet-5" .
+}

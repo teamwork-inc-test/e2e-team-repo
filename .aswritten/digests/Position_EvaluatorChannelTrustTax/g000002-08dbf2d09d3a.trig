@@ -1,0 +1,37 @@
+@prefix narr: <https://aswritten.ai/narrative#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+GRAPH <https://aswritten.ai/narrative#Digest_Position_EvaluatorChannelTrustTax> {
+  <https://aswritten.ai/narrative#Digest_Position_EvaluatorChannelTrustTax> a narr:Digest ;
+    narr:digestOf <https://aswritten.ai/narrative#Position_EvaluatorChannelTrustTax> ;
+    narr:childCount "16"^^xsd:integer ;
+    narr:generatedFrom "08dbf2d09d3a625ffd65c009778ee0a98c8715fd" ;
+    narr:narration """This position holds that channel choice carries a trust cost that varies by audience. The mainline runs from [Tess's opening claim that texting reads as spam in skeptical contexts](narr:Expr_2RealTessChatWidget20260423_9), through [the observation that the SMS-feels-honest framing only holds with an already-trusted sender](narr:Expr_2RealTessChatWidget20260423_10) and [its flip-side: SMS is more suspicious for evaluators because spam trained distrust of unexpected texts](narr:Expr_2RealTessChatWidget20260423_11), to [the relayed framing that even successful verification leaves a channel-level trust tax in evaluator-grade conversations](narr:Expr_2RealTessChatWidget20260423_16). The resolution side is conditional rather than absolute: [SMS stays viable for high-trust, post-consent, consumer-viral contexts](narr:Expr_2RealTessChatWidget20260423_29), while [a chat widget on the share page fits evaluator, skeptic, first-touch, and demo contexts](narr:Expr_2RealTessChatWidget20260423_30) because [the share page itself is the trust context the widget inherits](narr:Expr_2RealTessChatWidget20260423_31). A later session widened the frame: [channel fit is contextual, right in some contexts and wrong in others](narr:Expr_3RealChannelNotProduct20260428_14), grounded in [Tanya's point that a phone number doesn't feel like an AI chat](narr:Expr_3RealChannelNotProduct20260428_15), and now carries [operational evidence — seven Twilio toll-free verification submissions, all rejected](narr:Expr_3RealChannelNotProduct20260428_22) read as [permanent verification churn at scale](narr:Expr_3RealChannelNotProduct20260428_25). The friction is also persona-scoped: [SMS trust friction attaches to one archetype but not the Knowledge Packager or Delegator contexts](narr:Expr_3RealChannelNotProduct20260428_30), with [spam association named as the specific friction](narr:Expr_3RealChannelNotProduct20260428_31). The register is antithesis-heavy — claims stated as what flips, not what holds — with the trust-tax metaphor arriving relayed rather than as the voicer's own.""" ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2RealTessChatWidget20260423_10> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2RealTessChatWidget20260423_11> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2RealTessChatWidget20260423_16> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2RealTessChatWidget20260423_29> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2RealTessChatWidget20260423_30> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2RealTessChatWidget20260423_31> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2RealTessChatWidget20260423_9> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_3RealChannelNotProduct20260428_14> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_3RealChannelNotProduct20260428_15> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_3RealChannelNotProduct20260428_18> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_3RealChannelNotProduct20260428_22> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_3RealChannelNotProduct20260428_25> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_3RealChannelNotProduct20260428_27> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_3RealChannelNotProduct20260428_28> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_3RealChannelNotProduct20260428_30> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_3RealChannelNotProduct20260428_31> ;
+    narr:keyPhrase [ narr:text "It flips in evaluator contexts — SMS is *more* suspicious because spam trained people to distrust unexpected texts." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_2RealTessChatWidget20260423_11> ] ;
+    narr:keyPhrase [ narr:text "SMS remains viable for high-trust, post-consent, consumer-viral contexts — the channel works where the sender is already welcome." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_2RealTessChatWidget20260423_29> ] ;
+    narr:keyPhrase [ narr:text "The share page itself is the trust context, so the widget inherits it." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_2RealTessChatWidget20260423_31> ] ;
+    narr:keyPhrase [ narr:text "seven additional Twilio toll-free numbers were submitted for verification and **all seven came back rejected** (April 28, 2026)." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_3RealChannelNotProduct20260428_22> ] ;
+    narr:keyPhrase [ narr:text "verification churn is a permanent operational cost of running SMS at scale." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_3RealChannelNotProduct20260428_25> ] ;
+    narr:keyPhrase [ narr:text "a phone number doesn't feel like an AI chat in the same way that chat does." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_3RealChannelNotProduct20260428_15> ] ;
+    narr:variation [ narr:text "Counterweight to the spam-framing mainline: the phone number carries genuine non-AI trust value, and SMS-as-trust-signal remains real — the channel isn't only a liability." ; narr:over <https://aswritten.ai/narrative#Expr_3RealChannelNotProduct20260428_15> ; narr:over <https://aswritten.ai/narrative#Expr_3RealChannelNotProduct20260428_18> ] ;
+    narr:variation [ narr:text "The trust-tax metaphor and the core spam claim are both relayed through others (Tess via Claude/Tanya), not held first-hand by a single voicer — attribution is layered, not settled." ; narr:over <https://aswritten.ai/narrative#Expr_2RealTessChatWidget20260423_16> ; narr:over <https://aswritten.ai/narrative#Expr_3RealChannelNotProduct20260428_27> ] ;
+    narr:variation [ narr:text "The friction is persona-scoped, not universal: SMS trust friction applies to one archetype but explicitly not to the Knowledge Packager or Delegator contexts." ; narr:over <https://aswritten.ai/narrative#Expr_3RealChannelNotProduct20260428_30> ] ;
+    narr:variation [ narr:text "Tess's own ask — a chat widget on a web form — pushes toward the resolution side, in tension with the same speaker's concession that texting is right in certain contexts." ; narr:over <https://aswritten.ai/narrative#Expr_3RealChannelNotProduct20260428_28> ; narr:over <https://aswritten.ai/narrative#Expr_2RealTessChatWidget20260423_9> ] ;
+    narr:writer "z-ai/glm-5.3-flash:nitro" .
+}

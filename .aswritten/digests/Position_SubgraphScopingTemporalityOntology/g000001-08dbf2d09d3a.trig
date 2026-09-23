@@ -1,0 +1,25 @@
+@prefix narr: <https://aswritten.ai/narrative#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+GRAPH <https://aswritten.ai/narrative#Digest_Position_SubgraphScopingTemporalityOntology> {
+  <https://aswritten.ai/narrative#Digest_Position_SubgraphScopingTemporalityOntology> a narr:Digest ;
+    narr:digestOf <https://aswritten.ai/narrative#Position_SubgraphScopingTemporalityOntology> ;
+    narr:childCount "7"^^xsd:integer ;
+    narr:generatedFrom "08dbf2d09d3a625ffd65c009778ee0a98c8715fd" ;
+    narr:narration """This position holds that narrative drift between exploratory experiments and root product definitions is a graph-structural problem with two named gaps. The driving failure is that [the extraction pipeline can't distinguish an experiment's channel from what the product IS](narr:Expr_3RealChannelNotProduct20260428_5), so [SMS-as-product](narr:Expr_3RealChannelNotProduct20260428_5) keeps re-embedding. The first gap is [a temporality predicate already documented and deliberately deferred](narr:Expr_3RealChannelNotProduct20260428_33), with values spanning current through speculative, which would have tagged experiment claims as exploration rather than current worldview. The second gap is [subgraph segmentation, newly named in this session](narr:Expr_3RealChannelNotProduct20260428_34), raised by [Tanya's tentative framing of scoping claims into a subgrouping](narr:Expr_3RealChannelNotProduct20260428_35) and grounded in [the absence of any structural way to bind a claim cluster to an experiment subgraph rather than the root definition](narr:Expr_3RealChannelNotProduct20260428_36). Claude flags this as [a distinct new candidate for ontology work](narr:Expr_3RealChannelNotProduct20260428_37), with [both gaps jointly contributing to the over-embedding](narr:Expr_3RealChannelNotProduct20260428_32).""" ;
+    narr:covers <https://aswritten.ai/narrative#Expr_3RealChannelNotProduct20260428_32> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_3RealChannelNotProduct20260428_33> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_3RealChannelNotProduct20260428_34> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_3RealChannelNotProduct20260428_35> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_3RealChannelNotProduct20260428_36> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_3RealChannelNotProduct20260428_37> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_3RealChannelNotProduct20260428_5> ;
+    narr:keyPhrase [ narr:text "the extraction pipeline can't currently distinguish \"this was the channel for an experiment we ran\" from \"this is what the product IS.\"" ; narr:phraseSource <https://aswritten.ai/narrative#Expr_3RealChannelNotProduct20260428_5> ] ;
+    narr:keyPhrase [ narr:text "a `narr:appliesAs` predicate with values `current | nearFuture | exploration | speculative`" ; narr:phraseSource <https://aswritten.ai/narrative#Expr_3RealChannelNotProduct20260428_33> ] ;
+    narr:keyPhrase [ narr:text "deliberately deferred from the April 9 launch to avoid breaking extraction tests" ; narr:phraseSource <https://aswritten.ai/narrative#Expr_3RealChannelNotProduct20260428_33> ] ;
+    narr:keyPhrase [ narr:text "There is currently no structural way to say \"this cluster of claims belongs to the text-for-topic experiment subgraph, not to the root product definition.\"" ; narr:phraseSource <https://aswritten.ai/narrative#Expr_3RealChannelNotProduct20260428_36> ] ;
+    narr:keyPhrase [ narr:text "This is a new candidate for ontology work, distinct from temporality." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_3RealChannelNotProduct20260428_37> ] ;
+    narr:variation [ narr:text "The temporality fix exists on paper but was deferred at launch, while subgraph scoping is only a fresh, tentatively-held notion — one gap is documented-but-parked, the other is newly named and uncommitted." ; narr:over <https://aswritten.ai/narrative#Expr_3RealChannelNotProduct20260428_33> ; narr:over <https://aswritten.ai/narrative#Expr_3RealChannelNotProduct20260428_35> ; narr:over <https://aswritten.ai/narrative#Expr_3RealChannelNotProduct20260428_37> ] ;
+    narr:variation [ narr:text "The confident-assertion problem cuts both ways: drift happened partly because experiment claims were stated confidently at the time, so scoping alone may not fix claims that read as worldview." ; narr:over <https://aswritten.ai/narrative#Expr_3RealChannelNotProduct20260428_36> ; narr:over <https://aswritten.ai/narrative#Expr_3RealChannelNotProduct20260428_5> ] ;
+    narr:writer "z-ai/glm-5.3-flash:nitro" .
+}
