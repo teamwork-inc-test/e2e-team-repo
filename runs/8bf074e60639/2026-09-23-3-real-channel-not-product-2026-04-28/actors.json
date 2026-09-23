@@ -1,0 +1,27 @@
+{
+  "bindings" : [ {
+    "name" : "claude-opus-5-5",
+    "verdict" : "bind",
+    "target" : "Actor_Claude",
+    "label" : null,
+    "why" : "Specific Claude model version binds to the existing canonical Claude [AI] actor."
+  }, {
+    "name" : "Tanya TeamOwner",
+    "verdict" : "bind",
+    "target" : "Actor_TanyaTeamowner",
+    "label" : null,
+    "why" : "Exact match with existing actor Tanya TeamOwner."
+  }, {
+    "name" : "Tess Guest",
+    "verdict" : "bind",
+    "target" : "Actor_TessGuest",
+    "label" : null,
+    "why" : "Exact match with existing actor Tess Guest."
+  }, {
+    "name" : "tanya+staging@aswritten.ai",
+    "verdict" : "bind",
+    "target" : "Actor_TanyaTeamowner",
+    "label" : null,
+    "why" : "Envelope account email for Tanya TeamOwner binds to Actor_TanyaTeamowner."
+  } ]
+}
