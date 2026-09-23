@@ -1,0 +1,602 @@
+PREFIX narr: <https://aswritten.ai/narrative#>
+PREFIX aswr: <https://aswritten.ai/aswr#>
+PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX dct:  <http://purl.org/dc/terms/>
+PREFIX xsd:  <http://www.w3.org/2001/XMLSchema#>
+PREFIX oa:   <http://www.w3.org/ns/oa#>
+PREFIX xkos: <http://rdf-vocabulary.ddialliance.org/xkos#>
+
+INSERT DATA {
+  aswr:Tx_20260923T173237Z a prov:Activity ;
+      prov:generatedAtTime "2026-09-23T17:32:37Z"^^xsd:dateTime ;
+      prov:wasAssociatedWith "aswritten.ai" ;
+      prov:wasAttributedTo "scarlet@aswritten.ai" ;
+      aswr:draftedBy "claude-opus-5-5" ;
+      aswr:pipelinePin "8dd07a49bda8" ;
+      aswr:originPath ".aswritten/memories/2026-09-23-4-real-freya-design-tokens-2026-07-02.md" ;
+      dct:title "Multipass fragment: 4RealFreyaDesignTokens20260702" ;
+      prov:generated narr:VecAffect_4RealFreyaDesignTokens20260702_13, narr:VecAffect_4RealFreyaDesignTokens20260702_17, narr:VecConviction_4RealFreyaDesignTokens20260702_6, narr:VecConviction_4RealFreyaDesignTokens20260702_8, narr:VecConviction_4RealFreyaDesignTokens20260702_10, narr:VecConviction_4RealFreyaDesignTokens20260702_11, narr:VecConviction_4RealFreyaDesignTokens20260702_13, narr:VecConviction_4RealFreyaDesignTokens20260702_17, narr:VecConviction_4RealFreyaDesignTokens20260702_19, narr:VecPower_4RealFreyaDesignTokens20260702_6, narr:VecPower_4RealFreyaDesignTokens20260702_8, narr:VecPower_4RealFreyaDesignTokens20260702_10, narr:VecPower_4RealFreyaDesignTokens20260702_11, narr:VecPower_4RealFreyaDesignTokens20260702_13, narr:VecPower_4RealFreyaDesignTokens20260702_15, narr:VecPower_4RealFreyaDesignTokens20260702_19, narr:VecRegister_4RealFreyaDesignTokens20260702_6, narr:VecRegister_4RealFreyaDesignTokens20260702_11, narr:VecRegister_4RealFreyaDesignTokens20260702_13, narr:VecRegister_4RealFreyaDesignTokens20260702_15, narr:VecRelational_4RealFreyaDesignTokens20260702_10, narr:VecRelational_4RealFreyaDesignTokens20260702_11, narr:VecRelational_4RealFreyaDesignTokens20260702_13, narr:VecRelational_4RealFreyaDesignTokens20260702_17, narr:VecRelational_4RealFreyaDesignTokens20260702_19, narr:DirStyle_TricolonAttributeCadence, narr:VecStyle_4RealFreyaDesignTokens20260702_10, narr:VecStyle_4RealFreyaDesignTokens20260702_11, narr:VecStyle_4RealFreyaDesignTokens20260702_15, narr:VecTemporal_4RealFreyaDesignTokens20260702_2, narr:VecTemporal_4RealFreyaDesignTokens20260702_3, narr:VecTemporal_4RealFreyaDesignTokens20260702_4, narr:VecTemporal_4RealFreyaDesignTokens20260702_6, narr:VecTemporal_4RealFreyaDesignTokens20260702_8, narr:VecTemporal_4RealFreyaDesignTokens20260702_10, narr:VecTemporal_4RealFreyaDesignTokens20260702_11, narr:VecTemporal_4RealFreyaDesignTokens20260702_13, narr:VecTemporal_4RealFreyaDesignTokens20260702_15, narr:VecTemporal_4RealFreyaDesignTokens20260702_17, narr:VecTemporal_4RealFreyaDesignTokens20260702_19, narr:VecTemporal_4RealFreyaDesignTokens20260702_20, narr:VecValue_4RealFreyaDesignTokens20260702_10, narr:VecValue_4RealFreyaDesignTokens20260702_13, narr:VecValue_4RealFreyaDesignTokens20260702_19, narr:Position_DesignTokenPerspectiveParallel, narr:Position_BrandAsAiIdentity .
+} ;
+INSERT DATA {
+  GRAPH aswr:Tx_20260923T173237Z {
+    narr:VecAffect_4RealFreyaDesignTokens20260702_13 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_4RealFreyaDesignTokens20260702_13 ;
+        narr:dimension narr:Dim_Affect ;
+        narr:region narr:Affect_ActivatedPositive ;
+        narr:evidence "intensifier: Like you can literally shape an AI that thinks like the brand and then let anyone use it across the org and it designs like [it]." ;
+        narr:reported false ;
+        skos:note "Tanya speaks with energized enthusiasm and expansive vision ('literally shape an AI that thinks like the brand')." ;
+        prov:generatedAtTime "2026-09-23T17:32:37Z"^^xsd:dateTime .
+
+    narr:VecAffect_4RealFreyaDesignTokens20260702_17 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_4RealFreyaDesignTokens20260702_17 ;
+        narr:dimension narr:Dim_Affect ;
+        narr:region narr:Affect_CalmPositive ;
+        narr:evidence "epistemic-verb: that does seem like the future to me." ;
+        narr:reported false ;
+        skos:note "Tanya reflects with calm, settled conviction about where the practice is heading." ;
+        prov:generatedAtTime "2026-09-23T17:32:37Z"^^xsd:dateTime .
+
+    narr:VecConviction_4RealFreyaDesignTokens20260702_6 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_4RealFreyaDesignTokens20260702_6 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Claim ;
+        narr:evidence "plain-assertion: I have a process where I extract everything that builds into a design language which gets tokenized." ;
+        narr:reported false ;
+        skos:note "Freya describes his current operational working method directly as factual practice." ;
+        prov:generatedAtTime "2026-09-23T17:32:37Z"^^xsd:dateTime .
+
+    narr:VecConviction_4RealFreyaDesignTokens20260702_8 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_4RealFreyaDesignTokens20260702_8 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Claim ;
+        narr:evidence "plain-assertion: It doesn't look anything like a Claude website. It looks like the initial designs." ;
+        narr:reported false ;
+        skos:note "Unhedged empirical assertion of the outcome of his process." ;
+        prov:generatedAtTime "2026-09-23T17:32:37Z"^^xsd:dateTime .
+
+    narr:VecConviction_4RealFreyaDesignTokens20260702_10 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_4RealFreyaDesignTokens20260702_10 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Claim ;
+        narr:evidence "plain-assertion: without my input through my own lens, it breaks, it falls down. So that shows that the actual unique part is by [my] lens" ;
+        narr:evidence "hedge: I suppose" ;
+        narr:reported false ;
+        skos:note "Asserts a core finding from his experiments while slightly hedging the exact equivalence to Tanya's system." ;
+        prov:generatedAtTime "2026-09-23T17:32:37Z"^^xsd:dateTime .
+
+    narr:VecConviction_4RealFreyaDesignTokens20260702_11 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_4RealFreyaDesignTokens20260702_11 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Claim ;
+        narr:evidence "hedge: It sounds like you're doing a very similar process" ;
+        narr:evidence "plain-assertion: I built a bunch of files that represent how were thinking" ;
+        narr:reported false ;
+        skos:note "Tanya claims historical continuity with her Northwind workflow, framed through analogical comparison." ;
+        prov:generatedAtTime "2026-09-23T17:32:37Z"^^xsd:dateTime .
+
+    narr:VecConviction_4RealFreyaDesignTokens20260702_13 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_4RealFreyaDesignTokens20260702_13 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Claim ;
+        narr:evidence "plain-assertion: these AI identities have the opportunity to be the brand's identity." ;
+        narr:evidence "intensifier: literally" ;
+        narr:reported false ;
+        skos:note "Strong assertive claim projecting the strategic capability of AI brand identity." ;
+        prov:generatedAtTime "2026-09-23T17:32:37Z"^^xsd:dateTime .
+
+    narr:VecConviction_4RealFreyaDesignTokens20260702_17 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_4RealFreyaDesignTokens20260702_17 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Notion ;
+        narr:evidence "hedge: that does seem like the future to me." ;
+        narr:evidence "plain-assertion: I haven't delivered an AI perspective as an alternative to a deck to a consulting client yet." ;
+        narr:reported false ;
+        skos:note "Acknowledges lack of execution and frames future orientation with epistemic softening ('seem like')." ;
+        prov:generatedAtTime "2026-09-23T17:32:37Z"^^xsd:dateTime .
+
+    narr:VecConviction_4RealFreyaDesignTokens20260702_19 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_4RealFreyaDesignTokens20260702_19 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Claim ;
+        narr:evidence "plain-assertion: what someone is hiring you for now is a static asset" ;
+        narr:reported false ;
+        skos:note "Direct assertive characterization of existing client consulting deliverables." ;
+        prov:generatedAtTime "2026-09-23T17:32:37Z"^^xsd:dateTime .
+
+    narr:VecPower_4RealFreyaDesignTokens20260702_6 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_4RealFreyaDesignTokens20260702_6 ;
+        narr:dimension narr:Dim_Power ;
+        narr:region narr:Power_Expert ;
+        narr:evidence "plain-assertion: I have a process where I extract everything that builds into a design language which gets tokenized." ;
+        narr:reported false ;
+        skos:note "Freya draws on his demonstrated technical design workflow and personal practice as the basis of authority." ;
+        prov:generatedAtTime "2026-09-23T17:32:37Z"^^xsd:dateTime .
+
+    narr:VecPower_4RealFreyaDesignTokens20260702_8 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_4RealFreyaDesignTokens20260702_8 ;
+        narr:dimension narr:Dim_Power ;
+        narr:region narr:Power_Expert ;
+        narr:evidence "plain-assertion: And I've actually been able to do this without giving it visuals." ;
+        narr:reported false ;
+        skos:note "Claims authority based on personal demonstration and empirical mastery of the AI tooling." ;
+        prov:generatedAtTime "2026-09-23T17:32:37Z"^^xsd:dateTime .
+
+    narr:VecPower_4RealFreyaDesignTokens20260702_10 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_4RealFreyaDesignTokens20260702_10 ;
+        narr:dimension narr:Dim_Power ;
+        narr:region narr:Power_Expert ;
+        narr:region narr:Power_RationalPersuasion ;
+        narr:evidence "framing-move: without my input through my own lens, it breaks, it falls down. So that shows that the actual unique part is by [my] lens" ;
+        narr:reported false ;
+        skos:note "Uses logical deduction from his own testing to demonstrate the essential role of the practitioner's lens." ;
+        prov:generatedAtTime "2026-09-23T17:32:37Z"^^xsd:dateTime .
+
+    narr:VecPower_4RealFreyaDesignTokens20260702_11 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_4RealFreyaDesignTokens20260702_11 ;
+        narr:dimension narr:Dim_Power ;
+        narr:region narr:Power_Expert ;
+        narr:evidence "plain-assertion: Like the precursor to this product was me building... something similar to what you're talking about." ;
+        narr:reported false ;
+        skos:note "Tanya claims parallel credibility through her own prior technical building at Northwind." ;
+        prov:generatedAtTime "2026-09-23T17:32:37Z"^^xsd:dateTime .
+
+    narr:VecPower_4RealFreyaDesignTokens20260702_13 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_4RealFreyaDesignTokens20260702_13 ;
+        narr:dimension narr:Dim_Power ;
+        narr:region narr:Power_InspirationalAppeal ;
+        narr:evidence "lexical-marker: these AI identities have the opportunity to be the brand's identity. Like you can literally shape an AI that thinks like the brand and then let anyone use it across the org" ;
+        narr:reported false ;
+        skos:note "Appeals to an aspirational, transformative future vision of org-wide capability." ;
+        prov:generatedAtTime "2026-09-23T17:32:37Z"^^xsd:dateTime .
+
+    narr:VecPower_4RealFreyaDesignTokens20260702_15 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_4RealFreyaDesignTokens20260702_15 ;
+        narr:dimension narr:Dim_Power ;
+        narr:region narr:Power_InspirationalAppeal ;
+        narr:evidence "framing-move: how do we get from one-shotting a website [that] looks like [Claude] every time to deliver an AI to Coca Cola, where if they ask it to one-shot a website, it looks like Coca Cola and it thinks like Coca Cola and it talks like Coca Cola" ;
+        narr:reported false ;
+        skos:note "Frames an ambitious target-state contrast to inspire orientation toward a grander horizon." ;
+        prov:generatedAtTime "2026-09-23T17:32:37Z"^^xsd:dateTime .
+
+    narr:VecPower_4RealFreyaDesignTokens20260702_19 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_4RealFreyaDesignTokens20260702_19 ;
+        narr:dimension narr:Dim_Power ;
+        narr:region narr:Power_RationalPersuasion ;
+        narr:evidence "plain-assertion: what someone is hiring you for now is a static asset that they then are dependent on you to either execute on, or they need to have someone in house that they pay quite a bit of money to then do a very lossy interpretation of your ideas" ;
+        narr:reported false ;
+        skos:note "Presents a logical breakdown of the inefficiencies and costs in the conventional consulting client model." ;
+        prov:generatedAtTime "2026-09-23T17:32:37Z"^^xsd:dateTime .
+
+    narr:VecRegister_4RealFreyaDesignTokens20260702_6 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_4RealFreyaDesignTokens20260702_6 ;
+        narr:dimension narr:Dim_Register ;
+        narr:region narr:Register_Technical ;
+        narr:evidence "lexical-marker: design language which gets tokenized. The tokens get applied to surfaces" ;
+        narr:reported false ;
+        skos:note "Freya describes his design practice using specialized design-systems and tokenization vocabulary." ;
+        prov:generatedAtTime "2026-09-23T17:32:37Z"^^xsd:dateTime .
+
+    narr:VecRegister_4RealFreyaDesignTokens20260702_11 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_4RealFreyaDesignTokens20260702_11 ;
+        narr:dimension narr:Dim_Register ;
+        narr:region narr:Register_Casual ;
+        narr:region narr:Register_Technical ;
+        narr:evidence "lexical-marker: Like the precursor to this product was me building... something similar to what you're talking about. I built a bunch of files that represent how were thinking and all the... the equivalent of design tokens for product language. And then I would sort of put that in the top of the chat" ;
+        narr:reported false ;
+        skos:note "Tanya bridges product architecture and prompt engineering through loose spoken syntax and conversational fillers." ;
+        prov:generatedAtTime "2026-09-23T17:32:37Z"^^xsd:dateTime .
+
+    narr:VecRegister_4RealFreyaDesignTokens20260702_13 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_4RealFreyaDesignTokens20260702_13 ;
+        narr:dimension narr:Dim_Register ;
+        narr:region narr:Register_Casual ;
+        narr:evidence "lexical-marker: Like you can literally shape an AI that thinks like the brand and then let anyone use it across the org" ;
+        narr:reported false ;
+        skos:note "Conversational colloquialisms ('Like', 'literally') frame a speculative vision for organizational AI identity." ;
+        prov:generatedAtTime "2026-09-23T17:32:37Z"^^xsd:dateTime .
+
+    narr:VecRegister_4RealFreyaDesignTokens20260702_15 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_4RealFreyaDesignTokens20260702_15 ;
+        narr:dimension narr:Dim_Register ;
+        narr:region narr:Register_Casual ;
+        narr:region narr:Register_Technical ;
+        narr:evidence "lexical-marker: one-shotting a website" ;
+        narr:reported false ;
+        skos:note "Colloquial prompt-engineering jargon ('one-shotting') anchors the target comparison." ;
+        prov:generatedAtTime "2026-09-23T17:32:37Z"^^xsd:dateTime .
+
+    narr:VecRelational_4RealFreyaDesignTokens20260702_10 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_4RealFreyaDesignTokens20260702_10 ;
+        narr:dimension narr:Dim_Relational ;
+        narr:region narr:Relational_CommunalSharing ;
+        narr:evidence "framing-move: effectively what you've built there" ;
+        narr:reported false ;
+        skos:note "Freya aligns his independent practice directly with Tanya's platform, establishing shared conceptual identity and convergence." ;
+        prov:generatedAtTime "2026-09-23T17:32:37Z"^^xsd:dateTime .
+
+    narr:VecRelational_4RealFreyaDesignTokens20260702_11 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_4RealFreyaDesignTokens20260702_11 ;
+        narr:dimension narr:Dim_Relational ;
+        narr:region narr:Relational_CommunalSharing ;
+        narr:evidence "framing-move: It sounds like you're doing a very similar process with AI like I did at Northwind with text." ;
+        narr:reported false ;
+        skos:note "Tanya reciprocates the alignment, grounding their work in shared past history and parallel practices." ;
+        prov:generatedAtTime "2026-09-23T17:32:37Z"^^xsd:dateTime .
+
+    narr:VecRelational_4RealFreyaDesignTokens20260702_13 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_4RealFreyaDesignTokens20260702_13 ;
+        narr:dimension narr:Dim_Relational ;
+        narr:region narr:Relational_CommunalSharing ;
+        narr:evidence "lexical-marker: let anyone use it across the org" ;
+        narr:reported false ;
+        skos:note "Envisions undifferentiated communal distribution of brand identity across an entire organization." ;
+        prov:generatedAtTime "2026-09-23T17:32:37Z"^^xsd:dateTime .
+
+    narr:VecRelational_4RealFreyaDesignTokens20260702_17 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_4RealFreyaDesignTokens20260702_17 ;
+        narr:dimension narr:Dim_Relational ;
+        narr:region narr:Relational_MarketPricing ;
+        narr:evidence "framing-move: I haven't delivered an AI perspective as an alternative to a deck to a consulting client yet." ;
+        narr:reported false ;
+        skos:note "Evaluates consulting engagements and deliverables against standard client transaction models." ;
+        prov:generatedAtTime "2026-09-23T17:32:37Z"^^xsd:dateTime .
+
+    narr:VecRelational_4RealFreyaDesignTokens20260702_19 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_4RealFreyaDesignTokens20260702_19 ;
+        narr:dimension narr:Dim_Relational ;
+        narr:region narr:Relational_MarketPricing ;
+        narr:evidence "plain-assertion: what someone is hiring you for now is a static asset that they then are dependent on you to either execute on, or they need to have someone in house that they pay quite a bit of money to then do a very lossy interpretation of your ideas" ;
+        narr:reported false ;
+        skos:note "Critiques the existing vendor-client market pricing/hiring dependency dynamics." ;
+        prov:generatedAtTime "2026-09-23T17:32:37Z"^^xsd:dateTime .
+
+    narr:DirStyle_TricolonAttributeCadence a narr:DirectionalNode ;
+        dct:source narr:Sample_4RealFreyaDesignTokens20260702 ;
+        narr:dimension narr:Dim_Style ;
+        narr:region narr:Style_Parallelism ;
+        narr:region narr:Style_RuleOfThree ;
+        narr:frame "Does the utterance structure an ideal target state through a rhythmic triad of matched sensory and behavioral attributes?" ;
+        skos:note "matched sensory-cognitive triad in goal framing" ;
+        prov:generatedAtTime "2026-09-23T17:32:37Z"^^xsd:dateTime .
+
+    narr:VecStyle_4RealFreyaDesignTokens20260702_10 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_4RealFreyaDesignTokens20260702_10 ;
+        narr:dimension narr:Dim_Style ;
+        narr:region narr:Style_Metaphor ;
+        narr:evidence "lexical-marker: it is the lens that controls all of that." ;
+        narr:reported false ;
+        skos:note "Metaphorical framing of an extracted worldview/perspective as a 'lens' that controls output." ;
+        prov:generatedAtTime "2026-09-23T17:32:37Z"^^xsd:dateTime .
+
+    narr:VecStyle_4RealFreyaDesignTokens20260702_11 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_4RealFreyaDesignTokens20260702_11 ;
+        narr:dimension narr:Dim_Style ;
+        narr:region narr:Style_Analogy ;
+        narr:evidence "framing-move: It sounds like you're doing a very similar process with AI like I did at Northwind with text." ;
+        narr:evidence "lexical-marker: the equivalent of design tokens for product language." ;
+        narr:reported false ;
+        skos:note "Explicit structured comparison mapping design tokens in visual design to text/product language tokens in AI prompting." ;
+        prov:generatedAtTime "2026-09-23T17:32:37Z"^^xsd:dateTime .
+
+    narr:VecStyle_4RealFreyaDesignTokens20260702_15 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_4RealFreyaDesignTokens20260702_15 ;
+        narr:dimension narr:Dim_Style ;
+        narr:region narr:Style_RhetoricalQuestion ;
+        narr:region narr:Style_Parallelism ;
+        narr:direction narr:DirStyle_TricolonAttributeCadence ;
+        narr:evidence "plain-signal: it looks like Coca Cola and it thinks like Coca Cola and it talks like Coca Cola" ;
+        narr:reported false ;
+        skos:note "A rhetorical vision question deploying tricolon parallelism and polysyndeton ('and it looks... and it thinks... and it talks...')." ;
+        prov:generatedAtTime "2026-09-23T17:32:37Z"^^xsd:dateTime .
+
+    narr:VecTemporal_4RealFreyaDesignTokens20260702_2 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_4RealFreyaDesignTokens20260702_2 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Past ;
+        narr:region narr:Temporal_Realis ;
+        narr:region narr:Temporal_Concrete ;
+        narr:evidence "plain-signal: June 29, 2026" ;
+        narr:evidence "plain-assertion: first: March 23, 2026, where he committed to a style-guide" ;
+        narr:reported false ;
+        skos:note "Contextualizes specific past historical dates and meetings in actual reality." ;
+        prov:generatedAtTime "2026-09-23T17:32:37Z"^^xsd:dateTime .
+
+    narr:VecTemporal_4RealFreyaDesignTokens20260702_3 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_4RealFreyaDesignTokens20260702_3 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Present ;
+        narr:region narr:Temporal_Realis ;
+        narr:region narr:Temporal_Abstract ;
+        narr:evidence "plain-assertion: is already established in the perspective as a high-conviction (boulder) claim from March 19" ;
+        narr:reported false ;
+        skos:note "States an existing, currently established high-level conceptual position in the perspective." ;
+        prov:generatedAtTime "2026-09-23T17:32:37Z"^^xsd:dateTime .
+
+    narr:VecTemporal_4RealFreyaDesignTokens20260702_4 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_4RealFreyaDesignTokens20260702_4 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Present ;
+        narr:region narr:Temporal_Realis ;
+        narr:region narr:Temporal_Concrete ;
+        narr:evidence "plain-assertion: Tanya has not yet actually delivered an aswritten perspective as a deck-alternative to a consulting client" ;
+        narr:reported false ;
+        skos:note "Reports the concrete present status of deliverables to clients." ;
+        prov:generatedAtTime "2026-09-23T17:32:37Z"^^xsd:dateTime .
+
+    narr:VecTemporal_4RealFreyaDesignTokens20260702_6 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_4RealFreyaDesignTokens20260702_6 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Present ;
+        narr:region narr:Temporal_Realis ;
+        narr:region narr:Temporal_Concrete ;
+        narr:evidence "plain-assertion: I have a process where I extract everything that builds into a design language which gets tokenized." ;
+        narr:reported false ;
+        skos:note "Describes Freya's actual current concrete workflow." ;
+        prov:generatedAtTime "2026-09-23T17:32:37Z"^^xsd:dateTime .
+
+    narr:VecTemporal_4RealFreyaDesignTokens20260702_8 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_4RealFreyaDesignTokens20260702_8 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Present ;
+        narr:region narr:Temporal_Realis ;
+        narr:region narr:Temporal_Concrete ;
+        narr:evidence "plain-assertion: It doesn't look anything like a Claude website. It looks like the initial designs. And I've actually been able to do this without giving it visuals." ;
+        narr:reported false ;
+        skos:note "Describes the actual current behavior and outputs of the tool in practice." ;
+        prov:generatedAtTime "2026-09-23T17:32:37Z"^^xsd:dateTime .
+
+    narr:VecTemporal_4RealFreyaDesignTokens20260702_10 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_4RealFreyaDesignTokens20260702_10 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Present ;
+        narr:region narr:Temporal_Realis ;
+        narr:region narr:Temporal_Abstract ;
+        narr:evidence "plain-assertion: without my input through my own lens, it breaks, it falls down. So that shows that the actual unique part is by [my] lens" ;
+        narr:reported false ;
+        skos:note "Articulates a general principle/abstraction about the lens being the unique governing factor." ;
+        prov:generatedAtTime "2026-09-23T17:32:37Z"^^xsd:dateTime .
+
+    narr:VecTemporal_4RealFreyaDesignTokens20260702_11 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_4RealFreyaDesignTokens20260702_11 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Past ;
+        narr:region narr:Temporal_Realis ;
+        narr:region narr:Temporal_Concrete ;
+        narr:evidence "plain-assertion: I built a bunch of files that represent how were thinking and all the... the equivalent of design tokens for product language." ;
+        narr:reported false ;
+        skos:note "Recalls specific concrete past work at Northwind." ;
+        prov:generatedAtTime "2026-09-23T17:32:37Z"^^xsd:dateTime .
+
+    narr:VecTemporal_4RealFreyaDesignTokens20260702_13 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_4RealFreyaDesignTokens20260702_13 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Future ;
+        narr:region narr:Temporal_Irrealis ;
+        narr:region narr:Temporal_Abstract ;
+        narr:evidence "modal-marker: these AI identities have the opportunity to be the brand's identity. Like you can literally shape an AI that thinks like the brand and then let anyone use it across the org" ;
+        narr:reported false ;
+        skos:note "Describes an abstract future possibility and opportunity for brand identity in orgs." ;
+        prov:generatedAtTime "2026-09-23T17:32:37Z"^^xsd:dateTime .
+
+    narr:VecTemporal_4RealFreyaDesignTokens20260702_15 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_4RealFreyaDesignTokens20260702_15 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Future ;
+        narr:region narr:Temporal_Irrealis ;
+        narr:region narr:Temporal_Concrete ;
+        narr:evidence "framing-move: how do we get from one-shotting a website [that] looks like [Claude] every time to deliver an AI to Coca Cola" ;
+        narr:reported false ;
+        skos:note "Poses a hypothetical future target state with a concrete example (Coca Cola)." ;
+        prov:generatedAtTime "2026-09-23T17:32:37Z"^^xsd:dateTime .
+
+    narr:VecTemporal_4RealFreyaDesignTokens20260702_17 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_4RealFreyaDesignTokens20260702_17 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Present ;
+        narr:region narr:Temporal_Realis ;
+        narr:region narr:Temporal_Concrete ;
+        narr:evidence "plain-assertion: I haven't delivered an AI perspective as an alternative to a deck to a consulting client yet." ;
+        narr:reported false ;
+        skos:note "States the present realis fact of never having delivered the artifact to a client." ;
+        prov:generatedAtTime "2026-09-23T17:32:37Z"^^xsd:dateTime .
+
+    narr:VecTemporal_4RealFreyaDesignTokens20260702_19 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_4RealFreyaDesignTokens20260702_19 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Present ;
+        narr:region narr:Temporal_Realis ;
+        narr:region narr:Temporal_Abstract ;
+        narr:evidence "plain-assertion: what someone is hiring you for now is a static asset that they then are dependent on you to either execute on" ;
+        narr:reported false ;
+        skos:note "Characterizes the generalized current consulting dynamic." ;
+        prov:generatedAtTime "2026-09-23T17:32:37Z"^^xsd:dateTime .
+
+    narr:VecTemporal_4RealFreyaDesignTokens20260702_20 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_4RealFreyaDesignTokens20260702_20 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Present ;
+        narr:region narr:Temporal_Realis ;
+        narr:region narr:Temporal_Abstract ;
+        narr:evidence "plain-assertion: This is convergent validation from outside aswritten: a designer independently building extraction → tokens → AI-applied output" ;
+        narr:reported false ;
+        skos:note "Summarizes current validation and abstract conceptual parallels." ;
+        prov:generatedAtTime "2026-09-23T17:32:37Z"^^xsd:dateTime .
+
+    narr:VecValue_4RealFreyaDesignTokens20260702_10 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_4RealFreyaDesignTokens20260702_10 ;
+        narr:dimension narr:Dim_Value ;
+        narr:region narr:Value_Autonomy ;
+        narr:region narr:Value_Competence ;
+        narr:evidence "plain-assertion: without my input through my own lens, it breaks, it falls down. So that shows that the actual unique part is by [my] lens" ;
+        narr:reported false ;
+        skos:note "Locates the primary value in the individual practitioner's distinct perspective and generative mastery." ;
+        prov:generatedAtTime "2026-09-23T17:32:37Z"^^xsd:dateTime .
+
+    narr:VecValue_4RealFreyaDesignTokens20260702_13 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_4RealFreyaDesignTokens20260702_13 ;
+        narr:dimension narr:Dim_Value ;
+        narr:region narr:Value_OpennessToChange ;
+        narr:region narr:Value_Competence ;
+        narr:evidence "plain-assertion: these AI identities have the opportunity to be the brand's identity. Like you can literally shape an AI that thinks like the brand and then let anyone use it across the org" ;
+        narr:reported false ;
+        skos:note "Appeals to the value of org-wide capability distribution and new technological frontiers." ;
+        prov:generatedAtTime "2026-09-23T17:32:37Z"^^xsd:dateTime .
+
+    narr:VecValue_4RealFreyaDesignTokens20260702_19 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_4RealFreyaDesignTokens20260702_19 ;
+        narr:dimension narr:Dim_Value ;
+        narr:region narr:Value_Autonomy ;
+        narr:evidence "framing-move: what someone is hiring you for now is a static asset that they then are dependent on you to either execute on, or they need to have someone in house that they pay quite a bit of money to then do a very lossy interpretation" ;
+        narr:reported false ;
+        skos:note "Critiques client dependency and loss of fidelity in favor of self-originated, direct organizational execution." ;
+        prov:generatedAtTime "2026-09-23T17:32:37Z"^^xsd:dateTime .
+
+    narr:Expr_4RealFreyaDesignTokens20260702_3 narr:supports narr:Narrative_InstallableExpertise .
+
+    narr:Expr_4RealFreyaDesignTokens20260702_4 narr:supports narr:Narrative_InstallableExpertise .
+
+    narr:Expr_4RealFreyaDesignTokens20260702_6 narr:supports narr:Narrative_InstallableExpertise .
+
+    narr:Expr_4RealFreyaDesignTokens20260702_8 narr:supports narr:Narrative_InstallableExpertise .
+
+    narr:Expr_4RealFreyaDesignTokens20260702_10 narr:supports narr:Narrative_InstallableExpertise .
+
+    narr:Expr_4RealFreyaDesignTokens20260702_11 narr:supports narr:Narrative_InstallableExpertise .
+
+    narr:Expr_4RealFreyaDesignTokens20260702_13 narr:supports narr:Narrative_InstallableExpertise .
+
+    narr:Expr_4RealFreyaDesignTokens20260702_15 narr:supports narr:Narrative_InstallableExpertise .
+
+    narr:Expr_4RealFreyaDesignTokens20260702_17 narr:supports narr:Narrative_InstallableExpertise .
+
+    narr:Expr_4RealFreyaDesignTokens20260702_19 narr:supports narr:Narrative_InstallableExpertise .
+
+    narr:Expr_4RealFreyaDesignTokens20260702_20 narr:supports narr:Narrative_InstallableExpertise .
+
+    narr:Position_InstallableExpertiseCategoryMoat narr:supports narr:Narrative_InstallableExpertise .
+
+    narr:Position_DesignTokenPerspectiveParallel a narr:Position ;
+        narr:frame "How do extracted design tokens and visual lenses parallel document-extracted perspectives in controlling AI output fidelity?" ;
+        narr:extends narr:Position_InstallableExpertiseCategoryMoat ;
+        prov:generatedAtTime "2026-09-23T17:32:37Z"^^xsd:dateTime .
+
+    narr:Position_DesignTokenPerspectiveParallel narr:supports narr:Narrative_InstallableExpertise .
+
+    narr:Expr_4RealFreyaDesignTokens20260702_6 narr:supports narr:Position_DesignTokenPerspectiveParallel .
+
+    narr:Expr_4RealFreyaDesignTokens20260702_8 narr:supports narr:Position_DesignTokenPerspectiveParallel .
+
+    narr:Expr_4RealFreyaDesignTokens20260702_10 narr:supports narr:Position_DesignTokenPerspectiveParallel .
+
+    narr:Expr_4RealFreyaDesignTokens20260702_11 narr:supports narr:Position_DesignTokenPerspectiveParallel .
+
+    narr:Position_BrandAsAiIdentity a narr:Position ;
+        narr:frame "How does encoding institutional perspective into AI models transform brand identity from static guidelines to executable organizational capability?" ;
+        narr:extends narr:Position_InstallableExpertiseCategoryMoat ;
+        prov:generatedAtTime "2026-09-23T17:32:37Z"^^xsd:dateTime .
+
+    narr:Position_BrandAsAiIdentity narr:supports narr:Narrative_InstallableExpertise .
+
+    narr:Expr_4RealFreyaDesignTokens20260702_13 narr:supports narr:Position_BrandAsAiIdentity .
+
+    narr:Expr_4RealFreyaDesignTokens20260702_15 narr:supports narr:Position_BrandAsAiIdentity .
+
+    narr:Expr_4RealFreyaDesignTokens20260702_17 narr:supports narr:Position_InstallableExpertiseCategoryMoat .
+
+    narr:Expr_4RealFreyaDesignTokens20260702_19 narr:supports narr:Position_InstallableExpertiseCategoryMoat .
+
+    aswr:Miss_4RealFreyaDesignTokens20260702_narrative_trip a aswr:Miss ;
+        aswr:missPass "narrative" ;
+        aswr:missClass "floor" ;
+        aswr:missError "unplaced 9/20 exceeds 0.34" ;
+        aswr:missModel "google/gemini-3.7-flash" ;
+        aswr:tripFloor "unplaced_ratio" ;
+        aswr:tripRatio "0.4500"^^xsd:decimal ;
+        aswr:tripOutcome "accepted-flagged" ;
+        aswr:tripFallbackModel "anthropic/claude-sonnet-5" ;
+        aswr:missScope narr:Sample_4RealFreyaDesignTokens20260702 ;
+        prov:generatedAtTime "2026-09-23T17:32:37Z"^^xsd:dateTime .
+
+    aswr:Run_20260923T173237Z_dim_affect a prov:Activity ;
+        aswr:runPass "dim.affect" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/2af4e1ec87c9/2026-09-23-4-real-freya-design-tokens-2026-07-02/dim.affect.json" ;
+        prov:generated narr:VecAffect_4RealFreyaDesignTokens20260702_13, narr:VecAffect_4RealFreyaDesignTokens20260702_17 ;
+        dct:isPartOf aswr:Tx_20260923T173237Z ;
+        prov:generatedAtTime "2026-09-23T17:32:37Z"^^xsd:dateTime .
+
+    aswr:Run_20260923T173237Z_dim_conviction a prov:Activity ;
+        aswr:runPass "dim.conviction" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/2af4e1ec87c9/2026-09-23-4-real-freya-design-tokens-2026-07-02/dim.conviction.json" ;
+        prov:generated narr:VecConviction_4RealFreyaDesignTokens20260702_6, narr:VecConviction_4RealFreyaDesignTokens20260702_8, narr:VecConviction_4RealFreyaDesignTokens20260702_10, narr:VecConviction_4RealFreyaDesignTokens20260702_11, narr:VecConviction_4RealFreyaDesignTokens20260702_13, narr:VecConviction_4RealFreyaDesignTokens20260702_17, narr:VecConviction_4RealFreyaDesignTokens20260702_19 ;
+        dct:isPartOf aswr:Tx_20260923T173237Z ;
+        prov:generatedAtTime "2026-09-23T17:32:37Z"^^xsd:dateTime .
+
+    aswr:Run_20260923T173237Z_dim_power a prov:Activity ;
+        aswr:runPass "dim.power" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/2af4e1ec87c9/2026-09-23-4-real-freya-design-tokens-2026-07-02/dim.power.json" ;
+        prov:generated narr:VecPower_4RealFreyaDesignTokens20260702_6, narr:VecPower_4RealFreyaDesignTokens20260702_8, narr:VecPower_4RealFreyaDesignTokens20260702_10, narr:VecPower_4RealFreyaDesignTokens20260702_11, narr:VecPower_4RealFreyaDesignTokens20260702_13, narr:VecPower_4RealFreyaDesignTokens20260702_15, narr:VecPower_4RealFreyaDesignTokens20260702_19 ;
+        dct:isPartOf aswr:Tx_20260923T173237Z ;
+        prov:generatedAtTime "2026-09-23T17:32:37Z"^^xsd:dateTime .
+
+    aswr:Run_20260923T173237Z_dim_register a prov:Activity ;
+        aswr:runPass "dim.register" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/2af4e1ec87c9/2026-09-23-4-real-freya-design-tokens-2026-07-02/dim.register.json" ;
+        prov:generated narr:VecRegister_4RealFreyaDesignTokens20260702_6, narr:VecRegister_4RealFreyaDesignTokens20260702_11, narr:VecRegister_4RealFreyaDesignTokens20260702_13, narr:VecRegister_4RealFreyaDesignTokens20260702_15 ;
+        dct:isPartOf aswr:Tx_20260923T173237Z ;
+        prov:generatedAtTime "2026-09-23T17:32:37Z"^^xsd:dateTime .
+
+    aswr:Run_20260923T173237Z_dim_relational a prov:Activity ;
+        aswr:runPass "dim.relational" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/2af4e1ec87c9/2026-09-23-4-real-freya-design-tokens-2026-07-02/dim.relational.json" ;
+        prov:generated narr:VecRelational_4RealFreyaDesignTokens20260702_10, narr:VecRelational_4RealFreyaDesignTokens20260702_11, narr:VecRelational_4RealFreyaDesignTokens20260702_13, narr:VecRelational_4RealFreyaDesignTokens20260702_17, narr:VecRelational_4RealFreyaDesignTokens20260702_19 ;
+        dct:isPartOf aswr:Tx_20260923T173237Z ;
+        prov:generatedAtTime "2026-09-23T17:32:37Z"^^xsd:dateTime .
+
+    aswr:Run_20260923T173237Z_dim_style a prov:Activity ;
+        aswr:runPass "dim.style" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/2af4e1ec87c9/2026-09-23-4-real-freya-design-tokens-2026-07-02/dim.style.json" ;
+        prov:generated narr:DirStyle_TricolonAttributeCadence, narr:VecStyle_4RealFreyaDesignTokens20260702_10, narr:VecStyle_4RealFreyaDesignTokens20260702_11, narr:VecStyle_4RealFreyaDesignTokens20260702_15 ;
+        dct:isPartOf aswr:Tx_20260923T173237Z ;
+        prov:generatedAtTime "2026-09-23T17:32:37Z"^^xsd:dateTime .
+
+    aswr:Run_20260923T173237Z_dim_temporal a prov:Activity ;
+        aswr:runPass "dim.temporal" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/2af4e1ec87c9/2026-09-23-4-real-freya-design-tokens-2026-07-02/dim.temporal.json" ;
+        prov:generated narr:VecTemporal_4RealFreyaDesignTokens20260702_2, narr:VecTemporal_4RealFreyaDesignTokens20260702_3, narr:VecTemporal_4RealFreyaDesignTokens20260702_4, narr:VecTemporal_4RealFreyaDesignTokens20260702_6, narr:VecTemporal_4RealFreyaDesignTokens20260702_8, narr:VecTemporal_4RealFreyaDesignTokens20260702_10, narr:VecTemporal_4RealFreyaDesignTokens20260702_11, narr:VecTemporal_4RealFreyaDesignTokens20260702_13, narr:VecTemporal_4RealFreyaDesignTokens20260702_15, narr:VecTemporal_4RealFreyaDesignTokens20260702_17, narr:VecTemporal_4RealFreyaDesignTokens20260702_19, narr:VecTemporal_4RealFreyaDesignTokens20260702_20 ;
+        dct:isPartOf aswr:Tx_20260923T173237Z ;
+        prov:generatedAtTime "2026-09-23T17:32:37Z"^^xsd:dateTime .
+
+    aswr:Run_20260923T173237Z_dim_value a prov:Activity ;
+        aswr:runPass "dim.value" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/2af4e1ec87c9/2026-09-23-4-real-freya-design-tokens-2026-07-02/dim.value.json" ;
+        prov:generated narr:VecValue_4RealFreyaDesignTokens20260702_10, narr:VecValue_4RealFreyaDesignTokens20260702_13, narr:VecValue_4RealFreyaDesignTokens20260702_19 ;
+        dct:isPartOf aswr:Tx_20260923T173237Z ;
+        prov:generatedAtTime "2026-09-23T17:32:37Z"^^xsd:dateTime .
+
+    aswr:Run_20260923T173237Z_pass5 a prov:Activity ;
+        aswr:runPass "pass5" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/2af4e1ec87c9/2026-09-23-4-real-freya-design-tokens-2026-07-02/pass5.json" ;
+        dct:isPartOf aswr:Tx_20260923T173237Z ;
+        prov:generatedAtTime "2026-09-23T17:32:37Z"^^xsd:dateTime .
+
+    aswr:Run_20260923T173237Z_position a prov:Activity ;
+        aswr:runPass "position" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/2af4e1ec87c9/2026-09-23-4-real-freya-design-tokens-2026-07-02/position.json" ;
+        prov:generated narr:Position_DesignTokenPerspectiveParallel, narr:Position_BrandAsAiIdentity ;
+        dct:isPartOf aswr:Tx_20260923T173237Z ;
+        prov:generatedAtTime "2026-09-23T17:32:37Z"^^xsd:dateTime .
+  }
+}

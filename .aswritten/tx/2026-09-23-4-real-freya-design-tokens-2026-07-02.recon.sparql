@@ -1,0 +1,62 @@
+PREFIX narr: <https://aswritten.ai/narrative#>
+PREFIX aswr: <https://aswritten.ai/aswr#>
+PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX dct:  <http://purl.org/dc/terms/>
+PREFIX xsd:  <http://www.w3.org/2001/XMLSchema#>
+PREFIX oa:   <http://www.w3.org/ns/oa#>
+PREFIX xkos: <http://rdf-vocabulary.ddialliance.org/xkos#>
+
+INSERT DATA {
+  aswr:Tx_20260923T173238Z a prov:Activity ;
+      prov:generatedAtTime "2026-09-23T17:32:38Z"^^xsd:dateTime ;
+      prov:wasAssociatedWith "aswritten.ai" ;
+      prov:wasAttributedTo "scarlet@aswritten.ai" ;
+      aswr:draftedBy "claude-opus-5-5" ;
+      aswr:pipelinePin "8dd07a49bda8" ;
+      dct:title "Multipass reconciliations: 4RealFreyaDesignTokens20260702" ;
+      prov:generated narr:Recon_4RealFreyaDesignTokens20260702_1, narr:Recon_4RealFreyaDesignTokens20260702_2 .
+} ;
+INSERT DATA {
+  GRAPH aswr:Tx_20260923T173238Z {
+    narr:Recon_4RealFreyaDesignTokens20260702_1 a narr:Reconciliation ;
+        oa:hasTarget narr:Narrative_InstallableExpertise ;
+        narr:principal narr:Actor_TanyaTeamowner ;
+        skos:note "The idea that the consulting deliverable of the AI age is not a deck but an installable perspective is already established in the perspective as a high-conviction (boulder) claim from March 19 — \"instead of a deck, deliver a perspective the whole org can install,\" with the deck as a derived artifact. What this call adds is (a) **independent validation** of that thesis from a working designer who arrived at it through his own practice, (b) the concrete **design-token ↔ perspective parallel** the graph was explicitly missing, and (c) a **status note**: Tanya has not yet actually delivered an aswritten perspective as a deck-alternative to a consulting client." ;
+        narr:extends narr:Position_InstallableExpertiseCategoryMoat ;
+        narr:extends narr:Narrative_InstallableExpertise ;
+        dct:source narr:Expr_4RealFreyaDesignTokens20260702_3 ;
+        dct:source narr:Expr_4RealFreyaDesignTokens20260702_4 ;
+        prov:generatedAtTime "2026-09-23T17:32:38Z"^^xsd:dateTime .
+
+    narr:Recon_4RealFreyaDesignTokens20260702_2 a narr:Reconciliation ;
+        oa:hasTarget narr:Narrative_InstallableExpertise ;
+        narr:principal narr:Actor_TanyaTeamowner ;
+        skos:note "This is convergent validation from outside aswritten: a designer independently building extraction → tokens → AI-applied output, and naming \"the lens\" as the irreducible, defensible core — the same claim aswritten makes about perspective. It grounds the design-token/perspective parallel and the brand-as-AI-identity endpoint with primary-source material, and it flags a concrete, still-open product move: actually delivering a perspective to a consulting client in place of a deck." ;
+        narr:extends narr:Position_InstallableExpertiseCategoryMoat ;
+        narr:extends narr:Narrative_InstallableExpertise ;
+        dct:source narr:Expr_4RealFreyaDesignTokens20260702_20 ;
+        prov:generatedAtTime "2026-09-23T17:32:38Z"^^xsd:dateTime .
+
+    aswr:Run_20260923T173238Z_pass2 a prov:Activity ;
+        aswr:runPass "pass2" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/2af4e1ec87c9/2026-09-23-4-real-freya-design-tokens-2026-07-02/pass2.json" ;
+        dct:isPartOf aswr:Tx_20260923T173238Z ;
+        prov:generatedAtTime "2026-09-23T17:32:38Z"^^xsd:dateTime .
+
+    aswr:Run_20260923T173238Z_pass3 a prov:Activity ;
+        aswr:runPass "pass3" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/2af4e1ec87c9/2026-09-23-4-real-freya-design-tokens-2026-07-02/pass3.json" ;
+        prov:generated narr:Recon_4RealFreyaDesignTokens20260702_1, narr:Recon_4RealFreyaDesignTokens20260702_2 ;
+        dct:isPartOf aswr:Tx_20260923T173238Z ;
+        prov:generatedAtTime "2026-09-23T17:32:38Z"^^xsd:dateTime .
+
+    narr:Expr_4RealFreyaDesignTokens20260702_2 narr:see narr:Actor_FreyaFree .
+    narr:Expr_4RealFreyaDesignTokens20260702_2 narr:see narr:Sample_1RealFreyaPodcastSalesMotion20260323 .
+    narr:Expr_4RealFreyaDesignTokens20260702_3 narr:see narr:Narrative_InstallableExpertise .
+    narr:Expr_4RealFreyaDesignTokens20260702_3 narr:see narr:Position_InstallableExpertiseCategoryMoat .
+  }
+}
