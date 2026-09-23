@@ -1,0 +1,146 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "past", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "Legal came to me on Friday",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Recounts a specific actual event that took place on Friday.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-3",
+    "regions" : [ "present", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "lives in the old platform",
+      "kind" : "plain-assertion"
+    }, {
+      "quote" : "eleven years of it",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Describes the current state of records and historical data scope.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-4",
+    "regions" : [ "future", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "gets switched off",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Refers to a concrete scheduled future event when the platform is decommissioned.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-6",
+    "regions" : [ "past", "irrealis" ],
+    "evidence" : [ {
+      "quote" : "I'd assumed",
+      "kind" : "epistemic-verb"
+    } ],
+    "why" : "Reflects on a past hypothetical/assumed plan.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-7",
+    "regions" : [ "present", "abstract" ],
+    "evidence" : [ {
+      "quote" : "A system nobody uses and nobody patches is a system that stops working quietly",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Articulates a general abstract principle about unmaintained systems.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-9",
+    "regions" : [ "future", "irrealis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "We extract the closed history into a flat, self-describing archive",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Proposes a concrete future architecture and target state.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-11",
+    "regions" : [ "future", "irrealis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "in ten years with nothing but the files",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Envisions concrete operational details for retrieving records a decade out.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-13",
+    "regions" : [ "abstract" ],
+    "evidence" : [ {
+      "quote" : "The data is easy to keep. The meaning is what rots.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "States an abstract, timeless observation about data retention versus semantics.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-15",
+    "regions" : [ "future", "abstract" ],
+    "evidence" : [ {
+      "quote" : "a risk that lands years from now on someone who isn't in this room",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Focuses on abstract future trade-offs and delayed consequences.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-16",
+    "regions" : [ "future", "irrealis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "If Ferry Road can still look something up in the old system",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Explores a hypothetical future scenario involving a specific location.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-20",
+    "regions" : [ "future", "concrete" ],
+    "evidence" : [ {
+      "quote" : "seven years from the record date",
+      "kind" : "lexical-marker"
+    }, {
+      "quote" : "give us one in writing",
+      "kind" : "commitment-marker"
+    } ],
+    "why" : "Focuses on concrete future retention requirements and legal sign-off.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-22",
+    "regions" : [ "future", "irrealis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "the legacy platform is switched off when the last site goes live",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Synthesizes the planned future state and concrete decommissioning sequence.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-24",
+    "regions" : [ "future", "irrealis" ],
+    "evidence" : [ {
+      "quote" : "this needs to be in the vendor exit conversation",
+      "kind" : "modal-marker"
+    } ],
+    "why" : "Addresses planned upcoming vendor negotiations.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-25",
+    "regions" : [ "past", "irrealis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "I'd have signed the decommissioning terms first",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Contemplates a counterfactual past scenario.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-28",
+    "regions" : [ "future", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "until the end of next week",
+      "kind" : "commitment-marker"
+    } ],
+    "why" : "Commits to a concrete deliverable on a specific near-future deadline.",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-2", "src-5", "src-8", "src-10", "src-12", "src-14", "src-17", "src-18", "src-19", "src-21", "src-23", "src-26", "src-27" ],
+  "unmarked_rest" : false
+}
