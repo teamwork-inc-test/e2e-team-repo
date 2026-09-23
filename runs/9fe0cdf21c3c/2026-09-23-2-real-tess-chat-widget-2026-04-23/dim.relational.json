@@ -1,0 +1,97 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-9",
+    "regions" : [ "market-pricing" ],
+    "evidence" : [ {
+      "quote" : "requiring someone to text might actually be a real downside. People might not want to give their number.",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Evaluates channel choice via trade-offs and personal data cost/tax to the user.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-10",
+    "regions" : [ "communal-sharing" ],
+    "evidence" : [ {
+      "quote" : "The SMS-feels-honest-not-bot framing holds when the sender is already trusted.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Relies on pre-existing mutual trust and shared identity context.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-16",
+    "regions" : [ "market-pricing" ],
+    "evidence" : [ {
+      "quote" : "the channel carries a trust tax in evaluator-grade conversations.",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Frames interpersonal trust explicitly as an economic cost/tax.",
+    "reported" : true
+  }, {
+    "segment_local_id" : "src-18",
+    "regions" : [ "equality-matching" ],
+    "evidence" : [ {
+      "quote" : "Can you just give me a chat widget on a web form?",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Requests a straightforward peer-level interface accommodation.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-26",
+    "regions" : [ "market-pricing" ],
+    "evidence" : [ {
+      "quote" : "lower lift for the demo, lower lift for Tess and others in her category, potentially much more useful.",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Evaluates implementation options along cost/lift and utility return dimensions.",
+    "reported" : true
+  }, {
+    "segment_local_id" : "src-44",
+    "regions" : [ "communal-sharing", "market-pricing" ],
+    "evidence" : [ {
+      "quote" : "She's on Individual because she's my fiancé and beta tester, not a sales target",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Explicitly contrasts relational communal sharing (fiancé/beta tester) against market pricing (commercial sales target).",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-45",
+    "regions" : [ "communal-sharing", "market-pricing" ],
+    "evidence" : [ {
+      "quote" : "a relational arrangement, not a sales-validated pricing decision.",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Analytically separates the communal relational tie from a market-pricing contract.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-47",
+    "regions" : [ "communal-sharing", "market-pricing" ],
+    "evidence" : [ {
+      "quote" : "Her commercial status is \"relational\" — fiancé and beta tester, on the Individual tier by arrangement, not by sales logic.",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Distinguishes personal bond and communal beta role from commercial market exchange logic.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-49",
+    "regions" : [ "market-pricing" ],
+    "evidence" : [ {
+      "quote" : "Tess doesn't validate Individual-tier pricing, because she isn't a prospect — using her as the Trigger-1 exemplar implies \"here's what an Individual-tier user looks like and pays,\" and she doesn't pay.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Applies market-pricing validation criteria to reject using a non-paying communal contact as pricing proof.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-54",
+    "regions" : [ "equality-matching" ],
+    "evidence" : [ {
+      "quote" : "The vast majority of her feedback is verbal and I just implement.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Enacts a direct, informal feedback-and-implementation exchange loop.",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-1", "src-2", "src-3", "src-4", "src-5", "src-6", "src-7", "src-8", "src-11", "src-12", "src-13", "src-14", "src-15", "src-17", "src-19", "src-20", "src-21", "src-22", "src-23", "src-24", "src-25", "src-27", "src-28", "src-29", "src-30", "src-31", "src-32", "src-33", "src-34", "src-35", "src-36", "src-37", "src-38", "src-39", "src-40", "src-41", "src-42", "src-43", "src-46", "src-48", "src-50", "src-51", "src-52", "src-53", "src-55", "src-56", "src-57", "src-58", "src-59", "src-60", "src-61", "src-62", "src-63", "src-64", "src-65", "src-66", "src-67", "src-68", "src-69", "src-70", "src-71", "src-72", "src-73", "src-74", "src-75", "src-76", "src-77", "src-78" ],
+  "unmarked_rest" : false,
+  "mints" : [ ],
+  "region_mints" : [ ]
+}
