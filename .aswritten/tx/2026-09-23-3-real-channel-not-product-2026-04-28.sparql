@@ -1,0 +1,920 @@
+PREFIX narr: <https://aswritten.ai/narrative#>
+PREFIX aswr: <https://aswritten.ai/aswr#>
+PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX dct:  <http://purl.org/dc/terms/>
+PREFIX xsd:  <http://www.w3.org/2001/XMLSchema#>
+PREFIX oa:   <http://www.w3.org/ns/oa#>
+PREFIX xkos: <http://rdf-vocabulary.ddialliance.org/xkos#>
+
+INSERT DATA {
+  aswr:Tx_20260923T172220Z a prov:Activity ;
+      prov:generatedAtTime "2026-09-23T17:22:20Z"^^xsd:dateTime ;
+      prov:wasAssociatedWith "aswritten.ai" ;
+      prov:wasAttributedTo "scarlet@aswritten.ai" ;
+      aswr:draftedBy "claude-opus-5-5" ;
+      aswr:pipelinePin "8dd07a49bda8" ;
+      aswr:originPath ".aswritten/memories/2026-09-23-3-real-channel-not-product-2026-04-28.md" ;
+      dct:title "Multipass source extraction: The product is not a phone number — channel is distribution, not identity" ;
+      prov:generated narr:Sample_3RealChannelNotProduct20260428, narr:Expr_3RealChannelNotProduct20260428_1, narr:Expr_3RealChannelNotProduct20260428_2, narr:Expr_3RealChannelNotProduct20260428_3, narr:Expr_3RealChannelNotProduct20260428_4, narr:Expr_3RealChannelNotProduct20260428_5, narr:Expr_3RealChannelNotProduct20260428_6, narr:Expr_3RealChannelNotProduct20260428_7, narr:Expr_3RealChannelNotProduct20260428_8, narr:Expr_3RealChannelNotProduct20260428_9, narr:Expr_3RealChannelNotProduct20260428_10, narr:Expr_3RealChannelNotProduct20260428_11, narr:Expr_3RealChannelNotProduct20260428_12, narr:Expr_3RealChannelNotProduct20260428_13, narr:Expr_3RealChannelNotProduct20260428_14, narr:Expr_3RealChannelNotProduct20260428_15, narr:Expr_3RealChannelNotProduct20260428_16, narr:Expr_3RealChannelNotProduct20260428_17, narr:Expr_3RealChannelNotProduct20260428_18, narr:Expr_3RealChannelNotProduct20260428_19, narr:Expr_3RealChannelNotProduct20260428_20, narr:Expr_3RealChannelNotProduct20260428_21, narr:Expr_3RealChannelNotProduct20260428_22, narr:Expr_3RealChannelNotProduct20260428_23, narr:Expr_3RealChannelNotProduct20260428_24, narr:Expr_3RealChannelNotProduct20260428_25, narr:Expr_3RealChannelNotProduct20260428_26, narr:Expr_3RealChannelNotProduct20260428_27, narr:Expr_3RealChannelNotProduct20260428_28, narr:Expr_3RealChannelNotProduct20260428_29, narr:Expr_3RealChannelNotProduct20260428_30, narr:Expr_3RealChannelNotProduct20260428_31, narr:Expr_3RealChannelNotProduct20260428_32, narr:Expr_3RealChannelNotProduct20260428_33, narr:Expr_3RealChannelNotProduct20260428_34, narr:Expr_3RealChannelNotProduct20260428_35, narr:Expr_3RealChannelNotProduct20260428_36, narr:Expr_3RealChannelNotProduct20260428_37, narr:Expr_3RealChannelNotProduct20260428_38, narr:Expr_3RealChannelNotProduct20260428_39, narr:Expr_3RealChannelNotProduct20260428_40, narr:Expr_3RealChannelNotProduct20260428_41, narr:Expr_3RealChannelNotProduct20260428_42, narr:Expr_3RealChannelNotProduct20260428_43, narr:Expr_3RealChannelNotProduct20260428_44, narr:Expr_3RealChannelNotProduct20260428_45, narr:Expr_3RealChannelNotProduct20260428_46, narr:Expr_3RealChannelNotProduct20260428_47, narr:Expr_3RealChannelNotProduct20260428_48, narr:Expr_3RealChannelNotProduct20260428_49, narr:Expr_3RealChannelNotProduct20260428_50, narr:Expr_3RealChannelNotProduct20260428_51, narr:Expr_3RealChannelNotProduct20260428_52 .
+} ;
+INSERT DATA {
+  GRAPH aswr:Tx_20260923T172220Z {
+    narr:Sample_3RealChannelNotProduct20260428 a narr:Sample ;
+        dct:title "The product is not a phone number — channel is distribution, not identity" ;
+        dct:created "2026-04-28"^^xsd:date ;
+        aswr:originPath ".aswritten/memories/2026-09-23-3-real-channel-not-product-2026-04-28.md" ;
+        aswr:submittedBy narr:Actor_TanyaTeamowner ;
+        aswr:account narr:Actor_TanyaTeamowner .
+
+    narr:Expr_3RealChannelNotProduct20260428_1 a narr:Expression ;
+        narr:actor narr:Actor_Claude ;
+        narr:act "assertive" ;
+        narr:animator narr:Actor_Claude ;
+        narr:author narr:Actor_Claude ;
+        narr:context "Header metadata note" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_3RealChannelNotProduct20260428 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Written up by Claude (claude-opus-5-5), the assistant in Tanya Team's session. Tanya's words are verbatim; Tess Guest's are as Tanya relayed them." ;
+                oa:prefix "distribution, not identity\n\n> " ;
+                oa:suffix "\n\n**Date:** April 28, 2026\n**S" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "130"^^xsd:integer ;
+                oa:end "276"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T17:22:20Z"^^xsd:dateTime .
+
+    narr:Expr_3RealChannelNotProduct20260428_2 a narr:Expression ;
+        narr:actor narr:Actor_Claude ;
+        narr:act "assertive" ;
+        narr:animator narr:Actor_Claude ;
+        narr:author narr:Actor_Claude ;
+        narr:context "The correction" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_3RealChannelNotProduct20260428 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "The graph has \"the product is a phone number\" embedded as a tagline-level claim in the Identity section." ;
+                oa:prefix "ications.\n\n## The correction\n\n" ;
+                oa:suffix " **This is incorrect.** Tanya " ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "587"^^xsd:integer ;
+                oa:end "691"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T17:22:20Z"^^xsd:dateTime .
+
+    narr:Expr_3RealChannelNotProduct20260428_3 a narr:Expression ;
+        narr:actor narr:Actor_Claude ;
+        narr:act "assertive" ;
+        narr:animator narr:Actor_Claude ;
+        narr:author narr:Actor_Claude ;
+        narr:context "The correction" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_3RealChannelNotProduct20260428 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "This is incorrect." ;
+                oa:prefix "im in the Identity section. **" ;
+                oa:suffix "** Tanya has tried to correct " ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "694"^^xsd:integer ;
+                oa:end "712"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T17:22:20Z"^^xsd:dateTime .
+
+    narr:Expr_3RealChannelNotProduct20260428_4 a narr:Expression ;
+        narr:actor narr:Actor_Claude ;
+        narr:act "assertive" ;
+        narr:animator narr:Actor_Claude ;
+        narr:author narr:Actor_Claude ;
+        narr:context "The correction" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_3RealChannelNotProduct20260428 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Tanya has tried to correct this before." ;
+                oa:prefix "ction. **This is incorrect.** " ;
+                oa:suffix " It keeps re-embedding because" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "715"^^xsd:integer ;
+                oa:end "754"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T17:22:20Z"^^xsd:dateTime .
+
+    narr:Expr_3RealChannelNotProduct20260428_5 a narr:Expression ;
+        narr:actor narr:Actor_Claude ;
+        narr:act "assertive" ;
+        narr:animator narr:Actor_Claude ;
+        narr:author narr:Actor_Claude ;
+        narr:context "The correction" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_3RealChannelNotProduct20260428 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "It keeps re-embedding because the text-for-topic experiment generated many memories that asserted SMS-as-product confidently, and the extraction pipeline can't currently distinguish \"this was the channel for an experiment we ran\" from \"this is what the product IS.\"" ;
+                oa:prefix "tried to correct this before. " ;
+                oa:suffix "\n\nTanya, verbatim from this se" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "755"^^xsd:integer ;
+                oa:end "1020"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T17:22:20Z"^^xsd:dateTime .
+
+    narr:Expr_3RealChannelNotProduct20260428_6 a narr:Expression ;
+        narr:actor narr:Actor_Claude ;
+        narr:act "assertive" ;
+        narr:animator narr:Actor_Claude ;
+        narr:author narr:Actor_Claude ;
+        narr:context "The correction" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_3RealChannelNotProduct20260428 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Tanya, verbatim from this session:" ;
+                oa:prefix "his is what the product IS.\"\n\n" ;
+                oa:suffix "\n\n> \"The text for topic memory" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "1022"^^xsd:integer ;
+                oa:end "1056"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T17:22:20Z"^^xsd:dateTime .
+
+    narr:Expr_3RealChannelNotProduct20260428_7 a narr:Expression ;
+        narr:actor narr:Actor_TanyaTeamowner ;
+        narr:act "assertive" ;
+        narr:context "The correction" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_3RealChannelNotProduct20260428 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "The text for topic memory was really an exploration, and this one has a couple of claims in it, but the one that the product is a phone number got really deeply embedded into the graph. That's true in the text for topic case, but that was always a product experiment, one that points to an issue in the extraction process." ;
+                oa:prefix "rbatim from this session:\n\n> \"" ;
+                oa:suffix "\"\n\n> \"The product is not a pho" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "1061"^^xsd:integer ;
+                oa:end "1383"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T17:22:20Z"^^xsd:dateTime .
+
+    narr:Expr_3RealChannelNotProduct20260428_8 a narr:Expression ;
+        narr:actor narr:Actor_TanyaTeamowner ;
+        narr:act "assertive" ;
+        narr:context "The correction" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_3RealChannelNotProduct20260428 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "The product is not a phone number; it's the phone number distribution channel, and it's the right distribution channel for certain contexts." ;
+                oa:prefix " the extraction process.\"\n\n> \"" ;
+                oa:suffix "\"\n\n## The corrected positive p" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "1389"^^xsd:integer ;
+                oa:end "1529"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T17:22:20Z"^^xsd:dateTime .
+
+    narr:Expr_3RealChannelNotProduct20260428_9 a narr:Expression ;
+        narr:actor narr:Actor_Claude ;
+        narr:act "assertive" ;
+        narr:animator narr:Actor_Claude ;
+        narr:author narr:Actor_Claude ;
+        narr:context "The corrected positive position" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_3RealChannelNotProduct20260428 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "The product is curated expertise installation** — a way to install expertise into your AI and verify where it's coming from." ;
+                oa:prefix "orrected positive position\n\n**" ;
+                oa:suffix " This is consistent with `Clai" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "1570"^^xsd:integer ;
+                oa:end "1694"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T17:22:20Z"^^xsd:dateTime .
+
+    narr:Expr_3RealChannelNotProduct20260428_10 a narr:Expression ;
+        narr:actor narr:Actor_Claude ;
+        narr:act "assertive" ;
+        narr:animator narr:Actor_Claude ;
+        narr:author narr:Actor_Claude ;
+        narr:context "The corrected positive position" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_3RealChannelNotProduct20260428 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "This is consistent with `Claim_CoreValuePropInstallExpertise` (Foundation-level, March 19, 2026 strategy session): *\"A way to install expertise into your AI and verify where it's coming from.\"" ;
+                oa:prefix "erify where it's coming from. " ;
+                oa:suffix "* Tanya at the time: \"That's g" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "1695"^^xsd:integer ;
+                oa:end "1887"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T17:22:20Z"^^xsd:dateTime .
+
+    narr:Expr_3RealChannelNotProduct20260428_11 a narr:Expression ;
+        narr:actor narr:Actor_Claude ;
+        narr:act "assertive" ;
+        narr:animator narr:Actor_Claude ;
+        narr:author narr:Actor_Claude ;
+        narr:principal narr:Actor_TanyaTeamowner ;
+        narr:context "The corrected positive position" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_3RealChannelNotProduct20260428 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Tanya at the time: \"That's gold.\"" ;
+                oa:prefix "ify where it's coming from.\"* " ;
+                oa:suffix "\n\n**The phone number / SMS is " ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "1889"^^xsd:integer ;
+                oa:end "1922"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T17:22:20Z"^^xsd:dateTime .
+
+    narr:Expr_3RealChannelNotProduct20260428_12 a narr:Expression ;
+        narr:actor narr:Actor_Claude ;
+        narr:act "assertive" ;
+        narr:animator narr:Actor_Claude ;
+        narr:author narr:Actor_Claude ;
+        narr:context "The corrected positive position" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_3RealChannelNotProduct20260428 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "The phone number / SMS is a distribution channel." ;
+                oa:prefix "t the time: \"That's gold.\"\n\n**" ;
+                oa:suffix "** It is one of several. It is" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "1926"^^xsd:integer ;
+                oa:end "1975"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T17:22:20Z"^^xsd:dateTime .
+
+    narr:Expr_3RealChannelNotProduct20260428_13 a narr:Expression ;
+        narr:actor narr:Actor_Claude ;
+        narr:act "assertive" ;
+        narr:animator narr:Actor_Claude ;
+        narr:author narr:Actor_Claude ;
+        narr:context "The corrected positive position" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_3RealChannelNotProduct20260428 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "It is one of several." ;
+                oa:prefix " is a distribution channel.** " ;
+                oa:suffix " It is the right channel in so" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "1978"^^xsd:integer ;
+                oa:end "1999"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T17:22:20Z"^^xsd:dateTime .
+
+    narr:Expr_3RealChannelNotProduct20260428_14 a narr:Expression ;
+        narr:actor narr:Actor_Claude ;
+        narr:act "assertive" ;
+        narr:animator narr:Actor_Claude ;
+        narr:author narr:Actor_Claude ;
+        narr:context "The corrected positive position" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_3RealChannelNotProduct20260428 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "It is the right channel in some contexts (where the trust-signal of \"this is not an AI chat\" matters; where an enterprise client needs that texture and is willing to absorb the operational cost) and the wrong channel in others (where SMS reads as spam-adjacent, where prospects don't want to hand over their number, where the operational cost isn't justified)." ;
+                oa:prefix "nnel.** It is one of several. " ;
+                oa:suffix "\n\n## Why SMS feels right when " ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "2000"^^xsd:integer ;
+                oa:end "2360"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T17:22:20Z"^^xsd:dateTime .
+
+    narr:Expr_3RealChannelNotProduct20260428_15 a narr:Expression ;
+        narr:actor narr:Actor_TanyaTeamowner ;
+        narr:act "assertive" ;
+        narr:context "Why SMS feels right when it's right" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_3RealChannelNotProduct20260428 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "There is some real value to the way the phone number feels. That's really important: a phone number doesn't feel like an AI chat in the same way that chat does." ;
+                oa:prefix "s right\n\nTanya, verbatim:\n\n> \"" ;
+                oa:suffix "\"\n\nThis is consistent with `Cl" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "2423"^^xsd:integer ;
+                oa:end "2583"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T17:22:20Z"^^xsd:dateTime .
+
+    narr:Expr_3RealChannelNotProduct20260428_16 a narr:Expression ;
+        narr:actor narr:Actor_Claude ;
+        narr:act "assertive" ;
+        narr:animator narr:Actor_Claude ;
+        narr:author narr:Actor_Claude ;
+        narr:context "Why SMS feels right when it's right" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_3RealChannelNotProduct20260428 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "This is consistent with `Claim_SMSFormatHonesty` (Foundation): *\"The SMS format makes AI personalization feel honest rather than fake because it removes the 'bot' mental frame associated with chat boxes.\"" ;
+                oa:prefix "he same way that chat does.\"\n\n" ;
+                oa:suffix "* That claim is **not supersed" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "2586"^^xsd:integer ;
+                oa:end "2790"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T17:22:20Z"^^xsd:dateTime .
+
+    narr:Expr_3RealChannelNotProduct20260428_17 a narr:Expression ;
+        narr:actor narr:Actor_Claude ;
+        narr:act "assertive" ;
+        narr:animator narr:Actor_Claude ;
+        narr:author narr:Actor_Claude ;
+        narr:context "Why SMS feels right when it's right" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_3RealChannelNotProduct20260428 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "That claim is **not superseded** by this correction." ;
+                oa:prefix "associated with chat boxes.\"* " ;
+                oa:suffix " SMS-as-trust-signal remains g" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "2792"^^xsd:integer ;
+                oa:end "2844"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T17:22:20Z"^^xsd:dateTime .
+
+    narr:Expr_3RealChannelNotProduct20260428_18 a narr:Expression ;
+        narr:actor narr:Actor_Claude ;
+        narr:act "assertive" ;
+        narr:animator narr:Actor_Claude ;
+        narr:author narr:Actor_Claude ;
+        narr:context "Why SMS feels right when it's right" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_3RealChannelNotProduct20260428 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "SMS-as-trust-signal remains genuine value." ;
+                oa:prefix "erseded** by this correction. " ;
+                oa:suffix " The correction is about scope" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "2845"^^xsd:integer ;
+                oa:end "2887"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T17:22:20Z"^^xsd:dateTime .
+
+    narr:Expr_3RealChannelNotProduct20260428_19 a narr:Expression ;
+        narr:actor narr:Actor_Claude ;
+        narr:act "assertive" ;
+        narr:animator narr:Actor_Claude ;
+        narr:author narr:Actor_Claude ;
+        narr:context "Why SMS feels right when it's right" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_3RealChannelNotProduct20260428 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "The correction is about scope: it's a *channel property*, not a product identity." ;
+                oa:prefix "signal remains genuine value. " ;
+                oa:suffix "\n\nTanya:\n\n> \"That's a bonus; i" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "2888"^^xsd:integer ;
+                oa:end "2969"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T17:22:20Z"^^xsd:dateTime .
+
+    narr:Expr_3RealChannelNotProduct20260428_20 a narr:Expression ;
+        narr:actor narr:Actor_TanyaTeamowner ;
+        narr:act "assertive" ;
+        narr:context "Why SMS feels right when it's right" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_3RealChannelNotProduct20260428 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "That's a bonus; it's an upsell." ;
+                oa:prefix "product identity.\n\nTanya:\n\n> \"" ;
+                oa:suffix "\"\n\n## Why SMS is operationally" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "2982"^^xsd:integer ;
+                oa:end "3013"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T17:22:20Z"^^xsd:dateTime .
+
+    narr:Expr_3RealChannelNotProduct20260428_21 a narr:Expression ;
+        narr:actor narr:Actor_TanyaTeamowner ;
+        narr:act "assertive" ;
+        narr:context "Why SMS is operationally expensive" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_3RealChannelNotProduct20260428 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "It's also a lot more work because of the maintenance around fraud, et cetera, as we're seeing above with the verification." ;
+                oa:prefix "framing of the cost side:\n\n> \"" ;
+                oa:suffix "\"\n\nThe triggering operational " ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "3093"^^xsd:integer ;
+                oa:end "3215"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T17:22:20Z"^^xsd:dateTime .
+
+    narr:Expr_3RealChannelNotProduct20260428_22 a narr:Expression ;
+        narr:actor narr:Actor_Claude ;
+        narr:act "assertive" ;
+        narr:animator narr:Actor_Claude ;
+        narr:author narr:Actor_Claude ;
+        narr:context "Why SMS is operationally expensive" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_3RealChannelNotProduct20260428 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "The triggering operational evidence: seven additional Twilio toll-free numbers were submitted for verification and **all seven came back rejected** (April 28, 2026)." ;
+                oa:prefix "bove with the verification.\"\n\n" ;
+                oa:suffix " The rejection reason traces t" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "3218"^^xsd:integer ;
+                oa:end "3383"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T17:22:20Z"^^xsd:dateTime .
+
+    narr:Expr_3RealChannelNotProduct20260428_23 a narr:Expression ;
+        narr:actor narr:Actor_Claude ;
+        narr:act "assertive" ;
+        narr:animator narr:Actor_Claude ;
+        narr:author narr:Actor_Claude ;
+        narr:context "Why SMS is operationally expensive" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_3RealChannelNotProduct20260428 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "The rejection reason traces to the website / opt-in form not being live or linkable at verification time." ;
+                oa:prefix " rejected** (April 28, 2026). " ;
+                oa:suffix " The numbers can be resubmitte" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "3384"^^xsd:integer ;
+                oa:end "3489"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T17:22:20Z"^^xsd:dateTime .
+
+    narr:Expr_3RealChannelNotProduct20260428_24 a narr:Expression ;
+        narr:actor narr:Actor_Claude ;
+        narr:act "assertive" ;
+        narr:animator narr:Actor_Claude ;
+        narr:author narr:Actor_Claude ;
+        narr:context "Why SMS is operationally expensive" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_3RealChannelNotProduct20260428 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "The numbers can be resubmitted to the review queue." ;
+                oa:prefix "inkable at verification time. " ;
+                oa:suffix " This is not the first verific" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "3490"^^xsd:integer ;
+                oa:end "3541"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T17:22:20Z"^^xsd:dateTime .
+
+    narr:Expr_3RealChannelNotProduct20260428_25 a narr:Expression ;
+        narr:actor narr:Actor_Claude ;
+        narr:act "assertive" ;
+        narr:animator narr:Actor_Claude ;
+        narr:author narr:Actor_Claude ;
+        narr:context "Why SMS is operationally expensive" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_3RealChannelNotProduct20260428 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "This is not the first verification cycle and it will not be the last; verification churn is a permanent operational cost of running SMS at scale." ;
+                oa:prefix "ubmitted to the review queue. " ;
+                oa:suffix "\n\n## The triggering conversati" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "3542"^^xsd:integer ;
+                oa:end "3687"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T17:22:20Z"^^xsd:dateTime .
+
+    narr:Expr_3RealChannelNotProduct20260428_26 a narr:Expression ;
+        narr:actor narr:Actor_Claude ;
+        narr:act "assertive" ;
+        narr:animator narr:Actor_Claude ;
+        narr:author narr:Actor_Claude ;
+        narr:principal narr:Actor_TanyaTeamowner ;
+        narr:context "The triggering conversation: Tess Guest's pushback" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_3RealChannelNotProduct20260428 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Tanya asked Tess whether SMS is the right demo channel for someone like Tess (Knowledge-Rich Consumer cohort, alongside Pat Quill and others)." ;
+                oa:prefix "ation: Tess Guest's pushback\n\n" ;
+                oa:suffix " Tess's response, paraphrased " ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "3744"^^xsd:integer ;
+                oa:end "3886"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T17:22:20Z"^^xsd:dateTime .
+
+    narr:Expr_3RealChannelNotProduct20260428_27 a narr:Expression ;
+        narr:actor narr:Actor_Claude ;
+        narr:act "assertive" ;
+        narr:animator narr:Actor_Claude ;
+        narr:author narr:Actor_Claude ;
+        narr:principal narr:Actor_TessGuest ;
+        narr:context "The triggering conversation: Tess Guest's pushback" ;
+        skos:note "Tanya paraphrasing Tess Guest's position in dialogue with Claude" ;
+        aswr:qualityFlag "footing:unmarked-principal" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_3RealChannelNotProduct20260428 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "She thinks that text message, in certain contexts, is absolutely the right move, but in a lot of skeptical or lower-trust contexts, texting is so associated with spam now that requiring someone to text might actually be a real downside. People might not want to give their number." ;
+                oa:prefix "by Tanya in this session:\n\n> \"" ;
+                oa:suffix "\"\n\n> \"Can you just give me a c" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "3946"^^xsd:integer ;
+                oa:end "4226"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T17:22:20Z"^^xsd:dateTime .
+
+    narr:Expr_3RealChannelNotProduct20260428_28 a narr:Expression ;
+        narr:actor narr:Actor_TessGuest ;
+        narr:act "question" ;
+        narr:context "The triggering conversation: Tess Guest's pushback" ;
+        skos:note "Voicing/quote of Tess Guest as relayed by Tanya" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_3RealChannelNotProduct20260428 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Can you just give me a chat widget on a web form?" ;
+                oa:prefix "nt to give their number.\"\n\n> \"" ;
+                oa:suffix "\"\n\nThis is consistent with `Ar" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "4232"^^xsd:integer ;
+                oa:end "4281"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T17:22:20Z"^^xsd:dateTime .
+
+    narr:Expr_3RealChannelNotProduct20260428_29 a narr:Expression ;
+        narr:actor narr:Actor_Claude ;
+        narr:act "assertive" ;
+        narr:animator narr:Actor_Claude ;
+        narr:author narr:Actor_Claude ;
+        narr:context "The triggering conversation: Tess Guest's pushback" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_3RealChannelNotProduct20260428 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "This is consistent with `Archetype_KnowledgeRichConsumer` (Stake): *\"Main barrier is technical (MCP installation, GitHub abstraction), not behavioral.\"* Tess is named there as a canonical example." ;
+                oa:prefix " chat widget on a web form?\"\n\n" ;
+                oa:suffix " The new piece of evidence is:" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "4284"^^xsd:integer ;
+                oa:end "4480"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T17:22:20Z"^^xsd:dateTime .
+
+    narr:Expr_3RealChannelNotProduct20260428_30 a narr:Expression ;
+        narr:actor narr:Actor_Claude ;
+        narr:act "assertive" ;
+        narr:animator narr:Actor_Claude ;
+        narr:author narr:Actor_Claude ;
+        narr:context "The triggering conversation: Tess Guest's pushback" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_3RealChannelNotProduct20260428 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "The new piece of evidence is: SMS-as-channel adds a **trust friction** for this archetype that doesn't exist for the Knowledge Packager (Pat Quill, course-distribution context) or the Delegator (Morgan Reyes, internal team enterprise context)." ;
+                oa:prefix "there as a canonical example. " ;
+                oa:suffix " Spam association is the speci" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "4481"^^xsd:integer ;
+                oa:end "4724"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T17:22:20Z"^^xsd:dateTime .
+
+    narr:Expr_3RealChannelNotProduct20260428_31 a narr:Expression ;
+        narr:actor narr:Actor_Claude ;
+        narr:act "assertive" ;
+        narr:animator narr:Actor_Claude ;
+        narr:author narr:Actor_Claude ;
+        narr:context "The triggering conversation: Tess Guest's pushback" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_3RealChannelNotProduct20260428 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Spam association is the specific friction." ;
+                oa:prefix "nal team enterprise context). " ;
+                oa:suffix "\n\n## The extraction failure mo" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "4725"^^xsd:integer ;
+                oa:end "4767"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T17:22:20Z"^^xsd:dateTime .
+
+    narr:Expr_3RealChannelNotProduct20260428_32 a narr:Expression ;
+        narr:actor narr:Actor_Claude ;
+        narr:act "assertive" ;
+        narr:animator narr:Actor_Claude ;
+        narr:author narr:Actor_Claude ;
+        narr:context "The extraction failure mode this corrects" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_3RealChannelNotProduct20260428 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Two named graph-structural gaps both contribute to the over-embedding:" ;
+                oa:prefix "n failure mode this corrects\n\n" ;
+                oa:suffix "\n\n1. **Temporality.** Already " ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "4815"^^xsd:integer ;
+                oa:end "4885"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T17:22:20Z"^^xsd:dateTime .
+
+    narr:Expr_3RealChannelNotProduct20260428_33 a narr:Expression ;
+        narr:actor narr:Actor_Claude ;
+        narr:act "assertive" ;
+        narr:animator narr:Actor_Claude ;
+        narr:author narr:Actor_Claude ;
+        narr:context "The extraction failure mode this corrects" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_3RealChannelNotProduct20260428 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "1. **Temporality.** Already documented as `Claim_NarrAppliesAsOntologyExtension` (Notion, deferred post-launch): a `narr:appliesAs` predicate with values `current | nearFuture | exploration | speculative`. The text-for-topic experiment claims should have been tagged as `exploration`, not promoted to `current` worldview. The structural fix exists on paper, deliberately deferred from the April 9 launch to avoid breaking extraction tests." ;
+                oa:prefix "ibute to the over-embedding:\n\n" ;
+                oa:suffix "\n\n2. **Subgraph segmentation /" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "4887"^^xsd:integer ;
+                oa:end "5326"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T17:22:20Z"^^xsd:dateTime .
+
+    narr:Expr_3RealChannelNotProduct20260428_34 a narr:Expression ;
+        narr:actor narr:Actor_Claude ;
+        narr:act "assertive" ;
+        narr:animator narr:Actor_Claude ;
+        narr:author narr:Actor_Claude ;
+        narr:context "The extraction failure mode this corrects" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_3RealChannelNotProduct20260428 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "2. **Subgraph segmentation / scoping.** Newly named in this session." ;
+                oa:prefix "d breaking extraction tests.\n\n" ;
+                oa:suffix " Tanya:\n\n> \"Another is the seg" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "5328"^^xsd:integer ;
+                oa:end "5396"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T17:22:20Z"^^xsd:dateTime .
+
+    narr:Expr_3RealChannelNotProduct20260428_35 a narr:Expression ;
+        narr:actor narr:Actor_TanyaTeamowner ;
+        narr:act "assertive" ;
+        narr:context "The extraction failure mode this corrects" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_3RealChannelNotProduct20260428 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Another is the segmentation of the domain or the scoping of subgraphs, I suppose. You can have all of the stuff that we're talking about in a sort of subgrouping." ;
+                oa:prefix "d in this session. Tanya:\n\n> \"" ;
+                oa:suffix "\"\n\nThere is currently no struc" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "5408"^^xsd:integer ;
+                oa:end "5570"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T17:22:20Z"^^xsd:dateTime .
+
+    narr:Expr_3RealChannelNotProduct20260428_36 a narr:Expression ;
+        narr:actor narr:Actor_Claude ;
+        narr:act "assertive" ;
+        narr:animator narr:Actor_Claude ;
+        narr:author narr:Actor_Claude ;
+        narr:context "The extraction failure mode this corrects" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_3RealChannelNotProduct20260428 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "There is currently no structural way to say \"this cluster of claims belongs to the text-for-topic experiment subgraph, not to the root product definition.\" Everything bridges to everything; an experiment's local positioning gets pulled into global positioning purely because the claims were stated confidently at the time." ;
+                oa:prefix "t in a sort of subgrouping.\"\n\n" ;
+                oa:suffix " **This is a new candidate for" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "5573"^^xsd:integer ;
+                oa:end "5895"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T17:22:20Z"^^xsd:dateTime .
+
+    narr:Expr_3RealChannelNotProduct20260428_37 a narr:Expression ;
+        narr:actor narr:Actor_Claude ;
+        narr:act "assertive" ;
+        narr:animator narr:Actor_Claude ;
+        narr:author narr:Actor_Claude ;
+        narr:context "The extraction failure mode this corrects" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_3RealChannelNotProduct20260428 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "This is a new candidate for ontology work, distinct from temporality." ;
+                oa:prefix "ed confidently at the time. **" ;
+                oa:suffix "** Captured separately as a no" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "5898"^^xsd:integer ;
+                oa:end "5967"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T17:22:20Z"^^xsd:dateTime .
+
+    narr:Expr_3RealChannelNotProduct20260428_38 a narr:Expression ;
+        narr:actor narr:Actor_Claude ;
+        narr:act "assertive" ;
+        narr:animator narr:Actor_Claude ;
+        narr:author narr:Actor_Claude ;
+        narr:context "The extraction failure mode this corrects" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_3RealChannelNotProduct20260428 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Captured separately as a notion in the companion memory." ;
+                oa:prefix " distinct from temporality.** " ;
+                oa:suffix "\n\n## What this changes about p" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "5970"^^xsd:integer ;
+                oa:end "6026"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T17:22:20Z"^^xsd:dateTime .
+
+    narr:Expr_3RealChannelNotProduct20260428_39 a narr:Expression ;
+        narr:actor narr:Actor_Claude ;
+        narr:act "assertive" ;
+        narr:animator narr:Actor_Claude ;
+        narr:author narr:Actor_Claude ;
+        narr:context "What this changes about prior canonical content" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_3RealChannelNotProduct20260428 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "The Identity section of the worldview includes the line:\n\n> tagline: \"The product is a phone number.\"" ;
+                oa:prefix "bout prior canonical content\n\n" ;
+                oa:suffix "\n\nThis tagline should be **sup" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "6080"^^xsd:integer ;
+                oa:end "6181"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T17:22:20Z"^^xsd:dateTime .
+
+    narr:Expr_3RealChannelNotProduct20260428_40 a narr:Expression ;
+        narr:actor narr:Actor_Claude ;
+        narr:act "directive" ;
+        narr:animator narr:Actor_Claude ;
+        narr:author narr:Actor_Claude ;
+        narr:context "What this changes about prior canonical content" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_3RealChannelNotProduct20260428 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "This tagline should be **superseded**." ;
+                oa:prefix " product is a phone number.\"\n\n" ;
+                oa:suffix " The replacement positioning, " ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "6183"^^xsd:integer ;
+                oa:end "6221"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T17:22:20Z"^^xsd:dateTime .
+
+    narr:Expr_3RealChannelNotProduct20260428_41 a narr:Expression ;
+        narr:actor narr:Actor_Claude ;
+        narr:act "assertive" ;
+        narr:animator narr:Actor_Claude ;
+        narr:author narr:Actor_Claude ;
+        narr:context "What this changes about prior canonical content" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_3RealChannelNotProduct20260428 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "The replacement positioning, in Tanya's voice from this session and consistent with prior strategy work:\n\n> The product is curated expertise installation. The phone number is the distribution channel for contexts where the trust-signal of \"not an AI chat\" is worth its operational cost — primarily enterprise." ;
+                oa:prefix "ine should be **superseded**. " ;
+                oa:suffix "\n\nThe other Identity tagline (" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "6222"^^xsd:integer ;
+                oa:end "6531"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T17:22:20Z"^^xsd:dateTime .
+
+    narr:Expr_3RealChannelNotProduct20260428_42 a narr:Expression ;
+        narr:actor narr:Actor_Claude ;
+        narr:act "assertive" ;
+        narr:animator narr:Actor_Claude ;
+        narr:author narr:Actor_Claude ;
+        narr:context "What this changes about prior canonical content" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_3RealChannelNotProduct20260428 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "The other Identity tagline (\"Feather your arrows.\") is unaffected." ;
+                oa:prefix "cost — primarily enterprise.\n\n" ;
+                oa:suffix "\n\nThis memory is on `research/" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "6533"^^xsd:integer ;
+                oa:end "6599"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T17:22:20Z"^^xsd:dateTime .
+
+    narr:Expr_3RealChannelNotProduct20260428_43 a narr:Expression ;
+        narr:actor narr:Actor_Claude ;
+        narr:act "directive" ;
+        narr:animator narr:Actor_Claude ;
+        narr:author narr:Actor_Claude ;
+        narr:context "What this changes about prior canonical content" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_3RealChannelNotProduct20260428 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "This memory is on `research/channel-strategy-correction` and **should not be auto-promoted** until the channel decision (companion memory) and the extraction-gap notion are reviewed together." ;
+                oa:prefix "our arrows.\") is unaffected.\n\n" ;
+                oa:suffix " The correction has been attem" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "6601"^^xsd:integer ;
+                oa:end "6792"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T17:22:20Z"^^xsd:dateTime .
+
+    narr:Expr_3RealChannelNotProduct20260428_44 a narr:Expression ;
+        narr:actor narr:Actor_Claude ;
+        narr:act "assertive" ;
+        narr:animator narr:Actor_Claude ;
+        narr:author narr:Actor_Claude ;
+        narr:context "What this changes about prior canonical content" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_3RealChannelNotProduct20260428 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "The correction has been attempted before and re-failed; promotion needs to be explicit and accompanied by deletion of the old tagline assertion in the same transaction, not a parallel addition that extraction merges into a confused both-true state." ;
+                oa:prefix "notion are reviewed together. " ;
+                oa:suffix "\n\n## What is *not* decided by " ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "6793"^^xsd:integer ;
+                oa:end "7041"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T17:22:20Z"^^xsd:dateTime .
+
+    narr:Expr_3RealChannelNotProduct20260428_45 a narr:Expression ;
+        narr:actor narr:Actor_Claude ;
+        narr:act "assertive" ;
+        narr:animator narr:Actor_Claude ;
+        narr:author narr:Actor_Claude ;
+        narr:context "What is not decided by this memory" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_3RealChannelNotProduct20260428 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "- The full set of channels available for deployment (covered in companion memory).\n- Which channels map to which tiers (deliberately undecided as of this session — see companion memory).\n- Whether SMS becomes Enterprise-only specifically, or remains available across tiers as an opt-in upsell." ;
+                oa:prefix "*not* decided by this memory\n\n" ;
+                oa:suffix " Tanya, verbatim:\n\n> \"I think " ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "7084"^^xsd:integer ;
+                oa:end "7377"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T17:22:20Z"^^xsd:dateTime .
+
+    narr:Expr_3RealChannelNotProduct20260428_46 a narr:Expression ;
+        narr:actor narr:Actor_TanyaTeamowner ;
+        narr:act "assertive" ;
+        narr:context "What is not decided by this memory" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_3RealChannelNotProduct20260428 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "I think SMS is something that we should offer only for the enterprise plan, because we have to provision numbers individually and manage them and so on and so forth." ;
+                oa:prefix " upsell. Tanya, verbatim:\n\n> \"" ;
+                oa:suffix "\"\n\n> \"We don't know yet how th" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "7399"^^xsd:integer ;
+                oa:end "7564"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T17:22:20Z"^^xsd:dateTime .
+
+    narr:Expr_3RealChannelNotProduct20260428_47 a narr:Expression ;
+        narr:actor narr:Actor_TanyaTeamowner ;
+        narr:act "assertive" ;
+        narr:context "What is not decided by this memory" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_3RealChannelNotProduct20260428 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "We don't know yet how this maps to tiers... I'm doing this as a demo right now, and I'm trying to get some of these larger clients on the hook... I don't want to make that decision right now." ;
+                oa:prefix " and so on and so forth.\"\n\n> \"" ;
+                oa:suffix "\"\n\nThe first quote is a leanin" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "7570"^^xsd:integer ;
+                oa:end "7761"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T17:22:20Z"^^xsd:dateTime .
+
+    narr:Expr_3RealChannelNotProduct20260428_48 a narr:Expression ;
+        narr:actor narr:Actor_Claude ;
+        narr:act "assertive" ;
+        narr:animator narr:Actor_Claude ;
+        narr:author narr:Actor_Claude ;
+        narr:context "What is not decided by this memory" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_3RealChannelNotProduct20260428 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "The first quote is a leaning." ;
+                oa:prefix "ke that decision right now.\"\n\n" ;
+                oa:suffix " The second is the actual epis" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "7764"^^xsd:integer ;
+                oa:end "7793"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T17:22:20Z"^^xsd:dateTime .
+
+    narr:Expr_3RealChannelNotProduct20260428_49 a narr:Expression ;
+        narr:actor narr:Actor_Claude ;
+        narr:act "assertive" ;
+        narr:animator narr:Actor_Claude ;
+        narr:author narr:Actor_Claude ;
+        narr:context "What is not decided by this memory" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_3RealChannelNotProduct20260428 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "The second is the actual epistemic state." ;
+                oa:prefix "The first quote is a leaning. " ;
+                oa:suffix " The leaning is recorded; it i" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "7794"^^xsd:integer ;
+                oa:end "7835"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T17:22:20Z"^^xsd:dateTime .
+
+    narr:Expr_3RealChannelNotProduct20260428_50 a narr:Expression ;
+        narr:actor narr:Actor_Claude ;
+        narr:act "assertive" ;
+        narr:animator narr:Actor_Claude ;
+        narr:author narr:Actor_Claude ;
+        narr:context "What is not decided by this memory" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_3RealChannelNotProduct20260428 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "The leaning is recorded; it is not yet a decision." ;
+                oa:prefix "s the actual epistemic state. " ;
+                oa:suffix " **This distinction must be pr" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "7836"^^xsd:integer ;
+                oa:end "7886"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T17:22:20Z"^^xsd:dateTime .
+
+    narr:Expr_3RealChannelNotProduct20260428_51 a narr:Expression ;
+        narr:actor narr:Actor_Claude ;
+        narr:act "directive" ;
+        narr:animator narr:Actor_Claude ;
+        narr:author narr:Actor_Claude ;
+        narr:context "What is not decided by this memory" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_3RealChannelNotProduct20260428 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "This distinction must be preserved through extraction." ;
+                oa:prefix "; it is not yet a decision. **" ;
+                oa:suffix "**\n\n## Provenance\n\n- Conversat" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "7889"^^xsd:integer ;
+                oa:end "7943"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T17:22:20Z"^^xsd:dateTime .
+
+    narr:Expr_3RealChannelNotProduct20260428_52 a narr:Expression ;
+        narr:actor narr:Actor_Claude ;
+        narr:act "assertive" ;
+        narr:animator narr:Actor_Claude ;
+        narr:author narr:Actor_Claude ;
+        narr:context "Provenance" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_3RealChannelNotProduct20260428 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "- Conversation: Claude.ai mobile session, April 28, 2026\n- Speaker: Tanya Team (founder), in dialogue with Claude (Opus 4.7)\n- Triggering events: Tess Guest conversation (same day or recent), seven Twilio toll-free verification rejections (same day)\n- Related claims in graph: Claim_CoreValuePropInstallExpertise (Foundation), Claim_SMSFormatHonesty (Foundation), Archetype_KnowledgeRichConsumer (Stake), Claim_NarrAppliesAsOntologyExtension (Notion)\n- Tagline being superseded: \"The product is a phone number.\" (currently in Identity section of worldview)" ;
+                oa:prefix "extraction.**\n\n## Provenance\n\n" ;
+                oa:suffix "\n\nreviewers:\n  - tanya+staging" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "7962"^^xsd:integer ;
+                oa:end "8518"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T17:22:20Z"^^xsd:dateTime .
+
+    narr:Actor_Claude a narr:AIActor .
+
+    aswr:Run_20260923T172220Z_actors a prov:Activity ;
+        aswr:runPass "actors" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/8bf074e60639/2026-09-23-3-real-channel-not-product-2026-04-28/actors.json" ;
+        dct:isPartOf aswr:Tx_20260923T172220Z ;
+        prov:generatedAtTime "2026-09-23T17:22:20Z"^^xsd:dateTime .
+
+    aswr:Run_20260923T172220Z_pass1 a prov:Activity ;
+        aswr:runPass "pass1" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/8bf074e60639/2026-09-23-3-real-channel-not-product-2026-04-28/pass1.json" ;
+        prov:generated narr:Sample_3RealChannelNotProduct20260428, narr:Expr_3RealChannelNotProduct20260428_1, narr:Expr_3RealChannelNotProduct20260428_2, narr:Expr_3RealChannelNotProduct20260428_3, narr:Expr_3RealChannelNotProduct20260428_4, narr:Expr_3RealChannelNotProduct20260428_5, narr:Expr_3RealChannelNotProduct20260428_6, narr:Expr_3RealChannelNotProduct20260428_7, narr:Expr_3RealChannelNotProduct20260428_8, narr:Expr_3RealChannelNotProduct20260428_9, narr:Expr_3RealChannelNotProduct20260428_10, narr:Expr_3RealChannelNotProduct20260428_11, narr:Expr_3RealChannelNotProduct20260428_12, narr:Expr_3RealChannelNotProduct20260428_13, narr:Expr_3RealChannelNotProduct20260428_14, narr:Expr_3RealChannelNotProduct20260428_15, narr:Expr_3RealChannelNotProduct20260428_16, narr:Expr_3RealChannelNotProduct20260428_17, narr:Expr_3RealChannelNotProduct20260428_18, narr:Expr_3RealChannelNotProduct20260428_19, narr:Expr_3RealChannelNotProduct20260428_20, narr:Expr_3RealChannelNotProduct20260428_21, narr:Expr_3RealChannelNotProduct20260428_22, narr:Expr_3RealChannelNotProduct20260428_23, narr:Expr_3RealChannelNotProduct20260428_24, narr:Expr_3RealChannelNotProduct20260428_25, narr:Expr_3RealChannelNotProduct20260428_26, narr:Expr_3RealChannelNotProduct20260428_27, narr:Expr_3RealChannelNotProduct20260428_28, narr:Expr_3RealChannelNotProduct20260428_29, narr:Expr_3RealChannelNotProduct20260428_30, narr:Expr_3RealChannelNotProduct20260428_31, narr:Expr_3RealChannelNotProduct20260428_32, narr:Expr_3RealChannelNotProduct20260428_33, narr:Expr_3RealChannelNotProduct20260428_34, narr:Expr_3RealChannelNotProduct20260428_35, narr:Expr_3RealChannelNotProduct20260428_36, narr:Expr_3RealChannelNotProduct20260428_37, narr:Expr_3RealChannelNotProduct20260428_38, narr:Expr_3RealChannelNotProduct20260428_39, narr:Expr_3RealChannelNotProduct20260428_40, narr:Expr_3RealChannelNotProduct20260428_41, narr:Expr_3RealChannelNotProduct20260428_42, narr:Expr_3RealChannelNotProduct20260428_43, narr:Expr_3RealChannelNotProduct20260428_44, narr:Expr_3RealChannelNotProduct20260428_45, narr:Expr_3RealChannelNotProduct20260428_46, narr:Expr_3RealChannelNotProduct20260428_47, narr:Expr_3RealChannelNotProduct20260428_48, narr:Expr_3RealChannelNotProduct20260428_49, narr:Expr_3RealChannelNotProduct20260428_50, narr:Expr_3RealChannelNotProduct20260428_51, narr:Expr_3RealChannelNotProduct20260428_52 ;
+        dct:isPartOf aswr:Tx_20260923T172220Z ;
+        prov:generatedAtTime "2026-09-23T17:22:20Z"^^xsd:dateTime .
+  }
+}
