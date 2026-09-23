@@ -1,0 +1,33 @@
+{
+  "bindings" : [ {
+    "name" : "Tina Team",
+    "verdict" : "bind",
+    "target" : "Actor_TinaTeam",
+    "label" : null,
+    "why" : "Exact match to existing actor Actor_TinaTeam."
+  }, {
+    "name" : "Tanya Team",
+    "verdict" : "bind",
+    "target" : "Actor_TanyaTeam",
+    "label" : null,
+    "why" : "Exact match to existing actor Actor_TanyaTeam."
+  }, {
+    "name" : "Xavier Expert",
+    "verdict" : "bind",
+    "target" : "Actor_XavierExpert",
+    "label" : null,
+    "why" : "Exact match to existing actor Actor_XavierExpert."
+  }, {
+    "name" : "Tanya TeamOwner",
+    "verdict" : "bind",
+    "target" : "Actor_TanyaTeamowner",
+    "label" : null,
+    "why" : "Exact match to existing actor Actor_TanyaTeamowner and envelope submitter/participant."
+  }, {
+    "name" : "tanya+staging@aswritten.ai",
+    "verdict" : "bind",
+    "target" : "Actor_TanyaTeamowner",
+    "label" : null,
+    "why" : "Envelope account email for Tanya TeamOwner."
+  } ]
+}
