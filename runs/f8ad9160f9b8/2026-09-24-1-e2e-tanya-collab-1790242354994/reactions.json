@@ -1,0 +1,89 @@
+{
+  "schema_version" : 1,
+  "run_id" : "mp-eng-6be97f5c",
+  "live_run_id" : "f8ad9160f9b8",
+  "stream" : "e2e-collab-1790242251146",
+  "policy" : {
+    "lands" : { },
+    "channels" : [ "email", "sms" ],
+    "mode" : "on",
+    "source" : "default",
+    "skills" : { },
+    "warn_per_run_usd" : 0.25,
+    "audience" : "owner-setting",
+    "version" : 1,
+    "stop_per_dispatch_usd" : 2.0
+  },
+  "gates" : [ {
+    "id" : "aswritten/clarify",
+    "run?" : false,
+    "gate" : 2,
+    "reason" : "score 0.0 < threshold 0.7",
+    "score" : 0.0,
+    "evidence" : [ "plain-assertion: Velocity was 23 points, highest this quarter.", "Direct metric assertion presented without hedge or ratification act.", "Reports a completed, actual past action involving a specific named artifact.", "The Zephyr integration was the key unlock." ]
+  }, {
+    "id" : "aswritten/refract",
+    "run?" : true,
+    "gate" : 2,
+    "reason" : "predicate only"
+  }, {
+    "id" : "aswritten/review",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "skill off"
+  }, {
+    "id" : "aswritten/riff",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "requires perspective, expand"
+  } ],
+  "jobs" : [ {
+    "skill" : "aswritten/refract",
+    "status" : "ok",
+    "phase" : "before",
+    "gate" : { },
+    "output" : {
+      "lens" : null,
+      "ask" : "I can see the shift — the team's best sprint this quarter (23 points, async decision widget shipped) is now being read as unlocked by the Zephyr integration — but this stream has no documents yet, so there's nothing to test it against; where should this land first?"
+    },
+    "landing" : {
+      "landed" : "message"
+    },
+    "ms" : 19004
+  } ],
+  "spend" : {
+    "cost_usd" : 0.004549,
+    "passes" : [ {
+      "pass" : "reaction:_score",
+      "llm_calls" : 1,
+      "cost_usd" : 0.00185655
+    }, {
+      "pass" : "reaction:refract",
+      "llm_calls" : 1,
+      "cost_usd" : 0.00269195
+    } ]
+  },
+  "bundle" : {
+    "items" : 1,
+    "audience" : "only-me",
+    "recipients" : 1,
+    "moments_cached" : true,
+    "sent" : [ {
+      "items" : [ {
+        "kind" : "note",
+        "skill" : "aswritten/refract",
+        "audience" : "speakers"
+      } ],
+      "handle" : "tanya+staging@aswritten.ai",
+      "channel" : "email",
+      "h" : "09fcdb5f3d",
+      "status" : "sent",
+      "front_message_id" : "msg_3dkf87u0",
+      "front_conversation_id" : "cnv_1phpldwo"
+    } ]
+  },
+  "counters" : {
+    "tanya+staging@aswritten.ai" : 0
+  },
+  "at" : "2026-09-24T09:34:43.067127897Z"
+}
