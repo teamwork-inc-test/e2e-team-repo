@@ -1,0 +1,27 @@
+{
+  "resolutions" : [ {
+    "commentary_local_id" : "src-1",
+    "phrase" : "One week of soak misses the month-end batch; two weeks catches it.",
+    "verdict" : "confident",
+    "binding" : {
+      "referents" : [ {
+        "iri" : "Position_PostGoLiveSoakDurationBasis",
+        "relation" : "contradicts",
+        "why" : "Introduces month-end batch coverage as a rationale contesting the settled one-week minimum soak duration."
+      }, {
+        "iri" : "Expr_4HalyardCutoverReview20260915_20",
+        "relation" : "contradicts",
+        "why" : "Challenges Tanya's ratified formal decision that the soak between sites is one week, not two."
+      }, {
+        "iri" : "Expr_4HalyardCutoverReview20260915_9",
+        "relation" : "contradicts",
+        "why" : "Challenges the proposal to reduce soak to one week based strictly on exception rate flattening."
+      } ],
+      "targets" : [ "Position_PostGoLiveSoakDurationBasis", "Narrative_ContainedPainOverUnboundedRisk" ]
+    },
+    "candidates" : null,
+    "why" : "Tina directly engages the settled debate on soak duration between site cutovers, introducing month-end batch execution as a new basis requiring a two-week soak instead of the agreed one-week period.",
+    "consulted" : [ "Position_PostGoLiveSoakDurationBasis", "Narrative_ContainedPainOverUnboundedRisk", "Expr_4HalyardCutoverReview20260915_3", "Expr_4HalyardCutoverReview20260915_5", "Expr_4HalyardCutoverReview20260915_7", "Expr_4HalyardCutoverReview20260915_9", "Expr_4HalyardCutoverReview20260915_15", "Expr_4HalyardCutoverReview20260915_20", "Expr_1HalyardWeekly20260908_17", "Expr_1HalyardWeekly20260908_19" ]
+  } ],
+  "unreferenced_commentary" : [ ]
+}
