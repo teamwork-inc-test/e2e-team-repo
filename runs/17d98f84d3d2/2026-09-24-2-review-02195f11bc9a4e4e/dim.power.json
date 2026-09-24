@@ -1,0 +1,25 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-2",
+    "regions" : [ "legitimate" ],
+    "evidence" : [ {
+      "quote" : "rejected the change",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Reports a formal governance rejection act executed through established review authority.",
+    "reported" : true
+  }, {
+    "segment_local_id" : "src-3",
+    "regions" : [ "rational-persuasion", "expert" ],
+    "evidence" : [ {
+      "quote" : "the soak number needs the Dockside incident data before it holds",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Conditions validity of a metric on missing empirical evidentiary support from a specific domain incident.",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-1" ],
+  "unmarked_rest" : false,
+  "mints" : [ ],
+  "region_mints" : [ ]
+}
