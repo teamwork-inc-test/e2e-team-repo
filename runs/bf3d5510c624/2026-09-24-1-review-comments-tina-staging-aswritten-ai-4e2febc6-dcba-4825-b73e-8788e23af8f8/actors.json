@@ -1,0 +1,15 @@
+{
+  "bindings" : [ {
+    "name" : "Tina TeamMember",
+    "verdict" : "mint",
+    "target" : null,
+    "label" : "Tina TeamMember",
+    "why" : "Distinct persona distinct from existing Actor_TinaTeam (parallel to Tanya Team vs Tanya TeamOwner)."
+  }, {
+    "name" : "tina+staging@aswritten.ai",
+    "verdict" : "mint",
+    "target" : null,
+    "label" : "Tina TeamMember",
+    "why" : "Submitted by email for Tina TeamMember in envelope context; converges with Tina TeamMember."
+  } ]
+}
