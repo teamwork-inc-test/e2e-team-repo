@@ -1,0 +1,10 @@
+{
+  "placements" : [ {
+    "verdict" : "reuse",
+    "leaf" : "Narrative_ContainedPainOverUnboundedRisk",
+    "supporting_segments" : [ "src-2", "src-3" ],
+    "why" : "Tina's review rejection and verifier requirement that the soak number must be backed by Dockside incident data directly participate in the empirical validation debate over post-go-live soak durations in multi-site sequential rollouts.",
+    "consulted" : [ "Narrative_ContainedPainOverUnboundedRisk", "Narrative_SourceQualityGatesRequireIndependentEnforcement", "Narrative_StrictWorkloadIsolationDuringCutover" ]
+  } ],
+  "unplaced" : [ "src-1" ]
+}
