@@ -1,0 +1,38 @@
+{
+  "resolutions" : [ {
+    "commentary_local_id" : "src-1",
+    "phrase" : "https://aswritten.ai/narrative#Position_PostGoLiveSoakDurationBasis, at revision https://aswritten.ai/narrative#PositionRevision_PostGoLiveSoakDurationBasis_4HalyardCutoverReview20260915",
+    "verdict" : "confident",
+    "binding" : {
+      "referents" : [ {
+        "iri" : "Position_PostGoLiveSoakDurationBasis",
+        "relation" : "see",
+        "why" : "Anchors review act context to the soak duration position."
+      } ],
+      "targets" : [ "Position_PostGoLiveSoakDurationBasis" ]
+    },
+    "candidates" : null,
+    "why" : "Explicit reference to the existing soak duration basis position node.",
+    "consulted" : [ "Position_PostGoLiveSoakDurationBasis", "Narrative_ContainedPainOverUnboundedRisk" ]
+  }, {
+    "commentary_local_id" : "src-2",
+    "phrase" : ".aswritten/memories/2026-09-23-4-halyard-cutover-review-2026-09-15.md made to https://aswritten.ai/narrative#Position_PostGoLiveSoakDurationBasis",
+    "verdict" : "confident",
+    "binding" : {
+      "referents" : [ {
+        "iri" : "Position_PostGoLiveSoakDurationBasis",
+        "relation" : "extends",
+        "why" : "Formal acceptance of the revised soak duration basis by the owner."
+      }, {
+        "iri" : "Sample_4HalyardCutoverReview20260915",
+        "relation" : "see",
+        "why" : "Source memory proposing the soak duration revision."
+      } ],
+      "targets" : [ "Position_PostGoLiveSoakDurationBasis", "Narrative_ContainedPainOverUnboundedRisk" ]
+    },
+    "candidates" : null,
+    "why" : "Tanya's acceptance act ratifies the change to Position_PostGoLiveSoakDurationBasis stemming from the Halyard Cutover Review.",
+    "consulted" : [ "Position_PostGoLiveSoakDurationBasis", "Sample_4HalyardCutoverReview20260915", "Narrative_ContainedPainOverUnboundedRisk" ]
+  } ],
+  "unreferenced_commentary" : [ ]
+}
