@@ -1,0 +1,10 @@
+{
+  "placements" : [ {
+    "verdict" : "reuse",
+    "leaf" : "Narrative_ContainedPainOverUnboundedRisk",
+    "supporting_segments" : [ "src-1" ],
+    "why" : "Argues for empirical soak intervals and operational safety margins (catching the month-end batch cycle) over compressed deployment schedules, fitting directly into the narrative prioritizing contained operational friction and validated soak durations.",
+    "consulted" : [ "Narrative_ContainedPainOverUnboundedRisk", "CutoverStrategy", "Narrative_StrictWorkloadIsolationDuringCutover", "Narrative_SingleSourceOfTruthUntilFinalCutover" ]
+  } ],
+  "unplaced" : [ ]
+}
