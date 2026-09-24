@@ -1,0 +1,43 @@
+{
+  "doc" : {
+    "title" : "Review: Position_PostGoLiveSoakDurationBasis — 2026-09-23",
+    "date_stated" : "2026-09-23",
+    "actors_present" : [ "Tanya TeamOwner", "Tina TeamMember" ]
+  },
+  "footing_cases" : [ ],
+  "segments" : [ {
+    "circumstance" : {
+      "context" : "Review of Position_PostGoLiveSoakDurationBasis"
+    },
+    "exact" : "These are review acts on https://aswritten.ai/narrative#Position_PostGoLiveSoakDurationBasis, at revision https://aswritten.ai/narrative#PositionRevision_PostGoLiveSoakDurationBasis_4HalyardCutoverReview20260915.",
+    "local_id" : "src-1",
+    "act" : "assertive",
+    "footing_case" : null,
+    "note" : null,
+    "redacted" : false,
+    "actor" : "Tanya TeamOwner"
+  }, {
+    "circumstance" : {
+      "context" : "Review of Position_PostGoLiveSoakDurationBasis"
+    },
+    "exact" : "Tina TeamMember rejected the change .aswritten/memories/2026-09-23-4-halyard-cutover-review-2026-09-15.md made to https://aswritten.ai/narrative#Position_PostGoLiveSoakDurationBasis (revision https://aswritten.ai/narrative#PositionRevision_PostGoLiveSoakDurationBasis_4HalyardCutoverReview20260915). [op pos-d34b69a4427f84f26329d018f93716da389c67faf16f17459e91ae43feecc518]",
+    "local_id" : "src-2",
+    "act" : "assertive",
+    "footing_case" : null,
+    "note" : "Document submitter recording Tina TeamMember's rejection act",
+    "redacted" : false,
+    "actor" : "Tanya TeamOwner"
+  }, {
+    "circumstance" : {
+      "context" : "Review comment / rejection rationale"
+    },
+    "exact" : "701.06 verifier: the soak number needs the Dockside incident data before it holds",
+    "local_id" : "src-3",
+    "act" : "assertive",
+    "footing_case" : null,
+    "note" : null,
+    "redacted" : false,
+    "actor" : "Tina TeamMember"
+  } ],
+  "coverage_gaps" : [ ]
+}
