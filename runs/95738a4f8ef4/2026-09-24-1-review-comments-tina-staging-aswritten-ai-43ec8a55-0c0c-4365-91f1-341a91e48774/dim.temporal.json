@@ -1,0 +1,14 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "future", "irrealis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "One week of soak misses the month-end batch; two weeks catches it.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Projects alternative soak duration outcomes against the specific upcoming month-end batch.",
+    "reported" : false
+  } ],
+  "unmarked" : [ ],
+  "unmarked_rest" : false
+}
