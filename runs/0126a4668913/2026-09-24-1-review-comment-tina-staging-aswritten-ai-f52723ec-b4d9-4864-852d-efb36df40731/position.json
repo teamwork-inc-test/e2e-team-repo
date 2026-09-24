@@ -1,0 +1,14 @@
+{
+  "positions" : [ ],
+  "attaches" : [ {
+    "position" : "Position_SiteCutoverSequencingStrategy",
+    "members" : [ "src-1" ],
+    "why" : "Tina directly addresses the rollout sequence by arguing that site ordering should be determined by risk absorption capacity, proposing that Clyde go first due to its team's Dockside experience and the two smaller sites go last."
+  }, {
+    "position" : "Position_CrossSiteOperationalLearning",
+    "members" : [ "src-1" ],
+    "why" : "Tina defines the operational mechanism for cross-site learning, asserting that skill compounding requires site teams to physically sit in on the previous site's go-live week rather than relying on retrospective reports."
+  } ],
+  "position_revisions" : [ ],
+  "ungrouped" : [ ]
+}
