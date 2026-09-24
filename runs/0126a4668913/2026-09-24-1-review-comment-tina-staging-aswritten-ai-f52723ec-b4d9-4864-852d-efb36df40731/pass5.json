@@ -1,0 +1,11 @@
+{
+  "placements" : [ {
+    "verdict" : "reuse",
+    "leaf" : "Narrative_ContainedPainOverUnboundedRisk",
+    "supporting_segments" : [ "src-1" ],
+    "why" : "Tina's change request directly engages the sequential rollout strategy by arguing that site ordering should be driven by risk absorption capacity (putting Clyde first due to previous Dockside experience) and reinforcing that sequential execution is vital because operational learning compounds only when subsequent teams participate directly in the preceding cutover.",
+    "consulted" : [ "Narrative_ContainedPainOverUnboundedRisk", "Narrative_StrictWorkloadIsolationDuringCutover", "Narrative_SingleSourceOfTruthUntilFinalCutover", "CutoverStrategy" ],
+    "adopted_positions" : [ "Position_CrossSiteOperationalLearning" ]
+  } ],
+  "unplaced" : [ ]
+}
