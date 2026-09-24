@@ -1,0 +1,15 @@
+{
+  "bindings" : [ {
+    "name" : "Tina TeamMember",
+    "verdict" : "mint",
+    "target" : null,
+    "label" : "Tina TeamMember",
+    "why" : "Distinct name from existing Tina Team (Actor_TinaTeam); minting new actor to avoid wrong merge."
+  }, {
+    "name" : "tina+staging@aswritten.ai",
+    "verdict" : "mint",
+    "target" : null,
+    "label" : "Tina TeamMember",
+    "why" : "Envelope submitter email corresponding to Tina TeamMember, converging on newly minted actor."
+  } ]
+}
