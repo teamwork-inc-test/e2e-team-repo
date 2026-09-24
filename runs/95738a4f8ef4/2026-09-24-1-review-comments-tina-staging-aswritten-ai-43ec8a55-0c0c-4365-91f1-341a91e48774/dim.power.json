@@ -1,0 +1,15 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "rational-persuasion", "informational" ],
+    "evidence" : [ {
+      "quote" : "One week of soak misses the month-end batch; two weeks catches it.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Lays out a factual comparative timeline to rationally influence the scheduling decision.",
+    "reported" : false
+  } ],
+  "unmarked" : [ ],
+  "mints" : [ ],
+  "region_mints" : [ ]
+}
