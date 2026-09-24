@@ -1,0 +1,18 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "rational-persuasion" ],
+    "evidence" : [ {
+      "quote" : "the learning only compounds if the people who do the next cutover were in the room for the last one, not reading a report about it.",
+      "kind" : "framing-move"
+    }, {
+      "quote" : "the order of the four sites should be driven by who can absorb a bad week",
+      "kind" : "modal-marker"
+    } ],
+    "why" : "Tina advocates for a specific rollout sequence and shadowing requirement using direct causal argumentation and operational rationale.",
+    "reported" : false
+  } ],
+  "unmarked" : [ ],
+  "mints" : [ ],
+  "region_mints" : [ ]
+}
