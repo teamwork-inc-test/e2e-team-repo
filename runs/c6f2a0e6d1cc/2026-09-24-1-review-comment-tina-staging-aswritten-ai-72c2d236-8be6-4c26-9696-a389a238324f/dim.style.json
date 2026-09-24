@@ -1,0 +1,16 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "parallelism", "antithesis" ],
+    "evidence" : [ {
+      "quote" : "One week of soak misses the month-end batch; two weeks catches it.",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Matched grammatical clauses contrasting two duration outcomes (one week misses vs. two weeks catches).",
+    "reported" : false
+  } ],
+  "unmarked" : [ ],
+  "unmarked_rest" : false,
+  "mints" : [ ],
+  "region_mints" : [ ]
+}
