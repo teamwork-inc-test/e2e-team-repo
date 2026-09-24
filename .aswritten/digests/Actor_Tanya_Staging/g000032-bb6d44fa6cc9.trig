@@ -1,0 +1,70 @@
+@prefix narr: <https://aswritten.ai/narrative#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+GRAPH <https://aswritten.ai/narrative#Digest_Actor_Tanya_Staging> {
+  <https://aswritten.ai/narrative#Digest_Actor_Tanya_Staging> a narr:Digest ;
+    narr:digestOf <https://aswritten.ai/narrative#Actor_Tanya_Staging> ;
+    narr:childCount "43"^^xsd:integer ;
+    narr:generatedFrom "bb6d44fa6cc965e66aa05e25f3558caef9d1e0ec" ;
+    narr:narration """This actor hub holds two registers. The long spine is [a single assertion repeated near-daily](narr:https://aswritten.ai/narrative#Expr_1E2EDefaultRef1788169170042_1) from the first dated entry through [the latest repetition](narr:https://aswritten.ai/narrative#Expr_1E2EDefaultRef1790155536514_1), with [an alternate dated log](narr:https://aswritten.ai/narrative#Expr_2E2EDefaultRef1788341794428_1) in the same cadence — claim-level conviction in a concrete, present-tense, realis frame throughout. On the final dated days a second register appears: [a ruling issued in an owner capacity](narr:https://aswritten.ai/narrative#Expr_2DeliveryRoutingRulingE2ESynthetic_1), its substance — [one bundle per run per person](narr:https://aswritten.ai/narrative#Expr_2DeliveryRoutingRulingE2ESynthetic_2) — argued in plain-spoken antithesis, [a boundary held against pushback](narr:https://aswritten.ai/narrative#Expr_2DeliveryRoutingRulingE2ESynthetic_3), and [a rejected alternative recorded with its reason](narr:https://aswritten.ai/narrative#Expr_2DeliveryRoutingRulingE2ESynthetic_5), carried under [her own signature on the rejected-alternative record](narr:https://aswritten.ai/narrative#Expr_2DeliveryRoutingRulingE2ESynthetic_4) and re-voiced in [a second-pass retelling](narr:https://aswritten.ai/narrative#Expr_3DeliveryRoutingRulingE2ESyntheticAttempt2_1) with [the directive restated](narr:https://aswritten.ai/narrative#Expr_3DeliveryRoutingRulingE2ESyntheticAttempt2_2), [the pushback narrated as relayed](narr:https://aswritten.ai/narrative#Expr_3DeliveryRoutingRulingE2ESyntheticAttempt2_3), and [the rejection re-reported](narr:https://aswritten.ai/narrative#Expr_3DeliveryRoutingRulingE2ESyntheticAttempt2_4) — now extended once more in [a third rendering of the same ruling](narr:https://aswritten.ai/narrative#Expr_20260924_2_DeliveryRoutingRulingE2ESyntheticAttempt2_haec961429483_1) with [its directive](narr:https://aswritten.ai/narrative#Expr_20260924_2_DeliveryRoutingRulingE2ESyntheticAttempt2_haec961429483_2), [its held boundary](narr:https://aswritten.ai/narrative#Expr_20260924_2_DeliveryRoutingRulingE2ESyntheticAttempt2_haec961429483_3), and [its rejected alternative](narr:https://aswritten.ai/narrative#Expr_20260924_2_DeliveryRoutingRulingE2ESyntheticAttempt2_haec961429483_4). A query for anything beyond the repeated assertion and this delivery-routing decision is honestly not-here.""" ;
+    narr:reaction """The spine didn't move — the repeated assertion and its cadence are exactly as before. What grew is the ruling register: the delivery-routing decision now has a third full rendering on the newest dated day, [a second-pass retelling under a fresh extraction](narr:https://aswritten.ai/narrative#Expr_20260924_2_DeliveryRoutingRulingE2ESyntheticAttempt2_haec961429483_1) that repeats [the directive](narr:https://aswritten.ai/narrative#Expr_20260924_2_DeliveryRoutingRulingE2ESyntheticAttempt2_haec961429483_2), [the held boundary](narr:https://aswritten.ai/narrative#Expr_20260924_2_DeliveryRoutingRulingE2ESyntheticAttempt2_haec961429483_3), and [the rejected alternative](narr:https://aswritten.ai/narrative#Expr_20260924_2_DeliveryRoutingRulingE2ESyntheticAttempt2_haec961429483_4) without changing any of them — the ruling is firming by repetition, not by revision.""" ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1E2EDefaultRef1788169170042_1> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1E2EDefaultRef1788255387470_1> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1E2EDefaultRef1788307540537_1> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1E2EDefaultRef1788429585432_1> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1E2EDefaultRef1788514817267_1> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1E2EDefaultRef1788600637900_1> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1E2EDefaultRef1788687000950_1> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1E2EDefaultRef1788774012301_1> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1E2EDefaultRef1788860066803_1> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1E2EDefaultRef1788946504627_1> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1E2EDefaultRef1789032827498_1> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1E2EDefaultRef1789119299167_1> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1E2EDefaultRef1789205481061_1> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1E2EDefaultRef1789293262875_1> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1E2EDefaultRef1789378835360_1> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1E2EDefaultRef1789465125074_1> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1E2EDefaultRef1789551324538_1> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1E2EDefaultRef1789637169682_1> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1E2EDefaultRef1789723493710_1> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1E2EDefaultRef1789809713653_1> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1E2EDefaultRef1789896132378_1> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1E2EDefaultRef1789983111748_1> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1E2EDefaultRef1790069073373_1> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1E2EDefaultRef1790155536514_1> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20260924_1_DeliveryRoutingRulingE2ESynthetic_hf8fb95c0b315_1> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20260924_1_DeliveryRoutingRulingE2ESynthetic_hf8fb95c0b315_2> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20260924_1_DeliveryRoutingRulingE2ESynthetic_hf8fb95c0b315_3> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20260924_1_DeliveryRoutingRulingE2ESynthetic_hf8fb95c0b315_4> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20260924_2_DeliveryRoutingRulingE2ESyntheticAttempt2_haec961429483_1> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20260924_2_DeliveryRoutingRulingE2ESyntheticAttempt2_haec961429483_2> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20260924_2_DeliveryRoutingRulingE2ESyntheticAttempt2_haec961429483_3> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20260924_2_DeliveryRoutingRulingE2ESyntheticAttempt2_haec961429483_4> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2DeliveryRoutingRulingE2ESynthetic_1> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2DeliveryRoutingRulingE2ESynthetic_2> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2DeliveryRoutingRulingE2ESynthetic_3> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2DeliveryRoutingRulingE2ESynthetic_4> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2DeliveryRoutingRulingE2ESynthetic_5> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2E2EDefaultRef1788301640261_1> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2E2EDefaultRef1788341794428_1> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_3DeliveryRoutingRulingE2ESyntheticAttempt2_1> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_3DeliveryRoutingRulingE2ESyntheticAttempt2_2> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_3DeliveryRoutingRulingE2ESyntheticAttempt2_3> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_3DeliveryRoutingRulingE2ESyntheticAttempt2_4> ;
+    narr:keyPhrase [ narr:text "Testing that omitted ref creates a topic branch." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1E2EDefaultRef1788169170042_1> ] ;
+    narr:keyPhrase [ narr:text "we route every reaction through one bundle per run per person, not one\n> message per skill — a person should get one thing to read, not four" ; narr:phraseSource <https://aswritten.ai/narrative#Expr_2DeliveryRoutingRulingE2ESynthetic_2> ] ;
+    narr:keyPhrase [ narr:text "Tina pushed back on the batching window and Tanya held: the bundle closes when\nthe run closes, and a skill that misses the close waits for the next run rather\nthan sending on its own." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_2DeliveryRoutingRulingE2ESynthetic_3> ] ;
+    narr:keyPhrase [ narr:text "The alternative considered and rejected was per-skill\ndelivery with client-side collapsing, which moves the ordering problem onto the\nreader." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_2DeliveryRoutingRulingE2ESynthetic_5> ] ;
+    narr:keyPhrase [ narr:text "Tanya (team owner) ruled on where reaction delivery belongs:" ; narr:phraseSource <https://aswritten.ai/narrative#Expr_20260924_2_DeliveryRoutingRulingE2ESyntheticAttempt2_haec961429483_1> ] ;
+    narr:variation [ narr:text "The dominant register is a flat repeated test assertion; the ruling register — decision conviction, owner authority, antithesis style — appears only on the final dated days and is a different voice mode entirely." ; narr:over <https://aswritten.ai/narrative#Expr_1E2EDefaultRef1788169170042_1> ; narr:over <https://aswritten.ai/narrative#Expr_2DeliveryRoutingRulingE2ESynthetic_2> ] ;
+    narr:variation [ narr:text "Within the ruling, pushback on the batching window was voiced and overruled — the alternative (per-skill delivery with client-side collapsing) is recorded as rejected, not absent." ; narr:over <https://aswritten.ai/narrative#Expr_2DeliveryRoutingRulingE2ESynthetic_3> ; narr:over <https://aswritten.ai/narrative#Expr_2DeliveryRoutingRulingE2ESynthetic_5> ] ;
+    narr:variation [ narr:text "The pushback narration is partly relayed: the authority-ranking signal on the held boundary is witnessed through another's rendering, and one record of it carries a different principal's signature than the actor's own." ; narr:over <https://aswritten.ai/narrative#Expr_3DeliveryRoutingRulingE2ESyntheticAttempt2_3> ; narr:over <https://aswritten.ai/narrative#Expr_2DeliveryRoutingRulingE2ESynthetic_3> ] ;
+    narr:voiceTrait [ narr:dim "conviction" ; narr:reading "claim-level assertion as the daily default, hardening into decision-conviction when she rules" ; narr:text "Tanya (team owner) ruled on where reaction delivery belongs:" ; narr:phraseSource <https://aswritten.ai/narrative#Expr_2DeliveryRoutingRulingE2ESynthetic_1> ] ;
+    narr:voiceTrait [ narr:dim "temporal" ; narr:reading "concrete present-tense realis in routine speech; shifts to abstract future-irrealis when stating policy" ; narr:text "we route every reaction through one bundle per run per person, not one\n> message per skill — a person should get one thing to read, not four" ; narr:phraseSource <https://aswritten.ai/narrative#Expr_2DeliveryRoutingRulingE2ESynthetic_2> ] ;
+    narr:voiceTrait [ narr:dim "power" ; narr:reading "legitimate authority stated plainly, with rational-persuasion as the justification mode" ; narr:text "Tina pushed back on the batching window and Tanya held: the bundle closes when\nthe run closes, and a skill that misses the close waits for the next run rather\nthan sending on its own." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_2DeliveryRoutingRulingE2ESynthetic_3> ] ;
+    narr:voiceTrait [ narr:dim "relational" ; narr:reading "authority-ranking in the ruling register — and the ranking signal on the held boundary is witnessed through relayed rendering, not owned outright" ; narr:text "Tina pushed back on the batching window and Tanya held: the bundle closes when\nthe run closes, and a skill that misses the close waits for the next run rather\nthan sending on its own." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_3DeliveryRoutingRulingE2ESyntheticAttempt2_3> ] ;
+    narr:voiceTrait [ narr:dim "register" ; narr:reading "technical matter-of-fact in routine entries, plain-spoken when issuing directives" ; narr:text "The alternative considered and rejected was per-skill\ndelivery with client-side collapsing, which moves the ordering problem onto the\nreader." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_2DeliveryRoutingRulingE2ESynthetic_4> ] ;
+    narr:voiceTrait [ narr:dim "style" ; narr:reading "antithesis-first with parallelism — the sentence names what it isn't, then what it is" ; narr:text "we route every reaction through one bundle per run per person, not one\n> message per skill — a person should get one thing to read, not four" ; narr:phraseSource <https://aswritten.ai/narrative#Expr_20260924_2_DeliveryRoutingRulingE2ESyntheticAttempt2_haec961429483_2> ] ;
+    narr:voiceTrait [ narr:dim "value" ; narr:reading "self-transcendence — the reasoning consistently lands on the reader's burden, not her own convenience" ; narr:text "The alternative considered and rejected was per-skill\ndelivery with client-side collapsing, which moves the ordering problem onto the\nreader." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_2DeliveryRoutingRulingE2ESynthetic_5> ] ;
+    narr:writer "z-ai/glm-5.3-flash:nitro" .
+}
