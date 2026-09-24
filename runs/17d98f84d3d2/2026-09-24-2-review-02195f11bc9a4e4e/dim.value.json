@@ -1,0 +1,16 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-3",
+    "regions" : [ "competence", "conservation" ],
+    "evidence" : [ {
+      "quote" : "the soak number needs the Dockside incident data before it holds",
+      "kind" : "modal-marker"
+    } ],
+    "why" : "Tina conditions validity on empirical incident data, appealing to verification rigor and technical soundness.",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-1", "src-2" ],
+  "unmarked_rest" : false,
+  "mints" : [ ],
+  "region_mints" : [ ]
+}
