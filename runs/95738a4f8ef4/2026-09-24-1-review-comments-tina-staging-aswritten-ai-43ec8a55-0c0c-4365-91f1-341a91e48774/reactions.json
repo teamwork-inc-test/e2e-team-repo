@@ -1,0 +1,103 @@
+{
+  "schema_version" : 1,
+  "run_id" : "mp-eng-cc58f318",
+  "live_run_id" : "95738a4f8ef4",
+  "stream" : "fixtures/701",
+  "policy" : {
+    "lands" : { },
+    "channels" : [ "email", "sms" ],
+    "mode" : "on",
+    "source" : "default",
+    "skills" : { },
+    "warn_per_run_usd" : 0.25,
+    "audience" : "owner-setting",
+    "version" : 1,
+    "stop_per_dispatch_usd" : 2.0
+  },
+  "gates" : [ {
+    "id" : "aswritten/clarify",
+    "run?" : false,
+    "gate" : 2,
+    "reason" : "score 0.1 < threshold 0.7",
+    "score" : 0.1,
+    "evidence" : [ "One week of soak misses the month-end batch; two weeks catches it.", "Shifts the basis for post-go-live soak duration as Tina TeamMember challenges the one-week minimum.", "narr:contradicts narr:Position_PostGoLiveSoakDurationBasis", "attacks the ratified number on a cycle the re-analysis never considered" ]
+  }, {
+    "id" : "aswritten/refract",
+    "run?" : true,
+    "gate" : 2,
+    "reason" : "predicate only"
+  }, {
+    "id" : "aswritten/review",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "skill off"
+  }, {
+    "id" : "aswritten/riff",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "requires perspective, expand"
+  } ],
+  "jobs" : [ {
+    "skill" : "aswritten/refract",
+    "status" : "ok",
+    "phase" : "before",
+    "gate" : { },
+    "output" : {
+      "lens" : {
+        "shift" : "The one-week soak was ratified as defensible because its old reason — the retired reconciliation job — turned out to be imaginary; Tina's comment supplies a test the re-analysis never ran: the month-end batch. The ratified number now reads as contested rather than settled — soak duration is a question of what the soak has to catch, and on that test one week misses a cycle two weeks catches.",
+        "affected" : [ ],
+        "other_lenses" : [ "The rejection itself has changed status: what the September 15 sequencing call actually settled is now an open contest between the ratified record and the rejected counter-record, not background process noise." ],
+        "drew_on" : [ "Tina's review comment, verbatim: 'One week of soak misses the month-end batch; two weeks catches it.' (Expr_20260924_1_ReviewCommentsTinaStagingAswrittenAi43Ec8A550C0C_hea2f3f4487f9_1)", "The ratified record it contests: Expr_4HalyardCutoverReview20260915_20 — 'the soak between sites is one week, not two... superseded by this'", "The caveat that becomes a named failure mode: Expr_4HalyardCutoverReview20260915_15 — 'tight, not safe'", "The reconciliation recording the comment as contradicting Position_PostGoLiveSoakDurationBasis and Expr_4HalyardCutoverReview20260915_20 (Recon_20260924_1_ReviewCommentsTinaStagingAswrittenAi43Ec8A550C0C_hea2f3f4487f9_1)", "The position reaction: the objection 'attacks the ratified number on a cycle the re-analysis never considered'", "The contained-pain reaction: the comment gives the two-week figure 'a calendar basis independent of the retired reconciliation job'", "The reject act on pos-5590a4ad7e77855baf75878af48ba262bdd166887ba40de3702b81ba43103145" ],
+        "quote" : "One week of soak misses the month-end batch; two weeks catches it.",
+        "approaches" : [ "the soak-duration decision — live again, on a calendar basis", "what the September 15 sequencing call actually settled — a contested record now, not an endpoint", "the 'tight, not safe' note — a named failure mode, not a caveat", "how a soak window gets justified — by the cycle it must catch, not only by the job it no longer guards against" ],
+        "speaker" : "Tina TeamMember",
+        "message" : "Here's the shift: the one-week soak was ratified as defensible because its old reason — the retired reconciliation job — turned out to be imaginary. Tina's comment supplies a test the re-analysis never ran: the month-end batch. The ratified number now reads as contested rather than settled — soak duration is a question of what the soak has to catch, and on that test one week misses a cycle two weeks catches.\n\nIt changes our approach to the soak-duration decision (live again, on a calendar basis), to what the September 15 sequencing call actually settled (a contested record now, not an endpoint), to the 'tight, not safe' note (a named failure mode, not a caveat), and to how a soak window gets justified (by the cycle it must catch, not only by the job it no longer guards against).\n\nAs it stands — the record ratified on September 15: \"Right. For the record then: the soak between sites is one week, not two, and my note from the eighth about two weeks should be read as superseded by this.\" Alongside it: \"Agreed. I just want it on the record that the new number is tight, not safe.\" A settled record; two weeks retired along with its imaginary reason.\n\nAs it reads now: the supersession was ratified against the wrong test. The re-analysis asked whether two weeks was still needed for the retired job; it never asked whether one week catches everything the soak exists to catch. 'One week, not two' is a contested record rather than a settled one, and 'tight, not safe' names a specific miss — one week of soak cannot observe a month-end batch at all.\n\nRight shift?\n\nNothing in the current document set carries this yet, so there's nothing to apply across — the reach right now is in the record itself, not in documents. If the shift is right, it's ready for the first cutover or soak document that surfaces; if not, correct it here and everything downstream changes with it.",
+        "eye_chart" : {
+          "document" : ".aswritten/memories/2026-09-24-1-review-comments-tina-staging-aswritten-ai-43ec8a55-0c0c-4365-91f1-341a91e48774.md",
+          "section" : "1. Rejected Position_PostGoLiveSoakDurationBasis",
+          "as_written" : "\"Right. For the record then: the soak between sites is one week, not two, and my note from the eighth about two weeks should be read as superseded by this.\" Alongside it: \"Agreed. I just want it on the record that the new number is tight, not safe.\"",
+          "through_the_lens" : "Read through the shift, the supersession was ratified against the wrong test: the re-analysis retired two weeks because its original reason was gone, and never asked whether one week catches everything the soak exists to catch. 'One week, not two' is therefore a contested record rather than a settled one — citing it as settled now skips the month-end objection. And 'tight, not safe' upgrades from a caveat to a named failure mode: one week of soak cannot observe a month-end batch at all."
+        }
+      }
+    },
+    "landing" : {
+      "landed" : "message"
+    },
+    "ms" : 80535
+  } ],
+  "spend" : {
+    "cost_usd" : 0.011304,
+    "passes" : [ {
+      "pass" : "reaction:_score",
+      "llm_calls" : 1,
+      "cost_usd" : 0.00288915
+    }, {
+      "pass" : "reaction:refract",
+      "llm_calls" : 1,
+      "cost_usd" : 0.00841465
+    } ]
+  },
+  "bundle" : {
+    "items" : 1,
+    "audience" : "only-me",
+    "recipients" : 1,
+    "moments_cached" : true,
+    "sent" : [ {
+      "items" : [ {
+        "kind" : "note",
+        "skill" : "aswritten/refract",
+        "audience" : "speakers"
+      } ],
+      "handle" : "tanya+staging@aswritten.ai",
+      "channel" : "email",
+      "h" : "09fcdb5f3d",
+      "status" : "sent",
+      "front_message_id" : "msg_3dk97zfs",
+      "front_conversation_id" : "cnv_1phmg6nc"
+    } ]
+  },
+  "counters" : {
+    "tanya+staging@aswritten.ai" : 0
+  },
+  "at" : "2026-09-24T05:07:56.998168965Z"
+}
