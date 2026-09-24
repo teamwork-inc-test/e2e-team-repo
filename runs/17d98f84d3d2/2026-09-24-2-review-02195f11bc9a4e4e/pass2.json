@@ -1,0 +1,53 @@
+{
+  "resolutions" : [ {
+    "commentary_local_id" : "src-1",
+    "phrase" : "https://aswritten.ai/narrative#Position_PostGoLiveSoakDurationBasis",
+    "verdict" : "confident",
+    "binding" : {
+      "referents" : [ {
+        "iri" : "Position_PostGoLiveSoakDurationBasis",
+        "relation" : "see",
+        "why" : "Names the position subject to the review acts."
+      } ],
+      "targets" : [ "Position_PostGoLiveSoakDurationBasis", "Narrative_ContainedPainOverUnboundedRisk" ]
+    },
+    "candidates" : null,
+    "why" : "Explicit IRI reference directly naming Position_PostGoLiveSoakDurationBasis.",
+    "consulted" : [ "Position_PostGoLiveSoakDurationBasis", "Narrative_ContainedPainOverUnboundedRisk" ]
+  }, {
+    "commentary_local_id" : "src-2",
+    "phrase" : "rejected the change .aswritten/memories/2026-09-23-4-halyard-cutover-review-2026-09-15.md made to https://aswritten.ai/narrative#Position_PostGoLiveSoakDurationBasis",
+    "verdict" : "confident",
+    "binding" : {
+      "referents" : [ {
+        "iri" : "Position_PostGoLiveSoakDurationBasis",
+        "relation" : "contradicts",
+        "why" : "Records a formal rejection of the revision to the soak duration basis position."
+      }, {
+        "iri" : "Sample_4HalyardCutoverReview20260915",
+        "relation" : "see",
+        "why" : "Anchor memory that authored the rejected revision."
+      } ],
+      "targets" : [ "Position_PostGoLiveSoakDurationBasis", "Narrative_ContainedPainOverUnboundedRisk" ]
+    },
+    "candidates" : null,
+    "why" : "Directly references the rejection of changes made by the cutover review to Position_PostGoLiveSoakDurationBasis.",
+    "consulted" : [ "Position_PostGoLiveSoakDurationBasis", "Sample_4HalyardCutoverReview20260915", "Narrative_ContainedPainOverUnboundedRisk" ]
+  }, {
+    "commentary_local_id" : "src-3",
+    "phrase" : "the soak number needs the Dockside incident data before it holds",
+    "verdict" : "confident",
+    "binding" : {
+      "referents" : [ {
+        "iri" : "Position_PostGoLiveSoakDurationBasis",
+        "relation" : "contradicts",
+        "why" : "Challenges the validity of the soak duration basis by requiring Dockside incident data."
+      } ],
+      "targets" : [ "Position_PostGoLiveSoakDurationBasis", "Narrative_ContainedPainOverUnboundedRisk" ]
+    },
+    "candidates" : null,
+    "why" : "Directly engages and disputes the evidentiary basis for the soak duration number framed under Position_PostGoLiveSoakDurationBasis.",
+    "consulted" : [ "Position_PostGoLiveSoakDurationBasis", "Narrative_ContainedPainOverUnboundedRisk" ]
+  } ],
+  "unreferenced_commentary" : [ ]
+}
