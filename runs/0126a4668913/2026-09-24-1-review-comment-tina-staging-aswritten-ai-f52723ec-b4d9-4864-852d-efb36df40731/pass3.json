@@ -1,0 +1,17 @@
+{
+  "reconciliations" : [ {
+    "segment_ids" : [ "src-1" ],
+    "note" : "I'm requesting changes less for the soak number than for what it rests on. Whatever we settle for the soak, the order of the four sites should be driven by who can absorb a bad week: Clyde first, because its team ran Dockside and can carry the lessons forward, and the two smaller sites last. And every site team should sit in on the previous site's go-live week — the learning only compounds if the people who do the next cutover were in the room for the last one, not reading a report about it.",
+    "targets" : [ "Narrative_ContainedPainOverUnboundedRisk" ],
+    "referents" : [ {
+      "ref" : "Position_SiteCutoverSequencingStrategy",
+      "relation" : "contradicts"
+    }, {
+      "ref" : "Position_CrossSiteOperationalLearning",
+      "relation" : "extends"
+    } ],
+    "principal" : "Tina TeamMember"
+  } ],
+  "standalone" : [ ],
+  "held" : [ ]
+}
