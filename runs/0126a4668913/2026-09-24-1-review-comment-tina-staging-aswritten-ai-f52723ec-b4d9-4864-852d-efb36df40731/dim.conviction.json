@@ -1,0 +1,20 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "I'm requesting changes less for the soak number than for what it rests on.",
+      "kind" : "plain-assertion"
+    }, {
+      "quote" : "the order of the four sites should be driven by who can absorb a bad week",
+      "kind" : "modal-marker"
+    }, {
+      "quote" : "every site team should sit in on the previous site's go-live week",
+      "kind" : "commitment-marker"
+    } ],
+    "why" : "The speaker argues firmly for a specific sequencing and shadowing approach using prescriptive 'should' statements in a change request, but it remains an argued position rather than a settled operational decision.",
+    "reported" : false
+  } ],
+  "unmarked" : [ ],
+  "mints" : [ ]
+}
