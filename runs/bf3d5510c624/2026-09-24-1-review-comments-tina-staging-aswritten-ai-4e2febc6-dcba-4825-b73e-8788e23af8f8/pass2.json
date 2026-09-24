@@ -1,0 +1,27 @@
+{
+  "resolutions" : [ {
+    "commentary_local_id" : "src-1",
+    "phrase" : "The soak should be two weeks, not one: the batch jobs only run weekly.",
+    "verdict" : "confident",
+    "binding" : {
+      "referents" : [ {
+        "iri" : "Position_PostGoLiveSoakDurationBasis",
+        "relation" : "contradicts",
+        "why" : "Contests the revised one-week soak duration decision and argues for retaining a two-week soak."
+      }, {
+        "iri" : "Expr_4HalyardCutoverReview20260915_7",
+        "relation" : "contradicts",
+        "why" : "Directly contradicts the finding that weekly batch jobs were retired and reconciliation is continuous."
+      }, {
+        "iri" : "Expr_4HalyardCutoverReview20260915_20",
+        "relation" : "contradicts",
+        "why" : "Contradicts the formal ratification superseding the two-week soak in favor of one week."
+      } ],
+      "targets" : [ "Position_PostGoLiveSoakDurationBasis", "Narrative_ContainedPainOverUnboundedRisk" ]
+    },
+    "candidates" : null,
+    "why" : "Directly addresses and rejects the cutover review's soak reduction from two weeks to one week and disputes the architectural premise regarding retired weekly batch jobs.",
+    "consulted" : [ "Position_PostGoLiveSoakDurationBasis", "Narrative_ContainedPainOverUnboundedRisk", "Expr_4HalyardCutoverReview20260915_3", "Expr_4HalyardCutoverReview20260915_5", "Expr_4HalyardCutoverReview20260915_7", "Expr_4HalyardCutoverReview20260915_9", "Expr_4HalyardCutoverReview20260915_20", "Expr_1HalyardWeekly20260908_17", "Expr_1HalyardWeekly20260908_19" ]
+  } ],
+  "unreferenced_commentary" : [ ]
+}
