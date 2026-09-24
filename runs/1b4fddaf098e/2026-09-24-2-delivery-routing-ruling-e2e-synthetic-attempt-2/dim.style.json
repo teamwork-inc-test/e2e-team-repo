@@ -1,0 +1,19 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-2",
+    "regions" : [ "antithesis", "parallelism" ],
+    "evidence" : [ {
+      "quote" : "one bundle per run per person, not one\n> message per skill",
+      "kind" : "framing-move"
+    }, {
+      "quote" : "a person should get one thing to read, not four",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Constructs direct antithetical contrasts with matched syntactic parallelism ('X, not Y') to enforce clarity.",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-1", "src-3", "src-4" ],
+  "unmarked_rest" : false,
+  "mints" : [ ],
+  "region_mints" : [ ]
+}
