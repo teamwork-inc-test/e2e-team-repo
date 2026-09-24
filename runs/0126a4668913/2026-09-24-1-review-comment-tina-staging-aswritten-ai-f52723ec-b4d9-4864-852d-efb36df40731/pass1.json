@@ -1,0 +1,21 @@
+{
+  "doc" : {
+    "title" : "Review comment: tina-staging-aswritten-ai — 2026-09-24",
+    "date_stated" : "2026-09-24",
+    "actors_present" : [ "Tina TeamMember" ]
+  },
+  "footing_cases" : [ ],
+  "segments" : [ {
+    "local_id" : "src-1",
+    "exact" : "I'm requesting changes less for the soak number than for what it rests on. Whatever we settle for the soak, the order of the four sites should be driven by who can absorb a bad week: Clyde first, because its team ran Dockside and can carry the lessons forward, and the two smaller sites last. And every site team should sit in on the previous site's go-live week — the learning only compounds if the people who do the next cutover were in the room for the last one, not reading a report about it.",
+    "actor" : "Tina TeamMember",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Review comment on Position_PostGoLiveSoakDurationBasis"
+    },
+    "note" : "Unified review comment articulating the sequencing recommendation and learning requirement.",
+    "redacted" : false,
+    "footing_case" : null
+  } ],
+  "coverage_gaps" : [ ]
+}
