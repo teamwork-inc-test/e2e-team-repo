@@ -1,0 +1,15 @@
+{
+  "bindings" : [ {
+    "name" : "Tina TeamMember",
+    "verdict" : "mint",
+    "target" : null,
+    "label" : "Tina TeamMember",
+    "why" : "Distinct from existing Actor_TinaTeam (Tina Team) and no confident existing match for Tina TeamMember."
+  }, {
+    "name" : "tina+staging@aswritten.ai",
+    "verdict" : "mint",
+    "target" : null,
+    "label" : "Tina TeamMember",
+    "why" : "Envelope submitter email corresponding to participant Tina TeamMember; aliases converge on the fullest name."
+  } ]
+}
