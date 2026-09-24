@@ -1,0 +1,10 @@
+{
+  "placements" : [ {
+    "verdict" : "reuse",
+    "leaf" : "Narrative_ContainedPainOverUnboundedRisk",
+    "supporting_segments" : [ "src-2" ],
+    "why" : "Tanya's review acceptance formally ratifies the soak duration revision in Position_PostGoLiveSoakDurationBasis, solidifying the empirical soak parameters within the sequential cutover governance narrative.",
+    "consulted" : [ "Narrative_ContainedPainOverUnboundedRisk", "CutoverStrategy" ]
+  } ],
+  "unplaced" : [ "src-1" ]
+}
