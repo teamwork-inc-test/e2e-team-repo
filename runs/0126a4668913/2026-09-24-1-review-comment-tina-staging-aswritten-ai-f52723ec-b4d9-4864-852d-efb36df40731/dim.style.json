@@ -1,0 +1,15 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "antithesis" ],
+    "evidence" : [ {
+      "quote" : "were in the room for the last one, not reading a report about it",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Opposes physical presence during execution against passive reading of a post-hoc report in a direct contrastive frame.",
+    "reported" : false
+  } ],
+  "unmarked" : [ ],
+  "mints" : [ ],
+  "region_mints" : [ ]
+}
