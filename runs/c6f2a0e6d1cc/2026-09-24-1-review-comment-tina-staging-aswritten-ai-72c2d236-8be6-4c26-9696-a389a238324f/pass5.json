@@ -1,0 +1,10 @@
+{
+  "placements" : [ {
+    "verdict" : "reuse",
+    "leaf" : "Narrative_ContainedPainOverUnboundedRisk",
+    "supporting_segments" : [ "src-1" ],
+    "why" : "Tina's assertion that a two-week soak is required to cover the month-end batch cycle directly contributes to the narrative prioritizing empirical soak intervals and operational containment over rushed deployment risk.",
+    "consulted" : [ "Narrative_ContainedPainOverUnboundedRisk", "Narrative_StrictWorkloadIsolationDuringCutover", "Narrative_SingleSourceOfTruthUntilFinalCutover" ]
+  } ],
+  "unplaced" : [ ]
+}
