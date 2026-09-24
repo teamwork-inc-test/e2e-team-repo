@@ -1,0 +1,11 @@
+{
+  "placements" : [ {
+    "verdict" : "reuse",
+    "leaf" : "Narrative_ReactionDeliveryBundling",
+    "supporting_segments" : [ "src-1", "src-2", "src-3", "src-4" ],
+    "adopted_positions" : [ "Position_ReactionDeliveryBundlingAndBatchingBoundary" ],
+    "why" : "All four segments articulate the reaction delivery routing ruling, the one-bundle-per-run-per-person policy, the batching window boundary held against pushback, and the rationale for rejecting client-side collapsing, directly supporting Narrative_ReactionDeliveryBundling.",
+    "consulted" : [ "Narrative_ReactionDeliveryBundling", "Narrative_DefaultRefTopicBranch", "Narrative_AntiSlackPositioning", "Narrative_DecisionsEvaporate", "Narrative_DecisionCaptureAtConsensus" ]
+  } ],
+  "unplaced" : [ ]
+}
