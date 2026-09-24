@@ -1,0 +1,25 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "authority-ranking" ],
+    "evidence" : [ {
+      "quote" : "ruled on",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Enacts hierarchical adjudication by framing the decision explicitly as an authoritative ruling by the team owner.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-3",
+    "regions" : [ "authority-ranking" ],
+    "evidence" : [ {
+      "quote" : "Tina pushed back on the batching window and Tanya held",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Reports an interaction where authority prevailed over pushback to sustain a binding constraint.",
+    "reported" : true
+  } ],
+  "unmarked" : [ "src-2", "src-4" ],
+  "unmarked_rest" : false,
+  "mints" : [ ],
+  "region_mints" : [ ]
+}
