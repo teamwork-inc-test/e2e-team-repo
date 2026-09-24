@@ -1,0 +1,27 @@
+{
+  "resolutions" : [ {
+    "commentary_local_id" : "src-1",
+    "phrase" : "I'm requesting changes less for the soak number than for what it rests on. Whatever we settle for the soak, the order of the four sites should be driven by who can absorb a bad week: Clyde first, because its team ran Dockside and can carry the lessons forward, and the two smaller sites last. And every site team should sit in on the previous site's go-live week — the learning only compounds if the people who do the next cutover were in the room for the last one, not reading a report about it.",
+    "verdict" : "confident",
+    "binding" : {
+      "referents" : [ {
+        "iri" : "Position_SiteCutoverSequencingStrategy",
+        "relation" : "contradicts",
+        "why" : "Challenges the settled four-site rollout sequence by proposing Clyde go first based on risk absorption capacity rather than being kept last as the riskest site."
+      }, {
+        "iri" : "Position_CrossSiteOperationalLearning",
+        "relation" : "extends",
+        "why" : "Specifies concrete practice for cross-site learning by mandating that subsequent site teams observe the prior site's go-live week in person."
+      }, {
+        "iri" : "Position_PostGoLiveSoakDurationBasis",
+        "relation" : "see",
+        "why" : "References the soak duration number as conversational framing without proposing a revision to the duration itself."
+      } ],
+      "targets" : [ "Narrative_ContainedPainOverUnboundedRisk" ]
+    },
+    "candidates" : null,
+    "why" : "The segment directly engages three specific positions within the cutover narrative: challenging the sequencing order strategy, operationalizing cross-site learning mechanisms, and contextualizing against the soak basis.",
+    "consulted" : [ "Narrative_ContainedPainOverUnboundedRisk", "Position_SiteCutoverSequencingStrategy", "Position_CrossSiteOperationalLearning", "Position_PostGoLiveSoakDurationBasis", "Expr_1HalyardWeekly20260908_5", "Expr_2HalyardOpsReadiness20260915_18", "Expr_2HalyardOpsReadiness20260915_19", "Expr_4HalyardCutoverReview20260915_10" ]
+  } ],
+  "unreferenced_commentary" : [ ]
+}
