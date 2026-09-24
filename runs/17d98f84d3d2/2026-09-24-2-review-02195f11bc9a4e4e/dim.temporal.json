@@ -1,0 +1,23 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-2",
+    "regions" : [ "past", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "Tina TeamMember rejected the change",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Reports a concrete past action that occurred on a specific revision/change.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-3",
+    "regions" : [ "future", "irrealis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "needs the Dockside incident data before it holds",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Expresses a conditional requirement ('before it holds') concerning specific incident data and the soak number.",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-1" ],
+  "unmarked_rest" : false
+}
