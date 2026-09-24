@@ -1,0 +1,92 @@
+{
+  "schema_version" : 1,
+  "run_id" : "mp-eng-87b1a7e6",
+  "live_run_id" : "c6f2a0e6d1cc",
+  "stream" : "fixtures/701",
+  "policy" : {
+    "lands" : { },
+    "channels" : [ "email", "sms" ],
+    "mode" : "on",
+    "source" : "default",
+    "skills" : { },
+    "warn_per_run_usd" : 0.25,
+    "audience" : "owner-setting",
+    "version" : 1,
+    "stop_per_dispatch_usd" : 2.0
+  },
+  "gates" : [ {
+    "id" : "aswritten/clarify",
+    "run?" : false,
+    "gate" : 2,
+    "reason" : "score 0.4 < threshold 0.7",
+    "score" : 0.4,
+    "evidence" : [ "One week of soak misses the month-end batch; two weeks catches it.", "the soak number is contested again rather than closed", "The ratification you saw last time is no longer the last word", "narr:contradicts narr:Position_PostGoLiveSoakDurationBasis", "Unhedged factual assertion contrasting two soak timelines without explicit ratification or operational settling." ]
+  }, {
+    "id" : "aswritten/merge-suggest",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "skill off"
+  }, {
+    "id" : "aswritten/refract",
+    "run?" : true,
+    "gate" : 2,
+    "reason" : "predicate only"
+  }, {
+    "id" : "aswritten/review",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "skill off"
+  }, {
+    "id" : "aswritten/riff",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "requires perspective, expand"
+  } ],
+  "jobs" : [ {
+    "skill" : "aswritten/refract",
+    "status" : "failed",
+    "phase" : "before",
+    "reason" : "LLM call rejected (no retry): relay HTTP 402: This request requires more credits, or fewer max_tokens. You requested up to 65536 tokens, but can only afford 38579. To increase, visit https://openrouter.ai/workspaces/default/keys/0a38e326849c2ef80d58cf056ddfebb3594e01d40625e7ea8b827483d429a714 and adjust the key's weekly limit",
+    "gate" : { },
+    "landing" : {
+      "landed" : "message"
+    },
+    "ms" : 246,
+    "attempts" : [ {
+      "disposition" : "http-402",
+      "elapsed_ms" : 241,
+      "content_chars" : 0
+    } ]
+  } ],
+  "spend" : {
+    "cost_usd" : 0.005678,
+    "unknown" : true,
+    "passes" : [ {
+      "pass" : "reaction:_score",
+      "llm_calls" : 1,
+      "cost_usd" : 0.0056781,
+      "null_cost_calls" : 0
+    }, {
+      "pass" : "reaction:refract",
+      "llm_calls" : 1,
+      "cost_usd" : null,
+      "null_cost_calls" : 1
+    } ]
+  },
+  "bundle" : {
+    "items" : 0,
+    "audience" : "only-me",
+    "recipients" : 1,
+    "moments_cached" : true,
+    "sent" : [ ]
+  },
+  "counters" : { },
+  "at" : "2026-09-24T22:59:09.244956533Z",
+  "scorer" : {
+    "attempts" : [ {
+      "disposition" : "ok",
+      "elapsed_ms" : 63565,
+      "content_chars" : 850
+    } ]
+  }
+}
