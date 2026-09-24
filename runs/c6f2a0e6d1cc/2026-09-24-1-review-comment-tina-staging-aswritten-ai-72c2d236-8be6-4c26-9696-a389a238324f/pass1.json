@@ -1,0 +1,20 @@
+{
+  "doc" : {
+    "title" : "Review comment: tina-staging-aswritten-ai — 2026-09-24",
+    "date_stated" : "2026-09-24",
+    "actors_present" : [ "Tina TeamMember" ]
+  },
+  "footing_cases" : [ ],
+  "segments" : [ {
+    "local_id" : "src-1",
+    "exact" : "One week of soak misses the month-end batch; two weeks catches it.",
+    "actor" : "Tina TeamMember",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Review of PostGoLiveSoakDurationBasis position change"
+    },
+    "note" : null,
+    "footing_case" : null
+  } ],
+  "coverage_gaps" : [ ]
+}
