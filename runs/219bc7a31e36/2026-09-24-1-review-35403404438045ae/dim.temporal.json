@@ -1,0 +1,23 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "present", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "These are review acts on https://aswritten.ai/narrative#Position_PostGoLiveSoakDurationBasis",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "The utterance frames the current review acts in the present moment, asserting realis facts about specific narrative artifacts.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-2",
+    "regions" : [ "past", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "Tanya TeamOwner accepted the change",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Records an already-settled specific action taken regarding a concrete change file.",
+    "reported" : false
+  } ],
+  "unmarked" : [ ],
+  "unmarked_rest" : false
+}
