@@ -1,0 +1,18 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "technical", "matter-of-fact" ],
+    "evidence" : [ {
+      "quote" : "soak",
+      "kind" : "lexical-marker"
+    }, {
+      "quote" : "batch jobs",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Employs operational domain jargon ('soak', 'batch jobs') in a direct, unadorned technical justification.",
+    "reported" : false
+  } ],
+  "unmarked" : [ ],
+  "mints" : [ ],
+  "region_mints" : [ ]
+}
