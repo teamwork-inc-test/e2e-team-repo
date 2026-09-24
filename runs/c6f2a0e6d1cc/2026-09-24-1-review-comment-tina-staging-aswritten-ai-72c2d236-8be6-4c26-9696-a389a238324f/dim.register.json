@@ -1,0 +1,16 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "matter-of-fact" ],
+    "evidence" : [ {
+      "quote" : "One week of soak misses the month-end batch; two weeks catches it.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Flat, balanced, instrumental statement of schedule constraints without rhetorical flourish.",
+    "reported" : false
+  } ],
+  "unmarked" : [ ],
+  "unmarked_rest" : false,
+  "mints" : [ ],
+  "region_mints" : [ ]
+}
