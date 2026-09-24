@@ -1,0 +1,10 @@
+{
+  "placements" : [ {
+    "verdict" : "reuse",
+    "leaf" : "Narrative_ContainedPainOverUnboundedRisk",
+    "supporting_segments" : [ "src-1" ],
+    "why" : "Segment src-1 re-asserts that the soak between cutovers must remain two weeks to account for weekly batch job cycles, directly engaging the narrative's core theme of justifying sequential deployment cadence and empirical soak intervals to contain operational risk.",
+    "consulted" : [ "Narrative_ContainedPainOverUnboundedRisk", "CutoverStrategy", "Narrative_StrictWorkloadIsolationDuringCutover" ]
+  } ],
+  "unplaced" : [ ]
+}
