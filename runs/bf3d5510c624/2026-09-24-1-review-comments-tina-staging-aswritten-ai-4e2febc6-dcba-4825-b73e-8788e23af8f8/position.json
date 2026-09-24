@@ -1,0 +1,10 @@
+{
+  "positions" : [ ],
+  "attaches" : [ {
+    "position" : "Position_PostGoLiveSoakDurationBasis",
+    "members" : [ "src-1" ],
+    "why" : "The frame 'how is the minimum soak duration between site cutovers determined and validated?' cleanly reads this segment, which re-asserts a two-week soak requirement based on weekly batch job execution cycles, placing it in active tension with the cutover review's one-week determination."
+  } ],
+  "position_revisions" : [ ],
+  "ungrouped" : [ ]
+}
