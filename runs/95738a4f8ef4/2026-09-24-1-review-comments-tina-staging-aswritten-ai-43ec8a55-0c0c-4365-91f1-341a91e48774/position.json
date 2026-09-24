@@ -1,0 +1,10 @@
+{
+  "positions" : [ ],
+  "attaches" : [ {
+    "position" : "Position_PostGoLiveSoakDurationBasis",
+    "members" : [ "src-1" ],
+    "why" : "Directly addresses the operational and empirical criteria for determining post-go-live soak duration by arguing that a two-week window is necessary to cover the month-end batch cycle."
+  } ],
+  "position_revisions" : [ ],
+  "ungrouped" : [ ]
+}
