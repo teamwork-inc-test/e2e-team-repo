@@ -1,0 +1,22 @@
+{
+  "doc" : {
+    "title" : "Review comments: Tina TeamMember — 2026-09-24",
+    "date_stated" : "2026-09-24",
+    "actors_present" : [ "Tina TeamMember" ]
+  },
+  "footing_cases" : [ ],
+  "segments" : [ {
+    "local_id" : "src-1",
+    "exact" : "One week of soak misses the month-end batch; two weeks catches it.",
+    "actor" : "Tina TeamMember",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Review of Position_PostGoLiveSoakDurationBasis"
+    },
+    "footing_case" : null
+  } ],
+  "coverage_gaps" : [ {
+    "reason" : "Quoted perspective expressions cited under review",
+    "span_hint" : "What was under "
+  } ]
+}
