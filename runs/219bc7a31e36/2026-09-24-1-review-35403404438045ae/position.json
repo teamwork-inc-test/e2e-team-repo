@@ -1,0 +1,10 @@
+{
+  "positions" : [ ],
+  "attaches" : [ {
+    "position" : "Position_PostGoLiveSoakDurationBasis",
+    "members" : [ "src-2" ],
+    "why" : "Tanya's formal acceptance act ratifies the revision to the soak duration basis from two weeks to one week, settling the position under governance authority."
+  } ],
+  "position_revisions" : [ ],
+  "ungrouped" : [ "src-1" ]
+}
