@@ -1,0 +1,15 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "plain-spoken", "technical" ],
+    "evidence" : [ {
+      "quote" : "in the room for the last one, not reading a report about it",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Translates operational deployment requirements into grounded, visceral, jargon-free working terms.",
+    "reported" : false
+  } ],
+  "unmarked" : [ ],
+  "mints" : [ ],
+  "region_mints" : [ ]
+}
