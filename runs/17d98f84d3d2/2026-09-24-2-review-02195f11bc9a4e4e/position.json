@@ -1,0 +1,10 @@
+{
+  "positions" : [ ],
+  "attaches" : [ {
+    "position" : "Position_PostGoLiveSoakDurationBasis",
+    "members" : [ "src-2", "src-3" ],
+    "why" : "Tina's formal rejection of the cutover review revision and her verifier condition requiring Dockside incident data directly address the evidentiary validation standards for determining post-go-live soak duration."
+  } ],
+  "position_revisions" : [ ],
+  "ungrouped" : [ "src-1" ]
+}
