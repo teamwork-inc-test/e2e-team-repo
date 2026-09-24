@@ -1,0 +1,25 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-2",
+    "regions" : [ "authority-ranking" ],
+    "evidence" : [ {
+      "quote" : "rejected the change",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Reports a formal governance rejection act exercising decision-making authority over a proposed change.",
+    "reported" : true
+  }, {
+    "segment_local_id" : "src-3",
+    "regions" : [ "authority-ranking" ],
+    "evidence" : [ {
+      "quote" : "needs the Dockside incident data before it holds",
+      "kind" : "modal-marker"
+    } ],
+    "why" : "Enacts verification authority by setting a gating condition ('needs ... before it holds') on the soak duration position.",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-1" ],
+  "unmarked_rest" : false,
+  "mints" : [ ],
+  "region_mints" : [ ]
+}
