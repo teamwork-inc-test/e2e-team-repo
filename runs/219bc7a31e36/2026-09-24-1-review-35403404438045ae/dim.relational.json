@@ -1,0 +1,16 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-2",
+    "regions" : [ "authority-ranking" ],
+    "evidence" : [ {
+      "quote" : "accepted the change",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Accepting a change to a position enacts formal review authority and approval hierarchy.",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-1" ],
+  "unmarked_rest" : false,
+  "mints" : [ ],
+  "region_mints" : [ ]
+}
