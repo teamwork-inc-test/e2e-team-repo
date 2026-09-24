@@ -1,0 +1,17 @@
+{
+  "reconciliations" : [ {
+    "segment_ids" : [ "src-1" ],
+    "note" : "One week of soak misses the month-end batch; two weeks catches it.",
+    "targets" : [ "Position_PostGoLiveSoakDurationBasis", "Narrative_ContainedPainOverUnboundedRisk" ],
+    "referents" : [ {
+      "ref" : "Position_PostGoLiveSoakDurationBasis",
+      "relation" : "contradicts"
+    }, {
+      "ref" : "Expr_4HalyardCutoverReview20260915_20",
+      "relation" : "contradicts"
+    } ],
+    "principal" : "Tina TeamMember"
+  } ],
+  "standalone" : [ ],
+  "held" : [ ]
+}
