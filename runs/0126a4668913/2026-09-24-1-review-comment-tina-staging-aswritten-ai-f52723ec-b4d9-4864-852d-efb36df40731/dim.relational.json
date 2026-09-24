@@ -1,0 +1,15 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "communal-sharing" ],
+    "evidence" : [ {
+      "quote" : "the learning only compounds if the people who do the next cutover were in the room for the last one, not reading a report about it",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Enacts communal-sharing through shared experiential learning and pooled direct presence across teams rather than detached transactional reporting.",
+    "reported" : false
+  } ],
+  "unmarked" : [ ],
+  "mints" : [ ],
+  "region_mints" : [ ]
+}
