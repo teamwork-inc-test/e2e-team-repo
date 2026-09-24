@@ -1,0 +1,41 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "ruled on",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Explicit ruling / ratification language establishing a settled structural choice.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-2",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "we route every reaction through one bundle per run per person, not one\n> message per skill",
+      "kind" : "commitment-marker"
+    } ],
+    "why" : "Direct operational prescription laying down an invariant rule for the system.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-3",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "Tanya held: the bundle closes when\nthe run closes, and a skill that misses the close waits for the next run rather\nthan sending on its own.",
+      "kind" : "commitment-marker"
+    } ],
+    "why" : "Stood firm against pushback to uphold a rigid operational boundary without exceptions.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-4",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "The alternative considered and rejected was",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Formal record of an alternative being evaluated and explicitly rejected.",
+    "reported" : false
+  } ],
+  "unmarked" : [ ],
+  "mints" : [ ]
+}
