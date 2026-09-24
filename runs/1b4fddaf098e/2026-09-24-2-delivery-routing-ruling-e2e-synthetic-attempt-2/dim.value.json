@@ -1,0 +1,25 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-2",
+    "regions" : [ "self-transcendence" ],
+    "evidence" : [ {
+      "quote" : "a person should get one thing to read, not four",
+      "kind" : "modal-marker"
+    } ],
+    "why" : "Appeals to recipient experience and reducing cognitive burden on the reader as the grounding justification for bundling.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-4",
+    "regions" : [ "self-transcendence" ],
+    "evidence" : [ {
+      "quote" : "moves the ordering problem onto the\nreader",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Rejects an architectural alternative specifically because it offloads work and friction onto the reader.",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-1", "src-3" ],
+  "unmarked_rest" : false,
+  "mints" : [ ],
+  "region_mints" : [ ]
+}
