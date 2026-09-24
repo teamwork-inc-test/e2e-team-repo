@@ -1,0 +1,15 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "rational-persuasion" ],
+    "evidence" : [ {
+      "quote" : "The soak should be two weeks, not one: the batch jobs only run weekly.",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Argues for a two-week duration using explicit causal logic tied to the weekly batch schedule.",
+    "reported" : false
+  } ],
+  "unmarked" : [ ],
+  "mints" : [ ],
+  "region_mints" : [ ]
+}
