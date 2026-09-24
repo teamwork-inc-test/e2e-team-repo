@@ -1,0 +1,15 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "One week of soak misses the month-end batch; two weeks catches it.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Unhedged factual assertion contrasting two soak timelines without explicit ratification or operational settling.",
+    "reported" : false
+  } ],
+  "unmarked" : [ ],
+  "unmarked_rest" : false,
+  "mints" : [ ]
+}
