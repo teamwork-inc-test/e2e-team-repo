@@ -1,0 +1,23 @@
+{
+  "resolutions" : [ {
+    "commentary_local_id" : "src-1",
+    "phrase" : "One week of soak misses the month-end batch; two weeks catches it.",
+    "verdict" : "confident",
+    "binding" : {
+      "referents" : [ {
+        "iri" : "Position_PostGoLiveSoakDurationBasis",
+        "relation" : "contradicts",
+        "why" : "Contests the settled one-week soak duration by asserting that two weeks is necessary to capture month-end batch processing."
+      }, {
+        "iri" : "Expr_4HalyardCutoverReview20260915_20",
+        "relation" : "contradicts",
+        "why" : "Directly conflicts with Tanya's formal ratification of a one-week soak timeline."
+      } ],
+      "targets" : [ "Position_PostGoLiveSoakDurationBasis", "Narrative_ContainedPainOverUnboundedRisk" ]
+    },
+    "candidates" : null,
+    "why" : "Unambiguously references and contradicts the one-week post-go-live soak decision ratified in Position_PostGoLiveSoakDurationBasis and Expr_4HalyardCutoverReview20260915_20.",
+    "consulted" : [ "Position_PostGoLiveSoakDurationBasis", "Expr_4HalyardCutoverReview20260915_9", "Expr_4HalyardCutoverReview20260915_20", "Narrative_ContainedPainOverUnboundedRisk" ]
+  } ],
+  "unreferenced_commentary" : [ ]
+}
