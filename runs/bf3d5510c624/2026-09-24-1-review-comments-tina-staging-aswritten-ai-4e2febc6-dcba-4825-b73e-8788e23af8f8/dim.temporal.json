@@ -1,0 +1,17 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "future", "irrealis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "The soak should be two weeks, not one",
+      "kind" : "modal-marker"
+    }, {
+      "quote" : "the batch jobs only run weekly",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Prescribes the duration of an upcoming soak based on a specific, concrete recurring operational cadence.",
+    "reported" : false
+  } ],
+  "unmarked" : [ ],
+  "unmarked_rest" : false
+}
