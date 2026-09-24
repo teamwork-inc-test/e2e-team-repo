@@ -1,0 +1,21 @@
+{
+  "bindings" : [ {
+    "name" : "Tanya TeamOwner",
+    "verdict" : "bind",
+    "target" : "Actor_TanyaTeamowner",
+    "label" : null,
+    "why" : "Exact match to existing Actor_TanyaTeamowner."
+  }, {
+    "name" : "Tina TeamMember",
+    "verdict" : "mint",
+    "target" : null,
+    "label" : "Tina TeamMember",
+    "why" : "No confident match in existing actors (Actor_TinaTeam exists but cannot confidently merge without evidence of identical identity)."
+  }, {
+    "name" : "tanya+staging@aswritten.ai",
+    "verdict" : "bind",
+    "target" : "Actor_TanyaTeamowner",
+    "label" : null,
+    "why" : "Envelope account email for submitted_by Tanya TeamOwner."
+  } ]
+}
