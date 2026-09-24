@@ -1,0 +1,26 @@
+{
+  "reconciliations" : [ {
+    "segment_ids" : [ "src-2" ],
+    "note" : "Tina TeamMember rejected the change .aswritten/memories/2026-09-23-4-halyard-cutover-review-2026-09-15.md made to https://aswritten.ai/narrative#Position_PostGoLiveSoakDurationBasis (revision https://aswritten.ai/narrative#PositionRevision_PostGoLiveSoakDurationBasis_4HalyardCutoverReview20260915). [op pos-d34b69a4427f84f26329d018f93716da389c67faf16f17459e91ae43feecc518]",
+    "targets" : [ "Narrative_ContainedPainOverUnboundedRisk" ],
+    "referents" : [ {
+      "ref" : "Position_PostGoLiveSoakDurationBasis",
+      "relation" : "contradicts"
+    } ],
+    "principal" : "Tina TeamMember"
+  }, {
+    "segment_ids" : [ "src-3" ],
+    "note" : "701.06 verifier: the soak number needs the Dockside incident data before it holds",
+    "targets" : [ "Narrative_ContainedPainOverUnboundedRisk" ],
+    "referents" : [ {
+      "ref" : "Position_PostGoLiveSoakDurationBasis",
+      "relation" : "contradicts"
+    } ],
+    "principal" : "Tina TeamMember"
+  } ],
+  "standalone" : [ {
+    "segment_id" : "src-1",
+    "why" : "Framing statement identifying review targets with no reconciliation conclusion to land."
+  } ],
+  "held" : [ ]
+}
