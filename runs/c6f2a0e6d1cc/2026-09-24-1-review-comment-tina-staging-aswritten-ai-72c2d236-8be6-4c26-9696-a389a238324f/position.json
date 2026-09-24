@@ -1,0 +1,10 @@
+{
+  "positions" : [ ],
+  "attaches" : [ {
+    "position" : "Position_PostGoLiveSoakDurationBasis",
+    "members" : [ "src-1" ],
+    "why" : "Tina introduces month-end batch execution as a necessary operational boundary condition for validating site stability, arguing that a two-week soak is required to capture the cycle, directly addressing how minimum soak duration between site cutovers is determined and validated."
+  } ],
+  "position_revisions" : [ ],
+  "ungrouped" : [ ]
+}
