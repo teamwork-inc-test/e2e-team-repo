@@ -1,0 +1,28 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "competence", "conservation" ],
+    "evidence" : [ {
+      "quote" : "who can absorb a bad week",
+      "kind" : "framing-move"
+    }, {
+      "quote" : "the learning only compounds if the people who do the next cutover were in the room for the last one",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Appeals to compounding operational mastery/craft (competence) through shared presence, structured to buffer against risk and preserve stability (conservation).",
+    "reported" : false,
+    "direction" : {
+      "verdict" : "mint",
+      "node" : "mint-1"
+    }
+  } ],
+  "unmarked" : [ ],
+  "mints" : [ {
+    "id" : "mint-1",
+    "name" : "CompoundingMasteryThroughPresence",
+    "title" : "the learning only compounds if the people who do the next cutover were in the room",
+    "frame" : "Is capability or operational mastery framed as compounding through direct shared participation rather than downstream reporting?",
+    "regions" : [ "competence" ]
+  } ],
+  "region_mints" : [ ]
+}
