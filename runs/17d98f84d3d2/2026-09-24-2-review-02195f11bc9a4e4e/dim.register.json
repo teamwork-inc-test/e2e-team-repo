@@ -1,0 +1,18 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-3",
+    "regions" : [ "technical" ],
+    "evidence" : [ {
+      "quote" : "701.06 verifier",
+      "kind" : "lexical-marker"
+    }, {
+      "quote" : "soak number",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Uses specific system/rule verification code and operational terminology in a direct technical register.",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-1", "src-2" ],
+  "mints" : [ ],
+  "region_mints" : [ ]
+}
