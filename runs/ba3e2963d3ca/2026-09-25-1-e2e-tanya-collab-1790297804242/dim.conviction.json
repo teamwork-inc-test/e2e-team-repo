@@ -1,0 +1,32 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "We shipped",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Reports a completed, settled operational delivery act.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-2",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "Velocity was 23 points, highest this quarter.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Flat factual metric assertion presented without hedging.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-3",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "The Zephyr integration was the key unlock.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Unhedged causal retrospective assessment asserted as a direct claim.",
+    "reported" : false
+  } ],
+  "unmarked" : [ ],
+  "mints" : [ ]
+}
