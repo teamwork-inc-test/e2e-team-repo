@@ -1,0 +1,108 @@
+{
+  "schema_version" : 1,
+  "run_id" : "mp-eng-ba679364",
+  "live_run_id" : "835bc606d740",
+  "stream" : "e2e-collab-1790328937537",
+  "policy" : {
+    "lands" : { },
+    "channels" : [ "email", "sms" ],
+    "mode" : "on",
+    "source" : "default",
+    "skills" : { },
+    "warn_per_run_usd" : 0.25,
+    "audience" : "owner-setting",
+    "version" : 1,
+    "stop_per_dispatch_usd" : 2.0
+  },
+  "gates" : [ {
+    "id" : "aswritten/clarify",
+    "run?" : false,
+    "gate" : 2,
+    "reason" : "score 0.0 < threshold 0.7",
+    "score" : 0.0,
+    "evidence" : [ "plain-assertion: We shipped the async decision widget.", "skos:note \"Unhedged assertion reporting a completed team milestone as matter of fact.\"", "plain-assertion: Velocity was 23 points, highest this quarter.", "skos:note \"Definitive statement of sprint metrics without qualification.\"", "skos:note \"Assertive causal attribution delivered as a firm, defensible claim.\"" ]
+  }, {
+    "id" : "aswritten/merge-suggest",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "skill off"
+  }, {
+    "id" : "aswritten/refract",
+    "run?" : true,
+    "gate" : 2,
+    "reason" : "predicate only"
+  }, {
+    "id" : "aswritten/review",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "skill off"
+  }, {
+    "id" : "aswritten/riff",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "requires perspective, expand"
+  } ],
+  "jobs" : [ {
+    "skill" : "aswritten/refract",
+    "status" : "ok",
+    "phase" : "before",
+    "gate" : { },
+    "output" : {
+      "lens" : null,
+      "ask" : "From your sprint retro, what I took away is that the Zephyr integration is the reason the team hit 23 points and shipped the async decision widget. I couldn't find any team documents to check that against. Where should that be written down: a roadmap, a planning doc, or somewhere else the team explains what speeds it up?"
+    },
+    "landing" : {
+      "landed" : "message"
+    },
+    "ms" : 7993,
+    "attempts" : [ {
+      "disposition" : "ok",
+      "elapsed_ms" : 7991,
+      "content_chars" : 347
+    } ]
+  } ],
+  "spend" : {
+    "cost_usd" : 0.081343,
+    "passes" : [ {
+      "pass" : "reaction:_score",
+      "llm_calls" : 1,
+      "cost_usd" : 0.0017737,
+      "null_cost_calls" : 0
+    }, {
+      "pass" : "reaction:refract",
+      "llm_calls" : 1,
+      "cost_usd" : 0.0795688,
+      "null_cost_calls" : 0
+    } ]
+  },
+  "bundle" : {
+    "items" : 1,
+    "audience" : "only-me",
+    "recipients" : 1,
+    "moments_cached" : true,
+    "sent" : [ {
+      "items" : [ {
+        "kind" : "note",
+        "skill" : "aswritten/refract",
+        "audience" : "speakers"
+      } ],
+      "handle" : "tanya+staging@aswritten.ai",
+      "channel" : "email",
+      "h" : "09fcdb5f3d:aswritten/refract",
+      "status" : "sent",
+      "front_message_id" : "msg_3dmdsl60",
+      "front_conversation_id" : "cnv_1pipysx4"
+    } ]
+  },
+  "counters" : {
+    "tanya+staging@aswritten.ai" : 0
+  },
+  "at" : "2026-09-25T09:38:19.843102590Z",
+  "scorer" : {
+    "attempts" : [ {
+      "disposition" : "ok",
+      "elapsed_ms" : 14195,
+      "content_chars" : 742
+    } ]
+  }
+}
