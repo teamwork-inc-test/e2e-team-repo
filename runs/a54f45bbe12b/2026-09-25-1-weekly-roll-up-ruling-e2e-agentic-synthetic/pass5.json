@@ -1,0 +1,10 @@
+{
+  "placements" : [ {
+    "verdict" : "reuse",
+    "leaf" : "Narrative_ReactionDeliveryBundling",
+    "supporting_segments" : [ "src-1", "src-2", "src-3", "src-4", "src-5" ],
+    "why" : "The segments continue and refine the reaction notification aggregation policy: keeping the per-run bundle while establishing a weekly Friday roll-up, delineating run vs. weekly scopes, and rejecting redundant daily digests.",
+    "consulted" : [ "Narrative_ReactionDeliveryBundling", "Narrative_DecisionCaptureAtConsensus", "Narrative_DecisionsEvaporate", "Narrative_AntiSlackPositioning", "Narrative_DefaultRefTopicBranch", "DesignTradeoffs" ]
+  } ],
+  "unplaced" : [ ]
+}
