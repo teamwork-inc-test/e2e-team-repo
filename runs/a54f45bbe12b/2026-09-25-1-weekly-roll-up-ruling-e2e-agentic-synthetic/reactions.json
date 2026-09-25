@@ -1,0 +1,108 @@
+{
+  "schema_version" : 1,
+  "run_id" : "mp-eng-3f712da1",
+  "live_run_id" : "a54f45bbe12b",
+  "stream" : "memory/tanya-teamowner",
+  "policy" : {
+    "lands" : { },
+    "channels" : [ "email", "sms" ],
+    "mode" : "on",
+    "source" : "default",
+    "skills" : { },
+    "warn_per_run_usd" : 0.25,
+    "audience" : "owner-setting",
+    "version" : 1,
+    "stop_per_dispatch_usd" : 2.0
+  },
+  "gates" : [ {
+    "id" : "aswritten/clarify",
+    "run?" : false,
+    "gate" : 2,
+    "reason" : "score 0.05 < threshold 0.7",
+    "score" : 0.05,
+    "evidence" : [ "Tina asked whether the roll-up replaces the per-run bundle.", "the bundle is for the run, the roll-up is for the week.", "the per-run bundle stays, and on Fridays we add one roll-up of the week", "Firms up the weekly reaction roll-up cadence, establishing that Friday summaries supplement rather than replace per-run bundles." ]
+  }, {
+    "id" : "aswritten/merge-suggest",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "skill off"
+  }, {
+    "id" : "aswritten/refract",
+    "run?" : true,
+    "gate" : 2,
+    "reason" : "predicate only"
+  }, {
+    "id" : "aswritten/review",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "skill off"
+  }, {
+    "id" : "aswritten/riff",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "requires perspective, expand"
+  } ],
+  "jobs" : [ {
+    "skill" : "aswritten/refract",
+    "status" : "ok",
+    "phase" : "before",
+    "gate" : { },
+    "output" : {
+      "lens" : null,
+      "ask" : "You ruled that the per-run bundle stays and that on Fridays one roll-up of the week gets added on top, with a daily digest ruled out because it would repeat the bundle. No team documents came through with this, so I can't see where that lands. Which document describes how these notes reach people today?"
+    },
+    "landing" : {
+      "landed" : "message"
+    },
+    "ms" : 6516,
+    "attempts" : [ {
+      "disposition" : "ok",
+      "elapsed_ms" : 6512,
+      "content_chars" : 329
+    } ]
+  } ],
+  "spend" : {
+    "cost_usd" : 0.14404,
+    "passes" : [ {
+      "pass" : "reaction:_score",
+      "llm_calls" : 1,
+      "cost_usd" : 0.00278735,
+      "null_cost_calls" : 0
+    }, {
+      "pass" : "reaction:refract",
+      "llm_calls" : 1,
+      "cost_usd" : 0.1412528,
+      "null_cost_calls" : 0
+    } ]
+  },
+  "bundle" : {
+    "items" : 1,
+    "audience" : "only-me",
+    "recipients" : 1,
+    "moments_cached" : true,
+    "sent" : [ {
+      "items" : [ {
+        "kind" : "note",
+        "skill" : "aswritten/refract",
+        "audience" : "speakers"
+      } ],
+      "handle" : "tanya+staging@aswritten.ai",
+      "channel" : "email",
+      "h" : "09fcdb5f3d:aswritten/refract",
+      "status" : "sent",
+      "front_message_id" : "msg_3dmdvulk",
+      "front_conversation_id" : "cnv_1piq0zu0"
+    } ]
+  },
+  "counters" : {
+    "tanya+staging@aswritten.ai" : 0
+  },
+  "at" : "2026-09-25T09:42:23.124981699Z",
+  "scorer" : {
+    "attempts" : [ {
+      "disposition" : "ok",
+      "elapsed_ms" : 12953,
+      "content_chars" : 685
+    } ]
+  }
+}
