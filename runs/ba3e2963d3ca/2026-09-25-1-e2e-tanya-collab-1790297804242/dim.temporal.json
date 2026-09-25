@@ -1,0 +1,31 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "past", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "We shipped the async decision widget.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Reports a completed past action involving a specific named artifact.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-2",
+    "regions" : [ "past", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "Velocity was 23 points",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Focuses on past actual metric outcome for the specific sprint/quarter.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-3",
+    "regions" : [ "past", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "The Zephyr integration was the key unlock.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Evaluates a specific past completed integration as the actual key factor.",
+    "reported" : false
+  } ],
+  "unmarked" : [ ]
+}
