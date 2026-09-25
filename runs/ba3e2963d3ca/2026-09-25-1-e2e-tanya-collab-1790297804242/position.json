@@ -1,0 +1,12 @@
+{
+  "positions" : [ {
+    "name" : "AsyncDecisionWidgetDeliveryFactors",
+    "frame" : "what factors and technical integrations enabled the async decision widget delivery and peak sprint velocity?",
+    "members" : [ "src-1", "src-2", "src-3" ],
+    "why" : "Segments src-1, src-2, and src-3 cohere as a retrospective evaluation of the sprint, linking the concrete shipment of the async decision widget directly to record velocity and the Zephyr integration as the causal enabler.",
+    "under" : [ "Narrative_DecisionCaptureAtConsensus" ]
+  } ],
+  "attaches" : [ ],
+  "position_revisions" : [ ],
+  "ungrouped" : [ ]
+}
