@@ -1,0 +1,41 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "ruled on",
+      "kind" : "commitment-marker"
+    } ],
+    "why" : "Framing the ruling as a settled determination on policy.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-2",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "the per-run bundle stays, and on Fridays we add one roll-up of the week",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Performs an operational policy establishment setting the weekly cadence.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-4",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "the bundle is for the run, the roll-up is for the week.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Firmly settles the operational boundary between the two artifacts.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-5",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "Rejected: a\ndaily digest",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Explicit rejection establishing a negative policy decision.",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-3" ],
+  "mints" : [ ]
+}
