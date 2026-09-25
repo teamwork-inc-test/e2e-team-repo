@@ -1,0 +1,50 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "past", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "Tanya (team owner) ruled on how the week's reactions reach people:",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Reports a completed ruling event regarding specific communication practices.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-2",
+    "regions" : [ "present", "realis", "abstract" ],
+    "evidence" : [ {
+      "quote" : "the per-run bundle stays, and on Fridays we add one roll-up of the week",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Establishes an ongoing operational policy and regular recurring schedule.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-3",
+    "regions" : [ "future", "irrealis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "Tina asked whether the roll-up replaces the per-run bundle.",
+      "kind" : "plain-signal"
+    } ],
+    "why" : "Inquires about a potential future procedural replacement; reported from Tina's perspective.",
+    "reported" : true
+  }, {
+    "segment_local_id" : "src-4",
+    "regions" : [ "present", "realis", "abstract" ],
+    "evidence" : [ {
+      "quote" : "the bundle is for the run, the roll-up is for the week.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Defines the ongoing systemic roles of the two artifacts.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-5",
+    "regions" : [ "present", "irrealis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "it would repeat the\nbundle word for word.",
+      "kind" : "modal-marker"
+    } ],
+    "why" : "Evaluates a rejected hypothetical daily digest option based on expected redundancy.",
+    "reported" : false
+  } ],
+  "unmarked" : [ ],
+  "unmarked_rest" : false
+}
