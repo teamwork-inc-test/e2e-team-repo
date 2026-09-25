@@ -1,0 +1,54 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "authority-ranking" ],
+    "evidence" : [ {
+      "quote" : "Tanya (team owner) ruled",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Enacts hierarchy and formal decision-making authority over team processes.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-2",
+    "regions" : [ "authority-ranking", "communal-sharing" ],
+    "evidence" : [ {
+      "quote" : "Tanya (team owner) ruled on how the week's reactions reach people:",
+      "kind" : "delivery"
+    }, {
+      "quote" : "on Fridays we add one roll-up of the week",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Sets binding policy for the group while invoking shared team practice ('we add').",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-3",
+    "regions" : [ "authority-ranking" ],
+    "evidence" : [ {
+      "quote" : "Tina asked whether the roll-up replaces the per-run bundle.",
+      "kind" : "plain-signal"
+    } ],
+    "why" : "Reports a clarification question directed up to the ruling authority.",
+    "reported" : true
+  }, {
+    "segment_local_id" : "src-4",
+    "regions" : [ "authority-ranking" ],
+    "evidence" : [ {
+      "quote" : "Tanya held that it\ndoes not",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Renders an authoritative ruling resolving ambiguity.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-5",
+    "regions" : [ "authority-ranking" ],
+    "evidence" : [ {
+      "quote" : "Rejected:",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Enacts authoritative rejection of an alternative option.",
+    "reported" : false
+  } ],
+  "unmarked" : [ ],
+  "mints" : [ ],
+  "region_mints" : [ ]
+}
