@@ -1,0 +1,48 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "legitimate" ],
+    "evidence" : [ {
+      "quote" : "Tanya (team owner) ruled",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Authority is exercised directly through formal positional mandate ('team owner') to establish procedure.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-2",
+    "regions" : [ "legitimate" ],
+    "evidence" : [ {
+      "quote" : "Tanya (team owner) ruled on how the week's reactions reach people:",
+      "kind" : "delivery"
+    } ],
+    "why" : "The prescription establishes workflow policy under the explicit framing of positional ruling.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-4",
+    "regions" : [ "legitimate", "rational-persuasion" ],
+    "evidence" : [ {
+      "quote" : "Tanya held that it\ndoes not",
+      "kind" : "performed-act"
+    }, {
+      "quote" : "the bundle is for the run, the roll-up is for the week.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Clarifies binding scope through positional adjudication combined with structural distinction.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-5",
+    "regions" : [ "legitimate", "rational-persuasion" ],
+    "evidence" : [ {
+      "quote" : "Rejected",
+      "kind" : "performed-act"
+    }, {
+      "quote" : "because most days carry a single run and it would repeat the\nbundle word for word.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Formal disposition (rejection) backed by logical rationale regarding duplication.",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-3" ],
+  "mints" : [ ],
+  "region_mints" : [ ]
+}
