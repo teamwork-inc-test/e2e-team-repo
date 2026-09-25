@@ -1,0 +1,34 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "formal" ],
+    "evidence" : [ {
+      "quote" : "ruled on",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Judicial/governance framing ('ruled on') elevates the procedural posture above casual discussion.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-4",
+    "regions" : [ "plain-spoken" ],
+    "evidence" : [ {
+      "quote" : "the bundle is for the run, the roll-up is for the week.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Distills procedural policy into a parallel, aphoristic plain-spoken formula.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-5",
+    "regions" : [ "formal", "matter-of-fact" ],
+    "evidence" : [ {
+      "quote" : "Rejected:",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Adopts formal decision-log syntax ('Rejected:') to record a dismissed alternative.",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-2", "src-3" ],
+  "unmarked_rest" : false,
+  "mints" : [ ],
+  "region_mints" : [ ]
+}
