@@ -1,0 +1,375 @@
+PREFIX narr: <https://aswritten.ai/narrative#>
+PREFIX aswr: <https://aswritten.ai/aswr#>
+PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX dct:  <http://purl.org/dc/terms/>
+PREFIX xsd:  <http://www.w3.org/2001/XMLSchema#>
+PREFIX oa:   <http://www.w3.org/ns/oa#>
+PREFIX xkos: <http://rdf-vocabulary.ddialliance.org/xkos#>
+
+INSERT DATA {
+  aswr:Tx_20260925T093915Z a prov:Activity ;
+      prov:generatedAtTime "2026-09-25T09:39:15Z"^^xsd:dateTime ;
+      prov:wasAssociatedWith "aswritten.ai" ;
+      prov:wasAttributedTo "scarlet@aswritten.ai" ;
+      aswr:pipelinePin "8dd07a49bda8" ;
+      aswr:originPath ".aswritten/memories/2026-09-25-1-weekly-roll-up-ruling-e2e-agentic-synthetic.md" ;
+      dct:title "Multipass fragment: 20260925_1_WeeklyRollUpRulingE2EAgenticSynthetic_h5c24fdddd3e5" ;
+      prov:generated narr:VecConviction_20260925_1_WeeklyRollUpRulingE2EAgenticSynthetic_h5c24fdddd3e5_1, narr:VecConviction_20260925_1_WeeklyRollUpRulingE2EAgenticSynthetic_h5c24fdddd3e5_2, narr:VecConviction_20260925_1_WeeklyRollUpRulingE2EAgenticSynthetic_h5c24fdddd3e5_4, narr:VecConviction_20260925_1_WeeklyRollUpRulingE2EAgenticSynthetic_h5c24fdddd3e5_5, narr:VecPower_20260925_1_WeeklyRollUpRulingE2EAgenticSynthetic_h5c24fdddd3e5_1, narr:VecPower_20260925_1_WeeklyRollUpRulingE2EAgenticSynthetic_h5c24fdddd3e5_2, narr:VecPower_20260925_1_WeeklyRollUpRulingE2EAgenticSynthetic_h5c24fdddd3e5_4, narr:VecPower_20260925_1_WeeklyRollUpRulingE2EAgenticSynthetic_h5c24fdddd3e5_5, narr:VecRegister_20260925_1_WeeklyRollUpRulingE2EAgenticSynthetic_h5c24fdddd3e5_1, narr:VecRegister_20260925_1_WeeklyRollUpRulingE2EAgenticSynthetic_h5c24fdddd3e5_4, narr:VecRegister_20260925_1_WeeklyRollUpRulingE2EAgenticSynthetic_h5c24fdddd3e5_5, narr:VecRelational_20260925_1_WeeklyRollUpRulingE2EAgenticSynthetic_h5c24fdddd3e5_1, narr:VecRelational_20260925_1_WeeklyRollUpRulingE2EAgenticSynthetic_h5c24fdddd3e5_2, narr:VecRelational_20260925_1_WeeklyRollUpRulingE2EAgenticSynthetic_h5c24fdddd3e5_3, narr:VecRelational_20260925_1_WeeklyRollUpRulingE2EAgenticSynthetic_h5c24fdddd3e5_4, narr:VecRelational_20260925_1_WeeklyRollUpRulingE2EAgenticSynthetic_h5c24fdddd3e5_5, narr:VecStyle_20260925_1_WeeklyRollUpRulingE2EAgenticSynthetic_h5c24fdddd3e5_4, narr:VecTemporal_20260925_1_WeeklyRollUpRulingE2EAgenticSynthetic_h5c24fdddd3e5_1, narr:VecTemporal_20260925_1_WeeklyRollUpRulingE2EAgenticSynthetic_h5c24fdddd3e5_2, narr:VecTemporal_20260925_1_WeeklyRollUpRulingE2EAgenticSynthetic_h5c24fdddd3e5_3, narr:VecTemporal_20260925_1_WeeklyRollUpRulingE2EAgenticSynthetic_h5c24fdddd3e5_4, narr:VecTemporal_20260925_1_WeeklyRollUpRulingE2EAgenticSynthetic_h5c24fdddd3e5_5, narr:VecValue_20260925_1_WeeklyRollUpRulingE2EAgenticSynthetic_h5c24fdddd3e5_2, narr:Position_WeeklyReactionRollUpCadence .
+} ;
+INSERT DATA {
+  GRAPH aswr:Tx_20260925T093915Z {
+    narr:VecConviction_20260925_1_WeeklyRollUpRulingE2EAgenticSynthetic_h5c24fdddd3e5_1 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20260925_1_WeeklyRollUpRulingE2EAgenticSynthetic_h5c24fdddd3e5_1 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Decision ;
+        narr:evidence "commitment-marker: ruled on" ;
+        narr:reported false ;
+        skos:note "Framing the ruling as a settled determination on policy." ;
+        prov:generatedAtTime "2026-09-25T09:39:15Z"^^xsd:dateTime .
+
+    narr:VecConviction_20260925_1_WeeklyRollUpRulingE2EAgenticSynthetic_h5c24fdddd3e5_2 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20260925_1_WeeklyRollUpRulingE2EAgenticSynthetic_h5c24fdddd3e5_2 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Decision ;
+        narr:evidence "performed-act: the per-run bundle stays, and on Fridays we add one roll-up of the week" ;
+        narr:reported false ;
+        skos:note "Performs an operational policy establishment setting the weekly cadence." ;
+        prov:generatedAtTime "2026-09-25T09:39:15Z"^^xsd:dateTime .
+
+    narr:VecConviction_20260925_1_WeeklyRollUpRulingE2EAgenticSynthetic_h5c24fdddd3e5_4 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20260925_1_WeeklyRollUpRulingE2EAgenticSynthetic_h5c24fdddd3e5_4 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Decision ;
+        narr:evidence "plain-assertion: the bundle is for the run, the roll-up is for the week." ;
+        narr:reported false ;
+        skos:note "Firmly settles the operational boundary between the two artifacts." ;
+        prov:generatedAtTime "2026-09-25T09:39:15Z"^^xsd:dateTime .
+
+    narr:VecConviction_20260925_1_WeeklyRollUpRulingE2EAgenticSynthetic_h5c24fdddd3e5_5 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20260925_1_WeeklyRollUpRulingE2EAgenticSynthetic_h5c24fdddd3e5_5 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Decision ;
+        narr:evidence "performed-act: Rejected: a\ndaily digest" ;
+        narr:reported false ;
+        skos:note "Explicit rejection establishing a negative policy decision." ;
+        prov:generatedAtTime "2026-09-25T09:39:15Z"^^xsd:dateTime .
+
+    narr:VecPower_20260925_1_WeeklyRollUpRulingE2EAgenticSynthetic_h5c24fdddd3e5_1 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20260925_1_WeeklyRollUpRulingE2EAgenticSynthetic_h5c24fdddd3e5_1 ;
+        narr:dimension narr:Dim_Power ;
+        narr:region narr:Power_Legitimate ;
+        narr:evidence "framing-move: Tanya (team owner) ruled" ;
+        narr:reported false ;
+        skos:note "Authority is exercised directly through formal positional mandate ('team owner') to establish procedure." ;
+        prov:generatedAtTime "2026-09-25T09:39:15Z"^^xsd:dateTime .
+
+    narr:VecPower_20260925_1_WeeklyRollUpRulingE2EAgenticSynthetic_h5c24fdddd3e5_2 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20260925_1_WeeklyRollUpRulingE2EAgenticSynthetic_h5c24fdddd3e5_2 ;
+        narr:dimension narr:Dim_Power ;
+        narr:region narr:Power_Legitimate ;
+        narr:evidence "delivery: Tanya (team owner) ruled on how the week's reactions reach people:" ;
+        narr:reported false ;
+        skos:note "The prescription establishes workflow policy under the explicit framing of positional ruling." ;
+        prov:generatedAtTime "2026-09-25T09:39:15Z"^^xsd:dateTime .
+
+    narr:VecPower_20260925_1_WeeklyRollUpRulingE2EAgenticSynthetic_h5c24fdddd3e5_4 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20260925_1_WeeklyRollUpRulingE2EAgenticSynthetic_h5c24fdddd3e5_4 ;
+        narr:dimension narr:Dim_Power ;
+        narr:region narr:Power_Legitimate ;
+        narr:region narr:Power_RationalPersuasion ;
+        narr:evidence "performed-act: Tanya held that it\ndoes not" ;
+        narr:evidence "plain-assertion: the bundle is for the run, the roll-up is for the week." ;
+        narr:reported false ;
+        skos:note "Clarifies binding scope through positional adjudication combined with structural distinction." ;
+        prov:generatedAtTime "2026-09-25T09:39:15Z"^^xsd:dateTime .
+
+    narr:VecPower_20260925_1_WeeklyRollUpRulingE2EAgenticSynthetic_h5c24fdddd3e5_5 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20260925_1_WeeklyRollUpRulingE2EAgenticSynthetic_h5c24fdddd3e5_5 ;
+        narr:dimension narr:Dim_Power ;
+        narr:region narr:Power_Legitimate ;
+        narr:region narr:Power_RationalPersuasion ;
+        narr:evidence "performed-act: Rejected" ;
+        narr:evidence "plain-assertion: because most days carry a single run and it would repeat the\nbundle word for word." ;
+        narr:reported false ;
+        skos:note "Formal disposition (rejection) backed by logical rationale regarding duplication." ;
+        prov:generatedAtTime "2026-09-25T09:39:15Z"^^xsd:dateTime .
+
+    narr:VecRegister_20260925_1_WeeklyRollUpRulingE2EAgenticSynthetic_h5c24fdddd3e5_1 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20260925_1_WeeklyRollUpRulingE2EAgenticSynthetic_h5c24fdddd3e5_1 ;
+        narr:dimension narr:Dim_Register ;
+        narr:region narr:Register_Formal ;
+        narr:evidence "lexical-marker: ruled on" ;
+        narr:reported false ;
+        skos:note "Judicial/governance framing ('ruled on') elevates the procedural posture above casual discussion." ;
+        prov:generatedAtTime "2026-09-25T09:39:15Z"^^xsd:dateTime .
+
+    narr:VecRegister_20260925_1_WeeklyRollUpRulingE2EAgenticSynthetic_h5c24fdddd3e5_4 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20260925_1_WeeklyRollUpRulingE2EAgenticSynthetic_h5c24fdddd3e5_4 ;
+        narr:dimension narr:Dim_Register ;
+        narr:region narr:Register_PlainSpoken ;
+        narr:evidence "plain-assertion: the bundle is for the run, the roll-up is for the week." ;
+        narr:reported false ;
+        skos:note "Distills procedural policy into a parallel, aphoristic plain-spoken formula." ;
+        prov:generatedAtTime "2026-09-25T09:39:15Z"^^xsd:dateTime .
+
+    narr:VecRegister_20260925_1_WeeklyRollUpRulingE2EAgenticSynthetic_h5c24fdddd3e5_5 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20260925_1_WeeklyRollUpRulingE2EAgenticSynthetic_h5c24fdddd3e5_5 ;
+        narr:dimension narr:Dim_Register ;
+        narr:region narr:Register_Formal ;
+        narr:region narr:Register_MatterOfFact ;
+        narr:evidence "framing-move: Rejected:" ;
+        narr:reported false ;
+        skos:note "Adopts formal decision-log syntax ('Rejected:') to record a dismissed alternative." ;
+        prov:generatedAtTime "2026-09-25T09:39:15Z"^^xsd:dateTime .
+
+    narr:VecRelational_20260925_1_WeeklyRollUpRulingE2EAgenticSynthetic_h5c24fdddd3e5_1 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20260925_1_WeeklyRollUpRulingE2EAgenticSynthetic_h5c24fdddd3e5_1 ;
+        narr:dimension narr:Dim_Relational ;
+        narr:region narr:Relational_AuthorityRanking ;
+        narr:evidence "performed-act: Tanya (team owner) ruled" ;
+        narr:reported false ;
+        skos:note "Enacts hierarchy and formal decision-making authority over team processes." ;
+        prov:generatedAtTime "2026-09-25T09:39:15Z"^^xsd:dateTime .
+
+    narr:VecRelational_20260925_1_WeeklyRollUpRulingE2EAgenticSynthetic_h5c24fdddd3e5_2 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20260925_1_WeeklyRollUpRulingE2EAgenticSynthetic_h5c24fdddd3e5_2 ;
+        narr:dimension narr:Dim_Relational ;
+        narr:region narr:Relational_AuthorityRanking ;
+        narr:region narr:Relational_CommunalSharing ;
+        narr:evidence "delivery: Tanya (team owner) ruled on how the week's reactions reach people:" ;
+        narr:evidence "framing-move: on Fridays we add one roll-up of the week" ;
+        narr:reported false ;
+        skos:note "Sets binding policy for the group while invoking shared team practice ('we add')." ;
+        prov:generatedAtTime "2026-09-25T09:39:15Z"^^xsd:dateTime .
+
+    narr:VecRelational_20260925_1_WeeklyRollUpRulingE2EAgenticSynthetic_h5c24fdddd3e5_3 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20260925_1_WeeklyRollUpRulingE2EAgenticSynthetic_h5c24fdddd3e5_3 ;
+        narr:dimension narr:Dim_Relational ;
+        narr:region narr:Relational_AuthorityRanking ;
+        narr:evidence "plain-signal: Tina asked whether the roll-up replaces the per-run bundle." ;
+        narr:reported true ;
+        skos:note "Reports a clarification question directed up to the ruling authority." ;
+        prov:generatedAtTime "2026-09-25T09:39:15Z"^^xsd:dateTime .
+
+    narr:VecRelational_20260925_1_WeeklyRollUpRulingE2EAgenticSynthetic_h5c24fdddd3e5_4 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20260925_1_WeeklyRollUpRulingE2EAgenticSynthetic_h5c24fdddd3e5_4 ;
+        narr:dimension narr:Dim_Relational ;
+        narr:region narr:Relational_AuthorityRanking ;
+        narr:evidence "performed-act: Tanya held that it\ndoes not" ;
+        narr:reported false ;
+        skos:note "Renders an authoritative ruling resolving ambiguity." ;
+        prov:generatedAtTime "2026-09-25T09:39:15Z"^^xsd:dateTime .
+
+    narr:VecRelational_20260925_1_WeeklyRollUpRulingE2EAgenticSynthetic_h5c24fdddd3e5_5 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20260925_1_WeeklyRollUpRulingE2EAgenticSynthetic_h5c24fdddd3e5_5 ;
+        narr:dimension narr:Dim_Relational ;
+        narr:region narr:Relational_AuthorityRanking ;
+        narr:evidence "performed-act: Rejected:" ;
+        narr:reported false ;
+        skos:note "Enacts authoritative rejection of an alternative option." ;
+        prov:generatedAtTime "2026-09-25T09:39:15Z"^^xsd:dateTime .
+
+    narr:VecStyle_20260925_1_WeeklyRollUpRulingE2EAgenticSynthetic_h5c24fdddd3e5_4 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20260925_1_WeeklyRollUpRulingE2EAgenticSynthetic_h5c24fdddd3e5_4 ;
+        narr:dimension narr:Dim_Style ;
+        narr:region narr:Style_Parallelism ;
+        narr:region narr:Style_Antithesis ;
+        narr:evidence "framing-move: the bundle is for the run, the roll-up is for the week." ;
+        narr:reported false ;
+        skos:note "Constructs the ruling through symmetric grammatical clauses contrasting the distinct scopes of bundle and roll-up." ;
+        prov:generatedAtTime "2026-09-25T09:39:15Z"^^xsd:dateTime .
+
+    narr:VecTemporal_20260925_1_WeeklyRollUpRulingE2EAgenticSynthetic_h5c24fdddd3e5_1 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20260925_1_WeeklyRollUpRulingE2EAgenticSynthetic_h5c24fdddd3e5_1 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Past ;
+        narr:region narr:Temporal_Realis ;
+        narr:region narr:Temporal_Concrete ;
+        narr:evidence "performed-act: Tanya (team owner) ruled on how the week's reactions reach people:" ;
+        narr:reported false ;
+        skos:note "Reports a completed ruling event regarding specific communication practices." ;
+        prov:generatedAtTime "2026-09-25T09:39:15Z"^^xsd:dateTime .
+
+    narr:VecTemporal_20260925_1_WeeklyRollUpRulingE2EAgenticSynthetic_h5c24fdddd3e5_2 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20260925_1_WeeklyRollUpRulingE2EAgenticSynthetic_h5c24fdddd3e5_2 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Present ;
+        narr:region narr:Temporal_Realis ;
+        narr:region narr:Temporal_Abstract ;
+        narr:evidence "plain-assertion: the per-run bundle stays, and on Fridays we add one roll-up of the week" ;
+        narr:reported false ;
+        skos:note "Establishes an ongoing operational policy and regular recurring schedule." ;
+        prov:generatedAtTime "2026-09-25T09:39:15Z"^^xsd:dateTime .
+
+    narr:VecTemporal_20260925_1_WeeklyRollUpRulingE2EAgenticSynthetic_h5c24fdddd3e5_3 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20260925_1_WeeklyRollUpRulingE2EAgenticSynthetic_h5c24fdddd3e5_3 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Future ;
+        narr:region narr:Temporal_Irrealis ;
+        narr:region narr:Temporal_Concrete ;
+        narr:evidence "plain-signal: Tina asked whether the roll-up replaces the per-run bundle." ;
+        narr:reported true ;
+        skos:note "Inquires about a potential future procedural replacement; reported from Tina's perspective." ;
+        prov:generatedAtTime "2026-09-25T09:39:15Z"^^xsd:dateTime .
+
+    narr:VecTemporal_20260925_1_WeeklyRollUpRulingE2EAgenticSynthetic_h5c24fdddd3e5_4 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20260925_1_WeeklyRollUpRulingE2EAgenticSynthetic_h5c24fdddd3e5_4 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Present ;
+        narr:region narr:Temporal_Realis ;
+        narr:region narr:Temporal_Abstract ;
+        narr:evidence "plain-assertion: the bundle is for the run, the roll-up is for the week." ;
+        narr:reported false ;
+        skos:note "Defines the ongoing systemic roles of the two artifacts." ;
+        prov:generatedAtTime "2026-09-25T09:39:15Z"^^xsd:dateTime .
+
+    narr:VecTemporal_20260925_1_WeeklyRollUpRulingE2EAgenticSynthetic_h5c24fdddd3e5_5 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20260925_1_WeeklyRollUpRulingE2EAgenticSynthetic_h5c24fdddd3e5_5 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Present ;
+        narr:region narr:Temporal_Irrealis ;
+        narr:region narr:Temporal_Concrete ;
+        narr:evidence "modal-marker: it would repeat the\nbundle word for word." ;
+        narr:reported false ;
+        skos:note "Evaluates a rejected hypothetical daily digest option based on expected redundancy." ;
+        prov:generatedAtTime "2026-09-25T09:39:15Z"^^xsd:dateTime .
+
+    narr:VecValue_20260925_1_WeeklyRollUpRulingE2EAgenticSynthetic_h5c24fdddd3e5_2 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20260925_1_WeeklyRollUpRulingE2EAgenticSynthetic_h5c24fdddd3e5_2 ;
+        narr:dimension narr:Dim_Value ;
+        narr:region narr:Value_SelfTranscendence ;
+        narr:evidence "framing-move: instead of asking anyone to scroll back" ;
+        narr:reported false ;
+        skos:note "Designing communication structure explicitly to spare others friction appeals to consideration and benefit for the collective audience." ;
+        prov:generatedAtTime "2026-09-25T09:39:15Z"^^xsd:dateTime .
+
+    narr:Expr_20260925_1_WeeklyRollUpRulingE2EAgenticSynthetic_h5c24fdddd3e5_1 narr:supports narr:Narrative_ReactionDeliveryBundling .
+
+    narr:Expr_20260925_1_WeeklyRollUpRulingE2EAgenticSynthetic_h5c24fdddd3e5_2 narr:supports narr:Narrative_ReactionDeliveryBundling .
+
+    narr:Expr_20260925_1_WeeklyRollUpRulingE2EAgenticSynthetic_h5c24fdddd3e5_3 narr:supports narr:Narrative_ReactionDeliveryBundling .
+
+    narr:Expr_20260925_1_WeeklyRollUpRulingE2EAgenticSynthetic_h5c24fdddd3e5_4 narr:supports narr:Narrative_ReactionDeliveryBundling .
+
+    narr:Expr_20260925_1_WeeklyRollUpRulingE2EAgenticSynthetic_h5c24fdddd3e5_5 narr:supports narr:Narrative_ReactionDeliveryBundling .
+
+    narr:Position_WeeklyReactionRollUpCadence a narr:Position ;
+        narr:frame "How should recurring reaction summaries be scheduled across multi-day time windows alongside per-run bundles?" ;
+        narr:extends narr:Position_ReactionDeliveryBundlingAndBatchingBoundary ;
+        prov:generatedAtTime "2026-09-25T09:39:15Z"^^xsd:dateTime .
+
+    narr:Position_WeeklyReactionRollUpCadence narr:supports narr:DesignTradeoffs .
+
+    narr:Expr_20260925_1_WeeklyRollUpRulingE2EAgenticSynthetic_h5c24fdddd3e5_2 narr:supports narr:Position_WeeklyReactionRollUpCadence .
+
+    narr:Expr_20260925_1_WeeklyRollUpRulingE2EAgenticSynthetic_h5c24fdddd3e5_3 narr:supports narr:Position_WeeklyReactionRollUpCadence .
+
+    narr:Expr_20260925_1_WeeklyRollUpRulingE2EAgenticSynthetic_h5c24fdddd3e5_4 narr:supports narr:Position_WeeklyReactionRollUpCadence .
+
+    narr:Expr_20260925_1_WeeklyRollUpRulingE2EAgenticSynthetic_h5c24fdddd3e5_5 narr:supports narr:Position_WeeklyReactionRollUpCadence .
+
+    aswr:Miss_20260925_1_WeeklyRollUpRulingE2EAgenticSynthetic_h5c24fdddd3e5_affect_trip a aswr:Miss ;
+        aswr:missPass "affect" ;
+        aswr:missClass "floor" ;
+        aswr:missError "0 of 5 segments marked" ;
+        aswr:missModel "google/gemini-3.7-flash" ;
+        aswr:tripFloor "marked_zero" ;
+        aswr:tripRatio "0.0000"^^xsd:decimal ;
+        aswr:tripOutcome "accepted-flagged" ;
+        aswr:tripFallbackModel "anthropic/claude-sonnet-5" ;
+        aswr:missScope narr:Sample_20260925_1_WeeklyRollUpRulingE2EAgenticSynthetic_h5c24fdddd3e5 ;
+        prov:generatedAtTime "2026-09-25T09:39:15Z"^^xsd:dateTime .
+
+    aswr:Miss_20260925_1_WeeklyRollUpRulingE2EAgenticSynthetic_h5c24fdddd3e5_resolve_trip a aswr:Miss ;
+        aswr:missPass "resolve" ;
+        aswr:missClass "floor" ;
+        aswr:missError "resolutions empty against a populated perspective" ;
+        aswr:missModel "google/gemini-3.7-flash" ;
+        aswr:tripFloor "empty_on_populated" ;
+        aswr:tripRatio "0.0000"^^xsd:decimal ;
+        aswr:tripOutcome "accepted-flagged" ;
+        aswr:tripFallbackModel "anthropic/claude-sonnet-5" ;
+        aswr:missScope narr:Sample_20260925_1_WeeklyRollUpRulingE2EAgenticSynthetic_h5c24fdddd3e5 ;
+        prov:generatedAtTime "2026-09-25T09:39:15Z"^^xsd:dateTime .
+
+    aswr:Run_20260925T093915Z_dim_affect a prov:Activity ;
+        aswr:runPass "dim.affect" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/a54f45bbe12b/2026-09-25-1-weekly-roll-up-ruling-e2e-agentic-synthetic/dim.affect.json" ;
+        dct:isPartOf aswr:Tx_20260925T093915Z ;
+        prov:generatedAtTime "2026-09-25T09:39:15Z"^^xsd:dateTime .
+
+    aswr:Run_20260925T093915Z_dim_conviction a prov:Activity ;
+        aswr:runPass "dim.conviction" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/a54f45bbe12b/2026-09-25-1-weekly-roll-up-ruling-e2e-agentic-synthetic/dim.conviction.json" ;
+        prov:generated narr:VecConviction_20260925_1_WeeklyRollUpRulingE2EAgenticSynthetic_h5c24fdddd3e5_1, narr:VecConviction_20260925_1_WeeklyRollUpRulingE2EAgenticSynthetic_h5c24fdddd3e5_2, narr:VecConviction_20260925_1_WeeklyRollUpRulingE2EAgenticSynthetic_h5c24fdddd3e5_4, narr:VecConviction_20260925_1_WeeklyRollUpRulingE2EAgenticSynthetic_h5c24fdddd3e5_5 ;
+        dct:isPartOf aswr:Tx_20260925T093915Z ;
+        prov:generatedAtTime "2026-09-25T09:39:15Z"^^xsd:dateTime .
+
+    aswr:Run_20260925T093915Z_dim_power a prov:Activity ;
+        aswr:runPass "dim.power" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/a54f45bbe12b/2026-09-25-1-weekly-roll-up-ruling-e2e-agentic-synthetic/dim.power.json" ;
+        prov:generated narr:VecPower_20260925_1_WeeklyRollUpRulingE2EAgenticSynthetic_h5c24fdddd3e5_1, narr:VecPower_20260925_1_WeeklyRollUpRulingE2EAgenticSynthetic_h5c24fdddd3e5_2, narr:VecPower_20260925_1_WeeklyRollUpRulingE2EAgenticSynthetic_h5c24fdddd3e5_4, narr:VecPower_20260925_1_WeeklyRollUpRulingE2EAgenticSynthetic_h5c24fdddd3e5_5 ;
+        dct:isPartOf aswr:Tx_20260925T093915Z ;
+        prov:generatedAtTime "2026-09-25T09:39:15Z"^^xsd:dateTime .
+
+    aswr:Run_20260925T093915Z_dim_register a prov:Activity ;
+        aswr:runPass "dim.register" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/a54f45bbe12b/2026-09-25-1-weekly-roll-up-ruling-e2e-agentic-synthetic/dim.register.json" ;
+        prov:generated narr:VecRegister_20260925_1_WeeklyRollUpRulingE2EAgenticSynthetic_h5c24fdddd3e5_1, narr:VecRegister_20260925_1_WeeklyRollUpRulingE2EAgenticSynthetic_h5c24fdddd3e5_4, narr:VecRegister_20260925_1_WeeklyRollUpRulingE2EAgenticSynthetic_h5c24fdddd3e5_5 ;
+        dct:isPartOf aswr:Tx_20260925T093915Z ;
+        prov:generatedAtTime "2026-09-25T09:39:15Z"^^xsd:dateTime .
+
+    aswr:Run_20260925T093915Z_dim_relational a prov:Activity ;
+        aswr:runPass "dim.relational" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/a54f45bbe12b/2026-09-25-1-weekly-roll-up-ruling-e2e-agentic-synthetic/dim.relational.json" ;
+        prov:generated narr:VecRelational_20260925_1_WeeklyRollUpRulingE2EAgenticSynthetic_h5c24fdddd3e5_1, narr:VecRelational_20260925_1_WeeklyRollUpRulingE2EAgenticSynthetic_h5c24fdddd3e5_2, narr:VecRelational_20260925_1_WeeklyRollUpRulingE2EAgenticSynthetic_h5c24fdddd3e5_3, narr:VecRelational_20260925_1_WeeklyRollUpRulingE2EAgenticSynthetic_h5c24fdddd3e5_4, narr:VecRelational_20260925_1_WeeklyRollUpRulingE2EAgenticSynthetic_h5c24fdddd3e5_5 ;
+        dct:isPartOf aswr:Tx_20260925T093915Z ;
+        prov:generatedAtTime "2026-09-25T09:39:15Z"^^xsd:dateTime .
+
+    aswr:Run_20260925T093915Z_dim_style a prov:Activity ;
+        aswr:runPass "dim.style" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/a54f45bbe12b/2026-09-25-1-weekly-roll-up-ruling-e2e-agentic-synthetic/dim.style.json" ;
+        prov:generated narr:VecStyle_20260925_1_WeeklyRollUpRulingE2EAgenticSynthetic_h5c24fdddd3e5_4 ;
+        dct:isPartOf aswr:Tx_20260925T093915Z ;
+        prov:generatedAtTime "2026-09-25T09:39:15Z"^^xsd:dateTime .
+
+    aswr:Run_20260925T093915Z_dim_temporal a prov:Activity ;
+        aswr:runPass "dim.temporal" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/a54f45bbe12b/2026-09-25-1-weekly-roll-up-ruling-e2e-agentic-synthetic/dim.temporal.json" ;
+        prov:generated narr:VecTemporal_20260925_1_WeeklyRollUpRulingE2EAgenticSynthetic_h5c24fdddd3e5_1, narr:VecTemporal_20260925_1_WeeklyRollUpRulingE2EAgenticSynthetic_h5c24fdddd3e5_2, narr:VecTemporal_20260925_1_WeeklyRollUpRulingE2EAgenticSynthetic_h5c24fdddd3e5_3, narr:VecTemporal_20260925_1_WeeklyRollUpRulingE2EAgenticSynthetic_h5c24fdddd3e5_4, narr:VecTemporal_20260925_1_WeeklyRollUpRulingE2EAgenticSynthetic_h5c24fdddd3e5_5 ;
+        dct:isPartOf aswr:Tx_20260925T093915Z ;
+        prov:generatedAtTime "2026-09-25T09:39:15Z"^^xsd:dateTime .
+
+    aswr:Run_20260925T093915Z_dim_value a prov:Activity ;
+        aswr:runPass "dim.value" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/a54f45bbe12b/2026-09-25-1-weekly-roll-up-ruling-e2e-agentic-synthetic/dim.value.json" ;
+        prov:generated narr:VecValue_20260925_1_WeeklyRollUpRulingE2EAgenticSynthetic_h5c24fdddd3e5_2 ;
+        dct:isPartOf aswr:Tx_20260925T093915Z ;
+        prov:generatedAtTime "2026-09-25T09:39:15Z"^^xsd:dateTime .
+
+    aswr:Run_20260925T093915Z_pass5 a prov:Activity ;
+        aswr:runPass "pass5" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/a54f45bbe12b/2026-09-25-1-weekly-roll-up-ruling-e2e-agentic-synthetic/pass5.json" ;
+        dct:isPartOf aswr:Tx_20260925T093915Z ;
+        prov:generatedAtTime "2026-09-25T09:39:15Z"^^xsd:dateTime .
+
+    aswr:Run_20260925T093915Z_position a prov:Activity ;
+        aswr:runPass "position" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/a54f45bbe12b/2026-09-25-1-weekly-roll-up-ruling-e2e-agentic-synthetic/position.json" ;
+        prov:generated narr:Position_WeeklyReactionRollUpCadence ;
+        dct:isPartOf aswr:Tx_20260925T093915Z ;
+        prov:generatedAtTime "2026-09-25T09:39:15Z"^^xsd:dateTime .
+  }
+}
