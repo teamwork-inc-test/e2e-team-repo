@@ -1,0 +1,13 @@
+{
+  "bindings" : [ {
+    "name" : "Tanya TeamOwner",
+    "verdict" : "mint",
+    "label" : "Tanya TeamOwner",
+    "why" : "Young repository with no existing actors; minting new actor using full name."
+  }, {
+    "name" : "tanya+staging@aswritten.ai",
+    "verdict" : "mint",
+    "label" : "Tanya TeamOwner",
+    "why" : "Account email for Tanya TeamOwner; converges to the identical minted actor label."
+  } ]
+}
