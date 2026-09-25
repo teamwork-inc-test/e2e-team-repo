@@ -1,0 +1,12 @@
+{
+  "positions" : [ {
+    "name" : "SprintDeliveryAndIntegrationEnablers",
+    "frame" : "how did key integrations unlock team velocity when shipping the async decision widget?",
+    "members" : [ "src-1", "src-2", "src-3" ],
+    "why" : "Connects the milestone completion of the async decision widget and record quarterly sprint velocity directly to the Zephyr integration as the primary technical unlock.",
+    "under" : [ "Narrative_DecisionCaptureAtConsensus" ]
+  } ],
+  "attaches" : [ ],
+  "position_revisions" : [ ],
+  "ungrouped" : [ ]
+}
