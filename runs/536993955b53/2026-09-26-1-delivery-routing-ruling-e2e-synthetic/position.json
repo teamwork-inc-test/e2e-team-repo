@@ -1,0 +1,10 @@
+{
+  "positions" : [ ],
+  "attaches" : [ {
+    "position" : "Position_ReactionDeliveryBundlingAndBatchingBoundary",
+    "members" : [ "src-2", "src-3", "src-4" ],
+    "why" : "These segments cohere directly under the existing frame regarding where bundling and batching windows should be bounded across multi-skill runs, affirming one bundle per run per person, binding the batching window to run close, and recording the rejected client-side collapsing alternative."
+  } ],
+  "position_revisions" : [ ],
+  "ungrouped" : [ "src-1" ]
+}
