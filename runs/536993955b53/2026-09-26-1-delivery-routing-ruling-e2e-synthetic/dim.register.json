@@ -1,0 +1,26 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-2",
+    "regions" : [ "plain-spoken" ],
+    "evidence" : [ {
+      "quote" : "a person should get one thing to read, not four",
+      "kind" : "plain-signal"
+    } ],
+    "why" : "Distills technical routing architecture into an immediate, plain human-experience maxim.",
+    "reported" : false,
+    "direction" : {
+      "verdict" : "mint",
+      "node" : "mint-1"
+    }
+  } ],
+  "unmarked" : [ "src-1", "src-3", "src-4" ],
+  "unmarked_rest" : false,
+  "mints" : [ {
+    "id" : "mint-1",
+    "name" : "HumanExperienceReduction",
+    "title" : "a person should get one thing to read, not four",
+    "frame" : "Does the speaker reduce an architectural or technical mechanism to a plain count of user experience burden?",
+    "regions" : [ "plain-spoken" ]
+  } ],
+  "region_mints" : [ ]
+}
