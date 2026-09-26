@@ -1,0 +1,41 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "past", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "Tanya (team owner) ruled on where reaction delivery belongs:",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Reports a completed ruling action by a specific actor regarding a concrete architecture topic.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-2",
+    "regions" : [ "future", "irrealis", "abstract" ],
+    "evidence" : [ {
+      "quote" : "a person should get one thing to read, not four",
+      "kind" : "modal-marker"
+    } ],
+    "why" : "Establishes a normative design rule and desired user experience pattern for future executions.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-3",
+    "regions" : [ "present", "realis", "abstract" ],
+    "evidence" : [ {
+      "quote" : "the bundle closes when\nthe run closes",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Describes settled operational logic and system behavior rules.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-4",
+    "regions" : [ "past", "realis", "abstract" ],
+    "evidence" : [ {
+      "quote" : "The alternative considered and rejected was",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Recounts a past decision-making event evaluating abstract design trade-offs.",
+    "reported" : false
+  } ],
+  "unmarked" : [ ],
+  "unmarked_rest" : false
+}
