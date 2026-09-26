@@ -1,0 +1,12 @@
+{
+  "positions" : [ {
+    "name" : "Sprint4DeliveryUnlock",
+    "frame" : "What factors and dependencies enabled shipping the async decision widget at peak quarterly velocity?",
+    "members" : [ "src-1", "src-2", "src-3" ],
+    "why" : "The retrospective segments link the completion of the async decision widget to a quarterly peak velocity of 23 points, attributing the outcome directly to the Zephyr integration unlock.",
+    "under" : [ "Narrative_DecisionCaptureAtConsensus" ]
+  } ],
+  "attaches" : [ ],
+  "position_revisions" : [ ],
+  "ungrouped" : [ ]
+}
