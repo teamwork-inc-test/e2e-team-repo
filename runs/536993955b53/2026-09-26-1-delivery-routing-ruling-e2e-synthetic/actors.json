@@ -1,0 +1,14 @@
+{
+  "bindings" : [ {
+    "name" : "Tanya TeamOwner",
+    "verdict" : "bind",
+    "target" : "Actor_Tanya_Staging",
+    "label" : "Tanya TeamOwner",
+    "why" : "Associated with account tanya+staging@aswritten.ai in envelope metadata; enriches Actor_Tanya_Staging with full name."
+  }, {
+    "name" : "tanya+staging@aswritten.ai",
+    "verdict" : "bind",
+    "target" : "Actor_Tanya_Staging",
+    "why" : "Exact email match to existing reviewer description for Actor_Tanya_Staging."
+  } ]
+}
