@@ -1,0 +1,10 @@
+{
+  "placements" : [ {
+    "verdict" : "reuse",
+    "leaf" : "Narrative_ReactionDeliveryBundling",
+    "supporting_segments" : [ "src-1", "src-2", "src-3", "src-4" ],
+    "why" : "All four segments directly address the delivery routing architecture for reactions: establishing the one-bundle-per-run-per-person policy, defining the run-close batching window boundary against pushback, and recording the rejection of per-skill client-side collapsing.",
+    "consulted" : [ "Narrative_ReactionDeliveryBundling", "DesignTradeoffs", "Narrative_DefaultRefTopicBranch" ]
+  } ],
+  "unplaced" : [ ]
+}
