@@ -1,0 +1,37 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "authority-ranking" ],
+    "evidence" : [ {
+      "quote" : "Tanya (team owner) ruled on where reaction delivery belongs:",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Reports an authoritative governance determination ('ruled') explicitly anchored in role rank ('team owner').",
+    "reported" : true
+  }, {
+    "segment_local_id" : "src-2",
+    "regions" : [ "authority-ranking" ],
+    "evidence" : [ {
+      "quote" : "Tanya (team owner) ruled on where reaction delivery belongs:",
+      "kind" : "delivery"
+    }, {
+      "quote" : "we route every reaction through one bundle per run per person, not one",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Enacts a binding operational mandate delivered via a team-owner ruling.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-3",
+    "regions" : [ "authority-ranking" ],
+    "evidence" : [ {
+      "quote" : "Tina pushed back on the batching window and Tanya held",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Narrates pushback against authority and hierarchical holding of the line on policy.",
+    "reported" : true
+  } ],
+  "unmarked" : [ "src-4" ],
+  "unmarked_rest" : false,
+  "mints" : [ ],
+  "region_mints" : [ ]
+}
