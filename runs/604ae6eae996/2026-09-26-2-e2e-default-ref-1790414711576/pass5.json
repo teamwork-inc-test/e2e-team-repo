@@ -1,0 +1,10 @@
+{
+  "placements" : [ {
+    "verdict" : "reuse",
+    "leaf" : "Narrative_DefaultRefTopicBranch",
+    "supporting_segments" : [ "src-1" ],
+    "why" : "Directly asserts and tests that omitting a ref parameter results in the automatic creation of a topic branch, matching the exact scope and established pattern of Narrative_DefaultRefTopicBranch.",
+    "consulted" : [ "Narrative_DefaultRefTopicBranch", "Narrative_ReactionDeliveryBundling", "Narrative_AntiSlackPositioning" ]
+  } ],
+  "unplaced" : [ ]
+}
