@@ -1,7 +1,6 @@
 {
   "children" : {
     "n:Actor_Tanya_Staging" : {
-      "n:Expr_1E2EDefaultRef1788169170042_1" : 1,
       "n:Expr_20260924_1_DeliveryRoutingRulingE2ESynthetic_hf8fb95c0b315_1" : 1,
       "n:Expr_20260924_1_DeliveryRoutingRulingE2ESynthetic_hf8fb95c0b315_2" : 1,
       "n:Expr_20260924_1_DeliveryRoutingRulingE2ESynthetic_hf8fb95c0b315_3" : 1,
@@ -14,6 +13,10 @@
       "n:Expr_20260925_1_WeeklyRollUpRulingE2EAgenticSynthetic_h5c24fdddd3e5_2" : 1,
       "n:Expr_20260925_1_WeeklyRollUpRulingE2EAgenticSynthetic_h5c24fdddd3e5_4" : 1,
       "n:Expr_20260925_1_WeeklyRollUpRulingE2EAgenticSynthetic_h5c24fdddd3e5_5" : 1,
+      "n:Expr_20260926_1_DeliveryRoutingRulingE2ESynthetic_ha66ee8b3c008_1" : 1,
+      "n:Expr_20260926_1_DeliveryRoutingRulingE2ESynthetic_ha66ee8b3c008_2" : 1,
+      "n:Expr_20260926_1_DeliveryRoutingRulingE2ESynthetic_ha66ee8b3c008_3" : 1,
+      "n:Expr_20260926_1_DeliveryRoutingRulingE2ESynthetic_ha66ee8b3c008_4" : 1,
       "n:Expr_2DeliveryRoutingRulingE2ESynthetic_1" : 2,
       "n:Expr_2DeliveryRoutingRulingE2ESynthetic_2" : 2,
       "n:Expr_2DeliveryRoutingRulingE2ESynthetic_3" : 2,
@@ -67,6 +70,10 @@
       "n:Expr_20260925_1_WeeklyRollUpRulingE2EAgenticSynthetic_h5c24fdddd3e5_2" : 1,
       "n:Expr_20260925_1_WeeklyRollUpRulingE2EAgenticSynthetic_h5c24fdddd3e5_4" : 1,
       "n:Expr_20260925_1_WeeklyRollUpRulingE2EAgenticSynthetic_h5c24fdddd3e5_5" : 1,
+      "n:Expr_20260926_1_DeliveryRoutingRulingE2ESynthetic_ha66ee8b3c008_1" : 1,
+      "n:Expr_20260926_1_DeliveryRoutingRulingE2ESynthetic_ha66ee8b3c008_2" : 1,
+      "n:Expr_20260926_1_DeliveryRoutingRulingE2ESynthetic_ha66ee8b3c008_3" : 1,
+      "n:Expr_20260926_1_DeliveryRoutingRulingE2ESynthetic_ha66ee8b3c008_4" : 1,
       "n:Expr_2DeliveryRoutingRulingE2ESynthetic_1" : 2,
       "n:Expr_2DeliveryRoutingRulingE2ESynthetic_2" : 2,
       "n:Expr_2DeliveryRoutingRulingE2ESynthetic_3" : 2,
@@ -85,8 +92,11 @@
       "n:Expr_20260924_2_DeliveryRoutingRulingE2ESyntheticAttempt2_haec961429483_2" : 1,
       "n:Expr_20260924_2_DeliveryRoutingRulingE2ESyntheticAttempt2_haec961429483_3" : 1,
       "n:Expr_20260924_2_DeliveryRoutingRulingE2ESyntheticAttempt2_haec961429483_4" : 1,
+      "n:Expr_20260926_1_DeliveryRoutingRulingE2ESynthetic_ha66ee8b3c008_2" : 1,
+      "n:Expr_20260926_1_DeliveryRoutingRulingE2ESynthetic_ha66ee8b3c008_3" : 1,
+      "n:Expr_20260926_1_DeliveryRoutingRulingE2ESynthetic_ha66ee8b3c008_4" : 1,
       "n:Expr_2DeliveryRoutingRulingE2ESynthetic_2" : 2,
-      "n:Expr_2DeliveryRoutingRulingE2ESynthetic_3" : 1,
+      "n:Expr_2DeliveryRoutingRulingE2ESynthetic_3" : 2,
       "n:Expr_2DeliveryRoutingRulingE2ESynthetic_4" : 2,
       "n:Expr_2DeliveryRoutingRulingE2ESynthetic_5" : 1,
       "n:Expr_3DeliveryRoutingRulingE2ESyntheticAttempt2_2" : 1,
@@ -101,7 +111,7 @@
       "n:Expr_20260925_1_WeeklyRollUpRulingE2EAgenticSynthetic_h5c24fdddd3e5_5" : 1
     }
   },
-  "generated_from" : "6fb34f36eb5eb8108f7efd3e933975303fe8748a",
+  "generated_from" : "015ac8d149ff5357653f9309b2c5caed5c50ac87",
   "hubs" : {
     "n:Actor_Tanya_Staging" : 2,
     "n:DesignTradeoffs" : 2,
@@ -124,7 +134,7 @@
     "n" : "https://aswritten.ai/narrative#",
     "o" : "https://aswritten.ai/ns/narrative#"
   },
-  "runs_sha" : "9a2c0740922d47bb073eb0c25982b0dee02b3d1b",
-  "sittings" : 177,
+  "runs_sha" : "5f47c141950fb13a8042411996b85aa8aee59793",
+  "sittings" : 178,
   "spec" : "fidelity-bands/1"
 }
