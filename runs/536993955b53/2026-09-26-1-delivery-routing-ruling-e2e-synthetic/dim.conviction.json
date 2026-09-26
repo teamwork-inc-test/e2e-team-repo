@@ -1,0 +1,44 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "Tanya (team owner) ruled on where reaction delivery belongs:",
+      "kind" : "performed-act"
+    } ],
+    "why" : "The text explicitly frames this as an authoritative ruling settling where delivery belongs.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-2",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "we route every reaction through one bundle per run per person",
+      "kind" : "commitment-marker"
+    }, {
+      "quote" : "Tanya (team owner) ruled on where reaction delivery belongs:",
+      "kind" : "delivery"
+    } ],
+    "why" : "An operational directive delivered under a formal ruling, establishing standard execution.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-3",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "Tanya held: the bundle closes when\nthe run closes",
+      "kind" : "commitment-marker"
+    } ],
+    "why" : "The speaker explicitly held the position against pushback, ratifying a hard operational boundary.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-4",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "The alternative considered and rejected was per-skill\ndelivery",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Explicitly records the consideration and formal rejection of an alternative architecture.",
+    "reported" : false
+  } ],
+  "unmarked" : [ ],
+  "mints" : [ ]
+}
