@@ -1,0 +1,20 @@
+@prefix narr: <https://aswritten.ai/narrative#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+GRAPH <https://aswritten.ai/narrative#Digest_Narrative_AntiSlackPositioning> {
+  <https://aswritten.ai/narrative#Digest_Narrative_AntiSlackPositioning> a narr:Digest ;
+    narr:digestOf <https://aswritten.ai/narrative#Narrative_AntiSlackPositioning> ;
+    narr:childCount "4"^^xsd:integer ;
+    narr:generatedFrom "6fb34f36eb5eb8108f7efd3e933975303fe8748a" ;
+    narr:narration """This narrative, dated [2026-03-10](narr:Position_PricingTwelveDollars), defines the product by what it is against: [real-time chat named as the anti-pattern](narr:Position_AntiPatternRealtimeChat), with the category deliberately created as a [structured async decision platform](narr:Position_ProductCategoryAsyncPlatform) in opposition to chat tools. The commercial frame pairs that positioning with an [initial ICP of remote teams of 10-50 people](narr:Position_TargetMarketRemoteTeams), sized to feel decision-loss pain, and a [price point set at the March vision session](narr:Position_PricingTwelveDollars) — a figure the same child records as since revised at the [Sprint 4](narr:Position_PricingTwelveDollars) retro. The arc runs from category definition outward to market and pricing; no reconciliation has landed on it.""" ;
+    narr:covers <https://aswritten.ai/narrative#Position_AntiPatternRealtimeChat> ;
+    narr:covers <https://aswritten.ai/narrative#Position_PricingTwelveDollars> ;
+    narr:covers <https://aswritten.ai/narrative#Position_ProductCategoryAsyncPlatform> ;
+    narr:covers <https://aswritten.ai/narrative#Position_TargetMarketRemoteTeams> ;
+    narr:keyPhrase [ narr:text "Pricing set at $12/user/month as of 2026-03-10 product vision session" ; narr:phraseSource <https://aswritten.ai/narrative#Position_PricingTwelveDollars> ] ;
+    narr:keyPhrase [ narr:text "remote teams with 10-50 people" ; narr:phraseSource <https://aswritten.ai/narrative#Position_TargetMarketRemoteTeams> ] ;
+    narr:keyPhrase [ narr:text "Structured async decision platform" ; narr:phraseSource <https://aswritten.ai/narrative#Position_ProductCategoryAsyncPlatform> ] ;
+    narr:keyPhrase [ narr:text "Real-time chat (Slack, Teams) is the named anti-pattern" ; narr:phraseSource <https://aswritten.ai/narrative#Position_AntiPatternRealtimeChat> ] ;
+    narr:variation [ narr:text "Pricing has moved since the vision session: the Sprint 4 retro (2026-03-22) records $15/user for teams over 25, superseding the original $12 figure" ; narr:over <https://aswritten.ai/narrative#Position_PricingTwelveDollars> ] ;
+    narr:writer "z-ai/glm-5.3-flash:nitro" .
+}
