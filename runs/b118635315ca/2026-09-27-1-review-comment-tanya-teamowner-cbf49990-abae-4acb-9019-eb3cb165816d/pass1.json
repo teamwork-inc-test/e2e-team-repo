@@ -1,0 +1,21 @@
+{
+  "doc" : {
+    "title" : "Review comment: Tanya TeamOwner — 2026-09-27",
+    "date_stated" : "2026-09-27",
+    "actors_present" : [ "Tanya TeamOwner" ]
+  },
+  "footing_cases" : [ ],
+  "segments" : [ {
+    "local_id" : "src-1",
+    "exact" : "the two-week floor should name who confirms the second site",
+    "actor" : "Tanya TeamOwner",
+    "act" : "directive",
+    "circumstance" : {
+      "context" : "Review comment on position PostGoLiveSoakDurationBasis"
+    },
+    "note" : null,
+    "redacted" : false,
+    "footing_case" : null
+  } ],
+  "coverage_gaps" : [ ]
+}
