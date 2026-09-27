@@ -1,0 +1,19 @@
+{
+  "resolutions" : [ {
+    "commentary_local_id" : "src-1",
+    "phrase" : "the two-week floor",
+    "verdict" : "confident",
+    "binding" : {
+      "referents" : [ {
+        "iri" : "Position_PostGoLiveSoakDurationBasis",
+        "relation" : "extends",
+        "why" : "Adds a governance requirement naming who confirms the second site to the soak duration floor specification."
+      } ],
+      "targets" : [ "Position_PostGoLiveSoakDurationBasis", "Narrative_ContainedPainOverUnboundedRisk" ]
+    },
+    "candidates" : null,
+    "why" : "Unambiguously references the post-go-live soak duration floor position to extend it with role confirmation requirements for subsequent site cutovers.",
+    "consulted" : [ "Position_PostGoLiveSoakDurationBasis", "Position_SiteCutoverSequencingStrategy", "Narrative_ContainedPainOverUnboundedRisk", "CutoverStrategy" ]
+  } ],
+  "unreferenced_commentary" : [ ]
+}
