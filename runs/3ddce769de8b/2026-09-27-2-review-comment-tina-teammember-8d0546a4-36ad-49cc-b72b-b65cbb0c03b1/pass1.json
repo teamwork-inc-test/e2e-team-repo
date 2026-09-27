@@ -1,0 +1,304 @@
+{
+  "doc" : {
+    "title" : "Review comment: Tina TeamMember — 2026-09-27",
+    "date_stated" : "2026-09-27",
+    "actors_present" : [ "Claude", "Tina TeamMember", "Tanya TeamOwner", "XavierExpert", "FreyaFree" ]
+  },
+  "footing_cases" : [ {
+    "id" : "fc-1",
+    "animator" : "Claude",
+    "author" : "Claude",
+    "principal" : null,
+    "when" : "Editorial metadata and framing prose composed by Claude without explicit endorsement markers"
+  }, {
+    "id" : "fc-2",
+    "animator" : "Claude",
+    "author" : "Claude",
+    "principal" : "Tina TeamMember",
+    "when" : "Prose/comment explicitly submitted on Tina TeamMember's behalf"
+  } ],
+  "segments" : [ {
+    "circumstance" : {
+      "context" : "Memo introduction"
+    },
+    "exact" : "Tina TeamMember left one comment while reviewing a change to a position, submitted by Claude on Tina TeamMember's behalf.",
+    "local_id" : "src-1",
+    "act" : "assertive",
+    "footing_case" : "fc-1",
+    "note" : null,
+    "footing" : {
+      "animator" : "Claude",
+      "author" : "Claude",
+      "principal" : null
+    },
+    "redacted" : false,
+    "actor" : "Claude"
+  }, {
+    "circumstance" : {
+      "context" : "Memo introduction"
+    },
+    "exact" : "Everything under \"What was under review\" is quoted from the perspective as the review page showed it; none of it is the reviewer's words.",
+    "local_id" : "src-2",
+    "act" : "assertive",
+    "footing_case" : "fc-1",
+    "note" : null,
+    "footing" : {
+      "animator" : "Claude",
+      "author" : "Claude",
+      "principal" : null
+    },
+    "redacted" : false,
+    "actor" : "Claude"
+  }, {
+    "circumstance" : {
+      "context" : "Memo introduction"
+    },
+    "exact" : "The comment itself is the last section.",
+    "local_id" : "src-3",
+    "act" : "assertive",
+    "footing_case" : "fc-1",
+    "note" : null,
+    "footing" : {
+      "animator" : "Claude",
+      "author" : "Claude",
+      "principal" : null
+    },
+    "redacted" : false,
+    "actor" : "Claude"
+  }, {
+    "circumstance" : {
+      "context" : "Quoted position: Position_PostGoLiveSoakDurationBasis"
+    },
+    "exact" : "how is the minimum soak duration between site cutovers determined and validated?",
+    "local_id" : "src-4",
+    "act" : "question",
+    "footing_case" : "fc-1",
+    "note" : "Quoted perspective text",
+    "footing" : {
+      "animator" : "Claude",
+      "author" : "Claude",
+      "principal" : null
+    },
+    "redacted" : false,
+    "actor" : "Claude"
+  }, {
+    "circumstance" : {
+      "context" : "Quoted expression under review"
+    },
+    "exact" : "the two-week floor should name who confirms the second site",
+    "local_id" : "src-5",
+    "act" : "assertive",
+    "prefix" : "  - Expression: <https://asw",
+    "footing_case" : null,
+    "suffix" : "\n\n### The position's statements",
+    "note" : null,
+    "redacted" : false,
+    "actor" : "Tanya TeamOwner"
+  }, {
+    "local_id" : "src-6",
+    "exact" : "I'll note that the exception curve is the only evidence we have for it. It's one site, one season.",
+    "actor" : "XavierExpert",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Statement 1 under review (from 2026-09-08 weekly)"
+    },
+    "note" : null,
+    "redacted" : false,
+    "footing_case" : null
+  }, {
+    "circumstance" : {
+      "context" : "Statement 2 under review (from 2026-09-15 ops readiness)"
+    },
+    "exact" : "The dates, as early as you can give them, and a commitment that a soak doesn't get shortened because a date slipped. If the soak gets eaten, my supervisors are back on the floor at the same time as the next cutover and we're in the same place by another route.",
+    "local_id" : "src-7",
+    "act" : "directive",
+    "prefix" : "om me?\n\n  The statement:\n\n  > ",
+    "footing_case" : null,
+    "suffix" : "\n\n  The lines after it:\n\n  > *",
+    "note" : "Request for commitments / constraints",
+    "redacted" : false,
+    "actor" : "FreyaFree"
+  }, {
+    "circumstance" : {
+      "context" : "Statement 3 under review (from 2026-09-15 ops readiness)"
+    },
+    "exact" : "That's fair and I'll hold it.",
+    "local_id" : "src-8",
+    "act" : "commissive",
+    "prefix" : "fter it:\n\n  > **Tanya Team:** ",
+    "footing_case" : null,
+    "suffix" : "\n  > **Freya Free:** Then I'm ",
+    "note" : null,
+    "redacted" : false,
+    "actor" : "Tanya TeamOwner"
+  }, {
+    "circumstance" : {
+      "context" : "Statement 4 under review (from 2026-09-15 cutover review)"
+    },
+    "exact" : "On the eighth I said the soak between sites has to be two full weeks, and I said I'd hold us to it. That was wrong. I was wrong on the eighth and I want it struck from the plan.",
+    "local_id" : "src-9",
+    "act" : "assertive",
+    "prefix" : "ahead.\n\n  The statement:\n\n  > ",
+    "footing_case" : null,
+    "suffix" : "\n\n  The lines after it:\n\n  > *",
+    "note" : null,
+    "redacted" : false,
+    "actor" : "Tina TeamMember"
+  }, {
+    "circumstance" : {
+      "context" : "Statement 5 under review (from 2026-09-15 cutover review)"
+    },
+    "exact" : "I quoted the Dockside number — the exception queue not flattening until day nine or ten. I went back through the Dockside logs on Friday because Xavier's comment about it being one site, one season was bothering me. The reason the queue took nine days to flatten at Dockside is that the old reconciliation job ran weekly and every run threw a fresh batch of exceptions. Two weeks was two reconciliation cycles. It was never about the site settling.",
+    "local_id" : "src-10",
+    "act" : "assertive",
+    "prefix" : "ll me why.\n  > **Tina Team:** ",
+    "footing_case" : null,
+    "suffix" : "\n\n#### 5. <https://aswritten.a",
+    "note" : null,
+    "redacted" : false,
+    "actor" : "Tina TeamMember"
+  }, {
+    "circumstance" : {
+      "context" : "Statement 6 under review (from 2026-09-15 cutover review)"
+    },
+    "exact" : "That job is gone. It was retired in July. Nothing in the new platform runs on a weekly cycle — reconciliation is continuous now. So the number I gave was measuring a job that doesn't exist any more, and I attached it to the soak as though it were a property of the site.",
+    "local_id" : "src-11",
+    "act" : "assertive",
+    "prefix" : "b is gone.\n  > **Tina Team:** ",
+    "footing_case" : null,
+    "suffix" : "\n\n#### 6. <https://aswritten.a",
+    "note" : null,
+    "redacted" : false,
+    "actor" : "Tina TeamMember"
+  }, {
+    "circumstance" : {
+      "context" : "Statement 7 under review (from 2026-09-15 cutover review)"
+    },
+    "exact" : "One week. Strip the reconciliation cycles out of the Dockside curve and the underlying exception rate is flat by day four. One week gives you the flattening plus three days to look at it, which is the same margin I was arguing for. One week is the soak, and please don't hold the plan to two weeks on my say-so, because I was wrong on the eighth.",
+    "local_id" : "src-12",
+    "act" : "assertive",
+    "prefix" : " the soak?\n  > **Tina Team:** ",
+    "footing_case" : null,
+    "suffix" : "\n\n#### 7. <https://aswritten.a",
+    "note" : null,
+    "redacted" : false,
+    "actor" : "Tina TeamMember"
+  }, {
+    "circumstance" : {
+      "context" : "Statement 8 under review (from 2026-09-15 cutover review)"
+    },
+    "exact" : "Can I say that I think this is the right correction and also that it costs us something? Two weeks was conservative in a place where being conservative was cheap. One week is defensible but it has no slack in it.",
+    "local_id" : "src-13",
+    "act" : "assertive",
+    "prefix" : "s had.\n\n  The statement:\n\n  > ",
+    "footing_case" : null,
+    "suffix" : "\n\n  The lines after it:\n\n  > *",
+    "note" : "Rhetorical question framing an assertion",
+    "redacted" : false,
+    "actor" : "XavierExpert"
+  }, {
+    "circumstance" : {
+      "context" : "Statement 9 under review (from 2026-09-15 cutover review)"
+    },
+    "exact" : "That's true. I'd rather be defensible and know where the slack isn't than conservative for a reason that turned out to be imaginary.",
+    "local_id" : "src-14",
+    "act" : "assertive",
+    "prefix" : "after it:\n\n  > **Tina Team:** ",
+    "footing_case" : null,
+    "suffix" : "\n  > **Xavier Expert:** Agreed",
+    "note" : null,
+    "redacted" : false,
+    "actor" : "Tina TeamMember"
+  }, {
+    "circumstance" : {
+      "context" : "Statement 10 under review (from 2026-09-15 cutover review)"
+    },
+    "exact" : "Agreed. I just want it on the record that the new number is tight, not safe.",
+    "local_id" : "src-15",
+    "act" : "assertive",
+    "prefix" : "inary.\n  > **Xavier Expert:** ",
+    "footing_case" : null,
+    "suffix" : "\n\n#### 9. <https://aswritten.a",
+    "note" : null,
+    "redacted" : false,
+    "actor" : "XavierExpert"
+  }, {
+    "local_id" : "src-16",
+    "exact" : "Right. For the record then: the soak between sites is one week, not two, and my note from the eighth about two weeks should be read as superseded by this.",
+    "actor" : "Tanya TeamOwner",
+    "act" : "declarative",
+    "circumstance" : {
+      "context" : "Statement 11 under review (from 2026-09-15 cutover review)"
+    },
+    "note" : null,
+    "redacted" : false,
+    "footing_case" : null
+  }, {
+    "circumstance" : {
+      "context" : "Statement 12 under review"
+    },
+    "exact" : "the two-week floor should name who confirms the second site",
+    "local_id" : "src-17",
+    "act" : "assertive",
+    "prefix" : "  The statement:\n\n  > ",
+    "footing_case" : null,
+    "suffix" : "\n\n### Where the position sits\n",
+    "note" : null,
+    "redacted" : false,
+    "actor" : "Tanya TeamOwner"
+  }, {
+    "circumstance" : {
+      "context" : "Where the position sits metadata"
+    },
+    "exact" : "how should multi-site cutovers be sequenced when operational containment conflicts with local site friction?",
+    "local_id" : "src-18",
+    "act" : "question",
+    "footing_case" : "fc-1",
+    "note" : "Quoted perspective position description",
+    "footing" : {
+      "animator" : "Claude",
+      "author" : "Claude",
+      "principal" : null
+    },
+    "redacted" : false,
+    "actor" : "Claude"
+  }, {
+    "circumstance" : {
+      "context" : "The act summary"
+    },
+    "exact" : "Tina TeamMember rejected the change",
+    "local_id" : "src-19",
+    "act" : "declarative",
+    "footing_case" : "fc-1",
+    "note" : null,
+    "footing" : {
+      "animator" : "Claude",
+      "author" : "Claude",
+      "principal" : null
+    },
+    "redacted" : false,
+    "actor" : "Claude"
+  }, {
+    "circumstance" : {
+      "context" : "The review comment"
+    },
+    "exact" : "the basis was never measured; two weeks is a guess",
+    "local_id" : "src-20",
+    "act" : "assertive",
+    "footing_case" : "fc-2",
+    "note" : null,
+    "footing" : {
+      "animator" : "Claude",
+      "author" : "Claude",
+      "principal" : "Tina TeamMember"
+    },
+    "redacted" : false,
+    "how" : [ {
+      "span" : "Claude commented on Tina TeamMember's behalf (tina+staging@aswritten.ai):",
+      "side" : "supply"
+    } ],
+    "footing_flag" : "unmarked-principal",
+    "actor" : "Tina TeamMember"
+  } ],
+  "coverage_gaps" : [ ]
+}
