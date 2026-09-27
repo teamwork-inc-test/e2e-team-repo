@@ -1,0 +1,131 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-5",
+    "regions" : [ "future", "irrealis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "the two-week floor should name who confirms the second site",
+      "kind" : "modal-marker"
+    } ],
+    "why" : "Prescribes a concrete future requirement using normative modal 'should'.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-6",
+    "regions" : [ "present", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "the exception curve is the only evidence we have for it. It's one site, one season.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Evaluates the current concrete evidence base in the present state.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-7",
+    "regions" : [ "future", "irrealis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "If the soak gets eaten, my supervisors are back on the floor at the same time as the next cutover",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Projects a hypothetical conditional scenario about future cutover operations.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-8",
+    "regions" : [ "future", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "I'll hold it.",
+      "kind" : "commitment-marker"
+    } ],
+    "why" : "Commits to a future concrete action.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-9",
+    "regions" : [ "past", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "On the eighth I said the soak between sites has to be two full weeks",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Focuses on past actual statements and errors from a specific date.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-10",
+    "regions" : [ "past", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "I went back through the Dockside logs on Friday because Xavier's comment about it being one site, one season was bothering me.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Recounts concrete historical actions and root causes at Dockside.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-11",
+    "regions" : [ "present", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "Nothing in the new platform runs on a weekly cycle — reconciliation is continuous now.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Focuses on the present concrete architectural reality compared to retired past jobs.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-12",
+    "regions" : [ "present", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "One week gives you the flattening plus three days to look at it, which is the same margin I was arguing for.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Asserts the concrete present parameters and reasoning for the soak duration.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-13",
+    "regions" : [ "present", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "One week is defensible but it has no slack in it.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Evaluates the current concrete properties of the one-week soak proposal.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-14",
+    "regions" : [ "present", "irrealis", "abstract" ],
+    "evidence" : [ {
+      "quote" : "I'd rather be defensible and know where the slack isn't than conservative for a reason that turned out to be imaginary.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Weighs abstract trade-offs and epistemic preferences in the present.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-15",
+    "regions" : [ "present", "realis", "abstract" ],
+    "evidence" : [ {
+      "quote" : "the new number is tight, not safe.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Characterizes the properties of the decision in abstract terms.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-16",
+    "regions" : [ "present", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "For the record then: the soak between sites is one week, not two",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Performs an explicit update to the concrete present policy.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-17",
+    "regions" : [ "future", "irrealis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "the two-week floor should name who confirms the second site",
+      "kind" : "modal-marker"
+    } ],
+    "why" : "States a concrete normative requirement for future implementation.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-20",
+    "regions" : [ "past", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "the basis was never measured; two weeks is a guess",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Reports Tina's assertion looking back at the unmeasured basis of the two-week duration.",
+    "reported" : true
+  } ],
+  "unmarked" : [ "src-1", "src-2", "src-3", "src-4", "src-18", "src-19" ],
+  "unmarked_rest" : false
+}
