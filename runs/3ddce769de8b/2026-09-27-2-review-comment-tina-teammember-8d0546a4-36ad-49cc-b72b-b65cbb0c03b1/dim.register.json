@@ -1,0 +1,18 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-16",
+    "regions" : [ "formal" ],
+    "evidence" : [ {
+      "quote" : "For the record then:",
+      "kind" : "framing-move"
+    }, {
+      "quote" : "should be read as superseded by this.",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Adopts explicit formal record-keeping syntax and administrative framing to execute an official procedural supersede.",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-1", "src-2", "src-3", "src-4", "src-5", "src-6", "src-7", "src-8", "src-9", "src-10", "src-11", "src-12", "src-13", "src-14", "src-15", "src-17", "src-18", "src-19", "src-20" ],
+  "mints" : [ ],
+  "region_mints" : [ ]
+}
