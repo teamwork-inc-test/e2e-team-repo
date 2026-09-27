@@ -1,0 +1,140 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-5",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "the two-week floor should name who confirms the second site",
+      "kind" : "modal-marker"
+    } ],
+    "why" : "Asserts a normative operational requirement ('should name') as a claim on the plan.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-6",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "I'll note that the exception curve is the only evidence we have for it.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Frames an evidential limitation as a plain claim to be weighed.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-7",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "The dates, as early as you can give them, and a commitment that a soak doesn't get shortened because a date slipped.",
+      "kind" : "commitment-marker"
+    } ],
+    "why" : "Stipulates conditions and commitments required to protect staffing floor operations.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-8",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "That's fair and I'll hold it.",
+      "kind" : "commitment-marker"
+    } ],
+    "why" : "Explicit commissive commitment settling the operational boundary.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-9",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "That was wrong. I was wrong on the eighth and I want it struck from the plan.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Retracts prior position with direct self-correction and explicit claim that the prior basis was flawed.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-10",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "It was never about the site settling.",
+      "kind" : "intensifier"
+    } ],
+    "why" : "Direct factual assertion reinterpreting the root cause of the historical metric.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-11",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "Nothing in the new platform runs on a weekly cycle — reconciliation is continuous now.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Plain unhedged assertion explaining the architectural premise.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-12",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "One week is the soak, and please don't hold the plan to two weeks on my say-so, because I was wrong on the eighth.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Argues for the updated duration while actively revoking personal authority on the previous estimate.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-13",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "Can I say that I think this is the right correction and also that it costs us something?",
+      "kind" : "hedge"
+    } ],
+    "why" : "Epistemically hedged question and claim weighing defensibility against operational slack.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-14",
+    "regions" : [ "principle" ],
+    "evidence" : [ {
+      "quote" : "I'd rather be defensible and know where the slack isn't than conservative for a reason that turned out to be imaginary.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Articulates a foundational epistemic stance preferring known tightness over false conservatism.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-15",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "I just want it on the record that the new number is tight, not safe.",
+      "kind" : "commitment-marker"
+    } ],
+    "why" : "Records a formal qualifying claim on the new plan parameters.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-16",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "Right. For the record then: the soak between sites is one week, not two, and my note from the eighth about two weeks should be read as superseded by this.",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Formally performs the ratification and superseding declarative on the operational soak duration.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-17",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "the two-week floor should name who confirms the second site",
+      "kind" : "modal-marker"
+    } ],
+    "why" : "Repeated normative proposal on naming approval roles.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-19",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "Tina TeamMember rejected the change",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Records the performed formal rejection of the review item.",
+    "reported" : true
+  }, {
+    "segment_local_id" : "src-20",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "the basis was never measured; two weeks is a guess",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Asserts unhedged evaluation that the prior baseline lacked measurement.",
+    "reported" : true
+  } ],
+  "unmarked" : [ "src-1", "src-2", "src-3", "src-4", "src-18" ],
+  "mints" : [ ]
+}
