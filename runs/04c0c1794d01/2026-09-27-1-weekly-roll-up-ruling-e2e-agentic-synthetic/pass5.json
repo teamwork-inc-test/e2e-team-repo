@@ -1,0 +1,11 @@
+{
+  "placements" : [ {
+    "verdict" : "reuse",
+    "leaf" : "Narrative_ReactionDeliveryBundling",
+    "supporting_segments" : [ "src-1", "src-2", "src-3", "src-4", "src-5" ],
+    "adopted_positions" : [ "Position_WeeklyReactionRollUpCadence" ],
+    "why" : "The segments directly extend reaction delivery aggregation policy by maintaining the per-run bundle while establishing a weekly Friday roll-up cadence, clarifying the run-versus-week scope distinction, and rejecting a redundant daily digest.",
+    "consulted" : [ "Narrative_ReactionDeliveryBundling", "Narrative_DefaultRefTopicBranch", "Narrative_AntiSlackPositioning", "Narrative_DecisionCaptureAtConsensus", "Narrative_DecisionsEvaporate", "DesignTradeoffs" ]
+  } ],
+  "unplaced" : [ ]
+}
