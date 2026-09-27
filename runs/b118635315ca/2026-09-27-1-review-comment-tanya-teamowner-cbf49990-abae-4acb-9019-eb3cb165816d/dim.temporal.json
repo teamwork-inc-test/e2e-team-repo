@@ -1,0 +1,17 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "future", "irrealis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "should name",
+      "kind" : "modal-marker"
+    }, {
+      "quote" : "the second site",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Prescriptive requirement ('should name') sets a desired future state for a specific operational assignment ('the second site').",
+    "reported" : false
+  } ],
+  "unmarked" : [ ],
+  "unmarked_rest" : false
+}
