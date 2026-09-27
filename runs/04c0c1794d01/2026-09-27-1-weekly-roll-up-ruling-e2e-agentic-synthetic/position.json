@@ -1,0 +1,10 @@
+{
+  "positions" : [ ],
+  "attaches" : [ {
+    "position" : "Position_WeeklyReactionRollUpCadence",
+    "members" : [ "src-2", "src-3", "src-4", "src-5" ],
+    "why" : "The existing frame 'How should recurring reaction summaries be scheduled across multi-day time windows alongside per-run bundles?' directly reads the policy establishing the Friday roll-up alongside per-run bundles, the clarification on run vs. week scope answering Tina's question, and the explicit rejection of a daily digest."
+  } ],
+  "position_revisions" : [ ],
+  "ungrouped" : [ "src-1" ]
+}
