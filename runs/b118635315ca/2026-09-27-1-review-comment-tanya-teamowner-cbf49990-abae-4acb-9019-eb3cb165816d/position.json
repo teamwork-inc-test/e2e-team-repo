@@ -1,0 +1,10 @@
+{
+  "positions" : [ ],
+  "attaches" : [ {
+    "position" : "Position_PostGoLiveSoakDurationBasis",
+    "members" : [ "src-1" ],
+    "why" : "Tanya mandates that the soak duration floor specification explicitly name the role authorized to confirm readiness for the second site cutover, extending the validation criteria for the inter-site soak period."
+  } ],
+  "position_revisions" : [ ],
+  "ungrouped" : [ ]
+}
