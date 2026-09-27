@@ -1,0 +1,29 @@
+{
+  "reconciliations" : [ {
+    "segment_ids" : [ "src-20" ],
+    "note" : "the basis was never measured; two weeks is a guess",
+    "targets" : [ "Position_PostGoLiveSoakDurationBasis", "Narrative_ContainedPainOverUnboundedRisk" ],
+    "referents" : [ {
+      "ref" : "Expr_20260927_1_ReviewCommentTanyaTeamownerCbf49990Abae4Acb9019E_h91de42c40706_1",
+      "relation" : "contradicts"
+    }, {
+      "ref" : "Position_PostGoLiveSoakDurationBasis",
+      "relation" : "extends"
+    } ],
+    "principal" : "Tina TeamMember"
+  } ],
+  "standalone" : [ {
+    "segment_id" : "src-1",
+    "why" : "Framing commentary with no prior referent to reconcile."
+  }, {
+    "segment_id" : "src-2",
+    "why" : "Framing commentary with no prior referent to reconcile."
+  }, {
+    "segment_id" : "src-3",
+    "why" : "Framing commentary with no prior referent to reconcile."
+  }, {
+    "segment_id" : "src-19",
+    "why" : "Status commentary with no prior referent to reconcile."
+  } ],
+  "held" : [ ]
+}
