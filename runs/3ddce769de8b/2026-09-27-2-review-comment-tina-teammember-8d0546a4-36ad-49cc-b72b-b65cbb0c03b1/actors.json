@@ -1,0 +1,33 @@
+{
+  "bindings" : [ {
+    "name" : "Claude",
+    "verdict" : "bind",
+    "target" : "Actor_Claude",
+    "why" : "Exact match to existing AI actor Actor_Claude."
+  }, {
+    "name" : "Tanya TeamOwner",
+    "verdict" : "bind",
+    "target" : "Actor_TanyaTeamowner",
+    "why" : "Exact match to existing actor Tanya TeamOwner."
+  }, {
+    "name" : "XavierExpert",
+    "verdict" : "bind",
+    "target" : "Actor_XavierExpert",
+    "why" : "Direct match to existing actor Xavier Expert (Actor_XavierExpert)."
+  }, {
+    "name" : "FreyaFree",
+    "verdict" : "bind",
+    "target" : "Actor_FreyaFree",
+    "why" : "Direct match to existing actor Freya Free (Actor_FreyaFree)."
+  }, {
+    "name" : "Tina TeamMember",
+    "verdict" : "mint",
+    "label" : "Tina TeamMember",
+    "why" : "Distinct identity from existing Actor_TinaTeam; minting to avoid unconfident merge."
+  }, {
+    "name" : "tina+staging@aswritten.ai",
+    "verdict" : "mint",
+    "label" : "Tina TeamMember",
+    "why" : "Envelope metadata and note link submitted email tina+staging@aswritten.ai directly to Tina TeamMember."
+  } ]
+}
