@@ -1,0 +1,42 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "ruled on",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Framing indicates an authoritative ruling by the team owner settling process.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-2",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "the per-run bundle stays, and on Fridays we add one roll-up of the week",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Operational policy establishing what stays and what is added.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-4",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "held that it\ndoes not",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Authoritative resolution maintaining the distinct roles of the two artifacts.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-5",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "Rejected: a\ndaily digest",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Explicit rejection establishing a settled operational non-decision.",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-3" ],
+  "unmarked_rest" : false,
+  "mints" : [ ]
+}
