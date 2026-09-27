@@ -1,0 +1,73 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-5",
+    "regions" : [ "authority-ranking" ],
+    "evidence" : [ {
+      "quote" : "should name who confirms",
+      "kind" : "modal-marker"
+    } ],
+    "why" : "Specifies formal hierarchical responsibility and approval authority.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-8",
+    "regions" : [ "equality-matching" ],
+    "evidence" : [ {
+      "quote" : "That's fair and I'll hold it.",
+      "kind" : "commitment-marker"
+    } ],
+    "why" : "Explicitly ratifies an agreement based on fairness and bilateral commitment.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-12",
+    "regions" : [ "equality-matching", "market-pricing" ],
+    "evidence" : [ {
+      "quote" : "please don't hold the plan to two weeks on my say-so",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Asks to release the reciprocal hold/commitment previously granted on personal authority.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-13",
+    "regions" : [ "market-pricing" ],
+    "evidence" : [ {
+      "quote" : "costs us something",
+      "kind" : "lexical-marker"
+    }, {
+      "quote" : "cheap",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Frames decision-making explicitly in terms of costs, trade-offs, and risk margins.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-16",
+    "regions" : [ "authority-ranking" ],
+    "evidence" : [ {
+      "quote" : "my note from the eighth about two weeks should be read as superseded by this.",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Enacts authoritative governance to formally supersede a prior recorded stance.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-17",
+    "regions" : [ "authority-ranking" ],
+    "evidence" : [ {
+      "quote" : "should name who confirms",
+      "kind" : "modal-marker"
+    } ],
+    "why" : "Specifies allocation of confirmation authority.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-19",
+    "regions" : [ "authority-ranking" ],
+    "evidence" : [ {
+      "quote" : "Tina TeamMember rejected the change",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Reports a formal governance rejection act on Tina's behalf.",
+    "reported" : true
+  } ],
+  "unmarked" : [ "src-1", "src-2", "src-3", "src-4", "src-6", "src-7", "src-9", "src-10", "src-11", "src-14", "src-15", "src-18", "src-20" ],
+  "unmarked_rest" : false,
+  "mints" : [ ],
+  "region_mints" : [ ]
+}
