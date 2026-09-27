@@ -1,0 +1,43 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "authority-ranking" ],
+    "evidence" : [ {
+      "quote" : "ruled",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Enacts authority-ranking by explicitly invoking team owner ruling power over operational communication.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-2",
+    "regions" : [ "communal-sharing" ],
+    "evidence" : [ {
+      "quote" : "we add one roll-up",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Invokes communal sharing through shared team identity and collective practice ('we').",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-4",
+    "regions" : [ "authority-ranking" ],
+    "evidence" : [ {
+      "quote" : "held that it\ndoes not",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Asserts authoritative determination to clarify and uphold the structural rule.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-5",
+    "regions" : [ "authority-ranking" ],
+    "evidence" : [ {
+      "quote" : "Rejected:",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Performs an explicit hierarchical rejection of an alternative cadence.",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-3" ],
+  "unmarked_rest" : false,
+  "mints" : [ ],
+  "region_mints" : [ ]
+}
