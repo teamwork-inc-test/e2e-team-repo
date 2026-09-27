@@ -1,0 +1,24 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-7",
+    "regions" : [ "activated-negative" ],
+    "evidence" : [ {
+      "quote" : "If the soak gets eaten, my supervisors are back on the floor at the same time as the next cutover and we're in the same place by another route.",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Urgency and concern voiced over operational disruption if soak duration is compromised.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-10",
+    "regions" : [ "activated-negative" ],
+    "evidence" : [ {
+      "quote" : "was bothering me",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Speaker explicitly identifies an active feeling of unease/bother that drove their investigation.",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-1", "src-2", "src-3", "src-4", "src-5", "src-6", "src-8", "src-9", "src-11", "src-12", "src-13", "src-14", "src-15", "src-16", "src-17", "src-18", "src-19", "src-20" ],
+  "mints" : [ ],
+  "region_mints" : [ ]
+}
