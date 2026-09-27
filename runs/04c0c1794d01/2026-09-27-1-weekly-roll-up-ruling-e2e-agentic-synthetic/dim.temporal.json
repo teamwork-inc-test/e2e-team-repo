@@ -1,0 +1,50 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "past", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "Tanya (team owner) ruled",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Narrates a past specific ruling event that definitively occurred.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-2",
+    "regions" : [ "future", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "the per-run bundle stays, and on Fridays we add one roll-up of the week",
+      "kind" : "commitment-marker"
+    } ],
+    "why" : "Establishes a concrete ongoing/future operational routine as settled fact.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-3",
+    "regions" : [ "future", "irrealis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "whether the roll-up replaces the per-run bundle",
+      "kind" : "epistemic-verb"
+    } ],
+    "why" : "Reports Tina's hypothetical inquiry regarding future workflow structure.",
+    "reported" : true
+  }, {
+    "segment_local_id" : "src-4",
+    "regions" : [ "present", "realis", "abstract" ],
+    "evidence" : [ {
+      "quote" : "the bundle is for the run, the roll-up is for the week",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Defines the present categorical design principles and purpose distinctions.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-5",
+    "regions" : [ "past", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "Rejected: a\ndaily digest",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Documents the definitive rejection of a specific alternative proposal.",
+    "reported" : false
+  } ],
+  "unmarked" : [ ],
+  "unmarked_rest" : false
+}
