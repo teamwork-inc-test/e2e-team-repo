@@ -1,0 +1,65 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-7",
+    "regions" : [ "conservation" ],
+    "evidence" : [ {
+      "quote" : "a commitment that a soak doesn't get shortened because a date slipped",
+      "kind" : "commitment-marker"
+    } ],
+    "why" : "Demands operational stability, predictability, and protection of supervisor floor capacity against schedule slippage.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-8",
+    "regions" : [ "self-transcendence" ],
+    "evidence" : [ {
+      "quote" : "That's fair and I'll hold it.",
+      "kind" : "commitment-marker"
+    } ],
+    "why" : "Ratifies an explicit appeal to fairness and commits to upholding operational protection for others.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-13",
+    "regions" : [ "conservation", "competence" ],
+    "evidence" : [ {
+      "quote" : "Two weeks was conservative in a place where being conservative was cheap.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Weighs the value of conservative safety margins against analytical defensibility and tightness.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-14",
+    "regions" : [ "competence" ],
+    "evidence" : [ {
+      "quote" : "I'd rather be defensible and know where the slack isn't than conservative for a reason that turned out to be imaginary.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Explicitly values empirical defensibility and epistemic rigor over false or unmeasured safety buffers.",
+    "reported" : false,
+    "direction" : {
+      "verdict" : "mint",
+      "node" : "mint-1"
+    }
+  }, {
+    "segment_local_id" : "src-20",
+    "regions" : [ "competence" ],
+    "evidence" : [ {
+      "quote" : "the basis was never measured; two weeks is a guess",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Rejects an operational standard on the grounds that it lacks empirical measurement and constitutes an unverified guess.",
+    "reported" : true,
+    "direction" : {
+      "verdict" : "mint",
+      "node" : "mint-1"
+    }
+  } ],
+  "unmarked" : [ "src-1", "src-2", "src-3", "src-4", "src-5", "src-6", "src-9", "src-10", "src-11", "src-12", "src-15", "src-16", "src-17", "src-18", "src-19" ],
+  "mints" : [ {
+    "id" : "mint-1",
+    "name" : "DefensibilityOverFalseConservatism",
+    "title" : "defensible rather than conservative for an imaginary reason",
+    "frame" : "Does this expression prioritize verified empirical defensibility over ungrounded safety buffers?",
+    "regions" : [ "competence" ]
+  } ],
+  "region_mints" : [ ]
+}
