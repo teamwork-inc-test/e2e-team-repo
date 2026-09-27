@@ -1,0 +1,25 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-4",
+    "regions" : [ "matter-of-fact" ],
+    "evidence" : [ {
+      "quote" : "the bundle is for the run, the roll-up is for the week.",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Parallel, concise declarative pairing delivering an operational distinction without stylistic embellishment.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-5",
+    "regions" : [ "matter-of-fact" ],
+    "evidence" : [ {
+      "quote" : "Rejected: a\ndaily digest",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Direct, administrative log-style ruling syntax.",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-1", "src-2", "src-3" ],
+  "unmarked_rest" : false,
+  "mints" : [ ],
+  "region_mints" : [ ]
+}
