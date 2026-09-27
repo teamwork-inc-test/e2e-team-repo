@@ -1,0 +1,84 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-7",
+    "regions" : [ "rational-persuasion", "pressure" ],
+    "evidence" : [ {
+      "quote" : "a commitment that a soak doesn't get shortened because a date slipped",
+      "kind" : "modal-marker"
+    }, {
+      "quote" : "If the soak gets eaten, my supervisors are back on the floor at the same time as the next cutover and we're in the same place by another route.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Freya pairs a firm demand for commitment with causal reasoning about supervisor operational failure.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-8",
+    "regions" : [ "legitimate" ],
+    "evidence" : [ {
+      "quote" : "That's fair and I'll hold it.",
+      "kind" : "commitment-marker"
+    } ],
+    "why" : "Tanya exercises positional ownership to formally grant and hold the requested commitment.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-9",
+    "regions" : [ "informational", "rational-persuasion" ],
+    "evidence" : [ {
+      "quote" : "That was wrong. I was wrong on the eighth and I want it struck from the plan.",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Tina uses self-correction of factual premises to persuade the group to alter the plan.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-10",
+    "regions" : [ "rational-persuasion", "informational" ],
+    "evidence" : [ {
+      "quote" : "The reason the queue took nine days to flatten at Dockside is that the old reconciliation job ran weekly and every run threw a fresh batch of exceptions.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Tina marshals direct log investigation and causal technical explanation to dismantle the prior rationale.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-12",
+    "regions" : [ "rational-persuasion" ],
+    "evidence" : [ {
+      "quote" : "Strip the reconciliation cycles out of the Dockside curve and the underlying exception rate is flat by day four.",
+      "kind" : "plain-assertion"
+    }, {
+      "quote" : "please don't hold the plan to two weeks on my say-so",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Tina argues from technical numbers to recalculate the soak duration while relinquishing personal authority.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-16",
+    "regions" : [ "legitimate" ],
+    "evidence" : [ {
+      "quote" : "For the record then: the soak between sites is one week, not two, and my note from the eighth about two weeks should be read as superseded by this.",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Tanya uses positional authority to formally update the official record and supersede previous guidance.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-19",
+    "regions" : [ "legitimate" ],
+    "evidence" : [ {
+      "quote" : "Tina TeamMember rejected the change",
+      "kind" : "performed-act"
+    } ],
+    "why" : "A formal governance action exercising review authority to reject a proposed position change.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-20",
+    "regions" : [ "rational-persuasion", "informational" ],
+    "evidence" : [ {
+      "quote" : "the basis was never measured; two weeks is a guess",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Tina challenges the validity of the rule by pointing out the total lack of empirical measurement.",
+    "reported" : true
+  } ],
+  "unmarked" : [ "src-1", "src-2", "src-3", "src-4", "src-5", "src-6", "src-11", "src-13", "src-14", "src-15", "src-17", "src-18" ],
+  "mints" : [ ],
+  "region_mints" : [ ]
+}
