@@ -1,0 +1,14 @@
+{
+  "reconciliations" : [ {
+    "segment_ids" : [ "src-1" ],
+    "note" : "the two-week floor should name who confirms the second site",
+    "targets" : [ "Position_PostGoLiveSoakDurationBasis", "Narrative_ContainedPainOverUnboundedRisk" ],
+    "referents" : [ {
+      "ref" : "Position_PostGoLiveSoakDurationBasis",
+      "relation" : "extends"
+    } ],
+    "principal" : "Tanya TeamOwner"
+  } ],
+  "standalone" : [ ],
+  "held" : [ ]
+}
