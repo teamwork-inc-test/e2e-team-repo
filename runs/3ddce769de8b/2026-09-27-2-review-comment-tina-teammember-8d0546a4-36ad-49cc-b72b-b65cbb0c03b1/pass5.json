@@ -1,0 +1,10 @@
+{
+  "placements" : [ {
+    "verdict" : "reuse",
+    "leaf" : "Narrative_ContainedPainOverUnboundedRisk",
+    "supporting_segments" : [ "src-20" ],
+    "why" : "Tina's comment directly contests the empirical basis of the post-go-live soak duration, arguing that the two-week floor was never measured and was an unverified guess, directly feeding the core narrative debate on empirical soak intervals versus unbounded rollout risk.",
+    "consulted" : [ "Narrative_ContainedPainOverUnboundedRisk", "Narrative_SourceQualityGatesRequireIndependentEnforcement", "Narrative_SingleSourceOfTruthUntilFinalCutover", "Narrative_StrictWorkloadIsolationDuringCutover" ]
+  } ],
+  "unplaced" : [ "src-1", "src-2", "src-3", "src-4", "src-5", "src-6", "src-7", "src-8", "src-9", "src-10", "src-11", "src-12", "src-13", "src-14", "src-15", "src-16", "src-17", "src-18", "src-19" ]
+}
