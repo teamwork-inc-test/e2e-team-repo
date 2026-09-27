@@ -1,0 +1,16 @@
+{
+  "placements" : [ {
+    "adopted_positions" : null,
+    "lineage" : null,
+    "supporting_segments" : [ "src-1" ],
+    "under" : null,
+    "why" : "Tanya's directive requires the soak duration floor between site cutovers to explicitly name who confirms readiness for the second site, refining the governance rules for sequential site deployment and empirical soak validation.",
+    "verdict" : "reuse",
+    "leaf" : "Narrative_ContainedPainOverUnboundedRisk",
+    "region" : null,
+    "title" : null,
+    "frame" : null,
+    "consulted" : [ "Narrative_ContainedPainOverUnboundedRisk", "Narrative_SourceQualityGatesRequireIndependentEnforcement", "Narrative_ProactiveGovernanceRiskDisclosure", "CutoverStrategy" ]
+  } ],
+  "unplaced" : [ ]
+}
