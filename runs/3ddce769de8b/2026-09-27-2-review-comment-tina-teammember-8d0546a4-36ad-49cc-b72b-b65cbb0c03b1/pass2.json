@@ -1,0 +1,23 @@
+{
+  "resolutions" : [ {
+    "commentary_local_id" : "src-20",
+    "phrase" : "the basis was never measured; two weeks is a guess",
+    "verdict" : "confident",
+    "binding" : {
+      "referents" : [ {
+        "iri" : "Expr_20260927_1_ReviewCommentTanyaTeamownerCbf49990Abae4Acb9019E_h91de42c40706_1",
+        "relation" : "contradicts",
+        "why" : "Contests Tanya's assertion of a two-week floor, stating the two-week duration was never measured and was merely a guess."
+      }, {
+        "iri" : "Position_PostGoLiveSoakDurationBasis",
+        "relation" : "extends",
+        "why" : "Directly engages the empirical basis and validation criteria for minimum soak duration between site cutovers."
+      } ],
+      "targets" : [ "Position_PostGoLiveSoakDurationBasis", "Narrative_ContainedPainOverUnboundedRisk" ]
+    },
+    "candidates" : null,
+    "why" : "Directly rejects Tanya's review comment proposing a two-week floor on the post-go-live soak duration basis position.",
+    "consulted" : [ "Position_PostGoLiveSoakDurationBasis", "Expr_20260927_1_ReviewCommentTanyaTeamownerCbf49990Abae4Acb9019E_h91de42c40706_1", "Narrative_ContainedPainOverUnboundedRisk", "Expr_4HalyardCutoverReview20260915_3", "Expr_4HalyardCutoverReview20260915_5", "Expr_4HalyardCutoverReview20260915_9", "Expr_4HalyardCutoverReview20260915_20" ]
+  } ],
+  "unreferenced_commentary" : [ "src-1", "src-2", "src-3", "src-19" ]
+}
