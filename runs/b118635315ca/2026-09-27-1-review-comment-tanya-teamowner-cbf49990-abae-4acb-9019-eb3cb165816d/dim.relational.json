@@ -1,0 +1,15 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "authority-ranking" ],
+    "evidence" : [ {
+      "quote" : "should name who confirms",
+      "kind" : "modal-marker"
+    } ],
+    "why" : "Prescribes explicit formal sign-off authority and gatekeeping assignment within the process.",
+    "reported" : false
+  } ],
+  "unmarked" : [ ],
+  "mints" : [ ],
+  "region_mints" : [ ]
+}
