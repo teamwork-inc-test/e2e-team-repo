@@ -1,0 +1,22 @@
+@prefix narr: <https://aswritten.ai/narrative#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+GRAPH <https://aswritten.ai/narrative#Digest_Sample_20260927_1_WeeklyRollUpRulingE2EAgenticSynthetic_hf65a0248bea8> {
+  <https://aswritten.ai/narrative#Digest_Sample_20260927_1_WeeklyRollUpRulingE2EAgenticSynthetic_hf65a0248bea8> a narr:Digest ;
+    narr:digestOf <https://aswritten.ai/narrative#Sample_20260927_1_WeeklyRollUpRulingE2EAgenticSynthetic_hf65a0248bea8> ;
+    narr:childCount "5"^^xsd:integer ;
+    narr:generatedFrom "690ac55b92114ff382079ce0d4caa5bfa4e87c44" ;
+    narr:narration """This call is a short ruling sequence on how weekly reactions reach the team. [Tanya frames the ruling](narr:Expr_20260927_1_WeeklyRollUpRulingE2EAgenticSynthetic_hf65a0248bea8_1) and then states the policy itself: [the per-run bundle stays, with a Friday roll-up added](narr:Expr_20260927_1_WeeklyRollUpRulingE2EAgenticSynthetic_hf65a0248bea8_2). [Tina's question](narr:Expr_20260927_1_WeeklyRollUpRulingE2EAgenticSynthetic_hf65a0248bea8_3) — relayed, asking whether the roll-up replaces the bundle — is answered by [Tanya's clarification that the two serve different scopes](narr:Expr_20260927_1_WeeklyRollUpRulingE2EAgenticSynthetic_hf65a0248bea8_4), delivered in an antithesis-parallel register. The sequence closes with [the formal rejection of a daily digest and its rationale](narr:Expr_20260927_1_WeeklyRollUpRulingE2EAgenticSynthetic_hf65a0248bea8_5).""" ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20260927_1_WeeklyRollUpRulingE2EAgenticSynthetic_hf65a0248bea8_1> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20260927_1_WeeklyRollUpRulingE2EAgenticSynthetic_hf65a0248bea8_2> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20260927_1_WeeklyRollUpRulingE2EAgenticSynthetic_hf65a0248bea8_3> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20260927_1_WeeklyRollUpRulingE2EAgenticSynthetic_hf65a0248bea8_4> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20260927_1_WeeklyRollUpRulingE2EAgenticSynthetic_hf65a0248bea8_5> ;
+    narr:keyPhrase [ narr:text "the per-run bundle stays, and on Fridays we add one roll-up of the week —\n> what moved, what is still open — instead of asking anyone to scroll back" ; narr:phraseSource <https://aswritten.ai/narrative#Expr_20260927_1_WeeklyRollUpRulingE2EAgenticSynthetic_hf65a0248bea8_2> ] ;
+    narr:keyPhrase [ narr:text "Tina asked whether the roll-up replaces the per-run bundle." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_20260927_1_WeeklyRollUpRulingE2EAgenticSynthetic_hf65a0248bea8_3> ] ;
+    narr:keyPhrase [ narr:text "Tanya held that it\ndoes not: the bundle is for the run, the roll-up is for the week." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_20260927_1_WeeklyRollUpRulingE2EAgenticSynthetic_hf65a0248bea8_4> ] ;
+    narr:keyPhrase [ narr:text "Rejected: a\ndaily digest, because most days carry a single run and it would repeat the\nbundle word for word." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_20260927_1_WeeklyRollUpRulingE2EAgenticSynthetic_hf65a0248bea8_5> ] ;
+    narr:variation [ narr:text "Tina's relayed question — whether the roll-up replaces the bundle — is the one open alternative, answered but not explored further." ; narr:over <https://aswritten.ai/narrative#Expr_20260927_1_WeeklyRollUpRulingE2EAgenticSynthetic_hf65a0248bea8_3> ] ;
+    narr:variation [ narr:text "A daily digest was explicitly rejected as redundant, the road not taken in the cadence decision." ; narr:over <https://aswritten.ai/narrative#Expr_20260927_1_WeeklyRollUpRulingE2EAgenticSynthetic_hf65a0248bea8_5> ] ;
+    narr:writer "z-ai/glm-5.3-flash:nitro" .
+}
