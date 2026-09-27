@@ -1,0 +1,43 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-6",
+    "regions" : [ "parallelism" ],
+    "evidence" : [ {
+      "quote" : "one site, one season",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Matched two-beat nominal phrase structure pairing numeral and noun for rhetorical compactness.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-9",
+    "regions" : [ "anaphora" ],
+    "evidence" : [ {
+      "quote" : "I said the soak between sites has to be two full weeks, and I said I'd hold us to it. That was wrong. I was wrong on the eighth and I want it struck from the plan.",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Repeated clause-initial framing ('I said... and I said...', 'That was wrong. I was wrong') emphasizing explicit self-correction.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-14",
+    "regions" : [ "antithesis" ],
+    "evidence" : [ {
+      "quote" : "rather be defensible and know where the slack isn't than conservative for a reason that turned out to be imaginary",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Deliberately set matched contrast between being defensible with known constraints versus conservative on false premises.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-15",
+    "regions" : [ "antithesis" ],
+    "evidence" : [ {
+      "quote" : "tight, not safe",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Sharp, balanced contrasting pair clarifying the operational characterization.",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-1", "src-2", "src-3", "src-4", "src-5", "src-7", "src-8", "src-10", "src-11", "src-12", "src-13", "src-16", "src-17", "src-18", "src-19", "src-20" ],
+  "unmarked_rest" : false,
+  "mints" : [ ],
+  "region_mints" : [ ]
+}
