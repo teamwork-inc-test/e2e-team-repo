@@ -1,0 +1,55 @@
+@prefix narr: <https://aswritten.ai/narrative#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+GRAPH <https://aswritten.ai/narrative#Digest_Sample_2HalyardOpsReadiness20260915> {
+  <https://aswritten.ai/narrative#Digest_Sample_2HalyardOpsReadiness20260915> a narr:Digest ;
+    narr:digestOf <https://aswritten.ai/narrative#Sample_2HalyardOpsReadiness20260915> ;
+    narr:childCount "31"^^xsd:integer ;
+    narr:generatedFrom "7197e2e5261482e8ab862a8aa0f16ad8ffe0fb2f" ;
+    narr:narration """A recorded conversation on cutover sequencing for a four-site platform migration. [Tanya opens by framing the settled cutover shape and asking for a rota-side read before it hardens](narr:Expr_2HalyardOpsReadiness20260915_2), stating the [one-site-at-a-time rule: soak clean before the next starts, never two cutovers at once](narr:Expr_2HalyardOpsReadiness20260915_7). [Freya accepts and asks for the shape](narr:Expr_2HalyardOpsReadiness20260915_5), then grounds the constraint in [supervisor arithmetic — four pulled per cutover night against eleven across the region](narr:Expr_2HalyardOpsReadiness20260915_11), sharpening it as [not hard but impossible: the people don't exist](narr:Expr_2HalyardOpsReadiness20260915_12) and [recasting last week's risk argument as arithmetic](narr:Expr_2HalyardOpsReadiness20260915_14). [Xavier ranks it the strongest case yet, ahead of the data-drift and unbounded-risk arguments](narr:Expr_2HalyardOpsReadiness20260915_15), and [Freya calls it the one that doesn't move](narr:Expr_2HalyardOpsReadiness20260915_16). [Tanya commits to leading with it at the steering group](narr:Expr_2HalyardOpsReadiness20260915_17). A second benefit surfaces in [supervisors carrying learning from the first cutover into the second](narr:Expr_2HalyardOpsReadiness20260915_18), which [Xavier generalizes as one learning curve rather than four teams erring in parallel](narr:Expr_2HalyardOpsReadiness20260915_19). [Xavier also notes the replica and reference-data rules silently assume a single open cutover window](narr:Expr_2HalyardOpsReadiness20260915_25), and [Tanya closes the parallel option outright](narr:Expr_2HalyardOpsReadiness20260915_26). The exchange ends with [Freya asking for early dates and a commitment that soaks never get shortened](narr:Expr_2HalyardOpsReadiness20260915_28), which [Tanya holds](narr:Expr_2HalyardOpsReadiness20260915_29).""" ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_1> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_10> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_11> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_12> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_13> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_14> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_15> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_16> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_17> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_18> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_19> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_2> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_20> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_21> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_22> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_23> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_24> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_25> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_26> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_27> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_28> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_29> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_3> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_30> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_31> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_4> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_5> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_6> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_7> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_8> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_9> ;
+    narr:keyPhrase [ narr:text "A site goes live, it soaks, and only when the soak is clean do we start the next. No two cutovers running at once." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_7> ] ;
+    narr:keyPhrase [ narr:text "It isn't that it's hard, it's that the people don't exist." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_12> ] ;
+    narr:keyPhrase [ narr:text "Last week you were arguing it as risk. I'm telling you it's arithmetic." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_14> ] ;
+    narr:keyPhrase [ narr:text "The one I gave was about data drift and the one Tanya gave was about unbounded risk. Yours is a hard constraint." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_15> ] ;
+    narr:keyPhrase [ narr:text "The Dockside crew were visibly better on night two than night one, and that was the same night." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_18> ] ;
+    narr:keyPhrase [ narr:text "a commitment that a soak doesn't get shortened because a date slipped" ; narr:phraseSource <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_28> ] ;
+    narr:variation [ narr:text "Freya concedes the sequencing would hold even with ample staffing, but less strongly — the learning argument is softer than the staffing one she'd put to the steering group." ; narr:over <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_22> ] ;
+    narr:variation [ narr:text "Three distinct grounds for the same decision coexist — staffing arithmetic, learning-curve benefit, and technical rule assumptions — and Xavier flags that going parallel would require rewriting the replica and reference-data rules." ; narr:over <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_14> ; narr:over <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_18> ; narr:over <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_25> ] ;
+    narr:voiceTrait [ narr:dim "style" ; narr:reading "antithesis-first — she defines a thing by naming what it is not" ; narr:text "It isn't that it's hard, it's that the people don't exist." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_12> ] ;
+    narr:voiceTrait [ narr:dim "conviction" ; narr:reading "moves from decision-framing to hard-claim register when grounding the constraint" ; narr:text "One site at a time is the only sequencing my rota can actually produce people for." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_14> ] ;
+    narr:voiceTrait [ narr:dim "power" ; narr:reading "persuades by laying out operational facts rather than pulling rank" ; narr:text "Two cutovers in the same week means eight of eleven are on cutover duty" ; narr:phraseSource <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_11> ] ;
+    narr:voiceTrait [ narr:dim "value" ; narr:reading "weights competence built through experience over plans on paper" ; narr:text "That's worth something you won't see in a plan." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_18> ] ;
+    narr:voiceTrait [ narr:dim "relational" ; narr:reading "asks as a peer even when holding a hard line" ; narr:text "The dates, as early as you can give them, and a commitment that a soak doesn't get shortened because a date slipped." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_28> ] ;
+    narr:writer "z-ai/glm-5.3-flash:nitro" .
+}

@@ -1,0 +1,54 @@
+@prefix narr: <https://aswritten.ai/narrative#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+GRAPH <https://aswritten.ai/narrative#Digest_Sample_5HalyardLegacyArchive20260922> {
+  <https://aswritten.ai/narrative#Digest_Sample_5HalyardLegacyArchive20260922> a narr:Digest ;
+    narr:digestOf <https://aswritten.ai/narrative#Sample_5HalyardLegacyArchive20260922> ;
+    narr:childCount "28"^^xsd:integer ;
+    narr:generatedFrom "7197e2e5261482e8ab862a8aa0f16ad8ffe0fb2f" ;
+    narr:narration """A migration-programme call opens with [Tanya raising a never-before-opened question from legal about what happens to records left behind](narr:Expr_5HalyardLegacyArchive20260922_1), and [Xavier asking which question](narr:Expr_5HalyardLegacyArchive20260922_2). [Tanya frames the problem: open work migrates, eleven years of closed history does not](narr:Expr_5HalyardLegacyArchive20260922_3), and [Xavier notes the vendor contract ends at last-site go-live](narr:Expr_5HalyardLegacyArchive20260922_4). [A colleague admits assuming they'd keep paying the vendor to leave it running](narr:Expr_5HalyardLegacyArchive20260922_6), which [Xavier calls the expensive, fragile answer](narr:Expr_5HalyardLegacyArchive20260922_7). [His firm view: no read-only legacy platform — extract the closed history into a flat, self-describing archive](narr:Expr_5HalyardLegacyArchive20260922_9), [defined as readable in ten years with nothing but the files](narr:Expr_5HalyardLegacyArchive20260922_11), [because the data is easy to keep and the meaning is what rots](narr:Expr_5HalyardLegacyArchive20260922_13). [Tanya adds her own argument: a live legacy platform invites dual systems of record](narr:Expr_5HalyardLegacyArchive20260922_16), [which Xavier concedes is the better argument — decay versus behaviour](narr:Expr_5HalyardLegacyArchive20260922_17), and [both go in the note](narr:Expr_5HalyardLegacyArchive20260922_18). [Retention: legal's seven years from record date, with a longer claims-relevant hold to be set by legal in writing](narr:Expr_5HalyardLegacyArchive20260922_20). [Tanya states the position — platform off at last go-live, extraction first, retention in writing before signing decommissioning terms](narr:Expr_5HalyardLegacyArchive20260922_22), [Xavier signs up](narr:Expr_5HalyardLegacyArchive20260922_23), [and the colleague insists it belongs in the vendor exit conversation, not after](narr:Expr_5HalyardLegacyArchive20260922_24). [Tanya admits she'd have signed first and discovered the requirement afterwards](narr:Expr_5HalyardLegacyArchive20260922_25), [rejects the usual order](narr:Expr_5HalyardLegacyArchive20260922_27), and [Xavier commits to scoping by end of next week](narr:Expr_5HalyardLegacyArchive20260922_28).""" ;
+    narr:covers <https://aswritten.ai/narrative#Expr_5HalyardLegacyArchive20260922_1> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_5HalyardLegacyArchive20260922_10> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_5HalyardLegacyArchive20260922_11> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_5HalyardLegacyArchive20260922_12> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_5HalyardLegacyArchive20260922_13> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_5HalyardLegacyArchive20260922_14> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_5HalyardLegacyArchive20260922_15> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_5HalyardLegacyArchive20260922_16> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_5HalyardLegacyArchive20260922_17> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_5HalyardLegacyArchive20260922_18> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_5HalyardLegacyArchive20260922_19> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_5HalyardLegacyArchive20260922_2> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_5HalyardLegacyArchive20260922_20> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_5HalyardLegacyArchive20260922_21> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_5HalyardLegacyArchive20260922_22> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_5HalyardLegacyArchive20260922_23> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_5HalyardLegacyArchive20260922_24> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_5HalyardLegacyArchive20260922_25> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_5HalyardLegacyArchive20260922_26> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_5HalyardLegacyArchive20260922_27> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_5HalyardLegacyArchive20260922_28> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_5HalyardLegacyArchive20260922_3> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_5HalyardLegacyArchive20260922_4> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_5HalyardLegacyArchive20260922_5> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_5HalyardLegacyArchive20260922_6> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_5HalyardLegacyArchive20260922_7> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_5HalyardLegacyArchive20260922_8> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_5HalyardLegacyArchive20260922_9> ;
+    narr:keyPhrase [ narr:text "We do not keep the legacy platform alive as a read-only system." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_5HalyardLegacyArchive20260922_9> ] ;
+    narr:keyPhrase [ narr:text "The data is easy to keep. The meaning is what rots." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_5HalyardLegacyArchive20260922_13> ] ;
+    narr:keyPhrase [ narr:text "Legal says seven years from the record date for the consignment data." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_5HalyardLegacyArchive20260922_20> ] ;
+    narr:keyPhrase [ narr:text "An archive that is obviously an archive kills that." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_5HalyardLegacyArchive20260922_16> ] ;
+    narr:keyPhrase [ narr:text "Mine is about decay. Yours is about behaviour." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_5HalyardLegacyArchive20260922_17> ] ;
+    narr:keyPhrase [ narr:text "Give me until the end of next week." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_5HalyardLegacyArchive20260922_28> ] ;
+    narr:variation [ narr:text "The road not taken — keeping the vendor's platform running as a paid read-only system — was raised and argued against as expensive and fragile, not dismissed unheard." ; narr:over <https://aswritten.ai/narrative#Expr_5HalyardLegacyArchive20260922_6> ; narr:over <https://aswritten.ai/narrative#Expr_5HalyardLegacyArchive20260922_7> ] ;
+    narr:variation [ narr:text "Two distinct justifications for the archive coexist: Xavier's decay argument and Tanya's behavioural argument against dual systems of record — both explicitly kept in the note." ; narr:over <https://aswritten.ai/narrative#Expr_5HalyardLegacyArchive20260922_13> ; narr:over <https://aswritten.ai/narrative#Expr_5HalyardLegacyArchive20260922_16> ; narr:over <https://aswritten.ai/narrative#Expr_5HalyardLegacyArchive20260922_17> ] ;
+    narr:variation [ narr:text "The retention number beyond legal's seven-year baseline is deliberately left open, deferred to legal in writing rather than decided in the room." ; narr:over <https://aswritten.ai/narrative#Expr_5HalyardLegacyArchive20260922_20> ] ;
+    narr:voiceTrait [ narr:dim "conviction" ; narr:reading "moves from notion to firm claim to recorded decision within one conversation — positions are held firmly once argued" ; narr:text "Then here's the view I'd take, and I'd take it firmly." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_5HalyardLegacyArchive20260922_9> ] ;
+    narr:voiceTrait [ narr:dim "power" ; narr:reading "legitimate authority exercised through consultation and persuasion rather than command" ; narr:text "Xavier, can you scope the extraction enough that I can put a number in front of the vendor?" ; narr:phraseSource <https://aswritten.ai/narrative#Expr_5HalyardLegacyArchive20260922_27> ] ;
+    narr:voiceTrait [ narr:dim "temporal" ; narr:reading "concrete and dated when framing problems, abstract when naming the principle underneath" ; narr:text "Cost and effort now, against a risk that lands years from now on someone who isn't in this room." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_5HalyardLegacyArchive20260922_15> ] ;
+    narr:voiceTrait [ narr:dim "style" ; narr:reading "antithesis and parallelism — sentences define by contrast and balance" ; narr:text "It's the only part that matters in year eight. The data is easy to keep. The meaning is what rots." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_5HalyardLegacyArchive20260922_13> ] ;
+    narr:voiceTrait [ narr:dim "value" ; narr:reading "competence and conservation — the durable, readable artefact over the convenient one" ; narr:text "Flat files, an open format, a schema next to them, and a written description of what a \"consignment status of 7\" actually meant in 2017" ; narr:phraseSource <https://aswritten.ai/narrative#Expr_5HalyardLegacyArchive20260922_11> ] ;
+    narr:voiceTrait [ narr:dim "relational" ; narr:reading "communal-sharing in the room, market-pricing when weighing the argument, authority-ranking when assigning work" ; narr:text "I'd rather we form a view than have one handed to us." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_5HalyardLegacyArchive20260922_1> ] ;
+    narr:writer "z-ai/glm-5.3-flash:nitro" .
+}
