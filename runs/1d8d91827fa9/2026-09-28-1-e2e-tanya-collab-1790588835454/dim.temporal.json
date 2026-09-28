@@ -1,0 +1,32 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "past", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "shipped the async decision widget",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Recounts the completed factual delivery of a specific artifact.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-2",
+    "regions" : [ "past", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "Velocity was 23 points",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "States a completed, concrete sprint metric from the past quarter.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-3",
+    "regions" : [ "past", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "The Zephyr integration was the key unlock",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Evaluates a completed historical event regarding a specific integration.",
+    "reported" : false
+  } ],
+  "unmarked" : [ ],
+  "unmarked_rest" : false
+}
