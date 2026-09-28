@@ -1,0 +1,44 @@
+@prefix narr: <https://aswritten.ai/narrative#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+GRAPH <https://aswritten.ai/narrative#Digest_Actor_FreyaFree> {
+  <https://aswritten.ai/narrative#Digest_Actor_FreyaFree> a narr:Digest ;
+    narr:digestOf <https://aswritten.ai/narrative#Actor_FreyaFree> ;
+    narr:childCount "18"^^xsd:integer ;
+    narr:generatedFrom "e3c75c2df1a4d6b8ce07850fdf733affe72074b3" ;
+    narr:narration """Freya Free's profile runs from a single cutover-staffing exchange into its echo across later review threads. She opens with [simple willingness](narr:Expr_2HalyardOpsReadiness20260915_4) and [a request to see the plan](narr:Expr_2HalyardOpsReadiness20260915_5), then lays out [the supervisor arithmetic behind one region's rota](narr:Expr_2HalyardOpsReadiness20260915_11) and states [that the people simply don't exist](narr:Expr_2HalyardOpsReadiness20260915_12). She reframes the disagreement [from risk to arithmetic](narr:Expr_2HalyardOpsReadiness20260915_14), names [the one constraint that doesn't move](narr:Expr_2HalyardOpsReadiness20260915_16), and adds [a second, learning-based benefit of sequencing](narr:Expr_2HalyardOpsReadiness20260915_18). She qualifies herself — [she'd still favor sequencing with more staff, but less strongly, and would lead with staffing before the steering group](narr:Expr_2HalyardOpsReadiness20260915_22) — then sets [the dates-and-soak condition she needs](narr:Expr_2HalyardOpsReadiness20260915_28) and closes [content](narr:Expr_2HalyardOpsReadiness20260915_30). That same condition and close reappear verbatim in [a later review thread](narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_11) and [another](narr:Expr_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_18), with [the same settled affirmation](narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_13) — the position carried forward, not re-argued.""" ;
+    narr:reaction """What moved: the soak condition and the settled close are no longer one-off — they now appear verbatim in [two later review threads](narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_11), so the prior narration's 'condition carried forward' line is confirmed as a repeated, dated pattern rather than a single echo. The voice profile itself didn't shift: the same antithesis-first, plain-spoken register and calm-positive closes hold across both dates, so nothing in the old reading needed revising.""" ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_18> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_11> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_13> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_15> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_17> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_11> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_12> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_14> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_16> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_18> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_20> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_22> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_28> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_30> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_4> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_5> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_8> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_9> ;
+    narr:keyPhrase [ narr:text "A cutover night pulls four of my supervisors out of the normal rota — two on the floor, one on the desk, one on the phone to the vendor." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_11> ] ;
+    narr:keyPhrase [ narr:text "I can't staff that. It isn't that it's hard, it's that the people don't exist." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_12> ] ;
+    narr:keyPhrase [ narr:text "Last week you were arguing it as risk. I'm telling you it's arithmetic." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_14> ] ;
+    narr:keyPhrase [ narr:text "The dates, as early as you can give them, and a commitment that a soak doesn't get shortened because a date slipped." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_28> ] ;
+    narr:keyPhrase [ narr:text "Then I'm content." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_30> ] ;
+    narr:variation [ narr:text "She hedges her own mainline: with more staff she'd still favor sequencing but less strongly, and would front the staffing case rather than the learning case to the steering group." ; narr:over <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_22> ] ;
+    narr:variation [ narr:text "Two reasons coexist under one position — the hard staffing arithmetic and the softer learning benefit she calls 'worth something you won't see in a plan' — and she ranks them differently by audience." ; narr:over <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_18> ; narr:over <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_22> ] ;
+    narr:voiceTrait [ narr:dim "conviction" ; narr:reading "flat claim-stating that hardens into decision when terms are met — she asserts, then settles" ; narr:text "It isn't that it's hard, it's that the people don't exist." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_12> ] ;
+    narr:voiceTrait [ narr:dim "power" ; narr:reading "expert persuasion with a pressure edge when she names conditions — she argues from her own rota, not authority" ; narr:text "Last week you were arguing it as risk. I'm telling you it's arithmetic." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_14> ] ;
+    narr:voiceTrait [ narr:dim "relational" ; narr:reading "stratified inside her own hierarchy, equality-matching outward — she bargains peers on even terms" ; narr:text "If you gave me twenty supervisors tomorrow I'd still say one at a time, for the learning reason." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_22> ] ;
+    narr:voiceTrait [ narr:dim "temporal" ; narr:reading "concrete and realis when arguing, irrealis only when setting future conditions — and she cites past nights as evidence" ; narr:text "The Dockside crew were visibly better on night two than night one, and that was the same night." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_18> ] ;
+    narr:voiceTrait [ narr:dim "value" ; narr:reading "conservation first — protecting her people's workload — with competence pride underneath" ; narr:text "If the soak gets eaten, my supervisors are back on the floor at the same time as the next cutover and we're in the same place by another route." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_28> ] ;
+    narr:voiceTrait [ narr:dim "affect" ; narr:reading "calm-positive throughout; satisfaction expressed in short, settled closings" ; narr:text "Happy to." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_4> ] ;
+    narr:voiceTrait [ narr:dim "style" ; narr:reading "antithesis-first — the sentence names what it isn't before what it is — with rota metaphors doing the explanatory work" ; narr:text "It's the one that doesn't move. The others you can argue with." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_16> ] ;
+    narr:writer "z-ai/glm-5.3-flash:nitro" .
+}

@@ -1,0 +1,77 @@
+@prefix narr: <https://aswritten.ai/narrative#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+GRAPH <https://aswritten.ai/narrative#Digest_Actor_XavierExpert> {
+  <https://aswritten.ai/narrative#Digest_Actor_XavierExpert> a narr:Digest ;
+    narr:digestOf <https://aswritten.ai/narrative#Actor_XavierExpert> ;
+    narr:childCount "47"^^xsd:integer ;
+    narr:generatedFrom "e3c75c2df1a4d6b8ce07850fdf733affe72074b3" ;
+    narr:narration """Xavier's voice here is an expert's, and it moves across four settings. In the weekly thread he [invites the steering group's push before it lands](narr:Expr_1HalyardWeekly20260908_10), argues [pairing two sites through a shared dispatch desk](narr:Expr_1HalyardWeekly20260908_12), and [flags the thinness of his own evidence](narr:Expr_1HalyardWeekly20260908_21). He sets [a replica-only rule during cutover](narr:Expr_1HalyardWeekly20260908_26), grounded in [a past outage under load](narr:Expr_1HalyardWeekly20260908_24) and priced against [a replica-lag range](narr:Expr_1HalyardWeekly20260908_28); a second thread runs from [an open question on reference-data ownership](narr:Expr_1HalyardWeekly20260908_34) to [a vendor-stays-system-of-record position](narr:Expr_1HalyardWeekly20260908_36) argued via [drift between sites](narr:Expr_1HalyardWeekly20260908_38). A week later he [ranks competing arguments for the same rule](narr:Expr_2HalyardOpsReadiness20260915_15), offers [a learning-curve rationale](narr:Expr_2HalyardOpsReadiness20260915_19), and [names a shared unstated assumption](narr:Expr_2HalyardOpsReadiness20260915_25); he also [endorses a shortened window while pricing its cost](narr:Expr_4HalyardCutoverReview20260915_13) and [puts its tightness on the record](narr:Expr_4HalyardCutoverReview20260915_15). Review-comment threads re-voice that endorsement and caveat — [agreeing while naming the slack it removes](narr:Expr_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_5), [repeating the thin-evidence caveat](narr:Expr_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_17), and [restating the one-window assumption his rules rest on](narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_9). Newest, a legacy-archive thread: he [rejects keeping the old platform alive](narr:Expr_5HalyardLegacyArchive20260922_7), argues [extracting closed history into a self-describing archive](narr:Expr_5HalyardLegacyArchive20260922_9), insists [the meaning is what rots](narr:Expr_5HalyardLegacyArchive20260922_13), [concedes a colleague's argument beats his own](narr:Expr_5HalyardLegacyArchive20260922_17), names [why the argument never gets done](narr:Expr_5HalyardLegacyArchive20260922_15), and [commits to a deadline](narr:Expr_5HalyardLegacyArchive20260922_28).""" ;
+    narr:reaction """The spine held — the four settings and their positions read as before — but two things moved. The review-comment threads now show the [one-window assumption](narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_9) stated explicitly and the tight-not-safe pair [re-voiced verbatim across three separate threads](narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_41), which firms the antithesis habit from a one-off register into a signature move. And the archive thread gained [his concession that a colleague's argument beats his own](narr:Expr_5HalyardLegacyArchive20260922_17) — a self-undercutting register the prior narration didn't carry.""" ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_10> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_12> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_14> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_21> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_24> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_26> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_28> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_3> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_30> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_32> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_34> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_36> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_38> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_40> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_44> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_17> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_24> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_26> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_5> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_7> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_27> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_30> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_41> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_43> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_45> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_47> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_49> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_51> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_6> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_9> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_15> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_19> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_25> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_4HalyardCutoverReview20260915_13> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_4HalyardCutoverReview20260915_15> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_4HalyardCutoverReview20260915_6> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_5HalyardLegacyArchive20260922_11> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_5HalyardLegacyArchive20260922_13> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_5HalyardLegacyArchive20260922_15> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_5HalyardLegacyArchive20260922_17> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_5HalyardLegacyArchive20260922_2> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_5HalyardLegacyArchive20260922_23> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_5HalyardLegacyArchive20260922_26> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_5HalyardLegacyArchive20260922_28> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_5HalyardLegacyArchive20260922_4> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_5HalyardLegacyArchive20260922_7> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_5HalyardLegacyArchive20260922_9> ;
+    narr:keyPhrase [ narr:text "during cutover, every reporting read comes off the replica" ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_26> ] ;
+    narr:keyPhrase [ narr:text "The vendor stays the system of record for reference data until the last site is live." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_36> ] ;
+    narr:keyPhrase [ narr:text "It's one site, one season." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_21> ] ;
+    narr:keyPhrase [ narr:text "One week is defensible but it has no slack in it." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_4HalyardCutoverReview20260915_13> ] ;
+    narr:keyPhrase [ narr:text "The data is easy to keep. The meaning is what rots." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_5HalyardLegacyArchive20260922_13> ] ;
+    narr:keyPhrase [ narr:text "We extract the closed history into a flat, self-describing archive" ; narr:phraseSource <https://aswritten.ai/narrative#Expr_5HalyardLegacyArchive20260922_9> ] ;
+    narr:keyPhrase [ narr:text "both assume one cutover window open at a time" ; narr:phraseSource <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_25> ] ;
+    narr:variation [ narr:text "He agrees with the shortened window while insisting on the record that it is tight, not safe — endorsement carrying a priced caveat, repeated verbatim across three review threads." ; narr:over <https://aswritten.ai/narrative#Expr_4HalyardCutoverReview20260915_13> ; narr:over <https://aswritten.ai/narrative#Expr_4HalyardCutoverReview20260915_15> ; narr:over <https://aswritten.ai/narrative#Expr_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_5> ] ;
+    narr:variation [ narr:text "His own rules rest on an assumption he admits he hadn't stated — one cutover window at a time — and would need rewriting if the programme ever went parallel." ; narr:over <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_25> ; narr:over <https://aswritten.ai/narrative#Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_9> ] ;
+    narr:variation [ narr:text "He repeatedly undercuts his own evidence base: the exception curve is one site, one season, the only support for positions he still argues." ; narr:over <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_21> ; narr:over <https://aswritten.ai/narrative#Expr_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_17> ] ;
+    narr:variation [ narr:text "In the archive thread he concedes a colleague's argument is better than his own — decay versus behaviour — rather than defending his framing." ; narr:over <https://aswritten.ai/narrative#Expr_5HalyardLegacyArchive20260922_17> ] ;
+    narr:voiceTrait [ narr:dim "conviction" ; narr:reading "claim-forward — positions stated as takes to be argued, not hedged guesses" ; narr:text "So the position I want us to take is: during cutover, every reporting read comes off the replica." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_26> ] ;
+    narr:voiceTrait [ narr:dim "power" ; narr:reading "expert persuasion — argues by naming the failure mode, then draws the rule" ; narr:text "That's the expensive answer and it's also the fragile one." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_5HalyardLegacyArchive20260922_7> ] ;
+    narr:voiceTrait [ narr:dim "temporal" ; narr:reading "concrete and dated — grounds rules in specific past incidents and named future moments" ; narr:text "Reporting on top of that is what took Dockside down for forty minutes." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_24> ] ;
+    narr:voiceTrait [ narr:dim "value" ; narr:reading "conservation-first — one source of truth and kept meaning outrank early wins" ; narr:text "Keeping one source of truth through the whole programme is worth more than getting ownership early." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_38> ] ;
+    narr:voiceTrait [ narr:dim "register" ; narr:reading "technical baseline that drops into plain-spoken aphorism at the load-bearing line" ; narr:text "The data is easy to keep. The meaning is what rots." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_5HalyardLegacyArchive20260922_13> ] ;
+    narr:voiceTrait [ narr:dim "style" ; narr:reading "antithesis-first — the sentence names what a thing is by naming what it isn't" ; narr:text "Two weeks was conservative in a place where being conservative was cheap." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_4HalyardCutoverReview20260915_13> ] ;
+    narr:voiceTrait [ narr:dim "relational" ; narr:reading "market-pricing — costs and risks weighed against each other across time" ; narr:text "Cost and effort now, against a risk that lands years from now on someone who isn't in this room." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_5HalyardLegacyArchive20260922_15> ] ;
+    narr:writer "z-ai/glm-5.3-flash:nitro" .
+}
