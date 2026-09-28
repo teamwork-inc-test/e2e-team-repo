@@ -1,0 +1,106 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-7",
+    "regions" : [ "antithesis", "parallelism" ],
+    "evidence" : [ {
+      "quote" : "I'd rather hold two weeks and shorten it with evidence than hold one week and discover we needed two.",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Opposed outcomes and actions balanced across parallel comparative clauses ('hold two weeks and shorten... than hold one week and discover...').",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-41",
+    "regions" : [ "antithesis" ],
+    "evidence" : [ {
+      "quote" : "Two weeks was conservative in a place where being conservative was cheap. One week is defensible but it has no slack in it.",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Direct antithetical contrast between the former two-week posture and the new one-week posture.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-42",
+    "regions" : [ "antithesis", "parallelism" ],
+    "evidence" : [ {
+      "quote" : "I'd rather be defensible and know where the slack isn't than conservative for a reason that turned out to be imaginary.",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Parallel comparative antithesis contrasting defensibility with ungrounded conservatism.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-43",
+    "regions" : [ "antithesis" ],
+    "evidence" : [ {
+      "quote" : "tight, not safe",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Concise antithetical pairing defining the state by explicit opposition.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-45",
+    "regions" : [ "antithesis" ],
+    "evidence" : [ {
+      "quote" : "Two weeks was conservative in a place where being conservative was cheap. One week is defensible but it has no slack in it.",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Repeated utterance contrasting two weeks versus one week in parallel antithetical frames.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-46",
+    "regions" : [ "antithesis", "parallelism" ],
+    "evidence" : [ {
+      "quote" : "I'd rather be defensible and know where the slack isn't than conservative for a reason that turned out to be imaginary.",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Parallel comparative antithesis contrasting knowing limits versus imaginary conservatism.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-47",
+    "regions" : [ "antithesis" ],
+    "evidence" : [ {
+      "quote" : "tight, not safe",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Direct antithesis contrasting 'tight' against 'safe'.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-49",
+    "regions" : [ "antithesis" ],
+    "evidence" : [ {
+      "quote" : "Two weeks was conservative in a place where being conservative was cheap. One week is defensible but it has no slack in it.",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Duplicate segment carrying antithetical balance between the two soak durations.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-50",
+    "regions" : [ "antithesis", "parallelism" ],
+    "evidence" : [ {
+      "quote" : "I'd rather be defensible and know where the slack isn't than conservative for a reason that turned out to be imaginary.",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Duplicate segment exhibiting parallel comparative antithesis.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-51",
+    "regions" : [ "antithesis" ],
+    "evidence" : [ {
+      "quote" : "tight, not safe",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Duplicate segment with antithetical pair 'tight, not safe'.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-53",
+    "regions" : [ "rule-of-three" ],
+    "evidence" : [ {
+      "quote" : "Four sites, three soaks between them, a week off each.",
+      "kind" : "framing-move"
+    } ],
+    "why" : "A deliberate three-part rhythmic cadence breaking down the math in a triad.",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-1", "src-2", "src-3", "src-4", "src-5", "src-6", "src-8", "src-9", "src-10", "src-11", "src-12", "src-13", "src-14", "src-15", "src-16", "src-17", "src-18", "src-19", "src-20", "src-21", "src-22", "src-23", "src-24", "src-25", "src-26", "src-27", "src-28", "src-29", "src-30", "src-31", "src-32", "src-33", "src-34", "src-35", "src-36", "src-37", "src-38", "src-39", "src-40", "src-44", "src-48", "src-52", "src-54", "src-55", "src-56", "src-57", "src-58", "src-59", "src-60", "src-61", "src-62" ],
+  "unmarked_rest" : false,
+  "mints" : [ ],
+  "region_mints" : [ ]
+}
