@@ -1,0 +1,150 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-7",
+    "regions" : [ "legitimate" ],
+    "evidence" : [ {
+      "quote" : "I just want it on the record that the new number is tight, not safe.",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Entering a formal stance onto the procedural record.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-8",
+    "regions" : [ "legitimate" ],
+    "evidence" : [ {
+      "quote" : "For the record then: the soak between sites is one week, not two, and my note from the eighth about two weeks should be read as superseded by this.",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Formally declaring a prior position superseded for the record via legitimate process authority.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-9",
+    "regions" : [ "legitimate", "pressure" ],
+    "evidence" : [ {
+      "quote" : "I want it struck from the plan.",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Directing an explicit modification to the formal plan/record.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-10",
+    "regions" : [ "informational", "rational-persuasion" ],
+    "evidence" : [ {
+      "quote" : "The reason the queue took nine days to flatten at Dockside is that the old reconciliation job ran weekly and every run threw a fresh batch of exceptions.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Providing underlying technical facts and log analysis to dismantle previous assumptions.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-11",
+    "regions" : [ "informational", "rational-persuasion" ],
+    "evidence" : [ {
+      "quote" : "Nothing in the new platform runs on a weekly cycle — reconciliation is continuous now.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Supplying architectural facts to rationally persuade the team that the prior metric is obsolete.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-12",
+    "regions" : [ "rational-persuasion" ],
+    "evidence" : [ {
+      "quote" : "Strip the reconciliation cycles out of the Dockside curve and the underlying exception rate is flat by day four.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Constructing an evidence-based argument calculating the new timeline mathematically.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-13",
+    "regions" : [ "legitimate", "pressure" ],
+    "evidence" : [ {
+      "quote" : "That's the Dockside number, and I'd hold us to it.",
+      "kind" : "commitment-marker"
+    } ],
+    "why" : "Insisting on holding the team to an empirical standard as an explicit operational constraint.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-18",
+    "regions" : [ "pressure", "rational-persuasion" ],
+    "evidence" : [ {
+      "quote" : "The dates, as early as you can give them, and a commitment that a soak doesn't get shortened because a date slipped.",
+      "kind" : "modal-marker"
+    } ],
+    "why" : "Demanding operational commitments and binding schedules based on resource constraints.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-19",
+    "regions" : [ "legitimate" ],
+    "evidence" : [ {
+      "quote" : "That's fair and I'll hold it.",
+      "kind" : "commitment-marker"
+    } ],
+    "why" : "Accepting and ratifying a requested commitment.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-20",
+    "regions" : [ "legitimate", "pressure" ],
+    "evidence" : [ {
+      "quote" : "I want it struck from the plan.",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Directing procedural removal of a prior statement from the official project plan.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-21",
+    "regions" : [ "informational", "rational-persuasion" ],
+    "evidence" : [ {
+      "quote" : "The reason the queue took nine days to flatten at Dockside is that the old reconciliation job ran weekly and every run threw a fresh batch of exceptions.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Supplying data analysis from logs to rationally explain past metric misinterpretation.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-22",
+    "regions" : [ "informational", "rational-persuasion" ],
+    "evidence" : [ {
+      "quote" : "Nothing in the new platform runs on a weekly cycle — reconciliation is continuous now.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Supplying technical facts about the new system architecture to disprove the old baseline.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-23",
+    "regions" : [ "rational-persuasion" ],
+    "evidence" : [ {
+      "quote" : "Strip the reconciliation cycles out of the Dockside curve and the underlying exception rate is flat by day four.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Deducing the proper duration through logical decomposition of data curves.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-26",
+    "regions" : [ "legitimate" ],
+    "evidence" : [ {
+      "quote" : "I just want it on the record that the new number is tight, not safe.",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Requesting a specific caveat be preserved in the formal project record.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-27",
+    "regions" : [ "legitimate" ],
+    "evidence" : [ {
+      "quote" : "Right. For the record then: the soak between sites is one week, not two, and my note from the eighth about two weeks should be read as superseded by this.",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Exercising legitimate procedural role to supersede a previous recorded decision.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-30",
+    "regions" : [ "legitimate" ],
+    "evidence" : [ {
+      "quote" : "the one-week soak should name who signs off the second site before it starts",
+      "kind" : "modal-marker"
+    } ],
+    "why" : "Proposing formal procedural governance and sign-off authority.",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-1", "src-2", "src-3", "src-4", "src-5", "src-6", "src-14", "src-15", "src-16", "src-17", "src-24", "src-25", "src-28" ],
+  "mints" : [ ],
+  "region_mints" : [ ]
+}
