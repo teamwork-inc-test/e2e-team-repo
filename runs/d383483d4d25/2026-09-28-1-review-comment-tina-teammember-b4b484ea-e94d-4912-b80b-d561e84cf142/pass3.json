@@ -1,0 +1,23 @@
+{
+  "reconciliations" : [ {
+    "segment_ids" : [ "src-30" ],
+    "note" : "the one-week soak should name who signs off the second site before it starts",
+    "targets" : [ "Position_PostGoLiveSoakDurationBasis", "Narrative_ContainedPainOverUnboundedRisk" ],
+    "referents" : [ {
+      "ref" : "Position_PostGoLiveSoakDurationBasis",
+      "relation" : "extends"
+    } ],
+    "principal" : "Tina Team"
+  } ],
+  "standalone" : [ {
+    "segment_id" : "src-1",
+    "why" : "verdict new: procedural framing commentary with no prior referent"
+  }, {
+    "segment_id" : "src-2",
+    "why" : "verdict new: procedural framing commentary with no prior referent"
+  }, {
+    "segment_id" : "src-3",
+    "why" : "verdict new: procedural framing commentary with no prior referent"
+  } ],
+  "held" : [ ]
+}
