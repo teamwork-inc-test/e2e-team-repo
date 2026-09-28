@@ -1,0 +1,50 @@
+PREFIX narr: <https://aswritten.ai/narrative#>
+PREFIX aswr: <https://aswritten.ai/aswr#>
+PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX dct:  <http://purl.org/dc/terms/>
+PREFIX xsd:  <http://www.w3.org/2001/XMLSchema#>
+
+INSERT DATA {
+  GRAPH aswr:Tx_20260928T010519Z {
+    aswr:ReviewActs_b4b484ea-e94d-4912-b80b-d561e84cf142 a prov:Activity ;
+        prov:generatedAtTime "2026-09-28T01:05:19.084Z"^^xsd:dateTime ;
+        prov:wasAttributedTo "tina+staging@aswritten.ai" ;
+        aswr:kind "review-acts" ;
+        aswr:batch "b4b484ea-e94d-4912-b80b-d561e84cf142" ;
+        aswr:repo "teamwork-inc-test/e2e-team-repo" ;
+        aswr:stream "qa-701-20260927" ;
+        dct:isPartOf aswr:Tx_20260928T010519Z .
+
+    aswr:ReviewAct_pos-a6acb9066bd038bacceb2dce432c3242ab20144eb1bd751e946cd2cb59a54eac a aswr:ReviewAct ;
+        aswr:op "pos-a6acb9066bd038bacceb2dce432c3242ab20144eb1bd751e946cd2cb59a54eac" ;
+        aswr:verb "request-changes" ;
+        prov:wasAttributedTo "tina+staging@aswritten.ai" ;
+        aswr:actor "tina+staging@aswritten.ai" ;
+        aswr:footing "self" ;
+        aswr:position "https://aswritten.ai/narrative#Position_PostGoLiveSoakDurationBasis" ;
+        aswr:target narr:Expr_4HalyardCutoverReview20260915_13 ;
+        aswr:target narr:Expr_4HalyardCutoverReview20260915_14 ;
+        aswr:target narr:Expr_4HalyardCutoverReview20260915_15 ;
+        aswr:target narr:Expr_4HalyardCutoverReview20260915_20 ;
+        aswr:target narr:Expr_4HalyardCutoverReview20260915_3 ;
+        aswr:target narr:Expr_4HalyardCutoverReview20260915_5 ;
+        aswr:target narr:Expr_4HalyardCutoverReview20260915_7 ;
+        aswr:target narr:Expr_4HalyardCutoverReview20260915_9 ;
+        aswr:target narr:Expr_1HalyardWeekly20260908_17 ;
+        aswr:target narr:Expr_1HalyardWeekly20260908_19 ;
+        aswr:target narr:Expr_1HalyardWeekly20260908_20 ;
+        aswr:target narr:Expr_1HalyardWeekly20260908_22 ;
+        aswr:removed narr:Expr_1HalyardWeekly20260908_17 ;
+        aswr:removed narr:Expr_1HalyardWeekly20260908_19 ;
+        aswr:removed narr:Expr_1HalyardWeekly20260908_20 ;
+        aswr:removed narr:Expr_1HalyardWeekly20260908_22 ;
+        aswr:targetKind "position" ;
+        aswr:change ".aswritten/memories/2026-09-23-4-halyard-cutover-review-2026-09-15.md" ;
+        aswr:revision "https://aswritten.ai/narrative#PositionRevision_PostGoLiveSoakDurationBasis_4HalyardCutoverReview20260915" ;
+        aswr:comment "the one-week soak should name who signs off the second site before it starts" ;
+        prov:generatedAtTime "2026-09-28T01:05:18.864Z"^^xsd:dateTime ;
+        dct:isPartOf aswr:ReviewActs_b4b484ea-e94d-4912-b80b-d561e84cf142 .
+  }
+}
