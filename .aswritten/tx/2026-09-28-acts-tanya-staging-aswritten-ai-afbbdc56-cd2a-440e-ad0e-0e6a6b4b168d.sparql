@@ -1,0 +1,35 @@
+PREFIX narr: <https://aswritten.ai/narrative#>
+PREFIX aswr: <https://aswritten.ai/aswr#>
+PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX dct:  <http://purl.org/dc/terms/>
+PREFIX xsd:  <http://www.w3.org/2001/XMLSchema#>
+
+INSERT DATA {
+  GRAPH aswr:Tx_20260928T011310Z {
+    aswr:ReviewActs_afbbdc56-cd2a-440e-ad0e-0e6a6b4b168d a prov:Activity ;
+        prov:generatedAtTime "2026-09-28T01:13:10.157Z"^^xsd:dateTime ;
+        prov:wasAttributedTo "tanya+staging@aswritten.ai" ;
+        aswr:kind "review-acts" ;
+        aswr:batch "afbbdc56-cd2a-440e-ad0e-0e6a6b4b168d" ;
+        aswr:repo "teamwork-inc-test/e2e-team-repo" ;
+        aswr:stream "qa-701-20260927" ;
+        dct:isPartOf aswr:Tx_20260928T011310Z .
+
+    aswr:ReviewAct_pos-779a10a492815a7fc0b4604f12cca4db700411fc2636e0a52282dfe4e4fafd16 a aswr:ReviewAct ;
+        aswr:op "pos-779a10a492815a7fc0b4604f12cca4db700411fc2636e0a52282dfe4e4fafd16" ;
+        aswr:verb "reject" ;
+        prov:wasAttributedTo "tanya+staging@aswritten.ai" ;
+        aswr:actor "tanya+staging@aswritten.ai" ;
+        aswr:footing "self" ;
+        aswr:position "https://aswritten.ai/narrative#Position_PostGoLiveSoakDurationBasis" ;
+        aswr:target narr:Expr_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_30 ;
+        aswr:targetKind "position" ;
+        aswr:change ".aswritten/memories/2026-09-28-1-review-comment-tina-teammember-b4b484ea-e94d-4912-b80b-d561e84cf142.md" ;
+        aswr:revision ".aswritten/memories/2026-09-28-1-review-comment-tina-teammember-b4b484ea-e94d-4912-b80b-d561e84cf142.md@base" ;
+        aswr:comment "the one-week figure is as unmeasured as the two weeks was; nobody has run a soak yet" ;
+        prov:generatedAtTime "2026-09-28T01:13:10.041Z"^^xsd:dateTime ;
+        dct:isPartOf aswr:ReviewActs_afbbdc56-cd2a-440e-ad0e-0e6a6b4b168d .
+  }
+}
