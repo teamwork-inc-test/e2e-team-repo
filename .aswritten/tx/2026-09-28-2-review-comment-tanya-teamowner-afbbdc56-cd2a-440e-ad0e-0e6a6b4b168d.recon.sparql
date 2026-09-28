@@ -1,0 +1,50 @@
+PREFIX narr: <https://aswritten.ai/narrative#>
+PREFIX aswr: <https://aswritten.ai/aswr#>
+PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX dct:  <http://purl.org/dc/terms/>
+PREFIX xsd:  <http://www.w3.org/2001/XMLSchema#>
+PREFIX oa:   <http://www.w3.org/ns/oa#>
+PREFIX xkos: <http://rdf-vocabulary.ddialliance.org/xkos#>
+
+INSERT DATA {
+  aswr:Tx_20260928T011316Z a prov:Activity ;
+      prov:generatedAtTime "2026-09-28T01:13:16Z"^^xsd:dateTime ;
+      prov:wasAssociatedWith "aswritten.ai" ;
+      prov:wasAttributedTo "scarlet@aswritten.ai" ;
+      aswr:pipelinePin "8dd07a49bda8" ;
+      dct:title "Multipass reconciliations: 20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759" ;
+      prov:generated narr:Recon_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_1 .
+} ;
+INSERT DATA {
+  GRAPH aswr:Tx_20260928T011316Z {
+    narr:Recon_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_1 a narr:Reconciliation ;
+        oa:hasTarget narr:Position_PostGoLiveSoakDurationBasis ;
+        oa:hasTarget narr:Narrative_ContainedPainOverUnboundedRisk ;
+        narr:principal narr:Actor_TanyaTeamowner ;
+        skos:note "Tanya TeamOwner rejected the change under review" ;
+        narr:contradicts narr:Expr_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_30 ;
+        narr:extends narr:Position_PostGoLiveSoakDurationBasis ;
+        dct:source narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_61 ;
+        prov:generatedAtTime "2026-09-28T01:13:16Z"^^xsd:dateTime .
+
+    aswr:Run_20260928T011316Z_pass2 a prov:Activity ;
+        aswr:runPass "pass2" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/d2125d95f75f/2026-09-28-2-review-comment-tanya-teamowner-afbbdc56-cd2a-440e-ad0e-0e6a6b4b168d/pass2.json" ;
+        dct:isPartOf aswr:Tx_20260928T011316Z ;
+        prov:generatedAtTime "2026-09-28T01:13:16Z"^^xsd:dateTime .
+
+    aswr:Run_20260928T011316Z_pass3 a prov:Activity ;
+        aswr:runPass "pass3" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/d2125d95f75f/2026-09-28-2-review-comment-tanya-teamowner-afbbdc56-cd2a-440e-ad0e-0e6a6b4b168d/pass3.json" ;
+        prov:generated narr:Recon_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_1 ;
+        dct:isPartOf aswr:Tx_20260928T011316Z ;
+        prov:generatedAtTime "2026-09-28T01:13:16Z"^^xsd:dateTime .
+
+    narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_2 narr:see narr:Position_PostGoLiveSoakDurationBasis .
+    narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_60 narr:see narr:Position_SiteCutoverSequencingStrategy .
+  }
+}
