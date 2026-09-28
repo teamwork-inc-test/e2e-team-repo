@@ -1,0 +1,527 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "past", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "Tanya TeamOwner reviewed a change to a position and rejected it",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Narrates a specific completed action in the past.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-2",
+    "regions" : [ "present", "abstract" ],
+    "evidence" : [ {
+      "quote" : "how is the minimum soak duration between site cutovers determined and validated?",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Inquires about general procedural determination and validation principles.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-3",
+    "regions" : [ "future", "irrealis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "the one-week soak should name who signs off the second site before it starts",
+      "kind" : "modal-marker"
+    } ],
+    "why" : "Prescribes a requirement for an upcoming specific soak schedule.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-4",
+    "regions" : [ "past", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "Dockside pilot, back in the spring. We watched the exception queue after go-live and it didn't flatten out until day nine or ten.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Recalls specific historical observations from the Dockside pilot.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-5",
+    "regions" : [ "present", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "Two weeks, from the Dockside exception curve.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Affirms the specific reasoning on the record in the current conversation.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-6",
+    "regions" : [ "present", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "It's one site, one season.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Evaluates the currently available empirical evidence from the specific pilot.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-7",
+    "regions" : [ "future", "irrealis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "I'd rather hold two weeks and shorten it with evidence",
+      "kind" : "modal-marker"
+    } ],
+    "why" : "Expresses a preference regarding how to handle the upcoming soak duration.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-9",
+    "regions" : [ "present", "realis", "abstract" ],
+    "evidence" : [ {
+      "quote" : "The replica rule and the reference-data rule both assume one cutover window open at a time",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Articulates the current structural assumptions built into rules.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-10",
+    "regions" : [ "future", "irrealis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "Then let's not go parallel.",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Proposes a concrete operational path forward for future cutovers.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-11",
+    "regions" : [ "future", "irrealis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "a commitment that a soak doesn't get shortened because a date slipped",
+      "kind" : "commitment-marker"
+    } ],
+    "why" : "Requests forward-looking commitments about future soak durations and supervisor staffing.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-12",
+    "regions" : [ "future", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "That's fair and I'll hold it.",
+      "kind" : "commitment-marker"
+    } ],
+    "why" : "Commits definitively to upholding the condition going forward.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-13",
+    "regions" : [ "present", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "Then I'm content.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "States present satisfaction with the commitment given.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-14",
+    "regions" : [ "future", "irrealis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "Then let's not go parallel.",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Repeats proposal on how to execute upcoming cutovers.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-15",
+    "regions" : [ "future", "irrealis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "a commitment that a soak doesn't get shortened because a date slipped",
+      "kind" : "commitment-marker"
+    } ],
+    "why" : "Repeats request for forward-looking commitments.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-16",
+    "regions" : [ "future", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "That's fair and I'll hold it.",
+      "kind" : "commitment-marker"
+    } ],
+    "why" : "Repeats commitment to hold the condition.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-17",
+    "regions" : [ "present", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "Then I'm content.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Repeats expression of present satisfaction.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-18",
+    "regions" : [ "present", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "Thanks, Freya. Genuinely useful.",
+      "kind" : "plain-signal"
+    } ],
+    "why" : "Presents immediate gratitude and assessment.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-19",
+    "regions" : [ "present", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "I need to correct something I said",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Focuses on an immediate conversational need to correct a past statement.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-21",
+    "regions" : [ "past", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "On the eighth I said the soak between sites has to be two full weeks",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Refers to a specific past statement made on the eighth.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-23",
+    "regions" : [ "past", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "The reason the queue took nine days to flatten at Dockside is that the old reconciliation job ran weekly",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Explains historical log data and past system mechanics from Dockside.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-24",
+    "regions" : [ "past", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "On the eighth I said the soak between sites has to be two full weeks",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Recalls past utterance from the eighth.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-26",
+    "regions" : [ "past", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "The reason the queue took nine days to flatten at Dockside is that the old reconciliation job ran weekly",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Recounts historical findings from Dockside logs.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-27",
+    "regions" : [ "past", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "And that job is gone.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Asserts the historical retirement of the job.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-28",
+    "regions" : [ "present", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "reconciliation is continuous now",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Describes the current architectural state compared to past retirement.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-29",
+    "regions" : [ "past", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "The reason the queue took nine days to flatten at Dockside is that the old reconciliation job ran weekly",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Recounts past system behavior at Dockside.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-30",
+    "regions" : [ "past", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "And that job is gone.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Asserts that the legacy job has been removed.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-31",
+    "regions" : [ "present", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "reconciliation is continuous now",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Describes current system state.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-32",
+    "regions" : [ "present", "concrete" ],
+    "evidence" : [ {
+      "quote" : "So what is the soak?",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Asks for the updated duration metric.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-33",
+    "regions" : [ "future", "irrealis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "One week is the soak, and please don't hold the plan to two weeks",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Proposes the revised one-week duration for the plan going forward.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-34",
+    "regions" : [ "present", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "reconciliation is continuous now",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "States present operational baseline.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-35",
+    "regions" : [ "present", "concrete" ],
+    "evidence" : [ {
+      "quote" : "So what is the soak?",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Inquires about the new figure.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-36",
+    "regions" : [ "future", "irrealis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "One week is the soak, and please don't hold the plan to two weeks",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Proposes planned duration for future execution.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-37",
+    "regions" : [ "future", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "We are still going one site at a time, and we are still soaking between sites before the next one starts.",
+      "kind" : "commitment-marker"
+    } ],
+    "why" : "Reasserts the ongoing concrete execution plan.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-38",
+    "regions" : [ "present", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "The sequencing is right. It's the number I put on the soak that was wrong.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Affirms current agreement on sequencing while acknowledging past numerical error.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-39",
+    "regions" : [ "present", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "The sequencing is right. It's the number I put on the soak that was wrong.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Affirms current state of the sequencing decision.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-40",
+    "regions" : [ "past", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "I've already said the sequencing out loud to Freya this morning",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Refers to a conversation that took place earlier in the day.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-41",
+    "regions" : [ "present", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "One week is defensible but it has no slack in it.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Evaluates the properties of the newly proposed one-week number.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-42",
+    "regions" : [ "present", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "I'd rather be defensible and know where the slack isn't",
+      "kind" : "modal-marker"
+    } ],
+    "why" : "States present stance on defensibility versus imaginary conservative margins.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-43",
+    "regions" : [ "present", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "the new number is tight, not safe",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Places a specific characterization of the new figure on record.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-44",
+    "regions" : [ "past", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "I've already said the sequencing out loud to Freya this morning",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Recalls morning discussion with Freya.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-45",
+    "regions" : [ "present", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "One week is defensible but it has no slack in it.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Evaluates current tightness of the one-week soak.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-46",
+    "regions" : [ "present", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "I'd rather be defensible and know where the slack isn't",
+      "kind" : "modal-marker"
+    } ],
+    "why" : "Expresses preference for defensibility.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-47",
+    "regions" : [ "present", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "the new number is tight, not safe",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Records assessment of the new number.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-48",
+    "regions" : [ "future", "irrealis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "does this change the four-site total?",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Inquires about impact on the upcoming four-site rollout schedule.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-49",
+    "regions" : [ "present", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "One week is defensible but it has no slack in it.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Characterizes the one-week duration.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-50",
+    "regions" : [ "present", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "I'd rather be defensible and know where the slack isn't",
+      "kind" : "modal-marker"
+    } ],
+    "why" : "States present preference.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-51",
+    "regions" : [ "present", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "the new number is tight, not safe",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Affirms characterization of the figure.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-52",
+    "regions" : [ "future", "irrealis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "does this change the four-site total?",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Asks about aggregate rollout schedule implications.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-53",
+    "regions" : [ "future", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "It takes three weeks out of the programme. Four sites, three soaks between them, a week off each.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Calculates the concrete schedule arithmetic for the planned programme.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-54",
+    "regions" : [ "future", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "Which I will not be spending. That goes into the Clyde buffer.",
+      "kind" : "commitment-marker"
+    } ],
+    "why" : "Allocates the freed-up time to the specific Clyde buffer in future planning.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-55",
+    "regions" : [ "past", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "I'd assumed so.",
+      "kind" : "epistemic-verb"
+    } ],
+    "why" : "Reflects prior assumption.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-56",
+    "regions" : [ "present", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "For the record then: the soak between sites is one week, not two, and my note from the eighth about two weeks should be read as superseded by this.",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Formally supersedes the prior instruction on record.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-57",
+    "regions" : [ "future", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "I'll write it up today.",
+      "kind" : "commitment-marker"
+    } ],
+    "why" : "Commits to writing up the documentation today.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-58",
+    "regions" : [ "past", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "Thank you for bringing it rather than letting it ride.",
+      "kind" : "plain-signal"
+    } ],
+    "why" : "Acknowledges and appreciates the immediate past action of raising the correction.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-59",
+    "regions" : [ "future", "irrealis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "the one-week soak should name who signs off the second site before it starts",
+      "kind" : "modal-marker"
+    } ],
+    "why" : "Specifies a planned sign-off requirement for the future cutovers.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-60",
+    "regions" : [ "present", "abstract" ],
+    "evidence" : [ {
+      "quote" : "how should multi-site cutovers be sequenced when operational containment conflicts with local site friction?",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Frames an abstract policy question regarding conflict between containment and local friction.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-61",
+    "regions" : [ "past", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "Tanya TeamOwner rejected the change under review",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Records the rejection event.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-62",
+    "regions" : [ "present", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "the one-week figure is as unmeasured as the two weeks was; nobody has run a soak yet",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Evaluates the current epistemic status of the one-week figure given that no soak has been run.",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-8", "src-20", "src-22", "src-25" ],
+  "unmarked_rest" : false
+}
