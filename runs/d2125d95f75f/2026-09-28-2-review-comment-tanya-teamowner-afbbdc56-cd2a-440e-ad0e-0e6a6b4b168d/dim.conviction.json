@@ -1,0 +1,464 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "Tanya TeamOwner reviewed a change to a position and rejected it",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Formal rejection of a change is a performed operational decision.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-3",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "the one-week soak should name who signs off the second site before it starts",
+      "kind" : "modal-marker"
+    } ],
+    "why" : "Normative directive proposal stated as an operational expectation.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-4",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "Two weeks gives you the flattening plus a few days to actually look at what flattened.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Substantive empirical claim defended with historical observation.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-5",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "That's the reasoning I wanted on the record. Two weeks, from the Dockside exception curve.",
+      "kind" : "commitment-marker"
+    } ],
+    "why" : "Placing the two-week requirement on the record settles the decision.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-6",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "I'll note that the exception curve is the only evidence we have for it. It's one site, one season.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Epistemic qualification asserting the evidentiary limit.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-7",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "I'd rather hold two weeks and shorten it with evidence than hold one week and discover we needed two.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Defending a conservative operational posture subject to future evidence.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-8",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "Agreed.",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Explicit ratification of the agreed position.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-9",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "The replica rule and the reference-data rule both assume one cutover window open at a time",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Asserting the architectural assumption underpinning the cutover rules.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-10",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "Then let's not go parallel.",
+      "kind" : "commitment-marker"
+    } ],
+    "why" : "Operational decision ruling out parallel execution.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-11",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "a commitment that a soak doesn't get shortened because a date slipped",
+      "kind" : "commitment-marker"
+    } ],
+    "why" : "Demanding a hard boundary condition for operational safety.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-12",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "That's fair and I'll hold it.",
+      "kind" : "commitment-marker"
+    } ],
+    "why" : "Commissive commitment locking in the requested condition.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-13",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "Then I'm content.",
+      "kind" : "plain-signal"
+    } ],
+    "why" : "Signaling alignment and settlement on the agreed terms.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-14",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "Then let's not go parallel.",
+      "kind" : "commitment-marker"
+    } ],
+    "why" : "Operational decision ruling out parallel execution.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-15",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "a commitment that a soak doesn't get shortened because a date slipped",
+      "kind" : "commitment-marker"
+    } ],
+    "why" : "Demanding a hard operational commitment.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-16",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "That's fair and I'll hold it.",
+      "kind" : "commitment-marker"
+    } ],
+    "why" : "Explicit commissive commitment.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-17",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "Then I'm content.",
+      "kind" : "plain-signal"
+    } ],
+    "why" : "Settling agreement on the protocol.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-19",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "I need to correct something I said",
+      "kind" : "commitment-marker"
+    } ],
+    "why" : "Opening statement of an epistemic correction.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-21",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "That was wrong. I was wrong on the eighth and I want it struck from the plan.",
+      "kind" : "commitment-marker"
+    } ],
+    "why" : "Direct demand to revoke and strike a prior decision from the plan.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-23",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "It was never about the site settling.",
+      "kind" : "intensifier"
+    } ],
+    "why" : "Re-evaluating the root cause of past metrics with a strong assertion.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-24",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "That was wrong. I was wrong on the eighth and I want it struck from the plan.",
+      "kind" : "commitment-marker"
+    } ],
+    "why" : "Direct demand to revoke prior decision from the plan.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-26",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "It was never about the site settling.",
+      "kind" : "intensifier"
+    } ],
+    "why" : "Re-evaluating past metric findings.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-27",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "And that job is gone.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Factual assertion confirming system state.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-28",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "Nothing in the new platform runs on a weekly cycle — reconciliation is continuous now.",
+      "kind" : "intensifier"
+    } ],
+    "why" : "Defending the architectural premise that invalidates the prior 2-week baseline.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-29",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "It was never about the site settling.",
+      "kind" : "intensifier"
+    } ],
+    "why" : "Empirical re-evaluation.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-30",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "And that job is gone.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Factual confirmation.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-31",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "Nothing in the new platform runs on a weekly cycle — reconciliation is continuous now.",
+      "kind" : "intensifier"
+    } ],
+    "why" : "Architectural claim.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-33",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "One week is the soak, and please don't hold the plan to two weeks on my say-so, because I was wrong on the eighth.",
+      "kind" : "commitment-marker"
+    } ],
+    "why" : "Asserting the new one-week duration based on revised data.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-34",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "Nothing in the new platform runs on a weekly cycle — reconciliation is continuous now.",
+      "kind" : "intensifier"
+    } ],
+    "why" : "Architectural claim.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-36",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "One week is the soak, and please don't hold the plan to two weeks on my say-so, because I was wrong on the eighth.",
+      "kind" : "commitment-marker"
+    } ],
+    "why" : "Asserting the revised one-week proposal.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-37",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "We are still going one site at a time, and we are still soaking between sites before the next one starts.",
+      "kind" : "commitment-marker"
+    } ],
+    "why" : "Reaffirming the established operational constraint as non-negotiable.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-38",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "That doesn't move at all. The sequencing is right.",
+      "kind" : "commitment-marker"
+    } ],
+    "why" : "Ratifying that the sequencing decision remains fixed.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-39",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "That doesn't move at all. The sequencing is right.",
+      "kind" : "commitment-marker"
+    } ],
+    "why" : "Ratifying fixed sequencing.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-40",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "I've already said the sequencing out loud to Freya this morning",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Noting the sequencing has already been committed externally.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-41",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "One week is defensible but it has no slack in it.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Evaluative assessment of the risk profile of the new soak duration.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-42",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "I'd rather be defensible and know where the slack isn't than conservative for a reason that turned out to be imaginary.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Defending the choice of empirical tightness over fictitious conservatism.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-43",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "I just want it on the record that the new number is tight, not safe.",
+      "kind" : "commitment-marker"
+    } ],
+    "why" : "Formally asserting risk caveat onto the record.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-44",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "I've already said the sequencing out loud to Freya this morning",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Reaffirming established external commitment.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-45",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "One week is defensible but it has no slack in it.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Evaluative assessment of slack.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-46",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "I'd rather be defensible and know where the slack isn't than conservative for a reason that turned out to be imaginary.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Defending empirical tightness.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-47",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "I just want it on the record that the new number is tight, not safe.",
+      "kind" : "commitment-marker"
+    } ],
+    "why" : "Asserting risk caveat for the record.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-49",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "One week is defensible but it has no slack in it.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Evaluative claim about slack.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-50",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "I'd rather be defensible and know where the slack isn't than conservative for a reason that turned out to be imaginary.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Defending empirical tightness.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-51",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "I just want it on the record that the new number is tight, not safe.",
+      "kind" : "commitment-marker"
+    } ],
+    "why" : "Asserting risk caveat.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-53",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "It takes three weeks out of the programme. Four sites, three soaks between them, a week off each.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Plain assertion calculating schedule impact.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-54",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "Which I will not be spending. That goes into the Clyde buffer.",
+      "kind" : "commitment-marker"
+    } ],
+    "why" : "Authoritative decision on allocation of recovered schedule buffer.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-55",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "I'd assumed so.",
+      "kind" : "epistemic-verb"
+    } ],
+    "why" : "Expressing prior baseline assumption.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-56",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "For the record then: the soak between sites is one week, not two, and my note from the eighth about two weeks should be read as superseded by this.",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Explicit performed declarative updating and ratifying the official record.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-57",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "I'll write it up today.",
+      "kind" : "commitment-marker"
+    } ],
+    "why" : "Commissive execution of documentation task.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-59",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "the one-week soak should name who signs off the second site before it starts",
+      "kind" : "modal-marker"
+    } ],
+    "why" : "Normative directive proposal.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-61",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "Tanya TeamOwner rejected the change under review",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Recorded formal rejection decision.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-62",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "the one-week figure is as unmeasured as the two weeks was; nobody has run a soak yet",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Asserting an unmeasured empirical state to justify rejection.",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-2", "src-18", "src-20", "src-22", "src-25", "src-32", "src-35", "src-48", "src-52", "src-58", "src-60" ],
+  "mints" : [ ]
+}
