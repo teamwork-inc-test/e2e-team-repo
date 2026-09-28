@@ -1,0 +1,53 @@
+{
+  "resolutions" : [ {
+    "commentary_local_id" : "src-2",
+    "phrase" : "how is the minimum soak duration between site cutovers determined and validated?",
+    "verdict" : "confident",
+    "binding" : {
+      "referents" : [ {
+        "iri" : "Position_PostGoLiveSoakDurationBasis",
+        "relation" : "see",
+        "why" : "Verbatim frame question for the post-go-live soak duration basis position."
+      } ],
+      "targets" : [ "Position_PostGoLiveSoakDurationBasis", "Narrative_ContainedPainOverUnboundedRisk" ]
+    },
+    "candidates" : null,
+    "why" : "Direct verbatim match to the frame question of Position_PostGoLiveSoakDurationBasis.",
+    "consulted" : [ "Position_PostGoLiveSoakDurationBasis", "Narrative_ContainedPainOverUnboundedRisk" ]
+  }, {
+    "commentary_local_id" : "src-60",
+    "phrase" : "how should multi-site cutovers be sequenced when operational containment conflicts with local site friction?",
+    "verdict" : "confident",
+    "binding" : {
+      "referents" : [ {
+        "iri" : "Position_SiteCutoverSequencingStrategy",
+        "relation" : "see",
+        "why" : "Verbatim frame question for the cutover sequencing strategy position."
+      } ],
+      "targets" : [ "Position_SiteCutoverSequencingStrategy", "Narrative_ContainedPainOverUnboundedRisk" ]
+    },
+    "candidates" : null,
+    "why" : "Direct verbatim match to the frame question of Position_SiteCutoverSequencingStrategy.",
+    "consulted" : [ "Position_SiteCutoverSequencingStrategy", "Narrative_ContainedPainOverUnboundedRisk" ]
+  }, {
+    "commentary_local_id" : "src-61",
+    "phrase" : "rejected the change under review",
+    "verdict" : "confident",
+    "binding" : {
+      "referents" : [ {
+        "iri" : "Expr_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_30",
+        "relation" : "contradicts",
+        "why" : "Rejection review act directly opposing Tina's proposed modification."
+      }, {
+        "iri" : "Position_PostGoLiveSoakDurationBasis",
+        "relation" : "extends",
+        "why" : "Records a formal review rejection decision against changes to this position."
+      } ],
+      "targets" : [ "Position_PostGoLiveSoakDurationBasis", "Narrative_ContainedPainOverUnboundedRisk" ]
+    },
+    "candidates" : null,
+    "why" : "The review action explicitly rejects Tina Team's proposed change (Expr_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_30) on Position_PostGoLiveSoakDurationBasis.",
+    "consulted" : [ "Position_PostGoLiveSoakDurationBasis", "Expr_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_30", "Narrative_ContainedPainOverUnboundedRisk" ]
+  } ],
+  "unreferenced_commentary" : [ "src-1" ]
+}
