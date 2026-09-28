@@ -1,0 +1,983 @@
+PREFIX narr: <https://aswritten.ai/narrative#>
+PREFIX aswr: <https://aswritten.ai/aswr#>
+PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX dct:  <http://purl.org/dc/terms/>
+PREFIX xsd:  <http://www.w3.org/2001/XMLSchema#>
+PREFIX oa:   <http://www.w3.org/ns/oa#>
+PREFIX xkos: <http://rdf-vocabulary.ddialliance.org/xkos#>
+
+INSERT DATA {
+  aswr:Tx_20260928T011314Z a prov:Activity ;
+      prov:generatedAtTime "2026-09-28T01:13:14Z"^^xsd:dateTime ;
+      prov:wasAssociatedWith "aswritten.ai" ;
+      prov:wasAttributedTo "scarlet@aswritten.ai" ;
+      aswr:pipelinePin "8dd07a49bda8" ;
+      aswr:originPath ".aswritten/memories/2026-09-28-2-review-comment-tanya-teamowner-afbbdc56-cd2a-440e-ad0e-0e6a6b4b168d.md" ;
+      dct:title "Multipass source extraction: Tanya TeamOwner's review of 'how is the minimum soak duration between site cutovers …' · 28 Sep" ;
+      prov:generated narr:Sample_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759, narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_1, narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_2, narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_3, narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_4, narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_5, narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_6, narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_7, narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_8, narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_9, narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_10, narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_11, narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_12, narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_13, narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_14, narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_15, narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_16, narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_17, narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_18, narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_19, narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_20, narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_21, narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_22, narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_23, narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_24, narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_25, narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_26, narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_27, narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_28, narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_29, narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_30, narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_31, narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_32, narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_33, narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_34, narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_35, narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_36, narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_37, narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_38, narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_39, narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_40, narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_41, narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_42, narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_43, narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_44, narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_45, narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_46, narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_47, narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_48, narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_49, narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_50, narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_51, narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_52, narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_53, narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_54, narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_55, narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_56, narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_57, narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_58, narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_59, narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_60, narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_61, narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_62 .
+} ;
+INSERT DATA {
+  GRAPH aswr:Tx_20260928T011314Z {
+    narr:Sample_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759 a narr:Sample ;
+        dct:title "Tanya TeamOwner's review of 'how is the minimum soak duration between site cutovers …' · 28 Sep" ;
+        dct:created "2026-09-28"^^xsd:date ;
+        aswr:originPath ".aswritten/memories/2026-09-28-2-review-comment-tanya-teamowner-afbbdc56-cd2a-440e-ad0e-0e6a6b4b168d.md" ;
+        aswr:submittedBy narr:Actor_TanyaTeamowner ;
+        aswr:account narr:Actor_TanyaTeamowner .
+
+    narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_1 a narr:Expression ;
+        narr:actor narr:Actor_TanyaTeamowner ;
+        narr:act "assertive" ;
+        narr:animator narr:Actor_TanyaTeamowner ;
+        narr:author narr:Actor_TanyaTeamowner ;
+        narr:context "Review summary introduction" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Tanya TeamOwner reviewed a change to a position and rejected it, with one comment." ;
+                oa:prefix "en site cutovers …' · 28 Sep\n\n" ;
+                oa:suffix " Everything under \"What was un" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "365"^^xsd:integer ;
+                oa:end "447"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-28T01:13:14Z"^^xsd:dateTime .
+
+    narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_2 a narr:Expression ;
+        narr:actor narr:Actor_TanyaTeamowner ;
+        narr:act "question" ;
+        narr:animator narr:Actor_TanyaTeamowner ;
+        narr:author narr:Actor_TanyaTeamowner ;
+        narr:context "Position under review title/question" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "how is the minimum soak duration between site cutovers determined and validated?" ;
+                oa:prefix "r review\n\n### The position\n\n> " ;
+                oa:suffix "\n\n### The change under review\n" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "676"^^xsd:integer ;
+                oa:end "756"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-28T01:13:14Z"^^xsd:dateTime .
+
+    narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_3 a narr:Expression ;
+        narr:actor narr:Actor_TinaTeam ;
+        narr:act "directive" ;
+        narr:context "Statements added by change under review" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "the one-week soak should name who signs off the second site before it starts" ;
+                oa:prefix "ments this change added:\n\n  > " ;
+                oa:suffix "\n\n### The position's statement" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "936"^^xsd:integer ;
+                oa:end "1012"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-28T01:13:14Z"^^xsd:dateTime .
+
+    narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_4 a narr:Expression ;
+        narr:actor narr:Actor_TinaTeam ;
+        narr:act "assertive" ;
+        narr:context "Quoted context for Statement 1 from Halyard Weekly, 8 Sep" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Dockside pilot, back in the spring. We watched the exception queue after go-live and it didn't flatten out until day nine or ten. Two weeks gives you the flattening plus a few days to actually look at what flattened. Anything less and you're starting the next site while you're still finding out what the last one did." ;
+                oa:prefix "efore it:\n\n  > **Tina Team:** " ;
+                oa:suffix "\n  > **Tanya Team:** That's th" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "1410"^^xsd:integer ;
+                oa:end "1728"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-28T01:13:14Z"^^xsd:dateTime .
+
+    narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_5 a narr:Expression ;
+        narr:actor narr:Actor_TanyaTeam ;
+        narr:act "assertive" ;
+        narr:context "Quoted context for Statement 1 from Halyard Weekly, 8 Sep" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "That's the reasoning I wanted on the record. Two weeks, from the Dockside exception curve." ;
+                oa:prefix " one did.\n  > **Tanya Team:** " ;
+                oa:suffix "\n\n  The statement:\n\n  > I'll n" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "1749"^^xsd:integer ;
+                oa:end "1839"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-28T01:13:14Z"^^xsd:dateTime .
+
+    narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_6 a narr:Expression ;
+        narr:actor narr:Actor_XavierExpert ;
+        narr:act "assertive" ;
+        narr:context "Statement 1 from Halyard Weekly, 8 Sep, line 53" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "I'll note that the exception curve is the only evidence we have for it. It's one site, one season." ;
+                oa:prefix "curve.\n\n  The statement:\n\n  > " ;
+                oa:suffix "\n\n  The lines after it:\n\n  > *" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "1863"^^xsd:integer ;
+                oa:end "1961"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-28T01:13:14Z"^^xsd:dateTime .
+
+    narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_7 a narr:Expression ;
+        narr:actor narr:Actor_TinaTeam ;
+        narr:act "assertive" ;
+        narr:context "Quoted context for Statement 1 from Halyard Weekly, 8 Sep" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "It's one site, one season, and it's the only site we've actually done. I'd rather hold two weeks and shorten it with evidence than hold one week and discover we needed two." ;
+                oa:prefix "after it:\n\n  > **Tina Team:** " ;
+                oa:suffix "\n  > **Tanya Team:** Agreed. X" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "2005"^^xsd:integer ;
+                oa:end "2177"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-28T01:13:14Z"^^xsd:dateTime .
+
+    narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_8 a narr:Expression ;
+        narr:actor narr:Actor_TanyaTeam ;
+        narr:act "directive" ;
+        narr:context "Quoted context for Statement 1 from Halyard Weekly, 8 Sep" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Agreed. Xavier, replica numbers." ;
+                oa:prefix "eded two.\n  > **Tanya Team:** " ;
+                oa:suffix "\n\n#### Statement 2\n\n- Said by:" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "2198"^^xsd:integer ;
+                oa:end "2230"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-28T01:13:14Z"^^xsd:dateTime .
+
+    narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_9 a narr:Expression ;
+        narr:actor narr:Actor_XavierExpert ;
+        narr:act "assertive" ;
+        narr:context "Quoted context for Statement 2 from Halyard Ops Readiness, 15 Sep" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "No. It reinforces. The replica rule and the reference-data rule both assume one cutover window open at a time — I hadn't stated that assumption, and it's worth stating. If we ever went parallel, both of those would need rewriting." ;
+                oa:prefix "e it:\n\n  > **Xavier Expert:** " ;
+                oa:suffix "\n  > **Tanya Team:** Then let'" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "2483"^^xsd:integer ;
+                oa:end "2713"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-28T01:13:14Z"^^xsd:dateTime .
+
+    narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_10 a narr:Expression ;
+        narr:actor narr:Actor_TanyaTeam ;
+        narr:act "question" ;
+        narr:context "Quoted context for Statement 2 from Halyard Ops Readiness, 15 Sep" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Then let's not go parallel. Freya, what do you need from me?" ;
+                oa:prefix "ewriting.\n  > **Tanya Team:** " ;
+                oa:suffix "\n\n  The statement:\n\n  > The da" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "2734"^^xsd:integer ;
+                oa:end "2794"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-28T01:13:14Z"^^xsd:dateTime .
+
+    narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_11 a narr:Expression ;
+        narr:actor narr:Actor_FreyaFree ;
+        narr:act "directive" ;
+        narr:context "Statement 2 from Halyard Ops Readiness, 15 Sep, line 51" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "The dates, as early as you can give them, and a commitment that a soak doesn't get shortened because a date slipped. If the soak gets eaten, my supervisors are back on the floor at the same time as the next cutover and we're in the same place by another route." ;
+                oa:prefix "om me?\n\n  The statement:\n\n  > " ;
+                oa:suffix "\n\n  The lines after it:\n\n  > *" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "2818"^^xsd:integer ;
+                oa:end "3078"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-28T01:13:14Z"^^xsd:dateTime .
+
+    narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_12 a narr:Expression ;
+        narr:actor narr:Actor_TanyaTeam ;
+        narr:act "commissive" ;
+        narr:context "Quoted context for Statement 2 from Halyard Ops Readiness, 15 Sep" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "That's fair and I'll hold it." ;
+                oa:prefix "fter it:\n\n  > **Tanya Team:** " ;
+                oa:suffix "\n  > **Freya Free:** Then I'm " ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "3123"^^xsd:integer ;
+                oa:end "3152"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-28T01:13:14Z"^^xsd:dateTime .
+
+    narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_13 a narr:Expression ;
+        narr:actor narr:Actor_FreyaFree ;
+        narr:act "expressive" ;
+        narr:context "Quoted context for Statement 2 from Halyard Ops Readiness, 15 Sep" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Then I'm content." ;
+                oa:prefix " hold it.\n  > **Freya Free:** " ;
+                oa:suffix "\n\n#### Statement 3\n\n- Said by:" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "3173"^^xsd:integer ;
+                oa:end "3190"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-28T01:13:14Z"^^xsd:dateTime .
+
+    narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_14 a narr:Expression ;
+        narr:actor narr:Actor_TanyaTeam ;
+        narr:act "question" ;
+        narr:context "Quoted context for Statement 3 from Halyard Ops Readiness, 15 Sep" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Then let's not go parallel. Freya, what do you need from me?" ;
+                oa:prefix "fore it:\n\n  > **Tanya Team:** " ;
+                oa:suffix "\n  > **Freya Free:** The dates" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "3440"^^xsd:integer ;
+                oa:end "3500"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-28T01:13:14Z"^^xsd:dateTime .
+
+    narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_15 a narr:Expression ;
+        narr:actor narr:Actor_FreyaFree ;
+        narr:act "directive" ;
+        narr:context "Quoted context for Statement 3 from Halyard Ops Readiness, 15 Sep" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "The dates, as early as you can give them, and a commitment that a soak doesn't get shortened because a date slipped. If the soak gets eaten, my supervisors are back on the floor at the same time as the next cutover and we're in the same place by another route." ;
+                oa:prefix " from me?\n  > **Freya Free:** " ;
+                oa:suffix "\n\n  The statement:\n\n  > That's" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "3521"^^xsd:integer ;
+                oa:end "3781"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-28T01:13:14Z"^^xsd:dateTime .
+
+    narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_16 a narr:Expression ;
+        narr:actor narr:Actor_TanyaTeam ;
+        narr:act "commissive" ;
+        narr:context "Statement 3 from Halyard Ops Readiness, 15 Sep, line 53" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "That's fair and I'll hold it." ;
+                oa:prefix "route.\n\n  The statement:\n\n  > " ;
+                oa:suffix "\n\n  The lines after it:\n\n  > *" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "3805"^^xsd:integer ;
+                oa:end "3834"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-28T01:13:14Z"^^xsd:dateTime .
+
+    narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_17 a narr:Expression ;
+        narr:actor narr:Actor_FreyaFree ;
+        narr:act "expressive" ;
+        narr:context "Quoted context for Statement 3 from Halyard Ops Readiness, 15 Sep" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Then I'm content." ;
+                oa:prefix "fter it:\n\n  > **Freya Free:** " ;
+                oa:suffix "\n  > **Tanya Team:** Thanks, F" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "3879"^^xsd:integer ;
+                oa:end "3896"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-28T01:13:14Z"^^xsd:dateTime .
+
+    narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_18 a narr:Expression ;
+        narr:actor narr:Actor_TanyaTeam ;
+        narr:act "expressive" ;
+        narr:context "Quoted context for Statement 3 from Halyard Ops Readiness, 15 Sep" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Thanks, Freya. Genuinely useful." ;
+                oa:prefix " content.\n  > **Tanya Team:** " ;
+                oa:suffix "\n\n#### Statement 4\n\n- Said by:" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "3917"^^xsd:integer ;
+                oa:end "3949"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-28T01:13:14Z"^^xsd:dateTime .
+
+    narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_19 a narr:Expression ;
+        narr:actor narr:Actor_TinaTeam ;
+        narr:act "assertive" ;
+        narr:context "Quoted context for Statement 4 from Halyard Cutover Review, 15 Sep" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Before we start on anything else, I need to correct something I said, and I'd rather do it at the top than bury it." ;
+                oa:prefix "efore it:\n\n  > **Tina Team:** " ;
+                oa:suffix "\n  > **Tanya Team:** Go ahead." ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "4198"^^xsd:integer ;
+                oa:end "4313"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-28T01:13:14Z"^^xsd:dateTime .
+
+    narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_20 a narr:Expression ;
+        narr:actor narr:Actor_TanyaTeam ;
+        narr:act "directive" ;
+        narr:context "Quoted context for Statement 4 from Halyard Cutover Review, 15 Sep" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Go ahead." ;
+                oa:prefix " bury it.\n  > **Tanya Team:** " ;
+                oa:suffix "\n\n  The statement:\n\n  > On the" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "4334"^^xsd:integer ;
+                oa:end "4343"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-28T01:13:14Z"^^xsd:dateTime .
+
+    narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_21 a narr:Expression ;
+        narr:actor narr:Actor_TinaTeam ;
+        narr:act "directive" ;
+        narr:context "Statement 4 from Halyard Cutover Review, 15 Sep, line 17" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "On the eighth I said the soak between sites has to be two full weeks, and I said I'd hold us to it. That was wrong. I was wrong on the eighth and I want it struck from the plan." ;
+                oa:prefix "ahead.\n\n  The statement:\n\n  > " ;
+                oa:suffix "\n\n  The lines after it:\n\n  > *" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "4367"^^xsd:integer ;
+                oa:end "4544"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-28T01:13:14Z"^^xsd:dateTime .
+
+    narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_22 a narr:Expression ;
+        narr:actor narr:Actor_TanyaTeam ;
+        narr:act "directive" ;
+        narr:context "Quoted context for Statement 4 from Halyard Cutover Review, 15 Sep" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Right. Tell me why." ;
+                oa:prefix "fter it:\n\n  > **Tanya Team:** " ;
+                oa:suffix "\n  > **Tina Team:** I quoted t" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "4589"^^xsd:integer ;
+                oa:end "4608"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-28T01:13:14Z"^^xsd:dateTime .
+
+    narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_23 a narr:Expression ;
+        narr:actor narr:Actor_TinaTeam ;
+        narr:act "assertive" ;
+        narr:context "Quoted context for Statement 4 from Halyard Cutover Review, 15 Sep" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "I quoted the Dockside number — the exception queue not flattening until day nine or ten. I went back through the Dockside logs on Friday because Xavier's comment about it being one site, one season was bothering me. The reason the queue took nine days to flatten at Dockside is that the old reconciliation job ran weekly and every run threw a fresh batch of exceptions. Two weeks was two reconciliation cycles. It was never about the site settling." ;
+                oa:prefix "ll me why.\n  > **Tina Team:** " ;
+                oa:suffix "\n\n#### Statement 5\n\n- Said by:" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "4628"^^xsd:integer ;
+                oa:end "5076"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-28T01:13:14Z"^^xsd:dateTime .
+
+    narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_24 a narr:Expression ;
+        narr:actor narr:Actor_TinaTeam ;
+        narr:act "directive" ;
+        narr:context "Quoted context for Statement 5 from Halyard Cutover Review, 15 Sep" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "On the eighth I said the soak between sites has to be two full weeks, and I said I'd hold us to it. That was wrong. I was wrong on the eighth and I want it struck from the plan." ;
+                oa:prefix "efore it:\n\n  > **Tina Team:** " ;
+                oa:suffix "\n  > **Tanya Team:** Right. Te" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "5325"^^xsd:integer ;
+                oa:end "5502"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-28T01:13:14Z"^^xsd:dateTime .
+
+    narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_25 a narr:Expression ;
+        narr:actor narr:Actor_TanyaTeam ;
+        narr:act "directive" ;
+        narr:context "Quoted context for Statement 5 from Halyard Cutover Review, 15 Sep" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Right. Tell me why." ;
+                oa:prefix "the plan.\n  > **Tanya Team:** " ;
+                oa:suffix "\n\n  The statement:\n\n  > I quot" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "5523"^^xsd:integer ;
+                oa:end "5542"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-28T01:13:14Z"^^xsd:dateTime .
+
+    narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_26 a narr:Expression ;
+        narr:actor narr:Actor_TinaTeam ;
+        narr:act "assertive" ;
+        narr:context "Statement 5 from Halyard Cutover Review, 15 Sep, line 21" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "I quoted the Dockside number — the exception queue not flattening until day nine or ten. I went back through the Dockside logs on Friday because Xavier's comment about it being one site, one season was bothering me. The reason the queue took nine days to flatten at Dockside is that the old reconciliation job ran weekly and every run threw a fresh batch of exceptions. Two weeks was two reconciliation cycles. It was never about the site settling." ;
+                oa:prefix "e why.\n\n  The statement:\n\n  > " ;
+                oa:suffix "\n\n  The lines after it:\n\n  > *" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "5566"^^xsd:integer ;
+                oa:end "6014"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-28T01:13:14Z"^^xsd:dateTime .
+
+    narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_27 a narr:Expression ;
+        narr:actor narr:Actor_XavierExpert ;
+        narr:act "assertive" ;
+        narr:context "Quoted context for Statement 5 from Halyard Cutover Review, 15 Sep" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "And that job is gone." ;
+                oa:prefix "r it:\n\n  > **Xavier Expert:** " ;
+                oa:suffix "\n  > **Tina Team:** That job i" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "6062"^^xsd:integer ;
+                oa:end "6083"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-28T01:13:14Z"^^xsd:dateTime .
+
+    narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_28 a narr:Expression ;
+        narr:actor narr:Actor_TinaTeam ;
+        narr:act "assertive" ;
+        narr:context "Quoted context for Statement 5 from Halyard Cutover Review, 15 Sep" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "That job is gone. It was retired in July. Nothing in the new platform runs on a weekly cycle — reconciliation is continuous now. So the number I gave was measuring a job that doesn't exist any more, and I attached it to the soak as though it were a property of the site." ;
+                oa:prefix "b is gone.\n  > **Tina Team:** " ;
+                oa:suffix "\n\n#### Statement 6\n\n- Said by:" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "6103"^^xsd:integer ;
+                oa:end "6373"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-28T01:13:14Z"^^xsd:dateTime .
+
+    narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_29 a narr:Expression ;
+        narr:actor narr:Actor_TinaTeam ;
+        narr:act "assertive" ;
+        narr:context "Quoted context for Statement 6 from Halyard Cutover Review, 15 Sep" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "I quoted the Dockside number — the exception queue not flattening until day nine or ten. I went back through the Dockside logs on Friday because Xavier's comment about it being one site, one season was bothering me. The reason the queue took nine days to flatten at Dockside is that the old reconciliation job ran weekly and every run threw a fresh batch of exceptions. Two weeks was two reconciliation cycles. It was never about the site settling." ;
+                oa:prefix "efore it:\n\n  > **Tina Team:** " ;
+                oa:suffix "\n  > **Xavier Expert:** And th" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "6622"^^xsd:integer ;
+                oa:end "7070"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-28T01:13:14Z"^^xsd:dateTime .
+
+    narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_30 a narr:Expression ;
+        narr:actor narr:Actor_XavierExpert ;
+        narr:act "assertive" ;
+        narr:context "Quoted context for Statement 6 from Halyard Cutover Review, 15 Sep" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "And that job is gone." ;
+                oa:prefix "tling.\n  > **Xavier Expert:** " ;
+                oa:suffix "\n\n  The statement:\n\n  > That j" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "7094"^^xsd:integer ;
+                oa:end "7115"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-28T01:13:14Z"^^xsd:dateTime .
+
+    narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_31 a narr:Expression ;
+        narr:actor narr:Actor_TinaTeam ;
+        narr:act "assertive" ;
+        narr:context "Statement 6 from Halyard Cutover Review, 15 Sep, line 25" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "That job is gone. It was retired in July. Nothing in the new platform runs on a weekly cycle — reconciliation is continuous now. So the number I gave was measuring a job that doesn't exist any more, and I attached it to the soak as though it were a property of the site." ;
+                oa:prefix " gone.\n\n  The statement:\n\n  > " ;
+                oa:suffix "\n\n  The lines after it:\n\n  > *" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "7139"^^xsd:integer ;
+                oa:end "7409"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-28T01:13:14Z"^^xsd:dateTime .
+
+    narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_32 a narr:Expression ;
+        narr:actor narr:Actor_TanyaTeam ;
+        narr:act "question" ;
+        narr:context "Quoted context for Statement 6 from Halyard Cutover Review, 15 Sep" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "So what is the soak?" ;
+                oa:prefix "fter it:\n\n  > **Tanya Team:** " ;
+                oa:suffix "\n  > **Tina Team:** One week. " ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "7454"^^xsd:integer ;
+                oa:end "7474"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-28T01:13:14Z"^^xsd:dateTime .
+
+    narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_33 a narr:Expression ;
+        narr:actor narr:Actor_TinaTeam ;
+        narr:act "directive" ;
+        narr:context "Quoted context for Statement 6 from Halyard Cutover Review, 15 Sep" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "One week. Strip the reconciliation cycles out of the Dockside curve and the underlying exception rate is flat by day four. One week gives you the flattening plus three days to look at it, which is the same margin I was arguing for. One week is the soak, and please don't hold the plan to two weeks on my say-so, because I was wrong on the eighth." ;
+                oa:prefix " the soak?\n  > **Tina Team:** " ;
+                oa:suffix "\n\n#### Statement 7\n\n- Said by:" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "7494"^^xsd:integer ;
+                oa:end "7840"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-28T01:13:14Z"^^xsd:dateTime .
+
+    narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_34 a narr:Expression ;
+        narr:actor narr:Actor_TinaTeam ;
+        narr:act "assertive" ;
+        narr:context "Quoted context for Statement 7 from Halyard Cutover Review, 15 Sep" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "That job is gone. It was retired in July. Nothing in the new platform runs on a weekly cycle — reconciliation is continuous now. So the number I gave was measuring a job that doesn't exist any more, and I attached it to the soak as though it were a property of the site." ;
+                oa:prefix "efore it:\n\n  > **Tina Team:** " ;
+                oa:suffix "\n  > **Tanya Team:** So what i" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "8089"^^xsd:integer ;
+                oa:end "8359"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-28T01:13:14Z"^^xsd:dateTime .
+
+    narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_35 a narr:Expression ;
+        narr:actor narr:Actor_TanyaTeam ;
+        narr:act "question" ;
+        narr:context "Quoted context for Statement 7 from Halyard Cutover Review, 15 Sep" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "So what is the soak?" ;
+                oa:prefix "the site.\n  > **Tanya Team:** " ;
+                oa:suffix "\n\n  The statement:\n\n  > One we" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "8380"^^xsd:integer ;
+                oa:end "8400"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-28T01:13:14Z"^^xsd:dateTime .
+
+    narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_36 a narr:Expression ;
+        narr:actor narr:Actor_TinaTeam ;
+        narr:act "directive" ;
+        narr:context "Statement 7 from Halyard Cutover Review, 15 Sep, line 29" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "One week. Strip the reconciliation cycles out of the Dockside curve and the underlying exception rate is flat by day four. One week gives you the flattening plus three days to look at it, which is the same margin I was arguing for. One week is the soak, and please don't hold the plan to two weeks on my say-so, because I was wrong on the eighth." ;
+                oa:prefix " soak?\n\n  The statement:\n\n  > " ;
+                oa:suffix "\n\n  The lines after it:\n\n  > *" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "8424"^^xsd:integer ;
+                oa:end "8770"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-28T01:13:14Z"^^xsd:dateTime .
+
+    narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_37 a narr:Expression ;
+        narr:actor narr:Actor_TanyaTeam ;
+        narr:act "assertive" ;
+        narr:context "Quoted context for Statement 7 from Halyard Cutover Review, 15 Sep" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "I want to be clear about what is and isn't changing here. We are still going one site at a time, and we are still soaking between sites before the next one starts." ;
+                oa:prefix "fter it:\n\n  > **Tanya Team:** " ;
+                oa:suffix "\n  > **Tina Team:** Yes. That " ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "8815"^^xsd:integer ;
+                oa:end "8978"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-28T01:13:14Z"^^xsd:dateTime .
+
+    narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_38 a narr:Expression ;
+        narr:actor narr:Actor_TinaTeam ;
+        narr:act "assertive" ;
+        narr:context "Quoted context for Statement 7 from Halyard Cutover Review, 15 Sep" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Yes. That doesn't move at all. The sequencing is right. It's the number I put on the soak that was wrong." ;
+                oa:prefix "ne starts.\n  > **Tina Team:** " ;
+                oa:suffix "\n\n#### Statement 8\n\n- Said by:" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "8998"^^xsd:integer ;
+                oa:end "9103"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-28T01:13:14Z"^^xsd:dateTime .
+
+    narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_39 a narr:Expression ;
+        narr:actor narr:Actor_TinaTeam ;
+        narr:act "assertive" ;
+        narr:context "Quoted context for Statement 8 from Halyard Cutover Review, 15 Sep" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Yes. That doesn't move at all. The sequencing is right. It's the number I put on the soak that was wrong." ;
+                oa:prefix "efore it:\n\n  > **Tina Team:** " ;
+                oa:suffix "\n  > **Tanya Team:** Good, bec" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "9356"^^xsd:integer ;
+                oa:end "9461"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-28T01:13:14Z"^^xsd:dateTime .
+
+    narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_40 a narr:Expression ;
+        narr:actor narr:Actor_TanyaTeam ;
+        narr:act "assertive" ;
+        narr:context "Quoted context for Statement 8 from Halyard Cutover Review, 15 Sep" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Good, because I've already said the sequencing out loud to Freya this morning and she gave me a better argument for it than either of us had." ;
+                oa:prefix "as wrong.\n  > **Tanya Team:** " ;
+                oa:suffix "\n\n  The statement:\n\n  > Can I " ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "9482"^^xsd:integer ;
+                oa:end "9623"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-28T01:13:14Z"^^xsd:dateTime .
+
+    narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_41 a narr:Expression ;
+        narr:actor narr:Actor_XavierExpert ;
+        narr:act "assertive" ;
+        narr:context "Statement 8 from Halyard Cutover Review, 15 Sep, line 37" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Can I say that I think this is the right correction and also that it costs us something? Two weeks was conservative in a place where being conservative was cheap. One week is defensible but it has no slack in it." ;
+                oa:prefix "s had.\n\n  The statement:\n\n  > " ;
+                oa:suffix "\n\n  The lines after it:\n\n  > *" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "9647"^^xsd:integer ;
+                oa:end "9859"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-28T01:13:14Z"^^xsd:dateTime .
+
+    narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_42 a narr:Expression ;
+        narr:actor narr:Actor_TinaTeam ;
+        narr:act "assertive" ;
+        narr:context "Quoted context for Statement 8 from Halyard Cutover Review, 15 Sep" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "That's true. I'd rather be defensible and know where the slack isn't than conservative for a reason that turned out to be imaginary." ;
+                oa:prefix "after it:\n\n  > **Tina Team:** " ;
+                oa:suffix "\n  > **Xavier Expert:** Agreed" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "9903"^^xsd:integer ;
+                oa:end "10035"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-28T01:13:14Z"^^xsd:dateTime .
+
+    narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_43 a narr:Expression ;
+        narr:actor narr:Actor_XavierExpert ;
+        narr:act "assertive" ;
+        narr:context "Quoted context for Statement 8 from Halyard Cutover Review, 15 Sep" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Agreed. I just want it on the record that the new number is tight, not safe." ;
+                oa:prefix "inary.\n  > **Xavier Expert:** " ;
+                oa:suffix "\n\n#### Statement 9\n\n- Said by:" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "10059"^^xsd:integer ;
+                oa:end "10135"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-28T01:13:14Z"^^xsd:dateTime .
+
+    narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_44 a narr:Expression ;
+        narr:actor narr:Actor_TanyaTeam ;
+        narr:act "assertive" ;
+        narr:context "Quoted context for Statement 9 from Halyard Cutover Review, 15 Sep" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Good, because I've already said the sequencing out loud to Freya this morning and she gave me a better argument for it than either of us had." ;
+                oa:prefix "fore it:\n\n  > **Tanya Team:** " ;
+                oa:suffix "\n  > **Xavier Expert:** Can I " ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "10385"^^xsd:integer ;
+                oa:end "10526"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-28T01:13:14Z"^^xsd:dateTime .
+
+    narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_45 a narr:Expression ;
+        narr:actor narr:Actor_XavierExpert ;
+        narr:act "assertive" ;
+        narr:context "Quoted context for Statement 9 from Halyard Cutover Review, 15 Sep" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Can I say that I think this is the right correction and also that it costs us something? Two weeks was conservative in a place where being conservative was cheap. One week is defensible but it has no slack in it." ;
+                oa:prefix "s had.\n  > **Xavier Expert:** " ;
+                oa:suffix "\n\n  The statement:\n\n  > That's" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "10550"^^xsd:integer ;
+                oa:end "10762"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-28T01:13:14Z"^^xsd:dateTime .
+
+    narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_46 a narr:Expression ;
+        narr:actor narr:Actor_TinaTeam ;
+        narr:act "assertive" ;
+        narr:context "Statement 9 from Halyard Cutover Review, 15 Sep, line 39" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "That's true. I'd rather be defensible and know where the slack isn't than conservative for a reason that turned out to be imaginary." ;
+                oa:prefix "in it.\n\n  The statement:\n\n  > " ;
+                oa:suffix "\n\n  The lines after it:\n\n  > *" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "10786"^^xsd:integer ;
+                oa:end "10918"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-28T01:13:14Z"^^xsd:dateTime .
+
+    narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_47 a narr:Expression ;
+        narr:actor narr:Actor_XavierExpert ;
+        narr:act "assertive" ;
+        narr:context "Quoted context for Statement 9 from Halyard Cutover Review, 15 Sep" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Agreed. I just want it on the record that the new number is tight, not safe." ;
+                oa:prefix "r it:\n\n  > **Xavier Expert:** " ;
+                oa:suffix "\n  > **Tanya Team:** Noted. Ti" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "10966"^^xsd:integer ;
+                oa:end "11042"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-28T01:13:14Z"^^xsd:dateTime .
+
+    narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_48 a narr:Expression ;
+        narr:actor narr:Actor_TanyaTeam ;
+        narr:act "question" ;
+        narr:context "Quoted context for Statement 9 from Halyard Cutover Review, 15 Sep" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Noted. Tina, does this change the four-site total?" ;
+                oa:prefix "not safe.\n  > **Tanya Team:** " ;
+                oa:suffix "\n\n#### Statement 10\n\n- Said by" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "11063"^^xsd:integer ;
+                oa:end "11113"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-28T01:13:14Z"^^xsd:dateTime .
+
+    narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_49 a narr:Expression ;
+        narr:actor narr:Actor_XavierExpert ;
+        narr:act "assertive" ;
+        narr:context "Quoted context for Statement 10 from Halyard Cutover Review, 15 Sep" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Can I say that I think this is the right correction and also that it costs us something? Two weeks was conservative in a place where being conservative was cheap. One week is defensible but it has no slack in it." ;
+                oa:prefix "e it:\n\n  > **Xavier Expert:** " ;
+                oa:suffix "\n  > **Tina Team:** That's tru" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "11371"^^xsd:integer ;
+                oa:end "11583"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-28T01:13:14Z"^^xsd:dateTime .
+
+    narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_50 a narr:Expression ;
+        narr:actor narr:Actor_TinaTeam ;
+        narr:act "assertive" ;
+        narr:context "Quoted context for Statement 10 from Halyard Cutover Review, 15 Sep" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "That's true. I'd rather be defensible and know where the slack isn't than conservative for a reason that turned out to be imaginary." ;
+                oa:prefix "ack in it.\n  > **Tina Team:** " ;
+                oa:suffix "\n\n  The statement:\n\n  > Agreed" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "11603"^^xsd:integer ;
+                oa:end "11735"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-28T01:13:14Z"^^xsd:dateTime .
+
+    narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_51 a narr:Expression ;
+        narr:actor narr:Actor_XavierExpert ;
+        narr:act "assertive" ;
+        narr:context "Statement 10 from Halyard Cutover Review, 15 Sep, line 41" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Agreed. I just want it on the record that the new number is tight, not safe." ;
+                oa:prefix "inary.\n\n  The statement:\n\n  > " ;
+                oa:suffix "\n\n  The lines after it:\n\n  > *" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "11759"^^xsd:integer ;
+                oa:end "11835"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-28T01:13:14Z"^^xsd:dateTime .
+
+    narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_52 a narr:Expression ;
+        narr:actor narr:Actor_TanyaTeam ;
+        narr:act "question" ;
+        narr:context "Quoted context for Statement 10 from Halyard Cutover Review, 15 Sep" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Noted. Tina, does this change the four-site total?" ;
+                oa:prefix "fter it:\n\n  > **Tanya Team:** " ;
+                oa:suffix "\n  > **Tina Team:** It takes t" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "11880"^^xsd:integer ;
+                oa:end "11930"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-28T01:13:14Z"^^xsd:dateTime .
+
+    narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_53 a narr:Expression ;
+        narr:actor narr:Actor_TinaTeam ;
+        narr:act "assertive" ;
+        narr:context "Quoted context for Statement 10 from Halyard Cutover Review, 15 Sep" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "It takes three weeks out of the programme. Four sites, three soaks between them, a week off each." ;
+                oa:prefix "ite total?\n  > **Tina Team:** " ;
+                oa:suffix "\n\n#### Statement 11\n\n- Said by" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "11950"^^xsd:integer ;
+                oa:end "12047"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-28T01:13:14Z"^^xsd:dateTime .
+
+    narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_54 a narr:Expression ;
+        narr:actor narr:Actor_TanyaTeam ;
+        narr:act "assertive" ;
+        narr:context "Quoted context for Statement 11 from Halyard Cutover Review, 15 Sep" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Which I will not be spending. That goes into the Clyde buffer." ;
+                oa:prefix "fore it:\n\n  > **Tanya Team:** " ;
+                oa:suffix "\n  > **Tina Team:** I'd assume" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "12299"^^xsd:integer ;
+                oa:end "12361"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-28T01:13:14Z"^^xsd:dateTime .
+
+    narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_55 a narr:Expression ;
+        narr:actor narr:Actor_TinaTeam ;
+        narr:act "assertive" ;
+        narr:context "Quoted context for Statement 11 from Halyard Cutover Review, 15 Sep" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "I'd assumed so." ;
+                oa:prefix "de buffer.\n  > **Tina Team:** " ;
+                oa:suffix "\n\n  The statement:\n\n  > Right." ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "12381"^^xsd:integer ;
+                oa:end "12396"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-28T01:13:14Z"^^xsd:dateTime .
+
+    narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_56 a narr:Expression ;
+        narr:actor narr:Actor_TanyaTeam ;
+        narr:act "declarative" ;
+        narr:context "Statement 11 from Halyard Cutover Review, 15 Sep, line 51" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Right. For the record then: the soak between sites is one week, not two, and my note from the eighth about two weeks should be read as superseded by this." ;
+                oa:prefix "ed so.\n\n  The statement:\n\n  > " ;
+                oa:suffix "\n\n  The lines after it:\n\n  > *" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "12420"^^xsd:integer ;
+                oa:end "12574"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-28T01:13:14Z"^^xsd:dateTime .
+
+    narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_57 a narr:Expression ;
+        narr:actor narr:Actor_TinaTeam ;
+        narr:act "commissive" ;
+        narr:context "Quoted context for Statement 11 from Halyard Cutover Review, 15 Sep" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "I'll write it up today." ;
+                oa:prefix "after it:\n\n  > **Tina Team:** " ;
+                oa:suffix "\n  > **Tanya Team:** Thank you" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "12618"^^xsd:integer ;
+                oa:end "12641"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-28T01:13:14Z"^^xsd:dateTime .
+
+    narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_58 a narr:Expression ;
+        narr:actor narr:Actor_TanyaTeam ;
+        narr:act "expressive" ;
+        narr:context "Quoted context for Statement 11 from Halyard Cutover Review, 15 Sep" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Thank you for bringing it rather than letting it ride." ;
+                oa:prefix "up today.\n  > **Tanya Team:** " ;
+                oa:suffix "\n\n#### Statement 12\n\n- Said by" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "12662"^^xsd:integer ;
+                oa:end "12716"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-28T01:13:14Z"^^xsd:dateTime .
+
+    narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_59 a narr:Expression ;
+        narr:actor narr:Actor_TinaTeam ;
+        narr:act "directive" ;
+        narr:context "Statement 12 from Tina Team's review, 28 Sep" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "the one-week soak should name who signs off the second site before it starts" ;
+                oa:prefix "ented:\n\n  The statement:\n\n  > " ;
+                oa:suffix "\n\n### Where the position sits\n" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "13145"^^xsd:integer ;
+                oa:end "13221"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-28T01:13:14Z"^^xsd:dateTime .
+
+    narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_60 a narr:Expression ;
+        narr:actor narr:Actor_TanyaTeamowner ;
+        narr:act "question" ;
+        narr:animator narr:Actor_TanyaTeamowner ;
+        narr:author narr:Actor_TanyaTeamowner ;
+        narr:context "Beside position context" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "how should multi-site cutovers be sequenced when operational containment conflicts with local site friction?" ;
+                oa:prefix "d risk\n\n  - Beside it:\n\n    > " ;
+                oa:suffix "\n\n- Stratum: cutover strategy\n" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "13323"^^xsd:integer ;
+                oa:end "13431"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-28T01:13:14Z"^^xsd:dateTime .
+
+    narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_61 a narr:Expression ;
+        narr:actor narr:Actor_TanyaTeamowner ;
+        narr:act "declarative" ;
+        narr:animator narr:Actor_TanyaTeamowner ;
+        narr:author narr:Actor_TanyaTeamowner ;
+        narr:context "The act under review" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Tanya TeamOwner rejected the change under review" ;
+                oa:prefix "over strategy\n\n### The act\n\n- " ;
+                oa:suffix "\n\n## The comment\n\nTanya TeamOw" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "13477"^^xsd:integer ;
+                oa:end "13525"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-28T01:13:14Z"^^xsd:dateTime .
+
+    narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_62 a narr:Expression ;
+        narr:actor narr:Actor_TanyaTeamowner ;
+        narr:act "assertive" ;
+        narr:context "Review comment" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "the one-week figure is as unmeasured as the two weeks was; nobody has run a soak yet" ;
+                oa:prefix "g@aswritten.ai) commented:\n\n> " ;
+                oa:suffix "\n" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "13602"^^xsd:integer ;
+                oa:end "13686"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-28T01:13:14Z"^^xsd:dateTime .
+
+    aswr:Run_20260928T011314Z_actors a prov:Activity ;
+        aswr:runPass "actors" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/d2125d95f75f/2026-09-28-2-review-comment-tanya-teamowner-afbbdc56-cd2a-440e-ad0e-0e6a6b4b168d/actors.json" ;
+        dct:isPartOf aswr:Tx_20260928T011314Z ;
+        prov:generatedAtTime "2026-09-28T01:13:14Z"^^xsd:dateTime .
+
+    aswr:Run_20260928T011314Z_pass1 a prov:Activity ;
+        aswr:runPass "pass1" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/d2125d95f75f/2026-09-28-2-review-comment-tanya-teamowner-afbbdc56-cd2a-440e-ad0e-0e6a6b4b168d/pass1.json" ;
+        prov:generated narr:Sample_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759, narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_1, narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_2, narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_3, narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_4, narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_5, narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_6, narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_7, narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_8, narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_9, narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_10, narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_11, narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_12, narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_13, narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_14, narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_15, narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_16, narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_17, narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_18, narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_19, narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_20, narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_21, narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_22, narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_23, narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_24, narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_25, narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_26, narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_27, narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_28, narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_29, narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_30, narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_31, narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_32, narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_33, narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_34, narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_35, narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_36, narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_37, narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_38, narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_39, narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_40, narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_41, narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_42, narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_43, narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_44, narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_45, narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_46, narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_47, narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_48, narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_49, narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_50, narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_51, narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_52, narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_53, narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_54, narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_55, narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_56, narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_57, narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_58, narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_59, narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_60, narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_61, narr:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_62 ;
+        dct:isPartOf aswr:Tx_20260928T011314Z ;
+        prov:generatedAtTime "2026-09-28T01:13:14Z"^^xsd:dateTime .
+  }
+}
