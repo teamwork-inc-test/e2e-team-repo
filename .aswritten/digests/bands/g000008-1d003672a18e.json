@@ -6,6 +6,8 @@
       "n:Expr_2HalyardOpsReadiness20260915_12" : 2,
       "n:Expr_2HalyardOpsReadiness20260915_14" : 2,
       "n:Expr_2HalyardOpsReadiness20260915_16" : 2,
+      "n:Expr_2HalyardOpsReadiness20260915_18" : 1,
+      "n:Expr_2HalyardOpsReadiness20260915_20" : 1,
       "n:Expr_2HalyardOpsReadiness20260915_22" : 1,
       "n:Expr_2HalyardOpsReadiness20260915_28" : 1,
       "n:Expr_2HalyardOpsReadiness20260915_9" : 1
@@ -40,14 +42,28 @@
       "n:Expr_6HalyardAdvisorTonyMaley20260929_28" : 1,
       "n:Expr_6HalyardAdvisorTonyMaley20260929_3" : 1
     },
+    "n:Actor_TanyaTeamowner" : {
+      "n:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_1" : 1,
+      "n:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_2" : 1,
+      "n:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_60" : 1,
+      "n:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_61" : 1,
+      "n:Expr_3ReviewEvents70102_3" : 2,
+      "n:Expr_3ReviewEvents70102_4" : 2
+    },
     "n:Actor_TinaTeam" : {
       "n:Expr_1HalyardWeekly20260908_15" : 1,
       "n:Expr_1HalyardWeekly20260908_17" : 1,
       "n:Expr_1HalyardWeekly20260908_19" : 1,
       "n:Expr_1HalyardWeekly20260908_22" : 1,
       "n:Expr_1HalyardWeekly20260908_29" : 1,
+      "n:Expr_1HalyardWeekly20260908_41" : 1,
+      "n:Expr_1HalyardWeekly20260908_5" : 1,
+      "n:Expr_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_10" : 1,
+      "n:Expr_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_11" : 1,
       "n:Expr_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_12" : 1,
       "n:Expr_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_13" : 1,
+      "n:Expr_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_14" : 1,
+      "n:Expr_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_16" : 1,
       "n:Expr_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_20" : 1,
       "n:Expr_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_23" : 1,
       "n:Expr_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_30" : 2,
@@ -61,6 +77,7 @@
       "n:Expr_4HalyardCutoverReview20260915_5" : 1,
       "n:Expr_4HalyardCutoverReview20260915_7" : 1,
       "n:Expr_4HalyardCutoverReview20260915_9" : 1,
+      "n:Expr_5HalyardLegacyArchive20260922_12" : 1,
       "n:Expr_5HalyardLegacyArchive20260922_24" : 1
     },
     "n:Actor_TonyMaley" : {
@@ -81,13 +98,17 @@
       "n:Expr_1HalyardWeekly20260908_24" : 1,
       "n:Expr_1HalyardWeekly20260908_26" : 2,
       "n:Expr_1HalyardWeekly20260908_28" : 1,
+      "n:Expr_1HalyardWeekly20260908_34" : 1,
       "n:Expr_1HalyardWeekly20260908_36" : 1,
       "n:Expr_1HalyardWeekly20260908_38" : 1,
       "n:Expr_2HalyardOpsReadiness20260915_15" : 1,
+      "n:Expr_2HalyardOpsReadiness20260915_19" : 1,
       "n:Expr_2HalyardOpsReadiness20260915_25" : 1,
       "n:Expr_4HalyardCutoverReview20260915_13" : 1,
       "n:Expr_4HalyardCutoverReview20260915_15" : 1,
+      "n:Expr_5HalyardLegacyArchive20260922_11" : 1,
       "n:Expr_5HalyardLegacyArchive20260922_13" : 2,
+      "n:Expr_5HalyardLegacyArchive20260922_15" : 1,
       "n:Expr_5HalyardLegacyArchive20260922_23" : 2,
       "n:Expr_5HalyardLegacyArchive20260922_28" : 2,
       "n:Expr_5HalyardLegacyArchive20260922_7" : 1,
@@ -290,6 +311,34 @@
       "n:Expr_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_8" : 1,
       "n:Expr_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_9" : 1
     },
+    "n:Sample_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759" : {
+      "n:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_1" : 2,
+      "n:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_10" : 2,
+      "n:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_11" : 2,
+      "n:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_12" : 2,
+      "n:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_13" : 1,
+      "n:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_14" : 1,
+      "n:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_15" : 1,
+      "n:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_16" : 1,
+      "n:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_17" : 1,
+      "n:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_18" : 1,
+      "n:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_19" : 1,
+      "n:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_2" : 1,
+      "n:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_20" : 1,
+      "n:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_21" : 1,
+      "n:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_22" : 1,
+      "n:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_23" : 1,
+      "n:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_24" : 1,
+      "n:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_25" : 1,
+      "n:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_26" : 1,
+      "n:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_27" : 1,
+      "n:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_28" : 1,
+      "n:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_29" : 1,
+      "n:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_3" : 1,
+      "n:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_30" : 1,
+      "n:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_31" : 1,
+      "n:Expr_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759_32" : 1
+    },
     "n:Sample_2HalyardOpsReadiness20260915" : {
       "n:Expr_2HalyardOpsReadiness20260915_11" : 1,
       "n:Expr_2HalyardOpsReadiness20260915_12" : 1,
@@ -356,12 +405,12 @@
       "n:Expr_6HalyardAdvisorTonyMaley20260929_9" : 1
     }
   },
-  "generated_from" : "7197e2e5261482e8ab862a8aa0f16ad8ffe0fb2f",
+  "generated_from" : "1d003672a18e0a3d8df6cc04b78af5134b6a4b80",
   "hubs" : {
     "n:Actor_FreyaFree" : 1,
     "n:Actor_TanyaTeam" : 2,
+    "n:Actor_TanyaTeamowner" : 1,
     "n:Actor_TinaTeam" : 1,
-    "n:Actor_TonyMaley" : 1,
     "n:Actor_XavierExpert" : 1,
     "n:CutoverStrategy" : 2,
     "n:Narrative_ContainedPainOverUnboundedRisk" : 2,
@@ -378,6 +427,7 @@
     "n:Position_SiteCutoverSequencingStrategy" : 2,
     "n:Sample_1HalyardWeekly20260908" : 2,
     "n:Sample_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9" : 1,
+    "n:Sample_20260928_2_ReviewCommentTanyaTeamownerAfbbdc56Cd2A440EAd0E0_hb725287d6759" : 2,
     "n:Sample_2HalyardOpsReadiness20260915" : 1,
     "n:Sample_5HalyardLegacyArchive20260922" : 1,
     "n:Sample_6HalyardAdvisorTonyMaley20260929" : 1
@@ -395,7 +445,7 @@
     "n" : "https://aswritten.ai/narrative#",
     "o" : "https://aswritten.ai/ns/narrative#"
   },
-  "runs_sha" : "d9168e8ada7705551461541df08d3961e1fe26e4",
+  "runs_sha" : "88787d51ba20772be13f462585596cfeb88bb171",
   "sittings" : 185,
   "spec" : "fidelity-bands/1"
 }
