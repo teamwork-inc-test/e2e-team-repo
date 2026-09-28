@@ -1,0 +1,78 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-5",
+    "regions" : [ "conservation", "competence" ],
+    "evidence" : [ {
+      "quote" : "Two weeks was conservative in a place where being conservative was cheap. One week is defensible but it has no slack in it.",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Weighs the value of conservative safety margins against defensible precision and technical rigor.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-6",
+    "regions" : [ "competence" ],
+    "evidence" : [ {
+      "quote" : "I'd rather be defensible and know where the slack isn't than conservative for a reason that turned out to be imaginary.",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Explicitly prioritizes empirical defensibility and mastery of real system boundaries over ungrounded conservatism.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-7",
+    "regions" : [ "conservation" ],
+    "evidence" : [ {
+      "quote" : "I just want it on the record that the new number is tight, not safe.",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Appeals to safety/security as an explicit trade-off being made.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-16",
+    "regions" : [ "conservation" ],
+    "evidence" : [ {
+      "quote" : "I'd rather hold two weeks and shorten it with evidence than hold one week and discover we needed two.",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Frames cautious conservatism and downside protection as the preferred posture until disproven by evidence.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-18",
+    "regions" : [ "conservation", "self-transcendence" ],
+    "evidence" : [ {
+      "quote" : "a commitment that a soak doesn't get shortened because a date slipped. If the soak gets eaten, my supervisors are back on the floor at the same time as the next cutover",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Appeals to protection of operational stability and floor supervisors' operational integrity against schedule pressure.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-24",
+    "regions" : [ "conservation", "competence" ],
+    "evidence" : [ {
+      "quote" : "Two weeks was conservative in a place where being conservative was cheap. One week is defensible but it has no slack in it.",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Evaluates the tension between conservative safety buffers and defensible competence.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-25",
+    "regions" : [ "competence" ],
+    "evidence" : [ {
+      "quote" : "I'd rather be defensible and know where the slack isn't than conservative for a reason that turned out to be imaginary.",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Expresses preference for rigorous understanding over imaginary safety buffers.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-26",
+    "regions" : [ "conservation" ],
+    "evidence" : [ {
+      "quote" : "I just want it on the record that the new number is tight, not safe.",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Records the reduction in safety margin as a salient value-laden risk.",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-1", "src-2", "src-3", "src-4", "src-8", "src-9", "src-10", "src-11", "src-12", "src-13", "src-14", "src-15", "src-17", "src-19", "src-20", "src-21", "src-22", "src-23", "src-27", "src-28", "src-30" ],
+  "mints" : [ ],
+  "region_mints" : [ ]
+}
