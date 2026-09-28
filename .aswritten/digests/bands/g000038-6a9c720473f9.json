@@ -21,6 +21,10 @@
       "n:Expr_20260927_1_WeeklyRollUpRulingE2EAgenticSynthetic_hf65a0248bea8_2" : 1,
       "n:Expr_20260927_1_WeeklyRollUpRulingE2EAgenticSynthetic_hf65a0248bea8_4" : 1,
       "n:Expr_20260927_1_WeeklyRollUpRulingE2EAgenticSynthetic_hf65a0248bea8_5" : 1,
+      "n:Expr_20260928_1_DeliveryRoutingRulingE2ESynthetic_h801a6165fef3_1" : 1,
+      "n:Expr_20260928_1_DeliveryRoutingRulingE2ESynthetic_h801a6165fef3_2" : 1,
+      "n:Expr_20260928_1_DeliveryRoutingRulingE2ESynthetic_h801a6165fef3_3" : 1,
+      "n:Expr_20260928_1_DeliveryRoutingRulingE2ESynthetic_h801a6165fef3_4" : 1,
       "n:Expr_2DeliveryRoutingRulingE2ESynthetic_1" : 2,
       "n:Expr_2DeliveryRoutingRulingE2ESynthetic_2" : 2,
       "n:Expr_2DeliveryRoutingRulingE2ESynthetic_3" : 2,
@@ -82,6 +86,10 @@
       "n:Expr_20260927_1_WeeklyRollUpRulingE2EAgenticSynthetic_hf65a0248bea8_2" : 1,
       "n:Expr_20260927_1_WeeklyRollUpRulingE2EAgenticSynthetic_hf65a0248bea8_4" : 1,
       "n:Expr_20260927_1_WeeklyRollUpRulingE2EAgenticSynthetic_hf65a0248bea8_5" : 1,
+      "n:Expr_20260928_1_DeliveryRoutingRulingE2ESynthetic_h801a6165fef3_1" : 1,
+      "n:Expr_20260928_1_DeliveryRoutingRulingE2ESynthetic_h801a6165fef3_2" : 1,
+      "n:Expr_20260928_1_DeliveryRoutingRulingE2ESynthetic_h801a6165fef3_3" : 1,
+      "n:Expr_20260928_1_DeliveryRoutingRulingE2ESynthetic_h801a6165fef3_4" : 1,
       "n:Expr_2DeliveryRoutingRulingE2ESynthetic_1" : 2,
       "n:Expr_2DeliveryRoutingRulingE2ESynthetic_2" : 2,
       "n:Expr_2DeliveryRoutingRulingE2ESynthetic_3" : 2,
@@ -104,6 +112,9 @@
       "n:Expr_20260926_1_DeliveryRoutingRulingE2ESynthetic_ha66ee8b3c008_2" : 1,
       "n:Expr_20260926_1_DeliveryRoutingRulingE2ESynthetic_ha66ee8b3c008_3" : 1,
       "n:Expr_20260926_1_DeliveryRoutingRulingE2ESynthetic_ha66ee8b3c008_4" : 1,
+      "n:Expr_20260928_1_DeliveryRoutingRulingE2ESynthetic_h801a6165fef3_2" : 1,
+      "n:Expr_20260928_1_DeliveryRoutingRulingE2ESynthetic_h801a6165fef3_3" : 1,
+      "n:Expr_20260928_1_DeliveryRoutingRulingE2ESynthetic_h801a6165fef3_4" : 1,
       "n:Expr_2DeliveryRoutingRulingE2ESynthetic_2" : 2,
       "n:Expr_2DeliveryRoutingRulingE2ESynthetic_3" : 2,
       "n:Expr_2DeliveryRoutingRulingE2ESynthetic_4" : 2,
@@ -135,7 +146,7 @@
       "n:Expr_20260927_1_WeeklyRollUpRulingE2EAgenticSynthetic_hf65a0248bea8_5" : 1
     }
   },
-  "generated_from" : "690ac55b92114ff382079ce0d4caa5bfa4e87c44",
+  "generated_from" : "6a9c720473f9540d5ad542f2925d90f61d74241f",
   "hubs" : {
     "n:Actor_Tanya_Staging" : 2,
     "n:DesignTradeoffs" : 2,
@@ -160,7 +171,7 @@
     "n" : "https://aswritten.ai/narrative#",
     "o" : "https://aswritten.ai/ns/narrative#"
   },
-  "runs_sha" : "fdb3c2a7f703bb4f365b88e4f4212e18156ce37a",
-  "sittings" : 182,
+  "runs_sha" : "45367e9926be94ecc69de504e7b4d9143951750a",
+  "sittings" : 187,
   "spec" : "fidelity-bands/1"
 }
