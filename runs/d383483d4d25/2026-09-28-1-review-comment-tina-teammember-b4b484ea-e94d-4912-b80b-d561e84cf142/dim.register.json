@@ -1,0 +1,83 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-7",
+    "regions" : [ "formal" ],
+    "evidence" : [ {
+      "quote" : "on the record",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Invokes explicit archival protocol framing over standard conversation.",
+    "reported" : false,
+    "direction" : {
+      "verdict" : "mint",
+      "node" : "mint-1"
+    }
+  }, {
+    "segment_local_id" : "src-8",
+    "regions" : [ "formal" ],
+    "evidence" : [ {
+      "quote" : "For the record then",
+      "kind" : "framing-move"
+    }, {
+      "quote" : "should be read as superseded by this",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Adopts procedural record-keeping register to formalize a rule revision.",
+    "reported" : false,
+    "direction" : {
+      "verdict" : "mint",
+      "node" : "mint-1"
+    }
+  }, {
+    "segment_local_id" : "src-15",
+    "regions" : [ "formal" ],
+    "evidence" : [ {
+      "quote" : "on the record",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Explicitly requests evidentiary justification to be noted for the official record.",
+    "reported" : false,
+    "direction" : {
+      "verdict" : "mint",
+      "node" : "mint-1"
+    }
+  }, {
+    "segment_local_id" : "src-26",
+    "regions" : [ "formal" ],
+    "evidence" : [ {
+      "quote" : "on the record",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Repeats the formal procedural demand to enter a stance into the official record.",
+    "reported" : false,
+    "direction" : {
+      "verdict" : "mint",
+      "node" : "mint-1"
+    }
+  }, {
+    "segment_local_id" : "src-27",
+    "regions" : [ "formal" ],
+    "evidence" : [ {
+      "quote" : "For the record then",
+      "kind" : "framing-move"
+    }, {
+      "quote" : "should be read as superseded by this",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Formally enters replacement decision into the record with administrative phrasing.",
+    "reported" : false,
+    "direction" : {
+      "verdict" : "mint",
+      "node" : "mint-1"
+    }
+  } ],
+  "unmarked" : [ "src-1", "src-2", "src-3", "src-4", "src-5", "src-6", "src-9", "src-10", "src-11", "src-12", "src-13", "src-14", "src-16", "src-17", "src-18", "src-19", "src-20", "src-21", "src-22", "src-23", "src-24", "src-25", "src-28", "src-30" ],
+  "mints" : [ {
+    "id" : "mint-1",
+    "name" : "OnTheRecordProtocol",
+    "title" : "invoking the record to formalize position entry",
+    "frame" : "Does the speaker invoke formal record-keeping protocol to elevate an assertion or supersede a prior stance?",
+    "regions" : [ "formal" ]
+  } ],
+  "region_mints" : [ ]
+}
