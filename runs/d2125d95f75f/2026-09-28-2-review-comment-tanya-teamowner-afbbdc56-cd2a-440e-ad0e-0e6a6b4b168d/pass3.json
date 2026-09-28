@@ -1,0 +1,26 @@
+{
+  "reconciliations" : [ {
+    "segment_ids" : [ "src-61" ],
+    "note" : "Tanya TeamOwner rejected the change under review",
+    "targets" : [ "Position_PostGoLiveSoakDurationBasis", "Narrative_ContainedPainOverUnboundedRisk" ],
+    "referents" : [ {
+      "ref" : "Expr_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_30",
+      "relation" : "contradicts"
+    }, {
+      "ref" : "Position_PostGoLiveSoakDurationBasis",
+      "relation" : "extends"
+    } ],
+    "principal" : "Tanya TeamOwner"
+  } ],
+  "standalone" : [ {
+    "segment_id" : "src-1",
+    "why" : "Unreferenced commentary header summarizing the review action."
+  }, {
+    "segment_id" : "src-2",
+    "why" : "Frame question serving as navigational context rather than an asserting conclusion."
+  }, {
+    "segment_id" : "src-60",
+    "why" : "Frame question serving as navigational context rather than an asserting conclusion."
+  } ],
+  "held" : [ ]
+}
