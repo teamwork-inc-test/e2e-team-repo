@@ -1,0 +1,65 @@
+{
+  "schema_version" : 1,
+  "run_id" : "mp-eng-4a4aaf88",
+  "live_run_id" : "d2125d95f75f",
+  "stream" : "qa-701-20260927",
+  "policy" : {
+    "lands" : { },
+    "channels" : [ "email", "sms" ],
+    "mode" : "on",
+    "source" : "default",
+    "skills" : { },
+    "warn_per_run_usd" : 0.25,
+    "audience" : "owner-setting",
+    "version" : 1,
+    "stop_per_dispatch_usd" : 2.0
+  },
+  "gates" : [ {
+    "id" : "aswritten/clarify",
+    "run?" : false,
+    "gate" : 2,
+    "reason" : "score 0.15 < threshold 0.7",
+    "score" : 0.15,
+    "evidence" : [ "For the record then: the soak between sites is one week, not two, and my note from the eighth about two weeks should be read as superseded by this", "stays the live open condition", "The trajectory beneath it (two weeks retracted, one week ratified, the slack trade-off, the sign-off gap) is unchanged and still open", "the one-week figure is as unmeasured as the two weeks was; nobody has run a soak yet" ]
+  }, {
+    "id" : "aswritten/merge-suggest",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "skill off"
+  }, {
+    "id" : "aswritten/refract",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "no documents to refract"
+  }, {
+    "id" : "aswritten/riff",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "requires perspective, expand"
+  } ],
+  "jobs" : [ ],
+  "spend" : {
+    "cost_usd" : 0.009633,
+    "passes" : [ {
+      "pass" : "reaction:_score",
+      "llm_calls" : 1,
+      "cost_usd" : 0.00963255,
+      "null_cost_calls" : 0
+    } ]
+  },
+  "bundle" : {
+    "items" : 0,
+    "audience" : "only-me",
+    "recipients" : 1,
+    "sent" : [ ]
+  },
+  "counters" : { },
+  "at" : "2026-09-28T01:19:46.955288666Z",
+  "scorer" : {
+    "attempts" : [ {
+      "disposition" : "ok",
+      "elapsed_ms" : 51792,
+      "content_chars" : 848
+    } ]
+  }
+}
