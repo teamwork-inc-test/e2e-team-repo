@@ -1,0 +1,61 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-8",
+    "regions" : [ "authority-ranking" ],
+    "evidence" : [ {
+      "quote" : "For the record then: the soak between sites is one week, not two, and my note from the eighth about two weeks should be read as superseded by this.",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Formally establishes and supersedes official record/policy on behalf of the project plan.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-13",
+    "regions" : [ "communal-sharing" ],
+    "evidence" : [ {
+      "quote" : "I'd hold us to it.",
+      "kind" : "commitment-marker"
+    } ],
+    "why" : "Invokes mutual commitment and collective discipline within the group ('us').",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-18",
+    "regions" : [ "equality-matching" ],
+    "evidence" : [ {
+      "quote" : "a commitment that a soak doesn't get shortened because a date slipped.",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Demands an even commitment/reciprocal boundary protection across operational teams.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-19",
+    "regions" : [ "equality-matching" ],
+    "evidence" : [ {
+      "quote" : "That's fair and I'll hold it.",
+      "kind" : "commitment-marker"
+    } ],
+    "why" : "Explicitly ratifies a fairness standard and offers reciprocal commitment.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-27",
+    "regions" : [ "authority-ranking" ],
+    "evidence" : [ {
+      "quote" : "For the record then: the soak between sites is one week, not two, and my note from the eighth about two weeks should be read as superseded by this.",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Repeated segment performing authoritative record-setting and formal superseding.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-30",
+    "regions" : [ "authority-ranking" ],
+    "evidence" : [ {
+      "quote" : "the one-week soak should name who signs off the second site before it starts",
+      "kind" : "plain-signal"
+    } ],
+    "why" : "Specifies formal hierarchical approval and sign-off accountability.",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-1", "src-2", "src-3", "src-4", "src-5", "src-6", "src-7", "src-9", "src-10", "src-11", "src-12", "src-14", "src-15", "src-16", "src-17", "src-20", "src-21", "src-22", "src-23", "src-24", "src-25", "src-26", "src-28" ],
+  "unmarked_rest" : false,
+  "mints" : [ ],
+  "region_mints" : [ ]
+}
