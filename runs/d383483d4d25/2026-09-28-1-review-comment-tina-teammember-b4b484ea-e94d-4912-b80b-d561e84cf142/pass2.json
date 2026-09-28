@@ -1,0 +1,19 @@
+{
+  "resolutions" : [ {
+    "commentary_local_id" : "src-30",
+    "phrase" : "the one-week soak",
+    "verdict" : "confident",
+    "binding" : {
+      "referents" : [ {
+        "iri" : "Position_PostGoLiveSoakDurationBasis",
+        "relation" : "extends",
+        "why" : "Adds an operational sign-off requirement for the next site to the revised one-week soak position."
+      } ],
+      "targets" : [ "Position_PostGoLiveSoakDurationBasis", "Narrative_ContainedPainOverUnboundedRisk" ]
+    },
+    "candidates" : null,
+    "why" : "Directly references and extends the revised one-week minimum soak duration position under review.",
+    "consulted" : [ "Position_PostGoLiveSoakDurationBasis", "Narrative_ContainedPainOverUnboundedRisk", "Expr_4HalyardCutoverReview20260915_9", "Expr_4HalyardCutoverReview20260915_20" ]
+  } ],
+  "unreferenced_commentary" : [ "src-1", "src-2", "src-3" ]
+}
