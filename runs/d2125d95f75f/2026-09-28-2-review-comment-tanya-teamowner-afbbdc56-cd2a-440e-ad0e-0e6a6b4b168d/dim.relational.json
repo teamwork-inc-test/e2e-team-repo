@@ -1,0 +1,97 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "authority-ranking" ],
+    "evidence" : [ {
+      "quote" : "Tanya TeamOwner reviewed a change to a position and rejected it, with one comment.",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Reports an authoritative review and rejection gate on a position.",
+    "reported" : true
+  }, {
+    "segment_local_id" : "src-3",
+    "regions" : [ "authority-ranking" ],
+    "evidence" : [ {
+      "quote" : "the one-week soak should name who signs off the second site before it starts",
+      "kind" : "modal-marker"
+    } ],
+    "why" : "Directs that a named sign-off authority be established prior to execution.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-8",
+    "regions" : [ "authority-ranking" ],
+    "evidence" : [ {
+      "quote" : "Xavier, replica numbers.",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Enacts hierarchical meeting facilitation by directing a specific contributor to report.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-10",
+    "regions" : [ "equality-matching" ],
+    "evidence" : [ {
+      "quote" : "Freya, what do you need from me?",
+      "kind" : "address-form"
+    } ],
+    "why" : "Solicits requirements in a consultative, reciprocal exchange.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-11",
+    "regions" : [ "equality-matching" ],
+    "evidence" : [ {
+      "quote" : "The dates, as early as you can give them, and a commitment that a soak doesn't get shortened because a date slipped.",
+      "kind" : "commitment-marker"
+    } ],
+    "why" : "Establishes terms of mutual obligation and commitment between operating groups.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-12",
+    "regions" : [ "equality-matching" ],
+    "evidence" : [ {
+      "quote" : "That's fair and I'll hold it.",
+      "kind" : "commitment-marker"
+    } ],
+    "why" : "Explicitly ratifies the reciprocal fairness and commits to honoring the constraint.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-54",
+    "regions" : [ "authority-ranking" ],
+    "evidence" : [ {
+      "quote" : "Which I will not be spending. That goes into the Clyde buffer.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Exercises decision-making authority over buffer allocation and schedule reserve.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-56",
+    "regions" : [ "authority-ranking" ],
+    "evidence" : [ {
+      "quote" : "For the record then: the soak between sites is one week, not two, and my note from the eighth about two weeks should be read as superseded by this.",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Formally establishes official project record and supersedes prior direction.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-59",
+    "regions" : [ "authority-ranking" ],
+    "evidence" : [ {
+      "quote" : "the one-week soak should name who signs off the second site before it starts",
+      "kind" : "modal-marker"
+    } ],
+    "why" : "Specifies formal sign-off authority requirement.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-61",
+    "regions" : [ "authority-ranking" ],
+    "evidence" : [ {
+      "quote" : "Tanya TeamOwner rejected the change under review",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Reports an authoritative governance rejection.",
+    "reported" : true
+  } ],
+  "unmarked" : [ "src-2", "src-4", "src-5", "src-6", "src-7", "src-9", "src-13", "src-14", "src-15", "src-16", "src-17", "src-18", "src-19", "src-20", "src-21", "src-22", "src-23", "src-24", "src-25", "src-26", "src-27", "src-28", "src-29", "src-30", "src-31", "src-32", "src-33", "src-34", "src-35", "src-36", "src-37", "src-38", "src-39", "src-40", "src-41", "src-42", "src-43", "src-44", "src-45", "src-46", "src-47", "src-48", "src-49", "src-50", "src-51", "src-52", "src-53", "src-55", "src-57", "src-58", "src-60", "src-62" ],
+  "unmarked_rest" : false,
+  "mints" : [ ],
+  "region_mints" : [ ]
+}
