@@ -1,0 +1,141 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "legitimate" ],
+    "evidence" : [ {
+      "quote" : "reviewed a change to a position and rejected it",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Tanya exercises positional authority to review and reject a proposed change.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-8",
+    "regions" : [ "legitimate" ],
+    "evidence" : [ {
+      "quote" : "Xavier, replica numbers.",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Positional direction demanding specific output/data from a team member.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-10",
+    "regions" : [ "consultation" ],
+    "evidence" : [ {
+      "quote" : "Freya, what do you need from me?",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Directly invites a stakeholder to state requirements and participate in shaping the operational constraint.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-11",
+    "regions" : [ "rational-persuasion" ],
+    "evidence" : [ {
+      "quote" : "If the soak gets eaten, my supervisors are back on the floor at the same time as the next cutover",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Uses logical operational cause-and-effect reasoning to persuade the lead to protect soak periods.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-14",
+    "regions" : [ "consultation" ],
+    "evidence" : [ {
+      "quote" : "Freya, what do you need from me?",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Consultative question inviting the stakeholder's needs.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-15",
+    "regions" : [ "rational-persuasion" ],
+    "evidence" : [ {
+      "quote" : "If the soak gets eaten, my supervisors are back on the floor at the same time as the next cutover",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Logical operational explanation of risk as influence.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-20",
+    "regions" : [ "legitimate" ],
+    "evidence" : [ {
+      "quote" : "Go ahead.",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Positional granting of the floor to speak.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-23",
+    "regions" : [ "expert", "rational-persuasion" ],
+    "evidence" : [ {
+      "quote" : "The reason the queue took nine days to flatten at Dockside is that the old reconciliation job ran weekly and every run threw a fresh batch of exceptions.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Tina uses detailed technical investigation and logical derivation to correct an earlier assertion.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-26",
+    "regions" : [ "expert", "rational-persuasion" ],
+    "evidence" : [ {
+      "quote" : "The reason the queue took nine days to flatten at Dockside is that the old reconciliation job ran weekly and every run threw a fresh batch of exceptions.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Technical log analysis used as rational justification to adjust the plan.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-29",
+    "regions" : [ "expert", "rational-persuasion" ],
+    "evidence" : [ {
+      "quote" : "The reason the queue took nine days to flatten at Dockside is that the old reconciliation job ran weekly and every run threw a fresh batch of exceptions.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Technical reasoning grounding the correction.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-33",
+    "regions" : [ "rational-persuasion" ],
+    "evidence" : [ {
+      "quote" : "Strip the reconciliation cycles out of the Dockside curve and the underlying exception rate is flat by day four.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Argues logically from the reconstructed telemetry curve to establish the new 1-week timeline.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-36",
+    "regions" : [ "rational-persuasion" ],
+    "evidence" : [ {
+      "quote" : "Strip the reconciliation cycles out of the Dockside curve and the underlying exception rate is flat by day four.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Rational persuasion drawing timeline conclusions directly from data analysis.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-54",
+    "regions" : [ "legitimate" ],
+    "evidence" : [ {
+      "quote" : "Which I will not be spending. That goes into the Clyde buffer.",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Authoritative programmatic allocation of newly freed schedule margin by the project lead.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-56",
+    "regions" : [ "legitimate" ],
+    "evidence" : [ {
+      "quote" : "For the record then: the soak between sites is one week, not two, and my note from the eighth about two weeks should be read as superseded by this.",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Formal declarative ruling updating and superseding prior team decisions on the record.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-61",
+    "regions" : [ "legitimate" ],
+    "evidence" : [ {
+      "quote" : "Tanya TeamOwner rejected the change under review",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Formal positional authority exercised to reject a proposed position change.",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-2", "src-3", "src-4", "src-5", "src-6", "src-7", "src-9", "src-12", "src-13", "src-16", "src-17", "src-18", "src-19", "src-21", "src-22", "src-24", "src-25", "src-27", "src-28", "src-30", "src-31", "src-32", "src-34", "src-35", "src-37", "src-38", "src-39", "src-40", "src-41", "src-42", "src-43", "src-44", "src-45", "src-46", "src-47", "src-48", "src-49", "src-50", "src-51", "src-52", "src-53", "src-55", "src-57", "src-58", "src-59", "src-60", "src-62" ],
+  "mints" : [ ],
+  "region_mints" : [ ]
+}
