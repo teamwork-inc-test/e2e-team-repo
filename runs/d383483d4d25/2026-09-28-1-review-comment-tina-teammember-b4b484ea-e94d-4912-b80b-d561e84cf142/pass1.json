@@ -1,0 +1,397 @@
+{
+  "doc" : {
+    "title" : "Tina Team's review of 'how is the minimum soak duration between site cutovers …' · 28 Sep",
+    "date_stated" : "2026-09-28",
+    "actors_present" : [ "Tina Team", "Xavier Expert", "Freya Free", "Tanya Team" ]
+  },
+  "footing_cases" : [ {
+    "id" : "fc-1",
+    "animator" : "Tina Team",
+    "author" : "Tina Team",
+    "principal" : null,
+    "when" : "Editorial narration in review metadata framing"
+  } ],
+  "segments" : [ {
+    "circumstance" : {
+      "context" : "Editorial introduction to review"
+    },
+    "exact" : "Tina Team reviewed a change to a position and suggested a change to it, with one comment.",
+    "local_id" : "src-1",
+    "act" : "assertive",
+    "footing_case" : "fc-1",
+    "note" : null,
+    "footing" : {
+      "animator" : "Tina Team",
+      "author" : "Tina Team",
+      "principal" : null
+    },
+    "redacted" : false,
+    "actor" : "Tina Team"
+  }, {
+    "circumstance" : {
+      "context" : "Editorial introduction to review"
+    },
+    "exact" : "Everything under \"What was under review\" is quoted from the perspective as the review page showed it; none of it is Tina Team's words.",
+    "local_id" : "src-2",
+    "act" : "assertive",
+    "footing_case" : "fc-1",
+    "note" : null,
+    "footing" : {
+      "animator" : "Tina Team",
+      "author" : "Tina Team",
+      "principal" : null
+    },
+    "redacted" : false,
+    "actor" : "Tina Team"
+  }, {
+    "circumstance" : {
+      "context" : "Editorial introduction to review"
+    },
+    "exact" : "The comment itself is the last section.",
+    "local_id" : "src-3",
+    "act" : "assertive",
+    "footing_case" : "fc-1",
+    "note" : null,
+    "footing" : {
+      "animator" : "Tina Team",
+      "author" : "Tina Team",
+      "principal" : null
+    },
+    "redacted" : false,
+    "actor" : "Tina Team"
+  }, {
+    "circumstance" : {
+      "context" : "The position under review"
+    },
+    "exact" : "how is the minimum soak duration between site cutovers determined and validated?",
+    "local_id" : "src-4",
+    "act" : "question",
+    "prefix" : "### The position\n\n> ",
+    "footing_case" : null,
+    "suffix" : "\n\n### The change under review\n",
+    "note" : "Position title quoted in review context",
+    "redacted" : false,
+    "actor" : "Tina Team"
+  }, {
+    "circumstance" : {
+      "context" : "Halyard Cutover Review, 15 Sep"
+    },
+    "exact" : "Can I say that I think this is the right correction and also that it costs us something? Two weeks was conservative in a place where being conservative was cheap. One week is defensible but it has no slack in it.",
+    "local_id" : "src-5",
+    "act" : "assertive",
+    "prefix" : "- Statements this change added:\n\n  > ",
+    "footing_case" : null,
+    "suffix" : "\n\n  > That's true. I'd rather",
+    "note" : null,
+    "redacted" : false,
+    "actor" : "Xavier Expert"
+  }, {
+    "circumstance" : {
+      "context" : "Halyard Cutover Review, 15 Sep"
+    },
+    "exact" : "That's true. I'd rather be defensible and know where the slack isn't than conservative for a reason that turned out to be imaginary.",
+    "local_id" : "src-6",
+    "act" : "assertive",
+    "prefix" : "slack in it.\n\n  > ",
+    "footing_case" : null,
+    "suffix" : "\n\n  > Agreed. I just want it o",
+    "note" : null,
+    "redacted" : false,
+    "actor" : "Tina Team"
+  }, {
+    "circumstance" : {
+      "context" : "Halyard Cutover Review, 15 Sep"
+    },
+    "exact" : "Agreed. I just want it on the record that the new number is tight, not safe.",
+    "local_id" : "src-7",
+    "act" : "assertive",
+    "prefix" : "turned out to be imaginary.\n\n  > ",
+    "footing_case" : null,
+    "suffix" : "\n\n  > Right. For the record the",
+    "note" : null,
+    "redacted" : false,
+    "actor" : "Xavier Expert"
+  }, {
+    "circumstance" : {
+      "context" : "Halyard Cutover Review, 15 Sep"
+    },
+    "exact" : "Right. For the record then: the soak between sites is one week, not two, and my note from the eighth about two weeks should be read as superseded by this.",
+    "local_id" : "src-8",
+    "act" : "declarative",
+    "prefix" : "is tight, not safe.\n\n  > ",
+    "footing_case" : null,
+    "suffix" : "\n\n  > On the eighth I said the",
+    "note" : null,
+    "redacted" : false,
+    "actor" : "Tanya Team"
+  }, {
+    "circumstance" : {
+      "context" : "Halyard Cutover Review, 15 Sep"
+    },
+    "exact" : "On the eighth I said the soak between sites has to be two full weeks, and I said I'd hold us to it. That was wrong. I was wrong on the eighth and I want it struck from the plan.",
+    "local_id" : "src-9",
+    "act" : "directive",
+    "prefix" : "as superseded by this.\n\n  > ",
+    "footing_case" : null,
+    "suffix" : "\n\n  > I quoted the Dockside nu",
+    "note" : null,
+    "redacted" : false,
+    "actor" : "Tina Team"
+  }, {
+    "circumstance" : {
+      "context" : "Halyard Cutover Review, 15 Sep"
+    },
+    "exact" : "I quoted the Dockside number — the exception queue not flattening until day nine or ten. I went back through the Dockside logs on Friday because Xavier's comment about it being one site, one season was bothering me. The reason the queue took nine days to flatten at Dockside is that the old reconciliation job ran weekly and every run threw a fresh batch of exceptions. Two weeks was two reconciliation cycles. It was never about the site settling.",
+    "local_id" : "src-10",
+    "act" : "assertive",
+    "prefix" : "struck from the plan.\n\n  > ",
+    "footing_case" : null,
+    "suffix" : "\n\n  > That job is gone. It was",
+    "note" : null,
+    "redacted" : false,
+    "actor" : "Tina Team"
+  }, {
+    "circumstance" : {
+      "context" : "Halyard Cutover Review, 15 Sep"
+    },
+    "exact" : "That job is gone. It was retired in July. Nothing in the new platform runs on a weekly cycle — reconciliation is continuous now. So the number I gave was measuring a job that doesn't exist any more, and I attached it to the soak as though it were a property of the site.",
+    "local_id" : "src-11",
+    "act" : "assertive",
+    "prefix" : "about the site settling.\n\n  > ",
+    "footing_case" : null,
+    "suffix" : "\n\n  > One week. Strip the reco",
+    "note" : null,
+    "redacted" : false,
+    "actor" : "Tina Team"
+  }, {
+    "circumstance" : {
+      "context" : "Halyard Cutover Review, 15 Sep"
+    },
+    "exact" : "One week. Strip the reconciliation cycles out of the Dockside curve and the underlying exception rate is flat by day four. One week gives you the flattening plus three days to look at it, which is the same margin I was arguing for. One week is the soak, and please don't hold the plan to two weeks on my say-so, because I was wrong on the eighth.",
+    "local_id" : "src-12",
+    "act" : "directive",
+    "prefix" : "a property of the site.\n\n  > ",
+    "footing_case" : null,
+    "suffix" : "\n\n- Statements this change rem",
+    "note" : null,
+    "redacted" : false,
+    "actor" : "Tina Team"
+  }, {
+    "local_id" : "src-13",
+    "exact" : "Agreed, and I want to put a number on the soak, because \"a soak\" without a number turns into three days the first time someone's under pressure. The soak is two full weeks. That's the Dockside number, and I'd hold us to it.",
+    "actor" : "Tina Team",
+    "act" : "commissive",
+    "circumstance" : {
+      "context" : "Halyard Weekly, 8 Sep"
+    },
+    "note" : null,
+    "redacted" : false,
+    "footing_case" : null
+  }, {
+    "circumstance" : {
+      "context" : "Halyard Weekly, 8 Sep"
+    },
+    "exact" : "Dockside pilot, back in the spring. We watched the exception queue after go-live and it didn't flatten out until day nine or ten. Two weeks gives you the flattening plus a few days to actually look at what flattened. Anything less and you're starting the next site while you're still finding out what the last one did.",
+    "local_id" : "src-14",
+    "act" : "assertive",
+    "prefix" : "- Statements this change removed:\n\n  > Agreed, and I want to put a number on the soak, because \"a soak\" without a number turns into three days the first time someone's under pressure. The soak is two full weeks. That's the Dockside number, and I'd hold us to it.\n\n  > ",
+    "footing_case" : null,
+    "suffix" : "\n\n  > That's the reasoning I w",
+    "note" : null,
+    "redacted" : false,
+    "actor" : "Tina Team"
+  }, {
+    "circumstance" : {
+      "context" : "Halyard Weekly, 8 Sep"
+    },
+    "exact" : "That's the reasoning I wanted on the record. Two weeks, from the Dockside exception curve.",
+    "local_id" : "src-15",
+    "act" : "assertive",
+    "prefix" : "t what the last one did.\n\n  > ",
+    "footing_case" : null,
+    "suffix" : "\n\n  > It's one site, one seaso",
+    "note" : null,
+    "redacted" : false,
+    "actor" : "Tanya Team"
+  }, {
+    "circumstance" : {
+      "context" : "Halyard Weekly, 8 Sep"
+    },
+    "exact" : "It's one site, one season, and it's the only site we've actually done. I'd rather hold two weeks and shorten it with evidence than hold one week and discover we needed two.",
+    "local_id" : "src-16",
+    "act" : "assertive",
+    "prefix" : "Dockside exception curve.\n\n  > ",
+    "footing_case" : null,
+    "suffix" : "\n\n### The position's statemen",
+    "note" : null,
+    "redacted" : false,
+    "actor" : "Tina Team"
+  }, {
+    "local_id" : "src-17",
+    "exact" : "I'll note that the exception curve is the only evidence we have for it. It's one site, one season.",
+    "actor" : "Xavier Expert",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Halyard Weekly, 8 Sep, line 53"
+    },
+    "note" : null,
+    "redacted" : false,
+    "footing_case" : null
+  }, {
+    "circumstance" : {
+      "context" : "Halyard Ops Readiness, 15 Sep, line 51"
+    },
+    "exact" : "The dates, as early as you can give them, and a commitment that a soak doesn't get shortened because a date slipped. If the soak gets eaten, my supervisors are back on the floor at the same time as the next cutover and we're in the same place by another route.",
+    "local_id" : "src-18",
+    "act" : "directive",
+    "prefix" : "om me?\n\n  The statement:\n\n  > ",
+    "footing_case" : null,
+    "suffix" : "\n\n  The lines after it:\n\n  > *",
+    "note" : null,
+    "redacted" : false,
+    "actor" : "Freya Free"
+  }, {
+    "circumstance" : {
+      "context" : "Halyard Ops Readiness, 15 Sep, line 53"
+    },
+    "exact" : "That's fair and I'll hold it.",
+    "local_id" : "src-19",
+    "act" : "commissive",
+    "prefix" : "The statement:\n\n  > ",
+    "footing_case" : null,
+    "suffix" : "\n\n  The lines after it:\n\n  > *",
+    "note" : null,
+    "redacted" : false,
+    "actor" : "Tanya Team"
+  }, {
+    "circumstance" : {
+      "context" : "Halyard Cutover Review, 15 Sep, line 17"
+    },
+    "exact" : "On the eighth I said the soak between sites has to be two full weeks, and I said I'd hold us to it. That was wrong. I was wrong on the eighth and I want it struck from the plan.",
+    "local_id" : "src-20",
+    "act" : "directive",
+    "prefix" : "The statement:\n\n  > ",
+    "footing_case" : null,
+    "suffix" : "\n\n  The lines after it:\n\n  > *",
+    "note" : null,
+    "redacted" : false,
+    "actor" : "Tina Team"
+  }, {
+    "circumstance" : {
+      "context" : "Halyard Cutover Review, 15 Sep, line 21"
+    },
+    "exact" : "I quoted the Dockside number — the exception queue not flattening until day nine or ten. I went back through the Dockside logs on Friday because Xavier's comment about it being one site, one season was bothering me. The reason the queue took nine days to flatten at Dockside is that the old reconciliation job ran weekly and every run threw a fresh batch of exceptions. Two weeks was two reconciliation cycles. It was never about the site settling.",
+    "local_id" : "src-21",
+    "act" : "assertive",
+    "prefix" : "The statement:\n\n  > ",
+    "footing_case" : null,
+    "suffix" : "\n\n  The lines after it:\n\n  > *",
+    "note" : null,
+    "redacted" : false,
+    "actor" : "Tina Team"
+  }, {
+    "circumstance" : {
+      "context" : "Halyard Cutover Review, 15 Sep, line 25"
+    },
+    "exact" : "That job is gone. It was retired in July. Nothing in the new platform runs on a weekly cycle — reconciliation is continuous now. So the number I gave was measuring a job that doesn't exist any more, and I attached it to the soak as though it were a property of the site.",
+    "local_id" : "src-22",
+    "act" : "assertive",
+    "prefix" : "The statement:\n\n  > ",
+    "footing_case" : null,
+    "suffix" : "\n\n  The lines after it:\n\n  > *",
+    "note" : null,
+    "redacted" : false,
+    "actor" : "Tina Team"
+  }, {
+    "circumstance" : {
+      "context" : "Halyard Cutover Review, 15 Sep, line 29"
+    },
+    "exact" : "One week. Strip the reconciliation cycles out of the Dockside curve and the underlying exception rate is flat by day four. One week gives you the flattening plus three days to look at it, which is the same margin I was arguing for. One week is the soak, and please don't hold the plan to two weeks on my say-so, because I was wrong on the eighth.",
+    "local_id" : "src-23",
+    "act" : "directive",
+    "prefix" : "The statement:\n\n  > ",
+    "footing_case" : null,
+    "suffix" : "\n\n  The lines after it:\n\n  > *",
+    "note" : null,
+    "redacted" : false,
+    "actor" : "Tina Team"
+  }, {
+    "circumstance" : {
+      "context" : "Halyard Cutover Review, 15 Sep, line 37"
+    },
+    "exact" : "Can I say that I think this is the right correction and also that it costs us something? Two weeks was conservative in a place where being conservative was cheap. One week is defensible but it has no slack in it.",
+    "local_id" : "src-24",
+    "act" : "assertive",
+    "prefix" : "The statement:\n\n  > ",
+    "footing_case" : null,
+    "suffix" : "\n\n  The lines after it:\n\n  > *",
+    "note" : null,
+    "redacted" : false,
+    "actor" : "Xavier Expert"
+  }, {
+    "circumstance" : {
+      "context" : "Halyard Cutover Review, 15 Sep, line 39"
+    },
+    "exact" : "That's true. I'd rather be defensible and know where the slack isn't than conservative for a reason that turned out to be imaginary.",
+    "local_id" : "src-25",
+    "act" : "assertive",
+    "prefix" : "The statement:\n\n  > ",
+    "footing_case" : null,
+    "suffix" : "\n\n  The lines after it:\n\n  > *",
+    "note" : null,
+    "redacted" : false,
+    "actor" : "Tina Team"
+  }, {
+    "circumstance" : {
+      "context" : "Halyard Cutover Review, 15 Sep, line 41"
+    },
+    "exact" : "Agreed. I just want it on the record that the new number is tight, not safe.",
+    "local_id" : "src-26",
+    "act" : "assertive",
+    "prefix" : "The statement:\n\n  > ",
+    "footing_case" : null,
+    "suffix" : "\n\n  The lines after it:\n\n  > *",
+    "note" : null,
+    "redacted" : false,
+    "actor" : "Xavier Expert"
+  }, {
+    "circumstance" : {
+      "context" : "Halyard Cutover Review, 15 Sep, line 51"
+    },
+    "exact" : "Right. For the record then: the soak between sites is one week, not two, and my note from the eighth about two weeks should be read as superseded by this.",
+    "local_id" : "src-27",
+    "act" : "declarative",
+    "prefix" : "The statement:\n\n  > ",
+    "footing_case" : null,
+    "suffix" : "\n\n  The lines after it:\n\n  > *",
+    "note" : null,
+    "redacted" : false,
+    "actor" : "Tanya Team"
+  }, {
+    "local_id" : "src-28",
+    "exact" : "how should multi-site cutovers be sequenced when operational containment conflicts with local site friction?",
+    "actor" : "Tina Team",
+    "act" : "question",
+    "circumstance" : {
+      "context" : "Beside the position in narrative context"
+    },
+    "note" : null,
+    "redacted" : false,
+    "footing_case" : null
+  }, {
+    "local_id" : "src-30",
+    "exact" : "the one-week soak should name who signs off the second site before it starts",
+    "actor" : "Tina Team",
+    "act" : "directive",
+    "circumstance" : {
+      "context" : "Review comment"
+    },
+    "note" : null,
+    "redacted" : false,
+    "footing_case" : null
+  } ],
+  "coverage_gaps" : [ {
+    "reason" : "segment src-29 dropped: exact unverifiable against the document (paraphrase or unrepairable normalization)",
+    "span_hint" : "Tina Team ([red"
+  } ]
+}
