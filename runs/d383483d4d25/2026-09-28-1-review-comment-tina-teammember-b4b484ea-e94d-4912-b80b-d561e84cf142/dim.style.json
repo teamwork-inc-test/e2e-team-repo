@@ -1,0 +1,69 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-6",
+    "regions" : [ "antithesis", "parallelism" ],
+    "evidence" : [ {
+      "quote" : "defensible and know where the slack isn't than conservative for a reason that turned out to be imaginary",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Opposes being defensible with being conservative via parallel comparative clauses ('rather be X than Y').",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-7",
+    "regions" : [ "antithesis" ],
+    "evidence" : [ {
+      "quote" : "tight, not safe",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Direct antithetical pairing setting two contrasting qualities against one another ('X, not Y').",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-8",
+    "regions" : [ "antithesis" ],
+    "evidence" : [ {
+      "quote" : "one week, not two",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Deliberate contrast frame ('X, not Y') clarifying the formal posture.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-16",
+    "regions" : [ "antithesis", "parallelism" ],
+    "evidence" : [ {
+      "quote" : "hold two weeks and shorten it with evidence than hold one week and discover we needed two",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Antithetical comparison balanced across parallel verbal structures ('hold X and Y than hold A and B').",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-25",
+    "regions" : [ "antithesis", "parallelism" ],
+    "evidence" : [ {
+      "quote" : "defensible and know where the slack isn't than conservative for a reason that turned out to be imaginary",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Parallel comparative antithesis framing the tradeoff ('rather be X than Y').",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-26",
+    "regions" : [ "antithesis" ],
+    "evidence" : [ {
+      "quote" : "tight, not safe",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Antithetical formula contrasting 'tight' against 'safe'.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-27",
+    "regions" : [ "antithesis" ],
+    "evidence" : [ {
+      "quote" : "one week, not two",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Contrasting numbers positioned in an 'X, not Y' antithesis.",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-1", "src-2", "src-3", "src-4", "src-5", "src-9", "src-10", "src-11", "src-12", "src-13", "src-14", "src-15", "src-17", "src-18", "src-19", "src-20", "src-21", "src-22", "src-23", "src-24", "src-28", "src-30" ],
+  "mints" : [ ],
+  "region_mints" : [ ]
+}
