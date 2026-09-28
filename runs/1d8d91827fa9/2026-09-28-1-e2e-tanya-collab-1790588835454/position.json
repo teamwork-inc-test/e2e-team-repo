@@ -1,0 +1,12 @@
+{
+  "positions" : [ {
+    "name" : "SprintDeliveryAndVelocityDrivers",
+    "frame" : "What technical unlocks and operational milestones drove sprint delivery and velocity?",
+    "members" : [ "src-1", "src-2", "src-3" ],
+    "why" : "Binds the shipment of the async decision widget to the quarter-high velocity of 23 points and the Zephyr integration unlock, grouping retrospective delivery outcomes under execution drivers.",
+    "under" : [ "Narrative_DecisionCaptureAtConsensus" ]
+  } ],
+  "attaches" : [ ],
+  "position_revisions" : [ ],
+  "ungrouped" : [ ]
+}
