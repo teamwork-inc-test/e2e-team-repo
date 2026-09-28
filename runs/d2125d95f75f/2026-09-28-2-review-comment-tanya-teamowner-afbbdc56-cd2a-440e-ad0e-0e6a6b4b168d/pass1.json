@@ -1,0 +1,740 @@
+{
+  "doc" : {
+    "title" : "Tanya TeamOwner's review of 'how is the minimum soak duration between site cutovers …' · 28 Sep",
+    "date_stated" : "2026-09-28",
+    "actors_present" : [ "Tanya TeamOwner", "Tina Team", "Tanya Team", "Xavier Expert", "Freya Free" ]
+  },
+  "footing_cases" : [ {
+    "id" : "fc-1",
+    "animator" : "Tanya TeamOwner",
+    "author" : "Tanya TeamOwner",
+    "principal" : null,
+    "when" : "Editorial narrative or review metadata framing composed by Tanya TeamOwner"
+  } ],
+  "segments" : [ {
+    "local_id" : "src-1",
+    "exact" : "Tanya TeamOwner reviewed a change to a position and rejected it, with one comment.",
+    "actor" : "Tanya TeamOwner",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Review summary introduction"
+    },
+    "note" : null,
+    "footing_case" : "fc-1",
+    "footing" : {
+      "animator" : "Tanya TeamOwner",
+      "author" : "Tanya TeamOwner",
+      "principal" : null
+    }
+  }, {
+    "circumstance" : {
+      "context" : "Position under review title/question"
+    },
+    "exact" : "how is the minimum soak duration between site cutovers determined and validated?",
+    "local_id" : "src-2",
+    "act" : "question",
+    "prefix" : "### The position\n\n> ",
+    "footing_case" : "fc-1",
+    "suffix" : "\n\n### The change under review\n\n-",
+    "note" : null,
+    "footing" : {
+      "animator" : "Tanya TeamOwner",
+      "author" : "Tanya TeamOwner",
+      "principal" : null
+    },
+    "actor" : "Tanya TeamOwner"
+  }, {
+    "circumstance" : {
+      "context" : "Statements added by change under review"
+    },
+    "exact" : "the one-week soak should name who signs off the second site before it starts",
+    "local_id" : "src-3",
+    "act" : "directive",
+    "prefix" : "change added:\n\n  > ",
+    "footing_case" : null,
+    "suffix" : "\n\n### The position's statements",
+    "note" : null,
+    "actor" : "Tina Team"
+  }, {
+    "local_id" : "src-4",
+    "exact" : "Dockside pilot, back in the spring. We watched the exception queue after go-live and it didn't flatten out until day nine or ten. Two weeks gives you the flattening plus a few days to actually look at what flattened. Anything less and you're starting the next site while you're still finding out what the last one did.",
+    "actor" : "Tina Team",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Quoted context for Statement 1 from Halyard Weekly, 8 Sep"
+    },
+    "note" : null,
+    "footing_case" : null
+  }, {
+    "local_id" : "src-5",
+    "exact" : "That's the reasoning I wanted on the record. Two weeks, from the Dockside exception curve.",
+    "actor" : "Tanya Team",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Quoted context for Statement 1 from Halyard Weekly, 8 Sep"
+    },
+    "note" : null,
+    "footing_case" : null
+  }, {
+    "local_id" : "src-6",
+    "exact" : "I'll note that the exception curve is the only evidence we have for it. It's one site, one season.",
+    "actor" : "Xavier Expert",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Statement 1 from Halyard Weekly, 8 Sep, line 53"
+    },
+    "note" : null,
+    "footing_case" : null
+  }, {
+    "local_id" : "src-7",
+    "exact" : "It's one site, one season, and it's the only site we've actually done. I'd rather hold two weeks and shorten it with evidence than hold one week and discover we needed two.",
+    "actor" : "Tina Team",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Quoted context for Statement 1 from Halyard Weekly, 8 Sep"
+    },
+    "note" : null,
+    "footing_case" : null
+  }, {
+    "local_id" : "src-8",
+    "exact" : "Agreed. Xavier, replica numbers.",
+    "actor" : "Tanya Team",
+    "act" : "directive",
+    "circumstance" : {
+      "context" : "Quoted context for Statement 1 from Halyard Weekly, 8 Sep"
+    },
+    "note" : null,
+    "footing_case" : null
+  }, {
+    "local_id" : "src-9",
+    "exact" : "No. It reinforces. The replica rule and the reference-data rule both assume one cutover window open at a time — I hadn't stated that assumption, and it's worth stating. If we ever went parallel, both of those would need rewriting.",
+    "actor" : "Xavier Expert",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Quoted context for Statement 2 from Halyard Ops Readiness, 15 Sep"
+    },
+    "note" : null,
+    "footing_case" : null
+  }, {
+    "circumstance" : {
+      "context" : "Quoted context for Statement 2 from Halyard Ops Readiness, 15 Sep"
+    },
+    "exact" : "Then let's not go parallel. Freya, what do you need from me?",
+    "local_id" : "src-10",
+    "act" : "question",
+    "prefix" : " rewritten.\n  > **Tanya Team:** ",
+    "footing_case" : null,
+    "suffix" : "\n\n  The statement:\n\n  > The d",
+    "note" : null,
+    "actor" : "Tanya Team"
+  }, {
+    "circumstance" : {
+      "context" : "Statement 2 from Halyard Ops Readiness, 15 Sep, line 51"
+    },
+    "exact" : "The dates, as early as you can give them, and a commitment that a soak doesn't get shortened because a date slipped. If the soak gets eaten, my supervisors are back on the floor at the same time as the next cutover and we're in the same place by another route.",
+    "local_id" : "src-11",
+    "act" : "directive",
+    "prefix" : "\n  The statement:\n\n  > ",
+    "footing_case" : null,
+    "suffix" : "\n\n  The lines after it:\n\n  > *",
+    "note" : null,
+    "actor" : "Freya Free"
+  }, {
+    "circumstance" : {
+      "context" : "Quoted context for Statement 2 from Halyard Ops Readiness, 15 Sep"
+    },
+    "exact" : "That's fair and I'll hold it.",
+    "local_id" : "src-12",
+    "act" : "commissive",
+    "prefix" : "\n  The lines after it:\n\n  > **Tanya Team:** ",
+    "footing_case" : null,
+    "suffix" : "\n  > **Freya Free:** Then I'm c",
+    "note" : null,
+    "actor" : "Tanya Team"
+  }, {
+    "circumstance" : {
+      "context" : "Quoted context for Statement 2 from Halyard Ops Readiness, 15 Sep"
+    },
+    "exact" : "Then I'm content.",
+    "local_id" : "src-13",
+    "act" : "expressive",
+    "prefix" : "\n  > **Freya Free:** ",
+    "footing_case" : null,
+    "suffix" : "\n\n#### Statement 3",
+    "note" : null,
+    "actor" : "Freya Free"
+  }, {
+    "circumstance" : {
+      "context" : "Quoted context for Statement 3 from Halyard Ops Readiness, 15 Sep"
+    },
+    "exact" : "Then let's not go parallel. Freya, what do you need from me?",
+    "local_id" : "src-14",
+    "act" : "question",
+    "prefix" : "lines before it:\n\n  > **Tanya Team:** ",
+    "footing_case" : null,
+    "suffix" : "\n  > **Freya Free:** The dates,",
+    "note" : null,
+    "actor" : "Tanya Team"
+  }, {
+    "circumstance" : {
+      "context" : "Quoted context for Statement 3 from Halyard Ops Readiness, 15 Sep"
+    },
+    "exact" : "The dates, as early as you can give them, and a commitment that a soak doesn't get shortened because a date slipped. If the soak gets eaten, my supervisors are back on the floor at the same time as the next cutover and we're in the same place by another route.",
+    "local_id" : "src-15",
+    "act" : "directive",
+    "prefix" : "  > **Freya Free:** ",
+    "footing_case" : null,
+    "suffix" : "\n\n  The statement:\n\n  > That'",
+    "note" : null,
+    "actor" : "Freya Free"
+  }, {
+    "circumstance" : {
+      "context" : "Statement 3 from Halyard Ops Readiness, 15 Sep, line 53"
+    },
+    "exact" : "That's fair and I'll hold it.",
+    "local_id" : "src-16",
+    "act" : "commissive",
+    "prefix" : "\n  The statement:\n\n  > ",
+    "footing_case" : null,
+    "suffix" : "\n\n  The lines after it:\n\n  > *",
+    "note" : null,
+    "actor" : "Tanya Team"
+  }, {
+    "circumstance" : {
+      "context" : "Quoted context for Statement 3 from Halyard Ops Readiness, 15 Sep"
+    },
+    "exact" : "Then I'm content.",
+    "local_id" : "src-17",
+    "act" : "expressive",
+    "prefix" : "The lines after it:\n\n  > **Freya Free:** ",
+    "footing_case" : null,
+    "suffix" : "\n  > **Tanya Team:** Thanks, Fr",
+    "note" : null,
+    "actor" : "Freya Free"
+  }, {
+    "local_id" : "src-18",
+    "exact" : "Thanks, Freya. Genuinely useful.",
+    "actor" : "Tanya Team",
+    "act" : "expressive",
+    "circumstance" : {
+      "context" : "Quoted context for Statement 3 from Halyard Ops Readiness, 15 Sep"
+    },
+    "note" : null,
+    "footing_case" : null
+  }, {
+    "local_id" : "src-19",
+    "exact" : "Before we start on anything else, I need to correct something I said, and I'd rather do it at the top than bury it.",
+    "actor" : "Tina Team",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Quoted context for Statement 4 from Halyard Cutover Review, 15 Sep"
+    },
+    "note" : null,
+    "footing_case" : null
+  }, {
+    "local_id" : "src-20",
+    "exact" : "Go ahead.",
+    "actor" : "Tanya Team",
+    "act" : "directive",
+    "circumstance" : {
+      "context" : "Quoted context for Statement 4 from Halyard Cutover Review, 15 Sep"
+    },
+    "note" : null,
+    "footing_case" : null
+  }, {
+    "circumstance" : {
+      "context" : "Statement 4 from Halyard Cutover Review, 15 Sep, line 17"
+    },
+    "exact" : "On the eighth I said the soak between sites has to be two full weeks, and I said I'd hold us to it. That was wrong. I was wrong on the eighth and I want it struck from the plan.",
+    "local_id" : "src-21",
+    "act" : "directive",
+    "prefix" : "\n  The statement:\n\n  > ",
+    "footing_case" : null,
+    "suffix" : "\n\n  The lines after it:\n\n  > *",
+    "note" : null,
+    "actor" : "Tina Team"
+  }, {
+    "circumstance" : {
+      "context" : "Quoted context for Statement 4 from Halyard Cutover Review, 15 Sep"
+    },
+    "exact" : "Right. Tell me why.",
+    "local_id" : "src-22",
+    "act" : "directive",
+    "prefix" : "lines after it:\n\n  > **Tanya Team:** ",
+    "footing_case" : null,
+    "suffix" : "\n  > **Tina Team:** I quoted the",
+    "note" : null,
+    "actor" : "Tanya Team"
+  }, {
+    "circumstance" : {
+      "context" : "Quoted context for Statement 4 from Halyard Cutover Review, 15 Sep"
+    },
+    "exact" : "I quoted the Dockside number — the exception queue not flattening until day nine or ten. I went back through the Dockside logs on Friday because Xavier's comment about it being one site, one season was bothering me. The reason the queue took nine days to flatten at Dockside is that the old reconciliation job ran weekly and every run threw a fresh batch of exceptions. Two weeks was two reconciliation cycles. It was never about the site settling.",
+    "local_id" : "src-23",
+    "act" : "assertive",
+    "prefix" : "  > **Tina Team:** ",
+    "footing_case" : null,
+    "suffix" : "\n\n#### Statement 5",
+    "note" : null,
+    "actor" : "Tina Team"
+  }, {
+    "circumstance" : {
+      "context" : "Quoted context for Statement 5 from Halyard Cutover Review, 15 Sep"
+    },
+    "exact" : "On the eighth I said the soak between sites has to be two full weeks, and I said I'd hold us to it. That was wrong. I was wrong on the eighth and I want it struck from the plan.",
+    "local_id" : "src-24",
+    "act" : "directive",
+    "prefix" : "lines before it:\n\n  > **Tina Team:** ",
+    "footing_case" : null,
+    "suffix" : "\n  > **Tanya Team:** Right. Tel",
+    "note" : null,
+    "actor" : "Tina Team"
+  }, {
+    "circumstance" : {
+      "context" : "Quoted context for Statement 5 from Halyard Cutover Review, 15 Sep"
+    },
+    "exact" : "Right. Tell me why.",
+    "local_id" : "src-25",
+    "act" : "directive",
+    "prefix" : "the plan.\n  > **Tanya Team:** ",
+    "footing_case" : null,
+    "suffix" : "\n\n  The statement:\n\n  > I qu",
+    "note" : null,
+    "actor" : "Tanya Team"
+  }, {
+    "circumstance" : {
+      "context" : "Statement 5 from Halyard Cutover Review, 15 Sep, line 21"
+    },
+    "exact" : "I quoted the Dockside number — the exception queue not flattening until day nine or ten. I went back through the Dockside logs on Friday because Xavier's comment about it being one site, one season was bothering me. The reason the queue took nine days to flatten at Dockside is that the old reconciliation job ran weekly and every run threw a fresh batch of exceptions. Two weeks was two reconciliation cycles. It was never about the site settling.",
+    "local_id" : "src-26",
+    "act" : "assertive",
+    "prefix" : "\n  The statement:\n\n  > ",
+    "footing_case" : null,
+    "suffix" : "\n\n  The lines after it:\n\n  > *",
+    "note" : null,
+    "actor" : "Tina Team"
+  }, {
+    "circumstance" : {
+      "context" : "Quoted context for Statement 5 from Halyard Cutover Review, 15 Sep"
+    },
+    "exact" : "And that job is gone.",
+    "local_id" : "src-27",
+    "act" : "assertive",
+    "prefix" : "lines after it:\n\n  > **Xavier Expert:** ",
+    "footing_case" : null,
+    "suffix" : "\n  > **Tina Team:** That job is",
+    "note" : null,
+    "actor" : "Xavier Expert"
+  }, {
+    "circumstance" : {
+      "context" : "Quoted context for Statement 5 from Halyard Cutover Review, 15 Sep"
+    },
+    "exact" : "That job is gone. It was retired in July. Nothing in the new platform runs on a weekly cycle — reconciliation is continuous now. So the number I gave was measuring a job that doesn't exist any more, and I attached it to the soak as though it were a property of the site.",
+    "local_id" : "src-28",
+    "act" : "assertive",
+    "prefix" : "  > **Tina Team:** ",
+    "footing_case" : null,
+    "suffix" : "\n\n#### Statement 6",
+    "note" : null,
+    "actor" : "Tina Team"
+  }, {
+    "circumstance" : {
+      "context" : "Quoted context for Statement 6 from Halyard Cutover Review, 15 Sep"
+    },
+    "exact" : "I quoted the Dockside number — the exception queue not flattening until day nine or ten. I went back through the Dockside logs on Friday because Xavier's comment about it being one site, one season was bothering me. The reason the queue took nine days to flatten at Dockside is that the old reconciliation job ran weekly and every run threw a fresh batch of exceptions. Two weeks was two reconciliation cycles. It was never about the site settling.",
+    "local_id" : "src-29",
+    "act" : "assertive",
+    "prefix" : "lines before it:\n\n  > **Tina Team:** ",
+    "footing_case" : null,
+    "suffix" : "\n  > **Xavier Expert:** And that",
+    "note" : null,
+    "actor" : "Tina Team"
+  }, {
+    "circumstance" : {
+      "context" : "Quoted context for Statement 6 from Halyard Cutover Review, 15 Sep"
+    },
+    "exact" : "And that job is gone.",
+    "local_id" : "src-30",
+    "act" : "assertive",
+    "prefix" : "e settling.\n  > **Xavier Expert:** ",
+    "footing_case" : null,
+    "suffix" : "\n\n  The statement:\n\n  > That",
+    "note" : null,
+    "actor" : "Xavier Expert"
+  }, {
+    "circumstance" : {
+      "context" : "Statement 6 from Halyard Cutover Review, 15 Sep, line 25"
+    },
+    "exact" : "That job is gone. It was retired in July. Nothing in the new platform runs on a weekly cycle — reconciliation is continuous now. So the number I gave was measuring a job that doesn't exist any more, and I attached it to the soak as though it were a property of the site.",
+    "local_id" : "src-31",
+    "act" : "assertive",
+    "prefix" : "\n  The statement:\n\n  > ",
+    "footing_case" : null,
+    "suffix" : "\n\n  The lines after it:\n\n  > *",
+    "note" : null,
+    "actor" : "Tina Team"
+  }, {
+    "circumstance" : {
+      "context" : "Quoted context for Statement 6 from Halyard Cutover Review, 15 Sep"
+    },
+    "exact" : "So what is the soak?",
+    "local_id" : "src-32",
+    "act" : "question",
+    "prefix" : "The lines after it:\n\n  > **Tanya Team:** ",
+    "footing_case" : null,
+    "suffix" : "\n  > **Tina Team:** One week. S",
+    "note" : null,
+    "actor" : "Tanya Team"
+  }, {
+    "circumstance" : {
+      "context" : "Quoted context for Statement 6 from Halyard Cutover Review, 15 Sep"
+    },
+    "exact" : "One week. Strip the reconciliation cycles out of the Dockside curve and the underlying exception rate is flat by day four. One week gives you the flattening plus three days to look at it, which is the same margin I was arguing for. One week is the soak, and please don't hold the plan to two weeks on my say-so, because I was wrong on the eighth.",
+    "local_id" : "src-33",
+    "act" : "directive",
+    "prefix" : "  > **Tina Team:** ",
+    "footing_case" : null,
+    "suffix" : "\n\n#### Statement 7",
+    "note" : null,
+    "actor" : "Tina Team"
+  }, {
+    "circumstance" : {
+      "context" : "Quoted context for Statement 7 from Halyard Cutover Review, 15 Sep"
+    },
+    "exact" : "That job is gone. It was retired in July. Nothing in the new platform runs on a weekly cycle — reconciliation is continuous now. So the number I gave was measuring a job that doesn't exist any more, and I attached it to the soak as though it were a property of the site.",
+    "local_id" : "src-34",
+    "act" : "assertive",
+    "prefix" : "lines before it:\n\n  > **Tina Team:** ",
+    "footing_case" : null,
+    "suffix" : "\n  > **Tanya Team:** So what is",
+    "note" : null,
+    "actor" : "Tina Team"
+  }, {
+    "circumstance" : {
+      "context" : "Quoted context for Statement 7 from Halyard Cutover Review, 15 Sep"
+    },
+    "exact" : "So what is the soak?",
+    "local_id" : "src-35",
+    "act" : "question",
+    "prefix" : "of the site.\n  > **Tanya Team:** ",
+    "footing_case" : null,
+    "suffix" : "\n\n  The statement:\n\n  > One",
+    "note" : null,
+    "actor" : "Tanya Team"
+  }, {
+    "circumstance" : {
+      "context" : "Statement 7 from Halyard Cutover Review, 15 Sep, line 29"
+    },
+    "exact" : "One week. Strip the reconciliation cycles out of the Dockside curve and the underlying exception rate is flat by day four. One week gives you the flattening plus three days to look at it, which is the same margin I was arguing for. One week is the soak, and please don't hold the plan to two weeks on my say-so, because I was wrong on the eighth.",
+    "local_id" : "src-36",
+    "act" : "directive",
+    "prefix" : "\n  The statement:\n\n  > ",
+    "footing_case" : null,
+    "suffix" : "\n\n  The lines after it:\n\n  > *",
+    "note" : null,
+    "actor" : "Tina Team"
+  }, {
+    "local_id" : "src-37",
+    "exact" : "I want to be clear about what is and isn't changing here. We are still going one site at a time, and we are still soaking between sites before the next one starts.",
+    "actor" : "Tanya Team",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Quoted context for Statement 7 from Halyard Cutover Review, 15 Sep"
+    },
+    "note" : null,
+    "footing_case" : null
+  }, {
+    "circumstance" : {
+      "context" : "Quoted context for Statement 7 from Halyard Cutover Review, 15 Sep"
+    },
+    "exact" : "Yes. That doesn't move at all. The sequencing is right. It's the number I put on the soak that was wrong.",
+    "local_id" : "src-38",
+    "act" : "assertive",
+    "prefix" : "  > **Tina Team:** ",
+    "footing_case" : null,
+    "suffix" : "\n\n#### Statement 8",
+    "note" : null,
+    "actor" : "Tina Team"
+  }, {
+    "circumstance" : {
+      "context" : "Quoted context for Statement 8 from Halyard Cutover Review, 15 Sep"
+    },
+    "exact" : "Yes. That doesn't move at all. The sequencing is right. It's the number I put on the soak that was wrong.",
+    "local_id" : "src-39",
+    "act" : "assertive",
+    "prefix" : "lines before it:\n\n  > **Tina Team:** ",
+    "footing_case" : null,
+    "suffix" : "\n  > **Tanya Team:** Good, beca",
+    "note" : null,
+    "actor" : "Tina Team"
+  }, {
+    "circumstance" : {
+      "context" : "Quoted context for Statement 8 from Halyard Cutover Review, 15 Sep"
+    },
+    "exact" : "Good, because I've already said the sequencing out loud to Freya this morning and she gave me a better argument for it than either of us had.",
+    "local_id" : "src-40",
+    "act" : "assertive",
+    "prefix" : "either of us had.\n\n  The statement:\n\n  > ",
+    "footing_case" : null,
+    "suffix" : "Can I say that I think this is",
+    "note" : null,
+    "actor" : "Tanya Team"
+  }, {
+    "circumstance" : {
+      "context" : "Statement 8 from Halyard Cutover Review, 15 Sep, line 37"
+    },
+    "exact" : "Can I say that I think this is the right correction and also that it costs us something? Two weeks was conservative in a place where being conservative was cheap. One week is defensible but it has no slack in it.",
+    "local_id" : "src-41",
+    "act" : "assertive",
+    "prefix" : "s had.\n\n  The statement:\n\n  > ",
+    "footing_case" : null,
+    "suffix" : "\n\n  The lines after it:\n\n  > *",
+    "note" : null,
+    "actor" : "Xavier Expert"
+  }, {
+    "circumstance" : {
+      "context" : "Quoted context for Statement 8 from Halyard Cutover Review, 15 Sep"
+    },
+    "exact" : "That's true. I'd rather be defensible and know where the slack isn't than conservative for a reason that turned out to be imaginary.",
+    "local_id" : "src-42",
+    "act" : "assertive",
+    "prefix" : "The lines after it:\n\n  > **Tina Team:** ",
+    "footing_case" : null,
+    "suffix" : "\n  > **Xavier Expert:** Agreed.",
+    "note" : null,
+    "actor" : "Tina Team"
+  }, {
+    "circumstance" : {
+      "context" : "Quoted context for Statement 8 from Halyard Cutover Review, 15 Sep"
+    },
+    "exact" : "Agreed. I just want it on the record that the new number is tight, not safe.",
+    "local_id" : "src-43",
+    "act" : "assertive",
+    "prefix" : "  > **Xavier Expert:** ",
+    "footing_case" : null,
+    "suffix" : "\n\n#### Statement 9",
+    "note" : null,
+    "actor" : "Xavier Expert"
+  }, {
+    "circumstance" : {
+      "context" : "Quoted context for Statement 9 from Halyard Cutover Review, 15 Sep"
+    },
+    "exact" : "Good, because I've already said the sequencing out loud to Freya this morning and she gave me a better argument for it than either of us had.",
+    "local_id" : "src-44",
+    "act" : "assertive",
+    "prefix" : "lines before it:\n\n  > **Tanya Team:** ",
+    "footing_case" : null,
+    "suffix" : "\n  > **Xavier Expert:** Can I s",
+    "note" : null,
+    "actor" : "Tanya Team"
+  }, {
+    "circumstance" : {
+      "context" : "Quoted context for Statement 9 from Halyard Cutover Review, 15 Sep"
+    },
+    "exact" : "Can I say that I think this is the right correction and also that it costs us something? Two weeks was conservative in a place where being conservative was cheap. One week is defensible but it has no slack in it.",
+    "local_id" : "src-45",
+    "act" : "assertive",
+    "prefix" : "  > **Xavier Expert:** ",
+    "footing_case" : null,
+    "suffix" : "\n\n  The statement:\n\n  > That'",
+    "note" : null,
+    "actor" : "Xavier Expert"
+  }, {
+    "circumstance" : {
+      "context" : "Statement 9 from Halyard Cutover Review, 15 Sep, line 39"
+    },
+    "exact" : "That's true. I'd rather be defensible and know where the slack isn't than conservative for a reason that turned out to be imaginary.",
+    "local_id" : "src-46",
+    "act" : "assertive",
+    "prefix" : "\n  The statement:\n\n  > ",
+    "footing_case" : null,
+    "suffix" : "\n\n  The lines after it:\n\n  > *",
+    "note" : null,
+    "actor" : "Tina Team"
+  }, {
+    "circumstance" : {
+      "context" : "Quoted context for Statement 9 from Halyard Cutover Review, 15 Sep"
+    },
+    "exact" : "Agreed. I just want it on the record that the new number is tight, not safe.",
+    "local_id" : "src-47",
+    "act" : "assertive",
+    "prefix" : "lines after it:\n\n  > **Xavier Expert:** ",
+    "footing_case" : null,
+    "suffix" : "\n  > **Tanya Team:** Noted. Tin",
+    "note" : null,
+    "actor" : "Xavier Expert"
+  }, {
+    "circumstance" : {
+      "context" : "Quoted context for Statement 9 from Halyard Cutover Review, 15 Sep"
+    },
+    "exact" : "Noted. Tina, does this change the four-site total?",
+    "local_id" : "src-48",
+    "act" : "question",
+    "prefix" : "tight, not safe.\n  > **Tanya Team:** ",
+    "footing_case" : null,
+    "suffix" : "\n\n#### Statement 10",
+    "note" : null,
+    "actor" : "Tanya Team"
+  }, {
+    "circumstance" : {
+      "context" : "Quoted context for Statement 10 from Halyard Cutover Review, 15 Sep"
+    },
+    "exact" : "Can I say that I think this is the right correction and also that it costs us something? Two weeks was conservative in a place where being conservative was cheap. One week is defensible but it has no slack in it.",
+    "local_id" : "src-49",
+    "act" : "assertive",
+    "prefix" : "lines before it:\n\n  > **Xavier Expert:** ",
+    "footing_case" : null,
+    "suffix" : "\n  > **Tina Team:** That's true",
+    "note" : null,
+    "actor" : "Xavier Expert"
+  }, {
+    "circumstance" : {
+      "context" : "Quoted context for Statement 10 from Halyard Cutover Review, 15 Sep"
+    },
+    "exact" : "That's true. I'd rather be defensible and know where the slack isn't than conservative for a reason that turned out to be imaginary.",
+    "local_id" : "src-50",
+    "act" : "assertive",
+    "prefix" : "  > **Tina Team:** ",
+    "footing_case" : null,
+    "suffix" : "\n\n  The statement:\n\n  > Agree",
+    "note" : null,
+    "actor" : "Tina Team"
+  }, {
+    "circumstance" : {
+      "context" : "Statement 10 from Halyard Cutover Review, 15 Sep, line 41"
+    },
+    "exact" : "Agreed. I just want it on the record that the new number is tight, not safe.",
+    "local_id" : "src-51",
+    "act" : "assertive",
+    "prefix" : "\n  The statement:\n\n  > ",
+    "footing_case" : null,
+    "suffix" : "\n\n  The lines after it:\n\n  > *",
+    "note" : null,
+    "actor" : "Xavier Expert"
+  }, {
+    "circumstance" : {
+      "context" : "Quoted context for Statement 10 from Halyard Cutover Review, 15 Sep"
+    },
+    "exact" : "Noted. Tina, does this change the four-site total?",
+    "local_id" : "src-52",
+    "act" : "question",
+    "prefix" : "lines after it:\n\n  > **Tanya Team:** ",
+    "footing_case" : null,
+    "suffix" : "\n  > **Tina Team:** It takes thr",
+    "note" : null,
+    "actor" : "Tanya Team"
+  }, {
+    "local_id" : "src-53",
+    "exact" : "It takes three weeks out of the programme. Four sites, three soaks between them, a week off each.",
+    "actor" : "Tina Team",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Quoted context for Statement 10 from Halyard Cutover Review, 15 Sep"
+    },
+    "note" : null,
+    "footing_case" : null
+  }, {
+    "local_id" : "src-54",
+    "exact" : "Which I will not be spending. That goes into the Clyde buffer.",
+    "actor" : "Tanya Team",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Quoted context for Statement 11 from Halyard Cutover Review, 15 Sep"
+    },
+    "note" : null,
+    "footing_case" : null
+  }, {
+    "local_id" : "src-55",
+    "exact" : "I'd assumed so.",
+    "actor" : "Tina Team",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Quoted context for Statement 11 from Halyard Cutover Review, 15 Sep"
+    },
+    "note" : null,
+    "footing_case" : null
+  }, {
+    "local_id" : "src-56",
+    "exact" : "Right. For the record then: the soak between sites is one week, not two, and my note from the eighth about two weeks should be read as superseded by this.",
+    "actor" : "Tanya Team",
+    "act" : "declarative",
+    "circumstance" : {
+      "context" : "Statement 11 from Halyard Cutover Review, 15 Sep, line 51"
+    },
+    "note" : null,
+    "footing_case" : null
+  }, {
+    "local_id" : "src-57",
+    "exact" : "I'll write it up today.",
+    "actor" : "Tina Team",
+    "act" : "commissive",
+    "circumstance" : {
+      "context" : "Quoted context for Statement 11 from Halyard Cutover Review, 15 Sep"
+    },
+    "note" : null,
+    "footing_case" : null
+  }, {
+    "local_id" : "src-58",
+    "exact" : "Thank you for bringing it rather than letting it ride.",
+    "actor" : "Tanya Team",
+    "act" : "expressive",
+    "circumstance" : {
+      "context" : "Quoted context for Statement 11 from Halyard Cutover Review, 15 Sep"
+    },
+    "note" : null,
+    "footing_case" : null
+  }, {
+    "circumstance" : {
+      "context" : "Statement 12 from Tina Team's review, 28 Sep"
+    },
+    "exact" : "the one-week soak should name who signs off the second site before it starts",
+    "local_id" : "src-59",
+    "act" : "directive",
+    "prefix" : "\n  The statement:\n\n  > ",
+    "footing_case" : null,
+    "suffix" : "\n\n### Where the position sits",
+    "note" : null,
+    "actor" : "Tina Team"
+  }, {
+    "local_id" : "src-60",
+    "exact" : "how should multi-site cutovers be sequenced when operational containment conflicts with local site friction?",
+    "actor" : "Tanya TeamOwner",
+    "act" : "question",
+    "circumstance" : {
+      "context" : "Beside position context"
+    },
+    "note" : null,
+    "footing_case" : "fc-1",
+    "footing" : {
+      "animator" : "Tanya TeamOwner",
+      "author" : "Tanya TeamOwner",
+      "principal" : null
+    }
+  }, {
+    "local_id" : "src-61",
+    "exact" : "Tanya TeamOwner rejected the change under review",
+    "actor" : "Tanya TeamOwner",
+    "act" : "declarative",
+    "circumstance" : {
+      "context" : "The act under review"
+    },
+    "note" : null,
+    "footing_case" : "fc-1",
+    "footing" : {
+      "animator" : "Tanya TeamOwner",
+      "author" : "Tanya TeamOwner",
+      "principal" : null
+    }
+  }, {
+    "local_id" : "src-62",
+    "exact" : "the one-week figure is as unmeasured as the two weeks was; nobody has run a soak yet",
+    "actor" : "Tanya TeamOwner",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Review comment"
+    },
+    "note" : null,
+    "footing_case" : null
+  } ],
+  "coverage_gaps" : [ ]
+}
