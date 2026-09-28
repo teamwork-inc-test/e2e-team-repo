@@ -1,0 +1,228 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-5",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "Can I say that I think this is the right correction and also that it costs us something?",
+      "kind" : "hedge"
+    }, {
+      "quote" : "One week is defensible but it has no slack in it.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Asserts a committed evaluative stance while opening with a conversational hedge.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-6",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "I'd rather be defensible and know where the slack isn't than conservative for a reason that turned out to be imaginary.",
+      "kind" : "epistemic-verb"
+    } ],
+    "why" : "States a strong preference and reasoning posture held with evidence.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-7",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "I just want it on the record that the new number is tight, not safe.",
+      "kind" : "commitment-marker"
+    } ],
+    "why" : "Expresses an insistent desire for record-keeping around risk without enacting the operational decision itself.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-8",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "For the record then: the soak between sites is one week, not two, and my note from the eighth about two weeks should be read as superseded by this.",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Performs an explicit superseding declarative settling the duration rule on the record.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-9",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "I was wrong on the eighth and I want it struck from the plan.",
+      "kind" : "commitment-marker"
+    } ],
+    "why" : "Demands an operational strike of a prior commitment from the plan.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-10",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "It was never about the site settling.",
+      "kind" : "intensifier"
+    } ],
+    "why" : "Assessing historical logs with assertive, evidentially grounded confidence.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-11",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "So the number I gave was measuring a job that doesn't exist any more, and I attached it to the soak as though it were a property of the site.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Unhedged admission and factual claim about what the earlier metric actually measured.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-12",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "One week is the soak, and please don't hold the plan to two weeks on my say-so, because I was wrong on the eighth.",
+      "kind" : "commitment-marker"
+    } ],
+    "why" : "Operates as a directive setting the soak standard and releasing the team from prior guidance.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-13",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "The soak is two full weeks. That's the Dockside number, and I'd hold us to it.",
+      "kind" : "commitment-marker"
+    } ],
+    "why" : "Sets an operational standard with an explicit commitment to enforce it.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-14",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "Two weeks gives you the flattening plus a few days to actually look at what flattened.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Asserts the empirical justification for the two-week margin.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-15",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "That's the reasoning I wanted on the record. Two weeks, from the Dockside exception curve.",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Ratifies and records the established number based on reasoning.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-16",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "I'd rather hold two weeks and shorten it with evidence than hold one week and discover we needed two.",
+      "kind" : "epistemic-verb"
+    } ],
+    "why" : "Frames an evidentiary heuristic and preference for conservative holding.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-17",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "I'll note that the exception curve is the only evidence we have for it.",
+      "kind" : "intensifier"
+    } ],
+    "why" : "Points out evidential limits with a direct assertive note.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-18",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "a commitment that a soak doesn't get shortened because a date slipped.",
+      "kind" : "commitment-marker"
+    } ],
+    "why" : "Demands an operational non-negotiable commitment.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-19",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "That's fair and I'll hold it.",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Performs a direct commissive acceptance and commitment.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-20",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "I was wrong on the eighth and I want it struck from the plan.",
+      "kind" : "commitment-marker"
+    } ],
+    "why" : "Directs the strike of a prior commitment from the plan.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-21",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "It was never about the site settling.",
+      "kind" : "intensifier"
+    } ],
+    "why" : "Defends an evidentiary finding about the underlying logs.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-22",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "So the number I gave was measuring a job that doesn't exist any more, and I attached it to the soak as though it were a property of the site.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Straightforward unhedged claim explaining a prior analytical mistake.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-23",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "One week is the soak, and please don't hold the plan to two weeks on my say-so, because I was wrong on the eighth.",
+      "kind" : "commitment-marker"
+    } ],
+    "why" : "Directs the operational duration and revokes previous guidance.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-24",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "Can I say that I think this is the right correction and also that it costs us something?",
+      "kind" : "hedge"
+    }, {
+      "quote" : "One week is defensible but it has no slack in it.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Combines a conversational opening hedge with a firm evaluation of risk trade-offs.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-25",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "I'd rather be defensible and know where the slack isn't than conservative for a reason that turned out to be imaginary.",
+      "kind" : "epistemic-verb"
+    } ],
+    "why" : "Plain assertive preference for defensibility over false conservatism.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-26",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "I just want it on the record that the new number is tight, not safe.",
+      "kind" : "commitment-marker"
+    } ],
+    "why" : "Insists on a cautionary qualification being recorded.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-27",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "For the record then: the soak between sites is one week, not two, and my note from the eighth about two weeks should be read as superseded by this.",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Explicit performed declarative superseding the prior operational rule.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-30",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "the one-week soak should name who signs off the second site before it starts",
+      "kind" : "commitment-marker"
+    } ],
+    "why" : "Directive establishing an operational requirement for sign-off naming.",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-1", "src-2", "src-3", "src-4", "src-28" ],
+  "unmarked_rest" : false,
+  "mints" : [ ]
+}
