@@ -1,0 +1,1055 @@
+PREFIX narr: <https://aswritten.ai/narrative#>
+PREFIX aswr: <https://aswritten.ai/aswr#>
+PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX dct:  <http://purl.org/dc/terms/>
+PREFIX xsd:  <http://www.w3.org/2001/XMLSchema#>
+PREFIX oa:   <http://www.w3.org/ns/oa#>
+PREFIX xkos: <http://rdf-vocabulary.ddialliance.org/xkos#>
+
+INSERT DATA {
+  aswr:Tx_20260928T010524Z a prov:Activity ;
+      prov:generatedAtTime "2026-09-28T01:05:24Z"^^xsd:dateTime ;
+      prov:wasAssociatedWith "aswritten.ai" ;
+      prov:wasAttributedTo "scarlet@aswritten.ai" ;
+      aswr:pipelinePin "8dd07a49bda8" ;
+      aswr:originPath ".aswritten/memories/2026-09-28-1-review-comment-tina-teammember-b4b484ea-e94d-4912-b80b-d561e84cf142.md" ;
+      dct:title "Multipass fragment: 20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9" ;
+      prov:generated narr:VecAffect_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_10, narr:VecAffect_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_21, narr:VecConviction_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_5, narr:VecConviction_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_6, narr:VecConviction_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_7, narr:VecConviction_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_8, narr:VecConviction_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_9, narr:VecConviction_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_10, narr:VecConviction_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_11, narr:VecConviction_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_12, narr:VecConviction_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_13, narr:VecConviction_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_14, narr:VecConviction_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_15, narr:VecConviction_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_16, narr:VecConviction_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_17, narr:VecConviction_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_18, narr:VecConviction_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_19, narr:VecConviction_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_20, narr:VecConviction_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_21, narr:VecConviction_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_22, narr:VecConviction_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_23, narr:VecConviction_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_24, narr:VecConviction_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_25, narr:VecConviction_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_26, narr:VecConviction_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_27, narr:VecConviction_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_30, narr:VecPower_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_7, narr:VecPower_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_8, narr:VecPower_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_9, narr:VecPower_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_10, narr:VecPower_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_11, narr:VecPower_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_12, narr:VecPower_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_13, narr:VecPower_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_18, narr:VecPower_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_19, narr:VecPower_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_20, narr:VecPower_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_21, narr:VecPower_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_22, narr:VecPower_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_23, narr:VecPower_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_26, narr:VecPower_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_27, narr:VecPower_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_30, narr:DirRegister_OnTheRecordProtocol, narr:VecRegister_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_7, narr:VecRegister_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_8, narr:VecRegister_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_15, narr:VecRegister_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_26, narr:VecRegister_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_27, narr:VecRelational_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_8, narr:VecRelational_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_13, narr:VecRelational_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_18, narr:VecRelational_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_19, narr:VecRelational_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_27, narr:VecRelational_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_30, narr:VecStyle_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_6, narr:VecStyle_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_7, narr:VecStyle_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_8, narr:VecStyle_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_16, narr:VecStyle_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_25, narr:VecStyle_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_26, narr:VecStyle_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_27, narr:VecTemporal_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_4, narr:VecTemporal_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_5, narr:VecTemporal_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_6, narr:VecTemporal_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_7, narr:VecTemporal_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_8, narr:VecTemporal_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_9, narr:VecTemporal_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_10, narr:VecTemporal_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_11, narr:VecTemporal_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_12, narr:VecTemporal_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_13, narr:VecTemporal_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_14, narr:VecTemporal_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_15, narr:VecTemporal_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_16, narr:VecTemporal_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_17, narr:VecTemporal_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_18, narr:VecTemporal_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_19, narr:VecTemporal_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_20, narr:VecTemporal_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_21, narr:VecTemporal_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_22, narr:VecTemporal_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_23, narr:VecTemporal_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_24, narr:VecTemporal_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_25, narr:VecTemporal_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_26, narr:VecTemporal_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_27, narr:VecTemporal_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_28, narr:VecTemporal_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_30, narr:VecValue_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_5, narr:VecValue_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_6, narr:VecValue_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_7, narr:VecValue_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_16, narr:VecValue_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_18, narr:VecValue_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_24, narr:VecValue_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_25, narr:VecValue_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_26 .
+} ;
+INSERT DATA {
+  GRAPH aswr:Tx_20260928T010524Z {
+    narr:VecAffect_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_10 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_10 ;
+        narr:dimension narr:Dim_Affect ;
+        narr:region narr:Affect_ActivatedNegative ;
+        narr:evidence "lexical-marker: was bothering me" ;
+        narr:reported false ;
+        skos:note "Tina reflects on an active feeling of unease/bother regarding previous assumptions." ;
+        prov:generatedAtTime "2026-09-28T01:05:24Z"^^xsd:dateTime .
+
+    narr:VecAffect_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_21 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_21 ;
+        narr:dimension narr:Dim_Affect ;
+        narr:region narr:Affect_ActivatedNegative ;
+        narr:evidence "lexical-marker: was bothering me" ;
+        narr:reported false ;
+        skos:note "Verbatim duplicate segment expressing felt concern/bother." ;
+        prov:generatedAtTime "2026-09-28T01:05:24Z"^^xsd:dateTime .
+
+    narr:VecConviction_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_5 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_5 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Claim ;
+        narr:evidence "hedge: Can I say that I think this is the right correction and also that it costs us something?" ;
+        narr:evidence "plain-assertion: One week is defensible but it has no slack in it." ;
+        narr:reported false ;
+        skos:note "Asserts a committed evaluative stance while opening with a conversational hedge." ;
+        prov:generatedAtTime "2026-09-28T01:05:24Z"^^xsd:dateTime .
+
+    narr:VecConviction_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_6 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_6 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Claim ;
+        narr:evidence "epistemic-verb: I'd rather be defensible and know where the slack isn't than conservative for a reason that turned out to be imaginary." ;
+        narr:reported false ;
+        skos:note "States a strong preference and reasoning posture held with evidence." ;
+        prov:generatedAtTime "2026-09-28T01:05:24Z"^^xsd:dateTime .
+
+    narr:VecConviction_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_7 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_7 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Claim ;
+        narr:evidence "commitment-marker: I just want it on the record that the new number is tight, not safe." ;
+        narr:reported false ;
+        skos:note "Expresses an insistent desire for record-keeping around risk without enacting the operational decision itself." ;
+        prov:generatedAtTime "2026-09-28T01:05:24Z"^^xsd:dateTime .
+
+    narr:VecConviction_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_8 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_8 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Decision ;
+        narr:evidence "performed-act: For the record then: the soak between sites is one week, not two, and my note from the eighth about two weeks should be read as superseded by this." ;
+        narr:reported false ;
+        skos:note "Performs an explicit superseding declarative settling the duration rule on the record." ;
+        prov:generatedAtTime "2026-09-28T01:05:24Z"^^xsd:dateTime .
+
+    narr:VecConviction_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_9 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_9 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Decision ;
+        narr:evidence "commitment-marker: I was wrong on the eighth and I want it struck from the plan." ;
+        narr:reported false ;
+        skos:note "Demands an operational strike of a prior commitment from the plan." ;
+        prov:generatedAtTime "2026-09-28T01:05:24Z"^^xsd:dateTime .
+
+    narr:VecConviction_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_10 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_10 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Claim ;
+        narr:evidence "intensifier: It was never about the site settling." ;
+        narr:reported false ;
+        skos:note "Assessing historical logs with assertive, evidentially grounded confidence." ;
+        prov:generatedAtTime "2026-09-28T01:05:24Z"^^xsd:dateTime .
+
+    narr:VecConviction_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_11 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_11 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Claim ;
+        narr:evidence "plain-assertion: So the number I gave was measuring a job that doesn't exist any more, and I attached it to the soak as though it were a property of the site." ;
+        narr:reported false ;
+        skos:note "Unhedged admission and factual claim about what the earlier metric actually measured." ;
+        prov:generatedAtTime "2026-09-28T01:05:24Z"^^xsd:dateTime .
+
+    narr:VecConviction_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_12 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_12 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Decision ;
+        narr:evidence "commitment-marker: One week is the soak, and please don't hold the plan to two weeks on my say-so, because I was wrong on the eighth." ;
+        narr:reported false ;
+        skos:note "Operates as a directive setting the soak standard and releasing the team from prior guidance." ;
+        prov:generatedAtTime "2026-09-28T01:05:24Z"^^xsd:dateTime .
+
+    narr:VecConviction_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_13 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_13 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Decision ;
+        narr:evidence "commitment-marker: The soak is two full weeks. That's the Dockside number, and I'd hold us to it." ;
+        narr:reported false ;
+        skos:note "Sets an operational standard with an explicit commitment to enforce it." ;
+        prov:generatedAtTime "2026-09-28T01:05:24Z"^^xsd:dateTime .
+
+    narr:VecConviction_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_14 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_14 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Claim ;
+        narr:evidence "plain-assertion: Two weeks gives you the flattening plus a few days to actually look at what flattened." ;
+        narr:reported false ;
+        skos:note "Asserts the empirical justification for the two-week margin." ;
+        prov:generatedAtTime "2026-09-28T01:05:24Z"^^xsd:dateTime .
+
+    narr:VecConviction_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_15 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_15 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Decision ;
+        narr:evidence "performed-act: That's the reasoning I wanted on the record. Two weeks, from the Dockside exception curve." ;
+        narr:reported false ;
+        skos:note "Ratifies and records the established number based on reasoning." ;
+        prov:generatedAtTime "2026-09-28T01:05:24Z"^^xsd:dateTime .
+
+    narr:VecConviction_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_16 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_16 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Claim ;
+        narr:evidence "epistemic-verb: I'd rather hold two weeks and shorten it with evidence than hold one week and discover we needed two." ;
+        narr:reported false ;
+        skos:note "Frames an evidentiary heuristic and preference for conservative holding." ;
+        prov:generatedAtTime "2026-09-28T01:05:24Z"^^xsd:dateTime .
+
+    narr:VecConviction_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_17 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_17 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Claim ;
+        narr:evidence "intensifier: I'll note that the exception curve is the only evidence we have for it." ;
+        narr:reported false ;
+        skos:note "Points out evidential limits with a direct assertive note." ;
+        prov:generatedAtTime "2026-09-28T01:05:24Z"^^xsd:dateTime .
+
+    narr:VecConviction_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_18 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_18 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Decision ;
+        narr:evidence "commitment-marker: a commitment that a soak doesn't get shortened because a date slipped." ;
+        narr:reported false ;
+        skos:note "Demands an operational non-negotiable commitment." ;
+        prov:generatedAtTime "2026-09-28T01:05:24Z"^^xsd:dateTime .
+
+    narr:VecConviction_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_19 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_19 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Decision ;
+        narr:evidence "performed-act: That's fair and I'll hold it." ;
+        narr:reported false ;
+        skos:note "Performs a direct commissive acceptance and commitment." ;
+        prov:generatedAtTime "2026-09-28T01:05:24Z"^^xsd:dateTime .
+
+    narr:VecConviction_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_20 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_20 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Decision ;
+        narr:evidence "commitment-marker: I was wrong on the eighth and I want it struck from the plan." ;
+        narr:reported false ;
+        skos:note "Directs the strike of a prior commitment from the plan." ;
+        prov:generatedAtTime "2026-09-28T01:05:24Z"^^xsd:dateTime .
+
+    narr:VecConviction_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_21 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_21 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Claim ;
+        narr:evidence "intensifier: It was never about the site settling." ;
+        narr:reported false ;
+        skos:note "Defends an evidentiary finding about the underlying logs." ;
+        prov:generatedAtTime "2026-09-28T01:05:24Z"^^xsd:dateTime .
+
+    narr:VecConviction_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_22 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_22 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Claim ;
+        narr:evidence "plain-assertion: So the number I gave was measuring a job that doesn't exist any more, and I attached it to the soak as though it were a property of the site." ;
+        narr:reported false ;
+        skos:note "Straightforward unhedged claim explaining a prior analytical mistake." ;
+        prov:generatedAtTime "2026-09-28T01:05:24Z"^^xsd:dateTime .
+
+    narr:VecConviction_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_23 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_23 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Decision ;
+        narr:evidence "commitment-marker: One week is the soak, and please don't hold the plan to two weeks on my say-so, because I was wrong on the eighth." ;
+        narr:reported false ;
+        skos:note "Directs the operational duration and revokes previous guidance." ;
+        prov:generatedAtTime "2026-09-28T01:05:24Z"^^xsd:dateTime .
+
+    narr:VecConviction_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_24 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_24 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Claim ;
+        narr:evidence "hedge: Can I say that I think this is the right correction and also that it costs us something?" ;
+        narr:evidence "plain-assertion: One week is defensible but it has no slack in it." ;
+        narr:reported false ;
+        skos:note "Combines a conversational opening hedge with a firm evaluation of risk trade-offs." ;
+        prov:generatedAtTime "2026-09-28T01:05:24Z"^^xsd:dateTime .
+
+    narr:VecConviction_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_25 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_25 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Claim ;
+        narr:evidence "epistemic-verb: I'd rather be defensible and know where the slack isn't than conservative for a reason that turned out to be imaginary." ;
+        narr:reported false ;
+        skos:note "Plain assertive preference for defensibility over false conservatism." ;
+        prov:generatedAtTime "2026-09-28T01:05:24Z"^^xsd:dateTime .
+
+    narr:VecConviction_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_26 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_26 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Claim ;
+        narr:evidence "commitment-marker: I just want it on the record that the new number is tight, not safe." ;
+        narr:reported false ;
+        skos:note "Insists on a cautionary qualification being recorded." ;
+        prov:generatedAtTime "2026-09-28T01:05:24Z"^^xsd:dateTime .
+
+    narr:VecConviction_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_27 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_27 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Decision ;
+        narr:evidence "performed-act: For the record then: the soak between sites is one week, not two, and my note from the eighth about two weeks should be read as superseded by this." ;
+        narr:reported false ;
+        skos:note "Explicit performed declarative superseding the prior operational rule." ;
+        prov:generatedAtTime "2026-09-28T01:05:24Z"^^xsd:dateTime .
+
+    narr:VecConviction_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_30 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_30 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Decision ;
+        narr:evidence "commitment-marker: the one-week soak should name who signs off the second site before it starts" ;
+        narr:reported false ;
+        skos:note "Directive establishing an operational requirement for sign-off naming." ;
+        prov:generatedAtTime "2026-09-28T01:05:24Z"^^xsd:dateTime .
+
+    narr:VecPower_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_7 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_7 ;
+        narr:dimension narr:Dim_Power ;
+        narr:region narr:Power_Legitimate ;
+        narr:evidence "framing-move: I just want it on the record that the new number is tight, not safe." ;
+        narr:reported false ;
+        skos:note "Entering a formal stance onto the procedural record." ;
+        prov:generatedAtTime "2026-09-28T01:05:24Z"^^xsd:dateTime .
+
+    narr:VecPower_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_8 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_8 ;
+        narr:dimension narr:Dim_Power ;
+        narr:region narr:Power_Legitimate ;
+        narr:evidence "performed-act: For the record then: the soak between sites is one week, not two, and my note from the eighth about two weeks should be read as superseded by this." ;
+        narr:reported false ;
+        skos:note "Formally declaring a prior position superseded for the record via legitimate process authority." ;
+        prov:generatedAtTime "2026-09-28T01:05:24Z"^^xsd:dateTime .
+
+    narr:VecPower_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_9 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_9 ;
+        narr:dimension narr:Dim_Power ;
+        narr:region narr:Power_Legitimate ;
+        narr:region narr:Power_Pressure ;
+        narr:evidence "performed-act: I want it struck from the plan." ;
+        narr:reported false ;
+        skos:note "Directing an explicit modification to the formal plan/record." ;
+        prov:generatedAtTime "2026-09-28T01:05:24Z"^^xsd:dateTime .
+
+    narr:VecPower_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_10 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_10 ;
+        narr:dimension narr:Dim_Power ;
+        narr:region narr:Power_Informational ;
+        narr:region narr:Power_RationalPersuasion ;
+        narr:evidence "plain-assertion: The reason the queue took nine days to flatten at Dockside is that the old reconciliation job ran weekly and every run threw a fresh batch of exceptions." ;
+        narr:reported false ;
+        skos:note "Providing underlying technical facts and log analysis to dismantle previous assumptions." ;
+        prov:generatedAtTime "2026-09-28T01:05:24Z"^^xsd:dateTime .
+
+    narr:VecPower_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_11 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_11 ;
+        narr:dimension narr:Dim_Power ;
+        narr:region narr:Power_Informational ;
+        narr:region narr:Power_RationalPersuasion ;
+        narr:evidence "plain-assertion: Nothing in the new platform runs on a weekly cycle — reconciliation is continuous now." ;
+        narr:reported false ;
+        skos:note "Supplying architectural facts to rationally persuade the team that the prior metric is obsolete." ;
+        prov:generatedAtTime "2026-09-28T01:05:24Z"^^xsd:dateTime .
+
+    narr:VecPower_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_12 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_12 ;
+        narr:dimension narr:Dim_Power ;
+        narr:region narr:Power_RationalPersuasion ;
+        narr:evidence "plain-assertion: Strip the reconciliation cycles out of the Dockside curve and the underlying exception rate is flat by day four." ;
+        narr:reported false ;
+        skos:note "Constructing an evidence-based argument calculating the new timeline mathematically." ;
+        prov:generatedAtTime "2026-09-28T01:05:24Z"^^xsd:dateTime .
+
+    narr:VecPower_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_13 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_13 ;
+        narr:dimension narr:Dim_Power ;
+        narr:region narr:Power_Legitimate ;
+        narr:region narr:Power_Pressure ;
+        narr:evidence "commitment-marker: That's the Dockside number, and I'd hold us to it." ;
+        narr:reported false ;
+        skos:note "Insisting on holding the team to an empirical standard as an explicit operational constraint." ;
+        prov:generatedAtTime "2026-09-28T01:05:24Z"^^xsd:dateTime .
+
+    narr:VecPower_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_18 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_18 ;
+        narr:dimension narr:Dim_Power ;
+        narr:region narr:Power_Pressure ;
+        narr:region narr:Power_RationalPersuasion ;
+        narr:evidence "modal-marker: The dates, as early as you can give them, and a commitment that a soak doesn't get shortened because a date slipped." ;
+        narr:reported false ;
+        skos:note "Demanding operational commitments and binding schedules based on resource constraints." ;
+        prov:generatedAtTime "2026-09-28T01:05:24Z"^^xsd:dateTime .
+
+    narr:VecPower_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_19 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_19 ;
+        narr:dimension narr:Dim_Power ;
+        narr:region narr:Power_Legitimate ;
+        narr:evidence "commitment-marker: That's fair and I'll hold it." ;
+        narr:reported false ;
+        skos:note "Accepting and ratifying a requested commitment." ;
+        prov:generatedAtTime "2026-09-28T01:05:24Z"^^xsd:dateTime .
+
+    narr:VecPower_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_20 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_20 ;
+        narr:dimension narr:Dim_Power ;
+        narr:region narr:Power_Legitimate ;
+        narr:region narr:Power_Pressure ;
+        narr:evidence "performed-act: I want it struck from the plan." ;
+        narr:reported false ;
+        skos:note "Directing procedural removal of a prior statement from the official project plan." ;
+        prov:generatedAtTime "2026-09-28T01:05:24Z"^^xsd:dateTime .
+
+    narr:VecPower_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_21 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_21 ;
+        narr:dimension narr:Dim_Power ;
+        narr:region narr:Power_Informational ;
+        narr:region narr:Power_RationalPersuasion ;
+        narr:evidence "plain-assertion: The reason the queue took nine days to flatten at Dockside is that the old reconciliation job ran weekly and every run threw a fresh batch of exceptions." ;
+        narr:reported false ;
+        skos:note "Supplying data analysis from logs to rationally explain past metric misinterpretation." ;
+        prov:generatedAtTime "2026-09-28T01:05:24Z"^^xsd:dateTime .
+
+    narr:VecPower_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_22 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_22 ;
+        narr:dimension narr:Dim_Power ;
+        narr:region narr:Power_Informational ;
+        narr:region narr:Power_RationalPersuasion ;
+        narr:evidence "plain-assertion: Nothing in the new platform runs on a weekly cycle — reconciliation is continuous now." ;
+        narr:reported false ;
+        skos:note "Supplying technical facts about the new system architecture to disprove the old baseline." ;
+        prov:generatedAtTime "2026-09-28T01:05:24Z"^^xsd:dateTime .
+
+    narr:VecPower_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_23 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_23 ;
+        narr:dimension narr:Dim_Power ;
+        narr:region narr:Power_RationalPersuasion ;
+        narr:evidence "plain-assertion: Strip the reconciliation cycles out of the Dockside curve and the underlying exception rate is flat by day four." ;
+        narr:reported false ;
+        skos:note "Deducing the proper duration through logical decomposition of data curves." ;
+        prov:generatedAtTime "2026-09-28T01:05:24Z"^^xsd:dateTime .
+
+    narr:VecPower_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_26 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_26 ;
+        narr:dimension narr:Dim_Power ;
+        narr:region narr:Power_Legitimate ;
+        narr:evidence "framing-move: I just want it on the record that the new number is tight, not safe." ;
+        narr:reported false ;
+        skos:note "Requesting a specific caveat be preserved in the formal project record." ;
+        prov:generatedAtTime "2026-09-28T01:05:24Z"^^xsd:dateTime .
+
+    narr:VecPower_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_27 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_27 ;
+        narr:dimension narr:Dim_Power ;
+        narr:region narr:Power_Legitimate ;
+        narr:evidence "performed-act: Right. For the record then: the soak between sites is one week, not two, and my note from the eighth about two weeks should be read as superseded by this." ;
+        narr:reported false ;
+        skos:note "Exercising legitimate procedural role to supersede a previous recorded decision." ;
+        prov:generatedAtTime "2026-09-28T01:05:24Z"^^xsd:dateTime .
+
+    narr:VecPower_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_30 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_30 ;
+        narr:dimension narr:Dim_Power ;
+        narr:region narr:Power_Legitimate ;
+        narr:evidence "modal-marker: the one-week soak should name who signs off the second site before it starts" ;
+        narr:reported false ;
+        skos:note "Proposing formal procedural governance and sign-off authority." ;
+        prov:generatedAtTime "2026-09-28T01:05:24Z"^^xsd:dateTime .
+
+    narr:DirRegister_OnTheRecordProtocol a narr:DirectionalNode ;
+        dct:source narr:Sample_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9 ;
+        narr:dimension narr:Dim_Register ;
+        narr:region narr:Register_Formal ;
+        narr:frame "Does the speaker invoke formal record-keeping protocol to elevate an assertion or supersede a prior stance?" ;
+        skos:note "invoking the record to formalize position entry" ;
+        prov:generatedAtTime "2026-09-28T01:05:24Z"^^xsd:dateTime .
+
+    narr:VecRegister_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_7 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_7 ;
+        narr:dimension narr:Dim_Register ;
+        narr:region narr:Register_Formal ;
+        narr:direction narr:DirRegister_OnTheRecordProtocol ;
+        narr:evidence "framing-move: on the record" ;
+        narr:reported false ;
+        skos:note "Invokes explicit archival protocol framing over standard conversation." ;
+        prov:generatedAtTime "2026-09-28T01:05:24Z"^^xsd:dateTime .
+
+    narr:VecRegister_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_8 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_8 ;
+        narr:dimension narr:Dim_Register ;
+        narr:region narr:Register_Formal ;
+        narr:direction narr:DirRegister_OnTheRecordProtocol ;
+        narr:evidence "framing-move: For the record then" ;
+        narr:evidence "lexical-marker: should be read as superseded by this" ;
+        narr:reported false ;
+        skos:note "Adopts procedural record-keeping register to formalize a rule revision." ;
+        prov:generatedAtTime "2026-09-28T01:05:24Z"^^xsd:dateTime .
+
+    narr:VecRegister_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_15 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_15 ;
+        narr:dimension narr:Dim_Register ;
+        narr:region narr:Register_Formal ;
+        narr:direction narr:DirRegister_OnTheRecordProtocol ;
+        narr:evidence "framing-move: on the record" ;
+        narr:reported false ;
+        skos:note "Explicitly requests evidentiary justification to be noted for the official record." ;
+        prov:generatedAtTime "2026-09-28T01:05:24Z"^^xsd:dateTime .
+
+    narr:VecRegister_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_26 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_26 ;
+        narr:dimension narr:Dim_Register ;
+        narr:region narr:Register_Formal ;
+        narr:direction narr:DirRegister_OnTheRecordProtocol ;
+        narr:evidence "framing-move: on the record" ;
+        narr:reported false ;
+        skos:note "Repeats the formal procedural demand to enter a stance into the official record." ;
+        prov:generatedAtTime "2026-09-28T01:05:24Z"^^xsd:dateTime .
+
+    narr:VecRegister_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_27 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_27 ;
+        narr:dimension narr:Dim_Register ;
+        narr:region narr:Register_Formal ;
+        narr:direction narr:DirRegister_OnTheRecordProtocol ;
+        narr:evidence "framing-move: For the record then" ;
+        narr:evidence "lexical-marker: should be read as superseded by this" ;
+        narr:reported false ;
+        skos:note "Formally enters replacement decision into the record with administrative phrasing." ;
+        prov:generatedAtTime "2026-09-28T01:05:24Z"^^xsd:dateTime .
+
+    narr:VecRelational_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_8 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_8 ;
+        narr:dimension narr:Dim_Relational ;
+        narr:region narr:Relational_AuthorityRanking ;
+        narr:evidence "performed-act: For the record then: the soak between sites is one week, not two, and my note from the eighth about two weeks should be read as superseded by this." ;
+        narr:reported false ;
+        skos:note "Formally establishes and supersedes official record/policy on behalf of the project plan." ;
+        prov:generatedAtTime "2026-09-28T01:05:24Z"^^xsd:dateTime .
+
+    narr:VecRelational_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_13 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_13 ;
+        narr:dimension narr:Dim_Relational ;
+        narr:region narr:Relational_CommunalSharing ;
+        narr:evidence "commitment-marker: I'd hold us to it." ;
+        narr:reported false ;
+        skos:note "Invokes mutual commitment and collective discipline within the group ('us')." ;
+        prov:generatedAtTime "2026-09-28T01:05:24Z"^^xsd:dateTime .
+
+    narr:VecRelational_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_18 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_18 ;
+        narr:dimension narr:Dim_Relational ;
+        narr:region narr:Relational_EqualityMatching ;
+        narr:evidence "framing-move: a commitment that a soak doesn't get shortened because a date slipped." ;
+        narr:reported false ;
+        skos:note "Demands an even commitment/reciprocal boundary protection across operational teams." ;
+        prov:generatedAtTime "2026-09-28T01:05:24Z"^^xsd:dateTime .
+
+    narr:VecRelational_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_19 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_19 ;
+        narr:dimension narr:Dim_Relational ;
+        narr:region narr:Relational_EqualityMatching ;
+        narr:evidence "commitment-marker: That's fair and I'll hold it." ;
+        narr:reported false ;
+        skos:note "Explicitly ratifies a fairness standard and offers reciprocal commitment." ;
+        prov:generatedAtTime "2026-09-28T01:05:24Z"^^xsd:dateTime .
+
+    narr:VecRelational_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_27 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_27 ;
+        narr:dimension narr:Dim_Relational ;
+        narr:region narr:Relational_AuthorityRanking ;
+        narr:evidence "performed-act: For the record then: the soak between sites is one week, not two, and my note from the eighth about two weeks should be read as superseded by this." ;
+        narr:reported false ;
+        skos:note "Repeated segment performing authoritative record-setting and formal superseding." ;
+        prov:generatedAtTime "2026-09-28T01:05:24Z"^^xsd:dateTime .
+
+    narr:VecRelational_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_30 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_30 ;
+        narr:dimension narr:Dim_Relational ;
+        narr:region narr:Relational_AuthorityRanking ;
+        narr:evidence "plain-signal: the one-week soak should name who signs off the second site before it starts" ;
+        narr:reported false ;
+        skos:note "Specifies formal hierarchical approval and sign-off accountability." ;
+        prov:generatedAtTime "2026-09-28T01:05:24Z"^^xsd:dateTime .
+
+    narr:VecStyle_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_6 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_6 ;
+        narr:dimension narr:Dim_Style ;
+        narr:region narr:Style_Antithesis ;
+        narr:region narr:Style_Parallelism ;
+        narr:evidence "framing-move: defensible and know where the slack isn't than conservative for a reason that turned out to be imaginary" ;
+        narr:reported false ;
+        skos:note "Opposes being defensible with being conservative via parallel comparative clauses ('rather be X than Y')." ;
+        prov:generatedAtTime "2026-09-28T01:05:24Z"^^xsd:dateTime .
+
+    narr:VecStyle_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_7 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_7 ;
+        narr:dimension narr:Dim_Style ;
+        narr:region narr:Style_Antithesis ;
+        narr:evidence "lexical-marker: tight, not safe" ;
+        narr:reported false ;
+        skos:note "Direct antithetical pairing setting two contrasting qualities against one another ('X, not Y')." ;
+        prov:generatedAtTime "2026-09-28T01:05:24Z"^^xsd:dateTime .
+
+    narr:VecStyle_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_8 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_8 ;
+        narr:dimension narr:Dim_Style ;
+        narr:region narr:Style_Antithesis ;
+        narr:evidence "lexical-marker: one week, not two" ;
+        narr:reported false ;
+        skos:note "Deliberate contrast frame ('X, not Y') clarifying the formal posture." ;
+        prov:generatedAtTime "2026-09-28T01:05:24Z"^^xsd:dateTime .
+
+    narr:VecStyle_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_16 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_16 ;
+        narr:dimension narr:Dim_Style ;
+        narr:region narr:Style_Antithesis ;
+        narr:region narr:Style_Parallelism ;
+        narr:evidence "framing-move: hold two weeks and shorten it with evidence than hold one week and discover we needed two" ;
+        narr:reported false ;
+        skos:note "Antithetical comparison balanced across parallel verbal structures ('hold X and Y than hold A and B')." ;
+        prov:generatedAtTime "2026-09-28T01:05:24Z"^^xsd:dateTime .
+
+    narr:VecStyle_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_25 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_25 ;
+        narr:dimension narr:Dim_Style ;
+        narr:region narr:Style_Antithesis ;
+        narr:region narr:Style_Parallelism ;
+        narr:evidence "framing-move: defensible and know where the slack isn't than conservative for a reason that turned out to be imaginary" ;
+        narr:reported false ;
+        skos:note "Parallel comparative antithesis framing the tradeoff ('rather be X than Y')." ;
+        prov:generatedAtTime "2026-09-28T01:05:24Z"^^xsd:dateTime .
+
+    narr:VecStyle_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_26 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_26 ;
+        narr:dimension narr:Dim_Style ;
+        narr:region narr:Style_Antithesis ;
+        narr:evidence "lexical-marker: tight, not safe" ;
+        narr:reported false ;
+        skos:note "Antithetical formula contrasting 'tight' against 'safe'." ;
+        prov:generatedAtTime "2026-09-28T01:05:24Z"^^xsd:dateTime .
+
+    narr:VecStyle_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_27 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_27 ;
+        narr:dimension narr:Dim_Style ;
+        narr:region narr:Style_Antithesis ;
+        narr:evidence "lexical-marker: one week, not two" ;
+        narr:reported false ;
+        skos:note "Contrasting numbers positioned in an 'X, not Y' antithesis." ;
+        prov:generatedAtTime "2026-09-28T01:05:24Z"^^xsd:dateTime .
+
+    narr:VecTemporal_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_4 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_4 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Abstract ;
+        narr:region narr:Temporal_Irrealis ;
+        narr:region narr:Temporal_Present ;
+        narr:evidence "framing-move: how is the minimum soak duration between site cutovers determined and validated?" ;
+        narr:reported false ;
+        skos:note "Inquires about general procedural mechanisms and rules in the abstract." ;
+        prov:generatedAtTime "2026-09-28T01:05:24Z"^^xsd:dateTime .
+
+    narr:VecTemporal_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_5 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_5 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Abstract ;
+        narr:region narr:Temporal_Present ;
+        narr:region narr:Temporal_Realis ;
+        narr:evidence "plain-assertion: Two weeks was conservative in a place where being conservative was cheap. One week is defensible but it has no slack in it." ;
+        narr:reported false ;
+        skos:note "Evaluates the properties and trade-offs of the two timeline options in present realis terms." ;
+        prov:generatedAtTime "2026-09-28T01:05:24Z"^^xsd:dateTime .
+
+    narr:VecTemporal_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_6 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_6 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Abstract ;
+        narr:region narr:Temporal_Present ;
+        narr:evidence "modal-marker: I'd rather be defensible and know where the slack isn't" ;
+        narr:reported false ;
+        skos:note "States a preference regarding principles and margins." ;
+        prov:generatedAtTime "2026-09-28T01:05:24Z"^^xsd:dateTime .
+
+    narr:VecTemporal_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_7 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_7 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Concrete ;
+        narr:region narr:Temporal_Present ;
+        narr:region narr:Temporal_Realis ;
+        narr:evidence "performed-act: I just want it on the record that the new number is tight, not safe." ;
+        narr:reported false ;
+        skos:note "Focuses on the immediate record-making action and current number specification." ;
+        prov:generatedAtTime "2026-09-28T01:05:24Z"^^xsd:dateTime .
+
+    narr:VecTemporal_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_8 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_8 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Concrete ;
+        narr:region narr:Temporal_Present ;
+        narr:region narr:Temporal_Realis ;
+        narr:evidence "performed-act: For the record then: the soak between sites is one week, not two" ;
+        narr:reported false ;
+        skos:note "Makes a concrete present record setting the soak duration." ;
+        prov:generatedAtTime "2026-09-28T01:05:24Z"^^xsd:dateTime .
+
+    narr:VecTemporal_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_9 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_9 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Concrete ;
+        narr:region narr:Temporal_Past ;
+        narr:region narr:Temporal_Realis ;
+        narr:evidence "plain-assertion: On the eighth I said the soak between sites has to be two full weeks" ;
+        narr:reported false ;
+        skos:note "Refers to a specific past statement on the eighth." ;
+        prov:generatedAtTime "2026-09-28T01:05:24Z"^^xsd:dateTime .
+
+    narr:VecTemporal_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_10 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_10 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Concrete ;
+        narr:region narr:Temporal_Past ;
+        narr:region narr:Temporal_Realis ;
+        narr:evidence "plain-assertion: I went back through the Dockside logs on Friday because Xavier's comment about it being one site, one season was bothering me." ;
+        narr:reported false ;
+        skos:note "Analyzes specific historical Dockside logs and past queue behavior." ;
+        prov:generatedAtTime "2026-09-28T01:05:24Z"^^xsd:dateTime .
+
+    narr:VecTemporal_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_11 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_11 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Concrete ;
+        narr:region narr:Temporal_Present ;
+        narr:region narr:Temporal_Realis ;
+        narr:evidence "plain-assertion: Nothing in the new platform runs on a weekly cycle — reconciliation is continuous now." ;
+        narr:reported false ;
+        skos:note "Describes the factual current architecture of the platform." ;
+        prov:generatedAtTime "2026-09-28T01:05:24Z"^^xsd:dateTime .
+
+    narr:VecTemporal_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_12 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_12 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Concrete ;
+        narr:region narr:Temporal_Future ;
+        narr:region narr:Temporal_Irrealis ;
+        narr:evidence "plain-assertion: One week gives you the flattening plus three days to look at it" ;
+        narr:reported false ;
+        skos:note "Projects the concrete operational soak duration for upcoming implementation." ;
+        prov:generatedAtTime "2026-09-28T01:05:24Z"^^xsd:dateTime .
+
+    narr:VecTemporal_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_13 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_13 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Concrete ;
+        narr:region narr:Temporal_Future ;
+        narr:region narr:Temporal_Realis ;
+        narr:evidence "commitment-marker: The soak is two full weeks. That's the Dockside number, and I'd hold us to it." ;
+        narr:reported false ;
+        skos:note "Commits to a concrete two-week duration." ;
+        prov:generatedAtTime "2026-09-28T01:05:24Z"^^xsd:dateTime .
+
+    narr:VecTemporal_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_14 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_14 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Concrete ;
+        narr:region narr:Temporal_Past ;
+        narr:region narr:Temporal_Realis ;
+        narr:evidence "plain-assertion: Dockside pilot, back in the spring. We watched the exception queue after go-live" ;
+        narr:reported false ;
+        skos:note "Recounts the specific past pilot at Dockside." ;
+        prov:generatedAtTime "2026-09-28T01:05:24Z"^^xsd:dateTime .
+
+    narr:VecTemporal_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_15 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_15 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Concrete ;
+        narr:region narr:Temporal_Past ;
+        narr:region narr:Temporal_Realis ;
+        narr:evidence "plain-assertion: That's the reasoning I wanted on the record. Two weeks, from the Dockside exception curve." ;
+        narr:reported false ;
+        skos:note "Notes the specific concrete reasoning on the record." ;
+        prov:generatedAtTime "2026-09-28T01:05:24Z"^^xsd:dateTime .
+
+    narr:VecTemporal_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_16 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_16 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Concrete ;
+        narr:region narr:Temporal_Present ;
+        narr:region narr:Temporal_Realis ;
+        narr:evidence "plain-assertion: It's one site, one season, and it's the only site we've actually done." ;
+        narr:reported false ;
+        skos:note "States the concrete present state of evidence." ;
+        prov:generatedAtTime "2026-09-28T01:05:24Z"^^xsd:dateTime .
+
+    narr:VecTemporal_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_17 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_17 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Concrete ;
+        narr:region narr:Temporal_Present ;
+        narr:region narr:Temporal_Realis ;
+        narr:evidence "performed-act: I'll note that the exception curve is the only evidence we have for it. It's one site, one season." ;
+        narr:reported false ;
+        skos:note "Points to the specific current evidence available." ;
+        prov:generatedAtTime "2026-09-28T01:05:24Z"^^xsd:dateTime .
+
+    narr:VecTemporal_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_18 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_18 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Concrete ;
+        narr:region narr:Temporal_Future ;
+        narr:region narr:Temporal_Irrealis ;
+        narr:evidence "plain-assertion: If the soak gets eaten, my supervisors are back on the floor at the same time as the next cutover" ;
+        narr:reported false ;
+        skos:note "Directs future schedule commitment based on hypothetical operational risk." ;
+        prov:generatedAtTime "2026-09-28T01:05:24Z"^^xsd:dateTime .
+
+    narr:VecTemporal_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_19 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_19 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Future ;
+        narr:region narr:Temporal_Realis ;
+        narr:evidence "commitment-marker: That's fair and I'll hold it." ;
+        narr:reported false ;
+        skos:note "Commits to holding the requirement in the future." ;
+        prov:generatedAtTime "2026-09-28T01:05:24Z"^^xsd:dateTime .
+
+    narr:VecTemporal_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_20 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_20 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Concrete ;
+        narr:region narr:Temporal_Past ;
+        narr:region narr:Temporal_Realis ;
+        narr:evidence "plain-assertion: On the eighth I said the soak between sites has to be two full weeks" ;
+        narr:reported false ;
+        skos:note "Refers to a specific past statement on the eighth." ;
+        prov:generatedAtTime "2026-09-28T01:05:24Z"^^xsd:dateTime .
+
+    narr:VecTemporal_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_21 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_21 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Concrete ;
+        narr:region narr:Temporal_Past ;
+        narr:region narr:Temporal_Realis ;
+        narr:evidence "plain-assertion: I went back through the Dockside logs on Friday" ;
+        narr:reported false ;
+        skos:note "Details past review of Dockside log behavior." ;
+        prov:generatedAtTime "2026-09-28T01:05:24Z"^^xsd:dateTime .
+
+    narr:VecTemporal_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_22 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_22 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Concrete ;
+        narr:region narr:Temporal_Present ;
+        narr:region narr:Temporal_Realis ;
+        narr:evidence "plain-assertion: Nothing in the new platform runs on a weekly cycle — reconciliation is continuous now." ;
+        narr:reported false ;
+        skos:note "Describes the current actual state of the platform." ;
+        prov:generatedAtTime "2026-09-28T01:05:24Z"^^xsd:dateTime .
+
+    narr:VecTemporal_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_23 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_23 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Concrete ;
+        narr:region narr:Temporal_Future ;
+        narr:region narr:Temporal_Irrealis ;
+        narr:evidence "plain-assertion: One week gives you the flattening plus three days to look at it" ;
+        narr:reported false ;
+        skos:note "Proposes the future operational soak window." ;
+        prov:generatedAtTime "2026-09-28T01:05:24Z"^^xsd:dateTime .
+
+    narr:VecTemporal_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_24 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_24 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Abstract ;
+        narr:region narr:Temporal_Present ;
+        narr:region narr:Temporal_Realis ;
+        narr:evidence "plain-assertion: Two weeks was conservative in a place where being conservative was cheap. One week is defensible but it has no slack in it." ;
+        narr:reported false ;
+        skos:note "Analyzes the trade-off between the two time frames." ;
+        prov:generatedAtTime "2026-09-28T01:05:24Z"^^xsd:dateTime .
+
+    narr:VecTemporal_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_25 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_25 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Abstract ;
+        narr:region narr:Temporal_Present ;
+        narr:evidence "modal-marker: I'd rather be defensible and know where the slack isn't" ;
+        narr:reported false ;
+        skos:note "Expresses general preference regarding defensibility and slack." ;
+        prov:generatedAtTime "2026-09-28T01:05:24Z"^^xsd:dateTime .
+
+    narr:VecTemporal_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_26 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_26 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Concrete ;
+        narr:region narr:Temporal_Present ;
+        narr:region narr:Temporal_Realis ;
+        narr:evidence "performed-act: I just want it on the record that the new number is tight, not safe." ;
+        narr:reported false ;
+        skos:note "Focuses on the present recording of the specific soak duration." ;
+        prov:generatedAtTime "2026-09-28T01:05:24Z"^^xsd:dateTime .
+
+    narr:VecTemporal_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_27 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_27 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Concrete ;
+        narr:region narr:Temporal_Present ;
+        narr:region narr:Temporal_Realis ;
+        narr:evidence "performed-act: For the record then: the soak between sites is one week, not two" ;
+        narr:reported false ;
+        skos:note "Formally establishes the one-week soak parameter on the record." ;
+        prov:generatedAtTime "2026-09-28T01:05:24Z"^^xsd:dateTime .
+
+    narr:VecTemporal_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_28 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_28 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Abstract ;
+        narr:region narr:Temporal_Irrealis ;
+        narr:region narr:Temporal_Present ;
+        narr:evidence "modal-marker: how should multi-site cutovers be sequenced when operational containment conflicts with local site friction?" ;
+        narr:reported false ;
+        skos:note "Asks an abstract, hypothetical sequencing policy question." ;
+        prov:generatedAtTime "2026-09-28T01:05:24Z"^^xsd:dateTime .
+
+    narr:VecTemporal_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_30 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_30 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Concrete ;
+        narr:region narr:Temporal_Future ;
+        narr:region narr:Temporal_Irrealis ;
+        narr:evidence "modal-marker: the one-week soak should name who signs off the second site before it starts" ;
+        narr:reported false ;
+        skos:note "Directs a requirement for future site cutover sign-off." ;
+        prov:generatedAtTime "2026-09-28T01:05:24Z"^^xsd:dateTime .
+
+    narr:VecValue_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_5 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_5 ;
+        narr:dimension narr:Dim_Value ;
+        narr:region narr:Value_Conservation ;
+        narr:region narr:Value_Competence ;
+        narr:evidence "framing-move: Two weeks was conservative in a place where being conservative was cheap. One week is defensible but it has no slack in it." ;
+        narr:reported false ;
+        skos:note "Weighs the value of conservative safety margins against defensible precision and technical rigor." ;
+        prov:generatedAtTime "2026-09-28T01:05:24Z"^^xsd:dateTime .
+
+    narr:VecValue_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_6 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_6 ;
+        narr:dimension narr:Dim_Value ;
+        narr:region narr:Value_Competence ;
+        narr:evidence "framing-move: I'd rather be defensible and know where the slack isn't than conservative for a reason that turned out to be imaginary." ;
+        narr:reported false ;
+        skos:note "Explicitly prioritizes empirical defensibility and mastery of real system boundaries over ungrounded conservatism." ;
+        prov:generatedAtTime "2026-09-28T01:05:24Z"^^xsd:dateTime .
+
+    narr:VecValue_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_7 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_7 ;
+        narr:dimension narr:Dim_Value ;
+        narr:region narr:Value_Conservation ;
+        narr:evidence "framing-move: I just want it on the record that the new number is tight, not safe." ;
+        narr:reported false ;
+        skos:note "Appeals to safety/security as an explicit trade-off being made." ;
+        prov:generatedAtTime "2026-09-28T01:05:24Z"^^xsd:dateTime .
+
+    narr:VecValue_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_16 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_16 ;
+        narr:dimension narr:Dim_Value ;
+        narr:region narr:Value_Conservation ;
+        narr:evidence "framing-move: I'd rather hold two weeks and shorten it with evidence than hold one week and discover we needed two." ;
+        narr:reported false ;
+        skos:note "Frames cautious conservatism and downside protection as the preferred posture until disproven by evidence." ;
+        prov:generatedAtTime "2026-09-28T01:05:24Z"^^xsd:dateTime .
+
+    narr:VecValue_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_18 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_18 ;
+        narr:dimension narr:Dim_Value ;
+        narr:region narr:Value_Conservation ;
+        narr:region narr:Value_SelfTranscendence ;
+        narr:evidence "framing-move: a commitment that a soak doesn't get shortened because a date slipped. If the soak gets eaten, my supervisors are back on the floor at the same time as the next cutover" ;
+        narr:reported false ;
+        skos:note "Appeals to protection of operational stability and floor supervisors' operational integrity against schedule pressure." ;
+        prov:generatedAtTime "2026-09-28T01:05:24Z"^^xsd:dateTime .
+
+    narr:VecValue_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_24 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_24 ;
+        narr:dimension narr:Dim_Value ;
+        narr:region narr:Value_Conservation ;
+        narr:region narr:Value_Competence ;
+        narr:evidence "framing-move: Two weeks was conservative in a place where being conservative was cheap. One week is defensible but it has no slack in it." ;
+        narr:reported false ;
+        skos:note "Evaluates the tension between conservative safety buffers and defensible competence." ;
+        prov:generatedAtTime "2026-09-28T01:05:24Z"^^xsd:dateTime .
+
+    narr:VecValue_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_25 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_25 ;
+        narr:dimension narr:Dim_Value ;
+        narr:region narr:Value_Competence ;
+        narr:evidence "framing-move: I'd rather be defensible and know where the slack isn't than conservative for a reason that turned out to be imaginary." ;
+        narr:reported false ;
+        skos:note "Expresses preference for rigorous understanding over imaginary safety buffers." ;
+        prov:generatedAtTime "2026-09-28T01:05:24Z"^^xsd:dateTime .
+
+    narr:VecValue_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_26 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_26 ;
+        narr:dimension narr:Dim_Value ;
+        narr:region narr:Value_Conservation ;
+        narr:evidence "framing-move: I just want it on the record that the new number is tight, not safe." ;
+        narr:reported false ;
+        skos:note "Records the reduction in safety margin as a salient value-laden risk." ;
+        prov:generatedAtTime "2026-09-28T01:05:24Z"^^xsd:dateTime .
+
+    narr:Expr_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_30 narr:supports narr:Narrative_ContainedPainOverUnboundedRisk .
+
+    narr:Expr_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_30 narr:supports narr:Position_PostGoLiveSoakDurationBasis .
+
+    aswr:Miss_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_narrative_trip a aswr:Miss ;
+        aswr:missPass "narrative" ;
+        aswr:missClass "floor" ;
+        aswr:missError "unplaced 28/29 exceeds 0.34" ;
+        aswr:missModel "google/gemini-3.7-flash" ;
+        aswr:tripFloor "unplaced_ratio" ;
+        aswr:tripRatio "0.9655"^^xsd:decimal ;
+        aswr:tripOutcome "accepted-flagged" ;
+        aswr:tripFallbackModel "anthropic/claude-sonnet-5" ;
+        aswr:missScope narr:Sample_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9 ;
+        prov:generatedAtTime "2026-09-28T01:05:24Z"^^xsd:dateTime .
+
+    aswr:Miss_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_position_trip a aswr:Miss ;
+        aswr:missPass "position" ;
+        aswr:missClass "floor" ;
+        aswr:missError "ungrouped 28/29 exceeds 0.9" ;
+        aswr:missModel "google/gemini-3.7-flash" ;
+        aswr:tripFloor "ungrouped_ratio" ;
+        aswr:tripRatio "0.9655"^^xsd:decimal ;
+        aswr:tripOutcome "accepted-flagged" ;
+        aswr:tripFallbackModel "anthropic/claude-sonnet-5" ;
+        aswr:missScope narr:Sample_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9 ;
+        prov:generatedAtTime "2026-09-28T01:05:24Z"^^xsd:dateTime .
+
+    aswr:Run_20260928T010524Z_dim_affect a prov:Activity ;
+        aswr:runPass "dim.affect" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/d383483d4d25/2026-09-28-1-review-comment-tina-teammember-b4b484ea-e94d-4912-b80b-d561e84cf142/dim.affect.json" ;
+        prov:generated narr:VecAffect_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_10, narr:VecAffect_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_21 ;
+        dct:isPartOf aswr:Tx_20260928T010524Z ;
+        prov:generatedAtTime "2026-09-28T01:05:24Z"^^xsd:dateTime .
+
+    aswr:Run_20260928T010524Z_dim_conviction a prov:Activity ;
+        aswr:runPass "dim.conviction" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/d383483d4d25/2026-09-28-1-review-comment-tina-teammember-b4b484ea-e94d-4912-b80b-d561e84cf142/dim.conviction.json" ;
+        prov:generated narr:VecConviction_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_5, narr:VecConviction_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_6, narr:VecConviction_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_7, narr:VecConviction_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_8, narr:VecConviction_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_9, narr:VecConviction_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_10, narr:VecConviction_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_11, narr:VecConviction_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_12, narr:VecConviction_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_13, narr:VecConviction_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_14, narr:VecConviction_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_15, narr:VecConviction_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_16, narr:VecConviction_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_17, narr:VecConviction_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_18, narr:VecConviction_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_19, narr:VecConviction_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_20, narr:VecConviction_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_21, narr:VecConviction_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_22, narr:VecConviction_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_23, narr:VecConviction_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_24, narr:VecConviction_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_25, narr:VecConviction_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_26, narr:VecConviction_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_27, narr:VecConviction_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_30 ;
+        dct:isPartOf aswr:Tx_20260928T010524Z ;
+        prov:generatedAtTime "2026-09-28T01:05:24Z"^^xsd:dateTime .
+
+    aswr:Run_20260928T010524Z_dim_power a prov:Activity ;
+        aswr:runPass "dim.power" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/d383483d4d25/2026-09-28-1-review-comment-tina-teammember-b4b484ea-e94d-4912-b80b-d561e84cf142/dim.power.json" ;
+        prov:generated narr:VecPower_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_7, narr:VecPower_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_8, narr:VecPower_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_9, narr:VecPower_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_10, narr:VecPower_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_11, narr:VecPower_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_12, narr:VecPower_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_13, narr:VecPower_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_18, narr:VecPower_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_19, narr:VecPower_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_20, narr:VecPower_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_21, narr:VecPower_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_22, narr:VecPower_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_23, narr:VecPower_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_26, narr:VecPower_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_27, narr:VecPower_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_30 ;
+        dct:isPartOf aswr:Tx_20260928T010524Z ;
+        prov:generatedAtTime "2026-09-28T01:05:24Z"^^xsd:dateTime .
+
+    aswr:Run_20260928T010524Z_dim_register a prov:Activity ;
+        aswr:runPass "dim.register" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/d383483d4d25/2026-09-28-1-review-comment-tina-teammember-b4b484ea-e94d-4912-b80b-d561e84cf142/dim.register.json" ;
+        prov:generated narr:DirRegister_OnTheRecordProtocol, narr:VecRegister_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_7, narr:VecRegister_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_8, narr:VecRegister_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_15, narr:VecRegister_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_26, narr:VecRegister_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_27 ;
+        dct:isPartOf aswr:Tx_20260928T010524Z ;
+        prov:generatedAtTime "2026-09-28T01:05:24Z"^^xsd:dateTime .
+
+    aswr:Run_20260928T010524Z_dim_relational a prov:Activity ;
+        aswr:runPass "dim.relational" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/d383483d4d25/2026-09-28-1-review-comment-tina-teammember-b4b484ea-e94d-4912-b80b-d561e84cf142/dim.relational.json" ;
+        prov:generated narr:VecRelational_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_8, narr:VecRelational_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_13, narr:VecRelational_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_18, narr:VecRelational_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_19, narr:VecRelational_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_27, narr:VecRelational_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_30 ;
+        dct:isPartOf aswr:Tx_20260928T010524Z ;
+        prov:generatedAtTime "2026-09-28T01:05:24Z"^^xsd:dateTime .
+
+    aswr:Run_20260928T010524Z_dim_style a prov:Activity ;
+        aswr:runPass "dim.style" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/d383483d4d25/2026-09-28-1-review-comment-tina-teammember-b4b484ea-e94d-4912-b80b-d561e84cf142/dim.style.json" ;
+        prov:generated narr:VecStyle_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_6, narr:VecStyle_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_7, narr:VecStyle_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_8, narr:VecStyle_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_16, narr:VecStyle_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_25, narr:VecStyle_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_26, narr:VecStyle_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_27 ;
+        dct:isPartOf aswr:Tx_20260928T010524Z ;
+        prov:generatedAtTime "2026-09-28T01:05:24Z"^^xsd:dateTime .
+
+    aswr:Run_20260928T010524Z_dim_temporal a prov:Activity ;
+        aswr:runPass "dim.temporal" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/d383483d4d25/2026-09-28-1-review-comment-tina-teammember-b4b484ea-e94d-4912-b80b-d561e84cf142/dim.temporal.json" ;
+        prov:generated narr:VecTemporal_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_4, narr:VecTemporal_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_5, narr:VecTemporal_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_6, narr:VecTemporal_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_7, narr:VecTemporal_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_8, narr:VecTemporal_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_9, narr:VecTemporal_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_10, narr:VecTemporal_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_11, narr:VecTemporal_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_12, narr:VecTemporal_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_13, narr:VecTemporal_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_14, narr:VecTemporal_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_15, narr:VecTemporal_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_16, narr:VecTemporal_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_17, narr:VecTemporal_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_18, narr:VecTemporal_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_19, narr:VecTemporal_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_20, narr:VecTemporal_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_21, narr:VecTemporal_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_22, narr:VecTemporal_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_23, narr:VecTemporal_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_24, narr:VecTemporal_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_25, narr:VecTemporal_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_26, narr:VecTemporal_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_27, narr:VecTemporal_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_28, narr:VecTemporal_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_30 ;
+        dct:isPartOf aswr:Tx_20260928T010524Z ;
+        prov:generatedAtTime "2026-09-28T01:05:24Z"^^xsd:dateTime .
+
+    aswr:Run_20260928T010524Z_dim_value a prov:Activity ;
+        aswr:runPass "dim.value" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/d383483d4d25/2026-09-28-1-review-comment-tina-teammember-b4b484ea-e94d-4912-b80b-d561e84cf142/dim.value.json" ;
+        prov:generated narr:VecValue_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_5, narr:VecValue_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_6, narr:VecValue_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_7, narr:VecValue_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_16, narr:VecValue_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_18, narr:VecValue_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_24, narr:VecValue_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_25, narr:VecValue_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_26 ;
+        dct:isPartOf aswr:Tx_20260928T010524Z ;
+        prov:generatedAtTime "2026-09-28T01:05:24Z"^^xsd:dateTime .
+
+    aswr:Run_20260928T010524Z_pass5 a prov:Activity ;
+        aswr:runPass "pass5" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/d383483d4d25/2026-09-28-1-review-comment-tina-teammember-b4b484ea-e94d-4912-b80b-d561e84cf142/pass5.json" ;
+        dct:isPartOf aswr:Tx_20260928T010524Z ;
+        prov:generatedAtTime "2026-09-28T01:05:24Z"^^xsd:dateTime .
+
+    aswr:Run_20260928T010524Z_position a prov:Activity ;
+        aswr:runPass "position" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/d383483d4d25/2026-09-28-1-review-comment-tina-teammember-b4b484ea-e94d-4912-b80b-d561e84cf142/position.json" ;
+        dct:isPartOf aswr:Tx_20260928T010524Z ;
+        prov:generatedAtTime "2026-09-28T01:05:24Z"^^xsd:dateTime .
+  }
+}

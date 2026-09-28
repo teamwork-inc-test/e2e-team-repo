@@ -1,0 +1,46 @@
+PREFIX narr: <https://aswritten.ai/narrative#>
+PREFIX aswr: <https://aswritten.ai/aswr#>
+PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX dct:  <http://purl.org/dc/terms/>
+PREFIX xsd:  <http://www.w3.org/2001/XMLSchema#>
+PREFIX oa:   <http://www.w3.org/ns/oa#>
+PREFIX xkos: <http://rdf-vocabulary.ddialliance.org/xkos#>
+
+INSERT DATA {
+  aswr:Tx_20260928T010525Z a prov:Activity ;
+      prov:generatedAtTime "2026-09-28T01:05:25Z"^^xsd:dateTime ;
+      prov:wasAssociatedWith "aswritten.ai" ;
+      prov:wasAttributedTo "scarlet@aswritten.ai" ;
+      aswr:pipelinePin "8dd07a49bda8" ;
+      dct:title "Multipass reconciliations: 20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9" ;
+      prov:generated narr:Recon_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_1 .
+} ;
+INSERT DATA {
+  GRAPH aswr:Tx_20260928T010525Z {
+    narr:Recon_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_1 a narr:Reconciliation ;
+        oa:hasTarget narr:Position_PostGoLiveSoakDurationBasis ;
+        oa:hasTarget narr:Narrative_ContainedPainOverUnboundedRisk ;
+        narr:principal narr:Actor_TinaTeam ;
+        skos:note "the one-week soak should name who signs off the second site before it starts" ;
+        narr:extends narr:Position_PostGoLiveSoakDurationBasis ;
+        dct:source narr:Expr_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_30 ;
+        prov:generatedAtTime "2026-09-28T01:05:25Z"^^xsd:dateTime .
+
+    aswr:Run_20260928T010525Z_pass2 a prov:Activity ;
+        aswr:runPass "pass2" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/d383483d4d25/2026-09-28-1-review-comment-tina-teammember-b4b484ea-e94d-4912-b80b-d561e84cf142/pass2.json" ;
+        dct:isPartOf aswr:Tx_20260928T010525Z ;
+        prov:generatedAtTime "2026-09-28T01:05:25Z"^^xsd:dateTime .
+
+    aswr:Run_20260928T010525Z_pass3 a prov:Activity ;
+        aswr:runPass "pass3" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/d383483d4d25/2026-09-28-1-review-comment-tina-teammember-b4b484ea-e94d-4912-b80b-d561e84cf142/pass3.json" ;
+        prov:generated narr:Recon_20260928_1_ReviewCommentTinaTeammemberB4B484EaE94D4912B80BD_h8c260252a0a9_1 ;
+        dct:isPartOf aswr:Tx_20260928T010525Z ;
+        prov:generatedAtTime "2026-09-28T01:05:25Z"^^xsd:dateTime .
+  }
+}
