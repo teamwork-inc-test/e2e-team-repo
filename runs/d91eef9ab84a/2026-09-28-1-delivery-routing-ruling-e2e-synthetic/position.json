@@ -1,0 +1,10 @@
+{
+  "positions" : [ ],
+  "attaches" : [ {
+    "position" : "Position_ReactionDeliveryBundlingAndBatchingBoundary",
+    "members" : [ "src-2", "src-3", "src-4" ],
+    "why" : "The segments directly address how reaction delivery is bundled (one bundle per run per person), where the batching window closes (when the run closes, with late skills waiting for the next run), and what architectural alternative was rejected (per-skill delivery with client-side collapsing)."
+  } ],
+  "position_revisions" : [ ],
+  "ungrouped" : [ "src-1" ]
+}
