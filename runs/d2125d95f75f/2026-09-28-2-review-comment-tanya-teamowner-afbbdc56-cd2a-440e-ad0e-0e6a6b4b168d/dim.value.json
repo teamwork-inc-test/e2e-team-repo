@@ -1,0 +1,106 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-7",
+    "regions" : [ "conservation" ],
+    "evidence" : [ {
+      "quote" : "I'd rather hold two weeks and shorten it with evidence than hold one week and discover we needed two.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Prioritizes stability, risk avoidance, and empirical safety margin over rushing or taking on unhedged exposure.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-11",
+    "regions" : [ "self-transcendence", "conservation" ],
+    "evidence" : [ {
+      "quote" : "If the soak gets eaten, my supervisors are back on the floor at the same time as the next cutover and we're in the same place by another route.",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Appeals to protecting on-the-ground operational staff from concurrent load and preserving floor stability.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-15",
+    "regions" : [ "self-transcendence", "conservation" ],
+    "evidence" : [ {
+      "quote" : "If the soak gets eaten, my supervisors are back on the floor at the same time as the next cutover and we're in the same place by another route.",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Repeated segment emphasizing protection of supervisors and operational stability.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-41",
+    "regions" : [ "conservation" ],
+    "evidence" : [ {
+      "quote" : "Two weeks was conservative in a place where being conservative was cheap. One week is defensible but it has no slack in it.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Expresses the value of having safety margin and slack as a low-cost hedge.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-42",
+    "regions" : [ "competence" ],
+    "evidence" : [ {
+      "quote" : "I'd rather be defensible and know where the slack isn't than conservative for a reason that turned out to be imaginary.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Values epistemic rigor and defensibility based on sound reality over arbitrary buffer.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-45",
+    "regions" : [ "conservation" ],
+    "evidence" : [ {
+      "quote" : "Two weeks was conservative in a place where being conservative was cheap. One week is defensible but it has no slack in it.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Reiterates the value of cheap conservatism and built-in slack.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-46",
+    "regions" : [ "competence" ],
+    "evidence" : [ {
+      "quote" : "I'd rather be defensible and know where the slack isn't than conservative for a reason that turned out to be imaginary.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Reiterates commitment to defensibility and verified grounds over illusory safety.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-49",
+    "regions" : [ "conservation" ],
+    "evidence" : [ {
+      "quote" : "Two weeks was conservative in a place where being conservative was cheap. One week is defensible but it has no slack in it.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Highlights the virtue of cheap conservatism and having slack.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-50",
+    "regions" : [ "competence" ],
+    "evidence" : [ {
+      "quote" : "I'd rather be defensible and know where the slack isn't than conservative for a reason that turned out to be imaginary.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Highlights defensible engineering reasoning over ungrounded conservatism.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-54",
+    "regions" : [ "conservation" ],
+    "evidence" : [ {
+      "quote" : "Which I will not be spending. That goes into the Clyde buffer.",
+      "kind" : "commitment-marker"
+    } ],
+    "why" : "Preserves recovered schedule as a protective contingency buffer rather than expending it.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-58",
+    "regions" : [ "competence" ],
+    "evidence" : [ {
+      "quote" : "Thank you for bringing it rather than letting it ride.",
+      "kind" : "plain-signal"
+    } ],
+    "why" : "Praises the integrity and diligence of actively correcting known defects rather than leaving them unaddressed.",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-1", "src-2", "src-3", "src-4", "src-5", "src-6", "src-8", "src-9", "src-10", "src-12", "src-13", "src-14", "src-16", "src-17", "src-18", "src-19", "src-20", "src-21", "src-22", "src-23", "src-24", "src-25", "src-26", "src-27", "src-28", "src-29", "src-30", "src-31", "src-32", "src-33", "src-34", "src-35", "src-36", "src-37", "src-38", "src-39", "src-40", "src-43", "src-44", "src-47", "src-48", "src-51", "src-52", "src-53", "src-55", "src-56", "src-57", "src-59", "src-60", "src-61", "src-62" ],
+  "unmarked_rest" : false,
+  "mints" : [ ],
+  "region_mints" : [ ]
+}
