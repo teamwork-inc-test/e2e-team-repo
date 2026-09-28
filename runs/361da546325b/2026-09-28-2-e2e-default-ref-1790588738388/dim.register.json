@@ -1,0 +1,15 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "matter-of-fact", "technical" ],
+    "evidence" : [ {
+      "quote" : "omitted ref creates a topic branch",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "The utterance performs a flat, instrumental test assertion using native domain terminology without stylistic elaboration.",
+    "reported" : false
+  } ],
+  "unmarked" : [ ],
+  "mints" : [ ],
+  "region_mints" : [ ]
+}
