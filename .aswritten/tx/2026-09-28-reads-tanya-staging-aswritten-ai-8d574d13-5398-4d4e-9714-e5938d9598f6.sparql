@@ -1,0 +1,68 @@
+PREFIX narr: <https://aswritten.ai/narrative#>
+PREFIX aswr: <https://aswritten.ai/aswr#>
+PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX dct:  <http://purl.org/dc/terms/>
+PREFIX xsd:  <http://www.w3.org/2001/XMLSchema#>
+
+INSERT DATA {
+  GRAPH aswr:Tx_20260928T013538Z {
+    aswr:ReviewReads_8d574d13-5398-4d4e-9714-e5938d9598f6 a prov:Activity ;
+        prov:generatedAtTime "2026-09-28T01:35:38.776Z"^^xsd:dateTime ;
+        prov:wasAttributedTo "tanya+staging@aswritten.ai" ;
+        aswr:kind "review-reads" ;
+        aswr:batch "8d574d13-5398-4d4e-9714-e5938d9598f6" ;
+        aswr:repo "teamwork-inc-test/e2e-team-repo" ;
+        aswr:stream "qa-701-20260927" ;
+        dct:isPartOf aswr:Tx_20260928T013538Z .
+
+    aswr:ReviewRead_pos-1b0659e58533d4c73e8c3d1726a2904edfc7da326fb3e20301ad6ad5a6143cd6 a aswr:ReviewRead ;
+        aswr:op "pos-1b0659e58533d4c73e8c3d1726a2904edfc7da326fb3e20301ad6ad5a6143cd6" ;
+        aswr:principal "tanya+staging@aswritten.ai" ;
+        aswr:actor "tanya+staging@aswritten.ai" ;
+        aswr:footing "self" ;
+        aswr:target narr:Position_PostGoLiveSoakDurationBasis ;
+        aswr:targetKind "position" ;
+        aswr:change ".aswritten/memories/2026-09-23-4-halyard-cutover-review-2026-09-15.md" ;
+        aswr:revision "https://aswritten.ai/narrative#PositionRevision_PostGoLiveSoakDurationBasis_4HalyardCutoverReview20260915" ;
+        aswr:at "2026-09-28T01:02:11.416Z"^^xsd:dateTime ;
+        aswr:batch "8d574d13-5398-4d4e-9714-e5938d9598f6" .
+
+    aswr:ReviewRead_pos-2c1a09febd6fd194c5e12757c5bf4c83890c900e4fe6d3f1b55b312b87f69a40 a aswr:ReviewRead ;
+        aswr:op "pos-2c1a09febd6fd194c5e12757c5bf4c83890c900e4fe6d3f1b55b312b87f69a40" ;
+        aswr:principal "tanya+staging@aswritten.ai" ;
+        aswr:actor "tanya+staging@aswritten.ai" ;
+        aswr:footing "self" ;
+        aswr:target narr:Position_PostGoLiveSoakDurationBasis ;
+        aswr:targetKind "position" ;
+        aswr:change ".aswritten/memories/2026-09-28-1-review-comment-tina-teammember-b4b484ea-e94d-4912-b80b-d561e84cf142.md" ;
+        aswr:revision ".aswritten/memories/2026-09-28-1-review-comment-tina-teammember-b4b484ea-e94d-4912-b80b-d561e84cf142.md@base" ;
+        aswr:at "2026-09-28T01:13:04.541Z"^^xsd:dateTime ;
+        aswr:batch "8d574d13-5398-4d4e-9714-e5938d9598f6" .
+
+    aswr:ReviewRead_pos-3220611105cf1e0eedd687d824a849c0240f090d67c5eba28726c78f5a682e08 a aswr:ReviewRead ;
+        aswr:op "pos-3220611105cf1e0eedd687d824a849c0240f090d67c5eba28726c78f5a682e08" ;
+        aswr:principal "tanya+staging@aswritten.ai" ;
+        aswr:actor "tanya+staging@aswritten.ai" ;
+        aswr:footing "self" ;
+        aswr:target narr:Position_PostGoLiveSoakDurationBasis ;
+        aswr:targetKind "position" ;
+        aswr:change ".aswritten/memories/2026-09-28-1-review-comment-tina-teammember-b4b484ea-e94d-4912-b80b-d561e84cf142.md" ;
+        aswr:revision ".aswritten/memories/2026-09-28-1-review-comment-tina-teammember-b4b484ea-e94d-4912-b80b-d561e84cf142.md@base" ;
+        aswr:at "2026-09-28T01:13:35.350Z"^^xsd:dateTime ;
+        aswr:batch "8d574d13-5398-4d4e-9714-e5938d9598f6" .
+
+    aswr:ReviewRead_pos-dce4734fd847bf07836df2cd5ced33b9cbf9055b0737517ecf4053ced4a28cf1 a aswr:ReviewRead ;
+        aswr:op "pos-dce4734fd847bf07836df2cd5ced33b9cbf9055b0737517ecf4053ced4a28cf1" ;
+        aswr:principal "tanya+staging@aswritten.ai" ;
+        aswr:actor "tanya+staging@aswritten.ai" ;
+        aswr:footing "self" ;
+        aswr:target narr:Position_PostGoLiveSoakDurationBasis ;
+        aswr:targetKind "position" ;
+        aswr:change ".aswritten/memories/2026-09-28-2-review-comment-tanya-teamowner-afbbdc56-cd2a-440e-ad0e-0e6a6b4b168d.md" ;
+        aswr:revision ".aswritten/memories/2026-09-28-2-review-comment-tanya-teamowner-afbbdc56-cd2a-440e-ad0e-0e6a6b4b168d.md@base" ;
+        aswr:at "2026-09-28T01:19:55.911Z"^^xsd:dateTime ;
+        aswr:batch "8d574d13-5398-4d4e-9714-e5938d9598f6" .
+  }
+}
