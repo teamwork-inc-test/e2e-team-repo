@@ -1,0 +1,421 @@
+PREFIX narr: <https://aswritten.ai/narrative#>
+PREFIX aswr: <https://aswritten.ai/aswr#>
+PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX dct:  <http://purl.org/dc/terms/>
+PREFIX xsd:  <http://www.w3.org/2001/XMLSchema#>
+PREFIX oa:   <http://www.w3.org/ns/oa#>
+PREFIX xkos: <http://rdf-vocabulary.ddialliance.org/xkos#>
+
+INSERT DATA {
+  aswr:Tx_20260929T234338Z a prov:Activity ;
+      prov:generatedAtTime "2026-09-29T23:43:38Z"^^xsd:dateTime ;
+      prov:wasAssociatedWith "aswritten.ai" ;
+      prov:wasAttributedTo "scarlet@aswritten.ai" ;
+      aswr:pipelinePin "8dd07a49bda8" ;
+      aswr:originPath ".aswritten/memories/2026-09-29-1-review-comments-tina-teammember-2026-09-24.md" ;
+      dct:title "Multipass fragment: 20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2" ;
+      prov:generated narr:VecAffect_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_8, narr:VecConviction_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_4, narr:VecConviction_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_5, narr:VecConviction_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_6, narr:VecConviction_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_7, narr:VecConviction_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_8, narr:VecConviction_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_10, narr:VecPower_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_7, narr:VecPower_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_8, narr:VecPower_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_10, narr:DirRegister_ProceduralSupersessionFraming, narr:VecRegister_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_7, narr:VecRegister_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_8, narr:VecRelational_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_4, narr:VecRelational_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_8, narr:VecStyle_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_4, narr:VecStyle_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_5, narr:VecStyle_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_6, narr:VecStyle_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_7, narr:VecStyle_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_8, narr:VecStyle_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_10, narr:VecTemporal_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_3, narr:VecTemporal_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_4, narr:VecTemporal_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_5, narr:VecTemporal_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_6, narr:VecTemporal_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_7, narr:VecTemporal_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_8, narr:VecTemporal_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_10, narr:VecValue_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_4, narr:VecValue_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_5, narr:VecValue_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_6, narr:VecValue_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_10 .
+} ;
+INSERT DATA {
+  GRAPH aswr:Tx_20260929T234338Z {
+    narr:VecAffect_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_8 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_8 ;
+        narr:dimension narr:Dim_Affect ;
+        narr:region narr:Affect_ActivatedNegative ;
+        narr:evidence "lexical-marker: That was wrong. I was wrong on the eighth and I want it struck from the plan." ;
+        narr:reported false ;
+        skos:note "Repeated emphatic admission of error with high-arousal corrective insistence ('want it struck')." ;
+        prov:generatedAtTime "2026-09-29T23:43:38Z"^^xsd:dateTime .
+
+    narr:VecConviction_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_4 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_4 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Notion ;
+        narr:evidence "hedge: Can I say that I think this is the right correction" ;
+        narr:reported false ;
+        skos:note "Speaker opens with a tentative epistemic frame asking permission to float an assessment with acknowledged trade-offs." ;
+        prov:generatedAtTime "2026-09-29T23:43:38Z"^^xsd:dateTime .
+
+    narr:VecConviction_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_5 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_5 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Claim ;
+        narr:evidence "plain-assertion: I'd rather be defensible and know where the slack isn't than conservative for a reason that turned out to be imaginary." ;
+        narr:reported false ;
+        skos:note "Speaker articulates a clear stance on preferencing defensibility over false conservatism, argued as a committed position." ;
+        prov:generatedAtTime "2026-09-29T23:43:38Z"^^xsd:dateTime .
+
+    narr:VecConviction_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_6 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_6 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Claim ;
+        narr:evidence "commitment-marker: I just want it on the record that the new number is tight, not safe." ;
+        narr:reported false ;
+        skos:note "Asserts a clarification explicitly for the record without issuing a formal policy ratification." ;
+        prov:generatedAtTime "2026-09-29T23:43:38Z"^^xsd:dateTime .
+
+    narr:VecConviction_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_7 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_7 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Decision ;
+        narr:evidence "performed-act: the soak between sites is one week, not two, and my note from the eighth about two weeks should be read as superseded by this." ;
+        narr:reported false ;
+        skos:note "Explicit performative statement establishing operational reality and formally superseding prior guidance." ;
+        prov:generatedAtTime "2026-09-29T23:43:38Z"^^xsd:dateTime .
+
+    narr:VecConviction_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_8 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_8 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Decision ;
+        narr:evidence "commitment-marker: I want it struck from the plan." ;
+        narr:reported false ;
+        skos:note "Direct operational instruction to excise the previous rule from the active plan." ;
+        prov:generatedAtTime "2026-09-29T23:43:38Z"^^xsd:dateTime .
+
+    narr:VecConviction_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_10 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_10 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Claim ;
+        narr:evidence "plain-assertion: The soak should be two weeks, not one: the batch jobs only run weekly." ;
+        narr:reported false ;
+        skos:note "Tina asserts an unhedged operational recommendation supported by factual justification during review." ;
+        prov:generatedAtTime "2026-09-29T23:43:38Z"^^xsd:dateTime .
+
+    narr:VecPower_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_7 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_7 ;
+        narr:dimension narr:Dim_Power ;
+        narr:region narr:Power_Legitimate ;
+        narr:evidence "performed-act: my note from the eighth about two weeks should be read as superseded by this." ;
+        narr:reported false ;
+        skos:note "Formally declaring a prior record superseded invokes legitimate positional authority over the record/plan." ;
+        prov:generatedAtTime "2026-09-29T23:43:38Z"^^xsd:dateTime .
+
+    narr:VecPower_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_8 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_8 ;
+        narr:dimension narr:Dim_Power ;
+        narr:region narr:Power_Legitimate ;
+        narr:evidence "performed-act: I want it struck from the plan." ;
+        narr:reported false ;
+        skos:note "Instructing that an item be formally struck from the official plan exercises legitimate process authority." ;
+        prov:generatedAtTime "2026-09-29T23:43:38Z"^^xsd:dateTime .
+
+    narr:VecPower_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_10 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_10 ;
+        narr:dimension narr:Dim_Power ;
+        narr:region narr:Power_RationalPersuasion ;
+        narr:region narr:Power_Informational ;
+        narr:evidence "plain-assertion: The soak should be two weeks, not one: the batch jobs only run weekly." ;
+        narr:reported false ;
+        skos:note "Provides a specific operational fact/constraint to logically persuade the team on duration." ;
+        prov:generatedAtTime "2026-09-29T23:43:38Z"^^xsd:dateTime .
+
+    narr:DirRegister_ProceduralSupersessionFraming a narr:DirectionalNode ;
+        dct:source narr:Sample_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2 ;
+        narr:dimension narr:Dim_Register ;
+        narr:region narr:Register_Formal ;
+        narr:frame "Does the speaker invoke explicit formal record-keeping phrasing to formally update or supersede a previous position?" ;
+        skos:note "for the record then... superseded by this" ;
+        prov:generatedAtTime "2026-09-29T23:43:38Z"^^xsd:dateTime .
+
+    narr:VecRegister_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_7 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_7 ;
+        narr:dimension narr:Dim_Register ;
+        narr:region narr:Register_Formal ;
+        narr:direction narr:DirRegister_ProceduralSupersessionFraming ;
+        narr:evidence "framing-move: For the record then" ;
+        narr:evidence "lexical-marker: should be read as superseded by this" ;
+        narr:reported false ;
+        skos:note "Adopts procedural record-making framing and formal administrative supersession phrasing." ;
+        prov:generatedAtTime "2026-09-29T23:43:38Z"^^xsd:dateTime .
+
+    narr:VecRegister_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_8 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_8 ;
+        narr:dimension narr:Dim_Register ;
+        narr:region narr:Register_Formal ;
+        narr:evidence "lexical-marker: I want it struck from the plan" ;
+        narr:reported false ;
+        skos:note "Uses formal procedural language ('struck from the plan') to retract a previous commitment." ;
+        prov:generatedAtTime "2026-09-29T23:43:38Z"^^xsd:dateTime .
+
+    narr:VecRelational_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_4 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_4 ;
+        narr:dimension narr:Dim_Relational ;
+        narr:region narr:Relational_MarketPricing ;
+        narr:evidence "framing-move: it costs us something? Two weeks was conservative in a place where being conservative was cheap. One week is defensible but it has no slack in it." ;
+        narr:reported false ;
+        skos:note "Enacts a cost-benefit / trade-off calculus regarding safety margin vs. cost/slack." ;
+        prov:generatedAtTime "2026-09-29T23:43:38Z"^^xsd:dateTime .
+
+    narr:VecRelational_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_8 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_8 ;
+        narr:dimension narr:Dim_Relational ;
+        narr:region narr:Relational_AuthorityRanking ;
+        narr:evidence "lexical-marker: I said I'd hold us to it." ;
+        narr:evidence "performed-act: I want it struck from the plan." ;
+        narr:reported false ;
+        skos:note "Enacts and revokes individual directive authority over the group plan." ;
+        prov:generatedAtTime "2026-09-29T23:43:38Z"^^xsd:dateTime .
+
+    narr:VecStyle_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_4 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_4 ;
+        narr:dimension narr:Dim_Style ;
+        narr:region narr:Style_Antithesis ;
+        narr:evidence "framing-move: Two weeks was conservative in a place where being conservative was cheap. One week is defensible but it has no slack in it." ;
+        narr:reported false ;
+        skos:note "Deliberately contrasts two scenarios ('Two weeks was conservative... One week is defensible...') with matched balance across clauses." ;
+        prov:generatedAtTime "2026-09-29T23:43:38Z"^^xsd:dateTime .
+
+    narr:VecStyle_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_5 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_5 ;
+        narr:dimension narr:Dim_Style ;
+        narr:region narr:Style_Antithesis ;
+        narr:evidence "framing-move: I'd rather be defensible and know where the slack isn't than conservative for a reason that turned out to be imaginary." ;
+        narr:reported false ;
+        skos:note "Sets 'defensible and know where the slack isn't' in direct opposition to 'conservative for a reason that turned out to be imaginary'." ;
+        prov:generatedAtTime "2026-09-29T23:43:38Z"^^xsd:dateTime .
+
+    narr:VecStyle_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_6 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_6 ;
+        narr:dimension narr:Dim_Style ;
+        narr:region narr:Style_Antithesis ;
+        narr:evidence "framing-move: the new number is tight, not safe." ;
+        narr:reported false ;
+        skos:note "Opposed qualifiers set in direct contrast within a single frame ('tight, not safe')." ;
+        prov:generatedAtTime "2026-09-29T23:43:38Z"^^xsd:dateTime .
+
+    narr:VecStyle_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_7 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_7 ;
+        narr:dimension narr:Dim_Style ;
+        narr:region narr:Style_Antithesis ;
+        narr:evidence "framing-move: one week, not two" ;
+        narr:reported false ;
+        skos:note "Classic antithetical correction formula ('X, not Y')." ;
+        prov:generatedAtTime "2026-09-29T23:43:38Z"^^xsd:dateTime .
+
+    narr:VecStyle_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_8 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_8 ;
+        narr:dimension narr:Dim_Style ;
+        narr:region narr:Style_Anaphora ;
+        narr:evidence "lexical-marker: That was wrong. I was wrong on the eighth" ;
+        narr:reported false ;
+        skos:note "Repeats the admission of being wrong across consecutive short declarations for rhetorical emphasis." ;
+        prov:generatedAtTime "2026-09-29T23:43:38Z"^^xsd:dateTime .
+
+    narr:VecStyle_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_10 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_10 ;
+        narr:dimension narr:Dim_Style ;
+        narr:region narr:Style_Antithesis ;
+        narr:evidence "framing-move: two weeks, not one" ;
+        narr:reported false ;
+        skos:note "Antithetical formulation opposing the proposed duration ('two weeks, not one')." ;
+        prov:generatedAtTime "2026-09-29T23:43:38Z"^^xsd:dateTime .
+
+    narr:VecTemporal_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_3 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_3 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Present ;
+        narr:region narr:Temporal_Abstract ;
+        narr:evidence "plain-assertion: how is the minimum soak duration between site cutovers determined and validated?" ;
+        narr:reported false ;
+        skos:note "Inquires about the general principle and procedure for determining soak duration." ;
+        prov:generatedAtTime "2026-09-29T23:43:38Z"^^xsd:dateTime .
+
+    narr:VecTemporal_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_4 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_4 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Present ;
+        narr:region narr:Temporal_Realis ;
+        narr:region narr:Temporal_Concrete ;
+        narr:evidence "plain-assertion: One week is defensible but it has no slack in it." ;
+        narr:reported false ;
+        skos:note "Evaluates the current concrete operational parameters and trade-offs." ;
+        prov:generatedAtTime "2026-09-29T23:43:38Z"^^xsd:dateTime .
+
+    narr:VecTemporal_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_5 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_5 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Present ;
+        narr:region narr:Temporal_Abstract ;
+        narr:evidence "modal-marker: I'd rather be defensible and know where the slack isn't than conservative for a reason that turned out to be imaginary." ;
+        narr:reported false ;
+        skos:note "Expresses a general stance and preference over principles of planning." ;
+        prov:generatedAtTime "2026-09-29T23:43:38Z"^^xsd:dateTime .
+
+    narr:VecTemporal_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_6 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_6 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Present ;
+        narr:region narr:Temporal_Realis ;
+        narr:region narr:Temporal_Concrete ;
+        narr:evidence "plain-assertion: the new number is tight, not safe." ;
+        narr:reported false ;
+        skos:note "Focuses on recording the current real state regarding the specific new parameter." ;
+        prov:generatedAtTime "2026-09-29T23:43:38Z"^^xsd:dateTime .
+
+    narr:VecTemporal_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_7 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_7 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Present ;
+        narr:region narr:Temporal_Realis ;
+        narr:region narr:Temporal_Concrete ;
+        narr:evidence "performed-act: the soak between sites is one week, not two" ;
+        narr:reported false ;
+        skos:note "Enacts a concrete determination establishing the current actual soak duration." ;
+        prov:generatedAtTime "2026-09-29T23:43:38Z"^^xsd:dateTime .
+
+    narr:VecTemporal_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_8 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_8 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Past ;
+        narr:region narr:Temporal_Realis ;
+        narr:region narr:Temporal_Concrete ;
+        narr:evidence "plain-assertion: On the eighth I said the soak between sites has to be two full weeks" ;
+        narr:reported false ;
+        skos:note "Directly recounts and corrects a specific prior statement from the eighth." ;
+        prov:generatedAtTime "2026-09-29T23:43:38Z"^^xsd:dateTime .
+
+    narr:VecTemporal_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_10 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_10 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Present ;
+        narr:region narr:Temporal_Concrete ;
+        narr:evidence "modal-marker: The soak should be two weeks, not one: the batch jobs only run weekly." ;
+        narr:reported false ;
+        skos:note "Prescribes a concrete operational requirement based on current batch job cadence." ;
+        prov:generatedAtTime "2026-09-29T23:43:38Z"^^xsd:dateTime .
+
+    narr:VecValue_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_4 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_4 ;
+        narr:dimension narr:Dim_Value ;
+        narr:region narr:Value_Conservation ;
+        narr:region narr:Value_Competence ;
+        narr:evidence "framing-move: Two weeks was conservative in a place where being conservative was cheap. One week is defensible but it has no slack in it." ;
+        narr:reported false ;
+        skos:note "Weighs safety and margin ('conservative', 'cheap') against rigorous justifiability ('defensible') without slack." ;
+        prov:generatedAtTime "2026-09-29T23:43:38Z"^^xsd:dateTime .
+
+    narr:VecValue_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_5 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_5 ;
+        narr:dimension narr:Dim_Value ;
+        narr:region narr:Value_Competence ;
+        narr:evidence "plain-assertion: I'd rather be defensible and know where the slack isn't than conservative for a reason that turned out to be imaginary." ;
+        narr:reported false ;
+        skos:note "Appeals directly to defensibility and genuine epistemic competence over illusory safety margins." ;
+        prov:generatedAtTime "2026-09-29T23:43:38Z"^^xsd:dateTime .
+
+    narr:VecValue_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_6 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_6 ;
+        narr:dimension narr:Dim_Value ;
+        narr:region narr:Value_Conservation ;
+        narr:evidence "plain-signal: I just want it on the record that the new number is tight, not safe." ;
+        narr:reported false ;
+        skos:note "Highlights the sacrifice of safety/security margins as an explicit concern for the record." ;
+        prov:generatedAtTime "2026-09-29T23:43:38Z"^^xsd:dateTime .
+
+    narr:VecValue_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_10 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_10 ;
+        narr:dimension narr:Dim_Value ;
+        narr:region narr:Value_Conservation ;
+        narr:region narr:Value_Competence ;
+        narr:evidence "plain-assertion: The soak should be two weeks, not one: the batch jobs only run weekly." ;
+        narr:reported false ;
+        skos:note "Argues for preserving the longer buffer based on the technical operational reality of batch cadences." ;
+        prov:generatedAtTime "2026-09-29T23:43:38Z"^^xsd:dateTime .
+
+    narr:Expr_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_10 narr:supports narr:Narrative_ContainedPainOverUnboundedRisk .
+
+    narr:Expr_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_10 narr:supports narr:Position_PostGoLiveSoakDurationBasis .
+
+    aswr:Miss_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_narrative_trip a aswr:Miss ;
+        aswr:missPass "narrative" ;
+        aswr:missClass "floor" ;
+        aswr:missError "unplaced 8/9 exceeds 0.34" ;
+        aswr:missModel "google/gemini-3.7-flash" ;
+        aswr:tripFloor "unplaced_ratio" ;
+        aswr:tripRatio "0.8889"^^xsd:decimal ;
+        aswr:tripOutcome "accepted-flagged" ;
+        aswr:tripFallbackModel "anthropic/claude-sonnet-5" ;
+        aswr:missScope narr:Sample_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2 ;
+        prov:generatedAtTime "2026-09-29T23:43:38Z"^^xsd:dateTime .
+
+    aswr:Run_20260929T234338Z_dim_affect a prov:Activity ;
+        aswr:runPass "dim.affect" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/bf3d5510c624/2026-09-29-1-review-comments-tina-teammember-2026-09-24/dim.affect.json" ;
+        prov:generated narr:VecAffect_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_8 ;
+        dct:isPartOf aswr:Tx_20260929T234338Z ;
+        prov:generatedAtTime "2026-09-29T23:43:38Z"^^xsd:dateTime .
+
+    aswr:Run_20260929T234338Z_dim_conviction a prov:Activity ;
+        aswr:runPass "dim.conviction" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/bf3d5510c624/2026-09-29-1-review-comments-tina-teammember-2026-09-24/dim.conviction.json" ;
+        prov:generated narr:VecConviction_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_4, narr:VecConviction_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_5, narr:VecConviction_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_6, narr:VecConviction_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_7, narr:VecConviction_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_8, narr:VecConviction_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_10 ;
+        dct:isPartOf aswr:Tx_20260929T234338Z ;
+        prov:generatedAtTime "2026-09-29T23:43:38Z"^^xsd:dateTime .
+
+    aswr:Run_20260929T234338Z_dim_power a prov:Activity ;
+        aswr:runPass "dim.power" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/bf3d5510c624/2026-09-29-1-review-comments-tina-teammember-2026-09-24/dim.power.json" ;
+        prov:generated narr:VecPower_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_7, narr:VecPower_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_8, narr:VecPower_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_10 ;
+        dct:isPartOf aswr:Tx_20260929T234338Z ;
+        prov:generatedAtTime "2026-09-29T23:43:38Z"^^xsd:dateTime .
+
+    aswr:Run_20260929T234338Z_dim_register a prov:Activity ;
+        aswr:runPass "dim.register" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/bf3d5510c624/2026-09-29-1-review-comments-tina-teammember-2026-09-24/dim.register.json" ;
+        prov:generated narr:DirRegister_ProceduralSupersessionFraming, narr:VecRegister_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_7, narr:VecRegister_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_8 ;
+        dct:isPartOf aswr:Tx_20260929T234338Z ;
+        prov:generatedAtTime "2026-09-29T23:43:38Z"^^xsd:dateTime .
+
+    aswr:Run_20260929T234338Z_dim_relational a prov:Activity ;
+        aswr:runPass "dim.relational" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/bf3d5510c624/2026-09-29-1-review-comments-tina-teammember-2026-09-24/dim.relational.json" ;
+        prov:generated narr:VecRelational_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_4, narr:VecRelational_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_8 ;
+        dct:isPartOf aswr:Tx_20260929T234338Z ;
+        prov:generatedAtTime "2026-09-29T23:43:38Z"^^xsd:dateTime .
+
+    aswr:Run_20260929T234338Z_dim_style a prov:Activity ;
+        aswr:runPass "dim.style" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/bf3d5510c624/2026-09-29-1-review-comments-tina-teammember-2026-09-24/dim.style.json" ;
+        prov:generated narr:VecStyle_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_4, narr:VecStyle_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_5, narr:VecStyle_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_6, narr:VecStyle_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_7, narr:VecStyle_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_8, narr:VecStyle_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_10 ;
+        dct:isPartOf aswr:Tx_20260929T234338Z ;
+        prov:generatedAtTime "2026-09-29T23:43:38Z"^^xsd:dateTime .
+
+    aswr:Run_20260929T234338Z_dim_temporal a prov:Activity ;
+        aswr:runPass "dim.temporal" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/bf3d5510c624/2026-09-29-1-review-comments-tina-teammember-2026-09-24/dim.temporal.json" ;
+        prov:generated narr:VecTemporal_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_3, narr:VecTemporal_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_4, narr:VecTemporal_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_5, narr:VecTemporal_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_6, narr:VecTemporal_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_7, narr:VecTemporal_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_8, narr:VecTemporal_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_10 ;
+        dct:isPartOf aswr:Tx_20260929T234338Z ;
+        prov:generatedAtTime "2026-09-29T23:43:38Z"^^xsd:dateTime .
+
+    aswr:Run_20260929T234338Z_dim_value a prov:Activity ;
+        aswr:runPass "dim.value" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/bf3d5510c624/2026-09-29-1-review-comments-tina-teammember-2026-09-24/dim.value.json" ;
+        prov:generated narr:VecValue_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_4, narr:VecValue_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_5, narr:VecValue_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_6, narr:VecValue_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_10 ;
+        dct:isPartOf aswr:Tx_20260929T234338Z ;
+        prov:generatedAtTime "2026-09-29T23:43:38Z"^^xsd:dateTime .
+
+    aswr:Run_20260929T234338Z_pass5 a prov:Activity ;
+        aswr:runPass "pass5" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/bf3d5510c624/2026-09-29-1-review-comments-tina-teammember-2026-09-24/pass5.json" ;
+        dct:isPartOf aswr:Tx_20260929T234338Z ;
+        prov:generatedAtTime "2026-09-29T23:43:38Z"^^xsd:dateTime .
+
+    aswr:Run_20260929T234338Z_position a prov:Activity ;
+        aswr:runPass "position" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/bf3d5510c624/2026-09-29-1-review-comments-tina-teammember-2026-09-24/position.json" ;
+        dct:isPartOf aswr:Tx_20260929T234338Z ;
+        prov:generatedAtTime "2026-09-29T23:43:38Z"^^xsd:dateTime .
+  }
+}

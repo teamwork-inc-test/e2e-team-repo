@@ -1,0 +1,43 @@
+PREFIX narr: <https://aswritten.ai/narrative#>
+PREFIX aswr: <https://aswritten.ai/aswr#>
+PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX dct:  <http://purl.org/dc/terms/>
+PREFIX xsd:  <http://www.w3.org/2001/XMLSchema#>
+PREFIX oa:   <http://www.w3.org/ns/oa#>
+PREFIX xkos: <http://rdf-vocabulary.ddialliance.org/xkos#>
+
+INSERT DATA {
+  aswr:Tx_20260929T234339Z a prov:Activity ;
+      prov:generatedAtTime "2026-09-29T23:43:39Z"^^xsd:dateTime ;
+      prov:wasAssociatedWith "aswritten.ai" ;
+      prov:wasAttributedTo "scarlet@aswritten.ai" ;
+      aswr:pipelinePin "8dd07a49bda8" ;
+      dct:title "Multipass reconciliations: 20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2" ;
+      prov:generated narr:Demoted_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_1 .
+} ;
+INSERT DATA {
+  GRAPH aswr:Tx_20260929T234339Z {
+    narr:Demoted_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_1 a narr:DemotedReconciliation ;
+        oa:hasTarget narr:Expr_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_10 ;
+        skos:note "principal \"Tina TeamMember\" (narr:Actor_TinaTeammember) is not the envelope's human (tanya+staging@aswritten.ai → narr:Actor_TanyaTeamowner) or 'session'" ;
+        dct:source narr:Sample_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2 ;
+        prov:generatedAtTime "2026-09-29T23:43:39Z"^^xsd:dateTime .
+
+    aswr:Run_20260929T234339Z_pass2 a prov:Activity ;
+        aswr:runPass "pass2" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/bf3d5510c624/2026-09-29-1-review-comments-tina-teammember-2026-09-24/pass2.json" ;
+        dct:isPartOf aswr:Tx_20260929T234339Z ;
+        prov:generatedAtTime "2026-09-29T23:43:39Z"^^xsd:dateTime .
+
+    aswr:Run_20260929T234339Z_pass3 a prov:Activity ;
+        aswr:runPass "pass3" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/bf3d5510c624/2026-09-29-1-review-comments-tina-teammember-2026-09-24/pass3.json" ;
+        prov:generated narr:Demoted_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_1 ;
+        dct:isPartOf aswr:Tx_20260929T234339Z ;
+        prov:generatedAtTime "2026-09-29T23:43:39Z"^^xsd:dateTime .
+  }
+}
