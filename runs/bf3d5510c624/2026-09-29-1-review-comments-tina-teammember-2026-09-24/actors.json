@@ -1,0 +1,24 @@
+{
+  "bindings" : [ {
+    "name" : "Tanya TeamOwner",
+    "verdict" : "bind",
+    "target" : "Actor_TanyaTeamowner",
+    "why" : "Exact match with existing Actor_TanyaTeamowner."
+  }, {
+    "name" : "unspecified speaker",
+    "verdict" : "mint",
+    "label" : "unspecified speaker",
+    "why" : "Generic placeholder speaker with no corresponding existing actor."
+  }, {
+    "name" : "Tina TeamMember",
+    "verdict" : "mint",
+    "label" : "Tina TeamMember",
+    "why" : "Distinct surname from existing Actor_TinaTeam; no confident match."
+  }, {
+    "name" : "tanya+staging@aswritten.ai",
+    "verdict" : "bind",
+    "target" : "Actor_TanyaTeamowner",
+    "why" : "Envelope account email for Tanya TeamOwner."
+  } ],
+  "_source_sha256" : "b130e29178b883c23a965692451c813e7c97f6a2b12fa8a1785a907d6c505f6c"
+}
