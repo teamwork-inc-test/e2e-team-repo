@@ -66,6 +66,13 @@
       "n:Expr_6HalyardAdvisorTonyMaley20260929_4" : 1,
       "n:Expr_6HalyardAdvisorTonyMaley20260929_9" : 1
     },
+    "n:Actor_UnspecifiedSpeaker" : {
+      "n:Expr_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_3" : 1,
+      "n:Expr_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_5" : 1,
+      "n:Expr_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_6" : 1,
+      "n:Expr_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_7" : 2,
+      "n:Expr_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_8" : 1
+    },
     "n:Actor_XavierExpert" : {
       "n:Expr_1HalyardWeekly20260908_12" : 1,
       "n:Expr_1HalyardWeekly20260908_14" : 1,
@@ -92,7 +99,7 @@
       "n:Expr_1HalyardWeekly20260908_42" : 1,
       "n:Expr_1HalyardWeekly20260908_8" : 1,
       "n:Narrative_ContainedPainOverUnboundedRisk" : 2,
-      "n:Narrative_ProactiveGovernanceRiskDisclosure" : 1,
+      "n:Narrative_ExtractionScopingBeforeDecommissioningTerms" : 1,
       "n:Narrative_SelfDescribingArchivePreservesMeaning" : 2,
       "n:Narrative_SingleSourceOfTruthUntilFinalCutover" : 1,
       "n:Narrative_SourceQualityGatesRequireIndependentEnforcement" : 1,
@@ -111,6 +118,7 @@
     },
     "n:Narrative_ContainedPainOverUnboundedRisk" : {
       "n:Expr_1HalyardWeekly20260908_13" : 1,
+      "n:Expr_1HalyardWeekly20260908_15" : 1,
       "n:Expr_1HalyardWeekly20260908_16" : 1,
       "n:Expr_1HalyardWeekly20260908_20" : 1,
       "n:Expr_1HalyardWeekly20260908_42" : 1,
@@ -207,7 +215,7 @@
       "n:Expr_1HalyardWeekly20260908_19" : 1,
       "n:Expr_1HalyardWeekly20260908_20" : 2,
       "n:Expr_1HalyardWeekly20260908_22" : 1,
-      "n:Expr_2HalyardOpsReadiness20260915_28" : 1,
+      "n:Expr_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_10" : 1,
       "n:Expr_2HalyardOpsReadiness20260915_29" : 2
     },
     "n:Position_PreCutoverDataQualityGateEnforcement" : {
@@ -240,9 +248,104 @@
       "n:Expr_6HalyardAdvisorTonyMaley20260929_3" : 1,
       "n:Expr_6HalyardAdvisorTonyMaley20260929_4" : 2,
       "n:Expr_6HalyardAdvisorTonyMaley20260929_9" : 1
+    },
+    "n:Sample_1HalyardWeekly20260908" : {
+      "n:Expr_1HalyardWeekly20260908_1" : 1,
+      "n:Expr_1HalyardWeekly20260908_12" : 1,
+      "n:Expr_1HalyardWeekly20260908_13" : 1,
+      "n:Expr_1HalyardWeekly20260908_14" : 1,
+      "n:Expr_1HalyardWeekly20260908_15" : 1,
+      "n:Expr_1HalyardWeekly20260908_16" : 2,
+      "n:Expr_1HalyardWeekly20260908_17" : 1,
+      "n:Expr_1HalyardWeekly20260908_19" : 1,
+      "n:Expr_1HalyardWeekly20260908_20" : 2,
+      "n:Expr_1HalyardWeekly20260908_21" : 1,
+      "n:Expr_1HalyardWeekly20260908_22" : 1,
+      "n:Expr_1HalyardWeekly20260908_24" : 1,
+      "n:Expr_1HalyardWeekly20260908_26" : 1,
+      "n:Expr_1HalyardWeekly20260908_28" : 1,
+      "n:Expr_1HalyardWeekly20260908_31" : 2,
+      "n:Expr_1HalyardWeekly20260908_36" : 1,
+      "n:Expr_1HalyardWeekly20260908_38" : 1,
+      "n:Expr_1HalyardWeekly20260908_39" : 1,
+      "n:Expr_1HalyardWeekly20260908_42" : 2,
+      "n:Expr_1HalyardWeekly20260908_8" : 1
+    },
+    "n:Sample_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2" : {
+      "n:Expr_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_1" : 1,
+      "n:Expr_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_10" : 2,
+      "n:Expr_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_5" : 1,
+      "n:Expr_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_6" : 1,
+      "n:Expr_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_7" : 2,
+      "n:Expr_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_8" : 1
+    },
+    "n:Sample_2HalyardOpsReadiness20260915" : {
+      "n:Expr_2HalyardOpsReadiness20260915_11" : 1,
+      "n:Expr_2HalyardOpsReadiness20260915_12" : 1,
+      "n:Expr_2HalyardOpsReadiness20260915_14" : 1,
+      "n:Expr_2HalyardOpsReadiness20260915_15" : 1,
+      "n:Expr_2HalyardOpsReadiness20260915_16" : 2,
+      "n:Expr_2HalyardOpsReadiness20260915_17" : 2,
+      "n:Expr_2HalyardOpsReadiness20260915_2" : 2,
+      "n:Expr_2HalyardOpsReadiness20260915_22" : 1,
+      "n:Expr_2HalyardOpsReadiness20260915_25" : 1,
+      "n:Expr_2HalyardOpsReadiness20260915_26" : 2,
+      "n:Expr_2HalyardOpsReadiness20260915_28" : 1,
+      "n:Expr_2HalyardOpsReadiness20260915_29" : 1,
+      "n:Expr_2HalyardOpsReadiness20260915_6" : 1,
+      "n:Expr_2HalyardOpsReadiness20260915_7" : 1,
+      "n:Expr_2HalyardOpsReadiness20260915_9" : 1
+    },
+    "n:Sample_4HalyardCutoverReview20260915" : {
+      "n:Expr_4HalyardCutoverReview20260915_10" : 2,
+      "n:Expr_4HalyardCutoverReview20260915_11" : 1,
+      "n:Expr_4HalyardCutoverReview20260915_13" : 1,
+      "n:Expr_4HalyardCutoverReview20260915_14" : 2,
+      "n:Expr_4HalyardCutoverReview20260915_15" : 1,
+      "n:Expr_4HalyardCutoverReview20260915_17" : 1,
+      "n:Expr_4HalyardCutoverReview20260915_18" : 2,
+      "n:Expr_4HalyardCutoverReview20260915_20" : 2,
+      "n:Expr_4HalyardCutoverReview20260915_22" : 1,
+      "n:Expr_4HalyardCutoverReview20260915_3" : 1,
+      "n:Expr_4HalyardCutoverReview20260915_5" : 1,
+      "n:Expr_4HalyardCutoverReview20260915_7" : 1,
+      "n:Expr_4HalyardCutoverReview20260915_9" : 1
+    },
+    "n:Sample_5HalyardLegacyArchive20260922" : {
+      "n:Expr_5HalyardLegacyArchive20260922_11" : 1,
+      "n:Expr_5HalyardLegacyArchive20260922_12" : 1,
+      "n:Expr_5HalyardLegacyArchive20260922_13" : 2,
+      "n:Expr_5HalyardLegacyArchive20260922_15" : 1,
+      "n:Expr_5HalyardLegacyArchive20260922_16" : 1,
+      "n:Expr_5HalyardLegacyArchive20260922_17" : 1,
+      "n:Expr_5HalyardLegacyArchive20260922_18" : 1,
+      "n:Expr_5HalyardLegacyArchive20260922_20" : 1,
+      "n:Expr_5HalyardLegacyArchive20260922_22" : 2,
+      "n:Expr_5HalyardLegacyArchive20260922_23" : 2,
+      "n:Expr_5HalyardLegacyArchive20260922_24" : 2,
+      "n:Expr_5HalyardLegacyArchive20260922_28" : 1,
+      "n:Expr_5HalyardLegacyArchive20260922_7" : 1,
+      "n:Expr_5HalyardLegacyArchive20260922_9" : 1
+    },
+    "n:Sample_6HalyardAdvisorTonyMaley20260929" : {
+      "n:Expr_6HalyardAdvisorTonyMaley20260929_13" : 1,
+      "n:Expr_6HalyardAdvisorTonyMaley20260929_14" : 1,
+      "n:Expr_6HalyardAdvisorTonyMaley20260929_15" : 2,
+      "n:Expr_6HalyardAdvisorTonyMaley20260929_17" : 2,
+      "n:Expr_6HalyardAdvisorTonyMaley20260929_19" : 2,
+      "n:Expr_6HalyardAdvisorTonyMaley20260929_21" : 2,
+      "n:Expr_6HalyardAdvisorTonyMaley20260929_23" : 1,
+      "n:Expr_6HalyardAdvisorTonyMaley20260929_25" : 1,
+      "n:Expr_6HalyardAdvisorTonyMaley20260929_26" : 1,
+      "n:Expr_6HalyardAdvisorTonyMaley20260929_27" : 1,
+      "n:Expr_6HalyardAdvisorTonyMaley20260929_28" : 1,
+      "n:Expr_6HalyardAdvisorTonyMaley20260929_29" : 1,
+      "n:Expr_6HalyardAdvisorTonyMaley20260929_3" : 1,
+      "n:Expr_6HalyardAdvisorTonyMaley20260929_4" : 1,
+      "n:Expr_6HalyardAdvisorTonyMaley20260929_9" : 1
     }
   },
-  "generated_from" : "d451297a6dd1dbdf2eecccafc5b2a8b4c1a89a3a",
+  "generated_from" : "8017be90c4b9d7d74e07ff0e1d5cf6707052232a",
   "hubs" : {
     "n:Actor_FreyaFree" : 1,
     "n:Actor_TanyaTeam" : 2,
@@ -261,7 +364,12 @@
     "n:Position_PostGoLiveSoakDurationBasis" : 1,
     "n:Position_PreCutoverDataQualityGateEnforcement" : 1,
     "n:Position_ReferenceDataSourceOfRecordTransition" : 1,
-    "n:Position_SiteCutoverSequencingStrategy" : 2
+    "n:Position_SiteCutoverSequencingStrategy" : 2,
+    "n:Sample_1HalyardWeekly20260908" : 2,
+    "n:Sample_2HalyardOpsReadiness20260915" : 1,
+    "n:Sample_4HalyardCutoverReview20260915" : 1,
+    "n:Sample_5HalyardLegacyArchive20260922" : 1,
+    "n:Sample_6HalyardAdvisorTonyMaley20260929" : 1
   },
   "params" : {
     "conviction-floor" : 2,
@@ -276,7 +384,7 @@
     "n" : "https://aswritten.ai/narrative#",
     "o" : "https://aswritten.ai/ns/narrative#"
   },
-  "runs_sha" : "ad53ed8f6565a311d2bff2df38182b3a0e5b341e",
-  "sittings" : 154,
+  "runs_sha" : "918e96af7e242e4afafc46f3078011451499f585",
+  "sittings" : 192,
   "spec" : "fidelity-bands/1"
 }

@@ -1,0 +1,77 @@
+@prefix narr: <https://aswritten.ai/narrative#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+GRAPH <https://aswritten.ai/narrative#Digest_Sample_1HalyardWeekly20260908> {
+  <https://aswritten.ai/narrative#Digest_Sample_1HalyardWeekly20260908> a narr:Digest ;
+    narr:digestOf <https://aswritten.ai/narrative#Sample_1HalyardWeekly20260908> ;
+    narr:childCount "45"^^xsd:integer ;
+    narr:generatedFrom "8017be90c4b9d7d74e07ff0e1d5cf6707052232a" ;
+    narr:narration """A cutover-planning call opened by [Tanya framing the stakes around a Thursday steering-group deadline](narr:Expr_1HalyardWeekly20260908_1), with [Xavier holding replica numbers in reserve](narr:Expr_1HalyardWeekly20260908_3) while [Tina laid out the four sites, flagging the one nobody wants to touch](narr:Expr_1HalyardWeekly20260908_5). Tanya [stated her position firmly: one site at a time, no parallel cutovers](narr:Expr_1HalyardWeekly20260908_8), which [Xavier stress-tested by raising the shared dispatch desk](narr:Expr_1HalyardWeekly20260908_12); she [answered with the contained-versus-unbounded trade](narr:Expr_1HalyardWeekly20260908_13), and [Tina backed it with the rota-versus-staffing distinction](narr:Expr_1HalyardWeekly20260908_15). [Tina then put a number on the soak](narr:Expr_1HalyardWeekly20260908_17), [grounding it in the Dockside exception curve](narr:Expr_1HalyardWeekly20260908_19), which [Xavier noted rests on a single site and season](narr:Expr_1HalyardWeekly20260908_21) — [Tina accepted the caveat and held the line anyway](narr:Expr_1HalyardWeekly20260908_22). Xavier then [argued reporting reads must come off the replica during cutover](narr:Expr_1HalyardWeekly20260908_26), [pricing the cost as replica lag against an outage](narr:Expr_1HalyardWeekly20260908_28), and [Tanya made it a runbook rule, not guidance](narr:Expr_1HalyardWeekly20260908_31). Finally, [Xavier proposed the vendor stays system of record for reference data until the last site is live](narr:Expr_1HalyardWeekly20260908_36), [reasoning from zone-map drift](narr:Expr_1HalyardWeekly20260908_38), with [Tanya adding the vendor-blame shield](narr:Expr_1HalyardWeekly20260908_39). The call closed with [Tanya reciting the four decisions back for confirmation](narr:Expr_1HalyardWeekly20260908_42).""" ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_1> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_10> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_11> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_12> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_13> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_14> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_15> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_16> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_17> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_18> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_19> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_2> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_20> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_21> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_22> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_23> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_24> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_25> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_26> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_27> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_28> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_29> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_3> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_30> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_31> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_32> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_33> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_34> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_35> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_36> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_37> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_38> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_39> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_4> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_40> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_41> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_42> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_43> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_44> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_45> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_5> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_6> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_7> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_8> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_9> ;
+    narr:keyPhrase [ narr:text "We do this one site at a time. A site goes live, it soaks, and only when that soak is clean do we start the next one. No parallel cutovers, not even for the two small ones." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_8> ] ;
+    narr:keyPhrase [ narr:text "Running two systems at one desk for a few weeks is a known, contained pain with a named owner. Two cutovers landing in the same week is an unbounded one, and we've got nobody to hand it to." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_13> ] ;
+    narr:keyPhrase [ narr:text "The soak is two full weeks. That's the Dockside number, and I'd hold us to it." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_17> ] ;
+    narr:keyPhrase [ narr:text "during cutover, every reporting read comes off the replica" ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_26> ] ;
+    narr:keyPhrase [ narr:text "a four-minute-stale number is fine and an outage is not" ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_28> ] ;
+    narr:keyPhrase [ narr:text "The vendor stays the system of record for reference data until the last site is live." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_36> ] ;
+    narr:keyPhrase [ narr:text "I'll note that the exception curve is the only evidence we have for it. It's one site, one season." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_21> ] ;
+    narr:variation [ narr:text "Xavier's pushback on sequencing — the shared dispatch desk argues for pairing two sites, against the one-at-a-time mainline" ; narr:over <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_12> ] ;
+    narr:variation [ narr:text "The two-week soak rests on a single site's exception curve — thin evidence, acknowledged but accepted" ; narr:over <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_21> ; narr:over <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_22> ] ;
+    narr:variation [ narr:text "The replica rule carries a real cost — up to four minutes of stale reporting — explicitly weighed rather than dismissed" ; narr:over <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_28> ] ;
+    narr:voiceTrait [ narr:dim "style" ; narr:reading "antithesis-first with parallelism — the sentence names what it isn't, then balances the pair" ; narr:text "Running two systems at one desk for a few weeks is a known, contained pain with a named owner. Two cutovers landing in the same week is an unbounded one, and we've got nobody to hand it to." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_13> ] ;
+    narr:voiceTrait [ narr:dim "conviction" ; narr:reading "claims that harden into decisions once tested — she invites the pushback before firming" ; narr:text "Then let me say where I've landed, because I don't think I'm going to move off it." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_8> ] ;
+    narr:voiceTrait [ narr:dim "power" ; narr:reading "legitimate authority exercised through sequencing control and pressure, softened by consultation" ; narr:text "Hold those for ten minutes. Sequencing first." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_4> ] ;
+    narr:voiceTrait [ narr:dim "relational" ; narr:reading "authority-ranking as the default, with market-pricing when she's trading off costs" ; narr:text "Xavier, write it into the runbook as a rule and not as guidance, because guidance gets negotiated at three a.m." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_31> ] ;
+    narr:voiceTrait [ narr:dim "temporal" ; narr:reading "concrete and future-facing under pressure, abstract when reasoning through trades" ; narr:text "the steering group asks again on Thursday and I've given them \"we're still working it\" twice now" ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_1> ] ;
+    narr:voiceTrait [ narr:dim "value" ; narr:reading "conservation — protecting against the unbounded loss over chasing the gain" ; narr:text "Keeping one source of truth through the whole programme is worth more than getting ownership early." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_38> ] ;
+    narr:voiceTrait [ narr:dim "affect" ; narr:reading "activated-negative only at the opening — pressure shows as urgency, not heat" ; narr:text "Let's keep this one tight — I want to come out of it with the cutover shape actually decided" ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_1> ] ;
+    narr:voiceTrait [ narr:dim "register" ; narr:reading "casual baseline that turns technical only when the expert material demands it" ; narr:text "Morning, both. Let's keep this one tight" ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_1> ] ;
+    narr:run "bf3d5510c624" ;
+    narr:moved "true"^^xsd:boolean ;
+    narr:diffBasis "first" ;
+    narr:writer "z-ai/glm-5.3-flash:nitro" .
+}

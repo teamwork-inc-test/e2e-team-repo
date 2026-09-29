@@ -1,0 +1,22 @@
+@prefix narr: <https://aswritten.ai/narrative#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+GRAPH <https://aswritten.ai/narrative#Digest_Position_CutoverGatekeeperRoleSeparation> {
+  <https://aswritten.ai/narrative#Digest_Position_CutoverGatekeeperRoleSeparation> a narr:Digest ;
+    narr:digestOf <https://aswritten.ai/narrative#Position_CutoverGatekeeperRoleSeparation> ;
+    narr:childCount "2"^^xsd:integer ;
+    narr:generatedFrom "8017be90c4b9d7d74e07ff0e1d5cf6707052232a" ;
+    narr:narration """This position holds that cutover gate approval must sit outside the delivery schedule's incentive structure. [A named quality bar measured on the source system, with failing sites sent to a remediation window](narr:Expr_6HalyardAdvisorTonyMaley20260929_17) defines what the gate is, and [the argument that the person tempted to wave a site through must not be the one holding the gate — structure, not a judgment on the individual](narr:Expr_6HalyardAdvisorTonyMaley20260929_19) supplies the separation rationale.""" ;
+    narr:covers <https://aswritten.ai/narrative#Expr_6HalyardAdvisorTonyMaley20260929_17> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_6HalyardAdvisorTonyMaley20260929_19> ;
+    narr:keyPhrase [ narr:text "somebody who isn't the programme manager owns the gate, because the programme manager has a date." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_6HalyardAdvisorTonyMaley20260929_17> ] ;
+    narr:keyPhrase [ narr:text "You are the person who will be tempted to wave a site through, and you should not be the person holding the gate." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_6HalyardAdvisorTonyMaley20260929_19> ] ;
+    narr:voiceTrait [ narr:dim "conviction" ; narr:reading "principle-level — stated as structure, not preference" ; narr:text "That's not a comment on you, it's the structure." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_6HalyardAdvisorTonyMaley20260929_19> ] ;
+    narr:voiceTrait [ narr:dim "power" ; narr:reading "legitimate authority argued through persuasion, not command" ; narr:text "A site that fails the bar doesn't cut over — it gets a remediation window and it goes to the back of the queue." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_6HalyardAdvisorTonyMaley20260929_17> ] ;
+    narr:voiceTrait [ narr:dim "relational" ; narr:reading "authority-ranking — names who owns what and who must not hold it" ; narr:text "somebody who isn't the programme manager owns the gate" ; narr:phraseSource <https://aswritten.ai/narrative#Expr_6HalyardAdvisorTonyMaley20260929_17> ] ;
+    narr:voiceTrait [ narr:dim "temporal" ; narr:reading "future-facing, moving from abstract rule to concrete consequence" ; narr:text "it gets a remediation window and it goes to the back of the queue" ; narr:phraseSource <https://aswritten.ai/narrative#Expr_6HalyardAdvisorTonyMaley20260929_17> ] ;
+    narr:run "bf3d5510c624" ;
+    narr:moved "true"^^xsd:boolean ;
+    narr:diffBasis "first" ;
+    narr:writer "z-ai/glm-5.3-flash:nitro" .
+}

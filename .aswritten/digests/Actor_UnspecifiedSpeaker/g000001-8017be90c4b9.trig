@@ -1,0 +1,36 @@
+@prefix narr: <https://aswritten.ai/narrative#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+GRAPH <https://aswritten.ai/narrative#Digest_Actor_UnspecifiedSpeaker> {
+  <https://aswritten.ai/narrative#Digest_Actor_UnspecifiedSpeaker> a narr:Digest ;
+    narr:digestOf <https://aswritten.ai/narrative#Actor_UnspecifiedSpeaker> ;
+    narr:childCount "6"^^xsd:integer ;
+    narr:generatedFrom "8017be90c4b9d7d74e07ff0e1d5cf6707052232a" ;
+    narr:narration """This voice profile gathers one speaker's review comments from a single session, all dated the same day. The arc runs from [questioning how soak duration is validated](narr:Expr_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_3) through [naming the cost of the correction](narr:Expr_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_4) to [owning the earlier error outright](narr:Expr_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_8) and [putting the supersession on the record](narr:Expr_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_7). The register is antithesis-first — the sentence names what it isn't — with a formal, anaphora-heavy turn when retracting.""" ;
+    narr:reaction """First digest for this hub, so there is no prior narration to diff — the profile is newly written from the session's arc: question, cost-naming, acceptance, retraction, record-setting. The load-bearing tension is that the speaker both endorses the correction and demands its tightness be recorded.""" ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_3> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_4> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_5> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_6> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_7> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_8> ;
+    narr:keyPhrase [ narr:text "how is the minimum soak duration between site cutovers determined and validated?" ; narr:phraseSource <https://aswritten.ai/narrative#Expr_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_3> ] ;
+    narr:keyPhrase [ narr:text "One week is defensible but it has no slack in it." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_4> ] ;
+    narr:keyPhrase [ narr:text "I'd rather be defensible and know where the slack isn't than conservative for a reason that turned out to be imaginary." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_5> ] ;
+    narr:keyPhrase [ narr:text "the new number is tight, not safe" ; narr:phraseSource <https://aswritten.ai/narrative#Expr_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_6> ] ;
+    narr:keyPhrase [ narr:text "That was wrong. I was wrong on the eighth and I want it struck from the plan." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_8> ] ;
+    narr:variation [ narr:text "Agrees with the correction while insisting its cost be on the record — acceptance and reservation held together, not resolved." ; narr:over <https://aswritten.ai/narrative#Expr_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_4> ; narr:over <https://aswritten.ai/narrative#Expr_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_6> ] ;
+    narr:variation [ narr:text "The retraction is unqualified self-correction, in tension with the qualified acceptance elsewhere in the same session." ; narr:over <https://aswritten.ai/narrative#Expr_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_8> ] ;
+    narr:voiceTrait [ narr:dim "conviction" ; narr:reading "escalates from hedged notion to flat decision within one exchange — the retraction is stated as final" ; narr:text "That was wrong. I was wrong on the eighth and I want it struck from the plan." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_8> ] ;
+    narr:voiceTrait [ narr:dim "temporal" ; narr:reading "concrete-realis when fixing the record, abstract-present when reasoning about it" ; narr:text "the soak between sites is one week, not two, and my note from the eighth about two weeks should be read as superseded by this." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_7> ] ;
+    narr:voiceTrait [ narr:dim "value" ; narr:reading "competence over comfort — defensibility preferred to unexamined caution" ; narr:text "I'd rather be defensible and know where the slack isn't than conservative for a reason that turned out to be imaginary." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_5> ] ;
+    narr:voiceTrait [ narr:dim "style" ; narr:reading "antithesis-first — the sentence names what it isn't" ; narr:text "the new number is tight, not safe." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_6> ] ;
+    narr:voiceTrait [ narr:dim "power" ; narr:reading "claims legitimate authority to strike and supersede, not to persuade" ; narr:text "I want it struck from the plan." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_8> ] ;
+    narr:voiceTrait [ narr:dim "register" ; narr:reading "shifts formal for the record-setting moves" ; narr:text "For the record then: the soak between sites is one week, not two" ; narr:phraseSource <https://aswritten.ai/narrative#Expr_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_7> ] ;
+    narr:voiceTrait [ narr:dim "relational" ; narr:reading "prices the tradeoff in market terms, then ranks it against their own prior authority" ; narr:text "Two weeks was conservative in a place where being conservative was cheap." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_4> ] ;
+    narr:voiceTrait [ narr:dim "affect" ; narr:reading "activated-negative only at the moment of self-correction" ; narr:text "That was wrong." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_8> ] ;
+    narr:run "bf3d5510c624" ;
+    narr:moved "true"^^xsd:boolean ;
+    narr:diffBasis "first" ;
+    narr:writer "z-ai/glm-5.3-flash:nitro" .
+}

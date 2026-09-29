@@ -1,0 +1,53 @@
+@prefix narr: <https://aswritten.ai/narrative#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+GRAPH <https://aswritten.ai/narrative#Digest_Sample_2HalyardOpsReadiness20260915> {
+  <https://aswritten.ai/narrative#Digest_Sample_2HalyardOpsReadiness20260915> a narr:Digest ;
+    narr:digestOf <https://aswritten.ai/narrative#Sample_2HalyardOpsReadiness20260915> ;
+    narr:childCount "31"^^xsd:integer ;
+    narr:generatedFrom "8017be90c4b9d7d74e07ff0e1d5cf6707052232a" ;
+    narr:narration """In this discussion, [the facilitator initiates the review of the migration cutover plan](https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_2) and [requests feedback on operational staffing impacts](https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_3). The proposed model specifies [sequential cutovers with soak periods between sites](https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_7). In response, [the operations lead endorses the single-site sequence](https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_9), explaining that [concurrent cutovers would overwhelm supervisory capacity across the region](https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_11) and [represent an impossible staffing requirement](https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_12). This framing presents [the staffing constraint as non-negotiable arithmetic](https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_14), which [the technical contributor acknowledges as a definitive hard constraint](https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_15). Additionally, [the operations lead highlights cross-site supervisory learning](https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_18), while clarifying that [the staffing limit remains the primary justification](https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_22). [The technical contributor confirms technical architectural assumptions require single windows](https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_25). Finally, [the operations lead requests early scheduling and protected soak durations](https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_28), which [the facilitator commits to upholding](https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_29).""" ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_1> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_10> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_11> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_12> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_13> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_14> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_15> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_16> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_17> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_18> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_19> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_2> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_20> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_21> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_22> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_23> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_24> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_25> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_26> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_27> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_28> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_29> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_3> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_30> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_31> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_4> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_5> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_6> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_7> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_8> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_9> ;
+    narr:keyPhrase [ narr:text "A site goes live, it soaks, and only when the soak is clean do we start the next. No two cutovers running at once." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_7> ] ;
+    narr:keyPhrase [ narr:text "I can't staff that. It isn't that it's hard, it's that the people don't exist." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_12> ] ;
+    narr:keyPhrase [ narr:text "Last week you were arguing it as risk. I'm telling you it's arithmetic. One site at a time is the only sequencing my rota can actually produce people for." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_14> ] ;
+    narr:keyPhrase [ narr:text "The replica rule and the reference-data rule both assume one cutover window open at a time — I hadn't stated that assumption, and it's worth stating." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_25> ] ;
+    narr:keyPhrase [ narr:text "The dates, as early as you can give them, and a commitment that a soak doesn't get shortened because a date slipped." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_28> ] ;
+    narr:variation [ narr:text "Sequencing rationale split between hard supervisory rota capacity and operational learning curves across sites." ; narr:over <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_14> ; narr:over <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_18> ; narr:over <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_22> ] ;
+    narr:variation [ narr:text "Underlying cutover architecture assumes serial execution rather than parallel rollout resilience." ; narr:over <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_25> ; narr:over <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_26> ] ;
+    narr:variation [ narr:text "Schedule slip risk threatening soak durations versus firm commitments to preserve operational soak windows." ; narr:over <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_28> ; narr:over <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_29> ] ;
+    narr:run "bf3d5510c624" ;
+    narr:moved "true"^^xsd:boolean ;
+    narr:diffBasis "first" ;
+    narr:writer "google/gemini-3.7-flash" .
+}

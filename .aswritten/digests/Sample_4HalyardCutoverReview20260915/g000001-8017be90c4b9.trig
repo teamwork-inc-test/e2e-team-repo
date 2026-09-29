@@ -1,0 +1,51 @@
+@prefix narr: <https://aswritten.ai/narrative#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+GRAPH <https://aswritten.ai/narrative#Digest_Sample_4HalyardCutoverReview20260915> {
+  <https://aswritten.ai/narrative#Digest_Sample_4HalyardCutoverReview20260915> a narr:Digest ;
+    narr:digestOf <https://aswritten.ai/narrative#Sample_4HalyardCutoverReview20260915> ;
+    narr:childCount "24"^^xsd:integer ;
+    narr:generatedFrom "8017be90c4b9d7d74e07ff0e1d5cf6707052232a" ;
+    narr:narration """A cutover-review call that opens with [a correction offered at the top rather than buried](narr:Expr_4HalyardCutoverReview20260915_1): the analyst who had set [a two-week soak between sites, now retracted as wrong](narr:Expr_4HalyardCutoverReview20260915_3) walks the room through [the Dockside log re-analysis behind it](narr:Expr_4HalyardCutoverReview20260915_5) — the nine-day exception queue was an artifact of [a weekly reconciliation job retired in July](narr:Expr_4HalyardCutoverReview20260915_7), not a property of the site. From that she proposes [a revised one-week soak](narr:Expr_4HalyardCutoverReview20260915_9), while the lead confirms [the sequential one-site-at-a-time plan does not move](narr:Expr_4HalyardCutoverReview20260915_10). The expert voices the cost: [the new number is defensible but has no slack](narr:Expr_4HalyardCutoverReview20260915_13), and asks it [be on the record as tight, not safe](narr:Expr_4HalyardCutoverReview20260915_15). The lead accepts the trade, notes [three weeks recovered across four sites](narr:Expr_4HalyardCutoverReview20260915_17), allocates it [to the Clyde buffer](narr:Expr_4HalyardCutoverReview20260915_18), and [ratifies the supersession formally](narr:Expr_4HalyardCutoverReview20260915_20) before tasking [a write-up for the steering group](narr:Expr_4HalyardCutoverReview20260915_22), closing on [why it was brought rather than let ride](narr:Expr_4HalyardCutoverReview20260915_24).""" ;
+    narr:covers <https://aswritten.ai/narrative#Expr_4HalyardCutoverReview20260915_1> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_4HalyardCutoverReview20260915_10> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_4HalyardCutoverReview20260915_11> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_4HalyardCutoverReview20260915_12> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_4HalyardCutoverReview20260915_13> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_4HalyardCutoverReview20260915_14> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_4HalyardCutoverReview20260915_15> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_4HalyardCutoverReview20260915_16> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_4HalyardCutoverReview20260915_17> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_4HalyardCutoverReview20260915_18> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_4HalyardCutoverReview20260915_19> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_4HalyardCutoverReview20260915_2> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_4HalyardCutoverReview20260915_20> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_4HalyardCutoverReview20260915_21> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_4HalyardCutoverReview20260915_22> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_4HalyardCutoverReview20260915_23> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_4HalyardCutoverReview20260915_24> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_4HalyardCutoverReview20260915_3> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_4HalyardCutoverReview20260915_4> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_4HalyardCutoverReview20260915_5> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_4HalyardCutoverReview20260915_6> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_4HalyardCutoverReview20260915_7> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_4HalyardCutoverReview20260915_8> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_4HalyardCutoverReview20260915_9> ;
+    narr:keyPhrase [ narr:text "I was wrong on the eighth and I want it struck from the plan." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_4HalyardCutoverReview20260915_3> ] ;
+    narr:keyPhrase [ narr:text "It was never about the site settling." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_4HalyardCutoverReview20260915_5> ] ;
+    narr:keyPhrase [ narr:text "One week is the soak, and please don't hold the plan to two weeks on my say-so, because I was wrong on the eighth." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_4HalyardCutoverReview20260915_9> ] ;
+    narr:keyPhrase [ narr:text "One week is defensible but it has no slack in it." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_4HalyardCutoverReview20260915_13> ] ;
+    narr:keyPhrase [ narr:text "the soak between sites is one week, not two, and my note from the eighth about two weeks should be read as superseded by this." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_4HalyardCutoverReview20260915_20> ] ;
+    narr:keyPhrase [ narr:text "It would have come out at Northgate either way, and worse." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_4HalyardCutoverReview20260915_24> ] ;
+    narr:variation [ narr:text "The expert endorses the correction but registers its cost — the new soak is tight, not safe, with no slack in it." ; narr:over <https://aswritten.ai/narrative#Expr_4HalyardCutoverReview20260915_13> ; narr:over <https://aswritten.ai/narrative#Expr_4HalyardCutoverReview20260915_15> ] ;
+    narr:variation [ narr:text "The lead's counter-principle: defensible with known slack beats conservative for an imaginary reason — the trade is accepted, not resolved as costless." ; narr:over <https://aswritten.ai/narrative#Expr_4HalyardCutoverReview20260915_14> ] ;
+    narr:voiceTrait [ narr:dim "conviction" ; narr:reading "claims move to decisions through evidence — she retracts her own number and re-commits on corrected analysis" ; narr:text "I was wrong on the eighth and I want it struck from the plan." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_4HalyardCutoverReview20260915_3> ] ;
+    narr:voiceTrait [ narr:dim "power" ; narr:reading "rational-persuasion — she argues from logs and mechanism, not position" ; narr:text "The reason the queue took nine days to flatten at Dockside is that the old reconciliation job ran weekly and every run threw a fresh batch of exceptions." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_4HalyardCutoverReview20260915_5> ] ;
+    narr:voiceTrait [ narr:dim "temporal" ; narr:reading "concrete and dated — she anchors claims to specific past events and present state" ; narr:text "It was retired in July. Nothing in the new platform runs on a weekly cycle — reconciliation is continuous now." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_4HalyardCutoverReview20260915_7> ] ;
+    narr:voiceTrait [ narr:dim "value" ; narr:reading "competence over comfort — accuracy outranks saving face" ; narr:text "I'd rather be defensible and know where the slack isn't than conservative for a reason that turned out to be imaginary." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_4HalyardCutoverReview20260915_14> ] ;
+    narr:voiceTrait [ narr:dim "style" ; narr:reading "antithesis-first — sentences name what something is by naming what it isn't" ; narr:text "Before we start on anything else, I need to correct something I said, and I'd rather do it at the top than bury it." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_4HalyardCutoverReview20260915_1> ] ;
+    narr:run "bf3d5510c624" ;
+    narr:moved "true"^^xsd:boolean ;
+    narr:diffBasis "first" ;
+    narr:writer "z-ai/glm-5.3-flash:nitro" .
+}

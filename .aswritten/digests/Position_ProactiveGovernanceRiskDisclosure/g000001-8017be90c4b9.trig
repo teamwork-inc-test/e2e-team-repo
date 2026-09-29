@@ -1,0 +1,22 @@
+@prefix narr: <https://aswritten.ai/narrative#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+GRAPH <https://aswritten.ai/narrative#Digest_Position_ProactiveGovernanceRiskDisclosure> {
+  <https://aswritten.ai/narrative#Digest_Position_ProactiveGovernanceRiskDisclosure> a narr:Digest ;
+    narr:digestOf <https://aswritten.ai/narrative#Position_ProactiveGovernanceRiskDisclosure> ;
+    narr:childCount "2"^^xsd:integer ;
+    narr:generatedFrom "8017be90c4b9d7d74e07ff0e1d5cf6707052232a" ;
+    narr:narration """This position holds that unresolved programme gaps should be brought to oversight bodies before they are discovered. [TanyaTeam commits to presenting the gap proactively as an open item](narr:Expr_6HalyardAdvisorTonyMaley20260929_28), and [TonyMaley endorses the move on the principle that a named hole earns forgiveness while an undisclosed one does not](narr:Expr_6HalyardAdvisorTonyMaley20260929_29).""" ;
+    narr:covers <https://aswritten.ai/narrative#Expr_6HalyardAdvisorTonyMaley20260929_28> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_6HalyardAdvisorTonyMaley20260929_29> ;
+    narr:keyPhrase [ narr:text "I'll take that to the board as the open item rather than wait for them to find it." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_6HalyardAdvisorTonyMaley20260929_28> ] ;
+    narr:keyPhrase [ narr:text "They'll forgive a hole. They won't forgive finding one." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_6HalyardAdvisorTonyMaley20260929_29> ] ;
+    narr:voiceTrait [ narr:dim "conviction" ; narr:reading "moves from concrete decision to stated principle — the commitment is voiced as resolve, the endorsement as a rule" ; narr:text "I'll take that to the board as the open item rather than wait for them to find it." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_6HalyardAdvisorTonyMaley20260929_28> ] ;
+    narr:voiceTrait [ narr:dim "relational" ; narr:reading "authority-ranking throughout — both speakers frame the board relationship in terms of standing and trust" ; narr:text "That's the right move. Bring them a hole you've named." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_6HalyardAdvisorTonyMaley20260929_29> ] ;
+    narr:voiceTrait [ narr:dim "style" ; narr:reading "antithesis with parallelism — the endorsement turns on paired opposites" ; narr:text "They'll forgive a hole. They won't forgive finding one." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_6HalyardAdvisorTonyMaley20260929_29> ] ;
+    narr:voiceTrait [ narr:dim "temporal" ; narr:reading "future-oriented — the commitment looks ahead to a board moment not yet arrived" ; narr:text "rather than wait for them to find it" ; narr:phraseSource <https://aswritten.ai/narrative#Expr_6HalyardAdvisorTonyMaley20260929_28> ] ;
+    narr:run "bf3d5510c624" ;
+    narr:moved "true"^^xsd:boolean ;
+    narr:diffBasis "first" ;
+    narr:writer "z-ai/glm-5.3-flash:nitro" .
+}

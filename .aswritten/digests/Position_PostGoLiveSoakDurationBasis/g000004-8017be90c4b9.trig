@@ -1,0 +1,49 @@
+@prefix narr: <https://aswritten.ai/narrative#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+GRAPH <https://aswritten.ai/narrative#Digest_Position_PostGoLiveSoakDurationBasis> {
+  <https://aswritten.ai/narrative#Digest_Position_PostGoLiveSoakDurationBasis> a narr:Digest ;
+    narr:digestOf <https://aswritten.ai/narrative#Position_PostGoLiveSoakDurationBasis> ;
+    narr:childCount "12"^^xsd:integer ;
+    narr:generatedFrom "8017be90c4b9d7d74e07ff0e1d5cf6707052232a" ;
+    narr:narration """The position's basis was overturned within a week. It opened as a [two-week minimum soak defended on the Dockside exception curve](narr:Expr_1HalyardWeekly20260908_21), with the evidence base flagged as [one site, one season](narr:Expr_1HalyardWeekly20260908_21). At the ops-readiness review, [a demand for dates plus a commitment that a soak doesn't get shortened because a date slipped](narr:Expr_2HalyardOpsReadiness20260915_28) was met with [an agreement to hold it](narr:Expr_2HalyardOpsReadiness20260915_29). At the cutover review the author [retracted the two-week figure outright](narr:Expr_4HalyardCutoverReview20260915_3), having [re-analyzed the logs and found the nine-day flattening was an artifact of a retired weekly reconciliation job](narr:Expr_4HalyardCutoverReview20260915_5) — [nothing in the new platform runs on a weekly cycle](narr:Expr_4HalyardCutoverReview20260915_7). The revised basis is [one week: underlying exception rate flat by day four, plus three days of margin](narr:Expr_4HalyardCutoverReview20260915_9), formally [ratified on the record as superseding the earlier note](narr:Expr_4HalyardCutoverReview20260915_20). The register throughout runs antithesis and formal — [tight, not safe](narr:Expr_4HalyardCutoverReview20260915_15). The retraction did not end it: a later review comment [pushes back that the soak should be two weeks because the batch jobs only run weekly](narr:Expr_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_10), reviving the exact premise the retraction dismantled.""" ;
+    narr:reaction """The big move is that [the ratified one-week landing](narr:Expr_4HalyardCutoverReview20260915_20) is no longer the end of the arc: [a review comment re-asserting two weeks on the weekly-batch premise](narr:Expr_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_10) revives exactly the reasoning the retraction dismantled, so the old narration's settled trajectory now reads as contested. I added a closing sentence for that and a variation entry pairing the re-assertion against [the retired-job finding](narr:Expr_4HalyardCutoverReview20260915_7); everything else held byte for byte.""" ;
+    narr:covers <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_21> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_10> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_28> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_2HalyardOpsReadiness20260915_29> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_4HalyardCutoverReview20260915_13> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_4HalyardCutoverReview20260915_14> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_4HalyardCutoverReview20260915_15> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_4HalyardCutoverReview20260915_20> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_4HalyardCutoverReview20260915_3> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_4HalyardCutoverReview20260915_5> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_4HalyardCutoverReview20260915_7> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_4HalyardCutoverReview20260915_9> ;
+    narr:keyPhrase [ narr:text "I'll note that the exception curve is the only evidence we have for it. It's one site, one season." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_21> ] ;
+    narr:keyPhrase [ narr:text "One week. Strip the reconciliation cycles out of the Dockside curve and the underlying exception rate is flat by day four." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_4HalyardCutoverReview20260915_9> ] ;
+    narr:keyPhrase [ narr:text "That job is gone. It was retired in July." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_4HalyardCutoverReview20260915_7> ] ;
+    narr:keyPhrase [ narr:text "The soak should be two weeks, not one: the batch jobs only run weekly." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_10> ] ;
+    narr:keyPhrase [ narr:text "the soak between sites is one week, not two, and my note from the eighth about two weeks should be read as superseded by this." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_4HalyardCutoverReview20260915_20> ] ;
+    narr:variation [ narr:text "A later review comment re-asserts two weeks on the weekly-batch premise the retraction dismantled — the superseded basis is back in play." ; narr:over <https://aswritten.ai/narrative#Expr_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_10> ; narr:over <https://aswritten.ai/narrative#Expr_4HalyardCutoverReview20260915_7> ] ;
+    narr:variation [ narr:text "The correction is accepted but named as a loss: one week is defensible with no slack, where two weeks was cheap conservatism." ; narr:over <https://aswritten.ai/narrative#Expr_4HalyardCutoverReview20260915_13> ; narr:over <https://aswritten.ai/narrative#Expr_4HalyardCutoverReview20260915_14> ] ;
+    narr:variation [ narr:text "The author's own evidence base was flagged as thin from the start — one site, one season." ; narr:over <https://aswritten.ai/narrative#Expr_1HalyardWeekly20260908_21> ] ;
+    narr:voiceTrait [ narr:dim "conviction" ; narr:reading "moves from claim to outright decision — she doesn't hedge a correction, she strikes it" ; narr:text "That was wrong. I was wrong on the eighth and I want it struck from the plan." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_4HalyardCutoverReview20260915_3> ] ;
+    narr:voiceTrait [ narr:dim "power" ; narr:reading "informational persuasion — she argues by walking the evidence, not by pulling rank" ; narr:text "I went back through the Dockside logs on Friday because Xavier's comment about it being one site, one season was bothering me." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_4HalyardCutoverReview20260915_5> ] ;
+    narr:voiceTrait [ narr:dim "temporal" ; narr:reading "concrete and dated — she pins claims to specific days and past events" ; narr:text "I quoted the Dockside number — the exception queue not flattening until day nine or ten." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_4HalyardCutoverReview20260915_5> ] ;
+    narr:voiceTrait [ narr:dim "style" ; narr:reading "antithesis-first — the sentence names what it isn't before what it is" ; narr:text "I'd rather be defensible and know where the slack isn't than conservative for a reason that turned out to be imaginary." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_4HalyardCutoverReview20260915_14> ] ;
+    narr:voiceTrait [ narr:dim "value" ; narr:reading "competence over comfort — being right about the basis beats being safe for the wrong reason" ; narr:text "I'd rather be defensible and know where the slack isn't than conservative for a reason that turned out to be imaginary." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_4HalyardCutoverReview20260915_14> ] ;
+    narr:run "bf3d5510c624" ;
+    narr:moved "true"^^xsd:boolean ;
+    narr:previousGeneration ".aswritten/digests/Position_PostGoLiveSoakDurationBasis/g000003-15f407e18ffc.trig" ;
+    narr:sentences (
+      [ narr:op "kept" ; narr:text """The position's basis was overturned within a week.""" ]
+      [ narr:op "kept" ; narr:text """It opened as a [two-week minimum soak defended on the Dockside exception curve](narr:Expr_1HalyardWeekly20260908_21), with the evidence base flagged as [one site, one season](narr:Expr_1HalyardWeekly20260908_21).""" ]
+      [ narr:op "kept" ; narr:text """At the ops-readiness review, [a demand for dates plus a commitment that a soak doesn't get shortened because a date slipped](narr:Expr_2HalyardOpsReadiness20260915_28) was met with [an agreement to hold it](narr:Expr_2HalyardOpsReadiness20260915_29).""" ]
+      [ narr:op "kept" ; narr:text """At the cutover review the author [retracted the two-week figure outright](narr:Expr_4HalyardCutoverReview20260915_3), having [re-analyzed the logs and found the nine-day flattening was an artifact of a retired weekly reconciliation job](narr:Expr_4HalyardCutoverReview20260915_5) — [nothing in the new platform runs on a weekly cycle](narr:Expr_4HalyardCutoverReview20260915_7).""" ]
+      [ narr:op "kept" ; narr:text """The revised basis is [one week: underlying exception rate flat by day four, plus three days of margin](narr:Expr_4HalyardCutoverReview20260915_9), formally [ratified on the record as superseding the earlier note](narr:Expr_4HalyardCutoverReview20260915_20).""" ]
+      [ narr:op "kept" ; narr:text """The register throughout runs antithesis and formal — [tight, not safe](narr:Expr_4HalyardCutoverReview20260915_15).""" ]
+      [ narr:op "added" ; narr:text """The retraction did not end it: a later review comment [pushes back that the soak should be two weeks because the batch jobs only run weekly](narr:Expr_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_10), reviving the exact premise the retraction dismantled.""" ]
+    ) ;
+    narr:writer "z-ai/glm-5.3-flash:nitro" .
+}

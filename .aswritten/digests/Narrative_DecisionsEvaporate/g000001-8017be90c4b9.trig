@@ -1,0 +1,19 @@
+@prefix narr: <https://aswritten.ai/narrative#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+GRAPH <https://aswritten.ai/narrative#Digest_Narrative_DecisionsEvaporate> {
+  <https://aswritten.ai/narrative#Digest_Narrative_DecisionsEvaporate> a narr:Digest ;
+    narr:digestOf <https://aswritten.ai/narrative#Narrative_DecisionsEvaporate> ;
+    narr:childCount "2"^^xsd:integer ;
+    narr:generatedFrom "8017be90c4b9d7d74e07ff0e1d5cf6707052232a" ;
+    narr:narration """This narrative is defined by negation and one forward commitment: [real-time chat tools are the named anti-pattern, and the product is explicitly defined against that category](narr:Position_AntiPatternRealtimeChat), while [the next sprint turns to context preservation — linking decisions to the discussion threads that produced them, flagged as the top beta-user request](narr:Position_ContextPreservationNextSprint). The arc runs from what the product is not toward what it will build next.""" ;
+    narr:covers <https://aswritten.ai/narrative#Position_AntiPatternRealtimeChat> ;
+    narr:covers <https://aswritten.ai/narrative#Position_ContextPreservationNextSprint> ;
+    narr:keyPhrase [ narr:text "Real-time chat (Slack, Teams) is the named anti-pattern. The product is explicitly defined against this category." ; narr:phraseSource <https://aswritten.ai/narrative#Position_AntiPatternRealtimeChat> ] ;
+    narr:keyPhrase [ narr:text "Next sprint focus: context preservation — linking decisions to the discussion threads that produced them. Identified as the #1 request from beta users." ; narr:phraseSource <https://aswritten.ai/narrative#Position_ContextPreservationNextSprint> ] ;
+    narr:variation [ narr:text "Defining against real-time chat while sprinting toward linking decisions to discussion threads — the anti-pattern and the fix live in the same conversational medium." ; narr:over <https://aswritten.ai/narrative#Position_AntiPatternRealtimeChat> ; narr:over <https://aswritten.ai/narrative#Position_ContextPreservationNextSprint> ] ;
+    narr:run "bf3d5510c624" ;
+    narr:moved "true"^^xsd:boolean ;
+    narr:diffBasis "first" ;
+    narr:writer "z-ai/glm-5.3-flash:nitro" .
+}
