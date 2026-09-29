@@ -1,0 +1,11 @@
+{
+  "placements" : [ {
+    "verdict" : "reuse",
+    "leaf" : "Narrative_ContainedPainOverUnboundedRisk",
+    "supporting_segments" : [ "src-10" ],
+    "why" : "Tina TeamMember's review comment argues for a two-week soak duration between site cutovers based on weekly batch job schedules, directly engaging the narrative's core concern of empirical soak intervals and operational containment.",
+    "consulted" : [ "Narrative_ContainedPainOverUnboundedRisk", "Position_PostGoLiveSoakDurationBasis", "CutoverStrategy" ]
+  } ],
+  "unplaced" : [ "src-1", "src-2", "src-3", "src-4", "src-5", "src-6", "src-7", "src-8" ],
+  "_source_sha256" : "b130e29178b883c23a965692451c813e7c97f6a2b12fa8a1785a907d6c505f6c"
+}
