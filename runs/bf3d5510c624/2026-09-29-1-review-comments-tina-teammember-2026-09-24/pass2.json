@@ -1,0 +1,31 @@
+{
+  "resolutions" : [ {
+    "commentary_local_id" : "src-10",
+    "phrase" : "The soak should be two weeks, not one: the batch jobs only run weekly.",
+    "verdict" : "confident",
+    "why" : "Commentary directly challenges the settled one-week soak duration and the architectural premise that weekly batch reconciliation jobs were retired.",
+    "consulted" : [ "Position_PostGoLiveSoakDurationBasis", "Narrative_ContainedPainOverUnboundedRisk", "Actor_TinaTeam", "Expr_4HalyardCutoverReview20260915_3", "Expr_4HalyardCutoverReview20260915_5", "Expr_4HalyardCutoverReview20260915_7", "Expr_4HalyardCutoverReview20260915_9", "Expr_4HalyardCutoverReview20260915_20" ],
+    "binding" : {
+      "referents" : [ {
+        "iri" : "Position_PostGoLiveSoakDurationBasis",
+        "relation" : "contradicts",
+        "why" : "Rejects the revised one-week minimum soak duration in favor of reverting to two weeks."
+      }, {
+        "iri" : "Expr_4HalyardCutoverReview20260915_7",
+        "relation" : "contradicts",
+        "why" : "Asserts batch jobs run weekly, directly contradicting the prior finding that nothing on the new platform runs on a weekly cycle."
+      }, {
+        "iri" : "Expr_4HalyardCutoverReview20260915_9",
+        "relation" : "contradicts",
+        "why" : "Contradicts the proposed one-week soak timeline based on Dockside exception rate flattening by day four."
+      }, {
+        "iri" : "Expr_4HalyardCutoverReview20260915_20",
+        "relation" : "contradicts",
+        "why" : "Contradicts the formal ratification setting the inter-site soak to one week."
+      } ],
+      "targets" : [ "Position_PostGoLiveSoakDurationBasis", "Narrative_ContainedPainOverUnboundedRisk" ]
+    }
+  } ],
+  "unreferenced_commentary" : [ ],
+  "_source_sha256" : "b130e29178b883c23a965692451c813e7c97f6a2b12fa8a1785a907d6c505f6c"
+}
