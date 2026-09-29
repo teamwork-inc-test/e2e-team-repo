@@ -1,0 +1,39 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-7",
+    "regions" : [ "formal" ],
+    "evidence" : [ {
+      "quote" : "For the record then",
+      "kind" : "framing-move"
+    }, {
+      "quote" : "should be read as superseded by this",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Adopts procedural record-making framing and formal administrative supersession phrasing.",
+    "reported" : false,
+    "direction" : {
+      "verdict" : "mint",
+      "node" : "mint-1"
+    }
+  }, {
+    "segment_local_id" : "src-8",
+    "regions" : [ "formal" ],
+    "evidence" : [ {
+      "quote" : "I want it struck from the plan",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Uses formal procedural language ('struck from the plan') to retract a previous commitment.",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-1", "src-2", "src-3", "src-4", "src-5", "src-6", "src-10" ],
+  "unmarked_rest" : false,
+  "mints" : [ {
+    "id" : "mint-1",
+    "name" : "ProceduralSupersessionFraming",
+    "title" : "for the record then... superseded by this",
+    "frame" : "Does the speaker invoke explicit formal record-keeping phrasing to formally update or supersede a previous position?",
+    "regions" : [ "formal" ]
+  } ],
+  "region_mints" : [ ],
+  "_source_sha256" : "b130e29178b883c23a965692451c813e7c97f6a2b12fa8a1785a907d6c505f6c"
+}
