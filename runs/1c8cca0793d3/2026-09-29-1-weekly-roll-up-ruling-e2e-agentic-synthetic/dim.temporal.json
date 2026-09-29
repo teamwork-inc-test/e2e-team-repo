@@ -1,0 +1,50 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "past", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "ruled on how the week's reactions reach people:",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Establishes a past, completed ruling on a specific process mechanism.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-2",
+    "regions" : [ "future", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "the per-run bundle stays, and on Fridays we add one roll-up of the week",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Prescribes upcoming recurring actions and established protocol for Friday summaries concretely.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-3",
+    "regions" : [ "future", "irrealis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "Tina asked whether the roll-up replaces the per-run bundle.",
+      "kind" : "plain-signal"
+    } ],
+    "why" : "Reports Tina's inquiry regarding hypothetical replacement of one artifact with another.",
+    "reported" : true
+  }, {
+    "segment_local_id" : "src-4",
+    "regions" : [ "present", "realis", "abstract" ],
+    "evidence" : [ {
+      "quote" : "the bundle is for the run, the roll-up is for the week.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Defines the conceptual roles and categories governing the two artifacts in present realis state.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-5",
+    "regions" : [ "past", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "Rejected: a\ndaily digest",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Asserts a definitive past rejection of a specific daily digest artifact.",
+    "reported" : false
+  } ],
+  "unmarked" : [ ],
+  "unmarked_rest" : false
+}
