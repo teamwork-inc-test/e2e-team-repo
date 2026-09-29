@@ -1,0 +1,62 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-4",
+    "regions" : [ "antithesis" ],
+    "evidence" : [ {
+      "quote" : "Two weeks was conservative in a place where being conservative was cheap. One week is defensible but it has no slack in it.",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Deliberately contrasts two scenarios ('Two weeks was conservative... One week is defensible...') with matched balance across clauses.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-5",
+    "regions" : [ "antithesis" ],
+    "evidence" : [ {
+      "quote" : "I'd rather be defensible and know where the slack isn't than conservative for a reason that turned out to be imaginary.",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Sets 'defensible and know where the slack isn't' in direct opposition to 'conservative for a reason that turned out to be imaginary'.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-6",
+    "regions" : [ "antithesis" ],
+    "evidence" : [ {
+      "quote" : "the new number is tight, not safe.",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Opposed qualifiers set in direct contrast within a single frame ('tight, not safe').",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-7",
+    "regions" : [ "antithesis" ],
+    "evidence" : [ {
+      "quote" : "one week, not two",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Classic antithetical correction formula ('X, not Y').",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-8",
+    "regions" : [ "anaphora" ],
+    "evidence" : [ {
+      "quote" : "That was wrong. I was wrong on the eighth",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Repeats the admission of being wrong across consecutive short declarations for rhetorical emphasis.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-10",
+    "regions" : [ "antithesis" ],
+    "evidence" : [ {
+      "quote" : "two weeks, not one",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Antithetical formulation opposing the proposed duration ('two weeks, not one').",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-1", "src-2", "src-3" ],
+  "unmarked_rest" : false,
+  "mints" : [ ],
+  "region_mints" : [ ],
+  "_source_sha256" : "b130e29178b883c23a965692451c813e7c97f6a2b12fa8a1785a907d6c505f6c"
+}
