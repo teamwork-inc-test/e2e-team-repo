@@ -1,0 +1,25 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "formal" ],
+    "evidence" : [ {
+      "quote" : "ruled on how the week's reactions reach people",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Adopts an elevated governance framing ('ruled on') establishing institutional authority.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-5",
+    "regions" : [ "matter-of-fact" ],
+    "evidence" : [ {
+      "quote" : "Rejected: a\ndaily digest",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Terse, instrumental recording of an administrative decision without rhetorical ornamentation.",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-2", "src-3", "src-4" ],
+  "unmarked_rest" : false,
+  "mints" : [ ],
+  "region_mints" : [ ]
+}
