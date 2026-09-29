@@ -1,0 +1,43 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-4",
+    "regions" : [ "conservation", "competence" ],
+    "evidence" : [ {
+      "quote" : "Two weeks was conservative in a place where being conservative was cheap. One week is defensible but it has no slack in it.",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Weighs safety and margin ('conservative', 'cheap') against rigorous justifiability ('defensible') without slack.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-5",
+    "regions" : [ "competence" ],
+    "evidence" : [ {
+      "quote" : "I'd rather be defensible and know where the slack isn't than conservative for a reason that turned out to be imaginary.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Appeals directly to defensibility and genuine epistemic competence over illusory safety margins.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-6",
+    "regions" : [ "conservation" ],
+    "evidence" : [ {
+      "quote" : "I just want it on the record that the new number is tight, not safe.",
+      "kind" : "plain-signal"
+    } ],
+    "why" : "Highlights the sacrifice of safety/security margins as an explicit concern for the record.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-10",
+    "regions" : [ "conservation", "competence" ],
+    "evidence" : [ {
+      "quote" : "The soak should be two weeks, not one: the batch jobs only run weekly.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Argues for preserving the longer buffer based on the technical operational reality of batch cadences.",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-1", "src-2", "src-3", "src-7", "src-8" ],
+  "mints" : [ ],
+  "region_mints" : [ ],
+  "_source_sha256" : "b130e29178b883c23a965692451c813e7c97f6a2b12fa8a1785a907d6c505f6c"
+}
