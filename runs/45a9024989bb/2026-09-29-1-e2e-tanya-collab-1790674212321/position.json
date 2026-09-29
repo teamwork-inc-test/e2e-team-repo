@@ -1,0 +1,12 @@
+{
+  "positions" : [ {
+    "name" : "SprintDeliveryVelocityEnablers",
+    "frame" : "how do core feature shipments and integration unlocks drive sprint velocity?",
+    "members" : [ "src-1", "src-2", "src-3" ],
+    "why" : "Connects the completed shipment of the async decision widget and achieving quarter-high velocity (23 points) directly to the Zephyr platform integration functioning as the critical operational unlock.",
+    "under" : [ "Narrative_DecisionCaptureAtConsensus" ]
+  } ],
+  "attaches" : [ ],
+  "position_revisions" : [ ],
+  "ungrouped" : [ ]
+}
