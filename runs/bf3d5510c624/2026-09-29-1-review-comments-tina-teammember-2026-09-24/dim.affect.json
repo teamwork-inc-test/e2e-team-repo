@@ -1,0 +1,17 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-8",
+    "regions" : [ "activated-negative" ],
+    "evidence" : [ {
+      "quote" : "That was wrong. I was wrong on the eighth and I want it struck from the plan.",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Repeated emphatic admission of error with high-arousal corrective insistence ('want it struck').",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-1", "src-2", "src-3", "src-4", "src-5", "src-6", "src-7", "src-10" ],
+  "unmarked_rest" : false,
+  "mints" : [ ],
+  "region_mints" : [ ],
+  "_source_sha256" : "b130e29178b883c23a965692451c813e7c97f6a2b12fa8a1785a907d6c505f6c"
+}
