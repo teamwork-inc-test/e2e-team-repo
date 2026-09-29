@@ -1,0 +1,61 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-4",
+    "regions" : [ "notion" ],
+    "evidence" : [ {
+      "quote" : "Can I say that I think this is the right correction",
+      "kind" : "hedge"
+    } ],
+    "why" : "Speaker opens with a tentative epistemic frame asking permission to float an assessment with acknowledged trade-offs.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-5",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "I'd rather be defensible and know where the slack isn't than conservative for a reason that turned out to be imaginary.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Speaker articulates a clear stance on preferencing defensibility over false conservatism, argued as a committed position.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-6",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "I just want it on the record that the new number is tight, not safe.",
+      "kind" : "commitment-marker"
+    } ],
+    "why" : "Asserts a clarification explicitly for the record without issuing a formal policy ratification.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-7",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "the soak between sites is one week, not two, and my note from the eighth about two weeks should be read as superseded by this.",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Explicit performative statement establishing operational reality and formally superseding prior guidance.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-8",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "I want it struck from the plan.",
+      "kind" : "commitment-marker"
+    } ],
+    "why" : "Direct operational instruction to excise the previous rule from the active plan.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-10",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "The soak should be two weeks, not one: the batch jobs only run weekly.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Tina asserts an unhedged operational recommendation supported by factual justification during review.",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-1", "src-2", "src-3" ],
+  "unmarked_rest" : false,
+  "mints" : [ ],
+  "_source_sha256" : "b130e29178b883c23a965692451c813e7c97f6a2b12fa8a1785a907d6c505f6c"
+}
