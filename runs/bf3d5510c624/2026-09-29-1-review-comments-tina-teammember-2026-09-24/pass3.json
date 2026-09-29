@@ -1,0 +1,24 @@
+{
+  "reconciliations" : [ {
+    "segment_ids" : [ "src-10" ],
+    "note" : "The soak should be two weeks, not one: the batch jobs only run weekly.",
+    "targets" : [ "Position_PostGoLiveSoakDurationBasis", "Narrative_ContainedPainOverUnboundedRisk" ],
+    "referents" : [ {
+      "ref" : "Position_PostGoLiveSoakDurationBasis",
+      "relation" : "contradicts"
+    }, {
+      "ref" : "Expr_4HalyardCutoverReview20260915_7",
+      "relation" : "contradicts"
+    }, {
+      "ref" : "Expr_4HalyardCutoverReview20260915_9",
+      "relation" : "contradicts"
+    }, {
+      "ref" : "Expr_4HalyardCutoverReview20260915_20",
+      "relation" : "contradicts"
+    } ],
+    "principal" : "Tina TeamMember"
+  } ],
+  "standalone" : [ ],
+  "held" : [ ],
+  "_source_sha256" : "b130e29178b883c23a965692451c813e7c97f6a2b12fa8a1785a907d6c505f6c"
+}
