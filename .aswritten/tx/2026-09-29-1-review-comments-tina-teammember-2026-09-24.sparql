@@ -1,0 +1,191 @@
+PREFIX narr: <https://aswritten.ai/narrative#>
+PREFIX aswr: <https://aswritten.ai/aswr#>
+PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX dct:  <http://purl.org/dc/terms/>
+PREFIX xsd:  <http://www.w3.org/2001/XMLSchema#>
+PREFIX oa:   <http://www.w3.org/ns/oa#>
+PREFIX xkos: <http://rdf-vocabulary.ddialliance.org/xkos#>
+
+INSERT DATA {
+  aswr:Tx_20260929T234337Z a prov:Activity ;
+      prov:generatedAtTime "2026-09-29T23:43:37Z"^^xsd:dateTime ;
+      prov:wasAssociatedWith "aswritten.ai" ;
+      prov:wasAttributedTo "scarlet@aswritten.ai" ;
+      aswr:pipelinePin "8dd07a49bda8" ;
+      aswr:originPath ".aswritten/memories/2026-09-29-1-review-comments-tina-teammember-2026-09-24.md" ;
+      dct:title "Multipass source extraction: Review comments: Tina TeamMember — 2026-09-24" ;
+      prov:generated narr:Sample_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2, narr:Expr_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_1, narr:Expr_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_2, narr:Expr_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_3, narr:Expr_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_4, narr:Expr_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_5, narr:Expr_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_6, narr:Expr_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_7, narr:Expr_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_8, narr:Expr_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_10, narr:Actor_TinaTeammember, narr:Actor_UnspecifiedSpeaker .
+} ;
+INSERT DATA {
+  GRAPH aswr:Tx_20260929T234337Z {
+    narr:Sample_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2 a narr:Sample ;
+        dct:title "Review comments: Tina TeamMember — 2026-09-24" ;
+        dct:created "2026-09-24"^^xsd:date ;
+        aswr:originPath ".aswritten/memories/2026-09-29-1-review-comments-tina-teammember-2026-09-24.md" ;
+        aswr:submittedBy narr:Actor_TanyaTeamowner ;
+        aswr:account narr:Actor_TanyaTeamowner .
+
+    narr:Expr_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_1 a narr:Expression ;
+        narr:actor narr:Actor_TanyaTeamowner ;
+        narr:act "assertive" ;
+        narr:animator narr:Actor_TanyaTeamowner ;
+        narr:author narr:Actor_TanyaTeamowner ;
+        narr:context "Review comments header" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Tina TeamMember left 1 comment while reviewing. Each section cites what was under review first, quoted from the perspective, and then gives the comment in the reviewer's own words." ;
+                oa:prefix "Tina TeamMember — 2026-09-24\n\n" ;
+                oa:suffix "\n\n## 1. Rejected Position_Post" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "186"^^xsd:integer ;
+                oa:end "366"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-29T23:43:37Z"^^xsd:dateTime .
+
+    narr:Expr_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_2 a narr:Expression ;
+        narr:actor narr:Actor_TanyaTeamowner ;
+        narr:act "assertive" ;
+        narr:animator narr:Actor_TanyaTeamowner ;
+        narr:author narr:Actor_TanyaTeamowner ;
+        narr:context "Rejected Position_PostGoLiveSoakDurationBasis" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "What was under review, quoted from the perspective (these are not the reviewer's words):" ;
+                oa:prefix "_PostGoLiveSoakDurationBasis\n\n" ;
+                oa:suffix "\n\n- Position: <https://aswritt" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "421"^^xsd:integer ;
+                oa:end "509"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-29T23:43:37Z"^^xsd:dateTime .
+
+    narr:Expr_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_3 a narr:Expression ;
+        narr:actor narr:Actor_UnspecifiedSpeaker ;
+        narr:act "question" ;
+        narr:context "Quoted perspective: Position_PostGoLiveSoakDurationBasis" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "how is the minimum soak duration between site cutovers determined and validated?" ;
+                oa:prefix "GoLiveSoakDurationBasis>\n\n  > " ;
+                oa:suffix "\n\n- Expression: <https://aswri" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "598"^^xsd:integer ;
+                oa:end "678"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-29T23:43:37Z"^^xsd:dateTime .
+
+    narr:Expr_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_4 a narr:Expression ;
+        narr:actor narr:Actor_UnspecifiedSpeaker ;
+        narr:act "assertive" ;
+        narr:context "Quoted perspective: Expr_4HalyardCutoverReview20260915_13" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Can I say that I think this is the right correction and also that it costs us something? Two weeks was conservative in a place where being conservative was cheap. One week is defensible but it has no slack in it." ;
+                oa:prefix "utoverReview20260915_13>\n\n  > " ;
+                oa:suffix "\n\n- Expression: <https://aswri" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "770"^^xsd:integer ;
+                oa:end "982"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-29T23:43:37Z"^^xsd:dateTime .
+
+    narr:Expr_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_5 a narr:Expression ;
+        narr:actor narr:Actor_UnspecifiedSpeaker ;
+        narr:act "assertive" ;
+        narr:context "Quoted perspective: Expr_4HalyardCutoverReview20260915_14" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "That's true. I'd rather be defensible and know where the slack isn't than conservative for a reason that turned out to be imaginary." ;
+                oa:prefix "utoverReview20260915_14>\n\n  > " ;
+                oa:suffix "\n\n- Expression: <https://aswri" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "1074"^^xsd:integer ;
+                oa:end "1206"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-29T23:43:37Z"^^xsd:dateTime .
+
+    narr:Expr_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_6 a narr:Expression ;
+        narr:actor narr:Actor_UnspecifiedSpeaker ;
+        narr:act "assertive" ;
+        narr:context "Quoted perspective: Expr_4HalyardCutoverReview20260915_15" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Agreed. I just want it on the record that the new number is tight, not safe." ;
+                oa:prefix "utoverReview20260915_15>\n\n  > " ;
+                oa:suffix "\n\n- Expression: <https://aswri" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "1298"^^xsd:integer ;
+                oa:end "1374"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-29T23:43:37Z"^^xsd:dateTime .
+
+    narr:Expr_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_7 a narr:Expression ;
+        narr:actor narr:Actor_UnspecifiedSpeaker ;
+        narr:act "commissive" ;
+        narr:context "Quoted perspective: Expr_4HalyardCutoverReview20260915_20" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Right. For the record then: the soak between sites is one week, not two, and my note from the eighth about two weeks should be read as superseded by this." ;
+                oa:prefix "utoverReview20260915_20>\n\n  > " ;
+                oa:suffix "\n\n- Expression: <https://aswri" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "1466"^^xsd:integer ;
+                oa:end "1620"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-29T23:43:37Z"^^xsd:dateTime .
+
+    narr:Expr_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_8 a narr:Expression ;
+        narr:actor narr:Actor_UnspecifiedSpeaker ;
+        narr:act "directive" ;
+        narr:context "Quoted perspective: Expr_4HalyardCutoverReview20260915_3" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "On the eighth I said the soak between sites has to be two full weeks, and I said I'd hold us to it. That was wrong. I was wrong on the eighth and I want it struck from the plan." ;
+                oa:prefix "CutoverReview20260915_3>\n\n  > " ;
+                oa:suffix "\n\n- and 3 more expressions fro" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "1711"^^xsd:integer ;
+                oa:end "1888"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-29T23:43:37Z"^^xsd:dateTime .
+
+    narr:Expr_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_10 a narr:Expression ;
+        narr:actor narr:Actor_TinaTeammember ;
+        narr:act "assertive" ;
+        narr:context "Review comment on Position_PostGoLiveSoakDurationBasis" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "The soak should be two weeks, not one: the batch jobs only run weekly." ;
+                oa:prefix "g@aswritten.ai) commented:\n\n> " ;
+                oa:suffix "\n" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "2374"^^xsd:integer ;
+                oa:end "2444"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-29T23:43:37Z"^^xsd:dateTime .
+
+    narr:Actor_TinaTeammember a narr:Actor ;
+        skos:prefLabel "Tina TeamMember" .
+
+    narr:Actor_UnspecifiedSpeaker a narr:Actor ;
+        skos:prefLabel "unspecified speaker" .
+
+    aswr:Run_20260929T234337Z_actors a prov:Activity ;
+        aswr:runPass "actors" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/bf3d5510c624/2026-09-29-1-review-comments-tina-teammember-2026-09-24/actors.json" ;
+        prov:generated narr:Actor_TinaTeammember, narr:Actor_UnspecifiedSpeaker ;
+        dct:isPartOf aswr:Tx_20260929T234337Z ;
+        prov:generatedAtTime "2026-09-29T23:43:37Z"^^xsd:dateTime .
+
+    aswr:Run_20260929T234337Z_pass1 a prov:Activity ;
+        aswr:runPass "pass1" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/bf3d5510c624/2026-09-29-1-review-comments-tina-teammember-2026-09-24/pass1.json" ;
+        prov:generated narr:Sample_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2, narr:Expr_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_1, narr:Expr_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_2, narr:Expr_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_3, narr:Expr_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_4, narr:Expr_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_5, narr:Expr_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_6, narr:Expr_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_7, narr:Expr_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_8, narr:Expr_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_10 ;
+        dct:isPartOf aswr:Tx_20260929T234337Z ;
+        prov:generatedAtTime "2026-09-29T23:43:37Z"^^xsd:dateTime .
+  }
+}
