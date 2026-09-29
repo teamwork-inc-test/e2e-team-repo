@@ -1,0 +1,29 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-4",
+    "regions" : [ "market-pricing" ],
+    "evidence" : [ {
+      "quote" : "it costs us something? Two weeks was conservative in a place where being conservative was cheap. One week is defensible but it has no slack in it.",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Enacts a cost-benefit / trade-off calculus regarding safety margin vs. cost/slack.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-8",
+    "regions" : [ "authority-ranking" ],
+    "evidence" : [ {
+      "quote" : "I said I'd hold us to it.",
+      "kind" : "lexical-marker"
+    }, {
+      "quote" : "I want it struck from the plan.",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Enacts and revokes individual directive authority over the group plan.",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-1", "src-2", "src-3", "src-5", "src-6", "src-7", "src-10" ],
+  "unmarked_rest" : false,
+  "mints" : [ ],
+  "region_mints" : [ ],
+  "_source_sha256" : "b130e29178b883c23a965692451c813e7c97f6a2b12fa8a1785a907d6c505f6c"
+}
