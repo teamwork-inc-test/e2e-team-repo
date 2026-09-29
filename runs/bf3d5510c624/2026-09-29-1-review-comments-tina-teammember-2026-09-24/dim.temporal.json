@@ -1,0 +1,69 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-3",
+    "regions" : [ "present", "abstract" ],
+    "evidence" : [ {
+      "quote" : "how is the minimum soak duration between site cutovers determined and validated?",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Inquires about the general principle and procedure for determining soak duration.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-4",
+    "regions" : [ "present", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "One week is defensible but it has no slack in it.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Evaluates the current concrete operational parameters and trade-offs.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-5",
+    "regions" : [ "present", "abstract" ],
+    "evidence" : [ {
+      "quote" : "I'd rather be defensible and know where the slack isn't than conservative for a reason that turned out to be imaginary.",
+      "kind" : "modal-marker"
+    } ],
+    "why" : "Expresses a general stance and preference over principles of planning.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-6",
+    "regions" : [ "present", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "the new number is tight, not safe.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Focuses on recording the current real state regarding the specific new parameter.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-7",
+    "regions" : [ "present", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "the soak between sites is one week, not two",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Enacts a concrete determination establishing the current actual soak duration.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-8",
+    "regions" : [ "past", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "On the eighth I said the soak between sites has to be two full weeks",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Directly recounts and corrects a specific prior statement from the eighth.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-10",
+    "regions" : [ "present", "concrete" ],
+    "evidence" : [ {
+      "quote" : "The soak should be two weeks, not one: the batch jobs only run weekly.",
+      "kind" : "modal-marker"
+    } ],
+    "why" : "Prescribes a concrete operational requirement based on current batch job cadence.",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-1", "src-2" ],
+  "unmarked_rest" : false,
+  "_source_sha256" : "b130e29178b883c23a965692451c813e7c97f6a2b12fa8a1785a907d6c505f6c"
+}
