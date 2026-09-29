@@ -1,0 +1,35 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-7",
+    "regions" : [ "legitimate" ],
+    "evidence" : [ {
+      "quote" : "my note from the eighth about two weeks should be read as superseded by this.",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Formally declaring a prior record superseded invokes legitimate positional authority over the record/plan.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-8",
+    "regions" : [ "legitimate" ],
+    "evidence" : [ {
+      "quote" : "I want it struck from the plan.",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Instructing that an item be formally struck from the official plan exercises legitimate process authority.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-10",
+    "regions" : [ "rational-persuasion", "informational" ],
+    "evidence" : [ {
+      "quote" : "The soak should be two weeks, not one: the batch jobs only run weekly.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Provides a specific operational fact/constraint to logically persuade the team on duration.",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-1", "src-2", "src-3", "src-4", "src-5", "src-6" ],
+  "unmarked_rest" : false,
+  "mints" : [ ],
+  "region_mints" : [ ],
+  "_source_sha256" : "b130e29178b883c23a965692451c813e7c97f6a2b12fa8a1785a907d6c505f6c"
+}
