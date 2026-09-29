@@ -25,6 +25,10 @@
       "n:Expr_20260928_1_DeliveryRoutingRulingE2ESynthetic_h801a6165fef3_2" : 1,
       "n:Expr_20260928_1_DeliveryRoutingRulingE2ESynthetic_h801a6165fef3_3" : 1,
       "n:Expr_20260928_1_DeliveryRoutingRulingE2ESynthetic_h801a6165fef3_4" : 1,
+      "n:Expr_20260929_1_WeeklyRollUpRulingE2EAgenticSynthetic_h94add5a10097_1" : 1,
+      "n:Expr_20260929_1_WeeklyRollUpRulingE2EAgenticSynthetic_h94add5a10097_2" : 1,
+      "n:Expr_20260929_1_WeeklyRollUpRulingE2EAgenticSynthetic_h94add5a10097_4" : 1,
+      "n:Expr_20260929_1_WeeklyRollUpRulingE2EAgenticSynthetic_h94add5a10097_5" : 1,
       "n:Expr_2DeliveryRoutingRulingE2ESynthetic_1" : 2,
       "n:Expr_2DeliveryRoutingRulingE2ESynthetic_2" : 2,
       "n:Expr_2DeliveryRoutingRulingE2ESynthetic_3" : 2,
@@ -91,6 +95,10 @@
       "n:Expr_20260928_1_DeliveryRoutingRulingE2ESynthetic_h801a6165fef3_2" : 1,
       "n:Expr_20260928_1_DeliveryRoutingRulingE2ESynthetic_h801a6165fef3_3" : 1,
       "n:Expr_20260928_1_DeliveryRoutingRulingE2ESynthetic_h801a6165fef3_4" : 1,
+      "n:Expr_20260929_1_WeeklyRollUpRulingE2EAgenticSynthetic_h94add5a10097_1" : 1,
+      "n:Expr_20260929_1_WeeklyRollUpRulingE2EAgenticSynthetic_h94add5a10097_2" : 1,
+      "n:Expr_20260929_1_WeeklyRollUpRulingE2EAgenticSynthetic_h94add5a10097_4" : 1,
+      "n:Expr_20260929_1_WeeklyRollUpRulingE2EAgenticSynthetic_h94add5a10097_5" : 1,
       "n:Expr_2DeliveryRoutingRulingE2ESynthetic_1" : 2,
       "n:Expr_2DeliveryRoutingRulingE2ESynthetic_2" : 2,
       "n:Expr_2DeliveryRoutingRulingE2ESynthetic_3" : 2,
@@ -130,7 +138,10 @@
       "n:Expr_20260925_1_WeeklyRollUpRulingE2EAgenticSynthetic_h5c24fdddd3e5_5" : 1,
       "n:Expr_20260927_1_WeeklyRollUpRulingE2EAgenticSynthetic_hf65a0248bea8_2" : 1,
       "n:Expr_20260927_1_WeeklyRollUpRulingE2EAgenticSynthetic_hf65a0248bea8_4" : 1,
-      "n:Expr_20260927_1_WeeklyRollUpRulingE2EAgenticSynthetic_hf65a0248bea8_5" : 1
+      "n:Expr_20260927_1_WeeklyRollUpRulingE2EAgenticSynthetic_hf65a0248bea8_5" : 1,
+      "n:Expr_20260929_1_WeeklyRollUpRulingE2EAgenticSynthetic_h94add5a10097_2" : 1,
+      "n:Expr_20260929_1_WeeklyRollUpRulingE2EAgenticSynthetic_h94add5a10097_4" : 1,
+      "n:Expr_20260929_1_WeeklyRollUpRulingE2EAgenticSynthetic_h94add5a10097_5" : 1
     },
     "n:Sample_20260925_1_WeeklyRollUpRulingE2EAgenticSynthetic_h5c24fdddd3e5" : {
       "n:Expr_20260925_1_WeeklyRollUpRulingE2EAgenticSynthetic_h5c24fdddd3e5_1" : 2,
@@ -145,9 +156,16 @@
       "n:Expr_20260927_1_WeeklyRollUpRulingE2EAgenticSynthetic_hf65a0248bea8_3" : 1,
       "n:Expr_20260927_1_WeeklyRollUpRulingE2EAgenticSynthetic_hf65a0248bea8_4" : 1,
       "n:Expr_20260927_1_WeeklyRollUpRulingE2EAgenticSynthetic_hf65a0248bea8_5" : 1
+    },
+    "n:Sample_20260929_1_WeeklyRollUpRulingE2EAgenticSynthetic_h94add5a10097" : {
+      "n:Expr_20260929_1_WeeklyRollUpRulingE2EAgenticSynthetic_h94add5a10097_1" : 2,
+      "n:Expr_20260929_1_WeeklyRollUpRulingE2EAgenticSynthetic_h94add5a10097_2" : 1,
+      "n:Expr_20260929_1_WeeklyRollUpRulingE2EAgenticSynthetic_h94add5a10097_3" : 1,
+      "n:Expr_20260929_1_WeeklyRollUpRulingE2EAgenticSynthetic_h94add5a10097_4" : 1,
+      "n:Expr_20260929_1_WeeklyRollUpRulingE2EAgenticSynthetic_h94add5a10097_5" : 1
     }
   },
-  "generated_from" : "54b9a970f5c6748938325bc3b028ca03806dedc9",
+  "generated_from" : "ad546317049bec4a37dc2ef52738f037aeed11f4",
   "hubs" : {
     "n:Actor_Tanya_Staging" : 2,
     "n:DesignTradeoffs" : 2,
@@ -157,7 +175,8 @@
     "n:Position_ReactionDeliveryBundlingAndBatchingBoundary" : 2,
     "n:Position_WeeklyReactionRollUpCadence" : 1,
     "n:Sample_20260925_1_WeeklyRollUpRulingE2EAgenticSynthetic_h5c24fdddd3e5" : 2,
-    "n:Sample_20260927_1_WeeklyRollUpRulingE2EAgenticSynthetic_hf65a0248bea8" : 1
+    "n:Sample_20260927_1_WeeklyRollUpRulingE2EAgenticSynthetic_hf65a0248bea8" : 1,
+    "n:Sample_20260929_1_WeeklyRollUpRulingE2EAgenticSynthetic_h94add5a10097" : 1
   },
   "params" : {
     "conviction-floor" : 2,
@@ -172,7 +191,7 @@
     "n" : "https://aswritten.ai/narrative#",
     "o" : "https://aswritten.ai/ns/narrative#"
   },
-  "runs_sha" : "25154e1d2acd593c2a1d7ea6a55154029f5ef950",
-  "sittings" : 188,
+  "runs_sha" : "b2c49712ff007b588908f1e781655a9bffe739b3",
+  "sittings" : 191,
   "spec" : "fidelity-bands/1"
 }
