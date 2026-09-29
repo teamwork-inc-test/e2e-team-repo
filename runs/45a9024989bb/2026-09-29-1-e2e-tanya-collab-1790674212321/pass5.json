@@ -1,0 +1,10 @@
+{
+  "placements" : [ {
+    "verdict" : "reuse",
+    "leaf" : "Narrative_DecisionCaptureAtConsensus",
+    "supporting_segments" : [ "src-1", "src-2", "src-3" ],
+    "why" : "The shipment of the async decision widget, the quarter-high velocity of 23 points, and the Zephyr platform integration unlock directly evidence and advance the core narrative that decisions must be captured asynchronously at the moment of consensus within team communication channels.",
+    "consulted" : [ "Narrative_DecisionCaptureAtConsensus", "Narrative_AntiSlackPositioning", "Narrative_DecisionsEvaporate" ]
+  } ],
+  "unplaced" : [ ]
+}
