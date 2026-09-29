@@ -1,0 +1,11 @@
+{
+  "placements" : [ {
+    "verdict" : "reuse",
+    "leaf" : "Narrative_ReactionDeliveryBundling",
+    "supporting_segments" : [ "src-1", "src-2", "src-3", "src-4", "src-5" ],
+    "why" : "This envelope restates the team owner ruling governing reaction delivery structure and notification cadence, establishing that per-run bundles stay, a Friday roll-up is added, and daily digests are rejected to avoid redundancy.",
+    "consulted" : [ "Narrative_ReactionDeliveryBundling", "Narrative_DefaultRefTopicBranch", "DesignTradeoffs" ],
+    "adopted_positions" : [ "Position_WeeklyReactionRollUpCadence" ]
+  } ],
+  "unplaced" : [ ]
+}
