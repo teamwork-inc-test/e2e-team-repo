@@ -1,0 +1,16 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "matter-of-fact", "technical" ],
+    "evidence" : [ {
+      "quote" : "Testing that omitted ref creates a topic branch.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Flat, instrumental technical assertion describing a test case without rhetorical framing or affective color.",
+    "reported" : false
+  } ],
+  "unmarked" : [ ],
+  "mints" : [ ],
+  "region_mints" : [ ],
+  "_source_sha256" : "d45730ae8512188e03d768ea37c4e43f8854f82ab91b2b1610a027ac4aee5734"
+}
