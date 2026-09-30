@@ -29,6 +29,10 @@
       "n:Expr_20260929_1_WeeklyRollUpRulingE2EAgenticSynthetic_h94add5a10097_2" : 1,
       "n:Expr_20260929_1_WeeklyRollUpRulingE2EAgenticSynthetic_h94add5a10097_4" : 1,
       "n:Expr_20260929_1_WeeklyRollUpRulingE2EAgenticSynthetic_h94add5a10097_5" : 1,
+      "n:Expr_20260930_1_DeliveryRoutingRulingE2ESynthetic_h8da21f01f22b_2" : 1,
+      "n:Expr_20260930_1_DeliveryRoutingRulingE2ESynthetic_h8da21f01f22b_3" : 1,
+      "n:Expr_20260930_1_DeliveryRoutingRulingE2ESynthetic_h8da21f01f22b_5" : 1,
+      "n:Expr_20260930_1_DeliveryRoutingRulingE2ESynthetic_h8da21f01f22b_6" : 1,
       "n:Expr_2DeliveryRoutingRulingE2ESynthetic_1" : 2,
       "n:Expr_2DeliveryRoutingRulingE2ESynthetic_2" : 2,
       "n:Expr_2DeliveryRoutingRulingE2ESynthetic_3" : 2,
@@ -99,6 +103,10 @@
       "n:Expr_20260929_1_WeeklyRollUpRulingE2EAgenticSynthetic_h94add5a10097_2" : 1,
       "n:Expr_20260929_1_WeeklyRollUpRulingE2EAgenticSynthetic_h94add5a10097_4" : 1,
       "n:Expr_20260929_1_WeeklyRollUpRulingE2EAgenticSynthetic_h94add5a10097_5" : 1,
+      "n:Expr_20260930_1_DeliveryRoutingRulingE2ESynthetic_h8da21f01f22b_2" : 1,
+      "n:Expr_20260930_1_DeliveryRoutingRulingE2ESynthetic_h8da21f01f22b_3" : 1,
+      "n:Expr_20260930_1_DeliveryRoutingRulingE2ESynthetic_h8da21f01f22b_5" : 1,
+      "n:Expr_20260930_1_DeliveryRoutingRulingE2ESynthetic_h8da21f01f22b_6" : 1,
       "n:Expr_2DeliveryRoutingRulingE2ESynthetic_1" : 2,
       "n:Expr_2DeliveryRoutingRulingE2ESynthetic_2" : 2,
       "n:Expr_2DeliveryRoutingRulingE2ESynthetic_3" : 2,
@@ -112,7 +120,7 @@
       "n:Position_WeeklyReactionRollUpCadence" : 1
     },
     "n:Position_ReactionDeliveryBundlingAndBatchingBoundary" : {
-      "n:Expr_20260924_1_DeliveryRoutingRulingE2ESynthetic_hf8fb95c0b315_2" : 1,
+      "n:Expr_20260924_1_DeliveryRoutingRulingE2ESynthetic_hf8fb95c0b315_2" : 2,
       "n:Expr_20260924_1_DeliveryRoutingRulingE2ESynthetic_hf8fb95c0b315_3" : 1,
       "n:Expr_20260924_1_DeliveryRoutingRulingE2ESynthetic_hf8fb95c0b315_4" : 1,
       "n:Expr_20260924_2_DeliveryRoutingRulingE2ESyntheticAttempt2_haec961429483_2" : 1,
@@ -124,6 +132,9 @@
       "n:Expr_20260928_1_DeliveryRoutingRulingE2ESynthetic_h801a6165fef3_2" : 1,
       "n:Expr_20260928_1_DeliveryRoutingRulingE2ESynthetic_h801a6165fef3_3" : 1,
       "n:Expr_20260928_1_DeliveryRoutingRulingE2ESynthetic_h801a6165fef3_4" : 1,
+      "n:Expr_20260930_1_DeliveryRoutingRulingE2ESynthetic_h8da21f01f22b_3" : 1,
+      "n:Expr_20260930_1_DeliveryRoutingRulingE2ESynthetic_h8da21f01f22b_5" : 1,
+      "n:Expr_20260930_1_DeliveryRoutingRulingE2ESynthetic_h8da21f01f22b_6" : 1,
       "n:Expr_2DeliveryRoutingRulingE2ESynthetic_2" : 2,
       "n:Expr_2DeliveryRoutingRulingE2ESynthetic_3" : 2,
       "n:Expr_2DeliveryRoutingRulingE2ESynthetic_4" : 2,
@@ -163,9 +174,16 @@
       "n:Expr_20260929_1_WeeklyRollUpRulingE2EAgenticSynthetic_h94add5a10097_3" : 1,
       "n:Expr_20260929_1_WeeklyRollUpRulingE2EAgenticSynthetic_h94add5a10097_4" : 1,
       "n:Expr_20260929_1_WeeklyRollUpRulingE2EAgenticSynthetic_h94add5a10097_5" : 1
+    },
+    "n:Sample_20260930_1_DeliveryRoutingRulingE2ESynthetic_h8da21f01f22b" : {
+      "n:Expr_20260930_1_DeliveryRoutingRulingE2ESynthetic_h8da21f01f22b_2" : 2,
+      "n:Expr_20260930_1_DeliveryRoutingRulingE2ESynthetic_h8da21f01f22b_3" : 1,
+      "n:Expr_20260930_1_DeliveryRoutingRulingE2ESynthetic_h8da21f01f22b_4" : 1,
+      "n:Expr_20260930_1_DeliveryRoutingRulingE2ESynthetic_h8da21f01f22b_5" : 1,
+      "n:Expr_20260930_1_DeliveryRoutingRulingE2ESynthetic_h8da21f01f22b_6" : 1
     }
   },
-  "generated_from" : "ad546317049bec4a37dc2ef52738f037aeed11f4",
+  "generated_from" : "f58158f50ab61ca1389fbda1692db84740721302",
   "hubs" : {
     "n:Actor_Tanya_Staging" : 2,
     "n:DesignTradeoffs" : 2,
@@ -176,7 +194,8 @@
     "n:Position_WeeklyReactionRollUpCadence" : 1,
     "n:Sample_20260925_1_WeeklyRollUpRulingE2EAgenticSynthetic_h5c24fdddd3e5" : 2,
     "n:Sample_20260927_1_WeeklyRollUpRulingE2EAgenticSynthetic_hf65a0248bea8" : 1,
-    "n:Sample_20260929_1_WeeklyRollUpRulingE2EAgenticSynthetic_h94add5a10097" : 1
+    "n:Sample_20260929_1_WeeklyRollUpRulingE2EAgenticSynthetic_h94add5a10097" : 1,
+    "n:Sample_20260930_1_DeliveryRoutingRulingE2ESynthetic_h8da21f01f22b" : 1
   },
   "params" : {
     "conviction-floor" : 2,
@@ -191,7 +210,7 @@
     "n" : "https://aswritten.ai/narrative#",
     "o" : "https://aswritten.ai/ns/narrative#"
   },
-  "runs_sha" : "b2c49712ff007b588908f1e781655a9bffe739b3",
-  "sittings" : 191,
+  "runs_sha" : "3396ff9c7ebb0cddd6b7dfc920315eca833a031c",
+  "sittings" : 193,
   "spec" : "fidelity-bands/1"
 }
