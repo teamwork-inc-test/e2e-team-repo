@@ -1,0 +1,13 @@
+{
+  "positions" : [ {
+    "name" : "IntegrationUnlocksForDecisionToolingVelocity",
+    "frame" : "how do third-party platform integrations drive delivery velocity for async decision capture tools?",
+    "members" : [ "src-1", "src-2", "src-3" ],
+    "why" : "The retro statements cohere around the relationship between shipping the core async decision widget, achieving record quarterly velocity, and identifying integration infrastructure as the critical technical enabler.",
+    "under" : [ "Narrative_DecisionCaptureAtConsensus" ]
+  } ],
+  "attaches" : [ ],
+  "position_revisions" : [ ],
+  "ungrouped" : [ ],
+  "_source_sha256" : "1237e18b54774c37eb5214040874288fc88b5befa916140e66a01d5fdd1f31b8"
+}
