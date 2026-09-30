@@ -1,0 +1,11 @@
+{
+  "placements" : [ {
+    "verdict" : "reuse",
+    "leaf" : "Narrative_ReactionDeliveryBundling",
+    "supporting_segments" : [ "src-2", "src-3", "src-4", "src-5", "src-6" ],
+    "why" : "The segments articulate the delivery routing ruling, batching window boundary, and rejection of per-skill client-side collapsing, directly continuing and supporting the existing reaction delivery bundling narrative.",
+    "consulted" : [ "Narrative_ReactionDeliveryBundling", "DesignTradeoffs" ]
+  } ],
+  "unplaced" : [ ],
+  "_source_sha256" : "ba05ea0158d2bb5ae030ad5d571477370ce49537407437eea6eb9df45ec14eb7"
+}
