@@ -1,0 +1,11 @@
+{
+  "positions" : [ ],
+  "attaches" : [ {
+    "position" : "Position_ReactionDeliveryBundlingAndBatchingBoundary",
+    "members" : [ "src-3", "src-4", "src-5", "src-6" ],
+    "why" : "These segments articulate the core reaction delivery routing directive (one bundle per run per person), the batching window pushback and ruling (closing with the run), and the rejected alternative of client-side collapsing, cleanly matching the existing position's framing of bundling and batching boundaries."
+  } ],
+  "position_revisions" : [ ],
+  "ungrouped" : [ "src-2" ],
+  "_source_sha256" : "ba05ea0158d2bb5ae030ad5d571477370ce49537407437eea6eb9df45ec14eb7"
+}
