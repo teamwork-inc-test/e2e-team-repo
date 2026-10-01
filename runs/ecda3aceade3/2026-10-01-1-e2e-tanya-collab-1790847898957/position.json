@@ -1,0 +1,13 @@
+{
+  "positions" : [ {
+    "name" : "WidgetDeliveryVelocityFactors",
+    "frame" : "what technical dependencies and milestones determined the delivery performance of the async decision widget?",
+    "members" : [ "src-1", "src-2", "src-3" ],
+    "why" : "The retrospective statements directly couple the completed shipment of the widget to record quarterly sprint velocity and identify the Zephyr integration as the critical architectural enabler.",
+    "under" : [ "Narrative_DecisionCaptureAtConsensus" ]
+  } ],
+  "attaches" : [ ],
+  "position_revisions" : [ ],
+  "ungrouped" : [ ],
+  "_source_sha256" : "1237e18b54774c37eb5214040874288fc88b5befa916140e66a01d5fdd1f31b8"
+}
