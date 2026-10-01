@@ -1,0 +1,11 @@
+{
+  "positions" : [ ],
+  "attaches" : [ {
+    "position" : "Position_WeeklyReactionRollUpCadence",
+    "members" : [ "src-2", "src-3", "src-4", "src-5" ],
+    "why" : "The existing frame ('How should recurring reaction summaries be scheduled across multi-day time windows alongside per-run bundles?') cleanly reads this restatement of the communication policy: preserving per-run bundles while adding Friday weekly summaries (src-2), recording Tina's scope question (src-3), clarifying the separation between per-run and weekly scopes (src-4), and documenting the rejection and rationale regarding daily digests (src-5)."
+  } ],
+  "position_revisions" : [ ],
+  "ungrouped" : [ "src-1" ],
+  "_source_sha256" : "a613398fb06b1f603a0127b54d35b3c7368f5d5d79b24da10e8023780d4ab149"
+}
