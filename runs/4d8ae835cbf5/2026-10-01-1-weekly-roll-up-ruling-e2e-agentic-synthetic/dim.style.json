@@ -1,0 +1,17 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-4",
+    "regions" : [ "parallelism", "antithesis" ],
+    "evidence" : [ {
+      "quote" : "the bundle is for the run, the roll-up is for the week",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Matched balanced clauses ('the bundle is for X, the roll-up is for Y') setting complementary scopes in deliberate contrast.",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-1", "src-2", "src-3", "src-5" ],
+  "unmarked_rest" : false,
+  "mints" : [ ],
+  "region_mints" : [ ],
+  "_source_sha256" : "a613398fb06b1f603a0127b54d35b3c7368f5d5d79b24da10e8023780d4ab149"
+}
