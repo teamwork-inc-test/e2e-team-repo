@@ -1,0 +1,27 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-4",
+    "regions" : [ "plain-spoken" ],
+    "evidence" : [ {
+      "quote" : "the bundle is for the run, the roll-up is for the week.",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Distills operational policy into symmetrical, jargon-free balanced aphorism.",
+    "reported" : false,
+    "direction" : {
+      "verdict" : "mint",
+      "node" : "mint-1"
+    }
+  } ],
+  "unmarked" : [ "src-1", "src-2", "src-3", "src-5" ],
+  "unmarked_rest" : false,
+  "mints" : [ {
+    "id" : "mint-1",
+    "name" : "BalancedAphoristicClarification",
+    "title" : "clarifying scope via balanced aphoristic contrast",
+    "frame" : "Does the speaker resolve ambiguity by delivering a compact, symmetrical plain-spoken formula?",
+    "regions" : [ "plain-spoken" ]
+  } ],
+  "region_mints" : [ ],
+  "_source_sha256" : "a613398fb06b1f603a0127b54d35b3c7368f5d5d79b24da10e8023780d4ab149"
+}
