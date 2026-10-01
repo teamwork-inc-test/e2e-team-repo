@@ -1,0 +1,45 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "ruled",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Framed as an authoritative ruling settling how reactions reach people.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-2",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "stays",
+      "kind" : "commitment-marker"
+    }, {
+      "quote" : "we add",
+      "kind" : "commitment-marker"
+    } ],
+    "why" : "Establishes concrete operational procedure for the team.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-4",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "held that it\ndoes not",
+      "kind" : "commitment-marker"
+    } ],
+    "why" : "Settles the policy question and clarifies the operational scope of each artifact.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-5",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "Rejected",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Formal rejection of an operational alternative with rationale.",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-3" ],
+  "mints" : [ ],
+  "_source_sha256" : "a613398fb06b1f603a0127b54d35b3c7368f5d5d79b24da10e8023780d4ab149"
+}
