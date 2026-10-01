@@ -1,0 +1,51 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "past", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "Tanya (team owner) ruled",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Reports a completed concrete ruling made by the team owner in the past.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-2",
+    "regions" : [ "future", "irrealis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "on Fridays we add one roll-up of the week",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Establishes a planned, prospective cadence for future weekly roll-ups.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-3",
+    "regions" : [ "past", "irrealis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "Tina asked whether the roll-up replaces",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Reports Tina's inquiry concerning a potential hypothetical substitution.",
+    "reported" : true
+  }, {
+    "segment_local_id" : "src-4",
+    "regions" : [ "present", "realis", "abstract" ],
+    "evidence" : [ {
+      "quote" : "the bundle is for the run, the roll-up is for the week",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Articulates an ongoing definitional principle distinguishing runs and roll-ups.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-5",
+    "regions" : [ "present", "irrealis", "abstract" ],
+    "evidence" : [ {
+      "quote" : "it would repeat the\nbundle word for word",
+      "kind" : "modal-marker"
+    } ],
+    "why" : "Considers the hypothetical counterfactual outcome of a daily digest.",
+    "reported" : false
+  } ],
+  "unmarked" : [ ],
+  "unmarked_rest" : false,
+  "_source_sha256" : "a613398fb06b1f603a0127b54d35b3c7368f5d5d79b24da10e8023780d4ab149"
+}
