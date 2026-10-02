@@ -1,0 +1,11 @@
+{
+  "placements" : [ {
+    "verdict" : "reuse",
+    "leaf" : "Narrative_ReactionDeliveryBundling",
+    "supporting_segments" : [ "src-1", "src-2", "src-3", "src-4" ],
+    "why" : "The document's segments directly restate and enforce the team owner's ruling on reaction notification delivery (routing reactions into one bundle per run per person), the run-closure batching boundary, and the rejection of client-side per-skill delivery to prevent reader fragmentation, cleanly matching the core thematic scope of Narrative_ReactionDeliveryBundling.",
+    "consulted" : [ "Narrative_ReactionDeliveryBundling", "Narrative_DefaultRefTopicBranch", "Narrative_AntiSlackPositioning", "Narrative_DecisionsEvaporate", "Narrative_DecisionCaptureAtConsensus", "DesignTradeoffs" ]
+  } ],
+  "unplaced" : [ ],
+  "_source_sha256" : "ba05ea0158d2bb5ae030ad5d571477370ce49537407437eea6eb9df45ec14eb7"
+}
