@@ -1,0 +1,11 @@
+{
+  "positions" : [ ],
+  "attaches" : [ {
+    "position" : "Position_ReactionDeliveryBundlingAndBatchingBoundary",
+    "members" : [ "src-2", "src-3", "src-4" ],
+    "why" : "The existing frame cleanly encompasses the team owner's directive routing reactions into one bundle per run per person (src-2), the resolution of Tina's pushback holding the bundle close boundary to run completion (src-3), and the rejection of client-side collapsing due to reader burden (src-4)."
+  } ],
+  "position_revisions" : [ ],
+  "ungrouped" : [ "src-1" ],
+  "_source_sha256" : "ba05ea0158d2bb5ae030ad5d571477370ce49537407437eea6eb9df45ec14eb7"
+}
