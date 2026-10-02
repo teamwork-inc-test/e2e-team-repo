@@ -37,6 +37,9 @@
       "n:Expr_20261001_1_WeeklyRollUpRulingE2EAgenticSynthetic_ha7f40d1c5663_2" : 1,
       "n:Expr_20261001_1_WeeklyRollUpRulingE2EAgenticSynthetic_ha7f40d1c5663_4" : 1,
       "n:Expr_20261001_1_WeeklyRollUpRulingE2EAgenticSynthetic_ha7f40d1c5663_5" : 1,
+      "n:Expr_20261002_1_DeliveryRoutingRulingE2ESynthetic_h3a7c5d6c9593_1" : 1,
+      "n:Expr_20261002_1_DeliveryRoutingRulingE2ESynthetic_h3a7c5d6c9593_2" : 1,
+      "n:Expr_20261002_1_DeliveryRoutingRulingE2ESynthetic_h3a7c5d6c9593_3" : 1,
       "n:Expr_2DeliveryRoutingRulingE2ESynthetic_1" : 2,
       "n:Expr_2DeliveryRoutingRulingE2ESynthetic_2" : 2,
       "n:Expr_2DeliveryRoutingRulingE2ESynthetic_3" : 2,
@@ -115,6 +118,9 @@
       "n:Expr_20261001_1_WeeklyRollUpRulingE2EAgenticSynthetic_ha7f40d1c5663_2" : 1,
       "n:Expr_20261001_1_WeeklyRollUpRulingE2EAgenticSynthetic_ha7f40d1c5663_4" : 1,
       "n:Expr_20261001_1_WeeklyRollUpRulingE2EAgenticSynthetic_ha7f40d1c5663_5" : 1,
+      "n:Expr_20261002_1_DeliveryRoutingRulingE2ESynthetic_h3a7c5d6c9593_1" : 1,
+      "n:Expr_20261002_1_DeliveryRoutingRulingE2ESynthetic_h3a7c5d6c9593_2" : 1,
+      "n:Expr_20261002_1_DeliveryRoutingRulingE2ESynthetic_h3a7c5d6c9593_3" : 1,
       "n:Expr_2DeliveryRoutingRulingE2ESynthetic_1" : 2,
       "n:Expr_2DeliveryRoutingRulingE2ESynthetic_2" : 2,
       "n:Expr_2DeliveryRoutingRulingE2ESynthetic_3" : 2,
@@ -143,6 +149,8 @@
       "n:Expr_20260930_1_DeliveryRoutingRulingE2ESynthetic_h8da21f01f22b_3" : 1,
       "n:Expr_20260930_1_DeliveryRoutingRulingE2ESynthetic_h8da21f01f22b_5" : 1,
       "n:Expr_20260930_1_DeliveryRoutingRulingE2ESynthetic_h8da21f01f22b_6" : 1,
+      "n:Expr_20261002_1_DeliveryRoutingRulingE2ESynthetic_h3a7c5d6c9593_2" : 1,
+      "n:Expr_20261002_1_DeliveryRoutingRulingE2ESynthetic_h3a7c5d6c9593_3" : 1,
       "n:Expr_2DeliveryRoutingRulingE2ESynthetic_2" : 2,
       "n:Expr_2DeliveryRoutingRulingE2ESynthetic_3" : 2,
       "n:Expr_2DeliveryRoutingRulingE2ESynthetic_4" : 2,
@@ -201,7 +209,7 @@
       "n:Expr_20261001_1_WeeklyRollUpRulingE2EAgenticSynthetic_ha7f40d1c5663_5" : 1
     }
   },
-  "generated_from" : "58cc29f7de68e0c296c9920f4042adf3e332a3cf",
+  "generated_from" : "c878d3681ebff22de50c24853fd3312efc840f29",
   "hubs" : {
     "n:Actor_Tanya_Staging" : 2,
     "n:DesignTradeoffs" : 2,
@@ -229,7 +237,7 @@
     "n" : "https://aswritten.ai/narrative#",
     "o" : "https://aswritten.ai/ns/narrative#"
   },
-  "runs_sha" : "ced5e9a77f8a082fe4013524b4b8e60f54a8eb80",
-  "sittings" : 197,
+  "runs_sha" : "2623c763437fc9ca876a1e28507b0443a131ac73",
+  "sittings" : 198,
   "spec" : "fidelity-bands/1"
 }
