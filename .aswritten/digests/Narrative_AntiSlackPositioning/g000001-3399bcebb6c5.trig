@@ -1,0 +1,23 @@
+@prefix narr: <https://aswritten.ai/narrative#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+GRAPH <https://aswritten.ai/narrative#Digest_Narrative_AntiSlackPositioning> {
+  <https://aswritten.ai/narrative#Digest_Narrative_AntiSlackPositioning> a narr:Digest ;
+    narr:digestOf <https://aswritten.ai/narrative#Narrative_AntiSlackPositioning> ;
+    narr:childCount "4"^^xsd:integer ;
+    narr:generatedFrom "3399bcebb6c58381f3ac26d0f981987daa1e78c0" ;
+    narr:narration """This narrative holds the product's founding positioning, all voiced in a single [product vision session](narr:Position_PricingTwelveDollars). The through-line is deliberate opposition: the product is [explicitly defined against real-time chat tools](narr:Position_AntiPatternRealtimeChat), with [a new category claimed — structured async decision-making](narr:Position_ProductCategoryAsyncPlatform). Around that sit [the initial target market of small remote teams](narr:Position_TargetMarketRemoteTeams) and [the opening price point](narr:Position_PricingTwelveDollars). The pricing thread has since moved: [a later retro records a higher tier for larger teams](narr:Position_PricingTwelveDollars).""" ;
+    narr:covers <https://aswritten.ai/narrative#Position_AntiPatternRealtimeChat> ;
+    narr:covers <https://aswritten.ai/narrative#Position_PricingTwelveDollars> ;
+    narr:covers <https://aswritten.ai/narrative#Position_ProductCategoryAsyncPlatform> ;
+    narr:covers <https://aswritten.ai/narrative#Position_TargetMarketRemoteTeams> ;
+    narr:keyPhrase [ narr:text "Pricing set at $12/user/month" ; narr:phraseSource <https://aswritten.ai/narrative#Position_PricingTwelveDollars> ] ;
+    narr:keyPhrase [ narr:text "pricing update to $15/user for teams over 25" ; narr:phraseSource <https://aswritten.ai/narrative#Position_PricingTwelveDollars> ] ;
+    narr:keyPhrase [ narr:text "Structured async decision platform" ; narr:phraseSource <https://aswritten.ai/narrative#Position_ProductCategoryAsyncPlatform> ] ;
+    narr:keyPhrase [ narr:text "remote teams with 10-50 people" ; narr:phraseSource <https://aswritten.ai/narrative#Position_TargetMarketRemoteTeams> ] ;
+    narr:variation [ narr:text "The opening price did not hold — a later retro records a raised tier for larger teams, so the founding number is superseded in part." ; narr:over <https://aswritten.ai/narrative#Position_PricingTwelveDollars> ] ;
+    narr:variation [ narr:text "Category creation against real-time chat is asserted, not evidenced — no child here carries market or competitive support for the anti-pattern framing." ; narr:over <https://aswritten.ai/narrative#Position_AntiPatternRealtimeChat> ; narr:over <https://aswritten.ai/narrative#Position_ProductCategoryAsyncPlatform> ] ;
+    narr:moved "true"^^xsd:boolean ;
+    narr:diffBasis "first" ;
+    narr:writer "z-ai/glm-5.3-flash:nitro" .
+}

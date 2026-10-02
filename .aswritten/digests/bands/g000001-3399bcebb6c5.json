@@ -1,0 +1,30 @@
+{
+  "children" : {
+    "n:Narrative_AntiSlackPositioning" : {
+      "n:Position_AntiPatternRealtimeChat" : 2,
+      "n:Position_PricingTwelveDollars" : 1,
+      "n:Position_ProductCategoryAsyncPlatform" : 1,
+      "n:Position_TargetMarketRemoteTeams" : 1
+    }
+  },
+  "generated_from" : "3399bcebb6c58381f3ac26d0f981987daa1e78c0",
+  "hubs" : {
+    "n:Narrative_AntiSlackPositioning" : 2
+  },
+  "params" : {
+    "conviction-floor" : 2,
+    "indexed-cap" : 24,
+    "indexed-frac" : 0.35,
+    "indexed-min" : 4,
+    "rich-cap" : 4,
+    "rich-frac" : 0.15,
+    "rich-min" : 1
+  },
+  "prefixes" : {
+    "n" : "https://aswritten.ai/narrative#",
+    "o" : "https://aswritten.ai/ns/narrative#"
+  },
+  "runs_sha" : "7e635f9aef68391d943e0af3b740da2ebbdecc0e",
+  "sittings" : 198,
+  "spec" : "fidelity-bands/1"
+}
