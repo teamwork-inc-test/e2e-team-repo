@@ -1,0 +1,48 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "authority-ranking" ],
+    "evidence" : [ {
+      "quote" : "Tanya (team owner) ruled on where reaction delivery belongs:",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Explicit attribution of an authoritative ruling by the team owner establishing rank-based governance.",
+    "reported" : false,
+    "direction" : {
+      "verdict" : "mint",
+      "node" : "mint-1"
+    }
+  }, {
+    "segment_local_id" : "src-2",
+    "regions" : [ "authority-ranking", "communal-sharing" ],
+    "evidence" : [ {
+      "quote" : "we route every reaction through one bundle per run per person",
+      "kind" : "framing-move"
+    }, {
+      "quote" : "Tanya (team owner) ruled on where reaction delivery belongs:",
+      "kind" : "delivery"
+    } ],
+    "why" : "Enacts communal framing ('we') under the explicit authority of a team-owner directive.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-3",
+    "regions" : [ "authority-ranking" ],
+    "evidence" : [ {
+      "quote" : "Tina pushed back on the batching window and Tanya held",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Reports hierarchical dispute resolution where pushback is met by the owner holding the line.",
+    "reported" : true
+  } ],
+  "unmarked" : [ "src-4" ],
+  "unmarked_rest" : false,
+  "mints" : [ {
+    "id" : "mint-1",
+    "name" : "OwnerRulingPrecedent",
+    "title" : "owner ruling establishing binding standard",
+    "frame" : "Does the utterance resolve an architectural or operational choice via designated authority ruling rather than consensus?",
+    "regions" : [ "authority-ranking" ]
+  } ],
+  "region_mints" : [ ],
+  "_source_sha256" : "ba05ea0158d2bb5ae030ad5d571477370ce49537407437eea6eb9df45ec14eb7"
+}
