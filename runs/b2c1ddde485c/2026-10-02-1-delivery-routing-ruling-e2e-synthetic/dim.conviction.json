@@ -1,0 +1,45 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "Tanya (team owner) ruled on where reaction delivery belongs:",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Framing records an explicit operational ruling made by the team owner.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-2",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "we route every reaction through one bundle per run per person",
+      "kind" : "commitment-marker"
+    }, {
+      "quote" : "Tanya (team owner) ruled on where reaction delivery belongs:",
+      "kind" : "delivery"
+    } ],
+    "why" : "Establishes a settled operational routing rule backed by formal ruling delivery.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-3",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "Tanya held: the bundle closes when\nthe run closes",
+      "kind" : "commitment-marker"
+    } ],
+    "why" : "Records holding the line against pushback, locking the operational constraint.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-4",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "which moves the ordering problem onto the\nreader.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Asserts a factual/mechanistic justification for rejecting the alternative architecture.",
+    "reported" : false
+  } ],
+  "unmarked" : [ ],
+  "mints" : [ ],
+  "_source_sha256" : "ba05ea0158d2bb5ae030ad5d571477370ce49537407437eea6eb9df45ec14eb7"
+}
