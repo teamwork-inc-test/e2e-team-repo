@@ -1,0 +1,257 @@
+PREFIX narr: <https://aswritten.ai/narrative#>
+PREFIX aswr: <https://aswritten.ai/aswr#>
+PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX dct:  <http://purl.org/dc/terms/>
+PREFIX xsd:  <http://www.w3.org/2001/XMLSchema#>
+PREFIX oa:   <http://www.w3.org/ns/oa#>
+PREFIX xkos: <http://rdf-vocabulary.ddialliance.org/xkos#>
+
+INSERT DATA {
+  aswr:Tx_20260901T222724Z a prov:Activity ;
+      prov:generatedAtTime "2026-09-01T22:27:24Z"^^xsd:dateTime ;
+      prov:wasAssociatedWith "aswritten.ai" ;
+      prov:wasAttributedTo "scarlet@aswritten.ai" ;
+      aswr:pipelinePin "9b8047ca1371" ;
+      aswr:originPath ".aswritten/memories/2026-09-01-2-e2e-default-ref-1788301640261.md" ;
+      dct:title "Multipass fragment: 2E2EDefaultRef1788301640261" ;
+      prov:generated narr:VecConviction_2E2EDefaultRef1788301640261_1, narr:VecTemporal_2E2EDefaultRef1788301640261_1 .
+} ;
+INSERT DATA {
+  GRAPH aswr:Tx_20260901T222724Z {
+    narr:VecConviction_2E2EDefaultRef1788301640261_1 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_2E2EDefaultRef1788301640261_1 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Claim ;
+        narr:evidence "plain-assertion: Testing that omitted ref creates a topic branch." ;
+        narr:reported false ;
+        skos:note "Plain unhedged assertive statement of purpose, no ratification or hedge language present; a flat committed statement lands at claim, not decision." ;
+        prov:generatedAtTime "2026-09-01T22:27:24Z"^^xsd:dateTime .
+
+    narr:VecTemporal_2E2EDefaultRef1788301640261_1 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_2E2EDefaultRef1788301640261_1 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Present ;
+        narr:region narr:Temporal_Realis ;
+        narr:region narr:Temporal_Concrete ;
+        narr:evidence "plain-assertion: Testing that omitted ref creates a topic branch." ;
+        narr:reported false ;
+        skos:note "Present-tense progressive framing of an ongoing, specific test action currently underway." ;
+        prov:generatedAtTime "2026-09-01T22:27:24Z"^^xsd:dateTime .
+
+    narr:Expr_2E2EDefaultRef1788301640261_1 narr:supports narr:Narrative_DefaultRefTopicBranch .
+
+    aswr:Miss_2E2EDefaultRef1788301640261_actors_trip a aswr:Miss ;
+        aswr:missPass "actors" ;
+        aswr:missClass "floor" ;
+        aswr:missError "primary exhausted: LLM call failed after 3 tries: relay HTTP 404: No endpoints found matching your data policy (Zero data retention). Configure: https://openrouter.ai/settings/privacy" ;
+        aswr:missModel "google/gemini-3.7-flash" ;
+        aswr:tripOutcome "middle-validated" ;
+        aswr:tripFallbackModel "anthropic/claude-sonnet-5" ;
+        aswr:missScope narr:Sample_2E2EDefaultRef1788301640261 ;
+        prov:generatedAtTime "2026-09-01T22:27:24Z"^^xsd:dateTime .
+
+    aswr:Miss_2E2EDefaultRef1788301640261_affect_trip a aswr:Miss ;
+        aswr:missPass "affect" ;
+        aswr:missClass "floor" ;
+        aswr:missError "primary exhausted: LLM call failed after 3 tries: relay HTTP 404: No endpoints found matching your data policy (Zero data retention). Configure: https://openrouter.ai/settings/privacy" ;
+        aswr:missModel "google/gemini-3.7-flash" ;
+        aswr:tripOutcome "middle-validated" ;
+        aswr:tripFallbackModel "anthropic/claude-sonnet-5" ;
+        aswr:missScope narr:Sample_2E2EDefaultRef1788301640261 ;
+        prov:generatedAtTime "2026-09-01T22:27:24Z"^^xsd:dateTime .
+
+    aswr:Miss_2E2EDefaultRef1788301640261_conviction_trip a aswr:Miss ;
+        aswr:missPass "conviction" ;
+        aswr:missClass "floor" ;
+        aswr:missError "primary exhausted: LLM call failed after 3 tries: relay HTTP 404: No endpoints found matching your data policy (Zero data retention). Configure: https://openrouter.ai/settings/privacy" ;
+        aswr:missModel "google/gemini-3.7-flash" ;
+        aswr:tripOutcome "middle-validated" ;
+        aswr:tripFallbackModel "anthropic/claude-sonnet-5" ;
+        aswr:missScope narr:Sample_2E2EDefaultRef1788301640261 ;
+        prov:generatedAtTime "2026-09-01T22:27:24Z"^^xsd:dateTime .
+
+    aswr:Miss_2E2EDefaultRef1788301640261_narrative_trip a aswr:Miss ;
+        aswr:missPass "narrative" ;
+        aswr:missClass "floor" ;
+        aswr:missError "primary exhausted: LLM call failed after 3 tries: relay HTTP 404: No endpoints found matching your data policy (Zero data retention). Configure: https://openrouter.ai/settings/privacy; middle tier (subscription.anthropic/claude-sonnet-5) exhausted too" ;
+        aswr:missModel "google/gemini-3.7-flash" ;
+        aswr:tripOutcome "fallback-validated" ;
+        aswr:tripFallbackModel "anthropic/claude-sonnet-5" ;
+        aswr:missScope narr:Sample_2E2EDefaultRef1788301640261 ;
+        prov:generatedAtTime "2026-09-01T22:27:24Z"^^xsd:dateTime .
+
+    aswr:Miss_2E2EDefaultRef1788301640261_position_trip a aswr:Miss ;
+        aswr:missPass "position" ;
+        aswr:missClass "floor" ;
+        aswr:missError "primary exhausted: LLM call failed after 3 tries: relay HTTP 404: No endpoints found matching your data policy (Zero data retention). Configure: https://openrouter.ai/settings/privacy" ;
+        aswr:missModel "google/gemini-3.7-flash" ;
+        aswr:tripOutcome "middle-validated" ;
+        aswr:tripFallbackModel "anthropic/claude-sonnet-5" ;
+        aswr:missScope narr:Sample_2E2EDefaultRef1788301640261 ;
+        prov:generatedAtTime "2026-09-01T22:27:24Z"^^xsd:dateTime .
+
+    aswr:Miss_2E2EDefaultRef1788301640261_power_trip a aswr:Miss ;
+        aswr:missPass "power" ;
+        aswr:missClass "floor" ;
+        aswr:missError "primary exhausted: LLM call failed after 3 tries: relay HTTP 404: No endpoints found matching your data policy (Zero data retention). Configure: https://openrouter.ai/settings/privacy" ;
+        aswr:missModel "google/gemini-3.7-flash" ;
+        aswr:tripOutcome "middle-validated" ;
+        aswr:tripFallbackModel "anthropic/claude-sonnet-5" ;
+        aswr:missScope narr:Sample_2E2EDefaultRef1788301640261 ;
+        prov:generatedAtTime "2026-09-01T22:27:24Z"^^xsd:dateTime .
+
+    aswr:Miss_2E2EDefaultRef1788301640261_reconcile_trip a aswr:Miss ;
+        aswr:missPass "reconcile" ;
+        aswr:missClass "floor" ;
+        aswr:missError "primary exhausted: LLM call failed after 3 tries: relay HTTP 404: No endpoints found matching your data policy (Zero data retention). Configure: https://openrouter.ai/settings/privacy" ;
+        aswr:missModel "google/gemini-3.7-flash" ;
+        aswr:tripOutcome "middle-validated" ;
+        aswr:tripFallbackModel "anthropic/claude-sonnet-5" ;
+        aswr:missScope narr:Sample_2E2EDefaultRef1788301640261 ;
+        prov:generatedAtTime "2026-09-01T22:27:24Z"^^xsd:dateTime .
+
+    aswr:Miss_2E2EDefaultRef1788301640261_register_trip a aswr:Miss ;
+        aswr:missPass "register" ;
+        aswr:missClass "floor" ;
+        aswr:missError "primary exhausted: LLM call failed after 3 tries: relay HTTP 404: No endpoints found matching your data policy (Zero data retention). Configure: https://openrouter.ai/settings/privacy" ;
+        aswr:missModel "google/gemini-3.7-flash" ;
+        aswr:tripOutcome "middle-validated" ;
+        aswr:tripFallbackModel "anthropic/claude-sonnet-5" ;
+        aswr:missScope narr:Sample_2E2EDefaultRef1788301640261 ;
+        prov:generatedAtTime "2026-09-01T22:27:24Z"^^xsd:dateTime .
+
+    aswr:Miss_2E2EDefaultRef1788301640261_relational_trip a aswr:Miss ;
+        aswr:missPass "relational" ;
+        aswr:missClass "floor" ;
+        aswr:missError "primary exhausted: LLM call failed after 3 tries: relay HTTP 404: No endpoints found matching your data policy (Zero data retention). Configure: https://openrouter.ai/settings/privacy" ;
+        aswr:missModel "google/gemini-3.7-flash" ;
+        aswr:tripOutcome "middle-validated" ;
+        aswr:tripFallbackModel "anthropic/claude-sonnet-5" ;
+        aswr:missScope narr:Sample_2E2EDefaultRef1788301640261 ;
+        prov:generatedAtTime "2026-09-01T22:27:24Z"^^xsd:dateTime .
+
+    aswr:Miss_2E2EDefaultRef1788301640261_resolve_trip a aswr:Miss ;
+        aswr:missPass "resolve" ;
+        aswr:missClass "floor" ;
+        aswr:missError "primary exhausted: LLM call failed after 3 tries: relay HTTP 404: No endpoints found matching your data policy (Zero data retention). Configure: https://openrouter.ai/settings/privacy" ;
+        aswr:missModel "google/gemini-3.7-flash" ;
+        aswr:tripOutcome "middle-validated" ;
+        aswr:tripFallbackModel "anthropic/claude-sonnet-5" ;
+        aswr:missScope narr:Sample_2E2EDefaultRef1788301640261 ;
+        prov:generatedAtTime "2026-09-01T22:27:24Z"^^xsd:dateTime .
+
+    aswr:Miss_2E2EDefaultRef1788301640261_source_trip a aswr:Miss ;
+        aswr:missPass "source" ;
+        aswr:missClass "floor" ;
+        aswr:missError "primary exhausted: LLM call failed after 3 tries: relay HTTP 404: No endpoints found matching your data policy (Zero data retention). Configure: https://openrouter.ai/settings/privacy" ;
+        aswr:missModel "google/gemini-3.7-flash" ;
+        aswr:tripOutcome "middle-validated" ;
+        aswr:tripFallbackModel "anthropic/claude-sonnet-5" ;
+        aswr:missScope narr:Sample_2E2EDefaultRef1788301640261 ;
+        prov:generatedAtTime "2026-09-01T22:27:24Z"^^xsd:dateTime .
+
+    aswr:Miss_2E2EDefaultRef1788301640261_style_trip a aswr:Miss ;
+        aswr:missPass "style" ;
+        aswr:missClass "floor" ;
+        aswr:missError "primary exhausted: LLM call failed after 3 tries: relay HTTP 404: No endpoints found matching your data policy (Zero data retention). Configure: https://openrouter.ai/settings/privacy" ;
+        aswr:missModel "google/gemini-3.7-flash" ;
+        aswr:tripOutcome "middle-validated" ;
+        aswr:tripFallbackModel "anthropic/claude-sonnet-5" ;
+        aswr:missScope narr:Sample_2E2EDefaultRef1788301640261 ;
+        prov:generatedAtTime "2026-09-01T22:27:24Z"^^xsd:dateTime .
+
+    aswr:Miss_2E2EDefaultRef1788301640261_temporal_trip a aswr:Miss ;
+        aswr:missPass "temporal" ;
+        aswr:missClass "floor" ;
+        aswr:missError "primary exhausted: LLM call failed after 3 tries: relay HTTP 404: No endpoints found matching your data policy (Zero data retention). Configure: https://openrouter.ai/settings/privacy" ;
+        aswr:missModel "google/gemini-3.7-flash" ;
+        aswr:tripOutcome "middle-validated" ;
+        aswr:tripFallbackModel "anthropic/claude-sonnet-5" ;
+        aswr:missScope narr:Sample_2E2EDefaultRef1788301640261 ;
+        prov:generatedAtTime "2026-09-01T22:27:24Z"^^xsd:dateTime .
+
+    aswr:Miss_2E2EDefaultRef1788301640261_value_trip a aswr:Miss ;
+        aswr:missPass "value" ;
+        aswr:missClass "floor" ;
+        aswr:missError "primary exhausted: LLM call failed after 3 tries: relay HTTP 404: No endpoints found matching your data policy (Zero data retention). Configure: https://openrouter.ai/settings/privacy" ;
+        aswr:missModel "google/gemini-3.7-flash" ;
+        aswr:tripOutcome "middle-validated" ;
+        aswr:tripFallbackModel "anthropic/claude-sonnet-5" ;
+        aswr:missScope narr:Sample_2E2EDefaultRef1788301640261 ;
+        prov:generatedAtTime "2026-09-01T22:27:24Z"^^xsd:dateTime .
+
+    aswr:Run_20260901T222724Z_dim_affect a prov:Activity ;
+        aswr:runPass "dim.affect" ;
+        aswr:draftedBy "subscription.anthropic/claude-sonnet-5" ;
+        aswr:artifact "aswritten/runs:runs/07b3b17eeb57/2026-09-01-2-e2e-default-ref-1788301640261/dim.affect.json" ;
+        dct:isPartOf aswr:Tx_20260901T222724Z ;
+        prov:generatedAtTime "2026-09-01T22:27:24Z"^^xsd:dateTime .
+
+    aswr:Run_20260901T222724Z_dim_conviction a prov:Activity ;
+        aswr:runPass "dim.conviction" ;
+        aswr:draftedBy "subscription.anthropic/claude-sonnet-5" ;
+        aswr:artifact "aswritten/runs:runs/07b3b17eeb57/2026-09-01-2-e2e-default-ref-1788301640261/dim.conviction.json" ;
+        prov:generated narr:VecConviction_2E2EDefaultRef1788301640261_1 ;
+        dct:isPartOf aswr:Tx_20260901T222724Z ;
+        prov:generatedAtTime "2026-09-01T22:27:24Z"^^xsd:dateTime .
+
+    aswr:Run_20260901T222724Z_dim_power a prov:Activity ;
+        aswr:runPass "dim.power" ;
+        aswr:draftedBy "subscription.anthropic/claude-sonnet-5" ;
+        aswr:artifact "aswritten/runs:runs/07b3b17eeb57/2026-09-01-2-e2e-default-ref-1788301640261/dim.power.json" ;
+        dct:isPartOf aswr:Tx_20260901T222724Z ;
+        prov:generatedAtTime "2026-09-01T22:27:24Z"^^xsd:dateTime .
+
+    aswr:Run_20260901T222724Z_dim_register a prov:Activity ;
+        aswr:runPass "dim.register" ;
+        aswr:draftedBy "subscription.anthropic/claude-sonnet-5" ;
+        aswr:artifact "aswritten/runs:runs/07b3b17eeb57/2026-09-01-2-e2e-default-ref-1788301640261/dim.register.json" ;
+        dct:isPartOf aswr:Tx_20260901T222724Z ;
+        prov:generatedAtTime "2026-09-01T22:27:24Z"^^xsd:dateTime .
+
+    aswr:Run_20260901T222724Z_dim_relational a prov:Activity ;
+        aswr:runPass "dim.relational" ;
+        aswr:draftedBy "subscription.anthropic/claude-sonnet-5" ;
+        aswr:artifact "aswritten/runs:runs/07b3b17eeb57/2026-09-01-2-e2e-default-ref-1788301640261/dim.relational.json" ;
+        dct:isPartOf aswr:Tx_20260901T222724Z ;
+        prov:generatedAtTime "2026-09-01T22:27:24Z"^^xsd:dateTime .
+
+    aswr:Run_20260901T222724Z_dim_style a prov:Activity ;
+        aswr:runPass "dim.style" ;
+        aswr:draftedBy "subscription.anthropic/claude-sonnet-5" ;
+        aswr:artifact "aswritten/runs:runs/07b3b17eeb57/2026-09-01-2-e2e-default-ref-1788301640261/dim.style.json" ;
+        dct:isPartOf aswr:Tx_20260901T222724Z ;
+        prov:generatedAtTime "2026-09-01T22:27:24Z"^^xsd:dateTime .
+
+    aswr:Run_20260901T222724Z_dim_temporal a prov:Activity ;
+        aswr:runPass "dim.temporal" ;
+        aswr:draftedBy "subscription.anthropic/claude-sonnet-5" ;
+        aswr:artifact "aswritten/runs:runs/07b3b17eeb57/2026-09-01-2-e2e-default-ref-1788301640261/dim.temporal.json" ;
+        prov:generated narr:VecTemporal_2E2EDefaultRef1788301640261_1 ;
+        dct:isPartOf aswr:Tx_20260901T222724Z ;
+        prov:generatedAtTime "2026-09-01T22:27:24Z"^^xsd:dateTime .
+
+    aswr:Run_20260901T222724Z_dim_value a prov:Activity ;
+        aswr:runPass "dim.value" ;
+        aswr:draftedBy "subscription.anthropic/claude-sonnet-5" ;
+        aswr:artifact "aswritten/runs:runs/07b3b17eeb57/2026-09-01-2-e2e-default-ref-1788301640261/dim.value.json" ;
+        dct:isPartOf aswr:Tx_20260901T222724Z ;
+        prov:generatedAtTime "2026-09-01T22:27:24Z"^^xsd:dateTime .
+
+    aswr:Run_20260901T222724Z_pass5 a prov:Activity ;
+        aswr:runPass "pass5" ;
+        aswr:draftedBy "anthropic/claude-sonnet-5" ;
+        aswr:artifact "aswritten/runs:runs/07b3b17eeb57/2026-09-01-2-e2e-default-ref-1788301640261/pass5.json" ;
+        dct:isPartOf aswr:Tx_20260901T222724Z ;
+        prov:generatedAtTime "2026-09-01T22:27:24Z"^^xsd:dateTime .
+
+    aswr:Run_20260901T222724Z_position a prov:Activity ;
+        aswr:runPass "position" ;
+        aswr:draftedBy "subscription.anthropic/claude-sonnet-5" ;
+        aswr:artifact "aswritten/runs:runs/07b3b17eeb57/2026-09-01-2-e2e-default-ref-1788301640261/position.json" ;
+        dct:isPartOf aswr:Tx_20260901T222724Z ;
+        prov:generatedAtTime "2026-09-01T22:27:24Z"^^xsd:dateTime .
+  }
+}

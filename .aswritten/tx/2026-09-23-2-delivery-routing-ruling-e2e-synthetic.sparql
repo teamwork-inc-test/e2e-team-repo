@@ -1,0 +1,113 @@
+PREFIX narr: <https://aswritten.ai/narrative#>
+PREFIX aswr: <https://aswritten.ai/aswr#>
+PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX dct:  <http://purl.org/dc/terms/>
+PREFIX xsd:  <http://www.w3.org/2001/XMLSchema#>
+PREFIX oa:   <http://www.w3.org/ns/oa#>
+PREFIX xkos: <http://rdf-vocabulary.ddialliance.org/xkos#>
+
+INSERT DATA {
+  aswr:Tx_20260923T092853Z a prov:Activity ;
+      prov:generatedAtTime "2026-09-23T09:28:53Z"^^xsd:dateTime ;
+      prov:wasAssociatedWith "aswritten.ai" ;
+      prov:wasAttributedTo "scarlet@aswritten.ai" ;
+      aswr:pipelinePin "8dd07a49bda8" ;
+      aswr:originPath ".aswritten/memories/2026-09-23-2-delivery-routing-ruling-e2e-synthetic.md" ;
+      dct:title "Multipass source extraction: Delivery routing ruling (e2e synthetic)" ;
+      prov:generated narr:Sample_2DeliveryRoutingRulingE2ESynthetic, narr:Expr_2DeliveryRoutingRulingE2ESynthetic_1, narr:Expr_2DeliveryRoutingRulingE2ESynthetic_2, narr:Expr_2DeliveryRoutingRulingE2ESynthetic_3, narr:Expr_2DeliveryRoutingRulingE2ESynthetic_4 .
+} ;
+INSERT DATA {
+  GRAPH aswr:Tx_20260923T092853Z {
+    narr:Sample_2DeliveryRoutingRulingE2ESynthetic a narr:Sample ;
+        dct:title "Delivery routing ruling (e2e synthetic)" ;
+        aswr:originPath ".aswritten/memories/2026-09-23-2-delivery-routing-ruling-e2e-synthetic.md" ;
+        aswr:submittedBy narr:Actor_Tanya_Staging ;
+        aswr:account narr:Actor_Tanya_Staging .
+
+    narr:Expr_2DeliveryRoutingRulingE2ESynthetic_1 a narr:Expression ;
+        narr:actor narr:Actor_Tanya_Staging ;
+        narr:act "assertive" ;
+        narr:animator narr:Actor_Tanya_Staging ;
+        narr:author narr:Actor_Tanya_Staging ;
+        narr:context "Delivery routing ruling" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_2DeliveryRoutingRulingE2ESynthetic ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Tanya (team owner) ruled on where reaction delivery belongs:" ;
+                oa:prefix "uting ruling (e2e synthetic)\n\n" ;
+                oa:suffix "\n\n> we route every reaction th" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "94"^^xsd:integer ;
+                oa:end "154"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T09:28:53Z"^^xsd:dateTime .
+
+    narr:Expr_2DeliveryRoutingRulingE2ESynthetic_2 a narr:Expression ;
+        narr:actor narr:Actor_Tanya_Staging ;
+        narr:act "directive" ;
+        narr:context "Delivery routing ruling" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_2DeliveryRoutingRulingE2ESynthetic ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "we route every reaction through one bundle per run per person, not one\n> message per skill — a person should get one thing to read, not four" ;
+                oa:prefix "reaction delivery belongs:\n\n> " ;
+                oa:suffix "\n\nTina pushed back on the batc" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "158"^^xsd:integer ;
+                oa:end "298"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T09:28:53Z"^^xsd:dateTime .
+
+    narr:Expr_2DeliveryRoutingRulingE2ESynthetic_3 a narr:Expression ;
+        narr:actor narr:Actor_Tanya_Staging ;
+        narr:act "assertive" ;
+        narr:animator narr:Actor_Tanya_Staging ;
+        narr:author narr:Actor_Tanya_Staging ;
+        narr:principal narr:Actor_Tanya_Staging ;
+        narr:context "Delivery routing ruling" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_2DeliveryRoutingRulingE2ESynthetic ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Tina pushed back on the batching window and Tanya held: the bundle closes when\nthe run closes, and a skill that misses the close waits for the next run rather\nthan sending on its own." ;
+                oa:prefix " one thing to read, not four\n\n" ;
+                oa:suffix " The alternative considered an" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "300"^^xsd:integer ;
+                oa:end "483"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T09:28:53Z"^^xsd:dateTime .
+
+    narr:Expr_2DeliveryRoutingRulingE2ESynthetic_4 a narr:Expression ;
+        narr:actor narr:Actor_Tanya_Staging ;
+        narr:act "assertive" ;
+        narr:animator narr:Actor_Tanya_Staging ;
+        narr:author narr:Actor_Tanya_Staging ;
+        narr:context "Delivery routing ruling" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_2DeliveryRoutingRulingE2ESynthetic ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "The alternative considered and rejected was per-skill\ndelivery with client-side collapsing, which moves the ordering problem onto the\nreader." ;
+                oa:prefix "ther\nthan sending on its own. " ;
+                oa:suffix "\n" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "484"^^xsd:integer ;
+                oa:end "625"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-23T09:28:53Z"^^xsd:dateTime .
+
+    narr:Actor_Tanya_Staging skos:prefLabel "Tanya TeamOwner" .
+
+    aswr:Run_20260923T092853Z_actors a prov:Activity ;
+        aswr:runPass "actors" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/a6da3e208d18/2026-09-23-2-delivery-routing-ruling-e2e-synthetic/actors.json" ;
+        dct:isPartOf aswr:Tx_20260923T092853Z ;
+        prov:generatedAtTime "2026-09-23T09:28:53Z"^^xsd:dateTime .
+
+    aswr:Run_20260923T092853Z_pass1 a prov:Activity ;
+        aswr:runPass "pass1" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/a6da3e208d18/2026-09-23-2-delivery-routing-ruling-e2e-synthetic/pass1.json" ;
+        prov:generated narr:Sample_2DeliveryRoutingRulingE2ESynthetic, narr:Expr_2DeliveryRoutingRulingE2ESynthetic_1, narr:Expr_2DeliveryRoutingRulingE2ESynthetic_2, narr:Expr_2DeliveryRoutingRulingE2ESynthetic_3, narr:Expr_2DeliveryRoutingRulingE2ESynthetic_4 ;
+        dct:isPartOf aswr:Tx_20260923T092853Z ;
+        prov:generatedAtTime "2026-09-23T09:28:53Z"^^xsd:dateTime .
+  }
+}
