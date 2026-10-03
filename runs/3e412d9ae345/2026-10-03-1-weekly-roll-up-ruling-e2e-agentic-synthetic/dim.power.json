@@ -1,0 +1,48 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-2",
+    "regions" : [ "legitimate" ],
+    "evidence" : [ {
+      "quote" : "Tanya (team owner) ruled",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Explicit invocation of positional authority ('team owner') exercising official decision-making power ('ruled').",
+    "reported" : false,
+    "direction" : {
+      "verdict" : "mint",
+      "node" : "mint-1"
+    }
+  }, {
+    "segment_local_id" : "src-3",
+    "regions" : [ "legitimate" ],
+    "evidence" : [ {
+      "quote" : "Tanya (team owner) ruled on how the week's reactions reach people:",
+      "kind" : "delivery"
+    } ],
+    "why" : "Declarative policy setting backed by the formal ruling framing from the supply delivery context.",
+    "reported" : false,
+    "direction" : {
+      "verdict" : "mint",
+      "node" : "mint-1"
+    }
+  }, {
+    "segment_local_id" : "src-6",
+    "regions" : [ "rational-persuasion", "legitimate" ],
+    "evidence" : [ {
+      "quote" : "Rejected: a\ndaily digest, because most days carry a single run and it would repeat the\nbundle word for word.",
+      "kind" : "performed-act"
+    } ],
+    "why" : "A formal ruling of rejection backed by logical justification explaining why the proposal would be redundant.",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-4", "src-5" ],
+  "mints" : [ {
+    "id" : "mint-1",
+    "name" : "PositionalRuling",
+    "title" : "ruled by authority of team owner role",
+    "frame" : "Does the speaker invoke formal positional status or role mandate to establish an operational rule?",
+    "regions" : [ "legitimate" ]
+  } ],
+  "region_mints" : [ ],
+  "_source_sha256" : "a613398fb06b1f603a0127b54d35b3c7368f5d5d79b24da10e8023780d4ab149"
+}
