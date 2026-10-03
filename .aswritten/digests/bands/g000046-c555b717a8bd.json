@@ -40,6 +40,10 @@
       "n:Expr_20261002_1_DeliveryRoutingRulingE2ESynthetic_h3a7c5d6c9593_1" : 1,
       "n:Expr_20261002_1_DeliveryRoutingRulingE2ESynthetic_h3a7c5d6c9593_2" : 1,
       "n:Expr_20261002_1_DeliveryRoutingRulingE2ESynthetic_h3a7c5d6c9593_3" : 1,
+      "n:Expr_20261003_1_WeeklyRollUpRulingE2EAgenticSynthetic_h1f5318ecf934_2" : 1,
+      "n:Expr_20261003_1_WeeklyRollUpRulingE2EAgenticSynthetic_h1f5318ecf934_3" : 1,
+      "n:Expr_20261003_1_WeeklyRollUpRulingE2EAgenticSynthetic_h1f5318ecf934_5" : 1,
+      "n:Expr_20261003_1_WeeklyRollUpRulingE2EAgenticSynthetic_h1f5318ecf934_6" : 1,
       "n:Expr_2DeliveryRoutingRulingE2ESynthetic_1" : 2,
       "n:Expr_2DeliveryRoutingRulingE2ESynthetic_2" : 2,
       "n:Expr_2DeliveryRoutingRulingE2ESynthetic_3" : 2,
@@ -121,6 +125,10 @@
       "n:Expr_20261002_1_DeliveryRoutingRulingE2ESynthetic_h3a7c5d6c9593_1" : 1,
       "n:Expr_20261002_1_DeliveryRoutingRulingE2ESynthetic_h3a7c5d6c9593_2" : 1,
       "n:Expr_20261002_1_DeliveryRoutingRulingE2ESynthetic_h3a7c5d6c9593_3" : 1,
+      "n:Expr_20261003_1_WeeklyRollUpRulingE2EAgenticSynthetic_h1f5318ecf934_2" : 1,
+      "n:Expr_20261003_1_WeeklyRollUpRulingE2EAgenticSynthetic_h1f5318ecf934_3" : 1,
+      "n:Expr_20261003_1_WeeklyRollUpRulingE2EAgenticSynthetic_h1f5318ecf934_5" : 1,
+      "n:Expr_20261003_1_WeeklyRollUpRulingE2EAgenticSynthetic_h1f5318ecf934_6" : 1,
       "n:Expr_2DeliveryRoutingRulingE2ESynthetic_1" : 2,
       "n:Expr_2DeliveryRoutingRulingE2ESynthetic_2" : 2,
       "n:Expr_2DeliveryRoutingRulingE2ESynthetic_3" : 2,
@@ -171,7 +179,10 @@
       "n:Expr_20260929_1_WeeklyRollUpRulingE2EAgenticSynthetic_h94add5a10097_5" : 1,
       "n:Expr_20261001_1_WeeklyRollUpRulingE2EAgenticSynthetic_ha7f40d1c5663_2" : 1,
       "n:Expr_20261001_1_WeeklyRollUpRulingE2EAgenticSynthetic_ha7f40d1c5663_4" : 1,
-      "n:Expr_20261001_1_WeeklyRollUpRulingE2EAgenticSynthetic_ha7f40d1c5663_5" : 1
+      "n:Expr_20261001_1_WeeklyRollUpRulingE2EAgenticSynthetic_ha7f40d1c5663_5" : 1,
+      "n:Expr_20261003_1_WeeklyRollUpRulingE2EAgenticSynthetic_h1f5318ecf934_3" : 1,
+      "n:Expr_20261003_1_WeeklyRollUpRulingE2EAgenticSynthetic_h1f5318ecf934_5" : 1,
+      "n:Expr_20261003_1_WeeklyRollUpRulingE2EAgenticSynthetic_h1f5318ecf934_6" : 1
     },
     "n:Sample_20260925_1_WeeklyRollUpRulingE2EAgenticSynthetic_h5c24fdddd3e5" : {
       "n:Expr_20260925_1_WeeklyRollUpRulingE2EAgenticSynthetic_h5c24fdddd3e5_1" : 2,
@@ -207,9 +218,16 @@
       "n:Expr_20261001_1_WeeklyRollUpRulingE2EAgenticSynthetic_ha7f40d1c5663_3" : 1,
       "n:Expr_20261001_1_WeeklyRollUpRulingE2EAgenticSynthetic_ha7f40d1c5663_4" : 1,
       "n:Expr_20261001_1_WeeklyRollUpRulingE2EAgenticSynthetic_ha7f40d1c5663_5" : 1
+    },
+    "n:Sample_20261003_1_WeeklyRollUpRulingE2EAgenticSynthetic_h1f5318ecf934" : {
+      "n:Expr_20261003_1_WeeklyRollUpRulingE2EAgenticSynthetic_h1f5318ecf934_2" : 2,
+      "n:Expr_20261003_1_WeeklyRollUpRulingE2EAgenticSynthetic_h1f5318ecf934_3" : 1,
+      "n:Expr_20261003_1_WeeklyRollUpRulingE2EAgenticSynthetic_h1f5318ecf934_4" : 1,
+      "n:Expr_20261003_1_WeeklyRollUpRulingE2EAgenticSynthetic_h1f5318ecf934_5" : 1,
+      "n:Expr_20261003_1_WeeklyRollUpRulingE2EAgenticSynthetic_h1f5318ecf934_6" : 1
     }
   },
-  "generated_from" : "663164f49a4d66d0dab8262fc5beaa8de4c059cf",
+  "generated_from" : "c555b717a8bd1752d73cb2f139a02ad05696dc96",
   "hubs" : {
     "n:Actor_Tanya_Staging" : 2,
     "n:DesignTradeoffs" : 2,
@@ -237,7 +255,7 @@
     "n" : "https://aswritten.ai/narrative#",
     "o" : "https://aswritten.ai/ns/narrative#"
   },
-  "runs_sha" : "7d495dd72b7174d68b3790c3f47d4315105fdd94",
-  "sittings" : 199,
+  "runs_sha" : "40922a788b5a06fdcfaff1aee30b27e9238f2323",
+  "sittings" : 202,
   "spec" : "fidelity-bands/1"
 }
