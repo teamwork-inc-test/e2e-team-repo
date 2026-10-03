@@ -1,0 +1,46 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-2",
+    "regions" : [ "authority-ranking" ],
+    "evidence" : [ {
+      "quote" : "Tanya (team owner) ruled",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Establishes institutional authority by formally framing Tanya's decision as a binding ruling by the team owner.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-3",
+    "regions" : [ "authority-ranking", "communal-sharing" ],
+    "evidence" : [ {
+      "quote" : "the per-run bundle stays, and on Fridays we add one roll-up of the week",
+      "kind" : "performed-act"
+    }, {
+      "quote" : "instead of asking anyone to scroll back",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Enacts authority-ranking by prescribing policy rules while invoking communal consideration for the team's shared workflow.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-5",
+    "regions" : [ "authority-ranking" ],
+    "evidence" : [ {
+      "quote" : "Tanya held that it\ndoes not",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Exercises interpretive authority to clarify and maintain the established boundary between run bundles and weekly roll-ups.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-6",
+    "regions" : [ "authority-ranking" ],
+    "evidence" : [ {
+      "quote" : "Rejected:",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Direct performative rejection of an alternative option via hierarchical determination.",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-4" ],
+  "mints" : [ ],
+  "region_mints" : [ ],
+  "_source_sha256" : "a613398fb06b1f603a0127b54d35b3c7368f5d5d79b24da10e8023780d4ab149"
+}
