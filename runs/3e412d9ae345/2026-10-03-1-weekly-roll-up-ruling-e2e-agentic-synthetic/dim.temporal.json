@@ -1,0 +1,42 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-3",
+    "regions" : [ "future", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "the per-run bundle stays, and on Fridays we add one roll-up of the week",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Establishes a concrete, recurring schedule/rule for future workflow as an enacted settlement.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-4",
+    "regions" : [ "future", "irrealis", "abstract" ],
+    "evidence" : [ {
+      "quote" : "Tina asked whether the roll-up replaces the per-run bundle.",
+      "kind" : "plain-signal"
+    } ],
+    "why" : "Reported inquiry explores the hypothetical operational scope of the new roll-up mechanism.",
+    "reported" : true
+  }, {
+    "segment_local_id" : "src-5",
+    "regions" : [ "present", "realis", "abstract" ],
+    "evidence" : [ {
+      "quote" : "the bundle is for the run, the roll-up is for the week.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Defines the present categorical distinction and operational principle governing both formats.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-6",
+    "regions" : [ "past", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "Rejected: a\ndaily digest",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Records a settled, definitive past decision rejecting a specific proposal.",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-2" ],
+  "unmarked_rest" : false,
+  "_source_sha256" : "a613398fb06b1f603a0127b54d35b3c7368f5d5d79b24da10e8023780d4ab149"
+}
