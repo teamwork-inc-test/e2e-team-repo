@@ -1,0 +1,111 @@
+{
+  "doc" : {
+    "title" : "Weekly roll-up ruling (e2e agentic synthetic)",
+    "date_stated" : null,
+    "actors_present" : [ "Tanya TeamOwner", "Tina" ]
+  },
+  "footing_cases" : [ {
+    "id" : "fc-1",
+    "animator" : "Tanya TeamOwner",
+    "author" : "Tanya TeamOwner",
+    "principal" : null,
+    "when" : "Editorial narration / quote-framing sentences composed by the document author"
+  }, {
+    "id" : "fc-2",
+    "animator" : "Tanya TeamOwner",
+    "author" : "Tanya TeamOwner",
+    "principal" : "Tina",
+    "when" : "Reported speech attributing to Tina with speech verb inside the sentence"
+  }, {
+    "id" : "fc-3",
+    "animator" : "Tanya TeamOwner",
+    "author" : "Tanya TeamOwner",
+    "principal" : "Tanya TeamOwner",
+    "when" : "Reported speech attributing to Tanya with speech verb inside the sentence"
+  } ],
+  "segments" : [ {
+    "circumstance" : {
+      "context" : "Weekly roll-up ruling"
+    },
+    "exact" : "Tanya (team owner) ruled on how the week's reactions reach people:",
+    "local_id" : "src-2",
+    "act" : "assertive",
+    "footing_case" : "fc-1",
+    "note" : "Quote frame introducing Tanya's ruling",
+    "footing" : {
+      "animator" : "Tanya TeamOwner",
+      "author" : "Tanya TeamOwner",
+      "principal" : null
+    },
+    "redacted" : false,
+    "actor" : "Tanya TeamOwner"
+  }, {
+    "circumstance" : {
+      "context" : "Weekly roll-up ruling"
+    },
+    "exact" : "the per-run bundle stays, and on Fridays we add one roll-up of the week —\n> what moved, what is still open — instead of asking anyone to scroll back",
+    "local_id" : "src-3",
+    "act" : "declarative",
+    "footing_case" : null,
+    "note" : "Direct quoted ruling establishing the roll-up schedule",
+    "redacted" : false,
+    "how" : [ {
+      "span" : "Tanya (team owner) ruled on how the week's reactions reach people:",
+      "side" : "supply"
+    } ],
+    "actor" : "Tanya TeamOwner"
+  }, {
+    "circumstance" : {
+      "context" : "Weekly roll-up ruling"
+    },
+    "exact" : "Tina asked whether the roll-up replaces the per-run bundle.",
+    "local_id" : "src-4",
+    "act" : "question",
+    "footing_case" : "fc-2",
+    "note" : "Indirect/reported question from Tina",
+    "footing" : {
+      "animator" : "Tanya TeamOwner",
+      "author" : "Tanya TeamOwner",
+      "principal" : "Tina"
+    },
+    "redacted" : false,
+    "actor" : "Tanya TeamOwner"
+  }, {
+    "circumstance" : {
+      "context" : "Weekly roll-up ruling"
+    },
+    "exact" : "Tanya held that it\ndoes not: the bundle is for the run, the roll-up is for the week.",
+    "local_id" : "src-5",
+    "act" : "assertive",
+    "footing_case" : "fc-3",
+    "note" : "Reported speech statement of Tanya's position",
+    "footing" : {
+      "animator" : "Tanya TeamOwner",
+      "author" : "Tanya TeamOwner",
+      "principal" : "Tanya TeamOwner"
+    },
+    "redacted" : false,
+    "actor" : "Tanya TeamOwner"
+  }, {
+    "circumstance" : {
+      "context" : "Weekly roll-up ruling"
+    },
+    "exact" : "Rejected: a\ndaily digest, because most days carry a single run and it would repeat the\nbundle word for word.",
+    "local_id" : "src-6",
+    "act" : "declarative",
+    "footing_case" : "fc-1",
+    "note" : "Rejection record and rationale",
+    "footing" : {
+      "animator" : "Tanya TeamOwner",
+      "author" : "Tanya TeamOwner",
+      "principal" : null
+    },
+    "redacted" : false,
+    "actor" : "Tanya TeamOwner"
+  } ],
+  "coverage_gaps" : [ {
+    "reason" : "segment src-1 dropped: exact unverifiable against the document (paraphrase or unrepairable normalization)",
+    "span_hint" : "- [redacted-ema"
+  } ],
+  "_source_sha256" : "a613398fb06b1f603a0127b54d35b3c7368f5d5d79b24da10e8023780d4ab149"
+}
