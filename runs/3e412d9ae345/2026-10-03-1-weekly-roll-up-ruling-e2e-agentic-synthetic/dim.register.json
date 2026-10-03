@@ -1,0 +1,26 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-2",
+    "regions" : [ "formal" ],
+    "evidence" : [ {
+      "quote" : "ruled on",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Governance/institutional framing establishes formal administrative posture.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-6",
+    "regions" : [ "formal" ],
+    "evidence" : [ {
+      "quote" : "Rejected:",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Terse administrative disposition format.",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-3", "src-4", "src-5" ],
+  "unmarked_rest" : false,
+  "mints" : [ ],
+  "region_mints" : [ ],
+  "_source_sha256" : "a613398fb06b1f603a0127b54d35b3c7368f5d5d79b24da10e8023780d4ab149"
+}
