@@ -1,0 +1,42 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-2",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "ruled on",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Explicit performative ruling framing that sets a settled operational decision.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-3",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "we route every reaction through one bundle per run per person, not one\n> message per skill",
+      "kind" : "commitment-marker"
+    } ],
+    "why" : "Establishes a firm operational rule ('we route every reaction through one bundle') settling how delivery operates.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-4",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "Tanya held: the bundle closes when\nthe run closes",
+      "kind" : "commitment-marker"
+    } ],
+    "why" : "Records maintaining the decision against pushback and stating the strict closing rule.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-5",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "considered and rejected",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Explicitly ratifies the settled architectural decision by rejecting the alternative.",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-1" ],
+  "mints" : [ ],
+  "_source_sha256" : "ba05ea0158d2bb5ae030ad5d571477370ce49537407437eea6eb9df45ec14eb7"
+}
