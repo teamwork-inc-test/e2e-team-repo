@@ -1,0 +1,11 @@
+{
+  "placements" : [ {
+    "verdict" : "reuse",
+    "leaf" : "Narrative_DecisionCaptureAtConsensus",
+    "supporting_segments" : [ "src-1", "src-2", "src-3" ],
+    "why" : "Shipping the async decision widget and unlocking its distribution and high sprint velocity via the Zephyr integration directly operationalizes and evidences the core narrative of capturing decisions at the point of consensus.",
+    "consulted" : [ "Narrative_DecisionCaptureAtConsensus", "Narrative_AntiSlackPositioning", "Narrative_DecisionsEvaporate" ]
+  } ],
+  "unplaced" : [ ],
+  "_source_sha256" : "1237e18b54774c37eb5214040874288fc88b5befa916140e66a01d5fdd1f31b8"
+}
