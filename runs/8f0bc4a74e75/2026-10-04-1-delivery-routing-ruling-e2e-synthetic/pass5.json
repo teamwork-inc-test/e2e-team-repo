@@ -1,0 +1,11 @@
+{
+  "placements" : [ {
+    "verdict" : "reuse",
+    "leaf" : "Narrative_ReactionDeliveryBundling",
+    "supporting_segments" : [ "src-2", "src-3", "src-4", "src-5" ],
+    "why" : "The segments directly state and elaborate the team owner's ruling on reaction delivery bundling (routing every reaction into one bundle per run per person), holding the batching window close against pushback, and recording the rejection of client-side per-skill collapsing.",
+    "consulted" : [ "Narrative_ReactionDeliveryBundling", "DesignTradeoffs", "Position_ReactionDeliveryBundlingAndBatchingBoundary" ]
+  } ],
+  "unplaced" : [ "src-1" ],
+  "_source_sha256" : "ba05ea0158d2bb5ae030ad5d571477370ce49537407437eea6eb9df45ec14eb7"
+}
