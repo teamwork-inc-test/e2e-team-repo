@@ -1,0 +1,62 @@
+{
+  "doc" : {
+    "title" : "Delivery routing ruling (e2e synthetic)",
+    "date_stated" : null,
+    "actors_present" : [ "Tanya TeamOwner", "Tina" ]
+  },
+  "segments" : [ {
+    "local_id" : "src-1",
+    "exact" : "reviewers:\n  - tanya+staging@aswritten.ai",
+    "actor" : "Tanya TeamOwner",
+    "act" : "directive",
+    "redacted" : true,
+    "footing_case" : null,
+    "circumstance" : {
+      "context" : "Frontmatter metadata"
+    },
+    "note" : "Frontmatter reviewers record"
+  }, {
+    "local_id" : "src-2",
+    "exact" : "Tanya (team owner) ruled on where reaction delivery belongs:",
+    "actor" : "Tanya TeamOwner",
+    "act" : "assertive",
+    "footing_case" : null,
+    "circumstance" : {
+      "context" : "Delivery routing ruling"
+    },
+    "note" : "Framing sentence introducing Tanya's ruling"
+  }, {
+    "local_id" : "src-3",
+    "exact" : "we route every reaction through one bundle per run per person, not one\n> message per skill — a person should get one thing to read, not four",
+    "actor" : "Tanya TeamOwner",
+    "act" : "directive",
+    "footing_case" : null,
+    "circumstance" : {
+      "context" : "Delivery routing ruling"
+    },
+    "note" : "Direct quote stating the routing policy"
+  }, {
+    "local_id" : "src-4",
+    "exact" : "Tina pushed back on the batching window and Tanya held: the bundle closes when\nthe run closes, and a skill that misses the close waits for the next run rather\nthan sending on its own.",
+    "actor" : "Tanya TeamOwner",
+    "act" : "assertive",
+    "footing_case" : null,
+    "circumstance" : {
+      "context" : "Delivery routing ruling"
+    },
+    "note" : "Reporting Tina's pushback and Tanya's ruling on batching window"
+  }, {
+    "local_id" : "src-5",
+    "exact" : "The alternative considered and rejected was per-skill\ndelivery with client-side collapsing, which moves the ordering problem onto the\nreader.",
+    "actor" : "Tanya TeamOwner",
+    "act" : "assertive",
+    "footing_case" : null,
+    "circumstance" : {
+      "context" : "Delivery routing ruling"
+    },
+    "note" : "Summary of rejected alternative"
+  } ],
+  "coverage_gaps" : [ ],
+  "footing_cases" : [ ],
+  "_source_sha256" : "ba05ea0158d2bb5ae030ad5d571477370ce49537407437eea6eb9df45ec14eb7"
+}
