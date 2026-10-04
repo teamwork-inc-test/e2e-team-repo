@@ -44,6 +44,10 @@
       "n:Expr_20261003_1_WeeklyRollUpRulingE2EAgenticSynthetic_h1f5318ecf934_3" : 1,
       "n:Expr_20261003_1_WeeklyRollUpRulingE2EAgenticSynthetic_h1f5318ecf934_5" : 1,
       "n:Expr_20261003_1_WeeklyRollUpRulingE2EAgenticSynthetic_h1f5318ecf934_6" : 1,
+      "n:Expr_20261004_1_DeliveryRoutingRulingE2ESynthetic_h88863a36af14_2" : 1,
+      "n:Expr_20261004_1_DeliveryRoutingRulingE2ESynthetic_h88863a36af14_3" : 1,
+      "n:Expr_20261004_1_DeliveryRoutingRulingE2ESynthetic_h88863a36af14_4" : 1,
+      "n:Expr_20261004_1_DeliveryRoutingRulingE2ESynthetic_h88863a36af14_5" : 1,
       "n:Expr_2DeliveryRoutingRulingE2ESynthetic_1" : 2,
       "n:Expr_2DeliveryRoutingRulingE2ESynthetic_2" : 2,
       "n:Expr_2DeliveryRoutingRulingE2ESynthetic_3" : 2,
@@ -129,6 +133,10 @@
       "n:Expr_20261003_1_WeeklyRollUpRulingE2EAgenticSynthetic_h1f5318ecf934_3" : 1,
       "n:Expr_20261003_1_WeeklyRollUpRulingE2EAgenticSynthetic_h1f5318ecf934_5" : 1,
       "n:Expr_20261003_1_WeeklyRollUpRulingE2EAgenticSynthetic_h1f5318ecf934_6" : 1,
+      "n:Expr_20261004_1_DeliveryRoutingRulingE2ESynthetic_h88863a36af14_2" : 1,
+      "n:Expr_20261004_1_DeliveryRoutingRulingE2ESynthetic_h88863a36af14_3" : 1,
+      "n:Expr_20261004_1_DeliveryRoutingRulingE2ESynthetic_h88863a36af14_4" : 1,
+      "n:Expr_20261004_1_DeliveryRoutingRulingE2ESynthetic_h88863a36af14_5" : 1,
       "n:Expr_2DeliveryRoutingRulingE2ESynthetic_1" : 2,
       "n:Expr_2DeliveryRoutingRulingE2ESynthetic_2" : 2,
       "n:Expr_2DeliveryRoutingRulingE2ESynthetic_3" : 2,
@@ -159,6 +167,9 @@
       "n:Expr_20260930_1_DeliveryRoutingRulingE2ESynthetic_h8da21f01f22b_6" : 1,
       "n:Expr_20261002_1_DeliveryRoutingRulingE2ESynthetic_h3a7c5d6c9593_2" : 1,
       "n:Expr_20261002_1_DeliveryRoutingRulingE2ESynthetic_h3a7c5d6c9593_3" : 1,
+      "n:Expr_20261004_1_DeliveryRoutingRulingE2ESynthetic_h88863a36af14_3" : 1,
+      "n:Expr_20261004_1_DeliveryRoutingRulingE2ESynthetic_h88863a36af14_4" : 1,
+      "n:Expr_20261004_1_DeliveryRoutingRulingE2ESynthetic_h88863a36af14_5" : 1,
       "n:Expr_2DeliveryRoutingRulingE2ESynthetic_2" : 2,
       "n:Expr_2DeliveryRoutingRulingE2ESynthetic_3" : 2,
       "n:Expr_2DeliveryRoutingRulingE2ESynthetic_4" : 2,
@@ -225,9 +236,16 @@
       "n:Expr_20261003_1_WeeklyRollUpRulingE2EAgenticSynthetic_h1f5318ecf934_4" : 1,
       "n:Expr_20261003_1_WeeklyRollUpRulingE2EAgenticSynthetic_h1f5318ecf934_5" : 1,
       "n:Expr_20261003_1_WeeklyRollUpRulingE2EAgenticSynthetic_h1f5318ecf934_6" : 1
+    },
+    "n:Sample_20261004_1_DeliveryRoutingRulingE2ESynthetic_h88863a36af14" : {
+      "n:Expr_20261004_1_DeliveryRoutingRulingE2ESynthetic_h88863a36af14_1" : 1,
+      "n:Expr_20261004_1_DeliveryRoutingRulingE2ESynthetic_h88863a36af14_2" : 2,
+      "n:Expr_20261004_1_DeliveryRoutingRulingE2ESynthetic_h88863a36af14_3" : 1,
+      "n:Expr_20261004_1_DeliveryRoutingRulingE2ESynthetic_h88863a36af14_4" : 1,
+      "n:Expr_20261004_1_DeliveryRoutingRulingE2ESynthetic_h88863a36af14_5" : 1
     }
   },
-  "generated_from" : "c555b717a8bd1752d73cb2f139a02ad05696dc96",
+  "generated_from" : "6f2b393ccafd3c0367c68373020a1780ba9bc4f6",
   "hubs" : {
     "n:Actor_Tanya_Staging" : 2,
     "n:DesignTradeoffs" : 2,
@@ -237,10 +255,11 @@
     "n:Position_ReactionDeliveryBundlingAndBatchingBoundary" : 2,
     "n:Position_WeeklyReactionRollUpCadence" : 1,
     "n:Sample_20260925_1_WeeklyRollUpRulingE2EAgenticSynthetic_h5c24fdddd3e5" : 2,
-    "n:Sample_20260927_1_WeeklyRollUpRulingE2EAgenticSynthetic_hf65a0248bea8" : 1,
+    "n:Sample_20260927_1_WeeklyRollUpRulingE2EAgenticSynthetic_hf65a0248bea8" : 2,
     "n:Sample_20260929_1_WeeklyRollUpRulingE2EAgenticSynthetic_h94add5a10097" : 1,
     "n:Sample_20260930_1_DeliveryRoutingRulingE2ESynthetic_h8da21f01f22b" : 1,
-    "n:Sample_20261001_1_WeeklyRollUpRulingE2EAgenticSynthetic_ha7f40d1c5663" : 1
+    "n:Sample_20261001_1_WeeklyRollUpRulingE2EAgenticSynthetic_ha7f40d1c5663" : 1,
+    "n:Sample_20261003_1_WeeklyRollUpRulingE2EAgenticSynthetic_h1f5318ecf934" : 1
   },
   "params" : {
     "conviction-floor" : 2,
@@ -255,7 +274,7 @@
     "n" : "https://aswritten.ai/narrative#",
     "o" : "https://aswritten.ai/ns/narrative#"
   },
-  "runs_sha" : "40922a788b5a06fdcfaff1aee30b27e9238f2323",
-  "sittings" : 202,
+  "runs_sha" : "040f8f474e03f0b24d8c5e7f19c2d9d90d939daf",
+  "sittings" : 203,
   "spec" : "fidelity-bands/1"
 }
