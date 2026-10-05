@@ -1,0 +1,11 @@
+{
+  "placements" : [ {
+    "verdict" : "reuse",
+    "leaf" : "Narrative_ReactionDeliveryBundling",
+    "supporting_segments" : [ "src-2", "src-3", "src-4", "src-5", "src-6" ],
+    "why" : "All segments directly advance, question, and define the team's reaction delivery and aggregation rules, confirming the per-run bundle policy and extending it with the Friday weekly roll-up cadence while rejecting a daily digest.",
+    "consulted" : [ "Narrative_ReactionDeliveryBundling", "Narrative_DefaultRefTopicBranch", "Narrative_AntiSlackPositioning", "Narrative_DecisionCaptureAtConsensus", "Narrative_DecisionsEvaporate" ]
+  } ],
+  "unplaced" : [ ],
+  "_source_sha256" : "a613398fb06b1f603a0127b54d35b3c7368f5d5d79b24da10e8023780d4ab149"
+}
