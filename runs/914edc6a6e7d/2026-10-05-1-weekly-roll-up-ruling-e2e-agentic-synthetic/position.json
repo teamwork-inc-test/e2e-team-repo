@@ -1,0 +1,11 @@
+{
+  "positions" : [ ],
+  "attaches" : [ {
+    "position" : "Position_WeeklyReactionRollUpCadence",
+    "members" : [ "src-3", "src-4", "src-5", "src-6" ],
+    "why" : "The existing frame cleanly encompasses the directive establishing Friday weekly roll-ups alongside per-run bundles, the clarification addressing Tina's replacement question, and the explicit rejection of daily digests."
+  } ],
+  "position_revisions" : [ ],
+  "ungrouped" : [ "src-2" ],
+  "_source_sha256" : "a613398fb06b1f603a0127b54d35b3c7368f5d5d79b24da10e8023780d4ab149"
+}
