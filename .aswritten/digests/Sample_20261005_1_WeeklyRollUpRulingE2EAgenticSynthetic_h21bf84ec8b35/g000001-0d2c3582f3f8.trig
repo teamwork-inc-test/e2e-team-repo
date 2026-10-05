@@ -1,0 +1,25 @@
+@prefix narr: <https://aswritten.ai/narrative#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+GRAPH <https://aswritten.ai/narrative#Digest_Sample_20261005_1_WeeklyRollUpRulingE2EAgenticSynthetic_h21bf84ec8b35> {
+  <https://aswritten.ai/narrative#Digest_Sample_20261005_1_WeeklyRollUpRulingE2EAgenticSynthetic_h21bf84ec8b35> a narr:Digest ;
+    narr:digestOf <https://aswritten.ai/narrative#Sample_20261005_1_WeeklyRollUpRulingE2EAgenticSynthetic_h21bf84ec8b35> ;
+    narr:childCount "5"^^xsd:integer ;
+    narr:generatedFrom "0d2c3582f3f815c3860ad2287455cac318c34253" ;
+    narr:narration """This call is a single ruling on how weekly reactions reach people. [Tanya, as team owner, ruled on the week's reactions](narr:Expr_20261005_1_WeeklyRollUpRulingE2EAgenticSynthetic_h21bf84ec8b35_2), settling on [keeping the per-run bundle and adding one Friday roll-up of what moved and what is still open](narr:Expr_20261005_1_WeeklyRollUpRulingE2EAgenticSynthetic_h21bf84ec8b35_3). [Tina asked whether the roll-up replaces the per-run bundle](narr:Expr_20261005_1_WeeklyRollUpRulingE2EAgenticSynthetic_h21bf84ec8b35_4), and [Tanya held that it does not — the bundle is for the run, the roll-up is for the week](narr:Expr_20261005_1_WeeklyRollUpRulingE2EAgenticSynthetic_h21bf84ec8b35_5). The ruling also closed a door: [a daily digest was rejected because most days carry a single run and it would repeat the bundle word for word](narr:Expr_20261005_1_WeeklyRollUpRulingE2EAgenticSynthetic_h21bf84ec8b35_6). Tanya's phrasing throughout runs on parallelism and antithesis — paired clauses, run-versus-week contrasts.""" ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20261005_1_WeeklyRollUpRulingE2EAgenticSynthetic_h21bf84ec8b35_2> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20261005_1_WeeklyRollUpRulingE2EAgenticSynthetic_h21bf84ec8b35_3> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20261005_1_WeeklyRollUpRulingE2EAgenticSynthetic_h21bf84ec8b35_4> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20261005_1_WeeklyRollUpRulingE2EAgenticSynthetic_h21bf84ec8b35_5> ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20261005_1_WeeklyRollUpRulingE2EAgenticSynthetic_h21bf84ec8b35_6> ;
+    narr:keyPhrase [ narr:text "the per-run bundle stays, and on Fridays we add one roll-up of the week" ; narr:phraseSource <https://aswritten.ai/narrative#Expr_20261005_1_WeeklyRollUpRulingE2EAgenticSynthetic_h21bf84ec8b35_3> ] ;
+    narr:keyPhrase [ narr:text "the bundle is for the run, the roll-up is for the week" ; narr:phraseSource <https://aswritten.ai/narrative#Expr_20261005_1_WeeklyRollUpRulingE2EAgenticSynthetic_h21bf84ec8b35_5> ] ;
+    narr:keyPhrase [ narr:text "Rejected: a\ndaily digest, because most days carry a single run and it would repeat the\nbundle word for word." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_20261005_1_WeeklyRollUpRulingE2EAgenticSynthetic_h21bf84ec8b35_6> ] ;
+    narr:keyPhrase [ narr:text "Tina asked whether the roll-up replaces the per-run bundle." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_20261005_1_WeeklyRollUpRulingE2EAgenticSynthetic_h21bf84ec8b35_4> ] ;
+    narr:variation [ narr:text "Tina's question — does the roll-up replace the bundle? — raised the consolidation reading Tanya explicitly ruled out; the two-layer design stands only because she held the distinction." ; narr:over <https://aswritten.ai/narrative#Expr_20261005_1_WeeklyRollUpRulingE2EAgenticSynthetic_h21bf84ec8b35_4> ; narr:over <https://aswritten.ai/narrative#Expr_20261005_1_WeeklyRollUpRulingE2EAgenticSynthetic_h21bf84ec8b35_5> ] ;
+    narr:variation [ narr:text "The daily digest was the road not taken — rejected as redundant, but it remains the alternative anyone reaching for a per-day cadence would re-propose." ; narr:over <https://aswritten.ai/narrative#Expr_20261005_1_WeeklyRollUpRulingE2EAgenticSynthetic_h21bf84ec8b35_6> ] ;
+    narr:run "914edc6a6e7d" ;
+    narr:moved "true"^^xsd:boolean ;
+    narr:diffBasis "first" ;
+    narr:writer "z-ai/glm-5.3-flash:nitro" .
+}
