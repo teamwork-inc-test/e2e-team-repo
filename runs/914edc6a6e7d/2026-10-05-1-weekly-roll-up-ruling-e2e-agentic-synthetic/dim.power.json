@@ -1,0 +1,50 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-2",
+    "regions" : [ "legitimate" ],
+    "evidence" : [ {
+      "quote" : "Tanya (team owner) ruled",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Establishes institutional authority by invoking formal team owner role to issue a binding ruling.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-3",
+    "regions" : [ "legitimate", "rational-persuasion" ],
+    "evidence" : [ {
+      "quote" : "Tanya (team owner) ruled on how the week's reactions reach people:",
+      "kind" : "delivery"
+    }, {
+      "quote" : "instead of asking anyone to scroll back",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Directs team process via legitimate role authority while providing an operational rationale to justify the workflow change.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-5",
+    "regions" : [ "legitimate", "rational-persuasion" ],
+    "evidence" : [ {
+      "quote" : "Tanya held that it\ndoes not: the bundle is for the run, the roll-up is for the week.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Issues an authoritative determination ('held') grounded in a structured distinction between cadences.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-6",
+    "regions" : [ "legitimate", "rational-persuasion" ],
+    "evidence" : [ {
+      "quote" : "Rejected: a\ndaily digest",
+      "kind" : "performed-act"
+    }, {
+      "quote" : "because most days carry a single run and it would repeat the\nbundle word for word.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Formally exercises veto power over a proposal accompanied by logical justification based on redundancy.",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-4" ],
+  "unmarked_rest" : false,
+  "mints" : [ ],
+  "region_mints" : [ ],
+  "_source_sha256" : "a613398fb06b1f603a0127b54d35b3c7368f5d5d79b24da10e8023780d4ab149"
+}
