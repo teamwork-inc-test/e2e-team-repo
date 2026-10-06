@@ -1,0 +1,11 @@
+{
+  "placements" : [ {
+    "verdict" : "reuse",
+    "leaf" : "Narrative_DefaultRefTopicBranch",
+    "supporting_segments" : [ "src-1" ],
+    "why" : "Verifies that omitting a git ref on memory submission defaults to creating a topic branch.",
+    "consulted" : [ "Narrative_DefaultRefTopicBranch" ]
+  } ],
+  "unplaced" : [ ],
+  "_source_sha256" : "d45730ae8512188e03d768ea37c4e43f8854f82ab91b2b1610a027ac4aee5734"
+}
