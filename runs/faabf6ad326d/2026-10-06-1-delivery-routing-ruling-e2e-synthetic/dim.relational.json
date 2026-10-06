@@ -1,0 +1,26 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-2",
+    "regions" : [ "authority-ranking" ],
+    "evidence" : [ {
+      "quote" : "ruled on",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Enacts and reports hierarchical authority-ranking governance through an explicit ruling by the team owner.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-4",
+    "regions" : [ "authority-ranking" ],
+    "evidence" : [ {
+      "quote" : "Tanya held:",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Describes maintaining an authoritative decision in the face of pushback.",
+    "reported" : true
+  } ],
+  "unmarked" : [ "src-3", "src-5" ],
+  "unmarked_rest" : false,
+  "mints" : [ ],
+  "region_mints" : [ ],
+  "_source_sha256" : "ba05ea0158d2bb5ae030ad5d571477370ce49537407437eea6eb9df45ec14eb7"
+}
