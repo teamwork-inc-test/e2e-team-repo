@@ -1,0 +1,13 @@
+{
+  "positions" : [ {
+    "name" : "ReactionDeliveryBundlingAndBatchingBoundary",
+    "frame" : "How should reaction notifications be bundled across multi-skill execution runs, and where should batching window boundaries be enforced against per-skill delivery alternatives?",
+    "members" : [ "src-3", "src-4", "src-5" ],
+    "why" : "This position groups the core policy ruling on reaction delivery routing: establishing server-side bundling per run per person to protect recipient cognitive load, enforcing a strict batching close boundary when the run closes despite pushback, and explicitly recording the rejection of per-skill delivery with client-side collapsing to avoid shifting the ordering burden onto the reader.",
+    "under" : [ "DesignTradeoffs", "Narrative_ReactionDeliveryBundling" ]
+  } ],
+  "attaches" : [ ],
+  "position_revisions" : [ ],
+  "ungrouped" : [ "src-2" ],
+  "_source_sha256" : "ba05ea0158d2bb5ae030ad5d571477370ce49537407437eea6eb9df45ec14eb7"
+}
