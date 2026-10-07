@@ -1,0 +1,21 @@
+{
+  "bindings" : [ {
+    "name" : "Tanya TeamOwner",
+    "verdict" : "bind",
+    "target" : "Actor_Tanya_Staging",
+    "label" : "Tanya TeamOwner",
+    "why" : "Associated with account tanya+staging@aswritten.ai in envelope metadata matching existing Actor_Tanya_Staging."
+  }, {
+    "name" : "Tina",
+    "verdict" : "bind",
+    "target" : "Actor_Tina",
+    "why" : "Exact match to existing Actor_Tina."
+  }, {
+    "name" : "tanya+staging@aswritten.ai",
+    "verdict" : "bind",
+    "target" : "Actor_Tanya_Staging",
+    "label" : "Tanya TeamOwner",
+    "why" : "Identified in existing Actor_Tanya_Staging description via front-matter email tanya+staging@aswritten.ai."
+  } ],
+  "_source_sha256" : "a613398fb06b1f603a0127b54d35b3c7368f5d5d79b24da10e8023780d4ab149"
+}
