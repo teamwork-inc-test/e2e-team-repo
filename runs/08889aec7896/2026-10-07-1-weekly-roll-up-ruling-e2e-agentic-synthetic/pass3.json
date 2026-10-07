@@ -1,0 +1,21 @@
+{
+  "reconciliations" : [ ],
+  "standalone" : [ {
+    "segment_id" : "src-1",
+    "why" : "verdict new (nothing to reconcile)"
+  }, {
+    "segment_id" : "src-2",
+    "why" : "verdict new (nothing to reconcile)"
+  }, {
+    "segment_id" : "src-3",
+    "why" : "verdict new (nothing to reconcile)"
+  }, {
+    "segment_id" : "src-4",
+    "why" : "verdict new (nothing to reconcile)"
+  }, {
+    "segment_id" : "src-5",
+    "why" : "verdict new (nothing to reconcile)"
+  } ],
+  "held" : [ ],
+  "_source_sha256" : "a613398fb06b1f603a0127b54d35b3c7368f5d5d79b24da10e8023780d4ab149"
+}
