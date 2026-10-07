@@ -1,0 +1,26 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "legitimate" ],
+    "evidence" : [ {
+      "quote" : "ruled on how the week's reactions reach people",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Tanya exercises legitimate authority as team owner to set procedural policy.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-5",
+    "regions" : [ "rational-persuasion" ],
+    "evidence" : [ {
+      "quote" : "because most days carry a single run and it would repeat the\nbundle word for word",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Justifies a ruling rejection using explicit rational argument and logical efficiency rationale.",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-2", "src-3", "src-4" ],
+  "unmarked_rest" : false,
+  "mints" : [ ],
+  "region_mints" : [ ],
+  "_source_sha256" : "a613398fb06b1f603a0127b54d35b3c7368f5d5d79b24da10e8023780d4ab149"
+}
