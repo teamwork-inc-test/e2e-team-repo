@@ -56,6 +56,10 @@
       "n:Expr_20261006_1_DeliveryRoutingRulingE2ESynthetic_h32018bb1d42b_3" : 1,
       "n:Expr_20261006_1_DeliveryRoutingRulingE2ESynthetic_h32018bb1d42b_4" : 1,
       "n:Expr_20261006_1_DeliveryRoutingRulingE2ESynthetic_h32018bb1d42b_5" : 1,
+      "n:Expr_20261007_1_WeeklyRollUpRulingE2EAgenticSynthetic_hed495c46f84c_1" : 1,
+      "n:Expr_20261007_1_WeeklyRollUpRulingE2EAgenticSynthetic_hed495c46f84c_2" : 1,
+      "n:Expr_20261007_1_WeeklyRollUpRulingE2EAgenticSynthetic_hed495c46f84c_4" : 1,
+      "n:Expr_20261007_1_WeeklyRollUpRulingE2EAgenticSynthetic_hed495c46f84c_5" : 1,
       "n:Expr_2DeliveryRoutingRulingE2ESynthetic_1" : 2,
       "n:Expr_2DeliveryRoutingRulingE2ESynthetic_2" : 2,
       "n:Expr_2DeliveryRoutingRulingE2ESynthetic_3" : 2,
@@ -155,6 +159,9 @@
       "n:Expr_20261006_1_DeliveryRoutingRulingE2ESynthetic_h32018bb1d42b_3" : 1,
       "n:Expr_20261006_1_DeliveryRoutingRulingE2ESynthetic_h32018bb1d42b_4" : 1,
       "n:Expr_20261006_1_DeliveryRoutingRulingE2ESynthetic_h32018bb1d42b_5" : 1,
+      "n:Expr_20261007_1_WeeklyRollUpRulingE2EAgenticSynthetic_hed495c46f84c_2" : 1,
+      "n:Expr_20261007_1_WeeklyRollUpRulingE2EAgenticSynthetic_hed495c46f84c_4" : 1,
+      "n:Expr_20261007_1_WeeklyRollUpRulingE2EAgenticSynthetic_hed495c46f84c_5" : 1,
       "n:Expr_2DeliveryRoutingRulingE2ESynthetic_1" : 2,
       "n:Expr_2DeliveryRoutingRulingE2ESynthetic_2" : 2,
       "n:Expr_2DeliveryRoutingRulingE2ESynthetic_3" : 2,
@@ -217,7 +224,10 @@
       "n:Expr_20261003_1_WeeklyRollUpRulingE2EAgenticSynthetic_h1f5318ecf934_6" : 1,
       "n:Expr_20261005_1_WeeklyRollUpRulingE2EAgenticSynthetic_h21bf84ec8b35_3" : 1,
       "n:Expr_20261005_1_WeeklyRollUpRulingE2EAgenticSynthetic_h21bf84ec8b35_5" : 1,
-      "n:Expr_20261005_1_WeeklyRollUpRulingE2EAgenticSynthetic_h21bf84ec8b35_6" : 1
+      "n:Expr_20261005_1_WeeklyRollUpRulingE2EAgenticSynthetic_h21bf84ec8b35_6" : 1,
+      "n:Expr_20261007_1_WeeklyRollUpRulingE2EAgenticSynthetic_hed495c46f84c_2" : 1,
+      "n:Expr_20261007_1_WeeklyRollUpRulingE2EAgenticSynthetic_hed495c46f84c_4" : 1,
+      "n:Expr_20261007_1_WeeklyRollUpRulingE2EAgenticSynthetic_hed495c46f84c_5" : 1
     },
     "n:Sample_20260925_1_WeeklyRollUpRulingE2EAgenticSynthetic_h5c24fdddd3e5" : {
       "n:Expr_20260925_1_WeeklyRollUpRulingE2EAgenticSynthetic_h5c24fdddd3e5_1" : 2,
@@ -274,9 +284,16 @@
       "n:Expr_20261005_1_WeeklyRollUpRulingE2EAgenticSynthetic_h21bf84ec8b35_4" : 1,
       "n:Expr_20261005_1_WeeklyRollUpRulingE2EAgenticSynthetic_h21bf84ec8b35_5" : 1,
       "n:Expr_20261005_1_WeeklyRollUpRulingE2EAgenticSynthetic_h21bf84ec8b35_6" : 1
+    },
+    "n:Sample_20261007_1_WeeklyRollUpRulingE2EAgenticSynthetic_hed495c46f84c" : {
+      "n:Expr_20261007_1_WeeklyRollUpRulingE2EAgenticSynthetic_hed495c46f84c_1" : 1,
+      "n:Expr_20261007_1_WeeklyRollUpRulingE2EAgenticSynthetic_hed495c46f84c_2" : 2,
+      "n:Expr_20261007_1_WeeklyRollUpRulingE2EAgenticSynthetic_hed495c46f84c_3" : 1,
+      "n:Expr_20261007_1_WeeklyRollUpRulingE2EAgenticSynthetic_hed495c46f84c_4" : 1,
+      "n:Expr_20261007_1_WeeklyRollUpRulingE2EAgenticSynthetic_hed495c46f84c_5" : 1
     }
   },
-  "generated_from" : "2f2b6d5707deb3a8a6877d5b6ce4d6d2f9fd1452",
+  "generated_from" : "9edbcda36c401f09139192b26369c98e456ddec8",
   "hubs" : {
     "n:Actor_Tanya_Staging" : 2,
     "n:DesignTradeoffs" : 2,
@@ -305,7 +322,7 @@
     "n" : "https://aswritten.ai/narrative#",
     "o" : "https://aswritten.ai/ns/narrative#"
   },
-  "runs_sha" : "31ae06938d02f5331f36e9ed2a5ccc21517d8852",
-  "sittings" : 209,
+  "runs_sha" : "a3b796f4ab75b2f50793a6b990c20e5aa59fd690",
+  "sittings" : 212,
   "spec" : "fidelity-bands/1"
 }
