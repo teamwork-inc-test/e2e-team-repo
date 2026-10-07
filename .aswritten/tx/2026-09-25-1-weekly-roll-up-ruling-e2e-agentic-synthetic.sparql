@@ -1,0 +1,142 @@
+PREFIX narr: <https://aswritten.ai/narrative#>
+PREFIX aswr: <https://aswritten.ai/aswr#>
+PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX dct:  <http://purl.org/dc/terms/>
+PREFIX xsd:  <http://www.w3.org/2001/XMLSchema#>
+PREFIX oa:   <http://www.w3.org/ns/oa#>
+PREFIX xkos: <http://rdf-vocabulary.ddialliance.org/xkos#>
+
+INSERT DATA {
+  aswr:Tx_20260925T093914Z a prov:Activity ;
+      prov:generatedAtTime "2026-09-25T09:39:14Z"^^xsd:dateTime ;
+      prov:wasAssociatedWith "aswritten.ai" ;
+      prov:wasAttributedTo "scarlet@aswritten.ai" ;
+      aswr:pipelinePin "8dd07a49bda8" ;
+      aswr:originPath ".aswritten/memories/2026-09-25-1-weekly-roll-up-ruling-e2e-agentic-synthetic.md" ;
+      dct:title "Multipass source extraction: Weekly roll-up ruling (e2e agentic synthetic)" ;
+      prov:generated narr:Sample_20260925_1_WeeklyRollUpRulingE2EAgenticSynthetic_h5c24fdddd3e5, narr:Expr_20260925_1_WeeklyRollUpRulingE2EAgenticSynthetic_h5c24fdddd3e5_1, narr:Expr_20260925_1_WeeklyRollUpRulingE2EAgenticSynthetic_h5c24fdddd3e5_2, narr:Expr_20260925_1_WeeklyRollUpRulingE2EAgenticSynthetic_h5c24fdddd3e5_3, narr:Expr_20260925_1_WeeklyRollUpRulingE2EAgenticSynthetic_h5c24fdddd3e5_4, narr:Expr_20260925_1_WeeklyRollUpRulingE2EAgenticSynthetic_h5c24fdddd3e5_5, narr:How_20260925_1_WeeklyRollUpRulingE2EAgenticSynthetic_h5c24fdddd3e5_2_0 .
+} ;
+INSERT DATA {
+  GRAPH aswr:Tx_20260925T093914Z {
+    narr:Sample_20260925_1_WeeklyRollUpRulingE2EAgenticSynthetic_h5c24fdddd3e5 a narr:Sample ;
+        dct:title "Weekly roll-up ruling (e2e agentic synthetic)" ;
+        aswr:originPath ".aswritten/memories/2026-09-25-1-weekly-roll-up-ruling-e2e-agentic-synthetic.md" ;
+        aswr:submittedBy narr:Actor_Tanya_Staging ;
+        aswr:account narr:Actor_Tanya_Staging .
+
+    narr:Expr_20260925_1_WeeklyRollUpRulingE2EAgenticSynthetic_h5c24fdddd3e5_1 a narr:Expression ;
+        narr:actor narr:Actor_Tanya_Staging ;
+        narr:act "assertive" ;
+        narr:animator narr:Actor_Tanya_Staging ;
+        narr:author narr:Actor_Tanya_Staging ;
+        narr:context "Weekly roll-up ruling" ;
+        skos:note "Quote frame introducing Tanya's ruling quote" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_20260925_1_WeeklyRollUpRulingE2EAgenticSynthetic_h5c24fdddd3e5 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Tanya (team owner) ruled on how the week's reactions reach people:" ;
+                oa:prefix "ling (e2e agentic synthetic)\n\n" ;
+                oa:suffix "\n\n> the per-run bundle stays, " ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "100"^^xsd:integer ;
+                oa:end "166"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-25T09:39:14Z"^^xsd:dateTime .
+
+    narr:Expr_20260925_1_WeeklyRollUpRulingE2EAgenticSynthetic_h5c24fdddd3e5_2 a narr:Expression ;
+        narr:actor narr:Actor_Tanya_Staging ;
+        narr:act "declarative" ;
+        narr:context "Weekly roll-up ruling" ;
+        skos:note "Ruling on reaction distribution process" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_20260925_1_WeeklyRollUpRulingE2EAgenticSynthetic_h5c24fdddd3e5 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "the per-run bundle stays, and on Fridays we add one roll-up of the week —\n> what moved, what is still open — instead of asking anyone to scroll back" ;
+                oa:prefix "'s reactions reach people:\n\n> " ;
+                oa:suffix "\n\nTina asked whether the roll-" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "170"^^xsd:integer ;
+                oa:end "318"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-25T09:39:14Z"^^xsd:dateTime .
+
+    narr:Expr_20260925_1_WeeklyRollUpRulingE2EAgenticSynthetic_h5c24fdddd3e5_3 a narr:Expression ;
+        narr:actor narr:Actor_Tanya_Staging ;
+        narr:act "question" ;
+        narr:animator narr:Actor_Tanya_Staging ;
+        narr:author narr:Actor_Tanya_Staging ;
+        narr:principal narr:Actor_Tina ;
+        narr:context "Weekly roll-up ruling" ;
+        skos:note "Reported speech of Tina's question" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_20260925_1_WeeklyRollUpRulingE2EAgenticSynthetic_h5c24fdddd3e5 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Tina asked whether the roll-up replaces the per-run bundle." ;
+                oa:prefix "asking anyone to scroll back\n\n" ;
+                oa:suffix " Tanya held that it\ndoes not: " ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "320"^^xsd:integer ;
+                oa:end "379"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-25T09:39:14Z"^^xsd:dateTime .
+
+    narr:Expr_20260925_1_WeeklyRollUpRulingE2EAgenticSynthetic_h5c24fdddd3e5_4 a narr:Expression ;
+        narr:actor narr:Actor_Tanya_Staging ;
+        narr:act "assertive" ;
+        narr:animator narr:Actor_Tanya_Staging ;
+        narr:author narr:Actor_Tanya_Staging ;
+        narr:principal narr:Actor_Tanya_Staging ;
+        narr:context "Weekly roll-up ruling" ;
+        skos:note "Reported speech of Tanya's stance clarifying scope" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_20260925_1_WeeklyRollUpRulingE2EAgenticSynthetic_h5c24fdddd3e5 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Tanya held that it\ndoes not: the bundle is for the run, the roll-up is for the week." ;
+                oa:prefix " replaces the per-run bundle. " ;
+                oa:suffix " Rejected: a\ndaily digest, bec" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "380"^^xsd:integer ;
+                oa:end "464"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-25T09:39:14Z"^^xsd:dateTime .
+
+    narr:Expr_20260925_1_WeeklyRollUpRulingE2EAgenticSynthetic_h5c24fdddd3e5_5 a narr:Expression ;
+        narr:actor narr:Actor_Tanya_Staging ;
+        narr:act "declarative" ;
+        narr:animator narr:Actor_Tanya_Staging ;
+        narr:author narr:Actor_Tanya_Staging ;
+        narr:context "Weekly roll-up ruling" ;
+        skos:note "Recording rejection of daily digest option" ;
+        oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSource narr:Sample_20260925_1_WeeklyRollUpRulingE2EAgenticSynthetic_h5c24fdddd3e5 ;
+            oa:hasSelector [ a oa:TextQuoteSelector ;
+                oa:exact "Rejected: a\ndaily digest, because most days carry a single run and it would repeat the\nbundle word for word." ;
+                oa:prefix " the roll-up is for the week. " ;
+                oa:suffix "\n" ] ;
+            oa:hasSelector [ a oa:TextPositionSelector ;
+                oa:start "465"^^xsd:integer ;
+                oa:end "573"^^xsd:integer ] ] ;
+        prov:generatedAtTime "2026-09-25T09:39:14Z"^^xsd:dateTime .
+
+    narr:How_20260925_1_WeeklyRollUpRulingE2EAgenticSynthetic_h5c24fdddd3e5_2_0 a oa:Annotation ;
+        oa:hasTarget narr:Expr_20260925_1_WeeklyRollUpRulingE2EAgenticSynthetic_h5c24fdddd3e5_2 ;
+        narr:how "Tanya (team owner) ruled on how the week's reactions reach people:" ;
+        narr:howSide "supply" ;
+        prov:generatedAtTime "2026-09-25T09:39:14Z"^^xsd:dateTime .
+
+    narr:Actor_Tanya_Staging skos:prefLabel "Tanya TeamOwner" .
+
+    aswr:Run_20260925T093914Z_actors a prov:Activity ;
+        aswr:runPass "actors" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/a54f45bbe12b/2026-09-25-1-weekly-roll-up-ruling-e2e-agentic-synthetic/actors.json" ;
+        dct:isPartOf aswr:Tx_20260925T093914Z ;
+        prov:generatedAtTime "2026-09-25T09:39:14Z"^^xsd:dateTime .
+
+    aswr:Run_20260925T093914Z_pass1 a prov:Activity ;
+        aswr:runPass "pass1" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/a54f45bbe12b/2026-09-25-1-weekly-roll-up-ruling-e2e-agentic-synthetic/pass1.json" ;
+        prov:generated narr:Sample_20260925_1_WeeklyRollUpRulingE2EAgenticSynthetic_h5c24fdddd3e5, narr:Expr_20260925_1_WeeklyRollUpRulingE2EAgenticSynthetic_h5c24fdddd3e5_1, narr:Expr_20260925_1_WeeklyRollUpRulingE2EAgenticSynthetic_h5c24fdddd3e5_2, narr:Expr_20260925_1_WeeklyRollUpRulingE2EAgenticSynthetic_h5c24fdddd3e5_3, narr:Expr_20260925_1_WeeklyRollUpRulingE2EAgenticSynthetic_h5c24fdddd3e5_4, narr:Expr_20260925_1_WeeklyRollUpRulingE2EAgenticSynthetic_h5c24fdddd3e5_5 ;
+        dct:isPartOf aswr:Tx_20260925T093914Z ;
+        prov:generatedAtTime "2026-09-25T09:39:14Z"^^xsd:dateTime .
+  }
+}

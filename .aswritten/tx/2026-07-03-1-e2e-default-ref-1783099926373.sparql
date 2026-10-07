@@ -1,0 +1,142 @@
+PREFIX narr: <https://aswritten.ai/narrative#>
+PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX dct:  <http://purl.org/dc/terms/>
+PREFIX xsd:  <http://www.w3.org/2001/XMLSchema#>
+PREFIX oa:   <http://www.w3.org/ns/oa#>
+
+# Transaction provenance (default graph)
+INSERT DATA {
+  narr:Tx_20260703T173445Z a prov:Activity ;
+    prov:generatedAtTime "2026-07-03T17:34:45Z"^^xsd:dateTime ;
+    prov:wasAssociatedWith "aswritten.ai" ;
+    prov:wasAttributedTo "tanya+staging@aswritten.ai" ;
+    narr:originPath ".aswritten/memories/2026-07-03-1-e2e-default-ref-1783099926373.md" ;
+    narr:originRef "memory/tanya-teamowner" ;
+    dct:title "Default Ref Test extraction" ;
+    prov:generated
+      narr:Sample_DefaultRefTest,
+      narr:Actor_Tanya_Staging,
+      narr:Narrative_DefaultRefTopicBranch,
+      narr:Observation_TanyaQuote_DefaultRef,
+      narr:StyleObs_FirstPersonQuote,
+      narr:StyleObs_DirectTone,
+      narr:StyleObs_TechnicalJargon,
+      narr:StyleMetrics_DefaultRefTest .
+} ;
+
+# Extracted entities (named graph)
+INSERT DATA {
+  GRAPH narr:Tx_20260703T173445Z {
+
+    # ── Sample ──────────────────────────────────────────────────
+    narr:Sample_DefaultRefTest a narr:Sample ;
+      dct:title "Default Ref Test" ;
+      narr:inputLength 128 ;
+      dct:description "Minimal test memory asserting that an omitted git ref causes a topic branch to be created. Authored by Tanya (staging reviewer)." .
+
+    # ── Actor ───────────────────────────────────────────────────
+    narr:Actor_Tanya_Staging a narr:Actor ;
+      skos:prefLabel "Tanya (staging)" ;
+      skos:note "Reviewer identified via front-matter email tanya+staging@aswritten.ai; author of the Default Ref Test memory." .
+
+    # ── Narrative ───────────────────────────────────────────────
+    narr:Narrative_DefaultRefTopicBranch a narr:Narrative ;
+      dct:source narr:Sample_DefaultRefTest ;
+      narr:theme "Omitted git ref triggers automatic topic branch creation" ;
+      skos:broader narr:Process ;
+      skos:note "When a memory submission omits the ref field, the system should default to creating a topic branch rather than failing or writing to main. This memory is an explicit test of that behaviour." .
+
+    # ── Observation (quote) ─────────────────────────────────────
+    narr:Observation_TanyaQuote_DefaultRef a narr:Observation ;
+      skos:broader narr:FeedbackLoops ;
+      dct:source narr:Sample_DefaultRefTest ;
+      skos:note "Tanya's verbatim statement confirming the intent of the test: verifying default-ref branch creation." ;
+      oa:hasSelector [
+        a oa:TextPositionSelector ;
+        oa:start 79 ; oa:end 127
+      ] ;
+      oa:hasSelector [
+        a oa:TextQuoteSelector ;
+        oa:exact "Testing that omitted ref creates a topic branch." ;
+        oa:prefix "--\n\n# Default Ref Test\n\nTanya: \"" ;
+        oa:suffix "\""
+      ] .
+
+    # ── Style Observations ──────────────────────────────────────
+
+    # 1. Direct first-person attribution style
+    narr:StyleObs_FirstPersonQuote a narr:StyleObservation ;
+      skos:broader narr:ToneDirectPersonal ;
+      dct:source narr:Sample_DefaultRefTest ;
+      skos:note "Speaker attribution uses first-name label followed by a colon and quoted speech — a direct, conversational attribution pattern." ;
+      rdf:value true ;
+      oa:hasTarget [
+        a oa:SpecificResource ;
+        oa:hasSource narr:Sample_DefaultRefTest ;
+        oa:hasSelector [
+          a oa:TextPositionSelector ;
+          oa:start 71 ; oa:end 78
+        ] ;
+        oa:hasSelector [
+          a oa:TextQuoteSelector ;
+          oa:exact "Tanya: " ;
+          oa:prefix "ten.ai\n---\n\n# Default Ref Test\n\n" ;
+          oa:suffix "\"Testing that omitted ref create"
+        ]
+      ] .
+
+    # 2. Technical jargon — "ref" and "topic branch"
+    narr:StyleObs_TechnicalJargon a narr:StyleObservation ;
+      skos:broader narr:JargonPolicy ;
+      dct:source narr:Sample_DefaultRefTest ;
+      skos:note "Uses git-specific terminology ('ref', 'topic branch') without definition, assuming a technically literate audience." ;
+      rdf:value true ;
+      oa:hasTarget [
+        a oa:SpecificResource ;
+        oa:hasSource narr:Sample_DefaultRefTest ;
+        oa:hasSelector [
+          a oa:TextPositionSelector ;
+          oa:start 92 ; oa:end 127
+        ] ;
+        oa:hasSelector [
+          a oa:TextQuoteSelector ;
+          oa:exact "omitted ref creates a topic branch." ;
+          oa:prefix " Ref Test\n\nTanya: \"Testing that " ;
+          oa:suffix "\""
+        ]
+      ] .
+
+    # 3. Declarative, imperative-test register
+    narr:StyleObs_DirectTone a narr:StyleObservation ;
+      skos:broader narr:ToneAuthoritative ;
+      dct:source narr:Sample_DefaultRefTest ;
+      skos:note "The single sentence is declarative and purposive ('Testing that…'), characteristic of a QA or acceptance-test register — no hedging, no elaboration." ;
+      rdf:value true ;
+      oa:hasTarget [
+        a oa:SpecificResource ;
+        oa:hasSource narr:Sample_DefaultRefTest ;
+        oa:hasSelector [
+          a oa:TextPositionSelector ;
+          oa:start 79 ; oa:end 127
+        ] ;
+        oa:hasSelector [
+          a oa:TextQuoteSelector ;
+          oa:exact "Testing that omitted ref creates a topic branch." ;
+          oa:prefix "--\n\n# Default Ref Test\n\nTanya: \"" ;
+          oa:suffix "\""
+        ]
+      ] .
+
+    # ── Style Metrics ───────────────────────────────────────────
+    narr:StyleMetrics_DefaultRefTest a narr:StyleMetrics ;
+      skos:broader narr:StyleMetrics ;
+      dct:source narr:Sample_DefaultRefTest ;
+      narr:AverageSentenceLength 9 ;
+      narr:ActiveVoiceRatio "1.0"^^xsd:decimal ;
+      narr:JargonDensity "0.22"^^xsd:decimal ;
+      skos:note "Single-sentence body (9 words). Fully active voice. High jargon density for length: 'ref' and 'topic branch' are domain-specific git terms (2 of 9 content words ≈ 0.22)." .
+
+  }
+}

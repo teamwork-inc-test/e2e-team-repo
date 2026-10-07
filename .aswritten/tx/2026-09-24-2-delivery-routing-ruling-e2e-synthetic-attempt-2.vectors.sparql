@@ -1,0 +1,323 @@
+PREFIX narr: <https://aswritten.ai/narrative#>
+PREFIX aswr: <https://aswritten.ai/aswr#>
+PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX dct:  <http://purl.org/dc/terms/>
+PREFIX xsd:  <http://www.w3.org/2001/XMLSchema#>
+PREFIX oa:   <http://www.w3.org/ns/oa#>
+PREFIX xkos: <http://rdf-vocabulary.ddialliance.org/xkos#>
+
+INSERT DATA {
+  aswr:Tx_20260924T092831Z a prov:Activity ;
+      prov:generatedAtTime "2026-09-24T09:28:31Z"^^xsd:dateTime ;
+      prov:wasAssociatedWith "aswritten.ai" ;
+      prov:wasAttributedTo "scarlet@aswritten.ai" ;
+      aswr:pipelinePin "8dd07a49bda8" ;
+      aswr:originPath ".aswritten/memories/2026-09-24-2-delivery-routing-ruling-e2e-synthetic-attempt-2.md" ;
+      dct:title "Multipass fragment: 20260924_2_DeliveryRoutingRulingE2ESyntheticAttempt2_haec961429483" ;
+      prov:generated narr:VecConviction_20260924_2_DeliveryRoutingRulingE2ESyntheticAttempt2_haec961429483_1, narr:VecConviction_20260924_2_DeliveryRoutingRulingE2ESyntheticAttempt2_haec961429483_2, narr:VecConviction_20260924_2_DeliveryRoutingRulingE2ESyntheticAttempt2_haec961429483_3, narr:VecConviction_20260924_2_DeliveryRoutingRulingE2ESyntheticAttempt2_haec961429483_4, narr:DirPower_OwnerPositionalRuling, narr:VecPower_20260924_2_DeliveryRoutingRulingE2ESyntheticAttempt2_haec961429483_1, narr:VecPower_20260924_2_DeliveryRoutingRulingE2ESyntheticAttempt2_haec961429483_2, narr:VecPower_20260924_2_DeliveryRoutingRulingE2ESyntheticAttempt2_haec961429483_3, narr:VecPower_20260924_2_DeliveryRoutingRulingE2ESyntheticAttempt2_haec961429483_4, narr:VecRegister_20260924_2_DeliveryRoutingRulingE2ESyntheticAttempt2_haec961429483_2, narr:VecRelational_20260924_2_DeliveryRoutingRulingE2ESyntheticAttempt2_haec961429483_1, narr:VecRelational_20260924_2_DeliveryRoutingRulingE2ESyntheticAttempt2_haec961429483_3, narr:VecStyle_20260924_2_DeliveryRoutingRulingE2ESyntheticAttempt2_haec961429483_2, narr:VecTemporal_20260924_2_DeliveryRoutingRulingE2ESyntheticAttempt2_haec961429483_1, narr:VecTemporal_20260924_2_DeliveryRoutingRulingE2ESyntheticAttempt2_haec961429483_2, narr:VecTemporal_20260924_2_DeliveryRoutingRulingE2ESyntheticAttempt2_haec961429483_3, narr:VecTemporal_20260924_2_DeliveryRoutingRulingE2ESyntheticAttempt2_haec961429483_4, narr:VecValue_20260924_2_DeliveryRoutingRulingE2ESyntheticAttempt2_haec961429483_2, narr:VecValue_20260924_2_DeliveryRoutingRulingE2ESyntheticAttempt2_haec961429483_4 .
+} ;
+INSERT DATA {
+  GRAPH aswr:Tx_20260924T092831Z {
+    narr:VecConviction_20260924_2_DeliveryRoutingRulingE2ESyntheticAttempt2_haec961429483_1 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20260924_2_DeliveryRoutingRulingE2ESyntheticAttempt2_haec961429483_1 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Decision ;
+        narr:evidence "performed-act: ruled on" ;
+        narr:reported false ;
+        skos:note "Explicit ruling / ratification language establishing a settled structural choice." ;
+        prov:generatedAtTime "2026-09-24T09:28:31Z"^^xsd:dateTime .
+
+    narr:VecConviction_20260924_2_DeliveryRoutingRulingE2ESyntheticAttempt2_haec961429483_2 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20260924_2_DeliveryRoutingRulingE2ESyntheticAttempt2_haec961429483_2 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Decision ;
+        narr:evidence "commitment-marker: we route every reaction through one bundle per run per person, not one\n> message per skill" ;
+        narr:reported false ;
+        skos:note "Direct operational prescription laying down an invariant rule for the system." ;
+        prov:generatedAtTime "2026-09-24T09:28:31Z"^^xsd:dateTime .
+
+    narr:VecConviction_20260924_2_DeliveryRoutingRulingE2ESyntheticAttempt2_haec961429483_3 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20260924_2_DeliveryRoutingRulingE2ESyntheticAttempt2_haec961429483_3 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Decision ;
+        narr:evidence "commitment-marker: Tanya held: the bundle closes when\nthe run closes, and a skill that misses the close waits for the next run rather\nthan sending on its own." ;
+        narr:reported false ;
+        skos:note "Stood firm against pushback to uphold a rigid operational boundary without exceptions." ;
+        prov:generatedAtTime "2026-09-24T09:28:31Z"^^xsd:dateTime .
+
+    narr:VecConviction_20260924_2_DeliveryRoutingRulingE2ESyntheticAttempt2_haec961429483_4 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20260924_2_DeliveryRoutingRulingE2ESyntheticAttempt2_haec961429483_4 ;
+        narr:dimension narr:Dim_Conviction ;
+        narr:region narr:Conviction_Decision ;
+        narr:evidence "performed-act: The alternative considered and rejected was" ;
+        narr:reported false ;
+        skos:note "Formal record of an alternative being evaluated and explicitly rejected." ;
+        prov:generatedAtTime "2026-09-24T09:28:31Z"^^xsd:dateTime .
+
+    narr:DirPower_OwnerPositionalRuling a narr:DirectionalNode ;
+        dct:source narr:Sample_20260924_2_DeliveryRoutingRulingE2ESyntheticAttempt2_haec961429483 ;
+        narr:dimension narr:Dim_Power ;
+        narr:region narr:Power_Legitimate ;
+        narr:frame "Does the speaker invoke structural or role ownership to issue a definitive ruling on process or architecture?" ;
+        skos:note "owner positional ruling" ;
+        prov:generatedAtTime "2026-09-24T09:28:31Z"^^xsd:dateTime .
+
+    narr:VecPower_20260924_2_DeliveryRoutingRulingE2ESyntheticAttempt2_haec961429483_1 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20260924_2_DeliveryRoutingRulingE2ESyntheticAttempt2_haec961429483_1 ;
+        narr:dimension narr:Dim_Power ;
+        narr:region narr:Power_Legitimate ;
+        narr:direction narr:DirPower_OwnerPositionalRuling ;
+        narr:evidence "performed-act: ruled on" ;
+        narr:evidence "address-form: team owner" ;
+        narr:reported false ;
+        skos:note "Authority asserted explicitly through positional title (team owner) issuing a formal ruling." ;
+        prov:generatedAtTime "2026-09-24T09:28:31Z"^^xsd:dateTime .
+
+    narr:VecPower_20260924_2_DeliveryRoutingRulingE2ESyntheticAttempt2_haec961429483_2 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20260924_2_DeliveryRoutingRulingE2ESyntheticAttempt2_haec961429483_2 ;
+        narr:dimension narr:Dim_Power ;
+        narr:region narr:Power_Legitimate ;
+        narr:region narr:Power_RationalPersuasion ;
+        narr:evidence "framing-move: a person should get one thing to read, not four" ;
+        narr:reported false ;
+        skos:note "Mandates routing structure backed by a reader-benefit rationale." ;
+        prov:generatedAtTime "2026-09-24T09:28:31Z"^^xsd:dateTime .
+
+    narr:VecPower_20260924_2_DeliveryRoutingRulingE2ESyntheticAttempt2_haec961429483_3 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20260924_2_DeliveryRoutingRulingE2ESyntheticAttempt2_haec961429483_3 ;
+        narr:dimension narr:Dim_Power ;
+        narr:region narr:Power_Legitimate ;
+        narr:evidence "performed-act: Tanya held" ;
+        narr:reported false ;
+        skos:note "Exercises positional authority to maintain a decision against pushback." ;
+        prov:generatedAtTime "2026-09-24T09:28:31Z"^^xsd:dateTime .
+
+    narr:VecPower_20260924_2_DeliveryRoutingRulingE2ESyntheticAttempt2_haec961429483_4 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20260924_2_DeliveryRoutingRulingE2ESyntheticAttempt2_haec961429483_4 ;
+        narr:dimension narr:Dim_Power ;
+        narr:region narr:Power_RationalPersuasion ;
+        narr:evidence "framing-move: moves the ordering problem onto the\nreader" ;
+        narr:reported false ;
+        skos:note "Justifies rejection of an alternative via logical evaluation of user burden." ;
+        prov:generatedAtTime "2026-09-24T09:28:31Z"^^xsd:dateTime .
+
+    narr:VecRegister_20260924_2_DeliveryRoutingRulingE2ESyntheticAttempt2_haec961429483_2 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20260924_2_DeliveryRoutingRulingE2ESyntheticAttempt2_haec961429483_2 ;
+        narr:dimension narr:Dim_Register ;
+        narr:region narr:Register_PlainSpoken ;
+        narr:evidence "framing-move: a person should get one thing to read, not four" ;
+        narr:reported false ;
+        skos:note "Frames an architectural routing decision through deliberate, colloquial, user-centric plain language rather than technical mechanics." ;
+        prov:generatedAtTime "2026-09-24T09:28:31Z"^^xsd:dateTime .
+
+    narr:VecRelational_20260924_2_DeliveryRoutingRulingE2ESyntheticAttempt2_haec961429483_1 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20260924_2_DeliveryRoutingRulingE2ESyntheticAttempt2_haec961429483_1 ;
+        narr:dimension narr:Dim_Relational ;
+        narr:region narr:Relational_AuthorityRanking ;
+        narr:evidence "performed-act: ruled on" ;
+        narr:reported false ;
+        skos:note "Enacts hierarchical adjudication by framing the decision explicitly as an authoritative ruling by the team owner." ;
+        prov:generatedAtTime "2026-09-24T09:28:31Z"^^xsd:dateTime .
+
+    narr:VecRelational_20260924_2_DeliveryRoutingRulingE2ESyntheticAttempt2_haec961429483_3 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20260924_2_DeliveryRoutingRulingE2ESyntheticAttempt2_haec961429483_3 ;
+        narr:dimension narr:Dim_Relational ;
+        narr:region narr:Relational_AuthorityRanking ;
+        narr:evidence "performed-act: Tina pushed back on the batching window and Tanya held" ;
+        narr:reported true ;
+        skos:note "Reports an interaction where authority prevailed over pushback to sustain a binding constraint." ;
+        prov:generatedAtTime "2026-09-24T09:28:31Z"^^xsd:dateTime .
+
+    narr:VecStyle_20260924_2_DeliveryRoutingRulingE2ESyntheticAttempt2_haec961429483_2 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20260924_2_DeliveryRoutingRulingE2ESyntheticAttempt2_haec961429483_2 ;
+        narr:dimension narr:Dim_Style ;
+        narr:region narr:Style_Antithesis ;
+        narr:region narr:Style_Parallelism ;
+        narr:evidence "framing-move: one bundle per run per person, not one\n> message per skill" ;
+        narr:evidence "framing-move: a person should get one thing to read, not four" ;
+        narr:reported false ;
+        skos:note "Constructs direct antithetical contrasts with matched syntactic parallelism ('X, not Y') to enforce clarity." ;
+        prov:generatedAtTime "2026-09-24T09:28:31Z"^^xsd:dateTime .
+
+    narr:VecTemporal_20260924_2_DeliveryRoutingRulingE2ESyntheticAttempt2_haec961429483_1 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20260924_2_DeliveryRoutingRulingE2ESyntheticAttempt2_haec961429483_1 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Past ;
+        narr:region narr:Temporal_Realis ;
+        narr:region narr:Temporal_Concrete ;
+        narr:evidence "performed-act: ruled on where reaction delivery belongs" ;
+        narr:reported false ;
+        skos:note "Narrates a specific settled ruling event in the past." ;
+        prov:generatedAtTime "2026-09-24T09:28:31Z"^^xsd:dateTime .
+
+    narr:VecTemporal_20260924_2_DeliveryRoutingRulingE2ESyntheticAttempt2_haec961429483_2 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20260924_2_DeliveryRoutingRulingE2ESyntheticAttempt2_haec961429483_2 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Present ;
+        narr:region narr:Temporal_Irrealis ;
+        narr:region narr:Temporal_Abstract ;
+        narr:evidence "modal-marker: a person should get one thing to read" ;
+        narr:reported false ;
+        skos:note "Establishes a normative architectural policy and desired user experience principle." ;
+        prov:generatedAtTime "2026-09-24T09:28:31Z"^^xsd:dateTime .
+
+    narr:VecTemporal_20260924_2_DeliveryRoutingRulingE2ESyntheticAttempt2_haec961429483_3 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20260924_2_DeliveryRoutingRulingE2ESyntheticAttempt2_haec961429483_3 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Present ;
+        narr:region narr:Temporal_Realis ;
+        narr:region narr:Temporal_Concrete ;
+        narr:evidence "plain-assertion: the bundle closes when\nthe run closes" ;
+        narr:reported false ;
+        skos:note "Describes the concrete operational rule and timing mechanics affirmed by the ruling." ;
+        prov:generatedAtTime "2026-09-24T09:28:31Z"^^xsd:dateTime .
+
+    narr:VecTemporal_20260924_2_DeliveryRoutingRulingE2ESyntheticAttempt2_haec961429483_4 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20260924_2_DeliveryRoutingRulingE2ESyntheticAttempt2_haec961429483_4 ;
+        narr:dimension narr:Dim_Temporal ;
+        narr:region narr:Temporal_Past ;
+        narr:region narr:Temporal_Realis ;
+        narr:region narr:Temporal_Abstract ;
+        narr:evidence "plain-assertion: The alternative considered and rejected was" ;
+        narr:reported false ;
+        skos:note "Recounts a past design decision and evaluates architectural trade-offs." ;
+        prov:generatedAtTime "2026-09-24T09:28:31Z"^^xsd:dateTime .
+
+    narr:VecValue_20260924_2_DeliveryRoutingRulingE2ESyntheticAttempt2_haec961429483_2 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20260924_2_DeliveryRoutingRulingE2ESyntheticAttempt2_haec961429483_2 ;
+        narr:dimension narr:Dim_Value ;
+        narr:region narr:Value_SelfTranscendence ;
+        narr:evidence "modal-marker: a person should get one thing to read, not four" ;
+        narr:reported false ;
+        skos:note "Appeals to recipient experience and reducing cognitive burden on the reader as the grounding justification for bundling." ;
+        prov:generatedAtTime "2026-09-24T09:28:31Z"^^xsd:dateTime .
+
+    narr:VecValue_20260924_2_DeliveryRoutingRulingE2ESyntheticAttempt2_haec961429483_4 a narr:VectorObservation ;
+        oa:hasTarget narr:Expr_20260924_2_DeliveryRoutingRulingE2ESyntheticAttempt2_haec961429483_4 ;
+        narr:dimension narr:Dim_Value ;
+        narr:region narr:Value_SelfTranscendence ;
+        narr:evidence "plain-assertion: moves the ordering problem onto the\nreader" ;
+        narr:reported false ;
+        skos:note "Rejects an architectural alternative specifically because it offloads work and friction onto the reader." ;
+        prov:generatedAtTime "2026-09-24T09:28:31Z"^^xsd:dateTime .
+
+    narr:Expr_20260924_2_DeliveryRoutingRulingE2ESyntheticAttempt2_haec961429483_1 narr:supports narr:Narrative_ReactionDeliveryBundling .
+
+    narr:Expr_20260924_2_DeliveryRoutingRulingE2ESyntheticAttempt2_haec961429483_2 narr:supports narr:Narrative_ReactionDeliveryBundling .
+
+    narr:Expr_20260924_2_DeliveryRoutingRulingE2ESyntheticAttempt2_haec961429483_3 narr:supports narr:Narrative_ReactionDeliveryBundling .
+
+    narr:Expr_20260924_2_DeliveryRoutingRulingE2ESyntheticAttempt2_haec961429483_4 narr:supports narr:Narrative_ReactionDeliveryBundling .
+
+    narr:Position_ReactionDeliveryBundlingAndBatchingBoundary narr:supports narr:Narrative_ReactionDeliveryBundling .
+
+    narr:Expr_20260924_2_DeliveryRoutingRulingE2ESyntheticAttempt2_haec961429483_2 narr:supports narr:Position_ReactionDeliveryBundlingAndBatchingBoundary .
+
+    narr:Expr_20260924_2_DeliveryRoutingRulingE2ESyntheticAttempt2_haec961429483_3 narr:supports narr:Position_ReactionDeliveryBundlingAndBatchingBoundary .
+
+    narr:Expr_20260924_2_DeliveryRoutingRulingE2ESyntheticAttempt2_haec961429483_4 narr:supports narr:Position_ReactionDeliveryBundlingAndBatchingBoundary .
+
+    aswr:Miss_20260924_2_DeliveryRoutingRulingE2ESyntheticAttempt2_haec961429483_affect_trip a aswr:Miss ;
+        aswr:missPass "affect" ;
+        aswr:missClass "floor" ;
+        aswr:missError "0 of 4 segments marked" ;
+        aswr:missModel "google/gemini-3.7-flash" ;
+        aswr:tripFloor "marked_zero" ;
+        aswr:tripRatio "0.0000"^^xsd:decimal ;
+        aswr:tripOutcome "accepted-flagged" ;
+        aswr:tripFallbackModel "anthropic/claude-sonnet-5" ;
+        aswr:missScope narr:Sample_20260924_2_DeliveryRoutingRulingE2ESyntheticAttempt2_haec961429483 ;
+        prov:generatedAtTime "2026-09-24T09:28:31Z"^^xsd:dateTime .
+
+    aswr:Miss_20260924_2_DeliveryRoutingRulingE2ESyntheticAttempt2_haec961429483_resolve_trip a aswr:Miss ;
+        aswr:missPass "resolve" ;
+        aswr:missClass "floor" ;
+        aswr:missError "resolutions empty against a populated perspective" ;
+        aswr:missModel "google/gemini-3.7-flash" ;
+        aswr:tripFloor "empty_on_populated" ;
+        aswr:tripRatio "0.0000"^^xsd:decimal ;
+        aswr:tripOutcome "accepted-flagged" ;
+        aswr:tripFallbackModel "anthropic/claude-sonnet-5" ;
+        aswr:missScope narr:Sample_20260924_2_DeliveryRoutingRulingE2ESyntheticAttempt2_haec961429483 ;
+        prov:generatedAtTime "2026-09-24T09:28:31Z"^^xsd:dateTime .
+
+    aswr:Run_20260924T092831Z_dim_affect a prov:Activity ;
+        aswr:runPass "dim.affect" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/1b4fddaf098e/2026-09-24-2-delivery-routing-ruling-e2e-synthetic-attempt-2/dim.affect.json" ;
+        dct:isPartOf aswr:Tx_20260924T092831Z ;
+        prov:generatedAtTime "2026-09-24T09:28:31Z"^^xsd:dateTime .
+
+    aswr:Run_20260924T092831Z_dim_conviction a prov:Activity ;
+        aswr:runPass "dim.conviction" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/1b4fddaf098e/2026-09-24-2-delivery-routing-ruling-e2e-synthetic-attempt-2/dim.conviction.json" ;
+        prov:generated narr:VecConviction_20260924_2_DeliveryRoutingRulingE2ESyntheticAttempt2_haec961429483_1, narr:VecConviction_20260924_2_DeliveryRoutingRulingE2ESyntheticAttempt2_haec961429483_2, narr:VecConviction_20260924_2_DeliveryRoutingRulingE2ESyntheticAttempt2_haec961429483_3, narr:VecConviction_20260924_2_DeliveryRoutingRulingE2ESyntheticAttempt2_haec961429483_4 ;
+        dct:isPartOf aswr:Tx_20260924T092831Z ;
+        prov:generatedAtTime "2026-09-24T09:28:31Z"^^xsd:dateTime .
+
+    aswr:Run_20260924T092831Z_dim_power a prov:Activity ;
+        aswr:runPass "dim.power" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/1b4fddaf098e/2026-09-24-2-delivery-routing-ruling-e2e-synthetic-attempt-2/dim.power.json" ;
+        prov:generated narr:DirPower_OwnerPositionalRuling, narr:VecPower_20260924_2_DeliveryRoutingRulingE2ESyntheticAttempt2_haec961429483_1, narr:VecPower_20260924_2_DeliveryRoutingRulingE2ESyntheticAttempt2_haec961429483_2, narr:VecPower_20260924_2_DeliveryRoutingRulingE2ESyntheticAttempt2_haec961429483_3, narr:VecPower_20260924_2_DeliveryRoutingRulingE2ESyntheticAttempt2_haec961429483_4 ;
+        dct:isPartOf aswr:Tx_20260924T092831Z ;
+        prov:generatedAtTime "2026-09-24T09:28:31Z"^^xsd:dateTime .
+
+    aswr:Run_20260924T092831Z_dim_register a prov:Activity ;
+        aswr:runPass "dim.register" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/1b4fddaf098e/2026-09-24-2-delivery-routing-ruling-e2e-synthetic-attempt-2/dim.register.json" ;
+        prov:generated narr:VecRegister_20260924_2_DeliveryRoutingRulingE2ESyntheticAttempt2_haec961429483_2 ;
+        dct:isPartOf aswr:Tx_20260924T092831Z ;
+        prov:generatedAtTime "2026-09-24T09:28:31Z"^^xsd:dateTime .
+
+    aswr:Run_20260924T092831Z_dim_relational a prov:Activity ;
+        aswr:runPass "dim.relational" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/1b4fddaf098e/2026-09-24-2-delivery-routing-ruling-e2e-synthetic-attempt-2/dim.relational.json" ;
+        prov:generated narr:VecRelational_20260924_2_DeliveryRoutingRulingE2ESyntheticAttempt2_haec961429483_1, narr:VecRelational_20260924_2_DeliveryRoutingRulingE2ESyntheticAttempt2_haec961429483_3 ;
+        dct:isPartOf aswr:Tx_20260924T092831Z ;
+        prov:generatedAtTime "2026-09-24T09:28:31Z"^^xsd:dateTime .
+
+    aswr:Run_20260924T092831Z_dim_style a prov:Activity ;
+        aswr:runPass "dim.style" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/1b4fddaf098e/2026-09-24-2-delivery-routing-ruling-e2e-synthetic-attempt-2/dim.style.json" ;
+        prov:generated narr:VecStyle_20260924_2_DeliveryRoutingRulingE2ESyntheticAttempt2_haec961429483_2 ;
+        dct:isPartOf aswr:Tx_20260924T092831Z ;
+        prov:generatedAtTime "2026-09-24T09:28:31Z"^^xsd:dateTime .
+
+    aswr:Run_20260924T092831Z_dim_temporal a prov:Activity ;
+        aswr:runPass "dim.temporal" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/1b4fddaf098e/2026-09-24-2-delivery-routing-ruling-e2e-synthetic-attempt-2/dim.temporal.json" ;
+        prov:generated narr:VecTemporal_20260924_2_DeliveryRoutingRulingE2ESyntheticAttempt2_haec961429483_1, narr:VecTemporal_20260924_2_DeliveryRoutingRulingE2ESyntheticAttempt2_haec961429483_2, narr:VecTemporal_20260924_2_DeliveryRoutingRulingE2ESyntheticAttempt2_haec961429483_3, narr:VecTemporal_20260924_2_DeliveryRoutingRulingE2ESyntheticAttempt2_haec961429483_4 ;
+        dct:isPartOf aswr:Tx_20260924T092831Z ;
+        prov:generatedAtTime "2026-09-24T09:28:31Z"^^xsd:dateTime .
+
+    aswr:Run_20260924T092831Z_dim_value a prov:Activity ;
+        aswr:runPass "dim.value" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/1b4fddaf098e/2026-09-24-2-delivery-routing-ruling-e2e-synthetic-attempt-2/dim.value.json" ;
+        prov:generated narr:VecValue_20260924_2_DeliveryRoutingRulingE2ESyntheticAttempt2_haec961429483_2, narr:VecValue_20260924_2_DeliveryRoutingRulingE2ESyntheticAttempt2_haec961429483_4 ;
+        dct:isPartOf aswr:Tx_20260924T092831Z ;
+        prov:generatedAtTime "2026-09-24T09:28:31Z"^^xsd:dateTime .
+
+    aswr:Run_20260924T092831Z_pass5 a prov:Activity ;
+        aswr:runPass "pass5" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/1b4fddaf098e/2026-09-24-2-delivery-routing-ruling-e2e-synthetic-attempt-2/pass5.json" ;
+        dct:isPartOf aswr:Tx_20260924T092831Z ;
+        prov:generatedAtTime "2026-09-24T09:28:31Z"^^xsd:dateTime .
+
+    aswr:Run_20260924T092831Z_position a prov:Activity ;
+        aswr:runPass "position" ;
+        aswr:draftedBy "google/gemini-3.7-flash" ;
+        aswr:artifact "aswritten/runs:runs/1b4fddaf098e/2026-09-24-2-delivery-routing-ruling-e2e-synthetic-attempt-2/position.json" ;
+        dct:isPartOf aswr:Tx_20260924T092831Z ;
+        prov:generatedAtTime "2026-09-24T09:28:31Z"^^xsd:dateTime .
+  }
+}
