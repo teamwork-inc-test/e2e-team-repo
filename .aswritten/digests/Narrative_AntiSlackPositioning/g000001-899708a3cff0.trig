@@ -1,0 +1,21 @@
+@prefix narr: <https://aswritten.ai/narrative#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+GRAPH <https://aswritten.ai/narrative#Digest_Narrative_AntiSlackPositioning> {
+  <https://aswritten.ai/narrative#Digest_Narrative_AntiSlackPositioning> a narr:Digest ;
+    narr:digestOf <https://aswritten.ai/narrative#Narrative_AntiSlackPositioning> ;
+    narr:childCount "4"^^xsd:integer ;
+    narr:generatedFrom "899708a3cff0c4cc73468bbabd5cfd8b16b559e8" ;
+    narr:narration """This narrative defines the product by opposition and early commercial framing: [real-time chat named as the anti-pattern](narr:Position_AntiPatternRealtimeChat), against which the category is [deliberately created as a structured async decision platform](narr:Position_ProductCategoryAsyncPlatform). The initial [ICP](narr:Position_TargetMarketRemoteTeams) is [remote teams of 10-50 people](narr:Position_TargetMarketRemoteTeams), sized to feel decision-loss pain. Commercial framing starts at [a $12/user/month price point](narr:Position_PricingTwelveDollars), which a later sprint retro records moving upward for larger teams.""" ;
+    narr:covers <https://aswritten.ai/narrative#Position_AntiPatternRealtimeChat> ;
+    narr:covers <https://aswritten.ai/narrative#Position_PricingTwelveDollars> ;
+    narr:covers <https://aswritten.ai/narrative#Position_ProductCategoryAsyncPlatform> ;
+    narr:covers <https://aswritten.ai/narrative#Position_TargetMarketRemoteTeams> ;
+    narr:keyPhrase [ narr:text "Pricing set at $12/user/month as of 2026-03-10 product vision session" ; narr:phraseSource <https://aswritten.ai/narrative#Position_PricingTwelveDollars> ] ;
+    narr:keyPhrase [ narr:text "remote teams with 10-50 people" ; narr:phraseSource <https://aswritten.ai/narrative#Position_TargetMarketRemoteTeams> ] ;
+    narr:keyPhrase [ narr:text "Structured async decision platform" ; narr:phraseSource <https://aswritten.ai/narrative#Position_ProductCategoryAsyncPlatform> ] ;
+    narr:variation [ narr:text "Pricing did not hold at the vision-session number: a 2026-03-22 retro records $15/user for teams over 25, qualifying the original $12 framing." ; narr:over <https://aswritten.ai/narrative#Position_PricingTwelveDollars> ] ;
+    narr:moved "true"^^xsd:boolean ;
+    narr:diffBasis "first" ;
+    narr:writer "z-ai/glm-5.3-flash:nitro" .
+}
