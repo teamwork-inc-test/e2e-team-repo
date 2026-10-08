@@ -1,0 +1,12 @@
+{
+  "positions" : [ {
+    "name" : "ReactionDeliveryRoutingPolicy",
+    "frame" : "how should reaction notifications be batched and ordered across skill runs?",
+    "members" : [ "src-2", "src-3", "src-4", "src-5" ],
+    "why" : "Tanya's authoritative ruling establishes that reaction delivery must be consolidated into one bundle per run per recipient rather than fragmented across individual skills, enforcing server-side ordering and strict run-boundary closing to minimize recipient cognitive load despite pushback on the batching window."
+  } ],
+  "attaches" : [ ],
+  "position_revisions" : [ ],
+  "ungrouped" : [ ],
+  "_source_sha256" : "ba05ea0158d2bb5ae030ad5d571477370ce49537407437eea6eb9df45ec14eb7"
+}
