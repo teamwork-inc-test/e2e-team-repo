@@ -1,0 +1,22 @@
+{
+  "doc" : {
+    "title" : "Default Ref Test",
+    "date_stated" : null,
+    "actors_present" : [ "Tanya TeamOwner" ]
+  },
+  "footing_cases" : [ ],
+  "segments" : [ {
+    "local_id" : "src-1",
+    "exact" : "\"Testing that omitted ref creates a topic branch.\"",
+    "actor" : "Tanya TeamOwner",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Default Ref Test"
+    },
+    "note" : null,
+    "redacted" : false,
+    "footing_case" : null
+  } ],
+  "coverage_gaps" : [ ],
+  "_source_sha256" : "d45730ae8512188e03d768ea37c4e43f8854f82ab91b2b1610a027ac4aee5734"
+}
