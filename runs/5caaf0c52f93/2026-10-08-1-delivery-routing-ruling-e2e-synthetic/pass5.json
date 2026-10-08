@@ -1,0 +1,25 @@
+{
+  "placements" : [ {
+    "supporting_segments" : [ "src-2", "src-3", "src-4", "src-5" ],
+    "under" : null,
+    "why" : "The document captures an explicit architectural ruling evaluating and rejecting client-side collapsing in favor of server-side consolidated bundling.",
+    "verdict" : "mint",
+    "leaf" : "DesignTradeoffs",
+    "region" : [ "DesignTradeoffs" ],
+    "kind" : "strata",
+    "title" : "Architectural choices favor reader ergonomics over producer convenience",
+    "frame" : "What architectural trade-offs are accepted to minimize cognitive overhead for the recipient?",
+    "consulted" : [ "Narrative_AntiSlackPositioning", "Narrative_DecisionCaptureAtConsensus", "Narrative_DecisionsEvaporate" ]
+  }, {
+    "verdict" : "mint",
+    "leaf" : "Narrative_ReaderFirstDeliveryBundling",
+    "title" : "Delivery routing consolidates notifications per run to prevent fragmented user attention",
+    "frame" : "How should delivery boundaries and batching windows be enforced across asynchronous skills to minimize recipient cognitive load?",
+    "under" : [ "DesignTradeoffs" ],
+    "supporting_segments" : [ "src-2", "src-3", "src-4", "src-5" ],
+    "why" : "Tanya rules that reaction delivery must be routed as one bundle per run per person with strict run-boundary closing rather than individual per-skill messaging.",
+    "consulted" : [ "Narrative_AntiSlackPositioning", "Narrative_DecisionCaptureAtConsensus", "Narrative_DecisionsEvaporate" ]
+  } ],
+  "unplaced" : [ ],
+  "_source_sha256" : "ba05ea0158d2bb5ae030ad5d571477370ce49537407437eea6eb9df45ec14eb7"
+}
