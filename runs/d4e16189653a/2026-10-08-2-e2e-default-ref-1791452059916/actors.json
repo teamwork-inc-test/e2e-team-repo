@@ -1,0 +1,16 @@
+{
+  "bindings" : [ {
+    "name" : "Tanya TeamOwner",
+    "verdict" : "mint",
+    "target" : null,
+    "label" : "Tanya TeamOwner",
+    "why" : "Young repo with no existing actors; minting full name witnessed in envelope participants and submitted_by."
+  }, {
+    "name" : "tanya+staging@aswritten.ai",
+    "verdict" : "mint",
+    "target" : null,
+    "label" : "Tanya TeamOwner",
+    "why" : "Account email alias for Tanya TeamOwner; converges to identical minted label."
+  } ],
+  "_source_sha256" : "d45730ae8512188e03d768ea37c4e43f8854f82ab91b2b1610a027ac4aee5734"
+}
