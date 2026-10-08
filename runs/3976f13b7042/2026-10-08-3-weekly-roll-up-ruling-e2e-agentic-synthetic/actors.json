@@ -1,0 +1,22 @@
+{
+  "bindings" : [ {
+    "name" : "Tanya TeamOwner",
+    "verdict" : "mint",
+    "target" : null,
+    "label" : "Tanya TeamOwner",
+    "why" : "No existing actors; minting fullest attested name."
+  }, {
+    "name" : "Tina",
+    "verdict" : "mint",
+    "target" : null,
+    "label" : "Tina",
+    "why" : "No existing actors; minting bare name."
+  }, {
+    "name" : "tanya+staging@aswritten.ai",
+    "verdict" : "mint",
+    "target" : null,
+    "label" : "Tanya TeamOwner",
+    "why" : "Account email for Tanya TeamOwner; converges to the same minted actor label."
+  } ],
+  "_source_sha256" : "a613398fb06b1f603a0127b54d35b3c7368f5d5d79b24da10e8023780d4ab149"
+}
