@@ -1,0 +1,45 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-2",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "ruled",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Explicit performative ruling sets an operational decision.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-3",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "stays",
+      "kind" : "commitment-marker"
+    }, {
+      "quote" : "we add one roll-up",
+      "kind" : "commitment-marker"
+    } ],
+    "why" : "Operational policy establishing what stays and what is added.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-5",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "held that it\ndoes not",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Firm authoritative determination clarifying policy boundaries.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-6",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "Rejected",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Explicit rejection of a proposed alternative formalizes a negative decision.",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-4" ],
+  "mints" : [ ],
+  "_source_sha256" : "a613398fb06b1f603a0127b54d35b3c7368f5d5d79b24da10e8023780d4ab149"
+}
