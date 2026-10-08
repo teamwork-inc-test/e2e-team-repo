@@ -1,0 +1,124 @@
+{
+  "schema_version" : 1,
+  "run_id" : "mp-eng-4a6759c5",
+  "live_run_id" : "3976f13b7042",
+  "stream" : "main",
+  "policy" : {
+    "lands" : { },
+    "channels" : [ "email", "sms" ],
+    "mode" : "on",
+    "source" : "stream",
+    "agentic" : true,
+    "skills" : { },
+    "warn_per_run_usd" : 0.25,
+    "audience" : "owner-setting",
+    "version" : 1,
+    "stop_per_dispatch_usd" : 2.0
+  },
+  "gates" : [ {
+    "id" : "aswritten/clarify",
+    "run?" : false,
+    "gate" : 2,
+    "reason" : "score 0.05 < threshold 0.7",
+    "score" : 0.05,
+    "evidence" : [ "plain-signal: Tina asked whether the roll-up replaces the per-run bundle.", "plain-assertion: the bundle is for the run, the roll-up is for the week.", "plain-assertion: on Fridays we add one roll-up of the week", "while rejecting a daily digest" ]
+  }, {
+    "id" : "aswritten/merge-suggest",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "skill off"
+  }, {
+    "id" : "aswritten/refract",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "no documents to refract"
+  }, {
+    "id" : "aswritten/review-message",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "skill off"
+  }, {
+    "id" : "aswritten/review-request",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "skill off"
+  }, {
+    "id" : "aswritten/riff",
+    "run?" : true,
+    "gate" : 2,
+    "reason" : "predicate only"
+  } ],
+  "jobs" : [ {
+    "skill" : "aswritten/riff",
+    "status" : "ok",
+    "gate" : { },
+    "output" : {
+      "riff" : {
+        "kind" : "prototype",
+        "title" : "The first Friday roll-up, drafted from the graph",
+        "message" : "Tanya — you ruled the roll-up into existence on Wednesday, so I took it literally: here's the first Friday one, drafted from everything the team's perspective actually holds. I couldn't help noticing the ruling is the product eating its own dog food — \"instead of asking anyone to scroll back\" is Tina's scroll-back problem from the March product vision, turned inward on our own reactions. So I built it the way we tell customers to build it.\n\n---\n\n**Friday roll-up — week of Oct 5**\n\n**What moved**\n- Cadence ruling (Tanya, Wed): the per-run bundle stays; one roll-up added on Fridays. The bundle is for the run, the roll-up is for the week.\n- Rejected: a daily digest — most days carry a single run and it would repeat the bundle word for word.\n- Pricing: the $12/user/month set back on March 10 did not hold — revised to $15. Still the one contested item on the board.\n\n**Still open**\n- The framing question under the ruling — how updates scope across per-run, daily, and weekly cadences — was answered for this case but not closed in general.\n- Next sprint focus stands: context preservation, linking decisions to the context that produced them. (Identified as the #1 request from beta users.)\n\n---\n\nOne thing the draft surfaced: the roll-up is only worth sending on weeks where something contested moved. This week that's pricing. If a week carries nothing but single runs, the roll-up has the same redundancy problem you named against the daily digest — worth a one-line rule for when the Friday roll-up skips a week.",
+        "lands" : "message",
+        "drew_on" : [ "Tina's scroll-back problem quote from the 2026-03-10 product vision — the ruling's 'instead of asking anyone to scroll back' is that verbatim pain turned inward", "The contested pricing narrative ($12 revised to $15, from March 10) — the only live disagreement to carry in the roll-up", "Position_ContextPreservationNextSprint and the #1 beta-user request, still open and roll-up-relevant", "The daily-digest rejection's redundancy logic, extended to spot the same failure mode in weekly cadence" ],
+        "why_no_registered_skill" : "clarify asks about an ambiguity, and the ruling left none; merge-suggest flags duplicate captures, which this isn't; refract would find the lens but not draft the artifact the ruling mandates; review-message reports on a person's own earlier words, not a new deliverable; review-request is a mechanical positions-review prompt with no model call.",
+        "shape" : "cadence-ruling artifact, first instance drafted"
+      }
+    },
+    "landing" : {
+      "landed" : "message"
+    },
+    "ms" : 8010,
+    "attempts" : [ {
+      "disposition" : "ok",
+      "elapsed_ms" : 1165,
+      "content_chars" : 0
+    }, {
+      "disposition" : "ok",
+      "elapsed_ms" : 5942,
+      "content_chars" : 2619
+    } ],
+    "tools" : [ {
+      "name" : "perspective",
+      "chars" : 10655,
+      "ms" : 855
+    } ]
+  } ],
+  "spend" : {
+    "cost_usd" : 0.030123,
+    "passes" : [ {
+      "pass" : "reaction:_score",
+      "llm_calls" : 1,
+      "cost_usd" : 0.0028917,
+      "null_cost_calls" : 0
+    }, {
+      "pass" : "reaction:riff",
+      "llm_calls" : 2,
+      "cost_usd" : 0.02723092,
+      "null_cost_calls" : 0
+    } ]
+  },
+  "bundle" : {
+    "items" : 1,
+    "audience" : "only-me",
+    "recipients" : 1,
+    "sent" : [ {
+      "items" : [ {
+        "kind" : "note",
+        "skill" : "aswritten/riff",
+        "audience" : "owner"
+      } ],
+      "handle" : "tanya+staging@aswritten.ai",
+      "channel" : "email",
+      "h" : "09fcdb5f3d",
+      "status" : "skipped: test identity"
+    } ]
+  },
+  "counters" : { },
+  "at" : "2026-10-08T09:39:53.727788534Z",
+  "scorer" : {
+    "attempts" : [ {
+      "disposition" : "ok",
+      "elapsed_ms" : 26556,
+      "content_chars" : 730
+    } ]
+  }
+}
