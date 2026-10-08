@@ -1,0 +1,58 @@
+{
+  "doc" : {
+    "title" : "Delivery routing ruling (e2e synthetic)",
+    "date_stated" : null,
+    "actors_present" : [ "Tanya TeamOwner", "Tina" ]
+  },
+  "footing_cases" : [ ],
+  "segments" : [ {
+    "local_id" : "src-2",
+    "exact" : "Tanya (team owner) ruled on where reaction delivery belongs:",
+    "actor" : "Tanya TeamOwner",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Delivery routing ruling"
+    },
+    "note" : "Framing sentence introducing the ruling quote",
+    "redacted" : false,
+    "footing_case" : null
+  }, {
+    "local_id" : "src-3",
+    "exact" : "we route every reaction through one bundle per run per person, not one\n> message per skill — a person should get one thing to read, not four",
+    "actor" : "Tanya TeamOwner",
+    "act" : "directive",
+    "circumstance" : {
+      "context" : "Delivery routing ruling"
+    },
+    "note" : null,
+    "redacted" : false,
+    "footing_case" : null
+  }, {
+    "local_id" : "src-4",
+    "exact" : "Tina pushed back on the batching window and Tanya held: the bundle closes when\nthe run closes, and a skill that misses the close waits for the next run rather\nthan sending on its own.",
+    "actor" : "Tanya TeamOwner",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Delivery routing ruling"
+    },
+    "note" : null,
+    "redacted" : false,
+    "footing_case" : null
+  }, {
+    "local_id" : "src-5",
+    "exact" : "The alternative considered and rejected was per-skill\ndelivery with client-side collapsing, which moves the ordering problem onto the\nreader.",
+    "actor" : "Tanya TeamOwner",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Delivery routing ruling"
+    },
+    "note" : null,
+    "redacted" : false,
+    "footing_case" : null
+  } ],
+  "coverage_gaps" : [ {
+    "reason" : "segment src-1 dropped: exact unverifiable against the document (paraphrase or unrepairable normalization)",
+    "span_hint" : "reviewers:\n  - "
+  } ],
+  "_source_sha256" : "ba05ea0158d2bb5ae030ad5d571477370ce49537407437eea6eb9df45ec14eb7"
+}
