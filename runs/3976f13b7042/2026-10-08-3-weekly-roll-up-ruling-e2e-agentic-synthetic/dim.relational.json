@@ -1,0 +1,55 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-2",
+    "regions" : [ "authority-ranking" ],
+    "evidence" : [ {
+      "quote" : "ruled",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Tanya explicitly exercises positional authority ('team owner') to establish an operational rule for the group.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-3",
+    "regions" : [ "communal-sharing" ],
+    "evidence" : [ {
+      "quote" : "we add one roll-up of the week",
+      "kind" : "framing-move"
+    }, {
+      "quote" : "instead of asking anyone to scroll back",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Frames the procedure in terms of shared collective workflow ('we') and mutual consideration for teammates' effort.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-4",
+    "regions" : [ "authority-ranking" ],
+    "evidence" : [ {
+      "quote" : "Tina asked whether the roll-up replaces the per-run bundle.",
+      "kind" : "plain-signal"
+    } ],
+    "why" : "Reports Tina seeking clarification and boundary confirmation from the ruling authority.",
+    "reported" : true
+  }, {
+    "segment_local_id" : "src-5",
+    "regions" : [ "authority-ranking" ],
+    "evidence" : [ {
+      "quote" : "Tanya held that it\ndoes not",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Enacts authoritative determination and boundary definition over workflow procedures.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-6",
+    "regions" : [ "authority-ranking" ],
+    "evidence" : [ {
+      "quote" : "Rejected:",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Authoritatively rejects an alternative proposal based on operational redundancy.",
+    "reported" : false
+  } ],
+  "unmarked" : [ ],
+  "mints" : [ ],
+  "region_mints" : [ ],
+  "_source_sha256" : "a613398fb06b1f603a0127b54d35b3c7368f5d5d79b24da10e8023780d4ab149"
+}
