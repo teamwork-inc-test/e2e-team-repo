@@ -1,0 +1,13 @@
+{
+  "positions" : [ {
+    "name" : "InternalOperationsPoliciesCadence",
+    "frame" : "how are internal team operational handoffs and shared resource policies structured?",
+    "members" : [ "src-1", "src-2", "src-3" ],
+    "why" : "Unifies the procedural rules for the fortnightly intake rota and the pantry restocking thresholds under their shared November 1 operational effective date.",
+    "name_repaired_from" : "Position_InternalOperationsPoliciesCadence"
+  } ],
+  "attaches" : [ ],
+  "position_revisions" : [ ],
+  "ungrouped" : [ ],
+  "_source_sha256" : "33334968fe34c87719682c0567426876d98b442189d1cbf1cacbe6ef13bcbb39"
+}
