@@ -1,0 +1,46 @@
+{
+  "doc" : {
+    "title" : "Intake rota: a longer overlap",
+    "date_stated" : null,
+    "actors_present" : [ "claude-opus-5-5" ]
+  },
+  "footing_cases" : [ {
+    "id" : "fc-1",
+    "animator" : "claude-opus-5-5",
+    "author" : "claude-opus-5-5",
+    "principal" : null,
+    "unresolved" : "The envelope specifies drafted_by as claude-opus-5-5 and submitted_by as Tanya TeamOwner without explicitly stating whether Tanya stands behind the document as principal.",
+    "when" : "editorial prose drafted by claude-opus-5-5 on the account"
+  } ],
+  "segments" : [ {
+    "local_id" : "src-1",
+    "exact" : "The intake rota stays fortnightly, as agreed on 1 October, but the overlap call at each hand-off grows from fifteen to thirty minutes.",
+    "actor" : "claude-opus-5-5",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Intake rota: a longer overlap"
+    },
+    "footing_case" : "fc-1",
+    "footing" : {
+      "animator" : "claude-opus-5-5",
+      "author" : "claude-opus-5-5",
+      "principal" : null
+    }
+  }, {
+    "local_id" : "src-2",
+    "exact" : "Fifteen minutes covered the open cases but not the ones that arrived during the hand-off week.",
+    "actor" : "claude-opus-5-5",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Intake rota: a longer overlap"
+    },
+    "footing_case" : "fc-1",
+    "footing" : {
+      "animator" : "claude-opus-5-5",
+      "author" : "claude-opus-5-5",
+      "principal" : null
+    }
+  } ],
+  "coverage_gaps" : [ ],
+  "_source_sha256" : "e040337bd8dac8bfd179f25203dce69bc4b3fb0472b1cff5dfbd14bc8cef16c9"
+}
