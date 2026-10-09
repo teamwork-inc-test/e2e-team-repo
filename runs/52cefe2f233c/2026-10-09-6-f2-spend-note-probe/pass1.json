@@ -1,0 +1,20 @@
+{
+  "doc" : {
+    "title" : "Pantry rota — 2026-10-09",
+    "date_stated" : "2026-10-09",
+    "actors_present" : [ "Dario Kent" ]
+  },
+  "segments" : [ {
+    "local_id" : "src-1",
+    "exact" : "\"The Friday pantry shift starts at nine from November.\"",
+    "actor" : "Dario Kent",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Pantry rota"
+    },
+    "footing_case" : null
+  } ],
+  "coverage_gaps" : [ ],
+  "footing_cases" : [ ],
+  "_source_sha256" : "80b4d39e45e7e30c7742141b068f8cee94f7c2fcb80bb35e76b9f605535d1683"
+}
