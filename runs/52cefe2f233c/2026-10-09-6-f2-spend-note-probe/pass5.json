@@ -1,0 +1,11 @@
+{
+  "placements" : [ {
+    "verdict" : "reuse",
+    "leaf" : "Narrative_OperationalCadenceAndResourceThresholds",
+    "supporting_segments" : [ "src-1" ],
+    "why" : "Dario's statement establishes the start time for the Friday pantry shift beginning in November, fitting directly into the existing narrative governing team operating cadences, schedules, and resource maintenance thresholds.",
+    "consulted" : [ "Narrative_OperationalCadenceAndResourceThresholds", "Narrative_AntiSlackPositioning", "Narrative_DecisionCaptureAtConsensus", "Narrative_DecisionsEvaporate" ]
+  } ],
+  "unplaced" : [ ],
+  "_source_sha256" : "80b4d39e45e7e30c7742141b068f8cee94f7c2fcb80bb35e76b9f605535d1683"
+}
