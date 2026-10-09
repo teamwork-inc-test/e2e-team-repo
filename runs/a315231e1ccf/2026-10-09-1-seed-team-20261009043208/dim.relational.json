@@ -1,0 +1,26 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "equality-matching" ],
+    "evidence" : [ {
+      "quote" : "intake rota moves to fortnightly in November, with a fifteen-minute overlap call at each hand-off",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Establishes a structured turn-taking schedule and symmetrical hand-off protocol among team members.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-2",
+    "regions" : [ "communal-sharing" ],
+    "evidence" : [ {
+      "quote" : "The pantry restocks any shelf when it falls below a third full.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Governs the maintenance of a shared, pooled commons based on collective need rather than individual accounting.",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-3" ],
+  "unmarked_rest" : false,
+  "mints" : [ ],
+  "region_mints" : [ ],
+  "_source_sha256" : "33334968fe34c87719682c0567426876d98b442189d1cbf1cacbe6ef13bcbb39"
+}
