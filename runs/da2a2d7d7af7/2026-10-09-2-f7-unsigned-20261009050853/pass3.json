@@ -1,0 +1,18 @@
+{
+  "reconciliations" : [ {
+    "segment_ids" : [ "src-1" ],
+    "note" : "The intake rota stays fortnightly, as agreed on 1 October, but the overlap call at each hand-off grows from fifteen to thirty minutes.",
+    "targets" : [ "Process" ],
+    "referents" : [ {
+      "ref" : "Expr_20261009_1_SeedTeam20261009050853_h0bff6d60ff61_1",
+      "relation" : "supersedes"
+    } ],
+    "principal" : "Tanya TeamOwner"
+  } ],
+  "standalone" : [ {
+    "segment_id" : "src-2",
+    "why" : "verdict new (nothing to reconcile)"
+  } ],
+  "held" : [ ],
+  "_source_sha256" : "e040337bd8dac8bfd179f25203dce69bc4b3fb0472b1cff5dfbd14bc8cef16c9"
+}
