@@ -1,0 +1,30 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "as agreed on 1 October",
+      "kind" : "commitment-marker"
+    }, {
+      "quote" : "stays fortnightly",
+      "kind" : "plain-assertion"
+    }, {
+      "quote" : "grows from fifteen to thirty minutes",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Operational schedule rule ratified and stated as a settled working decision.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-2",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "Fifteen minutes covered the open cases but not the ones that arrived during the hand-off week.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Unhedged factual assertion offered to justify the operational shift.",
+    "reported" : false
+  } ],
+  "unmarked" : [ ],
+  "mints" : [ ],
+  "_source_sha256" : "e040337bd8dac8bfd179f25203dce69bc4b3fb0472b1cff5dfbd14bc8cef16c9"
+}
