@@ -1,0 +1,12 @@
+{
+  "placements" : [ {
+    "verdict" : "reuse",
+    "leaf" : "Narrative_ThresholdBasedPantryRestocking",
+    "supporting_segments" : [ "src-1", "src-2" ],
+    "adopted_positions" : [ "Position_PantryRestockThreshold" ],
+    "why" : "Continues and refines the threshold-based pantry restocking narrative by keeping the baseline one-third threshold while establishing a higher half-full threshold for high-velocity items (oats and rice) to ensure adequate Friday supply.",
+    "consulted" : [ "Narrative_ThresholdBasedPantryRestocking", "Position_PantryRestockThreshold", "Process" ]
+  } ],
+  "unplaced" : [ ],
+  "_source_sha256" : "41dcd61d3d391179b1f97a179273f02ff41fe4ce3af211f4c07d7133e0a4e92a"
+}
