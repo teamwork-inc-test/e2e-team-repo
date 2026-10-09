@@ -1,0 +1,16 @@
+{
+  "placements" : [ {
+    "adopted_positions" : null,
+    "supporting_segments" : [ "src-1", "src-2" ],
+    "under" : null,
+    "why" : "Both expressions directly refine and justify the pantry resource replenishment thresholds established in prior calls, continuing the operational cadence and maintenance rule theme.",
+    "verdict" : "reuse",
+    "leaf" : "Narrative_OperationalCadenceAndResourceThresholds",
+    "region" : null,
+    "title" : null,
+    "frame" : null,
+    "consulted" : [ "Narrative_OperationalCadenceAndResourceThresholds", "InternalOperations" ]
+  } ],
+  "unplaced" : [ ],
+  "_source_sha256" : "41dcd61d3d391179b1f97a179273f02ff41fe4ce3af211f4c07d7133e0a4e92a"
+}
