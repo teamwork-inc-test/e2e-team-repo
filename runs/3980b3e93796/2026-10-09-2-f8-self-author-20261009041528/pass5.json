@@ -1,0 +1,14 @@
+{
+  "placements" : [ {
+    "verdict" : "mint",
+    "leaf" : "Narrative_RestockThresholdCoversLeadTime",
+    "title" : "Restock thresholds must buffer consumption to cover supplier lead times",
+    "frame" : "How should replenishment thresholds and inventory buffers be calibrated against supplier lead times and peak usage?",
+    "under" : null,
+    "supporting_segments" : [ "src-1", "src-2", "src-3" ],
+    "why" : "The segments establish an operational policy that restock triggers must be set at buffer capacity (one-third full) rather than depletion to account for supplier lead time and prevent stockouts during peak demand.",
+    "consulted" : [ "IntakeCadence", "Narrative_AntiSlackPositioning", "Narrative_DecisionCaptureAtConsensus", "Narrative_DecisionsEvaporate", "Narrative_LongerIntakeCadencePreservesContext" ]
+  } ],
+  "unplaced" : [ ],
+  "_source_sha256" : "a8deb35798db5e3ec1f4c2f1c02049e74e51d6c0f7c0c592642610fb33b1f3a7"
+}
