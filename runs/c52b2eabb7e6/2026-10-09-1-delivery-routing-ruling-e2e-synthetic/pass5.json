@@ -1,0 +1,15 @@
+{
+  "placements" : [ {
+    "adopted_positions" : null,
+    "supporting_segments" : [ "src-2", "src-3", "src-4", "src-5" ],
+    "under" : null,
+    "why" : "Establishes the architectural rule that multi-skill reactions must be delivered as a single bundle per run per person, closed strictly at run completion, rejecting per-skill delivery with client-side collapsing to avoid shifting cognitive load onto the reader.",
+    "verdict" : "mint",
+    "leaf" : "Narrative_ReactionDeliveryBundling",
+    "title" : "Server-side reaction bundling per run protects recipient attention over client-side sorting",
+    "frame" : "How should multi-skill reaction outputs be batched and bounded across execution runs to minimize recipient cognitive load?",
+    "consulted" : [ "Narrative_AntiSlackPositioning", "Narrative_DecisionCaptureAtConsensus", "Narrative_DecisionsEvaporate" ]
+  } ],
+  "unplaced" : [ "src-1" ],
+  "_source_sha256" : "ba05ea0158d2bb5ae030ad5d571477370ce49537407437eea6eb9df45ec14eb7"
+}
