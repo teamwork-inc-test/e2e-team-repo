@@ -1,0 +1,26 @@
+{
+  "placements" : [ {
+    "supporting_segments" : [ "src-1", "src-2", "src-3", "src-4" ],
+    "under" : null,
+    "why" : "Establishes the organizational category for intake rota design, hand-off protocols, and case-ownership continuity.",
+    "verdict" : "mint",
+    "leaf" : "IntakeCadence",
+    "region" : [ "OperatingCadence", "ProcessPolicyUpdates" ],
+    "kind" : "strata",
+    "title" : "Intake cadence and hand-off structures that maintain operational continuity",
+    "frame" : "How should intake cycles, hand-off interactions, and operational artifact timing be structured to preserve context and ensure single-owner resolution?",
+    "consulted" : [ "Narrative_AntiSlackPositioning", "Narrative_DecisionCaptureAtConsensus", "Narrative_DecisionsEvaporate" ]
+  }, {
+    "supporting_segments" : [ "src-1", "src-2", "src-3", "src-4" ],
+    "under" : [ "IntakeCadence" ],
+    "why" : "The segments argue that weekly hand-offs lose context by repeatedly resetting open cases from summary sheets, whereas fortnightly rotas with fifteen-minute overlap calls and end-of-rota summaries retain context long enough for single owners to close cases.",
+    "verdict" : "mint",
+    "leaf" : "Narrative_LongerIntakeCadencePreservesContext",
+    "kind" : "narrative",
+    "title" : "Longer intake cycles and structured overlap hand-offs preserve case context to resolution",
+    "frame" : "How does extending intake cycle duration and timing summary sheets at cycle close prevent context loss across active cases?",
+    "consulted" : [ "Narrative_AntiSlackPositioning", "Narrative_DecisionCaptureAtConsensus", "Narrative_DecisionsEvaporate" ]
+  } ],
+  "unplaced" : [ ],
+  "_source_sha256" : "1aa9128cfef3aed3a2fd2f6f7a9167b8835d1734b7f7f95dd8ac94e333d718fe"
+}
