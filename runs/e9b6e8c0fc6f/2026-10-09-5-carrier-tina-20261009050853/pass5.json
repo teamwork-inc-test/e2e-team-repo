@@ -1,0 +1,11 @@
+{
+  "placements" : [ {
+    "verdict" : "reuse",
+    "leaf" : "Narrative_ThresholdBasedPantryRestocking",
+    "supporting_segments" : [ "src-1" ],
+    "why" : "Dario Kent's directive establishes a physical one-third shelf-marking standard so restocking decisions can be made at a glance, directly operationalizing the threshold-based pantry replenishment theme.",
+    "consulted" : [ "Narrative_ThresholdBasedPantryRestocking", "Narrative_IntakeRotaOverlapCadence", "Process" ]
+  } ],
+  "unplaced" : [ ],
+  "_source_sha256" : "5173ce0d903a220b9705f86ad203ba82c8dfb250768cb9581121cbc06fdec1ac"
+}
