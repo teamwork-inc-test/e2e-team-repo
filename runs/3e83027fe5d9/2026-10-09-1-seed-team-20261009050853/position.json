@@ -1,0 +1,19 @@
+{
+  "positions" : [ {
+    "name" : "IntakeRotaCadenceAndHandOff",
+    "frame" : "how are intake rota cycles and hand-off transitions structured?",
+    "members" : [ "src-1", "src-3" ],
+    "why" : "Establishes the operational cadence and hand-off protocol for the intake rota alongside its effective implementation date.",
+    "name_repaired_from" : "Position_IntakeRotaCadenceAndHandOff"
+  }, {
+    "name" : "PantryRestockThreshold",
+    "frame" : "what triggers and timelines govern internal pantry restocking?",
+    "members" : [ "src-2", "src-3" ],
+    "why" : "Defines the inventory depletion threshold triggering pantry shelf restocking alongside its effective launch date.",
+    "name_repaired_from" : "Position_PantryRestockThreshold"
+  } ],
+  "attaches" : [ ],
+  "position_revisions" : [ ],
+  "ungrouped" : [ ],
+  "_source_sha256" : "33334968fe34c87719682c0567426876d98b442189d1cbf1cacbe6ef13bcbb39"
+}
