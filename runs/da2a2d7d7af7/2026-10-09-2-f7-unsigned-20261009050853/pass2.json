@@ -1,0 +1,20 @@
+{
+  "resolutions" : [ {
+    "commentary_local_id" : "src-1",
+    "phrase" : "as agreed on 1 October",
+    "verdict" : "confident",
+    "binding" : {
+      "referents" : [ {
+        "iri" : "Expr_20261009_1_SeedTeam20261009050853_h0bff6d60ff61_1",
+        "relation" : "supersedes",
+        "why" : "Replaces the fifteen-minute overlap call duration with thirty minutes while maintaining the fortnightly rota cadence agreed on 2026-10-01."
+      } ],
+      "targets" : [ "Narrative_IntakeRotaOverlapCadence" ]
+    },
+    "candidates" : null,
+    "why" : "Explicitly references the 1 October intake rota decision, affirming the fortnightly cadence while superseding the fifteen-minute overlap duration.",
+    "consulted" : [ "Expr_20261009_1_SeedTeam20261009050853_h0bff6d60ff61_1", "Expr_20261009_1_SeedTeam20261009050853_h0bff6d60ff61_3", "Narrative_IntakeRotaOverlapCadence", "Position_IntakeRotaCadenceAndHandOff", "Sample_20261009_1_SeedTeam20261009050853_h0bff6d60ff61", "Process" ]
+  } ],
+  "unreferenced_commentary" : [ "src-2" ],
+  "_source_sha256" : "e040337bd8dac8bfd179f25203dce69bc4b3fb0472b1cff5dfbd14bc8cef16c9"
+}
