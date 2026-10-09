@@ -1,0 +1,11 @@
+{
+  "placements" : [ {
+    "verdict" : "reuse",
+    "leaf" : "Narrative_FortnightlyIntakeAndResourceThresholds",
+    "supporting_segments" : [ "src-1" ],
+    "why" : "The decision to place a printed sign with November rota dates at the intake desk directly supports the team's operationalization and communication of the updated fortnightly intake rota schedule.",
+    "consulted" : [ "Narrative_FortnightlyIntakeAndResourceThresholds", "TeamOperations", "Narrative_AntiSlackPositioning", "Narrative_DecisionCaptureAtConsensus", "Narrative_DecisionsEvaporate" ]
+  } ],
+  "unplaced" : [ ],
+  "_source_sha256" : "f0215b801a86f2da16619406ba287b90cd53dff96e1dd8920c408fea57611b99"
+}
