@@ -1,0 +1,17 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "antithesis" ],
+    "evidence" : [ {
+      "quote" : "when any shelf falls below a third full, not when it is empty",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Opposed timing conditions contrasted directly in a single 'X, not Y' syntactic frame.",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-2", "src-3" ],
+  "unmarked_rest" : false,
+  "mints" : [ ],
+  "region_mints" : [ ],
+  "_source_sha256" : "a8deb35798db5e3ec1f4c2f1c02049e74e51d6c0f7c0c592642610fb33b1f3a7"
+}
