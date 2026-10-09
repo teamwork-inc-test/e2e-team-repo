@@ -1,0 +1,20 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "equality-matching" ],
+    "evidence" : [ {
+      "quote" : "intake rota stays fortnightly",
+      "kind" : "framing-move"
+    }, {
+      "quote" : "as agreed",
+      "kind" : "commitment-marker"
+    } ],
+    "why" : "References a balanced rotational schedule (rota) and mutual agreement, invoking equality-matching turn-taking and coordination.",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-2" ],
+  "unmarked_rest" : false,
+  "mints" : [ ],
+  "region_mints" : [ ],
+  "_source_sha256" : "e040337bd8dac8bfd179f25203dce69bc4b3fb0472b1cff5dfbd14bc8cef16c9"
+}
