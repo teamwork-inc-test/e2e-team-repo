@@ -1,0 +1,16 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-2",
+    "regions" : [ "antithesis" ],
+    "evidence" : [ {
+      "quote" : "covered the open cases but not the ones that arrived during the hand-off week",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Direct antithetical contrast pairing what was covered against what was not covered within the same clause structure.",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-1" ],
+  "mints" : [ ],
+  "region_mints" : [ ],
+  "_source_sha256" : "e040337bd8dac8bfd179f25203dce69bc4b3fb0472b1cff5dfbd14bc8cef16c9"
+}
