@@ -1,0 +1,33 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "future", "irrealis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "moves to fortnightly in November",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Describes a scheduled future operational change and meeting structure with specific details.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-2",
+    "regions" : [ "present", "realis", "abstract" ],
+    "evidence" : [ {
+      "quote" : "restocks any shelf when it falls below a third full",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "States an ongoing general policy/rule triggered conditionally.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-3",
+    "regions" : [ "future", "irrealis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "start on the first of November",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Points to a specific future date for implementation.",
+    "reported" : false
+  } ],
+  "unmarked" : [ ],
+  "unmarked_rest" : false,
+  "_source_sha256" : "33334968fe34c87719682c0567426876d98b442189d1cbf1cacbe6ef13bcbb39"
+}
