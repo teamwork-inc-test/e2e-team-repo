@@ -1,0 +1,33 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "The intake rota moves to fortnightly in November",
+      "kind" : "commitment-marker"
+    } ],
+    "why" : "Operational schedule change stated as settled policy.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-2",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "The pantry restocks any shelf when it falls below a third full.",
+      "kind" : "commitment-marker"
+    } ],
+    "why" : "Establishes a firm operational restocking rule.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-3",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "Both start on the first of November.",
+      "kind" : "commitment-marker"
+    } ],
+    "why" : "Fixes an operational start date for the ratified rules.",
+    "reported" : false
+  } ],
+  "unmarked" : [ ],
+  "mints" : [ ],
+  "_source_sha256" : "33334968fe34c87719682c0567426876d98b442189d1cbf1cacbe6ef13bcbb39"
+}
