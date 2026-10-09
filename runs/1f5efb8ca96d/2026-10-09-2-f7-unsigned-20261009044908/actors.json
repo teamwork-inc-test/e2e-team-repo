@@ -1,0 +1,25 @@
+{
+  "bindings" : [ {
+    "name" : "claude-opus-5-5",
+    "verdict" : "mint",
+    "target" : null,
+    "label" : "claude-opus-5-5",
+    "why" : "AI drafting assistant specified in envelope; no existing actor listed.",
+    "ai" : true
+  }, {
+    "name" : "Tanya TeamOwner",
+    "verdict" : "bind",
+    "target" : "Actor_TanyaTeamowner",
+    "label" : null,
+    "why" : "Exact match to existing actor Actor_TanyaTeamowner.",
+    "ai" : false
+  }, {
+    "name" : "tanya+staging@aswritten.ai",
+    "verdict" : "bind",
+    "target" : "Actor_TanyaTeamowner",
+    "label" : null,
+    "why" : "Account email corresponding to Tanya TeamOwner in envelope metadata.",
+    "ai" : false
+  } ],
+  "_source_sha256" : "e040337bd8dac8bfd179f25203dce69bc4b3fb0472b1cff5dfbd14bc8cef16c9"
+}
