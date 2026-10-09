@@ -1,0 +1,42 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "The intake rota moves from weekly to fortnightly in November.",
+      "kind" : "commitment-marker"
+    } ],
+    "why" : "Announces an operational schedule change settled for November as an established fact.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-2",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "Weekly hand-offs lost more context than they saved",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Asserts a factual/evaluative rationale regarding context loss under the previous cadence.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-3",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "keep each case with one owner long enough to close it.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Asserts the expected operational efficacy of the new structure.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-4",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "The summary sheet stays, but it is written at the end of a rota rather than the start.",
+      "kind" : "commitment-marker"
+    } ],
+    "why" : "Establishes the settled procedural rule for when the summary sheet is written.",
+    "reported" : false
+  } ],
+  "unmarked" : [ ],
+  "mints" : [ ],
+  "_source_sha256" : "1aa9128cfef3aed3a2fd2f6f7a9167b8835d1734b7f7f95dd8ac94e333d718fe"
+}
