@@ -1,0 +1,24 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "stays fortnightly, as agreed on 1 October, but the overlap call at each hand-off grows from fifteen to thirty minutes",
+      "kind" : "commitment-marker"
+    } ],
+    "why" : "Sets an operational schedule rule ('stays... grows') backed by explicit ratification ('as agreed on 1 October').",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-2",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "Fifteen minutes covered the open cases but not the ones that arrived during the hand-off week.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "A flat, unhedged factual assertion explaining the rationale behind the operational change.",
+    "reported" : false
+  } ],
+  "unmarked" : [ ],
+  "mints" : [ ],
+  "_source_sha256" : "e040337bd8dac8bfd179f25203dce69bc4b3fb0472b1cff5dfbd14bc8cef16c9"
+}
