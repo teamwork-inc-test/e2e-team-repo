@@ -1,0 +1,38 @@
+{
+  "doc" : {
+    "title" : "Intake rota and pantry — team call 2026-10-01",
+    "date_stated" : "2026-10-01",
+    "actors_present" : [ "Priya Holm", "Dario Kent" ]
+  },
+  "segments" : [ {
+    "local_id" : "src-1",
+    "exact" : "The intake rota moves to fortnightly in November, with a fifteen-minute overlap call at each hand-off.",
+    "actor" : "Priya Holm",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Intake rota and pantry — team call 2026-10-01"
+    },
+    "footing_case" : null
+  }, {
+    "local_id" : "src-2",
+    "exact" : "The pantry restocks any shelf when it falls below a third full.",
+    "actor" : "Dario Kent",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Intake rota and pantry — team call 2026-10-01"
+    },
+    "footing_case" : null
+  }, {
+    "local_id" : "src-3",
+    "exact" : "Both start on the first of November.",
+    "actor" : "Priya Holm",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Intake rota and pantry — team call 2026-10-01"
+    },
+    "footing_case" : null
+  } ],
+  "coverage_gaps" : [ ],
+  "footing_cases" : [ ],
+  "_source_sha256" : "33334968fe34c87719682c0567426876d98b442189d1cbf1cacbe6ef13bcbb39"
+}
