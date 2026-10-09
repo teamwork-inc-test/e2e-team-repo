@@ -1,0 +1,15 @@
+{
+  "reconciliations" : [ {
+    "segment_ids" : [ "src-1", "src-2" ],
+    "note" : "The one-third restock threshold from the 1 October call stays for every shelf except oats and rice, which now restock at half full. Those two run out fastest, and a third full is less than a day of stock on a Friday.",
+    "targets" : [ "Position_InternalOperationsPoliciesCadence", "Narrative_OperationalCadenceAndResourceThresholds" ],
+    "referents" : [ {
+      "ref" : "Expr_20261009_1_SeedTeam20261009044908_h52d5b42e407e_2",
+      "relation" : "supersedes"
+    } ],
+    "principal" : "Tina TeamMember"
+  } ],
+  "standalone" : [ ],
+  "held" : [ ],
+  "_source_sha256" : "41dcd61d3d391179b1f97a179273f02ff41fe4ce3af211f4c07d7133e0a4e92a"
+}
