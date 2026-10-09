@@ -1,0 +1,55 @@
+{
+  "doc" : {
+    "title" : "Intake rota: what changes in November",
+    "date_stated" : null,
+    "actors_present" : [ "Tanya TeamOwner" ]
+  },
+  "segments" : [ {
+    "local_id" : "src-1",
+    "exact" : "The intake rota moves from weekly to fortnightly in November.",
+    "actor" : "Tanya TeamOwner",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Intake rota: what changes in November"
+    },
+    "note" : null,
+    "redacted" : false,
+    "footing_case" : null
+  }, {
+    "local_id" : "src-2",
+    "exact" : "Weekly hand-offs lost more context than they saved: every hand-off restarted the open cases from the summary sheet.",
+    "actor" : "Tanya TeamOwner",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Intake rota: what changes in November"
+    },
+    "note" : null,
+    "redacted" : false,
+    "footing_case" : null
+  }, {
+    "local_id" : "src-3",
+    "exact" : "Fortnightly hand-offs with a fifteen-minute overlap call keep each case with one owner long enough to close it.",
+    "actor" : "Tanya TeamOwner",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Intake rota: what changes in November"
+    },
+    "note" : null,
+    "redacted" : false,
+    "footing_case" : null
+  }, {
+    "local_id" : "src-4",
+    "exact" : "The summary sheet stays, but it is written at the end of a rota rather than the start.",
+    "actor" : "Tanya TeamOwner",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Intake rota: what changes in November"
+    },
+    "note" : null,
+    "redacted" : false,
+    "footing_case" : null
+  } ],
+  "coverage_gaps" : [ ],
+  "footing_cases" : [ ],
+  "_source_sha256" : "1aa9128cfef3aed3a2fd2f6f7a9167b8835d1734b7f7f95dd8ac94e333d718fe"
+}
