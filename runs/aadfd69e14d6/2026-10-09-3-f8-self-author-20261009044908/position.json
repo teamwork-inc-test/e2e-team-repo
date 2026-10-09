@@ -1,0 +1,12 @@
+{
+  "positions" : [ ],
+  "attaches" : [ ],
+  "position_revisions" : [ {
+    "revises" : "Position_InternalOperationsPoliciesCadence",
+    "adds" : [ "src-1", "src-2" ],
+    "drops" : [ "Expr_20261009_1_SeedTeam20261009044908_h52d5b42e407e_2" ],
+    "why" : "The universal one-third pantry restock rule is revised to set oats and rice to a half-full threshold, reflecting that high-consumption items exhaust inventory faster than the general threshold accommodates."
+  } ],
+  "ungrouped" : [ ],
+  "_source_sha256" : "41dcd61d3d391179b1f97a179273f02ff41fe4ce3af211f4c07d7133e0a4e92a"
+}
