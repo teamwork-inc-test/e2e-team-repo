@@ -1,0 +1,43 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "authority-ranking" ],
+    "evidence" : [ {
+      "quote" : "Tanya (team owner) ruled",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Enacts hierarchical decision-making/ruling based on rank/ownership role.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-2",
+    "regions" : [ "communal-sharing" ],
+    "evidence" : [ {
+      "quote" : "we add one roll-up of the week",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Frames team workflow and collective process around undifferentiated shared activity ('we').",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-4",
+    "regions" : [ "authority-ranking" ],
+    "evidence" : [ {
+      "quote" : "Tanya held that it\ndoes not",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Authoritatively settles procedural clarification by definitive ruling.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-5",
+    "regions" : [ "authority-ranking" ],
+    "evidence" : [ {
+      "quote" : "Rejected:",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Unilateral hierarchical veto/rejection of alternative option.",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-3" ],
+  "mints" : [ ],
+  "region_mints" : [ ],
+  "_source_sha256" : "a613398fb06b1f603a0127b54d35b3c7368f5d5d79b24da10e8023780d4ab149"
+}
