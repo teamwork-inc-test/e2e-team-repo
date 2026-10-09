@@ -1,0 +1,124 @@
+{
+  "schema_version" : 1,
+  "run_id" : "mp-eng-20a396e2",
+  "live_run_id" : "c52b2eabb7e6",
+  "stream" : "main",
+  "policy" : {
+    "lands" : { },
+    "channels" : [ "email", "sms" ],
+    "mode" : "on",
+    "source" : "default",
+    "skills" : { },
+    "warn_per_run_usd" : 0.25,
+    "audience" : "owner-setting",
+    "version" : 1,
+    "stop_per_dispatch_usd" : 2.0
+  },
+  "gates" : [ {
+    "id" : "aswritten/clarify",
+    "run?" : false,
+    "gate" : 2,
+    "reason" : "score 0.0 < threshold 0.7",
+    "score" : 0.0,
+    "evidence" : [ "plain-assertion: Tina pushed back on the batching window", "Reasserts and binds the closing policy against pushback.", "commitment-marker: we route every reaction through one bundle per run per person", "The alternative considered and rejected was per-skill delivery with client-side collapsing" ]
+  }, {
+    "id" : "aswritten/merge-suggest",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "skill off"
+  }, {
+    "id" : "aswritten/refract",
+    "run?" : true,
+    "gate" : 2,
+    "reason" : "predicate only"
+  }, {
+    "id" : "aswritten/review-message",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "skill off"
+  }, {
+    "id" : "aswritten/review-request",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "skill off"
+  }, {
+    "id" : "aswritten/riff",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "requires perspective, expand"
+  } ],
+  "jobs" : [ {
+    "skill" : "aswritten/refract",
+    "status" : "ok",
+    "phase" : "before",
+    "gate" : { },
+    "output" : {
+      "lens" : {
+        "shift" : "Reactions now route through one bundle per run per person, and the bundle closes when the run closes; a skill that misses the close waits for the next run. Per-skill delivery with client-side collapsing is rejected because it moves the ordering problem onto the reader.",
+        "affected" : [ ],
+        "other_lenses" : [ ],
+        "drew_on" : [ "narrated.delta_line: ruling on reaction delivery bundling, superseding per-skill delivery and client-side collapsing", "VecConviction_2: commitment-marker 'we route every reaction through one bundle per run per person'", "VecTemporal_4: 'the bundle closes when the run closes'", "VecValue_5: rejection of per-skill delivery because it 'moves the ordering problem onto the reader'" ],
+        "quote" : "we route every reaction through one bundle per run per person, not one message per skill — a person should get one thing to read, not four",
+        "approaches" : [ "How reaction outputs are batched and delivered", "What happens when a skill finishes after its run's bundle has closed", "Where duplicate collapsing happens — server-side bundle vs. reader's client" ],
+        "speaker" : "Tanya (team owner)",
+        "subject" : "Is one bundle per run the delivery rule now?",
+        "message" : "The memory you saved rules that reactions go out as one bundle per run per person. You put it this way: \"we route every reaction through one bundle per run per person, not one message per skill — a person should get one thing to read, not four\". You also held that the bundle closes when the run closes, and a skill that misses the close waits for the next run rather than sending on its own. Per-skill delivery with client-side collapsing was considered and rejected for moving the ordering problem onto the reader.\n\n[The reaction delivery doc](docs/reaction-delivery.md) currently says the opposite: \"Each reaction skill sends its own message to the person as soon as it finishes: the refraction, the question and the review each arrive on their own, in whatever order the skills complete. Readers collapse duplicates on their side.\" After the ruling, that opening would say every reaction lands in one bundle per run per person, the bundle closes when the run closes, and a late skill waits for the next run. The reader stops doing any collapsing.\n\nIs that the right way to read what you ruled: one server-side bundle per run, and nothing sends on its own? If I have it wrong, tell me how.\n\nI checked the rest of the documents in the repo, and this is the only one that speaks to reaction delivery, so it is the only one this touches.",
+        "eye_chart" : {
+          "document" : "docs/reaction-delivery.md",
+          "name" : "the reaction delivery doc",
+          "section" : "Reaction delivery (opening)",
+          "as_written" : "Each reaction skill sends its own message to the person as soon as it finishes: the refraction, the question and the review each arrive on their own, in whatever order the skills complete. Readers collapse duplicates on their side.",
+          "through_the_lens" : "This is the rejected alternative stated as the current design. It would instead say every reaction goes into one bundle per run per person, the bundle closes when the run closes, and a skill that misses the close waits for the next run rather than sending on its own. The reader no longer collapses anything — the server does the ordering."
+        }
+      }
+    },
+    "landing" : {
+      "landed" : "message"
+    },
+    "ms" : 3657,
+    "attempts" : [ {
+      "disposition" : "ok",
+      "elapsed_ms" : 3639,
+      "content_chars" : 3293
+    } ]
+  } ],
+  "spend" : {
+    "cost_usd" : 0.02298,
+    "passes" : [ {
+      "pass" : "reaction:_score",
+      "llm_calls" : 1,
+      "cost_usd" : 0.0030956,
+      "null_cost_calls" : 0
+    }, {
+      "pass" : "reaction:refract",
+      "llm_calls" : 1,
+      "cost_usd" : 0.0198842,
+      "null_cost_calls" : 0
+    } ]
+  },
+  "bundle" : {
+    "items" : 1,
+    "audience" : "only-me",
+    "recipients" : 1,
+    "sent" : [ {
+      "items" : [ {
+        "kind" : "note",
+        "skill" : "aswritten/refract",
+        "audience" : "speakers"
+      } ],
+      "handle" : "tanya+staging@aswritten.ai",
+      "channel" : "email",
+      "h" : "09fcdb5f3d",
+      "status" : "skipped: test identity"
+    } ]
+  },
+  "counters" : { },
+  "at" : "2026-10-09T09:34:15.886519692Z",
+  "scorer" : {
+    "attempts" : [ {
+      "disposition" : "ok",
+      "elapsed_ms" : 11361,
+      "content_chars" : 765
+    } ]
+  }
+}
