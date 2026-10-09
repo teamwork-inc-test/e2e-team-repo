@@ -1,0 +1,75 @@
+{
+  "schema_version" : 1,
+  "run_id" : "mp-eng-e01bcf9d",
+  "live_run_id" : "dccbc881bcac",
+  "stream" : "e2e-662-team-20261009043208",
+  "policy" : {
+    "lands" : { },
+    "channels" : [ "email", "sms" ],
+    "mode" : "on",
+    "source" : "default",
+    "skills" : { },
+    "warn_per_run_usd" : 0.25,
+    "audience" : "owner-setting",
+    "version" : 1,
+    "stop_per_dispatch_usd" : 2.0
+  },
+  "gates" : [ {
+    "id" : "aswritten/clarify",
+    "run?" : false,
+    "gate" : 2,
+    "reason" : "score 0.4 < threshold 0.7",
+    "score" : 0.4,
+    "evidence" : [ "New tension worth noting: the restock decision arrives relayed, not owned.", "The one-third restock threshold from the 1 October call stays for every shelf except oats and rice, which now restock at half full.", "Establishes and modifies operational policy by referencing prior agreed call decisions and setting a new mandate." ]
+  }, {
+    "id" : "aswritten/merge-suggest",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "skill off"
+  }, {
+    "id" : "aswritten/refract",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "no documents to refract"
+  }, {
+    "id" : "aswritten/review-message",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "skill off"
+  }, {
+    "id" : "aswritten/review-request",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "skill off"
+  }, {
+    "id" : "aswritten/riff",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "requires perspective, expand"
+  } ],
+  "jobs" : [ ],
+  "spend" : {
+    "cost_usd" : 0.008121,
+    "passes" : [ {
+      "pass" : "reaction:_score",
+      "llm_calls" : 1,
+      "cost_usd" : 0.00812135,
+      "null_cost_calls" : 0
+    } ]
+  },
+  "bundle" : {
+    "items" : 0,
+    "audience" : "only-me",
+    "recipients" : 1,
+    "sent" : [ ]
+  },
+  "counters" : { },
+  "at" : "2026-10-09T04:44:00.854449693Z",
+  "scorer" : {
+    "attempts" : [ {
+      "disposition" : "ok",
+      "elapsed_ms" : 71492,
+      "content_chars" : 849
+    } ]
+  }
+}
