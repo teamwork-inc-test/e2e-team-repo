@@ -1,0 +1,57 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "legitimate" ],
+    "evidence" : [ {
+      "quote" : "Tanya (team owner) ruled",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Explicitly invokes positional authority ('team owner') to deliver a formal ruling.",
+    "reported" : false,
+    "direction" : {
+      "verdict" : "mint",
+      "node" : "mint-1"
+    }
+  }, {
+    "segment_local_id" : "src-2",
+    "regions" : [ "legitimate", "rational-persuasion" ],
+    "evidence" : [ {
+      "quote" : "we route every reaction",
+      "kind" : "modal-marker"
+    }, {
+      "quote" : "a person should get one thing to read, not four",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Establishes a prescriptive team rule backed by architectural user-experience rationale.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-4",
+    "regions" : [ "legitimate" ],
+    "evidence" : [ {
+      "quote" : "Tanya held:",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Issues a definitive ruling resolving a pushback, asserting procedural and architectural boundary.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-5",
+    "regions" : [ "rational-persuasion" ],
+    "evidence" : [ {
+      "quote" : "The alternative considered and rejected was per-skill\ndelivery with client-side collapsing, which moves the ordering problem onto the\nreader.",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Defends the decision rationally by showing trade-off analysis and why alternative options were eliminated.",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-3" ],
+  "unmarked_rest" : false,
+  "mints" : [ {
+    "id" : "mint-1",
+    "name" : "OwnerAdjudicationRuling",
+    "title" : "team owner ruling on architecture or process",
+    "frame" : "Does the speaker invoke formal team ownership to issue an authoritative ruling ending debate?",
+    "regions" : [ "legitimate" ]
+  } ],
+  "region_mints" : [ ],
+  "_source_sha256" : "ba05ea0158d2bb5ae030ad5d571477370ce49537407437eea6eb9df45ec14eb7"
+}
