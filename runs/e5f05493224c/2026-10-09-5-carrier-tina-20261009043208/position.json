@@ -1,0 +1,11 @@
+{
+  "positions" : [ ],
+  "attaches" : [ {
+    "position" : "Position_TeamOperationsCadenceAndThresholds",
+    "members" : [ "src-1" ],
+    "why" : "Dario's directive to mark each pantry shelf at the one-third line implements a visual glance heuristic for executing the shared pantry restock threshold under operational maintenance rules."
+  } ],
+  "position_revisions" : [ ],
+  "ungrouped" : [ ],
+  "_source_sha256" : "5173ce0d903a220b9705f86ad203ba82c8dfb250768cb9581121cbc06fdec1ac"
+}
