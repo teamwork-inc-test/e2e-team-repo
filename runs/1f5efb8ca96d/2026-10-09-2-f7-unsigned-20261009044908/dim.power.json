@@ -1,0 +1,26 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "legitimate" ],
+    "evidence" : [ {
+      "quote" : "as agreed on 1 October",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Grounds the operational schedule in a formal prior agreement/process authority.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-2",
+    "regions" : [ "rational-persuasion" ],
+    "evidence" : [ {
+      "quote" : "covered the open cases but not the ones that arrived during the hand-off week",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Supplies the factual/logical operational justification for extending the overlap duration.",
+    "reported" : false
+  } ],
+  "unmarked" : [ ],
+  "unmarked_rest" : false,
+  "mints" : [ ],
+  "region_mints" : [ ],
+  "_source_sha256" : "e040337bd8dac8bfd179f25203dce69bc4b3fb0472b1cff5dfbd14bc8cef16c9"
+}
