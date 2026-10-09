@@ -1,0 +1,33 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "The pantry restocks when any shelf falls below a third full, not when it is empty.",
+      "kind" : "commitment-marker"
+    } ],
+    "why" : "States an active operational rule defining the restock trigger and explicitly ruling out the alternative.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-2",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "Restocking at empty left two days a month with no oats or rice, and those were the two days the Friday group came in.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Plain unhedged factual claim providing the empirical justification for the operational rule.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-3",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "A shelf at a third is a day and a half of stock at the current pace, which covers the supplier's lead time.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Plain assertion outlining the mathematical and operational reasoning behind the threshold.",
+    "reported" : false
+  } ],
+  "unmarked" : [ ],
+  "mints" : [ ],
+  "_source_sha256" : "a8deb35798db5e3ec1f4c2f1c02049e74e51d6c0f7c0c592642610fb33b1f3a7"
+}
