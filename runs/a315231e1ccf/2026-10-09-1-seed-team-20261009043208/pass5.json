@@ -1,0 +1,25 @@
+{
+  "placements" : [ {
+    "supporting_segments" : [ "src-1", "src-2", "src-3" ],
+    "under" : null,
+    "why" : "Establishes a dedicated organizational category for recurring team operational cadences, hand-off protocols, and shared facility maintenance thresholds.",
+    "verdict" : "mint",
+    "leaf" : "TeamOperations",
+    "region" : [ "OperatingCadence", "ProcessPolicyUpdates" ],
+    "kind" : "strata",
+    "title" : "Team Operational Routines and Shared Resource Maintenance",
+    "frame" : "How do team operational cadences, hand-off protocols, and resource maintenance thresholds align across the organization?",
+    "consulted" : [ "Narrative_AntiSlackPositioning", "Narrative_DecisionCaptureAtConsensus", "Narrative_DecisionsEvaporate" ]
+  }, {
+    "verdict" : "mint",
+    "leaf" : "Narrative_FortnightlyIntakeAndResourceThresholds",
+    "title" : "Fortnightly Intake Rota and Proactive Restock Thresholds",
+    "frame" : "How do structured overlap hand-offs and clear inventory trigger thresholds stabilize daily team operations?",
+    "under" : [ "TeamOperations" ],
+    "supporting_segments" : [ "src-1", "src-2", "src-3" ],
+    "why" : "Captures the operational policy shift to a fortnightly intake rota with 15-minute overlap calls and a one-third capacity pantry restock rule effective November 1.",
+    "consulted" : [ "Narrative_AntiSlackPositioning", "Narrative_DecisionCaptureAtConsensus", "Narrative_DecisionsEvaporate" ]
+  } ],
+  "unplaced" : [ ],
+  "_source_sha256" : "33334968fe34c87719682c0567426876d98b442189d1cbf1cacbe6ef13bcbb39"
+}
