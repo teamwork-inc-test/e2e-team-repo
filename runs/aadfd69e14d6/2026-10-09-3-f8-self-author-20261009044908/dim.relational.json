@@ -1,0 +1,17 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "authority-ranking" ],
+    "evidence" : [ {
+      "quote" : "The one-third restock threshold from the 1 October call stays for every shelf except oats and rice, which now restock at half full.",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Establishes policy and operational thresholds by administrative fiat/rule-setting on behalf of the principal.",
+    "reported" : true
+  } ],
+  "unmarked" : [ "src-2" ],
+  "unmarked_rest" : false,
+  "mints" : [ ],
+  "region_mints" : [ ],
+  "_source_sha256" : "41dcd61d3d391179b1f97a179273f02ff41fe4ce3af211f4c07d7133e0a4e92a"
+}
