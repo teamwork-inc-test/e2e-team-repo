@@ -1,0 +1,17 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-2",
+    "regions" : [ "conservation" ],
+    "evidence" : [ {
+      "quote" : "Those two run out fastest, and a third full is less than a day of stock on a Friday.",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Appeals to preventing stockouts and maintaining buffer security as the explicit rationale.",
+    "reported" : true
+  } ],
+  "unmarked" : [ "src-1" ],
+  "unmarked_rest" : false,
+  "mints" : [ ],
+  "region_mints" : [ ],
+  "_source_sha256" : "41dcd61d3d391179b1f97a179273f02ff41fe4ce3af211f4c07d7133e0a4e92a"
+}
