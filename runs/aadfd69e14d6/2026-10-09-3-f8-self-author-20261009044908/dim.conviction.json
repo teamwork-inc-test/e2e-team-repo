@@ -1,0 +1,24 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "stays for every shelf except oats and rice, which now restock at half full.",
+      "kind" : "commitment-marker"
+    } ],
+    "why" : "Establishes an operational rule and threshold update ('stays', 'now restock at half full'), settling the policy.",
+    "reported" : true
+  }, {
+    "segment_local_id" : "src-2",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "Those two run out fastest, and a third full is less than a day of stock on a Friday.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "States empirical justifications supporting the rule as direct, unhedged factual assertions.",
+    "reported" : true
+  } ],
+  "unmarked" : [ ],
+  "mints" : [ ],
+  "_source_sha256" : "41dcd61d3d391179b1f97a179273f02ff41fe4ce3af211f4c07d7133e0a4e92a"
+}
