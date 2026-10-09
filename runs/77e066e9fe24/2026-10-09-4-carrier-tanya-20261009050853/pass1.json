@@ -1,0 +1,25 @@
+{
+  "doc" : {
+    "title" : "Intake signage — 2026-10-09",
+    "date_stated" : "2026-10-09",
+    "actors_present" : [ "Priya Holm" ]
+  },
+  "segments" : [ {
+    "circumstance" : {
+      "context" : "Intake signage — 2026-10-09"
+    },
+    "exact" : "The intake desk gets a printed sign with the rota dates from November.",
+    "local_id" : "src-1",
+    "act" : "assertive",
+    "footing_case" : null,
+    "note" : null,
+    "redacted" : false,
+    "how" : [ {
+      "span" : "Priya:"
+    } ],
+    "actor" : "Priya Holm"
+  } ],
+  "coverage_gaps" : [ ],
+  "footing_cases" : [ ],
+  "_source_sha256" : "f0215b801a86f2da16619406ba287b90cd53dff96e1dd8920c408fea57611b99"
+}
