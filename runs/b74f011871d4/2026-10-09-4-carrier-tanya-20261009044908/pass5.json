@@ -1,0 +1,11 @@
+{
+  "placements" : [ {
+    "verdict" : "reuse",
+    "leaf" : "Narrative_OperationalCadenceAndResourceThresholds",
+    "supporting_segments" : [ "src-1" ],
+    "why" : "Physical signage displaying the intake rota dates from November directly supports operational predictability and synchronized team hand-off cadences.",
+    "consulted" : [ "Narrative_OperationalCadenceAndResourceThresholds", "Narrative_DecisionCaptureAtConsensus", "Narrative_DecisionsEvaporate", "Narrative_AntiSlackPositioning", "InternalOperations" ]
+  } ],
+  "unplaced" : [ ],
+  "_source_sha256" : "f0215b801a86f2da16619406ba287b90cd53dff96e1dd8920c408fea57611b99"
+}
