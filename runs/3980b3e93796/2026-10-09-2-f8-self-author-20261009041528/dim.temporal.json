@@ -1,0 +1,33 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "present", "realis", "abstract" ],
+    "evidence" : [ {
+      "quote" : "The pantry restocks when any shelf falls below a third full, not when it is empty.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "States an active, ongoing operational rule/policy governing restocking thresholds.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-2",
+    "regions" : [ "past", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "Restocking at empty left two days a month with no oats or rice",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Recounts specific past historical outcomes and specific depleted supplies.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-3",
+    "regions" : [ "present", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "A shelf at a third is a day and a half of stock at the current pace",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Evaluates the actual current state and concrete lead times based on current pace.",
+    "reported" : false
+  } ],
+  "unmarked" : [ ],
+  "unmarked_rest" : false,
+  "_source_sha256" : "a8deb35798db5e3ec1f4c2f1c02049e74e51d6c0f7c0c592642610fb33b1f3a7"
+}
