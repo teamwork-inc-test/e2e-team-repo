@@ -1,0 +1,43 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "legitimate" ],
+    "evidence" : [ {
+      "quote" : "The intake rota moves from weekly to fortnightly in November.",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Speaker exercises legitimate authority by announcing/mandating an operational rota schedule change.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-2",
+    "regions" : [ "rational-persuasion" ],
+    "evidence" : [ {
+      "quote" : "Weekly hand-offs lost more context than they saved",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Justifies the policy shift using logical cause-and-effect evaluation of past performance.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-3",
+    "regions" : [ "rational-persuasion" ],
+    "evidence" : [ {
+      "quote" : "keep each case with one owner long enough to close it",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Provides rational justification for the specific structural design of the new process.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-4",
+    "regions" : [ "legitimate" ],
+    "evidence" : [ {
+      "quote" : "The summary sheet stays, but it is written at the end of a rota rather than the start.",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Specifies procedural requirements by authoritative directive.",
+    "reported" : false
+  } ],
+  "unmarked" : [ ],
+  "mints" : [ ],
+  "region_mints" : [ ],
+  "_source_sha256" : "1aa9128cfef3aed3a2fd2f6f7a9167b8835d1734b7f7f95dd8ac94e333d718fe"
+}
