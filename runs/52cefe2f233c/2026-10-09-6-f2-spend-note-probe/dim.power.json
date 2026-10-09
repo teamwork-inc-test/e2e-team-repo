@@ -1,0 +1,17 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "informational" ],
+    "evidence" : [ {
+      "quote" : "The Friday pantry shift starts at nine from November.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Supplying factual scheduling constraints directly via declarative statement.",
+    "reported" : false
+  } ],
+  "unmarked" : [ ],
+  "unmarked_rest" : false,
+  "mints" : [ ],
+  "region_mints" : [ ],
+  "_source_sha256" : "80b4d39e45e7e30c7742141b068f8cee94f7c2fcb80bb35e76b9f605535d1683"
+}
