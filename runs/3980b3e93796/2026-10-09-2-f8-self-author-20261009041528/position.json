@@ -1,0 +1,13 @@
+{
+  "positions" : [ {
+    "name" : "PantryRestockThresholdPolicy",
+    "frame" : "How should pantry restock triggers and inventory buffers be calibrated against supplier lead times and peak usage?",
+    "members" : [ "src-1", "src-2", "src-3" ],
+    "why" : "The group coheres around defining an inventory replenishment threshold (one-third capacity rather than empty) based on historical stockout patterns during Friday group visits and supplier lead time buffer calculations.",
+    "name_repaired_from" : "Position_PantryRestockThresholdPolicy"
+  } ],
+  "attaches" : [ ],
+  "position_revisions" : [ ],
+  "ungrouped" : [ ],
+  "_source_sha256" : "a8deb35798db5e3ec1f4c2f1c02049e74e51d6c0f7c0c592642610fb33b1f3a7"
+}
