@@ -1,0 +1,25 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "legitimate" ],
+    "evidence" : [ {
+      "quote" : "threshold from the 1 October call stays for every shelf except oats and rice, which now restock at half full",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Sets and amends operational restocking rules with legitimate authority derived from prior team decision processes.",
+    "reported" : true
+  }, {
+    "segment_local_id" : "src-2",
+    "regions" : [ "rational-persuasion" ],
+    "evidence" : [ {
+      "quote" : "Those two run out fastest, and a third full is less than a day of stock on a Friday",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Provides empirical justification and logical rationale for the modified threshold.",
+    "reported" : true
+  } ],
+  "unmarked" : [ ],
+  "mints" : [ ],
+  "region_mints" : [ ],
+  "_source_sha256" : "41dcd61d3d391179b1f97a179273f02ff41fe4ce3af211f4c07d7133e0a4e92a"
+}
