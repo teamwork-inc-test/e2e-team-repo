@@ -1,0 +1,12 @@
+{
+  "positions" : [ ],
+  "attaches" : [ ],
+  "position_revisions" : [ {
+    "revises" : "Position_TeamOperationsCadenceAndThresholds",
+    "adds" : [ "src-1", "src-2" ],
+    "drops" : [ "Expr_20261009_1_SeedTeam20261009043208_heb3057f28c0a_2" ],
+    "why" : "The blanket one-third restock threshold across all pantry shelves is replaced with a differentiated policy setting oats and rice to restock at half full due to their higher rate of depletion ahead of weekends."
+  } ],
+  "ungrouped" : [ ],
+  "_source_sha256" : "41dcd61d3d391179b1f97a179273f02ff41fe4ce3af211f4c07d7133e0a4e92a"
+}
