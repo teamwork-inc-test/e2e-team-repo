@@ -1,0 +1,33 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "future", "irrealis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "in November, with a fifteen-minute overlap call at each hand-off",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Describes a specific scheduled operational change taking effect in November.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-2",
+    "regions" : [ "present", "realis", "abstract" ],
+    "evidence" : [ {
+      "quote" : "The pantry restocks any shelf when it falls below a third full.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "States a generalized rule/pattern of operation.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-3",
+    "regions" : [ "future", "irrealis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "Both start on the first of November.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Focuses on the concrete future start date for both procedures.",
+    "reported" : false
+  } ],
+  "unmarked" : [ ],
+  "unmarked_rest" : false,
+  "_source_sha256" : "33334968fe34c87719682c0567426876d98b442189d1cbf1cacbe6ef13bcbb39"
+}
