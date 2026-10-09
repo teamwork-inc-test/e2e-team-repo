@@ -1,0 +1,16 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-4",
+    "regions" : [ "antithesis" ],
+    "evidence" : [ {
+      "quote" : "at the end of a rota rather than the start",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Opposed temporal positions ('end' vs 'start') are set in direct contrast within a single clause frame.",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-1", "src-2", "src-3" ],
+  "mints" : [ ],
+  "region_mints" : [ ],
+  "_source_sha256" : "1aa9128cfef3aed3a2fd2f6f7a9167b8835d1734b7f7f95dd8ac94e333d718fe"
+}
