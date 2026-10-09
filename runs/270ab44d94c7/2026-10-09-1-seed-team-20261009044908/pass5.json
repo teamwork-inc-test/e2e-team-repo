@@ -1,0 +1,26 @@
+{
+  "placements" : [ {
+    "supporting_segments" : [ "src-1", "src-2", "src-3" ],
+    "under" : null,
+    "why" : "Establishes a new top-level operational category for internal team workflows, rota policies, and workplace management.",
+    "verdict" : "mint",
+    "leaf" : "InternalOperations",
+    "region" : [ "ProcessPolicyUpdates", "OperatingCadence" ],
+    "kind" : "strata",
+    "title" : "Predictable operational hand-offs and resource maintenance",
+    "frame" : "How does the organization establish baseline operating cadences, hand-off protocols, and shared resource maintenance thresholds?",
+    "consulted" : [ "Narrative_AntiSlackPositioning", "Narrative_DecisionCaptureAtConsensus", "Narrative_DecisionsEvaporate" ]
+  }, {
+    "supporting_segments" : [ "src-1", "src-2", "src-3" ],
+    "under" : [ "InternalOperations" ],
+    "why" : "Captures the operational policy updates defining fortnightly rota hand-offs with overlap calls and pantry restocking rules starting November 1.",
+    "verdict" : "mint",
+    "leaf" : "Narrative_OperationalCadenceAndResourceThresholds",
+    "kind" : "narrative",
+    "title" : "Operational reliability through synchronized cadences and clear maintenance thresholds",
+    "frame" : "What routines, hand-off overlaps, and replenishment thresholds govern internal team predictability?",
+    "consulted" : [ "Narrative_AntiSlackPositioning", "Narrative_DecisionCaptureAtConsensus", "Narrative_DecisionsEvaporate" ]
+  } ],
+  "unplaced" : [ ],
+  "_source_sha256" : "33334968fe34c87719682c0567426876d98b442189d1cbf1cacbe6ef13bcbb39"
+}
