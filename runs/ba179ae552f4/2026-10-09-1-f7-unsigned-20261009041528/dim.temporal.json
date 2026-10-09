@@ -1,0 +1,42 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "future", "irrealis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "in November",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Specifies a planned schedule change taking effect in a future month.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-2",
+    "regions" : [ "past", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "Weekly hand-offs lost more context than they saved",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Evaluates past actual operational experience with weekly hand-offs.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-3",
+    "regions" : [ "future", "irrealis", "abstract" ],
+    "evidence" : [ {
+      "quote" : "keep each case with one owner long enough to close it",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Describes the intended design principle and anticipated functioning of the new schedule.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-4",
+    "regions" : [ "future", "irrealis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "it is written at the end of a rota rather than the start",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Outlines the planned procedure for updating the summary sheet under the incoming rota.",
+    "reported" : false
+  } ],
+  "unmarked" : [ ],
+  "unmarked_rest" : false,
+  "_source_sha256" : "1aa9128cfef3aed3a2fd2f6f7a9167b8835d1734b7f7f95dd8ac94e333d718fe"
+}
