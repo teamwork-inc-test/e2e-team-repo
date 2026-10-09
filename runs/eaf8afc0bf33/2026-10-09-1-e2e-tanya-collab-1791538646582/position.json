@@ -1,0 +1,13 @@
+{
+  "positions" : [ {
+    "name" : "IntegrationDrivenSprintVelocity",
+    "frame" : "How do cross-platform integrations unlock delivery velocity for async decision features?",
+    "members" : [ "src-2", "src-3" ],
+    "why" : "src-2 asserts the performance milestone of record sprint velocity (23 points), and src-3 identifies the Zephyr technical integration as the primary causal mechanism behind that throughput.",
+    "under" : [ "Narrative_DecisionCaptureAtConsensus" ]
+  } ],
+  "attaches" : [ ],
+  "position_revisions" : [ ],
+  "ungrouped" : [ "src-1" ],
+  "_source_sha256" : "1237e18b54774c37eb5214040874288fc88b5befa916140e66a01d5fdd1f31b8"
+}
