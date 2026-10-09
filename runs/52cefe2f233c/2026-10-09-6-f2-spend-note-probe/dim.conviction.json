@@ -1,0 +1,16 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "starts at nine from November",
+      "kind" : "commitment-marker"
+    } ],
+    "why" : "Stated as an established operational rule taking effect at a specific date, treated as settled schedule.",
+    "reported" : false
+  } ],
+  "unmarked" : [ ],
+  "unmarked_rest" : false,
+  "mints" : [ ],
+  "_source_sha256" : "80b4d39e45e7e30c7742141b068f8cee94f7c2fcb80bb35e76b9f605535d1683"
+}
