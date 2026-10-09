@@ -1,0 +1,17 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "future", "irrealis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "from November",
+      "kind" : "lexical-marker"
+    }, {
+      "quote" : "printed sign with the rota dates",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "The segment plans a prospective physical artifact ('printed sign') for an upcoming timeline ('from November').",
+    "reported" : false
+  } ],
+  "unmarked" : [ ],
+  "_source_sha256" : "f0215b801a86f2da16619406ba287b90cd53dff96e1dd8920c408fea57611b99"
+}
