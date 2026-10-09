@@ -1,0 +1,48 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "legitimate" ],
+    "evidence" : [ {
+      "quote" : "Tanya (team owner) ruled",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Explicit invocation of positional authority ('team owner') exercising official decision-making power ('ruled').",
+    "reported" : false,
+    "direction" : {
+      "verdict" : "mint",
+      "node" : "mint-1"
+    }
+  }, {
+    "segment_local_id" : "src-4",
+    "regions" : [ "legitimate" ],
+    "evidence" : [ {
+      "quote" : "Tanya held",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Ruling on policy interpretation and boundaries using authoritative determination.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-5",
+    "regions" : [ "legitimate", "rational-persuasion" ],
+    "evidence" : [ {
+      "quote" : "Rejected:",
+      "kind" : "performed-act"
+    }, {
+      "quote" : "because most days carry a single run and it would repeat the\nbundle word for word.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Formal authoritative rejection coupled with a logical, fact-based rationale.",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-2", "src-3" ],
+  "unmarked_rest" : false,
+  "mints" : [ {
+    "id" : "mint-1",
+    "name" : "PositionalOwnerRuling",
+    "title" : "team owner ruled",
+    "frame" : "Does the speaker invoke explicit role ownership to issue a definitive ruling on workflow or policy?",
+    "regions" : [ "legitimate" ]
+  } ],
+  "region_mints" : [ ],
+  "_source_sha256" : "a613398fb06b1f603a0127b54d35b3c7368f5d5d79b24da10e8023780d4ab149"
+}
