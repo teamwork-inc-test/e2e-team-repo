@@ -1,0 +1,8 @@
+{
+  "observations" : [ ],
+  "unmarked" : [ "src-1", "src-2" ],
+  "unmarked_rest" : false,
+  "mints" : [ ],
+  "region_mints" : [ ],
+  "_source_sha256" : "41dcd61d3d391179b1f97a179273f02ff41fe4ce3af211f4c07d7133e0a4e92a"
+}
