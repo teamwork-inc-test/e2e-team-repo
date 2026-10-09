@@ -1,0 +1,27 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "plain-spoken", "matter-of-fact" ],
+    "evidence" : [ {
+      "quote" : "so restocking is a glance, not a count.",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Frames an operational rule as an accessible, direct visual heuristic without bureaucratic jargon.",
+    "reported" : false,
+    "direction" : {
+      "verdict" : "mint",
+      "node" : "mint-1"
+    }
+  } ],
+  "unmarked" : [ ],
+  "unmarked_rest" : false,
+  "mints" : [ {
+    "id" : "mint-1",
+    "name" : "GlanceNotCountHeuristic",
+    "title" : "a glance, not a count",
+    "frame" : "Does the register frame procedure as an intuitive visual heuristic rather than formal tracking?",
+    "regions" : [ "plain-spoken", "matter-of-fact" ]
+  } ],
+  "region_mints" : [ ],
+  "_source_sha256" : "5173ce0d903a220b9705f86ad203ba82c8dfb250768cb9581121cbc06fdec1ac"
+}
