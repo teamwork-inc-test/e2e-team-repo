@@ -1,0 +1,24 @@
+{
+  "resolutions" : [ {
+    "commentary_local_id" : "src-1",
+    "phrase" : "The one-third restock threshold from the 1 October call",
+    "verdict" : "confident",
+    "binding" : {
+      "referents" : [ {
+        "iri" : "Expr_20261009_1_SeedTeam20261009043208_heb3057f28c0a_2",
+        "relation" : "extends",
+        "why" : "Modifies the baseline one-third pantry shelf restock policy by introducing a specific half-full threshold exception for oats and rice."
+      }, {
+        "iri" : "Sample_20261009_1_SeedTeam20261009043208_heb3057f28c0a",
+        "relation" : "see",
+        "why" : "Named source anchor for the 1 October team call where the original threshold was agreed."
+      } ],
+      "targets" : [ "Position_TeamOperationsCadenceAndThresholds", "Narrative_FortnightlyIntakeAndResourceThresholds" ]
+    },
+    "candidates" : null,
+    "why" : "Unambiguously references the 1 October team call decision setting the general one-third pantry restock rule, carving out an exception for fast-depleting staples.",
+    "consulted" : [ "Narrative_FortnightlyIntakeAndResourceThresholds", "Position_TeamOperationsCadenceAndThresholds", "Sample_20261009_1_SeedTeam20261009043208_heb3057f28c0a", "Expr_20261009_1_SeedTeam20261009043208_heb3057f28c0a_2" ]
+  } ],
+  "unreferenced_commentary" : [ "src-2" ],
+  "_source_sha256" : "41dcd61d3d391179b1f97a179273f02ff41fe4ce3af211f4c07d7133e0a4e92a"
+}
