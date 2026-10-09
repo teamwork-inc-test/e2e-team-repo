@@ -1,0 +1,51 @@
+{
+  "doc" : {
+    "title" : "Pantry thresholds: oats and rice at half",
+    "date_stated" : null,
+    "actors_present" : [ "claude-opus-5-5" ]
+  },
+  "footing_cases" : [ {
+    "id" : "fc-1",
+    "animator" : "claude-opus-5-5",
+    "author" : "claude-opus-5-5",
+    "principal" : "Tina TeamMember",
+    "unresolved" : null,
+    "when" : "Editorial memo prose drafted by claude-opus-5-5 on Tina TeamMember's account",
+    "absent_principal" : true
+  } ],
+  "segments" : [ {
+    "circumstance" : {
+      "context" : "Pantry thresholds"
+    },
+    "exact" : "The one-third restock threshold from the 1 October call stays for every shelf except oats and rice, which now restock at half full.",
+    "local_id" : "src-1",
+    "act" : "assertive",
+    "footing_case" : "fc-1",
+    "note" : null,
+    "footing" : {
+      "animator" : "claude-opus-5-5",
+      "author" : "claude-opus-5-5",
+      "principal" : "Tina TeamMember"
+    },
+    "redacted" : false,
+    "actor" : "claude-opus-5-5"
+  }, {
+    "circumstance" : {
+      "context" : "Pantry thresholds"
+    },
+    "exact" : "Those two run out fastest, and a third full is less than a day of stock on a Friday.",
+    "local_id" : "src-2",
+    "act" : "assertive",
+    "footing_case" : "fc-1",
+    "note" : null,
+    "footing" : {
+      "animator" : "claude-opus-5-5",
+      "author" : "claude-opus-5-5",
+      "principal" : "Tina TeamMember"
+    },
+    "redacted" : false,
+    "actor" : "claude-opus-5-5"
+  } ],
+  "coverage_gaps" : [ ],
+  "_source_sha256" : "41dcd61d3d391179b1f97a179273f02ff41fe4ce3af211f4c07d7133e0a4e92a"
+}
