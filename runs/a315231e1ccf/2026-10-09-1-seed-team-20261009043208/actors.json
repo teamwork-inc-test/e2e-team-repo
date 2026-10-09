@@ -1,0 +1,32 @@
+{
+  "bindings" : [ {
+    "name" : "Priya Holm",
+    "verdict" : "mint",
+    "target" : null,
+    "label" : "Priya Holm",
+    "why" : "Young repo with no existing actors; minting new actor.",
+    "ai" : false
+  }, {
+    "name" : "Dario Kent",
+    "verdict" : "mint",
+    "target" : null,
+    "label" : "Dario Kent",
+    "why" : "Young repo with no existing actors; minting new actor.",
+    "ai" : false
+  }, {
+    "name" : "Tanya TeamOwner",
+    "verdict" : "mint",
+    "target" : null,
+    "label" : "Tanya TeamOwner",
+    "why" : "Young repo with no existing actors; minting new actor.",
+    "ai" : false
+  }, {
+    "name" : "tanya+staging@aswritten.ai",
+    "verdict" : "mint",
+    "target" : null,
+    "label" : "Tanya TeamOwner",
+    "why" : "Submitter account email corresponding to Tanya TeamOwner; converging to Tanya TeamOwner.",
+    "ai" : false
+  } ],
+  "_source_sha256" : "33334968fe34c87719682c0567426876d98b442189d1cbf1cacbe6ef13bcbb39"
+}
