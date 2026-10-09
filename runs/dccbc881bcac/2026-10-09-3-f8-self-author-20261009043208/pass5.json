@@ -1,0 +1,11 @@
+{
+  "placements" : [ {
+    "verdict" : "reuse",
+    "leaf" : "Narrative_FortnightlyIntakeAndResourceThresholds",
+    "supporting_segments" : [ "src-1", "src-2" ],
+    "why" : "Both segments directly support and refine the proactive inventory trigger narrative, adjusting the general one-third restock rule to a half-full threshold for fast-depleting essentials (oats and rice) to prevent weekend stockouts.",
+    "consulted" : [ "Narrative_FortnightlyIntakeAndResourceThresholds", "TeamOperations", "Position_TeamOperationsCadenceAndThresholds" ]
+  } ],
+  "unplaced" : [ ],
+  "_source_sha256" : "41dcd61d3d391179b1f97a179273f02ff41fe4ce3af211f4c07d7133e0a4e92a"
+}
