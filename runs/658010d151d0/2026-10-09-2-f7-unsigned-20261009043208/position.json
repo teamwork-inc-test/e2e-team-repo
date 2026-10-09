@@ -1,0 +1,12 @@
+{
+  "positions" : [ ],
+  "attaches" : [ ],
+  "position_revisions" : [ {
+    "revises" : "Position_TeamOperationsCadenceAndThresholds",
+    "adds" : [ "src-1", "src-2" ],
+    "drops" : [ "Expr_20261009_1_SeedTeam20261009043208_heb3057f28c0a_1" ],
+    "why" : "The hand-off overlap call duration is increased from fifteen to thirty minutes to cover cases arriving during the hand-off week, replacing the prior fifteen-minute overlap rule while confirming the fortnightly intake cadence."
+  } ],
+  "ungrouped" : [ ],
+  "_source_sha256" : "e040337bd8dac8bfd179f25203dce69bc4b3fb0472b1cff5dfbd14bc8cef16c9"
+}
