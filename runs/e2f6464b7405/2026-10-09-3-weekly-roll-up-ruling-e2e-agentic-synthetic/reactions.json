@@ -1,0 +1,124 @@
+{
+  "schema_version" : 1,
+  "run_id" : "mp-eng-2a0e510b",
+  "live_run_id" : "e2f6464b7405",
+  "stream" : "main",
+  "policy" : {
+    "lands" : { },
+    "channels" : [ "email", "sms" ],
+    "mode" : "on",
+    "source" : "stream",
+    "agentic" : true,
+    "skills" : { },
+    "warn_per_run_usd" : 0.25,
+    "audience" : "owner-setting",
+    "version" : 1,
+    "stop_per_dispatch_usd" : 2.0
+  },
+  "gates" : [ {
+    "id" : "aswritten/clarify",
+    "run?" : false,
+    "gate" : 2,
+    "reason" : "score 0.0 < threshold 0.7",
+    "score" : 0.0,
+    "evidence" : [ "Tina asked whether the roll-up replaces the per-run bundle.", "the bundle is for the run, the roll-up is for the week.", "the per-run bundle stays, and on Fridays we add one roll-up of the week", "Formal rejection settling an alternative out of consideration." ]
+  }, {
+    "id" : "aswritten/merge-suggest",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "skill off"
+  }, {
+    "id" : "aswritten/refract",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "no documents to refract"
+  }, {
+    "id" : "aswritten/review-message",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "skill off"
+  }, {
+    "id" : "aswritten/review-request",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "skill off"
+  }, {
+    "id" : "aswritten/riff",
+    "run?" : true,
+    "gate" : 2,
+    "reason" : "predicate only"
+  } ],
+  "jobs" : [ {
+    "skill" : "aswritten/riff",
+    "status" : "ok",
+    "gate" : { },
+    "output" : {
+      "riff" : {
+        "kind" : "prototype",
+        "title" : "The first Friday roll-up, drafted",
+        "message" : "Tanya — you ruled the cadence, so I made the first one. This is what Friday's roll-up would look like, built from the week the graph actually holds. The bundle is for the run; this is for the week.\n\n---\n\n**Week of Oct 5–9 — roll-up**\n\n**What moved**\n- Reaction cadence is settled: the per-run bundle stays, and on Fridays we add one roll-up of the week — what moved, what is still open — instead of asking anyone to scroll back. (Ruled Oct 9.)\n- The roll-up coexists with the bundle, it does not replace it. Tina's question is answered on the record: the bundle is for the run, the roll-up is for the week.\n- A daily digest was considered and rejected — most days carry a single run and it would repeat the bundle word for word.\n\n**What is still open**\n- The cadence position is framed but its edges aren't drawn: what a light week looks like (one run, one bundle — does the roll-up just point at it?), and whether a heavy week's roll-up links back to each run's bundle or restates it.\n\n**Why this matters (the long arc)**\nThis is the March problem finally getting its delivery mechanism. Back on 2026-03-10 the founding insight was that decisions made in Slack disappear into scroll-back — \"Nobody updates it\" — and the product thesis became: capture the decision at the moment it's made, zero extra steps. The webhook architecture (\"we only process actual decisions, not every message\") solved capture. This ruling solves retrieval: nobody has to scroll back, ever, at any timescale — the run for the day, the roll-up for the week.\n\n---\n\nOne thing I'd flag: the rejection of the daily digest was reasoned from \"most days carry a single run.\" If run volume grows, that rationale inverts — worth a line in the ruling's margin so future-us knows the rejection is load-bearing on volume, not on principle.",
+        "lands" : "message",
+        "drew_on" : [ "The March 2026 founding narrative (DecisionsEvaporate, Tina's scroll-back insight, \"Nobody updates it\") that this ruling quietly completes — not mentioned in the document", "The Sprint 4 webhook architecture decision (\"actual decisions, not every message\") showing the same anti-redundancy reasoning Tanya used to reject the daily digest", "The perspective's note that Position_ReactionRollupCadence remains framed-but-unresolved at its edges, which the roll-up's \"still open\" section draws from", "The team's own antithesis style (\"not polling\" vs webhooks) echoed in \"bundle for the run, roll-up for the week\"" ],
+        "why_no_registered_skill" : "clarify only asks a question about an undefined term, and nothing here is undefined; merge-suggest flags duplicate captures, and this isn't one; refract produces a lens analysis, not a made artifact; review-message is the mechanical post-save note about a person's own earlier words; review-request is a model-free position-review prompt — none of them would draft the roll-up artifact the ruling just created the need for.",
+        "shape" : "draft the ruled artifact itself"
+      }
+    },
+    "landing" : {
+      "landed" : "message"
+    },
+    "ms" : 33030,
+    "attempts" : [ {
+      "disposition" : "ok",
+      "elapsed_ms" : 1037,
+      "content_chars" : 0
+    }, {
+      "disposition" : "ok",
+      "elapsed_ms" : 31117,
+      "content_chars" : 3076
+    } ],
+    "tools" : [ {
+      "name" : "perspective",
+      "chars" : 8319,
+      "ms" : 809
+    } ]
+  } ],
+  "spend" : {
+    "cost_usd" : 0.030028,
+    "passes" : [ {
+      "pass" : "reaction:_score",
+      "llm_calls" : 1,
+      "cost_usd" : 0.00317775,
+      "null_cost_calls" : 0
+    }, {
+      "pass" : "reaction:riff",
+      "llm_calls" : 2,
+      "cost_usd" : 0.02684996,
+      "null_cost_calls" : 0
+    } ]
+  },
+  "bundle" : {
+    "items" : 1,
+    "audience" : "only-me",
+    "recipients" : 1,
+    "sent" : [ {
+      "items" : [ {
+        "kind" : "note",
+        "skill" : "aswritten/riff",
+        "audience" : "owner"
+      } ],
+      "handle" : "tanya+staging@aswritten.ai",
+      "channel" : "email",
+      "h" : "09fcdb5f3d",
+      "status" : "skipped: test identity"
+    } ]
+  },
+  "counters" : { },
+  "at" : "2026-10-09T09:43:01.671483460Z",
+  "scorer" : {
+    "attempts" : [ {
+      "disposition" : "ok",
+      "elapsed_ms" : 12707,
+      "content_chars" : 717
+    } ]
+  }
+}
