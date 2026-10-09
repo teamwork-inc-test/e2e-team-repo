@@ -1,0 +1,11 @@
+{
+  "positions" : [ ],
+  "attaches" : [ {
+    "position" : "Position_InternalOperationsPoliciesCadence",
+    "members" : [ "src-1" ],
+    "why" : "Dario's operational directive to mark the one-third line on every pantry shelf implements the physical visual protocol for shared resource replenishment under the team's operational policies."
+  } ],
+  "position_revisions" : [ ],
+  "ungrouped" : [ ],
+  "_source_sha256" : "5173ce0d903a220b9705f86ad203ba82c8dfb250768cb9581121cbc06fdec1ac"
+}
