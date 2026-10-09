@@ -1,0 +1,11 @@
+{
+  "positions" : [ ],
+  "attaches" : [ {
+    "position" : "Position_TeamOperationsCadenceAndThresholds",
+    "members" : [ "src-1" ],
+    "why" : "The decision to place a printed sign with rota dates at the intake desk operationalizes the communication of the new November intake cadence for the team."
+  } ],
+  "position_revisions" : [ ],
+  "ungrouped" : [ ],
+  "_source_sha256" : "f0215b801a86f2da16619406ba287b90cd53dff96e1dd8920c408fea57611b99"
+}
