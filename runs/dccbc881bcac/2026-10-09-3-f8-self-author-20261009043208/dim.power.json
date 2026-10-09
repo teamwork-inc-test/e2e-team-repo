@@ -1,0 +1,25 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "legitimate" ],
+    "evidence" : [ {
+      "quote" : "The one-third restock threshold from the 1 October call stays for every shelf except oats and rice, which now restock at half full.",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Establishes and modifies operational policy by referencing prior agreed call decisions and setting a new mandate.",
+    "reported" : true
+  }, {
+    "segment_local_id" : "src-2",
+    "regions" : [ "rational-persuasion" ],
+    "evidence" : [ {
+      "quote" : "Those two run out fastest, and a third full is less than a day of stock on a Friday.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Justifies the policy adjustment through empirical consumption rate and scheduling logic.",
+    "reported" : true
+  } ],
+  "unmarked" : [ ],
+  "mints" : [ ],
+  "region_mints" : [ ],
+  "_source_sha256" : "41dcd61d3d391179b1f97a179273f02ff41fe4ce3af211f4c07d7133e0a4e92a"
+}
