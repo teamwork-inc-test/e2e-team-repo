@@ -1,0 +1,29 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "equality-matching" ],
+    "evidence" : [ {
+      "quote" : "intake rota",
+      "kind" : "lexical-marker"
+    }, {
+      "quote" : "overlap call at each hand-off",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Establishes a turn-taking rota and structured hand-off between peers.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-2",
+    "regions" : [ "communal-sharing" ],
+    "evidence" : [ {
+      "quote" : "pantry restocks any shelf",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Governs the replenishment of a shared, undifferentiated pool of resources.",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-3" ],
+  "unmarked_rest" : false,
+  "mints" : [ ],
+  "region_mints" : [ ],
+  "_source_sha256" : "33334968fe34c87719682c0567426876d98b442189d1cbf1cacbe6ef13bcbb39"
+}
