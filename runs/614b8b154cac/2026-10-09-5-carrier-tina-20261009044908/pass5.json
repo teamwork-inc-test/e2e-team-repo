@@ -1,0 +1,11 @@
+{
+  "placements" : [ {
+    "verdict" : "reuse",
+    "leaf" : "Narrative_OperationalCadenceAndResourceThresholds",
+    "supporting_segments" : [ "src-1" ],
+    "why" : "Dario's directive to mark the one-third line across pantry shelves establishes the visual operating protocol that directly implements the shared resource replenishment threshold.",
+    "consulted" : [ "Narrative_OperationalCadenceAndResourceThresholds", "Narrative_AntiSlackPositioning", "Narrative_DecisionCaptureAtConsensus", "Narrative_DecisionsEvaporate" ]
+  } ],
+  "unplaced" : [ ],
+  "_source_sha256" : "5173ce0d903a220b9705f86ad203ba82c8dfb250768cb9581121cbc06fdec1ac"
+}
