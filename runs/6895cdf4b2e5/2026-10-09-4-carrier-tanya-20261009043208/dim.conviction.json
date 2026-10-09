@@ -1,0 +1,15 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "The intake desk gets a printed sign with the rota dates from November.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Stated as an operational operational rule/arrangement ('gets a printed sign... from November') without hedges.",
+    "reported" : false
+  } ],
+  "unmarked" : [ ],
+  "mints" : [ ],
+  "_source_sha256" : "f0215b801a86f2da16619406ba287b90cd53dff96e1dd8920c408fea57611b99"
+}
