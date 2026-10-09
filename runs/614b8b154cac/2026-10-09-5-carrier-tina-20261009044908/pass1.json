@@ -1,0 +1,20 @@
+{
+  "doc" : {
+    "title" : "Pantry shelf marks — 2026-10-09",
+    "date_stated" : "2026-10-09",
+    "actors_present" : [ "Dario Kent" ]
+  },
+  "segments" : [ {
+    "local_id" : "src-1",
+    "exact" : "Every pantry shelf gets a line marked at a third, so restocking is a glance, not a count.",
+    "actor" : "Dario Kent",
+    "act" : "directive",
+    "circumstance" : {
+      "context" : "Pantry shelf marks"
+    },
+    "footing_case" : null
+  } ],
+  "footing_cases" : [ ],
+  "coverage_gaps" : [ ],
+  "_source_sha256" : "5173ce0d903a220b9705f86ad203ba82c8dfb250768cb9581121cbc06fdec1ac"
+}
