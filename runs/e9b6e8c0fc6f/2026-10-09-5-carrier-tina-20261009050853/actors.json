@@ -1,0 +1,22 @@
+{
+  "bindings" : [ {
+    "name" : "Dario Kent",
+    "verdict" : "bind",
+    "target" : "Actor_DarioKent",
+    "why" : "Exact match to existing actor Dario Kent.",
+    "ai" : false
+  }, {
+    "name" : "Tina TeamMember",
+    "verdict" : "bind",
+    "target" : "Actor_TinaTeammember",
+    "why" : "Exact match to existing actor Tina TeamMember (envelope submitter).",
+    "ai" : false
+  }, {
+    "name" : "tina+staging@aswritten.ai",
+    "verdict" : "bind",
+    "target" : "Actor_TinaTeammember",
+    "why" : "Envelope account email corresponding directly to submitter Tina TeamMember.",
+    "ai" : false
+  } ],
+  "_source_sha256" : "5173ce0d903a220b9705f86ad203ba82c8dfb250768cb9581121cbc06fdec1ac"
+}
