@@ -1,0 +1,44 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "authority-ranking" ],
+    "evidence" : [ {
+      "quote" : "ruled",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Establishes positional authority to issue a binding determination.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-2",
+    "regions" : [ "communal-sharing" ],
+    "evidence" : [ {
+      "quote" : "we route",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Enacts collective group norms and shared practice through communal first-person plural framing.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-3",
+    "regions" : [ "authority-ranking" ],
+    "evidence" : [ {
+      "quote" : "pushed back",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Reports upward challenge/contest to an established governance decision.",
+    "reported" : true
+  }, {
+    "segment_local_id" : "src-4",
+    "regions" : [ "authority-ranking" ],
+    "evidence" : [ {
+      "quote" : "Tanya held:",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Reasserts and maintains authoritative determination over the objection.",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-5" ],
+  "unmarked_rest" : false,
+  "mints" : [ ],
+  "region_mints" : [ ],
+  "_source_sha256" : "ba05ea0158d2bb5ae030ad5d571477370ce49537407437eea6eb9df45ec14eb7"
+}
