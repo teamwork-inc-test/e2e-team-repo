@@ -1,0 +1,17 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-3",
+    "regions" : [ "competence" ],
+    "evidence" : [ {
+      "quote" : "keep each case with one owner long enough to close it",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Appeals to completion capability and task mastery (closing the case) as the motive for the structural change.",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-1", "src-2", "src-4" ],
+  "unmarked_rest" : false,
+  "mints" : [ ],
+  "region_mints" : [ ],
+  "_source_sha256" : "1aa9128cfef3aed3a2fd2f6f7a9167b8835d1734b7f7f95dd8ac94e333d718fe"
+}
