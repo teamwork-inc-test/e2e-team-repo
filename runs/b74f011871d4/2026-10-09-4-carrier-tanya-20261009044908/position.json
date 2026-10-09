@@ -1,0 +1,11 @@
+{
+  "positions" : [ ],
+  "attaches" : [ {
+    "position" : "Position_InternalOperationsPoliciesCadence",
+    "members" : [ "src-1" ],
+    "why" : "The frame 'how are internal team operational handoffs and shared resource policies structured?' reads this operational measure cleanly, incorporating physical desk signage to communicate and anchor the November intake rota schedule."
+  } ],
+  "position_revisions" : [ ],
+  "ungrouped" : [ ],
+  "_source_sha256" : "f0215b801a86f2da16619406ba287b90cd53dff96e1dd8920c408fea57611b99"
+}
