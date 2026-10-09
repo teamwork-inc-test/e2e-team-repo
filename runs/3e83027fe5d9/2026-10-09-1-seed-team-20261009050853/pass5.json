@@ -1,0 +1,34 @@
+{
+  "placements" : [ {
+    "supporting_segments" : [ "src-1", "src-2", "src-3" ],
+    "under" : null,
+    "why" : "Establishes the organizational category for team processes, hand-offs, and operational maintenance rules.",
+    "verdict" : "mint",
+    "leaf" : "Process",
+    "region" : [ "Process" ],
+    "kind" : "strata",
+    "title" : "Internal workflows and operational policies shift to structured cadences and explicit thresholds",
+    "frame" : "How do team workflows, hand-off protocols, and internal operating rules establish predictable execution?",
+    "consulted" : [ "Narrative_AntiSlackPositioning", "Narrative_DecisionCaptureAtConsensus", "Narrative_DecisionsEvaporate" ]
+  }, {
+    "verdict" : "mint",
+    "leaf" : "Narrative_IntakeRotaOverlapCadence",
+    "title" : "Intake transitions move to fortnightly cycles with structured overlap hand-offs",
+    "frame" : "How are intake responsibilities transitioned between team members to preserve operational continuity?",
+    "under" : [ "Process" ],
+    "supporting_segments" : [ "src-1", "src-3" ],
+    "why" : "Establishes a fortnightly rotation cadence and dedicated overlap call for intake rota hand-offs starting November 1.",
+    "consulted" : [ "Narrative_AntiSlackPositioning", "Narrative_DecisionCaptureAtConsensus", "Narrative_DecisionsEvaporate" ]
+  }, {
+    "verdict" : "mint",
+    "leaf" : "Narrative_ThresholdBasedPantryRestocking",
+    "title" : "Pantry replenishment triggers automatically when shelf capacity drops below one-third",
+    "frame" : "What operational thresholds govern the replenishment of shared office inventory?",
+    "under" : [ "Process" ],
+    "supporting_segments" : [ "src-2", "src-3" ],
+    "why" : "Defines an explicit inventory threshold rule triggering pantry restocking effective November 1.",
+    "consulted" : [ "Narrative_AntiSlackPositioning", "Narrative_DecisionCaptureAtConsensus", "Narrative_DecisionsEvaporate" ]
+  } ],
+  "unplaced" : [ ],
+  "_source_sha256" : "33334968fe34c87719682c0567426876d98b442189d1cbf1cacbe6ef13bcbb39"
+}
