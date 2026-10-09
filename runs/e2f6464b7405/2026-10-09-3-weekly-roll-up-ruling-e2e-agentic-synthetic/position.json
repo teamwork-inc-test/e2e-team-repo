@@ -1,0 +1,13 @@
+{
+  "positions" : [ {
+    "name" : "ReactionRollupCadence",
+    "frame" : "How should reaction updates and summaries be cadenced across run and weekly cycles to prevent scroll-back without creating redundancy?",
+    "members" : [ "src-2", "src-3", "src-4", "src-5" ],
+    "why" : "The dialogue establishes artifact scope across temporal cadences—maintaining separate roles for immediate per-run reaction bundles and Friday weekly roll-ups, while ruling out daily digests due to single-run redundancy.",
+    "under" : [ "Narrative_DecisionsEvaporate" ]
+  } ],
+  "attaches" : [ ],
+  "position_revisions" : [ ],
+  "ungrouped" : [ "src-1" ],
+  "_source_sha256" : "a613398fb06b1f603a0127b54d35b3c7368f5d5d79b24da10e8023780d4ab149"
+}
