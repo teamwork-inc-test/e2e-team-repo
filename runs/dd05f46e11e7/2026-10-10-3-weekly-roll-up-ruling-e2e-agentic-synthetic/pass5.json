@@ -1,0 +1,11 @@
+{
+  "placements" : [ {
+    "verdict" : "reuse",
+    "leaf" : "Narrative_DecisionsEvaporate",
+    "supporting_segments" : [ "src-1", "src-2", "src-3", "src-4", "src-5" ],
+    "why" : "Tanya's operational ruling structures the delivery of reaction updates into per-run bundles and Friday roll-ups specifically to prevent team members from having to scroll back through chat history, directly serving the core narrative that unstructured communication streams allow decisions and context to evaporate.",
+    "consulted" : [ "Narrative_DecisionsEvaporate", "Narrative_AntiSlackPositioning", "Narrative_DecisionCaptureAtConsensus" ]
+  } ],
+  "unplaced" : [ ],
+  "_source_sha256" : "a613398fb06b1f603a0127b54d35b3c7368f5d5d79b24da10e8023780d4ab149"
+}
