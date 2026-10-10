@@ -1,0 +1,18 @@
+{
+  "placements" : [ {
+    "lineage" : {
+      "relation" : "extends",
+      "target" : "Narrative_AntiSlackPositioning"
+    },
+    "supporting_segments" : [ "src-2", "src-3", "src-4", "src-5" ],
+    "under" : null,
+    "why" : "Tanya rules that reaction delivery must be consolidated into one bundle per run per person, strictly closing when the run closes and rejecting client-side collapsing to prevent shifting cognitive and ordering burdens onto the reader.",
+    "verdict" : "mint",
+    "leaf" : "Narrative_ReactionDeliveryBundling",
+    "title" : "Reaction delivery is bundled per run per person to shield readers from ordering complexity",
+    "frame" : "Does this mechanism enforce run-bounded delivery bundling for the recipient, or does it shift ordering and triage burden onto the reader?",
+    "consulted" : [ "Narrative_AntiSlackPositioning", "Narrative_DecisionCaptureAtConsensus", "Narrative_DecisionsEvaporate" ]
+  } ],
+  "unplaced" : [ "src-1" ],
+  "_source_sha256" : "ba05ea0158d2bb5ae030ad5d571477370ce49537407437eea6eb9df45ec14eb7"
+}
