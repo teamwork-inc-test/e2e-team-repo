@@ -1,0 +1,17 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-2",
+    "regions" : [ "plain-spoken" ],
+    "evidence" : [ {
+      "quote" : "a person should get one thing to read, not four",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Distills a technical batching rule into direct, everyday human-scale phrasing.",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-1", "src-3", "src-4", "src-5" ],
+  "unmarked_rest" : false,
+  "mints" : [ ],
+  "region_mints" : [ ],
+  "_source_sha256" : "ba05ea0158d2bb5ae030ad5d571477370ce49537407437eea6eb9df45ec14eb7"
+}
