@@ -1,0 +1,16 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-2",
+    "regions" : [ "antithesis" ],
+    "evidence" : [ {
+      "quote" : "one thing to read, not four",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Opposed contrast structured as positive assertion followed by explicit negation ('one thing to read, not four').",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-1", "src-3", "src-4", "src-5" ],
+  "mints" : [ ],
+  "region_mints" : [ ],
+  "_source_sha256" : "ba05ea0158d2bb5ae030ad5d571477370ce49537407437eea6eb9df45ec14eb7"
+}
