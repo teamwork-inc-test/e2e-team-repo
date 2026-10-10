@@ -1,0 +1,17 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-2",
+    "regions" : [ "self-transcendence" ],
+    "evidence" : [ {
+      "quote" : "instead of asking anyone to scroll back",
+      "kind" : "framing-move"
+    } ],
+    "why" : "The addition of the Friday roll-up is justified by sparing others the friction of scrolling back through prior runs.",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-1", "src-3", "src-4", "src-5" ],
+  "unmarked_rest" : false,
+  "mints" : [ ],
+  "region_mints" : [ ],
+  "_source_sha256" : "a613398fb06b1f603a0127b54d35b3c7368f5d5d79b24da10e8023780d4ab149"
+}
