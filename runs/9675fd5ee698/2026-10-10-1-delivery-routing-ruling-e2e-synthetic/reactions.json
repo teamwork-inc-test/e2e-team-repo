@@ -1,0 +1,129 @@
+{
+  "schema_version" : 1,
+  "run_id" : "mp-eng-ed5c1b69",
+  "live_run_id" : "9675fd5ee698",
+  "stream" : "main",
+  "policy" : {
+    "lands" : { },
+    "channels" : [ "email", "sms" ],
+    "mode" : "on",
+    "source" : "default",
+    "skills" : { },
+    "warn_per_run_usd" : 0.25,
+    "audience" : "owner-setting",
+    "version" : 1,
+    "stop_per_dispatch_usd" : 2.0
+  },
+  "gates" : [ {
+    "id" : "aswritten/clarify",
+    "run?" : false,
+    "gate" : 2,
+    "reason" : "score 0.05 < threshold 0.7",
+    "score" : 0.05,
+    "evidence" : [ "Mints a decisive ruling by Tanya that rejects per-skill delivery", "plain-assertion: Tina pushed back on the batching window", "commitment-marker: the bundle closes when\nthe run closes, and a skill that misses the close waits for the next run rather\nthan sending on its own.", "performed-act: considered and rejected" ]
+  }, {
+    "id" : "aswritten/merge-suggest",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "skill off"
+  }, {
+    "id" : "aswritten/refract",
+    "run?" : true,
+    "gate" : 2,
+    "reason" : "predicate only"
+  }, {
+    "id" : "aswritten/review-message",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "skill off"
+  }, {
+    "id" : "aswritten/review-request",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "skill off"
+  }, {
+    "id" : "aswritten/riff",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "requires perspective, expand"
+  } ],
+  "jobs" : [ {
+    "skill" : "aswritten/refract",
+    "status" : "ok",
+    "phase" : "before",
+    "gate" : { },
+    "output" : {
+      "lens" : {
+        "shift" : "Reaction delivery is bundled: one bundle per run per person, closing when the run closes, with per-skill delivery formally rejected because it moves the ordering problem onto the reader. The reader's burden, not the skill's convenience, decides the architecture.",
+        "affected" : [ {
+          "document" : "docs/reaction-delivery.md",
+          "name" : "the reaction delivery doc",
+          "section" : "Reaction delivery (opening)",
+          "how" : "Replaces per-skill, arrive-as-finished delivery with one bundle per run per person that closes with the run; drops the reader-side collapsing."
+        } ],
+        "other_lenses" : [ ],
+        "drew_on" : [ "Tanya's ruling: one bundle per run per person, not one message per skill", "The cutoff rule: the bundle closes when the run closes; a skill that misses the close waits for the next run", "The rejection of per-skill delivery with client-side collapsing as moving the ordering problem onto the reader", "Tina's pushback on the batching window and Tanya holding the line" ],
+        "quote" : "we route every reaction through one bundle per run per person, not one\n> message per skill — a person should get one thing to read, not four",
+        "approaches" : [ "How reactions are delivered to a person", "What happens when a skill misses the run's close", "Whether readers are expected to collapse or order messages themselves" ],
+        "speaker" : "Tanya (team owner)",
+        "subject" : "Is one bundle per run the delivery rule now?",
+        "message" : "The memory you saved settles how reactions get delivered. You put it this way: \"we route every reaction through one bundle per run per person, not one message per skill — a person should get one thing to read, not four.\" You also held the cutoff against Tina's pushback: the bundle closes when the run closes, and a skill that misses the close waits for the next run. Per-skill delivery with client-side collapsing was considered and rejected because it moves the ordering problem onto the reader.\n\n[The reaction delivery doc](docs/reaction-delivery.md) says the opposite today. Its opening reads: \"Each reaction skill sends its own message to the person as soon as it finishes: the refraction, the question and the review each arrive on their own, in whatever order the skills complete. Readers collapse duplicates on their side.\" That is the alternative you rejected, written as current behavior. After this change it would rest on the bundle instead: one bundle per run per person, closed when the run closes, with no reader-side collapsing or ordering.\n\nIs that the right way to read what you ruled: one bundle per run, closing with the run, and no collapsing on the reader's side? If I have it wrong, tell me how.\n\nIt reaches just this one doc — it is the only document in the repo that describes delivery, and everything in it moves.",
+        "eye_chart" : {
+          "document" : "docs/reaction-delivery.md",
+          "name" : "the reaction delivery doc",
+          "section" : "Reaction delivery (opening)",
+          "as_written" : "Each reaction skill sends its own message to the person as soon as it finishes: the refraction, the question and the review each arrive on their own, in whatever order the skills complete. Readers collapse duplicates on their side.",
+          "through_the_lens" : "This is the rejected alternative, stated as current behavior. It would instead say delivery is one bundle per run per person, closed when the run closes; a skill that misses the close waits for the next run; and readers do no collapsing or ordering."
+        }
+      }
+    },
+    "landing" : {
+      "landed" : "message"
+    },
+    "ms" : 4004,
+    "attempts" : [ {
+      "disposition" : "ok",
+      "elapsed_ms" : 3998,
+      "content_chars" : 3429
+    } ]
+  } ],
+  "spend" : {
+    "cost_usd" : 0.023295,
+    "passes" : [ {
+      "pass" : "reaction:_score",
+      "llm_calls" : 1,
+      "cost_usd" : 0.00330985,
+      "null_cost_calls" : 0
+    }, {
+      "pass" : "reaction:refract",
+      "llm_calls" : 1,
+      "cost_usd" : 0.0199852,
+      "null_cost_calls" : 0
+    } ]
+  },
+  "bundle" : {
+    "items" : 1,
+    "audience" : "only-me",
+    "recipients" : 1,
+    "sent" : [ {
+      "items" : [ {
+        "kind" : "note",
+        "skill" : "aswritten/refract",
+        "audience" : "speakers"
+      } ],
+      "handle" : "tanya+staging@aswritten.ai",
+      "channel" : "email",
+      "h" : "09fcdb5f3d",
+      "status" : "skipped: test identity"
+    } ]
+  },
+  "counters" : { },
+  "at" : "2026-10-10T09:27:53.604719455Z",
+  "scorer" : {
+    "attempts" : [ {
+      "disposition" : "ok",
+      "elapsed_ms" : 13594,
+      "content_chars" : 803
+    } ]
+  }
+}
