@@ -1,0 +1,26 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-4",
+    "regions" : [ "matter-of-fact" ],
+    "evidence" : [ {
+      "quote" : "the bundle is for the run, the roll-up is for the week.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Terse, balanced operational formula defining scopes cleanly without elaboration or rhetorical display.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-5",
+    "regions" : [ "formal", "matter-of-fact" ],
+    "evidence" : [ {
+      "quote" : "Rejected:",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Adopts an explicit administrative docket format ('Rejected:') to record policy decisions.",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-1", "src-2", "src-3" ],
+  "unmarked_rest" : false,
+  "mints" : [ ],
+  "region_mints" : [ ],
+  "_source_sha256" : "a613398fb06b1f603a0127b54d35b3c7368f5d5d79b24da10e8023780d4ab149"
+}
