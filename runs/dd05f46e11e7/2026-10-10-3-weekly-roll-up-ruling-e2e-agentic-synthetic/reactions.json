@@ -1,0 +1,124 @@
+{
+  "schema_version" : 1,
+  "run_id" : "mp-eng-1dedd7f6",
+  "live_run_id" : "dd05f46e11e7",
+  "stream" : "main",
+  "policy" : {
+    "lands" : { },
+    "channels" : [ "email", "sms" ],
+    "mode" : "on",
+    "source" : "stream",
+    "agentic" : true,
+    "skills" : { },
+    "warn_per_run_usd" : 0.25,
+    "audience" : "owner-setting",
+    "version" : 1,
+    "stop_per_dispatch_usd" : 2.0
+  },
+  "gates" : [ {
+    "id" : "aswritten/clarify",
+    "run?" : false,
+    "gate" : 2,
+    "reason" : "score 0.0 < threshold 0.7",
+    "score" : 0.0,
+    "evidence" : [ "asked whether the roll-up replaces the per-run bundle", "the bundle is for the run, the roll-up is for the week.", "on Fridays we add one roll-up of the week" ]
+  }, {
+    "id" : "aswritten/merge-suggest",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "skill off"
+  }, {
+    "id" : "aswritten/refract",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "no documents to refract"
+  }, {
+    "id" : "aswritten/review-message",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "skill off"
+  }, {
+    "id" : "aswritten/review-request",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "skill off"
+  }, {
+    "id" : "aswritten/riff",
+    "run?" : true,
+    "gate" : 2,
+    "reason" : "predicate only"
+  } ],
+  "jobs" : [ {
+    "skill" : "aswritten/riff",
+    "status" : "ok",
+    "gate" : { },
+    "output" : {
+      "riff" : {
+        "kind" : "draft",
+        "title" : "The first Friday roll-up, drafted",
+        "message" : "Tanya's ruling landed Friday as the cadence, so I made the thing the ruling describes — the first roll-up, built from this week's actual record. It follows her own spec verbatim (\"what moved, what is still open — instead of asking anyone to scroll back\"), and it does what the next-sprint focus already committed to: each decision links back to the thread that produced it.\n\n---\n\n**Week of Oct 5–10 — roll-up**\n\n**What moved**\n- **Cadence ruled (Oct 10, Tanya):** the per-run bundle stays; on Fridays one roll-up of the week is added. Bundle is for the run, roll-up is for the week. *From: Weekly roll-up ruling.*\n- **Rejected on the record:** a daily digest — most days carry a single run and it would repeat the bundle word for word. Kept here so nobody re-litigates it blind.\n- **Pricing (Mar 10, still contested):** $12/user → $15/user for teams over 25. Two sides live on this one — worth a look before anyone quotes the number externally. *From: Teamwork product vision.*\n\n**What is still open**\n- The pricing question — contested since March, no resolution witnessed.\n- Context preservation is the named next-sprint focus (\"linking decisions to the discussion threads that produced them\") — this roll-up is the first place that should show up.\n\n**Not on the agenda**\n- Daily digests. See above.\n\n---\n\nOne design note: I kept it short and declarative, matching the cadence the record already shows (\"Nobody updates it.\" / \"decisions evaporate\") — the whole point of the anti-Slack stance is that every conversation produces a persistent artifact, so the roll-up should read like one, not like a chat transcript. If the shape's right, this can be the standing template every Friday.",
+        "lands" : "message",
+        "drew_on" : [ "Position_ContextPreservationNextSprint — 'linking decisions to the discussion threads that produced them' is the committed next-sprint focus, so the roll-up links each item to its source thread", "Narrative_AntiSlackPositioning — the anti-Slack thesis that every conversation should produce a persistent decision artifact shapes what the roll-up is for", "StyleObs_ShortPunchyCadence_NobodyUpdates — the team's own recorded rhetorical cadence ('Nobody updates it.', 'decisions evaporate') informed the format", "Narrative_AntiSlackPositioning's contested pricing move ($12→$15/user) — the week's one genuinely open item, not visible in the ruling document" ],
+        "why_no_registered_skill" : "clarify — nothing is ambiguous or two-stated here; merge-suggest — this is not a duplicate capture; refract — it would analyze the lens, not produce the artifact the ruling calls for; review-message — it messages people about their own earlier words, it doesn't draft a new deliverable; review-request — it mechanically asks for position review, no making.",
+        "shape" : "ruling-to-artifact: first instance drafted"
+      }
+    },
+    "landing" : {
+      "landed" : "message"
+    },
+    "ms" : 9921,
+    "attempts" : [ {
+      "disposition" : "ok",
+      "elapsed_ms" : 961,
+      "content_chars" : 0
+    }, {
+      "disposition" : "ok",
+      "elapsed_ms" : 7987,
+      "content_chars" : 2937
+    } ],
+    "tools" : [ {
+      "name" : "perspective",
+      "chars" : 9187,
+      "ms" : 938
+    } ]
+  } ],
+  "spend" : {
+    "cost_usd" : 0.028969,
+    "passes" : [ {
+      "pass" : "reaction:_score",
+      "llm_calls" : 1,
+      "cost_usd" : 0.00226275,
+      "null_cost_calls" : 0
+    }, {
+      "pass" : "reaction:riff",
+      "llm_calls" : 2,
+      "cost_usd" : 0.02670632,
+      "null_cost_calls" : 0
+    } ]
+  },
+  "bundle" : {
+    "items" : 1,
+    "audience" : "only-me",
+    "recipients" : 1,
+    "sent" : [ {
+      "items" : [ {
+        "kind" : "note",
+        "skill" : "aswritten/riff",
+        "audience" : "owner"
+      } ],
+      "handle" : "tanya+staging@aswritten.ai",
+      "channel" : "email",
+      "h" : "09fcdb5f3d",
+      "status" : "skipped: test identity"
+    } ]
+  },
+  "counters" : { },
+  "at" : "2026-10-10T09:33:35.351429271Z",
+  "scorer" : {
+    "attempts" : [ {
+      "disposition" : "ok",
+      "elapsed_ms" : 6464,
+      "content_chars" : 613
+    } ]
+  }
+}
