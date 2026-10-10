@@ -1,0 +1,16 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "communal-sharing" ],
+    "evidence" : [ {
+      "quote" : "We",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Enacts communal sharing via first-person plural 'We' pooling team agency.",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-2", "src-3" ],
+  "mints" : [ ],
+  "region_mints" : [ ],
+  "_source_sha256" : "1237e18b54774c37eb5214040874288fc88b5befa916140e66a01d5fdd1f31b8"
+}
