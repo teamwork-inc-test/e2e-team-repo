@@ -1,0 +1,12 @@
+{
+  "positions" : [ {
+    "name" : "ReactionDeliveryBundling",
+    "frame" : "How should reaction delivery be batched and bounded across skill execution runs?",
+    "members" : [ "src-2", "src-3", "src-4", "src-5" ],
+    "why" : "Explores the tension between delivery timing and cognitive load for the recipient, resolving pushback on batching windows by enforcing a strict run-boundary close and rejecting client-side message collapsing."
+  } ],
+  "attaches" : [ ],
+  "position_revisions" : [ ],
+  "ungrouped" : [ "src-1" ],
+  "_source_sha256" : "ba05ea0158d2bb5ae030ad5d571477370ce49537407437eea6eb9df45ec14eb7"
+}
