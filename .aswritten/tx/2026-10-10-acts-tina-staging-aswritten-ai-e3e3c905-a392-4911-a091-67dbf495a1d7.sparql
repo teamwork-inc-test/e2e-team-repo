@@ -1,0 +1,34 @@
+PREFIX narr: <https://aswritten.ai/narrative#>
+PREFIX aswr: <https://aswritten.ai/aswr#>
+PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX dct:  <http://purl.org/dc/terms/>
+PREFIX xsd:  <http://www.w3.org/2001/XMLSchema#>
+
+INSERT DATA {
+  GRAPH aswr:Tx_20261010T093458Z {
+    aswr:ReviewActs_e3e3c905-a392-4911-a091-67dbf495a1d7 a prov:Activity ;
+        prov:generatedAtTime "2026-10-10T09:34:58.592Z"^^xsd:dateTime ;
+        prov:wasAttributedTo "tina+staging@aswritten.ai" ;
+        aswr:kind "review-acts" ;
+        aswr:batch "e3e3c905-a392-4911-a091-67dbf495a1d7" ;
+        aswr:repo "teamwork-inc-test/e2e-team-repo" ;
+        aswr:stream "e2e-701-16-1791624892811" ;
+        dct:isPartOf aswr:Tx_20261010T093458Z .
+
+    aswr:ReviewAct_pos-40b1556ea8027b078fb33e9f3241c191cd58f15e423a6448b322bf511493e8df a aswr:ReviewAct ;
+        aswr:op "pos-40b1556ea8027b078fb33e9f3241c191cd58f15e423a6448b322bf511493e8df" ;
+        aswr:verb "accept" ;
+        prov:wasAttributedTo "tina+staging@aswritten.ai" ;
+        aswr:actor "agent:claude" ;
+        aswr:footing "on-behalf" ;
+        aswr:position "https://aswritten.ai/narrative#Position_PostGoLiveSoakDurationBasis" ;
+        aswr:target narr:Expr_20260929_1_ReviewCommentsTinaTeammember20260924_h1feabda3f4e2_10 ;
+        aswr:targetKind "position" ;
+        aswr:change ".aswritten/memories/2026-09-29-1-review-comments-tina-teammember-2026-09-24.md" ;
+        aswr:revision ".aswritten/memories/2026-09-29-1-review-comments-tina-teammember-2026-09-24.md@base" ;
+        prov:generatedAtTime "2026-10-10T09:34:58.560Z"^^xsd:dateTime ;
+        dct:isPartOf aswr:ReviewActs_e3e3c905-a392-4911-a091-67dbf495a1d7 .
+  }
+}
