@@ -1,0 +1,32 @@
+{
+  "bindings" : [ {
+    "name" : "Tanya TeamOwner",
+    "verdict" : "mint",
+    "target" : null,
+    "label" : "Tanya TeamOwner",
+    "why" : "Graph has no existing actors; full name is the fullest form and is the envelope's submitter and sole participant.",
+    "ai" : false
+  }, {
+    "name" : "memo author",
+    "verdict" : "mint",
+    "target" : null,
+    "label" : "Tanya TeamOwner",
+    "why" : "'memo author' is a role descriptor, not a name; envelope metadata identifies the submitter Tanya TeamOwner as the person behind it, so the verdict converges on the same label as the submitter.",
+    "ai" : false
+  }, {
+    "name" : "Tina",
+    "verdict" : "mint",
+    "target" : null,
+    "label" : "Tina (e2e synthetic)",
+    "why" : "Bare first name with no fuller form in the names list or envelope; no existing actors to bind to, so disambiguated with context rather than merged with Tanya.",
+    "ai" : false
+  }, {
+    "name" : "tanya+staging@aswritten.ai",
+    "verdict" : "mint",
+    "target" : null,
+    "label" : "Tanya TeamOwner",
+    "why" : "Account email is the same person as the person-named submitted_by (Tanya TeamOwner); graph is empty so mint under her name, never under the email address.",
+    "ai" : false
+  } ],
+  "_source_sha256" : "ba05ea0158d2bb5ae030ad5d571477370ce49537407437eea6eb9df45ec14eb7"
+}
