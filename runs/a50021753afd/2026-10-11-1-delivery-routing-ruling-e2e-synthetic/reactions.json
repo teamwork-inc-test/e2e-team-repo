@@ -1,0 +1,149 @@
+{
+  "schema_version" : 1,
+  "run_id" : "mp-eng-da1e792b",
+  "live_run_id" : "a50021753afd",
+  "stream" : "main",
+  "policy" : {
+    "lands" : { },
+    "channels" : [ "email", "sms" ],
+    "mode" : "on",
+    "source" : "default",
+    "skills" : { },
+    "warn_per_run_usd" : 0.25,
+    "audience" : "owner-setting",
+    "version" : 1,
+    "stop_per_dispatch_usd" : 2.0
+  },
+  "gates" : [ {
+    "id" : "aswritten/clarify",
+    "run?" : true,
+    "gate" : 2,
+    "score" : 0.75,
+    "evidence" : [ "resolutions empty against a populated perspective", "Memo author records Tanya holding the batching rule against pushback; the position is witnessed through the author's rendering, so reported is true.", "Reports Tanya overriding Tina's pushback and fixing the batching rule; rank-based decision rendered through the memo author, so reported is true." ],
+    "why" : "The submission carries two statements flagged unresolved (features.unresolved=2) with the resolve pass returning 'resolutions empty against a populated perspective', and the committed prose is explicitly the memo author's rendering of Tanya's ruling rather than her own words — so the single question of whose position the prose states is squarely the case this skill exists for, not a request for more detail."
+  }, {
+    "id" : "aswritten/merge-suggest",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "skill off"
+  }, {
+    "id" : "aswritten/refract",
+    "run?" : true,
+    "gate" : 2,
+    "reason" : "predicate only"
+  }, {
+    "id" : "aswritten/review-message",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "skill off"
+  }, {
+    "id" : "aswritten/review-request",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "skill off"
+  }, {
+    "id" : "aswritten/riff",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "requires perspective, expand"
+  } ],
+  "jobs" : [ {
+    "skill" : "aswritten/clarify",
+    "status" : "empty",
+    "gate" : {
+      "score" : 0.75,
+      "evidence" : [ "resolutions empty against a populated perspective", "Memo author records Tanya holding the batching rule against pushback; the position is witnessed through the author's rendering, so reported is true.", "Reports Tanya overriding Tina's pushback and fixing the batching rule; rank-based decision rendered through the memo author, so reported is true." ],
+      "why" : "The submission carries two statements flagged unresolved (features.unresolved=2) with the resolve pass returning 'resolutions empty against a populated perspective', and the committed prose is explicitly the memo author's rendering of Tanya's ruling rather than her own words — so the single question of whose position the prose states is squarely the case this skill exists for, not a request for more detail."
+    },
+    "output" : {
+      "questions" : [ ]
+    },
+    "landing" : {
+      "landed" : "message"
+    },
+    "ms" : 1096,
+    "attempts" : [ {
+      "disposition" : "ok",
+      "elapsed_ms" : 1087,
+      "content_chars" : 17
+    } ]
+  }, {
+    "skill" : "aswritten/refract",
+    "status" : "ok",
+    "phase" : "before",
+    "gate" : { },
+    "output" : {
+      "lens" : {
+        "shift" : "Reaction delivery is now one bundle per run per person, not one message per skill. The bundle closes when the run closes, and a skill that misses the close waits for the next run rather than sending on its own.",
+        "affected" : [ ],
+        "other_lenses" : [ ],
+        "drew_on" : [ "narrated.delta_line: one-bundle-per-run rule, rejecting per-skill delivery to prioritize reader experience", "committed.tx: Position_ReactionDeliveryBundleBoundary and Narrative_ReactionDeliveryBundling", "document: Tanya's ruling, the bundle closing when the run closes, and the rejected per-skill alternative with client-side collapsing" ],
+        "quote" : "we route every reaction through one bundle per run per person, not one message per skill — a person should get one thing to read, not four",
+        "approaches" : [ "How reaction skills deliver their output", "What happens when a skill finishes after the run closes", "Where duplicate collapsing happens" ],
+        "speaker" : "Tanya (team owner)",
+        "subject" : "Does every reaction now go through one bundle per run?",
+        "message" : "The memory you saved settles where reaction delivery belongs. You put it this way: \"we route every reaction through one bundle per run per person, not one message per skill — a person should get one thing to read, not four\". The bundle closes when the run closes, and a skill that misses the close waits for the next run rather than sending on its own. The per-skill alternative with client-side collapsing was considered and rejected.\n\n[The reaction delivery doc](docs/reaction-delivery.md) says the opposite in its opening: \"Each reaction skill sends its own message to the person as soon as it finishes\" and \"Readers collapse duplicates on their side.\" That is the rejected alternative, written as the current rule. After the change, the opening would say every reaction routes through one bundle per run per person, that the bundle closes when the run closes, and that a late skill waits for the next run. Collapsing would no longer be the reader's job.\n\nIs that the right way to read what you ruled: one bundle per run per person, with late skills waiting for the next run? If I have it wrong, tell me how.\n\nThis is the only document in the repo that describes reaction delivery, so nothing else moves.",
+        "eye_chart" : {
+          "document" : "docs/reaction-delivery.md",
+          "name" : "the reaction delivery doc",
+          "section" : "Reaction delivery (opening)",
+          "as_written" : "Each reaction skill sends its own message to the person as soon as it finishes: the refraction, the question and the review each arrive on their own, in whatever order the skills complete. Readers collapse duplicates on their side.",
+          "through_the_lens" : "The opening states the exact opposite of the ruling: per-skill delivery with client-side collapsing is the alternative Tanya considered and rejected. After the change, this opening would say every reaction routes through one bundle per run per person, the bundle closes when the run closes, and a skill that misses the close waits for the next run. Collapsing would no longer be the reader's job."
+        }
+      }
+    },
+    "landing" : {
+      "landed" : "message"
+    },
+    "ms" : 2877,
+    "attempts" : [ {
+      "disposition" : "ok",
+      "elapsed_ms" : 2864,
+      "content_chars" : 3072
+    } ]
+  } ],
+  "spend" : {
+    "cost_usd" : 0.03912,
+    "passes" : [ {
+      "pass" : "reaction:_score",
+      "llm_calls" : 1,
+      "cost_usd" : 0.0066165,
+      "null_cost_calls" : 0
+    }, {
+      "pass" : "reaction:clarify",
+      "llm_calls" : 1,
+      "cost_usd" : 0.013659,
+      "null_cost_calls" : 0
+    }, {
+      "pass" : "reaction:refract",
+      "llm_calls" : 1,
+      "cost_usd" : 0.0188442,
+      "null_cost_calls" : 0
+    } ]
+  },
+  "bundle" : {
+    "items" : 1,
+    "audience" : "only-me",
+    "recipients" : 1,
+    "sent" : [ {
+      "items" : [ {
+        "kind" : "note",
+        "skill" : "aswritten/refract",
+        "audience" : "speakers"
+      } ],
+      "handle" : "tanya+staging@aswritten.ai",
+      "channel" : "email",
+      "h" : "09fcdb5f3d",
+      "status" : "skipped: test identity"
+    } ]
+  },
+  "counters" : { },
+  "at" : "2026-10-11T10:08:56.444160244Z",
+  "scorer" : {
+    "attempts" : [ {
+      "disposition" : "ok",
+      "elapsed_ms" : 74863,
+      "content_chars" : 835
+    } ]
+  }
+}
