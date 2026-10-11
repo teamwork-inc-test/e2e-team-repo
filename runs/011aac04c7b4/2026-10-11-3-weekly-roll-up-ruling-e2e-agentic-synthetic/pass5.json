@@ -1,0 +1,18 @@
+{
+  "placements" : [ {
+    "lineage" : {
+      "relation" : "extends",
+      "target" : "Narrative_DecisionsEvaporate"
+    },
+    "supporting_segments" : [ "src-1", "src-2", "src-3", "src-4", "src-5" ],
+    "under" : [ "Narrative_DecisionsEvaporate" ],
+    "why" : "The segments settle how a week's reactions reach people: a per-run bundle stays, a Friday roll-up of the week is added so no one has to scroll back, the question of whether the roll-up replaces the bundle is answered no, and a daily digest is rejected as redundant. This is a recurring subject about how decision outcomes are surfaced over time, which future envelopes can keep feeding. It extends the decisions-evaporate problem by addressing delivery cadence, so it sits under that leaf rather than reusing it, since the content is about artifact cadence and not the problem statement itself. No existing leaf names reaction delivery cadence.",
+    "verdict" : "mint",
+    "leaf" : "Narrative_WeeklyRollupDelivery",
+    "title" : "From scroll-back to a scheduled recap",
+    "frame" : "What must each delivery of a team's reactions carry for people who were not in the run, and does a periodic recap replace the run's own bundle or sit beside it?",
+    "consulted" : [ "Narrative_DecisionsEvaporate", "Narrative_DecisionCaptureAtConsensus", "Narrative_AntiSlackPositioning", "ChangeCommunications", "FeedbackLoops" ]
+  } ],
+  "unplaced" : [ ],
+  "_source_sha256" : "a613398fb06b1f603a0127b54d35b3c7368f5d5d79b24da10e8023780d4ab149"
+}
