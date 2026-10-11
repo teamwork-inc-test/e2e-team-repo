@@ -1,0 +1,13 @@
+{
+  "positions" : [ {
+    "name" : "WeeklyRollupVsPerRunBundle",
+    "frame" : "What does each delivery artifact for reactions carry (the per-run bundle, a weekly roll-up, a daily digest), and does one replace another so that people no longer need to scroll back?",
+    "members" : [ "src-2", "src-3", "src-4", "src-5" ],
+    "why" : "The four segments read in one direction: how a week's reactions should reach people. src-2 sets the per-run bundle alongside a Friday roll-up. src-3 asks whether the roll-up replaces the bundle. src-4 answers that it does not, because the bundle serves the run and the roll-up serves the week. src-5 rejects a daily digest as redundant on single-run days. The set holds a tension: src-3 questions the coexistence that src-4 settles by ruling, and the frame keeps both sides open rather than resolving them here.",
+    "under" : [ "Narrative_DecisionsEvaporate" ]
+  } ],
+  "attaches" : [ ],
+  "position_revisions" : [ ],
+  "ungrouped" : [ "src-1" ],
+  "_source_sha256" : "a613398fb06b1f603a0127b54d35b3c7368f5d5d79b24da10e8023780d4ab149"
+}
