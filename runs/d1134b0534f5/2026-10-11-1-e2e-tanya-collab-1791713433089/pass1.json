@@ -1,0 +1,22 @@
+{
+  "doc" : {
+    "title" : "Tanya's Sprint Retro",
+    "date_stated" : "2026-10-11",
+    "actors_present" : [ "Tanya TeamOwner" ]
+  },
+  "segments" : [ {
+    "local_id" : "src-1",
+    "exact" : "Tanya: \"We shipped the async decision widget. Velocity was 23 points, highest this quarter. The Zephyr integration was the key unlock.\"",
+    "actor" : "Tanya TeamOwner",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Sprint retro"
+    },
+    "note" : "Quoted speech introduced by speaker label; single assertive turn covering three sentences making one retrospective claim.",
+    "redacted" : false,
+    "footing_case" : null
+  } ],
+  "coverage_gaps" : [ ],
+  "footing_cases" : [ ],
+  "_source_sha256" : "1237e18b54774c37eb5214040874288fc88b5befa916140e66a01d5fdd1f31b8"
+}
