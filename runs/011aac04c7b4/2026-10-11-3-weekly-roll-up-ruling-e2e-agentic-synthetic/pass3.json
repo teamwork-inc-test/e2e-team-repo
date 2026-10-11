@@ -1,0 +1,18 @@
+{
+  "reconciliations" : [ ],
+  "standalone" : [ {
+    "segment_id" : "src-1",
+    "why" : "Verdict new: no bound referent; memo author's framing with no recorded principal (unendorsed composition)."
+  }, {
+    "segment_id" : "src-3",
+    "why" : "Verdict new: no bound referent; memo author's report of Tina's question, no recorded principal (unendorsed composition)."
+  }, {
+    "segment_id" : "src-4",
+    "why" : "Verdict new: pass 2 bound no referent for Tanya's held position, so there is nothing to reconcile against."
+  }, {
+    "segment_id" : "src-5",
+    "why" : "Verdict new: no bound referent; memo author's rejection note, no recorded principal (unendorsed composition)."
+  } ],
+  "held" : [ ],
+  "_source_sha256" : "a613398fb06b1f603a0127b54d35b3c7368f5d5d79b24da10e8023780d4ab149"
+}
