@@ -1,0 +1,20 @@
+{
+  "bindings" : [ {
+    "name" : "memo author",
+    "verdict" : "unbound",
+    "why" : "Not a person's name; a role placeholder with no identifiable individual, so nothing to bind or mint.",
+    "ai" : false
+  }, {
+    "name" : "Tanya TeamOwner",
+    "verdict" : "mint",
+    "label" : "Tanya TeamOwner",
+    "why" : "Graph is empty and no existing actors are listed, so this person is minted under their full name.",
+    "ai" : false
+  }, {
+    "name" : "tanya+staging@aswritten.ai",
+    "verdict" : "unbound",
+    "why" : "Account email for Tanya TeamOwner, but with no existing actors the email cannot be bound and the actor is already minted under the person's name, so the email resolves to no separate actor.",
+    "ai" : false
+  } ],
+  "_source_sha256" : "a613398fb06b1f603a0127b54d35b3c7368f5d5d79b24da10e8023780d4ab149"
+}
