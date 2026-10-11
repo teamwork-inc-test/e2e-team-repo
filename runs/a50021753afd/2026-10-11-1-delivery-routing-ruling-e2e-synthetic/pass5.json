@@ -1,0 +1,14 @@
+{
+  "placements" : [ {
+    "verdict" : "mint",
+    "leaf" : "Narrative_ReactionDeliveryBundling",
+    "title" : "From per-skill delivery to one bundle per run per person",
+    "frame" : "When many reactions converge on one reader, where does a delivery bundle's boundary fall, and what happens to a reaction that misses that boundary?",
+    "under" : null,
+    "supporting_segments" : [ "src-2", "src-3", "src-4" ],
+    "why" : "The three segments carry one continuing subject: how reaction delivery is bundled and where the bundle's boundary falls. src-2 states the standing routing rule (one bundle per run per person). src-3 sets the boundary (the bundle closes with the run, and a skill that misses the close waits for the next run). src-4 records the rejected alternative of per-skill delivery and why it was rejected. The subject is a product-delivery theme that later envelopes about reactions or notifications would keep feeding. None of the existing leaves covers it: AntiSlackPositioning concerns competitive framing, DecisionCaptureAtConsensus concerns capturing decisions, and DecisionsEvaporate concerns decision loss, so no reuse or inspired lineage applies. No strata category is minted, since this is a single leaf with no sibling leaves in a shared region.",
+    "consulted" : [ "Narrative_AntiSlackPositioning", "Narrative_DecisionCaptureAtConsensus", "Narrative_DecisionsEvaporate" ]
+  } ],
+  "unplaced" : [ "src-1" ],
+  "_source_sha256" : "ba05ea0158d2bb5ae030ad5d571477370ce49537407437eea6eb9df45ec14eb7"
+}
