@@ -1,0 +1,96 @@
+{
+  "doc" : {
+    "title" : "Weekly roll-up ruling (e2e agentic synthetic)",
+    "date_stated" : "2026-10-11",
+    "actors_present" : [ "Tanya TeamOwner", "Tina" ]
+  },
+  "segments" : [ {
+    "local_id" : "src-1",
+    "exact" : "Tanya (team owner) ruled on how the week's reactions reach people:",
+    "actor" : "memo author",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Weekly roll-up ruling"
+    },
+    "note" : "Editorial framing of the quoted ruling; attributes the ruling to Tanya.",
+    "footing_case" : "fc-1",
+    "footing" : {
+      "animator" : "memo author",
+      "author" : "memo author",
+      "principal" : null
+    }
+  }, {
+    "local_id" : "src-2",
+    "exact" : "the per-run bundle stays, and on Fridays we add one roll-up of the week —\n> what moved, what is still open — instead of asking anyone to scroll back",
+    "actor" : "Tanya TeamOwner",
+    "act" : "declarative",
+    "circumstance" : {
+      "context" : "Weekly roll-up ruling"
+    },
+    "note" : "Ruling quoted from Tanya; the saying settles the arrangement.",
+    "footing_case" : null,
+    "repair" : "scaffold:blockquote"
+  }, {
+    "local_id" : "src-3",
+    "exact" : "Tina asked whether the roll-up replaces the per-run bundle.",
+    "actor" : "memo author",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Weekly roll-up ruling"
+    },
+    "note" : "Editorial narration reporting Tina's question.",
+    "footing_case" : "fc-1",
+    "footing" : {
+      "animator" : "memo author",
+      "author" : "memo author",
+      "principal" : null
+    }
+  }, {
+    "local_id" : "src-4",
+    "exact" : "Tanya held that it\ndoes not: the bundle is for the run, the roll-up is for the week.",
+    "actor" : "Tanya TeamOwner",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Weekly roll-up ruling"
+    },
+    "note" : "Reported position of Tanya in reply to Tina.",
+    "footing_case" : "fc-2",
+    "footing" : {
+      "animator" : "memo author",
+      "author" : "memo author",
+      "principal" : "Tanya TeamOwner"
+    }
+  }, {
+    "local_id" : "src-5",
+    "exact" : "Rejected: a\ndaily digest, because most days carry a single run and it would repeat the\nbundle word for word.",
+    "actor" : "memo author",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Weekly roll-up ruling"
+    },
+    "note" : "Editorial narration recording the rejected alternative.",
+    "footing_case" : "fc-1",
+    "footing" : {
+      "animator" : "memo author",
+      "author" : "memo author",
+      "principal" : null
+    }
+  } ],
+  "coverage_gaps" : [ ],
+  "footing_cases" : [ {
+    "id" : "fc-1",
+    "animator" : "memo author",
+    "author" : "memo author",
+    "principal" : null,
+    "unresolved" : "Envelope names the submitter and account but does not say the composer stands behind this editorial prose.",
+    "when" : "Editorial narration in the memo's own voice, outside quoted speech."
+  }, {
+    "id" : "fc-2",
+    "animator" : "memo author",
+    "author" : "memo author",
+    "principal" : "Tanya TeamOwner",
+    "unresolved" : null,
+    "when" : "Editorial narration reporting a named actor's position via reported speech with a speech verb ('Tanya held that...')."
+  } ],
+  "_source_sha256" : "a613398fb06b1f603a0127b54d35b3c7368f5d5d79b24da10e8023780d4ab149"
+}
