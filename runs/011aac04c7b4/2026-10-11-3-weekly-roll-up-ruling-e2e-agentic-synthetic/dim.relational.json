@@ -1,0 +1,44 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "authority-ranking" ],
+    "evidence" : [ {
+      "quote" : "Tanya (team owner) ruled on how the week's reactions reach people:",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Reports a governance act: the team owner's ruling on how reactions reach people. Witnessed through the memo author's report, so reported is true.",
+    "reported" : true
+  }, {
+    "segment_local_id" : "src-2",
+    "regions" : [ "authority-ranking" ],
+    "evidence" : [ {
+      "quote" : "on Fridays we add one roll-up of the week",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Declarative rule issued by the team owner, setting a standing practice. Command-style hierarchy, performed directly.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-4",
+    "regions" : [ "authority-ranking" ],
+    "evidence" : [ {
+      "quote" : "the bundle is for the run, the roll-up is for the week",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Split footing: Tanya's ruling on the bundle versus the roll-up, rendered by the memo author. Authority settles the dispute by fiat, so reported is true.",
+    "reported" : true
+  }, {
+    "segment_local_id" : "src-5",
+    "regions" : [ "market-pricing" ],
+    "evidence" : [ {
+      "quote" : "because most days carry a single run",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Rejects an option on cost-benefit grounds: redundancy against the bundle on single-run days. Proportionality reasoning, not a hierarchy or exchange move.",
+    "reported" : false
+  } ],
+  "mints" : [ ],
+  "region_mints" : [ ],
+  "unmarked" : [ "src-3" ],
+  "unmarked_rest" : false,
+  "_source_sha256" : "a613398fb06b1f603a0127b54d35b3c7368f5d5d79b24da10e8023780d4ab149"
+}
