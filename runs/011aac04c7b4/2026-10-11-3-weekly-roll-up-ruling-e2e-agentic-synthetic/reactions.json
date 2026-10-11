@@ -1,0 +1,124 @@
+{
+  "schema_version" : 1,
+  "run_id" : "mp-eng-d40a1aa9",
+  "live_run_id" : "011aac04c7b4",
+  "stream" : "main",
+  "policy" : {
+    "lands" : { },
+    "channels" : [ "email", "sms" ],
+    "mode" : "on",
+    "source" : "stream",
+    "agentic" : true,
+    "skills" : { },
+    "warn_per_run_usd" : 0.25,
+    "audience" : "owner-setting",
+    "version" : 1,
+    "stop_per_dispatch_usd" : 2.0
+  },
+  "gates" : [ {
+    "id" : "aswritten/clarify",
+    "run?" : false,
+    "gate" : 2,
+    "reason" : "score 0.0 < threshold 0.7",
+    "score" : 0.0,
+    "evidence" : [ "performed-act: ruled on how the week's reactions reach people", "performed declarative with an operational 'we add' commitment, stated as settled.", "A recorded rejection settles the alternative; the act itself is decision-grade.", "resolutions empty against a populated perspective" ]
+  }, {
+    "id" : "aswritten/merge-suggest",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "skill off"
+  }, {
+    "id" : "aswritten/refract",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "no documents to refract"
+  }, {
+    "id" : "aswritten/review-message",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "skill off"
+  }, {
+    "id" : "aswritten/review-request",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "skill off"
+  }, {
+    "id" : "aswritten/riff",
+    "run?" : true,
+    "gate" : 2,
+    "reason" : "predicate only"
+  } ],
+  "jobs" : [ {
+    "skill" : "aswritten/riff",
+    "status" : "ok",
+    "gate" : { },
+    "output" : {
+      "riff" : {
+        "kind" : "prototype",
+        "title" : "The first Friday roll-up, drafted",
+        "message" : "Tanya — you ruled the roll-up into existence on Saturday, so I made the first one. The ruling said \"what moved, what is still open — instead of asking anyone to scroll back,\" but nobody has written that artifact yet. Here it is, as a template with this week actually filled in:\n\n---\n\n**Friday Roll-up — week of Oct 5–11**\n\n**What moved**\n- New ruling: the per-run bundle stays; on Fridays we add one roll-up of the week. The bundle is for the run, the roll-up is for the week. (Tanya, team owner, Oct 11)\n- This extends the standing thesis from March — decisions that evaporate into scroll-back — by giving the *week* its own persistent artifact, not just each run.\n- It's also the first concrete instrument for the next-sprint focus on context preservation: linking decisions to the work they touched.\n\n**What is still open**\n- The beside-not-instead arrangement is a ruling, not a tested conclusion — worth a look after a few Fridays to see if the roll-up is pulling its weight.\n- The daily digest was rejected (single-run days would repeat the bundle word for word). Keeping it on record as the road not taken, so nobody re-litigates it from scratch.\n\n**Road not taken this week**\n- Daily digest — rejected Oct 11, redundancy grounds.\n\n---\n\nThe shape is three fixed sections: what moved, what's still open, road not taken. The third one is my addition — the record already keeps rejected alternatives with their reasoning attached, so the roll-up should surface them too. If you want, this becomes the standing Friday format and I fill it each week from what the runs minted.",
+        "lands" : "message",
+        "drew_on" : [ "Narrative_DecisionsEvaporate (2026-03-10): 'decisions made in real-time chat evaporate into scroll-back' — the ruling's 'instead of asking anyone to scroll back' is this thesis turned on our own process, seven months later", "Position_ContextPreservationNextSprint: next sprint's focus on linking decisions to context — the roll-up is its first concrete instrument, which the document never connects", "The perspective's note that the rejected daily digest 'remains on record as the road not taken, with its reasoning attached' — the basis for the third template section", "The perspective's caveat that beside-not-instead 'is a decision by the team owner rather than a tested conclusion — could be revisited', which the roll-up's still-open section carries forward" ],
+        "why_no_registered_skill" : "clarify asks a question about an undefined term — nothing here is undefined; merge-suggest flags duplicate captures — this isn't one; refract would present the lens, not draft the artifact the ruling created a need for; review-message reports how the run touched someone's earlier words — it wouldn't build the new Friday artifact; review-request is mechanical position-review plumbing, not authorship.",
+        "shape" : "draft the ruled artifact, immediately"
+      }
+    },
+    "landing" : {
+      "landed" : "message"
+    },
+    "ms" : 7243,
+    "attempts" : [ {
+      "disposition" : "ok",
+      "elapsed_ms" : 1092,
+      "content_chars" : 0
+    }, {
+      "disposition" : "ok",
+      "elapsed_ms" : 5232,
+      "content_chars" : 2977
+    } ],
+    "tools" : [ {
+      "name" : "perspective",
+      "chars" : 10163,
+      "ms" : 831
+    } ]
+  } ],
+  "spend" : {
+    "cost_usd" : 0.030473,
+    "passes" : [ {
+      "pass" : "reaction:_score",
+      "llm_calls" : 1,
+      "cost_usd" : 0.00304395,
+      "null_cost_calls" : 0
+    }, {
+      "pass" : "reaction:riff",
+      "llm_calls" : 2,
+      "cost_usd" : 0.02742948,
+      "null_cost_calls" : 0
+    } ]
+  },
+  "bundle" : {
+    "items" : 1,
+    "audience" : "only-me",
+    "recipients" : 1,
+    "sent" : [ {
+      "items" : [ {
+        "kind" : "note",
+        "skill" : "aswritten/riff",
+        "audience" : "owner"
+      } ],
+      "handle" : "tanya+staging@aswritten.ai",
+      "channel" : "email",
+      "h" : "09fcdb5f3d",
+      "status" : "skipped: test identity"
+    } ]
+  },
+  "counters" : { },
+  "at" : "2026-10-11T10:13:09.746033186Z",
+  "scorer" : {
+    "attempts" : [ {
+      "disposition" : "ok",
+      "elapsed_ms" : 14350,
+      "content_chars" : 776
+    } ]
+  }
+}
