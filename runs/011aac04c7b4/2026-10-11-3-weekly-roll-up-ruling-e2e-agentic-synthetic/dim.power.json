@@ -1,0 +1,44 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "legitimate" ],
+    "evidence" : [ {
+      "quote" : "Tanya (team owner) ruled on how",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Authority rests on the position ('team owner') and the act of ruling, rendered by the memo author about Tanya.",
+    "reported" : true
+  }, {
+    "segment_local_id" : "src-2",
+    "regions" : [ "legitimate" ],
+    "evidence" : [ {
+      "quote" : "on Fridays we add one roll-up of the week",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Declares a process change in the speaker's own voice, backed by the authority of the position.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-4",
+    "regions" : [ "rational-persuasion" ],
+    "evidence" : [ {
+      "quote" : "the bundle is for the run, the roll-up is for the week",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Holds a position through a distinction between the two artifacts; the rendered stance is Tanya's, so reported is true.",
+    "reported" : true
+  }, {
+    "segment_local_id" : "src-5",
+    "regions" : [ "rational-persuasion" ],
+    "evidence" : [ {
+      "quote" : "because most days carry a single run",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Rejects the daily digest by giving a reason grounded in run frequency and repetition.",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-3" ],
+  "unmarked_rest" : false,
+  "mints" : [ ],
+  "region_mints" : [ ],
+  "_source_sha256" : "a613398fb06b1f603a0127b54d35b3c7368f5d5d79b24da10e8023780d4ab149"
+}
