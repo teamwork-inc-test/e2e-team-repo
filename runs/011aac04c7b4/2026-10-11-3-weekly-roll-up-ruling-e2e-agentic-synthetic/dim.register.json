@@ -1,0 +1,17 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-4",
+    "regions" : [ "formal" ],
+    "evidence" : [ {
+      "quote" : "the bundle is for the run, the roll-up is for the week",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Parallel contrast in the ruling clause departs from the memo's plain baseline; the reported ruling is stated in formal, distance-keeping phrasing.",
+    "reported" : true
+  } ],
+  "mints" : [ ],
+  "region_mints" : [ ],
+  "unmarked" : [ "src-1", "src-2", "src-3", "src-5" ],
+  "unmarked_rest" : false,
+  "_source_sha256" : "a613398fb06b1f603a0127b54d35b3c7368f5d5d79b24da10e8023780d4ab149"
+}
