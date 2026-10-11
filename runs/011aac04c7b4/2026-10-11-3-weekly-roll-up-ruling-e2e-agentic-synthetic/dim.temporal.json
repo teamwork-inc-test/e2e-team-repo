@@ -1,0 +1,51 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "past", "realis" ],
+    "evidence" : [ {
+      "quote" : "ruled on how the week's reactions reach people",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Completed ruling act, settled and actual; the attention is on a decision already made.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-2",
+    "regions" : [ "future", "realis", "abstract" ],
+    "evidence" : [ {
+      "quote" : "on Fridays we add one roll-up of the week",
+      "kind" : "commitment-marker"
+    } ],
+    "why" : "A standing recurring practice stated as settled, so it is realis, with future-directed attention on Fridays and an abstract, pattern-level construal.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-3",
+    "regions" : [ "irrealis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "whether the roll-up replaces the per-run bundle",
+      "kind" : "plain-signal"
+    } ],
+    "why" : "An open question about a possible replacement, so irrealis; it names specific artifacts, so concrete.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-4",
+    "regions" : [ "present", "realis", "abstract" ],
+    "evidence" : [ {
+      "quote" : "the bundle is for the run, the roll-up is for the week.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "A present categorical principle stated as settled; the construal is abstract, a distinction between purposes rather than events. The stance is witnessed through the memo author's rendering of Tanya's position.",
+    "reported" : true
+  }, {
+    "segment_local_id" : "src-5",
+    "regions" : [ "past", "concrete" ],
+    "evidence" : [ {
+      "quote" : "Rejected:",
+      "kind" : "performed-act"
+    } ],
+    "why" : "A completed rejection, so past. It concerns a specific artifact, a daily digest, so concrete. The 'would repeat' modal suspends the irrealis sub-axis, so it is omitted.",
+    "reported" : false
+  } ],
+  "unmarked" : [ ],
+  "unmarked_rest" : false,
+  "_source_sha256" : "a613398fb06b1f603a0127b54d35b3c7368f5d5d79b24da10e8023780d4ab149"
+}
