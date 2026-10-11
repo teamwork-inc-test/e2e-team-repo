@@ -1,0 +1,12 @@
+{
+  "positions" : [ {
+    "name" : "ReactionDeliveryBundleBoundary",
+    "frame" : "When many reactions converge on one reader, where does a delivery bundle's boundary fall, and what happens to a reaction that misses the boundary?",
+    "members" : [ "src-2", "src-3", "src-4" ],
+    "why" : "src-2 states the standing rule (one bundle per run per person) and justifies it by the reader's experience. src-3 sets the boundary (the bundle closes with the run, and a skill that misses the close waits for the next run). src-4 records the rejected alternative, per-skill delivery, and the reason for rejecting it: it moves the ordering problem onto the reader. Read together, the three answer the frame's question about bundling and its boundary. The set holds a tension: src-3 records Tina's pushback on the batching window, which Tanya overruled, and src-2 presents the same rule as settled process. The frame keeps both sides without resolving the disagreement."
+  } ],
+  "attaches" : [ ],
+  "position_revisions" : [ ],
+  "ungrouped" : [ "src-1" ],
+  "_source_sha256" : "ba05ea0158d2bb5ae030ad5d571477370ce49537407437eea6eb9df45ec14eb7"
+}
