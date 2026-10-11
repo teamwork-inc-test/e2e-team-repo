@@ -1,0 +1,18 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "past", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "We shipped the async decision widget.",
+      "kind" : "plain-assertion"
+    }, {
+      "quote" : "The Zephyr integration was the key unlock.",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Completed past-tense events stated as settled fact (shipped, was) about named artifacts and a specific velocity figure; no modal or hedge.",
+    "reported" : false
+  } ],
+  "unmarked" : [ ],
+  "unmarked_rest" : false,
+  "_source_sha256" : "1237e18b54774c37eb5214040874288fc88b5befa916140e66a01d5fdd1f31b8"
+}
