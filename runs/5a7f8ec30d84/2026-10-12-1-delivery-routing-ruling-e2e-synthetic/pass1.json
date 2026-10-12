@@ -1,0 +1,67 @@
+{
+  "doc" : {
+    "title" : "Delivery routing ruling (e2e synthetic)",
+    "date_stated" : "2026-10-12",
+    "actors_present" : [ "Tanya TeamOwner", "Tina" ]
+  },
+  "footing_cases" : [ {
+    "id" : "fc-1",
+    "animator" : "memo author",
+    "author" : "memo author",
+    "principal" : null,
+    "unresolved" : "Envelope names the submitter and account but does not say whose editorial prose the memo is; no in-text endorsement record.",
+    "when" : "Editorial narration of the memo (headings, framing sentences, the Tina-pushback summary)."
+  } ],
+  "segments" : [ {
+    "local_id" : "src-1",
+    "exact" : "Tanya (team owner) ruled on where reaction delivery belongs:",
+    "actor" : "memo author",
+    "act" : "assertive",
+    "footing_case" : "fc-1",
+    "footing" : {
+      "animator" : "memo author",
+      "author" : "memo author",
+      "principal" : null
+    }
+  }, {
+    "local_id" : "src-2",
+    "exact" : "we route every reaction through one bundle per run per person, not one\n> message per skill — a person should get one thing to read, not four",
+    "actor" : "Tanya TeamOwner",
+    "act" : "declarative",
+    "circumstance" : {
+      "context" : "Delivery routing ruling"
+    },
+    "footing_case" : null
+  }, {
+    "local_id" : "src-3",
+    "exact" : "Tina pushed back on the batching window and Tanya held: the bundle closes when\nthe run closes, and a skill that misses the close waits for the next run rather\nthan sending on its own.",
+    "actor" : "memo author",
+    "act" : "assertive",
+    "footing_case" : "fc-1",
+    "note" : "Reports Tina's pushback and Tanya's holding; composer-editorial summary of the exchange.",
+    "footing" : {
+      "animator" : "memo author",
+      "author" : "memo author",
+      "principal" : null
+    }
+  }, {
+    "local_id" : "src-4",
+    "exact" : "The alternative considered and rejected was per-skill\ndelivery with client-side collapsing, which moves the ordering problem onto the\nreader.",
+    "actor" : "memo author",
+    "act" : "assertive",
+    "footing_case" : "fc-1",
+    "footing" : {
+      "animator" : "memo author",
+      "author" : "memo author",
+      "principal" : null
+    }
+  } ],
+  "coverage_gaps" : [ {
+    "reason" : "YAML frontmatter (reviewers list) is document scaffolding, not speech.",
+    "span_hint" : "---\nreviewers:"
+  }, {
+    "reason" : "Heading is structural scaffolding, not a speech act.",
+    "span_hint" : "# Delivery routing"
+  } ],
+  "_source_sha256" : "ba05ea0158d2bb5ae030ad5d571477370ce49537407437eea6eb9df45ec14eb7"
+}
