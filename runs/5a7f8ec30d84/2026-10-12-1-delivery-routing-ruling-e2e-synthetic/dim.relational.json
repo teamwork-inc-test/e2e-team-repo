@@ -1,0 +1,44 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "authority-ranking" ],
+    "evidence" : [ {
+      "quote" : "Tanya (team owner) ruled on where reaction delivery belongs",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Reports a ruling by the team owner over delivery placement; rank-based decision, witnessed as an event report.",
+    "reported" : true
+  }, {
+    "segment_local_id" : "src-2",
+    "regions" : [ "communal-sharing" ],
+    "evidence" : [ {
+      "quote" : "we route every reaction through one bundle per run per person",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Pooling into one shared bundle framed with 'we'; the 'not four' contrast is secondary.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-3",
+    "regions" : [ "authority-ranking" ],
+    "evidence" : [ {
+      "quote" : "Tanya held",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Reports the owner holding a position against pushback, a rank-based closing of dissent; the rule itself is reported through the memo author.",
+    "reported" : true
+  }, {
+    "segment_local_id" : "src-4",
+    "regions" : [ "market-pricing" ],
+    "evidence" : [ {
+      "quote" : "moves the ordering problem onto the\nreader",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Weighs the rejected alternative by who bears the cost of ordering, a cost-consequence framing of the choice.",
+    "reported" : false
+  } ],
+  "unmarked" : [ ],
+  "unmarked_rest" : false,
+  "mints" : [ ],
+  "region_mints" : [ ],
+  "_source_sha256" : "ba05ea0158d2bb5ae030ad5d571477370ce49537407437eea6eb9df45ec14eb7"
+}
