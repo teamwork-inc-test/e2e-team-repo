@@ -1,0 +1,46 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "ruled on how the week's reactions reach people",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Reports that a ruling occurred, but the memo author's own stance is only a plain framing sentence. Torn with decision; took the lower region.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-2",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "the per-run bundle stays",
+      "kind" : "performed-act"
+    }, {
+      "quote" : "on Fridays we add one roll-up of the week",
+      "kind" : "commitment-marker"
+    } ],
+    "why" : "Performed declarative that settles the format as an operational rule the team is expected to act on.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-4",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "the bundle is for the run, the roll-up is for the week.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Firm, reasoned position argued for in response to a question, not framed as a ratification. Torn with decision; the lower region holds. Reported through the memo author.",
+    "reported" : true
+  }, {
+    "segment_local_id" : "src-5",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "Rejected:",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Records a settled rejection of an alternative, which is a performed settling.",
+    "reported" : false
+  } ],
+  "mints" : [ ],
+  "unmarked" : [ "src-3" ],
+  "unmarked_rest" : false,
+  "_source_sha256" : "a613398fb06b1f603a0127b54d35b3c7368f5d5d79b24da10e8023780d4ab149"
+}
