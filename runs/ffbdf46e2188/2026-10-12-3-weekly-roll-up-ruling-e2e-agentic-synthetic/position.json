@@ -1,0 +1,13 @@
+{
+  "positions" : [ {
+    "name" : "WeeklyRollupVsRunBundle",
+    "frame" : "What does each recurring update artifact answer for, and does a weekly roll-up replace the per-run bundle or sit beside it so the week's reactions reach people without scrolling back?",
+    "members" : [ "src-1", "src-2", "src-3", "src-4", "src-5" ],
+    "why" : "All five segments turn on one question: how weekly reactions reach people when a per-run bundle already exists. src-1 frames the ruling and src-3 records the question it answered. src-2 states the ruling, which keeps the per-run bundle and adds a Friday roll-up. src-4 gives the reason the two are not substitutes: the bundle serves the run and the roll-up serves the week. src-5 rejects a daily digest because it would repeat the bundle. src-4 is reported through the memo author with split footing, and src-1 reports the ruling in the memo's own voice. The set holds a settled directive (src-2) alongside a reasoned argument (src-4) without resolving the tension between them.",
+    "under" : [ "Narrative_DecisionsEvaporate" ]
+  } ],
+  "attaches" : [ ],
+  "position_revisions" : [ ],
+  "ungrouped" : [ ],
+  "_source_sha256" : "a613398fb06b1f603a0127b54d35b3c7368f5d5d79b24da10e8023780d4ab149"
+}
