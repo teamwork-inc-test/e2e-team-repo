@@ -1,0 +1,37 @@
+{
+  "placements" : [ {
+    "verdict" : "reuse",
+    "leaf" : "Narrative_DecisionsEvaporate",
+    "supporting_positions" : [ "WeeklyRollupVsRunBundle" ],
+    "why" : "The position's members turn on how the week's reactions reach people without anyone scrolling back. That echoes the leaf's claim that decisions made in chat disappear into scroll-back. The support is thematic but indirect: the position concerns update format and cadence, not decision capture itself. Reused rather than minted because no new subject is named that future envelopes would keep feeding.",
+    "consulted" : [ "Narrative_AntiSlackPositioning", "Narrative_DecisionCaptureAtConsensus", "Narrative_DecisionsEvaporate" ]
+  } ],
+  "unplaced" : [ ],
+  "weighed" : [ ],
+  "strata" : {
+    "mints" : [ {
+      "name" : "UpdateCadence",
+      "type" : "categorical",
+      "frame" : "Which recurring update artifact carries which span of work, and what cadence and channel get the week's changes to people?",
+      "title" : "Recurring update artifacts and their cadence",
+      "coordinate" : [ "ChangeCommunications" ],
+      "why" : "No existing stratum holds the grouping, and the position concerns the cadence and kind of recurring update artifact (per-run bundle versus weekly roll-up). That is the categorical kind of thinking the ChangeCommunications coordinate names: cadence, channels, and artifacts."
+    } ],
+    "connections" : [ {
+      "member" : "Position_WeeklyRollupVsRunBundle",
+      "strata" : [ "UpdateCadence" ],
+      "why" : "The position's members decide what each recurring update artifact answers for and how often it runs, which is the cadence-and-artifact grouping the stratum holds."
+    } ],
+    "disconnections" : [ ],
+    "unconnected" : [ {
+      "member" : "Narrative_DecisionsEvaporate",
+      "why" : "Its theme is decision loss to chat scroll-back, not update cadence. The only stratum minted here covers cadence, and no existing stratum holds decision loss, so it stays unconnected for now."
+    } ]
+  },
+  "strata_flags" : [ {
+    "flag" : "unconnected",
+    "subject" : "Narrative_DecisionsEvaporate",
+    "detail" : "placed with no stratum"
+  } ],
+  "_source_sha256" : "a613398fb06b1f603a0127b54d35b3c7368f5d5d79b24da10e8023780d4ab149"
+}
