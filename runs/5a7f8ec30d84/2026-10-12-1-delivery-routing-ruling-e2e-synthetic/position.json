@@ -1,0 +1,13 @@
+{
+  "positions" : [ {
+    "name" : "ReactionDeliveryBundling",
+    "frame" : "How should reaction delivery be shaped so that a reader receives one bundle per run rather than a stream of messages per skill, and who bears the cost of ordering when the batching window closes?",
+    "members" : [ "src-1", "src-2", "src-3", "src-4" ],
+    "why" : "The four segments read as one directional group about where reaction delivery belongs. src-1 frames the owner's ruling, src-2 states the bundle rule (one per run per person, one thing to read), src-3 records the batching-window closing rule and the pushback that was held against, and src-4 rejects per-skill delivery with client-side collapsing because it moves ordering onto the reader. The tension is that Tina's pushback on the window was overruled, while the rule itself is reported through the memo author rather than stated first-hand. The frame keeps that tension open and does not settle it.",
+    "under" : [ "Narrative_AntiSlackPositioning" ]
+  } ],
+  "attaches" : [ ],
+  "position_revisions" : [ ],
+  "ungrouped" : [ ],
+  "_source_sha256" : "ba05ea0158d2bb5ae030ad5d571477370ce49537407437eea6eb9df45ec14eb7"
+}
