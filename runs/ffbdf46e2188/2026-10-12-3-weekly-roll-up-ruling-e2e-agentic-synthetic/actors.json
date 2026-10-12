@@ -1,0 +1,21 @@
+{
+  "bindings" : [ {
+    "name" : "memo author",
+    "verdict" : "unbound",
+    "why" : "'memo author' is a role descriptor, not a person's name, and there are no existing actors to bind to; no identity can be placed.",
+    "ai" : false
+  }, {
+    "name" : "Tanya TeamOwner",
+    "verdict" : "mint",
+    "label" : "Tanya TeamOwner",
+    "why" : "Graph is empty and this is a person's full name submitted as the envelope's submitter and sole participant; no existing actor to bind to.",
+    "ai" : false
+  }, {
+    "name" : "tanya+staging@aswritten.ai",
+    "verdict" : "mint",
+    "label" : "Tanya TeamOwner",
+    "why" : "Account email is the same person as submitted_by Tanya TeamOwner; minted under her name rather than the email address, since the graph is empty.",
+    "ai" : false
+  } ],
+  "_source_sha256" : "a613398fb06b1f603a0127b54d35b3c7368f5d5d79b24da10e8023780d4ab149"
+}
