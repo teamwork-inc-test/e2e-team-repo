@@ -1,0 +1,17 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "calm-positive" ],
+    "evidence" : [ {
+      "quote" : "highest this quarter",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Settled satisfaction in a factual shipping report; the only evaluative marker is the positive comparison. No delivery annotations or intensifiers, so the read is conservative.",
+    "reported" : false
+  } ],
+  "mints" : [ ],
+  "region_mints" : [ ],
+  "unmarked" : [ ],
+  "unmarked_rest" : false,
+  "_source_sha256" : "1237e18b54774c37eb5214040874288fc88b5befa916140e66a01d5fdd1f31b8"
+}
