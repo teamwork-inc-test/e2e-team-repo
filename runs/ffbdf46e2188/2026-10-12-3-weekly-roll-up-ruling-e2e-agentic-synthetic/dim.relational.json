@@ -1,0 +1,47 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "authority-ranking" ],
+    "evidence" : [ {
+      "quote" : "Tanya (team owner) ruled on how the week's reactions reach people",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Reports a governance ruling by the team owner; the ranking is reported by the memo author, not performed by them.",
+    "reported" : true
+  }, {
+    "segment_local_id" : "src-2",
+    "regions" : [ "authority-ranking" ],
+    "evidence" : [ {
+      "quote" : "the per-run bundle stays",
+      "kind" : "plain-assertion"
+    }, {
+      "quote" : "on Fridays we add one roll-up of the week",
+      "kind" : "commitment-marker"
+    } ],
+    "why" : "Tanya issues a directive settling the format of updates; the authority is exercised by decision rather than shared deliberation.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-4",
+    "regions" : [ "authority-ranking" ],
+    "evidence" : [ {
+      "quote" : "the bundle is for the run, the roll-up is for the week",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Tanya's position is rendered through the memo author (split footing); the stance is a rank-based settling of the dispute.",
+    "reported" : true
+  }, {
+    "segment_local_id" : "src-5",
+    "regions" : [ "market-pricing" ],
+    "evidence" : [ {
+      "quote" : "because most days carry a single run",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Rejects an option on cost-benefit grounds: the daily digest would duplicate the bundle with little gain.",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-3" ],
+  "unmarked_rest" : false,
+  "mints" : [ ],
+  "region_mints" : [ ],
+  "_source_sha256" : "a613398fb06b1f603a0127b54d35b3c7368f5d5d79b24da10e8023780d4ab149"
+}
