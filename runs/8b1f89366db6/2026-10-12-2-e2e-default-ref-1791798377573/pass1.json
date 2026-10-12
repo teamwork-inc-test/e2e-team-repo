@@ -1,0 +1,24 @@
+{
+  "doc" : {
+    "title" : "Default Ref Test",
+    "date_stated" : "2026-10-12",
+    "actors_present" : [ "Tanya TeamOwner" ]
+  },
+  "segments" : [ {
+    "local_id" : "src-1",
+    "exact" : "Testing that omitted ref creates a topic branch.",
+    "actor" : "Tanya TeamOwner",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Default Ref Test"
+    },
+    "note" : "Quoted speech from Tanya.",
+    "footing_case" : null
+  } ],
+  "coverage_gaps" : [ {
+    "reason" : "YAML front matter (reviewers list) is scaffolding, not a speech act.",
+    "span_hint" : "reviewers:\n  - t"
+  } ],
+  "footing_cases" : [ ],
+  "_source_sha256" : "d45730ae8512188e03d768ea37c4e43f8854f82ab91b2b1610a027ac4aee5734"
+}
