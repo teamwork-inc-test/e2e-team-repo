@@ -1,0 +1,149 @@
+{
+  "schema_version" : 1,
+  "run_id" : "mp-eng-481502f3",
+  "live_run_id" : "5a7f8ec30d84",
+  "stream" : "main",
+  "policy" : {
+    "lands" : { },
+    "channels" : [ "email", "sms" ],
+    "mode" : "on",
+    "source" : "default",
+    "skills" : { },
+    "warn_per_run_usd" : 0.25,
+    "audience" : "owner-setting",
+    "version" : 1,
+    "stop_per_dispatch_usd" : 2.0
+  },
+  "gates" : [ {
+    "id" : "aswritten/clarify",
+    "run?" : true,
+    "gate" : 2,
+    "score" : 0.8,
+    "evidence" : [ "resolutions empty against a populated perspective", "The ruling is performed by the memo author's report of Tanya's ruling, so it is reported", "The position is Tanya's as rendered by the memo author, so it is reported", "we route every reaction through one bundle per run per person" ],
+    "why" : "Three statements carry into the commit flagged unresolved for attribution and the resolve pass came back empty, so the committed reported-true/false calls are the pipeline's guess about whether the prose speaks as Tanya or reports her — exactly the 'whose position does it state' question this skill exists to ask."
+  }, {
+    "id" : "aswritten/merge-suggest",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "skill off"
+  }, {
+    "id" : "aswritten/refract",
+    "run?" : true,
+    "gate" : 2,
+    "reason" : "predicate only"
+  }, {
+    "id" : "aswritten/review-message",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "skill off"
+  }, {
+    "id" : "aswritten/review-request",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "skill off"
+  }, {
+    "id" : "aswritten/riff",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "requires perspective, expand"
+  } ],
+  "jobs" : [ {
+    "skill" : "aswritten/clarify",
+    "status" : "empty",
+    "gate" : {
+      "score" : 0.8,
+      "evidence" : [ "resolutions empty against a populated perspective", "The ruling is performed by the memo author's report of Tanya's ruling, so it is reported", "The position is Tanya's as rendered by the memo author, so it is reported", "we route every reaction through one bundle per run per person" ],
+      "why" : "Three statements carry into the commit flagged unresolved for attribution and the resolve pass came back empty, so the committed reported-true/false calls are the pipeline's guess about whether the prose speaks as Tanya or reports her — exactly the 'whose position does it state' question this skill exists to ask."
+    },
+    "output" : {
+      "questions" : [ ]
+    },
+    "landing" : {
+      "landed" : "message"
+    },
+    "ms" : 1129,
+    "attempts" : [ {
+      "disposition" : "ok",
+      "elapsed_ms" : 1110,
+      "content_chars" : 17
+    } ]
+  }, {
+    "skill" : "aswritten/refract",
+    "status" : "ok",
+    "phase" : "before",
+    "gate" : { },
+    "output" : {
+      "lens" : {
+        "shift" : "Every reaction a run produces goes to a person as one bundle per run, not one message per skill, and a skill that misses the run's close waits for the next run rather than sending on its own. The reader never bears the cost of ordering or collapsing messages.",
+        "affected" : [ ],
+        "other_lenses" : [ ],
+        "drew_on" : [ "Tanya's ruling quoted in the memory: one bundle per run per person, not one message per skill", "The closing rule: the bundle closes when the run closes; a late skill waits for the next run", "The rejected alternative: per-skill delivery with client-side collapsing, faulted for moving the ordering problem onto the reader", "narrated.delta_line: firms up bundling into a single message per run" ],
+        "quote" : "we route every reaction through one bundle per run per person, not one message per skill — a person should get one thing to read, not four",
+        "approaches" : [ "How reactions are delivered to a person", "What happens when a skill finishes after the run closes", "Where the work of ordering and collapsing messages falls" ],
+        "speaker" : "Tanya (team owner)",
+        "subject" : "Should reactions now arrive as one bundle per run, not per-skill messages?",
+        "message" : "The memory you saved settles how reactions reach a person. You put it this way: \"we route every reaction through one bundle per run per person, not one message per skill — a person should get one thing to read, not four\". The bundle closes when the run closes, and a skill that misses the close waits for the next run rather than sending on its own. The per-skill option was rejected because it moves the ordering problem onto the reader.\n\n[The reaction delivery doc](docs/reaction-delivery.md) says the opposite of the ruling. Its opening reads: \"Each reaction skill sends its own message to the person as soon as it finishes: the refraction, the question and the review each arrive on their own, in whatever order the skills complete. Readers collapse duplicates on their side.\" After the ruling, that would rest on the bundle instead: one message per run per person, closed when the run closes, with late skills waiting for the next run. The sentence about readers collapsing duplicates on their side is the exact burden the ruling takes off them.\n\nIs that the right way to read what you decided: one bundle per run, and the reader never does the collapsing? If I have it wrong, tell me how.\n\nThat doc is the only one in the repo this touches, so nothing else moves.",
+        "eye_chart" : {
+          "document" : "docs/reaction-delivery.md",
+          "name" : "the reaction delivery doc",
+          "section" : "Reaction delivery (opening)",
+          "as_written" : "Each reaction skill sends its own message to the person as soon as it finishes: the refraction, the question and the review each arrive on their own, in whatever order the skills complete. Readers collapse duplicates on their side.",
+          "through_the_lens" : "This is the per-skill delivery Tanya rejected. It would say instead that all reactions from a run arrive as one bundle per person, that the bundle closes when the run closes, and that a skill finishing late waits for the next run's bundle rather than sending its own message. The line about readers collapsing duplicates on their side is exactly the burden the ruling moves off the reader."
+        }
+      }
+    },
+    "landing" : {
+      "landed" : "message"
+    },
+    "ms" : 5946,
+    "attempts" : [ {
+      "disposition" : "ok",
+      "elapsed_ms" : 5927,
+      "content_chars" : 3271
+    } ]
+  } ],
+  "spend" : {
+    "cost_usd" : 0.058754,
+    "passes" : [ {
+      "pass" : "reaction:_score",
+      "llm_calls" : 1,
+      "cost_usd" : 0.0241017,
+      "null_cost_calls" : 0
+    }, {
+      "pass" : "reaction:clarify",
+      "llm_calls" : 1,
+      "cost_usd" : 0.0147158,
+      "null_cost_calls" : 0
+    }, {
+      "pass" : "reaction:refract",
+      "llm_calls" : 1,
+      "cost_usd" : 0.0199362,
+      "null_cost_calls" : 0
+    } ]
+  },
+  "bundle" : {
+    "items" : 1,
+    "audience" : "only-me",
+    "recipients" : 1,
+    "sent" : [ {
+      "items" : [ {
+        "kind" : "note",
+        "skill" : "aswritten/refract",
+        "audience" : "speakers"
+      } ],
+      "handle" : "tanya+staging@aswritten.ai",
+      "channel" : "email",
+      "h" : "09fcdb5f3d",
+      "status" : "skipped: test identity"
+    } ]
+  },
+  "counters" : { },
+  "at" : "2026-10-12T09:45:49.665156539Z",
+  "scorer" : {
+    "attempts" : [ {
+      "disposition" : "ok",
+      "elapsed_ms" : 154558,
+      "content_chars" : 670
+    } ]
+  }
+}
