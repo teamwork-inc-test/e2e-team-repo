@@ -1,0 +1,41 @@
+{
+  "placements" : [ {
+    "lineage" : {
+      "relation" : "extends",
+      "target" : "Narrative_AntiSlackPositioning"
+    },
+    "under" : [ "Narrative_AntiSlackPositioning" ],
+    "supporting_positions" : [ "ReactionDeliveryBundling" ],
+    "why" : "No existing leaf covers how reactions reach the reader. The position's members give one directional group: one bundle per run per person, a batching window that closes with the run, and rejection of per-skill delivery that would push ordering onto the reader. This is a recurring subject about delivery shape, not a one-time fact, so it earns a leaf. It is placed under Narrative_AntiSlackPositioning as an extension, because its reduction of message noise to one readable artifact is a close, not exact, expression of the anti-Slack thesis. Narrative_DecisionCaptureAtConsensus and Narrative_DecisionsEvaporate concern capture and loss of decisions, not delivery routing, so they were weighed and not taken.",
+    "verdict" : "mint",
+    "leaf" : "Narrative_OneBundlePerRun",
+    "title" : "Many per-skill messages become one bundle a reader takes in whole",
+    "frame" : "What does a reader receive in one piece, and what has the sender left for the reader to order or collapse themselves?",
+    "consulted" : [ "Narrative_AntiSlackPositioning", "Narrative_DecisionCaptureAtConsensus", "Narrative_DecisionsEvaporate" ]
+  } ],
+  "unplaced" : [ ],
+  "unplacements" : [ ],
+  "weighed" : [ ],
+  "strata" : {
+    "mints" : [ {
+      "name" : "ReactionDelivery",
+      "type" : "categorical",
+      "frame" : "What does each reader receive, in what shape, and what does the sender leave for the reader to sort out?",
+      "title" : "How reactions reach the reader",
+      "coordinate" : [ "Behaviors" ],
+      "why" : "No existing stratum groups delivery-shape theses. The org's own term 'reaction delivery' names the grouping. It sits under the ProductLadder scheme as a behavior of how the product acts on the reader."
+    } ],
+    "connections" : [ {
+      "member" : "Narrative_OneBundlePerRun",
+      "strata" : [ "ReactionDelivery" ],
+      "why" : "The minted leaf is about the shape of reaction delivery to readers, which is what this stratum groups."
+    }, {
+      "member" : "Position_ReactionDeliveryBundling",
+      "strata" : [ "ReactionDelivery" ],
+      "why" : "The position's content on bundling, the batching window, and rejected per-skill delivery is about reaction delivery."
+    } ],
+    "disconnections" : [ ],
+    "unconnected" : [ ]
+  },
+  "_source_sha256" : "ba05ea0158d2bb5ae030ad5d571477370ce49537407437eea6eb9df45ec14eb7"
+}
