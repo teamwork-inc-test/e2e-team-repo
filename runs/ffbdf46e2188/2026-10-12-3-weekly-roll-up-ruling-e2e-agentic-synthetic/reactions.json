@@ -1,0 +1,124 @@
+{
+  "schema_version" : 1,
+  "run_id" : "mp-eng-348a611e",
+  "live_run_id" : "ffbdf46e2188",
+  "stream" : "main",
+  "policy" : {
+    "lands" : { },
+    "channels" : [ "email", "sms" ],
+    "mode" : "on",
+    "source" : "stream",
+    "agentic" : true,
+    "skills" : { },
+    "warn_per_run_usd" : 0.25,
+    "audience" : "owner-setting",
+    "version" : 1,
+    "stop_per_dispatch_usd" : 2.0
+  },
+  "gates" : [ {
+    "id" : "aswritten/clarify",
+    "run?" : false,
+    "gate" : 2,
+    "reason" : "score 0.1 < threshold 0.7",
+    "score" : 0.1,
+    "evidence" : [ "0 of 5 segments marked", "accepted-flagged", "performed-act: the per-run bundle stays", "performed-act: Rejected:", "Tina asked whether" ]
+  }, {
+    "id" : "aswritten/merge-suggest",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "skill off"
+  }, {
+    "id" : "aswritten/refract",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "no documents to refract"
+  }, {
+    "id" : "aswritten/review-message",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "skill off"
+  }, {
+    "id" : "aswritten/review-request",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "skill off"
+  }, {
+    "id" : "aswritten/riff",
+    "run?" : true,
+    "gate" : 2,
+    "reason" : "predicate only"
+  } ],
+  "jobs" : [ {
+    "skill" : "aswritten/riff",
+    "status" : "ok",
+    "gate" : { },
+    "output" : {
+      "riff" : {
+        "kind" : "prototype",
+        "title" : "The first Friday roll-up, drafted from the week the ruling was made",
+        "message" : "Tanya just committed to something that doesn't exist yet: \"on Fridays we add one roll-up of the week — what moved, what is still open.\" So I made the first one. It's also, quietly, the product eating its own founding thesis — Tina's scroll-back problem from the March vision session (\"decisions evaporate,\" \"Nobody updates it.\") is now the team's own problem, solved with the team's own medicine.\n\n---\n\n**Friday Roll-up — week of Oct 12**\n\n*What moved*\n- **Update cadence settled.** The per-run bundle stays; a weekly roll-up sits beside it, not instead of it. Tanya's ruling: \"the bundle is for the run, the roll-up is for the week.\" A daily digest was rejected — most days carry a single run, so it would repeat the bundle word for word.\n- **Pricing no longer what the vision doc says.** The founding $12 position is already superseded in part — the Sprint 4 retro records an increase for larger teams. Anyone quoting the vision session should know this.\n\n*What is still open*\n- **Context preservation is the named next-sprint focus** — linking decisions to the context that produced them. The roll-up itself is a down payment on this: it links the week's rulings back to where they came from.\n- **The roll-up's channel is undecided.** The ruling settled cadence (Fridays) and relationship (beside, not replacing), but not where it lands or who writes it. Someone should decide before next Friday.\n\n*Why this exists*\n- Because, per the founding insight, nobody should have to scroll back.\n\n---\n\nOne thing worth noticing: the ruling is the founding narrative (decisions captured at consensus, linked to producing context) turned inward on the team that built it. If the roll-up template holds, it might be worth showing customers — it's the product demonstrated on itself.",
+        "lands" : "message",
+        "drew_on" : [ "Narrative_DecisionCaptureAtConsensus and Tina's scroll-back insight from the March 2026 vision session ('decisions evaporate', 'Nobody updates it.') — the founding thesis this ruling applies to the team itself", "Position_PricingTwelveDollars supersession recorded in the Sprint 4 retro (price raised for larger teams), not in this document", "Position_ContextPreservationNextSprint — the named next-sprint focus, which the roll-up advances", "The absence of any decision on the roll-up's channel or author — settled cadence, unsettled delivery" ],
+        "why_no_registered_skill" : "clarify: nothing was left open that the perspective leans on — the ruling settled its own question; merge-suggest: this is not a second capture of an earlier meeting; refract: it reframes what changed rather than making the committed artifact the ruling calls into existence; review-message: it messages people whose earlier words were touched, not drafts the new practice; review-request: it asks the submitter to review minted positions, mechanically, not to prototype the process those positions create.",
+        "shape" : "draft the committed recurring artifact"
+      }
+    },
+    "landing" : {
+      "landed" : "message"
+    },
+    "ms" : 42730,
+    "attempts" : [ {
+      "disposition" : "ok",
+      "elapsed_ms" : 21115,
+      "content_chars" : 0
+    }, {
+      "disposition" : "ok",
+      "elapsed_ms" : 20609,
+      "content_chars" : 3095
+    } ],
+    "tools" : [ {
+      "name" : "perspective",
+      "chars" : 8761,
+      "ms" : 945
+    } ]
+  } ],
+  "spend" : {
+    "cost_usd" : 0.030549,
+    "passes" : [ {
+      "pass" : "reaction:_score",
+      "llm_calls" : 1,
+      "cost_usd" : 0.00323955,
+      "null_cost_calls" : 0
+    }, {
+      "pass" : "reaction:riff",
+      "llm_calls" : 2,
+      "cost_usd" : 0.027309339999999998,
+      "null_cost_calls" : 0
+    } ]
+  },
+  "bundle" : {
+    "items" : 1,
+    "audience" : "only-me",
+    "recipients" : 1,
+    "sent" : [ {
+      "items" : [ {
+        "kind" : "note",
+        "skill" : "aswritten/riff",
+        "audience" : "owner"
+      } ],
+      "handle" : "tanya+staging@aswritten.ai",
+      "channel" : "email",
+      "h" : "09fcdb5f3d",
+      "status" : "skipped: test identity"
+    } ]
+  },
+  "counters" : { },
+  "at" : "2026-10-12T09:50:48.001114354Z",
+  "scorer" : {
+    "attempts" : [ {
+      "disposition" : "ok",
+      "elapsed_ms" : 18347,
+      "content_chars" : 623
+    } ]
+  }
+}
