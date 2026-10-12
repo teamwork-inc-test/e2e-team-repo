@@ -1,0 +1,44 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "legitimate" ],
+    "evidence" : [ {
+      "quote" : "ruled on how the week's reactions reach people",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Ruling is framed by the team-owner role, so the authority rests on position rather than argument.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-2",
+    "regions" : [ "legitimate" ],
+    "evidence" : [ {
+      "quote" : "on Fridays we add one roll-up of the week",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Declares a new process from the owner's position, establishing the Friday roll-up as settled practice.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-4",
+    "regions" : [ "rational-persuasion" ],
+    "evidence" : [ {
+      "quote" : "the bundle is for the run, the roll-up is for the week",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Holds the position by stating a distinction between the two artifacts, offered as the reason they do not substitute; rendered through the memo author.",
+    "reported" : true
+  }, {
+    "segment_local_id" : "src-5",
+    "regions" : [ "rational-persuasion" ],
+    "evidence" : [ {
+      "quote" : "because most days carry a single run",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Rejects the daily digest by reasoning from how many runs a typical day carries, an evidence-based argument.",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-3" ],
+  "unmarked_rest" : false,
+  "mints" : [ ],
+  "region_mints" : [ ],
+  "_source_sha256" : "a613398fb06b1f603a0127b54d35b3c7368f5d5d79b24da10e8023780d4ab149"
+}
