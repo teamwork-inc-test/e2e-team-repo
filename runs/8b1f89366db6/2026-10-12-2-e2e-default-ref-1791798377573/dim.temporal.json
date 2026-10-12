@@ -1,0 +1,18 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "present", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "Testing",
+      "kind" : "lexical-marker"
+    }, {
+      "quote" : "creates a topic branch.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Present-progressive 'Testing' places attention on an ongoing test (present, realis); the specific omitted-ref case is a particular, concrete scenario rather than a general principle.",
+    "reported" : false
+  } ],
+  "unmarked" : [ ],
+  "unmarked_rest" : false,
+  "_source_sha256" : "d45730ae8512188e03d768ea37c4e43f8854f82ab91b2b1610a027ac4aee5734"
+}
