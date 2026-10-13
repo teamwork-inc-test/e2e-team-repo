@@ -1,0 +1,21 @@
+{
+  "bindings" : [ {
+    "name" : "memo author",
+    "verdict" : "unbound",
+    "why" : "Not a person's name; the bare phrase 'memo author' is a role placeholder with no identity to bind or mint.",
+    "ai" : false
+  }, {
+    "name" : "Tanya TeamOwner",
+    "verdict" : "mint",
+    "label" : "Tanya TeamOwner",
+    "why" : "Graph is empty and no existing actor matches; mint under her full name as the submitting participant.",
+    "ai" : false
+  }, {
+    "name" : "tanya+staging@aswritten.ai",
+    "verdict" : "mint",
+    "label" : "Tanya TeamOwner",
+    "why" : "Account email is the same person as submitted_by Tanya TeamOwner; emits a verdict under her name, never an email-labeled actor, and the graph is empty so it mints the same label to converge on one node.",
+    "ai" : false
+  } ],
+  "_source_sha256" : "1237e18b54774c37eb5214040874288fc88b5befa916140e66a01d5fdd1f31b8"
+}
