@@ -1,0 +1,31 @@
+{
+  "placements" : [ {
+    "verdict" : "reuse",
+    "leaf" : "Narrative_DecisionCaptureAtConsensus",
+    "supporting_positions" : [ "ShippedWidgetDelivery" ],
+    "why" : "ShippedWidgetDelivery holds src-2, which reports that the async decision widget shipped, with velocity of 23 points and the Zephyr integration as the key unlock. The widget is the decision-capture product, so shipping it is delivery evidence for capturing decisions at the point of consensus. The segment does not state that link explicitly, so the support is thin, but it is grounded in the shipped artifact and the leaf's theme is the closest existing fit.",
+    "consulted" : [ "Narrative_DecisionCaptureAtConsensus", "Narrative_AntiSlackPositioning", "Narrative_DecisionsEvaporate" ]
+  } ],
+  "unplaced" : [ "src-1" ],
+  "weighed" : [ ],
+  "strata" : {
+    "mints" : [ {
+      "name" : "DecisionCaptureInPractice",
+      "type" : "thematic",
+      "title" : "Decision capture at the moment of consensus, as it ships",
+      "why" : "No existing stratum groups these members. Narrative_DecisionCaptureAtConsensus and ShippedWidgetDelivery are about the same subject, which is whether decision capture at consensus holds up in delivered product."
+    } ],
+    "connections" : [ {
+      "member" : "Narrative_DecisionCaptureAtConsensus",
+      "strata" : [ "DecisionCaptureInPractice" ],
+      "why" : "The leaf's theme is decision capture at consensus, and this envelope's placement tests that theme against shipped delivery."
+    }, {
+      "member" : "Position_ShippedWidgetDelivery",
+      "strata" : [ "DecisionCaptureInPractice" ],
+      "why" : "The position's frame asks whether the shipped widget shows decision capture working in practice, which is the grouping's subject."
+    } ],
+    "disconnections" : [ ],
+    "unconnected" : [ ]
+  },
+  "_source_sha256" : "1237e18b54774c37eb5214040874288fc88b5befa916140e66a01d5fdd1f31b8"
+}
