@@ -1,0 +1,17 @@
+{
+  "placements" : [ ],
+  "unplaced" : [ "src-1" ],
+  "unplacements" : [ ],
+  "weighed" : [ {
+    "position" : "Position_HandOffOverlapSizing",
+    "verdict" : "decline",
+    "why" : "No leaf placed here: this document's content (the oats-and-rice restock threshold revision) carries no position from POSITION VERDICTS, so no placement exists to adopt under. Position_HandOffOverlapSizing concerns the intake hand-off overlap call, which is not a leaf this response places."
+  } ],
+  "strata" : {
+    "mints" : [ ],
+    "connections" : [ ],
+    "disconnections" : [ ],
+    "unconnected" : [ ]
+  },
+  "_source_sha256" : "41dcd61d3d391179b1f97a179273f02ff41fe4ce3af211f4c07d7133e0a4e92a"
+}
