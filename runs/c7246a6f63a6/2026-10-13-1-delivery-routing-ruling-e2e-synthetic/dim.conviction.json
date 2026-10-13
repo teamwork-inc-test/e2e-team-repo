@@ -1,0 +1,43 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "ruled on where reaction delivery belongs",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Memo author records a ruling as settled; the ruling itself is performed by Tanya, so decision-grade by its act. Unified footing, so not reported.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-2",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "we route every reaction through one bundle per run per person",
+      "kind" : "commitment-marker"
+    } ],
+    "why" : "Operational 'we route every' rule stated as settled practice; decision rather than principle because no permanence language is present.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-3",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "Tanya held",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Holding the position against pushback and stating the closing rule as operational makes this a settled decision; the memo author is relaying Tanya's stance, so reported is false only because the author witnesses the decision directly.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-4",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "The alternative considered and rejected was per-skill",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Recording a rejected alternative as considered and closed settles the choice; decision-grade by its act. Not a claim, since the rejection is recorded rather than argued.",
+    "reported" : false
+  } ],
+  "unmarked" : [ ],
+  "unmarked_rest" : false,
+  "mints" : [ ],
+  "_source_sha256" : "ba05ea0158d2bb5ae030ad5d571477370ce49537407437eea6eb9df45ec14eb7"
+}
