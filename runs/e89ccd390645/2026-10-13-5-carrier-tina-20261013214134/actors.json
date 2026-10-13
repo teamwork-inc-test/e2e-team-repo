@@ -1,0 +1,27 @@
+{
+  "bindings" : [ {
+    "name" : "memo author",
+    "verdict" : "unbound",
+    "why" : "Not a person's name; a role placeholder with no identity to resolve, so it is skipped per rule 6.",
+    "ai" : false
+  }, {
+    "name" : "Dario Kent",
+    "verdict" : "bind",
+    "target" : "Actor_DarioKent",
+    "why" : "Name exactly matches existing actor Dario Kent; no competing candidate in the list.",
+    "ai" : false
+  }, {
+    "name" : "Tina TeamMember",
+    "verdict" : "bind",
+    "target" : "Actor_TinaTeammember",
+    "why" : "Name exactly matches existing actor Tina TeamMember, who is also the submitter and sole participant.",
+    "ai" : false
+  }, {
+    "name" : "tina+staging@aswritten.ai",
+    "verdict" : "bind",
+    "target" : "Actor_TinaTeammember",
+    "why" : "Account email is the submitter's account and submitted_by is the person Tina TeamMember, so the email belongs to that same existing actor.",
+    "ai" : false
+  } ],
+  "_source_sha256" : "5173ce0d903a220b9705f86ad203ba82c8dfb250768cb9581121cbc06fdec1ac"
+}
