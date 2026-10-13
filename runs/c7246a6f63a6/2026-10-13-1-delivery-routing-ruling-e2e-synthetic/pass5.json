@@ -1,0 +1,39 @@
+{
+  "placements" : [ {
+    "lineage" : {
+      "relation" : "see",
+      "target" : "Narrative_DecisionCaptureAtConsensus"
+    },
+    "under" : null,
+    "supporting_positions" : [ "ReactionBundleDeliveryRouting" ],
+    "why" : "The position holds a delivery-routing subject that recurs as the product routes reactions: one bundle per run per person, a batching window that closes with the run, and a rejected per-skill alternative that moves ordering onto the reader. No existing leaf is about delivery routing. Narrative_DecisionCaptureAtConsensus is the nearest, since capture and delivery both concern how decisions reach people, so it is recorded as a see-lineage rather than an under. Narrative_AntiSlackPositioning and Narrative_DecisionsEvaporate are about positioning and the problem, not routing, so neither holds this. The leaf is a theme (how reactions reach the reader), not a fact about one ruling.",
+    "verdict" : "mint",
+    "leaf" : "Narrative_ReactionBundlesPerRun",
+    "title" : "One bundle per run replaces a stream of per-skill fragments the reader must order",
+    "frame" : "Where does each reaction land for the person who must act on it: in one bundle per run, or in per-skill pieces the reader has to collect and sequence?",
+    "consulted" : [ "Narrative_AntiSlackPositioning (no: positioning thesis, not delivery routing)", "Narrative_DecisionCaptureAtConsensus (nearest: capture at consensus; see-lineage, not an exact fit)", "Narrative_DecisionsEvaporate (no: problem narrative about decisions disappearing, not delivery)", "POSITIONS block (none surfaced; no adoption candidates)" ]
+  } ],
+  "unplaced" : [ ],
+  "unplacements" : [ ],
+  "weighed" : [ ],
+  "strata" : {
+    "mints" : [ {
+      "name" : "ReactionDeliveryRouting",
+      "type" : "thematic",
+      "title" : "How reactions reach the person who must act on them, and in what shape",
+      "why" : "No EXISTING STRATA entry exists. The grouping is a subject the content keeps returning to: how reactions are batched, bundled, and delivered to readers. A thematic stratum fits, since it groups by what the members are about rather than by kind of thinking. No coordinate is near, so none is given."
+    } ],
+    "connections" : [ {
+      "member" : "Narrative_ReactionBundlesPerRun",
+      "strata" : [ "ReactionDeliveryRouting" ],
+      "why" : "The minted leaf is about how reactions are routed and delivered to the reader, which is the subject of the new stratum."
+    }, {
+      "member" : "Position_ReactionBundleDeliveryRouting",
+      "strata" : [ "ReactionDeliveryRouting" ],
+      "why" : "The position minted in this document holds the routing and batching content the stratum groups together."
+    } ],
+    "disconnections" : [ ],
+    "unconnected" : [ ]
+  },
+  "_source_sha256" : "ba05ea0158d2bb5ae030ad5d571477370ce49537407437eea6eb9df45ec14eb7"
+}
