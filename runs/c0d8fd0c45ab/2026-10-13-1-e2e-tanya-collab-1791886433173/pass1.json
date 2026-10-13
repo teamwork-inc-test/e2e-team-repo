@@ -1,0 +1,45 @@
+{
+  "doc" : {
+    "title" : "Tanya's Sprint Retro",
+    "date_stated" : "2026-10-13",
+    "actors_present" : [ "Tanya TeamOwner" ]
+  },
+  "segments" : [ {
+    "local_id" : "src-1",
+    "exact" : "Tanya's Sprint Retro",
+    "actor" : "memo author",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : null
+    },
+    "footing_case" : "fc-1",
+    "note" : "Document title as composed.",
+    "footing" : {
+      "animator" : "memo author",
+      "author" : "memo author",
+      "principal" : null
+    }
+  }, {
+    "local_id" : "src-2",
+    "exact" : "We shipped the async decision widget. Velocity was 23 points, highest this quarter. The Zephyr integration was the key unlock.",
+    "actor" : "Tanya TeamOwner",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Sprint retro"
+    },
+    "footing_case" : null
+  } ],
+  "coverage_gaps" : [ {
+    "reason" : "YAML front matter is scaffolding carrying reviewer metadata, not a speech act.",
+    "span_hint" : "---\nreviewers:"
+  } ],
+  "footing_cases" : [ {
+    "id" : "fc-1",
+    "animator" : "memo author",
+    "author" : "memo author",
+    "principal" : null,
+    "unresolved" : "Envelope gives no composer or author statement for the document's own prose; submitter is the account holder but not stated as author.",
+    "when" : "Document title and editorial framing prose composed by the memo, not a quoted speaker."
+  } ],
+  "_source_sha256" : "1237e18b54774c37eb5214040874288fc88b5befa916140e66a01d5fdd1f31b8"
+}
