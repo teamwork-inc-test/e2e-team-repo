@@ -1,0 +1,180 @@
+{
+  "schema_version" : 1,
+  "run_id" : "mp-eng-1137868a",
+  "live_run_id" : "c7246a6f63a6",
+  "stream" : "main",
+  "policy" : {
+    "mode" : "on",
+    "source" : "default",
+    "version" : 1,
+    "skills" : { },
+    "lands" : { },
+    "audience" : "owner-setting",
+    "warn_per_run_usd" : 0.25,
+    "channels" : [ "email", "sms", "teams" ]
+  },
+  "gates" : [ {
+    "id" : "aswritten/clarify",
+    "run?" : false,
+    "gate" : 2,
+    "reason" : "score 0.45 < threshold 0.7",
+    "score" : 0.45,
+    "evidence" : [ "aswr:qualityFlag \"principal:unresolved\"", "the embedded rule is Tanya's stated position but carries no verbatim quote marker, so principal is null", "Tanya (team owner) ruled on where reaction delivery belongs:", "Tina pushed back on the batching window and Tanya held", "Holding the position against pushback and stating the closing rule as operational makes this a settled decision" ]
+  }, {
+    "id" : "aswritten/merge-suggest",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "skill off"
+  }, {
+    "id" : "aswritten/refract",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "skill off"
+  }, {
+    "id" : "aswritten/review-message",
+    "run?" : true,
+    "gate" : 2,
+    "reason" : "predicate only"
+  }, {
+    "id" : "aswritten/review-request",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "skill off"
+  }, {
+    "id" : "aswritten/riff",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "skill off"
+  } ],
+  "jobs" : [ {
+    "job_key" : "c7246a6f63a6:aswritten/review-message:u17592186058518",
+    "turn_attempts" : 1,
+    "n8n_execution_id" : "160145",
+    "skill" : "aswritten/review-message",
+    "landing" : {
+      "landed" : "message"
+    },
+    "recipient" : {
+      "name" : "Tanya TeamOwner",
+      "role" : "submitter",
+      "status" : "routed",
+      "channels_not" : {
+        "sms" : "no verified phone opted in to texts",
+        "teams" : "no Teams identity in the home tenant"
+      },
+      "roles" : [ "submitter" ],
+      "seated" : true,
+      "test-identity" : true,
+      "via" : [ {
+        "how" : "saved",
+        "as" : "saver"
+      } ]
+    },
+    "cite_missing" : [ "email" ],
+    "output" : {
+      "beats" : {
+        "we_said" : "Tanya, you said today: \"we route every reaction through one bundle per run per person, not one message per skill — a person should get one thing to read, not four\".",
+        "that_changes" : "In the same memory, Tina pushed back on the batching window, and you held: the bundle closes when the run closes, and a skill that misses the close waits for the next run rather than sending on its own. The per-skill alternative, with client-side collapsing, was considered and set aside.",
+        "so_now" : "Reactions go into one bundle per run for each person. The bundle closes with the run, and anything that misses the close goes into the next run's bundle. Per-skill delivery is not the route.",
+        "which_means" : "My read is that the reaction-delivery note, which has each skill sending as it finishes, no longer describes the system, so it needs rewriting. That suggests to me that a late reaction now reaches the reader a run later than it would have, and that no client-side collapsing has to be built, since the ordering stays on our side. If that holds, the per-skill notes are the first thing to revisit.",
+        "where_does_it_end" : [ "Does a reaction that waits a full run still earn its place for the person who needs it today?", "Does the decision-capture-at-consensus framing still hold for reactions that arrive a run late?", "Is there any skill that still has to send on its own, outside the bundle?" ]
+      },
+      "email" : {
+        "subject" : "Re: Reaction delivery ruling, from 13 October",
+        "body" : "Tanya, today, in the delivery routing ruling, you said: \"we route every reaction through one bundle per run per person, not one message per skill — a person should get one thing to read, not four\" [^1]. In the same memory, Tina pushed back on the batching window, and you held: the bundle closes when the run closes, and a skill that misses the close waits for the next run rather than sending on its own. [^2] The per-skill alternative, with client-side collapsing, was considered and set aside. [^3]\n\nSo now, reactions go into one bundle per run for each person. [^1] The bundle closes with the run, and anything that misses the close goes into the next run's bundle. [^2] Per-skill delivery is not the route. [^3]\n\nMy read is that the reaction-delivery note, which has each skill sending as it finishes, no longer describes the system, so it needs rewriting. *(uncommitted)* That suggests to me that a late reaction now reaches the reader a run later than it would have, *(uncommitted)* and that no client-side collapsing has to be built, since the ordering stays on our side. [^3] If that holds, the per-skill notes are the first thing to revisit.\n\nDoes a reaction that waits a full run still earn its place for the person who needs it today? Does the decision-capture-at-consensus framing still hold for reactions that arrive a run late? Is there any skill that still has to send on its own, outside the bundle?\n\nThe conversation, with everyone's words: https://dev.api.aswritten.ai/live/conversation/2026-10-13-1-delivery-routing-ruling-e2e-synthetic"
+      },
+      "self_check" : {
+        "forbidden_words_outside_quotes" : [ ],
+        "quotations_verified_exact" : true,
+        "question_count" : {
+          "chat" : 0,
+          "email" : 3
+        }
+      }
+    },
+    "status" : "ok",
+    "gate" : { },
+    "length_stops" : 0,
+    "plan_id" : "reaction:c7246a6f63a6:review-message:86a48ee2255f",
+    "pass" : "reaction:review-message",
+    "ms" : 214321,
+    "reask" : {
+      "attempted" : false,
+      "withheld" : false
+    },
+    "model" : "anthropic/claude-haiku-5.5"
+  } ],
+  "spend" : {
+    "cost_usd" : 0.061097,
+    "passes" : [ {
+      "pass" : "reaction:_score",
+      "llm_calls" : 1,
+      "cost_usd" : 0.0112419,
+      "null_cost_calls" : 0
+    }, {
+      "pass" : "reaction:review-message",
+      "llm_calls" : 3,
+      "cost_usd" : 0.020936990000000003,
+      "null_cost_calls" : 0
+    }, {
+      "pass" : "reaction:review-message:cite",
+      "llm_calls" : 7,
+      "cost_usd" : 0.028918070000000004,
+      "null_cost_calls" : 0
+    } ]
+  },
+  "bundle" : {
+    "items" : 1,
+    "recipients" : 1,
+    "sent" : [ {
+      "items" : [ {
+        "kind" : "reaction",
+        "skill" : "aswritten/review-message",
+        "audience" : "touched"
+      } ],
+      "handle" : "tanya+staging@aswritten.ai",
+      "channel" : "email",
+      "recipient" : "Tanya TeamOwner",
+      "h" : "09fcdb5f3d:aswritten/review-message",
+      "status" : "skipped: test identity"
+    } ]
+  },
+  "counters" : { },
+  "at" : "2026-10-13T10:12:17.833754106Z",
+  "context" : {
+    "roster" : [ {
+      "name" : "Tanya TeamOwner",
+      "role" : "submitter",
+      "status" : "routed",
+      "channels_not" : {
+        "sms" : "no verified phone opted in to texts",
+        "teams" : "no Teams identity in the home tenant"
+      },
+      "roles" : [ "submitter" ],
+      "seated" : true,
+      "test-identity" : true,
+      "via" : [ {
+        "how" : "saved",
+        "as" : "saver"
+      } ]
+    } ],
+    "inputs" : {
+      "we_said" : 4,
+      "new_positions" : 1,
+      "touches" : 0,
+      "threads" : 1,
+      "reaches" : 1
+    },
+    "navigation" : {
+      "source" : "engine",
+      "context_chars" : 17395
+    }
+  },
+  "scorer" : {
+    "attempts" : [ {
+      "disposition" : "ok",
+      "elapsed_ms" : 91732,
+      "content_chars" : 867
+    } ]
+  }
+}
