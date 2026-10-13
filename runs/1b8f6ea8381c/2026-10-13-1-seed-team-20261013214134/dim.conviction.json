@@ -1,0 +1,34 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "The intake rota moves to fortnightly in November",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Flat, unhedged assertion of a scheduled change; no ratification language or performed settling, so the claim/decision tear resolves lower to claim.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-2",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "The pantry restocks any shelf when it falls below a third full.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Descriptive operational statement with no 'always'/'never' or ratification marker; reads as a firm claim, not a performed decision, so the lower region wins.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-3",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "Both start on the first of November.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Plain unhedged assertion of a start date; no settling act is performed in the text, so claim is the conservative read.",
+    "reported" : false
+  } ],
+  "unmarked" : [ ],
+  "unmarked_rest" : false,
+  "mints" : [ ],
+  "_source_sha256" : "33334968fe34c87719682c0567426876d98b442189d1cbf1cacbe6ef13bcbb39"
+}
