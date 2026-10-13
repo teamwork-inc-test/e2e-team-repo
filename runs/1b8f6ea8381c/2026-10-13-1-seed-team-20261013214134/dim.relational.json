@@ -1,0 +1,20 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "equality-matching" ],
+    "evidence" : [ {
+      "quote" : "The intake rota moves to fortnightly in November",
+      "kind" : "plain-assertion"
+    }, {
+      "quote" : "with a fifteen-minute overlap call at each hand-off",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Turn-taking structure: the rota alternates duties in fixed turns, and the overlap call at each hand-off keeps the exchange even between outgoing and incoming holders.",
+    "reported" : false
+  } ],
+  "mints" : [ ],
+  "region_mints" : [ ],
+  "unmarked" : [ "src-2", "src-3" ],
+  "unmarked_rest" : false,
+  "_source_sha256" : "33334968fe34c87719682c0567426876d98b442189d1cbf1cacbe6ef13bcbb39"
+}
