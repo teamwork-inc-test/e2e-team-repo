@@ -1,0 +1,18 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "future", "irrealis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "from November",
+      "kind" : "lexical-marker"
+    }, {
+      "quote" : "The intake desk gets a printed sign",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Present-tense 'gets' carries a planned arrangement pointed at November (future, irrealis); the printed sign and rota dates are particular artifacts (concrete). Settled-sounding grammar kept as irrealis because the planned date is the object of attention.",
+    "reported" : false
+  } ],
+  "unmarked" : [ ],
+  "unmarked_rest" : true,
+  "_source_sha256" : "f0215b801a86f2da16619406ba287b90cd53dff96e1dd8920c408fea57611b99"
+}
