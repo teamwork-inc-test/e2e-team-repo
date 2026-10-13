@@ -1,0 +1,20 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "legitimate", "rational-persuasion" ],
+    "evidence" : [ {
+      "quote" : "from the 1 October call stays",
+      "kind" : "epistemic-verb"
+    }, {
+      "quote" : "a third full is less than a day of stock on a Friday",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Legitimate basis is the rule set on the 1 October call, which the expression carries forward; the stated reason for the oats-and-rice exception is an evidence-based argument about run-out speed. The tension is that the threshold change is asserted, not argued, so legitimate is the primary base.",
+    "reported" : true
+  } ],
+  "mints" : [ ],
+  "region_mints" : [ ],
+  "unmarked" : [ ],
+  "unmarked_rest" : false,
+  "_source_sha256" : "41dcd61d3d391179b1f97a179273f02ff41fe4ce3af211f4c07d7133e0a4e92a"
+}
