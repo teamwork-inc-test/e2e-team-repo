@@ -1,0 +1,45 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "past", "realis" ],
+    "evidence" : [ {
+      "quote" : "ruled on where reaction delivery belongs",
+      "kind" : "performed-act"
+    } ],
+    "why" : "A completed ruling is narrated as settled fact, so attention sits on what already happened.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-2",
+    "regions" : [ "present", "realis", "abstract" ],
+    "evidence" : [ {
+      "quote" : "we route every reaction through one bundle per run per person",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "The present-tense routing rule is stated as a general principle over every reaction, not a single event.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-3",
+    "regions" : [ "past", "realis", "abstract" ],
+    "evidence" : [ {
+      "quote" : "Tina pushed back on the batching window and Tanya held",
+      "kind" : "plain-assertion"
+    }, {
+      "quote" : "a skill that misses the close waits for the next run",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "The Tina exchange is a past, actual event, but the cited closing rule is a general pattern; the two regions compete and the rule carries the stance. Tension between past-concrete framing and abstract rule.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-4",
+    "regions" : [ "past", "realis" ],
+    "evidence" : [ {
+      "quote" : "The alternative considered and rejected was",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "The rejected alternative is framed as a settled past decision, so attention is on what was considered.",
+    "reported" : false
+  } ],
+  "unmarked" : [ ],
+  "unmarked_rest" : false,
+  "_source_sha256" : "ba05ea0158d2bb5ae030ad5d571477370ce49537407437eea6eb9df45ec14eb7"
+}
