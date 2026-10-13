@@ -1,0 +1,166 @@
+{
+  "schema_version" : 1,
+  "run_id" : "mp-eng-46000f89",
+  "live_run_id" : "1b8f6ea8381c",
+  "stream" : "e2e-662-team-20261013214134",
+  "policy" : {
+    "mode" : "on",
+    "source" : "default",
+    "version" : 1,
+    "skills" : { },
+    "lands" : { },
+    "audience" : "owner-setting",
+    "warn_per_run_usd" : 0.25,
+    "channels" : [ "email", "sms", "teams" ]
+  },
+  "gates" : [ {
+    "id" : "aswritten/clarify",
+    "run?" : false,
+    "gate" : 2,
+    "reason" : "delta predicate false: new_positions >= 1 or reconciliations >= 1 or on_behalf >= 1 or unresolved >= 1"
+  }, {
+    "id" : "aswritten/merge-suggest",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "skill off"
+  }, {
+    "id" : "aswritten/refract",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "skill off"
+  }, {
+    "id" : "aswritten/review-message",
+    "run?" : true,
+    "gate" : 2,
+    "reason" : "predicate only"
+  }, {
+    "id" : "aswritten/review-request",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "skill off"
+  }, {
+    "id" : "aswritten/riff",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "skill off"
+  } ],
+  "jobs" : [ {
+    "job_key" : "1b8f6ea8381c:aswritten/review-message:u17592186058518",
+    "turn_attempts" : 1,
+    "n8n_execution_id" : "160485",
+    "skill" : "aswritten/review-message",
+    "landing" : {
+      "landed" : "message"
+    },
+    "recipient" : {
+      "name" : "Tanya TeamOwner",
+      "role" : "submitter",
+      "status" : "routed",
+      "channels_not" : {
+        "sms" : "no verified phone opted in to texts",
+        "teams" : "no Teams identity in the home tenant"
+      },
+      "roles" : [ "submitter" ],
+      "seated" : true,
+      "test-identity" : true,
+      "via" : [ {
+        "how" : "saved",
+        "as" : "saver"
+      } ]
+    },
+    "cite_missing" : [ "email" ],
+    "output" : {
+      "beats" : {
+        "we_said" : "Priya Holm said on the October 1 team call: \"The intake rota moves to fortnightly in November, with a fifteen-minute overlap call at each hand-off.\" Dario Kent said in the same call: \"The pantry restocks any shelf when it falls below a third full.\" Priya closed with \"Both start on the first of November.\"",
+        "that_changes" : "No earlier statements in the perspective are touched by these words, so there is nothing to say about what you said before.",
+        "so_now" : "From the first of November the intake rota runs fortnightly, with a fifteen-minute call at each hand-off, and the pantry restocks a shelf once it falls below a third full. Both begin on the same day.",
+        "which_means" : "My read is that the hand-off calls need slots on the November calendar before the rota itself does, since they are the part that has to happen on the first day. If the third-full rule holds, that suggests pantry restocking will be triggered by shelf level rather than by a schedule, which is a different habit for the team to build. It also suggests that anyone covering intake in the first fortnight starts with the new hand-off already in place.",
+        "where_does_it_end" : [ "Does the fifteen-minute overlap apply to every hand-off, or only the ones between intake shifts?", "Does the third-full rule have a count of shelves behind it, or is it judged by eye?" ]
+      },
+      "email" : {
+        "subject" : "Re: Intake rota and pantry, from 1 October",
+        "body" : "So now: from the first of November the intake rota runs fortnightly, with a fifteen-minute call at each hand-off, and the pantry restocks a shelf once it falls below a third full. Both begin on the same day.\n\nPriya Holm said on the October 1 team call: \"The intake rota moves to fortnightly in November, with a fifteen-minute overlap call at each hand-off.\"\n\nDario Kent said in the same call: \"The pantry restocks any shelf when it falls below a third full.\"\n\nPriya closed with \"Both start on the first of November.\"\n\nMy read is that the hand-off calls need slots on the November calendar before the rota itself does, since they are the part that has to happen on the first day. If the third-full rule holds, that suggests pantry restocking will be triggered by shelf level rather than by a schedule, which is a different habit for the team to build. It also suggests that anyone covering intake in the first fortnight starts with the new hand-off already in place.\n\nDoes the fifteen-minute overlap apply to every hand-off, or only the ones between intake shifts? Does the third-full rule have a count of shelves behind it, or is it judged by eye?\n\nThe conversation, with everyone's words: https://dev.api.aswritten.ai/live/conversation/2026-10-13-1-seed-team-20261013214134"
+      },
+      "self_check" : {
+        "forbidden_words_outside_quotes" : [ ],
+        "quotations_verified_exact" : true,
+        "question_count" : {
+          "chat" : 0,
+          "email" : 2
+        }
+      }
+    },
+    "status" : "ok",
+    "gate" : { },
+    "length_stops" : 0,
+    "plan_id" : "reaction:1b8f6ea8381c:review-message:e8d44227f622",
+    "pass" : "reaction:review-message",
+    "ms" : 81016,
+    "reask" : {
+      "attempted" : false,
+      "withheld" : false
+    },
+    "model" : "anthropic/claude-haiku-5.5"
+  } ],
+  "spend" : {
+    "cost_usd" : 0.016239,
+    "passes" : [ {
+      "pass" : "reaction:review-message",
+      "llm_calls" : 2,
+      "cost_usd" : 0.007126770000000001,
+      "null_cost_calls" : 0
+    }, {
+      "pass" : "reaction:review-message:cite",
+      "llm_calls" : 4,
+      "cost_usd" : 0.00911204,
+      "null_cost_calls" : 0
+    } ]
+  },
+  "bundle" : {
+    "items" : 1,
+    "recipients" : 1,
+    "sent" : [ {
+      "items" : [ {
+        "kind" : "reaction",
+        "skill" : "aswritten/review-message",
+        "audience" : "touched"
+      } ],
+      "handle" : "tanya+staging@aswritten.ai",
+      "channel" : "email",
+      "recipient" : "Tanya TeamOwner",
+      "h" : "09fcdb5f3d:aswritten/review-message",
+      "status" : "skipped: test identity"
+    } ]
+  },
+  "counters" : { },
+  "at" : "2026-10-13T21:44:47.573895045Z",
+  "context" : {
+    "roster" : [ {
+      "name" : "Tanya TeamOwner",
+      "role" : "submitter",
+      "status" : "routed",
+      "channels_not" : {
+        "sms" : "no verified phone opted in to texts",
+        "teams" : "no Teams identity in the home tenant"
+      },
+      "roles" : [ "submitter" ],
+      "seated" : true,
+      "test-identity" : true,
+      "via" : [ {
+        "how" : "saved",
+        "as" : "saver"
+      } ]
+    } ],
+    "inputs" : {
+      "we_said" : 3,
+      "new_positions" : 0,
+      "touches" : 0,
+      "threads" : 0,
+      "reaches" : 0
+    },
+    "navigation" : {
+      "source" : "engine",
+      "context_chars" : 2912
+    }
+  }
+}
