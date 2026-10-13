@@ -1,0 +1,13 @@
+{
+  "positions" : [ {
+    "name" : "ShippedWidgetDelivery",
+    "frame" : "What does a shipped async decision widget, with its velocity and integration story, tell us about whether decision capture works in practice?",
+    "members" : [ "src-2" ],
+    "why" : "src-2 is a single segment of flat, unhedged past-tense claims: the async decision widget shipped, velocity was 23 points (highest this quarter), and the Zephyr integration was the key unlock. The widget is the decision-capture product, so the segment bears on Narrative_DecisionCaptureAtConsensus. Its sentences state delivery and attribute the result to an integration, but the segment makes no explicit link to capture at the moment of consensus, so the frame is read from the shipped artifact rather than from any stated thesis. No existing positions to consult, so this is a fresh mint.",
+    "under" : [ "Narrative_DecisionCaptureAtConsensus" ]
+  } ],
+  "attaches" : [ ],
+  "position_revisions" : [ ],
+  "ungrouped" : [ "src-1" ],
+  "_source_sha256" : "1237e18b54774c37eb5214040874288fc88b5befa916140e66a01d5fdd1f31b8"
+}
