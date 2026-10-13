@@ -1,0 +1,22 @@
+{
+  "bindings" : [ {
+    "name" : "Priya Holm",
+    "verdict" : "bind",
+    "target" : "Actor_PriyaHolm",
+    "why" : "Exact full-name match to existing actor Priya Holm; no conflicting candidates in the graph.",
+    "ai" : false
+  }, {
+    "name" : "Tanya TeamOwner",
+    "verdict" : "bind",
+    "target" : "Actor_TanyaTeamowner",
+    "why" : "Exact full-name match to existing actor Tanya TeamOwner; envelope submitted_by and sole participant confirm the identity.",
+    "ai" : false
+  }, {
+    "name" : "tanya+staging@aswritten.ai",
+    "verdict" : "bind",
+    "target" : "Actor_TanyaTeamowner",
+    "why" : "Envelope account email belongs to the submitter, whose person-name submitted_by is Tanya TeamOwner; same person, bound to the existing actor and never minted as an email-labeled actor.",
+    "ai" : false
+  } ],
+  "_source_sha256" : "f0215b801a86f2da16619406ba287b90cd53dff96e1dd8920c408fea57611b99"
+}
