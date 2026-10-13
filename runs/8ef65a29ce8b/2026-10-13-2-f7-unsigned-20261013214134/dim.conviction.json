@@ -1,0 +1,25 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "The intake rota stays fortnightly, as agreed on 1 October",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Flat unhedged assertion of the arrangement; it cites a prior agreement but does not itself perform ratification, so the decision reading fails the test and the lower region holds.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-2",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "Fifteen minutes covered the open cases but not the ones that arrived during the hand-off week.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Plain retrospective assertion with no hedges or commitment markers; asserted and defensible but not a settled decision.",
+    "reported" : false
+  } ],
+  "mints" : [ ],
+  "unmarked" : [ ],
+  "unmarked_rest" : false,
+  "_source_sha256" : "e040337bd8dac8bfd179f25203dce69bc4b3fb0472b1cff5dfbd14bc8cef16c9"
+}
