@@ -1,0 +1,226 @@
+{
+  "schema_version" : 1,
+  "run_id" : "mp-eng-43d2143c",
+  "live_run_id" : "c0d8fd0c45ab",
+  "stream" : "e2e-collab-1791886372577",
+  "policy" : {
+    "mode" : "on",
+    "source" : "default",
+    "version" : 1,
+    "skills" : { },
+    "lands" : { },
+    "audience" : "owner-setting",
+    "warn_per_run_usd" : 0.25,
+    "channels" : [ "email", "sms", "teams" ]
+  },
+  "gates" : [ {
+    "id" : "aswritten/clarify",
+    "run?" : true,
+    "gate" : 2,
+    "score" : 0.8,
+    "evidence" : [ "aswr:qualityFlag \"principal:unresolved\"", "skos:note \"Document title as composed.\"", "oa:exact \"Tanya's Sprint Retro\"" ],
+    "why" : "The delta contains exactly one flagged-unresolved statement — the title expression, which carries no narr:actor unlike the attributed quote — squarely matching the branch where the one clarifying question is whose position the document's own prose states, with no prior reactions already covering it."
+  }, {
+    "id" : "aswritten/merge-suggest",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "skill off"
+  }, {
+    "id" : "aswritten/refract",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "skill off"
+  }, {
+    "id" : "aswritten/review-message",
+    "run?" : true,
+    "gate" : 2,
+    "reason" : "predicate only"
+  }, {
+    "id" : "aswritten/review-request",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "skill off"
+  }, {
+    "id" : "aswritten/riff",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "skill off"
+  } ],
+  "jobs" : [ {
+    "job_key" : "c0d8fd0c45ab:aswritten/clarify:u17592186058518",
+    "turn_attempts" : 1,
+    "n8n_execution_id" : "160169",
+    "skill" : "aswritten/clarify",
+    "landing" : {
+      "landed" : "message"
+    },
+    "recipient" : {
+      "name" : "Tanya TeamOwner",
+      "role" : "submitter",
+      "status" : "routed",
+      "channels_not" : {
+        "sms" : "no verified phone opted in to texts",
+        "teams" : "no Teams identity in the home tenant"
+      },
+      "roles" : [ "submitter" ],
+      "seated" : true,
+      "test-identity" : true,
+      "via" : [ {
+        "how" : "saved",
+        "as" : "saver"
+      } ]
+    },
+    "reason" : "Nothing in the memory is undefined, self-contradictory, or disputed; its three statements (widget shipped, 23-point velocity, Zephyr as key unlock) are stated plainly once, so the run did not have to guess at anything.",
+    "status" : "silent",
+    "gate" : {
+      "score" : 0.8,
+      "evidence" : [ "aswr:qualityFlag \"principal:unresolved\"", "skos:note \"Document title as composed.\"", "oa:exact \"Tanya's Sprint Retro\"" ],
+      "why" : "The delta contains exactly one flagged-unresolved statement — the title expression, which carries no narr:actor unlike the attributed quote — squarely matching the branch where the one clarifying question is whose position the document's own prose states, with no prior reactions already covering it."
+    },
+    "length_stops" : 0,
+    "plan_id" : "reaction:c0d8fd0c45ab:clarify:6f7527903666",
+    "pass" : "reaction:clarify",
+    "ms" : 5786,
+    "model" : "anthropic/claude-haiku-5.5"
+  }, {
+    "job_key" : "c0d8fd0c45ab:aswritten/review-message:u17592186058518",
+    "turn_attempts" : 1,
+    "n8n_execution_id" : "160168",
+    "skill" : "aswritten/review-message",
+    "landing" : {
+      "landed" : "message"
+    },
+    "recipient" : {
+      "name" : "Tanya TeamOwner",
+      "role" : "submitter",
+      "status" : "routed",
+      "channels_not" : {
+        "sms" : "no verified phone opted in to texts",
+        "teams" : "no Teams identity in the home tenant"
+      },
+      "roles" : [ "submitter" ],
+      "seated" : true,
+      "test-identity" : true,
+      "via" : [ {
+        "how" : "saved",
+        "as" : "saver"
+      } ]
+    },
+    "output" : {
+      "beats" : {
+        "we_said" : "You said today, in Tanya's Sprint Retro: \"We shipped the async decision widget. Velocity was 23 points, highest this quarter. The Zephyr integration was the key unlock.\"",
+        "that_changes" : "Nothing earlier in the perspective is touched by these words, so this beat is left out.",
+        "so_now" : "The widget is in, the sprint came in at 23 points, and you credit the Zephyr integration as the key unlock. Decision capture at the point of consensus, which the product vision treats as the core feature, has a shipped build behind it rather than only a description.",
+        "which_means" : "That suggests to me that one sprint of shipped capture is evidence rather than proof. I read the 23 points as the first number in our work that speaks to the thesis, and I'd read the Zephyr credit as carrying more of the outcome than the widget itself. Our March 22 Sprint 4 retro already named Zephyr as the key unlock, so that question is not new, but a shipped build now tests it. If that holds, anything planned around the integration deserves a second look, and whether capture at consensus works stays open until more shipped use is in hand.",
+        "where_does_it_end" : [ "Does the widget catch decisions in the threads where consensus actually happens, or only in some of them?", "How much of the 23 points would you put down to the Zephyr work itself?" ]
+      },
+      "email" : {
+        "subject" : "Re: Shipped widget, Zephyr credit, from today",
+        "body" : "You said today, in Tanya's Sprint Retro: \"We shipped the async decision widget. Velocity was 23 points, highest this quarter. The Zephyr integration was the key unlock.\"\n\nSo now the widget is in, the sprint came in at 23 points, and you credit the Zephyr integration as the key unlock. Decision capture at the point of consensus, which the product vision treats as the core feature, has a shipped build behind it rather than only a description.\n\nThat suggests to me that one sprint of shipped capture is evidence rather than proof. I read the 23 points as the first number in our work that speaks to the thesis, and I'd read the Zephyr credit as carrying more of the outcome than the widget itself. Our March 22 Sprint 4 retro already named Zephyr as the key unlock, so that question is not new, but a shipped build now tests it. If that holds, anything planned around the integration deserves a second look, and whether capture at consensus works stays open until more shipped use is in hand.\n\nTwo questions. Does the widget catch decisions in the threads where consensus actually happens, or only in some of them? How much of the 23 points would you put down to the Zephyr work itself?\n\nThe conversation, with everyone's words: https://dev.api.aswritten.ai/live/conversation/2026-10-13-1-e2e-tanya-collab-1791886433173"
+      },
+      "self_check" : {
+        "forbidden_words_outside_quotes" : [ ],
+        "quotations_verified_exact" : true,
+        "question_count" : {
+          "chat" : 0,
+          "email" : 2
+        }
+      }
+    },
+    "status" : "ok",
+    "gate" : { },
+    "length_stops" : 0,
+    "plan_id" : "reaction:c0d8fd0c45ab:review-message:c6d7267caefe",
+    "pass" : "reaction:review-message",
+    "ms" : 276070,
+    "cite" : {
+      "email" : {
+        "claims" : 4,
+        "citations" : 3
+      }
+    },
+    "reask" : {
+      "attempted" : false,
+      "withheld" : false
+    },
+    "model" : "anthropic/claude-haiku-5.5"
+  } ],
+  "spend" : {
+    "cost_usd" : 0.065221,
+    "passes" : [ {
+      "pass" : "reaction:_score",
+      "llm_calls" : 1,
+      "cost_usd" : 0.00298135,
+      "null_cost_calls" : 0
+    }, {
+      "pass" : "reaction:clarify",
+      "llm_calls" : 1,
+      "cost_usd" : 0.010631,
+      "null_cost_calls" : 0
+    }, {
+      "pass" : "reaction:review-message",
+      "llm_calls" : 4,
+      "cost_usd" : 0.01713671,
+      "null_cost_calls" : 0
+    }, {
+      "pass" : "reaction:review-message:cite",
+      "llm_calls" : 10,
+      "cost_usd" : 0.034471949999999994,
+      "null_cost_calls" : 0
+    } ]
+  },
+  "bundle" : {
+    "items" : 1,
+    "recipients" : 1,
+    "sent" : [ {
+      "items" : [ {
+        "kind" : "reaction",
+        "skill" : "aswritten/review-message",
+        "audience" : "touched"
+      } ],
+      "handle" : "tanya+staging@aswritten.ai",
+      "channel" : "email",
+      "recipient" : "Tanya TeamOwner",
+      "h" : "09fcdb5f3d:aswritten/review-message",
+      "status" : "skipped: test identity"
+    } ]
+  },
+  "counters" : { },
+  "at" : "2026-10-13T10:20:05.613302619Z",
+  "context" : {
+    "roster" : [ {
+      "name" : "Tanya TeamOwner",
+      "role" : "submitter",
+      "status" : "routed",
+      "channels_not" : {
+        "sms" : "no verified phone opted in to texts",
+        "teams" : "no Teams identity in the home tenant"
+      },
+      "roles" : [ "submitter" ],
+      "seated" : true,
+      "test-identity" : true,
+      "via" : [ {
+        "how" : "saved",
+        "as" : "saver"
+      } ]
+    } ],
+    "inputs" : {
+      "we_said" : 2,
+      "new_positions" : 1,
+      "touches" : 0,
+      "threads" : 1,
+      "reaches" : 0
+    },
+    "navigation" : {
+      "source" : "engine",
+      "context_chars" : 19956
+    }
+  },
+  "scorer" : {
+    "attempts" : [ {
+      "disposition" : "ok",
+      "elapsed_ms" : 33223,
+      "content_chars" : 497
+    } ]
+  }
+}
