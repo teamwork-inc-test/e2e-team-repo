@@ -1,0 +1,21 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "present", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "which now restock at half full",
+      "kind" : "lexical-marker"
+    }, {
+      "quote" : "is less than a day of stock on a Friday",
+      "kind" : "plain-assertion"
+    }, {
+      "quote" : "from the 1 October call",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Present-tense rule stated as settled fact (realis); attention on the current threshold, with a dated past call as its source. Construal is concrete via named shelves and a specific date, though the 'run out fastest' generalization leans abstract.",
+    "reported" : false
+  } ],
+  "unmarked" : [ ],
+  "unmarked_rest" : false,
+  "_source_sha256" : "41dcd61d3d391179b1f97a179273f02ff41fe4ce3af211f4c07d7133e0a4e92a"
+}
