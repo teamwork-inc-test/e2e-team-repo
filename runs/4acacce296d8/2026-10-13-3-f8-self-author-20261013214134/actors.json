@@ -1,0 +1,22 @@
+{
+  "bindings" : [ {
+    "name" : "claude-opus-5-5",
+    "verdict" : "bind",
+    "target" : "Actor_ClaudeOpus55",
+    "why" : "Model name matches the existing [AI]-marked actor claude-opus-5-5 exactly.",
+    "ai" : true
+  }, {
+    "name" : "Tina TeamMember",
+    "verdict" : "mint",
+    "label" : "Tina TeamMember",
+    "why" : "No existing actor named Tina; the envelope's submitter and author is not in the graph, so a new person actor is minted.",
+    "ai" : false
+  }, {
+    "name" : "tina+staging@aswritten.ai",
+    "verdict" : "mint",
+    "label" : "Tina TeamMember",
+    "why" : "Account email is the same person as submitted_by Tina TeamMember; no existing actor matches, so mint under her name rather than the email.",
+    "ai" : false
+  } ],
+  "_source_sha256" : "41dcd61d3d391179b1f97a179273f02ff41fe4ce3af211f4c07d7133e0a4e92a"
+}
