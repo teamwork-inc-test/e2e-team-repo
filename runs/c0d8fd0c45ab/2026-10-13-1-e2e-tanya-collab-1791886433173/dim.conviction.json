@@ -1,0 +1,16 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-2",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "We shipped the async decision widget.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Flat unhedged factual assertions about shipped work, asserted and defensible but not framed as a settled operational decision; lower of claim/decision taken because no ratification or commitment language is performed.",
+    "reported" : false
+  } ],
+  "mints" : [ ],
+  "unmarked" : [ "src-1" ],
+  "unmarked_rest" : false,
+  "_source_sha256" : "1237e18b54774c37eb5214040874288fc88b5befa916140e66a01d5fdd1f31b8"
+}
