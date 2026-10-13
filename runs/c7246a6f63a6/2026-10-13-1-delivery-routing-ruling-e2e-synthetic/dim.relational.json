@@ -1,0 +1,44 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "authority-ranking" ],
+    "evidence" : [ {
+      "quote" : "ruled on where reaction delivery belongs",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Event-report of a governance ruling by the team owner; the act is authority, reported by the memo author rather than performed by them.",
+    "reported" : true
+  }, {
+    "segment_local_id" : "src-2",
+    "regions" : [ "authority-ranking" ],
+    "evidence" : [ {
+      "quote" : "we route every reaction through one bundle per run per person",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Declarative routing rule issued by the team owner; directive rank-based allocation. Tension with equality-matching in the one-thing-not-four rationale, but the enacted move is the rule.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-3",
+    "regions" : [ "authority-ranking" ],
+    "evidence" : [ {
+      "quote" : "Tanya held",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Narrated overruling of a pushback; the team owner's rank settles the batching window. Reported through the memo author.",
+    "reported" : true
+  }, {
+    "segment_local_id" : "src-4",
+    "regions" : [ "market-pricing" ],
+    "evidence" : [ {
+      "quote" : "moves the ordering problem onto the",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Consequence-for-choice framing: the rejected alternative is weighed by the cost it shifts to the reader.",
+    "reported" : false
+  } ],
+  "unmarked" : [ ],
+  "unmarked_rest" : false,
+  "mints" : [ ],
+  "region_mints" : [ ],
+  "_source_sha256" : "ba05ea0158d2bb5ae030ad5d571477370ce49537407437eea6eb9df45ec14eb7"
+}
