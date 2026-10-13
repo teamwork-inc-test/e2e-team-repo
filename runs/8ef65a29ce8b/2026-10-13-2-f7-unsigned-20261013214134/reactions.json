@@ -1,0 +1,263 @@
+{
+  "schema_version" : 1,
+  "run_id" : "mp-eng-052de89c",
+  "live_run_id" : "8ef65a29ce8b",
+  "stream" : "e2e-662-team-20261013214134",
+  "policy" : {
+    "mode" : "on",
+    "source" : "default",
+    "version" : 1,
+    "skills" : { },
+    "lands" : { },
+    "audience" : "owner-setting",
+    "warn_per_run_usd" : 0.25,
+    "channels" : [ "email", "sms", "teams" ]
+  },
+  "gates" : [ {
+    "id" : "aswritten/clarify",
+    "run?" : true,
+    "gate" : 2,
+    "score" : 0.85,
+    "evidence" : [ "aswr:qualityFlag \"principal:unresolved\"", ".aswritten/memories/2026-10-13-2-f7-unsigned-20261013214134.md", "narr:author narr:Actor_ClaudeOpus55", "Mints the Hand-Off Overlap Sizing position, shifting the intake hand-off call from fifteen to thirty minutes." ],
+    "why" : "Both committed expressions carry the principal:unresolved flag on an unsigned, AI-authored note with on_behalf 0, so the freshly minted Hand-Off Overlap Sizing position rests on statements whose principal — whose position the prose states — is exactly the open question this skill exists to ask."
+  }, {
+    "id" : "aswritten/merge-suggest",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "skill off"
+  }, {
+    "id" : "aswritten/refract",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "skill off"
+  }, {
+    "id" : "aswritten/review-message",
+    "run?" : true,
+    "gate" : 2,
+    "reason" : "predicate only"
+  }, {
+    "id" : "aswritten/review-request",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "skill off"
+  }, {
+    "id" : "aswritten/riff",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "skill off"
+  } ],
+  "jobs" : [ {
+    "job_key" : "8ef65a29ce8b:aswritten/clarify:u17592186058518",
+    "turn_attempts" : 1,
+    "n8n_execution_id" : "160631",
+    "skill" : "aswritten/clarify",
+    "landing" : {
+      "landed" : "message"
+    },
+    "recipient" : {
+      "name" : "Tanya TeamOwner",
+      "role" : "submitter",
+      "status" : "routed",
+      "channels_not" : {
+        "sms" : "no verified phone opted in to texts",
+        "teams" : "no Teams identity in the home tenant"
+      },
+      "roles" : [ "submitter" ],
+      "seated" : true,
+      "test-identity" : true,
+      "via" : [ {
+        "how" : "saved",
+        "as" : "saver"
+      } ]
+    },
+    "output" : {
+      "questions" : [ {
+        "to" : "Tanya TeamOwner",
+        "quote" : "The intake rota stays fortnightly, as agreed on 1 October, but the overlap call at each hand-off grows from fifteen to thirty minutes.",
+        "question" : "Did the fortnightly rota and the thirty-minute overlap both start on 1 November, or is the rota already fortnightly now?",
+        "because" : "I wrote it down as the rota already running fortnightly, but on the 1 October call Priya said it moves to fortnightly in November with a fifteen-minute overlap, and the hand-off sizing position now counts on the thirty-minute overlap, which has no start date."
+      } ],
+      "email" : {
+        "subject" : "Does the longer overlap start 1 November, or is the rota already fortnightly?",
+        "body" : "The line in your memory reads: \"The intake rota stays fortnightly, as agreed on 1 October, but the overlap call at each hand-off grows from fifteen to thirty minutes.\" I wrote it down as the rota already running fortnightly. But on the 1 October call Priya said the rota \"moves to fortnightly in November\" and \"Both start on the first of November.\" The hand-off sizing position now counts on the thirty-minute overlap, and nothing in the record says when it begins. Did the fortnightly rota and the thirty-minute overlap both start on 1 November, or is the rota already fortnightly now?"
+      }
+    },
+    "status" : "ok",
+    "gate" : {
+      "score" : 0.85,
+      "evidence" : [ "aswr:qualityFlag \"principal:unresolved\"", ".aswritten/memories/2026-10-13-2-f7-unsigned-20261013214134.md", "narr:author narr:Actor_ClaudeOpus55", "Mints the Hand-Off Overlap Sizing position, shifting the intake hand-off call from fifteen to thirty minutes." ],
+      "why" : "Both committed expressions carry the principal:unresolved flag on an unsigned, AI-authored note with on_behalf 0, so the freshly minted Hand-Off Overlap Sizing position rests on statements whose principal — whose position the prose states — is exactly the open question this skill exists to ask."
+    },
+    "length_stops" : 0,
+    "plan_id" : "reaction:8ef65a29ce8b:clarify:78439786c7c2",
+    "pass" : "reaction:clarify",
+    "ms" : 142543,
+    "cite" : {
+      "email" : {
+        "claims" : 6,
+        "citations" : 4
+      }
+    },
+    "reask" : {
+      "attempted" : false,
+      "withheld" : false
+    },
+    "model" : "anthropic/claude-haiku-5.5"
+  }, {
+    "job_key" : "8ef65a29ce8b:aswritten/review-message:u17592186058518",
+    "turn_attempts" : 1,
+    "n8n_execution_id" : "160630",
+    "skill" : "aswritten/review-message",
+    "landing" : {
+      "landed" : "message"
+    },
+    "recipient" : {
+      "name" : "Tanya TeamOwner",
+      "role" : "submitter",
+      "status" : "routed",
+      "channels_not" : {
+        "sms" : "no verified phone opted in to texts",
+        "teams" : "no Teams identity in the home tenant"
+      },
+      "roles" : [ "submitter" ],
+      "seated" : true,
+      "test-identity" : true,
+      "via" : [ {
+        "how" : "saved",
+        "as" : "saver"
+      } ]
+    },
+    "output" : {
+      "beats" : {
+        "we_said" : "Today, in the intake rota session you saved, the Claude session (claude-opus-5-5) wrote: \"The intake rota stays fortnightly, as agreed on 1 October, but the overlap call at each hand-off grows from fifteen to thirty minutes.\" It added, in the same memory: \"Fifteen minutes covered the open cases but not the ones that arrived during the hand-off week.\"",
+        "that_changes" : "",
+        "so_now" : "So now the rota runs fortnightly, and each hand-off has a thirty-minute overlap call rather than fifteen. The reason given is the open cases, and the ones that arrived during the hand-off week, that the shorter call did not reach.",
+        "which_means" : "My read is that thirty minutes now has to carry both the open cases and the week's arrivals, so the call is no longer sized to the schedule alone. That suggests to me that a fifteen-minute overlap no longer has a place in the rota, and that anyone planning hand-offs from here would start from thirty. If that holds, the time each hand-off gets roughly doubles, and whoever holds the call has to plan for it.",
+        "where_does_it_end" : [ "Does thirty minutes still cover a hand-off week when arrivals run heavy?", "Is the fortnightly cadence the one the 1 October agreement set, or only the one written down today?", "How much of the open-case list has to be cleared before the call starts?" ]
+      },
+      "email" : {
+        "subject" : "Re: Intake rota overlap, from 13 October",
+        "body" : "Today, in the intake rota session you saved, the Claude session (claude-opus-5-5) wrote: \"The intake rota stays fortnightly, as agreed on 1 October, but the overlap call at each hand-off grows from fifteen to thirty minutes.\" It added, in the same memory: \"Fifteen minutes covered the open cases but not the ones that arrived during the hand-off week.\"\n\nSo now the rota runs fortnightly, and each hand-off has a thirty-minute overlap call rather than fifteen. The reason given is the open cases, and the ones that arrived during the hand-off week, that the shorter call did not reach.\n\nMy read is that thirty minutes now has to carry both the open cases and the week's arrivals, so the call is no longer sized to the schedule alone. That suggests to me that a fifteen-minute overlap no longer has a place in the rota, and that anyone planning hand-offs from here would start from thirty. If that holds, the time each hand-off gets roughly doubles, and whoever holds the call has to plan for it.\n\nThree questions it leaves open: Does thirty minutes still cover a hand-off week when arrivals run heavy? Is the fortnightly cadence the one the 1 October agreement set, or only the one written down today? How much of the open-case list has to be cleared before the call starts?\n\nThe conversation, with everyone's words: https://dev.api.aswritten.ai/live/conversation/2026-10-13-2-f7-unsigned-20261013214134"
+      },
+      "self_check" : {
+        "forbidden_words_outside_quotes" : [ ],
+        "quotations_verified_exact" : true,
+        "question_count" : {
+          "chat" : 0,
+          "email" : 3
+        }
+      }
+    },
+    "status" : "ok",
+    "gate" : { },
+    "length_stops" : 0,
+    "plan_id" : "reaction:8ef65a29ce8b:review-message:b2f2925d0dbb",
+    "pass" : "reaction:review-message",
+    "ms" : 69447,
+    "cite" : {
+      "email" : {
+        "claims" : 4,
+        "citations" : 1
+      }
+    },
+    "reask" : {
+      "attempted" : false,
+      "withheld" : false
+    },
+    "model" : "anthropic/claude-haiku-5.5"
+  } ],
+  "spend" : {
+    "cost_usd" : 0.05239,
+    "passes" : [ {
+      "pass" : "reaction:_score",
+      "llm_calls" : 1,
+      "cost_usd" : 0.0031682,
+      "null_cost_calls" : 0
+    }, {
+      "pass" : "reaction:clarify",
+      "llm_calls" : 3,
+      "cost_usd" : 0.01568153,
+      "null_cost_calls" : 0
+    }, {
+      "pass" : "reaction:clarify:cite",
+      "llm_calls" : 6,
+      "cost_usd" : 0.01801073,
+      "null_cost_calls" : 0
+    }, {
+      "pass" : "reaction:review-message",
+      "llm_calls" : 2,
+      "cost_usd" : 0.00747533,
+      "null_cost_calls" : 0
+    }, {
+      "pass" : "reaction:review-message:cite",
+      "llm_calls" : 3,
+      "cost_usd" : 0.00805446,
+      "null_cost_calls" : 0
+    } ]
+  },
+  "bundle" : {
+    "items" : 2,
+    "recipients" : 1,
+    "sent" : [ {
+      "items" : [ {
+        "kind" : "reaction",
+        "skill" : "aswritten/clarify",
+        "audience" : "speakers"
+      } ],
+      "handle" : "tanya+staging@aswritten.ai",
+      "channel" : "email",
+      "recipient" : "Tanya TeamOwner",
+      "h" : "09fcdb5f3d:aswritten/clarify",
+      "status" : "skipped: test identity"
+    }, {
+      "items" : [ {
+        "kind" : "reaction",
+        "skill" : "aswritten/review-message",
+        "audience" : "touched"
+      } ],
+      "handle" : "tanya+staging@aswritten.ai",
+      "channel" : "email",
+      "recipient" : "Tanya TeamOwner",
+      "h" : "09fcdb5f3d:aswritten/review-message",
+      "status" : "skipped: test identity"
+    } ]
+  },
+  "counters" : { },
+  "at" : "2026-10-13T21:54:40.507908358Z",
+  "context" : {
+    "roster" : [ {
+      "name" : "Tanya TeamOwner",
+      "role" : "submitter",
+      "status" : "routed",
+      "channels_not" : {
+        "sms" : "no verified phone opted in to texts",
+        "teams" : "no Teams identity in the home tenant"
+      },
+      "roles" : [ "submitter" ],
+      "seated" : true,
+      "test-identity" : true,
+      "via" : [ {
+        "how" : "saved",
+        "as" : "saver"
+      } ]
+    } ],
+    "inputs" : {
+      "we_said" : 2,
+      "new_positions" : 1,
+      "touches" : 0,
+      "threads" : 0,
+      "reaches" : 0
+    },
+    "navigation" : {
+      "source" : "engine",
+      "context_chars" : 5686
+    }
+  },
+  "scorer" : {
+    "attempts" : [ {
+      "disposition" : "ok",
+      "elapsed_ms" : 19320,
+      "content_chars" : 628
+    } ]
+  }
+}
