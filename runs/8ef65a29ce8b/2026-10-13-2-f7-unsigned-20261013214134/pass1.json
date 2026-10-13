@@ -1,0 +1,54 @@
+{
+  "doc" : {
+    "title" : "Intake rota: a longer overlap",
+    "date_stated" : null,
+    "actors_present" : [ "claude-opus-5-5" ]
+  },
+  "segments" : [ {
+    "local_id" : "src-1",
+    "exact" : "The intake rota stays fortnightly, as agreed on 1 October, but the overlap call at each hand-off grows from fifteen to thirty minutes.",
+    "actor" : "claude-opus-5-5",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Intake rota note; records the agreed cadence and the hand-off overlap change"
+    },
+    "note" : null,
+    "footing_case" : "fc-1",
+    "footing" : {
+      "animator" : "claude-opus-5-5",
+      "author" : "claude-opus-5-5",
+      "principal" : null
+    }
+  }, {
+    "local_id" : "src-2",
+    "exact" : "Fifteen minutes covered the open cases but not the ones that arrived during the hand-off week.",
+    "actor" : "claude-opus-5-5",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Intake rota note; rationale for the longer overlap"
+    },
+    "note" : null,
+    "footing_case" : "fc-1",
+    "footing" : {
+      "animator" : "claude-opus-5-5",
+      "author" : "claude-opus-5-5",
+      "principal" : null
+    }
+  } ],
+  "coverage_gaps" : [ {
+    "reason" : "YAML frontmatter (reviewers list) — structural scaffolding, not a speech act",
+    "span_hint" : "reviewers:"
+  }, {
+    "reason" : "Title heading — structural scaffolding",
+    "span_hint" : "# Intake rota: a"
+  } ],
+  "footing_cases" : [ {
+    "id" : "fc-1",
+    "animator" : "claude-opus-5-5",
+    "author" : "claude-opus-5-5",
+    "principal" : null,
+    "unresolved" : "The envelope names Tanya TeamOwner as submitter and claude-opus-5-5 as drafter but does not state whose position the memo's prose commits, so principal is null by rule.",
+    "when" : "The memo's own editorial prose, composed by the envelope's named drafting agent on Tanya's account"
+  } ],
+  "_source_sha256" : "e040337bd8dac8bfd179f25203dce69bc4b3fb0472b1cff5dfbd14bc8cef16c9"
+}
