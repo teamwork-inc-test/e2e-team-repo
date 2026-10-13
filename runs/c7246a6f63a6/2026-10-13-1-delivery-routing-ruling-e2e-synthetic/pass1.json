@@ -1,0 +1,73 @@
+{
+  "doc" : {
+    "title" : "Delivery routing ruling (e2e synthetic)",
+    "date_stated" : "2026-10-13",
+    "actors_present" : [ "Tanya TeamOwner", "Tina" ]
+  },
+  "segments" : [ {
+    "local_id" : "src-1",
+    "exact" : "Tanya (team owner) ruled on where reaction delivery belongs:",
+    "actor" : "memo author",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Delivery routing ruling"
+    },
+    "note" : "Editorial narration; composer per envelope is the submitter's document, principal unresolved.",
+    "footing_case" : "fc-1",
+    "footing" : {
+      "animator" : "memo author",
+      "author" : "memo author",
+      "principal" : null
+    }
+  }, {
+    "local_id" : "src-2",
+    "exact" : "we route every reaction through one bundle per run per person, not one\n> message per skill — a person should get one thing to read, not four",
+    "actor" : "Tanya TeamOwner",
+    "act" : "declarative",
+    "circumstance" : {
+      "context" : "Delivery routing ruling"
+    },
+    "note" : "Ruling stated as a decision; act-type tension between declarative and assertive, chosen declarative because the saying establishes the routing rule.",
+    "footing_case" : null
+  }, {
+    "local_id" : "src-3",
+    "exact" : "Tina pushed back on the batching window and Tanya held: the bundle closes when\nthe run closes, and a skill that misses the close waits for the next run rather\nthan sending on its own.",
+    "actor" : "memo author",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Delivery routing ruling"
+    },
+    "note" : "Editorial narration reporting Tina's pushback and Tanya's hold; the embedded rule is Tanya's stated position but carries no verbatim quote marker, so principal is null.",
+    "footing_case" : "fc-1",
+    "footing" : {
+      "animator" : "memo author",
+      "author" : "memo author",
+      "principal" : null
+    }
+  }, {
+    "local_id" : "src-4",
+    "exact" : "The alternative considered and rejected was per-skill\ndelivery with client-side collapsing, which moves the ordering problem onto the\nreader.",
+    "actor" : "memo author",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Delivery routing ruling"
+    },
+    "note" : "Editorial narration describing a rejected alternative.",
+    "footing_case" : "fc-1",
+    "footing" : {
+      "animator" : "memo author",
+      "author" : "memo author",
+      "principal" : null
+    }
+  } ],
+  "coverage_gaps" : [ ],
+  "footing_cases" : [ {
+    "id" : "fc-1",
+    "animator" : "memo author",
+    "author" : "memo author",
+    "principal" : null,
+    "unresolved" : "Envelope names Tanya TeamOwner as submitter, not as composer; the document's editorial prose has no stated principal.",
+    "when" : "Editorial narration by the document's composer, not explicitly attributed to any named actor."
+  } ],
+  "_source_sha256" : "ba05ea0158d2bb5ae030ad5d571477370ce49537407437eea6eb9df45ec14eb7"
+}
