@@ -1,0 +1,17 @@
+{
+  "placements" : [ ],
+  "unplaced" : [ "src-1", "src-2" ],
+  "unplacements" : [ ],
+  "weighed" : [ {
+    "position" : "Position_HandOffOverlapSizing",
+    "verdict" : "decline",
+    "why" : "No leaf placed in this response: this document minted no positions, attached to none, and revised none, so there is no placed leaf under which the position could hold."
+  } ],
+  "strata" : {
+    "mints" : [ ],
+    "connections" : [ ],
+    "disconnections" : [ ],
+    "unconnected" : [ ]
+  },
+  "_source_sha256" : "5173ce0d903a220b9705f86ad203ba82c8dfb250768cb9581121cbc06fdec1ac"
+}
