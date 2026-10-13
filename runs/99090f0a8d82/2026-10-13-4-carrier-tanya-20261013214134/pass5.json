@@ -1,0 +1,16 @@
+{
+  "placements" : [ ],
+  "unplaced" : [ "src-1" ],
+  "weighed" : [ {
+    "position" : "Position_HandOffOverlapSizing",
+    "verdict" : "decline",
+    "why" : "No leaf is placed in this response: this document minted no position, and src-1 (the printed intake-desk sign) reaches no position, so there is no leaf-level fit to weigh against this position."
+  } ],
+  "strata" : {
+    "mints" : [ ],
+    "connections" : [ ],
+    "disconnections" : [ ],
+    "unconnected" : [ ]
+  },
+  "_source_sha256" : "f0215b801a86f2da16619406ba287b90cd53dff96e1dd8920c408fea57611b99"
+}
