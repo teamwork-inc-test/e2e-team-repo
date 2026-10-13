@@ -1,0 +1,25 @@
+{
+  "bindings" : [ {
+    "name" : "memo author",
+    "verdict" : "unbound",
+    "target" : null,
+    "label" : null,
+    "why" : "Not a person's name; it is a generic role placeholder, so no actor can be bound or minted for it.",
+    "ai" : false
+  }, {
+    "name" : "Tanya TeamOwner",
+    "verdict" : "mint",
+    "target" : null,
+    "label" : "Tanya TeamOwner",
+    "why" : "Graph has no existing actors; the submitter and sole participant is a person and is minted under her full name.",
+    "ai" : false
+  }, {
+    "name" : "tanya+staging@aswritten.ai",
+    "verdict" : "mint",
+    "target" : null,
+    "label" : "Tanya TeamOwner",
+    "why" : "The account email is the same person as submitted_by Tanya TeamOwner; per rule 8 it is minted under her name, not labeled with the email address.",
+    "ai" : false
+  } ],
+  "_source_sha256" : "ba05ea0158d2bb5ae030ad5d571477370ce49537407437eea6eb9df45ec14eb7"
+}
