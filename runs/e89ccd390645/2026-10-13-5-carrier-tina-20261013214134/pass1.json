@@ -1,0 +1,45 @@
+{
+  "doc" : {
+    "title" : "Pantry shelf marks — 2026-10-09",
+    "date_stated" : "2026-10-09",
+    "actors_present" : [ "Dario Kent (Pantry Lead)" ]
+  },
+  "segments" : [ {
+    "circumstance" : {
+      "context" : "Document header recording who was present"
+    },
+    "exact" : "**Participants:** Dario Kent (Pantry Lead)",
+    "local_id" : "src-1",
+    "act" : "assertive",
+    "footing_case" : "fc-1",
+    "note" : null,
+    "footing" : {
+      "animator" : "memo author",
+      "author" : "memo author",
+      "principal" : null
+    },
+    "redacted" : false,
+    "actor" : "memo author"
+  }, {
+    "local_id" : "src-2",
+    "exact" : "Every pantry shelf gets a line marked at a third, so restocking is a glance, not a count.",
+    "actor" : "Dario Kent",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Pantry shelf marks — 2026-10-09"
+    },
+    "footing_case" : null,
+    "note" : "Direct quoted speech; states a standing practice. Could be heard as a directive to mark shelves, but as spoken it asserts how things are done.",
+    "redacted" : false
+  } ],
+  "coverage_gaps" : [ ],
+  "footing_cases" : [ {
+    "id" : "fc-1",
+    "animator" : "memo author",
+    "author" : "memo author",
+    "principal" : null,
+    "unresolved" : "The envelope names the submitter (Tina TeamMember) but does not state who composed the document, and the document does not name its composer, so whose position the editorial prose carries is unsettled.",
+    "when" : "The document's own editorial prose (headers, narration) rather than a quoted speaker's words."
+  } ],
+  "_source_sha256" : "5173ce0d903a220b9705f86ad203ba82c8dfb250768cb9581121cbc06fdec1ac"
+}
