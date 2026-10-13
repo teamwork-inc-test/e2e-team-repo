@@ -1,0 +1,17 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-2",
+    "regions" : [ "equality-matching" ],
+    "evidence" : [ {
+      "quote" : "Every pantry shelf gets a line marked at a third",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Uniform one-for-one treatment applied to every shelf; the efficiency rationale that follows is a stated benefit, not a performed cost trade, so market-pricing is the secondary tension and is not coded.",
+    "reported" : false
+  } ],
+  "mints" : [ ],
+  "region_mints" : [ ],
+  "unmarked" : [ "src-1" ],
+  "unmarked_rest" : false,
+  "_source_sha256" : "5173ce0d903a220b9705f86ad203ba82c8dfb250768cb9581121cbc06fdec1ac"
+}
