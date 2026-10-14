@@ -1,0 +1,26 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "legitimate" ],
+    "evidence" : [ {
+      "quote" : "as agreed on 1 October",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Invokes a prior agreed process as the basis for the change; authority rests on the agreement, not on the speaker's rank.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-2",
+    "regions" : [ "rational-persuasion" ],
+    "evidence" : [ {
+      "quote" : "Fifteen minutes covered the open cases but not the ones that arrived during the hand-off week",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Argues for the longer overlap from the observed shortfall of the current fifteen-minute call; evidence-based reasoning rather than insistence.",
+    "reported" : false
+  } ],
+  "unmarked" : [ ],
+  "unmarked_rest" : false,
+  "mints" : [ ],
+  "region_mints" : [ ],
+  "_source_sha256" : "e040337bd8dac8bfd179f25203dce69bc4b3fb0472b1cff5dfbd14bc8cef16c9"
+}
