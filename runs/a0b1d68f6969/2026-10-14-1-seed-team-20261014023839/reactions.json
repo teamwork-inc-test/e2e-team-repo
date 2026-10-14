@@ -1,0 +1,185 @@
+{
+  "schema_version" : 1,
+  "run_id" : "mp-eng-70d581ea",
+  "live_run_id" : "a0b1d68f6969",
+  "stream" : "e2e-662-team-20261014023839",
+  "policy" : {
+    "mode" : "on",
+    "source" : "default",
+    "version" : 1,
+    "skills" : { },
+    "lands" : { },
+    "audience" : "owner-setting",
+    "warn_per_run_usd" : 0.25,
+    "channels" : [ "email", "sms", "teams" ]
+  },
+  "gates" : [ {
+    "id" : "aswritten/clarify",
+    "run?" : false,
+    "gate" : 2,
+    "reason" : "score 0.1 < threshold 0.7",
+    "score" : 0.1,
+    "evidence" : [ "Both start on the first of November.", "The intake rota moves to fortnightly in November, with a fifteen-minute overlap call at each hand-off.", "The pantry restocks any shelf when it falls below a third full." ]
+  }, {
+    "id" : "aswritten/merge-suggest",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "skill off"
+  }, {
+    "id" : "aswritten/refract",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "skill off"
+  }, {
+    "id" : "aswritten/review-message",
+    "run?" : true,
+    "gate" : 2,
+    "reason" : "predicate only"
+  }, {
+    "id" : "aswritten/review-request",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "skill off"
+  }, {
+    "id" : "aswritten/riff",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "skill off"
+  } ],
+  "jobs" : [ {
+    "job_key" : "a0b1d68f6969:aswritten/review-message:u17592186058518",
+    "turn_attempts" : 1,
+    "n8n_execution_id" : "160773",
+    "skill" : "aswritten/review-message",
+    "landing" : {
+      "landed" : "message"
+    },
+    "recipient" : {
+      "name" : "Tanya TeamOwner",
+      "role" : "submitter",
+      "status" : "routed",
+      "channels_not" : {
+        "sms" : "no verified phone opted in to texts",
+        "teams" : "no Teams identity in the home tenant"
+      },
+      "roles" : [ "submitter" ],
+      "seated" : true,
+      "test-identity" : true,
+      "via" : [ {
+        "how" : "saved",
+        "as" : "saver"
+      } ]
+    },
+    "output" : {
+      "beats" : {
+        "we_said" : "Priya said on the 1st of October, on the team call about the intake rota and pantry: \"The intake rota moves to fortnightly in November, with a fifteen-minute overlap call at each hand-off.\" Dario Kent, on the same call, said: \"The pantry restocks any shelf when it falls below a third full.\" Priya closed the point with: \"Both start on the first of November.\"",
+        "that_changes" : "",
+        "so_now" : "The intake rota runs fortnightly from November, with a fifteen-minute call at each hand-off between holders. The pantry restocks a shelf as soon as it drops below a third full, not on a fixed day. Both begin on 1 November, and the two arrangements are now settled on the same date.",
+        "which_means" : "That suggests to me that the hand-off calls are part of the rota itself rather than an extra, so whoever takes the rota over in November needs that overlap time in their diary from the first fortnight. I read the restock rule as a trigger rather than a calendar task: nobody needs to walk the shelves on a set day, only to act when one falls under the line. If that holds, the restock check becomes something that happens when needed, which should make it cheaper to run than a weekly sweep. It also suggests the threshold is the thing to test first, before anyone builds a schedule around it.",
+        "where_does_it_end" : [ "Does the first of November fall on a fortnight boundary for the people holding the rota now, or will the first handover be a half-cycle?", "Does a third full match how the shelves are counted today, or is that measure still to be agreed?" ]
+      },
+      "email" : {
+        "subject" : "Re: Intake rota and pantry, from 1 October",
+        "body" : "Priya said on the 1st of October, on the team call about the intake rota and pantry: \"The intake rota moves to fortnightly in November, with a fifteen-minute overlap call at each hand-off.\" Dario Kent, on the same call, said: \"The pantry restocks any shelf when it falls below a third full.\" Priya closed the point with: \"Both start on the first of November.\"\n\nSo now: the intake rota runs fortnightly from November, with a fifteen-minute call at each hand-off between holders. The pantry restocks a shelf as soon as it drops below a third full, not on a fixed day. Both begin on 1 November, and the two arrangements are now settled on the same date.\n\nThat suggests to me that the hand-off calls are part of the rota itself rather than an extra, so whoever takes the rota over in November needs that overlap time in their diary from the first fortnight. I read the restock rule as a trigger rather than a calendar task: nobody needs to walk the shelves on a set day, only to act when one falls under the line. If that holds, the restock check becomes something that happens when needed, which should make it cheaper to run than a weekly sweep. It also suggests the threshold is the thing to test first, before anyone builds a schedule around it.\n\nTwo things this leaves open. Does the first of November fall on a fortnight boundary for the people holding the rota now, or will the first handover be a half-cycle? And does a third full match how the shelves are counted today, or is that measure still to be agreed?\n\nThe conversation, with everyone's words: https://dev.api.aswritten.ai/live/conversation/2026-10-14-1-seed-team-20261014023839"
+      },
+      "self_check" : {
+        "forbidden_words_outside_quotes" : [ ],
+        "quotations_verified_exact" : true,
+        "question_count" : {
+          "chat" : 0,
+          "email" : 2
+        }
+      }
+    },
+    "status" : "ok",
+    "gate" : { },
+    "length_stops" : 0,
+    "plan_id" : "reaction:a0b1d68f6969:review-message:b1c8f7e40243",
+    "pass" : "reaction:review-message",
+    "ms" : 83620,
+    "cite" : {
+      "email" : {
+        "claims" : 7,
+        "citations" : 3
+      }
+    },
+    "reask" : {
+      "attempted" : false,
+      "withheld" : false
+    },
+    "model" : "anthropic/claude-haiku-5.5"
+  } ],
+  "spend" : {
+    "cost_usd" : 0.02131,
+    "passes" : [ {
+      "pass" : "reaction:_score",
+      "llm_calls" : 1,
+      "cost_usd" : 0.00311025,
+      "null_cost_calls" : 0
+    }, {
+      "pass" : "reaction:review-message",
+      "llm_calls" : 2,
+      "cost_usd" : 0.00852438,
+      "null_cost_calls" : 0
+    }, {
+      "pass" : "reaction:review-message:cite",
+      "llm_calls" : 3,
+      "cost_usd" : 0.00967542,
+      "null_cost_calls" : 0
+    } ]
+  },
+  "bundle" : {
+    "items" : 1,
+    "recipients" : 1,
+    "sent" : [ {
+      "items" : [ {
+        "kind" : "reaction",
+        "skill" : "aswritten/review-message",
+        "audience" : "touched"
+      } ],
+      "handle" : "tanya+staging@aswritten.ai",
+      "channel" : "email",
+      "recipient" : "Tanya TeamOwner",
+      "h" : "09fcdb5f3d:aswritten/review-message",
+      "status" : "skipped: test identity"
+    } ]
+  },
+  "counters" : { },
+  "at" : "2026-10-14T02:42:11.933147265Z",
+  "context" : {
+    "roster" : [ {
+      "name" : "Tanya TeamOwner",
+      "role" : "submitter",
+      "status" : "routed",
+      "channels_not" : {
+        "sms" : "no verified phone opted in to texts",
+        "teams" : "no Teams identity in the home tenant"
+      },
+      "roles" : [ "submitter" ],
+      "seated" : true,
+      "test-identity" : true,
+      "via" : [ {
+        "how" : "saved",
+        "as" : "saver"
+      } ]
+    } ],
+    "inputs" : {
+      "we_said" : 3,
+      "new_positions" : 1,
+      "touches" : 0,
+      "threads" : 1,
+      "reaches" : 0
+    },
+    "navigation" : {
+      "source" : "engine",
+      "context_chars" : 2912
+    }
+  },
+  "scorer" : {
+    "attempts" : [ {
+      "disposition" : "ok",
+      "elapsed_ms" : 13273,
+      "content_chars" : 554
+    } ]
+  }
+}
