@@ -1,0 +1,349 @@
+{
+  "schema_version" : 1,
+  "run_id" : "mp-eng-d6f4a270",
+  "live_run_id" : "edd58a5cf787",
+  "stream" : "e2e-662-team-20261014023839",
+  "policy" : {
+    "mode" : "on",
+    "source" : "default",
+    "version" : 1,
+    "skills" : { },
+    "lands" : { },
+    "audience" : "owner-setting",
+    "warn_per_run_usd" : 0.25,
+    "channels" : [ "email", "sms", "teams" ]
+  },
+  "gates" : [ {
+    "id" : "aswritten/clarify",
+    "run?" : false,
+    "gate" : 2,
+    "reason" : "score 0.05 < threshold 0.7",
+    "score" : 0.05,
+    "evidence" : [ "Flat, unhedged assertion of a plan with no ratification or commitment language; decision requires the document to perform the settling, which it does not, so the lower claim reading holds.", "Speaker label 'Priya:' included in span as attribution; the quoted statement is Priya's own words, unified voice.", "Priya: \"The intake desk gets a printed sign with the rota dates from November.\"" ]
+  }, {
+    "id" : "aswritten/merge-suggest",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "skill off"
+  }, {
+    "id" : "aswritten/refract",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "skill off"
+  }, {
+    "id" : "aswritten/review-message",
+    "run?" : true,
+    "gate" : 2,
+    "reason" : "predicate only"
+  }, {
+    "id" : "aswritten/review-request",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "skill off"
+  }, {
+    "id" : "aswritten/riff",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "skill off"
+  } ],
+  "jobs" : [ {
+    "job_key" : "edd58a5cf787:aswritten/review-message:u17592186058518",
+    "turn_attempts" : 1,
+    "n8n_execution_id" : "160929",
+    "skill" : "aswritten/review-message",
+    "landing" : {
+      "landed" : "message"
+    },
+    "recipient" : {
+      "name" : "Tanya TeamOwner",
+      "role" : "submitter",
+      "status" : "routed",
+      "channels_not" : {
+        "sms" : "no verified phone opted in to texts",
+        "teams" : "no Teams identity in the home tenant"
+      },
+      "roles" : [ "submitter" ],
+      "seated" : true,
+      "test-identity" : true,
+      "via" : [ {
+        "how" : "saved",
+        "as" : "saver"
+      } ]
+    },
+    "cite_missing" : [ "email" ],
+    "output" : {
+      "beats" : {
+        "we_said" : "Priya said on Friday, at the intake signage session: \"The intake desk gets a printed sign with the rota dates from November.\"",
+        "that_changes" : "That adds to what Priya said on 1 October, in the intake rota and pantry call: \"Both start on the first of November.\" It also adds to the Claude session's note of 13 October, which says \"The intake rota stays fortnightly, as agreed on 1 October, but the overlap call at each hand-off grows from fifteen to thirty minutes.\" Tina TeamMember will hear about this too.",
+        "so_now" : "The rota stays fortnightly, with a thirty-minute overlap call at each hand-off. The pantry restocks at a third full, except oats and rice, which restock at half full. Both start on 1 November, and the intake desk gets a printed sign with the rota dates. You carry the rota and restocking routines.",
+        "which_means" : "My read is that the sign is now real work with a date attached, and it has to be up before the rota starts on 1 November. That suggests to me the rota dates need fixing before anyone prints the sign, since the fortnightly cycle sets them. I also read the oats and rice change as meaning those two shelves will need checking more often, because a third full is less than a day of stock on a Friday. If that holds, the Friday check is the one to watch.",
+        "where_does_it_end" : [ "Does the sign have to go up on 1 November, or can it follow the first rota?", "Does the half-full rule for oats and rice hold for the whole intake week?", "Does the thirty-minute overlap change how many people are on the desk at once?" ]
+      },
+      "email" : {
+        "subject" : "Re: Intake desk signage, from 9 October",
+        "body" : "Priya said on Friday, at the intake signage session: \"The intake desk gets a printed sign with the rota dates from November.\"\n\nThat adds to what Priya said on 1 October, in the intake rota and pantry call: \"Both start on the first of November.\" It also adds to the Claude session's note of 13 October, which says \"The intake rota stays fortnightly, as agreed on 1 October, but the overlap call at each hand-off grows from fifteen to thirty minutes.\" Tina TeamMember will hear about this too.\n\nSo now the rota stays fortnightly, with a thirty-minute overlap call at each hand-off. The pantry restocks at a third full, except oats and rice, which restock at half full. Both start on 1 November, and the intake desk gets a printed sign with the rota dates. You carry the rota and restocking routines.\n\nMy read is that the sign is now real work with a date attached, and it has to be up before the rota starts on 1 November. That suggests to me the rota dates need fixing before anyone prints the sign, since the fortnightly cycle sets them. I also read the oats and rice change as meaning those two shelves will need checking more often, because a third full is less than a day of stock on a Friday. If that holds, the Friday check is the one to watch.\n\nDoes the sign have to go up on 1 November, or can it follow the first rota? Does the half-full rule for oats and rice hold for the whole intake week? Does the thirty-minute overlap change how many people are on the desk at once?\n\nThe conversation, with everyone's words: https://dev.api.aswritten.ai/live/conversation/2026-10-14-4-carrier-tanya-20261014023839"
+      },
+      "self_check" : {
+        "forbidden_words_outside_quotes" : [ ],
+        "quotations_verified_exact" : true,
+        "question_count" : {
+          "chat" : 0,
+          "email" : 3
+        }
+      }
+    },
+    "status" : "ok",
+    "gate" : { },
+    "length_stops" : 0,
+    "plan_id" : "reaction:edd58a5cf787:review-message:2e81034b47a1",
+    "pass" : "reaction:review-message",
+    "ms" : 263464,
+    "reask" : {
+      "attempted" : false,
+      "withheld" : false
+    },
+    "model" : "anthropic/claude-haiku-5.5"
+  }, {
+    "job_key" : "edd58a5cf787:aswritten/review-message:u17592186058524",
+    "turn_attempts" : 1,
+    "n8n_execution_id" : "160930",
+    "skill" : "aswritten/review-message",
+    "landing" : {
+      "landed" : "message"
+    },
+    "recipient" : {
+      "name" : "Tina TeamMember",
+      "role" : "touched",
+      "status" : "routed",
+      "channels_not" : {
+        "sms" : "no verified phone opted in to texts",
+        "teams" : "no Teams identity in the home tenant"
+      },
+      "roles" : [ "touched" ],
+      "seated" : true,
+      "test-identity" : true,
+      "via" : [ {
+        "how" : "recon",
+        "relation" : "extends",
+        "statement" : "Expr_20261014_3_F8SelfAuthor20261014023839_ha9381ebd81d0_1",
+        "as" : "relayed",
+        "position" : "Position_IntakePantryNovemberRoutines"
+      }, {
+        "how" : "attach",
+        "relation" : "attaches",
+        "statement" : "Expr_20261014_3_F8SelfAuthor20261014023839_ha9381ebd81d0_1",
+        "as" : "relayed",
+        "position" : "Position_IntakePantryNovemberRoutines"
+      } ]
+    },
+    "output" : {
+      "beats" : {
+        "we_said" : "Priya said on October 9, in the intake signage note: \"The intake desk gets a printed sign with the rota dates from November.\" That is a plain statement that the desk will have a printed sign showing November's dates.",
+        "that_changes" : "It adds to what you said today, in the pantry thresholds note: \"The one-third restock threshold from the 1 October call stays for every shelf except oats and rice, which now restock at half full.\" Tanya TeamOwner will hear about this too.",
+        "so_now" : "The intake desk gets a printed sign with the rota dates from November. The rota stays fortnightly, with the hand-off overlap call now thirty minutes rather than fifteen, and both start on the first of November. Oats and rice restock at half full; the other shelves still restock below a third. Tanya carries the rota and restocking routines.",
+        "which_means" : "I read that as the sign being new work rather than something already in hand: it has to be printed, dated and kept in step with the rota. That suggests to me the blanket third-full rule no longer covers oats and rice, so anyone restocking by the old rule would run those two short on a Friday. If that holds, the one-third line is now a rule for most shelves, not all.",
+        "where_does_it_end" : [ "Does a third full still hold on a Friday for the other shelves?", "Who prints the sign, and does it go up before the first of November?" ]
+      },
+      "email" : {
+        "subject" : "Re: Intake desk sign, from October 9",
+        "body" : "Priya said on October 9, in the intake signage note: \"The intake desk gets a printed sign with the rota dates from November.\" That is a plain statement that the desk will have a printed sign showing November's dates.\n\nIt adds to what you said today, in the pantry thresholds note: \"The one-third restock threshold from the 1 October call stays for every shelf except oats and rice, which now restock at half full.\" Tanya TeamOwner will hear about this too.\n\nThe intake desk gets a printed sign with the rota dates from November. The rota stays fortnightly, with the hand-off overlap call now thirty minutes rather than fifteen, and both start on the first of November. Oats and rice restock at half full; the other shelves still restock below a third. Tanya carries the rota and restocking routines.\n\nI read that as the sign being new work rather than something already in hand: it has to be printed, dated and kept in step with the rota. That suggests to me the blanket third-full rule no longer covers oats and rice, so anyone restocking by the old rule would run those two short on a Friday. If that holds, the one-third line is now a rule for most shelves, not all.\n\nDoes a third full still hold on a Friday for the other shelves? Who prints the sign, and does it go up before the first of November?\n\nThe conversation, with everyone's words: https://dev.api.aswritten.ai/live/conversation/2026-10-14-4-carrier-tanya-20261014023839"
+      },
+      "self_check" : {
+        "forbidden_words_outside_quotes" : [ ],
+        "quotations_verified_exact" : true,
+        "question_count" : {
+          "chat" : 0,
+          "email" : 2
+        }
+      }
+    },
+    "status" : "ok",
+    "gate" : { },
+    "length_stops" : 0,
+    "plan_id" : "reaction:edd58a5cf787:review-message:004886e34791",
+    "pass" : "reaction:review-message",
+    "ms" : 215805,
+    "cite" : {
+      "email" : {
+        "claims" : 11,
+        "citations" : 5
+      }
+    },
+    "reask" : {
+      "attempted" : false,
+      "withheld" : false
+    },
+    "model" : "anthropic/claude-haiku-5.5"
+  } ],
+  "spend" : {
+    "cost_usd" : 0.099474,
+    "passes" : [ {
+      "pass" : "reaction:_score",
+      "llm_calls" : 1,
+      "cost_usd" : 0.0030275,
+      "null_cost_calls" : 0
+    }, {
+      "pass" : "reaction:review-message",
+      "llm_calls" : 6,
+      "cost_usd" : 0.030580459999999997,
+      "null_cost_calls" : 0
+    }, {
+      "pass" : "reaction:review-message:cite",
+      "llm_calls" : 13,
+      "cost_usd" : 0.0658657,
+      "null_cost_calls" : 0
+    } ]
+  },
+  "bundle" : {
+    "items" : 2,
+    "recipients" : 2,
+    "sent" : [ {
+      "items" : [ {
+        "kind" : "reaction",
+        "skill" : "aswritten/review-message",
+        "audience" : "touched"
+      } ],
+      "handle" : "tanya+staging@aswritten.ai",
+      "channel" : "email",
+      "recipient" : "Tanya TeamOwner",
+      "h" : "09fcdb5f3d:aswritten/review-message",
+      "status" : "skipped: test identity"
+    }, {
+      "items" : [ {
+        "kind" : "reaction",
+        "skill" : "aswritten/review-message",
+        "audience" : "touched"
+      } ],
+      "handle" : "tina+staging@aswritten.ai",
+      "channel" : "email",
+      "recipient" : "Tina TeamMember",
+      "h" : "fffa72bca7:aswritten/review-message",
+      "status" : "skipped: test identity"
+    } ]
+  },
+  "counters" : { },
+  "at" : "2026-10-14T02:57:25.829500438Z",
+  "context" : {
+    "roster" : [ {
+      "name" : "Tanya TeamOwner",
+      "role" : "submitter",
+      "status" : "routed",
+      "channels_not" : {
+        "sms" : "no verified phone opted in to texts",
+        "teams" : "no Teams identity in the home tenant"
+      },
+      "roles" : [ "submitter" ],
+      "seated" : true,
+      "test-identity" : true,
+      "via" : [ {
+        "how" : "saved",
+        "as" : "saver"
+      } ]
+    }, {
+      "name" : "Priya Holm",
+      "role" : "touched",
+      "status" : "no-account",
+      "roles" : [ "touched" ],
+      "reason" : "no account linked to this speaker",
+      "via" : [ {
+        "how" : "recon",
+        "relation" : "extends",
+        "statement" : "Expr_20261014_1_SeedTeam20261014023839_hc0b2a2f5be60_3",
+        "as" : "speaker",
+        "position" : "Position_IntakePantryNovemberRoutines"
+      }, {
+        "how" : "attach",
+        "relation" : "attaches",
+        "statement" : "Expr_20261014_1_SeedTeam20261014023839_hc0b2a2f5be60_3",
+        "as" : "speaker",
+        "position" : "Position_IntakePantryNovemberRoutines"
+      } ]
+    }, {
+      "name" : "the Claude session (claude-opus-5-5)",
+      "role" : "touched",
+      "status" : "no-channel",
+      "roles" : [ "touched" ],
+      "ai" : true,
+      "reason" : "no channel (an AI session)",
+      "via" : [ {
+        "how" : "recon",
+        "relation" : "extends",
+        "statement" : "Expr_20261014_2_F7Unsigned20261014023839_he3446c5a6c8b_1",
+        "as" : "speaker",
+        "position" : "Position_IntakePantryNovemberRoutines"
+      }, {
+        "how" : "recon",
+        "relation" : "extends",
+        "statement" : "Expr_20261014_2_F7Unsigned20261014023839_he3446c5a6c8b_2",
+        "as" : "speaker",
+        "position" : "Position_IntakePantryNovemberRoutines"
+      }, {
+        "how" : "recon",
+        "relation" : "extends",
+        "statement" : "Expr_20261014_3_F8SelfAuthor20261014023839_ha9381ebd81d0_1",
+        "as" : "speaker",
+        "position" : "Position_IntakePantryNovemberRoutines"
+      }, {
+        "how" : "attach",
+        "relation" : "attaches",
+        "statement" : "Expr_20261014_2_F7Unsigned20261014023839_he3446c5a6c8b_1",
+        "as" : "speaker",
+        "position" : "Position_IntakePantryNovemberRoutines"
+      }, {
+        "how" : "attach",
+        "relation" : "attaches",
+        "statement" : "Expr_20261014_2_F7Unsigned20261014023839_he3446c5a6c8b_2",
+        "as" : "speaker",
+        "position" : "Position_IntakePantryNovemberRoutines"
+      }, {
+        "how" : "attach",
+        "relation" : "attaches",
+        "statement" : "Expr_20261014_3_F8SelfAuthor20261014023839_ha9381ebd81d0_1",
+        "as" : "speaker",
+        "position" : "Position_IntakePantryNovemberRoutines"
+      } ]
+    }, {
+      "name" : "Tina TeamMember",
+      "role" : "touched",
+      "status" : "routed",
+      "channels_not" : {
+        "sms" : "no verified phone opted in to texts",
+        "teams" : "no Teams identity in the home tenant"
+      },
+      "roles" : [ "touched" ],
+      "seated" : true,
+      "test-identity" : true,
+      "via" : [ {
+        "how" : "recon",
+        "relation" : "extends",
+        "statement" : "Expr_20261014_3_F8SelfAuthor20261014023839_ha9381ebd81d0_1",
+        "as" : "relayed",
+        "position" : "Position_IntakePantryNovemberRoutines"
+      }, {
+        "how" : "attach",
+        "relation" : "attaches",
+        "statement" : "Expr_20261014_3_F8SelfAuthor20261014023839_ha9381ebd81d0_1",
+        "as" : "relayed",
+        "position" : "Position_IntakePantryNovemberRoutines"
+      } ]
+    } ],
+    "inputs" : {
+      "we_said" : 1,
+      "new_positions" : 0,
+      "touches" : 8,
+      "threads" : 1,
+      "reaches" : 1
+    },
+    "navigation" : {
+      "source" : "engine",
+      "context_chars" : 16868
+    }
+  },
+  "scorer" : {
+    "attempts" : [ {
+      "disposition" : "ok",
+      "elapsed_ms" : 21333,
+      "content_chars" : 756
+    } ]
+  }
+}
