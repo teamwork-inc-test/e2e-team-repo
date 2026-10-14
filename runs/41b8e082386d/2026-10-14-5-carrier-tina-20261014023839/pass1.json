@@ -1,0 +1,43 @@
+{
+  "doc" : {
+    "title" : "Pantry shelf marks — 2026-10-09",
+    "date_stated" : "2026-10-09",
+    "actors_present" : [ "Dario Kent" ]
+  },
+  "segments" : [ {
+    "local_id" : "src-1",
+    "exact" : "**Participants:** Dario Kent (Pantry Lead)",
+    "actor" : "memo author",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Document header recording who participated"
+    },
+    "note" : null,
+    "footing_case" : "fc-1",
+    "footing" : {
+      "animator" : "memo author",
+      "author" : "memo author",
+      "principal" : null
+    }
+  }, {
+    "local_id" : "src-2",
+    "exact" : "Dario: \"Every pantry shelf gets a line marked at a third, so restocking is a glance, not a count.\"",
+    "actor" : "Dario Kent",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Pantry shelf marking practice"
+    },
+    "note" : "Direct quoted speech; describes an established practice rather than issuing an instruction",
+    "footing_case" : null
+  } ],
+  "coverage_gaps" : [ ],
+  "footing_cases" : [ {
+    "id" : "fc-1",
+    "animator" : "memo author",
+    "author" : "memo author",
+    "principal" : null,
+    "unresolved" : "The envelope names only the submitter (Tina TeamMember) and does not state who composed the document, so the editorial prose's principal is unset.",
+    "when" : "The document's own editorial prose — header lines and narration not inside a participant's quote."
+  } ],
+  "_source_sha256" : "5173ce0d903a220b9705f86ad203ba82c8dfb250768cb9581121cbc06fdec1ac"
+}
