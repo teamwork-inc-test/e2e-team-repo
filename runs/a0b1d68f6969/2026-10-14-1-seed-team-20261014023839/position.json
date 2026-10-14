@@ -1,0 +1,13 @@
+{
+  "positions" : [ {
+    "name" : "IntakePantryNovemberRoutines",
+    "frame" : "how will the intake rota and the pantry restocking routine run, and from when do they take effect?",
+    "members" : [ "src-1", "src-2", "src-3" ],
+    "why" : "Priya's rota change (fortnightly, with a fifteen-minute overlap call at each hand-off) and Dario's restock rule (any shelf below a third full) are both operating routines for the same team. Priya's 'Both start on the first of November' ties the two into one start date. The set holds one frame: how the routines run and when they begin. The rota is a planned change and the restock rule is a standing one, but the shared start date reads them together without tension.",
+    "lineage" : null
+  } ],
+  "attaches" : [ ],
+  "position_revisions" : [ ],
+  "ungrouped" : [ ],
+  "_source_sha256" : "33334968fe34c87719682c0567426876d98b442189d1cbf1cacbe6ef13bcbb39"
+}
