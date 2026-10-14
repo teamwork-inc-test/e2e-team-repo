@@ -1,0 +1,26 @@
+{
+  "placements" : [ {
+    "verdict" : "reuse",
+    "leaf" : "Narrative_RoutinesRunOnSetCadence",
+    "supporting_positions" : [ "Position_IntakePantryNovemberRoutines" ],
+    "why" : "Dario's shelf-line rule is a mechanic of the pantry restocking routine, which this leaf already holds as a routine running on a set threshold. The position that carries it already sits under this leaf.",
+    "consulted" : [ "Narrative_RoutinesRunOnSetCadence", "Narrative_AntiSlackPositioning", "Narrative_DecisionCaptureAtConsensus", "Narrative_DecisionsEvaporate" ]
+  } ],
+  "unplaced" : [ "src-1" ],
+  "weighed" : [ ],
+  "strata" : {
+    "mints" : [ ],
+    "connections" : [ {
+      "member" : "Narrative_RoutinesRunOnSetCadence",
+      "strata" : [ "RotaAndRestockRoutines" ],
+      "why" : "The leaf is already the narrative of the recurring routines this stratum groups, and this document adds one more restocking mechanic to it."
+    }, {
+      "member" : "Position_IntakePantryNovemberRoutines",
+      "strata" : [ "RotaAndRestockRoutines" ],
+      "why" : "The position acted on here, the pantry restocking threshold marked on shelves, belongs with the rota and restock operating cadence."
+    } ],
+    "disconnections" : [ ],
+    "unconnected" : [ ]
+  },
+  "_source_sha256" : "5173ce0d903a220b9705f86ad203ba82c8dfb250768cb9581121cbc06fdec1ac"
+}
