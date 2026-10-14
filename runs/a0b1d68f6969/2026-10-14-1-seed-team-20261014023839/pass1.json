@@ -1,0 +1,44 @@
+{
+  "doc" : {
+    "title" : "Intake rota and pantry — team call 2026-10-01",
+    "date_stated" : "2026-10-01",
+    "actors_present" : [ "Priya Holm", "Dario Kent" ]
+  },
+  "segments" : [ {
+    "local_id" : "src-1",
+    "exact" : "Priya: \"The intake rota moves to fortnightly in November, with a fifteen-minute overlap call at each hand-off.\"",
+    "actor" : "Priya Holm",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Team call 2026-10-01, intake rota discussion"
+    },
+    "footing_case" : null
+  }, {
+    "local_id" : "src-2",
+    "exact" : "Dario: \"The pantry restocks any shelf when it falls below a third full.\"",
+    "actor" : "Dario Kent",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Team call 2026-10-01, pantry discussion"
+    },
+    "footing_case" : null
+  }, {
+    "local_id" : "src-3",
+    "exact" : "Priya: \"Both start on the first of November.\"",
+    "actor" : "Priya Holm",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Team call 2026-10-01, closing note on start dates"
+    },
+    "footing_case" : null
+  } ],
+  "coverage_gaps" : [ {
+    "reason" : "YAML frontmatter (reviewers) — structural scaffolding, not a speech act",
+    "span_hint" : "reviewers:"
+  }, {
+    "reason" : "Participants line — structural metadata, not a speech act",
+    "span_hint" : "**Participants:** Priya Holm"
+  } ],
+  "footing_cases" : [ ],
+  "_source_sha256" : "33334968fe34c87719682c0567426876d98b442189d1cbf1cacbe6ef13bcbb39"
+}
