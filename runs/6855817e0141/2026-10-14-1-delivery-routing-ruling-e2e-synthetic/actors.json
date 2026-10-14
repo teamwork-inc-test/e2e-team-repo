@@ -1,0 +1,34 @@
+{
+  "bindings" : [ {
+    "name" : "memo author",
+    "verdict" : "mint",
+    "label" : "Tanya TeamOwner",
+    "why" : "Generic role phrase for the memo's author; the envelope submitter is Tanya TeamOwner, the only participant, so it denotes her. No existing actors, so mint under the same label.",
+    "ai" : false
+  }, {
+    "name" : "Tanya",
+    "verdict" : "mint",
+    "label" : "Tanya TeamOwner",
+    "why" : "Bare first name; the sole participant is Tanya TeamOwner, so it resolves to her. Mint with the identical fuller label so it converges.",
+    "ai" : false
+  }, {
+    "name" : "Tina",
+    "verdict" : "mint",
+    "label" : "Tina (delivery routing memo)",
+    "why" : "Bare first name, different from Tanya, with no fuller form anywhere and no existing actor; mint with context disambiguation rather than merge on a guess.",
+    "ai" : false
+  }, {
+    "name" : "Tanya TeamOwner",
+    "verdict" : "mint",
+    "label" : "Tanya TeamOwner",
+    "why" : "Full name from submitted_by; no existing actors on an empty graph.",
+    "ai" : false
+  }, {
+    "name" : "tanya+staging@aswritten.ai",
+    "verdict" : "mint",
+    "label" : "Tanya TeamOwner",
+    "why" : "Account email belongs to the person-named submitted_by Tanya TeamOwner; carry her name as label, not the email.",
+    "ai" : false
+  } ],
+  "_source_sha256" : "ba05ea0158d2bb5ae030ad5d571477370ce49537407437eea6eb9df45ec14eb7"
+}
