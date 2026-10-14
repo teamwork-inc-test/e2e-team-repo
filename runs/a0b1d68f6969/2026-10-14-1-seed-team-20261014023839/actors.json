@@ -1,0 +1,32 @@
+{
+  "bindings" : [ {
+    "name" : "Priya Holm",
+    "verdict" : "mint",
+    "target" : null,
+    "label" : "Priya Holm",
+    "why" : "No existing actors; full name witnessed, so mint.",
+    "ai" : false
+  }, {
+    "name" : "Dario Kent",
+    "verdict" : "mint",
+    "target" : null,
+    "label" : "Dario Kent",
+    "why" : "No existing actors; full name witnessed, so mint.",
+    "ai" : false
+  }, {
+    "name" : "Tanya TeamOwner",
+    "verdict" : "mint",
+    "target" : null,
+    "label" : "Tanya TeamOwner",
+    "why" : "No existing actors; submitted_by is a person's name, so mint under that name.",
+    "ai" : false
+  }, {
+    "name" : "tanya+staging@aswritten.ai",
+    "verdict" : "mint",
+    "target" : null,
+    "label" : "Tanya TeamOwner",
+    "why" : "Account email belongs to submitted_by Tanya TeamOwner; same person, so mint with the identical label rather than an email label.",
+    "ai" : false
+  } ],
+  "_source_sha256" : "33334968fe34c87719682c0567426876d98b442189d1cbf1cacbe6ef13bcbb39"
+}
