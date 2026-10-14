@@ -1,0 +1,221 @@
+{
+  "schema_version" : 1,
+  "run_id" : "mp-eng-5f6b5417",
+  "live_run_id" : "6855817e0141",
+  "stream" : "main",
+  "policy" : {
+    "mode" : "on",
+    "source" : "default",
+    "version" : 1,
+    "skills" : { },
+    "lands" : { },
+    "audience" : "owner-setting",
+    "warn_per_run_usd" : 0.25,
+    "channels" : [ "email", "sms", "teams" ]
+  },
+  "gates" : [ {
+    "id" : "aswritten/clarify",
+    "run?" : true,
+    "gate" : 2,
+    "score" : 0.75,
+    "evidence" : [ "Editorial narration of the rejected alternative; no marker attributes it to a named actor.", "aswr:qualityFlag \"principal:unresolved\"", "narr:Expr_20261014_1_DeliveryRoutingRulingE2ESynthetic_h35df0a073f45_5 narr:supports narr:Position_ReactionDeliveryRoutingBundle", "Quote-frame introducing the adjacent verbatim quote; stays composer-editorial, the quote carries the voice." ],
+    "why" : "Two prose statements are flagged principal:unresolved, and the unattributed rejected-alternative narration — which the record itself notes has no attributed actor — directly supports the minted position, so the one open question (whose position that prose states) is squarely the attribution case clarify exists for, tempered only by the position's core being independently grounded in Tanya's attributed ruling."
+  }, {
+    "id" : "aswritten/merge-suggest",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "skill off"
+  }, {
+    "id" : "aswritten/refract",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "skill off"
+  }, {
+    "id" : "aswritten/review-message",
+    "run?" : true,
+    "gate" : 2,
+    "reason" : "predicate only"
+  }, {
+    "id" : "aswritten/review-request",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "skill off"
+  }, {
+    "id" : "aswritten/riff",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "skill off"
+  } ],
+  "jobs" : [ {
+    "job_key" : "6855817e0141:aswritten/clarify:u17592186058518",
+    "turn_attempts" : 1,
+    "n8n_execution_id" : "161001",
+    "skill" : "aswritten/clarify",
+    "landing" : {
+      "landed" : "message"
+    },
+    "recipient" : {
+      "name" : "Tanya TeamOwner",
+      "role" : "submitter",
+      "status" : "routed",
+      "channels_not" : {
+        "sms" : "no verified phone opted in to texts",
+        "teams" : "no Teams identity in the home tenant"
+      },
+      "roles" : [ "submitter" ],
+      "seated" : true,
+      "test-identity" : true,
+      "via" : [ {
+        "how" : "saved",
+        "as" : "saver"
+      } ]
+    },
+    "reason" : "The memory resolves its open points in the same passage: Tanya holds that the bundle closes when the run closes, and a skill that misses the close waits for the next run. Tina's pushback is recorded as dissent, not as an unresolved reading, and no term, date, or number was left for the record to guess at.",
+    "status" : "silent",
+    "gate" : {
+      "score" : 0.75,
+      "evidence" : [ "Editorial narration of the rejected alternative; no marker attributes it to a named actor.", "aswr:qualityFlag \"principal:unresolved\"", "narr:Expr_20261014_1_DeliveryRoutingRulingE2ESynthetic_h35df0a073f45_5 narr:supports narr:Position_ReactionDeliveryRoutingBundle", "Quote-frame introducing the adjacent verbatim quote; stays composer-editorial, the quote carries the voice." ],
+      "why" : "Two prose statements are flagged principal:unresolved, and the unattributed rejected-alternative narration — which the record itself notes has no attributed actor — directly supports the minted position, so the one open question (whose position that prose states) is squarely the attribution case clarify exists for, tempered only by the position's core being independently grounded in Tanya's attributed ruling."
+    },
+    "length_stops" : 0,
+    "plan_id" : "reaction:6855817e0141:clarify:dd0c4cbf015f",
+    "pass" : "reaction:clarify",
+    "ms" : 5672,
+    "model" : "anthropic/claude-haiku-5.5"
+  }, {
+    "job_key" : "6855817e0141:aswritten/review-message:u17592186058518",
+    "turn_attempts" : 1,
+    "n8n_execution_id" : "161000",
+    "skill" : "aswritten/review-message",
+    "landing" : {
+      "landed" : "message"
+    },
+    "recipient" : {
+      "name" : "Tanya TeamOwner",
+      "role" : "submitter",
+      "status" : "routed",
+      "channels_not" : {
+        "sms" : "no verified phone opted in to texts",
+        "teams" : "no Teams identity in the home tenant"
+      },
+      "roles" : [ "submitter" ],
+      "seated" : true,
+      "test-identity" : true,
+      "via" : [ {
+        "how" : "saved",
+        "as" : "saver"
+      } ]
+    },
+    "cite_missing" : [ "email" ],
+    "output" : {
+      "beats" : {
+        "we_said" : "You said today, in the delivery routing ruling: \"we route every reaction through one bundle per run per person, not one message per skill — a person should get one thing to read, not four.\"",
+        "that_changes" : "The same memo has Tina pushing back on the batching window, and you held: \"the bundle closes when the run closes, and a skill that misses the close waits for the next run rather than sending on its own.\" The memo also records the rejected alternative, per-skill delivery with client-side collapsing, which \"moves the ordering problem onto the reader.\"",
+        "so_now" : "A person gets one bundle per run, and that bundle closes with the run. A skill that misses the close waits for the next run instead of sending its own message. Per-skill delivery is set aside. Tina's objection to the batching window is still in the memo, and nothing in it has been answered yet.",
+        "which_means" : "My read is that anyone who expected separate sends from each skill should now expect one bundle, and that anything built around per-skill messages no longer has to be built. That suggests to me that a skill which misses the close will look late to the reader. If that holds, the ordering work stays with us and not with the person reading.",
+        "where_does_it_end" : [ "Does that hold for the batching window Tina raised, or is her concern still open?", "How long can a skill wait for the next run before anyone notices the gap?" ]
+      },
+      "email" : {
+        "subject" : "Re: Reaction delivery bundling, from today",
+        "body" : "You said today, in the delivery routing ruling: \"we route every reaction through one bundle per run per person, not one message per skill — a person should get one thing to read, not four.\" The same memo has Tina pushing back on the batching window, and you held: \"the bundle closes when the run closes, and a skill that misses the close waits for the next run rather than sending on its own.\" The memo also records the rejected alternative, per-skill delivery with client-side collapsing, which \"moves the ordering problem onto the reader.\"\n\nSo now a person gets one bundle per run, and that bundle closes with the run. A skill that misses the close waits for the next run instead of sending its own message. Per-skill delivery is set aside. Tina's objection to the batching window is still in the memo, and nothing in it has been answered yet.\n\nMy read is that anyone who expected separate sends from each skill should now expect one bundle, and that anything built around per-skill messages no longer has to be built. That suggests to me that a skill which misses the close will look late to the reader. If that holds, the ordering work stays with us and not with the person reading.\n\nDoes that hold for the batching window Tina raised, or is her concern still open? How long can a skill wait for the next run before anyone notices the gap?\n\nThe conversation, with everyone's words: https://dev.api.aswritten.ai/live/conversation/2026-10-14-1-delivery-routing-ruling-e2e-synthetic"
+      },
+      "self_check" : {
+        "forbidden_words_outside_quotes" : [ ],
+        "quotations_verified_exact" : true,
+        "question_count" : {
+          "chat" : 0,
+          "email" : 2
+        }
+      }
+    },
+    "status" : "ok",
+    "gate" : { },
+    "length_stops" : 0,
+    "plan_id" : "reaction:6855817e0141:review-message:8aed2f41368b",
+    "pass" : "reaction:review-message",
+    "ms" : 288869,
+    "reask" : {
+      "attempted" : false,
+      "withheld" : false
+    },
+    "model" : "anthropic/claude-haiku-5.5"
+  } ],
+  "spend" : {
+    "cost_usd" : 0.076554,
+    "passes" : [ {
+      "pass" : "reaction:_score",
+      "llm_calls" : 1,
+      "cost_usd" : 0.00671465,
+      "null_cost_calls" : 0
+    }, {
+      "pass" : "reaction:clarify",
+      "llm_calls" : 1,
+      "cost_usd" : 0.0114806,
+      "null_cost_calls" : 0
+    }, {
+      "pass" : "reaction:review-message",
+      "llm_calls" : 3,
+      "cost_usd" : 0.015280100000000001,
+      "null_cost_calls" : 0
+    }, {
+      "pass" : "reaction:review-message:cite",
+      "llm_calls" : 33,
+      "cost_usd" : 0.043078699999999984,
+      "null_cost_calls" : 0
+    } ]
+  },
+  "bundle" : {
+    "items" : 1,
+    "recipients" : 1,
+    "sent" : [ {
+      "items" : [ {
+        "kind" : "reaction",
+        "skill" : "aswritten/review-message",
+        "audience" : "touched"
+      } ],
+      "handle" : "tanya+staging@aswritten.ai",
+      "channel" : "email",
+      "recipient" : "Tanya TeamOwner",
+      "h" : "09fcdb5f3d:aswritten/review-message",
+      "status" : "skipped: test identity"
+    } ]
+  },
+  "counters" : { },
+  "at" : "2026-10-14T10:31:54.804076045Z",
+  "context" : {
+    "roster" : [ {
+      "name" : "Tanya TeamOwner",
+      "role" : "submitter",
+      "status" : "routed",
+      "channels_not" : {
+        "sms" : "no verified phone opted in to texts",
+        "teams" : "no Teams identity in the home tenant"
+      },
+      "roles" : [ "submitter" ],
+      "seated" : true,
+      "test-identity" : true,
+      "via" : [ {
+        "how" : "saved",
+        "as" : "saver"
+      } ]
+    } ],
+    "inputs" : {
+      "we_said" : 5,
+      "new_positions" : 1,
+      "touches" : 0,
+      "threads" : 1,
+      "reaches" : 1
+    },
+    "navigation" : {
+      "source" : "engine",
+      "context_chars" : 10391
+    }
+  },
+  "scorer" : {
+    "attempts" : [ {
+      "disposition" : "ok",
+      "elapsed_ms" : 30464,
+      "content_chars" : 864
+    } ]
+  }
+}
