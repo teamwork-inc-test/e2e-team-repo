@@ -1,0 +1,13 @@
+{
+  "positions" : [ {
+    "name" : "SprintRetroShippedWidgetZephyrUnlock",
+    "frame" : "what accounts for this sprint's delivery of the async decision widget and its velocity, and which dependency made the difference?",
+    "members" : [ "src-1" ],
+    "why" : "The single statement reports a shipped widget, a velocity figure (23 points, highest this quarter) and names the Zephyr integration as the key unlock. Together these read as one retro account of what enabled delivery. It bears on the decision-capture narrative because the widget is the capture mechanism. Since no existing positions were supplied, nothing can be attached or revised, and I propose only a narrative leaf from the supplied structure as its home.",
+    "under" : [ "Narrative_DecisionCaptureAtConsensus" ]
+  } ],
+  "attaches" : [ ],
+  "position_revisions" : [ ],
+  "ungrouped" : [ ],
+  "_source_sha256" : "1237e18b54774c37eb5214040874288fc88b5befa916140e66a01d5fdd1f31b8"
+}
