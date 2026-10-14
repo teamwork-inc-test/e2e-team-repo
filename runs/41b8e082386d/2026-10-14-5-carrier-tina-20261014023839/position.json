@@ -1,0 +1,11 @@
+{
+  "positions" : [ ],
+  "attaches" : [ {
+    "position" : "Position_IntakePantryNovemberRoutines",
+    "members" : [ "src-2" ],
+    "why" : "Dario's shelf-line rule is a mechanic of the pantry restocking routine that the frame asks about: how restocking runs. It marks the one-third threshold on each shelf so the call is a glance, not a count. It sits in tension with the later reconciliation that moves oats and rice to half full, because a line at a third on every shelf no longer fits those two. That tension is left standing, not resolved."
+  } ],
+  "position_revisions" : [ ],
+  "ungrouped" : [ "src-1" ],
+  "_source_sha256" : "5173ce0d903a220b9705f86ad203ba82c8dfb250768cb9581121cbc06fdec1ac"
+}
