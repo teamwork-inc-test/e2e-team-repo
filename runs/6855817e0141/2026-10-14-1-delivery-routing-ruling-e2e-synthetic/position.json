@@ -1,0 +1,13 @@
+{
+  "positions" : [ {
+    "name" : "ReactionDeliveryRoutingBundle",
+    "frame" : "where does reaction delivery belong, and how is what reaches a person shaped: one bundle per run, or per-skill messages?",
+    "members" : [ "src-2", "src-3", "src-4", "src-5" ],
+    "why" : "The four expressions read as one ruling: the routing rule (one bundle per run per person), the batching-window pushback, the hold that the bundle closes with the run, and the rejected per-skill alternative with client-side collapsing. The set holds some tension, since Tina's pushback sits against Tanya's hold, and the frame does not resolve it. src-1 only reports that a ruling happened, so it stays ungrouped.",
+    "under" : [ "Narrative_DecisionsEvaporate" ]
+  } ],
+  "attaches" : [ ],
+  "position_revisions" : [ ],
+  "ungrouped" : [ "src-1" ],
+  "_source_sha256" : "ba05ea0158d2bb5ae030ad5d571477370ce49537407437eea6eb9df45ec14eb7"
+}
