@@ -1,0 +1,26 @@
+{
+  "placements" : [ {
+    "verdict" : "reuse",
+    "leaf" : "Narrative_RoutinesRunOnSetCadence",
+    "supporting_positions" : [ "Position_IntakePantryNovemberRoutines" ],
+    "why" : "Priya's printed sign puts the November rota dates on the intake desk. It is a consequence of the intake rota running on a fixed cadence from an agreed start. The existing leaf already holds the position this segment attaches to, so no new leaf is needed.",
+    "consulted" : [ "Narrative_RoutinesRunOnSetCadence", "Position_IntakePantryNovemberRoutines", "Narrative_AntiSlackPositioning", "Narrative_DecisionCaptureAtConsensus", "Narrative_DecisionsEvaporate" ]
+  } ],
+  "unplaced" : [ ],
+  "weighed" : [ ],
+  "strata" : {
+    "mints" : [ ],
+    "connections" : [ {
+      "member" : "Narrative_RoutinesRunOnSetCadence",
+      "strata" : [ "RotaAndRestockRoutines" ],
+      "why" : "The leaf is about how recurring routines are scheduled and when they start. That is the operating-cadence grouping RotaAndRestockRoutines already holds."
+    }, {
+      "member" : "Position_IntakePantryNovemberRoutines",
+      "strata" : [ "RotaAndRestockRoutines" ],
+      "why" : "This document attaches to the position, and it sets the intake rota and its start date. That belongs in the same operating-cadence grouping."
+    } ],
+    "disconnections" : [ ],
+    "unconnected" : [ ]
+  },
+  "_source_sha256" : "f0215b801a86f2da16619406ba287b90cd53dff96e1dd8920c408fea57611b99"
+}
