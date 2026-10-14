@@ -1,0 +1,19 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "Those two run out fastest",
+      "kind" : "plain-assertion"
+    }, {
+      "quote" : "which now restock at half full",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Footing is split (actor claude-opus-5-5, principal Tina), so the stance is reported. The threshold change is stated as operational fact, but the text does not perform ratification and rests on a plain reasoned assertion, so the lower region, claim, is taken.",
+    "reported" : true
+  } ],
+  "mints" : [ ],
+  "unmarked" : [ ],
+  "unmarked_rest" : false,
+  "_source_sha256" : "41dcd61d3d391179b1f97a179273f02ff41fe4ce3af211f4c07d7133e0a4e92a"
+}
