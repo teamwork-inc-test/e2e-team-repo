@@ -1,0 +1,38 @@
+{
+  "placements" : [ {
+    "lineage" : {
+      "relation" : "see",
+      "target" : "Narrative_AntiSlackPositioning"
+    },
+    "under" : null,
+    "supporting_positions" : [ "ReactionDeliveryRoutingBundle" ],
+    "why" : "The position's members decide that delivery is bundled per run per person. A person should get one thing to read, not four. The bundle closes with the run, and per-skill delivery with client-side collapsing is rejected because it moves the ordering problem onto the reader. That is a standing theme about delivery shape that future rulings (windows, routing, collapsing) will keep feeding. No existing leaf holds it. Narrative_DecisionsEvaporate is about decisions disappearing in real-time chat, and nothing in these members concerns that. Narrative_AntiSlackPositioning is the nearest relation: it favors structured delivery over noise, so it is linked with 'see' rather than reused.",
+    "verdict" : "mint",
+    "leaf" : "Narrative_ReactionDeliveryShapedForReader",
+    "title" : "What reaches a person is shaped for the reader, not for the sender",
+    "frame" : "Where in the pipeline is reaction delivery decided, and what does each ruling or rejected alternative say about who carries the burden of ordering and reading?",
+    "consulted" : [ "Narrative_AntiSlackPositioning", "Narrative_DecisionsEvaporate", "Narrative_DecisionCaptureAtConsensus", "Position_WebhookArchitecture" ]
+  } ],
+  "unplaced" : [ "src-1" ],
+  "weighed" : [ ],
+  "strata" : {
+    "mints" : [ {
+      "name" : "ReactionDelivery",
+      "type" : "thematic",
+      "title" : "How reactions reach a person: one bundle per run per person, not a message per skill",
+      "why" : "The envelope's ruling, the batching-window pushback, the close rule, and the rejected alternative are all about the delivery shape of reactions. The org will likely keep returning to this subject."
+    } ],
+    "connections" : [ {
+      "member" : "Narrative_ReactionDeliveryShapedForReader",
+      "strata" : [ "ReactionDelivery" ],
+      "why" : "The leaf's subject is how reaction delivery is shaped for the reader."
+    }, {
+      "member" : "Position_ReactionDeliveryRoutingBundle",
+      "strata" : [ "ReactionDelivery" ],
+      "why" : "The position holds the routing ruling, the pushback, the hold, and the rejected alternative, all of which are about reaction delivery."
+    } ],
+    "disconnections" : [ ],
+    "unconnected" : [ ]
+  },
+  "_source_sha256" : "ba05ea0158d2bb5ae030ad5d571477370ce49537407437eea6eb9df45ec14eb7"
+}
