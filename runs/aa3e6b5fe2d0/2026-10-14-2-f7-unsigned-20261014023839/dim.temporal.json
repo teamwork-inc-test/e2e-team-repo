@@ -1,0 +1,33 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "present", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "stays fortnightly",
+      "kind" : "plain-assertion"
+    }, {
+      "quote" : "as agreed on 1 October",
+      "kind" : "performed-act"
+    }, {
+      "quote" : "grows from fifteen to thirty minutes",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Present-tense attention on a settled arrangement, anchored to a dated agreement and a specific rota, so realis and concrete.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-2",
+    "regions" : [ "past", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "covered the open cases",
+      "kind" : "plain-assertion"
+    }, {
+      "quote" : "arrived during the hand-off week",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Past-tense attention on what fifteen minutes did and did not cover, describing particular cases and a specific week.",
+    "reported" : false
+  } ],
+  "unmarked" : [ ],
+  "unmarked_rest" : false,
+  "_source_sha256" : "e040337bd8dac8bfd179f25203dce69bc4b3fb0472b1cff5dfbd14bc8cef16c9"
+}
