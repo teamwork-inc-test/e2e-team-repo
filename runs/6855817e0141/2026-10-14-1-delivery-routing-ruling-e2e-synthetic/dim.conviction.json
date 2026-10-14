@@ -1,0 +1,44 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "Tanya (team owner) ruled on where reaction delivery belongs:",
+      "kind" : "performed-act"
+    } ],
+    "why" : "A recorded ruling settles the question; the memo author reports a settling act rather than a tentative view.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-2",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "we route every reaction through one bundle per run per person",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Operational 'we route every' rule with a universal quantifier, stated as settled practice.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-4",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "Tanya held: the bundle closes when",
+      "kind" : "commitment-marker"
+    } ],
+    "why" : "'held' marks a committed position, and the rest is an operational closing rule. Not permanence language, so it stays at decision rather than principle.",
+    "reported" : true,
+    "direction" : null
+  }, {
+    "segment_local_id" : "src-5",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "The alternative considered and rejected was per-skill",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Rejecting an alternative is a settling act, recorded as a completed decision.",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-3" ],
+  "unmarked_rest" : false,
+  "mints" : [ ],
+  "_source_sha256" : "ba05ea0158d2bb5ae030ad5d571477370ce49537407437eea6eb9df45ec14eb7"
+}
