@@ -1,0 +1,23 @@
+{
+  "resolutions" : [ {
+    "commentary_local_id" : "src-1",
+    "phrase" : "The one-third restock threshold from the 1 October call",
+    "verdict" : "confident",
+    "binding" : {
+      "referents" : [ {
+        "iri" : "Expr_20261014_1_SeedTeam20261014023839_hc0b2a2f5be60_2",
+        "relation" : "extends",
+        "why" : "Dario's 'restocks any shelf when it falls below a third full' is the threshold being kept; the segment adds an exception (oats and rice at half) while keeping it for every other shelf."
+      }, {
+        "iri" : "Sample_20261014_1_SeedTeam20261014023839_hc0b2a2f5be60",
+        "relation" : "see",
+        "why" : "'The 1 October call' anchors on this transcript (team call 2026-10-01) without engaging its other content."
+      } ],
+      "targets" : [ "Position_IntakePantryNovemberRoutines" ]
+    },
+    "why" : "The one-third threshold from the 1 October call matches a single expression, Dario's pantry restock statement, which sits under Position_IntakePantryNovemberRoutines. No other node holds a restock threshold.",
+    "consulted" : [ "Position_IntakePantryNovemberRoutines", "Expr_20261014_1_SeedTeam20261014023839_hc0b2a2f5be60_2", "Sample_20261014_1_SeedTeam20261014023839_hc0b2a2f5be60", "Narrative_RoutinesRunOnSetCadence", "RotaAndRestockRoutines" ]
+  } ],
+  "unreferenced_commentary" : [ ],
+  "_source_sha256" : "41dcd61d3d391179b1f97a179273f02ff41fe4ce3af211f4c07d7133e0a4e92a"
+}
