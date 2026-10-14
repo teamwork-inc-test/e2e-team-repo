@@ -1,0 +1,227 @@
+{
+  "schema_version" : 1,
+  "run_id" : "mp-eng-e92a3b24",
+  "live_run_id" : "41b8e082386d",
+  "stream" : "e2e-662-team-20261014023839",
+  "policy" : {
+    "mode" : "on",
+    "source" : "default",
+    "version" : 1,
+    "skills" : { },
+    "lands" : { },
+    "audience" : "owner-setting",
+    "warn_per_run_usd" : 0.25,
+    "channels" : [ "email", "sms", "teams" ]
+  },
+  "gates" : [ {
+    "id" : "aswritten/clarify",
+    "run?" : true,
+    "gate" : 2,
+    "score" : 0.75,
+    "evidence" : [ "aswr:qualityFlag \"principal:unresolved\"", "**Participants:** Dario Kent (Pantry Lead)", "Document header recording who participated", "narr:act \"assertive\"" ],
+    "why" : "The submission's own header prose is committed as an assertive expression with no attributed actor and flagged principal:unresolved, which is exactly clarify's flagged-unresolved branch — the one question is whose words that participants header states."
+  }, {
+    "id" : "aswritten/merge-suggest",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "skill off"
+  }, {
+    "id" : "aswritten/refract",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "skill off"
+  }, {
+    "id" : "aswritten/review-message",
+    "run?" : true,
+    "gate" : 2,
+    "reason" : "predicate only"
+  }, {
+    "id" : "aswritten/review-request",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "skill off"
+  }, {
+    "id" : "aswritten/riff",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "skill off"
+  } ],
+  "jobs" : [ {
+    "job_key" : "41b8e082386d:aswritten/clarify:u17592186058524",
+    "turn_attempts" : 1,
+    "skill" : "aswritten/clarify",
+    "landing" : {
+      "landed" : "message"
+    },
+    "recipient" : {
+      "name" : "Tina TeamMember",
+      "role" : "submitter",
+      "status" : "routed",
+      "channels_not" : {
+        "sms" : "no verified phone opted in to texts",
+        "teams" : "no Teams identity in the home tenant"
+      },
+      "roles" : [ "submitter" ],
+      "seated" : true,
+      "test-identity" : true,
+      "via" : [ {
+        "how" : "saved",
+        "as" : "saver"
+      }, {
+        "how" : "attach",
+        "relation" : "attaches",
+        "statement" : "Expr_20261014_3_F8SelfAuthor20261014023839_ha9381ebd81d0_1",
+        "as" : "relayed",
+        "position" : "Position_IntakePantryNovemberRoutines"
+      } ]
+    },
+    "reason" : "the turn failed: the kernel did not plan the turn: deny payer-unresolvable",
+    "status" : "failed",
+    "gate" : {
+      "score" : 0.75,
+      "evidence" : [ "aswr:qualityFlag \"principal:unresolved\"", "**Participants:** Dario Kent (Pantry Lead)", "Document header recording who participated", "narr:act \"assertive\"" ],
+      "why" : "The submission's own header prose is committed as an assertive expression with no attributed actor and flagged principal:unresolved, which is exactly clarify's flagged-unresolved branch — the one question is whose words that participants header states."
+    },
+    "pass" : "reaction:clarify",
+    "ms" : 525,
+    "model" : "anthropic/claude-haiku-5.5"
+  }, {
+    "job_key" : "41b8e082386d:aswritten/review-message:u17592186058524",
+    "turn_attempts" : 1,
+    "skill" : "aswritten/review-message",
+    "landing" : {
+      "landed" : "message"
+    },
+    "recipient" : {
+      "name" : "Tina TeamMember",
+      "role" : "submitter",
+      "status" : "routed",
+      "channels_not" : {
+        "sms" : "no verified phone opted in to texts",
+        "teams" : "no Teams identity in the home tenant"
+      },
+      "roles" : [ "submitter" ],
+      "seated" : true,
+      "test-identity" : true,
+      "via" : [ {
+        "how" : "saved",
+        "as" : "saver"
+      }, {
+        "how" : "attach",
+        "relation" : "attaches",
+        "statement" : "Expr_20261014_3_F8SelfAuthor20261014023839_ha9381ebd81d0_1",
+        "as" : "relayed",
+        "position" : "Position_IntakePantryNovemberRoutines"
+      } ]
+    },
+    "reason" : "the turn failed: the kernel did not plan the turn: deny payer-unresolvable",
+    "status" : "failed",
+    "gate" : { },
+    "pass" : "reaction:review-message",
+    "ms" : 404,
+    "model" : "anthropic/claude-haiku-5.5"
+  } ],
+  "spend" : {
+    "cost_usd" : 0.004342,
+    "passes" : [ {
+      "pass" : "reaction:_score",
+      "llm_calls" : 1,
+      "cost_usd" : 0.00434155,
+      "null_cost_calls" : 0
+    } ]
+  },
+  "bundle" : {
+    "items" : 0,
+    "recipients" : 1,
+    "sent" : [ ]
+  },
+  "counters" : { },
+  "at" : "2026-10-14T02:53:53.912528583Z",
+  "context" : {
+    "roster" : [ {
+      "name" : "Tina TeamMember",
+      "role" : "submitter",
+      "status" : "routed",
+      "channels_not" : {
+        "sms" : "no verified phone opted in to texts",
+        "teams" : "no Teams identity in the home tenant"
+      },
+      "roles" : [ "submitter" ],
+      "seated" : true,
+      "test-identity" : true,
+      "via" : [ {
+        "how" : "saved",
+        "as" : "saver"
+      }, {
+        "how" : "attach",
+        "relation" : "attaches",
+        "statement" : "Expr_20261014_3_F8SelfAuthor20261014023839_ha9381ebd81d0_1",
+        "as" : "relayed",
+        "position" : "Position_IntakePantryNovemberRoutines"
+      } ]
+    }, {
+      "name" : "Priya Holm",
+      "role" : "touched",
+      "status" : "no-account",
+      "roles" : [ "touched" ],
+      "reason" : "no account linked to this speaker",
+      "via" : [ {
+        "how" : "attach",
+        "relation" : "attaches",
+        "statement" : "Expr_20261014_1_SeedTeam20261014023839_hc0b2a2f5be60_3",
+        "as" : "speaker",
+        "position" : "Position_IntakePantryNovemberRoutines"
+      }, {
+        "how" : "attach",
+        "relation" : "attaches",
+        "statement" : "Expr_20261014_4_CarrierTanya20261014023839_h57de8dfee75b_1",
+        "as" : "speaker",
+        "position" : "Position_IntakePantryNovemberRoutines"
+      } ]
+    }, {
+      "name" : "the Claude session (claude-opus-5-5)",
+      "role" : "touched",
+      "status" : "no-channel",
+      "roles" : [ "touched" ],
+      "ai" : true,
+      "reason" : "no channel (an AI session)",
+      "via" : [ {
+        "how" : "attach",
+        "relation" : "attaches",
+        "statement" : "Expr_20261014_2_F7Unsigned20261014023839_he3446c5a6c8b_1",
+        "as" : "speaker",
+        "position" : "Position_IntakePantryNovemberRoutines"
+      }, {
+        "how" : "attach",
+        "relation" : "attaches",
+        "statement" : "Expr_20261014_2_F7Unsigned20261014023839_he3446c5a6c8b_2",
+        "as" : "speaker",
+        "position" : "Position_IntakePantryNovemberRoutines"
+      }, {
+        "how" : "attach",
+        "relation" : "attaches",
+        "statement" : "Expr_20261014_3_F8SelfAuthor20261014023839_ha9381ebd81d0_1",
+        "as" : "speaker",
+        "position" : "Position_IntakePantryNovemberRoutines"
+      } ]
+    } ],
+    "inputs" : {
+      "we_said" : 2,
+      "new_positions" : 0,
+      "touches" : 5,
+      "threads" : 1,
+      "reaches" : 1
+    },
+    "navigation" : {
+      "source" : "engine",
+      "context_chars" : 23159
+    }
+  },
+  "scorer" : {
+    "attempts" : [ {
+      "disposition" : "ok",
+      "elapsed_ms" : 35746,
+      "content_chars" : 496
+    } ]
+  }
+}
