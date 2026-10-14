@@ -1,0 +1,21 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "future", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "gets a printed sign with the rota dates from November",
+      "kind" : "plain-assertion"
+    }, {
+      "quote" : "from November",
+      "kind" : "lexical-marker"
+    }, {
+      "quote" : "printed sign",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Future attention on the November rota dates, carried as a settled arrangement in present-tense assertion (realis), with concrete named artifacts (intake desk, printed sign).",
+    "reported" : false
+  } ],
+  "unmarked" : [ ],
+  "unmarked_rest" : false,
+  "_source_sha256" : "f0215b801a86f2da16619406ba287b90cd53dff96e1dd8920c408fea57611b99"
+}
