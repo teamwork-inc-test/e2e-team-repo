@@ -1,0 +1,26 @@
+{
+  "placements" : [ {
+    "verdict" : "reuse",
+    "leaf" : "Narrative_DecisionCaptureAtConsensus",
+    "supporting_positions" : [ "SprintRetroShippedWidgetZephyrUnlock" ],
+    "why" : "The retro reports the async decision widget shipped, which is the capture mechanism, and names the Zephyr integration as the unlock. That accounts for how capture at the moment of consensus got built, so it feeds this existing leaf rather than needing a new one. The 23-point velocity is a one-time fact and stays inside the position, not a leaf of its own.",
+    "consulted" : [ "Narrative_DecisionCaptureAtConsensus", "Narrative_AntiSlackPositioning", "Narrative_DecisionsEvaporate" ]
+  } ],
+  "unplaced" : [ ],
+  "weighed" : [ ],
+  "strata" : {
+    "mints" : [ ],
+    "connections" : [ ],
+    "disconnections" : [ ],
+    "unconnected" : [ {
+      "member" : "Narrative_DecisionCaptureAtConsensus",
+      "why" : "No existing strata are supplied. This document's single retro position does not call for a new grouping across the graph, so no stratum is minted for it."
+    } ]
+  },
+  "strata_flags" : [ {
+    "flag" : "unconnected",
+    "subject" : "Narrative_DecisionCaptureAtConsensus",
+    "detail" : "placed with no stratum"
+  } ],
+  "_source_sha256" : "1237e18b54774c37eb5214040874288fc88b5befa916140e66a01d5fdd1f31b8"
+}
