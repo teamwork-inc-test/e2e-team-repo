@@ -1,0 +1,26 @@
+{
+  "placements" : [ {
+    "verdict" : "reuse",
+    "leaf" : "Narrative_RoutinesRunOnSetCadence",
+    "supporting_positions" : [ "Position_IntakePantryNovemberRoutines" ],
+    "why" : "The revised position keeps the fortnightly intake rota agreed on 1 October and lengthens the hand-off overlap call from fifteen to thirty minutes. The shortfall of fifteen minutes is the stated reason. This is the same cadence and hand-off theme the leaf already holds, so it is reused, not minted.",
+    "consulted" : [ "Narrative_RoutinesRunOnSetCadence", "Narrative_AntiSlackPositioning", "Narrative_DecisionCaptureAtConsensus", "Narrative_DecisionsEvaporate" ]
+  } ],
+  "unplaced" : [ ],
+  "weighed" : [ ],
+  "strata" : {
+    "mints" : [ ],
+    "connections" : [ {
+      "member" : "Narrative_RoutinesRunOnSetCadence",
+      "strata" : [ "RotaAndRestockRoutines" ],
+      "why" : "The narrative holds the team's recurring rota and restock routines, which is the operating-cadence grouping this stratum names."
+    }, {
+      "member" : "Position_IntakePantryNovemberRoutines",
+      "strata" : [ "RotaAndRestockRoutines" ],
+      "why" : "The position sets how the intake rota hand-off runs, now with a thirty-minute overlap call, and so remains part of the operating cadence grouping."
+    } ],
+    "disconnections" : [ ],
+    "unconnected" : [ ]
+  },
+  "_source_sha256" : "e040337bd8dac8bfd179f25203dce69bc4b3fb0472b1cff5dfbd14bc8cef16c9"
+}
