@@ -1,0 +1,12 @@
+{
+  "positions" : [ ],
+  "attaches" : [ ],
+  "position_revisions" : [ {
+    "revises" : "Position_IntakePantryNovemberRoutines",
+    "adds" : [ "src-1" ],
+    "drops" : [ "Expr_20261014_1_SeedTeam20261014023839_hc0b2a2f5be60_2" ],
+    "why" : "The frame (how the intake rota and pantry restocking run, and from when) still holds. Dario's statement that the pantry restocks any shelf below a third full is no longer wholly correct. Oats and rice now restock at half full, and the one-third rule stays for every other shelf. The new segment replaces the blanket rule with this threshold-plus-exception, as the earlier overlap-call length was replaced."
+  } ],
+  "ungrouped" : [ ],
+  "_source_sha256" : "41dcd61d3d391179b1f97a179273f02ff41fe4ce3af211f4c07d7133e0a4e92a"
+}
