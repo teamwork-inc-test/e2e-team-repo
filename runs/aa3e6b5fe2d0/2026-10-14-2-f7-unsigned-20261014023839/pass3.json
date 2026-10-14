@@ -1,0 +1,12 @@
+{
+  "reconciliations" : [ ],
+  "standalone" : [ {
+    "segment_id" : "src-1",
+    "why" : "No recorded principal: the envelope says only that claude-opus-5-5 drafted this and Tanya submitted it. Nothing shows Tanya endorsed it, and the change to a thirty-minute overlap is new, not something Priya said, so it is unendorsed model-composed commentary."
+  }, {
+    "segment_id" : "src-2",
+    "why" : "No recorded principal: this is model-composed rationale for the overlap change. No named actor said or endorsed it, and it is not a conversation-level conclusion, since the envelope records no exchange."
+  } ],
+  "held" : [ ],
+  "_source_sha256" : "e040337bd8dac8bfd179f25203dce69bc4b3fb0472b1cff5dfbd14bc8cef16c9"
+}
