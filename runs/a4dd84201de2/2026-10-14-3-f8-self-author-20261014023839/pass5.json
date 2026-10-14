@@ -1,0 +1,26 @@
+{
+  "placements" : [ {
+    "verdict" : "reuse",
+    "leaf" : "Narrative_RoutinesRunOnSetCadence",
+    "supporting_positions" : [ "Position_IntakePantryNovemberRoutines" ],
+    "why" : "The revised position now holds the pantry restock rule as a one-third threshold with an oats-and-rice exception at half full. That is a routine running on a set threshold, which is exactly what this leaf's frame asks about, so the leaf is reused and no new leaf is minted.",
+    "consulted" : [ "Narrative_RoutinesRunOnSetCadence", "Position_IntakePantryNovemberRoutines", "RotaAndRestockRoutines" ]
+  } ],
+  "unplaced" : [ ],
+  "weighed" : [ ],
+  "strata" : {
+    "mints" : [ ],
+    "connections" : [ {
+      "member" : "Narrative_RoutinesRunOnSetCadence",
+      "strata" : [ "RotaAndRestockRoutines" ],
+      "why" : "The narrative is already connected to this stratum, and the new restock-threshold content keeps it there."
+    }, {
+      "member" : "Position_IntakePantryNovemberRoutines",
+      "strata" : [ "RotaAndRestockRoutines" ],
+      "why" : "The revised position still covers how the rota and restock routines are scheduled and triggered, which is this stratum's subject."
+    } ],
+    "disconnections" : [ ],
+    "unconnected" : [ ]
+  },
+  "_source_sha256" : "41dcd61d3d391179b1f97a179273f02ff41fe4ce3af211f4c07d7133e0a4e92a"
+}
