@@ -1,0 +1,35 @@
+{
+  "placements" : [ {
+    "verdict" : "mint",
+    "leaf" : "Narrative_RoutinesRunOnSetCadence",
+    "title" : "Team routines run on a fixed cadence with an agreed start",
+    "frame" : "What routine does this expression set, on what cadence or threshold does it run, who carries it, and from when does it take effect?",
+    "under" : null,
+    "supporting_positions" : [ "IntakePantryNovemberRoutines" ],
+    "why" : "The position holds the fortnightly intake rota with overlap hand-offs, the restock threshold, and the shared 1 November start. All of these are operating routines for the team. None of the three existing leaves (anti-Slack positioning, decision capture, decisions evaporating) covers operating rhythm, so this is a new standalone theme. Future envelopes about rotas, thresholds, and start dates can keep feeding it.",
+    "consulted" : [ "Narrative_AntiSlackPositioning", "Narrative_DecisionCaptureAtConsensus", "Narrative_DecisionsEvaporate" ]
+  } ],
+  "unplaced" : [ ],
+  "weighed" : [ ],
+  "strata" : {
+    "mints" : [ {
+      "name" : "RotaAndRestockRoutines",
+      "type" : "categorical",
+      "title" : "Operating cadence: how the team's recurring routines are scheduled, handed off, and triggered",
+      "coordinate" : [ "OperatingCadence", "CoreWorkflows" ],
+      "why" : "The rota, hand-off overlap calls, and restock threshold are all recurring operating routines. Other process and cadence content will group with them across the graph."
+    } ],
+    "connections" : [ {
+      "member" : "Narrative_RoutinesRunOnSetCadence",
+      "strata" : [ "RotaAndRestockRoutines" ],
+      "why" : "The leaf's theme is routine cadence and scheduling."
+    }, {
+      "member" : "Position_IntakePantryNovemberRoutines",
+      "strata" : [ "RotaAndRestockRoutines" ],
+      "why" : "The position holds the rota and restock routines directly."
+    } ],
+    "disconnections" : [ ],
+    "unconnected" : [ ]
+  },
+  "_source_sha256" : "33334968fe34c87719682c0567426876d98b442189d1cbf1cacbe6ef13bcbb39"
+}
