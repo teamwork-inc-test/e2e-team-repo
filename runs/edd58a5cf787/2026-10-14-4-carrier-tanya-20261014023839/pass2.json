@@ -1,0 +1,19 @@
+{
+  "resolutions" : [ {
+    "commentary_local_id" : "src-1",
+    "phrase" : "the rota dates from November",
+    "verdict" : "confident",
+    "binding" : {
+      "referents" : [ {
+        "iri" : "Position_IntakePantryNovemberRoutines",
+        "relation" : "extends",
+        "why" : "The sign adds a consequence for the November intake rota (fortnightly, starting 1 November): its dates will be printed at the intake desk. It does not push against the rota position."
+      } ],
+      "targets" : [ "Narrative_RoutinesRunOnSetCadence" ]
+    },
+    "why" : "'The rota dates from November' converges on the single intake-rota position, which sets the fortnightly rota starting 1 November. Nothing else in the graph concerns the intake rota, and no other node is a comparable candidate.",
+    "consulted" : [ "Position_IntakePantryNovemberRoutines", "Narrative_RoutinesRunOnSetCadence", "Actor_PriyaHolm", "Expr_20261014_1_SeedTeam20261014023839_hc0b2a2f5be60_3", "Expr_20261014_2_F7Unsigned20261014023839_he3446c5a6c8b_1" ]
+  } ],
+  "unreferenced_commentary" : [ ],
+  "_source_sha256" : "f0215b801a86f2da16619406ba287b90cd53dff96e1dd8920c408fea57611b99"
+}
