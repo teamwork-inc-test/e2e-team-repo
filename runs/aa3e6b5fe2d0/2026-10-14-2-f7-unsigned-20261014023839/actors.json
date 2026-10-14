@@ -1,0 +1,22 @@
+{
+  "bindings" : [ {
+    "name" : "claude-opus-5-5",
+    "verdict" : "mint",
+    "label" : "claude-opus-5-5",
+    "why" : "AI model name with no existing [AI]-marked actor; minted under its plain name.",
+    "ai" : true
+  }, {
+    "name" : "Tanya TeamOwner",
+    "verdict" : "bind",
+    "target" : "Actor_TanyaTeamowner",
+    "why" : "Exact name match to the existing actor Tanya TeamOwner, who is also the envelope submitter and sole participant.",
+    "ai" : false
+  }, {
+    "name" : "tanya+staging@aswritten.ai",
+    "verdict" : "bind",
+    "target" : "Actor_TanyaTeamowner",
+    "why" : "Account email belongs to the person-named submitted_by Tanya TeamOwner, who matches the existing actor.",
+    "ai" : false
+  } ],
+  "_source_sha256" : "e040337bd8dac8bfd179f25203dce69bc4b3fb0472b1cff5dfbd14bc8cef16c9"
+}
