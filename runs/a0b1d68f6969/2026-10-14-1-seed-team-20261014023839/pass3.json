@@ -1,0 +1,18 @@
+{
+  "reconciliations" : [ {
+    "segment_ids" : [ "src-3" ],
+    "note" : "Both start on the first of November.",
+    "targets" : [ "src-1", "src-2" ],
+    "referents" : [ {
+      "ref" : "src-1",
+      "relation" : "extends"
+    }, {
+      "ref" : "src-2",
+      "relation" : "extends"
+    } ],
+    "principal" : "Priya Holm"
+  } ],
+  "standalone" : [ ],
+  "held" : [ ],
+  "_source_sha256" : "33334968fe34c87719682c0567426876d98b442189d1cbf1cacbe6ef13bcbb39"
+}
