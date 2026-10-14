@@ -1,0 +1,176 @@
+{
+  "schema_version" : 1,
+  "run_id" : "mp-eng-ceb6238c",
+  "live_run_id" : "a4dd84201de2",
+  "stream" : "e2e-662-team-20261014023839",
+  "policy" : {
+    "mode" : "on",
+    "source" : "default",
+    "version" : 1,
+    "skills" : { },
+    "lands" : { },
+    "audience" : "owner-setting",
+    "warn_per_run_usd" : 0.25,
+    "channels" : [ "email", "sms", "teams" ]
+  },
+  "gates" : [ {
+    "id" : "aswritten/clarify",
+    "run?" : false,
+    "gate" : 2,
+    "reason" : "score 0.0 < threshold 0.7",
+    "score" : 0.0,
+    "evidence" : [ "The one-third restock threshold from the 1 October call stays for every shelf except oats and rice, which now restock at half full.", "aswr:footing \"self\"", "Footing is split (actor claude-opus-5-5, principal Tina), so the stance is reported." ]
+  }, {
+    "id" : "aswritten/merge-suggest",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "skill off"
+  }, {
+    "id" : "aswritten/refract",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "skill off"
+  }, {
+    "id" : "aswritten/review-message",
+    "run?" : true,
+    "gate" : 2,
+    "reason" : "predicate only"
+  }, {
+    "id" : "aswritten/review-request",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "skill off"
+  }, {
+    "id" : "aswritten/riff",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "skill off"
+  } ],
+  "jobs" : [ {
+    "job_key" : "a4dd84201de2:aswritten/review-message:u17592186058524",
+    "turn_attempts" : 1,
+    "skill" : "aswritten/review-message",
+    "landing" : {
+      "landed" : "message"
+    },
+    "recipient" : {
+      "name" : "Tina TeamMember",
+      "role" : "submitter",
+      "status" : "routed",
+      "channels_not" : {
+        "sms" : "no verified phone opted in to texts",
+        "teams" : "no Teams identity in the home tenant"
+      },
+      "roles" : [ "submitter" ],
+      "seated" : true,
+      "test-identity" : true,
+      "via" : [ {
+        "how" : "saved",
+        "as" : "saver"
+      } ]
+    },
+    "reason" : "the turn failed: the kernel did not plan the turn: deny payer-unresolvable",
+    "status" : "failed",
+    "gate" : { },
+    "pass" : "reaction:review-message",
+    "ms" : 486,
+    "model" : "anthropic/claude-haiku-5.5"
+  } ],
+  "spend" : {
+    "cost_usd" : 0.002347,
+    "passes" : [ {
+      "pass" : "reaction:_score",
+      "llm_calls" : 1,
+      "cost_usd" : 0.00234655,
+      "null_cost_calls" : 0
+    } ]
+  },
+  "bundle" : {
+    "items" : 0,
+    "recipients" : 1,
+    "sent" : [ ]
+  },
+  "counters" : { },
+  "at" : "2026-10-14T02:48:43.343789431Z",
+  "context" : {
+    "roster" : [ {
+      "name" : "Tina TeamMember",
+      "role" : "submitter",
+      "status" : "routed",
+      "channels_not" : {
+        "sms" : "no verified phone opted in to texts",
+        "teams" : "no Teams identity in the home tenant"
+      },
+      "roles" : [ "submitter" ],
+      "seated" : true,
+      "test-identity" : true,
+      "via" : [ {
+        "how" : "saved",
+        "as" : "saver"
+      } ]
+    }, {
+      "name" : "Dario Kent",
+      "role" : "touched",
+      "status" : "no-account",
+      "roles" : [ "touched" ],
+      "reason" : "no account linked to this speaker",
+      "via" : [ {
+        "how" : "recon",
+        "relation" : "extends",
+        "statement" : "Expr_20261014_1_SeedTeam20261014023839_hc0b2a2f5be60_2",
+        "as" : "speaker"
+      } ]
+    }, {
+      "name" : "Priya Holm",
+      "role" : "touched",
+      "status" : "no-account",
+      "roles" : [ "touched" ],
+      "reason" : "no account linked to this speaker",
+      "via" : [ {
+        "how" : "attach",
+        "relation" : "attaches",
+        "statement" : "Expr_20261014_1_SeedTeam20261014023839_hc0b2a2f5be60_3",
+        "as" : "speaker",
+        "position" : "Position_IntakePantryNovemberRoutines"
+      } ]
+    }, {
+      "name" : "the Claude session (claude-opus-5-5)",
+      "role" : "touched",
+      "status" : "no-channel",
+      "roles" : [ "touched" ],
+      "ai" : true,
+      "reason" : "no channel (an AI session)",
+      "via" : [ {
+        "how" : "attach",
+        "relation" : "attaches",
+        "statement" : "Expr_20261014_2_F7Unsigned20261014023839_he3446c5a6c8b_1",
+        "as" : "speaker",
+        "position" : "Position_IntakePantryNovemberRoutines"
+      }, {
+        "how" : "attach",
+        "relation" : "attaches",
+        "statement" : "Expr_20261014_2_F7Unsigned20261014023839_he3446c5a6c8b_2",
+        "as" : "speaker",
+        "position" : "Position_IntakePantryNovemberRoutines"
+      } ]
+    } ],
+    "inputs" : {
+      "we_said" : 1,
+      "new_positions" : 0,
+      "touches" : 4,
+      "threads" : 1,
+      "reaches" : 1
+    },
+    "navigation" : {
+      "source" : "engine",
+      "context_chars" : 19547
+    }
+  },
+  "scorer" : {
+    "attempts" : [ {
+      "disposition" : "ok",
+      "elapsed_ms" : 21578,
+      "content_chars" : 565
+    } ]
+  }
+}
