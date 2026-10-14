@@ -1,0 +1,16 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "The intake desk gets a printed sign with the rota dates from November.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Flat, unhedged assertion of a plan with no ratification or commitment language; decision requires the document to perform the settling, which it does not, so the lower claim reading holds.",
+    "reported" : false
+  } ],
+  "mints" : [ ],
+  "unmarked" : [ ],
+  "unmarked_rest" : false,
+  "_source_sha256" : "f0215b801a86f2da16619406ba287b90cd53dff96e1dd8920c408fea57611b99"
+}
