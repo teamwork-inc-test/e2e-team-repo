@@ -1,0 +1,18 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-2",
+    "regions" : [ "present", "realis", "abstract" ],
+    "evidence" : [ {
+      "quote" : "Every pantry shelf gets a line marked at a third",
+      "kind" : "plain-assertion"
+    }, {
+      "quote" : "so restocking is a glance, not a count",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Present-tense habitual and generic framing ('every shelf gets') states a settled practice as fact, with attention on a general pattern rather than a specific event; no modal suspends realis.",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-1" ],
+  "unmarked_rest" : false,
+  "_source_sha256" : "5173ce0d903a220b9705f86ad203ba82c8dfb250768cb9581121cbc06fdec1ac"
+}
