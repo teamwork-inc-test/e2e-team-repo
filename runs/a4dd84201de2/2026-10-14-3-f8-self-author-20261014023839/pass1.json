@@ -1,0 +1,34 @@
+{
+  "doc" : {
+    "title" : "Pantry thresholds: oats and rice at half",
+    "date_stated" : null,
+    "actors_present" : [ "claude-opus-5-5" ]
+  },
+  "segments" : [ {
+    "local_id" : "src-1",
+    "exact" : "The one-third restock threshold from the 1 October call stays for every shelf except oats and rice, which now restock at half full. Those two run out fastest, and a third full is less than a day of stock on a Friday.",
+    "actor" : "claude-opus-5-5",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Pantry restock thresholds note; updates the 1 October call's one-third threshold for oats and rice"
+    },
+    "footing_case" : "fc-1",
+    "note" : null,
+    "footing" : {
+      "animator" : "claude-opus-5-5",
+      "author" : "claude-opus-5-5",
+      "principal" : "Tina TeamMember"
+    }
+  } ],
+  "coverage_gaps" : [ ],
+  "footing_cases" : [ {
+    "id" : "fc-1",
+    "animator" : "claude-opus-5-5",
+    "author" : "claude-opus-5-5",
+    "principal" : "Tina TeamMember",
+    "unresolved" : null,
+    "when" : "The memo's own editorial prose, composed by Claude on Tina TeamMember's account; envelope names author: Tina TeamMember",
+    "absent_principal" : true
+  } ],
+  "_source_sha256" : "41dcd61d3d391179b1f97a179273f02ff41fe4ce3af211f4c07d7133e0a4e92a"
+}
