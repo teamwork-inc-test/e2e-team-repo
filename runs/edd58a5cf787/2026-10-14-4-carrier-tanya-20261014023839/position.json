@@ -1,0 +1,11 @@
+{
+  "positions" : [ ],
+  "attaches" : [ {
+    "position" : "Position_IntakePantryNovemberRoutines",
+    "members" : [ "src-1" ],
+    "why" : "Priya's printed sign puts the November rota dates on the intake desk. That is part of how the rota runs and from when it takes effect, so the existing frame reads it cleanly. It adds a consequence to the position and pushes against none of its members. It also carries the same speaker and the same November start as the rota expressions already in the position."
+  } ],
+  "position_revisions" : [ ],
+  "ungrouped" : [ ],
+  "_source_sha256" : "f0215b801a86f2da16619406ba287b90cd53dff96e1dd8920c408fea57611b99"
+}
