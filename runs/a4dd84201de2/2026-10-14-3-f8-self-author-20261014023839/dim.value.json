@@ -1,0 +1,20 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "conservation" ],
+    "evidence" : [ {
+      "quote" : "stays for every shelf except oats and rice",
+      "kind" : "plain-assertion"
+    }, {
+      "quote" : "a third full is less than a day of stock on a Friday",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "The rule is kept as it was for most shelves, and the change is justified by protecting stock security on the fastest-depleting items; the appealed-to good is stability of supply, not novelty or achievement. Tension with self-transcendence is minimal since no beneficiary is named.",
+    "reported" : true
+  } ],
+  "mints" : [ ],
+  "region_mints" : [ ],
+  "unmarked" : [ ],
+  "unmarked_rest" : false,
+  "_source_sha256" : "41dcd61d3d391179b1f97a179273f02ff41fe4ce3af211f4c07d7133e0a4e92a"
+}
