@@ -1,0 +1,50 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "legitimate" ],
+    "evidence" : [ {
+      "quote" : "ruled on where reaction delivery belongs",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Authority is claimed by position (team owner) and a ruling is performed, not argued.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-2",
+    "regions" : [ "legitimate", "rational-persuasion" ],
+    "evidence" : [ {
+      "quote" : "we route every reaction through one bundle per run per person",
+      "kind" : "performed-act"
+    }, {
+      "quote" : "a person should get one thing to read, not four",
+      "kind" : "modal-marker"
+    } ],
+    "why" : "A policy is stated as settled rule, and a benefit argument for the reader follows it; the rule carries the weight, the argument supports it.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-4",
+    "regions" : [ "pressure", "legitimate" ],
+    "evidence" : [ {
+      "quote" : "Tanya held",
+      "kind" : "commitment-marker"
+    }, {
+      "quote" : "than sending on its own",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Principal's stance is held firm against the prior pushback, and the rule that a skill waits for the next run is stated as binding; the tension is between insistence and rule-setting.",
+    "reported" : true
+  }, {
+    "segment_local_id" : "src-5",
+    "regions" : [ "rational-persuasion" ],
+    "evidence" : [ {
+      "quote" : "which moves the ordering problem onto the\nreader",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "The rejected alternative is argued against on the basis of its consequences.",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-3" ],
+  "unmarked_rest" : false,
+  "mints" : [ ],
+  "region_mints" : [ ],
+  "_source_sha256" : "ba05ea0158d2bb5ae030ad5d571477370ce49537407437eea6eb9df45ec14eb7"
+}
