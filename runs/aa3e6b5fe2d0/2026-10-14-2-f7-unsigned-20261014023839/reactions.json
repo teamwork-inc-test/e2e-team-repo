@@ -1,0 +1,284 @@
+{
+  "schema_version" : 1,
+  "run_id" : "mp-eng-6bc8c012",
+  "live_run_id" : "aa3e6b5fe2d0",
+  "stream" : "e2e-662-team-20261014023839",
+  "policy" : {
+    "mode" : "on",
+    "source" : "default",
+    "version" : 1,
+    "skills" : { },
+    "lands" : { },
+    "audience" : "owner-setting",
+    "warn_per_run_usd" : 0.25,
+    "channels" : [ "email", "sms", "teams" ]
+  },
+  "gates" : [ {
+    "id" : "aswritten/clarify",
+    "run?" : true,
+    "gate" : 2,
+    "score" : 0.85,
+    "evidence" : [ "aswr:qualityFlag \"principal:unresolved\"", ".aswritten/memories/2026-10-14-2-f7-unsigned-20261014023839.md", "narr:Actor_ClaudeOpus55 a narr:AIActor", "narr:adds narr:Expr_20261014_2_F7Unsigned20261014023839_he3446c5a6c8b_1" ],
+    "why" : "Both committed expressions carry the principal:unresolved flag in an unsigned, AI-drafted memo (actor/author/animator is the AIActor, submitter Tanya is not named as principal), and the position revision adds exactly those expressions to the organization's perspective — so the one thing the record now leans on without settlement is whose position the prose states, which is squarely the skill's unresolved-principal branch; no term, number, or date is left open (fifteen→thirty minutes, fortnightly, 1 October are all stated plainly), and prior is empty so nothing was already reacted to."
+  }, {
+    "id" : "aswritten/merge-suggest",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "skill off"
+  }, {
+    "id" : "aswritten/refract",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "skill off"
+  }, {
+    "id" : "aswritten/review-message",
+    "run?" : true,
+    "gate" : 2,
+    "reason" : "predicate only"
+  }, {
+    "id" : "aswritten/review-request",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "skill off"
+  }, {
+    "id" : "aswritten/riff",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "skill off"
+  } ],
+  "jobs" : [ {
+    "job_key" : "aa3e6b5fe2d0:aswritten/clarify:u17592186058518",
+    "turn_attempts" : 1,
+    "n8n_execution_id" : "160884",
+    "skill" : "aswritten/clarify",
+    "landing" : {
+      "landed" : "message"
+    },
+    "recipient" : {
+      "name" : "Tanya TeamOwner",
+      "role" : "submitter",
+      "status" : "routed",
+      "channels_not" : {
+        "sms" : "no verified phone opted in to texts",
+        "teams" : "no Teams identity in the home tenant"
+      },
+      "roles" : [ "submitter" ],
+      "seated" : true,
+      "test-identity" : true,
+      "via" : [ {
+        "how" : "saved",
+        "as" : "saver"
+      } ]
+    },
+    "output" : {
+      "questions" : [ {
+        "to" : "Tanya TeamOwner",
+        "quote" : "The intake rota stays fortnightly, as agreed on 1 October, but the overlap call at each hand-off grows from fifteen to thirty minutes.",
+        "question" : "Does the thirty-minute overlap start on the first of November with everything else, or at the next hand-off?",
+        "because" : "I wrote that down as taking effect with the rest of the rota, and the intake position now counts on it."
+      } ],
+      "email" : {
+        "subject" : "Does the thirty-minute overlap start on 1 November?",
+        "body" : "The memo you saved says the overlap call at each hand-off grows from fifteen to thirty minutes, as agreed on 1 October. I wrote that down as taking effect with the rest of the rota, and the intake position now counts on it. Does the thirty-minute overlap start on the first of November with everything else, or at the next hand-off?"
+      }
+    },
+    "status" : "ok",
+    "gate" : {
+      "score" : 0.85,
+      "evidence" : [ "aswr:qualityFlag \"principal:unresolved\"", ".aswritten/memories/2026-10-14-2-f7-unsigned-20261014023839.md", "narr:Actor_ClaudeOpus55 a narr:AIActor", "narr:adds narr:Expr_20261014_2_F7Unsigned20261014023839_he3446c5a6c8b_1" ],
+      "why" : "Both committed expressions carry the principal:unresolved flag in an unsigned, AI-drafted memo (actor/author/animator is the AIActor, submitter Tanya is not named as principal), and the position revision adds exactly those expressions to the organization's perspective — so the one thing the record now leans on without settlement is whose position the prose states, which is squarely the skill's unresolved-principal branch; no term, number, or date is left open (fifteen→thirty minutes, fortnightly, 1 October are all stated plainly), and prior is empty so nothing was already reacted to."
+    },
+    "length_stops" : 0,
+    "plan_id" : "reaction:aa3e6b5fe2d0:clarify:a65798545265",
+    "pass" : "reaction:clarify",
+    "ms" : 72495,
+    "cite" : {
+      "email" : {
+        "claims" : 3,
+        "citations" : 2
+      }
+    },
+    "reask" : {
+      "attempted" : false,
+      "withheld" : false
+    },
+    "model" : "anthropic/claude-haiku-5.5"
+  }, {
+    "job_key" : "aa3e6b5fe2d0:aswritten/review-message:u17592186058518",
+    "turn_attempts" : 1,
+    "n8n_execution_id" : "160883",
+    "skill" : "aswritten/review-message",
+    "landing" : {
+      "landed" : "message"
+    },
+    "recipient" : {
+      "name" : "Tanya TeamOwner",
+      "role" : "submitter",
+      "status" : "routed",
+      "channels_not" : {
+        "sms" : "no verified phone opted in to texts",
+        "teams" : "no Teams identity in the home tenant"
+      },
+      "roles" : [ "submitter" ],
+      "seated" : true,
+      "test-identity" : true,
+      "via" : [ {
+        "how" : "saved",
+        "as" : "saver"
+      } ]
+    },
+    "cite_missing" : [ "email" ],
+    "output" : {
+      "beats" : {
+        "we_said" : "You saved the memory Intake rota: a longer overlap, and in it the Claude session, working from your memory, said on 13 October: \"The intake rota stays fortnightly, as agreed on 1 October, but the overlap call at each hand-off grows from fifteen to thirty minutes.\" Its second statement gives the reason: \"Fifteen minutes covered the open cases but not the ones that arrived during the hand-off week.\"",
+        "that_changes" : "That replaces the fifteen-minute overlap in the 1 October intake rota and pantry call, and adds to Dario's pantry line and Priya's start-date line from that call: \"The pantry restocks any shelf when it falls below a third full.\" and \"Both start on the first of November.\"",
+        "so_now" : "The rota stays fortnightly from the first of November, and pantry shelves restock when they fall below a third full. The hand-off overlap is thirty minutes rather than fifteen, because fifteen left the hand-off week's arrivals uncovered.",
+        "which_means" : "That suggests to me the thirty-minute call is now the figure to book, and anything set up for fifteen needs changing before November. If that holds, the pantry line and the start date stay as they were, and only the call length changes.",
+        "where_does_it_end" : [ "Does thirty minutes cover the arrivals from the hand-off week, or do the open cases still need a separate check?", "Does the first of November still hold for the longer call, or does it begin at the next hand-off?" ]
+      },
+      "email" : {
+        "subject" : "Re: Intake rota overlap, from 13 October",
+        "body" : "The Claude session, working from your memory, said on 13 October: \"The intake rota stays fortnightly, as agreed on 1 October, but the overlap call at each hand-off grows from fifteen to thirty minutes.\" Its second statement gives the reason: \"Fifteen minutes covered the open cases but not the ones that arrived during the hand-off week.\"\n\nThat replaces the fifteen-minute overlap in the 1 October intake rota and pantry call, and adds to what Dario said on that call: \"The pantry restocks any shelf when it falls below a third full.\" It also adds to what Priya said there: \"Both start on the first of November.\"\n\nThe rota stays fortnightly from the first of November, and pantry shelves restock when they fall below a third full. The hand-off overlap is thirty minutes rather than fifteen, because fifteen left the hand-off week's arrivals uncovered.\n\nThat suggests to me the thirty-minute call is now the figure to book, and anything set up for fifteen needs changing before November. If that holds, the pantry line and the start date stay as they were, and only the call length changes.\n\nTwo questions. Does thirty minutes cover the arrivals from the hand-off week, or do the open cases still need a separate check? Does the first of November still hold for the longer call, or does it begin at the next hand-off?\n\nThe conversation, with everyone's words: https://dev.api.aswritten.ai/live/conversation/2026-10-14-2-f7-unsigned-20261014023839"
+      },
+      "self_check" : {
+        "forbidden_words_outside_quotes" : [ ],
+        "quotations_verified_exact" : true,
+        "question_count" : {
+          "chat" : 0,
+          "email" : 2
+        }
+      }
+    },
+    "status" : "ok",
+    "gate" : { },
+    "length_stops" : 0,
+    "plan_id" : "reaction:aa3e6b5fe2d0:review-message:96e9a2a4c3ea",
+    "pass" : "reaction:review-message",
+    "ms" : 131956,
+    "reask" : {
+      "attempted" : false,
+      "withheld" : false
+    },
+    "model" : "anthropic/claude-haiku-5.5"
+  } ],
+  "spend" : {
+    "cost_usd" : 0.048393,
+    "passes" : [ {
+      "pass" : "reaction:_score",
+      "llm_calls" : 1,
+      "cost_usd" : 0.00413975,
+      "null_cost_calls" : 0
+    }, {
+      "pass" : "reaction:clarify",
+      "llm_calls" : 2,
+      "cost_usd" : 0.00765005,
+      "null_cost_calls" : 0
+    }, {
+      "pass" : "reaction:clarify:cite",
+      "llm_calls" : 3,
+      "cost_usd" : 0.00950284,
+      "null_cost_calls" : 0
+    }, {
+      "pass" : "reaction:review-message",
+      "llm_calls" : 2,
+      "cost_usd" : 0.01075361,
+      "null_cost_calls" : 0
+    }, {
+      "pass" : "reaction:review-message:cite",
+      "llm_calls" : 3,
+      "cost_usd" : 0.01634677,
+      "null_cost_calls" : 0
+    } ]
+  },
+  "bundle" : {
+    "items" : 2,
+    "recipients" : 1,
+    "sent" : [ {
+      "items" : [ {
+        "kind" : "reaction",
+        "skill" : "aswritten/clarify",
+        "audience" : "speakers"
+      } ],
+      "handle" : "tanya+staging@aswritten.ai",
+      "channel" : "email",
+      "recipient" : "Tanya TeamOwner",
+      "h" : "09fcdb5f3d:aswritten/clarify",
+      "status" : "skipped: test identity"
+    }, {
+      "items" : [ {
+        "kind" : "reaction",
+        "skill" : "aswritten/review-message",
+        "audience" : "touched"
+      } ],
+      "handle" : "tanya+staging@aswritten.ai",
+      "channel" : "email",
+      "recipient" : "Tanya TeamOwner",
+      "h" : "09fcdb5f3d:aswritten/review-message",
+      "status" : "skipped: test identity"
+    } ]
+  },
+  "counters" : { },
+  "at" : "2026-10-14T02:50:50.225460740Z",
+  "context" : {
+    "roster" : [ {
+      "name" : "Tanya TeamOwner",
+      "role" : "submitter",
+      "status" : "routed",
+      "channels_not" : {
+        "sms" : "no verified phone opted in to texts",
+        "teams" : "no Teams identity in the home tenant"
+      },
+      "roles" : [ "submitter" ],
+      "seated" : true,
+      "test-identity" : true,
+      "via" : [ {
+        "how" : "saved",
+        "as" : "saver"
+      } ]
+    }, {
+      "name" : "Dario Kent",
+      "role" : "touched",
+      "status" : "no-account",
+      "roles" : [ "touched" ],
+      "reason" : "no account linked to this speaker",
+      "via" : [ {
+        "how" : "attach",
+        "relation" : "attaches",
+        "statement" : "Expr_20261014_1_SeedTeam20261014023839_hc0b2a2f5be60_2",
+        "as" : "speaker",
+        "position" : "Position_IntakePantryNovemberRoutines"
+      } ]
+    }, {
+      "name" : "Priya Holm",
+      "role" : "touched",
+      "status" : "no-account",
+      "roles" : [ "touched" ],
+      "reason" : "no account linked to this speaker",
+      "via" : [ {
+        "how" : "attach",
+        "relation" : "attaches",
+        "statement" : "Expr_20261014_1_SeedTeam20261014023839_hc0b2a2f5be60_3",
+        "as" : "speaker",
+        "position" : "Position_IntakePantryNovemberRoutines"
+      } ]
+    } ],
+    "inputs" : {
+      "we_said" : 2,
+      "new_positions" : 0,
+      "touches" : 4,
+      "threads" : 1,
+      "reaches" : 1
+    },
+    "navigation" : {
+      "source" : "engine",
+      "context_chars" : 13039
+    }
+  },
+  "scorer" : {
+    "attempts" : [ {
+      "disposition" : "ok",
+      "elapsed_ms" : 25934,
+      "content_chars" : 888
+    } ]
+  }
+}
