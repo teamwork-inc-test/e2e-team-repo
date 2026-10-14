@@ -1,0 +1,17 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "communal-sharing" ],
+    "evidence" : [ {
+      "quote" : "We shipped the async decision widget",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "First-person plural 'We shipped' pools credit into one team body; the velocity metric pulls toward market-pricing, but the enacted move is the we-ness, so communal-sharing is chosen over the metric framing.",
+    "reported" : false
+  } ],
+  "mints" : [ ],
+  "region_mints" : [ ],
+  "unmarked" : [ ],
+  "unmarked_rest" : false,
+  "_source_sha256" : "1237e18b54774c37eb5214040874288fc88b5befa916140e66a01d5fdd1f31b8"
+}
