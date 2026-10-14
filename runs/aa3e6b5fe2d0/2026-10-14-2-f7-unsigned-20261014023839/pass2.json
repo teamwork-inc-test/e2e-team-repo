@@ -1,0 +1,37 @@
+{
+  "resolutions" : [ {
+    "commentary_local_id" : "src-1",
+    "phrase" : "The intake rota stays fortnightly, as agreed on 1 October, but the overlap call at each hand-off grows from fifteen to thirty minutes.",
+    "verdict" : "confident",
+    "binding" : {
+      "referents" : [ {
+        "iri" : "Position_IntakePantryNovemberRoutines",
+        "relation" : "extends",
+        "why" : "Keeps the agreed fortnightly cadence from the 1 October call but changes the overlap call from fifteen to thirty minutes. This is a revision of one detail, not a replacement of the position."
+      }, {
+        "iri" : "Expr_20261014_1_SeedTeam20261014023839_hc0b2a2f5be60_1",
+        "relation" : "extends",
+        "why" : "Priya's statement is the source of both the fortnightly cadence and the fifteen-minute overlap call that this commentary adjusts."
+      } ],
+      "targets" : [ "Position_IntakePantryNovemberRoutines", "Narrative_RoutinesRunOnSetCadence" ]
+    },
+    "why" : "'As agreed on 1 October' and 'fortnightly' with the overlap call duration match the single intake-rota position and its first expression. No other node competes.",
+    "consulted" : [ "Position_IntakePantryNovemberRoutines", "Narrative_RoutinesRunOnSetCadence", "RotaAndRestockRoutines", "Expr_20261014_1_SeedTeam20261014023839_hc0b2a2f5be60_1", "Sample_20261014_1_SeedTeam20261014023839_hc0b2a2f5be60" ]
+  }, {
+    "commentary_local_id" : "src-2",
+    "phrase" : "Fifteen minutes covered the open cases but not the ones that arrived during the hand-off week.",
+    "verdict" : "confident",
+    "binding" : {
+      "referents" : [ {
+        "iri" : "Expr_20261014_1_SeedTeam20261014023839_hc0b2a2f5be60_1",
+        "relation" : "extends",
+        "why" : "Gives the reason the fifteen-minute overlap call was too short, which adds a consequence to that statement."
+      } ],
+      "targets" : [ "Position_IntakePantryNovemberRoutines" ]
+    },
+    "why" : "'Fifteen minutes' refers back to the fifteen-minute overlap call in the intake rota expression. The pantry and start-date expressions are not involved.",
+    "consulted" : [ "Position_IntakePantryNovemberRoutines", "Expr_20261014_1_SeedTeam20261014023839_hc0b2a2f5be60_1", "Narrative_RoutinesRunOnSetCadence" ]
+  } ],
+  "unreferenced_commentary" : [ ],
+  "_source_sha256" : "e040337bd8dac8bfd179f25203dce69bc4b3fb0472b1cff5dfbd14bc8cef16c9"
+}
