@@ -1,0 +1,32 @@
+{
+  "bindings" : [ {
+    "name" : "memo author",
+    "verdict" : "unbound",
+    "target" : null,
+    "label" : null,
+    "why" : "A role descriptor, not a person's name; nothing in the envelope or existing actors identifies who it denotes.",
+    "ai" : false
+  }, {
+    "name" : "Dario Kent",
+    "verdict" : "bind",
+    "target" : "Actor_DarioKent",
+    "label" : null,
+    "why" : "Exact full-name match to existing actor Dario Kent.",
+    "ai" : false
+  }, {
+    "name" : "Tina TeamMember",
+    "verdict" : "bind",
+    "target" : "Actor_TinaTeammember",
+    "label" : null,
+    "why" : "Exact name match (case-insensitive) to existing actor Tina TeamMember; also the envelope submitted_by.",
+    "ai" : false
+  }, {
+    "name" : "tina+staging@aswritten.ai",
+    "verdict" : "bind",
+    "target" : "Actor_TinaTeammember",
+    "label" : null,
+    "why" : "Account email belongs to submitted_by Tina TeamMember, who is an existing actor.",
+    "ai" : false
+  } ],
+  "_source_sha256" : "5173ce0d903a220b9705f86ad203ba82c8dfb250768cb9581121cbc06fdec1ac"
+}
