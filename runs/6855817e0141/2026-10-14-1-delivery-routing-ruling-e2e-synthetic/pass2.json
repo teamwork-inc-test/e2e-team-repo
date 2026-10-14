@@ -1,0 +1,37 @@
+{
+  "resolutions" : [ {
+    "commentary_local_id" : "src-2",
+    "phrase" : "we route every reaction through one bundle per run per person, not one message per skill",
+    "verdict" : "new",
+    "binding" : null,
+    "candidates" : null,
+    "why" : "The reaction delivery routing ruling (bundles per run per person, per-skill delivery) matches no node in the perspective. The graph covers product positioning, pricing, and sprint 4 architecture (webhooks), and the nearest node, Position_WebhookArchitecture, concerns capture ingestion, not delivery routing.",
+    "consulted" : [ "Perspective map: Narrative_AntiSlackPositioning", "Coverage: Position_ContextPreservationNextSprint, Position_AntiPatternRealtimeChat", "Narrative_DecisionsEvaporate", "Position_WebhookArchitecture", "Doors: Thematic (0 areas), People 0, Unplaced 0, Documents 2" ]
+  }, {
+    "commentary_local_id" : "src-3",
+    "phrase" : "Tina pushed back on the batching window",
+    "verdict" : "new",
+    "binding" : null,
+    "candidates" : null,
+    "why" : "No prior node concerns a batching window or pushback on reaction delivery. It is the same fresh thread as the routing ruling in src-2 and is bound in-envelope to it.",
+    "consulted" : [ "Perspective map and coverage", "Narrative_DecisionsEvaporate", "Doors: Thematic (0 areas), People 0, Unplaced 0" ]
+  }, {
+    "commentary_local_id" : "src-4",
+    "phrase" : "the bundle closes when the run closes, and a skill that misses the close waits for the next run",
+    "verdict" : "new",
+    "binding" : null,
+    "candidates" : null,
+    "why" : "The bundle-close rule is a fresh ruling with no prior counterpart in the graph. Its only referent is the in-envelope bundle ruling in src-2, which binds structurally.",
+    "consulted" : [ "Perspective map and coverage", "Position_WebhookArchitecture", "Doors: Thematic (0 areas), Unplaced 0" ]
+  }, {
+    "commentary_local_id" : "src-5",
+    "phrase" : "per-skill delivery with client-side collapsing",
+    "verdict" : "new",
+    "binding" : null,
+    "candidates" : null,
+    "why" : "The rejected alternative (per-skill delivery with client-side collapsing) appears nowhere in the graph. It is part of the same new ruling and is bound in-envelope.",
+    "consulted" : [ "Perspective map and coverage", "Doors: Thematic (0 areas), Dimensions 0, Unplaced 0" ]
+  } ],
+  "unreferenced_commentary" : [ ],
+  "_source_sha256" : "ba05ea0158d2bb5ae030ad5d571477370ce49537407437eea6eb9df45ec14eb7"
+}
