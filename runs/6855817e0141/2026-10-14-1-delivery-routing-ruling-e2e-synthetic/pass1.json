@@ -1,0 +1,101 @@
+{
+  "doc" : {
+    "title" : "Delivery routing ruling (e2e synthetic)",
+    "date_stated" : null,
+    "actors_present" : [ "Tanya", "Tina", "memo author" ]
+  },
+  "footing_cases" : [ {
+    "id" : "fc-1",
+    "animator" : "memo author",
+    "author" : "memo author",
+    "principal" : null,
+    "unresolved" : "The envelope names Tanya as submitter and participant but does not state who composed the document's prose, so the editorial voice's principal is left null.",
+    "when" : "The document's own narrating prose, outside quotes and without a named-actor speech attribution."
+  }, {
+    "id" : "fc-2",
+    "animator" : "memo author",
+    "author" : "memo author",
+    "principal" : "Tina",
+    "when" : "Editorial sentence reporting Tina by name with a speech verb ('pushed back')."
+  }, {
+    "id" : "fc-3",
+    "animator" : "memo author",
+    "author" : "memo author",
+    "principal" : "Tanya",
+    "when" : "Editorial sentence reporting Tanya by name with a speech verb ('held') and her position in the same sentence."
+  } ],
+  "segments" : [ {
+    "local_id" : "src-1",
+    "exact" : "Tanya (team owner) ruled on where reaction delivery belongs:",
+    "actor" : "memo author",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Delivery routing ruling"
+    },
+    "note" : "Quote-frame introducing the adjacent verbatim quote; stays composer-editorial, the quote carries the voice.",
+    "footing_case" : "fc-1",
+    "footing" : {
+      "animator" : "memo author",
+      "author" : "memo author",
+      "principal" : null
+    }
+  }, {
+    "local_id" : "src-2",
+    "exact" : "we route every reaction through one bundle per run per person, not one\n> message per skill — a person should get one thing to read, not four",
+    "actor" : "Tanya",
+    "act" : "declarative",
+    "circumstance" : {
+      "context" : "Tanya's ruling on reaction delivery routing"
+    },
+    "note" : "Verbatim blockquote performing the ruling itself; the enumeration serves the one ruling, kept as one segment.",
+    "footing_case" : null,
+    "repair" : "scaffold:blockquote"
+  }, {
+    "local_id" : "src-3",
+    "exact" : "Tina pushed back on the batching window",
+    "actor" : "memo author",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Delivery routing ruling"
+    },
+    "note" : "Reported speech naming Tina with a speech verb; split from the compound sentence's second reported act.",
+    "footing_case" : "fc-2",
+    "footing" : {
+      "animator" : "memo author",
+      "author" : "memo author",
+      "principal" : "Tina"
+    }
+  }, {
+    "local_id" : "src-4",
+    "exact" : "Tanya held: the bundle closes when\nthe run closes, and a skill that misses the close waits for the next run rather\nthan sending on its own.",
+    "actor" : "memo author",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Delivery routing ruling"
+    },
+    "note" : "Reported speech naming Tanya with the speech verb 'held'; her position carried in the same sentence.",
+    "footing_case" : "fc-3",
+    "footing" : {
+      "animator" : "memo author",
+      "author" : "memo author",
+      "principal" : "Tanya"
+    }
+  }, {
+    "local_id" : "src-5",
+    "exact" : "The alternative considered and rejected was per-skill\ndelivery with client-side collapsing, which moves the ordering problem onto the\nreader.",
+    "actor" : "memo author",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Delivery routing ruling"
+    },
+    "note" : "Editorial narration of the rejected alternative; no marker attributes it to a named actor.",
+    "footing_case" : "fc-1",
+    "footing" : {
+      "animator" : "memo author",
+      "author" : "memo author",
+      "principal" : null
+    }
+  } ],
+  "coverage_gaps" : [ ],
+  "_source_sha256" : "ba05ea0158d2bb5ae030ad5d571477370ce49537407437eea6eb9df45ec14eb7"
+}
