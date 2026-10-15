@@ -1,0 +1,29 @@
+{
+  "placements" : [ {
+    "verdict" : "mint",
+    "leaf" : "Narrative_OperatingRhythmsRunByStatedRules",
+    "title" : "Recurring operations change on a shared start date and run by explicit rules",
+    "frame" : "When the team changes how recurring work is staffed, handed off or replenished, what rule does each arrangement run by, and what start date ties the changes together?",
+    "under" : null,
+    "supporting_positions" : [ "NovemberFirstOperatingChanges" ],
+    "why" : "The position carries Priya's fortnightly intake rota with a fifteen-minute overlap call at each hand-off and Dario's below-a-third-full restocking rule, both tied to a November 1 start. None of the three existing leaves (anti-Slack positioning, decision capture, evaporating decisions) bears on how the team runs its own operations. The theme is something future calls can keep feeding: rota changes, restocking thresholds, start dates. The leaf names the theme and does not restate the facts.",
+    "consulted" : [ "Narrative_AntiSlackPositioning", "Narrative_DecisionCaptureAtConsensus", "Narrative_DecisionsEvaporate" ]
+  } ],
+  "unplaced" : [ ],
+  "weighed" : [ ],
+  "strata" : {
+    "mints" : [ ],
+    "connections" : [ ],
+    "disconnections" : [ ],
+    "unconnected" : [ {
+      "member" : "Narrative_OperatingRhythmsRunByStatedRules",
+      "why" : "No existing stratum holds this theme. It is the graph's first operations-oriented narrative, so a stratum would have no second member to group it with yet."
+    } ]
+  },
+  "strata_flags" : [ {
+    "flag" : "unconnected",
+    "subject" : "Narrative_OperatingRhythmsRunByStatedRules",
+    "detail" : "placed with no stratum"
+  } ],
+  "_source_sha256" : "33334968fe34c87719682c0567426876d98b442189d1cbf1cacbe6ef13bcbb39"
+}
