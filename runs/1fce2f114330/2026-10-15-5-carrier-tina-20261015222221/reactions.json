@@ -1,0 +1,158 @@
+{
+  "schema_version" : 1,
+  "run_id" : "mp-eng-df613c9e",
+  "live_run_id" : "1fce2f114330",
+  "stream" : "e2e-662-team-20261015222221",
+  "policy" : {
+    "mode" : "on",
+    "source" : "default",
+    "version" : 1,
+    "skills" : { },
+    "lands" : { },
+    "audience" : "owner-setting",
+    "warn_per_run_usd" : 0.25,
+    "channels" : [ "email", "sms", "teams" ]
+  },
+  "gates" : [ {
+    "id" : "aswritten/clarify",
+    "run?" : false,
+    "gate" : 2,
+    "reason" : "score 0.0 < threshold 0.7",
+    "score" : 0.0,
+    "evidence" : [ "Direct quoted speech — unified voice, bare.", "Quoted through Tina's submission, so reported is set true.", "Every pantry shelf gets a line marked at a third, so restocking is a glance, not a count." ]
+  }, {
+    "id" : "aswritten/merge-suggest",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "skill off"
+  }, {
+    "id" : "aswritten/refract",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "skill off"
+  }, {
+    "id" : "aswritten/review-message",
+    "run?" : true,
+    "gate" : 2,
+    "reason" : "predicate only"
+  }, {
+    "id" : "aswritten/review-request",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "skill off"
+  }, {
+    "id" : "aswritten/riff",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "skill off"
+  } ],
+  "jobs" : [ {
+    "job_key" : "1fce2f114330:aswritten/review-message:u17592186058524",
+    "turn_attempts" : 1,
+    "skill" : "aswritten/review-message",
+    "landing" : {
+      "landed" : "message"
+    },
+    "recipient" : {
+      "name" : "Tina TeamMember",
+      "role" : "submitter",
+      "status" : "routed",
+      "channels_not" : {
+        "sms" : "no verified phone opted in to texts",
+        "teams" : "no Teams identity in the home tenant"
+      },
+      "roles" : [ "submitter" ],
+      "seated" : true,
+      "test-identity" : true,
+      "via" : [ {
+        "how" : "saved",
+        "as" : "saver"
+      }, {
+        "how" : "lineage",
+        "relation" : "see",
+        "statement" : "Expr_20261015_3_F8SelfAuthor20261015222221_hb46f1b0dabf6_1",
+        "as" : "relayed",
+        "position" : "Position_PantryRestockThresholdsByShelf"
+      } ]
+    },
+    "reason" : "the turn failed: the kernel did not plan the turn: deny payer-unresolvable",
+    "status" : "failed",
+    "gate" : { },
+    "pass" : "reaction:review-message",
+    "ms" : 380,
+    "model" : "anthropic/claude-haiku-5.5"
+  } ],
+  "spend" : {
+    "cost_usd" : 0.002052,
+    "passes" : [ {
+      "pass" : "reaction:_score",
+      "llm_calls" : 1,
+      "cost_usd" : 0.00205245,
+      "null_cost_calls" : 0
+    } ]
+  },
+  "bundle" : {
+    "items" : 0,
+    "recipients" : 1,
+    "sent" : [ ]
+  },
+  "counters" : { },
+  "at" : "2026-10-15T22:40:38.409352135Z",
+  "context" : {
+    "roster" : [ {
+      "name" : "Tina TeamMember",
+      "role" : "submitter",
+      "status" : "routed",
+      "channels_not" : {
+        "sms" : "no verified phone opted in to texts",
+        "teams" : "no Teams identity in the home tenant"
+      },
+      "roles" : [ "submitter" ],
+      "seated" : true,
+      "test-identity" : true,
+      "via" : [ {
+        "how" : "saved",
+        "as" : "saver"
+      }, {
+        "how" : "lineage",
+        "relation" : "see",
+        "statement" : "Expr_20261015_3_F8SelfAuthor20261015222221_hb46f1b0dabf6_1",
+        "as" : "relayed",
+        "position" : "Position_PantryRestockThresholdsByShelf"
+      } ]
+    }, {
+      "name" : "the Claude session (claude-opus-5-5)",
+      "role" : "touched",
+      "status" : "no-channel",
+      "roles" : [ "touched" ],
+      "ai" : true,
+      "reason" : "no channel (an AI session)",
+      "via" : [ {
+        "how" : "lineage",
+        "relation" : "see",
+        "statement" : "Expr_20261015_3_F8SelfAuthor20261015222221_hb46f1b0dabf6_1",
+        "as" : "speaker",
+        "position" : "Position_PantryRestockThresholdsByShelf"
+      } ]
+    } ],
+    "inputs" : {
+      "we_said" : 1,
+      "new_positions" : 1,
+      "touches" : 1,
+      "threads" : 1,
+      "reaches" : 2
+    },
+    "navigation" : {
+      "source" : "engine",
+      "touch_pointers" : 1,
+      "context_chars" : 18717
+    }
+  },
+  "scorer" : {
+    "attempts" : [ {
+      "disposition" : "ok",
+      "elapsed_ms" : 23511,
+      "content_chars" : 564
+    } ]
+  }
+}
