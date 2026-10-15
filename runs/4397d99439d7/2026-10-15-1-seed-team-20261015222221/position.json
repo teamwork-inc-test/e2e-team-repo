@@ -1,0 +1,12 @@
+{
+  "positions" : [ {
+    "name" : "NovemberFirstOperatingChanges",
+    "frame" : "which intake and pantry working arrangements take effect together on the November start, and what rule does each one run by?",
+    "members" : [ "src-1", "src-2", "src-3" ],
+    "why" : "Priya's fortnightly rota with a fifteen-minute overlap call at each hand-off and Dario's restocking rule (below a third full) are two operating rules. Priya's \"Both start on the first of November\" ties them to one start date. The frame covers the shared start and each rule's mechanics. The temporal reads agree: src-1 and src-3 are planned future, and src-2 is a standing present rule. All three are plain claims, with no settling act recorded. No existing narrative leaf or stratum bears on food-bank operations, so no `under` is proposed."
+  } ],
+  "attaches" : [ ],
+  "position_revisions" : [ ],
+  "ungrouped" : [ ],
+  "_source_sha256" : "33334968fe34c87719682c0567426876d98b442189d1cbf1cacbe6ef13bcbb39"
+}
