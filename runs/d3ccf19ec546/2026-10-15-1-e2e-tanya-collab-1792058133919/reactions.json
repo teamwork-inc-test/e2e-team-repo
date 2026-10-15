@@ -1,0 +1,180 @@
+{
+  "schema_version" : 1,
+  "run_id" : "mp-eng-f5f4fae6",
+  "live_run_id" : "d3ccf19ec546",
+  "stream" : "e2e-collab-1792057980909",
+  "policy" : {
+    "mode" : "on",
+    "source" : "default",
+    "version" : 1,
+    "skills" : { },
+    "lands" : { },
+    "audience" : "owner-setting",
+    "warn_per_run_usd" : 0.25,
+    "channels" : [ "email", "sms", "teams" ]
+  },
+  "gates" : [ {
+    "id" : "aswritten/clarify",
+    "run?" : false,
+    "gate" : 2,
+    "reason" : "score 0.0 < threshold 0.7",
+    "score" : 0.0,
+    "evidence" : [ "Firms up the narrative on zero-effort capture by shipping the async decision widget. Extends the Zephyr integration position, framing it as the key unlock for the quarter's record-high velocity.", "plain-assertion: Velocity was 23 points, highest this quarter.", "Direct, unhedged factual claim stating sprint velocity metrics.", "narr:extends narr:Position_Sprint4ThesisProven", "narr:extends narr:Position_ZephyrIntegrationUnlock" ]
+  }, {
+    "id" : "aswritten/merge-suggest",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "skill off"
+  }, {
+    "id" : "aswritten/refract",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "skill off"
+  }, {
+    "id" : "aswritten/review-message",
+    "run?" : true,
+    "gate" : 2,
+    "reason" : "predicate only"
+  }, {
+    "id" : "aswritten/review-request",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "skill off"
+  }, {
+    "id" : "aswritten/riff",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "skill off"
+  } ],
+  "jobs" : [ {
+    "job_key" : "d3ccf19ec546:aswritten/review-message:u17592186058518",
+    "turn_attempts" : 1,
+    "n8n_execution_id" : "161810",
+    "skill" : "aswritten/review-message",
+    "landing" : {
+      "landed" : "message"
+    },
+    "recipient" : {
+      "name" : "Tanya TeamOwner",
+      "role" : "submitter",
+      "status" : "routed",
+      "channels_not" : {
+        "sms" : "no verified phone opted in to texts",
+        "teams" : "no Teams identity in the home tenant"
+      },
+      "roles" : [ "submitter" ],
+      "seated" : true,
+      "test-identity" : true,
+      "via" : [ {
+        "how" : "saved",
+        "as" : "saver"
+      } ]
+    },
+    "cite_missing" : [ "email" ],
+    "output" : {
+      "beats" : {
+        "we_said" : "You said today: \"We shipped the async decision widget.\" Two sentences later in the same retro you said, \"The Zephyr integration was the key unlock.\" Velocity was 23 points, highest this quarter.",
+        "that_changes" : "Nothing earlier from you is touched by this run. The retro does tie into the March 22 sprint retro, where the Zephyr integration was already described as reaching Slack, Teams and Discord, and the March product vision that set decision capture at the point of consensus as the core feature.",
+        "so_now" : "The widget that catches a decision at the point a chat thread reaches consensus is out, and you credit the Zephyr integration for getting it there. The March product vision was built around that capture point, and a March 22 sprint retro already described the Zephyr integration as reaching Slack, Teams and Discord without separate plugins.",
+        "which_means" : "That suggests to me the chat integration is now the delivery path, not a step still ahead of it. If that holds, the work that was waiting on the widget can start, and the 23 points are worth reading as integration work as much as widget work, though the retro doesn't split the two. Nothing in it says how many teams are on the widget yet, so I'd read the 23 points as a first number rather than a settled baseline.",
+        "where_does_it_end" : [ "Does the Zephyr integration reach Slack, Teams and Discord equally, or are some of them still waiting?", "Is linking each decision back to the thread that produced it still the next piece, or has the widget changed that order?" ]
+      },
+      "email" : {
+        "subject" : "Re: Async decision widget shipped, from today",
+        "body" : "Tanya, you said today: \"We shipped the async decision widget.\" Two sentences later in the same retro you said, \"The Zephyr integration was the key unlock.\" Velocity was 23 points, highest this quarter.\n\nSo now the widget that catches a decision at the point a chat thread reaches consensus is out, and you credit the Zephyr integration for getting it there. The March product vision was built around that capture point, and a March 22 sprint retro already described the Zephyr integration as reaching Slack, Teams and Discord without separate plugins.\n\nThat suggests to me the chat integration is now the delivery path, not a step still ahead of it. If that holds, the work that was waiting on the widget can start, and the 23 points are worth reading as integration work as much as widget work, though the retro doesn't split the two. Nothing in it says how many teams are on the widget yet, so I'd read the 23 points as a first number rather than a settled baseline.\n\nDoes the Zephyr integration reach Slack, Teams and Discord equally, or are some of them still waiting? And is linking each decision back to the thread that produced it still the next piece, or has the widget changed that order?\n\nThe conversation, with everyone's words: https://dev.api.aswritten.ai/live/conversation/2026-10-15-1-e2e-tanya-collab-1792058133919"
+      },
+      "self_check" : {
+        "forbidden_words_outside_quotes" : [ ],
+        "quotations_verified_exact" : true,
+        "question_count" : {
+          "chat" : 0,
+          "email" : 2
+        }
+      }
+    },
+    "status" : "ok",
+    "gate" : { },
+    "length_stops" : 0,
+    "plan_id" : "reaction:d3ccf19ec546:review-message:f5e59585dc3d",
+    "pass" : "reaction:review-message",
+    "ms" : 368423,
+    "reask" : {
+      "attempted" : false,
+      "withheld" : false
+    },
+    "model" : "anthropic/claude-haiku-5.5"
+  } ],
+  "spend" : {
+    "cost_usd" : 0.072835,
+    "passes" : [ {
+      "pass" : "reaction:_score",
+      "llm_calls" : 1,
+      "cost_usd" : 0.0027441,
+      "null_cost_calls" : 0
+    }, {
+      "pass" : "reaction:review-message",
+      "llm_calls" : 4,
+      "cost_usd" : 0.02014771,
+      "null_cost_calls" : 0
+    }, {
+      "pass" : "reaction:review-message:cite",
+      "llm_calls" : 42,
+      "cost_usd" : 0.04994359,
+      "null_cost_calls" : 0
+    } ]
+  },
+  "bundle" : {
+    "items" : 1,
+    "recipients" : 1,
+    "sent" : [ {
+      "items" : [ {
+        "kind" : "reaction",
+        "skill" : "aswritten/review-message",
+        "audience" : "touched"
+      } ],
+      "handle" : "tanya+staging@aswritten.ai",
+      "channel" : "email",
+      "recipient" : "Tanya TeamOwner",
+      "h" : "09fcdb5f3d:aswritten/review-message",
+      "status" : "skipped: test identity"
+    } ]
+  },
+  "counters" : { },
+  "at" : "2026-10-15T10:03:58.728924103Z",
+  "context" : {
+    "roster" : [ {
+      "name" : "Tanya TeamOwner",
+      "role" : "submitter",
+      "status" : "routed",
+      "channels_not" : {
+        "sms" : "no verified phone opted in to texts",
+        "teams" : "no Teams identity in the home tenant"
+      },
+      "roles" : [ "submitter" ],
+      "seated" : true,
+      "test-identity" : true,
+      "via" : [ {
+        "how" : "saved",
+        "as" : "saver"
+      } ]
+    } ],
+    "inputs" : {
+      "we_said" : 3,
+      "new_positions" : 1,
+      "touches" : 0,
+      "threads" : 1,
+      "reaches" : 3
+    },
+    "navigation" : {
+      "source" : "engine",
+      "context_chars" : 14105
+    }
+  },
+  "scorer" : {
+    "attempts" : [ {
+      "disposition" : "ok",
+      "elapsed_ms" : 16011,
+      "content_chars" : 774
+    } ]
+  }
+}
