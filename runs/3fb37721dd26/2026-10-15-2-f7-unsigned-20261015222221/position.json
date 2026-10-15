@@ -1,0 +1,12 @@
+{
+  "positions" : [ ],
+  "attaches" : [ ],
+  "position_revisions" : [ {
+    "revises" : "Position_NovemberFirstOperatingChanges",
+    "adds" : [ "src-1", "src-2" ],
+    "drops" : [ "Expr_20261015_1_SeedTeam20261015222221_h972434861ef7_1" ],
+    "why" : "The frame still holds: which intake and pantry arrangements take effect together on the November start, and what rule each runs by. Priya's 1 October statement set a fortnightly rota with a fifteen-minute overlap call. src-1 keeps the fortnightly cadence but replaces the overlap length with thirty minutes, so the fifteen-minute statement is no longer correct. src-2 gives the reason for the change, that fifteen minutes covered the open cases but not those arriving during the hand-off week. The pantry rule (_2) and the shared start date (_3) are untouched."
+  } ],
+  "ungrouped" : [ ],
+  "_source_sha256" : "e040337bd8dac8bfd179f25203dce69bc4b3fb0472b1cff5dfbd14bc8cef16c9"
+}
