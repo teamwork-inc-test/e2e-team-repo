@@ -1,0 +1,26 @@
+{
+  "placements" : [ {
+    "verdict" : "reuse",
+    "leaf" : "Narrative_OperatingRhythmsRunByStatedRules",
+    "supporting_positions" : [ "PantryRestockThresholdsByShelf" ],
+    "why" : "The narrative is about recurring operations running by explicit, stated rules. The pantry restock threshold, with a half-full exception for oats and rice, is a stated rule and an amendment to the 1 October rule. It fits this existing leaf and needs no new one.",
+    "consulted" : [ "Narrative_OperatingRhythmsRunByStatedRules", "Narrative_AntiSlackPositioning", "Narrative_DecisionCaptureAtConsensus", "Narrative_DecisionsEvaporate" ]
+  } ],
+  "unplaced" : [ ],
+  "weighed" : [ ],
+  "strata" : {
+    "mints" : [ ],
+    "connections" : [ ],
+    "disconnections" : [ ],
+    "unconnected" : [ {
+      "member" : "Narrative_OperatingRhythmsRunByStatedRules",
+      "why" : "No existing strata, and this envelope's content calls for no new grouping. The narrative is a single-subject leaf, and one pantry-threshold position does not justify a cross-graph grouping."
+    } ]
+  },
+  "strata_flags" : [ {
+    "flag" : "unconnected",
+    "subject" : "Narrative_OperatingRhythmsRunByStatedRules",
+    "detail" : "placed with no stratum"
+  } ],
+  "_source_sha256" : "41dcd61d3d391179b1f97a179273f02ff41fe4ce3af211f4c07d7133e0a4e92a"
+}
