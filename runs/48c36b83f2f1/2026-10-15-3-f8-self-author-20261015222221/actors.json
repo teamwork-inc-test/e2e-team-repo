@@ -1,0 +1,22 @@
+{
+  "bindings" : [ {
+    "name" : "claude-opus-5-5",
+    "verdict" : "bind",
+    "target" : "Actor_ClaudeOpus55",
+    "why" : "Exact match to the existing AI actor claude-opus-5-5.",
+    "ai" : true
+  }, {
+    "name" : "Tina TeamMember",
+    "verdict" : "mint",
+    "label" : "Tina TeamMember",
+    "why" : "No existing actor named Tina TeamMember; the closest listed actor, Tanya TeamOwner, is a different person.",
+    "ai" : false
+  }, {
+    "name" : "tina+staging@aswritten.ai",
+    "verdict" : "mint",
+    "label" : "Tina TeamMember",
+    "why" : "The account email belongs to the person-named submitted_by, Tina TeamMember, so it takes her label, which is identical to her minted name verdict.",
+    "ai" : false
+  } ],
+  "_source_sha256" : "41dcd61d3d391179b1f97a179273f02ff41fe4ce3af211f4c07d7133e0a4e92a"
+}
