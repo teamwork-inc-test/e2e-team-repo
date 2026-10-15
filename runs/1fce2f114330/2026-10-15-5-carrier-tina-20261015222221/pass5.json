@@ -1,0 +1,53 @@
+{
+  "placements" : [ {
+    "verdict" : "reuse",
+    "leaf" : "Narrative_OperatingRhythmsRunByStatedRules",
+    "supporting_positions" : [ "PantryShelfFillLineMarking", "Position_PantryRestockThresholdsByShelf", "Position_NovemberFirstOperatingChanges" ],
+    "why" : "Dario's rule that every shelf carries a fill line at a third is a stated rule for a recurring pantry operation. It sits with the restock-threshold positions already under this narrative, so reuse fits and no new leaf is needed.",
+    "consulted" : [ "Narrative_OperatingRhythmsRunByStatedRules", "Narrative_AntiSlackPositioning", "Narrative_DecisionCaptureAtConsensus", "Narrative_DecisionsEvaporate" ]
+  } ],
+  "unplaced" : [ ],
+  "weighed" : [ {
+    "position" : "Position_NovemberFirstOperatingChanges",
+    "verdict" : "adopt",
+    "leaves" : [ "Narrative_OperatingRhythmsRunByStatedRules" ],
+    "why" : "Its below-a-third restock rule is the threshold the fill line makes visible, so it supports the operating-rhythms leaf alongside the new position."
+  }, {
+    "position" : "Position_PantryRestockThresholdsByShelf",
+    "verdict" : "adopt",
+    "leaves" : [ "Narrative_OperatingRhythmsRunByStatedRules" ],
+    "why" : "Its per-shelf thresholds, including the oats and rice exception, are the rules the shelf marks make checkable. It belongs under the same leaf."
+  } ],
+  "strata" : {
+    "mints" : [ {
+      "name" : "PantryRestockingPractice",
+      "type" : "thematic",
+      "title" : "How the pantry decides when to restock a shelf: the fill thresholds and the marks that make them checkable",
+      "why" : "Several positions about pantry restocking (the one-third rule, the oats and rice exception, the fill-line marking) are about one subject. The existing strata offer no grouping for it."
+    } ],
+    "connections" : [ {
+      "member" : "Position_PantryShelfFillLineMarking",
+      "strata" : [ "PantryRestockingPractice" ],
+      "why" : "It concerns how the restock threshold is made visible on the shelf."
+    }, {
+      "member" : "Position_PantryRestockThresholdsByShelf",
+      "strata" : [ "PantryRestockingPractice" ],
+      "why" : "It sets the per-shelf fill levels that the marks must reflect."
+    }, {
+      "member" : "Position_NovemberFirstOperatingChanges",
+      "strata" : [ "PantryRestockingPractice" ],
+      "why" : "It carries the below-a-third restock rule that opens this practice."
+    } ],
+    "disconnections" : [ ],
+    "unconnected" : [ {
+      "member" : "Narrative_OperatingRhythmsRunByStatedRules",
+      "why" : "It is reused and covers intake and pantry operations broadly. The pantry stratum minted here holds only the pantry positions, not the narrative as a whole."
+    } ]
+  },
+  "strata_flags" : [ {
+    "flag" : "unconnected",
+    "subject" : "Narrative_OperatingRhythmsRunByStatedRules",
+    "detail" : "placed with no stratum"
+  } ],
+  "_source_sha256" : "5173ce0d903a220b9705f86ad203ba82c8dfb250768cb9581121cbc06fdec1ac"
+}
