@@ -1,0 +1,36 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "future", "irrealis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "The intake rota moves to fortnightly in November",
+      "kind" : "plain-assertion"
+    }, {
+      "quote" : "fifteen-minute overlap call",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Attention sits on a scheduled November change to a specific rota and call; the present tense frames a planned future, so irrealis rather than realis.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-2",
+    "regions" : [ "present", "abstract" ],
+    "evidence" : [ {
+      "quote" : "The pantry restocks any shelf when it falls below a third full.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "A generic standing rule in present tense about any shelf, with no particular event; present focus and abstract construal.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-3",
+    "regions" : [ "future", "irrealis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "Both start on the first of November.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "A specific dated start in the future, stated as planned; concrete and irrealis, matching the planned change in src-1.",
+    "reported" : false
+  } ],
+  "unmarked" : [ ],
+  "unmarked_rest" : false,
+  "_source_sha256" : "33334968fe34c87719682c0567426876d98b442189d1cbf1cacbe6ef13bcbb39"
+}
