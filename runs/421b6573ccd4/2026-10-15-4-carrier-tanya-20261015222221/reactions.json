@@ -1,0 +1,232 @@
+{
+  "schema_version" : 1,
+  "run_id" : "mp-eng-c6fdcf3a",
+  "live_run_id" : "421b6573ccd4",
+  "stream" : "e2e-662-team-20261015222221",
+  "policy" : {
+    "mode" : "on",
+    "source" : "default",
+    "version" : 1,
+    "skills" : { },
+    "lands" : { },
+    "audience" : "owner-setting",
+    "warn_per_run_usd" : 0.25,
+    "channels" : [ "email", "sms", "teams" ]
+  },
+  "gates" : [ {
+    "id" : "aswritten/clarify",
+    "run?" : false,
+    "gate" : 2,
+    "reason" : "score 0.0 < threshold 0.7",
+    "score" : 0.0,
+    "evidence" : [ "The intake desk gets a printed sign with the rota dates from November.", "Unhedged, flat assertion of a scheduled fact with no ratification or commitment language, so claim rather than decision", "the specific artifact and dates make the construal concrete" ]
+  }, {
+    "id" : "aswritten/merge-suggest",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "skill off"
+  }, {
+    "id" : "aswritten/refract",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "skill off"
+  }, {
+    "id" : "aswritten/review-message",
+    "run?" : true,
+    "gate" : 2,
+    "reason" : "predicate only"
+  }, {
+    "id" : "aswritten/review-request",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "skill off"
+  }, {
+    "id" : "aswritten/riff",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "skill off"
+  } ],
+  "jobs" : [ {
+    "job_key" : "421b6573ccd4:aswritten/review-message:u17592186058518",
+    "turn_attempts" : 1,
+    "n8n_execution_id" : "162393",
+    "skill" : "aswritten/review-message",
+    "landing" : {
+      "landed" : "message"
+    },
+    "recipient" : {
+      "name" : "Tanya TeamOwner",
+      "role" : "submitter",
+      "status" : "routed",
+      "channels_not" : {
+        "sms" : "no verified phone opted in to texts",
+        "teams" : "no Teams identity in the home tenant"
+      },
+      "roles" : [ "submitter" ],
+      "seated" : true,
+      "test-identity" : true,
+      "via" : [ {
+        "how" : "saved",
+        "as" : "saver"
+      } ]
+    },
+    "output" : {
+      "beats" : {
+        "we_said" : "Priya Holm said on the 9 October intake signage conversation, which you brought in: \"The intake desk gets a printed sign with the rota dates from November.\" It is a flat statement of a planned arrangement, with no hedge on it.",
+        "that_changes" : "That adds to what Priya said on the 1 October team call, \"Both start on the first of November.\", and to what Dario Kent said on that same call, \"The pantry restocks any shelf when it falls below a third full.\" Neither of those was about a sign, so the sign now stands beside the start date rather than replacing anything.",
+        "so_now" : "The rota starts on the first of November and stays fortnightly, with the overlap call at each hand-off lengthened from fifteen to thirty minutes. The pantry restocks at a third full, except oats and rice, which restock at half. The intake desk is to have a printed sign showing the rota dates from November.",
+        "which_means" : "I read that as the sign making the November dates public at the desk, so if the start date or the fortnightly pattern moves, the sign has to follow. It also suggests the thirty-minute overlap call is not on the sign yet, so the desk could show dates that do not match how the hand-off now runs. If that holds, the sign is the first thing to check against the call's new length.",
+        "where_does_it_end" : [ "Does the sign carry the fortnightly pattern, or only the first of November as the start?", "Does the thirty-minute overlap need to be on it?", "Should the sign be checked again whenever the rota changes?" ]
+      },
+      "email" : {
+        "subject" : "Re: Intake desk printed sign, from 9 October",
+        "body" : "Priya Holm said on the 9 October intake signage conversation, which you brought in: \"The intake desk gets a printed sign with the rota dates from November.\" It is a flat statement of a planned arrangement, with no hedge on it.\n\nThat adds to what Priya said on the 1 October team call, \"Both start on the first of November.\", and to what Dario Kent said on that same call, \"The pantry restocks any shelf when it falls below a third full.\" Neither of those was about a sign, so the sign now stands beside the start date rather than replacing anything.\n\nSo now the rota starts on the first of November and stays fortnightly, with the overlap call at each hand-off lengthened from fifteen to thirty minutes. The pantry restocks at a third full, except oats and rice, which restock at half. The intake desk is to have a printed sign showing the rota dates from November.\n\nI read that as the sign making the November dates public at the desk, so if the start date or the fortnightly pattern moves, the sign has to follow. It also suggests the thirty-minute overlap call is not on the sign yet, so the desk could show dates that do not match how the hand-off now runs. If that holds, the sign is the first thing to check against the call's new length.\n\nDoes the sign carry the fortnightly pattern, or only the first of November as the start? Does the thirty-minute overlap need to be on it? Should the sign be checked again whenever the rota changes?\n\nThe conversation, with everyone's words: https://dev.api.aswritten.ai/live/conversation/2026-10-15-4-carrier-tanya-20261015222221"
+      },
+      "self_check" : {
+        "forbidden_words_outside_quotes" : [ ],
+        "quotations_verified_exact" : true,
+        "question_count" : {
+          "chat" : 0,
+          "email" : 3
+        }
+      }
+    },
+    "status" : "ok",
+    "gate" : { },
+    "length_stops" : 0,
+    "plan_id" : "reaction:421b6573ccd4:review-message:1f9683000cc2",
+    "pass" : "reaction:review-message",
+    "ms" : 218238,
+    "cite" : {
+      "email" : {
+        "claims" : 10,
+        "citations" : 5
+      }
+    },
+    "reask" : {
+      "attempted" : false,
+      "withheld" : false
+    },
+    "model" : "anthropic/claude-haiku-5.5"
+  } ],
+  "spend" : {
+    "cost_usd" : 0.051209,
+    "passes" : [ {
+      "pass" : "reaction:_score",
+      "llm_calls" : 1,
+      "cost_usd" : 0.00188816,
+      "null_cost_calls" : 0
+    }, {
+      "pass" : "reaction:review-message",
+      "llm_calls" : 3,
+      "cost_usd" : 0.01473938,
+      "null_cost_calls" : 0
+    }, {
+      "pass" : "reaction:review-message:cite",
+      "llm_calls" : 24,
+      "cost_usd" : 0.03458153,
+      "null_cost_calls" : 0
+    } ]
+  },
+  "bundle" : {
+    "items" : 1,
+    "recipients" : 1,
+    "sent" : [ {
+      "items" : [ {
+        "kind" : "reaction",
+        "skill" : "aswritten/review-message",
+        "audience" : "touched"
+      } ],
+      "handle" : "tanya+staging@aswritten.ai",
+      "channel" : "email",
+      "recipient" : "Tanya TeamOwner",
+      "h" : "09fcdb5f3d:aswritten/review-message",
+      "status" : "skipped: test identity"
+    } ]
+  },
+  "counters" : { },
+  "at" : "2026-10-15T22:43:05.268282655Z",
+  "context" : {
+    "roster" : [ {
+      "name" : "Tanya TeamOwner",
+      "role" : "submitter",
+      "status" : "routed",
+      "channels_not" : {
+        "sms" : "no verified phone opted in to texts",
+        "teams" : "no Teams identity in the home tenant"
+      },
+      "roles" : [ "submitter" ],
+      "seated" : true,
+      "test-identity" : true,
+      "via" : [ {
+        "how" : "saved",
+        "as" : "saver"
+      } ]
+    }, {
+      "name" : "Dario Kent",
+      "role" : "touched",
+      "status" : "no-account",
+      "roles" : [ "touched" ],
+      "reason" : "no account linked to this speaker",
+      "via" : [ {
+        "how" : "recon",
+        "relation" : "extends",
+        "statement" : "Expr_20261015_1_SeedTeam20261015222221_h972434861ef7_2",
+        "as" : "speaker",
+        "position" : "Position_NovemberFirstOperatingChanges"
+      } ]
+    }, {
+      "name" : "Priya Holm",
+      "role" : "touched",
+      "status" : "no-account",
+      "roles" : [ "touched" ],
+      "reason" : "no account linked to this speaker",
+      "via" : [ {
+        "how" : "recon",
+        "relation" : "extends",
+        "statement" : "Expr_20261015_1_SeedTeam20261015222221_h972434861ef7_3",
+        "as" : "speaker",
+        "position" : "Position_NovemberFirstOperatingChanges"
+      } ]
+    }, {
+      "name" : "the Claude session (claude-opus-5-5)",
+      "role" : "touched",
+      "status" : "no-channel",
+      "roles" : [ "touched" ],
+      "ai" : true,
+      "reason" : "no channel (an AI session)",
+      "via" : [ {
+        "how" : "recon",
+        "relation" : "extends",
+        "statement" : "Expr_20261015_2_F7Unsigned20261015222221_h005ddd8c26db_1",
+        "as" : "speaker",
+        "position" : "Position_NovemberFirstOperatingChanges"
+      }, {
+        "how" : "recon",
+        "relation" : "extends",
+        "statement" : "Expr_20261015_2_F7Unsigned20261015222221_h005ddd8c26db_2",
+        "as" : "speaker",
+        "position" : "Position_NovemberFirstOperatingChanges"
+      } ]
+    } ],
+    "inputs" : {
+      "we_said" : 1,
+      "new_positions" : 0,
+      "touches" : 4,
+      "threads" : 0,
+      "reaches" : 2
+    },
+    "navigation" : {
+      "source" : "engine",
+      "touch_pointers" : 4,
+      "context_chars" : 18701
+    }
+  },
+  "scorer" : {
+    "attempts" : [ {
+      "disposition" : "ok",
+      "elapsed_ms" : 5278,
+      "content_chars" : 630
+    } ]
+  }
+}
