@@ -1,0 +1,19 @@
+{
+  "resolutions" : [ {
+    "commentary_local_id" : "src-1",
+    "phrase" : "the rota dates from November",
+    "verdict" : "confident",
+    "binding" : {
+      "referents" : [ {
+        "iri" : "Position_NovemberFirstOperatingChanges",
+        "relation" : "see",
+        "why" : "The sign names the November intake rota as the material it displays. It does not engage or revise the rota's content, so this is an anchor, not an extension."
+      } ],
+      "targets" : [ "Narrative_OperatingRhythmsRunByStatedRules" ]
+    },
+    "why" : "The only graph node about the November intake rota is Position_NovemberFirstOperatingChanges, and the narrative above it holds the operating-rhythms arc. Nothing at a finer grain concerns signage.",
+    "consulted" : [ "Position_NovemberFirstOperatingChanges", "Narrative_OperatingRhythmsRunByStatedRules", "Actor_PriyaHolm", "Position_PantryRestockThresholdsByShelf" ]
+  } ],
+  "unreferenced_commentary" : [ ],
+  "_source_sha256" : "f0215b801a86f2da16619406ba287b90cd53dff96e1dd8920c408fea57611b99"
+}
