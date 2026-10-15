@@ -1,0 +1,13 @@
+{
+  "positions" : [ {
+    "name" : "ReactionDeliveryRouting",
+    "frame" : "how should reaction delivery be bundled and windowed across skills per run?",
+    "members" : [ "src-2", "src-3", "src-4" ],
+    "why" : "Establishes the routing policy for reactions (one bundle per run per person rather than per-skill messages), defines the batching window lifecycle against pushback, and rules out client-side collapsing to protect the reader from ordering overhead.",
+    "under" : [ "Narrative_AntiSlackPositioning" ]
+  } ],
+  "attaches" : [ ],
+  "position_revisions" : [ ],
+  "ungrouped" : [ "src-1" ],
+  "_source_sha256" : "ba05ea0158d2bb5ae030ad5d571477370ce49537407437eea6eb9df45ec14eb7"
+}
