@@ -1,0 +1,17 @@
+{
+  "positions" : [ {
+    "name" : "PantryShelfFillLineMarking",
+    "frame" : "How is the pantry's restock threshold made checkable at the shelf, so that knowing when to restock takes a look rather than a count?",
+    "members" : [ "src-1" ],
+    "why" : "Dario's statement carries its own frame. The existing pantry positions ask what fill level triggers a restock, and why the fastest-depleting shelves differ. This one asks how staff tell that a shelf has reached its threshold, answered with a marked fill line and a visual glance in place of counting. It is dated 2026-10-09, before the 2026-10-15 oats-and-rice exception, so a mark 'at a third' on every shelf sits in tension with oats and rice later restocking at half. The tension is left open, since the frame holds both. The statement is a plain assertion of settled practice and bears on the operating-rhythms narrative, which is about recurring operations running by explicit rules.",
+    "under" : [ "Narrative_OperatingRhythmsRunByStatedRules" ],
+    "lineage" : {
+      "relation" : "see",
+      "target" : "Position_PantryRestockThresholdsByShelf"
+    }
+  } ],
+  "attaches" : [ ],
+  "position_revisions" : [ ],
+  "ungrouped" : [ ],
+  "_source_sha256" : "5173ce0d903a220b9705f86ad203ba82c8dfb250768cb9581121cbc06fdec1ac"
+}
