@@ -1,0 +1,13 @@
+{
+  "positions" : [ {
+    "name" : "PantryRestockThresholdsByShelf",
+    "frame" : "At what fill level should each pantry shelf be restocked, and what justifies treating the fastest-depleting shelves differently from the rest?",
+    "members" : [ "src-1" ],
+    "why" : "The single statement carries a whole frame on its own. It keeps the 1 October one-third restock rule for most shelves and sets a half-full exception for oats and rice. It gives a run-out-speed rationale: a third full is under a day of stock on a Friday. It bears on the narrative about recurring operations running by explicit stated rules. No existing positions are supplied in the consult, so it is minted rather than attached to Position_NovemberFirstOperatingChanges, and no lineage edge is typed because that position is not a consult target.",
+    "under" : [ "Narrative_OperatingRhythmsRunByStatedRules" ]
+  } ],
+  "attaches" : [ ],
+  "position_revisions" : [ ],
+  "ungrouped" : [ ],
+  "_source_sha256" : "41dcd61d3d391179b1f97a179273f02ff41fe4ce3af211f4c07d7133e0a4e92a"
+}
