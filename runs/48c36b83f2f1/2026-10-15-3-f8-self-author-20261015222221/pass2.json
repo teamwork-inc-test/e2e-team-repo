@@ -1,0 +1,23 @@
+{
+  "resolutions" : [ {
+    "commentary_local_id" : "src-1",
+    "phrase" : "The one-third restock threshold from the 1 October call stays for every shelf except oats and rice, which now restock at half full.",
+    "verdict" : "confident",
+    "binding" : {
+      "referents" : [ {
+        "iri" : "Expr_20261015_1_SeedTeam20261015222221_h972434861ef7_2",
+        "relation" : "extends",
+        "why" : "Dario's 1 October rule ('any shelf when it falls below a third full') is kept for most shelves and gets an exception for oats and rice at half full. That adds a consequence to the rule and does not replace it."
+      }, {
+        "iri" : "Sample_20261015_1_SeedTeam20261015222221_h972434861ef7",
+        "relation" : "see",
+        "why" : "'The 1 October call' names this transcript as the origin of the threshold, without engaging its other content."
+      } ],
+      "targets" : [ "Position_NovemberFirstOperatingChanges" ]
+    },
+    "why" : "The one-third pantry threshold from the 1 October call matches a single expression, the pantry rule in Position_NovemberFirstOperatingChanges. It is the most specific leaf, and nothing else in the graph mentions restock thresholds.",
+    "consulted" : [ "Perspective map and coverage", "Position_NovemberFirstOperatingChanges (expanded)", "Expr_20261015_1_SeedTeam20261015222221_h972434861ef7_2", "Sample_20261015_1_SeedTeam20261015222221_h972434861ef7 (expanded)", "Narrative_OperatingRhythmsRunByStatedRules" ]
+  } ],
+  "unreferenced_commentary" : [ ],
+  "_source_sha256" : "41dcd61d3d391179b1f97a179273f02ff41fe4ce3af211f4c07d7133e0a4e92a"
+}
