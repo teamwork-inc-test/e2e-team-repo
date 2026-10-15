@@ -1,0 +1,20 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "authority-ranking", "market-pricing" ],
+    "evidence" : [ {
+      "quote" : "now restock at half full",
+      "kind" : "plain-assertion"
+    }, {
+      "quote" : "a third full is less than a day of stock on a Friday",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Enacts a stated allocation rule by directive ('stays', 'now restock at half full'), so authority-ranking leads; the justification weighs consequence against proportion (a third full vs. a day of stock), which is market-pricing. Torn between the two; the directive is the primary move and the proportional reasoning is secondary. Split footing (claude-opus-5-5 animates, Tina TeamMember is principal), so the stance is the principal's as presented.",
+    "reported" : true
+  } ],
+  "mints" : [ ],
+  "region_mints" : [ ],
+  "unmarked" : [ ],
+  "unmarked_rest" : false,
+  "_source_sha256" : "41dcd61d3d391179b1f97a179273f02ff41fe4ce3af211f4c07d7133e0a4e92a"
+}
