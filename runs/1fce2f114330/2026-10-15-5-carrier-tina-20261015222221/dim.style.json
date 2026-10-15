@@ -1,0 +1,17 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "antithesis" ],
+    "evidence" : [ {
+      "quote" : "a glance, not a count",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Opposed nouns in a 'X, not Y' construction ('a glance, not a count') set restocking method against counting in one deliberate contrast.",
+    "reported" : false
+  } ],
+  "mints" : [ ],
+  "region_mints" : [ ],
+  "unmarked" : [ ],
+  "unmarked_rest" : false,
+  "_source_sha256" : "5173ce0d903a220b9705f86ad203ba82c8dfb250768cb9581121cbc06fdec1ac"
+}
