@@ -1,0 +1,38 @@
+{
+  "placements" : [ {
+    "verdict" : "reuse",
+    "leaf" : "Narrative_AntiSlackPositioning",
+    "supporting_positions" : [ "ReactionDeliveryRouting" ],
+    "why" : "Tanya's ruling that reactions must be routed through one bundled delivery per run per person—preventing per-skill notification floods and rejecting client-side collapsing—directly enforces the anti-Slack thesis of structured async decision communication over real-time chat noise.",
+    "consulted" : [ "Narrative_AntiSlackPositioning", "Narrative_DecisionCaptureAtConsensus", "Narrative_DecisionsEvaporate" ]
+  } ],
+  "unplaced" : [ "src-1" ],
+  "weighed" : [ ],
+  "strata" : {
+    "mints" : [ {
+      "name" : "DeliveryRoutingArchitecture",
+      "type" : "categorical",
+      "title" : "Delivery routing and batching architecture",
+      "coordinate" : [ "SystemTopology", "DesignTradeoffs" ],
+      "lineage" : null,
+      "nests_in" : null,
+      "why" : "Groups technical policies, topologies, and architectural tradeoffs governing how notifications and event reactions are batched and delivered to recipients."
+    } ],
+    "connections" : [ {
+      "member" : "Position_ReactionDeliveryRouting",
+      "strata" : [ "DeliveryRoutingArchitecture" ],
+      "why" : "Defines the core architectural routing policy of bundling reactions per run per person and closing the window at run completion."
+    } ],
+    "disconnections" : [ ],
+    "unconnected" : [ {
+      "member" : "Narrative_AntiSlackPositioning",
+      "why" : "Narrative_AntiSlackPositioning is a broad market positioning anchor spanning product and messaging domains, not confined to delivery routing architecture."
+    } ]
+  },
+  "strata_flags" : [ {
+    "flag" : "unconnected",
+    "subject" : "Narrative_AntiSlackPositioning",
+    "detail" : "placed with no stratum"
+  } ],
+  "_source_sha256" : "ba05ea0158d2bb5ae030ad5d571477370ce49537407437eea6eb9df45ec14eb7"
+}
