@@ -1,0 +1,20 @@
+{
+  "placements" : [ ],
+  "unplaced" : [ "src-1" ],
+  "weighed" : [ {
+    "position" : "Position_NovemberFirstOperatingChanges",
+    "verdict" : "decline",
+    "why" : "No leaf placed here; this document's only segment is held by no position, and the signage statement does not engage the rota's content."
+  }, {
+    "position" : "Position_PantryRestockThresholdsByShelf",
+    "verdict" : "decline",
+    "why" : "No leaf placed here; the nearest leaf, Narrative_OperatingRhythmsRunByStatedRules, was not placed in this response, and signage does not touch pantry thresholds."
+  } ],
+  "strata" : {
+    "mints" : [ ],
+    "connections" : [ ],
+    "disconnections" : [ ],
+    "unconnected" : [ ]
+  },
+  "_source_sha256" : "f0215b801a86f2da16619406ba287b90cd53dff96e1dd8920c408fea57611b99"
+}
