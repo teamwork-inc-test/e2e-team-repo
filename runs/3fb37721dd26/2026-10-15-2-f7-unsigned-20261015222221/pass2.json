@@ -1,0 +1,33 @@
+{
+  "resolutions" : [ {
+    "commentary_local_id" : "src-1",
+    "phrase" : "The intake rota stays fortnightly, as agreed on 1 October, but the overlap call at each hand-off grows from fifteen to thirty minutes.",
+    "verdict" : "confident",
+    "binding" : {
+      "referents" : [ {
+        "iri" : "Expr_20261015_1_SeedTeam20261015222221_h972434861ef7_1",
+        "relation" : "supersedes",
+        "why" : "The 1 October statement set a fortnightly rota with a fifteen-minute overlap call. This keeps the fortnightly cadence but replaces the overlap length with thirty minutes."
+      } ],
+      "targets" : [ "Position_NovemberFirstOperatingChanges" ]
+    },
+    "why" : "'As agreed on 1 October' and the fifteen-minute overlap converge on the single rota statement from the 2026-10-01 team call. The pantry rule and start-date statements are not touched.",
+    "consulted" : [ "Position_NovemberFirstOperatingChanges", "Narrative_OperatingRhythmsRunByStatedRules", "Sample_20261015_1_SeedTeam20261015222221_h972434861ef7", "Expr_20261015_1_SeedTeam20261015222221_h972434861ef7_1" ]
+  }, {
+    "commentary_local_id" : "src-2",
+    "phrase" : "Fifteen minutes covered the open cases but not the ones that arrived during the hand-off week.",
+    "verdict" : "confident",
+    "binding" : {
+      "referents" : [ {
+        "iri" : "Expr_20261015_1_SeedTeam20261015222221_h972434861ef7_1",
+        "relation" : "extends",
+        "why" : "Gives the reasoning for changing the fifteen-minute overlap call set on 1 October. It adds detail and does not itself replace the position."
+      } ],
+      "targets" : [ "Position_NovemberFirstOperatingChanges" ]
+    },
+    "why" : "'Fifteen minutes' refers back to the overlap-call length in the 1 October rota statement. It is the only fifteen-minute overlap in the graph.",
+    "consulted" : [ "Position_NovemberFirstOperatingChanges", "Expr_20261015_1_SeedTeam20261015222221_h972434861ef7_1" ]
+  } ],
+  "unreferenced_commentary" : [ ],
+  "_source_sha256" : "e040337bd8dac8bfd179f25203dce69bc4b3fb0472b1cff5dfbd14bc8cef16c9"
+}
