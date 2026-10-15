@@ -1,0 +1,18 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "present", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "stays for every shelf except oats and rice",
+      "kind" : "plain-assertion"
+    }, {
+      "quote" : "which now restock at half full",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Settled present-tense policy stated as current fact; the 1 October call and specific shelves anchor it to particulars rather than general principle. Split footing, so the principal's stance is reported.",
+    "reported" : true
+  } ],
+  "unmarked" : [ ],
+  "unmarked_rest" : false,
+  "_source_sha256" : "41dcd61d3d391179b1f97a179273f02ff41fe4ce3af211f4c07d7133e0a4e92a"
+}
