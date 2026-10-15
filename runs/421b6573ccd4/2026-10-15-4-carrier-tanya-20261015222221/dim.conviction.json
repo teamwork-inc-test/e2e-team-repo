@@ -1,0 +1,16 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "The intake desk gets a printed sign with the rota dates from November.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Unhedged, flat assertion of a scheduled fact with no ratification or commitment language, so claim rather than decision; the single flat statement is incidental, so region-only.",
+    "reported" : false
+  } ],
+  "mints" : [ ],
+  "unmarked" : [ ],
+  "unmarked_rest" : true,
+  "_source_sha256" : "f0215b801a86f2da16619406ba287b90cd53dff96e1dd8920c408fea57611b99"
+}
