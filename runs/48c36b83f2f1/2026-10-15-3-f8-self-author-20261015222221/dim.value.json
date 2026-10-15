@@ -1,0 +1,20 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "conservation" ],
+    "evidence" : [ {
+      "quote" : "stays for every shelf except oats and rice",
+      "kind" : "plain-assertion"
+    }, {
+      "quote" : "Those two run out fastest",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Keeping the existing one-third threshold for most shelves reads as stability; the stockout concern for oats and rice appeals to security of supply. The footing is split, so the stance is the principal's as presented.",
+    "reported" : true
+  } ],
+  "mints" : [ ],
+  "region_mints" : [ ],
+  "unmarked" : [ ],
+  "unmarked_rest" : false,
+  "_source_sha256" : "41dcd61d3d391179b1f97a179273f02ff41fe4ce3af211f4c07d7133e0a4e92a"
+}
