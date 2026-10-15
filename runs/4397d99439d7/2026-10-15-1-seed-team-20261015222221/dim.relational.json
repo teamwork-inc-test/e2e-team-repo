@@ -1,0 +1,17 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "equality-matching" ],
+    "evidence" : [ {
+      "quote" : "with a fifteen-minute overlap call at each hand-off",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Fortnightly rota with an overlap call at each hand-off structures turn-taking between the two shifts, an even-exchange pattern; the rota change itself is a schedule statement, so the fit is moderate.",
+    "reported" : false
+  } ],
+  "mints" : [ ],
+  "region_mints" : [ ],
+  "unmarked" : [ "src-2", "src-3" ],
+  "unmarked_rest" : false,
+  "_source_sha256" : "33334968fe34c87719682c0567426876d98b442189d1cbf1cacbe6ef13bcbb39"
+}
