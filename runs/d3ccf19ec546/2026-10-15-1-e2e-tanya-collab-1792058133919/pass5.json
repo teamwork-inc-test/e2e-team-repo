@@ -1,0 +1,36 @@
+{
+  "placements" : [ {
+    "verdict" : "reuse",
+    "leaf" : "Narrative_DecisionCaptureAtConsensus",
+    "supporting_positions" : [ "AsyncDecisionWidgetDeliveryUnlock" ],
+    "why" : "Shipping the async decision widget via the Zephyr integration provides direct execution proof for capturing decisions at the point of consensus within chat tools.",
+    "consulted" : [ "Narrative_DecisionCaptureAtConsensus", "Narrative_AntiSlackPositioning", "Narrative_DecisionsEvaporate" ]
+  } ],
+  "unplaced" : [ "src-2" ],
+  "weighed" : [ ],
+  "strata" : {
+    "mints" : [ {
+      "name" : "DependenciesIntegrations",
+      "type" : "categorical",
+      "title" : "Dependencies and integrations",
+      "coordinate" : [ "DependenciesIntegrations" ],
+      "why" : "Groups positions and narratives concerning technical dependencies and multi-platform integrations required for product capabilities."
+    } ],
+    "connections" : [ {
+      "member" : "Position_AsyncDecisionWidgetDeliveryUnlock",
+      "strata" : [ "DependenciesIntegrations" ],
+      "why" : "Attributed delivery of the decision capture widget directly to the Zephyr chat integration unlock."
+    } ],
+    "disconnections" : [ ],
+    "unconnected" : [ {
+      "member" : "Narrative_DecisionCaptureAtConsensus",
+      "why" : "Core product narrative reused here does not require a newly minted stratum connection for this incremental delivery confirmation."
+    } ]
+  },
+  "strata_flags" : [ {
+    "flag" : "unconnected",
+    "subject" : "Narrative_DecisionCaptureAtConsensus",
+    "detail" : "placed with no stratum"
+  } ],
+  "_source_sha256" : "1237e18b54774c37eb5214040874288fc88b5befa916140e66a01d5fdd1f31b8"
+}
