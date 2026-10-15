@@ -1,0 +1,20 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "legitimate", "rational-persuasion" ],
+    "evidence" : [ {
+      "quote" : "from the 1 October call stays",
+      "kind" : "plain-assertion"
+    }, {
+      "quote" : "a third full is less than a day of stock on a Friday",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Legitimacy is claimed by citing the prior 1 October call as the source of the threshold; the argument for the oats and rice exception is an evidential rationale about run-out speed, with no hedging or appeal to values.",
+    "reported" : true
+  } ],
+  "mints" : [ ],
+  "region_mints" : [ ],
+  "unmarked" : [ ],
+  "unmarked_rest" : false,
+  "_source_sha256" : "41dcd61d3d391179b1f97a179273f02ff41fe4ce3af211f4c07d7133e0a4e92a"
+}
