@@ -1,0 +1,34 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "The intake rota moves to fortnightly in November",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Flat unhedged assertion of a scheduled change with no ratification language or operational 'we're doing X' framing; decision-grade reading survives only weakly, so the lower region holds.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-2",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "The pantry restocks any shelf when it falls below a third full.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Plain declarative stating a standing rule with no intensifier, commitment marker, or settling act in the document; claim over decision by the conservative tear rule.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-3",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "Both start on the first of November.",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Short unhedged factual assertion of a start date; no performed settling or ratification, so claim rather than decision.",
+    "reported" : false
+  } ],
+  "unmarked" : [ ],
+  "unmarked_rest" : false,
+  "mints" : [ ],
+  "_source_sha256" : "33334968fe34c87719682c0567426876d98b442189d1cbf1cacbe6ef13bcbb39"
+}
