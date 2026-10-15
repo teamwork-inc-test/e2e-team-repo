@@ -1,0 +1,180 @@
+{
+  "schema_version" : 1,
+  "run_id" : "mp-eng-08443b2d",
+  "live_run_id" : "861093b9336e",
+  "stream" : "main",
+  "policy" : {
+    "mode" : "on",
+    "source" : "default",
+    "version" : 1,
+    "skills" : { },
+    "lands" : { },
+    "audience" : "owner-setting",
+    "warn_per_run_usd" : 0.25,
+    "channels" : [ "email", "sms", "teams" ]
+  },
+  "gates" : [ {
+    "id" : "aswritten/clarify",
+    "run?" : false,
+    "gate" : 2,
+    "reason" : "score 0.0 < threshold 0.7",
+    "score" : 0.0,
+    "evidence" : [ "Tina pushed back on the batching window and Tanya held: the bundle closes when\nthe run closes, and a skill that misses the close waits for the next run rather\nthan sending on its own.", "we route every reaction through one bundle per run per person, not one\n> message per skill — a person should get one thing to read, not four" ]
+  }, {
+    "id" : "aswritten/merge-suggest",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "skill off"
+  }, {
+    "id" : "aswritten/refract",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "skill off"
+  }, {
+    "id" : "aswritten/review-message",
+    "run?" : true,
+    "gate" : 2,
+    "reason" : "predicate only"
+  }, {
+    "id" : "aswritten/review-request",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "skill off"
+  }, {
+    "id" : "aswritten/riff",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "skill off"
+  } ],
+  "jobs" : [ {
+    "job_key" : "861093b9336e:aswritten/review-message:u17592186058518",
+    "turn_attempts" : 1,
+    "n8n_execution_id" : "161795",
+    "skill" : "aswritten/review-message",
+    "landing" : {
+      "landed" : "message"
+    },
+    "recipient" : {
+      "name" : "Tanya TeamOwner",
+      "role" : "submitter",
+      "status" : "routed",
+      "channels_not" : {
+        "sms" : "no verified phone opted in to texts",
+        "teams" : "no Teams identity in the home tenant"
+      },
+      "roles" : [ "submitter" ],
+      "seated" : true,
+      "test-identity" : true,
+      "via" : [ {
+        "how" : "saved",
+        "as" : "saver"
+      } ]
+    },
+    "cite_missing" : [ "email" ],
+    "output" : {
+      "beats" : {
+        "we_said" : "You said today, in the delivery routing ruling: \"we route every reaction through one bundle per run per person, not one message per skill — a person should get one thing to read, not four\".",
+        "that_changes" : "Tina pushed back on the batching window in that same session, and you held: \"the bundle closes when the run closes, and a skill that misses the close waits for the next run rather than sending on its own.\"",
+        "so_now" : "Reaction delivery is now one bundle per run per person, and the bundle closes when the run does. Per-skill delivery with client-side collapsing was considered and rejected, because it \"moves the ordering problem onto the reader.\"",
+        "which_means" : "I read that as a skill that finishes after the close waiting a full run for its message, which is the price of having one thing to read. It also suggests to me that client-side collapsing no longer has to be built or kept working. If that holds, the reaction-delivery doc needs rewriting to match the bundle.",
+        "where_does_it_end" : [ "How long can a reaction wait for the next run before the reader would have preferred it sooner?", "Is the reaction-delivery doc the only place that still describes per-skill sending?" ]
+      },
+      "email" : {
+        "subject" : "Re: Reaction bundling ruling, from today",
+        "body" : "You said today, in the delivery routing ruling: \"we route every reaction through one bundle per run per person, not one message per skill — a person should get one thing to read, not four\".\n\nTina pushed back on the batching window in that same session, and you held: \"the bundle closes when the run closes, and a skill that misses the close waits for the next run rather than sending on its own.\"\n\nReaction delivery is now one bundle per run per person, and the bundle closes when the run does. Per-skill delivery with client-side collapsing was considered and rejected, because it \"moves the ordering problem onto the reader.\"\n\nI read that as a skill that finishes after the close waiting a full run for its message, which is the price of having one thing to read. It also suggests to me that client-side collapsing no longer has to be built or kept working. If that holds, the reaction-delivery doc needs rewriting to match the bundle.\n\nTwo questions this leaves open: how long can a reaction wait for the next run before the reader would have preferred it sooner? And is the reaction-delivery doc the only place that still describes per-skill sending?\n\nThe conversation, with everyone's words: https://dev.api.aswritten.ai/live/conversation/2026-10-15-1-delivery-routing-ruling-e2e-synthetic"
+      },
+      "self_check" : {
+        "forbidden_words_outside_quotes" : [ ],
+        "quotations_verified_exact" : true,
+        "question_count" : {
+          "chat" : 0,
+          "email" : 2
+        }
+      }
+    },
+    "status" : "ok",
+    "gate" : { },
+    "length_stops" : 0,
+    "plan_id" : "reaction:861093b9336e:review-message:7b2da21ee96d",
+    "pass" : "reaction:review-message",
+    "ms" : 84552,
+    "reask" : {
+      "attempted" : false,
+      "withheld" : false
+    },
+    "model" : "anthropic/claude-haiku-5.5"
+  } ],
+  "spend" : {
+    "cost_usd" : 0.030561,
+    "passes" : [ {
+      "pass" : "reaction:_score",
+      "llm_calls" : 1,
+      "cost_usd" : 0.00259985,
+      "null_cost_calls" : 0
+    }, {
+      "pass" : "reaction:review-message",
+      "llm_calls" : 2,
+      "cost_usd" : 0.016312860000000002,
+      "null_cost_calls" : 0
+    }, {
+      "pass" : "reaction:review-message:cite",
+      "llm_calls" : 10,
+      "cost_usd" : 0.01164784,
+      "null_cost_calls" : 0
+    } ]
+  },
+  "bundle" : {
+    "items" : 1,
+    "recipients" : 1,
+    "sent" : [ {
+      "items" : [ {
+        "kind" : "reaction",
+        "skill" : "aswritten/review-message",
+        "audience" : "touched"
+      } ],
+      "handle" : "tanya+staging@aswritten.ai",
+      "channel" : "email",
+      "recipient" : "Tanya TeamOwner",
+      "h" : "09fcdb5f3d:aswritten/review-message",
+      "status" : "skipped: test identity"
+    } ]
+  },
+  "counters" : { },
+  "at" : "2026-10-15T09:52:26.317323617Z",
+  "context" : {
+    "roster" : [ {
+      "name" : "Tanya TeamOwner",
+      "role" : "submitter",
+      "status" : "routed",
+      "channels_not" : {
+        "sms" : "no verified phone opted in to texts",
+        "teams" : "no Teams identity in the home tenant"
+      },
+      "roles" : [ "submitter" ],
+      "seated" : true,
+      "test-identity" : true,
+      "via" : [ {
+        "how" : "saved",
+        "as" : "saver"
+      } ]
+    } ],
+    "inputs" : {
+      "we_said" : 4,
+      "new_positions" : 1,
+      "touches" : 0,
+      "threads" : 1,
+      "reaches" : 0
+    },
+    "navigation" : {
+      "source" : "engine",
+      "context_chars" : 7906
+    }
+  },
+  "scorer" : {
+    "attempts" : [ {
+      "disposition" : "ok",
+      "elapsed_ms" : 8725,
+      "content_chars" : 699
+    } ]
+  }
+}
