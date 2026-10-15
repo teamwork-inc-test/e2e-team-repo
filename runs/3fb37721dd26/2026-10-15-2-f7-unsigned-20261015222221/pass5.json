@@ -1,0 +1,26 @@
+{
+  "placements" : [ {
+    "verdict" : "reuse",
+    "leaf" : "Narrative_OperatingRhythmsRunByStatedRules",
+    "supporting_positions" : [ "Position_NovemberFirstOperatingChanges" ],
+    "why" : "The revised position still holds the intake rota's fortnightly cadence and overlap call, now thirty minutes, alongside the pantry rule and the shared start date. That is exactly this narrative's theme: recurring operations change on a shared start and run by explicit rules. The existing leaf covers it, so no new leaf is minted.",
+    "consulted" : [ "Narrative_OperatingRhythmsRunByStatedRules", "Position_NovemberFirstOperatingChanges", "Narrative_AntiSlackPositioning", "Narrative_DecisionCaptureAtConsensus", "Narrative_DecisionsEvaporate" ]
+  } ],
+  "unplaced" : [ ],
+  "weighed" : [ ],
+  "strata" : {
+    "mints" : [ ],
+    "connections" : [ ],
+    "disconnections" : [ ],
+    "unconnected" : [ {
+      "member" : "Narrative_OperatingRhythmsRunByStatedRules",
+      "why" : "No existing stratum holds this grouping, and this document's content is a single revision to one rota detail. It does not yet call for a cross-graph grouping, so none is minted."
+    } ]
+  },
+  "strata_flags" : [ {
+    "flag" : "unconnected",
+    "subject" : "Narrative_OperatingRhythmsRunByStatedRules",
+    "detail" : "placed with no stratum"
+  } ],
+  "_source_sha256" : "e040337bd8dac8bfd179f25203dce69bc4b3fb0472b1cff5dfbd14bc8cef16c9"
+}
