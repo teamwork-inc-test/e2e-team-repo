@@ -1,0 +1,27 @@
+{
+  "reconciliations" : [ {
+    "segment_ids" : [ "src-1" ],
+    "note" : "We shipped the async decision widget.",
+    "targets" : [ "Narrative_ZeroEffortCapture" ],
+    "referents" : [ {
+      "ref" : "Position_Sprint4ThesisProven",
+      "relation" : "extends"
+    } ],
+    "principal" : "Tanya TeamOwner"
+  }, {
+    "segment_ids" : [ "src-3" ],
+    "note" : "The Zephyr integration was the key unlock.",
+    "targets" : [ "DependenciesIntegrations" ],
+    "referents" : [ {
+      "ref" : "Position_ZephyrIntegrationUnlock",
+      "relation" : "extends"
+    } ],
+    "principal" : "Tanya TeamOwner"
+  } ],
+  "standalone" : [ {
+    "segment_id" : "src-2",
+    "why" : "Unreferenced commentary with no prior referents to reconcile."
+  } ],
+  "held" : [ ],
+  "_source_sha256" : "1237e18b54774c37eb5214040874288fc88b5befa916140e66a01d5fdd1f31b8"
+}
