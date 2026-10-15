@@ -1,0 +1,18 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "present", "realis", "abstract" ],
+    "evidence" : [ {
+      "quote" : "Every pantry shelf gets a line marked at a third",
+      "kind" : "plain-assertion"
+    }, {
+      "quote" : "restocking is a glance, not a count",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Present-tense general rule about every shelf, stated as settled practice (realis) and framed as a category-level principle rather than a particular event (abstract).",
+    "reported" : false
+  } ],
+  "unmarked" : [ ],
+  "unmarked_rest" : false,
+  "_source_sha256" : "5173ce0d903a220b9705f86ad203ba82c8dfb250768cb9581121cbc06fdec1ac"
+}
