@@ -1,0 +1,257 @@
+{
+  "schema_version" : 1,
+  "run_id" : "mp-eng-3135c9cd",
+  "live_run_id" : "3fb37721dd26",
+  "stream" : "e2e-662-team-20261015222221",
+  "policy" : {
+    "mode" : "on",
+    "source" : "default",
+    "version" : 1,
+    "skills" : { },
+    "lands" : { },
+    "audience" : "owner-setting",
+    "warn_per_run_usd" : 0.25,
+    "channels" : [ "email", "sms", "teams" ]
+  },
+  "gates" : [ {
+    "id" : "aswritten/clarify",
+    "run?" : true,
+    "gate" : 2,
+    "score" : 0.85,
+    "evidence" : [ "aswr:qualityFlag \"principal:unresolved\"", "skos:prefLabel \"claude-opus-5-5\"", "aswr:submittedBy narr:Actor_TanyaTeamowner", "narr:context \"Intake rota decision note\"", "the surviving record revises what that member said" ],
+    "why" : "Both committed statements carry qualityFlag \"principal:unresolved\" and are authored by the AI actor claude-opus-5-5 in an unsigned note submitted by Tanya, yet the PositionRevision commits them as the position's revised rota sentence — so the one question, whose position this decision note states, is squarely the open case this skill exists for."
+  }, {
+    "id" : "aswritten/merge-suggest",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "skill off"
+  }, {
+    "id" : "aswritten/refract",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "skill off"
+  }, {
+    "id" : "aswritten/review-message",
+    "run?" : true,
+    "gate" : 2,
+    "reason" : "predicate only"
+  }, {
+    "id" : "aswritten/review-request",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "skill off"
+  }, {
+    "id" : "aswritten/riff",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "skill off"
+  } ],
+  "jobs" : [ {
+    "job_key" : "3fb37721dd26:aswritten/clarify:u17592186058518",
+    "turn_attempts" : 1,
+    "n8n_execution_id" : "162334",
+    "skill" : "aswritten/clarify",
+    "landing" : {
+      "landed" : "message"
+    },
+    "recipient" : {
+      "name" : "Tanya TeamOwner",
+      "role" : "submitter",
+      "status" : "routed",
+      "channels_not" : {
+        "sms" : "no verified phone opted in to texts",
+        "teams" : "no Teams identity in the home tenant"
+      },
+      "roles" : [ "submitter" ],
+      "seated" : true,
+      "test-identity" : true,
+      "via" : [ {
+        "how" : "saved",
+        "as" : "saver"
+      } ]
+    },
+    "reason" : "The memory states its change plainly (overlap grows from fifteen to thirty minutes, rota stays fortnightly), and the record does not have to guess at a term, a conflicting statement by the same speaker, or a disputed number. The open question of when the thirty-minute overlap starts is real but minor, and Tanya, as submitter, is the person best placed to settle it.",
+    "status" : "silent",
+    "gate" : {
+      "score" : 0.85,
+      "evidence" : [ "aswr:qualityFlag \"principal:unresolved\"", "skos:prefLabel \"claude-opus-5-5\"", "aswr:submittedBy narr:Actor_TanyaTeamowner", "narr:context \"Intake rota decision note\"", "the surviving record revises what that member said" ],
+      "why" : "Both committed statements carry qualityFlag \"principal:unresolved\" and are authored by the AI actor claude-opus-5-5 in an unsigned note submitted by Tanya, yet the PositionRevision commits them as the position's revised rota sentence — so the one question, whose position this decision note states, is squarely the open case this skill exists for."
+    },
+    "length_stops" : 0,
+    "plan_id" : "reaction:3fb37721dd26:clarify:b330d6e8436a",
+    "pass" : "reaction:clarify",
+    "ms" : 7770,
+    "reask" : {
+      "attempted" : false,
+      "withheld" : false
+    },
+    "model" : "anthropic/claude-haiku-5.5"
+  }, {
+    "job_key" : "3fb37721dd26:aswritten/review-message:u17592186058518",
+    "turn_attempts" : 1,
+    "n8n_execution_id" : "162335",
+    "skill" : "aswritten/review-message",
+    "landing" : {
+      "landed" : "message"
+    },
+    "recipient" : {
+      "name" : "Tanya TeamOwner",
+      "role" : "submitter",
+      "status" : "routed",
+      "channels_not" : {
+        "sms" : "no verified phone opted in to texts",
+        "teams" : "no Teams identity in the home tenant"
+      },
+      "roles" : [ "submitter" ],
+      "seated" : true,
+      "test-identity" : true,
+      "via" : [ {
+        "how" : "saved",
+        "as" : "saver"
+      } ]
+    },
+    "output" : {
+      "beats" : {
+        "we_said" : "The Claude session (claude-opus-5-5) wrote into the memory you saved today, \"Intake rota: a longer overlap\", dated 15 October: \"The intake rota stays fortnightly, as agreed on 1 October, but the overlap call at each hand-off grows from fifteen to thirty minutes.\" The next sentence gives the reason: \"Fifteen minutes covered the open cases but not the ones that arrived during the hand-off week.\"",
+        "that_changes" : "That replaces what Priya said on the 1 October team call: \"The intake rota moves to fortnightly in November, with a fifteen-minute overlap call at each hand-off.\" Her line \"Both start on the first of November.\" is still in place.",
+        "so_now" : "The rota is still fortnightly from 1 November, but the overlap at each hand-off is thirty minutes, not fifteen. The longer call is meant to cover the open cases and the ones that came in during a hand-off week.",
+        "which_means" : "My read is that the November rota now needs thirty minutes at each hand-off, so anyone planning the first fortnight should give the hand-off calendar double the time. That suggests to me the fifteen-minute figure is no longer the one to build around.",
+        "where_does_it_end" : [ "Does thirty minutes hold for every hand-off, or only for those in a busy week?", "Was the shortfall in the hand-off week counted, or is it what the team remembers?" ]
+      },
+      "email" : {
+        "subject" : "Re: Overlap call length, from 15 October",
+        "body" : "The Claude session (claude-opus-5-5) wrote into the memory you saved today, \"Intake rota: a longer overlap\", dated 15 October: \"The intake rota stays fortnightly, as agreed on 1 October, but the overlap call at each hand-off grows from fifteen to thirty minutes.\" The next sentence gives the reason: \"Fifteen minutes covered the open cases but not the ones that arrived during the hand-off week.\"\n\nThat replaces what Priya said on the 1 October team call: \"The intake rota moves to fortnightly in November, with a fifteen-minute overlap call at each hand-off.\" Her line \"Both start on the first of November.\" is still in place.\n\nSo now the rota is still fortnightly from 1 November, but the overlap at each hand-off is thirty minutes, not fifteen. The longer call is meant to cover the open cases and the ones that came in during a hand-off week.\n\nMy read is that the November rota now needs thirty minutes at each hand-off, so anyone planning the first fortnight should give the hand-off calendar double the time. That suggests to me the fifteen-minute figure is no longer the one to build around.\n\nDoes thirty minutes hold for every hand-off, or only for those in a busy week? Was the shortfall in the hand-off week counted, or is it what the team remembers?\n\nThe conversation, with everyone's words: https://dev.api.aswritten.ai/live/conversation/2026-10-15-2-f7-unsigned-20261015222221"
+      },
+      "self_check" : {
+        "forbidden_words_outside_quotes" : [ ],
+        "quotations_verified_exact" : true,
+        "question_count" : {
+          "chat" : 0,
+          "email" : 2
+        }
+      }
+    },
+    "status" : "ok",
+    "gate" : { },
+    "length_stops" : 0,
+    "plan_id" : "reaction:3fb37721dd26:review-message:203955645dde",
+    "pass" : "reaction:review-message",
+    "ms" : 280019,
+    "cite" : {
+      "email" : {
+        "claims" : 8,
+        "citations" : 4
+      }
+    },
+    "reask" : {
+      "attempted" : false,
+      "withheld" : false
+    },
+    "model" : "anthropic/claude-haiku-5.5"
+  } ],
+  "spend" : {
+    "cost_usd" : 0.064739,
+    "passes" : [ {
+      "pass" : "reaction:_score",
+      "llm_calls" : 1,
+      "cost_usd" : 0.00288535,
+      "null_cost_calls" : 0
+    }, {
+      "pass" : "reaction:clarify",
+      "llm_calls" : 1,
+      "cost_usd" : 0.0104231,
+      "null_cost_calls" : 0
+    }, {
+      "pass" : "reaction:review-message",
+      "llm_calls" : 3,
+      "cost_usd" : 0.01453627,
+      "null_cost_calls" : 0
+    }, {
+      "pass" : "reaction:review-message:cite",
+      "llm_calls" : 25,
+      "cost_usd" : 0.03689424,
+      "null_cost_calls" : 0
+    } ]
+  },
+  "bundle" : {
+    "items" : 1,
+    "recipients" : 1,
+    "sent" : [ {
+      "items" : [ {
+        "kind" : "reaction",
+        "skill" : "aswritten/review-message",
+        "audience" : "touched"
+      } ],
+      "handle" : "tanya+staging@aswritten.ai",
+      "channel" : "email",
+      "recipient" : "Tanya TeamOwner",
+      "h" : "09fcdb5f3d:aswritten/review-message",
+      "status" : "skipped: test identity"
+    } ]
+  },
+  "counters" : { },
+  "at" : "2026-10-15T22:37:35.076105902Z",
+  "context" : {
+    "roster" : [ {
+      "name" : "Tanya TeamOwner",
+      "role" : "submitter",
+      "status" : "routed",
+      "channels_not" : {
+        "sms" : "no verified phone opted in to texts",
+        "teams" : "no Teams identity in the home tenant"
+      },
+      "roles" : [ "submitter" ],
+      "seated" : true,
+      "test-identity" : true,
+      "via" : [ {
+        "how" : "saved",
+        "as" : "saver"
+      } ]
+    }, {
+      "name" : "Dario Kent",
+      "role" : "touched",
+      "status" : "no-account",
+      "roles" : [ "touched" ],
+      "reason" : "no account linked to this speaker",
+      "via" : [ {
+        "how" : "attach",
+        "relation" : "attaches",
+        "statement" : "Expr_20261015_1_SeedTeam20261015222221_h972434861ef7_2",
+        "as" : "speaker",
+        "position" : "Position_NovemberFirstOperatingChanges"
+      } ]
+    }, {
+      "name" : "Priya Holm",
+      "role" : "touched",
+      "status" : "no-account",
+      "roles" : [ "touched" ],
+      "reason" : "no account linked to this speaker",
+      "via" : [ {
+        "how" : "attach",
+        "relation" : "attaches",
+        "statement" : "Expr_20261015_1_SeedTeam20261015222221_h972434861ef7_3",
+        "as" : "speaker",
+        "position" : "Position_NovemberFirstOperatingChanges"
+      } ]
+    } ],
+    "inputs" : {
+      "we_said" : 2,
+      "new_positions" : 0,
+      "touches" : 4,
+      "threads" : 1,
+      "reaches" : 1
+    },
+    "navigation" : {
+      "source" : "engine",
+      "touch_pointers" : 4,
+      "context_chars" : 10790
+    }
+  },
+  "scorer" : {
+    "attempts" : [ {
+      "disposition" : "ok",
+      "elapsed_ms" : 19372,
+      "content_chars" : 647
+    } ]
+  }
+}
