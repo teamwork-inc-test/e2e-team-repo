@@ -1,0 +1,35 @@
+{
+  "resolutions" : [ {
+    "commentary_local_id" : "src-1",
+    "phrase" : "the async decision widget",
+    "verdict" : "confident",
+    "binding" : {
+      "referents" : [ {
+        "iri" : "Position_Sprint4ThesisProven",
+        "relation" : "extends",
+        "why" : "Confirms shipping the decision widget tested and proven during Sprint 4."
+      } ],
+      "targets" : [ "Narrative_ZeroEffortCapture" ]
+    },
+    "candidates" : null,
+    "why" : "Matches the decision capture widget established in the Sprint 4 retro.",
+    "consulted" : [ "Position_Sprint4ThesisProven", "Position_CoreFeatureDecisionCapture", "Narrative_ZeroEffortCapture" ]
+  }, {
+    "commentary_local_id" : "src-3",
+    "phrase" : "The Zephyr integration",
+    "verdict" : "confident",
+    "binding" : {
+      "referents" : [ {
+        "iri" : "Position_ZephyrIntegrationUnlock",
+        "relation" : "extends",
+        "why" : "Reaffirms the Zephyr integration as the primary unlock for velocity and multi-platform embed."
+      } ],
+      "targets" : [ "DependenciesIntegrations" ]
+    },
+    "candidates" : null,
+    "why" : "Converges directly on the existing position framing Zephyr integration as the key unlock.",
+    "consulted" : [ "Position_ZephyrIntegrationUnlock", "DependenciesIntegrations", "Narrative_ZeroEffortCapture" ]
+  } ],
+  "unreferenced_commentary" : [ "src-2" ],
+  "_source_sha256" : "1237e18b54774c37eb5214040874288fc88b5befa916140e66a01d5fdd1f31b8"
+}
