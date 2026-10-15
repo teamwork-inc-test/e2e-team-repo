@@ -1,0 +1,12 @@
+{
+  "reconciliations" : [ ],
+  "standalone" : [ {
+    "segment_id" : "src-1",
+    "why" : "No recorded principal: claude-opus-5-5 drafted this commentary, and the envelope neither says its view was saved as is nor names Tanya as author or endorser. Submitting is not endorsing, and a single-participant envelope has no conversation-level conclusion, so it cannot become a reconciliation."
+  }, {
+    "segment_id" : "src-2",
+    "why" : "No recorded principal: this is unendorsed model-drafted rationale. The envelope gives no explicit words of Tanya and no saved AI view, so it lands as witnessed commentary rather than a reconciliation."
+  } ],
+  "held" : [ ],
+  "_source_sha256" : "e040337bd8dac8bfd179f25203dce69bc4b3fb0472b1cff5dfbd14bc8cef16c9"
+}
