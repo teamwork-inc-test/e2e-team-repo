@@ -1,0 +1,20 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "communal-sharing", "market-pricing" ],
+    "evidence" : [ {
+      "quote" : "We shipped the async decision widget",
+      "kind" : "plain-assertion"
+    }, {
+      "quote" : "Velocity was 23 points, highest this quarter",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Leads with first-person plural 'We' pooling credit as one team body (communal-sharing); the velocity figure framed as highest-this-quarter is a proportional performance metric (market-pricing), a secondary read.",
+    "reported" : false
+  } ],
+  "mints" : [ ],
+  "region_mints" : [ ],
+  "unmarked" : [ ],
+  "unmarked_rest" : false,
+  "_source_sha256" : "1237e18b54774c37eb5214040874288fc88b5befa916140e66a01d5fdd1f31b8"
+}
