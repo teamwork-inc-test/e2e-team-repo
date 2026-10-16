@@ -1,0 +1,50 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "legitimate" ],
+    "evidence" : [ {
+      "quote" : "ruled on where reaction delivery belongs",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Speaker invokes her team-owner position to issue a ruling, an authority of role rather than argument.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-2",
+    "regions" : [ "legitimate", "rational-persuasion" ],
+    "evidence" : [ {
+      "quote" : "we route every reaction through one bundle per run per person",
+      "kind" : "commitment-marker"
+    }, {
+      "quote" : "a person should get one thing to read, not four",
+      "kind" : "modal-marker"
+    } ],
+    "why" : "Establishes the routing as an agreed process, then supports it with a benefit-based argument; the tension between process rule and argument is named by the two regions.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-4",
+    "regions" : [ "legitimate", "pressure" ],
+    "evidence" : [ {
+      "quote" : "Tanya held:",
+      "kind" : "performed-act"
+    }, {
+      "quote" : "rather\nthan sending on its own",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Holds a rule against the alternative of independent sending, asserting it as settled; the 'held' framing reads as insistence on a fixed close.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-5",
+    "regions" : [ "rational-persuasion" ],
+    "evidence" : [ {
+      "quote" : "which moves the ordering problem onto the",
+      "kind" : "plain-signal"
+    } ],
+    "why" : "Rejects the alternative by arguing its cost falls on the reader, an evidence-and-logic move.",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-3" ],
+  "unmarked_rest" : false,
+  "mints" : [ ],
+  "region_mints" : [ ],
+  "_source_sha256" : "ba05ea0158d2bb5ae030ad5d571477370ce49537407437eea6eb9df45ec14eb7"
+}
