@@ -1,0 +1,230 @@
+{
+  "schema_version" : 1,
+  "run_id" : "mp-eng-2989d8c9",
+  "live_run_id" : "e09f776f5d7a",
+  "stream" : "main",
+  "policy" : {
+    "mode" : "on",
+    "source" : "default",
+    "version" : 1,
+    "skills" : { },
+    "lands" : { },
+    "audience" : "owner-setting",
+    "warn_per_run_usd" : 0.25,
+    "channels" : [ "email", "sms", "teams" ]
+  },
+  "gates" : [ {
+    "id" : "aswritten/clarify",
+    "run?" : true,
+    "gate" : 2,
+    "score" : 0.7,
+    "evidence" : [ "aswr:qualityFlag \"principal:unresolved\"", "Composer-editorial narration of the decision record; no in-text ratification marker beyond the ruling already quoted.", "The alternative considered and rejected was per-skill\ndelivery with client-side collapsing, which moves the ordering problem onto the\nreader.", "narr:Expr_20261016_1_DeliveryRoutingRulingE2ESynthetic_h30086674ddde_5 narr:supports narr:Position_ReactionDeliveryBundlingRuling" ],
+    "why" : "Two composer-editorial statements carry exactly the 'principal:unresolved' flag the when names, and the minted position's support list includes the rejected-alternative record whose principal the transactions had to guess (Tanya), though the document's own framing (the verbatim ruling, 'Tanya held:') makes the answer near-obvious, holding this at the threshold rather than clearly above it."
+  }, {
+    "id" : "aswritten/merge-suggest",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "skill off"
+  }, {
+    "id" : "aswritten/refract",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "skill off"
+  }, {
+    "id" : "aswritten/review-message",
+    "run?" : true,
+    "gate" : 2,
+    "reason" : "predicate only"
+  }, {
+    "id" : "aswritten/review-request",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "skill off"
+  }, {
+    "id" : "aswritten/riff",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "skill off"
+  } ],
+  "jobs" : [ {
+    "job_key" : "e09f776f5d7a:aswritten/clarify:u17592186058518",
+    "turn_attempts" : 1,
+    "n8n_execution_id" : "162518",
+    "skill" : "aswritten/clarify",
+    "landing" : {
+      "landed" : "message"
+    },
+    "recipient" : {
+      "name" : "Tanya TeamOwner",
+      "role" : "submitter",
+      "status" : "routed",
+      "channels_not" : {
+        "sms" : "no verified phone opted in to texts",
+        "teams" : "no Teams identity in the home tenant"
+      },
+      "roles" : [ "submitter" ],
+      "seated" : true,
+      "test-identity" : true,
+      "via" : [ {
+        "how" : "saved",
+        "as" : "saver"
+      } ]
+    },
+    "reason" : "The ruling is stated clearly and the record attaches no guessed reading to it. Tina's pushback on the batching window is noted but its content is not needed to act on the rule, so nothing the perspective leans on rests on an unresolved term, conflicting statement, or disputed number.",
+    "status" : "silent",
+    "gate" : {
+      "score" : 0.7,
+      "evidence" : [ "aswr:qualityFlag \"principal:unresolved\"", "Composer-editorial narration of the decision record; no in-text ratification marker beyond the ruling already quoted.", "The alternative considered and rejected was per-skill\ndelivery with client-side collapsing, which moves the ordering problem onto the\nreader.", "narr:Expr_20261016_1_DeliveryRoutingRulingE2ESynthetic_h30086674ddde_5 narr:supports narr:Position_ReactionDeliveryBundlingRuling" ],
+      "why" : "Two composer-editorial statements carry exactly the 'principal:unresolved' flag the when names, and the minted position's support list includes the rejected-alternative record whose principal the transactions had to guess (Tanya), though the document's own framing (the verbatim ruling, 'Tanya held:') makes the answer near-obvious, holding this at the threshold rather than clearly above it."
+    },
+    "length_stops" : 0,
+    "plan_id" : "reaction:e09f776f5d7a:clarify:7f9f11f6bf5f",
+    "pass" : "reaction:clarify",
+    "ms" : 7033,
+    "reask" : {
+      "attempted" : false,
+      "withheld" : false
+    },
+    "model" : "anthropic/claude-haiku-5.5"
+  }, {
+    "job_key" : "e09f776f5d7a:aswritten/review-message:u17592186058518",
+    "turn_attempts" : 1,
+    "n8n_execution_id" : "162517",
+    "skill" : "aswritten/review-message",
+    "landing" : {
+      "landed" : "message"
+    },
+    "recipient" : {
+      "name" : "Tanya TeamOwner",
+      "role" : "submitter",
+      "status" : "routed",
+      "channels_not" : {
+        "sms" : "no verified phone opted in to texts",
+        "teams" : "no Teams identity in the home tenant"
+      },
+      "roles" : [ "submitter" ],
+      "seated" : true,
+      "test-identity" : true,
+      "via" : [ {
+        "how" : "saved",
+        "as" : "saver"
+      } ]
+    },
+    "output" : {
+      "beats" : {
+        "we_said" : "You said today, in the delivery routing ruling: \"we route every reaction through one bundle per run per person, not one message per skill — a person should get one thing to read, not four.\"",
+        "that_changes" : "You also said \"the bundle closes when the run closes, and a skill that misses the close waits for the next run rather than sending on its own.\" The memory records that Tina pushed back on the batching window, and that you held the close rule against her objection. The per-skill alternative, with client-side collapsing, was considered and rejected, because it moves the ordering problem onto the reader.",
+        "so_now" : "Reactions from a run now go out as one bundle per person per run, and the bundle closes with the run. A skill that finishes after the close waits for the next run instead of sending on its own. Per-skill delivery is no longer the design.",
+        "which_means" : "That suggests to me that the reaction-delivery doc in the repo, which describes each skill sending its own message as soon as it finishes, is out of date. If that holds, a skill that finishes late will reach people a run later than it does today, and people should expect that gap. I read the close rule as the answer to the batching objection, but Tina's own words are not in the memory, so that is only my read.",
+        "where_does_it_end" : [ "Does Tina's objection to the batching window still stand, or does the close rule answer it fully?", "Should the reaction-delivery doc be rewritten to describe the bundle, or kept as the description of the old way?" ]
+      },
+      "email" : {
+        "subject" : "Re: Reaction delivery bundling, from today",
+        "body" : "Tanya, you said today, in the delivery routing ruling: \"we route every reaction through one bundle per run per person, not one message per skill — a person should get one thing to read, not four.\" You also said \"the bundle closes when the run closes, and a skill that misses the close waits for the next run rather than sending on its own.\" The memory records that Tina pushed back on the batching window, and that you held the close rule against her objection. The per-skill alternative, with client-side collapsing, was considered and rejected, because it moves the ordering problem onto the reader.\n\nReactions from a run now go out as one bundle per person per run, and the bundle closes with the run. A skill that finishes after the close waits for the next run instead of sending on its own. Per-skill delivery is no longer the design.\n\nThat suggests to me that the reaction-delivery doc in the repo, which describes each skill sending its own message as soon as it finishes, is out of date. If that holds, a skill that finishes late will reach people a run later than it does today, and people should expect that gap. I read the close rule as the answer to the batching objection, but Tina's own words are not in the memory, so that is only my read.\n\nTwo questions. Does Tina's objection to the batching window still stand, or does the close rule answer it fully? Should the reaction-delivery doc be rewritten to describe the bundle, or kept as the description of the old way?\n\nThe conversation, with everyone's words: https://dev.api.aswritten.ai/live/conversation/2026-10-16-1-delivery-routing-ruling-e2e-synthetic"
+      },
+      "self_check" : {
+        "forbidden_words_outside_quotes" : [ ],
+        "quotations_verified_exact" : true,
+        "question_count" : {
+          "chat" : 0,
+          "email" : 2
+        }
+      }
+    },
+    "status" : "ok",
+    "gate" : { },
+    "length_stops" : 0,
+    "plan_id" : "reaction:e09f776f5d7a:review-message:e53afd66b036",
+    "pass" : "reaction:review-message",
+    "ms" : 231759,
+    "cite" : {
+      "email" : {
+        "claims" : 9,
+        "citations" : 4
+      }
+    },
+    "reask" : {
+      "attempted" : false,
+      "withheld" : false
+    },
+    "model" : "anthropic/claude-haiku-5.5"
+  } ],
+  "spend" : {
+    "cost_usd" : 0.075355,
+    "passes" : [ {
+      "pass" : "reaction:_score",
+      "llm_calls" : 1,
+      "cost_usd" : 0.00806575,
+      "null_cost_calls" : 0
+    }, {
+      "pass" : "reaction:clarify",
+      "llm_calls" : 1,
+      "cost_usd" : 0.0119849,
+      "null_cost_calls" : 0
+    }, {
+      "pass" : "reaction:review-message",
+      "llm_calls" : 3,
+      "cost_usd" : 0.02216363,
+      "null_cost_calls" : 0
+    }, {
+      "pass" : "reaction:review-message:cite",
+      "llm_calls" : 27,
+      "cost_usd" : 0.033140710000000004,
+      "null_cost_calls" : 0
+    } ]
+  },
+  "bundle" : {
+    "items" : 1,
+    "recipients" : 1,
+    "sent" : [ {
+      "items" : [ {
+        "kind" : "reaction",
+        "skill" : "aswritten/review-message",
+        "audience" : "touched"
+      } ],
+      "handle" : "tanya+staging@aswritten.ai",
+      "channel" : "email",
+      "recipient" : "Tanya TeamOwner",
+      "h" : "09fcdb5f3d:aswritten/review-message",
+      "status" : "skipped: test identity"
+    } ]
+  },
+  "counters" : { },
+  "at" : "2026-10-16T09:53:02.442779888Z",
+  "context" : {
+    "roster" : [ {
+      "name" : "Tanya TeamOwner",
+      "role" : "submitter",
+      "status" : "routed",
+      "channels_not" : {
+        "sms" : "no verified phone opted in to texts",
+        "teams" : "no Teams identity in the home tenant"
+      },
+      "roles" : [ "submitter" ],
+      "seated" : true,
+      "test-identity" : true,
+      "via" : [ {
+        "how" : "saved",
+        "as" : "saver"
+      } ]
+    } ],
+    "inputs" : {
+      "we_said" : 5,
+      "new_positions" : 1,
+      "touches" : 0,
+      "threads" : 1,
+      "reaches" : 0
+    },
+    "navigation" : {
+      "source" : "engine",
+      "context_chars" : 10931
+    }
+  },
+  "scorer" : {
+    "attempts" : [ {
+      "disposition" : "ok",
+      "elapsed_ms" : 42309,
+      "content_chars" : 907
+    } ]
+  }
+}
