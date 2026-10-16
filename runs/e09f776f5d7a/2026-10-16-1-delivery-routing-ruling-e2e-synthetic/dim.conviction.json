@@ -1,0 +1,55 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "ruled on where reaction delivery belongs:",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Explicit ruling framed as a settled determination by the team owner, which is ratification language.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-2",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "we route every reaction through one bundle per run per person",
+      "kind" : "commitment-marker"
+    } ],
+    "why" : "Operational 'we route' declarative stating a standing rule the speaker expects others to act on.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-3",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "pushed back on the batching window",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Reports Tina's objection as a plain assertion; the stance is pushback, not a settled position, and it is rendered through the speaker.",
+    "reported" : true
+  }, {
+    "segment_local_id" : "src-4",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "Tanya held:",
+      "kind" : "commitment-marker"
+    }, {
+      "quote" : "a skill that misses the close waits for the next run rather",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "'Held' marks a commitment and the rule is operational, stated as a conclusion that governs behavior.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-5",
+    "regions" : [ "claim" ],
+    "evidence" : [ {
+      "quote" : "client-side collapsing, which moves the ordering problem",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Rationale for rejecting an alternative is a firm, defensible assertion; it does not itself perform settling. Torn with decision, the lower level is taken.",
+    "reported" : false
+  } ],
+  "mints" : [ ],
+  "unmarked" : [ ],
+  "unmarked_rest" : false,
+  "_source_sha256" : "ba05ea0158d2bb5ae030ad5d571477370ce49537407437eea6eb9df45ec14eb7"
+}
