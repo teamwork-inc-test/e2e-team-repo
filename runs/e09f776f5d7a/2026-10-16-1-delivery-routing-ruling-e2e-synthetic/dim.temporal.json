@@ -1,0 +1,54 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "past", "realis" ],
+    "evidence" : [ {
+      "quote" : "ruled on where reaction delivery belongs",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Completed ruling act framed as settled past event.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-2",
+    "regions" : [ "present", "abstract" ],
+    "evidence" : [ {
+      "quote" : "we route every reaction through one bundle per run per person",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Present-tense standing policy stated as a general pattern, not a single event; the 'should' clause is a modal and is not used to mark modality.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-3",
+    "regions" : [ "past", "realis", "concrete" ],
+    "evidence" : [ {
+      "quote" : "pushed back on the batching window",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Specific completed act attributed to Tina, rendered through Tanya's account, so reported.",
+    "reported" : true
+  }, {
+    "segment_local_id" : "src-4",
+    "regions" : [ "present", "realis", "abstract" ],
+    "evidence" : [ {
+      "quote" : "Tanya held",
+      "kind" : "performed-act"
+    }, {
+      "quote" : "a skill that misses the close waits for the next run",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Settled present-tense general rule framed as a ratified principle rather than a particular event.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-5",
+    "regions" : [ "past", "realis", "abstract" ],
+    "evidence" : [ {
+      "quote" : "The alternative considered and rejected was per-skill",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Past, settled rejection of an alternative; the closing clause is a general present-tense claim about the design pattern.",
+    "reported" : false
+  } ],
+  "unmarked" : [ ],
+  "unmarked_rest" : false,
+  "_source_sha256" : "ba05ea0158d2bb5ae030ad5d571477370ce49537407437eea6eb9df45ec14eb7"
+}
