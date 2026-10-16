@@ -1,0 +1,25 @@
+{
+  "bindings" : [ {
+    "name" : "Tanya TeamOwner",
+    "verdict" : "mint",
+    "target" : null,
+    "label" : "Tanya TeamOwner",
+    "why" : "No existing actors; full name given as submitted_by and participant.",
+    "ai" : false
+  }, {
+    "name" : "Tina",
+    "verdict" : "mint",
+    "target" : null,
+    "label" : "Tina (aswritten staging)",
+    "why" : "Bare first name only, no existing actors; not confidently the same as Tanya, so minted with context disambiguation.",
+    "ai" : false
+  }, {
+    "name" : "tanya+staging@aswritten.ai",
+    "verdict" : "mint",
+    "target" : null,
+    "label" : "Tanya TeamOwner",
+    "why" : "Account email belongs to the person-named submitted_by Tanya TeamOwner; mint under her name, identical label so it lands on one node.",
+    "ai" : false
+  } ],
+  "_source_sha256" : "ba05ea0158d2bb5ae030ad5d571477370ce49537407437eea6eb9df45ec14eb7"
+}
