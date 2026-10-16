@@ -1,0 +1,34 @@
+{
+  "placements" : [ {
+    "verdict" : "mint",
+    "leaf" : "Narrative_OneBundlePerPersonPerRun",
+    "title" : "A person receives one bundle per run, not a message per skill",
+    "frame" : "What does a person receive from a run, what closes it, and who bears the burden of ordering and collapsing the pieces?",
+    "under" : null,
+    "supporting_positions" : [ "ReactionDeliveryBundlingRuling" ],
+    "why" : "The ruling concerns how reaction delivery is shaped for the reader: one bundle per run per person, closed with the run, with per-skill delivery rejected. Future delivery rulings could keep feeding this theme. No existing leaf holds it, because decision capture at consensus, decisions evaporating and anti-Slack positioning concern capturing decisions, not routing reactions. I override the position pass's proposed placement under Narrative_DecisionCaptureAtConsensus.",
+    "consulted" : [ "Narrative_DecisionCaptureAtConsensus", "Narrative_DecisionsEvaporate", "Narrative_AntiSlackPositioning" ]
+  } ],
+  "unplaced" : [ "src-1" ],
+  "weighed" : [ ],
+  "strata" : {
+    "mints" : [ {
+      "name" : "ReactionDeliveryRouting",
+      "type" : "thematic",
+      "title" : "How reactions reach a person: bundling per run, when the bundle closes, and where ordering is resolved",
+      "why" : "The envelope's content is about one subject, delivery routing of reactions, which later rulings are likely to keep returning to."
+    } ],
+    "connections" : [ {
+      "member" : "Narrative_OneBundlePerPersonPerRun",
+      "strata" : [ "ReactionDeliveryRouting" ],
+      "why" : "The leaf is the theme of how reactions are delivered to a person."
+    }, {
+      "member" : "Position_ReactionDeliveryBundlingRuling",
+      "strata" : [ "ReactionDeliveryRouting" ],
+      "why" : "The position holds the bundling rule, the batching-window dispute and the rejected alternative, all of which are about delivery routing."
+    } ],
+    "disconnections" : [ ],
+    "unconnected" : [ ]
+  },
+  "_source_sha256" : "ba05ea0158d2bb5ae030ad5d571477370ce49537407437eea6eb9df45ec14eb7"
+}
