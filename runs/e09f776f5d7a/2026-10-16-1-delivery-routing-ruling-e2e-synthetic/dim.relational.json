@@ -1,0 +1,56 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "authority-ranking" ],
+    "evidence" : [ {
+      "quote" : "Tanya (team owner) ruled on where reaction delivery belongs:",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Enacts rank-based ruling authority by announcing a ruling as team owner.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-2",
+    "regions" : [ "authority-ranking" ],
+    "evidence" : [ {
+      "quote" : "we route every reaction through one bundle per run per person",
+      "kind" : "commitment-marker"
+    } ],
+    "why" : "Declares a binding routing rule; the 'we' carries the team's collective voice but the rule is issued from rank rather than pooled consensus.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-3",
+    "regions" : [ "equality-matching" ],
+    "evidence" : [ {
+      "quote" : "Tina pushed back on the batching window",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Reports a counter-move by Tina, a reciprocal exchange of objection; split footing, so reported.",
+    "reported" : true
+  }, {
+    "segment_local_id" : "src-4",
+    "regions" : [ "authority-ranking" ],
+    "evidence" : [ {
+      "quote" : "Tanya held:",
+      "kind" : "performed-act"
+    }, {
+      "quote" : "a skill that misses the close waits for the next run",
+      "kind" : "commitment-marker"
+    } ],
+    "why" : "Holds a firm rule with permission and denial over skills sending independently; rank-based directive.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-5",
+    "regions" : [ "market-pricing" ],
+    "evidence" : [ {
+      "quote" : "moves the ordering problem onto the",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Weighs a rejected alternative by its cost to the reader, a consequence-for-choice framing.",
+    "reported" : false
+  } ],
+  "unmarked" : [ ],
+  "unmarked_rest" : false,
+  "mints" : [ ],
+  "region_mints" : [ ],
+  "_source_sha256" : "ba05ea0158d2bb5ae030ad5d571477370ce49537407437eea6eb9df45ec14eb7"
+}
