@@ -1,0 +1,27 @@
+{
+  "doc" : {
+    "title" : "Tanya's Sprint Retro",
+    "date_stated" : null,
+    "actors_present" : [ "Tanya" ]
+  },
+  "segments" : [ {
+    "local_id" : "src-1",
+    "exact" : "Tanya: \"We shipped the async decision widget. Velocity was 23 points, highest this quarter. The Zephyr integration was the key unlock.\"",
+    "actor" : "Tanya",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Sprint retro statement"
+    },
+    "note" : "Direct quoted speech; unified voice, bare footing. Three sentences serving one retrospective report — kept as one segment.",
+    "footing_case" : null
+  } ],
+  "coverage_gaps" : [ {
+    "reason" : "YAML frontmatter (reviewers) — structural scaffolding, not a speech act.",
+    "span_hint" : "reviewers:"
+  }, {
+    "reason" : "Markdown heading — structural scaffolding.",
+    "span_hint" : "# Tanya's Sprint Retro"
+  } ],
+  "footing_cases" : [ ],
+  "_source_sha256" : "1237e18b54774c37eb5214040874288fc88b5befa916140e66a01d5fdd1f31b8"
+}
