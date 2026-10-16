@@ -1,0 +1,22 @@
+{
+  "bindings" : [ {
+    "name" : "Tanya",
+    "verdict" : "mint",
+    "label" : "Tanya TeamOwner",
+    "why" : "Bare first name; the envelope's sole participant and submitter is Tanya TeamOwner, so it takes the fullest form. No existing actors.",
+    "ai" : false
+  }, {
+    "name" : "Tanya TeamOwner",
+    "verdict" : "mint",
+    "label" : "Tanya TeamOwner",
+    "why" : "Full name of the submitter; no existing actors to bind to.",
+    "ai" : false
+  }, {
+    "name" : "tanya+staging@aswritten.ai",
+    "verdict" : "mint",
+    "label" : "Tanya TeamOwner",
+    "why" : "Account email belongs to the person-named submitted_by Tanya TeamOwner; it carries her label, not the email, so it lands on the same node.",
+    "ai" : false
+  } ],
+  "_source_sha256" : "1237e18b54774c37eb5214040874288fc88b5befa916140e66a01d5fdd1f31b8"
+}
