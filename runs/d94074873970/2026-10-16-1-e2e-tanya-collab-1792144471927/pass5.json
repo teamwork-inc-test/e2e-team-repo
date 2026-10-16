@@ -1,0 +1,26 @@
+{
+  "placements" : [ {
+    "verdict" : "reuse",
+    "leaf" : "Narrative_DecisionCaptureAtConsensus",
+    "supporting_positions" : [ "RetroDeliveryUnlockRead" ],
+    "why" : "The position pass proposed this leaf, and it fits. The retro reports shipping the async decision widget, which is the decision-capture-at-consensus feature in delivery, and credits the Zephyr integration as its enabler. The existing leaf's theme is capturing the decision at the moment of consensus. Reuse is the right call, since nothing here is a new subject.",
+    "consulted" : [ "Narrative_DecisionCaptureAtConsensus", "Narrative_DecisionsEvaporate", "Narrative_AntiSlackPositioning", "Narrative_ZeroEffortCapture", "DependenciesIntegrations" ]
+  } ],
+  "unplaced" : [ ],
+  "weighed" : [ ],
+  "strata" : {
+    "mints" : [ ],
+    "connections" : [ ],
+    "disconnections" : [ ],
+    "unconnected" : [ {
+      "member" : "Narrative_DecisionCaptureAtConsensus",
+      "why" : "No existing strata, and this single retro statement does not call for a grouping that no leaf or position already holds. A stratum would only be minted once the content draws a relationship across the graph."
+    } ]
+  },
+  "strata_flags" : [ {
+    "flag" : "unconnected",
+    "subject" : "Narrative_DecisionCaptureAtConsensus",
+    "detail" : "placed with no stratum"
+  } ],
+  "_source_sha256" : "1237e18b54774c37eb5214040874288fc88b5befa916140e66a01d5fdd1f31b8"
+}
