@@ -1,0 +1,180 @@
+{
+  "schema_version" : 1,
+  "run_id" : "mp-eng-5a117da6",
+  "live_run_id" : "d94074873970",
+  "stream" : "e2e-collab-1792144406526",
+  "policy" : {
+    "mode" : "on",
+    "source" : "default",
+    "version" : 1,
+    "skills" : { },
+    "lands" : { },
+    "audience" : "owner-setting",
+    "warn_per_run_usd" : 0.25,
+    "channels" : [ "email", "sms", "teams" ]
+  },
+  "gates" : [ {
+    "id" : "aswritten/clarify",
+    "run?" : false,
+    "gate" : 2,
+    "reason" : "score 0.0 < threshold 0.7",
+    "score" : 0.0,
+    "evidence" : [ "Flat unhedged declaratives asserting accomplished results; no ratification or operational settling language, so claim rather than decision.", "Completed past-tense events with settled outcomes (shipped, velocity recorded) and named artifacts (async decision widget, Zephyr integration); no modal or hedge marks irrealis.", "Direct quoted speech; unified voice, bare footing.", "The Zephyr integration was the key unlock." ]
+  }, {
+    "id" : "aswritten/merge-suggest",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "skill off"
+  }, {
+    "id" : "aswritten/refract",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "skill off"
+  }, {
+    "id" : "aswritten/review-message",
+    "run?" : true,
+    "gate" : 2,
+    "reason" : "predicate only"
+  }, {
+    "id" : "aswritten/review-request",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "skill off"
+  }, {
+    "id" : "aswritten/riff",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "skill off"
+  } ],
+  "jobs" : [ {
+    "job_key" : "d94074873970:aswritten/review-message:u17592186058518",
+    "turn_attempts" : 1,
+    "n8n_execution_id" : "162539",
+    "skill" : "aswritten/review-message",
+    "landing" : {
+      "landed" : "message"
+    },
+    "recipient" : {
+      "name" : "Tanya TeamOwner",
+      "role" : "submitter",
+      "status" : "routed",
+      "channels_not" : {
+        "sms" : "no verified phone opted in to texts",
+        "teams" : "no Teams identity in the home tenant"
+      },
+      "roles" : [ "submitter" ],
+      "seated" : true,
+      "test-identity" : true,
+      "via" : [ {
+        "how" : "saved",
+        "as" : "saver"
+      } ]
+    },
+    "cite_missing" : [ "email" ],
+    "output" : {
+      "beats" : {
+        "we_said" : "You said today in your sprint retro: \"We shipped the async decision widget. Velocity was 23 points, highest this quarter. The Zephyr integration was the key unlock.\"",
+        "that_changes" : null,
+        "so_now" : "The Zephyr integration is now recorded as the key unlock, under the decision-capture-at-consensus idea. The Sprint 4 retro's line that the widget \"proved the thesis\" is still standing beside it, so the two have to be read together.",
+        "which_means" : "That suggests to me the velocity is partly a tooling result, not only a team one, and that the Zephyr work has to keep running for the 23 points to repeat. I read that as the integration moving from a dependency to a deliverable. If that holds, the Sprint 4 proof rests more on Zephyr than on the widget alone, which is worth checking before anyone repeats the claim in a planning doc.",
+        "where_does_it_end" : [ "Does the 23-point figure still hold if you take the Zephyr work out of the sprint?", "Does the Sprint 4 proof hold once the unlock is credited to Zephyr rather than the widget?" ]
+      },
+      "email" : {
+        "subject" : "Re: Zephyr unlock claim, from today",
+        "body" : "You said today in your sprint retro: \"We shipped the async decision widget. Velocity was 23 points, highest this quarter. The Zephyr integration was the key unlock.\" It puts a number and a cause side by side, and names the integration as what made the widget shippable at that velocity.\n\nThe Zephyr integration is now recorded as the key unlock, under the decision-capture-at-consensus idea, the core claim that a decision should be captured at the moment it is made. The Sprint 4 retro's line that the widget \"proved the thesis\" is still standing beside it, so the two have to be read together.\n\nThat suggests to me the velocity is partly a tooling result, not only a team one, and that the Zephyr work has to keep running for the 23 points to repeat. I read that as the integration moving from a dependency to a deliverable. If that holds, the Sprint 4 proof rests more on Zephyr than on the widget alone, and that is worth checking before anyone repeats the claim in a planning doc.\n\nTwo things this leaves open, both answerable from your own work: Does the 23-point figure still hold if you take the Zephyr work out of the sprint? And does the Sprint 4 proof hold once the unlock is credited to Zephyr rather than the widget?\n\nThe conversation, with everyone's words: https://dev.api.aswritten.ai/live/conversation/2026-10-16-1-e2e-tanya-collab-1792144471927"
+      },
+      "self_check" : {
+        "forbidden_words_outside_quotes" : [ ],
+        "quotations_verified_exact" : true,
+        "question_count" : {
+          "chat" : 0,
+          "email" : 2
+        }
+      }
+    },
+    "status" : "ok",
+    "gate" : { },
+    "length_stops" : 0,
+    "plan_id" : "reaction:d94074873970:review-message:ccbe03d6bd9c",
+    "pass" : "reaction:review-message",
+    "ms" : 99580,
+    "reask" : {
+      "attempted" : false,
+      "withheld" : false
+    },
+    "model" : "anthropic/claude-haiku-5.5"
+  } ],
+  "spend" : {
+    "cost_usd" : 0.022602,
+    "passes" : [ {
+      "pass" : "reaction:_score",
+      "llm_calls" : 1,
+      "cost_usd" : 0.0021437,
+      "null_cost_calls" : 0
+    }, {
+      "pass" : "reaction:review-message",
+      "llm_calls" : 2,
+      "cost_usd" : 0.008621730000000001,
+      "null_cost_calls" : 0
+    }, {
+      "pass" : "reaction:review-message:cite",
+      "llm_calls" : 10,
+      "cost_usd" : 0.01183617,
+      "null_cost_calls" : 0
+    } ]
+  },
+  "bundle" : {
+    "items" : 1,
+    "recipients" : 1,
+    "sent" : [ {
+      "items" : [ {
+        "kind" : "reaction",
+        "skill" : "aswritten/review-message",
+        "audience" : "touched"
+      } ],
+      "handle" : "tanya+staging@aswritten.ai",
+      "channel" : "email",
+      "recipient" : "Tanya TeamOwner",
+      "h" : "09fcdb5f3d:aswritten/review-message",
+      "status" : "skipped: test identity"
+    } ]
+  },
+  "counters" : { },
+  "at" : "2026-10-16T09:57:23.791633888Z",
+  "context" : {
+    "roster" : [ {
+      "name" : "Tanya TeamOwner",
+      "role" : "submitter",
+      "status" : "routed",
+      "channels_not" : {
+        "sms" : "no verified phone opted in to texts",
+        "teams" : "no Teams identity in the home tenant"
+      },
+      "roles" : [ "submitter" ],
+      "seated" : true,
+      "test-identity" : true,
+      "via" : [ {
+        "how" : "saved",
+        "as" : "saver"
+      } ]
+    } ],
+    "inputs" : {
+      "we_said" : 1,
+      "new_positions" : 1,
+      "touches" : 0,
+      "threads" : 1,
+      "reaches" : 2
+    },
+    "navigation" : {
+      "source" : "engine",
+      "context_chars" : 15330
+    }
+  },
+  "scorer" : {
+    "attempts" : [ {
+      "disposition" : "ok",
+      "elapsed_ms" : 7007,
+      "content_chars" : 730
+    } ]
+  }
+}
