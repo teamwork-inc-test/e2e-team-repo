@@ -1,0 +1,20 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "self-enhancement" ],
+    "evidence" : [ {
+      "quote" : "highest this quarter",
+      "kind" : "plain-assertion"
+    }, {
+      "quote" : "The Zephyr integration was the key unlock.",
+      "kind" : "lexical-marker"
+    } ],
+    "why" : "Achievement and standing are appealed to through the velocity ranking and the credited 'key unlock'; competence is a weaker secondary reading, so the single seeded region is kept.",
+    "reported" : false
+  } ],
+  "mints" : [ ],
+  "region_mints" : [ ],
+  "unmarked" : [ ],
+  "unmarked_rest" : false,
+  "_source_sha256" : "1237e18b54774c37eb5214040874288fc88b5befa916140e66a01d5fdd1f31b8"
+}
