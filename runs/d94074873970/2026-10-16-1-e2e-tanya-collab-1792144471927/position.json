@@ -1,0 +1,13 @@
+{
+  "positions" : [ {
+    "name" : "RetroDeliveryUnlockRead",
+    "frame" : "what made the async decision widget shippable at the velocity this sprint reached, and what counts as the unlock?",
+    "members" : [ "src-1" ],
+    "why" : "The single statement reports the async decision widget shipped, a velocity of 23 points, and the Zephyr integration as the key unlock. It carries a whole frame on its own: the delivery of decision capture and the enabler credited for it. That bears on the decision-capture-at-consensus narrative. The statement is flat, past-tense, and unhedged. The question-shaped frame leaves the answer to the member.",
+    "under" : [ "Narrative_DecisionCaptureAtConsensus" ]
+  } ],
+  "attaches" : [ ],
+  "position_revisions" : [ ],
+  "ungrouped" : [ ],
+  "_source_sha256" : "1237e18b54774c37eb5214040874288fc88b5befa916140e66a01d5fdd1f31b8"
+}
