@@ -1,0 +1,23 @@
+{
+  "resolutions" : [ {
+    "commentary_local_id" : "src-1",
+    "phrase" : "The Zephyr integration was the key unlock",
+    "verdict" : "confident",
+    "binding" : {
+      "referents" : [ {
+        "iri" : "Position_ZephyrIntegrationUnlock",
+        "relation" : "extends",
+        "why" : "Restates and re-engages the Zephyr-as-key-unlock position, tying it to this retro's velocity."
+      }, {
+        "iri" : "Position_Sprint4ThesisProven",
+        "relation" : "see",
+        "why" : "Names the shipped async decision widget, which this position describes, without engaging its content."
+      } ],
+      "targets" : [ "Narrative_ZeroEffortCapture" ]
+    },
+    "why" : "The Zephyr integration names one determinate position-grain node, and the widget names one other. The velocity figure of 23 points has no prior in the graph and lands as fresh narrative.",
+    "consulted" : [ "Narrative_ZeroEffortCapture", "Position_ZephyrIntegrationUnlock", "Position_Sprint4ThesisProven", "DependenciesIntegrations", "Position_ContextPreservationNextSprint" ]
+  } ],
+  "unreferenced_commentary" : [ ],
+  "_source_sha256" : "1237e18b54774c37eb5214040874288fc88b5befa916140e66a01d5fdd1f31b8"
+}
