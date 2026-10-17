@@ -1,0 +1,29 @@
+{
+  "placements" : [ {
+    "verdict" : "reuse",
+    "leaf" : "Narrative_DecisionCaptureAtConsensus",
+    "title" : null,
+    "frame" : null,
+    "under" : null,
+    "supporting_positions" : [ "Sprint4ShipAndUnlock" ],
+    "why" : "The single position this document mints carries a completed shipping event for the async decision widget, a velocity figure, and the Zephyr integration named as the unlock. The widget is the artifact of capturing a decision at the moment of consensus and linking it to the context that produced it — the exact theme Narrative_DecisionCaptureAtConsensus already holds. The velocity figure and the ship event are position-grain evidence for that theme, not a theme of their own (rule 2), so no leaf is minted for them. The position pass proposed this leaf and the proposal is taken.",
+    "consulted" : [ "Narrative_DecisionCaptureAtConsensus", "Narrative_AntiSlackPositioning", "Narrative_DecisionsEvaporate", "Narrative_ZeroEffortCapture", "Position_Sprint4ThesisProven", "Position_ZephyrIntegrationUnlock", "Position_WebhookArchitecture", "Position_ContextPreservationNextSprint" ]
+  } ],
+  "unplaced" : [ ],
+  "weighed" : [ ],
+  "strata" : {
+    "mints" : [ ],
+    "connections" : [ ],
+    "disconnections" : [ ],
+    "unconnected" : [ {
+      "member" : "Narrative_DecisionCaptureAtConsensus",
+      "why" : "No stratum is minted here: this document contributes one position holding one retrospective statement, and no grouping relationship across members is legible from a single position. No existing stratum holds it either — the org's strata space is empty."
+    } ]
+  },
+  "strata_flags" : [ {
+    "flag" : "unconnected",
+    "subject" : "Narrative_DecisionCaptureAtConsensus",
+    "detail" : "placed with no stratum"
+  } ],
+  "_source_sha256" : "1237e18b54774c37eb5214040874288fc88b5befa916140e66a01d5fdd1f31b8"
+}
