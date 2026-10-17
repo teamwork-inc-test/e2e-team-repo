@@ -1,0 +1,38 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "authority-ranking" ],
+    "evidence" : [ {
+      "quote" : "ruled on where reaction delivery belongs",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Event report of a governance ruling by the team owner; the model is ranked decision rights, witnessed through the report and marked reported.",
+    "reported" : true
+  }, {
+    "segment_local_id" : "src-2",
+    "regions" : [ "authority-ranking", "equality-matching" ],
+    "evidence" : [ {
+      "quote" : "we route every reaction through one bundle per run per person",
+      "kind" : "performed-act"
+    }, {
+      "quote" : "a person should get one thing to read, not four",
+      "kind" : "plain-assertion"
+    } ],
+    "why" : "Tanya issues a directive ('we route') that sets the delivery rule, and the justification rests on even allocation per person; the enacted model is rank-based command, with equal-share fairness as the secondary tension.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-4",
+    "regions" : [ "authority-ranking" ],
+    "evidence" : [ {
+      "quote" : "Tanya held",
+      "kind" : "performed-act"
+    } ],
+    "why" : "The team owner's decision is enacted as final ('held') over a contested point, with the bundle-close rule imposed on skills; the observation is Tanya's stance rendered by the composer, so reported is true.",
+    "reported" : true
+  } ],
+  "mints" : [ ],
+  "region_mints" : [ ],
+  "unmarked" : [ "src-3", "src-5" ],
+  "unmarked_rest" : false,
+  "_source_sha256" : "ba05ea0158d2bb5ae030ad5d571477370ce49537407437eea6eb9df45ec14eb7"
+}
