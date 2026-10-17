@@ -1,0 +1,12 @@
+{
+  "positions" : [ {
+    "name" : "DeliveryRoutingPerRunBundle",
+    "frame" : "How does reaction delivery reach a person across a run — one bundle per person, or one message per skill?",
+    "members" : [ "src-2", "src-4", "src-5" ],
+    "why" : "Read together these three carry one settled delivery-routing decision. src-2 states the rule (every reaction routed through one bundle per run per person, not one message per skill) and its rationale (a person should get one thing to read, not four); src-4 states the boundary condition the same decision fixed (the bundle closes when the run closes, and a skill that misses the close waits for the next run rather than sending on its own); src-5 records the option the decision displaced (per-skill delivery with client-side collapsing, which moves the ordering problem onto the reader). The set holds the decision whole — the rule, its close behavior, and the rejected alternative — and the tension the ruling was held against (the pushback on the batching window) is the pressure this frame's answer was fixed under."
+  } ],
+  "attaches" : [ ],
+  "position_revisions" : [ ],
+  "ungrouped" : [ "src-1", "src-3" ],
+  "_source_sha256" : "ba05ea0158d2bb5ae030ad5d571477370ce49537407437eea6eb9df45ec14eb7"
+}
