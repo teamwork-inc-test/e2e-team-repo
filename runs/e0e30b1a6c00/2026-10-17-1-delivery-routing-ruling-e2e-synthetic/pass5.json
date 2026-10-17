@@ -1,0 +1,33 @@
+{
+  "placements" : [ {
+    "lineage" : {
+      "relation" : "see",
+      "target" : "Narrative_AntiSlackPositioning"
+    },
+    "under" : null,
+    "supporting_positions" : [ "DeliveryRoutingPerRunBundle" ],
+    "why" : "The document's whole contribution is a delivery-routing decision: every reaction routed through one bundle per run per person rather than one message per skill (src-2), the bundle closing when the run closes with late skills waiting for the next run rather than sending on their own (src-4), and the displaced alternative — per-skill delivery with client-side collapsing, which moves the ordering problem onto the reader (src-5). The position pass holds these three as one settled position, DeliveryRoutingPerRunBundle. This is a subject, not a fact: how a run's output reaches a person is a standing product rule future envelopes will keep feeding, so it passes the grain test and mints. Nothing in the supplied structure covers delivery routing — Narrative_AntiSlackPositioning is a positioning thesis, Narrative_DecisionsEvaporate a problem narrative, Narrative_DecisionCaptureAtConsensus a capture-at-consensus insight — so no exact `under` exists; the new leaf is understood in relation to the anti-Slack thesis (structured async over real-time noise) via `see`, since batching delivery to the reader's run is that stance expressed at the delivery layer, but it is not a child of it.",
+    "verdict" : "mint",
+    "leaf" : "Narrative_DeliveryBatchingPerRun",
+    "title" : "Delivery batches to the reader's run, not the skill's moment",
+    "frame" : "When a run produces several reactions for one person, what does that person receive — one bundle at the run's close, or a message per skill as each finishes?",
+    "consulted" : [ "Narrative_AntiSlackPositioning — Tanya frames the product against Slack's real-time model; positioning thesis, not delivery mechanics", "Narrative_DecisionsEvaporate — foundational problem narrative (decisions disappear into scroll-back); no delivery-routing content", "Narrative_DecisionCaptureAtConsensus — Tina's capture-at-consensus insight; no delivery-routing content", "map: ^Narrative_AntiSlackPositioning (4 children: Position_AntiPatternRealtimeChat, Position_PricingTwelveDollars, Position_ProductCategoryAsyncPlatform, Position_TargetMarketRemoteTeams)", "coverage: Position_ContextPreservationNextSprint, Position_AntiPatternRealtimeChat", "doors: ^Thematic (0 areas), ^People (0), ^Dimensions (0), ^Documents (2), ^Unplaced (0)", "area index: ^Narrative_AntiSlackPositioning (only named area)", "EXISTING STRATA: none", "POSITIONS block: none surfaced" ]
+  } ],
+  "unplaced" : [ "src-1", "src-3" ],
+  "weighed" : [ ],
+  "strata" : {
+    "mints" : [ ],
+    "connections" : [ ],
+    "disconnections" : [ ],
+    "unconnected" : [ {
+      "member" : "Narrative_DeliveryBatchingPerRun",
+      "why" : "EXISTING STRATA is empty, and this envelope offers a single settled delivery-routing decision — one narrative resting on one position that already carries it. A thematic stratum over that pair would restate the support link rather than group anything across the graph, and the pushback on the batching window (src-3) was held and settled by Tanya, so no contested grouping is live either. Minting here would be a grouping of one; the leaf stands unconnected until a second envelope returns to delivery routing."
+    } ]
+  },
+  "strata_flags" : [ {
+    "flag" : "unconnected",
+    "subject" : "Narrative_DeliveryBatchingPerRun",
+    "detail" : "placed with no stratum"
+  } ],
+  "_source_sha256" : "ba05ea0158d2bb5ae030ad5d571477370ce49537407437eea6eb9df45ec14eb7"
+}
