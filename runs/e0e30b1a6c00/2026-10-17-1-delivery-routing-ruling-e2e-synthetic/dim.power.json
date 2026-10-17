@@ -1,0 +1,44 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-1",
+    "regions" : [ "legitimate" ],
+    "evidence" : [ {
+      "quote" : "ruled on where reaction delivery belongs",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Presents Tanya's ruling as an act of team-owner authority; the composer, not Tanya, is the actor, so reported is true.",
+    "reported" : true
+  }, {
+    "segment_local_id" : "src-2",
+    "regions" : [ "legitimate" ],
+    "evidence" : [ {
+      "quote" : "we route every reaction through one bundle per run per person",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Declarative ruling by Tanya as the position-holder; authority rests on the team-owner role, with no expert or reward basis shown.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-4",
+    "regions" : [ "legitimate" ],
+    "evidence" : [ {
+      "quote" : "and Tanya held",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Tanya's position is asserted as held against pushback, a position-based authority act rendered by the composer, so reported is true.",
+    "reported" : true
+  }, {
+    "segment_local_id" : "src-5",
+    "regions" : [ "rational-persuasion" ],
+    "evidence" : [ {
+      "quote" : "which moves the ordering problem onto the\nreader",
+      "kind" : "framing-move"
+    } ],
+    "why" : "Argues against the rejected alternative by logical consequence, an argument from reasoning rather than authority.",
+    "reported" : false
+  } ],
+  "unmarked" : [ "src-3" ],
+  "unmarked_rest" : false,
+  "mints" : [ ],
+  "region_mints" : [ ],
+  "_source_sha256" : "ba05ea0158d2bb5ae030ad5d571477370ce49537407437eea6eb9df45ec14eb7"
+}
