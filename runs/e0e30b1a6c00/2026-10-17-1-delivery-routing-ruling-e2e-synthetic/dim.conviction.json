@@ -1,0 +1,25 @@
+{
+  "observations" : [ {
+    "segment_local_id" : "src-2",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "we route every reaction through one bundle per run per person",
+      "kind" : "commitment-marker"
+    } ],
+    "why" : "Operational 'we route' declarative stated as settled practice, with rationale attached; decision-grade by the 'we're doing X' test.",
+    "reported" : false
+  }, {
+    "segment_local_id" : "src-4",
+    "regions" : [ "decision" ],
+    "evidence" : [ {
+      "quote" : "Tanya held",
+      "kind" : "performed-act"
+    } ],
+    "why" : "Split footing: Tanya's stance rendered by the composer. 'held' performs a ratified ruling, and the following operational rules are stated as settled.",
+    "reported" : true
+  } ],
+  "mints" : [ ],
+  "unmarked" : [ "src-1", "src-3", "src-5" ],
+  "unmarked_rest" : false,
+  "_source_sha256" : "ba05ea0158d2bb5ae030ad5d571477370ce49537407437eea6eb9df45ec14eb7"
+}
