@@ -1,0 +1,16 @@
+@prefix narr: <https://aswritten.ai/narrative#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+GRAPH <https://aswritten.ai/narrative#Digest_Position_Sprint4ShipAndUnlock> {
+  <https://aswritten.ai/narrative#Digest_Position_Sprint4ShipAndUnlock> a narr:Digest ;
+    narr:digestOf <https://aswritten.ai/narrative#Position_Sprint4ShipAndUnlock> ;
+    narr:childCount "1"^^xsd:integer ;
+    narr:generatedFrom "f265a1a43294d73ec07de23e0bda84d8658ad0ac" ;
+    narr:narration """This position holds that the sprint shipped and landed, carried by a single supporting expression from [Tanya's sprint report](narr:Expr_20261017_1_E2ETanyaCollab1792230713453_hb17c2560d3f8_1): the [async decision widget shipped with the Zephyr integration as the key unlock](narr:Expr_20261017_1_E2ETanyaCollab1792230713453_hb17c2560d3f8_1), backed by a velocity figure. It is a thin base — one voice, one dated claim — so the position stands as reported, not yet corroborated.""" ;
+    narr:covers <https://aswritten.ai/narrative#Expr_20261017_1_E2ETanyaCollab1792230713453_hb17c2560d3f8_1> ;
+    narr:keyPhrase [ narr:text "We shipped the async decision widget. Velocity was 23 points, highest this quarter. The Zephyr integration was the key unlock." ; narr:phraseSource <https://aswritten.ai/narrative#Expr_20261017_1_E2ETanyaCollab1792230713453_hb17c2560d3f8_1> ] ;
+    narr:run "3691c2d1c1bb" ;
+    narr:moved "true"^^xsd:boolean ;
+    narr:diffBasis "first" ;
+    narr:writer "z-ai/glm-5.3-flash:nitro" .
+}

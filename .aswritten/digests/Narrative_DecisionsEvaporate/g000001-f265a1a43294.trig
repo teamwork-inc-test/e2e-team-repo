@@ -1,0 +1,20 @@
+@prefix narr: <https://aswritten.ai/narrative#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+GRAPH <https://aswritten.ai/narrative#Digest_Narrative_DecisionsEvaporate> {
+  <https://aswritten.ai/narrative#Digest_Narrative_DecisionsEvaporate> a narr:Digest ;
+    narr:digestOf <https://aswritten.ai/narrative#Narrative_DecisionsEvaporate> ;
+    narr:childCount "2"^^xsd:integer ;
+    narr:generatedFrom "f265a1a43294d73ec07de23e0bda84d8658ad0ac" ;
+    narr:narration """This narrative is defined by negation and one forward commitment: [real-time chat as the named anti-pattern](narr:Position_AntiPatternRealtimeChat), against which the product is explicitly positioned, and [context preservation as the next sprint focus](narr:Position_ContextPreservationNextSprint) — linking decisions to the threads that produced them, identified as the top beta-user request. The arc runs from what the product is not toward what it will build next.""" ;
+    narr:covers <https://aswritten.ai/narrative#Position_AntiPatternRealtimeChat> ;
+    narr:covers <https://aswritten.ai/narrative#Position_ContextPreservationNextSprint> ;
+    narr:keyPhrase [ narr:text "Real-time chat (Slack, Teams) is the named anti-pattern." ; narr:phraseSource <https://aswritten.ai/narrative#Position_AntiPatternRealtimeChat> ] ;
+    narr:keyPhrase [ narr:text "linking decisions to the discussion threads that produced them" ; narr:phraseSource <https://aswritten.ai/narrative#Position_ContextPreservationNextSprint> ] ;
+    narr:keyPhrase [ narr:text "Identified as the #1 request from beta users." ; narr:phraseSource <https://aswritten.ai/narrative#Position_ContextPreservationNextSprint> ] ;
+    narr:variation [ narr:text "The definition-by-negation stance (what the product is not) sits in tension with the single positive commitment — no counter-position or dissenting framing exists yet under this hub." ; narr:over <https://aswritten.ai/narrative#Position_AntiPatternRealtimeChat> ; narr:over <https://aswritten.ai/narrative#Position_ContextPreservationNextSprint> ] ;
+    narr:run "3691c2d1c1bb" ;
+    narr:moved "true"^^xsd:boolean ;
+    narr:diffBasis "first" ;
+    narr:writer "z-ai/glm-5.3-flash:nitro" .
+}
