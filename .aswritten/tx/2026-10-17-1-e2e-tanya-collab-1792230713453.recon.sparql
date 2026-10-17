@@ -1,0 +1,48 @@
+PREFIX narr: <https://aswritten.ai/narrative#>
+PREFIX aswr: <https://aswritten.ai/aswr#>
+PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX dct:  <http://purl.org/dc/terms/>
+PREFIX xsd:  <http://www.w3.org/2001/XMLSchema#>
+PREFIX oa:   <http://www.w3.org/ns/oa#>
+PREFIX xkos: <http://rdf-vocabulary.ddialliance.org/xkos#>
+
+INSERT DATA {
+  aswr:Tx_20261017T095159Z a prov:Activity ;
+      prov:generatedAtTime "2026-10-17T09:51:59Z"^^xsd:dateTime ;
+      prov:wasAssociatedWith "aswritten.ai" ;
+      prov:wasAttributedTo "tanya+staging@aswritten.ai" ;
+      aswr:pipelinePin "3c78c6227b87" ;
+      dct:title "Multipass reconciliations: 20261017_1_E2ETanyaCollab1792230713453_hb17c2560d3f8" ;
+      prov:generated narr:Recon_20261017_1_E2ETanyaCollab1792230713453_hb17c2560d3f8_1 .
+} ;
+INSERT DATA {
+  GRAPH aswr:Tx_20261017T095159Z {
+    narr:Recon_20261017_1_E2ETanyaCollab1792230713453_hb17c2560d3f8_1 a narr:Reconciliation ;
+        oa:hasTarget narr:Tx_20260322T120000Z ;
+        narr:principal narr:Actor_TanyaTeamowner ;
+        aswr:footing "self" ;
+        aswr:submittedBy narr:Actor_TanyaTeamowner ;
+        skos:note "We shipped the async decision widget. Velocity was 23 points, highest this quarter. The Zephyr integration was the key unlock." ;
+        narr:extends narr:Position_Sprint4ThesisProven ;
+        narr:extends narr:Position_ZephyrIntegrationUnlock ;
+        dct:source narr:Expr_20261017_1_E2ETanyaCollab1792230713453_hb17c2560d3f8_1 ;
+        prov:generatedAtTime "2026-10-17T09:51:59Z"^^xsd:dateTime .
+
+    aswr:Run_20261017T095159Z_pass2 a prov:Activity ;
+        aswr:runPass "pass2" ;
+        aswr:draftedBy "deepseek/deepseek-v4.1-flash" ;
+        aswr:artifact "aswritten/runs:runs/3691c2d1c1bb/2026-10-17-1-e2e-tanya-collab-1792230713453/pass2.json" ;
+        dct:isPartOf aswr:Tx_20261017T095159Z ;
+        prov:generatedAtTime "2026-10-17T09:51:59Z"^^xsd:dateTime .
+
+    aswr:Run_20261017T095159Z_pass3 a prov:Activity ;
+        aswr:runPass "pass3" ;
+        aswr:draftedBy "deepseek/deepseek-v4.1-flash" ;
+        aswr:artifact "aswritten/runs:runs/3691c2d1c1bb/2026-10-17-1-e2e-tanya-collab-1792230713453/pass3.json" ;
+        prov:generated narr:Recon_20261017_1_E2ETanyaCollab1792230713453_hb17c2560d3f8_1 ;
+        dct:isPartOf aswr:Tx_20261017T095159Z ;
+        prov:generatedAtTime "2026-10-17T09:51:59Z"^^xsd:dateTime .
+  }
+}
