@@ -1,0 +1,68 @@
+PREFIX narr: <https://aswritten.ai/narrative#>
+PREFIX aswr: <https://aswritten.ai/aswr#>
+PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX dct:  <http://purl.org/dc/terms/>
+PREFIX xsd:  <http://www.w3.org/2001/XMLSchema#>
+
+INSERT DATA {
+  GRAPH aswr:Tx_20261017T101148Z {
+    aswr:ReviewReads_b5437bf7-ef3f-4f4d-a5b6-7d79d295b6c9 a prov:Activity ;
+        prov:generatedAtTime "2026-10-17T10:11:48.849Z"^^xsd:dateTime ;
+        prov:wasAttributedTo "tina+staging@aswritten.ai" ;
+        aswr:kind "review-reads" ;
+        aswr:batch "b5437bf7-ef3f-4f4d-a5b6-7d79d295b6c9" ;
+        aswr:repo "teamwork-inc-test/e2e-team-repo" ;
+        aswr:stream "e2e-701-16-1792231000135" ;
+        dct:isPartOf aswr:Tx_20261017T101148Z .
+
+    aswr:ReviewRead_pos-8569349aac5dc041065fe58bfd891efc314558a2529c7773df71c8bdf387f511 a aswr:ReviewRead ;
+        aswr:op "pos-8569349aac5dc041065fe58bfd891efc314558a2529c7773df71c8bdf387f511" ;
+        aswr:principal "tina+staging@aswritten.ai" ;
+        aswr:actor "agent:claude" ;
+        aswr:footing "on-behalf" ;
+        aswr:target narr:Position_PostGoLiveSoakDurationBasis ;
+        aswr:targetKind "position" ;
+        aswr:change ".aswritten/memories/2026-09-29-1-review-comments-tina-teammember-2026-09-24.md" ;
+        aswr:revision ".aswritten/memories/2026-09-29-1-review-comments-tina-teammember-2026-09-24.md@base" ;
+        aswr:at "2026-10-17T09:56:44.993Z"^^xsd:dateTime ;
+        aswr:batch "b5437bf7-ef3f-4f4d-a5b6-7d79d295b6c9" .
+
+    aswr:ReviewRead_pos-ae0614565477fc11d5c1fd350f06a2f68ec9b0c4ae43e2a5b910ef2bd3a427cd a aswr:ReviewRead ;
+        aswr:op "pos-ae0614565477fc11d5c1fd350f06a2f68ec9b0c4ae43e2a5b910ef2bd3a427cd" ;
+        aswr:principal "tina+staging@aswritten.ai" ;
+        aswr:actor "agent:claude" ;
+        aswr:footing "on-behalf" ;
+        aswr:target narr:Position_PostGoLiveSoakDurationBasis ;
+        aswr:targetKind "position" ;
+        aswr:change ".aswritten/memories/2026-09-23-4-halyard-cutover-review-2026-09-15.md" ;
+        aswr:revision "https://aswritten.ai/narrative#PositionRevision_PostGoLiveSoakDurationBasis_4HalyardCutoverReview20260915" ;
+        aswr:at "2026-10-17T09:56:45.058Z"^^xsd:dateTime ;
+        aswr:batch "b5437bf7-ef3f-4f4d-a5b6-7d79d295b6c9" .
+
+    aswr:ReviewRead_pos-ee4fc2714f9063b7a89123abcdd6a0749d17b49f030fc3c75133a779275bef05 a aswr:ReviewRead ;
+        aswr:op "pos-ee4fc2714f9063b7a89123abcdd6a0749d17b49f030fc3c75133a779275bef05" ;
+        aswr:principal "tina+staging@aswritten.ai" ;
+        aswr:actor "agent:claude" ;
+        aswr:footing "on-behalf" ;
+        aswr:target narr:Position_PostGoLiveSoakDurationBasis ;
+        aswr:targetKind "position" ;
+        aswr:change ".aswritten/memories/2026-09-23-2-halyard-ops-readiness-2026-09-15.md" ;
+        aswr:revision ".aswritten/memories/2026-09-23-2-halyard-ops-readiness-2026-09-15.md@base" ;
+        aswr:at "2026-10-17T09:56:45.112Z"^^xsd:dateTime ;
+        aswr:batch "b5437bf7-ef3f-4f4d-a5b6-7d79d295b6c9" .
+
+    aswr:ReviewRead_pos-a9567eb3b992c3e9994393f24293b053f67eac889e59ddf19c348d3b43bfd60b a aswr:ReviewRead ;
+        aswr:op "pos-a9567eb3b992c3e9994393f24293b053f67eac889e59ddf19c348d3b43bfd60b" ;
+        aswr:principal "tina+staging@aswritten.ai" ;
+        aswr:actor "agent:claude" ;
+        aswr:footing "on-behalf" ;
+        aswr:target narr:Position_PostGoLiveSoakDurationBasis ;
+        aswr:targetKind "position" ;
+        aswr:change ".aswritten/memories/2026-09-23-1-halyard-weekly-2026-09-08.md" ;
+        aswr:revision ".aswritten/memories/2026-09-23-1-halyard-weekly-2026-09-08.md@base" ;
+        aswr:at "2026-10-17T09:56:45.165Z"^^xsd:dateTime ;
+        aswr:batch "b5437bf7-ef3f-4f4d-a5b6-7d79d295b6c9" .
+  }
+}
