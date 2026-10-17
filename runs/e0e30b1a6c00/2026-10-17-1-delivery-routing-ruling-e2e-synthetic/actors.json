@@ -1,0 +1,32 @@
+{
+  "bindings" : [ {
+    "name" : "document composer (not named by envelope)",
+    "verdict" : "mint",
+    "target" : null,
+    "label" : "Document Composer",
+    "why" : "No existing actors in the graph; the composer is a distinct voice witnessed in the segments, so it mints as a new actor.",
+    "ai" : true
+  }, {
+    "name" : "Tanya TeamOwner",
+    "verdict" : "mint",
+    "target" : null,
+    "label" : "Tanya TeamOwner",
+    "why" : "Empty graph — no existing actor to bind; fullest witnessed form of the submitter's name mints as a new actor.",
+    "ai" : false
+  }, {
+    "name" : "Tina",
+    "verdict" : "mint",
+    "target" : null,
+    "label" : "Tina",
+    "why" : "Bare first name with no fuller form anywhere in the envelope and no existing actor; mints as a distinct person rather than merging with Tanya.",
+    "ai" : false
+  }, {
+    "name" : "tanya+staging@aswritten.ai",
+    "verdict" : "mint",
+    "target" : null,
+    "label" : "Tanya TeamOwner",
+    "why" : "Account email belongs to the person-named submitted_by Tanya TeamOwner; one verdict for the email carrying her label, never an email-labeled actor.",
+    "ai" : false
+  } ],
+  "_source_sha256" : "ba05ea0158d2bb5ae030ad5d571477370ce49537407437eea6eb9df45ec14eb7"
+}
