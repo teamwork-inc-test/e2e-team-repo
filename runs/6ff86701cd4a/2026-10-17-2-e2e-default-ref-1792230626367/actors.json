@@ -1,0 +1,18 @@
+{
+  "bindings" : [ {
+    "name" : "Tanya TeamOwner",
+    "verdict" : "mint",
+    "target" : null,
+    "label" : "Tanya TeamOwner",
+    "why" : "No existing actors in the graph; nothing to bind to, so mint the fullest witnessed form.",
+    "ai" : false
+  }, {
+    "name" : "tanya+staging@aswritten.ai",
+    "verdict" : "mint",
+    "target" : null,
+    "label" : "Tanya TeamOwner",
+    "why" : "Account email belongs to the person-named submitted_by Tanya TeamOwner; mint under their name, never an email label.",
+    "ai" : false
+  } ],
+  "_source_sha256" : "d45730ae8512188e03d768ea37c4e43f8854f82ab91b2b1610a027ac4aee5734"
+}
