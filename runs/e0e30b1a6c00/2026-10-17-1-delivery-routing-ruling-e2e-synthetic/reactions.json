@@ -1,0 +1,180 @@
+{
+  "schema_version" : 1,
+  "run_id" : "mp-eng-f27e5f21",
+  "live_run_id" : "e0e30b1a6c00",
+  "stream" : "main",
+  "policy" : {
+    "mode" : "on",
+    "source" : "default",
+    "version" : 1,
+    "skills" : { },
+    "lands" : { },
+    "audience" : "owner-setting",
+    "warn_per_run_usd" : 0.25,
+    "channels" : [ "email", "sms", "teams" ]
+  },
+  "gates" : [ {
+    "id" : "aswritten/clarify",
+    "run?" : false,
+    "gate" : 2,
+    "reason" : "score 0.2 < threshold 0.7",
+    "score" : 0.2,
+    "evidence" : [ "aswr:qualityFlag \"principal:unresolved\"", "Quote-frame; composer-editorial, principal null — attribution lives in the quoted segment's actor.", "Editorial narration of the decision's scope; no named marker for any actor's stance beyond the ruling already recorded.", "Tanya's ruling held over Tina's pushback" ]
+  }, {
+    "id" : "aswritten/merge-suggest",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "skill off"
+  }, {
+    "id" : "aswritten/refract",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "skill off"
+  }, {
+    "id" : "aswritten/review-message",
+    "run?" : true,
+    "gate" : 2,
+    "reason" : "predicate only"
+  }, {
+    "id" : "aswritten/review-request",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "skill off"
+  }, {
+    "id" : "aswritten/riff",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "skill off"
+  } ],
+  "jobs" : [ {
+    "job_key" : "e0e30b1a6c00:aswritten/review-message:u17592186058518",
+    "turn_attempts" : 1,
+    "n8n_execution_id" : "163056",
+    "skill" : "aswritten/review-message",
+    "landing" : {
+      "landed" : "message"
+    },
+    "recipient" : {
+      "name" : "Tanya TeamOwner",
+      "role" : "submitter",
+      "status" : "routed",
+      "channels_not" : {
+        "sms" : "no verified phone opted in to texts",
+        "teams" : "no Teams identity in the home tenant"
+      },
+      "roles" : [ "submitter" ],
+      "seated" : true,
+      "test-identity" : true,
+      "via" : [ {
+        "how" : "saved",
+        "as" : "saver"
+      } ]
+    },
+    "cite_missing" : [ "email" ],
+    "output" : {
+      "beats" : {
+        "we_said" : "You said today: \"we route every reaction through one bundle per run per person, not one message per skill — a person should get one thing to read, not four.\"",
+        "that_changes" : "Left out: no earlier statement of yours or anyone else's is touched by this run.",
+        "so_now" : "Reaction skills no longer send on their own as each one finishes. Everything a person gets from a run arrives together when the run closes, and anything that misses the close waits for the following run. Per-skill delivery is off the table.",
+        "which_means" : "That suggests to me that the reaction-delivery doc, which still says each skill sends its own message as it finishes, no longer describes what we'll build against. I read that as the close of a run becoming the clock everything else waits on. If that holds, anything that has to reach someone within a run now depends on the run closing first, and my read is that the batching window Tina questioned is still the open piece.",
+        "where_does_it_end" : [ "Does a skill that misses the close belong on the next run, or should some of them still go out alone?", "Is the reaction-delivery doc going to be rewritten around the bundle, or is that separate work?", "Did Tina's objection to the batching window get settled anywhere beyond this session?" ]
+      },
+      "email" : {
+        "subject" : "Re: Reaction delivery bundling, from 17 October",
+        "body" : "You said today: \"we route every reaction through one bundle per run per person, not one message per skill — a person should get one thing to read, not four.\"\n\nSo now the work is settled in one direction. Reaction skills stop sending on their own as each one finishes. Everything a person gets from a run arrives together at the run's close, and anything that misses the close is held for the following run. Per-skill delivery is off the table.\n\nThat suggests to me that the reaction-delivery doc, which still says each skill sends its own message as it finishes, no longer describes what we'll build against. I read that as the close of a run becoming the clock everything else waits on. If that holds, anything that has to reach someone within a run now depends on the run closing first, and my read is that the batching window Tina questioned is still the open piece.\n\nDoes a skill that misses the close belong on the next run, or should some of them still go out alone? Is the reaction-delivery doc going to be rewritten around the bundle, or is that separate work? Did Tina's objection to the batching window get settled anywhere beyond this session?\n\nThe conversation, with everyone's words: https://dev.api.aswritten.ai/live/conversation/2026-10-17-1-delivery-routing-ruling-e2e-synthetic"
+      },
+      "self_check" : {
+        "forbidden_words_outside_quotes" : [ ],
+        "quotations_verified_exact" : true,
+        "question_count" : {
+          "chat" : 0,
+          "email" : 3
+        }
+      }
+    },
+    "status" : "ok",
+    "gate" : { },
+    "length_stops" : 0,
+    "plan_id" : "reaction:e0e30b1a6c00:review-message:780be883934d",
+    "pass" : "reaction:review-message",
+    "ms" : 120909,
+    "reask" : {
+      "attempted" : false,
+      "withheld" : false
+    },
+    "model" : "anthropic/claude-haiku-5.5"
+  } ],
+  "spend" : {
+    "cost_usd" : 0.039027,
+    "passes" : [ {
+      "pass" : "reaction:_score",
+      "llm_calls" : 1,
+      "cost_usd" : 0.00793925,
+      "null_cost_calls" : 0
+    }, {
+      "pass" : "reaction:review-message",
+      "llm_calls" : 2,
+      "cost_usd" : 0.01664317,
+      "null_cost_calls" : 0
+    }, {
+      "pass" : "reaction:review-message:cite",
+      "llm_calls" : 16,
+      "cost_usd" : 0.014444279999999997,
+      "null_cost_calls" : 0
+    } ]
+  },
+  "bundle" : {
+    "items" : 1,
+    "recipients" : 1,
+    "sent" : [ {
+      "items" : [ {
+        "kind" : "reaction",
+        "skill" : "aswritten/review-message",
+        "audience" : "touched"
+      } ],
+      "handle" : "tanya+staging@aswritten.ai",
+      "channel" : "email",
+      "recipient" : "Tanya TeamOwner",
+      "h" : "09fcdb5f3d:aswritten/review-message",
+      "status" : "skipped: test identity"
+    } ]
+  },
+  "counters" : { },
+  "at" : "2026-10-17T09:49:57.758455393Z",
+  "context" : {
+    "roster" : [ {
+      "name" : "Tanya TeamOwner",
+      "role" : "submitter",
+      "status" : "routed",
+      "channels_not" : {
+        "sms" : "no verified phone opted in to texts",
+        "teams" : "no Teams identity in the home tenant"
+      },
+      "roles" : [ "submitter" ],
+      "seated" : true,
+      "test-identity" : true,
+      "via" : [ {
+        "how" : "saved",
+        "as" : "saver"
+      } ]
+    } ],
+    "inputs" : {
+      "we_said" : 5,
+      "new_positions" : 1,
+      "touches" : 0,
+      "threads" : 1,
+      "reaches" : 1
+    },
+    "navigation" : {
+      "source" : "engine",
+      "context_chars" : 10912
+    }
+  },
+  "scorer" : {
+    "attempts" : [ {
+      "disposition" : "ok",
+      "elapsed_ms" : 88890,
+      "content_chars" : 863
+    } ]
+  }
+}
