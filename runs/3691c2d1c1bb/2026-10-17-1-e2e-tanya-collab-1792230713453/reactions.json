@@ -1,0 +1,180 @@
+{
+  "schema_version" : 1,
+  "run_id" : "mp-eng-dc538d99",
+  "live_run_id" : "3691c2d1c1bb",
+  "stream" : "e2e-collab-1792230618628",
+  "policy" : {
+    "mode" : "on",
+    "source" : "default",
+    "version" : 1,
+    "skills" : { },
+    "lands" : { },
+    "audience" : "owner-setting",
+    "warn_per_run_usd" : 0.25,
+    "channels" : [ "email", "sms", "teams" ]
+  },
+  "gates" : [ {
+    "id" : "aswritten/clarify",
+    "run?" : false,
+    "gate" : 2,
+    "reason" : "score 0.0 < threshold 0.7",
+    "score" : 0.0,
+    "evidence" : [ "plain-assertion: Velocity was 23 points, highest this quarter.", "Completed, specific events and named artifacts stated as settled fact; attention sits on what happened, with no modal or hedge.", "We shipped the async decision widget. Velocity was 23 points, highest this quarter. The Zephyr integration was the key unlock." ]
+  }, {
+    "id" : "aswritten/merge-suggest",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "skill off"
+  }, {
+    "id" : "aswritten/refract",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "skill off"
+  }, {
+    "id" : "aswritten/review-message",
+    "run?" : true,
+    "gate" : 2,
+    "reason" : "predicate only"
+  }, {
+    "id" : "aswritten/review-request",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "skill off"
+  }, {
+    "id" : "aswritten/riff",
+    "run?" : false,
+    "gate" : 1,
+    "reason" : "skill off"
+  } ],
+  "jobs" : [ {
+    "job_key" : "3691c2d1c1bb:aswritten/review-message:u17592186058518",
+    "turn_attempts" : 1,
+    "n8n_execution_id" : "163074",
+    "skill" : "aswritten/review-message",
+    "landing" : {
+      "landed" : "message"
+    },
+    "recipient" : {
+      "name" : "Tanya TeamOwner",
+      "role" : "submitter",
+      "status" : "routed",
+      "channels_not" : {
+        "sms" : "no verified phone opted in to texts",
+        "teams" : "no Teams identity in the home tenant"
+      },
+      "roles" : [ "submitter" ],
+      "seated" : true,
+      "test-identity" : true,
+      "via" : [ {
+        "how" : "saved",
+        "as" : "saver"
+      } ]
+    },
+    "cite_missing" : [ "email" ],
+    "output" : {
+      "beats" : {
+        "we_said" : "You said today, in Tanya's Sprint Retro: \"We shipped the async decision widget. Velocity was 23 points, highest this quarter. The Zephyr integration was the key unlock.\"",
+        "that_changes" : "Left out: no earlier words of yours are touched by this change.",
+        "so_now" : "The widget is out, the team hit 23 points, and the Zephyr integration is what made the sprint land. The decision-capture idea from the March product vision now has shipped work under it, and this retro is the first place that work is written down as done rather than planned.",
+        "which_means" : "My read is that the thesis now rests on shipped work instead of the plan alone. If that holds, the Zephyr integration is the piece the rest of the sprint leans on, so anything that depends on it deserves a second look first. It also suggests the 23-point figure is a quarter-high mark, not yet a baseline to plan against.",
+        "where_does_it_end" : [ "How much of the 23 points came from the Zephyr work, and how much was already in flight before it?", "Does the widget catch decisions at the moment of consensus the way the Sprint 4 retro described it, or does that still need checking?" ]
+      },
+      "email" : {
+        "subject" : "Re: Async widget shipped, from today",
+        "body" : "You said today, in Tanya's Sprint Retro: \"We shipped the async decision widget. Velocity was 23 points, highest this quarter. The Zephyr integration was the key unlock.\"\n\nSo now the widget is out, the team hit 23 points, and the Zephyr integration is what made the sprint land. The decision-capture idea from the March product vision now has shipped work under it, and this retro is the first place that work is written down as done rather than planned. Nothing in this retro says how much of the result came from the widget itself and how much from the work around it.\n\nMy read is that the thesis now rests on shipped work instead of the plan alone. If that holds, the Zephyr integration is the piece the rest of the sprint leans on, so anything that depends on it deserves a second look first. I'd want to see that split before the Zephyr work is counted as the reason for next sprint's velocity. It also suggests the 23-point figure is a quarter-high mark, not yet a baseline to plan against.\n\nTwo questions. How much of the 23 points came from the Zephyr work, and how much was already in flight before it? Does the widget catch decisions at the moment of consensus the way the Sprint 4 retro described it, or does that still need checking?\n\nThe conversation, with everyone's words: https://dev.api.aswritten.ai/live/conversation/2026-10-17-1-e2e-tanya-collab-1792230713453"
+      },
+      "self_check" : {
+        "forbidden_words_outside_quotes" : [ ],
+        "quotations_verified_exact" : true,
+        "question_count" : {
+          "chat" : 0,
+          "email" : 2
+        }
+      }
+    },
+    "status" : "ok",
+    "gate" : { },
+    "length_stops" : 0,
+    "plan_id" : "reaction:3691c2d1c1bb:review-message:8a651b08ca2d",
+    "pass" : "reaction:review-message",
+    "ms" : 182104,
+    "reask" : {
+      "attempted" : false,
+      "withheld" : false
+    },
+    "model" : "anthropic/claude-haiku-5.5"
+  } ],
+  "spend" : {
+    "cost_usd" : 0.036434,
+    "passes" : [ {
+      "pass" : "reaction:_score",
+      "llm_calls" : 1,
+      "cost_usd" : 0.00192965,
+      "null_cost_calls" : 0
+    }, {
+      "pass" : "reaction:review-message",
+      "llm_calls" : 3,
+      "cost_usd" : 0.01103577,
+      "null_cost_calls" : 0
+    }, {
+      "pass" : "reaction:review-message:cite",
+      "llm_calls" : 21,
+      "cost_usd" : 0.023468369999999995,
+      "null_cost_calls" : 0
+    } ]
+  },
+  "bundle" : {
+    "items" : 1,
+    "recipients" : 1,
+    "sent" : [ {
+      "items" : [ {
+        "kind" : "reaction",
+        "skill" : "aswritten/review-message",
+        "audience" : "touched"
+      } ],
+      "handle" : "tanya+staging@aswritten.ai",
+      "channel" : "email",
+      "recipient" : "Tanya TeamOwner",
+      "h" : "09fcdb5f3d:aswritten/review-message",
+      "status" : "skipped: test identity"
+    } ]
+  },
+  "counters" : { },
+  "at" : "2026-10-17T09:58:33.749175484Z",
+  "context" : {
+    "roster" : [ {
+      "name" : "Tanya TeamOwner",
+      "role" : "submitter",
+      "status" : "routed",
+      "channels_not" : {
+        "sms" : "no verified phone opted in to texts",
+        "teams" : "no Teams identity in the home tenant"
+      },
+      "roles" : [ "submitter" ],
+      "seated" : true,
+      "test-identity" : true,
+      "via" : [ {
+        "how" : "saved",
+        "as" : "saver"
+      } ]
+    } ],
+    "inputs" : {
+      "we_said" : 1,
+      "new_positions" : 1,
+      "touches" : 0,
+      "threads" : 1,
+      "reaches" : 2
+    },
+    "navigation" : {
+      "source" : "engine",
+      "context_chars" : 16519
+    }
+  },
+  "scorer" : {
+    "attempts" : [ {
+      "disposition" : "ok",
+      "elapsed_ms" : 11876,
+      "content_chars" : 654
+    } ]
+  }
+}
