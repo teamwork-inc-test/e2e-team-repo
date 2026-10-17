@@ -1,0 +1,23 @@
+{
+  "resolutions" : [ {
+    "commentary_local_id" : "src-1",
+    "phrase" : "We shipped the async decision widget. Velocity was 23 points, highest this quarter. The Zephyr integration was the key unlock.",
+    "verdict" : "confident",
+    "binding" : {
+      "referents" : [ {
+        "iri" : "Position_Sprint4ThesisProven",
+        "relation" : "extends",
+        "why" : "The 'async decision widget' is the widget this position describes (intercepts consensus, creates a persistent record); the retro adds the shipping event and velocity detail."
+      }, {
+        "iri" : "Position_ZephyrIntegrationUnlock",
+        "relation" : "extends",
+        "why" : "Names the Zephyr integration as 'the key unlock', adding Tanya's confirmation to the recorded Sprint 4 claim."
+      } ],
+      "targets" : [ "Tx_20260322T120000Z", "Narrative_ZeroEffortCapture" ]
+    },
+    "why" : "Both references converge on the Sprint 4 retro cluster: the widget and the Zephyr unlock are specific leaves under Narrative_ZeroEffortCapture, and the statement is a Sprint 4 retro assertion. The '23 points' velocity figure has no prior node and rides along as fresh detail.",
+    "consulted" : [ "Narrative_AntiSlackPositioning", "Position_Sprint4ThesisProven", "Position_ZephyrIntegrationUnlock", "Position_WebhookArchitecture", "Narrative_ZeroEffortCapture", "Position_ContextPreservationNextSprint", "Tx_20260322T120000Z" ]
+  } ],
+  "unreferenced_commentary" : [ ],
+  "_source_sha256" : "1237e18b54774c37eb5214040874288fc88b5befa916140e66a01d5fdd1f31b8"
+}
