@@ -1,0 +1,102 @@
+{
+  "doc" : {
+    "title" : "Delivery routing ruling (e2e synthetic)",
+    "date_stated" : null,
+    "actors_present" : [ "Tanya TeamOwner", "Tina" ]
+  },
+  "segments" : [ {
+    "local_id" : "src-1",
+    "exact" : "Tanya (team owner) ruled on where reaction delivery belongs:",
+    "actor" : "document composer (not named by envelope)",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Delivery routing ruling; quote-frame introducing Tanya's ruling"
+    },
+    "note" : "Quote-frame; composer-editorial, principal null — attribution lives in the quoted segment's actor.",
+    "footing_case" : "fc-1",
+    "footing" : {
+      "animator" : "document composer (not named by envelope)",
+      "author" : "document composer (not named by envelope)",
+      "principal" : null
+    }
+  }, {
+    "local_id" : "src-2",
+    "exact" : "we route every reaction through one bundle per run per person, not one\n> message per skill — a person should get one thing to read, not four",
+    "actor" : "Tanya TeamOwner",
+    "act" : "declarative",
+    "circumstance" : {
+      "context" : "Tanya's ruling on reaction delivery routing"
+    },
+    "note" : "Direct blockquote; a ruling performed by saying it. Unified voice — actor carries it.",
+    "footing_case" : null
+  }, {
+    "local_id" : "src-3",
+    "exact" : "Tina pushed back on the batching window",
+    "actor" : "document composer (not named by envelope)",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Delivery routing ruling; reported pushback during the ruling discussion"
+    },
+    "note" : "Reported speech naming Tina with speech verb 'pushed back'.",
+    "footing_case" : "fc-2",
+    "footing" : {
+      "animator" : "document composer (not named by envelope)",
+      "author" : "document composer (not named by envelope)",
+      "principal" : "Tina"
+    }
+  }, {
+    "local_id" : "src-4",
+    "exact" : "and Tanya held: the bundle closes when\nthe run closes, and a skill that misses the close waits for the next run rather\nthan sending on its own.",
+    "actor" : "document composer (not named by envelope)",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Delivery routing ruling; Tanya's upheld position on the batching window"
+    },
+    "note" : "Reported speech naming Tanya with speech verb 'held'; the held position is reported content.",
+    "footing_case" : "fc-3",
+    "footing" : {
+      "animator" : "document composer (not named by envelope)",
+      "author" : "document composer (not named by envelope)",
+      "principal" : "Tanya TeamOwner"
+    }
+  }, {
+    "local_id" : "src-5",
+    "exact" : "The alternative considered and rejected was per-skill\ndelivery with client-side collapsing, which moves the ordering problem onto the\nreader.",
+    "actor" : "document composer (not named by envelope)",
+    "act" : "assertive",
+    "circumstance" : {
+      "context" : "Delivery routing ruling; rejected alternative"
+    },
+    "note" : "Editorial narration of the decision's scope; no named marker for any actor's stance beyond the ruling already recorded.",
+    "footing_case" : "fc-1",
+    "footing" : {
+      "animator" : "document composer (not named by envelope)",
+      "author" : "document composer (not named by envelope)",
+      "principal" : null
+    }
+  } ],
+  "coverage_gaps" : [ ],
+  "footing_cases" : [ {
+    "id" : "fc-1",
+    "animator" : "document composer (not named by envelope)",
+    "author" : "document composer (not named by envelope)",
+    "principal" : null,
+    "unresolved" : "The envelope names Tanya as submitter and participant but does not state who composed the document or whose position the editorial prose carries, so principal is left null.",
+    "when" : "The memo's own editorial prose — framing sentences and narration not quoting or reporting a named actor's words."
+  }, {
+    "id" : "fc-2",
+    "animator" : "document composer (not named by envelope)",
+    "author" : "document composer (not named by envelope)",
+    "principal" : "Tina",
+    "unresolved" : null,
+    "when" : "Indirect speech attributing by name with a speech verb in the sentence ('Tina pushed back…')."
+  }, {
+    "id" : "fc-3",
+    "animator" : "document composer (not named by envelope)",
+    "author" : "document composer (not named by envelope)",
+    "principal" : "Tanya TeamOwner",
+    "unresolved" : null,
+    "when" : "Indirect speech attributing by name with a speech verb in the sentence ('Tanya held: …')."
+  } ],
+  "_source_sha256" : "ba05ea0158d2bb5ae030ad5d571477370ce49537407437eea6eb9df45ec14eb7"
+}
