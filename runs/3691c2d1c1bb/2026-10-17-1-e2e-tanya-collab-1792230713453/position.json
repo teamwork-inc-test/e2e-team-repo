@@ -1,0 +1,13 @@
+{
+  "positions" : [ {
+    "name" : "Sprint4ShipAndUnlock",
+    "frame" : "what did the sprint actually ship, and what made it land?",
+    "members" : [ "src-1" ],
+    "why" : "One statement carries a whole frame on its own: a completed shipping event, a velocity figure, and the named unlock that made it possible. The temporal read is past/realis/concrete — settled fact, no hedge — and the relational read is communal ('We shipped'), attributing the work to the team as one body. The value read appeals to standing through the comparative 'highest this quarter', and the conviction read is plain unhedged assertion rather than a performed decision. The three clauses cohere as one retrospective account of what was delivered and why it worked, so they are read together rather than split.",
+    "under" : [ "Narrative_DecisionCaptureAtConsensus" ]
+  } ],
+  "attaches" : [ ],
+  "position_revisions" : [ ],
+  "ungrouped" : [ ],
+  "_source_sha256" : "1237e18b54774c37eb5214040874288fc88b5befa916140e66a01d5fdd1f31b8"
+}
