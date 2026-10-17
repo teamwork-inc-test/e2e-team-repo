@@ -1,0 +1,13 @@
+{
+  "resolutions" : [ {
+    "commentary_local_id" : "src-3",
+    "phrase" : "the batching window",
+    "verdict" : "new",
+    "binding" : null,
+    "candidates" : null,
+    "why" : "The definite reference to a prior batching-window decision (Tanya/Tina) has no match anywhere in the bounded graph — the map, coverage, all five doors, and the single named area are silent on delivery routing, batching, runs, or reaction delivery, so this lands as fresh narrative rather than binding to an unrelated node.",
+    "consulted" : [ "map: ^Narrative_AntiSlackPositioning (4 children)", "coverage: Position_ContextPreservationNextSprint, Position_AntiPatternRealtimeChat", "doors: ^Thematic (0 areas), ^People (0), ^Dimensions (0), ^Documents (2), ^Unplaced (0)", "area index: ^Narrative_AntiSlackPositioning", "documents: ^Position_ContextPreservationNextSprint (20260322), ^Position_AntiPatternRealtimeChat (20260310)" ]
+  } ],
+  "unreferenced_commentary" : [ "src-1", "src-2", "src-4", "src-5" ],
+  "_source_sha256" : "ba05ea0158d2bb5ae030ad5d571477370ce49537407437eea6eb9df45ec14eb7"
+}
