@@ -1,0 +1,18 @@
+{
+  "reconciliations" : [ {
+    "segment_ids" : [ "src-1" ],
+    "note" : "We shipped the async decision widget. Velocity was 23 points, highest this quarter. The Zephyr integration was the key unlock.",
+    "targets" : [ "Tx_20260322T120000Z" ],
+    "referents" : [ {
+      "ref" : "Position_Sprint4ThesisProven",
+      "relation" : "extends"
+    }, {
+      "ref" : "Position_ZephyrIntegrationUnlock",
+      "relation" : "extends"
+    } ],
+    "principal" : "Tanya TeamOwner"
+  } ],
+  "standalone" : [ ],
+  "held" : [ ],
+  "_source_sha256" : "1237e18b54774c37eb5214040874288fc88b5befa916140e66a01d5fdd1f31b8"
+}
